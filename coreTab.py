@@ -12,8 +12,8 @@ class CoreTab(QWidget):
         
         table = QTableWidget()
         
-        table.setRowCount(10)
-        table.setColumnCount(5)
+        table.setRowCount(100)
+        table.setColumnCount(500)
         
         grid.addWidget(table, 0, 0)
         
