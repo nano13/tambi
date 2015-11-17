@@ -18,7 +18,6 @@ class CoreTab(QWidget):
         grid.addWidget(table, 0, 0)
         
         line = QLineEdit()
-        
         grid.addWidget(line, 1, 0)
         
         return self
