@@ -60,9 +60,9 @@ class Interpreter(object):
             else:
                 args.append(element)
             
-            try:
-                args, line = self.commaSplit(args)
-            except IndexError:
-                line = 0
+        try:
+            args, line = self.commaSplit(args)
+        except IndexError:
+            line = 0
                 
-            print("command, args, line:", command, args, line)
+        print("command, args, line:", command, args, line)
