@@ -1,8 +1,14 @@
 # -*- coding: utf_8 -*-
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QLineEdit
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget
+from QCustomizedWidgets.QInputLine import QInputLine
+
+from interpreter.interpreter import Interpreter
 
 class CoreTab(QWidget):
+    
+    interpreter = Interpreter()
+    
     def __init__(self):
         super().__init__()
         
@@ -17,7 +23,12 @@ class CoreTab(QWidget):
         
         grid.addWidget(table, 0, 0)
         
-        line = QLineEdit()
+        line = QInputLine()
+        line.return_pressed.connect(self.commandEntered)
         grid.addWidget(line, 1, 0)
         
         return self
+    
+    def commandEntered(self, command):
+        print("command:", command)
+        self.interpreter.interprete(command)
