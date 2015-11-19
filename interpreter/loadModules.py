@@ -4,7 +4,7 @@ import os
 
 class LoadModules(object):
     def __init__(self):
-        self.loadModules()
+        pass
     
     def loadModules(self):
         modules_list = []
@@ -14,12 +14,15 @@ class LoadModules(object):
         
         try:
             for d in dirs:
+                if d == "__pycache__":
+                    continue
+                
                 print("\n")
                 imports = "from modules."+d+"."+d+" import "+d[0].upper() + d[1:]+" as CurrentModule"
                 print("importing: ",imports)
                 
                 try:
-                    exec(imports)
+                    exec(imports, globals())
                     
                     try:
                         current_module = CurrentModule()

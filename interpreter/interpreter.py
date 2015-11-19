@@ -1,10 +1,13 @@
 # -*- coding: utf_8 -*-
 
+from interpreter.coreCommands import CoreCommands
 from interpreter.loadModules import LoadModules
+from interpreter.exceptions import CommandNotInThisModule
 
 class Interpreter(object):
     
-    modules_list = LoadModules()
+    core_commands = CoreCommands()
+    modules_list = LoadModules().loadModules()
     
     def __init__(self):
         pass
@@ -71,3 +74,22 @@ class Interpreter(object):
             line = 0
                 
         print("command, args, line:", command, args, line)
+        
+        return self.tryCommandInCoreCommands(command, args), line
+    
+    def tryCommandInCoreCommands(self, command, args):
+        try:
+            return_value = self.core_commands.execute(command, args)
+        except CommandNotInThisModule:
+            self.tryCommandInModules(command, args)
+        else:
+            return return_value
+    
+    def tryCommandInModules(self, command, args):
+        for current_module in self.modules_list:
+            try:
+                return_value = current_module.interpreter(command, args)
+            except CommandNotInThisModule:
+                return None
+            else:
+                return return_value
