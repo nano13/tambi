@@ -72,7 +72,13 @@ class Bituza(object):
         
         head = "1"
         name = "tabelle: sql"
-        return self.resultInTable(head, result, name)
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.header = head
+        result_object.payload = result
+        result_object.name = name
+        return result_object
     
     def schema(self, c, a):
         schema = ""
@@ -122,7 +128,14 @@ class Bituza(object):
         head = "buch", "kapitel", "vers", "stats_verse", "total_v", "total_k", "total_b", "sum_v", "sum_k", "sum_b"
         metaLang = "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
         name = "stats"
-        return self.resultInTable(head, result, metaLang, name)
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.header = head
+        result_object.payload = result
+        result_object.metaload = metaLang
+        result_object.name = name
+        return result_object
     
     def search(self, c, a):
         #head = "buch", "kapitel", "vers", "unicode", "elberfelder", "ascii", "zahlencode", "tw", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
@@ -189,7 +202,14 @@ class Bituza(object):
                 format_list.append(item2)
         
         name = "suchergebnis: " + search_pattern
-        return self.resultInTable(head, format_list, metaLanguage, name)
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.header = head
+        result_object.payload = format_list
+        result_object.metaload = metaLanguage
+        result_object.name = name
+        return result_object
             
         
     def searchSingleBook(self, c, search_book, search_pattern, result_in_table):
@@ -273,11 +293,11 @@ class Bituza(object):
         print(query, result_in_table)
         
         if c == "bituza.search.elberfelder":
-            value = [ "%" + unicode(search_pattern) + "%" ]
+            value = [ "%" + str(search_pattern) + "%" ]
         elif c == "bituza.search.unicode":
-            value = [ "%" + unicode(search_pattern) + "%" ]
+            value = [ "%" + str(search_pattern) + "%" ]
         else:
-            value = [ unicode(search_pattern) ]
+            value = [ str(search_pattern) ]
             
         self.cursor.execute(query, value)
         result = self.cursor.fetchall()
@@ -293,9 +313,14 @@ class Bituza(object):
         else:
             if result_in_table:
                 name = "suchergebnis: " + search_pattern
-                result = self.resultInTable(head, result, metaLanguage, name)
-                print(result)
-                return result
+                result_object = Result()
+                result_object.category = "table"
+                result_object.header = head
+                result_object.payload = result
+                result_object.metaload = metaLanguage
+                result_object.name = name
+                return result_object
+
             else:
                 return(result)
         
@@ -343,10 +368,14 @@ class Bituza(object):
                     query = query_head + " AND verse>=? AND verse<=?"
                     values = book_id, a[1], first, last
             else:
-                result = Result()
-                result.error = "FEHLER: bitte Kapitel als Zahl angeben!"
-                return result
-        
+                result_object = Result()
+                result_object.error = "FEHLER: bitte Kapitel als Zahl angeben!"
+                return result_object
+        else:
+            result_object = Result()
+            result_object.error = "FEHLER: bitte Kapitel als Zahl angeben!"
+            return result_object
+            
         self.cursor.execute(query, values)
         result = self.cursor.fetchall()
         
@@ -368,7 +397,6 @@ class Bituza(object):
             result_object.header = head
             result_object.name = name
             return result_object
-            #return self.resultInTable(head, result, metaLanguage, name)
         
     def resultInTextWidget(self, head, result, name):
         from lib.widgets.speakingTextWidget import SpeakingTextWidget
