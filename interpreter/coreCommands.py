@@ -1,6 +1,7 @@
 # -*- coding: utf_8 -*-
 
 from interpreter.exceptions import CommandNotInThisModule
+from interpreter.structs import Result
 
 import sys, time
 
@@ -34,7 +35,13 @@ class CoreCommands(object):
         pass
     
     def time(self, command, args):
-        print(time.strftime("%H:%M"))
-        
+        result = Result()
+        result.category = "string"
+        result.payload = time.strftime("%H:%M")
+        return result
+    
     def date(self, command, args):
-        print(time.strftime("%d.%m.%Y %A %B"))
+        result = Result()
+        result.category = "string"
+        result.payload = time.strftime("%d.%m.%Y %A %B")
+        return result

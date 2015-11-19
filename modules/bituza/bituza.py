@@ -2,16 +2,13 @@
 
 import sqlite3
 from interpreter.exceptions import CommandNotInThisModule
+from interpreter.structs import Result
 
 class Bituza(object):
     def __init__(self):
-        #self.Universe = Universe
         
         self.connection = sqlite3.connect("./modules/bituza/tuz.sqlite.db")
         self.cursor = self.connection.cursor()
-        
-        #createResultObject = CreateResultObject()
-        #self.ResultObject = createResultObject.getObject()
     
     def getCommands(self):
         return {
@@ -66,8 +63,9 @@ class Bituza(object):
         try:
             query = a[0]
         except:
-            self.ResultObject.Error.Message = "bitte SQL-Abfrage als Argument angeben"
-            return self.ResultObject
+            result = Result()
+            result.error = "FEHLER: bitte SQL-Abfrage als Argument übergeben!"
+            return result
         
         self.cursor.execute(query)
         result = self.cursor.fetchall()
@@ -90,13 +88,15 @@ class Bituza(object):
             try:
                 book_id = dictAT[a[0]]
             except:
-                self.ResultObject.Error.Message = "fehler: bitte buch angeben"
-                return self.ResultObject
+                result = Result()
+                result.error = "FEHLER: bitte Buch angeben!"
+                return result
         try:
             chapter = a[1]
         except:
-            self.ResultObject.Error.Message = "fehler: bitte kapitel angeben"
-            return self.ResultObject
+            result = Result()
+            result.error = "FEHLER: bitte Kapitel angeben!"
+            return result
         
         query_head = "SELECT book_string, chapter, verse, stats_verse, total_v, total_k, total_b, sum_v, sum_k, sum_b FROM stats NATURAL JOIN structure "
         
@@ -147,25 +147,29 @@ class Bituza(object):
                     result, head, metaLanguage = self.searchSingleBook(c, search_book, search_pattern, True)
                     return result
             else:
-                self.ResultObject.Error.Message = "Suchanfrage konnte nicht sinnvoll verarbeitet werden"
-                return self.ResultObject
+                result = Result()
+                result.error = "FEHLER: suchanfrage konnte nicht sinnvoll verarbeitet werden!"
+                return result
             
         else:
-            self.ResultObject.Error.Message = "suchanfrage konnte nicht sinnvoll verarbeitet werden"
-            return self.ResultObject
+            result = Result()
+            result.error = "FEHLER: suchanfrage konnte nicht sinnvoll verarbeitet werden!"
+            return result
         
     def searchBookRange(self, c, start_book, end_book, search_pattern):
         book_list = self.getBookList()
         try:
             book_start_index = book_list.index(start_book)
         except:
-            self.ResultObject.Error.Message = "Buch " + unicode(start_book) + " konnte nicht gefunden werden"
-            return self.ResultObject
+            result = Result()
+            result.error = "FEHLER: Buch " + unicode(start_book) + " konnte nicht gefunden werden!"
+            return result
         try:
             book_end_index = book_list.index(end_book)
         except:
-            self.ResultObject.Error.Message = "Buch " + unicode(end_book) + " konnte nicht gefunden werden"
-            return self.ResultObject
+            result = Result()
+            result.error = "FEHLER: Buch " + unicode(end_book) + " konnte nicht gefunden werden!"
+            return result
         
         result_list = []
         i = book_start_index -1
@@ -197,8 +201,9 @@ class Bituza(object):
             try:
                 book_id = dictNT[ search_book ]
             except:
-                self.ResultObject.Error.Message = "fehler: bitte buch angeben"
-                return self.ResultObject
+                result = Result()
+                result.error = "FEHLER: bitte Buch angeben!"
+                return result
         #else:
         head, query_head, query_mid, metaLanguage = self.searchGetQueryMid(c)
         query_tail = " AND book_id="+str(book_id)
@@ -280,8 +285,9 @@ class Bituza(object):
         
         if len(result) == 0:
             if result_in_table:
-                self.ResultObject.Payload.String = "keine Ergebnisse gefunden"
-                return self.ResultObject
+                result = Result()
+                result.error = "FEHLER: keine Ergebnisse gefunden!"
+                return result
             else:
                 return []
         else:
@@ -307,8 +313,9 @@ class Bituza(object):
             try:
                 book_id = dictNT[a[0]]
             except:
-                self.ResultObject.Error.Message = "fehler: bitte buch angeben"
-                return self.ResultObject
+                result = Result()
+                result.error = "FEHLER: bitte Buch angeben!"
+                return result
             else:
                 testament = "NEW"
                 metaLanguage = "de", "de", "de", "gr", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
@@ -321,8 +328,9 @@ class Bituza(object):
             if a[1].isdigit():
                 values = book_id, a[1]
             else:
-                self.ResultObject.Error.Message = "fehler: bitte kapitel als zahl angeben!"
-                return self.ResultObject
+                result = Result()
+                result.error = "FEHLER: bitte Kapitel als Zahl angeben!"
+                return result
         elif len(a) == 3:
             query = query_head + " AND verse=?"
             if a[1].isdigit():
@@ -335,22 +343,32 @@ class Bituza(object):
                     query = query_head + " AND verse>=? AND verse<=?"
                     values = book_id, a[1], first, last
             else:
-                self.ResultObject.Error.Message = "fehler bitte kapitel als zahl angeben!"
-                return self.ResultObject
+                result = Result()
+                result.error = "FEHLER: bitte Kapitel als Zahl angeben!"
+                return result
         
         self.cursor.execute(query, values)
         result = self.cursor.fetchall()
         
         if len(result) == 0:
-            self.ResultObject.Error.Message = "Diese Stelle existiert nicht"
-            return self.ResultObject
+            result_object = Result()
+            result_object.error = "FEHLER: diese Stelle existiert nicht!"
+            return result
         else:
             name = ["tabelle: "]
             for i in range(len(a)):
                 name.append(a[i])
                 
             name = " ".join(name)
-            return self.resultInTable(head, result, metaLanguage, name)
+            
+            result_object = Result()
+            result_object.category = "table"
+            result_object.payload = result
+            result_object.metaload = metaLanguage
+            result_object.header = head
+            result_object.name = name
+            return result_object
+            #return self.resultInTable(head, result, metaLanguage, name)
         
     def resultInTextWidget(self, head, result, name):
         from lib.widgets.speakingTextWidget import SpeakingTextWidget
@@ -358,16 +376,24 @@ class Bituza(object):
         
         return textWidget, "tw"
         
-    def resultInTable(self, head, result, metaLanguage, name):
+    def resultInTable(self, head, result, metaLang, name):
+        result = Result()
+        result.payload = result
+        result.metaload = metaLang
+        print("NAME:", name)
+        return result
+        
+    def resultInTableOLD(self, head, result, metaLanguage, name):
         try:
             result_first_element = result[0]
         except:
-            self.ResultObject.Payload.String = "kein Ergebnis gefunden"
-            return self.ResultObject
+            result = Result()
+            result.error = "FEHLER: kein Ergebnis gefunden!"
+            return result
         else:
-            table = SpeakingTableWidget(len(result), len(result_first_element), self.Universe, name)
+            #table = SpeakingTableWidget(len(result), len(result_first_element), self.Universe, name)
             
-            table.setHorizontalHeaderLabels(head)
+            #table.setHorizontalHeaderLabels(head)
             
             row = -1
             for line in result:

@@ -1,11 +1,12 @@
 # -*- coding: utf_8 -*-
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
 from QCustomizedWidgets.QInputLine import QInputLine
 
 from interpreter.interpreter import Interpreter
+#from interpreter.structs import Result
 
-class CoreTab(QWidget):
+class QCoreTab(QWidget):
     
     interpreter = Interpreter()
     
@@ -16,12 +17,12 @@ class CoreTab(QWidget):
         grid = QGridLayout()
         self.setLayout(grid)
         
-        table = QTableWidget()
+        self.table = QTableWidget()
         
-        table.setRowCount(100)
-        table.setColumnCount(500)
+        #self.table.setRowCount(100)
+        #self.table.setColumnCount(500)
         
-        grid.addWidget(table, 0, 0)
+        grid.addWidget(self.table, 0, 0)
         
         line = QInputLine()
         line.return_pressed.connect(self.commandEntered)
@@ -31,4 +32,20 @@ class CoreTab(QWidget):
     
     def commandEntered(self, command):
         print("command:", command)
-        self.interpreter.interprete(command)
+        result = self.interpreter.interpreter(command)
+        
+        if result.category == "table":
+            self.resultInTable(result)
+        
+    def resultInTable(self, result):
+        
+        self.table.setRowCount(len(result.payload))
+        self.table.setColumnCount(len(result.payload[0]))
+        
+        self.table.setHorizontalHeaderLabels(result.header)
+        
+        for row, line in enumerate(result.payload):
+            for column, item in enumerate(line):
+                self.table.setItem(row, column, QTableWidgetItem(str(item)))
+                
+                self.table.resizeColumnsToContents()

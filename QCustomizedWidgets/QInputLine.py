@@ -14,5 +14,9 @@ class QInputLine(QLineEdit):
         if e.key() == Qt.Key_Return:
             self.return_pressed.emit(self.text())
             self.setText("")
+            
+        elif e.key() == Qt.Key_Enter:
+            self.return_pressed.emit(self.text())
+            self.setText("")
         
         super().keyPressEvent(e)

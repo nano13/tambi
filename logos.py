@@ -8,7 +8,7 @@ import signal
 # to make program closeable with ctr-c in terminal
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
-from coreTab import CoreTab
+from QCustomizedWidgets.QCoreTab import QCoreTab
 
 class Logos(QMainWindow):
     
@@ -41,7 +41,7 @@ class Logos(QMainWindow):
         self.setCentralWidget(self.tab_widget)
         
     def addNewTableTab(self):
-        tab = CoreTab().tableTab()
+        tab = QCoreTab().tableTab()
         
         self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "Tab")

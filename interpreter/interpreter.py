@@ -32,7 +32,7 @@ class Interpreter(object):
             
         return return_args, line
     
-    def interprete(self, input):
+    def interpreter(self, input):
         input = input.strip()
         input = input.replace("\"", "'")
         space_splitted = input.split(None)
@@ -75,13 +75,16 @@ class Interpreter(object):
                 
         print("command, args, line:", command, args, line)
         
-        return self.tryCommandInCoreCommands(command, args), line
+        result = self.tryCommandInCoreCommands(command, args)
+        result.cursorPosition = line
+        
+        return result
     
     def tryCommandInCoreCommands(self, command, args):
         try:
             return_value = self.core_commands.execute(command, args)
         except CommandNotInThisModule:
-            self.tryCommandInModules(command, args)
+            return self.tryCommandInModules(command, args)
         else:
             return return_value
     
