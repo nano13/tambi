@@ -294,7 +294,7 @@ class Bituza(object):
                 return(result)
         
     def word(self, c, a):
-        query_head = u"SELECT book_string, chapter, verse, unicode, translation_de, ascii, transcription, tw, code, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=?"
+        query_head = "SELECT book_string, chapter, verse, unicode, translation_de, ascii, transcription, tw, code, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=?"
         head = "buch", "kapitel", "vers", "unicode", "elberfelder", "ascii", "transcription", "tw", "code", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
         
         dictOT = self.booksDictOT()
