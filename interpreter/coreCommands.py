@@ -2,7 +2,7 @@
 
 from interpreter.exceptions import CommandNotInThisModule
 
-import time
+import sys, time
 
 class CoreCommands(object):
     def __init__(self):
@@ -14,6 +14,9 @@ class CoreCommands(object):
     
     def getCommands(self):
         return {
+            "clear" : self.clear,
+            "exit" : self.exit,
+            
             "date" : self.date,
             "time" : self.time,
             
@@ -22,6 +25,13 @@ class CoreCommands(object):
     
     def commandNotFound(self, command, args):
         raise CommandNotInThisModule("command not found as a built-in one")
+    
+    def clear(self, command, args):
+        pass
+    
+    def exit(self, command, args):
+        #sys.exit()
+        pass
     
     def time(self, command, args):
         print(time.strftime("%H:%M"))
