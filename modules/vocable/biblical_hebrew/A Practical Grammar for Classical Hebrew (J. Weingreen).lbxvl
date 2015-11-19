@@ -1,0 +1,3027 @@
+<?xml version="1.0"?>
+<lbx-vocabulary-list name="A Practical Grammar for Classical Hebrew (J. Weingreen)" category="VocabularyLists" xml:lang="he"><section>
+<title>Exercise 1 (p. 26)</title>
+<entry>
+<word>בָּרָא</word>
+<display>בָּרָא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> shape</gloss>
+<gloss xml:lang="en-US">create</gloss>
+</entry>
+<entry>
+<word>אָמַר</word>
+<display>אָמַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> utter</gloss>
+<gloss xml:lang="en-US">say</gloss>
+</entry>
+<entry>
+<word>בָּא</word>
+<display>בָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">come</gloss>
+</entry>
+<entry>
+<word>אֶל</word>
+<display>אֶל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">towards</gloss>
+</entry>
+<entry>
+<word>מִן</word>
+<display>מִן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">from</gloss>
+</entry>
+<entry>
+<word>וְ</word>
+<display>וְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">and</gloss>
+</entry>
+<entry>
+<word>עִיר</word>
+<display>עִיר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">city</gloss>
+</entry>
+<entry>
+<word>אֱלֹהִים</word>
+<display>אֱלֹהִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">God</gloss>
+</entry>
+<entry>
+<word>עָפָר</word>
+<display>עָפָר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> dry earth</gloss>
+<gloss xml:lang="en-US">dust</gloss>
+</entry>
+<entry>
+<word>חֹ֫שֶׁךְ</word>
+<display>חֹ֫שֶׁךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> darkness</gloss>
+<gloss xml:lang="en-US">obscurity</gloss>
+</entry>
+<entry>
+<word>רֹאשׁ</word>
+<display>רֹאשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> head</gloss>
+</entry>
+<entry>
+<word>הֵיכָל</word>
+<display>הֵיכָל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> palace</gloss>
+<gloss xml:lang="en-US">temple</gloss>
+</entry>
+<entry>
+<word> מֶ֫לֶךְ</word>
+<display> מֶ֫לֶךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> king</gloss>
+</entry>
+<entry>
+<word>יוֹם</word>
+<display>יוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> day</gloss>
+</entry>
+<entry>
+<word>לַ֫יְלָה</word>
+<display>לַ֫יְלָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> night</gloss>
+</entry>
+<entry>
+<word>אוֹר</word>
+<display>אוֹר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be/become light</gloss>
+</entry>
+<entry>
+<word>אָדָם</word>
+<display>אָדָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> man</gloss>
+<gloss xml:lang="en-US">mankind</gloss>
+<gloss xml:lang="en-US">Adam</gloss>
+</entry>
+<entry>
+<word>אֲדָמָה</word>
+<display>אֲדָמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> ground</gloss>
+<gloss xml:lang="en-US">land</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 2 (p. 30)</title>
+<entry>
+<word>קָרָא</word>
+<display>קָרָא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> call</gloss>
+<gloss xml:lang="en-US">proclaim</gloss>
+<gloss xml:lang="en-US">read</gloss>
+</entry>
+<entry>
+<word>נָתַן</word>
+<display>נָתַן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> give</gloss>
+<gloss xml:lang="en-US">put</gloss>
+<gloss xml:lang="en-US">set</gloss>
+</entry>
+<entry>
+<word>רָאָה</word>
+<display>רָאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> see</gloss>
+</entry>
+<entry>
+<word>הָלַךְ</word>
+<display>הָלַךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go</gloss>
+<gloss xml:lang="en-US">come</gloss>
+<gloss xml:lang="en-US">walk</gloss>
+</entry>
+<entry>
+<word>שָׁמַ֫יִם</word>
+<display>שָׁמַ֫יִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> heaven</gloss>
+<gloss xml:lang="en-US">atmosphere</gloss>
+</entry>
+<entry>
+<word>דָּבָר</word>
+<display>דָּבָר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> speech</gloss>
+<gloss xml:lang="en-US">word</gloss>
+</entry>
+<entry>
+<word>אִשָּׁה</word>
+<display>אִשָּׁה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> woman</gloss>
+<gloss xml:lang="en-US">wife</gloss>
+<gloss xml:lang="en-US">female</gloss>
+</entry>
+<entry>
+<word>לֹא</word>
+<display>לֹא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> not</gloss>
+</entry>
+<entry>
+<word>שְׁמוּאֵל</word>
+<display>שְׁמוּאֵל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Samuel</gloss>
+</entry>
+<entry>
+<word>עַם</word>
+<display>עַם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> people</gloss>
+</entry>
+<entry>
+<word>הַעַם</word>
+<display>הַעַם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">the people</gloss>
+</entry>
+<entry>
+<word>יהוה</word>
+<display>יהוה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Yahweh</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 3 (p. 34)</title>
+<entry>
+<word>עַ֫יִן</word>
+<display>עַ֫יִן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">eye</gloss>
+</entry>
+<entry>
+<word>חָכָם</word>
+<display>חָכָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wise</gloss>
+</entry>
+<entry>
+<word>גָּדוֹל</word>
+<display>גָּדוֹל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> great</gloss>
+</entry>
+<entry>
+<word>טוֹב</word>
+<display>טוֹב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> pleasing</gloss>
+<gloss xml:lang="en-US">good</gloss>
+</entry>
+<entry>
+<word>רַע</word>
+<display>רַע</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> bad</gloss>
+<gloss xml:lang="en-US">evil</gloss>
+</entry>
+<entry>
+<word>רַע</word>
+<display>רָעָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">bad</gloss>
+<gloss xml:lang="en-US">evil</gloss>
+</entry>
+<entry>
+<word>קוֹל</word>
+<display>קוֹל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sound</gloss>
+<gloss xml:lang="en-US">voice</gloss>
+</entry>
+<entry>
+<word>אִישׁ</word>
+<display>אִישׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> man</gloss>
+</entry>
+<entry>
+<word>מֹשֶׁה</word>
+<display>מֹשֶׁה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Moses</gloss>
+</entry>
+<entry>
+<word>אֶ֫רֶץ</word>
+<display>אֶ֫רֶץ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> earth</gloss>
+<gloss xml:lang="en-US">land</gloss>
+</entry>
+<entry>
+<word>הָאָ֫רֶץ</word>
+<display>הָאָ֫רֶץ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">the land</gloss>
+</entry>
+<entry>
+<word>אֲשֶׁר</word>
+<display>אֲשֶׁר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">who</gloss>
+<gloss xml:lang="en-US">which</gloss>
+<gloss xml:lang="en-US">whoever</gloss>
+</entry>
+<entry>
+<word>כִּי</word>
+<display>כִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">that</gloss>
+<gloss xml:lang="en-US">because</gloss>
+<gloss xml:lang="en-US">when</gloss>
+</entry>
+<entry>
+<word>עַל</word>
+<display>עַל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">on</gloss>
+<gloss xml:lang="en-US">above</gloss>
+<gloss xml:lang="en-US">over</gloss>
+</entry>
+<entry>
+<word>הוּא</word>
+<display>הוּא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">he</gloss>
+</entry>
+<entry>
+<word>הָיָה</word>
+<display>הָיָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">fall out</gloss>
+<gloss xml:lang="en-US">come to pass</gloss>
+<gloss xml:lang="en-US">become</gloss>
+<gloss xml:lang="en-US">be</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 4 (p. 38)</title>
+<entry>
+<word>אִישׁ</word>
+<display>אִישׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> man</gloss>
+</entry>
+<entry>
+<word>אֲנָשִׁים</word>
+<display>אֲנָשִׁים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">men</gloss>
+</entry>
+<entry>
+<word>אִשָּׁה</word>
+<display>אִשָּׁה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> woman</gloss>
+<gloss xml:lang="en-US">wife</gloss>
+<gloss xml:lang="en-US">female</gloss>
+</entry>
+<entry>
+<word>נָשִׁים</word>
+<display>נָשִׁים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">women</gloss>
+</entry>
+<entry>
+<word>גַּן</word>
+<display>גַּן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> enclosure</gloss>
+<gloss xml:lang="en-US">garden</gloss>
+</entry>
+<entry>
+<word>גַּן</word>
+<display>הַגָן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">the garden</gloss>
+</entry>
+<entry>
+<word>יִשְׂרָאֵל</word>
+<display>יִשְׂרָאֵל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Israel</gloss>
+</entry>
+<entry>
+<word>עֵץ</word>
+<display>עֵץ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> tree</gloss>
+<gloss xml:lang="en-US">trees</gloss>
+<gloss xml:lang="en-US">wood</gloss>
+</entry>
+<entry>
+<word>פְּרִי</word>
+<display>פְּרִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fruit</gloss>
+</entry>
+<entry>
+<word>נָבִיא</word>
+<display>נָבִיא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> spokesman</gloss>
+<gloss xml:lang="en-US">speaker</gloss>
+<gloss xml:lang="en-US">prophet</gloss>
+</entry>
+<entry>
+<word>נְבִיאָה</word>
+<display>נְבִיאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> prophetess</gloss>
+</entry>
+<entry>
+<word>קָדוֹשׁ</word>
+<display>קָדוֹשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sacred</gloss>
+<gloss xml:lang="en-US">holy</gloss>
+</entry>
+<entry>
+<word>גַּם</word>
+<display>גַּם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> also</gloss>
+<gloss xml:lang="en-US">moreover</gloss>
+<gloss xml:lang="en-US">year</gloss>
+</entry>
+<entry>
+<word>תַּ֫חַת</word>
+<display>תַּ֫חַת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">under</gloss>
+<gloss xml:lang="en-US">below</gloss>
+</entry>
+<entry>
+<word>יָשַׁב</word>
+<display>יָשַׁב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sit</gloss>
+<gloss xml:lang="en-US">remain</gloss>
+<gloss xml:lang="en-US">dwell</gloss>
+</entry>
+<entry>
+<word>אָכַל</word>
+<display>אָכַל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> eat</gloss>
+</entry>
+<entry>
+<word>לָקַח</word>
+<display>לָקַח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> take</gloss>
+</entry>
+<entry>
+<word>הָיָה</word>
+<display>הָיָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fall out</gloss>
+<gloss xml:lang="en-US">come to pass</gloss>
+<gloss xml:lang="en-US">become</gloss>
+<gloss xml:lang="en-US">be</gloss>
+</entry>
+<entry>
+<word>הָיָה</word>
+<display>הָיוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">they were</gloss>
+</entry>
+<entry>
+<word>כֹּל</word>
+<display>כָּל־ or כֹּל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">all</gloss>
+<gloss xml:lang="en-US">each</gloss>
+<gloss xml:lang="en-US">every</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 5 (p. 42)</title>
+<entry>
+<word>בֹּ֫קֶר</word>
+<display>בֹּ֫קֶר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> morning</gloss>
+</entry>
+<entry>
+<word>עֶ֫רֶב</word>
+<display>עֶ֫רֶב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> set</gloss>
+<gloss xml:lang="en-US">evening</gloss>
+</entry>
+<entry>
+<word>זָקֵן</word>
+<display>זָקֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be become old</gloss>
+</entry>
+<entry>
+<word>יָצָא</word>
+<display>יָצָא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go/come out</gloss>
+</entry>
+<entry>
+<word>יָדַע</word>
+<display>יָדַע</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> know</gloss>
+</entry>
+<entry>
+<word>דִּבֵּר</word>
+<display>דִּבֵּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> speaking</gloss>
+</entry>
+<entry>
+<word>הִבְדִּיל</word>
+<display>הִבְדִּיל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">he divided</gloss>
+<gloss xml:lang="en-US">distinguished</gloss>
+</entry>
+<entry>
+<word>בֵּין</word>
+<display>בֵּין</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> between</gloss>
+</entry>
+<entry>
+<word>אֲנִי</word>
+<display>אֲנִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> I</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 6 (p. 48)</title>
+<entry>
+<word>מִצְרַ֫יִם</word>
+<display>מִצְרַ֫יִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Egypt</gloss>
+<gloss xml:lang="en-US">Egyptians</gloss>
+</entry>
+<entry>
+<word>יַעֲקֹב</word>
+<display>יַעֲקֹב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Jacob</gloss>
+</entry>
+<entry>
+<word>עֵשָׂו</word>
+<display>עֵשָׂו</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Esau</gloss>
+</entry>
+<entry>
+<word>שְׁלֹמֹה</word>
+<display>שְׁלֹמֹה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Solomon</gloss>
+</entry>
+<entry>
+<word>שֵׁם</word>
+<display>שֵׁם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> name</gloss>
+</entry>
+<entry>
+<word>כּוֹכָב</word>
+<display>כּוֹכָב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> star</gloss>
+</entry>
+<entry>
+<word>אֶחָד</word>
+<display>אֶחָד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> one</gloss>
+</entry>
+<entry>
+<word>אַחַת</word>
+<display>אַחַת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">one</gloss>
+</entry>
+<entry>
+<word>מְאֹד</word>
+<display>מְאֹד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> muchness</gloss>
+<gloss xml:lang="en-US">force</gloss>
+<gloss xml:lang="en-US">abundance</gloss>
+<gloss xml:lang="en-US">exceedingly</gloss>
+</entry>
+<entry>
+<word>הִנֵּה</word>
+<display>הִנֵּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> lo! behold!</gloss>
+</entry>
+<entry>
+<word>שָׁמַע</word>
+<display>שָׁמַע</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> hear</gloss>
+</entry>
+<entry>
+<word>שָׁמַע</word>
+<display>שָׁמַע לְקוֹלַ־</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">he obeyed</gloss>
+</entry>
+<entry>
+<word>שָׁמַע</word>
+<display>שָׁמַע בְּקוֹלַ־</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">he obeyed</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 7 (p. 53)</title>
+<entry>
+<word>אַבְרָהָם</word>
+<display>אַבְרָהָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Abraham</gloss>
+</entry>
+<entry>
+<word>שָׂרָה</word>
+<display>שָׂרָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Sarah</gloss>
+</entry>
+<entry>
+<word>בְּרִית</word>
+<display>בְּרִית</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> covenant</gloss>
+</entry>
+<entry>
+<word>חֲלוֹם</word>
+<display>חֲלוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> dream</gloss>
+</entry>
+<entry>
+<word>חֲלוֹם</word>
+<display>חֲלוֹמוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">dreams</gloss>
+</entry>
+<entry>
+<word>נָהָר</word>
+<display>נָהָר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> stream</gloss>
+<gloss xml:lang="en-US">river</gloss>
+</entry>
+<entry>
+<word>הַר</word>
+<display>הַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> mountain</gloss>
+<gloss xml:lang="en-US">hill</gloss>
+<gloss xml:lang="en-US">hill-country</gloss>
+</entry>
+<entry>
+<word>הַר</word>
+<display>הָהָר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">the mountain</gloss>
+</entry>
+<entry>
+<word>הַר</word>
+<display>הָרִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">mountains</gloss>
+</entry>
+<entry>
+<word>עִם</word>
+<display>עִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> with</gloss>
+</entry>
+<entry>
+<word>עַד</word>
+<display>עַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> even to</gloss>
+<gloss xml:lang="en-US">until</gloss>
+</entry>
+<entry>
+<word>שָׁמַר</word>
+<display>שָׁמַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> keep</gloss>
+<gloss xml:lang="en-US">watch</gloss>
+<gloss xml:lang="en-US">preserve</gloss>
+</entry>
+<entry>
+<word>כָּרַת</word>
+<display>כָּרַת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> cut off</gloss>
+<gloss xml:lang="en-US">cut down</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 8 (p. 58)</title>
+<entry>
+<word>כְּנַ֫עַן</word>
+<display>כְּנַ֫עַן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Canaan</gloss>
+</entry>
+<entry>
+<word>מְרַגֵּל</word>
+<display>מְרַגֵּל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">spy</gloss>
+</entry>
+<entry>
+<word>לֶ֫חֶם</word>
+<display>לֶ֫חֶם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> bread</gloss>
+<gloss xml:lang="en-US">food</gloss>
+</entry>
+<entry>
+<word>דֶּ֫רֶךְ</word>
+<display>דֶּ֫רֶךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> way</gloss>
+<gloss xml:lang="en-US">road</gloss>
+<gloss xml:lang="en-US">distance</gloss>
+<gloss xml:lang="en-US">journey</gloss>
+<gloss xml:lang="en-US">manner</gloss>
+</entry>
+<entry>
+<word>עָשָׂה</word>
+<display>עָשָׂה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> do</gloss>
+<gloss xml:lang="en-US">make</gloss>
+</entry>
+<entry>
+<word>זָכַר</word>
+<display>זָכַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> remember</gloss>
+</entry>
+<entry>
+<word>שָׁלַח</word>
+<display>שָׁלַח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> send</gloss>
+</entry>
+<entry>
+<word>מָשַׁל</word>
+<display>מָשַׁל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">rule</gloss>
+</entry>
+<entry>
+<word>בָּחַר</word>
+<display>בָּחַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> choose</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 9 (p. 64)</title>
+<entry>
+<word>סִינַי</word>
+<display>סִינַי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Sinai</gloss>
+</entry>
+<entry>
+<word>מָקוֹם</word>
+<display>מָקוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> standing-place</gloss>
+<gloss xml:lang="en-US">place</gloss>
+</entry>
+<entry>
+<word>יְשׁוּעָה</word>
+<display>יְשׁוּעָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> salvation</gloss>
+</entry>
+<entry>
+<word>יִרְאָה</word>
+<display>יִרְאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fear</gloss>
+</entry>
+<entry>
+<word>בְּרָכָה</word>
+<display>בְּרָכָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">blessing</gloss>
+<gloss xml:lang="en-US">treaty of peace</gloss>
+<gloss xml:lang="en-US">wealth</gloss>
+<gloss xml:lang="en-US">gift</gloss>
+</entry>
+<entry>
+<word>אַחֵר</word>
+<display>אַחֵר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> another</gloss>
+</entry>
+<entry>
+<word>אֲחֵרִים</word>
+<display>אֲחֵרִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">others</gloss>
+</entry>
+<entry>
+<word>אַחַר</word>
+<display>אַחֲרֵי or אַחַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">after</gloss>
+<gloss xml:lang="en-US">behind</gloss>
+</entry>
+<entry>
+<word>כֹּה</word>
+<display>כֹּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">this</gloss>
+<gloss xml:lang="en-US">here</gloss>
+</entry>
+<entry>
+<word>אֵין</word>
+<display>אֵין</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">there is not</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 10 (p. 67)</title>
+<entry>
+<word>צַדִּיק</word>
+<display>צַדִּיק</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> just</gloss>
+<gloss xml:lang="en-US">righteous</gloss>
+</entry>
+<entry>
+<word>רָשָׁע</word>
+<display>רָשָׁע</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wicked</gloss>
+<gloss xml:lang="en-US">criminal</gloss>
+</entry>
+<entry>
+<word>שְׁאֹל</word>
+<display>שְׁאֹל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> underworld</gloss>
+</entry>
+<entry>
+<word>בָּשָׂר</word>
+<display>בָּשָׂר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> flesh</gloss>
+</entry>
+<entry>
+<word>מַלְאָךְ</word>
+<display>מַלְאָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> messenger</gloss>
+</entry>
+<entry>
+<word>מִדְבָּר</word>
+<display>מִדְבָּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">wilderness</gloss>
+</entry>
+<entry>
+<word>נַ֫עַר</word>
+<display>נַ֫עַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">young man</gloss>
+</entry>
+<entry>
+<word>עָמַד</word>
+<display>עָמַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> take one’s stand</gloss>
+<gloss xml:lang="en-US">stand</gloss>
+</entry>
+<entry>
+<word>יָרַד</word>
+<display>יָרַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> come go down</gloss>
+<gloss xml:lang="en-US">descend</gloss>
+</entry>
+<entry>
+<word>אוֹי</word>
+<display>אוֹי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> woe!</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 11 (p. 73)</title>
+<entry>
+<word>רָחֵל</word>
+<display>רָחֵל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Rachel</gloss>
+</entry>
+<entry>
+<word>לָבָן</word>
+<display>לָבָן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Laban</gloss>
+</entry>
+<entry>
+<word>לָבָן</word>
+<display>יוֹסֵף</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Joseph</gloss>
+</entry>
+<entry>
+<word>פַּרְעֹה</word>
+<display>פַּרְעֹה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Pharaoh</gloss>
+</entry>
+<entry>
+<word> צֹאן</word>
+<display> צֹאן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> small cattle</gloss>
+<gloss xml:lang="en-US">sheep and goats</gloss>
+<gloss xml:lang="en-US">flock</gloss>
+<gloss xml:lang="en-US">flocks</gloss>
+</entry>
+<entry>
+<word>מַ֫יִם</word>
+<display>מַ֫יִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> waters</gloss>
+<gloss xml:lang="en-US">water</gloss>
+</entry>
+<entry>
+<word>מַ֫יִם</word>
+<display>מֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> waters</gloss>
+<gloss xml:lang="en-US">water</gloss>
+</entry>
+<entry>
+<word>לָ֫מָּה</word>
+<display>לָ֫מָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">why?</gloss>
+</entry>
+<entry>
+<word>שָׁאַל</word>
+<display>שָׁאַל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> ask</gloss>
+<gloss xml:lang="en-US">inquire</gloss>
+</entry>
+<entry>
+<word>עָבַד</word>
+<display>עָבַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> work</gloss>
+<gloss xml:lang="en-US">serve</gloss>
+</entry>
+<entry>
+<word>הָיָה</word>
+<display>יִהְיֶה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">he will be</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 12 (p. 77)</title>
+<entry>
+<word>מִשְׁפָּט</word>
+<display>מִשְׁפָּט</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> judgment</gloss>
+</entry>
+<entry>
+<word>צֶ֫דֶק</word>
+<display>צֶ֫דֶק</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> rightness</gloss>
+<gloss xml:lang="en-US">righteousness</gloss>
+</entry>
+<entry>
+<word>אֱמֶת</word>
+<display>אֱמֶת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">firmness</gloss>
+<gloss xml:lang="en-US">faithfulness</gloss>
+<gloss xml:lang="en-US">truth</gloss>
+</entry>
+<entry>
+<word>שַׁבָּת</word>
+<display>שַׁבָּת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Sabbath</gloss>
+<gloss xml:lang="en-US">week</gloss>
+</entry>
+<entry>
+<word>פָּנִים</word>
+<display>פָּנִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">face</gloss>
+<gloss xml:lang="en-US">faces</gloss>
+</entry>
+<entry>
+<word>לִפְנֵי־</word>
+<display>לִפְנֵי־</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">before</gloss>
+</entry>
+<entry>
+<word>לִפְנֵי־</word>
+<display>לְפָנֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">before me</gloss>
+</entry>
+<entry>
+<word>שָׁפַט</word>
+<display>שָׁפַט</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> judge</gloss>
+<gloss xml:lang="en-US">govern</gloss>
+</entry>
+<entry>
+<word>רָדַף</word>
+<display>רָדַף</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> pursue</gloss>
+<gloss xml:lang="en-US">chase</gloss>
+</entry>
+<entry>
+<word>רָדַף</word>
+<display>רָדַף</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">persecute</gloss>
+</entry>
+<entry>
+<word>רָדַף</word>
+<display>רָדַף אַחֲרֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">he pursued after</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 13 (p. 80)</title>
+<entry>
+<word>מִצְוָה</word>
+<display>מִצְוָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">commandment</gloss>
+</entry>
+<entry>
+<word>מִצְוָה</word>
+<display>מִצְוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">commandment</gloss>
+</entry>
+<entry>
+<word>שָׁלוֹם</word>
+<display>שָׁלוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> completeness</gloss>
+<gloss xml:lang="en-US">soundness</gloss>
+<gloss xml:lang="en-US">welfare</gloss>
+<gloss xml:lang="en-US">peace</gloss>
+</entry>
+<entry>
+<word>שֶׁ֫מֶשׁ</word>
+<display>שֶׁ֫מֶשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sun</gloss>
+</entry>
+<entry>
+<word>קָטָן</word>
+<display>קָטֹן ,קָטָן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">small (m. sg.)</gloss>
+</entry>
+<entry>
+<word>קָטָן</word>
+<display>קְטַנָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">small (f. sg.)</gloss>
+</entry>
+<entry>
+<word>קָטָן</word>
+<display>קְטַנִּים ,קְטַנּוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">small (pl.)</gloss>
+</entry>
+<entry>
+<word>חָלַם</word>
+<display>חָלַם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">dream</gloss>
+</entry>
+<entry>
+<word>אִם</word>
+<display>אִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> if</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 14 (p. 85)</title>
+<entry>
+<word>אֶ֫בֶן</word>
+<display>אֶ֫בֶן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> stone</gloss>
+</entry>
+<entry>
+<word></word>
+<display>אֲבָנִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> pair of potter’s wheels</gloss>
+</entry>
+<entry>
+<word>אֹ֫זֶן</word>
+<display>אֹ֫זֶן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">ear</gloss>
+</entry>
+<entry>
+<word>אֹ֫זֶן</word>
+<display>אָזְנַ֫יִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">ear (dual)</gloss>
+</entry>
+<entry>
+<word>עֶ֫בֶד</word>
+<display>עֶ֫בֶד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> slave</gloss>
+<gloss xml:lang="en-US">servant</gloss>
+</entry>
+<entry>
+<word>עֶ֫בֶד</word>
+<display>עֲבָדִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">slave</gloss>
+<gloss xml:lang="en-US">servant (pl.)</gloss>
+</entry>
+<entry>
+<word>יַרְדֵּן</word>
+<display>יַרְדֵּן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Jordan</gloss>
+</entry>
+<entry>
+<word>חָכְמָה</word>
+<display>חָכְמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wisdom</gloss>
+</entry>
+<entry>
+<word>שָׂם</word>
+<display>שָׂם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">place</gloss>
+<gloss xml:lang="en-US">set</gloss>
+</entry>
+<entry>
+<word>כָּתַב</word>
+<display>כָּתַב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> write</gloss>
+</entry>
+<entry>
+<word>קָרָא</word>
+<display>קָרָא לְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">call (to)</gloss>
+</entry>
+<entry>
+<word>קָרָא</word>
+<display>קָרָא בְּ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">read (in)</gloss>
+</entry>
+<entry>
+<word>מֵת</word>
+<display>מֵת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> corpse</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 15 (p. 88)</title>
+<entry>
+<word>יָם</word>
+<display>יָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sea</gloss>
+</entry>
+<entry>
+<word>יָם</word>
+<display>יַמִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sea (pl.)</gloss>
+</entry>
+<entry>
+<word>גּוֹי</word>
+<display>גּוֹי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> nation</gloss>
+<gloss xml:lang="en-US">people</gloss>
+</entry>
+<entry>
+<word>צָרָה</word>
+<display>צָרָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">trouble</gloss>
+</entry>
+<entry>
+<word>לְבַד</word>
+<display>לְבַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">alone</gloss>
+</entry>
+<entry>
+<word>לְמַ֫עַן</word>
+<display>לְמַ֫עַן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">in order that</gloss>
+<gloss xml:lang="en-US">for the sake of</gloss>
+</entry>
+<entry>
+<word>אַיֵּה</word>
+<display>אַיֵּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Where?</gloss>
+</entry>
+<entry>
+<word> מָלַךְ</word>
+<display> מָלַךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be or become king queen</gloss>
+<gloss xml:lang="en-US">reign</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 16 (p. 93)</title>
+<entry>
+<word>ישֵׁב </word>
+<display>ישֵׁב </display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sit</gloss>
+<gloss xml:lang="en-US">remain</gloss>
+<gloss xml:lang="en-US">dwell</gloss>
+</entry>
+<entry>
+<word>דָּם</word>
+<display>דָּם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> blood</gloss>
+</entry>
+<entry>
+<word>דָּם</word>
+<display>דָּמִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">blood (pl.)</gloss>
+</entry>
+<entry>
+<word>חַיִּים</word>
+<display>חַיִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> life</gloss>
+</entry>
+<entry>
+<word>שֹׁפֵט</word>
+<display>שֹׁפֵט</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> judge</gloss>
+<gloss xml:lang="en-US">govern</gloss>
+</entry>
+<entry>
+<word>שָׁם</word>
+<display>שָׁם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> there</gloss>
+<gloss xml:lang="en-US">thither</gloss>
+</entry>
+<entry>
+<word>שָׁם</word>
+<display>שָׁ֫מָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">there</gloss>
+<gloss xml:lang="en-US">thither</gloss>
+</entry>
+<entry>
+<word>הָרַג</word>
+<display>הָרַג</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> kill</gloss>
+<gloss xml:lang="en-US">slay</gloss>
+</entry>
+<entry>
+<word>אָמַר</word>
+<display>לֵאמֹר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">saying</gloss>
+</entry>
+<entry>
+<word>כַּאֲשֶׁר</word>
+<display>כַּאֲשֶׁר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> according as</gloss>
+<gloss xml:lang="en-US">as</gloss>
+<gloss xml:lang="en-US">when</gloss>
+</entry>
+<entry>
+<word>כִּי</word>
+<display>כִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">that</gloss>
+<gloss xml:lang="en-US">when</gloss>
+</entry>
+<entry>
+<word>שָׁפַךְ</word>
+<display>שָׁפַךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> pour out</gloss>
+<gloss xml:lang="en-US">pour</gloss>
+</entry>
+<entry>
+<word>צָעַק</word>
+<display>צָעַק</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> cry</gloss>
+<gloss xml:lang="en-US">cry out</gloss>
+<gloss xml:lang="en-US">call</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 17 (p. 97)</title>
+<entry>
+<word>יִצְחָק</word>
+<display>יִצְחָק</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Isaac</gloss>
+</entry>
+<entry>
+<word>עֲבוֹדָה</word>
+<display>עֲבוֹדָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> labour</gloss>
+<gloss xml:lang="en-US">service</gloss>
+</entry>
+<entry>
+<word>קֶ֫בֶר</word>
+<display>קֶ֫בֶר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> grave</gloss>
+<gloss xml:lang="en-US">sepulchre</gloss>
+</entry>
+<entry>
+<word>מָ֫וֶת</word>
+<display>מָ֫וֶת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> death</gloss>
+</entry>
+<entry>
+<word>מָ֫וֶת</word>
+<display>מוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> death</gloss>
+</entry>
+<entry>
+<word>מוֹתִי</word>
+<display>מוֹתִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">death</gloss>
+</entry>
+<entry>
+<word>זָקֵן</word>
+<display>זָקֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be/become old</gloss>
+</entry>
+<entry>
+<word>רָעַב</word>
+<display>רָעַב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be hungry</gloss>
+</entry>
+<entry>
+<word>גָּדַל</word>
+<display>גָּדַל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> grow up</gloss>
+<gloss xml:lang="en-US">become great</gloss>
+</entry>
+<entry>
+<word>שָׁכַב</word>
+<display>שָׁכַב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> lie down</gloss>
+</entry>
+<entry>
+<word>קָבַר</word>
+<display>קָבַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> bury</gloss>
+</entry>
+<entry>
+<word>צִוָּה</word>
+<display>צִוָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">charge</gloss>
+<gloss xml:lang="en-US">command</gloss>
+<gloss xml:lang="en-US">order</gloss>
+</entry>
+<entry>
+<word>יָכֹל</word>
+<display>יָכֹל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be able</gloss>
+<gloss xml:lang="en-US">have power</gloss>
+<gloss xml:lang="en-US">prevail</gloss>
+<gloss xml:lang="en-US">endure</gloss>
+</entry>
+<entry>
+<word>נָא</word>
+<display>נָא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> I (we) pray</gloss>
+<gloss xml:lang="en-US">now</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 18 (p. 103)</title>
+<entry>
+<word>דָּוִד</word>
+<display>דָּוִד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> David</gloss>
+</entry>
+<entry>
+<word>כִּסֵּא</word>
+<display>כִּסֵּא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">seat</gloss>
+<gloss xml:lang="en-US">throne</gloss>
+</entry>
+<entry>
+<word>עֵדָה</word>
+<display>עֵדָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> congregation</gloss>
+<gloss xml:lang="en-US">pack</gloss>
+</entry>
+<entry>
+<word>סֹפֵר</word>
+<display>סֹפֵר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">secretary</gloss>
+<gloss xml:lang="en-US">scribe</gloss>
+</entry>
+<entry>
+<word>אֵשׁ</word>
+<display>אֵשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fire</gloss>
+</entry>
+<entry>
+<word>עוֹד</word>
+<display>עוֹד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> a going round</gloss>
+<gloss xml:lang="en-US">continuance still</gloss>
+<gloss xml:lang="en-US">yet</gloss>
+<gloss xml:lang="en-US">again</gloss>
+<gloss xml:lang="en-US">besides</gloss>
+</entry>
+<entry>
+<word>סתר</word>
+<display>סתר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> hide</gloss>
+<gloss xml:lang="en-US">conceal</gloss>
+</entry>
+<entry>
+<word>לחם</word>
+<display>לחם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fight</gloss>
+<gloss xml:lang="en-US">do battle</gloss>
+</entry>
+<entry>
+<word>לָכַד</word>
+<display>לָכַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> capture</gloss>
+<gloss xml:lang="en-US">seize</gloss>
+<gloss xml:lang="en-US">take</gloss>
+</entry>
+<entry>
+<word>שָׂרַף</word>
+<display>שָׂרַף</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> burn</gloss>
+</entry>
+<entry>
+<word>תָּ֫וֶךְ</word>
+<display>תָּ֫וֶךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> midst</gloss>
+</entry>
+<entry>
+<word>תָּ֫וֶךְ</word>
+<display>תֹּוךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">midst (const.)</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 19 (p.107)</title>
+<entry>
+<word>לֵב</word>
+<display>לֵב ,לֵבָב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">heart</gloss>
+</entry>
+<entry>
+<word>זֶ֫רָע</word>
+<display>זֶ֫רָע</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sow</gloss>
+<gloss xml:lang="en-US">scatter seed</gloss>
+<gloss xml:lang="en-US">be sown</gloss>
+<gloss xml:lang="en-US">fructified</gloss>
+</entry>
+<entry>
+<word>זַרְעִי</word>
+<display>זַרְעִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> vegetables</gloss>
+</entry>
+<entry>
+<word>ל֫וּחַ</word>
+<display>ל֫וּחַ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> tablet</gloss>
+<gloss xml:lang="en-US">board</gloss>
+<gloss xml:lang="en-US">plank</gloss>
+<gloss xml:lang="en-US">plate</gloss>
+</entry>
+<entry>
+<word>ל֫וּחַ</word>
+<display>לוּחוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> tablet</gloss>
+<gloss xml:lang="en-US">board</gloss>
+<gloss xml:lang="en-US">plank</gloss>
+<gloss xml:lang="en-US">plate (pl.)</gloss>
+</entry>
+<entry>
+<word>יְהוֹשֻׁ֫עַ</word>
+<display>יְהוֹשֻׁ֫עַ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Joshua</gloss>
+</entry>
+<entry>
+<word>זָהָב</word>
+<display>זָהָב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> gold</gloss>
+</entry>
+<entry>
+<word>קָבַץ</word>
+<display>קָבַץ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> gather</gloss>
+<gloss xml:lang="en-US">collect</gloss>
+</entry>
+<entry>
+<word>קָבַץ</word>
+<display>קִבֵּץ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> gather</gloss>
+<gloss xml:lang="en-US">collect (Piel)</gloss>
+</entry>
+<entry>
+<word>קָבַץ</word>
+<display>נִקְבַּץ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">gather</gloss>
+<gloss xml:lang="en-US">collect (Niphal)</gloss>
+</entry>
+<entry>
+<word>דִּבֵּר</word>
+<display>דִּבֵּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> speaking (Piel)</gloss>
+</entry>
+<entry>
+<word>סָפַר</word>
+<display>סָפַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> count</gloss>
+<gloss xml:lang="en-US">recount</gloss>
+<gloss xml:lang="en-US">relate</gloss>
+</entry>
+<entry>
+<word>סָפַר</word>
+<display>סִפֵּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> count</gloss>
+<gloss xml:lang="en-US">recount</gloss>
+<gloss xml:lang="en-US">relate (Piel)</gloss>
+</entry>
+<entry>
+<word>נִמְלַט</word>
+<display>נִמְלַט</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">escape (Niphal)</gloss>
+</entry>
+<entry>
+<word>מָצָא</word>
+<display>מָצָא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> attain to</gloss>
+<gloss xml:lang="en-US">find</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 20 (p. 110)</title>
+<entry>
+<word>אֵם</word>
+<display>אֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> mother</gloss>
+</entry>
+<entry>
+<word>אֵם</word>
+<display>אִמִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">mother (with suffix)</gloss>
+</entry>
+<entry>
+<word>אֵם</word>
+<display>אִמּוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">mother (pl.)</gloss>
+</entry>
+<entry>
+<word>אַהֲרֹן</word>
+<display>אַהֲרֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Aaron</gloss>
+</entry>
+<entry>
+<word>כֹּהֵן</word>
+<display>כֹּהֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> priest</gloss>
+</entry>
+<entry>
+<word>רֹעֶה</word>
+<display>רֹעֶה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> shepherd</gloss>
+</entry>
+<entry>
+<word>כָּבוֹד</word>
+<display>כָּבוֹד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">glory</gloss>
+</entry>
+<entry>
+<word>עוֹלָם</word>
+<display>עוֹלָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> long duration</gloss>
+<gloss xml:lang="en-US">antiquity</gloss>
+<gloss xml:lang="en-US">futurity</gloss>
+</entry>
+<entry>
+<word>פזר</word>
+<display>פִּזֵּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> scatter (Piel)</gloss>
+</entry>
+<entry>
+<word>קדשׁ</word>
+<display>קִדֵּשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sanctify (Piel)</gloss>
+</entry>
+<entry>
+<word>כבד</word>
+<display>כִּבֵּד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be heavy</gloss>
+<gloss xml:lang="en-US">weighty</gloss>
+<gloss xml:lang="en-US">burdensome</gloss>
+<gloss xml:lang="en-US">honoured (Piel)</gloss>
+</entry>
+<entry>
+<word>הלל</word>
+<display>הִלֵּל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">praise (Piel)</gloss>
+</entry>
+<entry>
+<word>שׁבח</word>
+<display>שִׁבַּח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">praise (Piel)</gloss>
+</entry>
+<entry>
+<word>עוֹלָם</word>
+<display>לְעוֹלָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">forever</gloss>
+</entry>
+<entry>
+<word>עוֹלָם</word>
+<display>עַד־עֹולָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">forever</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 21 (p. 116)</title>
+<entry>
+<word>שְׁכֶם</word>
+<display>שְׁכֶם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Shechem</gloss>
+</entry>
+<entry>
+<word>קָהָל</word>
+<display>קָהָל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> assembly</gloss>
+<gloss xml:lang="en-US">convocation</gloss>
+<gloss xml:lang="en-US">congregation</gloss>
+</entry>
+<entry>
+<word>בְּכוֹר</word>
+<display>בְּכוֹר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> first-born</gloss>
+</entry>
+<entry>
+<word>אֹיֵב</word>
+<display>אֹיֵב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">enemy</gloss>
+</entry>
+<entry>
+<word>שָׁלֵם</word>
+<display>שָׁלֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be complete</gloss>
+<gloss xml:lang="en-US">sound</gloss>
+</entry>
+<entry>
+<word>שָׁאוּל</word>
+<display>שָׁאוּל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Shaul</gloss>
+</entry>
+<entry>
+<word>קהל</word>
+<display>הִקְהִיל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">gather together (Hiphil)</gloss>
+</entry>
+<entry>
+<word>קהל</word>
+<display>נִקְהַל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">gather together (Niphal)</gloss>
+</entry>
+<entry>
+<word>סתר</word>
+<display>הִסְתִּיר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">hide (Hiphil)</gloss>
+</entry>
+<entry>
+<word>סתר</word>
+<display>נִסְתַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">hide (Niphal)</gloss>
+</entry>
+<entry>
+<word>שׁחת</word>
+<display>הִשְׁחִית</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">destroy (Hiphil)</gloss>
+</entry>
+<entry>
+<word>שׁמד</word>
+<display>הִשְׁמִיד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">destroy (Hiphil)</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 22 (p. 121)</title>
+<entry>
+<word>תְּפִלָּה</word>
+<display>תְּפִלָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> prayer</gloss>
+</entry>
+<entry>
+<word>ר֫וּחַ</word>
+<display>ר֫וּחַ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> breath</gloss>
+<gloss xml:lang="en-US">wind</gloss>
+<gloss xml:lang="en-US">spirit</gloss>
+</entry>
+<entry>
+<word>ר֫וּחַ</word>
+<display>רוּחִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">breath</gloss>
+<gloss xml:lang="en-US">wind</gloss>
+<gloss xml:lang="en-US">spirit (with suffix)</gloss>
+</entry>
+<entry>
+<word>ר֫וּחַ</word>
+<display>רוּחוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">breath</gloss>
+<gloss xml:lang="en-US">wind</gloss>
+<gloss xml:lang="en-US">spirit (pl.)</gloss>
+</entry>
+<entry>
+<word>נֶ֫גֶד</word>
+<display>נֶ֫גֶד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> what is conspicuous in front in front of</gloss>
+<gloss xml:lang="en-US">in sight of</gloss>
+<gloss xml:lang="en-US">opposite to</gloss>
+</entry>
+<entry>
+<word>מִלְחָמָה</word>
+<display>מִלְחָמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> battle</gloss>
+<gloss xml:lang="en-US">war</gloss>
+</entry>
+<entry>
+<word>חָבָא</word>
+<display>הִתְחַבֵּא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">hide (Hithpael)</gloss>
+</entry>
+<entry>
+<word>הָלַךְ</word>
+<display>הִתְהַלֵּךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">walk (Hithpael)</gloss>
+</entry>
+<entry>
+<word>נָבָא</word>
+<display>התְנַבֵּא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">prophesy (Hithpael)</gloss>
+</entry>
+<entry>
+<word>פָּלַל</word>
+<display>הִתְפַּלֵּל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">pray (Hithpael)</gloss>
+</entry>
+<entry>
+<word>נָשָׂא</word>
+<display>נָשָׂא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> lift</gloss>
+<gloss xml:lang="en-US">carry</gloss>
+<gloss xml:lang="en-US">take</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 23 (p. 127)</title>
+<entry>
+<word>נֶפֶשׁ</word>
+<display>נֶפֶשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> soul</gloss>
+<gloss xml:lang="en-US">living being</gloss>
+<gloss xml:lang="en-US">life</gloss>
+<gloss xml:lang="en-US">self</gloss>
+<gloss xml:lang="en-US">person</gloss>
+<gloss xml:lang="en-US">desire</gloss>
+<gloss xml:lang="en-US">appetite</gloss>
+<gloss xml:lang="en-US">emotion passion</gloss>
+</entry>
+<entry>
+<word>מָכַר</word>
+<display>מָכַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sell</gloss>
+</entry>
+<entry>
+<word>גָּגַב</word>
+<display>גָּגַב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">steal</gloss>
+</entry>
+<entry>
+<word>עָזַב</word>
+<display>עָזַב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> leave</gloss>
+<gloss xml:lang="en-US">forsake</gloss>
+<gloss xml:lang="en-US">loose</gloss>
+</entry>
+<entry>
+<word>עָבַר</word>
+<display>עָבַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">pass over</gloss>
+<gloss xml:lang="en-US">through</gloss>
+<gloss xml:lang="en-US">by; pass on</gloss>
+</entry>
+<entry>
+<word>יָרֵא</word>
+<display>יָרֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fear</gloss>
+</entry>
+<entry>
+<word>יָרֵא</word>
+<display>יָרֵא אֵת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">revere</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 24 (p. 133)</title>
+<entry>
+<word>עִבְרִי</word>
+<display>עִבְרִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Hebrew</gloss>
+</entry>
+<entry>
+<word>מִצְרִי</word>
+<display>מִצְרִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Egyptian</gloss>
+</entry>
+<entry>
+<word>חָזָק</word>
+<display>חָזָק</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> strong</gloss>
+<gloss xml:lang="en-US">stout</gloss>
+<gloss xml:lang="en-US">mighty</gloss>
+</entry>
+<entry>
+<word>בָּטַח</word>
+<display>בָּטַח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> trust</gloss>
+</entry>
+<entry>
+<word>שָׁכַח</word>
+<display>שָׁכַח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> forget</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 25 (p. 137)</title>
+<entry>
+<word>כֶּ֫סֶף</word>
+<display>כֶּ֫סֶף</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> long</gloss>
+</entry>
+<entry>
+<word>בָּקָר</word>
+<display>בָּקָר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> cattle</gloss>
+<gloss xml:lang="en-US">herd</gloss>
+<gloss xml:lang="en-US">ox</gloss>
+</entry>
+<entry>
+<word>עַתָּה</word>
+<display>עַתָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> now</gloss>
+</entry>
+<entry>
+<word>חָטָא</word>
+<display>חָטָא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> miss go wrong</gloss>
+<gloss xml:lang="en-US">sin</gloss>
+</entry>
+<entry>
+<word>נָפַל</word>
+<display>נָפַל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fall</gloss>
+<gloss xml:lang="en-US">lie</gloss>
+</entry>
+<entry>
+<word>רַק</word>
+<display>רַק</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">only</gloss>
+<gloss xml:lang="en-US">altogether</gloss>
+<gloss xml:lang="en-US">surely</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 26 (p. 145)</title>
+<entry>
+<word>חֶ֫רֶב</word>
+<display>חֶ֫רֶב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sword</gloss>
+</entry>
+<entry>
+<word>מַגֵּפָה</word>
+<display>מַגֵּפָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> blow</gloss>
+<gloss xml:lang="en-US">slaughter</gloss>
+<gloss xml:lang="en-US">plague</gloss>
+<gloss xml:lang="en-US">pestilence</gloss>
+</entry>
+<entry>
+<word>אָדוֹן</word>
+<display>אָדוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> lord</gloss>
+</entry>
+<entry>
+<word>גִּבּוֹר</word>
+<display>גִּבּוֹר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">warrior</gloss>
+</entry>
+<entry>
+<word>נָגַף</word>
+<display>יִגֹּף</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">smite (imperfect)</gloss>
+</entry>
+<entry>
+<word>נָגַד</word>
+<display>הִגִּיד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">tell</gloss>
+<gloss xml:lang="en-US">declare (Hiphil)</gloss>
+</entry>
+<entry>
+<word>נָצַל</word>
+<display>הִצִּיל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">save</gloss>
+<gloss xml:lang="en-US">deliver (Hiphil)</gloss>
+</entry>
+<entry>
+<word>נָצַל</word>
+<display>נִצַּל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> deliver (Niphal)</gloss>
+</entry>
+<entry>
+<word>רַב</word>
+<display>רַב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> great</gloss>
+</entry>
+<entry>
+<word>רַב</word>
+<display>רַבִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">many (pl.)</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 27 (p. 151)</title>
+<entry>
+<word>יֶ֫לֶד</word>
+<display>יֶ֫לֶד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> child</gloss>
+<gloss xml:lang="en-US">son</gloss>
+<gloss xml:lang="en-US">boy</gloss>
+<gloss xml:lang="en-US">youth</gloss>
+</entry>
+<entry>
+<word>יַלְדָּה</word>
+<display>יַלְדָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> girl</gloss>
+<gloss xml:lang="en-US">damsel</gloss>
+</entry>
+<entry>
+<word>חֵן</word>
+<display>חֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> favour</gloss>
+<gloss xml:lang="en-US">grace</gloss>
+</entry>
+<entry>
+<word>חֵן</word>
+<display>חִנִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">favour</gloss>
+<gloss xml:lang="en-US">grace (with suffix)</gloss>
+</entry>
+<entry>
+<word>שְׁנַ֫יִם</word>
+<display>שְׁנַ֫יִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> two (m.)</gloss>
+</entry>
+<entry>
+<word>שְׁתַּ֫יִם</word>
+<display>שְׁתַּ֫יִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> two (f.)</gloss>
+</entry>
+<entry>
+<word>יָלַד</word>
+<display>יָלַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> bear</gloss>
+<gloss xml:lang="en-US">bring forth</gloss>
+<gloss xml:lang="en-US">beget</gloss>
+</entry>
+<entry>
+<word>שָׁב</word>
+<display>שָׁב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">return</gloss>
+<gloss xml:lang="en-US">come back</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 28 (p. 158)</title>
+<entry>
+<word>אָרוֹן</word>
+<display>אָרוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> chest</gloss>
+<gloss xml:lang="en-US">ark</gloss>
+</entry>
+<entry>
+<word>בּוֹר</word>
+<display>בּוֹר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> pit</gloss>
+<gloss xml:lang="en-US">cistern</gloss>
+<gloss xml:lang="en-US">well</gloss>
+</entry>
+<entry>
+<word>מַחֲנֶה</word>
+<display>מַחֲנֶה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">camp</gloss>
+</entry>
+<entry>
+<word>רֵ֫עַ</word>
+<display>רֵ֫עַ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">friend</gloss>
+</entry>
+<entry>
+<word>אֹת</word>
+<display>אֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sign</gloss>
+</entry>
+<entry>
+<word>אֹת</word>
+<display>אֹתוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sign (pl.)</gloss>
+</entry>
+<entry>
+<word>קָצַף</word>
+<display>קָצַף</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be wroth</gloss>
+</entry>
+<entry>
+<word>כֵּן</word>
+<display>כֵּן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> thus</gloss>
+<gloss xml:lang="en-US">as follows</gloss>
+</entry>
+<entry>
+<word>חָשַׁךְ</word>
+<display>חָשַׁךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be</gloss>
+<gloss xml:lang="en-US">grow dark</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 29 (p. 163)</title>
+<entry>
+<word>נָחָשׁ</word>
+<display>נָחָשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> serpent</gloss>
+</entry>
+<entry>
+<word>עֵירֹם</word>
+<display>עֵירֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> naked</gloss>
+<gloss xml:lang="en-US">nakedness</gloss>
+</entry>
+<entry>
+<word>עֵירֹם</word>
+<display>עֵירֻמִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> naked</gloss>
+<gloss xml:lang="en-US">nakedness (pl.)</gloss>
+</entry>
+<entry>
+<word>אָז</word>
+<display>אָז</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> at that time</gloss>
+<gloss xml:lang="en-US">then thereupon</gloss>
+</entry>
+<entry>
+<word>פֶּן־</word>
+<display>פֶּן־</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> lest</gloss>
+</entry>
+<entry>
+<word>אָבַד</word>
+<display>אָבַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> perish</gloss>
+</entry>
+<entry>
+<word>פָּקַח</word>
+<display>פָּקַח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> open</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 30 (p. 170)</title>
+<entry>
+<word>מִנְחָה</word>
+<display>מִנְחָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> gift</gloss>
+<gloss xml:lang="en-US">tribute</gloss>
+<gloss xml:lang="en-US">offering</gloss>
+</entry>
+<entry>
+<word>רָעָב</word>
+<display>רָעָב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> famine</gloss>
+<gloss xml:lang="en-US">hunger</gloss>
+</entry>
+<entry>
+<word>חֶ֫סֶד</word>
+<display>חֶ֫סֶד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> goodness</gloss>
+<gloss xml:lang="en-US">kindness</gloss>
+</entry>
+<entry>
+<word>עֵת</word>
+<display>עֵת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> time</gloss>
+</entry>
+<entry>
+<word>עֵת</word>
+<display>עִתּוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">time (with suffix)</gloss>
+</entry>
+<entry>
+<word>עֵת</word>
+<display>עִתִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">time (pl.)</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 31 (p. 174)</title>
+<entry>
+<word>רְאוּבֵן</word>
+<display>רְאוּבֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Reuben</gloss>
+</entry>
+<entry>
+<word>כְּנַעֲנִי</word>
+<display>כְּנַעֲנִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Canaanite</gloss>
+</entry>
+<entry>
+<word>חַיָּה</word>
+<display>חַיָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> living thing</gloss>
+<gloss xml:lang="en-US">animal</gloss>
+</entry>
+<entry>
+<word>מַמְלָכָה</word>
+<display>מַמְלָכָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> kingdom</gloss>
+<gloss xml:lang="en-US">sovereignty</gloss>
+<gloss xml:lang="en-US">dominion</gloss>
+<gloss xml:lang="en-US">reign</gloss>
+</entry>
+<entry>
+<word>בֶּ֫גֶד</word>
+<display>בֶּ֫גֶד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">garment</gloss>
+</entry>
+<entry>
+<word>בֶּ֫גֶד</word>
+<display>בִּגְדִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">garment (with suffix)</gloss>
+</entry>
+<entry>
+<word>בֶּ֫גֶד</word>
+<display>בְּגָדִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">garment (pl.)</gloss>
+</entry>
+<entry>
+<word>בֶּ֫גֶד</word>
+<display>בִּגְדֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">garment (pl. construct)</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 32 (p. 181)</title>
+<entry>
+<word>עֵלִי</word>
+<display>עֵלִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Eli</gloss>
+</entry>
+<entry>
+<word>לָכֵן</word>
+<display>לָכֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">therefore</gloss>
+</entry>
+<entry>
+<word>עַל־כֵּן</word>
+<display>עַל־כֵּן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">therefore</gloss>
+</entry>
+<entry>
+<word>פַּ֫עַם</word>
+<display>פַּ֫עַם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> beat</gloss>
+<gloss xml:lang="en-US">foot</gloss>
+<gloss xml:lang="en-US">anvil</gloss>
+<gloss xml:lang="en-US">occurrence</gloss>
+</entry>
+<entry>
+<word>פַּ֫עַם</word>
+<display>פַּעֲמַ֫יִם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">twice</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 33 (p. 185)</title>
+<entry>
+<word>עֵ֫דֶן</word>
+<display>עֵ֫דֶן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Eden</gloss>
+</entry>
+<entry>
+<word>דַּ֫עַת</word>
+<display>דַּ֫עַת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> knowledge</gloss>
+</entry>
+<entry>
+<word>שָׁוְא</word>
+<display>שָׁוְא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> emptiness</gloss>
+<gloss xml:lang="en-US">vanity</gloss>
+</entry>
+<entry>
+<word>חַי</word>
+<display>חַי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> living</gloss>
+</entry>
+<entry>
+<word>בָּרַח</word>
+<display>בָּרַח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go through</gloss>
+<gloss xml:lang="en-US">flee</gloss>
+</entry>
+<entry>
+<word>אֱדֹום</word>
+<display>אֱדֹום</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Edom</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 34 (p. 192)</title>
+<entry>
+<word>אָמָה</word>
+<display>אָמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> maid</gloss>
+<gloss xml:lang="en-US">handmaid</gloss>
+</entry>
+<entry>
+<word>שָׁלשׁ</word>
+<display>שָׁלשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> a three</gloss>
+<gloss xml:lang="en-US">triad (f.)</gloss>
+</entry>
+<entry>
+<word>שָׁלשׁ</word>
+<display>שְׁלשָׁה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> a three</gloss>
+<gloss xml:lang="en-US">triad (m.)</gloss>
+</entry>
+<entry>
+<word>אָחוֹת</word>
+<display>אָחוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sister</gloss>
+</entry>
+<entry>
+<word>אָחוֹת</word>
+<display>אֲחָיוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sister (pl. irreg.)</gloss>
+</entry>
+<entry>
+<word>אָחוֹת</word>
+<display>אֲחוֹתִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sister (with suffix)</gloss>
+</entry>
+<entry>
+<word>אָחוֹת</word>
+<display>אַחְיוֹתַי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sister (pl. with suffix)</gloss>
+</entry>
+<entry>
+<word>יָרַד</word>
+<display>יָרַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> come/go down</gloss>
+<gloss xml:lang="en-US">descend</gloss>
+</entry>
+<entry>
+<word>יָרַד</word>
+<display>הוֹרִיד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">cause to go down</gloss>
+<gloss xml:lang="en-US">bring down (Hiphil)</gloss>
+</entry>
+<entry>
+<word>יָצָא</word>
+<display>יָצָא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go/come out</gloss>
+</entry>
+<entry>
+<word>יָצָא</word>
+<display>הוֹצִיא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">cause to go out</gloss>
+<gloss xml:lang="en-US">bring out (Hiphil)</gloss>
+</entry>
+<entry>
+<word>דֶּ֫לֶת</word>
+<display>דֶּ֫לֶת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> door</gloss>
+</entry>
+<entry>
+<word>חוֹמָה</word>
+<display>חוֹמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wall</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 35 (p. 202)</title>
+<entry>
+<word>אֵלִיָּ֫הוּ</word>
+<display>אֵלִיָּ֫הוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Elijahu (Elijah NIV)</gloss>
+</entry>
+<entry>
+<word>רְכוּשׁ</word>
+<display>רְכוּשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">property</gloss>
+<gloss xml:lang="en-US">goods</gloss>
+</entry>
+<entry>
+<word>אַרְבָּעָה</word>
+<display>אַרְבָּעָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> four (m.)</gloss>
+</entry>
+<entry>
+<word>אַרְבָּעָה</word>
+<display>אַרְבַּע</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> four (f.)</gloss>
+</entry>
+<entry>
+<word>רָם</word>
+<display>רָם</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> high</gloss>
+<gloss xml:lang="en-US">loud</gloss>
+<gloss xml:lang="en-US">victorious</gloss>
+<gloss xml:lang="en-US">proud</gloss>
+<gloss xml:lang="en-US">lofty</gloss>
+</entry>
+<entry>
+<word>רָם</word>
+<display>הֵרִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">cause to be high</gloss>
+<gloss xml:lang="en-US">loud</gloss>
+<gloss xml:lang="en-US">victorious</gloss>
+<gloss xml:lang="en-US">proud</gloss>
+<gloss xml:lang="en-US">lofty (Hiphil)</gloss>
+</entry>
+<entry>
+<word>שָׁב</word>
+<display>שָׁב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">return</gloss>
+</entry>
+<entry>
+<word>שָׁב</word>
+<display>הֵשִׁיב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">cause to return (Hiphil)</gloss>
+</entry>
+<entry>
+<word>נָס</word>
+<display>נָס</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">flee</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 36 (p. 207)</title>
+<entry>
+<word>דֹּור</word>
+<display>דֹּור</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> period</gloss>
+<gloss xml:lang="en-US">generation</gloss>
+<gloss xml:lang="en-US">dwelling</gloss>
+</entry>
+<entry>
+<word>דֹּור</word>
+<display>דֹּורוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">period</gloss>
+<gloss xml:lang="en-US">generation</gloss>
+<gloss xml:lang="en-US">dwelling (pl.)</gloss>
+</entry>
+<entry>
+<word>פְּלִשְׁתִּי</word>
+<display>פְּלִשְׁתִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Philistine</gloss>
+</entry>
+<entry>
+<word>לֵוִי</word>
+<display>לֵוִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Levi</gloss>
+</entry>
+<entry>
+<word>סָר</word>
+<display>סָר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">depart</gloss>
+</entry>
+<entry>
+<word>סָר</word>
+<display>הֵסִיר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">cause to depart (Hiphil)</gloss>
+</entry>
+<entry>
+<word>צְעָקָה</word>
+<display>צְעָקָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> cry</gloss>
+<gloss xml:lang="en-US">outcry</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 37 (p. 213)</title>
+<entry>
+<word>לִקְרַאת</word>
+<display>לִקְרַאת־</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">towards</gloss>
+<gloss xml:lang="en-US">to meet</gloss>
+</entry>
+<entry>
+<word>לִקְרַאת</word>
+<display>לִקְרָאתִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">towards</gloss>
+<gloss xml:lang="en-US">to meet (with suffix)</gloss>
+</entry>
+<entry>
+<word>בְּלִי</word>
+<display>בְּלִי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">without</gloss>
+</entry>
+<entry>
+<word>לָמַד</word>
+<display>לָמַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> exercise in</gloss>
+<gloss xml:lang="en-US">learn</gloss>
+</entry>
+<entry>
+<word>לָמַד</word>
+<display>לִמַּד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> exercise in</gloss>
+<gloss xml:lang="en-US">learn</gloss>
+</entry>
+<entry>
+<word>רָחַץ</word>
+<display>רָחַץ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wash</gloss>
+<gloss xml:lang="en-US">wash off</gloss>
+<gloss xml:lang="en-US">away</gloss>
+<gloss xml:lang="en-US">bathe</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 38 (p. 220)</title>
+<entry>
+<word>גִּלְעָד</word>
+<display>גִּלְעָד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Gilead</gloss>
+<gloss xml:lang="en-US">family of/the territory of Gad</gloss>
+</entry>
+<entry>
+<word>מִקְנֶה</word>
+<display>מִקְנֶה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> cattle</gloss>
+</entry>
+<entry>
+<word>צֹר</word>
+<display>צֹר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Tyre</gloss>
+</entry>
+<entry>
+<word>פֹּה</word>
+<display>פֹּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> here</gloss>
+<gloss xml:lang="en-US">hither</gloss>
+</entry>
+<entry>
+<word>בָּנָה</word>
+<display>בָּנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> build</gloss>
+</entry>
+<entry>
+<word>צִוָּה</word>
+<display>צִוָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">charge</gloss>
+<gloss xml:lang="en-US">command</gloss>
+<gloss xml:lang="en-US">order</gloss>
+</entry>
+<entry>
+<word>רָאָה</word>
+<display>רָאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> see</gloss>
+</entry>
+<entry>
+<word>רָאָה</word>
+<display>נִרְאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">appear (Niphal)</gloss>
+</entry>
+<entry>
+<word>רָאָה</word>
+<display>הֶרְאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">cause to see (Hiphil)</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 39 (p. 227)</title>
+<entry>
+<word>גְּבוּל</word>
+<display>גְּבוּל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> border</gloss>
+<gloss xml:lang="en-US">boundary</gloss>
+<gloss xml:lang="en-US">territory</gloss>
+</entry>
+<entry>
+<word>פֶּה</word>
+<display>פֶּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> mouth</gloss>
+</entry>
+<entry>
+<word>פֶּה</word>
+<display>פִּי־</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">mouth (construct)</gloss>
+</entry>
+<entry>
+<word>פֶּה</word>
+<display>פִּיּוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">mouth (pl.)</gloss>
+</entry>
+<entry>
+<word>עָנָה</word>
+<display>עָנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">answer</gloss>
+</entry>
+<entry>
+<word>עָנָה</word>
+<display>עִנָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">afflict (Piel)</gloss>
+</entry>
+<entry>
+<word>פַּר</word>
+<display>פַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> young bull</gloss>
+<gloss xml:lang="en-US">steer</gloss>
+</entry>
+<entry>
+<word>פַּר</word>
+<display>הַפָּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">young bull</gloss>
+<gloss xml:lang="en-US">steer (with article)</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 40 (p. 234)</title>
+<entry>
+<word>מָחָר</word>
+<display>מָחָר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> tomorrow</gloss>
+<gloss xml:lang="en-US">in time to come</gloss>
+</entry>
+<entry>
+<word>שַׁ֫חַר</word>
+<display>שַׁ֫חַר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> dawn</gloss>
+</entry>
+<entry>
+<word>פֶּ֫סַח</word>
+<display>פֶּ֫סַח</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> passover</gloss>
+</entry>
+<entry>
+<word>יְרִיחוֹ</word>
+<display>יְרִיחוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Jericho</gloss>
+</entry>
+<entry>
+<word>חַג</word>
+<display>חַג</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> festival-gathering</gloss>
+<gloss xml:lang="en-US">feast</gloss>
+<gloss xml:lang="en-US">pilgrim-feast</gloss>
+</entry>
+<entry>
+<word>חַג</word>
+<display>הֶחָג</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> festival-gathering</gloss>
+<gloss xml:lang="en-US">feast</gloss>
+<gloss xml:lang="en-US">pilgrim-feast (with art.)</gloss>
+</entry>
+<entry>
+<word>חַג</word>
+<display>חַגִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> festival-gathering</gloss>
+<gloss xml:lang="en-US">feast</gloss>
+<gloss xml:lang="en-US">pilgrim-feast (pl.)</gloss>
+</entry>
+<entry>
+<word>בָּזַז</word>
+<display>בָּזַז</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> spoil</gloss>
+<gloss xml:lang="en-US">plunder</gloss>
+</entry>
+<entry>
+<word>חָגַג</word>
+<display>חָגַג</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> make pilgrimage</gloss>
+<gloss xml:lang="en-US">keep a pilgrim-feast</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 41 (p. 238)</title>
+<entry>
+<word>מִשְׁתֶּה</word>
+<display>מִשְׁתֶּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">feast </gloss>
+</entry>
+<entry>
+<word>מִשְׁתֶּה</word>
+<display>מִשְׁתֵּה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> feast (construct)</gloss>
+</entry>
+<entry>
+<word>גָּמָל</word>
+<display>גָּמָל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> camel</gloss>
+</entry>
+<entry>
+<word>גָּמָל</word>
+<display>גְּמַלִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">camel (pl.)</gloss>
+</entry>
+<entry>
+<word>בַּ֫עַל</word>
+<display>בַּ֫עַל</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> owner</gloss>
+<gloss xml:lang="en-US">lord</gloss>
+<gloss xml:lang="en-US">Baal</gloss>
+</entry>
+<entry>
+<word>אֱלִיעֶ֫זֶר</word>
+<display>אֱלִיעֶ֫זֶר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Eliezer</gloss>
+</entry>
+<entry>
+<word>כַּד</word>
+<display>כַּד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> jar</gloss>
+</entry>
+<entry>
+<word>עַ֫יִן</word>
+<display>עַ֫יִן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">spring</gloss>
+<gloss xml:lang="en-US">well</gloss>
+</entry>
+<entry>
+<word>יַ֫יִן</word>
+<display>יַ֫יִן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wine</gloss>
+</entry>
+<entry>
+<word>יָפֶה</word>
+<display>יָפֶה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fair</gloss>
+<gloss xml:lang="en-US">beautiful (m.)</gloss>
+</entry>
+<entry>
+<word>יָפָה</word>
+<display>יָפָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be fair</gloss>
+<gloss xml:lang="en-US">beautiful (f.)</gloss>
+</entry>
+<entry>
+<word>אוֹ</word>
+<display>אוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> or</gloss>
+</entry>
+</section>
+<section>
+<title>Exercise 42 (p. 245)</title>
+<entry>
+<word>חֹ֫דֶשׁ</word>
+<display>חֹ֫דֶשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> newness</gloss>
+<gloss xml:lang="en-US">new moon</gloss>
+<gloss xml:lang="en-US">month</gloss>
+</entry>
+<entry>
+<word>מְלָאכָה</word>
+<display>מְלָאכָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> occupation</gloss>
+<gloss xml:lang="en-US">work</gloss>
+</entry>
+<entry>
+<word>מְלָאכָה</word>
+<display>מְלֶ֫אכֶת</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> occupation</gloss>
+<gloss xml:lang="en-US">work (construct)</gloss>
+</entry>
+<entry>
+<word>מְלָאכָה</word>
+<display>מְלַאכְתִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> occupation</gloss>
+<gloss xml:lang="en-US">work (with suffix)</gloss>
+</entry>
+<entry>
+<word>שָׁנָה</word>
+<display>שָׁנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> year</gloss>
+</entry>
+<entry>
+<word>שָׁנָה</word>
+<display>שָׁנִים</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">year (pl.)</gloss>
+</entry>
+<entry>
+<word>נָשָׂא</word>
+<display>נָשָׂא</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> lift</gloss>
+<gloss xml:lang="en-US">carry</gloss>
+<gloss xml:lang="en-US">take</gloss>
+</entry>
+<entry>
+<word>קָרַב</word>
+<display>קָרַב</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> come near</gloss>
+<gloss xml:lang="en-US">approach</gloss>
+</entry>
+<entry>
+<word>מָרַד</word>
+<display>מָרַד</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> rebel</gloss>
+</entry>
+<entry>
+<word>אוּלַי</word>
+<display>אוּלַי</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">perhaps</gloss>
+</entry>
+<entry>
+<word>בַּעֲבוּר</word>
+<display>בַּעֲבוּר</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">because of</gloss>
+<gloss xml:lang="en-US">on account of</gloss>
+</entry>
+<entry>
+<word>לְמַ֫עַן</word>
+<display>לְמַ֫עַן</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">for the sake of</gloss>
+<gloss xml:lang="en-US">on account of</gloss>
+</entry>
+</section>
+</lbx-vocabulary-list>

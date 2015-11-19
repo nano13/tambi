@@ -1,0 +1,2630 @@
+<?xml version="1.0"?>
+<lbx-vocabulary-list name="Kairos: A Beginning Greek Grammar (F.J. Long)" category="VocabularyLists" xml:lang="el"><section>
+<title>Chapter 2 - Greek and Non-Greek Names</title>
+<entry>
+<word>Ἰάκωβος</word>
+<display>Ἰάκωβος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">James</gloss>
+</entry>
+<entry>
+<word>Παυ̑λος</word>
+<display>Παυ̑λος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Paul</gloss>
+</entry>
+<entry>
+<word>Πέτρος</word>
+<display>Πέτρος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Peter</gloss>
+</entry>
+<entry>
+<word>Πιλα̑τος</word>
+<display>Πιλα̑τος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Pilate</gloss>
+</entry>
+<entry>
+<word>Φαρισαι̑ος</word>
+<display>Φαρισαι̑ος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Pharisee</gloss>
+</entry>
+<entry>
+<word>Χριστός</word>
+<display>Χριστός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> the Anointed One</gloss>
+<gloss xml:lang="en-US">the Messiah</gloss>
+<gloss xml:lang="en-US">the Christ</gloss>
+</entry>
+<entry>
+<word>Ἀβραάμ</word>
+<display>Ἀβραάμ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Abraham</gloss>
+</entry>
+<entry>
+<word>Δαυίδ</word>
+<display>Δαυίδ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> David</gloss>
+</entry>
+<entry>
+<word>Ἰερουσαλέμ</word>
+<display>Ἰερουσαλέμ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Jerusalem</gloss>
+</entry>
+<entry>
+<word>Ἰσραήλ</word>
+<display>Ἰσραήλ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Israel</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 3 - Regular and Deponent Verbs</title>
+<entry>
+<word>βαπτίζω</word>
+<display>βαπτίζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">baptize</gloss>
+</entry>
+<entry>
+<word>βλέπω</word>
+<display>βλέπω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> see</gloss>
+</entry>
+<entry>
+<word>γράφω</word>
+<display>γράφω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> write</gloss>
+</entry>
+<entry>
+<word>διδάσκω</word>
+<display>διδάσκω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">teach</gloss>
+</entry>
+<entry>
+<word>δοξάζω</word>
+<display>δοξάζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> praise</gloss>
+<gloss xml:lang="en-US">honor</gloss>
+<gloss xml:lang="en-US">glorify</gloss>
+</entry>
+<entry>
+<word>εὐαγγελίζω</word>
+<display>εὐαγγελίζω or εὐαγγελίζομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">announce good news</gloss>
+<gloss xml:lang="en-US">proclaim the gospel</gloss>
+</entry>
+<entry>
+<word>εὑρίσκω</word>
+<display>εὑρίσκω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> find</gloss>
+</entry>
+<entry>
+<word>ἔχω</word>
+<display>ἔχω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> have</gloss>
+<gloss xml:lang="en-US">own</gloss>
+<gloss xml:lang="en-US">hold</gloss>
+</entry>
+<entry>
+<word>λέγω</word>
+<display>λέγω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">say</gloss>
+<gloss xml:lang="en-US">speak</gloss>
+</entry>
+<entry>
+<word>πέμπω</word>
+<display>πέμπω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> send</gloss>
+</entry>
+<entry>
+<word>σῴζω</word>
+<display>σῴζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> save</gloss>
+<gloss xml:lang="en-US">rescue</gloss>
+</entry>
+<entry>
+<word>οὐ</word>
+<display>οὐ, οὐκ, οὐχ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> no</gloss>
+<gloss xml:lang="en-US">not</gloss>
+</entry>
+<entry>
+<word>ἔρχομαι</word>
+<display>ἔρχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> come</gloss>
+<gloss xml:lang="en-US">go</gloss>
+</entry>
+<entry>
+<word>πορεύομαι</word>
+<display>πορεύομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go</gloss>
+</entry>
+<entry>
+<word>προσεύχομαι</word>
+<display>προσεύχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> pray</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 4 - First Declension Nouns and Some Conjunctions</title>
+<entry>
+<word>ἀλήθεια</word>
+<display>ἡ ἀλήθεια</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">truth</gloss>
+</entry>
+<entry>
+<word>βασιλεία</word>
+<display>ἡ βασιλεία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">rule</gloss>
+<gloss xml:lang="en-US">reign</gloss>
+<gloss xml:lang="en-US">kingdom</gloss>
+</entry>
+<entry>
+<word>δικαιοσύνη</word>
+<display>ἡ δικαιοσύνη</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">righteousness</gloss>
+</entry>
+<entry>
+<word>εἰρήνη</word>
+<display>ἡ εἰρήνη</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> peace</gloss>
+<gloss xml:lang="en-US">harmony</gloss>
+</entry>
+<entry>
+<word>ἐκκλησία</word>
+<display>ἡ ἐκκλησία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> assembly</gloss>
+<gloss xml:lang="en-US">church</gloss>
+</entry>
+<entry>
+<word>ἐντολή</word>
+<display>ἡ ἐντολή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">command</gloss>
+</entry>
+<entry>
+<word>ζωή</word>
+<display>ἡ ζωή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">life</gloss>
+</entry>
+<entry>
+<word>ἡμέρα</word>
+<display>ἡ ἡμέρα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">day</gloss>
+</entry>
+<entry>
+<word>Ἰουδαία</word>
+<display>ἡ Ἰουδαία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Judea</gloss>
+</entry>
+<entry>
+<word>παραβολή</word>
+<display>ἡ παραβολή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">illustration</gloss>
+<gloss xml:lang="en-US">parable</gloss>
+</entry>
+<entry>
+<word>Ἡρῴδης</word>
+<display>ὁ Ἡρῴδης, -ου</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Herod</gloss>
+</entry>
+<entry>
+<word>Ἰωάννης</word>
+<display>ὁ Ἰωάννης, -ου</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> John</gloss>
+</entry>
+<entry>
+<word>μαθητής</word>
+<display>ὁ μαθητής, -ου</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> pupil</gloss>
+<gloss xml:lang="en-US">disciple</gloss>
+<gloss xml:lang="en-US">adherent</gloss>
+</entry>
+<entry>
+<word>προφήτης</word>
+<display>ὁ προφήτης, -ου</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> prophet</gloss>
+</entry>
+<entry>
+<word>ἀλλά</word>
+<display>ἀλλά</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> but</gloss>
+</entry>
+<entry>
+<word>δέ</word>
+<display>δέ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> and</gloss>
+<gloss xml:lang="en-US">but</gloss>
+</entry>
+<entry>
+<word>καί</word>
+<display>καί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> and</gloss>
+<gloss xml:lang="en-US">also</gloss>
+<gloss xml:lang="en-US">likewise</gloss>
+</entry>
+<entry>
+<word>καί</word>
+<display>καί...καί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">both...and</gloss>
+</entry>
+<entry>
+<word>οὖν</word>
+<display>οὖν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> so</gloss>
+<gloss xml:lang="en-US">therefore</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 5 - The Second Declension and the Verb "to be"</title>
+<entry>
+<word>ἄγγελος</word>
+<display>ὁ ἄγγελος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">envoy</gloss>
+<gloss xml:lang="en-US">messenger</gloss>
+<gloss xml:lang="en-US">angel</gloss>
+</entry>
+<entry>
+<word>ἀδελφός</word>
+<display>ὁ ἀδελφός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> brother</gloss>
+</entry>
+<entry>
+<word>ἄνθρωπος</word>
+<display>ὁ ἄνθρωπος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">human being</gloss>
+</entry>
+<entry>
+<word>ἀπόστολος</word>
+<display>ὁ ἀπόστολος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">apostle</gloss>
+</entry>
+<entry>
+<word>διδάσκαλος</word>
+<display>ὁ διδάσκαλος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> teacher</gloss>
+</entry>
+<entry>
+<word>θεός</word>
+<display>ὁ θεός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">God</gloss>
+<gloss xml:lang="en-US">god</gloss>
+<gloss xml:lang="en-US">goddess </gloss>
+</entry>
+<entry>
+<word>Ἰησου̑ς</word>
+<display>ὁ Ἰησου̑ς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Joshua/Jesus</gloss>
+</entry>
+<entry>
+<word>κόσμος</word>
+<display>ὁ κόσμος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">world</gloss>
+</entry>
+<entry>
+<word>κύριος</word>
+<display>ὁ κύριος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">lord</gloss>
+<gloss xml:lang="en-US">master</gloss>
+</entry>
+<entry>
+<word>λόγος</word>
+<display>ὁ λόγος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> word</gloss>
+<gloss xml:lang="en-US">message</gloss>
+</entry>
+<entry>
+<word>νόμος</word>
+<display>ὁ νόμος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">law</gloss>
+<gloss xml:lang="en-US">rule</gloss>
+<gloss xml:lang="en-US">principle</gloss>
+</entry>
+<entry>
+<word>οὐρανός</word>
+<display>ὁ οὐρανός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> heaven</gloss>
+</entry>
+<entry>
+<word>υἱός</word>
+<display>ὁ υἱός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> son</gloss>
+</entry>
+<entry>
+<word>χριστός</word>
+<display>ὁ χριστός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">the Messiah</gloss>
+<gloss xml:lang="en-US">the Christ</gloss>
+</entry>
+<entry>
+<word>δαιμόνιον</word>
+<display>τὸ δαιμόνιον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">demon</gloss>
+<gloss xml:lang="en-US">evil spirit</gloss>
+</entry>
+<entry>
+<word>εὐαγγέλιον</word>
+<display>τὸ ευαγγέλιον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> good news</gloss>
+<gloss xml:lang="en-US">gospel</gloss>
+</entry>
+<entry>
+<word>τέκνον</word>
+<display>τὸ τέκνον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> child</gloss>
+</entry>
+<entry>
+<word>ὁδός</word>
+<display>ἡ ὁδός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> way</gloss>
+<gloss xml:lang="en-US">road</gloss>
+</entry>
+<entry>
+<word>εἰμί</word>
+<display>εἰμί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be</gloss>
+<gloss xml:lang="en-US">exist</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 6 - Prepositions and Compound Verbs</title>
+<entry>
+<word>ἀποκρίνομαι</word>
+<display>ἀποκρίνομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> answer</gloss>
+<gloss xml:lang="en-US">reply</gloss>
+</entry>
+<entry>
+<word>ἀπολύω</word>
+<display>ἀπολύω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> set free</gloss>
+<gloss xml:lang="en-US">release</gloss>
+<gloss xml:lang="en-US">pardon</gloss>
+<gloss xml:lang="en-US">send away</gloss>
+</entry>
+<entry>
+<word>ἀπέρχομαι</word>
+<display>ἀπέρχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go away</gloss>
+<gloss xml:lang="en-US">depart</gloss>
+</entry>
+<entry>
+<word>διέρχομαι</word>
+<display>διέρχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go through</gloss>
+</entry>
+<entry>
+<word>εἰσέρχομαι</word>
+<display>εἰσέρχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> enter</gloss>
+<gloss xml:lang="en-US">come into</gloss>
+</entry>
+<entry>
+<word>ἐξέρχομαι</word>
+<display>ἐξέρχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go out</gloss>
+</entry>
+<entry>
+<word>προσέρχομαι</word>
+<display>προσέρχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> come/go to</gloss>
+</entry>
+<entry>
+<word>ἀπό</word>
+<display>ἀπό, ἀφ', ἀπ'</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) from</gloss>
+</entry>
+<entry>
+<word>εἰς</word>
+<display>εἰς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(acc) into</gloss>
+</entry>
+<entry>
+<word>ἐκ</word>
+<display>ἐκ, ἐξ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) from</gloss>
+<gloss xml:lang="en-US">out of</gloss>
+</entry>
+<entry>
+<word>ἐν</word>
+<display>ἐν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(dat) in</gloss>
+<gloss xml:lang="en-US">among</gloss>
+</entry>
+<entry>
+<word>ἐνώπιον</word>
+<display>ἐνώπιον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) before</gloss>
+</entry>
+<entry>
+<word>πρός</word>
+<display>πρός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(acc) toward</gloss>
+<gloss xml:lang="en-US">with</gloss>
+</entry>
+<entry>
+<word>σύν</word>
+<display>σύν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(dat) with</gloss>
+</entry>
+<entry>
+<word>διά</word>
+<display>διά, δι'</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) through; (acc) because of</gloss>
+</entry>
+<entry>
+<word>ὑπό</word>
+<display>ὑπό, ὑφ', ὑπ'</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) by means of; (acc) under</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 7 - Adverbs and First and Second Declension Adjectives</title>
+<entry>
+<word>ἀκούω</word>
+<display>ἀκούω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> hear</gloss>
+<gloss xml:lang="en-US">listen to</gloss>
+</entry>
+<entry>
+<word>πιστεύω</word>
+<display>πιστεύω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> believe</gloss>
+<gloss xml:lang="en-US">trust</gloss>
+</entry>
+<entry>
+<word>ἔτι</word>
+<display>ἔτι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> yet</gloss>
+<gloss xml:lang="en-US">still</gloss>
+</entry>
+<entry>
+<word>νυ̑ν</word>
+<display>νυ̑ν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> now</gloss>
+</entry>
+<entry>
+<word>πάλιν</word>
+<display>πάλιν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">again</gloss>
+</entry>
+<entry>
+<word>ἀγαθός</word>
+<display>ἀγαθός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> useful</gloss>
+<gloss xml:lang="en-US">good</gloss>
+</entry>
+<entry>
+<word>ἄλλος</word>
+<display>ἄλλος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">other</gloss>
+<gloss xml:lang="en-US">another</gloss>
+</entry>
+<entry>
+<word>ἕκαστος</word>
+<display>ἕκαστος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> each</gloss>
+<gloss xml:lang="en-US">every</gloss>
+</entry>
+<entry>
+<word>καλός</word>
+<display>καλός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> beautiful</gloss>
+<gloss xml:lang="en-US">good</gloss>
+<gloss xml:lang="en-US">useful</gloss>
+</entry>
+<entry>
+<word>πιστός</word>
+<display>πιστός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> trustworthy</gloss>
+<gloss xml:lang="en-US">faithful</gloss>
+<gloss xml:lang="en-US">dependable</gloss>
+</entry>
+<entry>
+<word>πρω̑τος</word>
+<display>πρω̑τος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> first</gloss>
+<gloss xml:lang="en-US">earliest</gloss>
+<gloss xml:lang="en-US">above all</gloss>
+</entry>
+<entry>
+<word>ἅγιος</word>
+<display>ἅγιος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">holy</gloss>
+</entry>
+<entry>
+<word>δίκαιος</word>
+<display>δίκαιος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> upright</gloss>
+<gloss xml:lang="en-US">just</gloss>
+<gloss xml:lang="en-US">right</gloss>
+</entry>
+<entry>
+<word>ἕτερος</word>
+<display>ἕτερος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> other</gloss>
+<gloss xml:lang="en-US">another</gloss>
+<gloss xml:lang="en-US">different</gloss>
+</entry>
+<entry>
+<word>ἴδιος</word>
+<display>ἴδιος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> one’s own</gloss>
+</entry>
+<entry>
+<word>Ἰουδαι̑ος</word>
+<display>Ἰουδαι̑ος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Judean</gloss>
+</entry>
+<entry>
+<word>μακάριος</word>
+<display>μακάριος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fortunate</gloss>
+<gloss xml:lang="en-US">happy</gloss>
+<gloss xml:lang="en-US">blessed</gloss>
+</entry>
+<entry>
+<word>νεκρός</word>
+<display>νεκρός, -ά, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> dead</gloss>
+</entry>
+<entry>
+<word>πονηρός</word>
+<display>πονηρός, -ά, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wicked</gloss>
+<gloss xml:lang="en-US">evil</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 8 - More Verbs, Adverbs, Prepositions and Conjunctions</title>
+<entry>
+<word>ἄγω</word>
+<display>ἄγω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> lead</gloss>
+<gloss xml:lang="en-US">bring</gloss>
+</entry>
+<entry>
+<word>συνάγω</word>
+<display>συνάγω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> gather (in)</gloss>
+<gloss xml:lang="en-US">bring together</gloss>
+</entry>
+<entry>
+<word>ὑπάγω</word>
+<display>ὑπάγω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go away</gloss>
+</entry>
+<entry>
+<word>βάλλω</word>
+<display>βάλλω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> throw</gloss>
+</entry>
+<entry>
+<word>ἐκβάλλω</word>
+<display>ἐκβάλλω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> drive out</gloss>
+<gloss xml:lang="en-US">expel</gloss>
+</entry>
+<entry>
+<word>πάσχω</word>
+<display>πάσχω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">suffer</gloss>
+</entry>
+<entry>
+<word>φέρω</word>
+<display>φέρω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> carry</gloss>
+<gloss xml:lang="en-US">bear</gloss>
+<gloss xml:lang="en-US">bring</gloss>
+</entry>
+<entry>
+<word>προσφέρω</word>
+<display>προσφέρω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">offer</gloss>
+<gloss xml:lang="en-US">present</gloss>
+</entry>
+<entry>
+<word>ἤδη</word>
+<display>ἤδη</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> now</gloss>
+<gloss xml:lang="en-US">already</gloss>
+</entry>
+<entry>
+<word>πρω̑τον</word>
+<display>πρω̑τον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> before</gloss>
+</entry>
+<entry>
+<word>τότε</word>
+<display>τότε</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> at that time</gloss>
+<gloss xml:lang="en-US">then</gloss>
+</entry>
+<entry>
+<word>κατά</word>
+<display>κατά, κατ', καθ'</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) down from</gloss>
+<gloss xml:lang="en-US">against; (acc) according to</gloss>
+</entry>
+<entry>
+<word>μετά</word>
+<display>μετά, μετ', μεθ'</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) with; (acc) after</gloss>
+</entry>
+<entry>
+<word>περί</word>
+<display>περί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) about</gloss>
+<gloss xml:lang="en-US">concerning; (acc) about</gloss>
+<gloss xml:lang="en-US">around</gloss>
+</entry>
+<entry>
+<word>ὑπέρ</word>
+<display>ὑπέρ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) in behalf of</gloss>
+<gloss xml:lang="en-US">for the sake of</gloss>
+<gloss xml:lang="en-US">over; (acc) above</gloss>
+<gloss xml:lang="en-US">beyond</gloss>
+</entry>
+<entry>
+<word>γάρ</word>
+<display>γάρ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> for</gloss>
+</entry>
+<entry>
+<word>ὅτι</word>
+<display>ὅτι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">that</gloss>
+<gloss xml:lang="en-US">because</gloss>
+</entry>
+<entry>
+<word>εἰ</word>
+<display>εἰ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> if</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 9 - Personal and Relative Pronouns and More Second Declension Nouns</title>
+<entry>
+<word>ἐγώ</word>
+<display>ἐγώ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> I</gloss>
+</entry>
+<entry>
+<word>κἀγώ</word>
+<display>κἀγώ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> and I</gloss>
+<gloss xml:lang="en-US">but I</gloss>
+<gloss xml:lang="en-US">I also</gloss>
+</entry>
+<entry>
+<word>ἐγώ</word>
+<display>ἡμει̑ς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">we</gloss>
+</entry>
+<entry>
+<word>σύ</word>
+<display>σύ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> you (sg)</gloss>
+</entry>
+<entry>
+<word>σύ</word>
+<display>ὑμει̑ς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> you (pl)</gloss>
+</entry>
+<entry>
+<word>αὐτός</word>
+<display>αὐτός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">he</gloss>
+<gloss xml:lang="en-US">she</gloss>
+<gloss xml:lang="en-US">it</gloss>
+</entry>
+<entry>
+<word>αὐτός</word>
+<display>αὐτοί, -αί, -ά</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">they</gloss>
+</entry>
+<entry>
+<word>ὅς</word>
+<display>ὅς, ἥ, ὅ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> who</gloss>
+<gloss xml:lang="en-US">which</gloss>
+</entry>
+<entry>
+<word>ἄρτος</word>
+<display>ὁ ἄρτος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> bread</gloss>
+<gloss xml:lang="en-US">loaf</gloss>
+</entry>
+<entry>
+<word>δου̑λος</word>
+<display>ὁ δου̑λος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">servant</gloss>
+<gloss xml:lang="en-US">slave</gloss>
+</entry>
+<entry>
+<word>ἔργον</word>
+<display>τὸ ἔργον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">deed</gloss>
+<gloss xml:lang="en-US">action</gloss>
+<gloss xml:lang="en-US">work</gloss>
+</entry>
+<entry>
+<word>θάνατος</word>
+<display>ὁ θάνατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> death</gloss>
+</entry>
+<entry>
+<word>καιρός</word>
+<display>ὁ καιρός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> time</gloss>
+<gloss xml:lang="en-US">period</gloss>
+</entry>
+<entry>
+<word>λαός</word>
+<display>ὁ λαός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> people</gloss>
+</entry>
+<entry>
+<word>οἶκος</word>
+<display>ὁ οἶκος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> house</gloss>
+</entry>
+<entry>
+<word>ὀφθαλμός</word>
+<display>ὁ οφθαλμός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> eye</gloss>
+</entry>
+<entry>
+<word>ὄχλος</word>
+<display>ὁ ὄχλος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> crowd</gloss>
+</entry>
+<entry>
+<word>τόπος</word>
+<display>ὁ τόπος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> place</gloss>
+<gloss xml:lang="en-US">location</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 10 - More Verbs and Prepositions; also οἶδα</title>
+<entry>
+<word>ἀνοίγω</word>
+<display>ἀνοίγω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> open</gloss>
+</entry>
+<entry>
+<word>διώκω</word>
+<display>διώκω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">run</gloss>
+<gloss xml:lang="en-US">persecute</gloss>
+<gloss xml:lang="en-US">pursue</gloss>
+</entry>
+<entry>
+<word>ἐγγίζω</word>
+<display>ἐγγίζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> draw near</gloss>
+<gloss xml:lang="en-US">come near</gloss>
+<gloss xml:lang="en-US">approach</gloss>
+</entry>
+<entry>
+<word>ἑτοιμάζω</word>
+<display>ἑτοιμάζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> put/keep in readiness</gloss>
+<gloss xml:lang="en-US">prepare</gloss>
+</entry>
+<entry>
+<word>θαυμάζω</word>
+<display>θαυμάζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wonder</gloss>
+<gloss xml:lang="en-US">be amazed,</gloss>
+</entry>
+<entry>
+<word>θεραπεύω</word>
+<display>θεραθεύω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> serve</gloss>
+<gloss xml:lang="en-US">heal</gloss>
+<gloss xml:lang="en-US">restore</gloss>
+</entry>
+<entry>
+<word>καθίζω</word>
+<display>καθίζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> seat</gloss>
+<gloss xml:lang="en-US">set</gloss>
+<gloss xml:lang="en-US">sit down</gloss>
+<gloss xml:lang="en-US">stay</gloss>
+</entry>
+<entry>
+<word>κηρύσσω</word>
+<display>κηρύσσω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> announce</gloss>
+<gloss xml:lang="en-US">make known</gloss>
+<gloss xml:lang="en-US">proclaim aloud</gloss>
+</entry>
+<entry>
+<word>κλαίω</word>
+<display>κλαίω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> weep</gloss>
+<gloss xml:lang="en-US">cry</gloss>
+<gloss xml:lang="en-US">bewail</gloss>
+</entry>
+<entry>
+<word>κράζω</word>
+<display>κράζω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> cry out</gloss>
+<gloss xml:lang="en-US">call out</gloss>
+</entry>
+<entry>
+<word>λύω</word>
+<display>λύω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> loose</gloss>
+<gloss xml:lang="en-US">untie</gloss>
+<gloss xml:lang="en-US">destroy</gloss>
+</entry>
+<entry>
+<word>πείθω</word>
+<display>πείθω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">persuade</gloss>
+</entry>
+<entry>
+<word>ἐπί</word>
+<display>ἐπί, ἐπ', ἐφ'</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) on</gloss>
+<gloss xml:lang="en-US">over; (dat) on</gloss>
+<gloss xml:lang="en-US">at</gloss>
+<gloss xml:lang="en-US">in; (acc) on</gloss>
+<gloss xml:lang="en-US">to</gloss>
+<gloss xml:lang="en-US">for</gloss>
+</entry>
+<entry>
+<word>παρά</word>
+<display>παρά, παρ'</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) from; (dat) beside</gloss>
+<gloss xml:lang="en-US">with; (acc) at</gloss>
+<gloss xml:lang="en-US">along</gloss>
+</entry>
+<entry>
+<word>οἶδα</word>
+<display>οἶδα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">know</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 11 - 2nd Aorist Verbs</title>
+<entry>
+<word>ἀναβαίνω</word>
+<display>ἀναβαίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> go up</gloss>
+<gloss xml:lang="en-US">ascend</gloss>
+</entry>
+<entry>
+<word>καταβαίνω</word>
+<display>καταβαίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> come/go/climb down</gloss>
+</entry>
+<entry>
+<word>ἀποθνῄσκω</word>
+<display>ἀποθνῄσκω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> die</gloss>
+</entry>
+<entry>
+<word>γίνομαι</word>
+<display>γίνομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">come</gloss>
+<gloss xml:lang="en-US">happen</gloss>
+<gloss xml:lang="en-US">become</gloss>
+</entry>
+<entry>
+<word>γινώσκω</word>
+<display>γινώσκω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> know</gloss>
+<gloss xml:lang="en-US">understand</gloss>
+</entry>
+<entry>
+<word>ἐπιγινώσκω</word>
+<display>ἐπιγινώσκω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">perceive</gloss>
+<gloss xml:lang="en-US">understand</gloss>
+</entry>
+<entry>
+<word>ἐσθίω</word>
+<display>ἐσθίω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> eat</gloss>
+</entry>
+<entry>
+<word>λαμβάνω</word>
+<display>λαμβάνω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> take</gloss>
+<gloss xml:lang="en-US">receive</gloss>
+</entry>
+<entry>
+<word>παραλαμβάνω</word>
+<display>παραλαμβάνω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">take with/along</gloss>
+</entry>
+<entry>
+<word>ὁράω</word>
+<display>ὁράω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">perceive</gloss>
+<gloss xml:lang="en-US">see</gloss>
+<gloss xml:lang="en-US">understand</gloss>
+</entry>
+<entry>
+<word>πίνω</word>
+<display>πίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> drink</gloss>
+</entry>
+<entry>
+<word>πίπτω</word>
+<display>πίπτω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fall</gloss>
+</entry>
+<entry>
+<word>ἕως</word>
+<display>ἕως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) until</gloss>
+<gloss xml:lang="en-US">as long as</gloss>
+<gloss xml:lang="en-US">as far as; (conj) while</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 12 - Third Declension Nouns, More Adjectives, and Demonstrative Pronouns</title>
+<entry>
+<word>αἰών</word>
+<display>ὁ αἰών, αἰω̑νος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">age</gloss>
+</entry>
+<entry>
+<word>ἀνήρ</word>
+<display>ὁ ἀνήρ, ἀνδρός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> man</gloss>
+<gloss xml:lang="en-US">husband</gloss>
+</entry>
+<entry>
+<word>ἄρχων</word>
+<display>ὁ ἄρχων, ἄρχοντος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> ruler</gloss>
+</entry>
+<entry>
+<word>πατήρ</word>
+<display>ὁ πατήρ, πατρός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">father</gloss>
+</entry>
+<entry>
+<word>που̑ς</word>
+<display>ὁ που̑ς, ποδός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> foot</gloss>
+</entry>
+<entry>
+<word>Σίμων</word>
+<display>ὁ Σίμων, Σίμονος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Simon</gloss>
+</entry>
+<entry>
+<word>πυ̑ρ</word>
+<display>τὸ πυ̑ρ, πυρός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> fire</gloss>
+</entry>
+<entry>
+<word>ὕδωρ</word>
+<display>τὸ ὕδωρ, ὕδατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> water</gloss>
+</entry>
+<entry>
+<word>φω̑ς</word>
+<display>τὸ φω̑ς, φωτός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> light</gloss>
+</entry>
+<entry>
+<word>εἷς</word>
+<display>εἷς, μία, ἕν (gen = ἑνός, μίας, ἑνός)</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> one</gloss>
+</entry>
+<entry>
+<word>οὐδείς</word>
+<display>οὐδείς, οὐδεμία, οὐδέν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">no one</gloss>
+</entry>
+<entry>
+<word>μέγας</word>
+<display>μέγας, μεγάλη, μέγα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> large</gloss>
+<gloss xml:lang="en-US">great</gloss>
+</entry>
+<entry>
+<word>ὅλος</word>
+<display>ὅλος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> whole</gloss>
+<gloss xml:lang="en-US">entire</gloss>
+<gloss xml:lang="en-US">complete</gloss>
+</entry>
+<entry>
+<word>πα̑ς</word>
+<display>πα̑ς, πα̑σα, πα̑ν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> each</gloss>
+<gloss xml:lang="en-US">every</gloss>
+<gloss xml:lang="en-US">all</gloss>
+</entry>
+<entry>
+<word>πολύς</word>
+<display>πολύς, πολλή, πολύ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> many</gloss>
+<gloss xml:lang="en-US">much</gloss>
+</entry>
+<entry>
+<word>ἐκει̑νος</word>
+<display>ἐκει̑νος, -η, -ο</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> that</gloss>
+<gloss xml:lang="en-US">those</gloss>
+</entry>
+<entry>
+<word>οὗτος</word>
+<display>οὗτος, αὕτη, του̑το</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> this</gloss>
+<gloss xml:lang="en-US">these</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 13 - Third Declension Nouns</title>
+<entry>
+<word>γυνή</word>
+<display>ἡ γυνή, γυναικός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> woman</gloss>
+<gloss xml:lang="en-US">wife</gloss>
+</entry>
+<entry>
+<word>ἐλπίς</word>
+<display>ἡ ἐλπίς, ἐλπίδος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> hope</gloss>
+<gloss xml:lang="en-US">expectation</gloss>
+</entry>
+<entry>
+<word>μήτηρ</word>
+<display>ἡ ματήρ, μήτρος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> mother</gloss>
+</entry>
+<entry>
+<word>νύξ</word>
+<display>ἡ νύξ, νυκτός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> night</gloss>
+</entry>
+<entry>
+<word>σάρξ</word>
+<display>ἡ σάρξ, σαρκός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> flesh</gloss>
+</entry>
+<entry>
+<word>χάρις</word>
+<display>ἡ χάρις, χάριτος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> favor</gloss>
+<gloss xml:lang="en-US">grace</gloss>
+<gloss xml:lang="en-US">gracious deed/gift</gloss>
+<gloss xml:lang="en-US">thanks</gloss>
+</entry>
+<entry>
+<word>χει̑ρ</word>
+<display>ἡ χει̑ρ, χειρός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> hand</gloss>
+</entry>
+<entry>
+<word>αἷμα</word>
+<display>τὸ αἷμα, -ατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> blood</gloss>
+</entry>
+<entry>
+<word>θέλημα</word>
+<display>τὸ θέλημα, -ατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">will</gloss>
+</entry>
+<entry>
+<word>ὄνομα</word>
+<display>τὸ ὄνομα, -ατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> name</gloss>
+</entry>
+<entry>
+<word>πνευ̑μα</word>
+<display>τὸ πνευ̑μα, πνεύματος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">spirit</gloss>
+<gloss xml:lang="en-US">(Holy) Spirit</gloss>
+</entry>
+<entry>
+<word>ῥη̑μα</word>
+<display>τὸ ῥη̑μα, -ατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> word</gloss>
+</entry>
+<entry>
+<word>σπέρμα</word>
+<display>τὸ σπέρμα, -ατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> seed</gloss>
+<gloss xml:lang="en-US">descendants</gloss>
+</entry>
+<entry>
+<word>στόμα</word>
+<display>τὸ στόμα, -ατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> mouth</gloss>
+</entry>
+<entry>
+<word>σω̑μα</word>
+<display>τὸ σω̑μα, -ατος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> body</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 14 - Interrogative and Indefinite Pronouns; More Adjectives and Non-Declinable Adjectives</title>
+<entry>
+<word>τίς</word>
+<display>τίς, τί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> who? which (one)? what? why?</gloss>
+</entry>
+<entry>
+<word>τις</word>
+<display>τις, τι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">someone</gloss>
+<gloss xml:lang="en-US">a certain one</gloss>
+</entry>
+<entry>
+<word>ἀγαπητός</word>
+<display>ἀγαπητός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">beloved</gloss>
+<gloss xml:lang="en-US">dear</gloss>
+</entry>
+<entry>
+<word>αἰώνιος</word>
+<display>αἰώνιος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">eternal</gloss>
+<gloss xml:lang="en-US">without end</gloss>
+</entry>
+<entry>
+<word>δεξιός</word>
+<display>δεξιός, -ά, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> right (vs. left)</gloss>
+</entry>
+<entry>
+<word>ἔσχατος</word>
+<display>ἔσχατος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">last</gloss>
+<gloss xml:lang="en-US">end</gloss>
+</entry>
+<entry>
+<word>κακός</word>
+<display>κακός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> bad</gloss>
+<gloss xml:lang="en-US">evil</gloss>
+</entry>
+<entry>
+<word>λοιπός</word>
+<display>λοιπός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">rest</gloss>
+<gloss xml:lang="en-US">remaining</gloss>
+</entry>
+<entry>
+<word>μέσος</word>
+<display>μέσος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> middle</gloss>
+</entry>
+<entry>
+<word>μόνος</word>
+<display>μόνος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> only</gloss>
+<gloss xml:lang="en-US">alone</gloss>
+</entry>
+<entry>
+<word>πρεσβύτερος</word>
+<display>πρεσβύτερος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">elder</gloss>
+</entry>
+<entry>
+<word>τυφλός</word>
+<display>τυφλός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> blind</gloss>
+</entry>
+<entry>
+<word>μή</word>
+<display>μή or μήτι...;</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> no</gloss>
+</entry>
+<entry>
+<word>οὐ</word>
+<display>οὐ or οὐχί...;</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> no</gloss>
+</entry>
+<entry>
+<word>ἤ</word>
+<display>ἤ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> or</gloss>
+<gloss xml:lang="en-US">than</gloss>
+<gloss xml:lang="en-US">rather than</gloss>
+</entry>
+<entry>
+<word>που̑</word>
+<display>που̑</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> where(?)</gloss>
+<gloss xml:lang="en-US">at which place(?)</gloss>
+</entry>
+<entry>
+<word>πω̑ς</word>
+<display>πω̑ς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> in what way? how?</gloss>
+</entry>
+<entry>
+<word>δυό</word>
+<display>δυό (δυσί = dat. pl.)</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> two</gloss>
+</entry>
+<entry>
+<word>τρεὶς</word>
+<display>τρεὶς (M/F), τρία (N)</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> three</gloss>
+</entry>
+<entry>
+<word>τέσσαρες</word>
+<display>τέσσαρες (M/F), τέσσαρα (N)</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> four</gloss>
+</entry>
+<entry>
+<word>ἑπτά</word>
+<display>ἑπτά</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> seven</gloss>
+</entry>
+<entry>
+<word>δώδεκα</word>
+<display>δώδεκα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> twelve</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 15 - More First Declension Nouns; Interjections and Adverbs</title>
+<entry>
+<word>ἀγαπή</word>
+<display>ἡ ἀγαπή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">love</gloss>
+</entry>
+<entry>
+<word>ἁμαρτία</word>
+<display>ἡ ἁμαρτία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sin</gloss>
+</entry>
+<entry>
+<word>Γαλιλαία</word>
+<display>ἡ Γαλαλία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Galilee</gloss>
+</entry>
+<entry>
+<word>γενεά</word>
+<display>ἡ γενεά</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> race</gloss>
+<gloss xml:lang="en-US">kind</gloss>
+<gloss xml:lang="en-US">generation</gloss>
+</entry>
+<entry>
+<word>γη̑</word>
+<display>ἡ γη̑</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> earth</gloss>
+<gloss xml:lang="en-US">land</gloss>
+</entry>
+<entry>
+<word>δόξα</word>
+<display>ἡ δόξα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">splendor</gloss>
+<gloss xml:lang="en-US">radiance</gloss>
+<gloss xml:lang="en-US">glory</gloss>
+</entry>
+<entry>
+<word>ἐξουσία</word>
+<display>ἡ ἐξουσία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">power</gloss>
+<gloss xml:lang="en-US">authority</gloss>
+</entry>
+<entry>
+<word>θάλασσα</word>
+<display>ἡ θάλασσα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sea</gloss>
+<gloss xml:lang="en-US">lake</gloss>
+</entry>
+<entry>
+<word>καρδία</word>
+<display>ἡ καρδία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> heart</gloss>
+</entry>
+<entry>
+<word>κεφαλή</word>
+<display>ἡ κεφαλή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> head</gloss>
+</entry>
+<entry>
+<word>οἰκία</word>
+<display>ἡ οἰκία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> house</gloss>
+<gloss xml:lang="en-US">household</gloss>
+<gloss xml:lang="en-US">family</gloss>
+</entry>
+<entry>
+<word>φυλακή</word>
+<display>ἡ φυλακή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">guard</gloss>
+<gloss xml:lang="en-US">prison</gloss>
+</entry>
+<entry>
+<word>φωνή</word>
+<display>ἡ φωνή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sound</gloss>
+<gloss xml:lang="en-US">tone</gloss>
+<gloss xml:lang="en-US">noise</gloss>
+</entry>
+<entry>
+<word>ψυχή</word>
+<display>ἡ ψυχή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">life</gloss>
+<gloss xml:lang="en-US">soul</gloss>
+<gloss xml:lang="en-US">mind</gloss>
+</entry>
+<entry>
+<word>ὥρα</word>
+<display>ἡ ὥρα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">hour</gloss>
+</entry>
+<entry>
+<word>μέν</word>
+<display>μέν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">indeed</gloss>
+</entry>
+<entry>
+<word>μέν</word>
+<display>μέν...δέ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">on the one hand...and on the other hand</gloss>
+</entry>
+<entry>
+<word>οὐδέ</word>
+<display>οὐδέ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> and not</gloss>
+<gloss xml:lang="en-US">nor</gloss>
+<gloss xml:lang="en-US">not either</gloss>
+</entry>
+<entry>
+<word>οὔτε</word>
+<display>οὔτε...οὔτε</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">neither...nor</gloss>
+<gloss xml:lang="en-US">not even</gloss>
+</entry>
+<entry>
+<word>τέ</word>
+<display>τέ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> and</gloss>
+<gloss xml:lang="en-US">both</gloss>
+</entry>
+<entry>
+<word>τε</word>
+<display>τε καί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">both and</gloss>
+</entry>
+<entry>
+<word>ἀμήν</word>
+<display>ἀμήν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> let it be so</gloss>
+<gloss xml:lang="en-US">truly</gloss>
+<gloss xml:lang="en-US">amen</gloss>
+</entry>
+<entry>
+<word>ἰδού</word>
+<display>ἰδού</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Behold! Look! See!</gloss>
+</entry>
+<entry>
+<word>οὐαί</word>
+<display>οὐαί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">Woe! Alas!</gloss>
+</entry>
+<entry>
+<word>ἐκει̑</word>
+<display>ἐκει̑</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> there</gloss>
+<gloss xml:lang="en-US">in that place</gloss>
+</entry>
+<entry>
+<word>οὕτως</word>
+<display>οὕτως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> in this manner</gloss>
+<gloss xml:lang="en-US">thus</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 16 - Last of the Third Declension</title>
+<entry>
+<word>ἀνάστασις</word>
+<display>ἡ ἀνάστασις, -εως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">resurrection</gloss>
+</entry>
+<entry>
+<word>δύναμις</word>
+<display>ἡ δύναμις, -εως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">strength</gloss>
+<gloss xml:lang="en-US">power</gloss>
+<gloss xml:lang="en-US">miracle</gloss>
+</entry>
+<entry>
+<word>θλι̑ψις</word>
+<display>ἡ θλι̑ψις, -εως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> oppression</gloss>
+<gloss xml:lang="en-US">affliction</gloss>
+<gloss xml:lang="en-US">tribulation</gloss>
+</entry>
+<entry>
+<word>κρίσις</word>
+<display>ἡ κρίσις, -εως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">judgment</gloss>
+</entry>
+<entry>
+<word>πίστις</word>
+<display>ἡ πίστις, -εως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> faithfulness</gloss>
+<gloss xml:lang="en-US">faith</gloss>
+</entry>
+<entry>
+<word>πόλις</word>
+<display>ἡ πόλις, -εως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> city</gloss>
+<gloss xml:lang="en-US">town</gloss>
+</entry>
+<entry>
+<word>ἔθνος</word>
+<display>τὸ ἔθνος, ἔθνους</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> nation</gloss>
+<gloss xml:lang="en-US">people</gloss>
+<gloss xml:lang="en-US">gentiles</gloss>
+</entry>
+<entry>
+<word>ἔτος</word>
+<display>τὸ ἔτος, ἔτους</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> year</gloss>
+</entry>
+<entry>
+<word>μέρος</word>
+<display>τὸ μέρος, μέρους</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> part</gloss>
+<gloss xml:lang="en-US">share</gloss>
+</entry>
+<entry>
+<word>ὄρος</word>
+<display>τὸ ὄρος, ὄρους</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> mountain</gloss>
+<gloss xml:lang="en-US">mount</gloss>
+<gloss xml:lang="en-US">hill</gloss>
+</entry>
+<entry>
+<word>τέλος</word>
+<display>τὸ τέλος, τέλους</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> end</gloss>
+<gloss xml:lang="en-US">cessation</gloss>
+<gloss xml:lang="en-US">goal</gloss>
+</entry>
+<entry>
+<word>ἀρχιερεύς</word>
+<display>ὁ ἀρχιερεύς, -έως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> high priest</gloss>
+</entry>
+<entry>
+<word>βασιλεύς</word>
+<display>ὁ βασιλεύς, -έως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> king</gloss>
+</entry>
+<entry>
+<word>γραμματεύς</word>
+<display>ὁ γραμματεύς, -έως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> secretary</gloss>
+<gloss xml:lang="en-US">clerk</gloss>
+<gloss xml:lang="en-US">scribe</gloss>
+</entry>
+<entry>
+<word>Μωϋσῆς</word>
+<display>ὁ Μωϋσῆς, -έως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Moses</gloss>
+</entry>
+<entry>
+<word>Ἰούδας</word>
+<display>ὁ Ἰούδας, -α</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> Judas</gloss>
+</entry>
+<entry>
+<word>ὅπου</word>
+<display>ὅπου</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> where</gloss>
+</entry>
+<entry>
+<word>ὅτε</word>
+<display>ὅτε</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> when</gloss>
+</entry>
+<entry>
+<word>ὡς</word>
+<display>ὡς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> as</gloss>
+<gloss xml:lang="en-US">according as</gloss>
+<gloss xml:lang="en-US">while</gloss>
+</entry>
+<entry>
+<word>καθώς</word>
+<display>καθώς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">as</gloss>
+<gloss xml:lang="en-US">according as</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 17 - More First Declension Nouns</title>
+<entry>
+<word>ἀρχή</word>
+<display>ἡ ἀρχή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> beginning</gloss>
+</entry>
+<entry>
+<word>γλω̑σσα</word>
+<display>ἡ γλω̑σσα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> tongue</gloss>
+<gloss xml:lang="en-US">language</gloss>
+</entry>
+<entry>
+<word>γραφή</word>
+<display>ἡ γραφή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> writing</gloss>
+<gloss xml:lang="en-US">scripture</gloss>
+</entry>
+<entry>
+<word>ἐπαγγελία</word>
+<display>ἡ ἐπαγγελία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> promise</gloss>
+</entry>
+<entry>
+<word>σοφία</word>
+<display>ἡ σοφία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wisdom</gloss>
+</entry>
+<entry>
+<word>συναγωγή</word>
+<display>ἡ συναγωγή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> gathering place</gloss>
+<gloss xml:lang="en-US">synagogue</gloss>
+</entry>
+<entry>
+<word>σωτηρία</word>
+<display>ἡ σωτηρία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> deliverance</gloss>
+<gloss xml:lang="en-US">preservation</gloss>
+<gloss xml:lang="en-US">salvation,</gloss>
+</entry>
+<entry>
+<word>τιμή</word>
+<display>ἡ τιμή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> price</gloss>
+<gloss xml:lang="en-US">value</gloss>
+<gloss xml:lang="en-US">honor</gloss>
+</entry>
+<entry>
+<word>χαρά</word>
+<display>ἡ χαρά</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> joy</gloss>
+</entry>
+<entry>
+<word>χρεία</word>
+<display>ἡ χρεία</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> need</gloss>
+</entry>
+<entry>
+<word>ὑπάρχω</word>
+<display>ὑπάρχω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> exist</gloss>
+</entry>
+<entry>
+<word>μή</word>
+<display>μή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> no</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 18 - More Second Declension Nouns</title>
+<entry>
+<word>θηρίον</word>
+<display>τὸ θηρίον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> animal</gloss>
+<gloss xml:lang="en-US">beast</gloss>
+</entry>
+<entry>
+<word>ἱερόν</word>
+<display>τὸ ἱερόν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sanctuary</gloss>
+<gloss xml:lang="en-US">temple</gloss>
+</entry>
+<entry>
+<word>ἱμάτιον</word>
+<display>τὸ ἱμάτιον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> clothing</gloss>
+<gloss xml:lang="en-US">apparel</gloss>
+</entry>
+<entry>
+<word>μνημει̑ον</word>
+<display>τὸ μνημει̑ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> monument</gloss>
+<gloss xml:lang="en-US">memorial</gloss>
+<gloss xml:lang="en-US">grave</gloss>
+<gloss xml:lang="en-US">tomb</gloss>
+</entry>
+<entry>
+<word>παιδίον</word>
+<display>τὸ παιδίον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> child</gloss>
+</entry>
+<entry>
+<word>πλοι̑ον</word>
+<display>τὸ πλοι̑ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">boat</gloss>
+</entry>
+<entry>
+<word>πρόσωπον</word>
+<display>τὸ πρόσωπον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> face</gloss>
+</entry>
+<entry>
+<word>σάββατον</word>
+<display>τὸ σάββατον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sabbath</gloss>
+<gloss xml:lang="en-US">week</gloss>
+</entry>
+<entry>
+<word>σημει̑ον</word>
+<display>τὸ σημει̑ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sign</gloss>
+<gloss xml:lang="en-US">miracle</gloss>
+</entry>
+<entry>
+<word>θρόνος</word>
+<display>ὁ θρόνος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">throne</gloss>
+</entry>
+<entry>
+<word>κάρπος</word>
+<display>ὁ κάρπος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">fruit</gloss>
+</entry>
+<entry>
+<word>λίθος</word>
+<display>ὁ λίθος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> stone</gloss>
+</entry>
+<entry>
+<word>ναός</word>
+<display>ὁ ναός</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> temple</gloss>
+</entry>
+<entry>
+<word>φόβος</word>
+<display>ὁ φόβος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">fear</gloss>
+</entry>
+<entry>
+<word>χρόνος</word>
+<display>ὁ χρόνος</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> time</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 19 - Special Pronouns</title>
+<entry>
+<word>ἐμαυτου̑</word>
+<display>ἐμαυτου̑</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> myself</gloss>
+</entry>
+<entry>
+<word>σεαυτου̑</word>
+<display>σεαυτου̑</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> yourself</gloss>
+</entry>
+<entry>
+<word>ἑαυτου̑</word>
+<display>ἑαυτου̑</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">himself</gloss>
+<gloss xml:lang="en-US">herself</gloss>
+<gloss xml:lang="en-US">itself</gloss>
+</entry>
+<entry>
+<word>ὅστις</word>
+<display>ὅστις, ἥτις, ὅτι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> whoever</gloss>
+<gloss xml:lang="en-US">whatever</gloss>
+</entry>
+<entry>
+<word>ἀλλήλων</word>
+<display>ἀλλήλων</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">one another</gloss>
+</entry>
+<entry>
+<word>ἐμός</word>
+<display>ἐμός, ἐμή, ἐμόν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> my</gloss>
+<gloss xml:lang="en-US">mine</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 20 - Contract Verbs</title>
+<entry>
+<word>αἰτέω</word>
+<display>αἰτέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> ask</gloss>
+<gloss xml:lang="en-US">demand</gloss>
+</entry>
+<entry>
+<word>ἀκολουθέω</word>
+<display>ἀκολουθέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> come after</gloss>
+<gloss xml:lang="en-US">follow</gloss>
+</entry>
+<entry>
+<word>δοκέω</word>
+<display>δοκέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> think</gloss>
+<gloss xml:lang="en-US">believe</gloss>
+<gloss xml:lang="en-US">suppose</gloss>
+</entry>
+<entry>
+<word>ζητέω</word>
+<display>ζητέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> seek</gloss>
+<gloss xml:lang="en-US">look for</gloss>
+</entry>
+<entry>
+<word>θεωρέω</word>
+<display>θεωρέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">perceive</gloss>
+<gloss xml:lang="en-US">see</gloss>
+</entry>
+<entry>
+<word>καλέω</word>
+<display>καλέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> call</gloss>
+</entry>
+<entry>
+<word>λαλέω</word>
+<display>λαλέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">talk</gloss>
+<gloss xml:lang="en-US">speak,</gloss>
+</entry>
+<entry>
+<word>μαρτυρέω</word>
+<display>μαρτυρέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> bear witness</gloss>
+<gloss xml:lang="en-US">testify</gloss>
+</entry>
+<entry>
+<word>παρακαλέω</word>
+<display>παρακαλέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">exhort</gloss>
+<gloss xml:lang="en-US">comfort</gloss>
+<gloss xml:lang="en-US">encourage</gloss>
+</entry>
+<entry>
+<word>περιπατέω</word>
+<display>περιπατέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">walk</gloss>
+<gloss xml:lang="en-US">behave</gloss>
+<gloss xml:lang="en-US">live</gloss>
+</entry>
+<entry>
+<word>ποιέω</word>
+<display>ποιέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> make</gloss>
+<gloss xml:lang="en-US">do</gloss>
+</entry>
+<entry>
+<word>προσκυνέω</word>
+<display>προσκυνέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> (fall down and) worship</gloss>
+</entry>
+<entry>
+<word>τηρέω</word>
+<display>τηρέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> keep watch over</gloss>
+<gloss xml:lang="en-US">obey</gloss>
+</entry>
+<entry>
+<word>φοβέω</word>
+<display>φοβέω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be afraid</gloss>
+<gloss xml:lang="en-US">fear</gloss>
+</entry>
+<entry>
+<word>ἀγαπάω</word>
+<display>ἀγαπάω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">love</gloss>
+</entry>
+<entry>
+<word>γεννάω</word>
+<display>γεννάω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">bear</gloss>
+<gloss xml:lang="en-US">bring forth</gloss>
+<gloss xml:lang="en-US">produce</gloss>
+</entry>
+<entry>
+<word>ἐπερωτάω</word>
+<display>ἐπερωτάω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> ask</gloss>
+</entry>
+<entry>
+<word>ἐρωτάω</word>
+<display>ἐρωτάω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> ask</gloss>
+</entry>
+<entry>
+<word>ζάω</word>
+<display>ζάω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> live</gloss>
+</entry>
+<entry>
+<word>πληρόω</word>
+<display>πληρόω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">fill (up)</gloss>
+<gloss xml:lang="en-US">complete</gloss>
+<gloss xml:lang="en-US">fulfill</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 21 - Liquid Verbs</title>
+<entry>
+<word>αἴρω</word>
+<display>αἴρω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">pick up</gloss>
+<gloss xml:lang="en-US">take/carry (along)</gloss>
+<gloss xml:lang="en-US">raise</gloss>
+</entry>
+<entry>
+<word>ἀπαγγέλλω</word>
+<display>ἀπαγγέλλω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> report (back)</gloss>
+<gloss xml:lang="en-US">announce</gloss>
+<gloss xml:lang="en-US">tell</gloss>
+<gloss xml:lang="en-US">proclaim</gloss>
+</entry>
+<entry>
+<word>ἀποκτείνω</word>
+<display>ἀποκτείνω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> kill</gloss>
+<gloss xml:lang="en-US">put to death</gloss>
+<gloss xml:lang="en-US">eliminate</gloss>
+</entry>
+<entry>
+<word>ἀποστέλλω</word>
+<display>ἀποστέλλω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> send away/out</gloss>
+</entry>
+<entry>
+<word>ἐγείρω</word>
+<display>ἐγείρω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">raise up</gloss>
+</entry>
+<entry>
+<word>κρίνω</word>
+<display>κρίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">judge</gloss>
+<gloss xml:lang="en-US">condemn</gloss>
+</entry>
+<entry>
+<word>μένω</word>
+<display>μένω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> remain</gloss>
+<gloss xml:lang="en-US">stay</gloss>
+</entry>
+<entry>
+<word>σπείρω</word>
+<display>σπείρω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sow seed</gloss>
+<gloss xml:lang="en-US">scatter</gloss>
+<gloss xml:lang="en-US">disperse</gloss>
+</entry>
+<entry>
+<word>χαίρω</word>
+<display>χαίρω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> rejoice</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 22 - Adjectives, Conjunctions, and Adverbs</title>
+<entry>
+<word>ἁμαρτωλός</word>
+<display>ἁμαρτωλός, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">sinful</gloss>
+<gloss xml:lang="en-US">sinner</gloss>
+</entry>
+<entry>
+<word>ἄξιος</word>
+<display>ἄξιος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">worthy</gloss>
+</entry>
+<entry>
+<word>δεύτερος</word>
+<display>δεύτερος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> second</gloss>
+</entry>
+<entry>
+<word>ἔρημος</word>
+<display>ἔρημος, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">desolate</gloss>
+<gloss xml:lang="en-US">desert</gloss>
+<gloss xml:lang="en-US">wilderness</gloss>
+</entry>
+<entry>
+<word>ὅμοιος</word>
+<display>ὅμοιος, -α, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> of the same nature</gloss>
+<gloss xml:lang="en-US">like</gloss>
+<gloss xml:lang="en-US">similar</gloss>
+</entry>
+<entry>
+<word>καινός</word>
+<display>καινός, -ή, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> new</gloss>
+</entry>
+<entry>
+<word>μικρός</word>
+<display>μικρός, -ά, -όν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> small</gloss>
+<gloss xml:lang="en-US">insignificant</gloss>
+</entry>
+<entry>
+<word>ὀλίγος</word>
+<display>ὀλίγος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> few</gloss>
+<gloss xml:lang="en-US">little</gloss>
+<gloss xml:lang="en-US">small</gloss>
+</entry>
+<entry>
+<word>τρίτος</word>
+<display>τρίτος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> third</gloss>
+</entry>
+<entry>
+<word>ἵνα</word>
+<display>ἵνα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> in order that</gloss>
+<gloss xml:lang="en-US">that</gloss>
+</entry>
+<entry>
+<word>ὅπως</word>
+<display>ὅπως</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> how</gloss>
+<gloss xml:lang="en-US">that</gloss>
+<gloss xml:lang="en-US">(in order) that</gloss>
+</entry>
+<entry>
+<word>ἐάν</word>
+<display>ἐάν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> if</gloss>
+</entry>
+<entry>
+<word>μηδείς</word>
+<display>μηδείς, μηδεμία, μηδέν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> no one</gloss>
+</entry>
+<entry>
+<word>μηδέ</word>
+<display>μηδέ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> and not</gloss>
+<gloss xml:lang="en-US">neither</gloss>
+</entry>
+<entry>
+<word>ἔξω</word>
+<display>ἔξω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> outside</gloss>
+</entry>
+<entry>
+<word>εὐθύς</word>
+<display>εὐθύς, εὐθεώς</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">immediately</gloss>
+</entry>
+<entry>
+<word>ὧδε</word>
+<display>ὧδε</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> here</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 23 - Verses That Can Take an Infinitive</title>
+<entry>
+<word>ἄρχομαι</word>
+<display>ἄρχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">begin</gloss>
+</entry>
+<entry>
+<word>δει̑</word>
+<display>δει̑</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> it is necessary</gloss>
+</entry>
+<entry>
+<word>δύναμαι</word>
+<display>δύναμαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">am able</gloss>
+</entry>
+<entry>
+<word>θέλω</word>
+<display>θέλω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> wish</gloss>
+<gloss xml:lang="en-US">desire</gloss>
+</entry>
+<entry>
+<word>μέλλω</word>
+<display>μέλλω</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> be about to</gloss>
+</entry>
+<entry>
+<word>κάθημαι</word>
+<display>κάθημαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> sit</gloss>
+</entry>
+<entry>
+<word>ὥστε</word>
+<display>ὥστε</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> for this reason</gloss>
+<gloss xml:lang="en-US">therefore</gloss>
+<gloss xml:lang="en-US">so that</gloss>
+</entry>
+<entry>
+<word>πρό</word>
+<display>πρό</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">(gen) before</gloss>
+<gloss xml:lang="en-US">in front of</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 24 - MI Verbs</title>
+<entry>
+<word>ἀφίημι</word>
+<display>ἀφίημι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> let go</gloss>
+<gloss xml:lang="en-US">send away</gloss>
+<gloss xml:lang="en-US">give up</gloss>
+<gloss xml:lang="en-US">pardon</gloss>
+<gloss xml:lang="en-US">αλλοω</gloss>
+</entry>
+<entry>
+<word>δίδωμι</word>
+<display>δίδωμι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> give</gloss>
+</entry>
+<entry>
+<word>ἀποδίδωμι</word>
+<display>ἀποδίδωμι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">pay</gloss>
+<gloss xml:lang="en-US">deliver</gloss>
+</entry>
+<entry>
+<word>παραδίδωμι</word>
+<display>παραδίδωμι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> hand over</gloss>
+<gloss xml:lang="en-US">betray</gloss>
+</entry>
+<entry>
+<word>ἵστημι</word>
+<display>ἵστημι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">establish</gloss>
+<gloss xml:lang="en-US">make someone stand</gloss>
+<gloss xml:lang="en-US">stand</gloss>
+</entry>
+<entry>
+<word>ἀνίστημι</word>
+<display>ἀνίστημι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">raise up</gloss>
+</entry>
+<entry>
+<word>παρίστημι</word>
+<display>παρίστημι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> place beside</gloss>
+<gloss xml:lang="en-US">stand before</gloss>
+</entry>
+<entry>
+<word>τίθημι</word>
+<display>τίθημι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">lay</gloss>
+<gloss xml:lang="en-US">place</gloss>
+<gloss xml:lang="en-US">set</gloss>
+</entry>
+<entry>
+<word>φημί</word>
+<display>φημί</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> say</gloss>
+</entry>
+<entry>
+<word>ἀπόλλυμι</word>
+<display>ἀπόλλυμι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> ruin</gloss>
+<gloss xml:lang="en-US">destroy</gloss>
+<gloss xml:lang="en-US">perish</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 25 - Deponent Verbs, Comparatives, and Conjunctions</title>
+<entry>
+<word>ἀσπάζομαι</word>
+<display>ἀσπάζομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">greet</gloss>
+<gloss xml:lang="en-US">welcome</gloss>
+</entry>
+<entry>
+<word>δέχομαι</word>
+<display>δέχομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> take</gloss>
+<gloss xml:lang="en-US">receive</gloss>
+</entry>
+<entry>
+<word>μα̑λλον</word>
+<display>μα̑λλον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> more</gloss>
+<gloss xml:lang="en-US">rather</gloss>
+</entry>
+<entry>
+<word>μείζων</word>
+<display>μείζων, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">larger</gloss>
+<gloss xml:lang="en-US">greater</gloss>
+</entry>
+<entry>
+<word>πλείω</word>
+<display>πλείω, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> more</gloss>
+</entry>
+<entry>
+<word>ἄρα</word>
+<display>ἄρα</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> so</gloss>
+<gloss xml:lang="en-US">then</gloss>
+<gloss xml:lang="en-US">consequently</gloss>
+</entry>
+<entry>
+<word>δίο</word>
+<display>δίο</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">wherefore</gloss>
+</entry>
+<entry>
+<word>εἴτε</word>
+<display>εἴτε</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">whether</gloss>
+</entry>
+<entry>
+<word>εἴτε</word>
+<display>εἴτε...εἴτε</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">whether...or</gloss>
+</entry>
+<entry>
+<word>ἤ</word>
+<display>ἤ</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> or</gloss>
+<gloss xml:lang="en-US">than</gloss>
+<gloss xml:lang="en-US">rather than</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 26 - Conjunctions and Two Pronouns</title>
+<entry>
+<word>ἄν</word>
+<display>ἄν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">conditional marker of uncertainty</gloss>
+</entry>
+<entry>
+<word>ὅσος</word>
+<display>ὅσος, -η, -ον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">how much (many)</gloss>
+<gloss xml:lang="en-US">as much (many) as</gloss>
+</entry>
+<entry>
+<word>τοιου̑τος</word>
+<display>τοιου̑τος, τοιαύτη, τοιου̑τον</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> of such a kind</gloss>
+</entry>
+<entry>
+<word>ἐάν</word>
+<display>ἐάν μή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> if not</gloss>
+<gloss xml:lang="en-US">unless</gloss>
+</entry>
+<entry>
+<word>εἰ</word>
+<display>εἰ μή</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> if not</gloss>
+<gloss xml:lang="en-US">except</gloss>
+</entry>
+<entry>
+<word>ἄν</word>
+<display>ἕως ἄν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">until</gloss>
+</entry>
+<entry>
+<word>ὅπου</word>
+<display>ὅπου ἄν or ὅπου ἐάν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">where(ever)</gloss>
+</entry>
+<entry>
+<word>ὅς</word>
+<display>ὅς ἄν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US"> who(ever)</gloss>
+</entry>
+<entry>
+<word>ὅσος</word>
+<display>ὅσος ἄν</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">however so many</gloss>
+</entry>
+<entry>
+<word>ὅταν</word>
+<display>ὅταν (ὅτε + ἄν)</display>
+<freq n="0"/>
+<gloss xml:lang="en-US">whenever</gloss>
+</entry>
+</section>
+</lbx-vocabulary-list>

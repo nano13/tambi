@@ -1,0 +1,2623 @@
+<?xml version="1.0"?>
+<lbx-vocabulary-list name="Essentials of New Testament Greek" category="VocabularyLists" xml:lang="el">	
+	<section>
+		<title>Lesson 2</title>
+		<entry>
+			<word>ἄγω</word>
+			<display>ἄγω</display>
+			<gloss xml:lang="en-US">I lead</gloss>
+		</entry>
+		<entry>
+			<word>ἄγγελος</word>
+			<display>ἄγγελος, ὁ</display>
+			<gloss xml:lang="en-US">messenger, angel</gloss>
+		</entry>
+		<entry>
+			<word>ἀκούω</word>
+			<display>ἀκούω</display>
+			<gloss xml:lang="en-US">I hear</gloss>
+		</entry>
+		<entry>
+			<word>ἀδελφός</word>
+			<display>ἀδελφός, ὁ</display>
+			<gloss xml:lang="en-US">brother</gloss>
+		</entry>
+		<entry>
+			<word>βλέπω</word>
+			<display>βλέπω</display>
+			<gloss xml:lang="en-US">I see</gloss>
+		</entry>
+		<entry>
+			<word>δοῦλος</word>
+			<display>δοῦλος, ὁ</display>
+			<gloss xml:lang="en-US">slave, servant</gloss>
+		</entry>
+		<entry>
+			<word>ἔχω</word>
+			<display>ἔχω</display>
+			<gloss xml:lang="en-US">I have</gloss>
+		</entry>
+		<entry>
+			<word>καρπός</word>
+			<display>καρπός, ὁ</display>
+			<gloss xml:lang="en-US">fruit</gloss>
+		</entry>
+		<entry>
+			<word>λύω</word>
+			<display>λύω</display>
+			<gloss xml:lang="en-US">I loose, or destroy</gloss>
+		</entry>
+		<entry>
+			<word>λόγος</word>
+			<display>λόγος, ὁ</display>
+			<gloss xml:lang="en-US">word</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 3</title>
+		<entry>
+			<word>γινώσκω</word>
+			<display>γινώσκω</display>
+			<gloss xml:lang="en-US">I know</gloss>
+		</entry>
+		<entry>
+			<word>γράφω</word>
+			<display>γράφω</display>
+			<gloss xml:lang="en-US">I write</gloss>
+		</entry>
+		<entry>
+			<word>διδάσκω</word>
+			<display>διδάσκω</display>
+			<gloss xml:lang="en-US">I teach</gloss>
+		</entry>
+		<entry>
+			<word>ἐγείρω</word>
+			<display>ἐγείρω</display>
+			<gloss xml:lang="en-US">I raise up</gloss>
+		</entry>
+		<entry>
+			<word>θέλω</word>
+			<display>θέλω</display>
+			<gloss xml:lang="en-US">I wish, will</gloss>
+		</entry>
+		<entry>
+			<word>λαμβάνω</word>
+			<display>λαμβάνω</display>
+			<gloss xml:lang="en-US">I take, receive</gloss>
+		</entry>
+		<entry>
+			<word>λέγω</word>
+			<display>λέγω</display>
+			<gloss xml:lang="en-US">I say, speak</gloss>
+		</entry>
+		<entry>
+			<word>πέμπω</word>
+			<display>πέμπω</display>
+			<gloss xml:lang="en-US">I send</gloss>
+		</entry>
+		<entry>
+			<word>φέρω</word>
+			<display>φέρω</display>
+			<gloss xml:lang="en-US">I bear, bring</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 4</title>
+		<entry>
+			<word>ἄνθρωπος</word>
+			<display>ἄνθρωπος, ὁ</display>
+			<gloss xml:lang="en-US">person, human being, man</gloss>
+		</entry>
+		<entry>
+			<word>ἀπόστολος</word>
+			<display>ἀπόστολος, ὁ</display>
+			<gloss xml:lang="en-US">apostle</gloss>
+		</entry>
+		<entry>
+			<word>ἄρτος</word>
+			<display>ἄρτος, ὁ</display>
+			<gloss xml:lang="en-US">bread, loaf</gloss>
+		</entry>
+		<entry>
+			<word>δῶρον</word>
+			<display>δῶρον, τό</display>
+			<gloss xml:lang="en-US">gift</gloss>
+		</entry>
+		<entry>
+			<word>θάνατος</word>
+			<display>θάνατος, ὁ</display>
+			<gloss xml:lang="en-US">death</gloss>
+		</entry>
+		<entry>
+			<word>ἱερόν</word>
+			<display>ἱερόν, τό</display>
+			<gloss xml:lang="en-US">temple</gloss>
+		</entry>
+		<entry>
+			<word>καί</word>
+			<display>καί</display>
+			<gloss xml:lang="en-US">and, also, even (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>κύριος</word>
+			<display>κύριος, ὁ</display>
+			<gloss xml:lang="en-US">lord, Lord</gloss>
+		</entry>
+		<entry>
+			<word>λίθος</word>
+			<display>λίθος, ὁ</display>
+			<gloss xml:lang="en-US">stone</gloss>
+		</entry>
+		<entry>
+			<word>νόμος</word>
+			<display>νόμος, ὁ</display>
+			<gloss xml:lang="en-US">law</gloss>
+		</entry>
+		<entry>
+			<word>οἶκος</word>
+			<display>οἶκος, ὁ</display>
+			<gloss xml:lang="en-US">house, household</gloss>
+		</entry>
+		<entry>
+			<word>ὄχλος</word>
+			<display>ὄχλος, ὁ</display>
+			<gloss xml:lang="en-US">crowd, multitude</gloss>
+		</entry>
+		<entry>
+			<word>υἱός</word>
+			<display>υἱός, ὁ</display>
+			<gloss xml:lang="en-US">son</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 5</title>
+		<entry>
+			<word>ἀγάπη</word>
+			<display>ἀγάπη, ἡ</display>
+			<gloss xml:lang="en-US">love</gloss>
+		</entry>
+		<entry>
+			<word>ἀλήθεια</word>
+			<display>ἀλήθεια, ἡ</display>
+			<gloss xml:lang="en-US">truth</gloss>
+		</entry>
+		<entry>
+			<word>ἁμαρτία</word>
+			<display>ἁμαρτία, ἡ</display>
+			<gloss xml:lang="en-US">sin</gloss>
+		</entry>
+		<entry>
+			<word>βασιλεία</word>
+			<display>βασιλεία, ἡ</display>
+			<gloss xml:lang="en-US">kingdom</gloss>
+		</entry>
+		<entry>
+			<word>γλῶσσα</word>
+			<display>γλῶσσα, ἡ</display>
+			<gloss xml:lang="en-US">tongue</gloss>
+		</entry>
+		<entry>
+			<word>γραφή</word>
+			<display>γραφή, ἡ</display>
+			<gloss xml:lang="en-US">writing, Scripture</gloss>
+		</entry>
+		<entry>
+			<word>διδαχή</word>
+			<display>διδαχή, ἡ</display>
+			<gloss xml:lang="en-US">teaching</gloss>
+		</entry>
+		<entry>
+			<word>δόξα</word>
+			<display>δόξα, ἡ</display>
+			<gloss xml:lang="en-US">glory</gloss>
+		</entry>
+		<entry>
+			<word>εἰρήνη</word>
+			<display>εἰρήνη, ἡ</display>
+			<gloss xml:lang="en-US">peace</gloss>
+		</entry>
+		<entry>
+			<word>ἐκκλησία</word>
+			<display>ἐκκλησία, ἡ</display>
+			<gloss xml:lang="en-US">church</gloss>
+		</entry>
+		<entry>
+			<word>ἐντολή</word>
+			<display>ἐντολή, ἡ</display>
+			<gloss xml:lang="en-US">commandment</gloss>
+		</entry>
+		<entry>
+			<word>ἐξουσία</word>
+			<display>ἐξουσία, ἡ</display>
+			<gloss xml:lang="en-US">authority, power</gloss>
+		</entry>
+		<entry>
+			<word>ἡμέρα</word>
+			<display>ἡμέρα, ἡ</display>
+			<gloss xml:lang="en-US">day</gloss>
+		</entry>
+		<entry>
+			<word>μαθητής</word>
+			<display>μαθητής, ὁ</display>
+			<gloss xml:lang="en-US">disciple</gloss>
+		</entry>
+		<entry>
+			<word>παραβολή</word>
+			<display>παραβολή, ἡ</display>
+			<gloss xml:lang="en-US">parable</gloss>
+		</entry>
+		<entry>
+			<word>προφήτης</word>
+			<display>προφήτης, ὁ</display>
+			<gloss xml:lang="en-US">prophet</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 6</title>
+		<entry>
+			<word>ἀγαθός</word>
+			<display>ἀγαθός, -ή, -όν</display>
+			<gloss xml:lang="en-US">good</gloss>
+		</entry>
+		<entry>
+			<word>ἀγαπητός</word>
+			<display>ἀγαπητός, -ή, -όν</display>
+			<gloss xml:lang="en-US">beloved</gloss>
+		</entry>
+		<entry>
+			<word>δίκαιος</word>
+			<display>δίκαιος, -α, -ον</display>
+			<gloss xml:lang="en-US">righteous, just</gloss>
+		</entry>
+		<entry>
+			<word>ἕκαστος</word>
+			<display>ἕκαστος, -η, -ον</display>
+			<gloss xml:lang="en-US">each, every</gloss>
+		</entry>
+		<entry>
+			<word>ἔσχατος</word>
+			<display>ἔσχατος, -η, -ον</display>
+			<gloss xml:lang="en-US">last</gloss>
+		</entry>
+		<entry>
+			<word>ἕτερος</word>
+			<display>ἕτερος, -α, -ον</display>
+			<gloss xml:lang="en-US">other, another (usually “another of a different kind”)</gloss>
+		</entry>
+		<entry>
+			<word>καινός</word>
+			<display>καινός, -ή, -όν</display>
+			<gloss xml:lang="en-US">new</gloss>
+		</entry>
+		<entry>
+			<word>κακός</word>
+			<display>κακός, -ή, -όν</display>
+			<gloss xml:lang="en-US">bad</gloss>
+		</entry>
+		<entry>
+			<word>καλός</word>
+			<display>καλός, -ή, -όν</display>
+			<gloss xml:lang="en-US">good, beautiful</gloss>
+		</entry>
+		<entry>
+			<word>μικρός</word>
+			<display>μικρός, -ά, -όν</display>
+			<gloss xml:lang="en-US">small, little</gloss>
+		</entry>
+		<entry>
+			<word>μόνος</word>
+			<display>μόνος, -η, -ον</display>
+			<gloss xml:lang="en-US">only, alone</gloss>
+		</entry>
+		<entry>
+			<word>νεκρός</word>
+			<display>νεκρός, -ά, -όν</display>
+			<gloss xml:lang="en-US">dead</gloss>
+		</entry>
+		<entry>
+			<word>ὅλος</word>
+			<display>ὅλος, -η, -ον</display>
+			<gloss xml:lang="en-US">whole, all</gloss>
+		</entry>
+		<entry>
+			<word>πιστός</word>
+			<display>πιστός, -ή, -όν</display>
+			<gloss xml:lang="en-US">faithful</gloss>
+		</entry>
+		<entry>
+			<word>πονηρός</word>
+			<display>πονηρός, -ά, -όν</display>
+			<gloss xml:lang="en-US">evil</gloss>
+		</entry>
+		<entry>
+			<word>πρῶτος</word>
+			<display>πρῶτος, -η, -ον</display>
+			<gloss xml:lang="en-US">first</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 7</title>
+		<entry>
+			<word>ἁμαρτωλός</word>
+			<display>ἁμαρτωλός, ὁ</display>
+			<gloss xml:lang="en-US">sinner; adj. sinful</gloss>
+		</entry>
+		<entry>
+			<word>ἀποστέλλω</word>
+			<display>ἀποστέλλω</display>
+			<gloss xml:lang="en-US">I send out (with a message)</gloss>
+		</entry>
+		<entry>
+			<word>βαπτίζω</word>
+			<display>βαπτίζω</display>
+			<gloss xml:lang="en-US">I baptize</gloss>
+		</entry>
+		<entry>
+			<word>εὑρίσκω</word>
+			<display>εὑρίσκω</display>
+			<gloss xml:lang="en-US">I find</gloss>
+		</entry>
+		<entry>
+			<word>ζωή</word>
+			<display>ζωή, ἡ</display>
+			<gloss xml:lang="en-US">life</gloss>
+		</entry>
+		<entry>
+			<word>θεός</word>
+			<display>θεός, ὁ</display>
+			<gloss xml:lang="en-US">god, God (use the article to mean the person of God)</gloss>
+		</entry>
+		<entry>
+			<word>Ἰουδαῖος</word>
+			<display>Ἰουδαῖος, -α, -ον</display>
+			<gloss xml:lang="en-US">Jewish, a Jew</gloss>
+		</entry>
+		<entry>
+			<word>κεφαλή</word>
+			<display>κεφαλή, ἡ</display>
+			<gloss xml:lang="en-US">head</gloss>
+		</entry>
+		<entry>
+			<word>κόσμος</word>
+			<display>κόσμος, ὁ</display>
+			<gloss xml:lang="en-US">world</gloss>
+		</entry>
+		<entry>
+			<word>κρίνω</word>
+			<display>κρίνω</display>
+			<gloss xml:lang="en-US">I judge</gloss>
+		</entry>
+		<entry>
+			<word>λαός</word>
+			<display>λαός, ὁ</display>
+			<gloss xml:lang="en-US">people</gloss>
+		</entry>
+		<entry>
+			<word>μέλλω</word>
+			<display>μέλλω</display>
+			<gloss xml:lang="en-US">I am about to, intend</gloss>
+		</entry>
+		<entry>
+			<word>μένω</word>
+			<display>μένω</display>
+			<gloss xml:lang="en-US">I remain, dwell</gloss>
+		</entry>
+		<entry>
+			<word>ὁδός</word>
+			<display>ὁδός, ἡ</display>
+			<gloss xml:lang="en-US">road, way</gloss>
+		</entry>
+		<entry>
+			<word>πάλιν</word>
+			<display>πάλιν</display>
+			<gloss xml:lang="en-US">again (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>πρεσβύτερος</word>
+			<display>πρεσβύτερος, -α, -ον</display>
+			<gloss xml:lang="en-US">older, elder</gloss>
+		</entry>
+		<entry>
+			<word>συνάγω</word>
+			<display>συνάγω</display>
+			<gloss xml:lang="en-US">I gather together</gloss>
+		</entry>
+		<entry>
+			<word>χαίρω</word>
+			<display>χαίρω</display>
+			<gloss xml:lang="en-US">I rejoice</gloss>
+		</entry>
+		<entry>
+			<word>Χριστός</word>
+			<display>Χριστός, ὁ</display>
+			<gloss xml:lang="en-US">Christ</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 8</title>		
+		<entry>
+			<word>ἀνά</word>
+			<display>ἀνά</display>
+			<gloss xml:lang="en-US">(prep. + acc.) up, among, between</gloss>
+		</entry>
+		<entry>
+			<word>ἀντί</word>
+			<display>ἀντί</display>
+			<gloss xml:lang="en-US">(prep. + gen.) opposite, instead of</gloss>
+		</entry>
+		<entry>
+			<word>ἀπό</word>
+			<display>ἀπό</display>
+			<gloss xml:lang="en-US">(prep. + abl.) from, away from</gloss>
+		</entry>
+		<entry>
+			<word>εἰς</word>
+			<display>εἰς</display>
+			<gloss xml:lang="en-US">(prep. + acc.) into, to, in</gloss>
+		</entry>
+		<entry>
+			<word>ἐκ</word>
+			<display>ἐκ (ἐξ before a vowel)</display>
+			<gloss xml:lang="en-US">(prep. + abl.) out of</gloss>
+		</entry>
+		<entry>
+			<word>πρό</word>
+			<display>πρό</display>
+			<gloss xml:lang="en-US">(prep. + abl.) before</gloss>
+		</entry>
+		<entry>
+			<word>σύν</word>
+			<display>σύν</display>
+			<gloss xml:lang="en-US">(prep. + inst.) with, together with</gloss>
+		</entry>			
+		<entry>
+			<word>διά</word>
+			<display>διά</display>
+			<gloss xml:lang="en-US">(prep. + gen.) through; ( + acc.) because of</gloss>
+		</entry>
+		<entry>
+			<word>ἐν</word>
+			<display>ἐν</display>
+			<gloss xml:lang="en-US">(prep. + loc.) in, at, on; ( + inst.) by means of</gloss>
+		</entry>
+		<entry>
+			<word>κατά</word>
+			<display>κατά</display>
+			<gloss xml:lang="en-US">(prep. + gen.) down, upon, against; ( + acc.) along, according to</gloss>
+		</entry>
+		<entry>
+			<word>μετά</word>
+			<display>μετά</display>
+			<gloss xml:lang="en-US">(prep. + gen.) with; ( + acc.) after</gloss>
+		</entry>
+		<entry>
+			<word>περί</word>
+			<display>περί</display>
+			<gloss xml:lang="en-US">(prep. + gen.) about, concerning; ( + acc.) around, about</gloss>
+		</entry>
+		<entry>
+			<word>ὑπέρ</word>
+			<display>ὑπέρ</display>
+			<gloss xml:lang="en-US">(prep. + gen.) in behalf of, for the sake of; ( + acc.) over, above, beyond</gloss>
+		</entry>
+		<entry>
+			<word>ὑπό</word>
+			<display>ὑπό</display>
+			<gloss xml:lang="en-US">(prep. + abl.) by (agency); ( + acc.) under</gloss>
+		</entry>			
+		<entry>
+			<word>ἐπί</word>
+			<display>ἐπί</display>
+			<gloss xml:lang="en-US">(prep. + gen.) on, upon, over (contact or position implied); ( + loc.) on, in, above (position implied); ( + acc.) over, across (motion implied)</gloss>
+		</entry>
+		<entry>
+			<word>παρά</word>
+			<display>παρά</display>
+			<gloss xml:lang="en-US">(prep. + abl.) from (motion implied); (+ loc.) with, beside (position implied); ( + acc.) beside, beyond, along</gloss>
+		</entry>
+		<entry>
+			<word>πρός</word>
+			<display>πρός</display>
+			<gloss xml:lang="en-US">(prep. + gen.) for, for the sake of; (+ loc.) at, on, near (position implied); ( + acc.) toward, with, at</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 9</title>
+		<entry>
+			<word>ἀμήν</word>
+			<display>ἀμήν</display>
+			<gloss xml:lang="en-US">verily, truly, amen (particle)</gloss>
+		</entry>
+		<entry>
+			<word>ἀναβαίνω</word>
+			<display>ἀναβαίνω</display>
+			<gloss xml:lang="en-US">I go up</gloss>
+		</entry>
+		<entry>
+			<word>αὐτός</word>
+			<display>αὐτός, -ή, -ό</display>
+			<gloss xml:lang="en-US">he, she, it (pronoun)</gloss>
+		</entry>
+		<entry>
+			<word>δέ</word>
+			<display>δέ</display>
+			<gloss xml:lang="en-US">but, and, now (particle and conj.)</gloss>
+		</entry>
+		<entry>
+			<word>δοξάζω</word>
+			<display>δοξάζω</display>
+			<gloss xml:lang="en-US">I glorify, praise</gloss>
+		</entry>
+		<entry>
+			<word>εἰμί</word>
+			<display>εἰμί</display>
+			<gloss xml:lang="en-US">I am</gloss>
+		</entry>
+		<entry>
+			<word>ἐσθίω</word>
+			<display>ἐσθίω</display>
+			<gloss xml:lang="en-US">I eat</gloss>
+		</entry>
+		<entry>
+			<word>ἴδιος</word>
+			<display>ἴδιος, -α, -ον</display>
+			<gloss xml:lang="en-US">one’s own</gloss>
+		</entry>
+		<entry>
+			<word>κἀγώ</word>
+			<display>κἀγώ</display>
+			<gloss xml:lang="en-US">and I, I also</gloss>
+		</entry>
+		<entry>
+			<word>καταβαίνω</word>
+			<display>καταβαίνω</display>
+			<gloss xml:lang="en-US">I go down</gloss>
+		</entry>
+		<entry>
+			<word>μέν</word>
+			<display>μέν</display>
+			<gloss xml:lang="en-US">particle indicating contrast, emphasis, or continuation</gloss>
+		</entry>
+		<entry>
+			<word>μέν … δέ</word>
+			<display>μέν … δέ</display>
+			<gloss xml:lang="en-US">on the one hand … on the other hand as conj.</gloss>
+		</entry>		
+		<entry>
+			<word>οὐ</word>
+			<display>οὐ</display>
+			<gloss xml:lang="en-US">not (particle)</gloss>
+		</entry>
+		<entry>
+			<word>Παῦλος</word>
+			<display>Παῦλος, ὁ</display>
+			<gloss xml:lang="en-US">Paul</gloss>
+		</entry>
+		<entry>
+			<word>Πέτρος</word>
+			<display>Πέτρος, ὁ</display>
+			<gloss xml:lang="en-US">Peter</gloss>
+		</entry>
+		<entry>
+			<word>τέκνον</word>
+			<display>τέκνον, τό</display>
+			<gloss xml:lang="en-US">child</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 10</title>
+		<entry>
+			<word>ἁμαρτάνω</word>
+			<display>ἁμαρτάνω</display>
+			<gloss xml:lang="en-US">I sin</gloss>
+		</entry>
+		<entry>
+			<word>ἀνοίγω</word>
+			<display>ἀνοίγω</display>
+			<gloss xml:lang="en-US">I open</gloss>
+		</entry>
+		<entry>
+			<word>διδάσκαλος</word>
+			<display>διδάσκαλος, ὁ</display>
+			<gloss xml:lang="en-US">teacher</gloss>
+		</entry>
+		<entry>
+			<word>ἐκεῖνος</word>
+			<display>ἐκεῖνος, -η, -ο</display>
+			<gloss xml:lang="en-US">that (pronoun)</gloss>
+		</entry>
+		<entry>
+			<word>ἐπαγγελία</word>
+			<display>ἐπαγγελία, ἡ</display>
+			<gloss xml:lang="en-US">promise</gloss>
+		</entry>
+		<entry>
+			<word>ἔργον</word>
+			<display>ἔργον, τό</display>
+			<gloss xml:lang="en-US">work</gloss>
+		</entry>
+		<entry>
+			<word>εὐαγγέλιον</word>
+			<display>εὐαγγέλιον, τό</display>
+			<gloss xml:lang="en-US">gospel, good news</gloss>
+		</entry>
+		<entry>
+			<word>ἱμάτιον</word>
+			<display>ἱμάτιον, τό</display>
+			<gloss xml:lang="en-US">clothing</gloss>
+		</entry>
+		<entry>
+			<word>ὅσος</word>
+			<display>ὅσος, -η, -ον</display>
+			<gloss xml:lang="en-US">as much as, as great as</gloss>
+		</entry>
+		<entry>
+			<word>ὅτι</word>
+			<display>ὅτι</display>
+			<gloss xml:lang="en-US">because, that; may mark the beginning of direct discourse (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>οὗτος</word>
+			<display>οὗτος, αὕτη, τοῦτο</display>
+			<gloss xml:lang="en-US">this (pronoun)</gloss>
+		</entry>
+		<entry>
+			<word>παιδίον</word>
+			<display>παιδίον, τό</display>
+			<gloss xml:lang="en-US">child, infant</gloss>
+		</entry>
+		<entry>
+			<word>πιστεύω</word>
+			<display>πιστεύω</display>
+			<gloss xml:lang="en-US">I believe, have faith (in)</gloss>
+		</entry>
+		<entry>
+			<word>τόπος</word>
+			<display>τόπος, ὁ</display>
+			<gloss xml:lang="en-US">place</gloss>
+		</entry>
+		<entry>
+			<word>χαρά</word>
+			<display>χαρά, ἡ</display>
+			<gloss xml:lang="en-US">joy</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 11</title>
+		<entry>
+			<word>ἄρχω</word>
+			<display>ἄρχω</display>
+			<gloss xml:lang="en-US">I rule; mid. = I begin</gloss>
+		</entry>
+		<entry>
+			<word>βάλλω</word>
+			<display>βάλλω</display>
+			<gloss xml:lang="en-US">I throw</gloss>
+		</entry>
+		<entry>
+			<word>ἔρημος</word>
+			<display>ἔρημος, ἡ</display>
+			<gloss xml:lang="en-US">desert; adj., desolate</gloss>
+		</entry>
+		<entry>
+			<word>καρδία</word>
+			<display>καρδία, ἡ</display>
+			<gloss xml:lang="en-US">heart</gloss>
+		</entry>
+		<entry>
+			<word>κηρύσσω</word>
+			<display>κηρύσσω</display>
+			<gloss xml:lang="en-US">I proclaim, preach</gloss>
+		</entry>
+		<entry>
+			<word>οὐρανός</word>
+			<display>οὐρανός, ὁ</display>
+			<gloss xml:lang="en-US">heaven</gloss>
+		</entry>
+		<entry>
+			<word>σῴζω</word>
+			<display>σῴζω</display>
+			<gloss xml:lang="en-US">I save</gloss>
+		</entry>
+		<entry>
+			<word>φωνή</word>
+			<display>φωνή, ἡ</display>
+			<gloss xml:lang="en-US">voice</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 12</title>
+		<entry>
+			<word>ἀλλά</word>
+			<display>ἀλλά</display>
+			<gloss xml:lang="en-US">but (conj.; stronger than de)</gloss>
+		</entry>
+		<entry>
+			<word>ἀποκτείνω</word>
+			<display>ἀποκτείνω</display>
+			<gloss xml:lang="en-US">I kill</gloss>
+		</entry>
+		<entry>
+			<word>Γαλιλαία</word>
+			<display>Γαλιλαία, ἡ</display>
+			<gloss xml:lang="en-US">Galilee</gloss>
+		</entry>
+		<entry>
+			<word>γῆ</word>
+			<display>γῆ, ἡ</display>
+			<gloss xml:lang="en-US">the earth, land</gloss>
+		</entry>
+		<entry>
+			<word>ἔτι</word>
+			<display>ἔτι</display>
+			<gloss xml:lang="en-US">still, yet (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ἑτοιμάζω</word>
+			<display>ἑτοιμάζω</display>
+			<gloss xml:lang="en-US">I prepare</gloss>
+		</entry>
+		<entry>
+			<word>θεραπεύω</word>
+			<display>θεραπεύω</display>
+			<gloss xml:lang="en-US">I heal</gloss>
+		</entry>
+		<entry>
+			<word>Ἰσραήλ</word>
+			<display>Ἰσραήλ, ὁ</display>
+			<gloss xml:lang="en-US">Israel (indeclinable)</gloss>
+		</entry>
+		<entry>
+			<word>Ἰωάννης</word>
+			<display>Ἰωάννης, ὁ</display>
+			<gloss xml:lang="en-US">John</gloss>
+		</entry>
+		<entry>
+			<word>κράζω</word>
+			<display>κράζω</display>
+			<gloss xml:lang="en-US">I cry out</gloss>
+		</entry>
+		<entry>
+			<word>νῦν</word>
+			<display>νῦν</display>
+			<gloss xml:lang="en-US">now (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>οὐκέτι</word>
+			<display>οὐκέτι</display>
+			<gloss xml:lang="en-US">no longer (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>σκοτία</word>
+			<display>σκοτία, ἡ</display>
+			<gloss xml:lang="en-US">darkness</gloss>
+		</entry>
+		<entry>
+			<word>τότε</word>
+			<display>τότε</display>
+			<gloss xml:lang="en-US">then (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ὑπάρχω</word>
+			<display>ὑπάρχω</display>
+			<gloss xml:lang="en-US">I exist, am</gloss>
+		</entry>
+		<entry>
+			<word>ὡς</word>
+			<display>ὡς</display>
+			<gloss xml:lang="en-US">as, while, when (adv. and particle)</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 13</title>
+		<entry>
+			<word>βιβλίον</word>
+			<display>βιβλίον, τό</display>
+			<gloss xml:lang="en-US">book</gloss>
+		</entry>
+		<entry>
+			<word>δαιμόνιον</word>
+			<display>δαιμόνιον, τό</display>
+			<gloss xml:lang="en-US">demon</gloss>
+		</entry>
+		<entry>
+			<word>ἐκβάλλω</word>
+			<display>ἐκβάλλω</display>
+			<gloss xml:lang="en-US">I drive out</gloss>
+		</entry>
+		<entry>
+			<word>εὐθύς</word>
+			<display>εὐθύς</display>
+			<gloss xml:lang="en-US">immediately (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ἤ</word>
+			<display>ἤ</display>
+			<gloss xml:lang="en-US">or (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>θάλασσα</word>
+			<display>θάλασσα, ἡ</display>
+			<gloss xml:lang="en-US">sea</gloss>
+		</entry>
+		<entry>
+			<word>θρόνος</word>
+			<display>θρόνος, ὁ</display>
+			<gloss xml:lang="en-US">throne</gloss>
+		</entry>
+		<entry>
+			<word>καθαρίζω</word>
+			<display>καθαρίζω</display>
+			<gloss xml:lang="en-US">I cleanse, purify</gloss>
+		</entry>
+		<entry>
+			<word>οὐδέ</word>
+			<display>οὐδέ</display>
+			<gloss xml:lang="en-US">and not, nor, not even (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>οὐδὲ … οὐδέ</word>
+			<display>οὐδὲ … οὐδέ</display>
+			<gloss xml:lang="en-US">neither … nor</gloss>
+		</entry>		
+		<entry>
+			<word>οὖν</word>
+			<display>οὖν</display>
+			<gloss xml:lang="en-US">therefore, then (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>οὔτε</word>
+			<display>οὔτε</display>
+			<gloss xml:lang="en-US">not, no, nor (adv. and conj.)</gloss>
+		</entry>
+		<entry>
+			<word>πλοῖον</word>
+			<display>πλοῖον, τό</display>
+			<gloss xml:lang="en-US">boat</gloss>
+		</entry>
+		<entry>
+			<word>τέ</word>
+			<display>τέ</display>
+			<gloss xml:lang="en-US">and (conj.; weaker than kai)</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 14</title>
+		<entry>
+			<word>ἄγω</word>
+			<display>ἄγω</display>
+			<gloss xml:lang="en-US">I lead</gloss>
+		</entry>
+		<entry>
+			<word>ἄξω</word>
+			<display>ἄξω</display>
+			<gloss xml:lang="en-US">I will lead</gloss>
+		</entry>
+		<entry>
+			<word>ἀκούω</word>
+			<display>ἀκούω</display>
+			<gloss xml:lang="en-US">I hear</gloss>
+		</entry>
+		<entry>
+			<word>ἀποστέλλω</word>
+			<display>ἀποστέλλω</display>
+			<gloss xml:lang="en-US">I send out</gloss>
+		</entry>
+		<entry>
+			<word>ἀποστελῶ</word>
+			<display>ἀποστελῶ</display>
+			<gloss xml:lang="en-US">I will send out</gloss>
+		</entry>
+		<entry>
+			<word>βλέπω</word>
+			<display>βλέπω</display>
+			<gloss xml:lang="en-US">I see</gloss>
+		</entry>
+		<entry>
+			<word>βλέψω</word>
+			<display>βλέψω</display>
+			<gloss xml:lang="en-US">I will see</gloss>
+		</entry>
+		<entry>
+			<word>γινώσκω</word>
+			<display>γινώσκω</display>
+			<gloss xml:lang="en-US">I know</gloss>
+		</entry>
+		<entry>
+			<word>δοξάζω</word>
+			<display>δοξάζω</display>
+			<gloss xml:lang="en-US">I glorify, praise</gloss>
+		</entry>
+		<entry>
+			<word>δοξάσω</word>
+			<display>δοξάσω</display>
+			<gloss xml:lang="en-US">I will glorify, praise</gloss>
+		</entry>
+		<entry>
+			<word>εἰμί</word>
+			<display>εἰμί</display>
+			<gloss xml:lang="en-US">I am</gloss>
+		</entry>
+		<entry>
+			<word>καταβαίνω</word>
+			<display>καταβαίνω</display>
+			<gloss xml:lang="en-US">I go down</gloss>
+		</entry>
+		<entry>
+			<word>λαμβάνω</word>
+			<display>λαμβάνω</display>
+			<gloss xml:lang="en-US">I take, receive</gloss>
+		</entry>
+		<entry>
+			<word>παραλαμβάνω</word>
+			<display>παραλαμβάνω</display>
+			<gloss xml:lang="en-US">I take, take along, receive</gloss>
+		</entry>
+		<entry>
+			<word>πείθω</word>
+			<display>πείθω</display>
+			<gloss xml:lang="en-US">I persuade</gloss>
+		</entry>
+		<entry>
+			<word>πείσω</word>
+			<display>πείσω</display>
+			<gloss xml:lang="en-US">I will persuade</gloss>
+		</entry>
+		<entry>
+			<word>σῴζω</word>
+			<display>σῴζω</display>
+			<gloss xml:lang="en-US">I save</gloss>
+		</entry>
+		<entry>
+			<word>σώσω</word>
+			<display>σώσω</display>
+			<gloss xml:lang="en-US">I will save</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 15</title>
+		<entry>
+			<word>ἀκούω</word>
+			<display>ἀκούω</display>
+			<gloss xml:lang="en-US">I hear</gloss>
+		</entry>
+		<entry>
+			<word>ἤκουσα</word>
+			<display>ἤκουσα</display>
+			<gloss xml:lang="en-US">I heard</gloss>
+		</entry>
+		<entry>
+			<word>ἀποστέλλω</word>
+			<display>ἀποστέλλω</display>
+			<gloss xml:lang="en-US">I send out</gloss>
+		</entry>
+		<entry>
+			<word>ἀπέστειλα</word>
+			<display>ἀπέστειλα</display>
+			<gloss xml:lang="en-US">I sent out</gloss>
+		</entry>
+		<entry>
+			<word>βαπτίζω</word>
+			<display>βαπτίζω</display>
+			<gloss xml:lang="en-US">I baptize</gloss>
+		</entry>
+		<entry>
+			<word>ἐβάπτισα</word>
+			<display>ἐβάπτισα</display>
+			<gloss xml:lang="en-US">I baptized</gloss>
+		</entry>
+		<entry>
+			<word>βλέπω</word>
+			<display>βλέπω</display>
+			<gloss xml:lang="en-US">I see</gloss>
+		</entry>
+		<entry>
+			<word>ἔβλεψα</word>
+			<display>ἔβλεψα</display>
+			<gloss xml:lang="en-US">I saw</gloss>
+		</entry>
+		<entry>
+			<word>γράφω</word>
+			<display>γράφω</display>
+			<gloss xml:lang="en-US">I write</gloss>
+		</entry>
+		<entry>
+			<word>ἔγραψα</word>
+			<display>ἔγραψα</display>
+			<gloss xml:lang="en-US">I wrote</gloss>
+		</entry>
+		<entry>
+			<word>διδάσκω</word>
+			<display>διδάσκω</display>
+			<gloss xml:lang="en-US">I teach</gloss>
+		</entry>
+		<entry>
+			<word>ἐδίδαξα</word>
+			<display>ἐδίδαξα</display>
+			<gloss xml:lang="en-US">I taught</gloss>
+		</entry>
+		<entry>
+			<word>δοξάζω</word>
+			<display>δοξάζω</display>
+			<gloss xml:lang="en-US">I glorify</gloss>
+		</entry>
+		<entry>
+			<word>ἐδόξασα</word>
+			<display>ἐδόξασα</display>
+			<gloss xml:lang="en-US">I glorified</gloss>
+		</entry>
+		<entry>
+			<word>θέλω</word>
+			<display>θέλω</display>
+			<gloss xml:lang="en-US">I wish, will</gloss>
+		</entry>
+		<entry>
+			<word>ἠθέλησα</word>
+			<display>ἠθέλησα</display>
+			<gloss xml:lang="en-US">I wished, willed</gloss>
+		</entry>
+		<entry>
+			<word>θεραπεύω</word>
+			<display>θεραπεύω</display>
+			<gloss xml:lang="en-US">I heal</gloss>
+		</entry>
+		<entry>
+			<word>ἐθεράπευσα</word>
+			<display>ἐθεράπευσα</display>
+			<gloss xml:lang="en-US">I healed</gloss>
+		</entry>
+		<entry>
+			<word>κηρύσσω</word>
+			<display>κηρύσσω</display>
+			<gloss xml:lang="en-US">I proclaim, preach</gloss>
+		</entry>
+		<entry>
+			<word>ἐκήρυξα</word>
+			<display>ἐκήρυξα</display>
+			<gloss xml:lang="en-US">I proclaimed, preached</gloss>
+		</entry>
+		<entry>
+			<word>πείθω</word>
+			<display>πείθω</display>
+			<gloss xml:lang="en-US">I persuade</gloss>
+		</entry>
+		<entry>
+			<word>ἔπεισα</word>
+			<display>ἔπεισα</display>
+			<gloss xml:lang="en-US">I persuaded</gloss>
+		</entry>
+		<entry>
+			<word>πέμπω</word>
+			<display>πέμπω</display>
+			<gloss xml:lang="en-US">I send</gloss>
+		</entry>
+		<entry>
+			<word>ἔπεμψα</word>
+			<display>ἔπεμψα</display>
+			<gloss xml:lang="en-US">I sent</gloss>
+		</entry>
+		<entry>
+			<word>πιστεύω</word>
+			<display>πιστεύω</display>
+			<gloss xml:lang="en-US">I believe, have faith (in)</gloss>
+		</entry>
+		<entry>
+			<word>ἐπίστευσα</word>
+			<display>ἐπίστευσα</display>
+			<gloss xml:lang="en-US">I believed, had faith (in)</gloss>
+		</entry>
+		<entry>
+			<word>σῴζω</word>
+			<display>σῴζω</display>
+			<gloss xml:lang="en-US">I save</gloss>
+		</entry>
+		<entry>
+			<word>ἔσωσα</word>
+			<display>ἔσωσα</display>
+			<gloss xml:lang="en-US">I saved</gloss>
+		</entry>
+		<entry>
+			<word>φέρω</word>
+			<display>φέρω</display>
+			<gloss xml:lang="en-US">I bear, bring</gloss>
+		</entry>
+		<entry>
+			<word>ἤνεγκα</word>
+			<display>ἤνεγκα</display>
+			<gloss xml:lang="en-US">I bore, brought</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 16</title>
+		<entry>
+			<word>ἄγω</word>
+			<display>ἄγω</display>
+			<gloss xml:lang="en-US">I lead</gloss>
+		</entry>
+		<entry>
+			<word>ἤγαγον</word>
+			<display>ἤγαγον</display>
+			<gloss xml:lang="en-US">I led</gloss>
+		</entry>
+		<entry>
+			<word>ἀποθνῄσκω</word>
+			<display>ἀποθνῄσκω</display>
+			<gloss xml:lang="en-US">I die</gloss>
+		</entry>
+		<entry>
+			<word>ἀπέθανον</word>
+			<display>ἀπέθανον</display>
+			<gloss xml:lang="en-US">I died</gloss>
+		</entry>
+		<entry>
+			<word>βάλλω</word>
+			<display>βάλλω</display>
+			<gloss xml:lang="en-US">I throw, cast</gloss>
+		</entry>
+		<entry>
+			<word>ἔβαλον</word>
+			<display>ἔβαλον</display>
+			<gloss xml:lang="en-US">I threw, cast</gloss>
+		</entry>
+		<entry>
+			<word>βλέπω</word>
+			<display>βλέπω</display>
+			<gloss xml:lang="en-US">I see</gloss>
+		</entry>
+		<entry>
+			<word>εἶδον</word>
+			<display>εἶδον</display>
+			<gloss xml:lang="en-US">I saw</gloss>
+		</entry>
+		<entry>
+			<word>γινώσκω</word>
+			<display>γινώσκω</display>
+			<gloss xml:lang="en-US">I know</gloss>
+		</entry>
+		<entry>
+			<word>ἔγνων</word>
+			<display>ἔγνων</display>
+			<gloss xml:lang="en-US">I knew</gloss>
+		</entry>
+		<entry>
+			<word>ἔρχομαι</word>
+			<display>ἔρχομαι</display>
+			<gloss xml:lang="en-US">I come, go</gloss>
+		</entry>
+		<entry>
+			<word>ἐσθίω</word>
+			<display>ἐσθίω</display>
+			<gloss xml:lang="en-US">I eat</gloss>
+		</entry>
+		<entry>
+			<word>ἔφαγον</word>
+			<display>ἔφαγον</display>
+			<gloss xml:lang="en-US">I ate</gloss>
+		</entry>
+		<entry>
+			<word>ἔχω</word>
+			<display>ἔχω</display>
+			<gloss xml:lang="en-US">I have</gloss>
+		</entry>
+		<entry>
+			<word>ἔσχον</word>
+			<display>ἔσχον</display>
+			<gloss xml:lang="en-US">I had</gloss>
+		</entry>
+		<entry>
+			<word>λαμβάνω</word>
+			<display>λαμβάνω</display>
+			<gloss xml:lang="en-US">I take, receive</gloss>
+		</entry>
+		<entry>
+			<word>ἔλαβον</word>
+			<display>ἔλαβον</display>
+			<gloss xml:lang="en-US">I took, received</gloss>
+		</entry>
+		<entry>
+			<word>λέγω</word>
+			<display>λέγω</display>
+			<gloss xml:lang="en-US">I say, speak</gloss>
+		</entry>
+		<entry>
+			<word>εἶπον</word>
+			<display>εἶπον</display>
+			<gloss xml:lang="en-US">I said, spoke</gloss>
+		</entry>
+		<entry>
+			<word>λείπω</word>
+			<display>λείπω</display>
+			<gloss xml:lang="en-US">I leave</gloss>
+		</entry>
+		<entry>
+			<word>ἔλιπον</word>
+			<display>ἔλιπον</display>
+			<gloss xml:lang="en-US">I left</gloss>
+		</entry>
+		<entry>
+			<word>παραλαμβάνω</word>
+			<display>παραλαμβάνω</display>
+			<gloss xml:lang="en-US">I take, receive, take along</gloss>
+		</entry>
+		<entry>
+			<word>παρέλαβον</word>
+			<display>παρέλαβον</display>
+			<gloss xml:lang="en-US">I took, received, took along</gloss>
+		</entry>
+		<entry>
+			<word>πάσχω</word>
+			<display>πάσχω</display>
+			<gloss xml:lang="en-US">I suffer</gloss>
+		</entry>
+		<entry>
+			<word>ἔπαθον</word>
+			<display>ἔπαθον</display>
+			<gloss xml:lang="en-US">I suffered</gloss>
+		</entry>
+		<entry>
+			<word>πίπτω</word>
+			<display>πίπτω</display>
+			<gloss xml:lang="en-US">I fall</gloss>
+		</entry>
+		<entry>
+			<word>ἔπεσον</word>
+			<display>ἔπεσον</display>
+			<gloss xml:lang="en-US">I fell</gloss>
+		</entry>
+		<entry>
+			<word>φέρω</word>
+			<display>φέρω</display>
+			<gloss xml:lang="en-US">I bear, bring</gloss>
+		</entry>
+		<entry>
+			<word>ἤνεγκον</word>
+			<display>ἤνεγκον</display>
+			<gloss xml:lang="en-US">I bore, brought</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 17</title>
+		<entry>
+			<word>ἀκούω</word>
+			<display>ἀκούω</display>
+			<gloss xml:lang="en-US">I hear</gloss>
+		</entry>
+		<entry>
+			<word>ἠκούσθην</word>
+			<display>ἠκούσθην</display>
+			<gloss xml:lang="en-US">I was heard</gloss>
+		</entry>
+		<entry>
+			<word>ἀποστέλλω</word>
+			<display>ἀποστέλλω</display>
+			<gloss xml:lang="en-US">I send out</gloss>
+		</entry>
+		<entry>
+			<word>ἀπεστάλην</word>
+			<display>ἀπεστάλην</display>
+			<gloss xml:lang="en-US">I was sent out</gloss>
+		</entry>
+		<entry>
+			<word>βάλλω</word>
+			<display>βάλλω</display>
+			<gloss xml:lang="en-US">I throw</gloss>
+		</entry>
+		<entry>
+			<word>ἐβλήθην</word>
+			<display>ἐβλήθην</display>
+			<gloss xml:lang="en-US">I was thrown</gloss>
+		</entry>
+		<entry>
+			<word>γινώσκω</word>
+			<display>γινώσκω</display>
+			<gloss xml:lang="en-US">I know</gloss>
+		</entry>
+		<entry>
+			<word>ἐγνώσθην</word>
+			<display>ἐγνώσθην</display>
+			<gloss xml:lang="en-US">I was known</gloss>
+		</entry>
+		<entry>
+			<word>γράφω</word>
+			<display>γράφω</display>
+			<gloss xml:lang="en-US">I write</gloss>
+		</entry>
+		<entry>
+			<word>ἐγράφην</word>
+			<display>ἐγράφην</display>
+			<gloss xml:lang="en-US">I was written</gloss>
+		</entry>
+		<entry>
+			<word>διδάσκω</word>
+			<display>διδάσκω</display>
+			<gloss xml:lang="en-US">I teach</gloss>
+		</entry>
+		<entry>
+			<word>ἐδιδάχθην</word>
+			<display>ἐδιδάχθην</display>
+			<gloss xml:lang="en-US">I was taught</gloss>
+		</entry>
+		<entry>
+			<word>δοξάζω</word>
+			<display>δοξάζω</display>
+			<gloss xml:lang="en-US">I glorify</gloss>
+		</entry>
+		<entry>
+			<word>ἐδοξάσθην</word>
+			<display>ἐδοξάσθην</display>
+			<gloss xml:lang="en-US">I was glorified</gloss>
+		</entry>
+		<entry>
+			<word>ἐγείρω</word>
+			<display>ἐγείρω</display>
+			<gloss xml:lang="en-US">I raise up</gloss>
+		</entry>
+		<entry>
+			<word>ἠγέρθην</word>
+			<display>ἠγέρθην</display>
+			<gloss xml:lang="en-US">I was raised up</gloss>
+		</entry>
+		<entry>
+			<word>κηρύσσω</word>
+			<display>κηρύσσω</display>
+			<gloss xml:lang="en-US">I proclaim</gloss>
+		</entry>
+		<entry>
+			<word>ἐκηρύχθην</word>
+			<display>ἐκηρύχθην</display>
+			<gloss xml:lang="en-US">I was proclaimed</gloss>
+		</entry>
+		<entry>
+			<word>κρίνω</word>
+			<display>κρίνω</display>
+			<gloss xml:lang="en-US">I judge</gloss>
+		</entry>
+		<entry>
+			<word>ἐκρίθην</word>
+			<display>ἐκρίθην</display>
+			<gloss xml:lang="en-US">I was judged</gloss>
+		</entry>
+		<entry>
+			<word>λαμβάνω</word>
+			<display>λαμβάνω</display>
+			<gloss xml:lang="en-US">I take</gloss>
+		</entry>
+		<entry>
+			<word>ἐλήμφθην</word>
+			<display>ἐλήμφθην</display>
+			<gloss xml:lang="en-US">I was taken</gloss>
+		</entry>
+		<entry>
+			<word>λείπω</word>
+			<display>λείπω</display>
+			<gloss xml:lang="en-US">I leave</gloss>
+		</entry>
+		<entry>
+			<word>ἐλείφθην</word>
+			<display>ἐλείφθην</display>
+			<gloss xml:lang="en-US">I was left</gloss>
+		</entry>
+		<entry>
+			<word>πέμπω</word>
+			<display>πέμπω</display>
+			<gloss xml:lang="en-US">I send</gloss>
+		</entry>
+		<entry>
+			<word>ἐπέμφθην</word>
+			<display>ἐπέμφθην</display>
+			<gloss xml:lang="en-US">I was sent</gloss>
+		</entry>
+		<entry>
+			<word>σῴζω</word>
+			<display>σῴζω</display>
+			<gloss xml:lang="en-US">I save</gloss>
+		</entry>
+		<entry>
+			<word>ἐσώθην</word>
+			<display>ἐσώθην</display>
+			<gloss xml:lang="en-US">I was saved</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 18</title>
+		<entry>
+			<word>ἀνήρ</word>
+			<display>ἀνήρ, ἀνδρός, ὁ</display>
+			<gloss xml:lang="en-US">man, male, husband</gloss>
+		</entry>
+		<entry>
+			<word>θυγάτηρ</word>
+			<display>θυγάτηρ, θυγατρός, ἡ</display>
+			<gloss xml:lang="en-US">daughter</gloss>
+		</entry>
+		<entry>
+			<word>μήτηρ</word>
+			<display>μήτηρ, μητρός, ἡ</display>
+			<gloss xml:lang="en-US">mother</gloss>
+		</entry>
+		<entry>
+			<word>πατήρ</word>
+			<display>πατήρ, πατρός, ὁ</display>
+			<gloss xml:lang="en-US">father</gloss>
+		</entry>
+		<entry>
+			<word>πῦρ</word>
+			<display>πῦρ, πυρός, τό</display>
+			<gloss xml:lang="en-US">fire</gloss>
+		</entry>
+		<entry>
+			<word>χείρ</word>
+			<display>χείρ, χειρός, ἡ</display>
+			<gloss xml:lang="en-US">hand</gloss>
+		</entry>
+		<entry>
+			<word>ἄρχων</word>
+			<display>ἄρχων, ἄρχοντος, ὁ</display>
+			<gloss xml:lang="en-US">ruler</gloss>
+		</entry>
+		<entry>
+			<word>γυνή</word>
+			<display>γυνή, γυναικός, ἡ</display>
+			<gloss xml:lang="en-US">woman, wife</gloss>
+		</entry>
+		<entry>
+			<word>ἐλπίς</word>
+			<display>ἐλπίς, ἐλπίδος, ἡ</display>
+			<gloss xml:lang="en-US">hope</gloss>
+		</entry>
+		<entry>
+			<word>νύξ</word>
+			<display>νύξ, νυκτός, ἡ</display>
+			<gloss xml:lang="en-US">night</gloss>
+		</entry>
+		<entry>
+			<word>πούς</word>
+			<display>πούς, ποδός, ὁ*</display>
+			<gloss xml:lang="en-US">foot</gloss>
+		</entry>
+		<entry>
+			<word>σάρξ</word>
+			<display>σάρξ, σαρκός, ἡ</display>
+			<gloss xml:lang="en-US">flesh</gloss>
+		</entry>
+		<entry>
+			<word>χάρις</word>
+			<display>χάρις, χάριτος, ἡ</display>
+			<gloss xml:lang="en-US">grace</gloss>
+		</entry>
+		<entry>
+			<word>ἀγγελία</word>
+			<display>ἀγγελία, ἡ</display>
+			<gloss xml:lang="en-US">message</gloss>
+		</entry>
+		<entry>
+			<word>ἀρχή</word>
+			<display>ἀρχή, ἡ</display>
+			<gloss xml:lang="en-US">beginning</gloss>
+		</entry>
+		<entry>
+			<word>εἰ</word>
+			<display>εἰ μή</display>
+			<gloss xml:lang="en-US">except (after a neg.)</gloss>
+		</entry>
+		<entry>
+			<word>Μωϋσῆς</word>
+			<display>Μωϋσῆς, Μωϋσέως, ὁ*</display>
+			<gloss xml:lang="en-US">Moses</gloss>
+		</entry>
+		<entry>
+			<word>οἰκία</word>
+			<display>οἰκία, ἡ</display>
+			<gloss xml:lang="en-US">house, household, property</gloss>
+		</entry>
+		<entry>
+			<word>ὅτε</word>
+			<display>ὅτε</display>
+			<gloss xml:lang="en-US">when, while (conj. and particle)</gloss>
+		</entry>
+		<entry>
+			<word>οὕτως</word>
+			<display>οὕτως (οὕτω)</display>
+			<gloss xml:lang="en-US">in this manner, thus (adv.)</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 19</title>
+		<entry>
+			<word>γνῶσις</word>
+			<display>γνῶσις, γνώσεως, ἡ</display>
+			<gloss xml:lang="en-US">knowledge</gloss>
+		</entry>
+		<entry>
+			<word>δύναμις</word>
+			<display>δύναμις, δυνάμεως, ἡ</display>
+			<gloss xml:lang="en-US">power</gloss>
+		</entry>
+		<entry>
+			<word>κρίσις</word>
+			<display>κρίσις, κρίσεως, ἡ</display>
+			<gloss xml:lang="en-US">judgment</gloss>
+		</entry>
+		<entry>
+			<word>πίστις</word>
+			<display>πίστις, πίστεως, ἡ</display>
+			<gloss xml:lang="en-US">faith</gloss>
+		</entry>
+		<entry>
+			<word>πόλις</word>
+			<display>πόλις, πόλεως, ἡ</display>
+			<gloss xml:lang="en-US">city</gloss>
+		</entry>
+		<entry>
+			<word>ἀρχιερεύς</word>
+			<display>ἀρχιερεύς, ἀρχιερέως, ὁ</display>
+			<gloss xml:lang="en-US">high priest, chief priest</gloss>
+		</entry>
+		<entry>
+			<word>βασιλεύς</word>
+			<display>βασιλεύς, βασιλέως, ὁ</display>
+			<gloss xml:lang="en-US">king</gloss>
+		</entry>
+		<entry>
+			<word>ἱερεύς</word>
+			<display>ἱερεύς, ἱερέως, ὁ</display>
+			<gloss xml:lang="en-US">priest</gloss>
+		</entry>
+		<entry>
+			<word>ἰχθύς</word>
+			<display>ἰχθύς, ἰχθύος, ὁ</display>
+			<gloss xml:lang="en-US">fish</gloss>
+		</entry>
+		<entry>
+			<word>στάχυς</word>
+			<display>στάχυς, στάχυος, ὁ</display>
+			<gloss xml:lang="en-US">head of grain, wheat</gloss>
+		</entry>
+		<entry>
+			<word>γένος</word>
+			<display>γένος, γένους, τό</display>
+			<gloss xml:lang="en-US">race, kind</gloss>
+		</entry>
+		<entry>
+			<word>ὄρος</word>
+			<display>ὄρος, ὄρους, τό</display>
+			<gloss xml:lang="en-US">mountain</gloss>
+		</entry>
+		<entry>
+			<word>σκότος</word>
+			<display>σκότος, σκότους, τό</display>
+			<gloss xml:lang="en-US">darkness, sin</gloss>
+		</entry>
+		<entry>
+			<word>τέλος</word>
+			<display>τέλος, τέλους, τό</display>
+			<gloss xml:lang="en-US">end</gloss>
+		</entry>
+		<entry>
+			<word>αἷμα</word>
+			<display>αἷμα, αἵματος, τό</display>
+			<gloss xml:lang="en-US">blood</gloss>
+		</entry>
+		<entry>
+			<word>θέλημα</word>
+			<display>θέλημα, θελήματος, τό</display>
+			<gloss xml:lang="en-US">will</gloss>
+		</entry>
+		<entry>
+			<word>ὄνομα</word>
+			<display>ὄνομα, ὀνόματος, τό</display>
+			<gloss xml:lang="en-US">name</gloss>
+		</entry>
+		<entry>
+			<word>πνεῦμα</word>
+			<display>πνεῦμα, πνεύματος, τό</display>
+			<gloss xml:lang="en-US">spirit, Spirit</gloss>
+		</entry>
+		<entry>
+			<word>σῶμα</word>
+			<display>σῶμα, σώματος, τό</display>
+			<gloss xml:lang="en-US">body</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 20</title>
+		<entry>
+			<word>ἀδικία</word>
+			<display>ἀδικία, ἡ</display>
+			<gloss xml:lang="en-US">unrighteousness</gloss>
+		</entry>
+		<entry>
+			<word>ἀνάστασις</word>
+			<display>ἀνάστασις, ἀναστάσεως, ἡ</display>
+			<gloss xml:lang="en-US">resurrection</gloss>
+		</entry>
+		<entry>
+			<word>διάβολος</word>
+			<display>διάβολος, ὁ</display>
+			<gloss xml:lang="en-US">the Devil</gloss>
+		</entry>
+		<entry>
+			<word>ἔλεος</word>
+			<display>ἔλεος, ἐλέους, τό</display>
+			<gloss xml:lang="en-US">mercy</gloss>
+		</entry>
+		<entry>
+			<word>ἕως</word>
+			<display>ἕως</display>
+			<gloss xml:lang="en-US">until, while (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>Μαρία</word>
+			<display>Μαρία (Μαριάμ), ἡ</display>
+			<gloss xml:lang="en-US">Mary (indeclinable)</gloss>
+		</entry>
+		<entry>
+			<word>ὅταν</word>
+			<display>ὅταν</display>
+			<gloss xml:lang="en-US">when, whenever (particle)</gloss>
+		</entry>
+		<entry>
+			<word>ὀφείλω</word>
+			<display>ὀφείλω</display>
+			<gloss xml:lang="en-US">I owe, ought</gloss>
+		</entry>
+		<entry>
+			<word>ὀφθαλμός</word>
+			<display>ὀφθαλμός, ὁ</display>
+			<gloss xml:lang="en-US">eye</gloss>
+		</entry>
+		<entry>
+			<word>παράκλητος</word>
+			<display>παράκλητος, ὁ</display>
+			<gloss xml:lang="en-US">advocate</gloss>
+		</entry>
+		<entry>
+			<word>πῶς</word>
+			<display>πῶς</display>
+			<gloss xml:lang="en-US">how? in what way? (interrog. particle)</gloss>
+		</entry>
+		<entry>
+			<word>σκάνδαλον</word>
+			<display>σκάνδαλον, τό</display>
+			<gloss xml:lang="en-US">stumbling block</gloss>
+		</entry>
+		<entry>
+			<word>φῶς</word>
+			<display>φῶς, φωτός, τό</display>
+			<gloss xml:lang="en-US">light</gloss>
+		</entry>
+		<entry>
+			<word>ψεύστης</word>
+			<display>ψεύστης, ὁ</display>
+			<gloss xml:lang="en-US">liar</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 21</title>
+		<entry>
+			<word>Ἀβραάμ</word>
+			<display>Ἀβραάμ, ὁ</display>
+			<gloss xml:lang="en-US">Abraham (indeclinable)</gloss>
+		</entry>
+		<entry>
+			<word>αἰώνιος</word>
+			<display>αἰώνιος, -ον</display>
+			<gloss xml:lang="en-US">eternal (adj.)</gloss>
+		</entry>
+		<entry>
+			<word>γραμματεύς</word>
+			<display>γραμματεύς, γραμματέως, ὁ</display>
+			<gloss xml:lang="en-US">scribe</gloss>
+		</entry>
+		<entry>
+			<word>διώκω</word>
+			<display>διώκω</display>
+			<gloss xml:lang="en-US">I persecute, pursue</gloss>
+		</entry>
+		<entry>
+			<word>ἔθνος</word>
+			<display>ἔθνος, ἔθνους, τό</display>
+			<gloss xml:lang="en-US">nation (pl. Gentiles)</gloss>
+		</entry>
+		<entry>
+			<word>ἐνώπιον</word>
+			<display>ἐνώπιον</display>
+			<gloss xml:lang="en-US">before (prep., takes a gen. object)</gloss>
+		</entry>
+		<entry>
+			<word>μή</word>
+			<display>μή</display>
+			<gloss xml:lang="en-US">not (neg. particle used primarily with moods other than indicative and with participles and infinitives)</gloss>
+		</entry>
+		<entry>
+			<word>μηδέ</word>
+			<display>μηδέ</display>
+			<gloss xml:lang="en-US">and not, nor, not even (particle)</gloss>
+		</entry>
+		<entry>
+			<word>μηδέ … μηδέ</word>
+			<display>μηδέ … μηδέ</display>
+			<gloss xml:lang="en-US">neither … nor</gloss>
+		</entry>		
+		<entry>
+			<word>πρόσωπον</word>
+			<display>πρόσωπον, τό</display>
+			<gloss xml:lang="en-US">face</gloss>
+		</entry>
+		<entry>
+			<word>σημεῖον</word>
+			<display>σημεῖον, τό</display>
+			<gloss xml:lang="en-US">sign</gloss>
+		</entry>
+		<entry>
+			<word>Σίμων</word>
+			<display>Σίμων, Σίμωνος, ὁ</display>
+			<gloss xml:lang="en-US">Simon</gloss>
+		</entry>
+		<entry>
+			<word>στόμα</word>
+			<display>στόμα, στόματος, τό</display>
+			<gloss xml:lang="en-US">mouth</gloss>
+		</entry>
+		<entry>
+			<word>συναγωγή</word>
+			<display>συναγωγή, ἡ</display>
+			<gloss xml:lang="en-US">synagogue</gloss>
+		</entry>
+		<entry>
+			<word>ὕδωρ</word>
+			<display>ὕδωρ, ὕδατος, τό</display>
+			<gloss xml:lang="en-US">water</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 22</title>
+		<entry>
+			<word>ἀπολύω</word>
+			<display>ἀπολύω</display>
+			<gloss xml:lang="en-US">I release, dismiss</gloss>
+		</entry>
+		<entry>
+			<word>ἐπιθυμία</word>
+			<display>ἐπιθυμία, ἡ</display>
+			<gloss xml:lang="en-US">desire, longing</gloss>
+		</entry>
+		<entry>
+			<word>καιρός</word>
+			<display>καιρός, ὁ</display>
+			<gloss xml:lang="en-US">time, season</gloss>
+		</entry>
+		<entry>
+			<word>μακάριος</word>
+			<display>μακάριος, -α, -ον</display>
+			<gloss xml:lang="en-US">blessed, fortunate</gloss>
+		</entry>
+		<entry>
+			<word>μέσος</word>
+			<display>μέσος, -η, -ον</display>
+			<gloss xml:lang="en-US">middle</gloss>
+		</entry>
+		<entry>
+			<word>πτωχός</word>
+			<display>πτωχός, -ή, -όν</display>
+			<gloss xml:lang="en-US">poor</gloss>
+		</entry>
+		<entry>
+			<word>σάββατον</word>
+			<display>σάββατον, τό</display>
+			<gloss xml:lang="en-US">Sabbath, seventh day</gloss>
+		</entry>
+		<entry>
+			<word>σωτηρία</word>
+			<display>σωτηρία, ἡ</display>
+			<gloss xml:lang="en-US">salvation</gloss>
+		</entry>
+		<entry>
+			<word>χρεία</word>
+			<display>χρεία, ἡ</display>
+			<gloss xml:lang="en-US">need</gloss>
+		</entry>
+		<entry>
+			<word>χρόνος</word>
+			<display>χρόνος, ὁ</display>
+			<gloss xml:lang="en-US">time, period of time</gloss>
+		</entry>
+		<entry>
+			<word>ὧδε</word>
+			<display>ὧδε</display>
+			<gloss xml:lang="en-US">here, in (or to) this place (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ὥρα</word>
+			<display>ὥρα, ἡ</display>
+			<gloss xml:lang="en-US">hour, moment, time</gloss>
+		</entry>
+		<entry>
+			<word>ὥστε</word>
+			<display>ὥστε</display>
+			<gloss xml:lang="en-US">so that, therefore (conj. and particle)</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 23</title>
+		<entry>
+			<word>ἀκούω</word>
+			<display>ἀκούω</display>
+			<gloss xml:lang="en-US">I hear</gloss>
+		</entry>
+		<entry>
+			<word>ἀκήκοα</word>
+			<display>ἀκήκοα</display>
+			<gloss xml:lang="en-US">I have heard</gloss>
+		</entry>
+		<entry>
+			<word>βαπτίζω</word>
+			<display>βαπτίζω</display>
+			<gloss xml:lang="en-US">I baptize</gloss>
+		</entry>
+		<entry>
+			<word>βεβάπτισμαι*</word>
+			<display>βεβάπτισμαι*</display>
+			<gloss xml:lang="en-US">I have been baptized (pass.)</gloss>
+		</entry>
+		<entry>
+			<word>γέγονα</word>
+			<display>γέγονα</display>
+			<gloss xml:lang="en-US">I have become</gloss>
+		</entry>
+		<entry>
+			<word>γινώσκω</word>
+			<display>γινώσκω</display>
+			<gloss xml:lang="en-US">I know</gloss>
+		</entry>
+		<entry>
+			<word>ἔγνωκα</word>
+			<display>ἔγνωκα</display>
+			<gloss xml:lang="en-US">I have known</gloss>
+		</entry>
+		<entry>
+			<word>γράφω</word>
+			<display>γράφω</display>
+			<gloss xml:lang="en-US">I write</gloss>
+		</entry>
+		<entry>
+			<word>γέγραφα</word>
+			<display>γέγραφα</display>
+			<gloss xml:lang="en-US">I have written</gloss>
+		</entry>
+		<entry>
+			<word>δέω</word>
+			<display>δέω</display>
+			<gloss xml:lang="en-US">I bind, tie</gloss>
+		</entry>
+		<entry>
+			<word>δέδεκα</word>
+			<display>δέδεκα</display>
+			<gloss xml:lang="en-US">I have bound</gloss>
+		</entry>
+		<entry>
+			<word>ἐγγίζω</word>
+			<display>ἐγγίζω</display>
+			<gloss xml:lang="en-US">I come near, approach</gloss>
+		</entry>
+		<entry>
+			<word>ἤγγικα</word>
+			<display>ἤγγικα</display>
+			<gloss xml:lang="en-US">I have come near</gloss>
+		</entry>
+		<entry>
+			<word>ἐγείρω</word>
+			<display>ἐγείρω</display>
+			<gloss xml:lang="en-US">I raise up</gloss>
+		</entry>
+		<entry>
+			<word>ἐγήγερμαι*</word>
+			<display>ἐγήγερμαι*</display>
+			<gloss xml:lang="en-US">I have been raised up (pass.)</gloss>
+		</entry>
+		<entry>
+			<word>ἐξελήλυθα</word>
+			<display>ἐξελήλυθα</display>
+			<gloss xml:lang="en-US">I have come, gone out of</gloss>
+		</entry>
+		<entry>
+			<word>ἐλήλυθα</word>
+			<display>ἐλήλυθα</display>
+			<gloss xml:lang="en-US">I have come, gone</gloss>
+		</entry>
+		<entry>
+			<word>λύω</word>
+			<display>λύω</display>
+			<gloss xml:lang="en-US">I loose, destroy</gloss>
+		</entry>
+		<entry>
+			<word>λέλυκα</word>
+			<display>λέλυκα</display>
+			<gloss xml:lang="en-US">I have loosed, destroyed</gloss>
+		</entry>
+		<entry>
+			<word>πιστεύω</word>
+			<display>πιστεύω</display>
+			<gloss xml:lang="en-US">I believe, have faith (in)</gloss>
+		</entry>
+		<entry>
+			<word>πεπίστευκα</word>
+			<display>πεπίστευκα</display>
+			<gloss xml:lang="en-US">I have believed, had faith (in)</gloss>
+		</entry>
+		<entry>
+			<word>σῴζω</word>
+			<display>σῴζω</display>
+			<gloss xml:lang="en-US">I save</gloss>
+		</entry>
+		<entry>
+			<word>σέσωκα</word>
+			<display>σέσωκα</display>
+			<gloss xml:lang="en-US">I have saved</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 24</title>
+		<entry>
+			<word>ἁγιάζω</word>
+			<display>ἁγιάζω</display>
+			<gloss xml:lang="en-US">I sanctify, set apart</gloss>
+		</entry>
+		<entry>
+			<word>ἄν</word>
+			<display>ἄν</display>
+			<gloss xml:lang="en-US">particle indicating contingency (postpositive)</gloss>
+		</entry>
+		<entry>
+			<word>δικαιοσύνη</word>
+			<display>δικαιοσύνη, ἡ</display>
+			<gloss xml:lang="en-US">righteousness</gloss>
+		</entry>
+		<entry>
+			<word>διό</word>
+			<display>διό</display>
+			<gloss xml:lang="en-US">therefore, for this reason (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>ἐάν</word>
+			<display>ἐάν</display>
+			<gloss xml:lang="en-US">if (conj.; usually used with the subjunctive)</gloss>
+		</entry>
+		<entry>
+			<word>ἐὰν μη</word>
+			<display>ἐὰν μη</display>
+			<gloss xml:lang="en-US">except, unless</gloss>
+		</entry>		
+		<entry>
+			<word>εἰ</word>
+			<display>εἰ</display>
+			<gloss xml:lang="en-US">if (conj.; usually used with the indicative)</gloss>
+		</entry>
+		<entry>
+			<word>εἰ μη</word>
+			<display>εἰ μη</display>
+			<gloss xml:lang="en-US">except, unless</gloss>
+		</entry>		
+		<entry>
+			<word>εἴτε</word>
+			<display>εἴτε</display>
+			<gloss xml:lang="en-US">if, whether (conj.)</gloss>
+		</entry>
+		<entry>
+			<word>ἔξω</word>
+			<display>ἔξω</display>
+			<gloss xml:lang="en-US">outside (adv. used as a prep. with a gen. object)</gloss>
+		</entry>
+		<entry>
+			<word>ἵνα</word>
+			<display>ἵνα</display>
+			<gloss xml:lang="en-US">in order that, that (conj.; usually used with the subjunctive)</gloss>
+		</entry>
+		<entry>
+			<word>μαρτυρία</word>
+			<display>μαρτυρία, ἡ</display>
+			<gloss xml:lang="en-US">witness, testimony</gloss>
+		</entry>
+		<entry>
+			<word>ὅπου</word>
+			<display>ὅπου</display>
+			<gloss xml:lang="en-US">where (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>πίνω</word>
+			<display>πίνω</display>
+			<gloss xml:lang="en-US">I drink</gloss>
+		</entry>
+		<entry>
+			<word>ὑπάγω</word>
+			<display>ὑπάγω</display>
+			<gloss xml:lang="en-US">I go away</gloss>
+		</entry>
+		<entry>
+			<word>Φαρισαῖος</word>
+			<display>Φαρισαῖος, ὁ</display>
+			<gloss xml:lang="en-US">Pharisee</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 25</title>
+		<entry>
+			<word>ἀπαγγέλλω</word>
+			<display>ἀπαγγέλλω</display>
+			<gloss xml:lang="en-US">I tell, proclaim</gloss>
+		</entry>
+		<entry>
+			<word>ἄχρι</word>
+			<display>ἄχρι (ἄχρις)</display>
+			<gloss xml:lang="en-US">until (prep.) takes a gen. object</gloss>
+		</entry>
+		<entry>
+			<word>Δαυίδ</word>
+			<display>Δαυίδ, ὁ</display>
+			<gloss xml:lang="en-US">David (indeclinable)</gloss>
+		</entry>
+		<entry>
+			<word>ἐκεῖ</word>
+			<display>ἐκεῖ</display>
+			<gloss xml:lang="en-US">there, in that place, to that place (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ἤδη</word>
+			<display>ἤδη</display>
+			<gloss xml:lang="en-US">now, already (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ἰδού</word>
+			<display>ἰδού</display>
+			<gloss xml:lang="en-US">look! behold! here (or there) is! (imper. of eidon)</gloss>
+		</entry>
+		<entry>
+			<word>κοινωνία</word>
+			<display>κοινωνία, ἡ</display>
+			<gloss xml:lang="en-US">fellowship</gloss>
+		</entry>
+		<entry>
+			<word>ὅπως</word>
+			<display>ὅπως</display>
+			<gloss xml:lang="en-US">that, in order that, sometimes, how (adv. and conj.)</gloss>
+		</entry>
+		<entry>
+			<word>οὖς</word>
+			<display>οὖς, ὠτός, τό</display>
+			<gloss xml:lang="en-US">ear</gloss>
+		</entry>
+		<entry>
+			<word>σπείρω</word>
+			<display>σπείρω</display>
+			<gloss xml:lang="en-US">I sow</gloss>
+		</entry>
+		<entry>
+			<word>σπέρμα</word>
+			<display>σπέρμα, σπέρματος, τό</display>
+			<gloss xml:lang="en-US">seed, offspring</gloss>
+		</entry>
+		<entry>
+			<word>ψυχή</word>
+			<display>ψυχή, ἡ</display>
+			<gloss xml:lang="en-US">self, inner life, human being</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 26</title>
+		<entry>
+			<word>δηλόω</word>
+			<display>δηλόω</display>
+			<gloss xml:lang="en-US">I show</gloss>
+		</entry>
+		<entry>
+			<word>εὐλογέω</word>
+			<display>εὐλογέω</display>
+			<gloss xml:lang="en-US">I bless</gloss>
+		</entry>
+		<entry>
+			<word>εὐχαριστέω</word>
+			<display>εὐχαριστέω</display>
+			<gloss xml:lang="en-US">I give thanks</gloss>
+		</entry>
+		<entry>
+			<word>ζάω</word>
+			<display>ζάω</display>
+			<gloss xml:lang="en-US">I live</gloss>
+		</entry>
+		<entry>
+			<word>ζητέω</word>
+			<display>ζητέω</display>
+			<gloss xml:lang="en-US">I seek</gloss>
+		</entry>
+		<entry>
+			<word>καλέω</word>
+			<display>καλέω</display>
+			<gloss xml:lang="en-US">I call</gloss>
+		</entry>
+		<entry>
+			<word>λαλέω</word>
+			<display>λαλέω</display>
+			<gloss xml:lang="en-US">I speak</gloss>
+		</entry>
+		<entry>
+			<word>μαρτυρέω</word>
+			<display>μαρτυρέω</display>
+			<gloss xml:lang="en-US">I bear witness</gloss>
+		</entry>
+		<entry>
+			<word>ὁράω</word>
+			<display>ὁράω</display>
+			<gloss xml:lang="en-US">I see, observe</gloss>
+		</entry>
+		<entry>
+			<word>παρακαλέω</word>
+			<display>παρακαλέω</display>
+			<gloss xml:lang="en-US">I urge, comfort</gloss>
+		</entry>
+		<entry>
+			<word>περιπατέω</word>
+			<display>περιπατέω</display>
+			<gloss xml:lang="en-US">I walk about, live</gloss>
+		</entry>
+		<entry>
+			<word>πληρόω</word>
+			<display>πληρόω</display>
+			<gloss xml:lang="en-US">I fulfill, complete</gloss>
+		</entry>
+		<entry>
+			<word>ποιέω</word>
+			<display>ποιέω</display>
+			<gloss xml:lang="en-US">I do, make</gloss>
+		</entry>
+		<entry>
+			<word>σταυρόω</word>
+			<display>σταυρόω</display>
+			<gloss xml:lang="en-US">I crucify</gloss>
+		</entry>
+		<entry>
+			<word>τελειόω</word>
+			<display>τελειόω</display>
+			<gloss xml:lang="en-US">I make perfect, finish</gloss>
+		</entry>
+		<entry>
+			<word>τηρέω</word>
+			<display>τηρέω</display>
+			<gloss xml:lang="en-US">I keep</gloss>
+		</entry>
+		<entry>
+			<word>τιμάω</word>
+			<display>τιμάω</display>
+			<gloss xml:lang="en-US">I honor</gloss>
+		</entry>
+		<entry>
+			<word>φανερόω</word>
+			<display>φανερόω</display>
+			<gloss xml:lang="en-US">I reveal</gloss>
+		</entry>
+		<entry>
+			<word>φιλέω</word>
+			<display>φιλέω</display>
+			<gloss xml:lang="en-US">I love, like</gloss>
+		</entry>
+		<entry>
+			<word>ψηλαφάω</word>
+			<display>ψηλαφάω</display>
+			<gloss xml:lang="en-US">I touch</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 27</title>
+		<entry>
+			<word>αὐτός</word>
+			<display>αὐτός, -ή, -ό</display>
+			<gloss xml:lang="en-US">he, she, it</gloss>
+		</entry>
+		<entry>
+			<word>ἔγω</word>
+			<display>ἔγω</display>
+			<gloss xml:lang="en-US">I</gloss>
+		</entry>
+		<entry>
+			<word>ἐκεῖνος</word>
+			<display>ἐκεῖνος, -η, -ο</display>
+			<gloss xml:lang="en-US">that (one)</gloss>
+		</entry>
+		<entry>
+			<word>οὗτος</word>
+			<display>οὗτος, αὕτη, τοῦτο</display>
+			<gloss xml:lang="en-US">this (one)</gloss>
+		</entry>
+		<entry>
+			<word>σύ</word>
+			<display>σύ</display>
+			<gloss xml:lang="en-US">you</gloss>
+		</entry>
+		<entry>
+			<word>ἐμός</word>
+			<display>ἐμός, -ή, -όν</display>
+			<gloss xml:lang="en-US">my, mine</gloss>
+		</entry>
+		<entry>
+			<word>μηδείς</word>
+			<display>μηδείς, μηδεμία, μηδέν (μηθέν)</display>
+			<gloss xml:lang="en-US">no one (usually with moods other than indicative)</gloss>
+		</entry>
+		<entry>
+			<word>ὅς</word>
+			<display>ὅς, ἥ, ὅ</display>
+			<gloss xml:lang="en-US">who, which, what</gloss>
+		</entry>
+		<entry>
+			<word>ὅστις</word>
+			<display>ὅστις, ἥτις, ὅ τι</display>
+			<gloss xml:lang="en-US">who (whoever), which, (whichever), anyone</gloss>
+		</entry>
+		<entry>
+			<word>οὐδείς</word>
+			<display>οὐδείς (οὐθείς), οὐδεμία, οὐδέν</display>
+			<gloss xml:lang="en-US">no one, nothing (usually with indicative mood)</gloss>
+		</entry>
+		<entry>
+			<word>σός</word>
+			<display>σός, σή, σόν</display>
+			<gloss xml:lang="en-US">your, yours</gloss>
+		</entry>
+		<entry>
+			<word>τίς</word>
+			<display>τίς, τί</display>
+			<gloss xml:lang="en-US">who? what?</gloss>
+		</entry>
+		<entry>
+			<word>τις</word>
+			<display>τις, τι</display>
+			<gloss xml:lang="en-US">someone, something</gloss>
+		</entry>
+		<entry>
+			<word>τοιοῦτος</word>
+			<display>τοιοῦτος, τοιαύτη, τοιοῦτον</display>
+			<gloss xml:lang="en-US">such, of such kind</gloss>
+		</entry>
+		<entry>
+			<word>ἀληθῶς</word>
+			<display>ἀληθῶς</display>
+			<gloss xml:lang="en-US">truly (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>δύο</word>
+			<display>δύο</display>
+			<gloss xml:lang="en-US">two</gloss>
+		</entry>
+		<entry>
+			<word>δώδεκα</word>
+			<display>δώδεκα</display>
+			<gloss xml:lang="en-US">twelve</gloss>
+		</entry>
+		<entry>
+			<word>εἷς</word>
+			<display>εἷς, μία, ἕν</display>
+			<gloss xml:lang="en-US">one, single</gloss>
+		</entry>
+		<entry>
+			<word>ἑπτά</word>
+			<display>ἑπτά</display>
+			<gloss xml:lang="en-US">seven</gloss>
+		</entry>
+		<entry>
+			<word>καθώς</word>
+			<display>καθώς</display>
+			<gloss xml:lang="en-US">just as (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ὁμολογέω</word>
+			<display>ὁμολογέω</display>
+			<gloss xml:lang="en-US">I confess</gloss>
+		</entry>
+		<entry>
+			<word>πλανάω</word>
+			<display>πλανάω</display>
+			<gloss xml:lang="en-US">I lead astray, deceive</gloss>
+		</entry>
+		<entry>
+			<word>τρεῖς</word>
+			<display>τρεῖς, τρία</display>
+			<gloss xml:lang="en-US">three</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 28</title>
+		<entry>
+			<word>ἀληθής</word>
+			<display>ἀληθής, ἀληθές</display>
+			<gloss xml:lang="en-US">true, genuine</gloss>
+		</entry>
+		<entry>
+			<word>μέγας</word>
+			<display>μέγας, μεγάλη, μέγα</display>
+			<gloss xml:lang="en-US">large, great</gloss>
+		</entry>
+		<entry>
+			<word>πᾶς</word>
+			<display>πᾶς, πᾶσα, πᾶν</display>
+			<gloss xml:lang="en-US">all, every</gloss>
+		</entry>
+		<entry>
+			<word>πολύς</word>
+			<display>πολύς, πολλή, πολύ</display>
+			<gloss xml:lang="en-US">much, many</gloss>
+		</entry>
+		<entry>
+			<word>ἀληθινός</word>
+			<display>ἀληθινός, -ή, -όν</display>
+			<gloss xml:lang="en-US">real, true</gloss>
+		</entry>
+		<entry>
+			<word>ἄρτι</word>
+			<display>ἄρτι</display>
+			<gloss xml:lang="en-US">now (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ἰσχυρός</word>
+			<display>ἰσχυρός, -ά, -όν</display>
+			<gloss xml:lang="en-US">strong</gloss>
+		</entry>
+		<entry>
+			<word>μᾶλλον</word>
+			<display>μᾶλλον</display>
+			<gloss xml:lang="en-US">more (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ὅθεν</word>
+			<display>ὅθεν</display>
+			<gloss xml:lang="en-US">where, from where (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>παλαιός</word>
+			<display>παλαιός, -ά, -όν</display>
+			<gloss xml:lang="en-US">old, former</gloss>
+		</entry>
+		<entry>
+			<word>πλείων</word>
+			<display>πλείων</display>
+			<gloss xml:lang="en-US">more (comparative of polus)</gloss>
+		</entry>
+		<entry>
+			<word>ποῦ</word>
+			<display>ποῦ</display>
+			<gloss xml:lang="en-US">where? at (or to) what place? (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>ἀγαπάω</word>
+			<display>ἀγαπάω</display>
+			<gloss xml:lang="en-US">I love (primarily Christian love)</gloss>
+		</entry>
+		<entry>
+			<word>ἀλαζονεία</word>
+			<display>ἀλαζονεία, ἡ</display>
+			<gloss xml:lang="en-US">arrogance</gloss>
+		</entry>
+		<entry>
+			<word>βίος</word>
+			<display>βίος, ὁ</display>
+			<gloss xml:lang="en-US">life, property</gloss>
+		</entry>
+		<entry>
+			<word>μισέω</word>
+			<display>μισέω</display>
+			<gloss xml:lang="en-US">I hate</gloss>
+		</entry>
+		<entry>
+			<word>νεανίσκος</word>
+			<display>νεανίσκος, ὁ</display>
+			<gloss xml:lang="en-US">young man</gloss>
+		</entry>
+		<entry>
+			<word>νικάω</word>
+			<display>νικάω</display>
+			<gloss xml:lang="en-US">I conquer</gloss>
+		</entry>
+		<entry>
+			<word>παράγω</word>
+			<display>παράγω</display>
+			<gloss xml:lang="en-US">I pass by, pass away</gloss>
+		</entry>
+		<entry>
+			<word>τυφλόω</word>
+			<display>τυφλόω</display>
+			<gloss xml:lang="en-US">I blind</gloss>
+		</entry>
+		<entry>
+			<word>φαίνω</word>
+			<display>φαίνω</display>
+			<gloss xml:lang="en-US">I shine, cause to shine</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 29</title>
+		<entry>
+			<word>ἀφίημι</word>
+			<display>ἀφίημι, ἀφήσω, ἀφῆκα, ἀφεῖκα, ἀφεῖμαι, ἀφείθην (ἀφέθην)</display>
+			<gloss xml:lang="en-US">I cancel, forgive, dismiss</gloss>
+		</entry>
+		<entry>
+			<word>δίδωμι</word>
+			<display>δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην</display>
+			<gloss xml:lang="en-US">I give, grant</gloss>
+		</entry>
+		<entry>
+			<word>ἵστημι</word>
+			<display>ἵστημι, στήσω, ἔστησα (ἔστην), ἕστηκα, ἕσταμαι, ἐστάθην</display>
+			<gloss xml:lang="en-US">I set, establish, stand</gloss>
+		</entry>
+		<entry>
+			<word>παραδίδωμι</word>
+			<display>παραδίδωμι, παραδώσω, παρέδωκα, παραδέδωκα, παραδέδομαι, παρεδόθην</display>
+			<gloss xml:lang="en-US">I hand over, pass on</gloss>
+		</entry>
+		<entry>
+			<word>τίθημι</word>
+			<display>τίθημι, θήσω, ἔθηκα, τέθεικα, τέθειμαι, ἐτέθην</display>
+			<gloss xml:lang="en-US">I place, put</gloss>
+		</entry>
+		<entry>
+			<word>αἰτέω</word>
+			<display>αἰτέω</display>
+			<gloss xml:lang="en-US">I ask, demand</gloss>
+		</entry>
+		<entry>
+			<word>ἀκολουθέω</word>
+			<display>ἀκολουθέω</display>
+			<gloss xml:lang="en-US">I follow, am a disciple</gloss>
+		</entry>
+		<entry>
+			<word>ἀντίχριστος</word>
+			<display>ἀντίχριστος, ὁ</display>
+			<gloss xml:lang="en-US">Antichrist</gloss>
+		</entry>
+		<entry>
+			<word>χρῖσμα</word>
+			<display>χρῖσμα, χρίσματος, τό</display>
+			<gloss xml:lang="en-US">annointing</gloss>
+		</entry>
+		<entry>
+			<word>ψεῦδος</word>
+			<display>ψεῦδος, ψεύδους, τό</display>
+			<gloss xml:lang="en-US">lie</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 30</title>
+		<entry>
+			<word>ἁγνίζω</word>
+			<display>ἁγνίζω</display>
+			<gloss xml:lang="en-US">I purify</gloss>
+		</entry>
+		<entry>
+			<word>ἁγνός</word>
+			<display>ἁγνός, -ή, -όν</display>
+			<gloss xml:lang="en-US">pure</gloss>
+		</entry>
+		<entry>
+			<word>ἀνομία</word>
+			<display>ἀνομία, ἡ</display>
+			<gloss xml:lang="en-US">lawlessness, wickedness</gloss>
+		</entry>
+		<entry>
+			<word>γεννάω</word>
+			<display>γεννάω</display>
+			<gloss xml:lang="en-US">I bear, give birth to</gloss>
+		</entry>
+		<entry>
+			<word>δοκέω</word>
+			<display>δοκέω</display>
+			<gloss xml:lang="en-US">I think, suppose</gloss>
+		</entry>
+		<entry>
+			<word>ἐπερωτάω</word>
+			<display>ἐπερωτάω</display>
+			<gloss xml:lang="en-US">I ask (for)</gloss>
+		</entry>
+		<entry>
+			<word>ἐρωτάω</word>
+			<display>ἐρωτάω</display>
+			<gloss xml:lang="en-US">I ask (a question)</gloss>
+		</entry>
+		<entry>
+			<word>οὔπω</word>
+			<display>οὔπω</display>
+			<gloss xml:lang="en-US">not yet (adv.)</gloss>
+		</entry>
+		<entry>
+			<word>παρουσία</word>
+			<display>παρουσία, ἡ</display>
+			<gloss xml:lang="en-US">coming, presence</gloss>
+		</entry>
+		<entry>
+			<word>παρρησία</word>
+			<display>παρρησία, ἡ</display>
+			<gloss xml:lang="en-US">openness, boldness</gloss>
+		</entry>
+		<entry>
+			<word>ποταπός</word>
+			<display>ποταπός, -ή, -όν</display>
+			<gloss xml:lang="en-US">of what sort, what wonderful</gloss>
+		</entry>
+		<entry>
+			<word>προσκυνέω</word>
+			<display>προσκυνέω</display>
+			<gloss xml:lang="en-US">I worship</gloss>
+		</entry>
+		<entry>
+			<word>φανερός</word>
+			<display>φανερός, -ά, -όν</display>
+			<gloss xml:lang="en-US">known, evident</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 31</title>
+		<entry>
+			<word>ἀνθρωποκτόνος</word>
+			<display>ἀνθρωποκτόνος, ὁ</display>
+			<gloss xml:lang="en-US">murderer</gloss>
+		</entry>
+		<entry>
+			<word>δεξιός</word>
+			<display>δεξιός, -ά, -όν</display>
+			<gloss xml:lang="en-US">right, at the right hand</gloss>
+		</entry>
+		<entry>
+			<word>θαυμάζω</word>
+			<display>θαυμάζω</display>
+			<gloss xml:lang="en-US">I marvel, am amazed</gloss>
+		</entry>
+		<entry>
+			<word>θεωρέω</word>
+			<display>θεωρέω</display>
+			<gloss xml:lang="en-US">I see, watch</gloss>
+		</entry>
+		<entry>
+			<word>κλείω</word>
+			<display>κλείω</display>
+			<gloss xml:lang="en-US">I shut, close</gloss>
+		</entry>
+		<entry>
+			<word>μεταβαίνω</word>
+			<display>μεταβαίνω</display>
+			<gloss xml:lang="en-US">I leave, move</gloss>
+		</entry>
+		<entry>
+			<word>οὐχί</word>
+			<display>οὐχί</display>
+			<gloss xml:lang="en-US">not, no (emphatic form of ou; particle)</gloss>
+		</entry>
+		<entry>
+			<word>Πιλᾶτος</word>
+			<display>Πιλᾶτος, ὁ</display>
+			<gloss xml:lang="en-US">Pilate</gloss>
+		</entry>
+		<entry>
+			<word>σοφία</word>
+			<display>σοφία, ἡ</display>
+			<gloss xml:lang="en-US">wisdom</gloss>
+		</entry>
+		<entry>
+			<word>σπλάγχνον</word>
+			<display>σπλάγχνον, τό</display>
+			<gloss xml:lang="en-US">heart, affection</gloss>
+		</entry>
+		<entry>
+			<word>σφάζω</word>
+			<display>σφάζω</display>
+			<gloss xml:lang="en-US">I slay, murder</gloss>
+		</entry>
+		<entry>
+			<word>τρίτος</word>
+			<display>τρίτος, -η, -ον</display>
+			<gloss xml:lang="en-US">third</gloss>
+		</entry>
+		<entry>
+			<word>τυφλός</word>
+			<display>τυφλός, -ή, -όν</display>
+			<gloss xml:lang="en-US">blind</gloss>
+		</entry>
+	</section>
+</lbx-vocabulary-list>

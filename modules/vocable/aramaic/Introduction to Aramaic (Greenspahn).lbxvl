@@ -1,0 +1,4526 @@
+<?xml version="1.0"?>
+<lbx-vocabulary-list name="Introduction to Aramaic (Greenspahn)" category="VocabularyLists" xml:lang="x-arc"><section>
+<title>Chapter 3  - To Be Learned</title>
+<entry>
+<word>אִגְּרָה</word>
+<display>אִגְּרָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">letter</gloss>
+</entry>
+<entry>
+<word>אִגַּרְתָּא</word>
+<display>אִגַּרְתָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">the letter</gloss>
+</entry>
+<entry>
+<word>אֱלָהּ</word>
+<display>אֱלָהַיָּא, אֱלָהּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">God</gloss>
+</entry>
+<entry>
+<word>דִּי</word>
+<display>דִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">which</gloss>
+<gloss xml:lang="en">that</gloss>
+<gloss xml:lang="en">of</gloss>
+</entry>
+<entry>
+<word>דְּנָה</word>
+<display>דְּנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">this</gloss>
+</entry>
+<entry>
+<word>כתב</word>
+<display>כתב</display>
+<freq n="0"/>
+<gloss xml:lang="en">write</gloss>
+</entry>
+<entry>
+<word>ל־</word>
+<display>ל־</display>
+<freq n="0"/>
+<gloss xml:lang="en">to</gloss>
+</entry>
+<entry>
+<word>לְהוֹם</word>
+<display>לְהוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">to them</gloss>
+</entry>
+<entry>
+<word>מֶלֶךְ</word>
+<display>מֶלֶךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">king</gloss>
+</entry>
+<entry>
+<word>מַלְכָּא</word>
+<display>מַלְכָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">the king</gloss>
+</entry>
+<entry>
+<word>סָפְרָא</word>
+<display>סָפְרָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">the scribe</gloss>
+</entry>
+<entry>
+<word>עַל</word>
+<display>עַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">on</gloss>
+<gloss xml:lang="en">to</gloss>
+<gloss xml:lang="en">against</gloss>
+<gloss xml:lang="en">concerning</gloss>
+</entry>
+<entry>
+<word>שׁלח</word>
+<display>שׁלח</display>
+<freq n="0"/>
+<gloss xml:lang="en">send</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 3 - Reference</title>
+<entry>
+<word>אבד</word>
+<display>אבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">perish</gloss>
+</entry>
+<entry>
+<word>אֵלֶּה</word>
+<display>אֵלֶּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">these</gloss>
+</entry>
+<entry>
+<word>אמר</word>
+<display>אמר</display>
+<freq n="0"/>
+<gloss xml:lang="en">say</gloss>
+</entry>
+<entry>
+<word>אַרְעָא</word>
+<display>אַרְעָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">earth</gloss>
+</entry>
+<entry>
+<word>אַרְקָא</word>
+<display>אַרְקָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">earth</gloss>
+</entry>
+<entry>
+<word>וְ־</word>
+<display>וְ־</display>
+<freq n="0"/>
+<gloss xml:lang="en">and</gloss>
+</entry>
+<entry>
+<word>מִן</word>
+<display>מִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">from</gloss>
+</entry>
+<entry>
+<word>עבד</word>
+<display>עבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">do</gloss>
+<gloss xml:lang="en">make</gloss>
+</entry>
+<entry>
+<word>שְׁמַיָּא</word>
+<display>שְׁמַיָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">heaven</gloss>
+</entry>
+<entry>
+<word>תְּחוֹת</word>
+<display>תְּחוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en">under</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 4 - To Be Learned</title>
+<entry>
+<word>אֲנַחְנָה</word>
+<display>אֲנַחְנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">we</gloss>
+</entry>
+<entry>
+<word>בּ־</word>
+<display>בּ־</display>
+<freq n="0"/>
+<gloss xml:lang="en">in</gloss>
+</entry>
+<entry>
+<word>בנה</word>
+<display>בנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">build</gloss>
+</entry>
+<entry>
+<word>בָּנַיִן</word>
+<display>בָּנַיִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">participle (mp) בנה "build"</gloss>
+</entry>
+<entry>
+<word>תִּתְבְּנֵא</word>
+<display>תִּתְבְּנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">passive imf 3 fs בנה "build"</gloss>
+</entry>
+<entry>
+<word>דָּךְ</word>
+<display>דָּךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">that</gloss>
+</entry>
+<entry>
+<word>ידע</word>
+<display>ידע</display>
+<freq n="0"/>
+<gloss xml:lang="en">know</gloss>
+</entry>
+<entry>
+<word>יְדִיעַ </word>
+<display>יְדִיעַ </display>
+<freq n="0"/>
+<gloss xml:lang="en">passive participle ידע "know"</gloss>
+</entry>
+<entry>
+<word>הוֹדַעְנָא</word>
+<display>הוֹדַעְנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">causal pf (1 p) ידע "know"</gloss>
+</entry>
+<entry>
+<word>מְהוֹדְעִין</word>
+<display>מְהוֹדְעִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">causal ptc (mp) ידע "know"</gloss>
+</entry>
+<entry>
+<word>כְּעַן</word>
+<display>כְּעַן</display>
+<freq n="0"/>
+<gloss xml:lang="en">now</gloss>
+</entry>
+<entry>
+<word>לָא</word>
+<display>לָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">not</gloss>
+</entry>
+<entry>
+<word>מָרָדְתָּא</word>
+<display>מָרָדְתָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">rebellious (fs)</gloss>
+</entry>
+<entry>
+<word>נתן</word>
+<display>נתן</display>
+<freq n="0"/>
+<gloss xml:lang="en">give</gloss>
+</entry>
+<entry>
+<word>יִנְתְּנוּן</word>
+<display>יִנְתְּנוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">imperfect (3 mp) נתן "give"</gloss>
+</entry>
+<entry>
+<word>קִרְיְתָא</word>
+<display>קִרְיְתָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">the city</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 4 - Reference</title>
+<entry>
+<word>אִיתַי</word>
+<display>אִיתַי</display>
+<freq n="0"/>
+<gloss xml:lang="en">there is</gloss>
+</entry>
+<entry>
+<word>בְּלוֹ</word>
+<display>בְּלוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en">tax</gloss>
+</entry>
+<entry>
+<word>בקר</word>
+<display>בקר</display>
+<freq n="0"/>
+<gloss xml:lang="en">search</gloss>
+</entry>
+<entry>
+<word>יְבַקַּר</word>
+<display>יְבַקַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">imf 3 ms בקר "search"</gloss>
+</entry>
+<entry>
+<word>הֵן</word>
+<display>הֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en">if</gloss>
+</entry>
+<entry>
+<word>דָּכְרָנַיָּא</word>
+<display>דָּכְרָנַיָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">memoranda</gloss>
+</entry>
+<entry>
+<word>הוה</word>
+<display>הוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">be</gloss>
+</entry>
+<entry>
+<word>לֶהֱוֵא</word>
+<display>לֶהֱוֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">imf 3 ms הוה/הוא "be"</gloss>
+</entry>
+<entry>
+<word>חֲלָק</word>
+<display>חֲלָק</display>
+<freq n="0"/>
+<gloss xml:lang="en">portion</gloss>
+</entry>
+<entry>
+<word>לָךְ</word>
+<display>לָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">to you</gloss>
+</entry>
+<entry>
+<word>שׁכח</word>
+<display>שׁכח</display>
+<freq n="0"/>
+<gloss xml:lang="en">find</gloss>
+</entry>
+<entry>
+<word>תְּהַשְׁכַּח</word>
+<display>תְּהַשְׁכַּח</display>
+<freq n="0"/>
+<gloss xml:lang="en">causal imf 2 ms שׁכח "find"</gloss>
+</entry>
+<entry>
+<word>שְׁלַחְנָא</word>
+<display>שְׁלַחְנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">perfect 1 p שׁכח "find"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 5 - To Be Learned</title>
+<entry>
+<word>אֱדַיִן</word>
+<display>אֱדַיִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">then</gloss>
+</entry>
+<entry>
+<word>בטל</word>
+<display>בטל</display>
+<freq n="0"/>
+<gloss xml:lang="en">stop</gloss>
+</entry>
+<entry>
+<word>בְּטֵלַת </word>
+<display>בְּטֵלַת </display>
+<freq n="0"/>
+<gloss xml:lang="en">G (intrans) pf 3 fs בטל "stop"</gloss>
+</entry>
+<entry>
+<word>בַּטִּלוּ</word>
+<display>בַּטִּלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">D (trans) pf 3 p בטל "stop"</gloss>
+</entry>
+<entry>
+<word>לְבַטָּלָה</word>
+<display>לְבַטָּלָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">D (trans) inf בטל "stop"</gloss>
+</entry>
+<entry>
+<word>בַּיִת</word>
+<display>בַּיִת</display>
+<freq n="0"/>
+<gloss xml:lang="en">house</gloss>
+</entry>
+<entry>
+<word>בְּעֵל</word>
+<display>בְּעֵל</display>
+<freq n="0"/>
+<gloss xml:lang="en">master</gloss>
+</entry>
+<entry>
+<word>הִמּוֹ</word>
+<display>הִמּוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en">them</gloss>
+</entry>
+<entry>
+<word>טְעֵם</word>
+<display>טְעֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en">decree</gloss>
+</entry>
+<entry>
+<word>בְּעֵל טְעֵם</word>
+<display>בְּעֵל טְעֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en">official decree</gloss>
+</entry>
+<entry>
+<word>עבד</word>
+<display>עבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">do</gloss>
+</entry>
+<entry>
+<word>מִתְעֲבֵד</word>
+<display>מִתְעֲבֵד</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (passive) participle עבד "do"</gloss>
+</entry>
+<entry>
+<word>עֲבִידָה</word>
+<display>עֲבִידָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">work</gloss>
+<gloss xml:lang="en">service</gloss>
+</entry>
+<entry>
+<word>עָלְמָא</word>
+<display>עָלְמָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">eternity</gloss>
+</entry>
+<entry>
+<word>קֳדָם</word>
+<display>קֳדָם</display>
+<freq n="0"/>
+<gloss xml:lang="en">before</gloss>
+</entry>
+<entry>
+<word>קָדָמָי </word>
+<display>קָדָמָי </display>
+<freq n="0"/>
+<gloss xml:lang="en">before me</gloss>
+</entry>
+<entry>
+<word>שְׁלָם</word>
+<display>שְׁלָם</display>
+<freq n="0"/>
+<gloss xml:lang="en">peace</gloss>
+</entry>
+<entry>
+<word>תַּקִּיף</word>
+<display>תַּקִּיף</display>
+<freq n="0"/>
+<gloss xml:lang="en">strong</gloss>
+</entry>
+<entry>
+<word>תַּקִיפִין  </word>
+<display>תַּקִיפִין  </display>
+<freq n="0"/>
+<gloss xml:lang="en">mp "strong"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 5 - Reference</title>
+<entry>
+<word>אזל</word>
+<display>אזל</display>
+<freq n="0"/>
+<gloss xml:lang="en">go (G)</gloss>
+</entry>
+<entry>
+<word>אֲזַלוּ </word>
+<display>אֲזַלוּ </display>
+<freq n="0"/>
+<gloss xml:lang="en">pf 3 mp אזל "go"</gloss>
+</entry>
+<entry>
+<word>הוה</word>
+<display>הוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">be</gloss>
+</entry>
+<entry>
+<word>הֲווֹ</word>
+<display>הֲווֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pf 3 mp הוה/הוא "be"</gloss>
+</entry>
+<entry>
+<word>יוֹמָת</word>
+<display>יוֹמָת</display>
+<freq n="0"/>
+<gloss xml:lang="en">days (p cstr)</gloss>
+</entry>
+<entry>
+<word>יתב</word>
+<display>יתב</display>
+<freq n="0"/>
+<gloss xml:lang="en">dwell (G)</gloss>
+</entry>
+<entry>
+<word>יָתְבִין</word>
+<display>יָתְבִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">G ptc mp יתב "dwell"</gloss>
+</entry>
+<entry>
+<word>מִבְנֵא</word>
+<display>מִבְנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G inf of בנה "dwell"</gloss>
+</entry>
+<entry>
+<word>מַלְכִין</word>
+<display>מַלְכִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">kings</gloss>
+</entry>
+<entry>
+<word>מִן דִּי</word>
+<display>מִן דִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">after</gloss>
+</entry>
+<entry>
+<word>מְרַד</word>
+<display>מְרַד</display>
+<freq n="0"/>
+<gloss xml:lang="en">rebellion</gloss>
+</entry>
+<entry>
+<word>נִשְׁתְּוָנָא</word>
+<display>נִשְׁתְּוָנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">letter</gloss>
+</entry>
+<entry>
+<word>פִּתְגָמָא</word>
+<display>פִּתְגָמָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">message</gloss>
+</entry>
+<entry>
+<word>קֱרִי</word>
+<display>קֱרִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">is read</gloss>
+</entry>
+<entry>
+<word>שׂים</word>
+<display>שׂים</display>
+<freq n="0"/>
+<gloss xml:lang="en">issue</gloss>
+</entry>
+<entry>
+<word>שִׂימוּ</word>
+<display>שִׂימוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">imv mp שׂים "issue"</gloss>
+</entry>
+<entry>
+<word>שְׁאָר</word>
+<display>שְׁאָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">remnant</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 6 - To Be Learned</title>
+<entry>
+<word>אמר</word>
+<display>אמר</display>
+<freq n="0"/>
+<gloss xml:lang="en">say</gloss>
+</entry>
+<entry>
+<word>אָמְרִין</word>
+<display>אָמְרִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">participle (m p) אמר "say"</gloss>
+</entry>
+<entry>
+<word>אֲתָא</word>
+<display>אֲתָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">he came</gloss>
+</entry>
+<entry>
+<word>בַּר</word>
+<display>בַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">son</gloss>
+</entry>
+<entry>
+<word>גְּבַר</word>
+<display>גְּבַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">man (plural גֻּבְרִין)</gloss>
+</entry>
+<entry>
+<word>וּ־/וְ־</word>
+<display>וּ־/וְ־</display>
+<freq n="0"/>
+<gloss xml:lang="en">and</gloss>
+</entry>
+<entry>
+<word>מַן</word>
+<display>מַן</display>
+<freq n="0"/>
+<gloss xml:lang="en">who</gloss>
+</entry>
+<entry>
+<word>פֶּחָה</word>
+<display>פֶּחָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">governor</gloss>
+</entry>
+<entry>
+<word>קוּם</word>
+<display>קוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">arise (G)</gloss>
+</entry>
+<entry>
+<word>קָמוּ</word>
+<display>קָמוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">perfect 3 mp קוּם "arise"</gloss>
+</entry>
+<entry>
+<word>שׂים</word>
+<display>שׂים</display>
+<freq n="0"/>
+<gloss xml:lang="en">issue (an order)</gloss>
+</entry>
+<entry>
+<word>שָׂם</word>
+<display>שָׂם</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pf 3 ms שׂים "issue"</gloss>
+</entry>
+<entry>
+<word>שֻׁם</word>
+<display>שֻׁם</display>
+<freq n="0"/>
+<gloss xml:lang="en">name (plural שְׁמָהָת)</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 6 - Reference</title>
+<entry>
+<word>אֱלָהּ</word>
+<display>אֱלָהּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">god</gloss>
+</entry>
+<entry>
+<word>אֱלָהֲהֹם</word>
+<display>אֱלָהֲהֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">their gods</gloss>
+</entry>
+<entry>
+<word>הֲוָת</word>
+<display>הֲוָת</display>
+<freq n="0"/>
+<gloss xml:lang="en">was (G pf 3 fs of הוה)</gloss>
+</entry>
+<entry>
+<word>כֵּן</word>
+<display>כֵּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">thus</gloss>
+</entry>
+<entry>
+<word>לְכֹם</word>
+<display>לְכֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">to you (m p)</gloss>
+</entry>
+<entry>
+<word>מִבְנֵא</word>
+<display>מִבְנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">build (G infinitive) בנה</gloss>
+</entry>
+<entry>
+<word>נבּא</word>
+<display>נבּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">prophesy (Dt הִתְנַּבִּי)</gloss>
+</entry>
+<entry>
+<word>נְבִיא</word>
+<display>נְבִיא</display>
+<freq n="0"/>
+<gloss xml:lang="en">prophet</gloss>
+</entry>
+<entry>
+<word>עַיִן</word>
+<display>עַיִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">eye</gloss>
+</entry>
+<entry>
+<word>עֲלֵיהוֹן</word>
+<display>עֲלֵיהוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en">on them</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 7 - To Be Learned</title>
+<entry>
+<word>אזל</word>
+<display>אזל</display>
+<freq n="0"/>
+<gloss xml:lang="en">go</gloss>
+</entry>
+<entry>
+<word>אֲזַלְנָא</word>
+<display>אֲזַלְנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pf 1 p אזל "go"</gloss>
+</entry>
+<entry>
+<word>אִלֵּךְ</word>
+<display>אִלֵּךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">those</gloss>
+</entry>
+<entry>
+<word>גַּו</word>
+<display>גַּו</display>
+<freq n="0"/>
+<gloss xml:lang="en">interior</gloss>
+</entry>
+<entry>
+<word>־ֵהּ</word>
+<display>־ֵהּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">3 ms (him</gloss>
+<gloss xml:lang="en">his) suffix</gloss>
+</entry>
+<entry>
+<word>־הֹם</word>
+<display>־הֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">3 mp (they</gloss>
+<gloss xml:lang="en">them) suffix</gloss>
+</entry>
+<entry>
+<word>־כֹם</word>
+<display>־כֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">2 mp (you</gloss>
+<gloss xml:lang="en">your) suffix</gloss>
+</entry>
+<entry>
+<word>כְּנָת</word>
+<display>כְּנָת</display>
+<freq n="0"/>
+<gloss xml:lang="en">colleague (plural כְּנָוָת)</gloss>
+</entry>
+<entry>
+<word>מְדִינָה</word>
+<display>מְדִינָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">province</gloss>
+</entry>
+<entry>
+<word>רֵאשׁ</word>
+<display>רֵאשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">head</gloss>
+</entry>
+<entry>
+<word>רַב</word>
+<display>רַב</display>
+<freq n="0"/>
+<gloss xml:lang="en">great</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 7 - Reference</title>
+<entry>
+<word>אֲמַרְנָא</word>
+<display>אֲמַרְנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">we said</gloss>
+</entry>
+<entry>
+<word>אַף</word>
+<display>אַף</display>
+<freq n="0"/>
+<gloss xml:lang="en">also</gloss>
+</entry>
+<entry>
+<word>כֹּלָּא</word>
+<display>כֹּלָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">everything</gloss>
+</entry>
+<entry>
+<word>כתב</word>
+<display>כתב</display>
+<freq n="0"/>
+<gloss xml:lang="en">write (G)</gloss>
+</entry>
+<entry>
+<word>כְּתִיב</word>
+<display>כְּתִיב</display>
+<freq n="0"/>
+<gloss xml:lang="en">passive participle כתב "write"</gloss>
+</entry>
+<entry>
+<word>נִכְתֻּב</word>
+<display>נִכְתֻּב</display>
+<freq n="0"/>
+<gloss xml:lang="en">inf 1 p כתב "write"</gloss>
+</entry>
+<entry>
+<word>לֶהֱוֵה</word>
+<display>לֶהֱוֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">let it be (imf 3 ms) הוה</gloss>
+</entry>
+<entry>
+<word>שָׂב</word>
+<display>שָׂב</display>
+<freq n="0"/>
+<gloss xml:lang="en">elder</gloss>
+</entry>
+<entry>
+<word>שׁאל</word>
+<display>שׁאל</display>
+<freq n="0"/>
+<gloss xml:lang="en">ask</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 8 - To Be Learned</title>
+<entry>
+<word>אַרְעָא</word>
+<display>אַרְעָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">earth</gloss>
+</entry>
+<entry>
+<word> הוא / הוה</word>
+<display> הוא / הוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">be</gloss>
+</entry>
+<entry>
+<word>הֵיכַל</word>
+<display>הֵיכַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">palace</gloss>
+<gloss xml:lang="en">temple</gloss>
+</entry>
+<entry>
+<word>חַד</word>
+<display>חַד</display>
+<freq n="0"/>
+<gloss xml:lang="en">one</gloss>
+</entry>
+<entry>
+<word>יהב</word>
+<display>יהב</display>
+<freq n="0"/>
+<gloss xml:lang="en">give</gloss>
+</entry>
+<entry>
+<word>יְהִיבוּ</word>
+<display>יְהִיבוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pf passive 3 p יהב "give"</gloss>
+</entry>
+<entry>
+<word>מָאן</word>
+<display>מָאן</display>
+<freq n="0"/>
+<gloss xml:lang="en">vessel</gloss>
+</entry>
+<entry>
+<word>נפק</word>
+<display>נפק</display>
+<freq n="0"/>
+<gloss xml:lang="en">go out</gloss>
+</entry>
+<entry>
+<word>הַנְפֵּק</word>
+<display>הַנְפֵּק</display>
+<freq n="0"/>
+<gloss xml:lang="en">H (causal) pf 3 ms נפק "go out"</gloss>
+</entry>
+<entry>
+<word>שַׂגִּיא</word>
+<display>שַׂגִּיא</display>
+<freq n="0"/>
+<gloss xml:lang="en">many</gloss>
+<gloss xml:lang="en">large</gloss>
+</entry>
+<entry>
+<word>שְׁמַיָּא</word>
+<display>שְׁמַיָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">heaven</gloss>
+</entry>
+<entry>
+<word>שְׁנָה</word>
+<display>שְׁנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">year</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 8 - Reference</title>
+<entry>
+<word>אַב</word>
+<display>אַב</display>
+<freq n="0"/>
+<gloss xml:lang="en">father</gloss>
+</entry>
+<entry>
+<word>אֲבָהֳתַנָא</word>
+<display>אֲבָהֳתַנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">our ancestors</gloss>
+</entry>
+<entry>
+<word>אֵלֶּה</word>
+<display>אֵלֶּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">these</gloss>
+</entry>
+<entry>
+<word>בנה</word>
+<display>בנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">build</gloss>
+</entry>
+<entry>
+<word>בְּנֵה</word>
+<display>בְּנֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">passive participle בנה "build"</gloss>
+</entry>
+<entry>
+<word>לִבְּנֵא</word>
+<display>לִבְּנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">infinitive בנה "build"</gloss>
+</entry>
+<entry>
+<word>יִתְבְּנֵא</word>
+<display>יִתְבְּנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (passive) imf 3 ms בנה "build"</gloss>
+</entry>
+<entry>
+<word>גלה</word>
+<display>גלה</display>
+<freq n="0"/>
+<gloss xml:lang="en">exile</gloss>
+</entry>
+<entry>
+<word>הַגְלִי</word>
+<display>הַגְלִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">H (causal) pf 3 ms בנה "exile"</gloss>
+</entry>
+<entry>
+<word>נחת</word>
+<display>נחת</display>
+<freq n="0"/>
+<gloss xml:lang="en">descend</gloss>
+</entry>
+<entry>
+<word>אֲחֵת </word>
+<display>אֲחֵת </display>
+<freq n="0"/>
+<gloss xml:lang="en">H ("deposit") imv נחת "descend"</gloss>
+</entry>
+<entry>
+<word>סתר</word>
+<display>סתר</display>
+<freq n="0"/>
+<gloss xml:lang="en">tear down (G)</gloss>
+</entry>
+<entry>
+<word>עֲבֵד</word>
+<display>עֲבֵד</display>
+<freq n="0"/>
+<gloss xml:lang="en">servant</gloss>
+</entry>
+<entry>
+<word>עַבְדּוֹהִי</word>
+<display>עַבְדּוֹהִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">his servants</gloss>
+</entry>
+<entry>
+<word>עַם</word>
+<display>עַם</display>
+<freq n="0"/>
+<gloss xml:lang="en">people</gloss>
+<gloss xml:lang="en">nation</gloss>
+</entry>
+<entry>
+<word>קַדְמָה</word>
+<display>קַדְמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">former time</gloss>
+</entry>
+<entry>
+<word>רגז</word>
+<display>רגז</display>
+<freq n="0"/>
+<gloss xml:lang="en">anger (H)</gloss>
+</entry>
+<entry>
+<word>הַרְגִּזוּ</word>
+<display>הַרְגִּזוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">perfect 3 p רגז "anger"</gloss>
+</entry>
+<entry>
+<word>תוב</word>
+<display>תוב</display>
+<freq n="0"/>
+<gloss xml:lang="en">reply (H)</gloss>
+</entry>
+<entry>
+<word>הֲתִיבוּ</word>
+<display>הֲתִיבוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">they replied תוב</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 9 - To Be Learned</title>
+<entry>
+<word>אִיתַי</word>
+<display>אִיתַי</display>
+<freq n="0"/>
+<gloss xml:lang="en">there is</gloss>
+</entry>
+<entry>
+<word>בקּר</word>
+<display>בקּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">search</gloss>
+</entry>
+<entry>
+<word>בַּקַּרוּ</word>
+<display>בַּקַּרוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">D perfect 3 mp בקר "search"</gloss>
+</entry>
+<entry>
+<word>יִתְבַּקַּר</word>
+<display>יִתְבַּקַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt (passive) imf 3 ms בקר "search"</gloss>
+</entry>
+<entry>
+<word>גְּנַז</word>
+<display>גְּנַז</display>
+<freq n="0"/>
+<gloss xml:lang="en">treasure</gloss>
+</entry>
+<entry>
+<word>דְּהַב</word>
+<display>דְּהַב</display>
+<freq n="0"/>
+<gloss xml:lang="en">gold</gloss>
+</entry>
+<entry>
+<word>הֵן</word>
+<display>הֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en">if</gloss>
+</entry>
+<entry>
+<word>טָב</word>
+<display>טָב</display>
+<freq n="0"/>
+<gloss xml:lang="en">good</gloss>
+</entry>
+<entry>
+<word>כְּסַף</word>
+<display>כְּסַף</display>
+<freq n="0"/>
+<gloss xml:lang="en">silver</gloss>
+</entry>
+<entry>
+<word>מִן</word>
+<display>מִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">from</gloss>
+</entry>
+<entry>
+<word>־נָא</word>
+<display>־נָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">we/our</gloss>
+</entry>
+<entry>
+<word>תַּמָּה</word>
+<display>תַּמָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">there</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 9 - Reference</title>
+<entry>
+<word>אֻשִּׁין</word>
+<display>אֻשִּׁין</display>
+<freq n="0"/>
+<gloss xml:lang="en">foundations</gloss>
+</entry>
+<entry>
+<word>בנה</word>
+<display>בנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">build</gloss>
+</entry>
+<entry>
+<word>לְמִבְנֵה</word>
+<display>לְמִבְנֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">G infinitive בנה "build"</gloss>
+</entry>
+<entry>
+<word>מִתְבְּנֵה</word>
+<display>מִתְבְּנֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">GT (pass) participle בנה "build"</gloss>
+</entry>
+<entry>
+<word>יִתְבְּנֵה </word>
+<display>יִתְבְּנֵה </display>
+<freq n="0"/>
+<gloss xml:lang="en">GT (pass) imf 3 ms בנה "build"</gloss>
+</entry>
+<entry>
+<word>יהב</word>
+<display>יהב</display>
+<freq n="0"/>
+<gloss xml:lang="en">give</gloss>
+</entry>
+<entry>
+<word>תִּתְיְהִב</word>
+<display>תִּתְיְהִב</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt imf 3 fs בנה "give"</gloss>
+</entry>
+<entry>
+<word>מְגִלָּה</word>
+<display>מְגִלָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">scroll</gloss>
+</entry>
+<entry>
+<word>נִפְקָה</word>
+<display>נִפְקָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">expenses</gloss>
+</entry>
+<entry>
+<word>רְעוּ</word>
+<display>רְעוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">wish</gloss>
+</entry>
+<entry>
+<word>שִׂים</word>
+<display>שִׂים</display>
+<freq n="0"/>
+<gloss xml:lang="en">give (G pass participle)</gloss>
+</entry>
+<entry>
+<word>שׁכח</word>
+<display>שׁכח</display>
+<freq n="0"/>
+<gloss xml:lang="en">find</gloss>
+</entry>
+<entry>
+<word>הִשְׁתְּכַח</word>
+<display>הִשְׁתְּכַח</display>
+<freq n="0"/>
+<gloss xml:lang="en">be found שׁכח</gloss>
+</entry>
+<entry>
+<word>שְׁלִם</word>
+<display>שְׁלִם</display>
+<freq n="0"/>
+<gloss xml:lang="en">finished שׁלם</gloss>
+</entry>
+<entry>
+<word>תּוּב</word>
+<display>תּוּב</display>
+<freq n="0"/>
+<gloss xml:lang="en">return</gloss>
+</entry>
+<entry>
+<word>יַהֲתִיבוּן</word>
+<display>יַהֲתִיבוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">H (trans imf 3 mp) תוּב "return"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 10 - To Be Learned</title>
+<entry>
+<word>אֲנָה</word>
+<display>אֲנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">I</gloss>
+</entry>
+<entry>
+<word>אֱנָשׁ</word>
+<display>אֱנָשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">man</gloss>
+</entry>
+<entry>
+<word>חבּל</word>
+<display>חבּל</display>
+<freq n="0"/>
+<gloss xml:lang="en">destroy (D)</gloss>
+</entry>
+<entry>
+<word>חַבָּלָה</word>
+<display>חַבָּלָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">infinitive תבל</gloss>
+</entry>
+<entry>
+<word>כֹּל</word>
+<display>כֹּל</display>
+<freq n="0"/>
+<gloss xml:lang="en">all</gloss>
+</entry>
+<entry>
+<word>מָה</word>
+<display>מָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">what</gloss>
+</entry>
+<entry>
+<word>נְוָלוּ</word>
+<display>נְוָלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">dunghill</gloss>
+</entry>
+<entry>
+<word>פִּתְגָם</word>
+<display>פִּתְגָם</display>
+<freq n="0"/>
+<gloss xml:lang="en">message</gloss>
+<gloss xml:lang="en">word</gloss>
+</entry>
+<entry>
+<word>צלּה</word>
+<display>צלּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">pray (D)</gloss>
+</entry>
+<entry>
+<word>מְצַלַּיִן</word>
+<display>מְצַלַּיִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">participle mp צלה "pray"</gloss>
+</entry>
+<entry>
+<word>רַחִיק</word>
+<display>רַחִיק</display>
+<freq n="0"/>
+<gloss xml:lang="en">distant</gloss>
+</entry>
+<entry>
+<word>שׁבק</word>
+<display>שׁבק</display>
+<freq n="0"/>
+<gloss xml:lang="en">leave (alone)</gloss>
+</entry>
+<entry>
+<word>שְׁבֻקוּ</word>
+<display>שְׁבֻקוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imv mp</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 10 - Reference</title>
+<entry>
+<word>בנה</word>
+<display>בנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">build</gloss>
+</entry>
+<entry>
+<word>מִבְנֵא</word>
+<display>מִבְנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G inf</gloss>
+</entry>
+<entry>
+<word>הוה</word>
+<display>הוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">be</gloss>
+</entry>
+<entry>
+<word>הֲווֹ</word>
+<display>הֲווֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imv mp הוה/הוא "be"</gloss>
+</entry>
+<entry>
+<word>לֶהֱוֵא</word>
+<display>לֶהֱוֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 3 ms הוה/הוא "be"</gloss>
+</entry>
+<entry>
+<word>תֶּהֱוֵא</word>
+<display>תֶּהֱוֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 3 fs הוה/הוא "be"</gloss>
+</entry>
+<entry>
+<word>לֶהֱוֹן</word>
+<display>לֶהֱוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 3 mp הוה/הוא "be"</gloss>
+</entry>
+<entry>
+<word>חַיִּין</word>
+<display>חַיִּין</display>
+<freq n="0"/>
+<gloss xml:lang="en">life</gloss>
+</entry>
+<entry>
+<word>חַשְׁחָה</word>
+<display>חַשְׁחָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">needed thing</gloss>
+</entry>
+<entry>
+<word>יַד</word>
+<display>יַד</display>
+<freq n="0"/>
+<gloss xml:lang="en">hand</gloss>
+</entry>
+<entry>
+<word>יהב</word>
+<display>יהב</display>
+<freq n="0"/>
+<gloss xml:lang="en">give</gloss>
+</entry>
+<entry>
+<word>מִתְיְהֵב</word>
+<display>מִתְיְהֵב</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (passive) participle ms יהב "give"</gloss>
+</entry>
+<entry>
+<word>מִתְיַהֲבָא </word>
+<display>מִתְיַהֲבָא </display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (passive) participle fs יהב "give"</gloss>
+</entry>
+<entry>
+<word>מגּר</word>
+<display>מגּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">overthrow</gloss>
+</entry>
+<entry>
+<word>יְמַגַּר</word>
+<display>יְמַגַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">D imf 3 ms מגר "overthrow"</gloss>
+</entry>
+<entry>
+<word>נְכַס</word>
+<display>נְכַס</display>
+<freq n="0"/>
+<gloss xml:lang="en">property</gloss>
+</entry>
+<entry>
+<word>נִפְקָה</word>
+<display>נִפְקָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">expenses</gloss>
+</entry>
+<entry>
+<word>עבד</word>
+<display>עבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">do</gloss>
+</entry>
+<entry>
+<word>יִתְעֲבֵד</word>
+<display>יִתְעֲבֵד</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (passive) imf 3 ms עבד "do"</gloss>
+</entry>
+<entry>
+<word>עַם</word>
+<display>עַם</display>
+<freq n="0"/>
+<gloss xml:lang="en">people</gloss>
+</entry>
+<entry>
+<word>קרב</word>
+<display>קרב</display>
+<freq n="0"/>
+<gloss xml:lang="en">sacrifice</gloss>
+</entry>
+<entry>
+<word>מְהַקְרְבִין</word>
+<display>מְהַקְרְבִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">H participle mp קרב "sacrifice"</gloss>
+</entry>
+<entry>
+<word>שׁנה</word>
+<display>שׁנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">change (D H)</gloss>
+</entry>
+<entry>
+<word>יְהַשְׁנֵא</word>
+<display>יְהַשְׁנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">H (trans) imf 3 ms שׁנה "change"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 11 - To Be Learned</title>
+<entry>
+<word>אָסְפַּרְנָא</word>
+<display>אָסְפַּרְנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">exactly</gloss>
+<gloss xml:lang="en">diligently</gloss>
+</entry>
+<entry>
+<word>כָּהֵן</word>
+<display>כָּהֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en">priest</gloss>
+</entry>
+<entry>
+<word>כְּנֵמָא</word>
+<display>כְּנֵמָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">thus</gloss>
+</entry>
+<entry>
+<word>כְּתָב</word>
+<display>כְּתָב</display>
+<freq n="0"/>
+<gloss xml:lang="en">writing</gloss>
+</entry>
+<entry>
+<word>מַלְכוּ</word>
+<display>מַלְכוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">reign</gloss>
+</entry>
+<entry>
+<word>סְפַר</word>
+<display>סְפַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">book</gloss>
+</entry>
+<entry>
+<word>(לָ)קֳבֵל</word>
+<display>(לָ)קֳבֵל</display>
+<freq n="0"/>
+<gloss xml:lang="en">just as</gloss>
+</entry>
+<entry>
+<word>שְׁאָר</word>
+<display>שְׁאָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">rest</gloss>
+</entry>
+<entry>
+<word>שַׁכְלִלוּ</word>
+<display>שַׁכְלִלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">they completed כלל</gloss>
+</entry>
+<entry>
+<word>שֵׁת</word>
+<display>שֵׁת</display>
+<freq n="0"/>
+<gloss xml:lang="en">six</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 11 - Reference</title>
+<entry>
+<word>בְּנֵי</word>
+<display>בְּנֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en">plural construct of בַּר</gloss>
+</entry>
+<entry>
+<word>גָּלוּ</word>
+<display>גָּלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">exile</gloss>
+</entry>
+<entry>
+<word>חֶדְוָה</word>
+<display>חֶדְוָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">joy</gloss>
+</entry>
+<entry>
+<word>חֲנֻכָּה</word>
+<display>חֲנֻכָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">dedication</gloss>
+</entry>
+<entry>
+<word>יוֹם</word>
+<display>יוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">day</gloss>
+</entry>
+<entry>
+<word>יְרַח</word>
+<display>יְרַח</display>
+<freq n="0"/>
+<gloss xml:lang="en">month</gloss>
+</entry>
+<entry>
+<word>נְבוּאָה</word>
+<display>נְבוּאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">prophecy</gloss>
+</entry>
+<entry>
+<word>צלח</word>
+<display>צלח</display>
+<freq n="0"/>
+<gloss xml:lang="en">succeed (H)</gloss>
+</entry>
+<entry>
+<word>מַצְלְחִין</word>
+<display>מַצְלְחִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">H participle mp צלח "succeed"</gloss>
+</entry>
+<entry>
+<word>קוּם</word>
+<display>קוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">establish (H)</gloss>
+</entry>
+<entry>
+<word>הַקִימוּ</word>
+<display>הַקִימוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">H pf 3 mp קוּם "establish"</gloss>
+</entry>
+<entry>
+<word>שֵׁיצִיא</word>
+<display>שֵׁיצִיא</display>
+<freq n="0"/>
+<gloss xml:lang="en">he finished </gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 12 - To Be Learned</title>
+<entry>
+<word>דִּין</word>
+<display>דִּין</display>
+<freq n="0"/>
+<gloss xml:lang="en">judgment</gloss>
+</entry>
+<entry>
+<word>דַּיָּן</word>
+<display>דַּיָּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">judge</gloss>
+</entry>
+<entry>
+<word>דָּת</word>
+<display>דָּת</display>
+<freq n="0"/>
+<gloss xml:lang="en">law</gloss>
+</entry>
+<entry>
+<word>הוא/הוה</word>
+<display>הוא/הוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">be</gloss>
+</entry>
+<entry>
+<word>לֶהֱוֵא</word>
+<display>לֶהֱוֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imperfect 3 ms הוה/הוא "be"</gloss>
+</entry>
+<entry>
+<word>הלך</word>
+<display>הלך</display>
+<freq n="0"/>
+<gloss xml:lang="en">go</gloss>
+</entry>
+<entry>
+<word>מְהָךְ</word>
+<display>מְהָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G infinitive הלך "go"</gloss>
+</entry>
+<entry>
+<word>יְהָךְ</word>
+<display>יְהָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imperfect 3 ms הלך "go"</gloss>
+</entry>
+<entry>
+<word>ידע</word>
+<display>ידע</display>
+<freq n="0"/>
+<gloss xml:lang="en">know</gloss>
+</entry>
+<entry>
+<word>מְהוֹדְעִין</word>
+<display>מְהוֹדְעִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">H (inform) ptc m p ידע "know"</gloss>
+</entry>
+<entry>
+<word>תְּהוֹדְעוּן</word>
+<display>תְּהוֹדְעוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 2 mp ידע "know"</gloss>
+</entry>
+<entry>
+<word>נדּב</word>
+<display>נדּב</display>
+<freq n="0"/>
+<gloss xml:lang="en">be willing (D)</gloss>
+</entry>
+<entry>
+<word>מִתְנַדַּב </word>
+<display>מִתְנַדַּב </display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt ptc ms נדב "be willing"</gloss>
+</entry>
+<entry>
+<word>עַם</word>
+<display>עַם</display>
+<freq n="0"/>
+<gloss xml:lang="en">people</gloss>
+</entry>
+<entry>
+<word>שׁאל</word>
+<display>שׁאל</display>
+<freq n="0"/>
+<gloss xml:lang="en">ask</gloss>
+</entry>
+<entry>
+<word>יִשְׁאֲלֶנְכוֹן </word>
+<display>יִשְׁאֲלֶנְכוֹן </display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 3 ms + 2 mp שׁאל "ask" (the נ is energic and need not be translated)</gloss>
+</entry>
+<entry>
+<word>שַׁלִּיט</word>
+<display>שַׁלִּיט</display>
+<freq n="0"/>
+<gloss xml:lang="en">authorized</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 12 - Reference</title>
+<entry>
+<word>בְּלוֹ</word>
+<display>בְּלוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en">tax</gloss>
+</entry>
+<entry>
+<word>בקּר</word>
+<display>בקּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">search</gloss>
+</entry>
+<entry>
+<word>בַּקָּרָה</word>
+<display>בַּקָּרָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">D inf בקר "search"</gloss>
+</entry>
+<entry>
+<word>דְּכַר</word>
+<display>דְּכַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">ram</gloss>
+</entry>
+<entry>
+<word>־ֵהּ</word>
+<display>־ֵהּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">him/his</gloss>
+</entry>
+<entry>
+<word>־ִי</word>
+<display>־ִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">1s suffix</gloss>
+</entry>
+<entry>
+<word>יבל</word>
+<display>יבל</display>
+<freq n="0"/>
+<gloss xml:lang="en">bring</gloss>
+</entry>
+<entry>
+<word>הֵיבָלָה </word>
+<display>הֵיבָלָה </display>
+<freq n="0"/>
+<gloss xml:lang="en">H inf יבל "bring"</gloss>
+</entry>
+<entry>
+<word>יהב</word>
+<display>יהב</display>
+<freq n="0"/>
+<gloss xml:lang="en">give</gloss>
+</entry>
+<entry>
+<word>מְִתְיַהֲבִין</word>
+<display>מְִתְיַהֲבִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt ptc mp יהב "give"</gloss>
+</entry>
+<entry>
+<word>יטב</word>
+<display>יטב</display>
+<freq n="0"/>
+<gloss xml:lang="en">be pleasing</gloss>
+</entry>
+<entry>
+<word>יֵיטַב</word>
+<display>יֵיטַב</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 3 ms יטב "be pleasing"</gloss>
+</entry>
+<entry>
+<word>־ָךְ</word>
+<display>־ָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">you</gloss>
+</entry>
+<entry>
+<word>מנּה</word>
+<display>מנּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">appoint (D)</gloss>
+</entry>
+<entry>
+<word>מֶנִּי</word>
+<display>מֶנִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">imperative מנה "appoint"</gloss>
+</entry>
+<entry>
+<word>עבד</word>
+<display>עבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">do</gloss>
+</entry>
+<entry>
+<word>מֵֶעְבַּד</word>
+<display>מֵֶעְבַּד</display>
+<freq n="0"/>
+<gloss xml:lang="en">G inf עבד "do"</gloss>
+</entry>
+<entry>
+<word>יִתְעֲבֵד</word>
+<display>יִתְעֲבֵד</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt imf 3 ms עבד "do"</gloss>
+</entry>
+<entry>
+<word>תַּעְבְדּוּן</word>
+<display>תַּעְבְדּוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 2 mp עבד "do"</gloss>
+</entry>
+<entry>
+<word>קנה</word>
+<display>קנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">buy</gloss>
+</entry>
+<entry>
+<word>תִּקְנֵה</word>
+<display>תִּקְנֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 2 ms קנה "buy"</gloss>
+</entry>
+<entry>
+<word>קרב</word>
+<display>קרב</display>
+<freq n="0"/>
+<gloss xml:lang="en">sacrifice</gloss>
+</entry>
+<entry>
+<word>תְּקָרֵב</word>
+<display>תְּקָרֵב</display>
+<freq n="0"/>
+<gloss xml:lang="en">D imf 2 ms קרב "sacrifice"</gloss>
+</entry>
+<entry>
+<word>רמה</word>
+<display>רמה</display>
+<freq n="0"/>
+<gloss xml:lang="en">impose (lit. throw)</gloss>
+</entry>
+<entry>
+<word>לְמִרְמֵא</word>
+<display>לְמִרְמֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G inf רמה "impose"</gloss>
+</entry>
+<entry>
+<word>רְעוּ</word>
+<display>רְעוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">wish</gloss>
+</entry>
+<entry>
+<word>שׁלם</word>
+<display>שׁלם</display>
+<freq n="0"/>
+<gloss xml:lang="en">deliver (H)</gloss>
+</entry>
+<entry>
+<word>הַשְׁלֵם</word>
+<display>הַשְׁלֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en">imperative שׁלם "deliver"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 13 - To Be Learned</title>
+<entry>
+<word>אָחֳרָן</word>
+<display>אָחֳרָן</display>
+<freq n="0"/>
+<gloss xml:lang="en">another</gloss>
+</entry>
+<entry>
+<word>חוא/חוה</word>
+<display>חוא/חוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">tell (D H)</gloss>
+</entry>
+<entry>
+<word>נְחַוֵּא</word>
+<display>נְחַוֵּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">D imperfect 1 p חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>יְחַוִּנַּהּ</word>
+<display>יְחַוִּנַּהּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">D imf 3 ms + 3 fs חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>נְהַחֲוֵה</word>
+<display>נְהַחֲוֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 1 p חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>תְּהַחֲֹון</word>
+<display>תְּהַחֲֹון</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 2 mp חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>הַחֲֹונִי</word>
+<display>הַחֲֹונִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imv mp + 1 s חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>לְהַחֲוָיָא</word>
+<display>לְהַחֲוָיָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">H inf חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>חַכִּים</word>
+<display>חַכִּים</display>
+<freq n="0"/>
+<gloss xml:lang="en">wise</gloss>
+</entry>
+<entry>
+<word>חֵלֶם</word>
+<display>חֵלֶם</display>
+<freq n="0"/>
+<gloss xml:lang="en">dream</gloss>
+</entry>
+<entry>
+<word>לָהֵן</word>
+<display>לָהֵן</display>
+<freq n="0"/>
+<gloss xml:lang="en">therefore</gloss>
+<gloss xml:lang="en">except</gloss>
+</entry>
+<entry>
+<word>מִלָּה</word>
+<display>מִלָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">word</gloss>
+<gloss xml:lang="en">thing</gloss>
+</entry>
+<entry>
+<word>עִדָּן</word>
+<display>עִדָּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">time</gloss>
+</entry>
+<entry>
+<word>ענה</word>
+<display>ענה</display>
+<freq n="0"/>
+<gloss xml:lang="en">answer</gloss>
+</entry>
+<entry>
+<word>עֲנוֹ</word>
+<display>עֲנוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pf 3 mp ענה "answer"</gloss>
+</entry>
+<entry>
+<word>פְּשַׁר</word>
+<display>פְּשַׁר</display>
+<freq n="0"/>
+<gloss xml:lang="en">interpretation</gloss>
+</entry>
+<entry>
+<word>שׁנּה</word>
+<display>שׁנּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">change (D)</gloss>
+</entry>
+<entry>
+<word>יִשְׁתַּנֵּה</word>
+<display>יִשְׁתַּנֵּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt (passive) imperfect 3 ms שׁנה "change"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 13 - Reference</title>
+<entry>
+<word>אבד</word>
+<display>אבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">kill (H)</gloss>
+</entry>
+<entry>
+<word>הוֹבָדָה</word>
+<display>הוֹבָדָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">H infinitive אבד "kill"</gloss>
+</entry>
+<entry>
+<word>אמר</word>
+<display>אמר</display>
+<freq n="0"/>
+<gloss xml:lang="en">say</gloss>
+</entry>
+<entry>
+<word>יֵאמַר</word>
+<display>יֵאמַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imf 3 ms אמר "say"</gloss>
+</entry>
+<entry>
+<word>אֱמַר</word>
+<display>אֱמַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">G imperative אמר "say"</gloss>
+</entry>
+<entry>
+<word>הַדָּם</word>
+<display>הַדָּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">limb</gloss>
+</entry>
+<entry>
+<word>זבן</word>
+<display>זבן</display>
+<freq n="0"/>
+<gloss xml:lang="en">buy</gloss>
+</entry>
+<entry>
+<word>ידע</word>
+<display>ידע</display>
+<freq n="0"/>
+<gloss xml:lang="en">inform (H)</gloss>
+</entry>
+<entry>
+<word>תְּהוֹדְעוּנַּנִי</word>
+<display>תְּהוֹדְעוּנַּנִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 2 mp ידע "inform"</gloss>
+</entry>
+<entry>
+<word>יכל</word>
+<display>יכל</display>
+<freq n="0"/>
+<gloss xml:lang="en">be able</gloss>
+</entry>
+<entry>
+<word>יַקִּיר</word>
+<display>יַקִּיר</display>
+<freq n="0"/>
+<gloss xml:lang="en">difficult</gloss>
+</entry>
+<entry>
+<word>יְקָר</word>
+<display>יְקָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">glory</gloss>
+</entry>
+<entry>
+<word>קבּל</word>
+<display>קבּל</display>
+<freq n="0"/>
+<gloss xml:lang="en">receive</gloss>
+</entry>
+<entry>
+<word>תְּקַבְּלוּן</word>
+<display>תְּקַבְּלוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">D imf 2 mp קבל "receive"</gloss>
+</entry>
+<entry>
+<word>קצף</word>
+<display>קצף</display>
+<freq n="0"/>
+<gloss xml:lang="en">be angry</gloss>
+</entry>
+<entry>
+<word>שׂים</word>
+<display>שׂים</display>
+<freq n="0"/>
+<gloss xml:lang="en">issue</gloss>
+</entry>
+<entry>
+<word>יִתְּשָׂמוּן </word>
+<display>יִתְּשָׂמוּן </display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (passive) imperfect 3 mp שׂים "issue"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 14 - To Be Learned</title>
+<entry>
+<word>אַב</word>
+<display>אַב</display>
+<freq n="0"/>
+<gloss xml:lang="en">father</gloss>
+</entry>
+<entry>
+<word>אֲבָהָת</word>
+<display>אֲבָהָת</display>
+<freq n="0"/>
+<gloss xml:lang="en">plural "fathers"</gloss>
+</entry>
+<entry>
+<word>אבד</word>
+<display>אבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">destroy (H)</gloss>
+</entry>
+<entry>
+<word>יְהוֹבְדוּן</word>
+<display>יְהוֹבְדוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 3 mp אבד "destroy"</gloss>
+</entry>
+<entry>
+<word>תְּהוֹבֵד</word>
+<display>תְּהוֹבֵד</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 2 ms אבד "destroy"</gloss>
+</entry>
+<entry>
+<word>לְהוֹבָדָה</word>
+<display>לְהוֹבָדָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">H infinitive אבד "destroy"</gloss>
+</entry>
+<entry>
+<word>בעה</word>
+<display>בעה</display>
+<freq n="0"/>
+<gloss xml:lang="en">seek</gloss>
+</entry>
+<entry>
+<word>לְמִבְעֵה</word>
+<display>לְמִבְעֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">G infinitive בעה</gloss>
+</entry>
+<entry>
+<word>גלה</word>
+<display>גלה</display>
+<freq n="0"/>
+<gloss xml:lang="en">reveal</gloss>
+</entry>
+<entry>
+<word>גֲּלִי </word>
+<display>גֲּלִי </display>
+<freq n="0"/>
+<gloss xml:lang="en">passive perfect 3 ms גלה "reveal"</gloss>
+</entry>
+<entry>
+<word>זְמַן</word>
+<display>זְמַן</display>
+<freq n="0"/>
+<gloss xml:lang="en">time</gloss>
+</entry>
+<entry>
+<word>חָכְמָה</word>
+<display>חָכְמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">wisdom</gloss>
+</entry>
+<entry>
+<word>עלל</word>
+<display>עלל</display>
+<freq n="0"/>
+<gloss xml:lang="en">enter</gloss>
+</entry>
+<entry>
+<word>עַל</word>
+<display>עַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">G perfect 3 ms עלל "enter"</gloss>
+</entry>
+<entry>
+<word>הַעֵל</word>
+<display>הַעֵל</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imv 3 ms עלל "enter"</gloss>
+</entry>
+<entry>
+<word>כָּל קֳבֵל דְּנָה</word>
+<display>כָּל קֳבֵל דְּנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">thereupon</gloss>
+</entry>
+<entry>
+<word>רָז</word>
+<display>רָז</display>
+<freq n="0"/>
+<gloss xml:lang="en">secret</gloss>
+</entry>
+<entry>
+<word>שׁבּח</word>
+<display>שׁבּח</display>
+<freq n="0"/>
+<gloss xml:lang="en">praise (D)</gloss>
+</entry>
+<entry>
+<word>מְשַׁבַּח</word>
+<display>מְשַׁבַּח</display>
+<freq n="0"/>
+<gloss xml:lang="en">D participle ms שׁבח "praise"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 14 - Reference</title>
+<entry>
+<word>בּרךְ</word>
+<display>בּרךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">bless</gloss>
+</entry>
+<entry>
+<word>מְבָרַךְ</word>
+<display>מְבָרַךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">D pass participle ברך "bless"</gloss>
+</entry>
+<entry>
+<word>גְּבוּרָה</word>
+<display>גְּבוּרָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">power</gloss>
+</entry>
+<entry>
+<word>חֲבָר</word>
+<display>חֲבָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">companion</gloss>
+</entry>
+<entry>
+<word>חוא/חוה</word>
+<display>חוא/חוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">tell (D H) </gloss>
+</entry>
+<entry>
+<word>אַחֲוֵּא</word>
+<display>אַחֲוֵּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">D imf 1 s חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>לְהַחֲוָיָה</word>
+<display>לְהַחֲוָיָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">H infinitive חוה/חוא "tell"</gloss>
+</entry>
+<entry>
+<word>ידע</word>
+<display>ידע</display>
+<freq n="0"/>
+<gloss xml:lang="en">inform (H)</gloss>
+</entry>
+<entry>
+<word>הוֹדַע</word>
+<display>הוֹדַע</display>
+<freq n="0"/>
+<gloss xml:lang="en">H perfect 3 ms ידע "inform"</gloss>
+</entry>
+<entry>
+<word>כֵּן</word>
+<display>כֵּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">thus</gloss>
+</entry>
+<entry>
+<word>מנּה</word>
+<display>מנּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">appoint (D)</gloss>
+</entry>
+<entry>
+<word>מַנִּי</word>
+<display>מַנִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">G perfect 3 ms מנה "appoint"</gloss>
+</entry>
+<entry>
+<word>עַמִּיק</word>
+<display>עַמִּיק</display>
+<freq n="0"/>
+<gloss xml:lang="en">deep</gloss>
+</entry>
+<entry>
+<word>קוּם</word>
+<display>קוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">establish</gloss>
+<gloss xml:lang="en">raise up (H)</gloss>
+</entry>
+<entry>
+<word>מְהָקֵים</word>
+<display>מְהָקֵים</display>
+<freq n="0"/>
+<gloss xml:lang="en">H participle ms קוּם "establish" "raise up"</gloss>
+</entry>
+<entry>
+<word>רַחֲמִין</word>
+<display>רַחֲמִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">compassion</gloss>
+</entry>
+<entry>
+<word>שׁנה</word>
+<display>שׁנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">change (H - transitive)</gloss>
+</entry>
+<entry>
+<word>מְהַשְׁנֵא</word>
+<display>מְהַשְׁנֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">H participle ms שׁנה "change"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 15 - To Be Learned</title>
+<entry>
+<word>אֶבֶן</word>
+<display>אֶבֶן</display>
+<freq n="0"/>
+<gloss xml:lang="en">stone</gloss>
+</entry>
+<entry>
+<word>גזר</word>
+<display>גזר</display>
+<freq n="0"/>
+<gloss xml:lang="en">break off</gloss>
+</entry>
+<entry>
+<word>הִתְגְּזֵר </word>
+<display>הִתְגְּזֵר </display>
+<freq n="0"/>
+<gloss xml:lang="en">is broken off גזר</gloss>
+</entry>
+<entry>
+<word>דקק</word>
+<display>דקק</display>
+<freq n="0"/>
+<gloss xml:lang="en">be crushed</gloss>
+</entry>
+<entry>
+<word>הַדֵּק</word>
+<display>הַדֵּק</display>
+<freq n="0"/>
+<gloss xml:lang="en">H perfect 3 ms דקק "be crushed"</gloss>
+</entry>
+<entry>
+<word>חזה</word>
+<display>חזה</display>
+<freq n="0"/>
+<gloss xml:lang="en">see</gloss>
+</entry>
+<entry>
+<word>חֲסַף</word>
+<display>חֲסַף</display>
+<freq n="0"/>
+<gloss xml:lang="en">clay</gloss>
+</entry>
+<entry>
+<word>טוּר</word>
+<display>טוּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">mountain</gloss>
+</entry>
+<entry>
+<word>נְחָשׁ</word>
+<display>נְחָשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">copper</gloss>
+</entry>
+<entry>
+<word>פַּרְזֶל</word>
+<display>פַּרְזֶל</display>
+<freq n="0"/>
+<gloss xml:lang="en">iron</gloss>
+</entry>
+<entry>
+<word>צְלֵם</word>
+<display>צְלֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en">statue</gloss>
+</entry>
+<entry>
+<word>רְגַל</word>
+<display>רְגַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">foot</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 15 - Reference</title>
+<entry>
+<word>בְּרַם</word>
+<display>בְּרַם</display>
+<freq n="0"/>
+<gloss xml:lang="en">but</gloss>
+</entry>
+<entry>
+<word>גָּלוּ</word>
+<display>גָּלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">exile</gloss>
+</entry>
+<entry>
+<word>דְּרָע</word>
+<display>דְּרָע</display>
+<freq n="0"/>
+<gloss xml:lang="en">arm</gloss>
+</entry>
+<entry>
+<word>חֲדֵה</word>
+<display>חֲדֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">breast</gloss>
+</entry>
+<entry>
+<word>ידע</word>
+<display>ידע</display>
+<freq n="0"/>
+<gloss xml:lang="en">inform (H)</gloss>
+</entry>
+<entry>
+<word>הוֹדַע</word>
+<display>הוֹדַע</display>
+<freq n="0"/>
+<gloss xml:lang="en">H perfect 3 ms ידע "inform"</gloss>
+</entry>
+<entry>
+<word>יְהוֹדְעוּן</word>
+<display>יְהוֹדְעוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imperfect 3 mp ידע "inform"</gloss>
+</entry>
+<entry>
+<word>יכל</word>
+<display>יכל</display>
+<freq n="0"/>
+<gloss xml:lang="en">be able</gloss>
+</entry>
+<entry>
+<word>יַרְכָה</word>
+<display>יַרְכָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">thigh</gloss>
+</entry>
+<entry>
+<word>כהל</word>
+<display>כהל</display>
+<freq n="0"/>
+<gloss xml:lang="en">be able</gloss>
+</entry>
+<entry>
+<word>מחא</word>
+<display>מחא</display>
+<freq n="0"/>
+<gloss xml:lang="en">hit</gloss>
+</entry>
+<entry>
+<word>מְעֵה</word>
+<display>מְעֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">belly</gloss>
+</entry>
+<entry>
+<word>עלל</word>
+<display>עלל</display>
+<freq n="0"/>
+<gloss xml:lang="en">enter</gloss>
+</entry>
+<entry>
+<word>הַנְעֵל </word>
+<display>הַנְעֵל </display>
+<freq n="0"/>
+<gloss xml:lang="en">H perfect 3 ms עלל "enter"</gloss>
+</entry>
+<entry>
+<word>שׁכח</word>
+<display>שׁכח</display>
+<freq n="0"/>
+<gloss xml:lang="en">find</gloss>
+</entry>
+<entry>
+<word>הַשְׁכַּחַת</word>
+<display>הַשְׁכַּחַת</display>
+<freq n="0"/>
+<gloss xml:lang="en">H perfect 1 s שׁכח "find"</gloss>
+</entry>
+<entry>
+<word>שָׁק</word>
+<display>שָׁק</display>
+<freq n="0"/>
+<gloss xml:lang="en">leg</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 16 - To Be Learned</title>
+<entry>
+<word>אָחֳרִי</word>
+<display>אָחֳרִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">another</gloss>
+</entry>
+<entry>
+<word>בַּר</word>
+<display>בַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">field</gloss>
+</entry>
+<entry>
+<word>דּוּר</word>
+<display>דּוּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">dwell</gloss>
+</entry>
+<entry>
+<word>דָּארִין</word>
+<display>דָּארִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">G participle mp דוּר "dwell"</gloss>
+</entry>
+<entry>
+<word>חֵיוָה</word>
+<display>חֵיוָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">animal</gloss>
+</entry>
+<entry>
+<word>יכל</word>
+<display>יכל</display>
+<freq n="0"/>
+<gloss xml:lang="en">be able</gloss>
+</entry>
+<entry>
+<word>נפל</word>
+<display>נפל</display>
+<freq n="0"/>
+<gloss xml:lang="en">fall</gloss>
+</entry>
+<entry>
+<word>סגד</word>
+<display>סגד</display>
+<freq n="0"/>
+<gloss xml:lang="en">bow down</gloss>
+</entry>
+<entry>
+<word>רְבִיעָי</word>
+<display>רְבִיעָי</display>
+<freq n="0"/>
+<gloss xml:lang="en">fourth</gloss>
+</entry>
+<entry>
+<word>שׁלט</word>
+<display>שׁלט</display>
+<freq n="0"/>
+<gloss xml:lang="en">rule</gloss>
+</entry>
+<entry>
+<word>תְּלִיתָי</word>
+<display>תְּלִיתָי</display>
+<freq n="0"/>
+<gloss xml:lang="en">third</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 16 - Reference</title>
+<entry>
+<word>אַחֲרֵי</word>
+<display>אַחֲרֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en">after</gloss>
+</entry>
+<entry>
+<word>אֲנַף</word>
+<display>אֲנַף</display>
+<freq n="0"/>
+<gloss xml:lang="en">face (p)</gloss>
+</entry>
+<entry>
+<word>אֶצְבַּע</word>
+<display>אֶצְבַּע</display>
+<freq n="0"/>
+<gloss xml:lang="en">finger</gloss>
+</entry>
+<entry>
+<word>בָּתַר</word>
+<display>בָּתַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">after (lit. "in place of")</gloss>
+</entry>
+<entry>
+<word>גלה</word>
+<display>גלה</display>
+<freq n="0"/>
+<gloss xml:lang="en">reveal</gloss>
+</entry>
+<entry>
+<word>לְמִגְלֵא</word>
+<display>לְמִגְלֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G infinitive גלה "reveal"</gloss>
+</entry>
+<entry>
+<word>דקק</word>
+<display>דקק</display>
+<freq n="0"/>
+<gloss xml:lang="en">smash (H)</gloss>
+</entry>
+<entry>
+<word>מְהַדֵּק</word>
+<display>מְהַדֵּק</display>
+<freq n="0"/>
+<gloss xml:lang="en">H participle ms דקק "smash"</gloss>
+</entry>
+<entry>
+<word>חבּל</word>
+<display>חבּל</display>
+<freq n="0"/>
+<gloss xml:lang="en">destroy (D)</gloss>
+</entry>
+<entry>
+<word>תִּתְחַבַּל </word>
+<display>תִּתְחַבַּל </display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt (passive) imf 3 fs חבל "destroy"</gloss>
+</entry>
+<entry>
+<word>ידע</word>
+<display>ידע</display>
+<freq n="0"/>
+<gloss xml:lang="en">inform (H)</gloss>
+</entry>
+<entry>
+<word>הוֹדַע </word>
+<display>הוֹדַע </display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 3 ms ידע "inform"</gloss>
+</entry>
+<entry>
+<word>יוֹם</word>
+<display>יוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">day</gloss>
+</entry>
+<entry>
+<word>עוֹף</word>
+<display>עוֹף</display>
+<freq n="0"/>
+<gloss xml:lang="en">bird</gloss>
+</entry>
+<entry>
+<word>פְּלִיגָה</word>
+<display>פְּלִיגָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">divided</gloss>
+</entry>
+<entry>
+<word>קוּם</word>
+<display>קוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">rise</gloss>
+</entry>
+<entry>
+<word>יְקִים</word>
+<display>יְקִים</display>
+<freq n="0"/>
+<gloss xml:lang="en">H imf 3 ms קוּם "rise"</gloss>
+</entry>
+<entry>
+<word>רְגַל</word>
+<display>רְגַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">foot</gloss>
+</entry>
+<entry>
+<word>שׁבק</word>
+<display>שׁבק</display>
+<freq n="0"/>
+<gloss xml:lang="en">leave</gloss>
+<gloss xml:lang="en">abandon</gloss>
+</entry>
+<entry>
+<word>תִּשְׁתְּבִק</word>
+<display>תִּשְׁתְּבִק</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (passive) imf 2 fs שׁבק "leave" "abandon"</gloss>
+</entry>
+<entry>
+<word>תְּבִיר</word>
+<display>תְּבִיר</display>
+<freq n="0"/>
+<gloss xml:lang="en">breakable</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 17 - To Be Learned</title>
+<entry>
+<word>אַתּוּן</word>
+<display>אַתּוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">furnace</gloss>
+</entry>
+<entry>
+<word>זְמָר</word>
+<display>זְמָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">music</gloss>
+</entry>
+<entry>
+<word>זַן</word>
+<display>זַן</display>
+<freq n="0"/>
+<gloss xml:lang="en">type</gloss>
+</entry>
+<entry>
+<word>יקד</word>
+<display>יקד</display>
+<freq n="0"/>
+<gloss xml:lang="en">burn</gloss>
+</entry>
+<entry>
+<word>נוּר</word>
+<display>נוּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">fire</gloss>
+</entry>
+<entry>
+<word>פלח</word>
+<display>פלח</display>
+<freq n="0"/>
+<gloss xml:lang="en">worship</gloss>
+</entry>
+<entry>
+<word>קָל</word>
+<display>קָל</display>
+<freq n="0"/>
+<gloss xml:lang="en">sound</gloss>
+</entry>
+<entry>
+<word>קֶרֶן</word>
+<display>קֶרֶן</display>
+<freq n="0"/>
+<gloss xml:lang="en">horn</gloss>
+</entry>
+<entry>
+<word>רמה</word>
+<display>רמה</display>
+<freq n="0"/>
+<gloss xml:lang="en">throw</gloss>
+</entry>
+<entry>
+<word>יִתְרְמֵא</word>
+<display>יִתְרְמֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt imf 3 ms רמה "throw"</gloss>
+</entry>
+<entry>
+<word>שׁמע</word>
+<display>שׁמע</display>
+<freq n="0"/>
+<gloss xml:lang="en">hear</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 17 - Reference</title>
+<entry>
+<word>חיה</word>
+<display>חיה</display>
+<freq n="0"/>
+<gloss xml:lang="en">live</gloss>
+</entry>
+<entry>
+<word>חַיִל</word>
+<display>חַיִל</display>
+<freq n="0"/>
+<gloss xml:lang="en">strength</gloss>
+</entry>
+<entry>
+<word>חֲנֻכָּה</word>
+<display>חֲנֻכָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">dedication</gloss>
+</entry>
+<entry>
+<word>כְּדִי</word>
+<display>כְּדִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">when</gloss>
+</entry>
+<entry>
+<word>כנשׁ</word>
+<display>כנשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">gather</gloss>
+</entry>
+<entry>
+<word>לְמִכְנָשׁ</word>
+<display>לְמִכְנָשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">G infinitive כנשׁ "gather"</gloss>
+</entry>
+<entry>
+<word>מִתְכַּנְּשִׁין</word>
+<display>מִתְכַּנְּשִׁין</display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt participle mp כנשׁ "gather"</gloss>
+</entry>
+<entry>
+<word>כָּרוֹז</word>
+<display>כָּרוֹז</display>
+<freq n="0"/>
+<gloss xml:lang="en">herald</gloss>
+</entry>
+<entry>
+<word>סְגַן</word>
+<display>סְגַן</display>
+<freq n="0"/>
+<gloss xml:lang="en">prefect</gloss>
+</entry>
+<entry>
+<word>קוּם</word>
+<display>קוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">rise</gloss>
+</entry>
+<entry>
+<word>שְׁלַחְתּוּן</word>
+<display>שְׁלַחְתּוּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pf 2 mp of שׁלח "send"</gloss>
+</entry>
+<entry>
+<word>קָאְמִין</word>
+<display>קָאְמִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">G participle mp קוּם "rise"</gloss>
+</entry>
+<entry>
+<word>הֲקֵים</word>
+<display>הֲקֵים</display>
+<freq n="0"/>
+<gloss xml:lang="en">H perfect 3 ms קוּם "rise"</gloss>
+</entry>
+<entry>
+<word>קרא</word>
+<display>קרא</display>
+<freq n="0"/>
+<gloss xml:lang="en">call</gloss>
+</entry>
+<entry>
+<word>קרב</word>
+<display>קרב</display>
+<freq n="0"/>
+<gloss xml:lang="en">approach</gloss>
+</entry>
+<entry>
+<word>שִׂים טְעֵם</word>
+<display>שִׂים טְעֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en">pay attention</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 18 - To Be Learned</title>
+<entry>
+<word>אזה</word>
+<display>אזה</display>
+<freq n="0"/>
+<gloss xml:lang="en">heat</gloss>
+</entry>
+<entry>
+<word>לְמֵזֵא</word>
+<display>לְמֵזֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">G infinitive אזה "heat"</gloss>
+</entry>
+<entry>
+<word>אֵזֵה</word>
+<display>אֵזֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">pass ptc אזה "heat"</gloss>
+</entry>
+<entry>
+<word>אתה</word>
+<display>אתה</display>
+<freq n="0"/>
+<gloss xml:lang="en">come</gloss>
+</entry>
+<entry>
+<word>הֵיתָיוּ</word>
+<display>הֵיתָיוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">perfect 3 mp אתה "come"</gloss>
+</entry>
+<entry>
+<word>לְהַיְתָיָה</word>
+<display>לְהַיְתָיָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">perfect 3 mp אתה "come"</gloss>
+</entry>
+<entry>
+<word>חשׁח</word>
+<display>חשׁח</display>
+<freq n="0"/>
+<gloss xml:lang="en">need</gloss>
+</entry>
+<entry>
+<word>יַד</word>
+<display>יַד</display>
+<freq n="0"/>
+<gloss xml:lang="en">hand</gloss>
+</entry>
+<entry>
+<word>יַתִּיר</word>
+<display>יַתִּיר</display>
+<freq n="0"/>
+<gloss xml:lang="en">very</gloss>
+<gloss xml:lang="en">excellent</gloss>
+</entry>
+<entry>
+<word>כפּת</word>
+<display>כפּת</display>
+<freq n="0"/>
+<gloss xml:lang="en">bind (D)</gloss>
+</entry>
+<entry>
+<word>לְכַפָּתָה</word>
+<display>לְכַפָּתָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">D infinitive כפת "bind"</gloss>
+</entry>
+<entry>
+<word>מְכַפְּתִין</word>
+<display>מְכַפְּתִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">D pass ptc mp כפת "bind"</gloss>
+</entry>
+<entry>
+<word>עֲתִיד</word>
+<display>עֲתִיד</display>
+<freq n="0"/>
+<gloss xml:lang="en">ready</gloss>
+</entry>
+<entry>
+<word>קטּל</word>
+<display>קטּל</display>
+<freq n="0"/>
+<gloss xml:lang="en">kill (D)</gloss>
+</entry>
+<entry>
+<word>יְשֵׁיזִב</word>
+<display>יְשֵׁיזִב</display>
+<freq n="0"/>
+<gloss xml:lang="en">he saves</gloss>
+</entry>
+<entry>
+<word>יְשֵׁיזְבִנְכוֹן </word>
+<display>יְשֵׁיזְבִנְכוֹן </display>
+<freq n="0"/>
+<gloss xml:lang="en">imf 3ms + 2 mp "save"</gloss>
+</entry>
+<entry>
+<word>שָׁעָה</word>
+<display>שָׁעָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">hour</gloss>
+</entry>
+<entry>
+<word>לְשֵׁיזָבוּתַנָא</word>
+<display>לְשֵׁיזָבוּתַנָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">infinitive + 1 p "save"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 18 - Reference</title>
+<entry>
+<word>חזה</word>
+<display>חזה</display>
+<freq n="0"/>
+<gloss xml:lang="en">see</gloss>
+</entry>
+<entry>
+<word>חֲזֵה</word>
+<display>חֲזֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pass ptc ("proper") חזה "see"</gloss>
+</entry>
+<entry>
+<word>מַחְצְפָה</word>
+<display>מַחְצְפָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">urgent</gloss>
+</entry>
+<entry>
+<word>מִן דִּי</word>
+<display>מִן דִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">because</gloss>
+</entry>
+<entry>
+<word>סלק</word>
+<display>סלק</display>
+<freq n="0"/>
+<gloss xml:lang="en">go up</gloss>
+</entry>
+<entry>
+<word>הַסִּקוּ</word>
+<display>הַסִּקוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">H pf 3 mp (sacrifice)</gloss>
+</entry>
+<entry>
+<word>צְדָּא</word>
+<display>צְדָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">true</gloss>
+</entry>
+<entry>
+<word>קוּם</word>
+<display>קוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">rise</gloss>
+</entry>
+<entry>
+<word>הֲקֵימֵת</word>
+<display>הֲקֵימֵת</display>
+<freq n="0"/>
+<gloss xml:lang="en">H perfect 1 s קוּם "rise"</gloss>
+</entry>
+<entry>
+<word>רְגַז</word>
+<display>רְגַז</display>
+<freq n="0"/>
+<gloss xml:lang="en">anger</gloss>
+</entry>
+<entry>
+<word>רמה</word>
+<display>רמה</display>
+<freq n="0"/>
+<gloss xml:lang="en">throw</gloss>
+</entry>
+<entry>
+<word>תִּתְרְמוֹן</word>
+<display>תִּתְרְמוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt imperfect 2 mp רמה "throw"</gloss>
+</entry>
+<entry>
+<word>שִׁבְעָה</word>
+<display>שִׁבְעָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">seven</gloss>
+</entry>
+<entry>
+<word>חַד שִׁבְעָה</word>
+<display>חַד שִׁבְעָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">seven times</gloss>
+</entry>
+<entry>
+<word>תוּב</word>
+<display>תוּב</display>
+<freq n="0"/>
+<gloss xml:lang="en">reply (H)</gloss>
+</entry>
+<entry>
+<word>לְהֲתָבוּתָךְ</word>
+<display>לְהֲתָבוּתָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">H infinitive + 2 ms תוּב "reply"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 19 - To Be Learned</title>
+<entry>
+<word>אַרְבַּע</word>
+<display>אַרְבַּע</display>
+<freq n="0"/>
+<gloss xml:lang="en">four</gloss>
+</entry>
+<entry>
+<word>גְּשֵׁם</word>
+<display>גְּשֵׁם</display>
+<freq n="0"/>
+<gloss xml:lang="en">body</gloss>
+</entry>
+<entry>
+<word>דָּר</word>
+<display>דָּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">generation</gloss>
+</entry>
+<entry>
+<word>חֲבָל</word>
+<display>חֲבָל</display>
+<freq n="0"/>
+<gloss xml:lang="en">damage</gloss>
+</entry>
+<entry>
+<word>יַצִּיב</word>
+<display>יַצִּיב</display>
+<freq n="0"/>
+<gloss xml:lang="en">surely</gloss>
+</entry>
+<entry>
+<word>כְּמָה</word>
+<display>כְּמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">how</gloss>
+</entry>
+<entry>
+<word>שׂגא</word>
+<display>שׂגא</display>
+<freq n="0"/>
+<gloss xml:lang="en">great</gloss>
+</entry>
+<entry>
+<word>שְׂעַר</word>
+<display>שְׂעַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">hair</gloss>
+</entry>
+<entry>
+<word>שָׁלְטָן</word>
+<display>שָׁלְטָן</display>
+<freq n="0"/>
+<gloss xml:lang="en">dominion</gloss>
+</entry>
+<entry>
+<word>שׁרה</word>
+<display>שׁרה</display>
+<freq n="0"/>
+<gloss xml:lang="en">loosen</gloss>
+</entry>
+<entry>
+<word>שְׁרַיִן</word>
+<display>שְׁרַיִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">pass participle mp שׁרה "loosen"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 19 - Reference</title>
+<entry>
+<word>אָת</word>
+<display>אָת</display>
+<freq n="0"/>
+<gloss xml:lang="en">sign</gloss>
+</entry>
+<entry>
+<word>ברך</word>
+<display>ברך</display>
+<freq n="0"/>
+<gloss xml:lang="en">bless</gloss>
+</entry>
+<entry>
+<word>דמה</word>
+<display>דמה</display>
+<freq n="0"/>
+<gloss xml:lang="en">resemble</gloss>
+</entry>
+<entry>
+<word>הָא</word>
+<display>הָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">behold</gloss>
+</entry>
+<entry>
+<word>הֲלָא</word>
+<display>הֲלָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">is it not (interrogative)</gloss>
+</entry>
+<entry>
+<word>חרך</word>
+<display>חרך</display>
+<freq n="0"/>
+<gloss xml:lang="en">scorch</gloss>
+</entry>
+<entry>
+<word>הִתְחָרַךְ</word>
+<display>הִתְחָרַךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt (passive) pf 3 ms חרך "scorch"</gloss>
+</entry>
+<entry>
+<word>מַלְאָךְ</word>
+<display>מַלְאָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">angel</gloss>
+</entry>
+<entry>
+<word>עבד</word>
+<display>עבד</display>
+<freq n="0"/>
+<gloss xml:lang="en">make</gloss>
+<gloss xml:lang="en">do</gloss>
+</entry>
+<entry>
+<word>יִתְּעֲבֵד</word>
+<display>יִתְּעֲבֵד</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (pass) imperfect 3 ms עבד "make" "do"</gloss>
+</entry>
+<entry>
+<word>נפק</word>
+<display>נפק</display>
+<freq n="0"/>
+<gloss xml:lang="en">go out</gloss>
+</entry>
+<entry>
+<word>פֻּקוּ</word>
+<display>פֻּקוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">imperative mp נפק "go out"</gloss>
+</entry>
+<entry>
+<word>צלח</word>
+<display>צלח</display>
+<freq n="0"/>
+<gloss xml:lang="en">cause to prosper (H)</gloss>
+</entry>
+<entry>
+<word>שִׁלָּה</word>
+<display>שִׁלָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">blasphemy</gloss>
+</entry>
+<entry>
+<word>תְּלָת</word>
+<display>תְּלָת</display>
+<freq n="0"/>
+<gloss xml:lang="en">three</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 20 - To Be Learned</title>
+<entry>
+<word>אִילָן</word>
+<display>אִילָן</display>
+<freq n="0"/>
+<gloss xml:lang="en">tree</gloss>
+</entry>
+<entry>
+<word>אֲלוּ</word>
+<display>אֲלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">behold</gloss>
+</entry>
+<entry>
+<word>בהל</word>
+<display>בהל</display>
+<freq n="0"/>
+<gloss xml:lang="en">disturb (D)</gloss>
+</entry>
+<entry>
+<word>דחל</word>
+<display>דחל</display>
+<freq n="0"/>
+<gloss xml:lang="en">fear (D - scare)</gloss>
+</entry>
+<entry>
+<word>חַרְטֹם</word>
+<display>חַרְטֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">magician</gloss>
+</entry>
+<entry>
+<word>עֳפִי</word>
+<display>עֳפִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">foliage</gloss>
+</entry>
+<entry>
+<word>קַדִּישׁ</word>
+<display>קַדִּישׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">holy</gloss>
+</entry>
+<entry>
+<word>רבה</word>
+<display>רבה</display>
+<freq n="0"/>
+<gloss xml:lang="en">grow</gloss>
+</entry>
+<entry>
+<word>רוּחַ</word>
+<display>רוּחַ</display>
+<freq n="0"/>
+<gloss xml:lang="en">wind</gloss>
+</entry>
+<entry>
+<word>תְּחוֹת</word>
+<display>תְּחוֹת</display>
+<freq n="0"/>
+<gloss xml:lang="en">under</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 20 - Reference</title>
+<entry>
+<word>אָחֳרֵין</word>
+<display>אָחֳרֵין</display>
+<freq n="0"/>
+<gloss xml:lang="en">last</gloss>
+</entry>
+<entry>
+<word>אנס</word>
+<display>אנס</display>
+<freq n="0"/>
+<gloss xml:lang="en">trouble</gloss>
+</entry>
+<entry>
+<word>חֱזוּ</word>
+<display>חֱזוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">vision</gloss>
+</entry>
+<entry>
+<word>טלל</word>
+<display>טלל</display>
+<freq n="0"/>
+<gloss xml:lang="en">seek shade (H)</gloss>
+</entry>
+<entry>
+<word>מָזוֹן</word>
+<display>מָזוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en">food</gloss>
+</entry>
+<entry>
+<word>מטא</word>
+<display>מטא</display>
+<freq n="0"/>
+<gloss xml:lang="en">reach</gloss>
+</entry>
+<entry>
+<word>עלל</word>
+<display>עלל</display>
+<freq n="0"/>
+<gloss xml:lang="en">enter</gloss>
+</entry>
+<entry>
+<word>עַל </word>
+<display>עַל </display>
+<freq n="0"/>
+<gloss xml:lang="en">G participle ms עלל "enter"</gloss>
+</entry>
+<entry>
+<word>עָלִין</word>
+<display>עָלִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">G participle ms עלל "enter"</gloss>
+</entry>
+<entry>
+<word>לְהַנְעָלָה</word>
+<display>לְהַנְעָלָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">H infinitive עלל "enter"</gloss>
+</entry>
+<entry>
+<word>עֲנַף</word>
+<display>עֲנַף</display>
+<freq n="0"/>
+<gloss xml:lang="en">branch</gloss>
+</entry>
+<entry>
+<word>צִפַּר</word>
+<display>צִפַּר</display>
+<freq n="0"/>
+<gloss xml:lang="en">bird</gloss>
+</entry>
+<entry>
+<word>רוּם</word>
+<display>רוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">height</gloss>
+</entry>
+<entry>
+<word>שַׁפִּיר</word>
+<display>שַׁפִּיר</display>
+<freq n="0"/>
+<gloss xml:lang="en">beautiful</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 21 - To Be Learned</title>
+<entry>
+<word>גדד</word>
+<display>גדד</display>
+<freq n="0"/>
+<gloss xml:lang="en">cut down</gloss>
+</entry>
+<entry>
+<word>טַל</word>
+<display>טַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">dew</gloss>
+</entry>
+<entry>
+<word>כהל</word>
+<display>כהל</display>
+<freq n="0"/>
+<gloss xml:lang="en">be able</gloss>
+</entry>
+<entry>
+<word>לְבַב</word>
+<display>לְבַב</display>
+<freq n="0"/>
+<gloss xml:lang="en">heart</gloss>
+</entry>
+<entry>
+<word>מטא</word>
+<display>מטא</display>
+<freq n="0"/>
+<gloss xml:lang="en">reach</gloss>
+</entry>
+<entry>
+<word>נחת</word>
+<display>נחת</display>
+<freq n="0"/>
+<gloss xml:lang="en">descend</gloss>
+</entry>
+<entry>
+<word>עִלָּי</word>
+<display>עִלָּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">Most High</gloss>
+</entry>
+<entry>
+<word>צבה</word>
+<display>צבה</display>
+<freq n="0"/>
+<gloss xml:lang="en">want</gloss>
+</entry>
+<entry>
+<word>צבע</word>
+<display>צבע</display>
+<freq n="0"/>
+<gloss xml:lang="en">be wet</gloss>
+</entry>
+<entry>
+<word>יִצְטַבַּע</word>
+<display>יִצְטַבַּע</display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt צבע "be wet"</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 21 - Reference</title>
+<entry>
+<word>בְּרַם</word>
+<display>בְּרַם</display>
+<freq n="0"/>
+<gloss xml:lang="en">but</gloss>
+</entry>
+<entry>
+<word>(עַד) דִבְרָה</word>
+<display>(עַד) דִבְרָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">in order that</gloss>
+</entry>
+<entry>
+<word>חַי</word>
+<display>חַי</display>
+<freq n="0"/>
+<gloss xml:lang="en">living</gloss>
+</entry>
+<entry>
+<word>יהב</word>
+<display>יהב</display>
+<freq n="0"/>
+<gloss xml:lang="en">give</gloss>
+</entry>
+<entry>
+<word>יִתְיְהִב</word>
+<display>יִתְיְהִב</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt imf 3 ms יהב "give"</gloss>
+</entry>
+<entry>
+<word>מָזוֹן</word>
+<display>מָזוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en">food</gloss>
+</entry>
+<entry>
+<word>נוּד</word>
+<display>נוּד</display>
+<freq n="0"/>
+<gloss xml:lang="en">flee</gloss>
+</entry>
+<entry>
+<word>עָר</word>
+<display>עָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">enemy</gloss>
+</entry>
+<entry>
+<word>קרא</word>
+<display>קרא</display>
+<freq n="0"/>
+<gloss xml:lang="en">call</gloss>
+</entry>
+<entry>
+<word>רְבוּ</word>
+<display>רְבוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">greatness</gloss>
+</entry>
+<entry>
+<word>שׁמם</word>
+<display>שׁמם</display>
+<freq n="0"/>
+<gloss xml:lang="en">be appalled</gloss>
+</entry>
+<entry>
+<word>אֶשְׁתֹּמַם</word>
+<display>אֶשְׁתֹּמַם</display>
+<freq n="0"/>
+<gloss xml:lang="en">'itpolel pf שׁמם "be appalled"</gloss>
+</entry>
+<entry>
+<word>שְׁרַשׁ</word>
+<display>שְׁרַשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">root</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 22 - To Be Learned</title>
+<entry>
+<word>ברך</word>
+<display>ברך</display>
+<freq n="0"/>
+<gloss xml:lang="en">bless</gloss>
+<gloss xml:lang="en">kneel (D)</gloss>
+</entry>
+<entry>
+<word>חַיִל</word>
+<display>חַיִל</display>
+<freq n="0"/>
+<gloss xml:lang="en">strength</gloss>
+<gloss xml:lang="en">army</gloss>
+</entry>
+<entry>
+<word>טרד</word>
+<display>טרד</display>
+<freq n="0"/>
+<gloss xml:lang="en">drive out</gloss>
+</entry>
+<entry>
+<word>יוֹם</word>
+<display>יוֹם</display>
+<freq n="0"/>
+<gloss xml:lang="en">day</gloss>
+</entry>
+<entry>
+<word>מְדוֹר</word>
+<display>מְדוֹר</display>
+<freq n="0"/>
+<gloss xml:lang="en">dwelling</gloss>
+</entry>
+<entry>
+<word>נטל</word>
+<display>נטל</display>
+<freq n="0"/>
+<gloss xml:lang="en">lift</gloss>
+</entry>
+<entry>
+<word>עדה</word>
+<display>עדה</display>
+<freq n="0"/>
+<gloss xml:lang="en">pass away (G)</gloss>
+</entry>
+<entry>
+<word>פֻּם</word>
+<display>פֻּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">mouth</gloss>
+</entry>
+<entry>
+<word>קְצַת</word>
+<display>קְצַת</display>
+<freq n="0"/>
+<gloss xml:lang="en">end</gloss>
+</entry>
+<entry>
+<word>תוּב</word>
+<display>תוּב</display>
+<freq n="0"/>
+<gloss xml:lang="en">return</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 22 - Reference</title>
+<entry>
+<word>חַי</word>
+<display>חַי</display>
+<freq n="0"/>
+<gloss xml:lang="en">living</gloss>
+</entry>
+<entry>
+<word>חלף</word>
+<display>חלף</display>
+<freq n="0"/>
+<gloss xml:lang="en">pass by</gloss>
+</entry>
+<entry>
+<word>יסף</word>
+<display>יסף</display>
+<freq n="0"/>
+<gloss xml:lang="en">add</gloss>
+</entry>
+<entry>
+<word>הוּסְפַת</word>
+<display>הוּסְפַת</display>
+<freq n="0"/>
+<gloss xml:lang="en">H pass pf 3 fs יסף "add"</gloss>
+</entry>
+<entry>
+<word>יְרַח</word>
+<display>יְרַח</display>
+<freq n="0"/>
+<gloss xml:lang="en">month</gloss>
+</entry>
+<entry>
+<word>מִן דִּי</word>
+<display>מִן דִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">because</gloss>
+</entry>
+<entry>
+<word>מַנְדַּע</word>
+<display>מַנְדַּע</display>
+<freq n="0"/>
+<gloss xml:lang="en">understanding</gloss>
+</entry>
+<entry>
+<word>עַיִן</word>
+<display>עַיִן</display>
+<freq n="0"/>
+<gloss xml:lang="en">eye</gloss>
+</entry>
+<entry>
+<word>קַיָּם</word>
+<display>קַיָּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">enduring</gloss>
+</entry>
+<entry>
+<word>רְבוּ</word>
+<display>רְבוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">greatness</gloss>
+</entry>
+<entry>
+<word>שִׁבְעָה</word>
+<display>שִׁבְעָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">seven</gloss>
+</entry>
+<entry>
+<word>שְׁרַשׁ</word>
+<display>שְׁרַשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">root</gloss>
+</entry>
+<entry>
+<word>תקן</word>
+<display>תקן</display>
+<freq n="0"/>
+<gloss xml:lang="en">restore (H)</gloss>
+</entry>
+<entry>
+<word>הָתְקְנַת</word>
+<display>הָתְקְנַת</display>
+<freq n="0"/>
+<gloss xml:lang="en">H passive תקן "restore"</gloss>
+</entry>
+<entry>
+<word>תְּרֵי עַשַׂר</word>
+<display>תְּרֵי עַשַׂר</display>
+<freq n="0"/>
+<gloss xml:lang="en">twelve</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 23 - To Be Learned</title>
+<entry>
+<word>אֶצְבַּע</word>
+<display>אֶצְבַּע</display>
+<freq n="0"/>
+<gloss xml:lang="en">finger</gloss>
+</entry>
+<entry>
+<word>זִיו</word>
+<display>זִיו</display>
+<freq n="0"/>
+<gloss xml:lang="en">splendor</gloss>
+</entry>
+<entry>
+<word>חֲמַר</word>
+<display>חֲמַר</display>
+<freq n="0"/>
+<gloss xml:lang="en">wine</gloss>
+</entry>
+<entry>
+<word>לבשׁ</word>
+<display>לבשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">wear</gloss>
+</entry>
+<entry>
+<word>לְחֶם</word>
+<display>לְחֶם</display>
+<freq n="0"/>
+<gloss xml:lang="en">meal</gloss>
+</entry>
+<entry>
+<word>פשׁר</word>
+<display>פשׁר</display>
+<freq n="0"/>
+<gloss xml:lang="en">interpret (D)</gloss>
+</entry>
+<entry>
+<word>קרה/קרא</word>
+<display>קרה/קרא</display>
+<freq n="0"/>
+<gloss xml:lang="en">read</gloss>
+<gloss xml:lang="en">call</gloss>
+</entry>
+<entry>
+<word>יִתְקְרֵי</word>
+<display>יִתְקְרֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (pass) imf 3 ms קרא/קרה "read" "call"</gloss>
+</entry>
+<entry>
+<word>רַעֲיוֹן</word>
+<display>רַעֲיוֹן</display>
+<freq n="0"/>
+<gloss xml:lang="en">thought</gloss>
+</entry>
+<entry>
+<word>שׁכח</word>
+<display>שׁכח</display>
+<freq n="0"/>
+<gloss xml:lang="en">find</gloss>
+</entry>
+<entry>
+<word>הִשְׁתְּכַחַת</word>
+<display>הִשְׁתְּכַחַת</display>
+<freq n="0"/>
+<gloss xml:lang="en">Gt (pass) pf 3 fs שׁכח "find"</gloss>
+</entry>
+<entry>
+<word>שׁתה</word>
+<display>שׁתה</display>
+<freq n="0"/>
+<gloss xml:lang="en">drink</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 23 - Reference</title>
+<entry>
+<word>אָע</word>
+<display>אָע</display>
+<freq n="0"/>
+<gloss xml:lang="en">wood</gloss>
+</entry>
+<entry>
+<word>אַרְגְּוָן</word>
+<display>אַרְגְּוָן</display>
+<freq n="0"/>
+<gloss xml:lang="en">purple</gloss>
+</entry>
+<entry>
+<word>בהל</word>
+<display>בהל</display>
+<freq n="0"/>
+<gloss xml:lang="en">disturb (D)</gloss>
+</entry>
+<entry>
+<word>מִתְבָּהַל</word>
+<display>מִתְבָּהַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt (pass) ptc ms בהל "disturb"</gloss>
+</entry>
+<entry>
+<word>טְעֵם</word>
+<display>טְעֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en">taste</gloss>
+</entry>
+<entry>
+<word>מַנְדַּע</word>
+<display>מַנְדַּע</display>
+<freq n="0"/>
+<gloss xml:lang="en">understanding</gloss>
+</entry>
+<entry>
+<word>כְּתַל</word>
+<display>כְּתַל</display>
+<freq n="0"/>
+<gloss xml:lang="en">wall</gloss>
+</entry>
+<entry>
+<word>מִשְׁתֵּא</word>
+<display>מִשְׁתֵּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">banquet</gloss>
+</entry>
+<entry>
+<word>נַהִירוּ</word>
+<display>נַהִירוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">illumination</gloss>
+</entry>
+<entry>
+<word>פַּס</word>
+<display>פַּס</display>
+<freq n="0"/>
+<gloss xml:lang="en">palm (of hand)</gloss>
+</entry>
+<entry>
+<word>שׁנה</word>
+<display>שׁנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">change (G)</gloss>
+</entry>
+<entry>
+<word>יִשְׁתַּנּוֹ</word>
+<display>יִשְׁתַּנּוֹ</display>
+<freq n="0"/>
+<gloss xml:lang="en">Dt (pass) imf 3 mp שׁנה "change"</gloss>
+</entry>
+<entry>
+<word>תַּלְתִּי</word>
+<display>תַּלְתִּי</display>
+<freq n="0"/>
+<gloss xml:lang="en">ruler (over 1/3 kingdom)</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 24 - To Be Learned</title>
+<entry>
+<word>יְקָר</word>
+<display>יְקָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">glory</gloss>
+</entry>
+<entry>
+<word>כָּרְסֵא</word>
+<display>כָּרְסֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">throne</gloss>
+</entry>
+<entry>
+<word>מָרֵא</word>
+<display>מָרֵא</display>
+<freq n="0"/>
+<gloss xml:lang="en">master</gloss>
+</entry>
+<entry>
+<word>רְבוּ</word>
+<display>רְבוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">greatness</gloss>
+</entry>
+<entry>
+<word>רוּם</word>
+<display>רוּם</display>
+<freq n="0"/>
+<gloss xml:lang="en">rise</gloss>
+</entry>
+<entry>
+<word>רִים</word>
+<display>רִים</display>
+<freq n="0"/>
+<gloss xml:lang="en">G pass ptc ms  רוּם "rise"</gloss>
+</entry>
+<entry>
+<word>מָרִים</word>
+<display>מָרִים</display>
+<freq n="0"/>
+<gloss xml:lang="en">H (causative) ptc ms רוּם "rise"</gloss>
+</entry>
+<entry>
+<word>הִתְרוֹמַמְתָּ</word>
+<display>הִתְרוֹמַמְתָּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">Hitpolel (reflexive) pf 2 ms רוּם "rise"</gloss>
+</entry>
+<entry>
+<word>רשׁם</word>
+<display>רשׁם</display>
+<freq n="0"/>
+<gloss xml:lang="en">write</gloss>
+</entry>
+<entry>
+<word>שׁוה</word>
+<display>שׁוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">be like</gloss>
+</entry>
+<entry>
+<word>שׁלם</word>
+<display>שׁלם</display>
+<freq n="0"/>
+<gloss xml:lang="en">be finished</gloss>
+</entry>
+<entry>
+<word>שׁפל</word>
+<display>שׁפל</display>
+<freq n="0"/>
+<gloss xml:lang="en">be low (H causative)</gloss>
+</entry>
+<entry>
+<word>תַּלְתָּא</word>
+<display>תַּלְתָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">rule (over 1/3 kingdom)</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 24 - Reference</title>
+<entry>
+<word> אַרְגְּוָן</word>
+<display> אַרְגְּוָן</display>
+<freq n="0"/>
+<gloss xml:lang="en">purple</gloss>
+</entry>
+<entry>
+<word>חַסִּיר</word>
+<display>חַסִּיר</display>
+<freq n="0"/>
+<gloss xml:lang="en">lacking</gloss>
+</entry>
+<entry>
+<word>כרז</word>
+<display>כרז</display>
+<freq n="0"/>
+<gloss xml:lang="en">proclaim (H)</gloss>
+</entry>
+<entry>
+<word>מנה</word>
+<display>מנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">count (G)</gloss>
+</entry>
+<entry>
+<word>עדה</word>
+<display>עדה</display>
+<freq n="0"/>
+<gloss xml:lang="en">remove (H)</gloss>
+</entry>
+<entry>
+<word>פרס</word>
+<display>פרס</display>
+<freq n="0"/>
+<gloss xml:lang="en">divide</gloss>
+</entry>
+<entry>
+<word>קטל</word>
+<display>קטל</display>
+<freq n="0"/>
+<gloss xml:lang="en">kill</gloss>
+</entry>
+<entry>
+<word>רַבְרְבָנִין</word>
+<display>רַבְרְבָנִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">chiefs</gloss>
+</entry>
+<entry>
+<word>תקל</word>
+<display>תקל</display>
+<freq n="0"/>
+<gloss xml:lang="en">weigh</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 25 - To Be Learned</title>
+<entry>
+<word>אֲחַשְׁדַּרְפַּן</word>
+<display>אֲחַשְׁדַּרְפַּן</display>
+<freq n="0"/>
+<gloss xml:lang="en">satrap</gloss>
+</entry>
+<entry>
+<word>אמן</word>
+<display>אמן</display>
+<freq n="0"/>
+<gloss xml:lang="en">be faithful (H)</gloss>
+</entry>
+<entry>
+<word>מְהֵימַן</word>
+<display>מְהֵימַן</display>
+<freq n="0"/>
+<gloss xml:lang="en">H pass ptc אמן "be faithful"</gloss>
+</entry>
+<entry>
+<word>אַרְיֵה</word>
+<display>אַרְיֵה</display>
+<freq n="0"/>
+<gloss xml:lang="en">lion</gloss>
+</entry>
+<entry>
+<word>גּוֹב</word>
+<display>גּוֹב</display>
+<freq n="0"/>
+<gloss xml:lang="en">pit</gloss>
+</entry>
+<entry>
+<word>לֵילֵי</word>
+<display>לֵילֵי</display>
+<freq n="0"/>
+<gloss xml:lang="en">night</gloss>
+</entry>
+<entry>
+<word>עִלָּה</word>
+<display>עִלָּה</display>
+<freq n="0"/>
+<gloss xml:lang="en">pretext</gloss>
+</entry>
+<entry>
+<word>קבּל</word>
+<display>קבּל</display>
+<freq n="0"/>
+<gloss xml:lang="en">receive (D)</gloss>
+</entry>
+<entry>
+<word>קְיָם</word>
+<display>קְיָם</display>
+<freq n="0"/>
+<gloss xml:lang="en">statute</gloss>
+</entry>
+<entry>
+<word>רגש</word>
+<display>רגש</display>
+<freq n="0"/>
+<gloss xml:lang="en">assemble (H)</gloss>
+</entry>
+<entry>
+<word>שׁפר</word>
+<display>שׁפר</display>
+<freq n="0"/>
+<gloss xml:lang="en">please</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 25 - Reference</title>
+<entry>
+<word>בָּעוּ</word>
+<display>בָּעוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">petition</gloss>
+</entry>
+<entry>
+<word>יעט</word>
+<display>יעט</display>
+<freq n="0"/>
+<gloss xml:lang="en">take counsel (Dt)</gloss>
+</entry>
+<entry>
+<word>מְאָה</word>
+<display>מְאָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">hundred</gloss>
+</entry>
+<entry>
+<word>נזק</word>
+<display>נזק</display>
+<freq n="0"/>
+<gloss xml:lang="en">suffer damage</gloss>
+</entry>
+<entry>
+<word>נצח</word>
+<display>נצח</display>
+<freq n="0"/>
+<gloss xml:lang="en">suffer damage</gloss>
+</entry>
+<entry>
+<word>סָרַךְ</word>
+<display>סָרַךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">chief</gloss>
+</entry>
+<entry>
+<word>עֵלָּא</word>
+<display>עֵלָּא</display>
+<freq n="0"/>
+<gloss xml:lang="en">above</gloss>
+</entry>
+<entry>
+<word>עֶשְׂרִין</word>
+<display>עֶשְׂרִין</display>
+<freq n="0"/>
+<gloss xml:lang="en">twenty</gloss>
+</entry>
+<entry>
+<word>עשׁת</word>
+<display>עשׁת</display>
+<freq n="0"/>
+<gloss xml:lang="en">intend</gloss>
+</entry>
+<entry>
+<word>קום</word>
+<display>קום</display>
+<freq n="0"/>
+<gloss xml:lang="en">establish (D)</gloss>
+</entry>
+<entry>
+<word>לְקַיָּמָה</word>
+<display>לְקַיָּמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">D infinitive קוּם "establish"</gloss>
+</entry>
+<entry>
+<word>שָׁלוּ</word>
+<display>שָׁלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">negligence</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 26 - To Be Learned</title>
+<entry>
+<word>אֱסָר</word>
+<display>אֱסָר</display>
+<freq n="0"/>
+<gloss xml:lang="en">prohibition</gloss>
+</entry>
+<entry>
+<word>גָּלוּ</word>
+<display>גָּלוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">exile</gloss>
+</entry>
+<entry>
+<word>חַי</word>
+<display>חַי</display>
+<freq n="0"/>
+<gloss xml:lang="en">living</gloss>
+</entry>
+<entry>
+<word>כְּדִי</word>
+<display>כְּדִי</display>
+<freq n="0"/>
+<gloss xml:lang="en">when</gloss>
+</entry>
+<entry>
+<word>מלל</word>
+<display>מלל</display>
+<freq n="0"/>
+<gloss xml:lang="en">speak (D)</gloss>
+</entry>
+<entry>
+<word>סגר</word>
+<display>סגר</display>
+<freq n="0"/>
+<gloss xml:lang="en">close</gloss>
+</entry>
+<entry>
+<word>סלק</word>
+<display>סלק</display>
+<freq n="0"/>
+<gloss xml:lang="en">go up</gloss>
+</entry>
+<entry>
+<word>צלח</word>
+<display>צלח</display>
+<freq n="0"/>
+<gloss xml:lang="en">make prosper (H)</gloss>
+</entry>
+<entry>
+<word>קַדְמָה</word>
+<display>קַדְמָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">formerly</gloss>
+</entry>
+<entry>
+<word>קרב</word>
+<display>קרב</display>
+<freq n="0"/>
+<gloss xml:lang="en">approach</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 26 - Reference</title>
+<entry>
+<word>אַף</word>
+<display>אַף</display>
+<freq n="0"/>
+<gloss xml:lang="en">also</gloss>
+</entry>
+<entry>
+<word>אַרְעִית</word>
+<display>אַרְעִית</display>
+<freq n="0"/>
+<gloss xml:lang="en">bottom</gloss>
+</entry>
+<entry>
+<word>אָת</word>
+<display>אָת</display>
+<freq n="0"/>
+<gloss xml:lang="en">sign</gloss>
+</entry>
+<entry>
+<word>בּאשׁ</word>
+<display>בּאשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">be evil</gloss>
+</entry>
+<entry>
+<word>הֲלָא</word>
+<display>הֲלָא</display>
+<freq n="0"/>
+<gloss xml:lang="en">is it not (interrogative)</gloss>
+</entry>
+<entry>
+<word>זָכוּ</word>
+<display>זָכוּ</display>
+<freq n="0"/>
+<gloss xml:lang="en">innocence</gloss>
+</entry>
+<entry>
+<word>חֲבוּלָה</word>
+<display>חֲבוּלָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">damage</gloss>
+</entry>
+<entry>
+<word>מַלְאָךְ</word>
+<display>מַלְאָךְ</display>
+<freq n="0"/>
+<gloss xml:lang="en">angel</gloss>
+</entry>
+<entry>
+<word>נדד</word>
+<display>נדד</display>
+<freq n="0"/>
+<gloss xml:lang="en">flee</gloss>
+</entry>
+<entry>
+<word>נְשִׁין</word>
+<display>נְשִׁין</display>
+<freq n="0"/>
+<gloss xml:lang="en">women</gloss>
+</entry>
+<entry>
+<word>קְרַץ</word>
+<display>קְרַץ</display>
+<freq n="0"/>
+<gloss xml:lang="en">piece</gloss>
+</entry>
+<entry>
+<word>אכל קרץ</word>
+<display>אכל קרץ</display>
+<freq n="0"/>
+<gloss xml:lang="en">accuse</gloss>
+</entry>
+<entry>
+<word>שִׂים טְעֵם</word>
+<display>שִׂים טְעֵם</display>
+<freq n="0"/>
+<gloss xml:lang="en">pay attention</gloss>
+</entry>
+<entry>
+<word>שִׁנָה</word>
+<display>שִׁנָה</display>
+<freq n="0"/>
+<gloss xml:lang="en">sleep</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 28 - Vocabulary</title>
+<entry>
+<word>אח</word>
+<display>אח</display>
+<freq n="0"/>
+<gloss xml:lang="en">brother</gloss>
+</entry>
+<entry>
+<word>בישׁ</word>
+<display>בישׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">evil (sometimes באשׁ)</gloss>
+</entry>
+<entry>
+<word>דכר</word>
+<display>דכר</display>
+<freq n="0"/>
+<gloss xml:lang="en">remember</gloss>
+</entry>
+<entry>
+<word>חמה</word>
+<display>חמה</display>
+<freq n="0"/>
+<gloss xml:lang="en">see</gloss>
+</entry>
+<entry>
+<word>ית</word>
+<display>ית</display>
+<freq n="0"/>
+<gloss xml:lang="en">direct object marker</gloss>
+</entry>
+<entry>
+<word>כן</word>
+<display>כן</display>
+<freq n="0"/>
+<gloss xml:lang="en">thus</gloss>
+</entry>
+<entry>
+<word>לישה</word>
+<display>לישה</display>
+<freq n="0"/>
+<gloss xml:lang="en">is not</gloss>
+</entry>
+<entry>
+<word>פתח</word>
+<display>פתח</display>
+<freq n="0"/>
+<gloss xml:lang="en">open</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 29 - Vocabulary To Be Learned</title>
+<entry>
+<word>נשׁין</word>
+<display>נשׁין</display>
+<freq n="0"/>
+<gloss xml:lang="en">women</gloss>
+</entry>
+<entry>
+<word>עלתה/עלוה</word>
+<display>עלתה/עלוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">burnt offering</gloss>
+</entry>
+<entry>
+<word>רחמן</word>
+<display>רחמן</display>
+<freq n="0"/>
+<gloss xml:lang="en">compassion</gloss>
+</entry>
+<entry>
+<word>תבר</word>
+<display>תבר</display>
+<freq n="0"/>
+<gloss xml:lang="en">break</gloss>
+</entry>
+<entry>
+<word>תנה</word>
+<display>תנה</display>
+<freq n="0"/>
+<gloss xml:lang="en">here</gloss>
+</entry>
+<entry>
+<word>אשׁ</word>
+<display>אשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">fire</gloss>
+</entry>
+<entry>
+<word>חמר</word>
+<display>חמר</display>
+<freq n="0"/>
+<gloss xml:lang="en">donkey</gloss>
+</entry>
+<entry>
+<word>ירח</word>
+<display>ירח</display>
+<freq n="0"/>
+<gloss xml:lang="en">month</gloss>
+</entry>
+<entry>
+<word>לות</word>
+<display>לות</display>
+<freq n="0"/>
+<gloss xml:lang="en">to</gloss>
+<gloss xml:lang="en">with</gloss>
+</entry>
+<entry>
+<word>מדבח</word>
+<display>מדבח</display>
+<freq n="0"/>
+<gloss xml:lang="en">altar</gloss>
+</entry>
+<entry>
+<word>נפשׁ</word>
+<display>נפשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">self</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 30 - Vocabulary To Be Learned</title>
+<entry>
+<word>אנף</word>
+<display>אנף</display>
+<freq n="0"/>
+<gloss xml:lang="en">face</gloss>
+<gloss xml:lang="en">nose</gloss>
+</entry>
+<entry>
+<word>אנתה</word>
+<display>אנתה</display>
+<freq n="0"/>
+<gloss xml:lang="en">wife</gloss>
+</entry>
+<entry>
+<word>חבר</word>
+<display>חבר</display>
+<freq n="0"/>
+<gloss xml:lang="en">companion</gloss>
+</entry>
+<entry>
+<word>יא</word>
+<display>יא</display>
+<freq n="0"/>
+<gloss xml:lang="en">lovely</gloss>
+</entry>
+<entry>
+<word>נסב</word>
+<display>נסב</display>
+<freq n="0"/>
+<gloss xml:lang="en">take</gloss>
+</entry>
+<entry>
+<word>עין</word>
+<display>עין</display>
+<freq n="0"/>
+<gloss xml:lang="en">eye</gloss>
+</entry>
+<entry>
+<word>רחם</word>
+<display>רחם</display>
+<freq n="0"/>
+<gloss xml:lang="en">love</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 31 - Vocabulary To Be Learned</title>
+<entry>
+<word>אתר</word>
+<display>אתר</display>
+<freq n="0"/>
+<gloss xml:lang="en">place</gloss>
+</entry>
+<entry>
+<word>יבל</word>
+<display>יבל</display>
+<freq n="0"/>
+<gloss xml:lang="en">bring (H)</gloss>
+</entry>
+<entry>
+<word>כיון</word>
+<display>כיון</display>
+<freq n="0"/>
+<gloss xml:lang="en">when</gloss>
+</entry>
+<entry>
+<word>מות</word>
+<display>מות</display>
+<freq n="0"/>
+<gloss xml:lang="en">die</gloss>
+</entry>
+<entry>
+<word>מסר</word>
+<display>מסר</display>
+<freq n="0"/>
+<gloss xml:lang="en">deliver</gloss>
+</entry>
+<entry>
+<word>נשׁ</word>
+<display>נשׁ</display>
+<freq n="0"/>
+<gloss xml:lang="en">human</gloss>
+</entry>
+</section>
+<section>
+<title>Chapter 32 - Vocabulary To Be Learned</title>
+<entry>
+<word>ירת</word>
+<display>ירת</display>
+<freq n="0"/>
+<gloss xml:lang="en">inherit</gloss>
+</entry>
+<entry>
+<word>מרום</word>
+<display>מרום</display>
+<freq n="0"/>
+<gloss xml:lang="en">height</gloss>
+</entry>
+<entry>
+<word>נכס</word>
+<display>נכס</display>
+<freq n="0"/>
+<gloss xml:lang="en">slaughter</gloss>
+</entry>
+<entry>
+<word>עיליי</word>
+<display>עיליי</display>
+<freq n="0"/>
+<gloss xml:lang="en">on</gloss>
+</entry>
+<entry>
+<word>שׁוה</word>
+<display>שׁוה</display>
+<freq n="0"/>
+<gloss xml:lang="en">place</gloss>
+</entry>
+<entry>
+<word>בתר</word>
+<display>בתר</display>
+<freq n="0"/>
+<gloss xml:lang="en">after</gloss>
+</entry>
+<entry>
+<word>האנא</word>
+<display>האנא</display>
+<freq n="0"/>
+<gloss xml:lang="en">behold</gloss>
+<gloss xml:lang="en">how</gloss>
+</entry>
+<entry>
+<word>זקף</word>
+<display>זקף</display>
+<freq n="0"/>
+<gloss xml:lang="en">lift</gloss>
+</entry>
+<entry>
+<word>חולף</word>
+<display>חולף</display>
+<freq n="0"/>
+<gloss xml:lang="en">instead of</gloss>
+</entry>
+<entry>
+<word>טליה</word>
+<display>טליה</display>
+<freq n="0"/>
+<gloss xml:lang="en">young servant</gloss>
+</entry>
+</section>
+</lbx-vocabulary-list>

@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<lbx-vocabulary-list name="The Original Word Teaching Series: Introduction to New Testament Greek" category="VocabularyLists" xml:lang="el"><section>
+<title>Lesson Six</title>
+<entry>
+<word>ἀγνοέω</word>
+<display>ἀγνοέω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I do not know</gloss>
+</entry>
+<entry>
+<word>ἀγρός</word>
+<display>ἀγρός</display>
+<freq n="0"/>
+<gloss xml:lang="en">a field</gloss>
+</entry>
+<entry>
+<word>ἀδικέω</word>
+<display>ἀδικέω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I wrong</gloss>
+<gloss xml:lang="en">be unjust</gloss>
+</entry>
+<entry>
+<word>ἁμαρτάνω</word>
+<display>ἁμαρτάνω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I sin</gloss>
+<gloss xml:lang="en">miss the mark</gloss>
+</entry>
+<entry>
+<word>ἀληθινός</word>
+<display>ἀληθινός</display>
+<freq n="0"/>
+<gloss xml:lang="en">true</gloss>
+<gloss xml:lang="en">genuine</gloss>
+</entry>
+<entry>
+<word>ἀνακρίνω</word>
+<display>ἀνακρίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I question </gloss>
+</entry>
+<entry>
+<word>ἀνάστασις</word>
+<display>ἀνάστασις</display>
+<freq n="0"/>
+<gloss xml:lang="en">resurrection</gloss>
+</entry>
+<entry>
+<word>βάπτισμα</word>
+<display>βάπτισμα</display>
+<freq n="0"/>
+<gloss xml:lang="en">baptism</gloss>
+<gloss xml:lang="en">the result of baptizing</gloss>
+</entry>
+<entry>
+<word>βαπτισμός</word>
+<display>βαπτισμός</display>
+<freq n="0"/>
+<gloss xml:lang="en">baptism</gloss>
+<gloss xml:lang="en">the act of baptizing</gloss>
+</entry>
+<entry>
+<word>βη̂μα</word>
+<display>βη̂μα</display>
+<freq n="0"/>
+<gloss xml:lang="en">judicial bench</gloss>
+<gloss xml:lang="en">step</gloss>
+</entry>
+<entry>
+<word>δικαιοσύνη</word>
+<display>δικαιοσύνη</display>
+<freq n="0"/>
+<gloss xml:lang="en">justification</gloss>
+</entry>
+<entry>
+<word>εἰρήνη</word>
+<display>εἰρήνη</display>
+<freq n="0"/>
+<gloss xml:lang="en">peace</gloss>
+<gloss xml:lang="en">harmony</gloss>
+</entry>
+<entry>
+<word>ἰάομαι</word>
+<display>ἰάομαι</display>
+<freq n="0"/>
+<gloss xml:lang="en">I heal</gloss>
+<gloss xml:lang="en">cure</gloss>
+</entry>
+<entry>
+<word>μετανοέω</word>
+<display>μετανοέω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I repent</gloss>
+<gloss xml:lang="en">reconsider</gloss>
+</entry>
+<entry>
+<word>παράκλησις</word>
+<display>παράκλησις</display>
+<freq n="0"/>
+<gloss xml:lang="en">encouragement</gloss>
+</entry>
+<entry>
+<word>παράκλητος</word>
+<display>παράκλητος</display>
+<freq n="0"/>
+<gloss xml:lang="en">an advocate</gloss>
+<gloss xml:lang="en">intercessor</gloss>
+</entry>
+<entry>
+<word>σοφία</word>
+<display>σοφία</display>
+<freq n="0"/>
+<gloss xml:lang="en">wisdom</gloss>
+</entry>
+<entry>
+<word>συλλέγω</word>
+<display>συλλέγω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I collect</gloss>
+<gloss xml:lang="en">pick</gloss>
+<gloss xml:lang="en">gather</gloss>
+</entry>
+<entry>
+<word>σωτηρία</word>
+<display>σωτηρία</display>
+<freq n="0"/>
+<gloss xml:lang="en">salvation</gloss>
+</entry>
+<entry>
+<word>υἱός</word>
+<display>υἱός</display>
+<freq n="0"/>
+<gloss xml:lang="en">son</gloss>
+</entry>
+</section>
+<section>
+<title>Lesson Five</title>
+<entry>
+<word>ἀναβαίνω</word>
+<display>ἀναβαίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I go up </gloss>
+</entry>
+<entry>
+<word>δίκαιος</word>
+<display>δίκαιος</display>
+<freq n="0"/>
+<gloss xml:lang="en">upright</gloss>
+<gloss xml:lang="en">righteous</gloss>
+</entry>
+<entry>
+<word>ἀπόστολος</word>
+<display>ἀπόστολος</display>
+<freq n="0"/>
+<gloss xml:lang="en">Apostle</gloss>
+</entry>
+<entry>
+<word>ἄρχω</word>
+<display>ἄρχω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I rule</gloss>
+<gloss xml:lang="en">I begin</gloss>
+</entry>
+<entry>
+<word>δοκέω</word>
+<display>δοκέω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I think</gloss>
+<gloss xml:lang="en">seem</gloss>
+</entry>
+<entry>
+<word>θέλημα</word>
+<display>θέλημα</display>
+<freq n="0"/>
+<gloss xml:lang="en">will</gloss>
+<gloss xml:lang="en">determination </gloss>
+</entry>
+<entry>
+<word>ʼΙησου̂ς</word>
+<display>ʼΙησου̂ς</display>
+<freq n="0"/>
+<gloss xml:lang="en">Jesus</gloss>
+<gloss xml:lang="en">Joshua</gloss>
+</entry>
+<entry>
+<word>καρπός</word>
+<display>καρπός</display>
+<freq n="0"/>
+<gloss xml:lang="en">fruit</gloss>
+</entry>
+<entry>
+<word>καταβαίνω</word>
+<display>καταβαίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I go down</gloss>
+</entry>
+<entry>
+<word>μαρτυρέω</word>
+<display>μαρτυρέω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I bear witness</gloss>
+</entry>
+<entry>
+<word>οἰκία</word>
+<display>οἰκία</display>
+<freq n="0"/>
+<gloss xml:lang="en">a house</gloss>
+</entry>
+<entry>
+<word>ὄρος</word>
+<display>ὄρος</display>
+<freq n="0"/>
+<gloss xml:lang="en">a mountain</gloss>
+</entry>
+<entry>
+<word>πίστις</word>
+<display>πίστις</display>
+<freq n="0"/>
+<gloss xml:lang="en">faith</gloss>
+<gloss xml:lang="en">trust</gloss>
+<gloss xml:lang="en">belief </gloss>
+</entry>
+<entry>
+<word>πλοι̂ον</word>
+<display>πλοι̂ον</display>
+<freq n="0"/>
+<gloss xml:lang="en">a boat</gloss>
+</entry>
+<entry>
+<word>ῥη̂μα</word>
+<display>ῥη̂μα</display>
+<freq n="0"/>
+<gloss xml:lang="en">a word</gloss>
+<gloss xml:lang="en">saying</gloss>
+<gloss xml:lang="en">utterance</gloss>
+</entry>
+<entry>
+<word>συνάγω</word>
+<display>συνάγω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I gather together</gloss>
+<gloss xml:lang="en">convene</gloss>
+</entry>
+<entry>
+<word>τέκνον</word>
+<display>τέκνον</display>
+<freq n="0"/>
+<gloss xml:lang="en">a child</gloss>
+</entry>
+<entry>
+<word>φέρω</word>
+<display>φέρω</display>
+<freq n="0"/>
+<gloss xml:lang="en"> I carry</gloss>
+</entry>
+<entry>
+<word>φω̂ς</word>
+<display>φω̂ς</display>
+<freq n="0"/>
+<gloss xml:lang="en">light</gloss>
+</entry>
+<entry>
+<word>χαίρω</word>
+<display>χαίρω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I rejoice</gloss>
+<gloss xml:lang="en">be glad</gloss>
+</entry>
+</section>
+<section>
+<title>Lesson Four</title>
+<entry>
+<word>γραφή</word>
+<display>γραφή</display>
+<freq n="0"/>
+<gloss xml:lang="en"> a writing</gloss>
+<gloss xml:lang="en">Scripture</gloss>
+</entry>
+<entry>
+<word>εὐαγγέλιον</word>
+<display>εὐαγγέλιον</display>
+<freq n="0"/>
+<gloss xml:lang="en">gospel</gloss>
+<gloss xml:lang="en">good news</gloss>
+</entry>
+<entry>
+<word>ζωή</word>
+<display>ζωή</display>
+<freq n="0"/>
+<gloss xml:lang="en">life</gloss>
+</entry>
+<entry>
+<word>καλέω</word>
+<display>καλέω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I call</gloss>
+<gloss xml:lang="en">invite</gloss>
+</entry>
+<entry>
+<word>κρίνω</word>
+<display>κρίνω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I judge</gloss>
+</entry>
+<entry>
+<word>νεκρός</word>
+<display>νεκρός</display>
+<freq n="0"/>
+<gloss xml:lang="en">dead</gloss>
+</entry>
+<entry>
+<word>ὅς</word>
+<display>ὅς</display>
+<freq n="0"/>
+<gloss xml:lang="en">who</gloss>
+<gloss xml:lang="en">which</gloss>
+<gloss xml:lang="en">what</gloss>
+<gloss xml:lang="en">that</gloss>
+</entry>
+<entry>
+<word>ὄχλος</word>
+<display>ὄχλος</display>
+<freq n="0"/>
+<gloss xml:lang="en">a crowd</gloss>
+<gloss xml:lang="en">multitude</gloss>
+</entry>
+<entry>
+<word>πάλιν</word>
+<display>πάλιν</display>
+<freq n="0"/>
+<gloss xml:lang="en">again</gloss>
+<gloss xml:lang="en">once more</gloss>
+</entry>
+<entry>
+<word>προφήτης</word>
+<display>προφήτης</display>
+<freq n="0"/>
+<gloss xml:lang="en">prophet</gloss>
+</entry>
+<entry>
+<word>πρω̂τος</word>
+<display>πρω̂τος</display>
+<freq n="0"/>
+<gloss xml:lang="en">first</gloss>
+<gloss xml:lang="en">earlier</gloss>
+</entry>
+<entry>
+<word>σάρξ</word>
+<display>σάρξ</display>
+<freq n="0"/>
+<gloss xml:lang="en">flesh</gloss>
+</entry>
+<entry>
+<word>σῴζω</word>
+<display>σῴζω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I save</gloss>
+</entry>
+<entry>
+<word>σω̂μα</word>
+<display>σω̂μα</display>
+<freq n="0"/>
+<gloss xml:lang="en">a body</gloss>
+</entry>
+<entry>
+<word>τέλειος</word>
+<display>τέλειος</display>
+<freq n="0"/>
+<gloss xml:lang="en">perfect</gloss>
+<gloss xml:lang="en">mature</gloss>
+<gloss xml:lang="en">complete</gloss>
+</entry>
+<entry>
+<word>τόπος</word>
+<display>τόπος</display>
+<freq n="0"/>
+<gloss xml:lang="en">a place</gloss>
+</entry>
+<entry>
+<word>φόβος</word>
+<display>φόβος</display>
+<freq n="0"/>
+<gloss xml:lang="en">fear</gloss>
+</entry>
+<entry>
+<word>φωνή</word>
+<display>φωνή</display>
+<freq n="0"/>
+<gloss xml:lang="en">a sound</gloss>
+<gloss xml:lang="en">voice</gloss>
+</entry>
+<entry>
+<word>ψυχή</word>
+<display>ψυχή</display>
+<freq n="0"/>
+<gloss xml:lang="en">soul</gloss>
+<gloss xml:lang="en">life</gloss>
+</entry>
+<entry>
+<word>ὥρα</word>
+<display>ὥρα</display>
+<freq n="0"/>
+<gloss xml:lang="en">an hour</gloss>
+<gloss xml:lang="en">time of day</gloss>
+</entry>
+</section>
+<section>
+<title>Lesson Three</title>
+<entry>
+<word>ἀγαθός</word>
+<display>ἀγαθός</display>
+<freq n="0"/>
+<gloss xml:lang="en">good </gloss>
+</entry>
+<entry>
+<word>αἱ̂μα</word>
+<display>αἱ̂μα</display>
+<freq n="0"/>
+<gloss xml:lang="en">blood</gloss>
+</entry>
+<entry>
+<word>αἴρω</word>
+<display>αἴρω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I take up</gloss>
+<gloss xml:lang="en">take away</gloss>
+<gloss xml:lang="en">elevate</gloss>
+</entry>
+<entry>
+<word>ἀλήθεια</word>
+<display>ἀλήθεια</display>
+<freq n="0"/>
+<gloss xml:lang="en">truth</gloss>
+</entry>
+<entry>
+<word>ἄρτος</word>
+<display>ἄρτος</display>
+<freq n="0"/>
+<gloss xml:lang="en">bread</gloss>
+<gloss xml:lang="en">a loaf</gloss>
+</entry>
+<entry>
+<word>γινώσκω</word>
+<display>γινώσκω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I come to know</gloss>
+<gloss xml:lang="en">understand</gloss>
+</entry>
+<entry>
+<word>δει̂</word>
+<display>δει̂</display>
+<freq n="0"/>
+<gloss xml:lang="en">it is necessary</gloss>
+<gloss xml:lang="en">one must</gloss>
+</entry>
+<entry>
+<word>διδάσκω</word>
+<display>διδάσκω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I teach</gloss>
+</entry>
+<entry>
+<word>ἐκκλησία</word>
+<display>ἐκκλησία</display>
+<freq n="0"/>
+<gloss xml:lang="en">assembly</gloss>
+<gloss xml:lang="en">church</gloss>
+</entry>
+<entry>
+<word>ἐξουσία</word>
+<display>ἐξουσία</display>
+<freq n="0"/>
+<gloss xml:lang="en">authority</gloss>
+<gloss xml:lang="en">power</gloss>
+</entry>
+<entry>
+<word>ἕτερος</word>
+<display>ἕτερος</display>
+<freq n="0"/>
+<gloss xml:lang="en">other</gloss>
+<gloss xml:lang="en">another of a different kind</gloss>
+</entry>
+<entry>
+<word>καλός</word>
+<display>καλός</display>
+<freq n="0"/>
+<gloss xml:lang="en">beautiful</gloss>
+</entry>
+<entry>
+<word>κύριος</word>
+<display>κύριος</display>
+<freq n="0"/>
+<gloss xml:lang="en">Lord</gloss>
+<gloss xml:lang="en">master</gloss>
+</entry>
+<entry>
+<word>μέλλω</word>
+<display>μέλλω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I am about to</gloss>
+</entry>
+<entry>
+<word>μέν</word>
+<display>μέν</display>
+<freq n="0"/>
+<gloss xml:lang="en">indeed</gloss>
+<gloss xml:lang="en">certainly</gloss>
+</entry>
+<entry>
+<word>νόμος</word>
+<display>νόμος</display>
+<freq n="0"/>
+<gloss xml:lang="en">a law</gloss>
+<gloss xml:lang="en">the Law</gloss>
+</entry>
+<entry>
+<word>νυ̂ν</word>
+<display>νυ̂ν</display>
+<freq n="0"/>
+<gloss xml:lang="en">now</gloss>
+<gloss xml:lang="en">present</gloss>
+</entry>
+<entry>
+<word>οὐδέ</word>
+<display>οὐδέ</display>
+<freq n="0"/>
+<gloss xml:lang="en">and not</gloss>
+<gloss xml:lang="en">not even</gloss>
+<gloss xml:lang="en">nor</gloss>
+</entry>
+<entry>
+<word>χριστός</word>
+<display>χριστός</display>
+<freq n="0"/>
+<gloss xml:lang="en">annointed</gloss>
+<gloss xml:lang="en">Messiah</gloss>
+<gloss xml:lang="en">Christ</gloss>
+</entry>
+<entry>
+<word>χάρις</word>
+<display>χάρις</display>
+<freq n="0"/>
+<gloss xml:lang="en">grace</gloss>
+<gloss xml:lang="en">favor</gloss>
+</entry>
+</section>
+<section>
+<title>Lesson Two</title>
+<entry>
+<word>ἀγαπάω</word>
+<display>ἀγαπάω</display>
+<freq n="0"/>
+<gloss xml:lang="en"> I love</gloss>
+<gloss xml:lang="en">I esteem</gloss>
+</entry>
+<entry>
+<word>ἄγγελος</word>
+<display>ἄγγελος</display>
+<freq n="0"/>
+<gloss xml:lang="en">angel</gloss>
+<gloss xml:lang="en">messenger</gloss>
+</entry>
+<entry>
+<word>αἰών</word>
+<display>αἰών</display>
+<freq n="0"/>
+<gloss xml:lang="en">an age</gloss>
+<gloss xml:lang="en">era</gloss>
+</entry>
+<entry>
+<word>ἄλλος</word>
+<display>ἄλλος</display>
+<freq n="0"/>
+<gloss xml:lang="en">other</gloss>
+<gloss xml:lang="en">another of the same kind</gloss>
+</entry>
+<entry>
+<word>ἁμαρτία</word>
+<display>ἁμαρτία</display>
+<freq n="0"/>
+<gloss xml:lang="en">a sin</gloss>
+<gloss xml:lang="en">sin</gloss>
+</entry>
+<entry>
+<word>ἀμήν</word>
+<display>ἀμήν</display>
+<freq n="0"/>
+<gloss xml:lang="en">verily</gloss>
+<gloss xml:lang="en">truly</gloss>
+<gloss xml:lang="en">amen</gloss>
+</entry>
+<entry>
+<word>βάλλω</word>
+<display>βάλλω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I throw</gloss>
+<gloss xml:lang="en">cast</gloss>
+</entry>
+<entry>
+<word>βαπτίζω</word>
+<display>βαπτίζω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I baptize</gloss>
+<gloss xml:lang="en">dip</gloss>
+</entry>
+<entry>
+<word>βασιλεία</word>
+<display>βασιλεία</display>
+<freq n="0"/>
+<gloss xml:lang="en">a kingdom</gloss>
+</entry>
+<entry>
+<word>βουλή</word>
+<display>βουλή</display>
+<freq n="0"/>
+<gloss xml:lang="en">counsel</gloss>
+<gloss xml:lang="en">purpose</gloss>
+</entry>
+<entry>
+<word>γράφω</word>
+<display>γράφω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I write</gloss>
+</entry>
+<entry>
+<word>δόξα</word>
+<display>δόξα</display>
+<freq n="0"/>
+<gloss xml:lang="en">glory</gloss>
+</entry>
+<entry>
+<word>δου̂λος</word>
+<display>δου̂λος</display>
+<freq n="0"/>
+<gloss xml:lang="en">a slave</gloss>
+<gloss xml:lang="en">servant</gloss>
+</entry>
+<entry>
+<word>ἡμέρα</word>
+<display>ἡμέρα</display>
+<freq n="0"/>
+<gloss xml:lang="en">a day</gloss>
+</entry>
+<entry>
+<word>θέλω</word>
+<display>θέλω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I wish</gloss>
+<gloss xml:lang="en">will</gloss>
+<gloss xml:lang="en">desire</gloss>
+</entry>
+<entry>
+<word>λαλέω</word>
+<display>λαλέω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I speak</gloss>
+</entry>
+<entry>
+<word>λαμβάνω</word>
+<display>λαμβάνω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I take</gloss>
+<gloss xml:lang="en">receive</gloss>
+</entry>
+<entry>
+<word>μαθητής</word>
+<display>μαθητής</display>
+<freq n="0"/>
+<gloss xml:lang="en">a learner</gloss>
+<gloss xml:lang="en">pupil</gloss>
+<gloss xml:lang="en">disciple</gloss>
+</entry>
+<entry>
+<word>ὄνομα</word>
+<display>ὄνομα</display>
+<freq n="0"/>
+<gloss xml:lang="en">a name</gloss>
+</entry>
+<entry>
+<word>πατήρ</word>
+<display>πατήρ</display>
+<freq n="0"/>
+<gloss xml:lang="en">father</gloss>
+</entry>
+</section>
+<section>
+<title>Lesson One</title>
+<entry>
+<word>ἀγάπη</word>
+<display>ἀγάπη</display>
+<freq n="0"/>
+<gloss xml:lang="en">love</gloss>
+<gloss xml:lang="en">esteem</gloss>
+</entry>
+<entry>
+<word>ἅγιος</word>
+<display>ἅγιος</display>
+<freq n="0"/>
+<gloss xml:lang="en">holy</gloss>
+</entry>
+<entry>
+<word>ἀδελφός</word>
+<display>ἀδελφός</display>
+<freq n="0"/>
+<gloss xml:lang="en">brother</gloss>
+</entry>
+<entry>
+<word>ἄνθρωπος</word>
+<display>ἄνθρωπος</display>
+<freq n="0"/>
+<gloss xml:lang="en">a man</gloss>
+</entry>
+<entry>
+<word>ἀρχή</word>
+<display>ἀρχή</display>
+<freq n="0"/>
+<gloss xml:lang="en">beginning</gloss>
+</entry>
+<entry>
+<word>αὐτός</word>
+<display>αὐτός</display>
+<freq n="0"/>
+<gloss xml:lang="en">himself</gloss>
+<gloss xml:lang="en">herself</gloss>
+<gloss xml:lang="en">itself </gloss>
+</entry>
+<entry>
+<word>βλέπω</word>
+<display>βλέπω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I see</gloss>
+</entry>
+<entry>
+<word>δέ</word>
+<display>δέ</display>
+<freq n="0"/>
+<gloss xml:lang="en">but</gloss>
+<gloss xml:lang="en">now</gloss>
+</entry>
+<entry>
+<word>ἐγώ</word>
+<display>ἐγώ</display>
+<freq n="0"/>
+<gloss xml:lang="en">I</gloss>
+</entry>
+<entry>
+<word>εἰμί</word>
+<display>εἰμί</display>
+<freq n="0"/>
+<gloss xml:lang="en">I am</gloss>
+<gloss xml:lang="en">I exist</gloss>
+</entry>
+<entry>
+<word>εἰ̂πον</word>
+<display>εἰ̂πον</display>
+<freq n="0"/>
+<gloss xml:lang="en">I said</gloss>
+</entry>
+<entry>
+<word>ἐκει̂νος</word>
+<display>ἐκει̂νος</display>
+<freq n="0"/>
+<gloss xml:lang="en">that</gloss>
+</entry>
+<entry>
+<word>θεός</word>
+<display>θεός</display>
+<freq n="0"/>
+<gloss xml:lang="en">god</gloss>
+<gloss xml:lang="en">God</gloss>
+</entry>
+<entry>
+<word>ἵνα</word>
+<display>ἵνα</display>
+<freq n="0"/>
+<gloss xml:lang="en">in order that</gloss>
+<gloss xml:lang="en">that </gloss>
+</entry>
+<entry>
+<word>καί</word>
+<display>καί</display>
+<freq n="0"/>
+<gloss xml:lang="en">and</gloss>
+<gloss xml:lang="en">also</gloss>
+<gloss xml:lang="en">even</gloss>
+</entry>
+<entry>
+<word>λέγω</word>
+<display>λέγω</display>
+<freq n="0"/>
+<gloss xml:lang="en">I speak</gloss>
+</entry>
+<entry>
+<word>λόγος</word>
+<display>λόγος</display>
+<freq n="0"/>
+<gloss xml:lang="en">word </gloss>
+</entry>
+<entry>
+<word>οὑ̂τος</word>
+<display>οὑ̂τος</display>
+<freq n="0"/>
+<gloss xml:lang="en">this</gloss>
+</entry>
+<entry>
+<word>πα̂ς</word>
+<display>πα̂ς</display>
+<freq n="0"/>
+<gloss xml:lang="en">all</gloss>
+<gloss xml:lang="en">every (masc)</gloss>
+</entry>
+<entry>
+<word>πα̂σα</word>
+<display>πα̂σα</display>
+<freq n="0"/>
+<gloss xml:lang="en">all</gloss>
+<gloss xml:lang="en">every (fem)</gloss>
+</entry>
+<entry>
+<word>πα̂ν</word>
+<display>πα̂ν</display>
+<freq n="0"/>
+<gloss xml:lang="en">all</gloss>
+<gloss xml:lang="en">every (neuter)</gloss>
+</entry>
+<entry>
+<word>ὡς</word>
+<display>ὡς</display>
+<freq n="0"/>
+<gloss xml:lang="en">as</gloss>
+<gloss xml:lang="en">like</gloss>
+</entry>
+</section>
+</lbx-vocabulary-list>

@@ -1,0 +1,1664 @@
+<?xml version="1.0" ?>
+<lbx-vocabulary-list name="Introduction to Akkadian (Caplice)" category="VocabularyLists" xml:lang="el">
+	<section>
+		<title>Lesson 1</title>
+		<entry>
+			<word>ana</word>
+			<display>ana</display>
+			<gloss xml:lang="en-US">(prep.): to</gloss>
+		</entry>
+		<entry>
+			<word>arnum</word>
+			<display>arnum</display>
+			<gloss xml:lang="en-US">sin, crime; punishment</gloss>
+		</entry>
+		<entry>
+			<word>ašrum</word>
+			<display>ašrum</display>
+			<gloss xml:lang="en-US">place</gloss>
+		</entry>
+		<entry>
+			<word>aššum</word>
+			<display>aššum</display>
+			<gloss xml:lang="en-US">(prep.): because of, concerning; (conj.): because</gloss>
+		</entry>
+		<entry>
+			<word>awīlum</word>
+			<display>awīlum</display>
+			<gloss xml:lang="en-US">man</gloss>
+		</entry>
+		<entry>
+			<word>bītum</word>
+			<display>bītum (m.), pl. bītātum (f.)</display>
+			<gloss xml:lang="en-US">house</gloss>
+		</entry>
+		<entry>
+			<word>dannum</word>
+			<display>dannum, (f.) dannatum</display>
+			<gloss xml:lang="en-US">strong, powerful</gloss>
+		</entry>
+		<entry>
+			<word>erretum</word>
+			<display>erretum, pl. errētum</display>
+			<gloss xml:lang="en-US">curse, malediction</gloss>
+		</entry>
+		<entry>
+			<word>ezzum</word>
+			<display>ezzum, (f.) ezzetum</display>
+			<gloss xml:lang="en-US">angry</gloss>
+		</entry>
+		<entry>
+			<word>gitmālum</word>
+			<display>gitmālum</display>
+			<gloss xml:lang="en-US">perfect, noble</gloss>
+		</entry>
+		<entry>
+			<word>ilum</word>
+			<display>ilum, pl. ilū or ilānū</display>
+			<gloss xml:lang="en-US">god</gloss>
+		</entry>
+		<entry>
+			<word>ina</word>
+			<display>ina</display>
+			<gloss xml:lang="en-US">(prep.): in, among, from within, with (instrumental)</gloss>
+		</entry>
+		<entry>
+			<word>išātum</word>
+			<display>išātum (f.), pl. išātātum</display>
+			<gloss xml:lang="en-US">fire</gloss>
+		</entry>
+		<entry>
+			<word>ištu</word>
+			<display>ištu</display>
+			<gloss xml:lang="en-US">(prep.): from</gloss>
+		</entry>
+		<entry>
+			<word>kabtum</word>
+			<display>kabtum, (f.) kabittum</display>
+			<gloss xml:lang="en-US">heavy, honored, important (person)</gloss>
+		</entry>
+		<entry>
+			<word>kadrum</word>
+			<display>kadrum</display>
+			<gloss xml:lang="en-US">wild, fierce</gloss>
+		</entry>
+		<entry>
+			<word>kīma</word>
+			<display>kīma</display>
+			<gloss xml:lang="en-US">(prep.): as, like; (conj.): as, that, when</gloss>
+		</entry>
+		<entry>
+			<word>maḫrum</word>
+			<display>maḫrum</display>
+			<gloss xml:lang="en-US">front</gloss>
+		</entry>
+		<entry>
+			<word>marṣum</word>
+			<display>marṣum, (f.) maruštum (&lt;*maruṣtum)</display>
+			<gloss xml:lang="en-US">sick, difficult, painful</gloss>
+		</entry>
+		<entry>
+			<word>nišū</word>
+			<display>nišū</display>
+			<gloss xml:lang="en-US">(f. pl.) people</gloss>
+		</entry>
+		<entry>
+			<word>pušqum</word>
+			<display>pušqum</display>
+			<gloss xml:lang="en-US">difficulty</gloss>
+		</entry>
+		<entry>
+			<word>rabûm</word>
+			<display>rabûm &lt;*rabium, (f.) rabītum</display>
+			<gloss xml:lang="en-US">great</gloss>
+		</entry>
+		<entry>
+			<word>rīmum</word>
+			<display>rīmum</display>
+			<gloss xml:lang="en-US">wild bull</gloss>
+		</entry>
+		<entry>
+			<word>sapḫum</word>
+			<display>sapḫum, (f.) sapiḫtum</display>
+			<gloss xml:lang="en-US">scattered</gloss>
+		</entry>
+		<entry>
+			<word>šanûm</word>
+			<display>šanûm &lt;*šanium, (f.) šanītum</display>
+			<gloss xml:lang="en-US">second, other</gloss>
+		</entry>
+		<entry>
+			<word>šarrum</word>
+			<display>šarrum</display>
+			<gloss xml:lang="en-US">king</gloss>
+		</entry>
+		<entry>
+			<word>tamḫārum</word>
+			<display>tamḫārum</display>
+			<gloss xml:lang="en-US">battle</gloss>
+		</entry>
+		<entry>
+			<word>ummum</word>
+			<display>ummum</display>
+			<gloss xml:lang="en-US">(f.) mother</gloss>
+		</entry>
+		<entry>
+			<word>wardum</word>
+			<display>wardum</display>
+			<gloss xml:lang="en-US">slave, servant</gloss>
+		</entry>
+		<entry>
+			<word>wašṭum</word>
+			<display>wašṭum</display>
+			<gloss xml:lang="en-US">difficult, hard, fierce</gloss>
+		</entry>
+		<entry>
+			<word>zikarum</word>
+			<display>zikarum or zikrum </display>
+			<gloss xml:lang="en-US">male, man</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 2</title>
+		<entry>
+			<word>abum</word>
+			<display>abum, pl. abbū</display>
+			<gloss xml:lang="en-US">father</gloss>
+		</entry>
+		<entry>
+			<word>aḫum</word>
+			<display>aḫum, pl. aḫḫū</display>
+			<gloss xml:lang="en-US">brother</gloss>
+		</entry>
+		<entry>
+			<word>aššatum</word>
+			<display>aššatum (stem *ʾanṯ-)</display>
+			<gloss xml:lang="en-US">wife</gloss>
+		</entry>
+		<entry>
+			<word>awātum</word>
+			<display>awātum, pl. awâtum</display>
+			<gloss xml:lang="en-US">word</gloss>
+		</entry>
+		<entry>
+			<word>bānium</word>
+			<display>*bānium, bānûm</display>
+			<gloss xml:lang="en-US">builder, maker</gloss>
+		</entry>
+		<entry>
+			<word>bēltum</word>
+			<display>bēltum, pl. bēlētum</display>
+			<gloss xml:lang="en-US">lady, mistress</gloss>
+		</entry>
+		<entry>
+			<word>bēlum</word>
+			<display>bēlum</display>
+			<gloss xml:lang="en-US">lord, master, owner</gloss>
+		</entry>
+		<entry>
+			<word>bīšum</word>
+			<display>bīšum</display>
+			<gloss xml:lang="en-US">possession</gloss>
+		</entry>
+		<entry>
+			<word>dārium</word>
+			<display>*dārium, dārûm</display>
+			<gloss xml:lang="en-US">(ever)lasting</gloss>
+		</entry>
+		<entry>
+			<word>dīnum</word>
+			<display>dīnum</display>
+			<gloss xml:lang="en-US">judgment, legal case</gloss>
+		</entry>
+		<entry>
+			<word>ekallum</word>
+			<display>ekallum (&lt; (Sum.) <sc>é.gal</sc>)</display>
+			<gloss xml:lang="en-US">palace</gloss>
+		</entry>
+		<entry>
+			<word>eli</word>
+			<display>eli</display>
+			<gloss xml:lang="en-US">on, upon; elīšu ‘on it’ </gloss>
+		</entry>
+		<entry>
+			<word>eqlum</word>
+			<display>eqlum (m.), pl. eqlētum (f. *ḥql)</display>
+			<gloss xml:lang="en-US">field</gloss>
+		</entry>
+		<entry>
+			<word>errēšum</word>
+			<display>errēšum (*ḥrṯ)</display>
+			<gloss xml:lang="en-US">(tenant-)farmer</gloss>
+		</entry>
+		<entry>
+			<word>erṣetum</word>
+			<display>erṣetum</display>
+			<gloss xml:lang="en-US">earth</gloss>
+		</entry>
+		<entry>
+			<word>eṣemtum</word>
+			<display>eṣemtum, pl. eṣmētum</display>
+			<gloss xml:lang="en-US">bone</gloss>
+		</entry>
+		<entry>
+			<word>ḫulqum</word>
+			<display>ḫulqum</display>
+			<gloss xml:lang="en-US">lost object</gloss>
+		</entry>
+		<entry>
+			<word>idum</word>
+			<display>idum</display>
+			<gloss xml:lang="en-US">arm, side</gloss>
+		</entry>
+		<entry>
+			<word>īnum</word>
+			<display>īnum</display>
+			<gloss xml:lang="en-US">eye</gloss>
+		</entry>
+		<entry>
+			<word>itti</word>
+			<display>itti</display>
+			<gloss xml:lang="en-US">(prep.): with; ittīšu ‘with him’ </gloss>
+		</entry>
+		<entry>
+			<word>kalûm</word>
+			<display>kalûm</display>
+			<gloss xml:lang="en-US">totality, entirety</gloss>
+		</entry>
+		<entry>
+			<word>kunukkum</word>
+			<display>kunukkum</display>
+			<gloss xml:lang="en-US">cylinder seal</gloss>
+		</entry>
+		<entry>
+			<word>libbum</word>
+			<display>libbum</display>
+			<gloss xml:lang="en-US">heart, center, middle</gloss>
+		</entry>
+		<entry>
+			<word>Marduk</word>
+			<display>Marduk</display>
+			<gloss xml:lang="en-US">the god Marduk, patron of Babylon</gloss>
+		</entry>
+		<entry>
+			<word>mārum</word>
+			<display>mārum</display>
+			<gloss xml:lang="en-US">son</gloss>
+		</entry>
+		<entry>
+			<word>mātum</word>
+			<display>mātum (f.), pl. mātātum</display>
+			<gloss xml:lang="en-US">land</gloss>
+		</entry>
+		<entry>
+			<word>mīšarum</word>
+			<display>mīšarum (*jšr)</display>
+			<gloss xml:lang="en-US">justice</gloss>
+		</entry>
+		<entry>
+			<word>nidintum</word>
+			<display>nidintum, nidittum</display>
+			<gloss xml:lang="en-US">gift</gloss>
+		</entry>
+		<entry>
+			<word>qātum</word>
+			<display>qātum</display>
+			<gloss xml:lang="en-US">(f.) hand</gloss>
+		</entry>
+		<entry>
+			<word>qīštum</word>
+			<display>qīštum</display>
+			<gloss xml:lang="en-US">present, gift</gloss>
+		</entry>
+		<entry>
+			<word>rēʾûtum</word>
+			<display>rēʾûtum</display>
+			<gloss xml:lang="en-US">shepherdship</gloss>
+		</entry>
+		<entry>
+			<word>rubāʾum, rubûm</word>
+			<display>*rubāʾum, rubûm</display>
+			<gloss xml:lang="en-US">prince, noble</gloss>
+		</entry>
+		<entry>
+			<word>ṣeḫrum</word>
+			<display>ṣeḫrum, (f.) ṣeḫertum</display>
+			<gloss xml:lang="en-US">small</gloss>
+		</entry>
+		<entry>
+			<word>ṣibtum</word>
+			<display>ṣibtum, construct ṣibat (*wṣb)</display>
+			<gloss xml:lang="en-US">interest (on capital)</gloss>
+		</entry>
+		<entry>
+			<word>ṣīrum</word>
+			<display>ṣīrum, (f.) ṣīrtum</display>
+			<gloss xml:lang="en-US">exalted</gloss>
+		</entry>
+		<entry>
+			<word>šaknum</word>
+			<display>šaknum (&lt; *šakinum)</display>
+			<gloss xml:lang="en-US">governor</gloss>
+		</entry>
+		<entry>
+			<word>šaluštum</word>
+			<display>šaluštum, (m.) šalšum</display>
+			<gloss xml:lang="en-US">one third (from m. ordinal 'third')</gloss>
+		</entry>
+		<entry>
+			<word>šamāʾū, šamû</word>
+			<display>*šamāʾū, šamû</display>
+			<gloss xml:lang="en-US">(m. pl.) sky, heavens</gloss>
+		</entry>
+		<entry>
+			<word>šarratum</word>
+			<display>šarratum</display>
+			<gloss xml:lang="en-US">queen</gloss>
+		</entry>
+		<entry>
+			<word>šarrūtum</word>
+			<display>šarrūtum</display>
+			<gloss xml:lang="en-US">kingship</gloss>
+		</entry>
+		<entry>
+			<word>šiprum</word>
+			<display>šiprum</display>
+			<gloss xml:lang="en-US">work</gloss>
+		</entry>
+		<entry>
+			<word>šubtum</word>
+			<display>šubtum</display>
+			<gloss xml:lang="en-US">seat, dwelling</gloss>
+		</entry>
+		<entry>
+			<word>šulmum</word>
+			<display>šulmum</display>
+			<gloss xml:lang="en-US">wholeness, health</gloss>
+		</entry>
+		<entry>
+			<word>šumum</word>
+			<display>šumum</display>
+			<gloss xml:lang="en-US">name, offspring</gloss>
+		</entry>
+		<entry>
+			<word>šūqurum</word>
+			<display>šūqurum, (f.) šūqurtum (*wqr)</display>
+			<gloss xml:lang="en-US">very costly, precious</gloss>
+		</entry>
+		<entry>
+			<word>ṭuppum</word>
+			<display>ṭuppum</display>
+			<gloss xml:lang="en-US">(clay-)tablet</gloss>
+		</entry>
+		<entry>
+			<word>u</word>
+			<display>u</display>
+			<gloss xml:lang="en-US">and</gloss>
+		</entry>
+		<entry>
+			<word>zērum</word>
+			<display>zērum</display>
+			<gloss xml:lang="en-US">seed</gloss>
+		</entry>
+		<entry>
+			<word>zittum</word>
+			<display>zittum</display>
+			<gloss xml:lang="en-US">share (of properly)</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 3</title>
+		<entry>
+			<word>alākum</word>
+			<display>alākum (pres. illak, pret. illik)</display>
+			<gloss xml:lang="en-US">to go</gloss>
+		</entry>
+		<entry>
+			<word>dajjānum</word>
+			<display>dajjānum</display>
+			<gloss xml:lang="en-US">judge</gloss>
+		</entry>
+		<entry>
+			<word>iṣum</word>
+			<display>iṣum</display>
+			<gloss xml:lang="en-US">tree, wood</gloss>
+		</entry>
+		<entry>
+			<word>kaspum</word>
+			<display>kaspum</display>
+			<gloss xml:lang="en-US">silver</gloss>
+		</entry>
+		<entry>
+			<word>kašādum</word>
+			<display>kašādum (a/u)</display>
+			<gloss xml:lang="en-US">to reach, arrive at, conquer</gloss>
+		</entry>
+		<entry>
+			<word>maḫāṣum</word>
+			<display>maḫāṣum (a)</display>
+			<gloss xml:lang="en-US">to beat, strike</gloss>
+		</entry>
+		<entry>
+			<word>mû</word>
+			<display>mû (plur. &lt;*māʾū)</display>
+			<gloss xml:lang="en-US">water</gloss>
+		</entry>
+		<entry>
+			<word>nadānum</word>
+			<display>nadānum (pres. inaddin, pret. iddin &lt; *indin)</display>
+			<gloss xml:lang="en-US">to give; (ana kaspim) nadānum: to sell</gloss>
+		</entry>
+		<entry>
+			<word>nakāsum</word>
+			<display>nakāsum (pres. inakkis, pret. ikkis</display>
+			<gloss xml:lang="en-US">to cut down, cut off</gloss>
+		</entry>
+		<entry>
+			<word>namkūrum</word>
+			<display>namkūrum</display>
+			<gloss xml:lang="en-US">possession (*mkr, cf. )</gloss>
+		</entry>
+		<entry>
+			<word>naṣārum</word>
+			<display>naṣārum (pres.) inaṣṣar, (pret.) iṣṣur</display>
+			<gloss xml:lang="en-US">to guard, keep</gloss>
+		</entry>
+		<entry>
+			<word>nīšum</word>
+			<display>nīšum, nīš ilim</display>
+			<gloss xml:lang="en-US">oath (lit. life); (oath) by the life of a god</gloss>
+		</entry>
+		<entry>
+			<word>nuḫšum</word>
+			<display>nuḫšum</display>
+			<gloss xml:lang="en-US">abundance</gloss>
+		</entry>
+		<entry>
+			<word>palāḫum</word>
+			<display>palāḫum (a)</display>
+			<gloss xml:lang="en-US">to fear, reverence</gloss>
+		</entry>
+		<entry>
+			<word>paqādum</word>
+			<display>paqādum (i)</display>
+			<gloss xml:lang="en-US">to care for (acc.), to entrust acc.) to (ana/(dat.)</gloss>
+		</entry>
+		<entry>
+			<word>parāsum</word>
+			<display>parāsum (a/u)</display>
+			<gloss xml:lang="en-US">to cut, divide</gloss>
+		</entry>
+		<entry>
+			<word>pašāṭum</word>
+			<display>pašāṭum (i)</display>
+			<gloss xml:lang="en-US">to erase, efface</gloss>
+		</entry>
+		<entry>
+			<word>pûm</word>
+			<display>pûm</display>
+			<gloss xml:lang="en-US">mouth (construct state: pī)</gloss>
+		</entry>
+		<entry>
+			<word>purussûm</word>
+			<display>*purussāʾum, purussûm</display>
+			<gloss xml:lang="en-US">decision; (purussâm parāsumto): to make a decision</gloss>
+		</entry>
+		<entry>
+			<word>ragāmum</word>
+			<display>ragāmum (u)</display>
+			<gloss xml:lang="en-US">to claim, raise a legal claim</gloss>
+		</entry>
+		<entry>
+			<word>rittum</word>
+			<display>rittum (f., *rḥt)</display>
+			<gloss xml:lang="en-US">wrist, hand</gloss>
+		</entry>
+		<entry>
+			<word>ṣabātum</word>
+			<display>ṣabātum (a)</display>
+			<gloss xml:lang="en-US">to seize</gloss>
+		</entry>
+		<entry>
+			<word>šakānum</word>
+			<display>šakānum (a/u)</display>
+			<gloss xml:lang="en-US">to put, place, set</gloss>
+		</entry>
+		<entry>
+			<word>šaqālum</word>
+			<display>šaqālum (a/u)</display>
+			<gloss xml:lang="en-US">to weigh (out), pay</gloss>
+		</entry>
+		<entry>
+			<word>šarākum</word>
+			<display>šarākum (a/u)</display>
+			<gloss xml:lang="en-US">to present, give</gloss>
+		</entry>
+		<entry>
+			<word>šarāqum</word>
+			<display>šarāqum (i)</display>
+			<gloss xml:lang="en-US">to steal</gloss>
+		</entry>
+		<entry>
+			<word>šebērum</word>
+			<display>šebērum (i, (pres.) išebbir, tešebbir, ešebbir; (pret.) išbir, tešbir, ešbir; (vadj.) šebrum)</display>
+			<gloss xml:lang="en-US">to break</gloss>
+		</entry>
+		<entry>
+			<word>šumma</word>
+			<display>šumma</display>
+			<gloss xml:lang="en-US">(conj.): if</gloss>
+		</entry>
+		<entry>
+			<word>zakārum</word>
+			<display>zakārum (a/u)</display>
+			<gloss xml:lang="en-US">to speak, say, name</gloss>
+		</entry>
+		<entry>
+			<word>maḫar</word>
+			<display>maḫar (constr. of maḫrum)</display>
+			<gloss xml:lang="en-US">in front of, before</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 4</title>
+		<entry>
+			<word>adi</word>
+			<display>adi</display>
+			<gloss xml:lang="en-US">(prep.): until, as far as, together with; (conj.): as long as, until</gloss>
+		</entry>
+		<entry>
+			<word>ana mīnim</word>
+			<display>ana mīnim, ammīni(m)</display>
+			<gloss xml:lang="en-US">why?</gloss>
+		</entry>
+		<entry>
+			<word>anāku</word>
+			<display>anāku</display>
+			<gloss xml:lang="en-US">I</gloss>
+		</entry>
+		<entry>
+			<word>anumma</word>
+			<display>anumma</display>
+			<gloss xml:lang="en-US">now, herewith</gloss>
+		</entry>
+		<entry>
+			<word>balāṭum</word>
+			<display>balāṭum (u)</display>
+			<gloss xml:lang="en-US">to live, be in health</gloss>
+		</entry>
+		<entry>
+			<word>gimillum</word>
+			<display>gimillum</display>
+			<gloss xml:lang="en-US">favor</gloss>
+		</entry>
+		<entry>
+			<word>ḫalāqum</word>
+			<display>ḫalāqum (i)</display>
+			<gloss xml:lang="en-US">to be lost, destroyed, perish</gloss>
+		</entry>
+		<entry>
+			<word>inūma</word>
+			<display>inūma</display>
+			<gloss xml:lang="en-US">when</gloss>
+		</entry>
+		<entry>
+			<word>kīʾam</word>
+			<display>kīʾam</display>
+			<gloss xml:lang="en-US">thus, as follows</gloss>
+		</entry>
+		<entry>
+			<word>kirûm</word>
+			<display>kirûm &lt; *kiriʾum</display>
+			<gloss xml:lang="en-US">orchard, garden</gloss>
+		</entry>
+		<entry>
+			<word>kittum</word>
+			<display>kittum, (f.) kīnum; pl. kīnātum</display>
+			<gloss xml:lang="en-US">truth, justice; justice</gloss>
+		</entry>
+		<entry>
+			<word>lāma</word>
+			<display>lāma</display>
+			<gloss xml:lang="en-US">before</gloss>
+		</entry>
+		<entry>
+			<word>lū  lū</word>
+			<display>lū  lū</display>
+			<gloss xml:lang="en-US">either  or</gloss>
+		</entry>
+		<entry>
+			<word>-ma</word>
+			<display>-ma</display>
+			<gloss xml:lang="en-US">emphatic particle; connective particle</gloss>
+		</entry>
+		<entry>
+			<word>mārtum</word>
+			<display>mārtum</display>
+			<gloss xml:lang="en-US">daughter</gloss>
+		</entry>
+		<entry>
+			<word>narûm</word>
+			<display>narûm</display>
+			<gloss xml:lang="en-US">stele</gloss>
+		</entry>
+		<entry>
+			<word>rīmum</word>
+			<display>rīmum</display>
+			<gloss xml:lang="en-US">beloved</gloss>
+		</entry>
+		<entry>
+			<word>Sîn</word>
+			<display>Sîn</display>
+			<gloss xml:lang="en-US">the moon-god</gloss>
+		</entry>
+		<entry>
+			<word>sinništum</word>
+			<display>sinništum</display>
+			<gloss xml:lang="en-US">woman</gloss>
+		</entry>
+		<entry>
+			<word>ša</word>
+			<display>ša</display>
+			<gloss xml:lang="en-US">who, whom, which</gloss>
+		</entry>
+		<entry>
+			<word>šapārum</word>
+			<display>šapārum (a/u)</display>
+			<gloss xml:lang="en-US">send; send (a letter), write ('to' = (dat.)</gloss>
+		</entry>
+		<entry>
+			<word>šarrāqum</word>
+			<display>šarrāqum</display>
+			<gloss xml:lang="en-US">thief</gloss>
+		</entry>
+		<entry>
+			<word>šaṭārum</word>
+			<display>šaṭārum (a/u)</display>
+			<gloss xml:lang="en-US">to write</gloss>
+		</entry>
+		<entry>
+			<word>šiqlum</word>
+			<display>šiqlum</display>
+			<gloss xml:lang="en-US">shekel = ca. 8.3 grams</gloss>
+		</entry>
+		<entry>
+			<word>tamkārum</word>
+			<display>tamkārum</display>
+			<gloss xml:lang="en-US">merchant</gloss>
+		</entry>
+		<entry>
+			<word>ṭarādum</word>
+			<display>ṭarādum (a/u)</display>
+			<gloss xml:lang="en-US">to send (a person)</gloss>
+		</entry>
+		<entry>
+			<word>ṭēmum</word>
+			<display>ṭēmum (*ṭʿm)</display>
+			<gloss xml:lang="en-US">news, report, decision</gloss>
+		</entry>
+		<entry>
+			<word>ū</word>
+			<display>ū</display>
+			<gloss xml:lang="en-US">or</gloss>
+		</entry>
+		<entry>
+			<word>ul</word>
+			<display>ul</display>
+			<gloss xml:lang="en-US">not</gloss>
+		</entry>
+		<entry>
+			<word>walādum</word>
+			<display>walādum (pres. ullad, pret. ūlid)</display>
+			<gloss xml:lang="en-US">to bear, give birth to (acc.)</gloss>
+		</entry>
+		<entry>
+			<word>warki</word>
+			<display>warki</display>
+			<gloss xml:lang="en-US">after</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 5</title>
+		<entry>
+			<word>ajjûm</word>
+			<display>ajjûm</display>
+			<gloss xml:lang="en-US">which, what?</gloss>
+		</entry>
+		<entry>
+			<word>annûm</word>
+			<display>annûm</display>
+			<gloss xml:lang="en-US">this</gloss>
+		</entry>
+		<entry>
+			<word>arḫiš</word>
+			<display>arḫiš</display>
+			<gloss xml:lang="en-US">quickly</gloss>
+		</entry>
+		<entry>
+			<word>baqārum</word>
+			<display>baqārum (a/u)</display>
+			<gloss xml:lang="en-US">to claim (legally)</gloss>
+		</entry>
+		<entry>
+			<word>dabābum</word>
+			<display>dabābum (u)</display>
+			<gloss xml:lang="en-US">to speak</gloss>
+		</entry>
+		<entry>
+			<word>ḫaṭṭum</word>
+			<display>ḫaṭṭum (usually fem.), pl. ḫaṭṭātum</display>
+			<gloss xml:lang="en-US">staff, scepter</gloss>
+		</entry>
+		<entry>
+			<word>karābum</word>
+			<display>karābum (a/u)</display>
+			<gloss xml:lang="en-US">to bless, greet, pray (for = dat.)</gloss>
+		</entry>
+		<entry>
+			<word>lā</word>
+			<display>lā</display>
+			<gloss xml:lang="en-US">not </gloss>
+		</entry>
+		<entry>
+			<word>labāšum</word>
+			<display>labāšum (a)</display>
+			<gloss xml:lang="en-US">to put on, wear; Gt to clothe oneself, put on (+ acc.); D to clothe someone (acc.) with (acc.); Š to clothe (metaphorical use)</gloss>
+		</entry>
+		<entry>
+			<word>labirwn</word>
+			<display>labirwn</display>
+			<gloss xml:lang="en-US">old</gloss>
+		</entry>
+		<entry>
+			<word>magārum</word>
+			<display>magārum (a/u)</display>
+			<gloss xml:lang="en-US">to agree to (acc.), welcome; Gt agree with (itti) someone about (ana)</gloss>
+		</entry>
+		<entry>
+			<word>mannum</word>
+			<display>mannum</display>
+			<gloss xml:lang="en-US">who?</gloss>
+		</entry>
+		<entry>
+			<word>mīnum</word>
+			<display>mīnum, minûm</display>
+			<gloss xml:lang="en-US">what?</gloss>
+		</entry>
+		<entry>
+			<word>muštālum</word>
+			<display>muštālum (*šʾl)</display>
+			<gloss xml:lang="en-US">prudent</gloss>
+		</entry>
+		<entry>
+			<word>qaqqadum</word>
+			<display>qaqqadum; qaqqadum kabtum</display>
+			<gloss xml:lang="en-US">head; (reflexive pronoun) ‘myself’; ‘honored self, honor’</gloss>
+		</entry>
+		<entry>
+			<word>rēʾûm</word>
+			<display>rēʾûm (G ptc. of *rʿi)</display>
+			<gloss xml:lang="en-US">shepherd</gloss>
+		</entry>
+		<entry>
+			<word>ṣibtum</word>
+			<display>ṣibtum, construct ṣibit (*ṣbt)</display>
+			<gloss xml:lang="en-US">agricultural holding, property</gloss>
+		</entry>
+		<entry>
+			<word>šalāmum</word>
+			<display>šalāmum (i)</display>
+			<gloss xml:lang="en-US">be whole, healthy</gloss>
+		</entry>
+		<entry>
+			<word>šū</word>
+			<display>šū, šuāti, šiāti: that; šunūti</display>
+			<gloss xml:lang="en-US">those </gloss>
+		</entry>
+		<entry>
+			<word>ullûm</word>
+			<display>ullûm</display>
+			<gloss xml:lang="en-US">that</gloss>
+		</entry>
+		<entry>
+			<word>watar</word>
+			<display>watar</display>
+			<gloss xml:lang="en-US">(status absolutus used as adv.); further, excessively</gloss>
+		</entry>
+		<entry>
+			<word>Zarpanītum</word>
+			<display>Zarpanītum (Ṣarpanītum)</display>
+			<gloss xml:lang="en-US">goddess, spouse of Marduk</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 6</title>
+		<entry>
+			<word>abbuttwn</word>
+			<display>abbuttwn</display>
+			<gloss xml:lang="en-US">slave-lock (a hair-style characteristic of slaves)</gloss>
+		</entry>
+		<entry>
+			<word>Aja</word>
+			<display>Aja</display>
+			<gloss xml:lang="en-US">a goddess, spouse of Shamash</gloss>
+		</entry>
+		<entry>
+			<word>ālum</word>
+			<display>ālum</display>
+			<gloss xml:lang="en-US">city</gloss>
+		</entry>
+		<entry>
+			<word>bulluṭum</word>
+			<display>bulluṭum (D)</display>
+			<gloss xml:lang="en-US">to heal, give life to</gloss>
+		</entry>
+		<entry>
+			<word>gigunûm</word>
+			<display>gigunûm &lt; *gigunāʾum</display>
+			<gloss xml:lang="en-US">‘terrace-temple’</gloss>
+		</entry>
+		<entry>
+			<word>gullubum</word>
+			<display>gullubum (D)</display>
+			<gloss xml:lang="en-US">to shave, shave off</gloss>
+		</entry>
+		<entry>
+			<word>ḫulluqum</word>
+			<display>ḫulluqum (D)</display>
+			<gloss xml:lang="en-US">to destroy</gloss>
+		</entry>
+		<entry>
+			<word>is̆dum</word>
+			<display>is̆dum</display>
+			<gloss xml:lang="en-US">foundation (often dual)</gloss>
+		</entry>
+		<entry>
+			<word>kamārum</word>
+			<display>kamārum (a/u) G and D</display>
+			<gloss xml:lang="en-US">to pile up, heap up</gloss>
+		</entry>
+		<entry>
+			<word>Kiš</word>
+			<display>Kiš</display>
+			<gloss xml:lang="en-US">a city</gloss>
+		</entry>
+		<entry>
+			<word>lamādum</word>
+			<display>lamādum (a)</display>
+			<gloss xml:lang="en-US">to learn; D to teach, inform</gloss>
+		</entry>
+		<entry>
+			<word>mēreštum</word>
+			<display>mēreštum (*ḥrṯ)</display>
+			<gloss xml:lang="en-US">cultivation; field</gloss>
+		</entry>
+		<entry>
+			<word>Meslam</word>
+			<display>Meslam</display>
+			<gloss xml:lang="en-US">name of a temple (Sum.)</gloss>
+		</entry>
+		<entry>
+			<word>mimma šumšu</word>
+			<display>mimma šumšu</display>
+			<gloss xml:lang="en-US">anything whatsoever, everything (lit. ‘whatever its name’)</gloss>
+		</entry>
+		<entry>
+			<word>rapāšum</word>
+			<display>rapāšum (i)</display>
+			<gloss xml:lang="en-US">be broad; D make broad, abundant</gloss>
+		</entry>
+		<entry>
+			<word>sanāqum</word>
+			<display>sanāqum (i)</display>
+			<gloss xml:lang="en-US">to come close; G and D to check, control</gloss>
+		</entry>
+		<entry>
+			<word>sarrum</word>
+			<display>sarrum</display>
+			<gloss xml:lang="en-US">false, lying</gloss>
+		</entry>
+		<entry>
+			<word>ṣubātum</word>
+			<display>ṣubātum</display>
+			<gloss xml:lang="en-US">garment, mantle</gloss>
+		</entry>
+		<entry>
+			<word>šadālum</word>
+			<display>šadālum (i)</display>
+			<gloss xml:lang="en-US">be wide; D widen</gloss>
+		</entry>
+		<entry>
+			<word>šeʾum</word>
+			<display>*šeʾum</display>
+			<gloss xml:lang="en-US">barley</gloss>
+		</entry>
+		<entry>
+			<word>šuklulum</word>
+			<display>šuklulum (Š)</display>
+			<gloss xml:lang="en-US">to perfect, complete</gloss>
+		</entry>
+		<entry>
+			<word>šuršudum</word>
+			<display>šuršudum (Š)</display>
+			<gloss xml:lang="en-US">to found firmly</gloss>
+		</entry>
+		<entry>
+			<word>têrtum</word>
+			<display>têrtum, pl. têrētum (*wʾr)</display>
+			<gloss xml:lang="en-US">command; (extispicy) omen</gloss>
+		</entry>
+		<entry>
+			<word>umma</word>
+			<display>umma</display>
+			<gloss xml:lang="en-US">thus (says)</gloss>
+		</entry>
+		<entry>
+			<word>warqum</word>
+			<display>warqum</display>
+			<gloss xml:lang="en-US">green, yellow-green</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 7</title>
+		<entry>
+			<word>ajjûmma</word>
+			<display>ajjûmma</display>
+			<gloss xml:lang="en-US">some</gloss>
+		</entry>
+		<entry>
+			<word>Dagan</word>
+			<display>Dagan</display>
+			<gloss xml:lang="en-US">an Amorite and West Semitic deity</gloss>
+		</entry>
+		<entry>
+			<word>dullum</word>
+			<display>dullum</display>
+			<gloss xml:lang="en-US">work, ritual</gloss>
+		</entry>
+		<entry>
+			<word>Ellil</word>
+			<display>Ellil</display>
+			<gloss xml:lang="en-US">a god</gloss>
+		</entry>
+		<entry>
+			<word>ibašši</word>
+			<display>ibašši</display>
+			<gloss xml:lang="en-US">there is</gloss>
+		</entry>
+		<entry>
+			<word>Imar</word>
+			<display>Imar (or, more commonly, Emar)</display>
+			<gloss xml:lang="en-US">a city in northern Mesopotamia</gloss>
+		</entry>
+		<entry>
+			<word>Jašūb</word>
+			<display>Jašūb (from *ṯwb)</display>
+			<gloss xml:lang="en-US">(Amorite name-element, ‘return’)</gloss>
+		</entry>
+		<entry>
+			<word>kabātum</word>
+			<display>kabātum (i)</display>
+			<gloss xml:lang="en-US">to be heavy; D to make heavy, to honor</gloss>
+		</entry>
+		<entry>
+			<word>kajjāniš</word>
+			<display>kajjāniš</display>
+			<gloss xml:lang="en-US">constantly</gloss>
+		</entry>
+		<entry>
+			<word>maḫārum</word>
+			<display>maḫārum (a/u)</display>
+			<gloss xml:lang="en-US">to receive</gloss>
+		</entry>
+		<entry>
+			<word>mala</word>
+			<display>mala</display>
+			<gloss xml:lang="en-US">as much as</gloss>
+		</entry>
+		<entry>
+			<word>mamman</word>
+			<display>mamman</display>
+			<gloss xml:lang="en-US">someone, anyone</gloss>
+		</entry>
+		<entry>
+			<word>marāṣum</word>
+			<display>marāṣum (a)</display>
+			<gloss xml:lang="en-US">to be sick, difficult, grieved</gloss>
+		</entry>
+		<entry>
+			<word>mimma</word>
+			<display>mimma</display>
+			<gloss xml:lang="en-US">something, anything</gloss>
+		</entry>
+		<entry>
+			<word>mimmû-</word>
+			<display>mimmû-, mimmê-, mimmâ-</display>
+			<gloss xml:lang="en-US">+ possessive suffix: see </gloss>
+		</entry>
+		<entry>
+			<word>mūšum</word>
+			<display>mūšum</display>
+			<gloss xml:lang="en-US">night</gloss>
+		</entry>
+		<entry>
+			<word>nakādum</word>
+			<display>nakādum (u)</display>
+			<gloss xml:lang="en-US">to beat (of heart), be disturbed</gloss>
+		</entry>
+		<entry>
+			<word>naplusum</word>
+			<display>naplusum (N; a/u)</display>
+			<gloss xml:lang="en-US">to look at (favorably)</gloss>
+		</entry>
+		<entry>
+			<word>saḫārum</word>
+			<display>saḫārum (u)</display>
+			<gloss xml:lang="en-US">to turn, turn to, seek, concern oneself about (ana)</gloss>
+		</entry>
+		<entry>
+			<word>šattukkum</word>
+			<display>šattukkum</display>
+			<gloss xml:lang="en-US">(&lt; Sum.): ration (Mari); regular offering</gloss>
+		</entry>
+		<entry>
+			<word>šarûm</word>
+			<display>šarûm &lt;*šarium</display>
+			<gloss xml:lang="en-US">rich, wealthy</gloss>
+		</entry>
+		<entry>
+			<word>urrum</word>
+			<display>urrum</display>
+			<gloss xml:lang="en-US">light, day</gloss>
+		</entry>
+		<entry>
+			<word>zamārum</word>
+			<display>zamārum (u, also a/u)</display>
+			<gloss xml:lang="en-US">to sing</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 8</title>
+		<entry>
+			<word>banûm</word>
+			<display>banûm (-i)</display>
+			<gloss xml:lang="en-US">to make, create, build</gloss>
+		</entry>
+		<entry>
+			<word>bašûm</word>
+			<display>bašûm (-i)</display>
+			<gloss xml:lang="en-US">to be; Š to cause to exist; N to come to be, appear, grow (ingressive)</gloss>
+		</entry>
+		<entry>
+			<word>dajjānūtum</word>
+			<display>dajjānūtum</display>
+			<gloss xml:lang="en-US">judgeship</gloss>
+		</entry>
+		<entry>
+			<word>epištum</word>
+			<display>epištum</display>
+			<gloss xml:lang="en-US">deed</gloss>
+		</entry>
+		<entry>
+			<word>gamālum</word>
+			<display>gamālum (i)</display>
+			<gloss xml:lang="en-US">to spare, show mercy</gloss>
+		</entry>
+		<entry>
+			<word>ḫadûm</word>
+			<display>ḫadûm (-u), stat. ḫadi</display>
+			<gloss xml:lang="en-US">to rejoice; D make happy</gloss>
+		</entry>
+		<entry>
+			<word>Íd</word>
+			<display>Íd</display>
+			<gloss xml:lang="en-US">the god ‘River, Canal’</gloss>
+		</entry>
+		<entry>
+			<word>Ištar</word>
+			<display>Ištar</display>
+			<gloss xml:lang="en-US">a goddess (also a common noun ‘goddess’)</gloss>
+		</entry>
+		<entry>
+			<word>ištu</word>
+			<display>ištu</display>
+			<gloss xml:lang="en-US">(conj.): since, after</gloss>
+		</entry>
+		<entry>
+			<word>kalûm</word>
+			<display>kalûm (-a)</display>
+			<gloss xml:lang="en-US">to retain, hold back, withhold</gloss>
+		</entry>
+		<entry>
+			<word>kussûm</word>
+			<display>kussûm &lt; *kussium</display>
+			<gloss xml:lang="en-US">throne, seat</gloss>
+		</entry>
+		<entry>
+			<word>leqûm</word>
+			<display>leqûm (-e)</display>
+			<gloss xml:lang="en-US">to take</gloss>
+		</entry>
+		<entry>
+			<word>manûm</word>
+			<display>manûm (-u)</display>
+			<gloss xml:lang="en-US">to count, reckon, consider, recite</gloss>
+		</entry>
+		<entry>
+			<word>Mera</word>
+			<display>Mera</display>
+			<gloss xml:lang="en-US">an archaic name for the city Mari</gloss>
+		</entry>
+		<entry>
+			<word>petûm</word>
+			<display>petûm (-e)</display>
+			<gloss xml:lang="en-US">to open</gloss>
+		</entry>
+		<entry>
+			<word>rabûm</word>
+			<display>rabûm (-i)</display>
+			<gloss xml:lang="en-US">to become great, grow; D to raise (children); Š to make great</gloss>
+		</entry>
+		<entry>
+			<word>rašûm</word>
+			<display>rašûm (-i)</display>
+			<gloss xml:lang="en-US">to acquire</gloss>
+		</entry>
+		<entry>
+			<word>redûm</word>
+			<display>redûm (-i/e)</display>
+			<gloss xml:lang="en-US">to lead, bring</gloss>
+		</entry>
+		<entry>
+			<word>salāmum</word>
+			<display>salāmum (i)</display>
+			<gloss xml:lang="en-US">to be reconciled with, be friendly, be in good relations</gloss>
+		</entry>
+		<entry>
+			<word>šalûm</word>
+			<display>šalûm (-i)</display>
+			<gloss xml:lang="en-US">to plunge (into the river[-god] = Íd [(acc.)])</gloss>
+		</entry>
+		<entry>
+			<word>šemûm</word>
+			<display>šemûm (-e)</display>
+			<gloss xml:lang="en-US">to hear</gloss>
+		</entry>
+		<entry>
+			<word>šurqum</word>
+			<display>šurqum</display>
+			<gloss xml:lang="en-US">stolen object</gloss>
+		</entry>
+		<entry>
+			<word>tazzimtum</word>
+			<display>tazzimtum (*nzm)</display>
+			<gloss xml:lang="en-US">complaint (tazzimtaka: a complaint by/about you)</gloss>
+		</entry>
+		<entry>
+			<word>tebûm</word>
+			<display>tebûm (-i)</display>
+			<gloss xml:lang="en-US">to rise up; Š to raise up</gloss>
+		</entry>
+		<entry>
+			<word>ṭābum</word>
+			<display>ṭābum; eli PN ṭāb</display>
+			<gloss xml:lang="en-US">good, sweet, pleasant; it is pleasing to PN</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 9</title>
+		<entry>
+			<word>abūbum</word>
+			<display>abūbum</display>
+			<gloss xml:lang="en-US">flood</gloss>
+		</entry>
+		<entry>
+			<word>Barsipa</word>
+			<display>Barsipa</display>
+			<gloss xml:lang="en-US">the city Borsippa</gloss>
+		</entry>
+		<entry>
+			<word>dâkum</word>
+			<display>dâkum (med. ū)</display>
+			<gloss xml:lang="en-US">to kill; N passive; Š causative</gloss>
+		</entry>
+		<entry>
+			<word>Ellilūtum</word>
+			<display>Ellilūtum</display>
+			<gloss xml:lang="en-US">‘Ellil-ship’</gloss>
+		</entry>
+		<entry>
+			<word>Eridum</word>
+			<display>Eridum</display>
+			<gloss xml:lang="en-US">the city Eridu</gloss>
+		</entry>
+		<entry>
+			<word>kânum</word>
+			<display>kânum (med. ū)</display>
+			<gloss xml:lang="en-US">to be firm; D to make firm, fast, to prove</gloss>
+		</entry>
+		<entry>
+			<word>kiššatum</word>
+			<display>kiššatum</display>
+			<gloss xml:lang="en-US">entirety, universe</gloss>
+		</entry>
+		<entry>
+			<word>mâtum</word>
+			<display>mâtum (med. ū)</display>
+			<gloss xml:lang="en-US">to die; Š to cause the death of, murder</gloss>
+		</entry>
+		<entry>
+			<word>mutum</word>
+			<display>mutum</display>
+			<gloss xml:lang="en-US">husband</gloss>
+		</entry>
+		<entry>
+			<word>riābum</word>
+			<display>riābum, râbum (med. ī)</display>
+			<gloss xml:lang="en-US">to replace, substitute, make restitution</gloss>
+		</entry>
+		<entry>
+			<word>riāšum</word>
+			<display>riāšum, râšum (med. ī)</display>
+			<gloss xml:lang="en-US">to rejoice; D to make rejoice</gloss>
+		</entry>
+		<entry>
+			<word>Sipparum</word>
+			<display>Sipparum</display>
+			<gloss xml:lang="en-US">the city Sippar</gloss>
+		</entry>
+		<entry>
+			<word>šâmum</word>
+			<display>šâmum A (med. ā)</display>
+			<gloss xml:lang="en-US">to buy</gloss>
+		</entry>
+		<entry>
+			<word>šiāmum</word>
+			<display>šiāmum, šâmum B (med. ī)</display>
+			<gloss xml:lang="en-US">to fix, determine</gloss>
+		</entry>
+		<entry>
+			<word>šīmtum</word>
+			<display>šīmtum (*šīm)</display>
+			<gloss xml:lang="en-US">fate</gloss>
+		</entry>
+		<entry>
+			<word>šīrum</word>
+			<display>šīrum: flesh; šīram ṭubbum</display>
+			<gloss xml:lang="en-US">to give joy to (‘make pleasant the flesh of’)</gloss>
+		</entry>
+		<entry>
+			<word>šumruṣum</word>
+			<display>šumruṣum</display>
+			<gloss xml:lang="en-US">sick, very ill</gloss>
+		</entry>
+		<entry>
+			<word>târum</word>
+			<display>târum (med. ū)</display>
+			<gloss xml:lang="en-US">to return; D to make return, ana ašrišu turrum: to restore (to its place), ana X turrum: to turn s.th. into s.th. else</gloss>
+		</entry>
+		<entry>
+			<word>tillum</word>
+			<display>tillum; tilli abūbim</display>
+			<gloss xml:lang="en-US">tell, remains of a city; old tell, tell from the flood</gloss>
+		</entry>
+		<entry>
+			<word>ṭiābum, ṭâbum</word>
+			<display>ṭiābum, ṭâbum (med. ī)</display>
+			<gloss xml:lang="en-US">to be good, pleasant, sweet; D to make pleasant</gloss>
+		</entry>
+		<entry>
+			<word>waʾārum, wârum</word>
+			<display>waʾārum, wârum (med. ʾ, i class)</display>
+			<gloss xml:lang="en-US">to go off, D to send, command, instruct</gloss>
+		</entry>
+		<entry>
+			<word>zâzum</word>
+			<display>zâzum (med. ū)</display>
+			<gloss xml:lang="en-US">to divide, receive a share of (an inheritance)</gloss>
+		</entry>
+		<entry>
+			<word>zêrum</word>
+			<display>zêrum (med. ē)</display>
+			<gloss xml:lang="en-US">to hate</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 10</title>
+		<entry>
+			<word>aḫāzum</word>
+			<display>aḫāzum (a/u)</display>
+			<gloss xml:lang="en-US">to take, seize, take in marriage</gloss>
+		</entry>
+		<entry>
+			<word>akālum</word>
+			<display>akālum (a/u)</display>
+			<gloss xml:lang="en-US">to eat</gloss>
+		</entry>
+		<entry>
+			<word>alākum</word>
+			<display>alākum (pres. illak, pret. illik)</display>
+			<gloss xml:lang="en-US">to go; ana šīmtim alākum: to die; Gt to go away; Gtn to walk about</gloss>
+		</entry>
+		<entry>
+			<word>amārum</word>
+			<display>amārum (a/u)</display>
+			<gloss xml:lang="en-US">to see</gloss>
+		</entry>
+		<entry>
+			<word>apālum</word>
+			<display>apālum (a/u)</display>
+			<gloss xml:lang="en-US">to answer, satisfy, pay</gloss>
+		</entry>
+		<entry>
+			<word>É-abzu</word>
+			<display>É-abzu</display>
+			<gloss xml:lang="en-US">a temple</gloss>
+		</entry>
+		<entry>
+			<word>É-babbar</word>
+			<display>É-babbar</display>
+			<gloss xml:lang="en-US">a temple</gloss>
+		</entry>
+		<entry>
+			<word>ebēbum</word>
+			<display>ebēbum (i)</display>
+			<gloss xml:lang="en-US">to be pure, holy; D to purify; Dt passive</gloss>
+		</entry>
+		<entry>
+			<word>edēšum</word>
+			<display>edēšum (i)</display>
+			<gloss xml:lang="en-US">to be new; D to renew</gloss>
+		</entry>
+		<entry>
+			<word>epēšum</word>
+			<display>epēšum (*a/u or u: ippeš/ippuš, īpuš; (OB.) N-stem inneppeš, innepiš, ittenpeš alongside (OB.), (SB.), (NB.) inneppuš, innepuš, ittenpuš)</display>
+			<gloss xml:lang="en-US">to do, make</gloss>
+		</entry>
+		<entry>
+			<word>erēbum</word>
+			<display>erēbum (u)</display>
+			<gloss xml:lang="en-US">to enter; Š causative</gloss>
+		</entry>
+		<entry>
+			<word>erēšum</word>
+			<display>erēšum A (i)</display>
+			<gloss xml:lang="en-US">to ask for</gloss>
+		</entry>
+		<entry>
+			<word>erēšum</word>
+			<display>erēšum B (i)</display>
+			<gloss xml:lang="en-US">to cultivate (a field)</gloss>
+		</entry>
+		<entry>
+			<word>ešērum</word>
+			<display>ešērum (i)</display>
+			<gloss xml:lang="en-US">to be straight, in order, be a success; Š to put in order; Št to keep in order, lead aright</gloss>
+		</entry>
+		<entry>
+			<word>ezēbum</word>
+			<display>ezēbum (i)</display>
+			<gloss xml:lang="en-US">to leave, leave behind; kunukkam šūzubum: to cause to leave a sealed document</gloss>
+		</entry>
+		<entry>
+			<word>kišpū</word>
+			<display>kišpū</display>
+			<gloss xml:lang="en-US">pl. sorcery</gloss>
+		</entry>
+		<entry>
+			<word>nadûm</word>
+			<display>nadûm (-i)</display>
+			<gloss xml:lang="en-US">to throw, cast; ‘to throw murder on’ = accuse of murder</gloss>
+		</entry>
+		<entry>
+			<word>nakārum</word>
+			<display>nakārum (i)</display>
+			<gloss xml:lang="en-US">to be foreign, be in enmity, be estranged from (itti)</gloss>
+		</entry>
+		<entry>
+			<word>naṭālum</word>
+			<display>naṭālum (a/u)</display>
+			<gloss xml:lang="en-US">to look at, see</gloss>
+		</entry>
+		<entry>
+			<word>nērtum</word>
+			<display>nērtum</display>
+			<gloss xml:lang="en-US">murder</gloss>
+		</entry>
+		<entry>
+			<word>šuluḫḫum</word>
+			<display>šuluḫḫum (&lt; <sc>šu.luḫ</sc>)</display>
+			<gloss xml:lang="en-US">ritual cleansing, hand washing, ritual</gloss>
+		</entry>
+		<entry>
+			<word>šuttum</word>
+			<display>šuttum, pl. šunātum</display>
+			<gloss xml:lang="en-US">dream</gloss>
+		</entry>
+		<entry>
+			<word>warka</word>
+			<display>warka</display>
+			<gloss xml:lang="en-US">(conj.): after</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 11</title>
+		<entry>
+			<word>arbaʾum</word>
+			<display>arbaʾum</display>
+			<gloss xml:lang="en-US">four </gloss>
+		</entry>
+		<entry>
+			<word>enšum</word>
+			<display>enšum</display>
+			<gloss xml:lang="en-US">weak</gloss>
+		</entry>
+		<entry>
+			<word>erbûm</word>
+			<display>erbûm, (f.) erbettum</display>
+			<gloss xml:lang="en-US">four </gloss>
+		</entry>
+		<entry>
+			<word>ešrum</word>
+			<display>ešrum</display>
+			<gloss xml:lang="en-US">ten</gloss>
+		</entry>
+		<entry>
+			<word>ḫabālum</word>
+			<display>ḫabālum (a/u, also i)</display>
+			<gloss xml:lang="en-US">to oppress, wrong</gloss>
+		</entry>
+		<entry>
+			<word>ištēn</word>
+			<display>ištēn, (f.) ištiat, ištēt</display>
+			<gloss xml:lang="en-US">one, first</gloss>
+		</entry>
+		<entry>
+			<word>kibrātum</word>
+			<display>kibrātum</display>
+			<gloss xml:lang="en">pl. world regions</gloss>
+		</entry>
+		<entry>
+			<word>manāʾum, manûm</word>
+			<display>*manāʾum, manûm</display>
+			<gloss xml:lang="en-US">(wr. <sc>ma.na</sc>): mina (cf. )</gloss>
+		</entry>
+		<entry>
+			<word>nawārum</word>
+			<display>nawārum (i)</display>
+			<gloss xml:lang="en-US">to be bright; D to enlighten, shed light on</gloss>
+		</entry>
+		<entry>
+			<word>qabûm</word>
+			<display>qabûm (-i)</display>
+			<gloss xml:lang="en-US">to say, speak</gloss>
+		</entry>
+		<entry>
+			<word>rebûm</word>
+			<display>rebûm</display>
+			<gloss xml:lang="en-US">fourth</gloss>
+		</entry>
+		<entry>
+			<word>šattum</word>
+			<display>šattum, pl. šanātum</display>
+			<gloss xml:lang="en-US">year</gloss>
+		</entry>
+		<entry>
+			<word>šittān</word>
+			<display>šittān</display>
+			<gloss xml:lang="en-US">2/3</gloss>
+		</entry>
+		<entry>
+			<word>wabālum</word>
+			<display>wabālum (ubbal, ubil)</display>
+			<gloss xml:lang="en-US">to carry</gloss>
+		</entry>
+		<entry>
+			<word>walādum</word>
+			<display>walādum (ullad, ulid)</display>
+			<gloss xml:lang="en-US">to bear, give birth to; N passive</gloss>
+		</entry>
+		<entry>
+			<word>wašābum</word>
+			<display>wašābum (uššab, ušib)</display>
+			<gloss xml:lang="en-US">to sit, dwell</gloss>
+		</entry>
+		<entry>
+			<word>watārum</word>
+			<display>watārum (ittir, ītir)</display>
+			<gloss xml:lang="en-US">to be excessive; Š to make excessive, multiply</gloss>
+		</entry>
+		<entry>
+			<word>wuššurum</word>
+			<display>wuššurum (D)</display>
+			<gloss xml:lang="en-US">to release, let go</gloss>
+		</entry>
+		<entry>
+			<word>zāʾirum</word>
+			<display>zāʾirum</display>
+			<gloss xml:lang="en-US">hostile (used as noun: enemy)</gloss>
+		</entry>
+	</section>
+	<section>
+		<title>Lesson 12</title>
+		<entry>
+			<word>alpum</word>
+			<display>alpum</display>
+			<gloss xml:lang="en-US">ox</gloss>
+		</entry>
+		<entry>
+			<word>bīrum</word>
+			<display>bīrum</display>
+			<gloss xml:lang="en-US">divination</gloss>
+		</entry>
+		<entry>
+			<word>elûm</word>
+			<display>elûm (-i)</display>
+			<gloss xml:lang="en-US">to go up; Gt + ina: to forfeit</gloss>
+		</entry>
+		<entry>
+			<word>enûm</word>
+			<display>enûm (-i)</display>
+			<gloss xml:lang="en-US">to change (tr.)</gloss>
+		</entry>
+		<entry>
+			<word>gimrum</word>
+			<display>gimrum</display>
+			<gloss xml:lang="en-US">totality</gloss>
+		</entry>
+		<entry>
+			<word>idûm</word>
+			<display>idûm (-e)</display>
+			<gloss xml:lang="en-US">to know</gloss>
+		</entry>
+		<entry>
+			<word>išûm</word>
+			<display>išûm (-u)</display>
+			<gloss xml:lang="en-US">to have</gloss>
+		</entry>
+		<entry>
+			<word>izuzzum</word>
+			<display>izuzzum</display>
+			<gloss xml:lang="en-US">to stand; + (dat.): to stand before, come before; + ana/ina pān(ī): to stand in the service of, to serve</gloss>
+		</entry>
+		<entry>
+			<word>leʾûm</word>
+			<display>leʾûm (-e/i)</display>
+			<gloss xml:lang="en-US">to be able</gloss>
+		</entry>
+		<entry>
+			<word>nabalkutum</word>
+			<display>nabalkutum</display>
+			<gloss xml:lang="en-US">to cross over, transgress, revolt</gloss>
+		</entry>
+		<entry>
+			<word>napalsuḫum</word>
+			<display>napalsuḫum</display>
+			<gloss xml:lang="en-US">to prostrate oneself</gloss>
+		</entry>
+		<entry>
+			<word>našûrn</word>
+			<display>našûrn (-i)</display>
+			<gloss xml:lang="en-US">to raise, bear, carry; ‘raise the eye to’ = covet</gloss>
+		</entry>
+		<entry>
+			<word>nīšum</word>
+			<display>nīšum</display>
+			<gloss xml:lang="en-US">: lifting; nīš qātim: (‘raising of the hand’), prayer</gloss>
+		</entry>
+		<entry>
+			<word>numātum</word>
+			<display>numātum</display>
+			<gloss xml:lang="en-US">household goods</gloss>
+		</entry>
+		<entry>
+			<word>nūrum</word>
+			<display>nūrum</display>
+			<gloss xml:lang="en-US">light</gloss>
+		</entry>
+		<entry>
+			<word>quʾʾûm</word>
+			<display>quʾʾûm</display>
+			<gloss xml:lang="en-US">to await</gloss>
+		</entry>
+		<entry>
+			<word>sarrātum</word>
+			<display>sarrātum</display>
+			<gloss xml:lang="en-US">(f. pl.) lies, deception</gloss>
+		</entry>
+		<entry>
+			<word>ṣābum</word>
+			<display>ṣābum</display>
+			<gloss xml:lang="en-US">(collective): soldiers, workmen</gloss>
+		</entry>
+		<entry>
+			<word>šībūtum</word>
+			<display>šībūtum</display>
+			<gloss xml:lang="en-US">testimony</gloss>
+		</entry>
+		<entry>
+			<word>šeʾûm</word>
+			<display>šeʾûm (-e/i)</display>
+			<gloss xml:lang="en-US">to seek</gloss>
+		</entry>
+		<entry>
+			<word>-šu</word>
+			<display>-šu</display>
+			<gloss xml:lang="en-US">its, his</gloss>
+		</entry>
+		<entry>
+			<word>wapûm</word>
+			<display>wapûm (-i)</display>
+			<gloss xml:lang="en-US">to become visible; Š to make visible, glorify</gloss>
+		</entry>
+		<entry>
+			<word>warûm</word>
+			<display>warûm (-u)</display>
+			<gloss xml:lang="en-US">to lead</gloss>
+		</entry>
+		<entry>
+			<word>waṣûm</word>
+			<display>waṣûm (-i)</display>
+			<gloss xml:lang="en-US">to go out; Š causative</gloss>
+		</entry>
+	</section>
+</lbx-vocabulary-list>
