@@ -19,9 +19,6 @@ class QCoreTab(QWidget):
         
         self.table = QTableWidget()
         
-        #self.table.setRowCount(100)
-        #self.table.setColumnCount(500)
-        
         grid.addWidget(self.table, 0, 0)
         
         line = QInputLine()
@@ -34,7 +31,9 @@ class QCoreTab(QWidget):
         print("command:", command)
         result = self.interpreter.interpreter(command)
         
-        if result.category == "table":
+        if result.error != None:
+            pass
+        elif result.category == "table":
             self.resultInTable(result)
         
     def resultInTable(self, result):
@@ -48,4 +47,4 @@ class QCoreTab(QWidget):
             for column, item in enumerate(line):
                 self.table.setItem(row, column, QTableWidgetItem(str(item)))
                 
-                self.table.resizeColumnsToContents()
+        self.table.resizeColumnsToContents()
