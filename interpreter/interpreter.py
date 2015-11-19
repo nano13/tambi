@@ -1,6 +1,11 @@
 # -*- coding: utf_8 -*-
 
+from interpreter.loadModules import LoadModules
+
 class Interpreter(object):
+    
+    modules_list = LoadModules()
+    
     def __init__(self):
         pass
     
