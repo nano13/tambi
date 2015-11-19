@@ -1,0 +1,44 @@
+Table word:
+structure_row_id; integer; primary key for the whole database
+word_row_id; integer; 
+wv; integer; number of the given word in the verse
+wk; integer; number of the given word in the chapter
+wb; integer; number of the given word in the book
+abv; integer; number of the beginning letter in the verse
+abk; integer; number of the beginning letter in the chapter
+abb; integer; number of the beginning letter in the book
+anz_b; integer; number of letters in this word
+tw; integer; numeric value of the word
+code; string; numeric values of each letters in the word
+latex; string; latex encoding of the word
+unicode; string; unicode encoding of the word
+ascii; string; ascii encoding of the word
+translation_de; string; the translation of this word in the german "elberfelder"
+
+table structure:
+structure_row_id; integer; primary key for NATURAL JOINs
+book_id; integer; the number of the book, starting with 1 at 1mose, ending with 66 at revelations
+book_string; string; the common german name of this book
+chapter; integer; the chapter
+verse; integer; the verse
+word; integer; how many words are in this verse
+
+table stats:
+structure_row_id; integer; primary key for the whole database
+stats_verse; integer; number of this verse in the corresponding book
+total_v; integer; total ammount of letters in the verse
+total_k; integer; total ammount of letters in the chapter until this verse
+total_b; integer; total ammount of letters in the book until this verse
+sum_v; integer; sum of the numeric values of all letters in this verse
+sum_k; integer; sum of all the letters in the chapter
+sum_b; integer; sum of all letters in the book
+
+table elberfelder:
+structure_row_id; integer; global key
+elberfelder_verse; string; verse in the german "elberfelder"-translation
+
+table books:
+id; integer; incrementing id from 1(1mose) to 66(revelations)
+name; string; german name of the book as used in the other tables of this database
+name_intern; string; german name of the book as used in the module "biblereader"
+name_alt; string; alternative german name of the books (some books have different spellings)
