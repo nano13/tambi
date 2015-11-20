@@ -22,7 +22,7 @@ class Logos(QMainWindow):
         self.initGUI()
         self.initTabs()
         self.addNewTableTab()
-        self.addNewTableTab()
+        self.addNewVocableTab()
         
     def initGUI(self):
         
@@ -45,6 +45,12 @@ class Logos(QMainWindow):
         
         self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "Tab")
+        
+    def addNewVocableTab(self):
+        tab = QCoreTab().vocableTab()
+        
+        self.tabs_list.append(tab)
+        self.tab_widget.addTab(tab, "VocableTab")
         
 if __name__ == '__main__':
     

@@ -20,7 +20,8 @@ class DatabaseAdapter(object):
     
     def createTables(self, name):
         print("TABLE NAME:", name)
-        query = "CREATE TABLE IF NOT EXISTS " + name + " (word TEXT, display TEXT, gloss TEXT, known NUMERIC)"
+        self.cursor.execute("DROP TABLE IF EXISTS " + name)
+        query = "CREATE TABLE IF NOT EXISTS " + name + " (word TEXT, display TEXT, gloss TEXT, priority NUMERIC, known NUMERIC)"
         self.cursor.execute(query)
         
     def writeToDatabase(self, word, display, gloss):
@@ -32,7 +33,7 @@ class DatabaseAdapter(object):
             else:
                 gloss_string += " | " + item
         
-        query = 'INSERT INTO ' +self.table_name+ ' (word, display, gloss, known) VALUES ( ?, ?, ?, 0 )'
+        query = 'INSERT INTO ' +self.table_name+ ' (word, display, gloss, priority, known) VALUES ( ?, ?, ?, 0, 0 )'
         print(query)
         print(word, display, gloss_string)
         
