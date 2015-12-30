@@ -5,7 +5,6 @@ from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QVocablePage import QVocablePage
 
 from interpreter.interpreter import Interpreter
-#from interpreter.structs import Result
 
 class QCoreTab(QWidget):
     
