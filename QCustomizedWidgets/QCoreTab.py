@@ -41,7 +41,9 @@ class QCoreTab(QWidget):
         print("command:", command)
         result = self.interpreter.interpreter(command)
         
-        if result.error != None:
+        if result is None:
+            pass
+        elif result.error != None:
             pass
         elif result.category == "table":
             self.resultInTable(result)

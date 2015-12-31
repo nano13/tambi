@@ -76,7 +76,10 @@ class Interpreter(object):
         print("command, args, line:", command, args, line)
         
         result = self.tryCommandInCoreCommands(command, args)
-        result.cursorPosition = line
+        try:
+            result.cursorPosition = line
+        except AttributeError:
+            pass
         
         return result
     
