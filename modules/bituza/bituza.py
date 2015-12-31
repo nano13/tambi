@@ -56,7 +56,6 @@ class Bituza(object):
         return commands.get(command, self.commandNotFound)(command, args)
     
     def commandNotFound(self, c, a):
-        #return "-1", "error/not_found"
         raise CommandNotInThisModule("command not found in module bituza")
     
     def sql(self, c, a):

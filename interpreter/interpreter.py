@@ -96,6 +96,6 @@ class Interpreter(object):
             try:
                 return_value = current_module.interpreter(command, args)
             except CommandNotInThisModule:
-                return None
+                pass
             else:
                 return return_value
