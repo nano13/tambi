@@ -53,7 +53,10 @@ class QCoreTab(QWidget):
         self.table.setRowCount(len(result.payload))
         self.table.setColumnCount(len(result.payload[0]))
         
-        self.table.setHorizontalHeaderLabels(result.header)
+        try:
+            self.table.setHorizontalHeaderLabels(result.header)
+        except TypeError:
+            pass
         
         for row, line in enumerate(result.payload):
             for column, item in enumerate(line):
