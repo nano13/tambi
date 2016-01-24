@@ -11,7 +11,7 @@ class DatabaseAdapter(object):
         
         self.table_name = ""
         
-        self.connection = sqlite3.connect("./vocables.db")
+        self.connection = sqlite3.connect("./vocables2.db")
         self.cursor = self.connection.cursor()
         
     def setName(self, name):
@@ -109,14 +109,15 @@ if __name__ == "__main__":
     print(base, dirs, files)
     
     for d in dirs:
-        p.setDBaseName(d)
+        if d != "__pycache__":
+            p.setDBaseName(d)
+            
+            base, dirs, files = next(iter(os.walk(d)))
         
-        base, dirs, files = next(iter(os.walk(d)))
-    
-        #print(base, dirs, files)
-    
-        for f in files:
-            print(f)
-            parser.parse(base + "/" + f)
+            #print(base, dirs, files)
+        
+            for f in files:
+                print(f)
+                parser.parse(base + "/" + f)
             
     p.commit()
