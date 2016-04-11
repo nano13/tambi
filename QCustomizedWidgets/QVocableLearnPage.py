@@ -13,10 +13,6 @@ class QVocableLearnPage(QWidget):
         grid = QGridLayout()
         layout = self.setLayout(grid)
         
-        #self.current_vocable = QTableWidget()
-        
-        #self.current_vocable.setText("bla")
-        
         self.vocable_list = ["a", "b", "c", "d"]
         self.translation_list = ["1", "2", "3", "4"]
         self.vocable_counter = 0

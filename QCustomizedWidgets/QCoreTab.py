@@ -3,6 +3,7 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
+from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 
 from interpreter.interpreter import Interpreter
 
@@ -22,6 +23,18 @@ class QCoreTab(QWidget):
         grid.addWidget(self.vocable_page, 0, 0)
         
         return self
+    
+    def vocableLanguageTab(self):
+        grid = QGridLayout()
+        self.setLayout(grid)
+        
+        self.vocable_page = QVocableLanguagePage().vocableLanguagePage()
+        
+        grid.addWidget(self.vocable_page, 0, 0)
+        
+        return self
+        
+        grid.addWidget(self.vocable_page, 0, 0)
         
     def tableTab(self):
         grid = QGridLayout()
