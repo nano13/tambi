@@ -2,7 +2,10 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
-from modules.bituza.bituza import Bituza
+#from modules.bituza.bituza import Bituza
+
+import Sword
+from Sword import *
 
 class Sword(object):
     def __init__(self):

@@ -11,7 +11,7 @@ class DatabaseAdapter(object):
         
         self.table_name = ""
         
-        self.connection = sqlite3.connect("./vocables2.db")
+        self.connection = sqlite3.connect("./vocables.db")
         self.cursor = self.connection.cursor()
         
     def setName(self, name):
@@ -21,7 +21,7 @@ class DatabaseAdapter(object):
     def createTables(self, name):
         print("TABLE NAME:", name)
         self.cursor.execute("DROP TABLE IF EXISTS " + name)
-        query = "CREATE TABLE IF NOT EXISTS " + name + " (word TEXT, display TEXT, gloss TEXT, priority NUMERIC, known NUMERIC)"
+        query = "CREATE TABLE IF NOT EXISTS " + name + " (rowid INTEGER PRIMARY KEY AUTOINCREMENT, word TEXT KEY, display TEXT, gloss TEXT, priority NUMERIC, known NUMERIC, changed NUMERIC)"
         self.cursor.execute(query)
         
     def writeToDatabase(self, word, display, gloss):
