@@ -30,7 +30,7 @@ class QVocableLearnPage(QWidget):
         
         self.prev_button = QPushButton("prev")
         self.next_button = QPushButton("next")
-        self.show_button = QPushButton("show")
+        self.show_button = QPushButton("show translation")
         
         self.prev_button.clicked.connect(self.prevButtonClicked)
         self.next_button.clicked.connect(self.nextButtonClicked)
