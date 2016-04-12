@@ -34,8 +34,6 @@ class QCoreTab(QWidget):
         
         return self
         
-        grid.addWidget(self.vocable_page, 0, 0)
-        
     def tableTab(self):
         grid = QGridLayout()
         self.setLayout(grid)

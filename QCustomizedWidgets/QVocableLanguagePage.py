@@ -18,7 +18,6 @@ class QVocableLanguagePage(QWidget):
             
             grid.addWidget(button_list[i], i, 0)
             button_list[i].clicked.connect(partial(self.buttonClicked, label))
-            #button_list[i].clicked.connect(lambda i=i: self.buttonClicked(i))
         
         return self
     

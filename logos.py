@@ -39,7 +39,13 @@ class Logos(QMainWindow):
         
     def initTabs(self):
         self.tab_widget = QTabWidget()
+        self.tab_widget.setTabsClosable(True)
+        self.tab_widget.tabCloseRequested.connect(self.closeTab)
         self.setCentralWidget(self.tab_widget)
+        
+    def closeTab(self, id):
+        self.tab_widget.removeTab(id)
+        del self.tabs_list[id]
         
     def addNewTableTab(self):
         tab = QCoreTab().tableTab()
