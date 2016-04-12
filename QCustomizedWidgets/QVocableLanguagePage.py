@@ -30,8 +30,6 @@ class QVocableLanguagePage(QWidget):
         return self
     
     def buttonClicked(self, label):
-        print(label)
-        
         self.languageSelected.emit(label)
         
     def getLanguages(self):

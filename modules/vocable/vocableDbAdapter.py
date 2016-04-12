@@ -1,5 +1,5 @@
 
-import sqlite3
+import sqlite3, time
 
 class VocableDbAdapter(object):
     def __init__(self):
@@ -48,4 +48,11 @@ class VocableDbAdapter(object):
         update = update.replace('#', '{0}').format(new_value)
         
         self.cursor.execute(update)
+        self.connection.commit()
+        
+    def updateLastLearnedDate(self, language, display):
+        date = int(time.time())
+        
+        query = "UPDATE {0} SET date={1} WHERE display='{2}'".format(language, date, display)
+        self.cursor.execute(query)
         self.connection.commit()

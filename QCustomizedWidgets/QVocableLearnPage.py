@@ -91,12 +91,12 @@ class QVocableLearnPage(QWidget):
         
     def knownButtonClicked(self, button):
         self.dbAdapter.updateKnown(self.current_language, self.current_vocable.text(), 1)
-        
+        self.dbAdapter.updateLastLearnedDate(self.current_language, self.current_vocable.text())
         self.nextButtonClicked(button)
         
     def notknownButtonClicked(self, button):
         self.dbAdapter.updateKnown(self.current_language, self.current_vocable.text(), -1)
-        
+        self.dbAdapter.updateLastLearnedDate(self.current_language, self.current_vocable.text())
         self.nextButtonClicked(button)
         
     def newsetButtonClicked(self, button):
