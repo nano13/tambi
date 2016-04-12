@@ -22,8 +22,9 @@ class Logos(QMainWindow):
         self.initGUI()
         self.initTabs()
         self.addNewTableTab()
-        self.addNewVocableLearnTab()
-        self.addNewVocableLanguageTab()
+        #self.addNewVocableLearnTab()
+        #self.addNewVocableLanguageTab()
+        self.addNewVocableTab()
         
     def initGUI(self):
         
@@ -53,17 +54,23 @@ class Logos(QMainWindow):
         self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "Tab")
         
-    def addNewVocableLearnTab(self):
-        tab = QCoreTab().vocableLearnTab()
+    #def addNewVocableLearnTab(self):
+        #tab = QCoreTab().vocableLearnTab()
         
-        self.tabs_list.append(tab)
-        self.tab_widget.addTab(tab, "VocableLearnTab")
+        #self.tabs_list.append(tab)
+        #self.tab_widget.addTab(tab, "VocableLearnTab")
     
-    def addNewVocableLanguageTab(self):
-        tab = QCoreTab().vocableLanguageTab()
+    #def addNewVocableLanguageTab(self):
+        #tab = QCoreTab().vocableLanguageTab()
+        
+        #self.tabs_list.append(tab)
+        #self.tab_widget.addTab(tab, "VocableLanguageTab")
+        
+    def addNewVocableTab(self):
+        tab = QCoreTab().vocableTab()
         
         self.tabs_list.append(tab)
-        self.tab_widget.addTab(tab, "VocableLanguageTab")
+        self.tab_widget.addTab(tab, "VocableTab")
         
 if __name__ == '__main__':
     

@@ -1,16 +1,24 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton
 from functools import partial
+from PyQt5.QtCore import pyqtSignal
+from modules.vocable.vocableDbAdapter import VocableDbAdapter
 
 class QVocableLanguagePage(QWidget):
+    
+    languageSelected = pyqtSignal(str, name='languageSelected')
+    
+    dbAdapter = VocableDbAdapter()
+    
     def __init__(self):
         super().__init__()
+        
         
     def vocableLanguagePage(self):
         grid = QGridLayout()
         layout = self.setLayout(grid)
         
-        label_list = ["akkadian", "aramaic", "greek", "hebrew"]
+        label_list = self.getLanguages()
         button_list = []
         for i, label in enumerate(label_list):
             button = QPushButton(label, self)
@@ -23,3 +31,10 @@ class QVocableLanguagePage(QWidget):
     
     def buttonClicked(self, label):
         print(label)
+        
+        self.languageSelected.emit(label)
+        
+    def getLanguages(self):
+        languages = self.dbAdapter.getAvailableLanguages()
+        
+        return languages

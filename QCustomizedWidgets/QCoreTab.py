@@ -2,8 +2,9 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
 from QCustomizedWidgets.QInputLine import QInputLine
-from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
-from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
+#from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
+#from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
+from QCustomizedWidgets.QVocableWidget import QVocableWidget
 
 from interpreter.interpreter import Interpreter
 
@@ -14,22 +15,32 @@ class QCoreTab(QWidget):
     def __init__(self):
         super().__init__()
         
-    def vocableLearnTab(self):
-        grid = QGridLayout()
-        self.setLayout(grid)
+    #def vocableLearnTab(self):
+        #grid = QGridLayout()
+        #self.setLayout(grid)
         
-        self.vocable_page = QVocableLearnPage().vocableLearnPage()
+        #self.vocable_page = QVocableLearnPage().vocableLearnPage()
         
-        grid.addWidget(self.vocable_page, 0, 0)
+        #grid.addWidget(self.vocable_page, 0, 0)
         
-        return self
+        #return self
     
-    def vocableLanguageTab(self):
+    #def vocableLanguageTab(self):
+        #grid = QGridLayout()
+        #self.setLayout(grid)
+        
+        #self.vocable_page = QVocableLanguagePage().vocableLanguagePage()
+        ##self.vocable_page.languageSelected.connect(self.languageSelected)
+        
+        #grid.addWidget(self.vocable_page, 0, 0)
+        
+        #return self
+    
+    def vocableTab(self):
         grid = QGridLayout()
         self.setLayout(grid)
         
-        self.vocable_page = QVocableLanguagePage().vocableLanguagePage()
-        
+        self.vocable_page = QVocableWidget().vocableWidget()
         grid.addWidget(self.vocable_page, 0, 0)
         
         return self
