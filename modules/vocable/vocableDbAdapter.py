@@ -20,13 +20,29 @@ class VocableDbAdapter(object):
         
         return sorted(result_cleaned)
     
-    def getVocableList(self, language, count):
+    def getRandomVocableList(self, language, count):
         query = "SELECT display, gloss FROM {0} ORDER BY RANDOM() LIMIT {1}".format(language, count)
         
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
         return result
+    
+    def getIntelligentVocableList(self, language, count):
+        query_weak = "SELECT display, gloss FROM {0} WHERE known < 5 AND known > 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        query_strong = "SELECT display, gloss FROM {0} WHERE known > 5 ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        query_random = "SELECT display, gloss FROM {0} ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        
+        self.cursor.execute(query_weak)
+        result = self.cursor.fetchall()
+        
+        print(result)
+        
+        
+        
+        
+        
+        #query = "SELECT display, gloss FROM {0} WHERE date <
     
     def updatePriority(self, language, display, priority):
         select_query = 'SELECT priority FROM {0} WHERE display="{1}"'.format(language, display)
