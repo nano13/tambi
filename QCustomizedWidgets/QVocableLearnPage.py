@@ -109,11 +109,8 @@ class QVocableLearnPage(QWidget):
         self.vocable_list = []
         self.translation_list = []
         
-        vocables = self.dbAdapter.getRandomVocableList(language, 10)
-        
-        for vocable in vocables:
-            self.vocable_list.append(vocable[0])
-            self.translation_list.append(vocable[1])
+        #self.vocable_list, self.translation_list = self.dbAdapter.getRandomVocableList(language, 10)
+        self.vocable_list, self.translation_list = self.dbAdapter.getIntelligentVocableList(language, 10)
         
         self.current_vocable.setText(self.vocable_list[0])
         self.current_translation.setText("")
