@@ -29,6 +29,7 @@ class VocableDbAdapter(object):
         return result
     
     def getIntelligentVocableList(self, language, count):
+        query_poor = "SELECT display, gloss FROM {0} WHERE known < 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
         query_weak = "SELECT display, gloss FROM {0} WHERE known < 5 AND known > 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
         query_strong = "SELECT display, gloss FROM {0} WHERE known > 5 ORDER BY RANDOM() LIMIT {1}".format(language, count)
         query_random = "SELECT display, gloss FROM {0} ORDER BY RANDOM() LIMIT {1}".format(language, count)
