@@ -54,8 +54,6 @@ class VocableDbAdapter(object):
         translation_list = []
         
         for i, item in enumerate(result_list):
-            print(item)
-            #print("\n")
             
             if len(item) > 0:
                 if i == 0:
