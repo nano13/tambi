@@ -81,18 +81,22 @@ class QVocableLearnPage(QWidget):
     def prevButtonClicked(self, button):
         if self.vocable_counter > 0:
             self.vocable_counter -= 1
-            self.current_vocable.setText(self.vocable_list[self.vocable_counter])
-            self.current_translation.setText("")
-            self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
+        else:
+            self.vocable_counter = len(self.vocable_list)-1
+            
+        self.current_vocable.setText(self.vocable_list[self.vocable_counter])
+        self.current_translation.setText("")
+        self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
     def nextButtonClicked(self, button):
         if self.vocable_counter < len(self.vocable_list)-1:
             self.vocable_counter += 1
-            self.current_vocable.setText(self.vocable_list[self.vocable_counter])
-            self.current_translation.setText("")
-            self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         else:
-            pass
+            self.vocable_counter = 0
+            
+        self.current_vocable.setText(self.vocable_list[self.vocable_counter])
+        self.current_translation.setText("")
+        self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
     def showButtonClicked(self, button):
         self.current_translation.setText(self.translation_list[self.vocable_counter])
