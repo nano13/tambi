@@ -59,8 +59,10 @@ class QVocableLearnPage(QWidget):
         
         grid.addWidget(self.language_select_button, 0, 0)
         grid.addWidget(self.word_counter, 0, 2)
-        grid.addWidget(self.current_vocable, 1, 1)
-        grid.addWidget(self.current_translation, 2, 1)
+        #grid.addWidget(self.current_vocable, 1, 1)
+        grid.addWidget(self.current_vocable, 1, 0, 1, 3)
+        #grid.addWidget(self.current_translation, 2, 1)
+        grid.addWidget(self.current_translation, 2, 0, 1, 3)
         grid.addWidget(self.show_button, 3, 1)
         grid.addWidget(self.prev_button, 3, 0)
         grid.addWidget(self.next_button, 4, 0)
@@ -113,6 +115,7 @@ class QVocableLearnPage(QWidget):
         
     def newsetButtonClicked(self, button):
         self.getVocableList(self.current_language)
+        self.vocable_counter = 0
         
     def getVocableList(self, language):
         self.current_language = language
