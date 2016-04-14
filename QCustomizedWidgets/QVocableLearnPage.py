@@ -14,6 +14,7 @@ class QVocableLearnPage(QWidget):
     dbAdapter = VocableDbAdapter()
     
     current_language = ""
+    number_of_vocables = 10
     
     def __init__(self):
         super().__init__()
@@ -36,6 +37,10 @@ class QVocableLearnPage(QWidget):
         #self.current_translation.setText(self.translation_list[self.vocable_counter])
         self.current_translation.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
+        self.word_counter = QLabel()
+        self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
+        self.word_counter.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
+        
         self.language_select_button = QPushButton("select language")
         self.prev_button = QPushButton("prev")
         self.next_button = QPushButton("next")
@@ -53,6 +58,7 @@ class QVocableLearnPage(QWidget):
         self.newset_button.clicked.connect(self.newsetButtonClicked)
         
         grid.addWidget(self.language_select_button, 0, 0)
+        grid.addWidget(self.word_counter, 0, 2)
         grid.addWidget(self.current_vocable, 1, 1)
         grid.addWidget(self.current_translation, 2, 1)
         grid.addWidget(self.show_button, 3, 1)
@@ -77,12 +83,14 @@ class QVocableLearnPage(QWidget):
             self.vocable_counter -= 1
             self.current_vocable.setText(self.vocable_list[self.vocable_counter])
             self.current_translation.setText("")
+            self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
     def nextButtonClicked(self, button):
         if self.vocable_counter < len(self.vocable_list)-1:
             self.vocable_counter += 1
             self.current_vocable.setText(self.vocable_list[self.vocable_counter])
             self.current_translation.setText("")
+            self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         else:
             pass
         
