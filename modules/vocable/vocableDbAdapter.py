@@ -37,13 +37,13 @@ class VocableDbAdapter(object):
     
     def getIntelligentVocableList(self, language, count):
         #control_list = ["p", "p", "p", "w", "w", "w", "s", "s", "r", "r"]
-        POOR_COUNT = 3
+        POOR_COUNT = 5
         WEAK_COUNT = 3
-        STRONG_COUNT = 2
-        RANDOM_COUNT = 2
+        STRONG_COUNT = 1
+        NEW_COUNT = 1
         
         query_poor = "SELECT display, gloss FROM {0} WHERE known < 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
-        query_weak = "SELECT display, gloss FROM {0} WHERE known < 5 AND known > 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        query_weak = "SELECT display, gloss FROM {0} WHERE known <= 5 AND known > 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
         query_strong = "SELECT display, gloss FROM {0} WHERE known > 5 ORDER BY RANDOM() LIMIT {1}".format(language, count)
         query_random = "SELECT display, gloss FROM {0} ORDER BY RANDOM() LIMIT {1}".format(language, count)
         
@@ -62,25 +62,38 @@ class VocableDbAdapter(object):
             if len(item) > 0:
                 if i == 0:
                     for j, vocable in enumerate(item):
-                        if j <= POOR_COUNT:
+                        if j < POOR_COUNT:
                             vocable_list.append(vocable[0])
                             translation_list.append(vocable[1])
                 elif i == 1:
                     for j, vocable in enumerate(item):
-                        if j <= WEAK_COUNT:
+                        if j < WEAK_COUNT:
                             vocable_list.append(vocable[0])
                             translation_list.append(vocable[1])
                 elif i == 2:
                     for j, vocable in enumerate(item):
-                        if j <= STRONG_COUNT:
+                        if j < STRONG_COUNT:
                             vocable_list.append(vocable[0])
                             translation_list.append(vocable[1])
                 elif i == 3:
-                    j = 0
-                    while len(vocable_list) < count:
-                        vocable_list.append(item[j][0])
-                        translation_list.append(item[j][1])
-                        j += 1
+                    for j, vocable in enumerate(item):
+                        if j < NEW_COUNT:
+                            vocable_list.append(vocable[0])
+                            translation_list.append(vocable[1])
+        
+        # wenn noch platz ist, versuchen wir erstmal mit schwachen woertern voll zu machen:
+        j = 0
+        while len(vocable_list) < count:
+            vocable_list.append(result_list[0][j][0])
+            translation_list.append(result_list[0][j][1])
+            j += 1
+        
+        # fuelle, falls noch platz ist, mit neuen woertern auf:
+        j = 0
+        while len(vocable_list) < count:
+            vocable_list.append(result_list[-1][j][0])
+            translation_list.append(result_list[-1][j][1])
+            j += 1
         
         return vocable_list, translation_list
     
