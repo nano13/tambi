@@ -116,6 +116,7 @@ class QVocableLearnPage(QWidget):
     def newsetButtonClicked(self, button):
         self.getVocableList(self.current_language)
         self.vocable_counter = 0
+        self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
     def getVocableList(self, language):
         self.current_language = language
