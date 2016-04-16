@@ -1,5 +1,5 @@
 
-import sqlite3, time
+import sqlite3, time, random
 
 class VocableDbAdapter(object):
     def __init__(self):
@@ -72,21 +72,23 @@ class VocableDbAdapter(object):
                             translation_list.append(vocable[1])
                 elif i == 2:
                     for j, vocable in enumerate(item):
-                        if j < STRONG_COUNT:
-                            vocable_list.append(vocable[0])
-                            translation_list.append(vocable[1])
+                        if random.randint(0, 1) == 1:
+                            if j < STRONG_COUNT:
+                                vocable_list.append(vocable[0])
+                                translation_list.append(vocable[1])
                 elif i == 3:
                     for j, vocable in enumerate(item):
-                        if j < NEW_COUNT:
-                            vocable_list.append(vocable[0])
-                            translation_list.append(vocable[1])
+                        #if random.randint(0, 2) == 1:
+                            if j < NEW_COUNT:
+                                vocable_list.append(vocable[0])
+                                translation_list.append(vocable[1])
         
-        # wenn noch platz ist, versuchen wir erstmal mit schwachen woertern voll zu machen:
-        j = 0
-        while len(vocable_list) < count:
-            vocable_list.append(result_list[0][j][0])
-            translation_list.append(result_list[0][j][1])
-            j += 1
+        ## wenn noch platz ist, versuchen wir erstmal mit schwachen woertern voll zu machen:
+        #j = len(result_list[0])-1
+        #while len(vocable_list) < count:
+            #vocable_list.append(result_list[0][j][0])
+            #translation_list.append(result_list[0][j][1])
+            #j -= 1
         
         # fuelle, falls noch platz ist, mit neuen woertern auf:
         j = 0
@@ -130,3 +132,12 @@ class VocableDbAdapter(object):
         query = "UPDATE {0} SET date={1} WHERE display='{2}'".format(language, date, display)
         self.cursor.execute(query)
         self.connection.commit()
+        
+    def getStats(self, language):
+        query = "select display, gloss, count(word), known from {0} group by known".format(language)
+        
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return result
+    
