@@ -134,10 +134,10 @@ class VocableDbAdapter(object):
         self.connection.commit()
         
     def getStats(self, language):
-        query = "select display, gloss, count(word), known from {0} group by known".format(language)
+        query = "SELECT display, gloss, COUNT(word), known FROM {0} GROUP BY known".format(language)
         
         self.cursor.execute(query)
         result = self.cursor.fetchall()
-        
+                
         return result
     
