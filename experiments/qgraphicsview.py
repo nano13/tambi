@@ -25,8 +25,18 @@ class View(QtGui.QGraphicsView):
 
     def mousePressEvent(self, event):
         self._start = event.pos()
-        
         self.lastMousePos = event.pos()
+        
+        radius = 10
+        
+        pos = QtCore.QPointF(self.mapToScene(event.pos()))
+        ellipseItem = QtGui.QGraphicsEllipseItem(pos.x()-(radius/2), pos.y()-(radius/2), radius, radius)
+        ellipseItem.setPen(QtGui.QPen(QtCore.Qt.green, QtCore.Qt.SolidPattern))
+        ellipseItem.setBrush(QtCore.Qt.green)
+        
+        self.scene().addItem(ellipseItem)
+        
+        
 
     def NOmouseReleaseEvent(self, event):
         start = QtCore.QPointF(self.mapToScene(self._start))
