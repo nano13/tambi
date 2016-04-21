@@ -11,6 +11,7 @@ class QVocableLanguagePage(QWidget):
     grid = None
     
     languageSelected = pyqtSignal(str, name='languageSelected')
+    createNewDeckSignal = pyqtSignal()
     
     dbAdapter = VocableDbAdapter()
     
@@ -20,43 +21,22 @@ class QVocableLanguagePage(QWidget):
     def __init__(self):
         super().__init__()
         
-        
-    def vocableLanguagePageOld(self):
-        grid = QGridLayout()
-        layout = self.setLayout(grid)
-        
-        label_list = self.getLanguages()
-        button_list = []
-        for i, label in enumerate(label_list):
-            button = QPushButton(label, self)
-            button_list.append(button)
-            
-            grid.addWidget(button_list[i], i, 0)
-            button_list[i].clicked.connect(partial(self.buttonClicked, label))
-        
-        return self
-    
-    def vocableLanguagePageList(self):
-        grid = QGridLayout()
-        layout = self.setLayout(grid)
-        
-        language_list = self.getLanguages()
-        
-        self.listWidget = QListWidget()
-        
-        for i, label in enumerate(language_list):
-            item = QListWidgetItem(label)
-            self.listWidget.addItem(item)
-            self.listWidget.itemClicked.connect(self.itemClicked)
-            
-        grid.addWidget(self.listWidget, 0, 0)
-        
-        return self
     
     def vocableLanguagePage(self):
         self.grid = QGridLayout()
         layout = self.setLayout(self.grid)
         
+        self.tableWidget = self.createLanguageSelectList()
+        self.grid.addWidget(self.tableWidget, 0, 0)
+        
+        new_deck_button = QPushButton("new deck", self)
+        self.grid.addWidget(new_deck_button, 1, 0)
+        new_deck_button.clicked.connect(self.createNewDeck)
+        
+        return self
+        
+        
+    def createLanguageSelectList(self):
         language_list = self.getLanguages()
         
         self.tableWidget = QTableWidget()
@@ -81,12 +61,11 @@ class QVocableLanguagePage(QWidget):
             button_stats.clicked.connect(partial(self.tableButtonStatsClicked, label))
             
         self.tableWidget.resizeColumnsToContents()
-        self.grid.addWidget(self.tableWidget, 0, 0)
         
-        return self
+        return self.tableWidget
     
-    def buttonClicked(self, label):
-        self.languageSelected.emit(label)
+#    def buttonClicked(self, label):
+#        self.languageSelected.emit(label)
         
     def tableButtonLearnClicked(self, language):
         self.languageSelected.emit(language)
@@ -106,7 +85,7 @@ class QVocableLanguagePage(QWidget):
                 item.setFlags(Qt.ItemIsEnabled)
         
         stats_tableWidget.resizeColumnsToContents()
-        self.grid.addWidget(stats_tableWidget, 1, 0)
+        self.grid.addWidget(stats_tableWidget, 2, 0)
         
     def itemClicked(self):
         language = self.listWidget.currentItem().text()
@@ -116,3 +95,6 @@ class QVocableLanguagePage(QWidget):
         languages = self.dbAdapter.getAvailableLanguages()
         
         return languages
+    
+    def createNewDeck(self):
+        self.createNewDeckSignal.emit()
