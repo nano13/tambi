@@ -25,6 +25,7 @@ class View(QGraphicsView):
         
         self.penRadius = 5
         self.rubberRadius = 10
+        self.colour = QtCore.Qt.darkGreen
         
         self.mouseButton = None
         self.lastMousePos = None
@@ -39,8 +40,8 @@ class View(QGraphicsView):
             
             pos = QtCore.QPointF(self.mapToScene(event.pos()))
             ellipseItem = QGraphicsEllipseItem(pos.x()-(self.penRadius/2), pos.y()-(self.penRadius/2), self.penRadius, self.penRadius)
-            ellipseItem.setPen(QPen(QtCore.Qt.green, QtCore.Qt.SolidPattern))
-            ellipseItem.setBrush(QtCore.Qt.green)
+            ellipseItem.setPen(QPen(self.colour, QtCore.Qt.SolidPattern))
+            ellipseItem.setBrush(self.colour)
             
             self.scene().addItem(ellipseItem)
             
@@ -86,7 +87,7 @@ class View(QGraphicsView):
             end = QtCore.QPointF(self.mapToScene(event.pos()))
             
             lineItem = QGraphicsLineItem(QtCore.QLineF(start, end))
-            lineItem.setPen(QPen(QtCore.Qt.green, self.penRadius, QtCore.Qt.SolidLine, QtCore.Qt.RoundCap, QtCore.Qt.RoundJoin))
+            lineItem.setPen(QPen(self.colour, self.penRadius, QtCore.Qt.SolidLine, QtCore.Qt.RoundCap, QtCore.Qt.RoundJoin))
             self.scene().addItem(lineItem)
             
             self.lastMousePos = event.pos()
