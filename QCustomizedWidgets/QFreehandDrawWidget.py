@@ -1,21 +1,62 @@
 
 
-from PyQt5.QtWidgets import QWidget, QGraphicsView, QApplication, QGraphicsScene, QPushButton, QVBoxLayout, QGraphicsItem, QGraphicsEllipseItem, QGraphicsLineItem, QGraphicsRectItem
+from PyQt5.QtWidgets import QWidget, QGraphicsView, QApplication, QGraphicsScene, QPushButton, QVBoxLayout, QGraphicsItem, QGraphicsEllipseItem, QGraphicsLineItem, QGraphicsRectItem, QGridLayout
 from PyQt5 import QtCore
 from PyQt5.QtGui import QPen, QCursor, QPixmap
+
+from misc.exportSVG import ExportSVG
 
 class QFreehandDrawWidget(QWidget):
     def __init__(self):
         QWidget.__init__(self)
+        
         self.view = View(self)
-        self.button = QPushButton('Clear View', self)
-        self.button.clicked.connect(self.handleClearView)
-        layout = QVBoxLayout(self)
-        layout.addWidget(self.view)
-        layout.addWidget(self.button)
+        
+        self.exportSVG = ExportSVG()
+        
+        self.clear_button = QPushButton('Clear View', self)
+        self.save_button = QPushButton('save', self)
+        
+        self.clear_button.clicked.connect(self.handleClearView)
+        self.save_button.clicked.connect(self.handleSaveView)
+        
+        #layout = QVBoxLayout(self)
+        #layout.addWidget(self.view)
+        #layout.addWidget(self.clear_button)
+        #layout.addWidget(self.save_button)
+        
+        layout = QGridLayout(self)
+        layout.addWidget(self.view, 0, 0, 1, 2)
+        layout.addWidget(self.clear_button, 1, 0)
+        layout.addWidget(self.save_button, 1, 1)
 
     def handleClearView(self):
         self.view.scene().clear()
+        
+    def handleSaveView(self):
+        
+        self.exportSVG.setFilepath("outtest.svg")
+        
+        view_rect = self.view.mapToScene(self.view.viewport().geometry()).boundingRect()
+        a, b, c, d = view_rect.getRect()
+        self.exportSVG.writeHeader(abs(a), abs(b), a, b, c, d)
+        
+        items = self.view.scene().items()
+        for item in items:
+            if type(item) == QGraphicsEllipseItem:
+                
+                cx, cy, rx, ry = item.rect().getRect()
+                self.exportSVG.addEllipse(cx+rx/2, cy+ry/2, rx/2, ry/2, "green", self.view.penRadius)
+                
+            elif type(item) == QGraphicsLineItem:
+                x1 = item.line().x1()
+                y1 = item.line().y1()
+                x2 = item.line().x2()
+                y2 = item.line().y2()
+                self.exportSVG.addLine(x1, y1, x2, y2, "green", self.view.penRadius)
+                
+        self.exportSVG.writeFooter()
+            
 
 class View(QGraphicsView):
     def __init__(self, parent):
