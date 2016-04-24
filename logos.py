@@ -33,7 +33,7 @@ class Logos(QMainWindow):
         screen_rectangle = QDesktopWidget().availableGeometry()
         sx, sy = screen_rectangle.getRect()[2], screen_rectangle.getRect()[3]
         
-        self.resize(sx*0.61, sy*0.61)
+        #self.resize(sx*0.61, sy*0.61)
         
         self.setWindowTitle('logos')
         self.show()

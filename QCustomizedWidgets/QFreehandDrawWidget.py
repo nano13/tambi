@@ -27,6 +27,12 @@ class QFreehandDrawWidget(QWidget):
         layout.addWidget(self.clear_button, 1, 0)
         layout.addWidget(self.save_button, 1, 1)
         
+        #layout.setRowMinimumHeight(0, 400)
+        #layout.setRowStretch(0, 2)
+        #layout.setGeometry(QtCore.QRect(0, 0, 200, 100))
+        #self.view.setMinimumSize(600, 400)
+        self.view.setFixedSize(600, 400)
+        
         self.importView("outtest.svg")
 
     def handleClearView(self):

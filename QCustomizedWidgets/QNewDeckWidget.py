@@ -1,5 +1,6 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTableWidget, QTableWidgetItem, QLineEdit, QLabel
+from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawWidget
@@ -33,14 +34,17 @@ class QNewDeckWidget(QWidget):
         saveButton.clicked.connect(self.saveButtonClicked)
         
         grid.addWidget(language_select_button, 0, 0)
-        grid.addWidget(self.freehandDrawWidget, 1, 0, 1, 3)
+        grid.addWidget(self.freehandDrawWidget, 1, 0, 1, 3, QtCore.Qt.AlignCenter)
         grid.addWidget(wordLabel, 2, 0)
         grid.addWidget(self.wordLine, 2, 1, 1, 2)
-        grid.addWidget(translationLabel, 4, 0)
-        grid.addWidget(self.translationLine, 4, 1, 1, 2)
-        grid.addWidget(self.audioListWidget, 6, 0, 2, 3)
-        grid.addWidget(newAudioButton, 9, 0)
-        grid.addWidget(saveButton, 9, 2)
+        grid.addWidget(translationLabel, 3, 0)
+        grid.addWidget(self.translationLine, 3, 1, 1, 2)
+        grid.addWidget(self.audioListWidget, 4, 0, 1, 3)
+        grid.addWidget(newAudioButton, 5, 0)
+        grid.addWidget(saveButton, 5, 2)
+        
+        #grid.setGeometry(QtCore.QRect(0, 0, 100, 100))
+        #self.audioListWidget.setMaximumSize(600, 100)
         
         return self
     
