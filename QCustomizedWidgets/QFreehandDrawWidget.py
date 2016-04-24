@@ -89,17 +89,6 @@ class View(QGraphicsView):
             
     def mouseReleaseEvent(self, event):
         QApplication.restoreOverrideCursor()
-        
-#    def NOmouseReleaseEvent(self, event):
-#        start = QtCore.QPointF(self.mapToScene(self._start))
-#        end = QtCore.QPointF(self.mapToScene(event.pos()))
-#        self.scene().addItem(
-#            QtGui.QGraphicsLineItem(QtCore.QLineF(start, end)))
-#        for point in (start, end):
-#            text = self.scene().addSimpleText(
-#                '(%d, %d)' % (point.x(), point.y()))
-#            text.setBrush(QtCore.Qt.red)
-#            text.setPos(point)
     
     def mouseMoveEvent(self, event):
         
