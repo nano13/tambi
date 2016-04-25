@@ -13,7 +13,7 @@ class Vocable(object):
     
     def interpreter(self, command, args):
         commands = self.getCommands()
-        return commands.get(commmand, self.commandNotFound)(command, args)
+        return commands.get(command, self.commandNotFound)(command, args)
     
     def commandNotFound(self, c, a):
         raise CommandNotInThisModule("command not found in module vocable")

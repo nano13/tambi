@@ -19,10 +19,10 @@ class Interpreter(object):
         
         try:
             if (comma_splitted[1]).isdigit():
-                line = commma_splitted[1]
+                line = comma_splitted[1]
                 return_args = input[:-1]
                 
-                return_args.append(commma_splitted[0])
+                return_args.append(comma_splitted[0])
             else:
                 line = 0
                 return_args = input
