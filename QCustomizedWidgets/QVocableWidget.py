@@ -52,5 +52,5 @@ class QVocableWidget(QWidget):
     def createnewDeck(self):
         defaultpath = path.join(path.expanduser("~"), ".logos_bible")
         folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", defaultpath)
-        print(folder)
-        self.Stack.setCurrentIndex(2)
+        if folder:
+            self.Stack.setCurrentIndex(2)
