@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTableWidget, QTa
 from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
 
-from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawWidget
+from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
 
 from functools import partial
 
@@ -21,7 +21,11 @@ class QNewDeckWidget(QWidget):
         language_select_button = QPushButton("select deck")
         language_select_button.clicked.connect(self.languageSelectButtonClicked)
         
-        self.freehandDrawWidget = QFreehandDrawWidget()
+        clear_draw_view_button = QPushButton("clear draw area")
+        clear_draw_view_button.clicked.connect(self.clearDrawViewButtonClicked)
+        
+        #self.freehandDrawWidget = QFreehandDrawWidget()
+        self.freehandDrawWidget = QFreehandDrawView(self)
         wordLabel = QLabel("word:")
         self.wordLine = QLineEdit()
         translationLabel = QLabel("translation:")
@@ -34,6 +38,7 @@ class QNewDeckWidget(QWidget):
         saveButton.clicked.connect(self.saveButtonClicked)
         
         grid.addWidget(language_select_button, 0, 0)
+        grid.addWidget(clear_draw_view_button, 0, 2)
         grid.addWidget(self.freehandDrawWidget, 1, 0, 1, 3, QtCore.Qt.AlignCenter)
         grid.addWidget(wordLabel, 2, 0)
         grid.addWidget(self.wordLine, 2, 1, 1, 2)
@@ -45,6 +50,8 @@ class QNewDeckWidget(QWidget):
         
         #grid.setGeometry(QtCore.QRect(0, 0, 100, 100))
         #self.audioListWidget.setMaximumSize(600, 100)
+        
+        self.freehandDrawWidget.importView("outtest.svg")
         
         return self
     
@@ -91,4 +98,7 @@ class QNewDeckWidget(QWidget):
         pass
     
     def saveButtonClicked(self):
-        pass
+        self.freehandDrawWidget.saveView("outtest.svg")
+    
+    def clearDrawViewButtonClicked(self):
+        self.freehandDrawWidget.clearView()

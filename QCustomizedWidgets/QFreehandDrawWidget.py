@@ -7,47 +7,7 @@ from PyQt5.QtGui import QPen, QCursor, QPixmap
 from misc.exportSVG import ExportSVG
 from misc.importSVG import ImportSVG
 
-class QFreehandDrawWidget(QWidget):
-    def __init__(self):
-        QWidget.__init__(self)
-        
-        self.view = View(self)
-        
-        self.exportSVG = ExportSVG()
-        self.importSVG = ImportSVG()
-        
-        self.clear_button = QPushButton('Clear View', self)
-        self.save_button = QPushButton('save', self)
-        
-        self.clear_button.clicked.connect(self.handleClearView)
-        self.save_button.clicked.connect(self.handleSaveView)
-        
-        layout = QGridLayout(self)
-        layout.addWidget(self.view, 0, 0, 1, 2)
-        layout.addWidget(self.clear_button, 1, 0)
-        layout.addWidget(self.save_button, 1, 1)
-        
-        #layout.setRowMinimumHeight(0, 400)
-        #layout.setRowStretch(0, 2)
-        #layout.setGeometry(QtCore.QRect(0, 0, 200, 100))
-        #self.view.setMinimumSize(600, 400)
-        self.view.setFixedSize(600, 300)
-        
-        self.importView("outtest.svg")
-
-    def handleClearView(self):
-        self.view.scene().clear()
-        
-    def handleSaveView(self):
-        self.exportSVG.exportSVG("outtest.svg", self.view)
-        
-    def importView(self, inputfilepath):
-        try:
-            self.importSVG.importSVG(inputfilepath, self.view)
-        except FileNotFoundError:
-            print("ERROR: File not found: ", inputfilepath)
-            
-class View(QGraphicsView):
+class QFreehandDrawView(QGraphicsView):
     def __init__(self, parent):
         QGraphicsView.__init__(self, parent)
         self.setScene(QGraphicsScene(self))
@@ -59,6 +19,11 @@ class View(QGraphicsView):
         
         self.mouseButton = None
         self.lastMousePos = None
+        
+        self.exportSVG = ExportSVG()
+        self.importSVG = ImportSVG()
+        
+        self.setFixedSize(600, 300)
 
     def mousePressEvent(self, event):
         
@@ -123,6 +88,18 @@ class View(QGraphicsView):
         if items:
             for item in items:
                 self.scene().removeItem(item)
+                
+    def clearView(self):
+        self.scene().clear()
+        
+    def saveView(self, outputfilepath):
+        self.exportSVG.exportSVG(outputfilepath, self)
+        
+    def importView(self, inputfilepath):
+        try:
+            self.importSVG.importSVG(inputfilepath, self)
+        except FileNotFoundError:
+            print("ERROR: File not found: ", inputfilepath)
         
 if __name__ == '__main__':
 
