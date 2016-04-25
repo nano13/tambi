@@ -31,7 +31,7 @@ class QFreehandDrawWidget(QWidget):
         #layout.setRowStretch(0, 2)
         #layout.setGeometry(QtCore.QRect(0, 0, 200, 100))
         #self.view.setMinimumSize(600, 400)
-        self.view.setFixedSize(600, 400)
+        self.view.setFixedSize(600, 300)
         
         self.importView("outtest.svg")
 
@@ -42,8 +42,11 @@ class QFreehandDrawWidget(QWidget):
         self.exportSVG.exportSVG("outtest.svg", self.view)
         
     def importView(self, inputfilepath):
-        self.importSVG.importSVG(inputfilepath, self.view)
-
+        try:
+            self.importSVG.importSVG(inputfilepath, self.view)
+        except FileNotFoundError:
+            print("ERROR: File not found: ", inputfilepath)
+            
 class View(QGraphicsView):
     def __init__(self, parent):
         QGraphicsView.__init__(self, parent)
