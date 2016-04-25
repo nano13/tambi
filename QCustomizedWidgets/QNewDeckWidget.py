@@ -51,7 +51,7 @@ class QNewDeckWidget(QWidget):
         #grid.setGeometry(QtCore.QRect(0, 0, 100, 100))
         #self.audioListWidget.setMaximumSize(600, 100)
         
-        self.freehandDrawWidget.importView("outtest.svg")
+        self.freehandDrawWidget.loadView("outtest.svg")
         
         return self
     

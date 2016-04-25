@@ -95,7 +95,7 @@ class QFreehandDrawView(QGraphicsView):
     def saveView(self, outputfilepath):
         self.exportSVG.exportSVG(outputfilepath, self)
         
-    def importView(self, inputfilepath):
+    def loadView(self, inputfilepath):
         try:
             self.importSVG.importSVG(inputfilepath, self)
         except FileNotFoundError:
