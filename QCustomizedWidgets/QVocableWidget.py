@@ -1,8 +1,11 @@
 
-from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout
+from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog
 from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
 from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QNewDeckWidget import QNewDeckWidget
+
+#from os.path import expanduser, join
+from os import path
 
 class QVocableWidget(QWidget):
     def __init__(self):
@@ -47,4 +50,7 @@ class QVocableWidget(QWidget):
         self.stack_vocable_learn.getVocableList(language)
         
     def createnewDeck(self):
+        defaultpath = path.join(path.expanduser("~"), ".logos_bible")
+        folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", defaultpath)
+        print(folder)
         self.Stack.setCurrentIndex(2)
