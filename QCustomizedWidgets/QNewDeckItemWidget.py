@@ -139,7 +139,7 @@ class QNewDeckItemWidget(QWidget):
         translation = self.translationLine.text()
         audio_filenames = None
         
-        if self.current_rowid == False:
+        if self.current_rowid == None:
             svg_filename = str(int(time.time())) + self.randomword(5) + ".svg"
             
             self.freehandDrawWidget.saveView(path.join(self.deckpath, svg_filename))
