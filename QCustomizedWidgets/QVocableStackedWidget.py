@@ -8,7 +8,7 @@ from QCustomizedWidgets.QNewDeckWidget import QNewDeckWidget
 #from os.path import expanduser, join
 from os import path
 
-class QVocableWidget(QWidget):
+class QVocableStackedWidget(QWidget):
     def __init__(self):
         super().__init__()
         
@@ -67,5 +67,7 @@ class QVocableWidget(QWidget):
     def selectDeck(self):
         self.Stack.setCurrentIndex(0)
     
-    def createNewDeckItem(self):
+    def createNewDeckItem(self, deckpath, dbAdapter):
+        self.stack_new_deck.setDeckpath(deckpath)
+        self.stack_new_deck.setDbAdapter(dbAdapter)
         self.Stack.setCurrentIndex(3)

@@ -1,6 +1,6 @@
 
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QPushButton
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton
 from PyQt5.QtCore import pyqtSignal
 #from QCustomizedWidgets.QNewDeckWidget import QNewDeckWidget
 from misc.deckDbAdapter import DeckDbAdapter
@@ -13,7 +13,7 @@ class QDeckOverviewWidget(QWidget):
     deckpath = None
     
     selectDeck = pyqtSignal()
-    createNewItem = pyqtSignal()
+    createNewItem = pyqtSignal(str, object)
     
     def __init__(self):
         super().__init__()
@@ -44,15 +44,14 @@ class QDeckOverviewWidget(QWidget):
         
     def initWithDbData(self):
         data = self.dbAdapter.selectDeckItems()
+        self.tableWidget.setRowCount(len(data))
         
-        if data:
-            self.tableWidget.setRowCount(len(data))
-        
-        else:
-            self.tableWidget.setRowCount(0)
+        for i, line in enumerate(data):
+            for j, item in enumerate(line):
+                self.tableWidget.setItem(i, j, QTableWidgetItem(str(item)))
             
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
         
     def newItemButtonClicked(self):
-        self.createNewItem.emit()
+        self.createNewItem.emit(self.deckpath, self.dbAdapter)

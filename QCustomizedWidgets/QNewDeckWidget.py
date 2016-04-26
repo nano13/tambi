@@ -7,13 +7,23 @@ from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
 #from misc.deckDbAdapter import DeckDbAdapter
 
 from functools import partial
+from os import path
+import time, random, string
 
 class QNewDeckWidget(QWidget):
     
     selectItem = pyqtSignal()
+    deckpath = None
+    dbAdapter = None
     
     def __init__(self):
         super().__init__()
+        
+    def setDeckpath(self, deckpath):
+        self.deckpath = deckpath
+        
+    def setDbAdapter(self, dbAdapter):
+        self.dbAdapter = dbAdapter
         
     def newDeckPage(self):
         grid = QGridLayout()
@@ -53,10 +63,7 @@ class QNewDeckWidget(QWidget):
         grid.addWidget(newAudioButton, 6, 0)
         grid.addWidget(saveButton, 6, 3)
         
-        #grid.setGeometry(QtCore.QRect(0, 0, 100, 100))
-        #self.audioListWidget.setMaximumSize(600, 100)
-        
-        self.freehandDrawWidget.loadView("outtest.svg")
+        #self.freehandDrawWidget.loadView("outtest.svg")
         
         return self
     
@@ -103,9 +110,21 @@ class QNewDeckWidget(QWidget):
         pass
     
     def saveButtonClicked(self):
-        self.freehandDrawWidget.saveView("outtest.svg")
+        svg_filename = str(int(time.time())) + self.randomword(5) + ".svg"
+        
+        self.freehandDrawWidget.saveView(path.join(self.deckpath, svg_filename))
+        
+        name = self.nameLine.text()
+        word = self.wordLine.text()
+        translation = self.translationLine.text()
+        audio_filenames = None
+        
+        self.dbAdapter.saveDeckItem(name, word, translation, svg_filename, audio_filenames)
         
         
     
     def clearDrawViewButtonClicked(self):
         self.freehandDrawWidget.clearView()
+        
+    def randomword(self, length):
+        return ''.join(random.choice(string.ascii_lowercase) for i in range(length))

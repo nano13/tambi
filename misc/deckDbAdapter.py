@@ -10,22 +10,22 @@ class DeckDbAdapter(object):
         self.initializeTables()
         
     def initializeTables(self):
-        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, word TEXT, translation TEXT, svg_path TEXT, audio_path TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
+        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, audio_filenames TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
         
         self.cursor.execute(query)
         self.connection.commit()
         
-    def saveDeckItem(self, name, word, translation, svg_path, audio_path):
-        query = "INSERT INTO deck (name, word, translation, svg_path, audio_path, created, known, priority, changed) VALUES (?, ?, ?, ?, ?, ?, 0, 0, ?)"
+    def saveDeckItem(self, name, word, translation, svg_filename, audio_filenames):
+        query = "INSERT INTO deck (name, word, translation, svg_filename, audio_filenames, created, known, priority, changed) VALUES (?, ?, ?, ?, ?, ?, 0, 0, ?)"
         
         created = int(time.time())
         changed = int(time.time())
         
-        self.cursor.execute(query, (name, word, translation, svg_path, audio_path, created, changed))
+        self.cursor.execute(query, (name, word, translation, svg_filename, audio_filenames, created, changed))
         self.connection.commit()
         
     def selectDeckItems(self):
-        query = "SELECT rowid, name, word, translation, svg_path, audio_path FROM deck"
+        query = "SELECT rowid, name, word, translation, svg_filename, audio_filenames FROM deck"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
