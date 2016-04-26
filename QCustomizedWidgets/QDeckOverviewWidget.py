@@ -1,11 +1,11 @@
 
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox
 from PyQt5.QtCore import pyqtSignal
 #from QCustomizedWidgets.QNewDeckWidget import QNewDeckWidget
 from misc.deckDbAdapter import DeckDbAdapter
 
-from os import path
+from os import path, remove
 from functools import partial
 
 class QDeckOverviewWidget(QWidget):
@@ -14,6 +14,7 @@ class QDeckOverviewWidget(QWidget):
     
     selectDeck = pyqtSignal()
     createNewItem = pyqtSignal(str, object)
+    editDeckItem = pyqtSignal(str, object, int)
     
     def __init__(self):
         super().__init__()
@@ -31,7 +32,7 @@ class QDeckOverviewWidget(QWidget):
         
         self.tableWidget = QTableWidget()
         self.tableWidget.setColumnCount(7)
-        self.tableWidget.setHorizontalHeaderLabels(["", "id", "name", "word", "translation", "svg", "#audio"])
+        self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "#audio"])
         self.tableWidget.verticalHeader().hide()
         
         new_item_button = QPushButton("new item")
@@ -66,7 +67,7 @@ class QDeckOverviewWidget(QWidget):
             
             self.tableWidget.setCellWidget(i, 0, edit_button)
             self.tableWidget.setCellWidget(i, 1, delete_button)
-            self.tableWidget.setItem(i, 2, QTableWidgetItem(rowid))
+            self.tableWidget.setItem(i, 2, QTableWidgetItem(str(rowid)))
             self.tableWidget.setItem(i, 3, QTableWidgetItem(name))
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
             self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
@@ -80,9 +81,20 @@ class QDeckOverviewWidget(QWidget):
         self.createNewItem.emit(self.deckpath, self.dbAdapter)
         
     def editRowButtonClicked(self, rowid):
-        print(rowid)
+        self.editDeckItem.emit(self.deckpath, self.dbAdapter, int(rowid))
     
     def deleteRowButtonClicked(self, rowid):
-        #TODO: Delete Files!
-        self.dbAdapter.deleteItem(rowid)
-        self.initWithDbData()
+        
+        delete_msg = "really?"
+        reply = QMessageBox.question(self, 'Delete', delete_msg, QMessageBox.Yes, QMessageBox.No)
+        
+        if reply == QMessageBox.Yes:
+            svg_filename, audio_filenames = self.dbAdapter.deleteItem(rowid)
+            if svg_filename:
+                remove(path.join(self.deckpath, svg_filename))
+            
+            if audio_filenames[0] != None:
+                for audio in audio_filenames:
+                    remove(path.join(self.deckpath, audio))
+            
+            self.initWithDbData()

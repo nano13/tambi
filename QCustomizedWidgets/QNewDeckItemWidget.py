@@ -10,11 +10,13 @@ from functools import partial
 from os import path
 import time, random, string
 
-class QNewDeckWidget(QWidget):
+class QNewDeckItemWidget(QWidget):
     
     selectItem = pyqtSignal()
     deckpath = None
     dbAdapter = None
+    current_rowid = None
+    svg_filename = None
     
     def __init__(self):
         super().__init__()
@@ -24,6 +26,27 @@ class QNewDeckWidget(QWidget):
         
     def setDbAdapter(self, dbAdapter):
         self.dbAdapter = dbAdapter
+        
+    def initializeAsEmpty(self):
+        self.clearDrawViewButtonClicked()
+        self.nameLine.setText("")
+        self.wordLine.setText("")
+        self.translationLine.setText("")
+        
+    def initializeWithRowID(self, rowid):
+        self.current_rowid = rowid
+        
+        self.clearDrawViewButtonClicked()
+        
+        result = self.dbAdapter.selectDeckItem(rowid)
+        
+        svgsavepath = path.join(self.deckpath, result["svg_filename"])
+        self.svg_filename = result["svg_filename"]
+        self.freehandDrawWidget.loadView(svgsavepath)
+        self.nameLine.setText(result["name"])
+        self.wordLine.setText(result["word"])
+        self.translationLine.setText(result["translation"])
+        
         
     def newDeckPage(self):
         grid = QGridLayout()
@@ -110,18 +133,26 @@ class QNewDeckWidget(QWidget):
         pass
     
     def saveButtonClicked(self):
-        svg_filename = str(int(time.time())) + self.randomword(5) + ".svg"
-        
-        self.freehandDrawWidget.saveView(path.join(self.deckpath, svg_filename))
         
         name = self.nameLine.text()
         word = self.wordLine.text()
         translation = self.translationLine.text()
         audio_filenames = None
         
-        self.dbAdapter.saveDeckItem(name, word, translation, svg_filename, audio_filenames)
-        
-        
+        if self.current_rowid == False:
+            svg_filename = str(int(time.time())) + self.randomword(5) + ".svg"
+            
+            self.freehandDrawWidget.saveView(path.join(self.deckpath, svg_filename))
+            
+            self.dbAdapter.saveDeckItem(name, word, translation, svg_filename, audio_filenames)
+            
+        else:
+            self.freehandDrawWidget.saveView(path.join(self.deckpath, self.svg_filename))
+            
+            self.dbAdapter.updateDeckItem(self.current_rowid, name, word, translation, self.svg_filename, audio_filenames)
+            
+        # return to parent view:
+        self.selectItem.emit()
     
     def clearDrawViewButtonClicked(self):
         self.freehandDrawWidget.clearView()

@@ -51,14 +51,30 @@ class DeckDbAdapter(object):
         return self.dictFactory(result)
     
     def selectDeckItem(self, rowid):
-        query = "SELECT name, word, translation, svg_filename, audio_filenames FROM deck WHERE rowid=?"
-        self.cursor.execute(query, (rowid))
+        query = "SELECT name, word, translation, svg_filename, audio_filenames FROM deck WHERE rowid={0}".format(rowid)
+        self.cursor.execute(query)
         result = self.cursor.fetchall()
         
-        return self.dictFactory(result)
+        return self.dictFactory(result)[0]
+    
+    def updateDeckItem(self, rowid, name, word, translation, svg_filename, audio_filenames):
+        query = "UPDATE deck SET name='{0}', word='{1}', translation='{2}', svg_filename='{3}', audio_filenames='{4}' WHERE rowid={5}".format(name, word, translation, str(svg_filename), audio_filenames, rowid)
+        self.cursor.execute(query)
     
     def deleteItem(self, rowid):
+        query = "SELECT svg_filename FROM deck WHERE rowid={0}".format(rowid)
+        self.cursor.execute(query)
+        svg_filename = self.cursor.fetchall()
+        #print(svg_filename)
+        
+        query = "SELECT audio_filenames FROM deck WHERE rowid={0}".format(rowid)
+        self.cursor.execute(query)
+        audio_filenames = self.cursor.fetchall()
+        #print(audio_filenames)
+        
         query = "DELETE FROM deck WHERE rowid={0}".format(rowid)
         self.cursor.execute(query)
         self.connection.commit()
         
+        return svg_filename[0][0], audio_filenames[0]
+    
