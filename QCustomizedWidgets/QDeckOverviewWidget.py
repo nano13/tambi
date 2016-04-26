@@ -27,7 +27,9 @@ class QDeckOverviewWidget(QWidget):
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
         self.tableWidget = QTableWidget()
-        self.tableWidget.setColumnCount(5)
+        self.tableWidget.setColumnCount(7)
+        self.tableWidget.setHorizontalHeaderLabels(["", "id", "name", "word", "translation", "svg", "#audio"])
+        self.tableWidget.verticalHeader().hide()
         
         new_item_button = QPushButton("new item")
         new_item_button.clicked.connect(self.newItemButtonClicked)
@@ -48,10 +50,25 @@ class QDeckOverviewWidget(QWidget):
         
         for i, line in enumerate(data):
             for j, item in enumerate(line):
-                self.tableWidget.setItem(i, j, QTableWidgetItem(str(item)))
+                
+                if str(item).endswith(".svg"):
+                    item = "yes"
+                
+                self.tableWidget.setItem(i, j+1, QTableWidgetItem(str(item)))
+                
+                if j == 0:
+                    rowid = str(item)
+                    edit_button = QPushButton("edit")
+                    edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
+                    self.tableWidget.setCellWidget(i, 0, edit_button)
+                
+        self.tableWidget.resizeColumnsToContents()
             
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
         
     def newItemButtonClicked(self):
         self.createNewItem.emit(self.deckpath, self.dbAdapter)
+        
+    def editRowButtonClicked(self, rowid):
+        print(rowid)
