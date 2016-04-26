@@ -2,6 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog
 from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
 from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
+from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
 from QCustomizedWidgets.QNewDeckWidget import QNewDeckWidget
 
 #from os.path import expanduser, join
@@ -21,14 +22,18 @@ class QVocableWidget(QWidget):
         self.stack_vocable_learn.vocableLearnPage()
         self.stack_vocable_learn.selectLanguage.connect(self.selectLanguage)
         
+        self.stack_deck_overview = QDeckOverviewWidget()
+        self.stack_deck_overview.selectDeck.connect(self.selectDeck)
+        self.stack_deck_overview.createNewItem.connect(self.createNewDeckItem)
+        
         self.stack_new_deck = QNewDeckWidget()
         self.stack_new_deck.newDeckPage()
-        self.stack_new_deck.selectLanguage.connect(self.selectLanguage)
-        
+        self.stack_new_deck.selectItem.connect(self.selectItem)
         
         self.Stack = QStackedWidget(self)
         self.Stack.addWidget(self.stack_language_select)
         self.Stack.addWidget(self.stack_vocable_learn)
+        self.Stack.addWidget(self.stack_deck_overview)
         self.Stack.addWidget(self.stack_new_deck)
         
         grid = QGridLayout()
@@ -44,6 +49,9 @@ class QVocableWidget(QWidget):
     def selectLanguage(self):
         self.Stack.setCurrentIndex(0)
         
+    def selectItem(self):
+        self.Stack.setCurrentIndex(2)
+        
     def languageSelected(self, language):
         self.Stack.setCurrentIndex(1)
         
@@ -54,3 +62,10 @@ class QVocableWidget(QWidget):
         folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", defaultpath)
         if folder:
             self.Stack.setCurrentIndex(2)
+            self.stack_deck_overview.initializeDeckOverview(folder)
+            
+    def selectDeck(self):
+        self.Stack.setCurrentIndex(0)
+    
+    def createNewDeckItem(self):
+        self.Stack.setCurrentIndex(3)

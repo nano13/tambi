@@ -4,12 +4,13 @@ from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
+#from misc.deckDbAdapter import DeckDbAdapter
 
 from functools import partial
 
 class QNewDeckWidget(QWidget):
     
-    selectLanguage = pyqtSignal()
+    selectItem = pyqtSignal()
     
     def __init__(self):
         super().__init__()
@@ -18,7 +19,7 @@ class QNewDeckWidget(QWidget):
         grid = QGridLayout()
         layout = self.setLayout(grid)
         
-        language_select_button = QPushButton("select deck")
+        language_select_button = QPushButton("select item")
         language_select_button.clicked.connect(self.languageSelectButtonClicked)
         
         clear_draw_view_button = QPushButton("clear draw area")
@@ -60,7 +61,7 @@ class QNewDeckWidget(QWidget):
         return self
     
     def languageSelectButtonClicked(self):
-        self.selectLanguage.emit()
+        self.selectItem.emit()
         
     def initAudioListWidget(self):
         self.audioListWidget.setColumnCount(4)
@@ -103,6 +104,8 @@ class QNewDeckWidget(QWidget):
     
     def saveButtonClicked(self):
         self.freehandDrawWidget.saveView("outtest.svg")
+        
+        
     
     def clearDrawViewButtonClicked(self):
         self.freehandDrawWidget.clearView()
