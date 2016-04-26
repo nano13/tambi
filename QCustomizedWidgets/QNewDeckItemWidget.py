@@ -28,6 +28,9 @@ class QNewDeckItemWidget(QWidget):
         self.dbAdapter = dbAdapter
         
     def initializeAsEmpty(self):
+        self.current_rowid = None
+        self.svg_filename = None
+        
         self.clearDrawViewButtonClicked()
         self.nameLine.setText("")
         self.wordLine.setText("")
