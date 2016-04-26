@@ -58,3 +58,8 @@ class DeckDbAdapter(object):
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)
+    
+    def deleteItem(self, rowid):
+        query = "DELETE FROM deck WHERE rowid=?"
+        self.cursor.execute(query, (rowid))
+        

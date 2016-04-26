@@ -50,6 +50,7 @@ class QVocableStackedWidget(QWidget):
         self.Stack.setCurrentIndex(0)
         
     def selectItem(self):
+        self.stack_deck_overview.update()
         self.Stack.setCurrentIndex(2)
         
     def languageSelected(self, language):
