@@ -60,6 +60,8 @@ class DeckDbAdapter(object):
     def updateDeckItem(self, rowid, name, word, translation, svg_filename, audio_filenames):
         query = "UPDATE deck SET name='{0}', word='{1}', translation='{2}', svg_filename='{3}', audio_filenames='{4}' WHERE rowid={5}".format(name, word, translation, str(svg_filename), audio_filenames, rowid)
         self.cursor.execute(query)
+        
+        self.connection.commit()
     
     def deleteItem(self, rowid):
         query = "SELECT svg_filename FROM deck WHERE rowid={0}".format(rowid)
