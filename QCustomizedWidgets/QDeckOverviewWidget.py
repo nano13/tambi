@@ -52,19 +52,25 @@ class QDeckOverviewWidget(QWidget):
         self.tableWidget.setRowCount(len(data))
         
         for i, line in enumerate(data):
-            for j, item in enumerate(line):
-                
-                if str(item).endswith(".svg"):
-                    item = "yes"
-                
-                self.tableWidget.setItem(i, j+1, QTableWidgetItem(str(item)))
-                
-                if j == 0:
-                    rowid = str(item)
-                    edit_button = QPushButton("edit")
-                    edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
-                    self.tableWidget.setCellWidget(i, 0, edit_button)
-                
+            rowid = line["rowid"]
+            name = line["name"]
+            word = line["word"]
+            translation = line["translation"]
+            svg_filename = line["svg_filename"]
+            audio_filenames = line["audio_filenames"]
+            
+            edit_button = QPushButton("edit")
+            edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
+            delete_button = QPushButton("delete")
+            delete_button.clicked.connect(partial(self.deleteRowButtonClicked, rowid))
+            
+            self.tableWidget.setCellWidget(i, 0, edit_button)
+            self.tableWidget.setCellWidget(i, 1, delete_button)
+            self.tableWidget.setItem(i, 2, QTableWidgetItem(rowid))
+            self.tableWidget.setItem(i, 3, QTableWidgetItem(name))
+            self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
+            self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
+            
         self.tableWidget.resizeColumnsToContents()
             
     def selectDeckButtonClicked(self):
@@ -75,3 +81,8 @@ class QDeckOverviewWidget(QWidget):
         
     def editRowButtonClicked(self, rowid):
         print(rowid)
+    
+    def deleteRowButtonClicked(self, rowid):
+        #TODO: Delete Files!
+        self.dbAdapter.deleteItem(rowid)
+        self.initWithDbData()
