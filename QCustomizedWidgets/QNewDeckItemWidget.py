@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTableWidget, QTableWidgetItem, QLineEdit, QLabel
+from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTableWidget, QTableWidgetItem, QLineEdit, QLabel, QMessageBox
 from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
 
@@ -31,7 +31,7 @@ class QNewDeckItemWidget(QWidget):
         self.current_rowid = None
         self.svg_filename = None
         
-        self.clearDrawViewButtonClicked()
+        self.clearDrawView()
         self.nameLine.setText("")
         self.wordLine.setText("")
         self.translationLine.setText("")
@@ -39,7 +39,7 @@ class QNewDeckItemWidget(QWidget):
     def initializeWithRowID(self, rowid):
         self.current_rowid = rowid
         
-        self.clearDrawViewButtonClicked()
+        self.clearDrawView()
         
         result = self.dbAdapter.selectDeckItem(rowid)
         
@@ -157,7 +157,12 @@ class QNewDeckItemWidget(QWidget):
         # return to parent view:
         self.selectItem.emit()
     
-    def clearDrawViewButtonClicked(self):
+    def clearDrawViewButtonClicked(self):#
+        reply = QMessageBox.question(self, 'Drop Drawing', "really?", QMessageBox.Yes, QMessageBox.No)
+        if reply == QMessageBox.Yes:
+            self.clearDrawView()
+            
+    def clearDrawView(self):
         self.freehandDrawWidget.clearView()
         
     def randomword(self, length):
