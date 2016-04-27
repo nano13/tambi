@@ -2,7 +2,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGraphicsView, QApplication, QGraphicsScene, QPushButton, QVBoxLayout, QGraphicsItem, QGraphicsEllipseItem, QGraphicsLineItem, QGraphicsRectItem, QGridLayout
 from PyQt5 import QtCore
-from PyQt5.QtGui import QPen, QCursor, QPixmap
+from PyQt5.QtGui import QPen, QCursor, QPixmap, QPainter
 
 from misc.exportSVG import ExportSVG
 from misc.importSVG import ImportSVG
@@ -12,6 +12,7 @@ class QFreehandDrawView(QGraphicsView):
         QGraphicsView.__init__(self, parent)
         self.setScene(QGraphicsScene(self))
         self.setSceneRect(QtCore.QRectF(self.viewport().rect()))
+        self.setRenderHint(QPainter.Antialiasing)
         
         self.penRadius = 5
         self.rubberRadius = 10
