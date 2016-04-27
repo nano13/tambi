@@ -32,8 +32,8 @@ class QDeckOverviewWidget(QWidget):
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
         self.tableWidget = QTableWidget()
-        self.tableWidget.setColumnCount(7)
-        self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "#audio"])
+        self.tableWidget.setColumnCount(8)
+        self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "audio"])
         self.tableWidget.verticalHeader().hide()
         
         new_item_button = QPushButton("new item")
