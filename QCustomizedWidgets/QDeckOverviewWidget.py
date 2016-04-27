@@ -2,6 +2,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox
 from PyQt5.QtCore import pyqtSignal
+from PyQt5 import QtSvg
 #from QCustomizedWidgets.QNewDeckWidget import QNewDeckWidget
 from misc.deckDbAdapter import DeckDbAdapter
 
@@ -60,6 +61,10 @@ class QDeckOverviewWidget(QWidget):
             svg_filename = line["svg_filename"]
             audio_filenames = line["audio_filenames"]
             
+            svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, svg_filename))
+            #svgWidget.setGeometry(50,50,759,668)
+            svgWidget.setFixedSize(60, 30)
+            
             edit_button = QPushButton("edit")
             edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
             delete_button = QPushButton("delete")
@@ -71,6 +76,7 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setItem(i, 3, QTableWidgetItem(name))
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
             self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
+            self.tableWidget.setCellWidget(i, 6, svgWidget)
             
         self.tableWidget.resizeColumnsToContents()
             
