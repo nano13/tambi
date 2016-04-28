@@ -18,13 +18,23 @@ class QDeckAudioItemWidget(QAudioInput):
         format.setCodec("audio/pcm");
         format.setByteOrder(QAudioFormat.LittleEndian);
         
-        self.audio_input = QAudioInput(QAudioDeviceInfo.defaultInputDevice(), format);
+        info = QAudioDeviceInfo.defaultInputDevice();
+        if not info.isFormatSupported(format):
+            qWarning()<<"default format not supported try to use nearest";
+            format = info.nearestFormat(format);
+        
+        print(format.codec())
+        print(info.nearestFormat(format).codec())
+        
+        #self.audio_input = QAudioInput(QAudioDeviceInfo.defaultInputDevice(), format);
+        
+        self.audio_input = QAudioInput(format, self);
+        
+        print(self.audio_input.error())
+        print(self.audio_input.state())
         
     def start():
         self.audio_input.start()
-        
-        #print(self.audio_input.error())
-        #print(self.audio_input.state())
         
     def stop():
         self.audio_input.stop()
