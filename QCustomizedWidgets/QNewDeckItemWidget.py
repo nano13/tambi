@@ -4,9 +4,7 @@ from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
-from misc.audioRecording import RecordAudio
-from QCustomizedWidgets.QDeckAudioItemWidget import QDeckAudioItemWidget
-from misc.playAudio import PlayAudio
+from QCustomizedWidgets.QNewDeckAudioListWidget import QNewDeckAudioListWidget
 
 from functools import partial
 from os import path
@@ -19,8 +17,6 @@ class QNewDeckItemWidget(QWidget):
     dbAdapter = None
     current_rowid = None
     svg_filename = None
-    audioRecordingDict = {}
-    audioPlayer = PlayAudio()
     
     def __init__(self):
         super().__init__()
@@ -73,8 +69,8 @@ class QNewDeckItemWidget(QWidget):
         self.wordLine = QLineEdit()
         translationLabel = QLabel("translation:")
         self.translationLine = QLineEdit()
-        self.audioListWidget = QTableWidget()
-        self.initAudioListWidget()
+        self.audioListWidget = QNewDeckAudioListWidget()
+        self.audioListWidget.initAudioListWidget()
         newAudioButton = QPushButton("new audio")
         newAudioButton.clicked.connect(self.newAudioButtonClicked)
         saveButton = QPushButton("save")
@@ -100,74 +96,10 @@ class QNewDeckItemWidget(QWidget):
     def languageSelectButtonClicked(self):
         self.selectItem.emit()
         
-    def initAudioListWidget(self):
-        self.audioListWidget.setColumnCount(4)
-        self.audioListWidget.setHorizontalHeaderLabels(["Description", "", "", ""])
-        self.audioListWidget.setRowCount(1)
-        
-        self.updateAudioListWidget()
-        
-        
-    def updateAudioListWidget(self):
-        for row in range(self.audioListWidget.rowCount()):
-            button_delete = QPushButton("delete", self)
-            self.audioListWidget.setCellWidget(row, 3, button_delete)
-            button_delete.clicked.connect(partial(self.deleteAudioButtonClicked, row))
-            
-            button_record = QPushButton("record", self)
-            self.audioListWidget.setCellWidget(row, 1, button_record)
-            button_record.clicked.connect(partial(self.recordStopButtonClicked, row))
-            
-            button_play = QPushButton("play", self)
-            self.audioListWidget.setCellWidget(row, 2, button_play)
-            button_play.clicked.connect(partial(self.playButtonClicked, row))
-            
-            self.audioListWidget.resizeColumnsToContents()
-        
     def newAudioButtonClicked(self):
         row_position = self.audioListWidget.rowCount()
         self.audioListWidget.insertRow(row_position)
-        self.updateAudioListWidget()
-        
-    def deleteAudioButtonClicked(self, row):
-        self.audioListWidget.removeRow(row)
-        self.updateAudioListWidget()
-        
-    def recordStopButtonClicked(self, row):
-        #self.audioPlayer.play("./soldiers_joy.ogg")
-        
-        #self.audioRecorder = QDeckAudioItemWidget()
-        #self.audioRecorder.initAudioInput()
-        #self.audioRecorder.start()
-        
-        
-        self.audioRecorder = RecordAudio()
-        self.audioRecorder.record("blaahh.ogg")
-        
-        #try:
-            #self.audioRecordingDict[row]
-        #except KeyError:
-            
-            #self.audioRecordingDict[row] = AudioRecording()
-            #self.audioRecordingDict[row].setFilename("audioout.wav")
-            
-        #else:
-            #if self.audioRecordingDict[row].recording:
-                #self.stopButtonClicked(row)
-            #else:
-                #self.recordButtonClicked(row)
-            
-        
-    def recordButtonClicked(self, row):
-        print("recording")
-        self.audioRecordingDict[row].startRecording()
-        
-    def stopButtonClicked(self, row):
-        print("stopping")
-        self.audioRecording.stopRecording()
-    
-    def playButtonClicked(self, row):
-        self.audioRecorder.stop()
+        self.audioListWidget.updateAudioListWidget()
     
     def saveButtonClicked(self):
         

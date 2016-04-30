@@ -4,6 +4,7 @@ from PyQt5.QtCore import QTimer, QFile, QIODevice
 
 class QDeckAudioItemWidget(QAudioInput):
     
+    audioInput = None
     outputFile = None
     
     def __init__(self):

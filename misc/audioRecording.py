@@ -31,6 +31,8 @@ class RecordAudio(object):
         #container = None
         #self.recorder.setEncodingSettings(settings, container)
         
+    def record(self):
+        self.recorder.record()
         
     def stop(self):
-        pass
+        self.recorder.stop()
