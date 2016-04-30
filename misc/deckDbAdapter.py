@@ -12,8 +12,11 @@ class DeckDbAdapter(object):
         
     def initializeTables(self):
         query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, audio_filenames TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
-        
         self.cursor.execute(query)
+        
+        query  = "CREATE TABLE IF NOT EXISTS audio (rowid INTEGER PRIMARY KEY AUTOINCREMENT, deck_rowid INTEGER, description TEXT, filename TEXT)"
+        self.cursor.execute(query)
+        
         self.connection.commit()
     
 #    def dict_factory(cursor, row):

@@ -9,16 +9,21 @@ from functools import partial
 
 class QNewDeckAudioListWidget(QTableWidget):
     
+    deckpath = None
     current_deck_rowid = None
     dbAdapter = None
     
-    audioRecordingDict = {}
+    audioFilesDict = {}
     audioPlayer = PlayAudio()
     
     def __init__(self):
         super().__init__()
         
-    def initAudioListWidget(self):
+    def initAudioListWidget(self, dbAdapter, deckpath, current_rowid):
+        self.dbAdapter = dbAdapter
+        self.deckpath = deckpath
+        self.current_deck_rowid = current_rowid
+        
         self.setColumnCount(4)
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
         self.setRowCount(1)
