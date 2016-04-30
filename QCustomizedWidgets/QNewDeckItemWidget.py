@@ -4,7 +4,9 @@ from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
-#from misc.deckDbAdapter import DeckDbAdapter
+from misc.audioRecording import RecordAudio
+from QCustomizedWidgets.QDeckAudioItemWidget import QDeckAudioItemWidget
+from misc.playAudio import PlayAudio
 
 from functools import partial
 from os import path
@@ -17,6 +19,8 @@ class QNewDeckItemWidget(QWidget):
     dbAdapter = None
     current_rowid = None
     svg_filename = None
+    audioRecordingDict = {}
+    audioPlayer = PlayAudio()
     
     def __init__(self):
         super().__init__()
@@ -112,7 +116,7 @@ class QNewDeckItemWidget(QWidget):
             
             button_record = QPushButton("record", self)
             self.audioListWidget.setCellWidget(row, 1, button_record)
-            button_record.clicked.connect(partial(self.recordButtonClicked, row))
+            button_record.clicked.connect(partial(self.recordStopButtonClicked, row))
             
             button_play = QPushButton("play", self)
             self.audioListWidget.setCellWidget(row, 2, button_play)
@@ -129,11 +133,41 @@ class QNewDeckItemWidget(QWidget):
         self.audioListWidget.removeRow(row)
         self.updateAudioListWidget()
         
+    def recordStopButtonClicked(self, row):
+        #self.audioPlayer.play("./soldiers_joy.ogg")
+        
+        #self.audioRecorder = QDeckAudioItemWidget()
+        #self.audioRecorder.initAudioInput()
+        #self.audioRecorder.start()
+        
+        
+        self.audioRecorder = RecordAudio()
+        self.audioRecorder.record("blaahh.ogg")
+        
+        #try:
+            #self.audioRecordingDict[row]
+        #except KeyError:
+            
+            #self.audioRecordingDict[row] = AudioRecording()
+            #self.audioRecordingDict[row].setFilename("audioout.wav")
+            
+        #else:
+            #if self.audioRecordingDict[row].recording:
+                #self.stopButtonClicked(row)
+            #else:
+                #self.recordButtonClicked(row)
+            
+        
     def recordButtonClicked(self, row):
-        pass
+        print("recording")
+        self.audioRecordingDict[row].startRecording()
+        
+    def stopButtonClicked(self, row):
+        print("stopping")
+        self.audioRecording.stopRecording()
     
     def playButtonClicked(self, row):
-        pass
+        self.audioRecorder.stop()
     
     def saveButtonClicked(self):
         

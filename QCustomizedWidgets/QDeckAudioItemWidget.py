@@ -1,14 +1,19 @@
 
 from PyQt5.QtMultimedia import QAudioInput, QAudioFormat, QAudioDeviceInfo
+from PyQt5.QtCore import QTimer, QFile, QIODevice
 
 class QDeckAudioItemWidget(QAudioInput):
     
-    audio_input = None
+    outputFile = None
     
     def __init__(self):
         super().__init__()
         
     def initAudioInput(self):
+        
+        self.outputFile = QFile()
+        self.outputFile.setFileName("bla.wav")
+        self.outputFile.open(QIODevice.WriteOnly | QIODevice.Truncate)
         
         format = QAudioFormat();
         format.setSampleType(QAudioFormat.Float);
@@ -18,31 +23,28 @@ class QDeckAudioItemWidget(QAudioInput):
         format.setCodec("audio/pcm");
         format.setByteOrder(QAudioFormat.LittleEndian);
         
-        info = QAudioDeviceInfo.defaultInputDevice();
-        if not info.isFormatSupported(format):
-            qWarning()<<"default format not supported try to use nearest";
-            format = info.nearestFormat(format);
-        
         print(format.codec())
-        print(info.nearestFormat(format).codec())
         
         #self.audio_input = QAudioInput(QAudioDeviceInfo.defaultInputDevice(), format);
         
-        self.audio_input = QAudioInput(format, self);
+        self.audio_input = QAudioInput(format);
         
         print(self.audio_input.error())
         print(self.audio_input.state())
         
-    def start():
-        self.audio_input.start()
+        #QTimer.singleShot(3000, self, 
         
-    def stop():
+    def start(self):
+        self.audio_input.start(self.outputFile)
+        
+    def stop(self):
         self.audio_input.stop()
+        self.outputFile.close()
         
-    def suspend():
+    def suspend(self):
         self.audio_input.suspend()
         
-    def resume():
+    def resume(self):
         self.audio_input.resume()
         
 if __name__ == "__main__":

@@ -85,7 +85,7 @@ class Window(QWidget):
         # being 16 bits (2 bytes).
         
         self.data.clear()
-        for i in range(2 * 22050):
+        for i in xrange(2 * 22050):
             t = i / 22050.0
             value = int(self.volume * sin(2 * pi * self.frequency * t))
             self.data.append(struct.pack("<h", value))
