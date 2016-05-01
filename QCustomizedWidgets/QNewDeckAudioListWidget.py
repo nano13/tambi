@@ -1,9 +1,10 @@
 
 from PyQt5.QtWidgets import QPushButton, QMessageBox, QTableWidget, QTableWidgetItem
+from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
+from PyQt5 import QtCore
 
 from misc.audioRecording import RecordAudio
 from QCustomizedWidgets.QDeckAudioItemWidget import QDeckAudioItemWidget
-from misc.playAudio import PlayAudio
 
 from functools import partial
 from os import path
@@ -19,7 +20,7 @@ class QNewDeckAudioListWidget(QTableWidget):
     dbAdapter = None
     
     audioItemsDict = []
-    audioPlayer = PlayAudio()
+    audioPlayer = None
     
     STOPPED = 0
     RECORDING = 1
@@ -34,6 +35,9 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.dbAdapter = dbAdapter
         self.deckpath = deckpath
         self.current_deck_rowid = current_rowid
+        
+        self.audioPlayer = QMediaPlayer()
+        self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
         
         self.setColumnCount(3)
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
@@ -149,7 +153,10 @@ class QNewDeckAudioListWidget(QTableWidget):
     def playButtonClicked(self, row):
         filename = self.audioItemsDict[row]["filename"]
         filepath = path.join(self.deckpath, filename)
-        self.audioPlayer.play(filepath)
+        url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+        content = QMediaContent(url)
+        self.audioPlayer.setMedia(content)
+        self.audioPlayer.play()
         
         self.status = self.PLAYING
         self.row = row
@@ -160,3 +167,10 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         self.status = self.STOPPED
         self.updateAudioListWidget()
+        
+    def mediaStatusChanged(self):
+        #status = self.audioPlayer.mediaStatus()
+        
+        if self.audioPlayer.state() == QMediaPlayer.StoppedState:
+            self.status = self.STOPPED
+            self.updateAudioListWidget()
