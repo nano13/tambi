@@ -98,9 +98,9 @@ class QDeckOverviewWidget(QWidget):
             svg_filename, audio_filenames = self.dbAdapter.deleteItem(rowid)
             if svg_filename:
                 remove(path.join(self.deckpath, svg_filename))
+                pass
             
-            if audio_filenames[0] != None:
-                for audio in audio_filenames:
-                    remove(path.join(self.deckpath, audio))
+            for audio in audio_filenames:
+                remove(path.join(self.deckpath, audio))
             
             self.initWithDbData()

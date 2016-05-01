@@ -70,18 +70,23 @@ class DeckDbAdapter(object):
         query = "SELECT svg_filename FROM deck WHERE rowid={0}".format(rowid)
         self.cursor.execute(query)
         svg_filename = self.cursor.fetchall()
-        #print(svg_filename)
         
-        query = "SELECT audio_filenames FROM deck WHERE rowid={0}".format(rowid)
+        query = "SELECT filename FROM audio WHERE deck_rowid={0}".format(rowid)
         self.cursor.execute(query)
         audio_filenames = self.cursor.fetchall()
-        #print(audio_filenames)
+        audio_filenames_list = []
+        for filename in audio_filenames:
+            audio_filenames_list.append(filename[0])
         
         query = "DELETE FROM deck WHERE rowid={0}".format(rowid)
         self.cursor.execute(query)
+        
+        query = "DELETE FROM audio WHERE deck_rowid={0}".format(rowid)
+        self.cursor.execute(query)
+        
         self.connection.commit()
         
-        return svg_filename[0][0], audio_filenames[0]
+        return svg_filename[0][0], audio_filenames_list
     
     def insertAudioDict(self, audio_dict, deck_rowid):
         for item in audio_dict:
