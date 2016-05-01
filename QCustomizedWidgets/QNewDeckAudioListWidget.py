@@ -6,6 +6,11 @@ from QCustomizedWidgets.QDeckAudioItemWidget import QDeckAudioItemWidget
 from misc.playAudio import PlayAudio
 
 from functools import partial
+from os import path
+
+PLAY_BUTTON_COLUMN = 1
+RECORD_BUTTON_COLUMN = 1
+DELETE_BUTTON_COLUMN = 2
 
 class QNewDeckAudioListWidget(QTableWidget):
     
@@ -13,8 +18,14 @@ class QNewDeckAudioListWidget(QTableWidget):
     current_deck_rowid = None
     dbAdapter = None
     
-    audioFilesDict = {}
+    audioItemsDict = []
     audioPlayer = PlayAudio()
+    
+    STOPPED = 0
+    RECORDING = 1
+    PLAYING = 2
+    status = 0
+    row = None
     
     def __init__(self):
         super().__init__()
@@ -24,34 +35,71 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.deckpath = deckpath
         self.current_deck_rowid = current_rowid
         
-        self.setColumnCount(4)
+        self.setColumnCount(3)
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
         self.setRowCount(1)
         
-        self.getAudioFromDB(current_rowid)
+        #self.updateAudioListWidget()
+        
+    def getAudioFromDB(self, rowid):
+        self.audioItemsDict = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
+        self.setRowCount(len(self.audioItemsDict))
+        
+        for i, row in enumerate(self.audioItemsDict):
+            self.setItem(i, 0, QTableWidgetItem(row["description"]))
         
         self.updateAudioListWidget()
         
-    def getAudioFromDB(self, rowid):
-        if rowid:
-            result = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
-            print(result)
+    def appendNewAudio(self):
+        self.audioItemsDict.append({"description": None, "filename": None})
+        self.insertRow(self.rowCount())
+        self.updateAudioListWidget()
         
     def updateAudioListWidget(self):
-        for row in range(self.rowCount()):
+        for i, row in enumerate(range(self.rowCount())):
+            
             button_delete = QPushButton("delete", self)
-            self.setCellWidget(row, 3, button_delete)
+            self.setCellWidget(row, DELETE_BUTTON_COLUMN, button_delete)
             button_delete.clicked.connect(partial(self.deleteAudioButtonClicked, row))
             
-            button_record = QPushButton("record", self)
-            self.setCellWidget(row, 1, button_record)
-            button_record.clicked.connect(partial(self.recordStopButtonClicked, row))
-            
-            button_play = QPushButton("play", self)
-            self.setCellWidget(row, 2, button_play)
-            button_play.clicked.connect(partial(self.playButtonClicked, row))
+            if self.audioItemsDict[i]["filename"]:
+                if self.status == self.STOPPED:
+                    self.insertPlayButton(row)
+                else:
+                    if i == self.row:
+                        self.insertStopPlayButton(row)
+                    else:
+                        self.insertPlayButton(row)
+            else:
+                if self.status == self.STOPPED:
+                    self.insertRecordButton(row)
+                else:
+                    if i == self.row:
+                        self.insertStopRecordButton(row)
+                    else:
+                        self.insertRecordButton(row)
             
             self.resizeColumnsToContents()
+            
+    def insertPlayButton(self, row):
+        button_play = QPushButton("play", self)
+        self.setCellWidget(row, PLAY_BUTTON_COLUMN, button_play)
+        button_play.clicked.connect(partial(self.playButtonClicked, row))
+        
+    def insertStopPlayButton(self, row):
+        button_stop = QPushButton("stop", self)
+        self.setCellWidget(row, PLAY_BUTTON_COLUMN, button_stop)
+        button_stop.clicked.connect(partial(self.stopPlayButtonClicked, row))
+        
+    def insertRecordButton(self, row):
+        button_record = QPushButton("record", self)
+        self.setCellWidget(row, RECORD_BUTTON_COLUMN, button_record)
+        button_record.clicked.connect(partial(self.recordButtonClicked, row))
+        
+    def insertStopRecordButton(self, row):
+        button_stop = QPushButton("stop", self)
+        self.setCellWidget(row, RECORD_BUTTON_COLUMN, button_stop)
+        button_stop.clicked.connect(partial(self.stopRecordButtonClicked, row))
             
     def deleteAudioButtonClicked(self, row):
         reply = QMessageBox.question(self, 'Delete Audio', "really?", QMessageBox.Yes, QMessageBox.No)
@@ -84,12 +132,31 @@ class QNewDeckAudioListWidget(QTableWidget):
                 #self.recordButtonClicked(row)
                 
     def recordButtonClicked(self, row):
+        self.stopPlayButtonClicked(row)
+        self.stopRecordButtonClicked(row)
         print("recording")
-        self.audioRecordingDict[row].startRecording()
         
-    def stopButtonClicked(self, row):
+        self.status = self.RECORDING
+        self.row = row
+        self.updateAudioListWidget()
+        
+    def stopRecordButtonClicked(self, row):
         print("stopping")
-        self.audioRecording.stopRecording()
+        
+        self.status = self.STOPPED
+        self.updateAudioListWidget()
             
     def playButtonClicked(self, row):
-        self.audioRecorder.stop()
+        filename = self.audioItemsDict[row]["filename"]
+        filepath = path.join(self.deckpath, filename)
+        self.audioPlayer.play(filepath)
+        
+        self.status = self.PLAYING
+        self.row = row
+        self.updateAudioListWidget()
+        
+    def stopPlayButtonClicked(self, row):
+        self.audioPlayer.stop()
+        
+        self.status = self.STOPPED
+        self.updateAudioListWidget()

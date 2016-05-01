@@ -36,6 +36,8 @@ class QNewDeckItemWidget(QWidget):
         self.wordLine.setText("")
         self.translationLine.setText("")
         
+        self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
+        
     def initializeWithRowID(self, rowid):
         self.current_rowid = rowid
         
@@ -50,6 +52,8 @@ class QNewDeckItemWidget(QWidget):
         self.wordLine.setText(result["word"])
         self.translationLine.setText(result["translation"])
         
+        self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
+        self.audioListWidget.getAudioFromDB(self.current_rowid)
         
     def newDeckPage(self):
         grid = QGridLayout()
@@ -61,7 +65,6 @@ class QNewDeckItemWidget(QWidget):
         clear_draw_view_button = QPushButton("clear draw area")
         clear_draw_view_button.clicked.connect(self.clearDrawViewButtonClicked)
         
-        #self.freehandDrawWidget = QFreehandDrawWidget()
         self.freehandDrawWidget = QFreehandDrawView(self)
         nameLabel = QLabel("name:")
         self.nameLine = QLineEdit()
@@ -70,7 +73,6 @@ class QNewDeckItemWidget(QWidget):
         translationLabel = QLabel("translation:")
         self.translationLine = QLineEdit()
         self.audioListWidget = QNewDeckAudioListWidget()
-        #self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
         newAudioButton = QPushButton("new audio")
         newAudioButton.clicked.connect(self.newAudioButtonClicked)
         saveButton = QPushButton("save")
@@ -97,9 +99,7 @@ class QNewDeckItemWidget(QWidget):
         self.selectItem.emit()
         
     def newAudioButtonClicked(self):
-        row_position = self.audioListWidget.rowCount()
-        self.audioListWidget.insertRow(row_position)
-        self.audioListWidget.updateAudioListWidget()
+        self.audioListWidget.appendNewAudio()
     
     def saveButtonClicked(self):
         
