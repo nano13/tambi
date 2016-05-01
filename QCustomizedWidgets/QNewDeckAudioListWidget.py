@@ -28,7 +28,14 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
         self.setRowCount(1)
         
+        self.getAudioFromDB(current_rowid)
+        
         self.updateAudioListWidget()
+        
+    def getAudioFromDB(self, rowid):
+        if rowid:
+            result = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
+            print(result)
         
     def updateAudioListWidget(self):
         for row in range(self.rowCount()):

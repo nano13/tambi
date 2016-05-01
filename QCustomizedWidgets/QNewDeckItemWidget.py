@@ -70,7 +70,7 @@ class QNewDeckItemWidget(QWidget):
         translationLabel = QLabel("translation:")
         self.translationLine = QLineEdit()
         self.audioListWidget = QNewDeckAudioListWidget()
-        self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
+        #self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
         newAudioButton = QPushButton("new audio")
         newAudioButton.clicked.connect(self.newAudioButtonClicked)
         saveButton = QPushButton("save")

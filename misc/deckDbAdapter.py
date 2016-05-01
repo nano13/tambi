@@ -83,3 +83,14 @@ class DeckDbAdapter(object):
         
         return svg_filename[0][0], audio_filenames[0]
     
+    def insertAudio(self, description, filename, deck_rowid):
+        query = "INSERT INTO audio (deck_rowid, description, filename) VALUES ({0}, {1}, {2})".format(deck_rowid, description, filename)
+        self.cursor.execute(query)
+        self.connection.commit()
+    
+    def audioFilenamesForDeckRowID(self, rowid):
+        query = "SELECT description, filename FROM audio WHERE deck_rowid={0}".format(rowid)
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
