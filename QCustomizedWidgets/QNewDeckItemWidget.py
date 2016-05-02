@@ -107,6 +107,7 @@ class QNewDeckItemWidget(QWidget):
         word = self.wordLine.text()
         translation = self.translationLine.text()
         audio_filenames = None
+        deck_rowid = None
         
         if self.current_rowid == None:
             svg_filename = str(int(time.time())) + self.randomword(5) + ".svg"
@@ -115,11 +116,16 @@ class QNewDeckItemWidget(QWidget):
             
             self.dbAdapter.saveDeckItem(name, word, translation, svg_filename, audio_filenames)
             
+            deck_rowid = self.dbAdapter.getDeckItemRowID(name, word, translation, svg_filename)
+            
         else:
             self.freehandDrawWidget.saveView(path.join(self.deckpath, self.svg_filename))
             
             self.dbAdapter.updateDeckItem(self.current_rowid, name, word, translation, self.svg_filename, audio_filenames)
             
+            deck_rowid = self.current_rowid
+            
+        self.audioListWidget.saveStateToDB(deck_rowid)
         # return to parent view:
         self.selectItem.emit()
     

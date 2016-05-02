@@ -46,6 +46,13 @@ class DeckDbAdapter(object):
         self.cursor.execute(query, (name, word, translation, svg_filename, audio_filenames, created, changed))
         self.connection.commit()
         
+    def getDeckItemRowID(self, name, word, translation, svg_filename):
+        query = "SELECT rowid FROM deck WHERE name='{0}' AND word='{1}' AND translation='{2}' AND svg_filename='{3}'".format(name, word, translation, svg_filename)
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return result[0]
+        
     def selectDeckItems(self):
         query = "SELECT rowid, name, word, translation, svg_filename, audio_filenames FROM deck"
         self.cursor.execute(query)
@@ -88,14 +95,18 @@ class DeckDbAdapter(object):
         
         return svg_filename[0][0], audio_filenames_list
     
-    def insertAudioDict(self, audio_dict, deck_rowid):
+    def saveAudioDict(self, audio_dict, deck_rowid):
         for item in audio_dict:
-            query = "INSERT INTO audio (deck_rowid, description, filename) VALUES ({0}, {1}, {2})".format(deck_rowid, item["description"], item["filename"])
+            if item["rowid"]:
+                query = "UPDATE audio SET description='{0}' WHERE rowid={1}".format(item["description"], item["rowid"])
+            else:
+                query = "INSERT INTO audio (deck_rowid, description, filename) VALUES ({0}, '{1}', '{2}')".format(deck_rowid, item["description"], item["filename"])
+                
             self.cursor.execute(query)
         self.connection.commit()
     
     def audioFilenamesForDeckRowID(self, rowid):
-        query = "SELECT description, filename FROM audio WHERE deck_rowid={0}".format(rowid)
+        query = "SELECT rowid, description, filename FROM audio WHERE deck_rowid={0}".format(rowid)
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         

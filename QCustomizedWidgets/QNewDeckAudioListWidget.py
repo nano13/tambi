@@ -46,6 +46,8 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
         self.setRowCount(1)
         
+        self.itemChanged.connect(self.onItemChanged)
+        
         #self.updateAudioListWidget()
         
     def getAudioFromDB(self, rowid):
@@ -58,7 +60,7 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.updateAudioListWidget()
         
     def appendNewAudio(self):
-        self.audioItemsDict.append({"description": None, "filename": None})
+        self.audioItemsDict.append({"rowid": None, "description": None, "filename": None})
         self.insertRow(self.rowCount())
         self.updateAudioListWidget()
         
@@ -146,6 +148,8 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.audioRecorder.initAudioInput(filepath)
         self.audioRecorder.start()
         
+        self.audioItemsDict[row]["filename"] = filename
+        
         self.status = self.RECORDING
         self.row = row
         self.updateAudioListWidget()
@@ -183,6 +187,17 @@ class QNewDeckAudioListWidget(QTableWidget):
         if self.audioPlayer.state() == QMediaPlayer.StoppedState:
             self.status = self.STOPPED
             self.updateAudioListWidget()
+            
+    def onItemChanged(self):
+        
+        for i in range(self.rowCount()):
+            item = self.item(i, 0)
+            if item:
+                cell_text = self.item(i, 0).text()
+                self.audioItemsDict[i]["description"] = cell_text
+            
+    def saveStateToDB(self, deck_rowid):
+        self.dbAdapter.saveAudioDict(self.audioItemsDict, deck_rowid)
     
     def randomword(self, length):
         return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
