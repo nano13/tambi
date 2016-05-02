@@ -4,16 +4,16 @@ from PyQt5.QtCore import QTimer, QFile, QIODevice
 
 class QDeckAudioItemWidget(QAudioInput):
     
-    audioInput = None
+    audio_input = None
     outputFile = None
     
     def __init__(self):
         super().__init__()
         
-    def initAudioInput(self):
+    def initAudioInput(self, filepath):
         
         self.outputFile = QFile()
-        self.outputFile.setFileName("bla.wav")
+        self.outputFile.setFileName(filepath)
         self.outputFile.open(QIODevice.WriteOnly | QIODevice.Truncate)
         
         format = QAudioFormat();

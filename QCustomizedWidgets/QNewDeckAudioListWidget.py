@@ -8,6 +8,7 @@ from QCustomizedWidgets.QDeckAudioItemWidget import QDeckAudioItemWidget
 
 from functools import partial
 from os import path
+import time, random, string
 
 PLAY_BUTTON_COLUMN = 1
 RECORD_BUTTON_COLUMN = 1
@@ -21,6 +22,7 @@ class QNewDeckAudioListWidget(QTableWidget):
     
     audioItemsDict = []
     audioPlayer = None
+    audioRecorder = None
     
     STOPPED = 0
     RECORDING = 1
@@ -38,6 +40,7 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
+        self.audioRecorder = QDeckAudioItemWidget()
         
         self.setColumnCount(3)
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
@@ -112,7 +115,6 @@ class QNewDeckAudioListWidget(QTableWidget):
             self.updateAudioListWidget()
         
     def recordStopButtonClicked(self, row):
-        #self.audioPlayer.play("./soldiers_joy.ogg")
         
         #self.audioRecorder = QDeckAudioItemWidget()
         #self.audioRecorder.initAudioInput()
@@ -138,14 +140,21 @@ class QNewDeckAudioListWidget(QTableWidget):
     def recordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
         self.stopRecordButtonClicked(row)
-        print("recording")
+        
+        filename = str(int(time.time())) + self.randomword(5) + ".ogg"
+        filepath = path.join(self.deckpath, filename)
+        self.audioRecorder.initAudioInput(filepath)
+        self.audioRecorder.start()
         
         self.status = self.RECORDING
         self.row = row
         self.updateAudioListWidget()
         
     def stopRecordButtonClicked(self, row):
-        print("stopping")
+        try:
+            self.audioRecorder.stop()
+        except AttributeError:
+            pass
         
         self.status = self.STOPPED
         self.updateAudioListWidget()
@@ -174,3 +183,6 @@ class QNewDeckAudioListWidget(QTableWidget):
         if self.audioPlayer.state() == QMediaPlayer.StoppedState:
             self.status = self.STOPPED
             self.updateAudioListWidget()
+    
+    def randomword(self, length):
+        return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
