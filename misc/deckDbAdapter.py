@@ -51,7 +51,7 @@ class DeckDbAdapter(object):
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
-        return result[0]
+        return result[0][0]
         
     def selectDeckItems(self):
         query = "SELECT rowid, name, word, translation, svg_filename, audio_filenames FROM deck"
@@ -98,9 +98,13 @@ class DeckDbAdapter(object):
     def saveAudioDict(self, audio_dict, deck_rowid):
         for item in audio_dict:
             if item["rowid"]:
+                print("if")
                 query = "UPDATE audio SET description='{0}' WHERE rowid={1}".format(item["description"], item["rowid"])
             else:
+                print("else")
                 query = "INSERT INTO audio (deck_rowid, description, filename) VALUES ({0}, '{1}', '{2}')".format(deck_rowid, item["description"], item["filename"])
+                
+                print(query)
                 
             self.cursor.execute(query)
         self.connection.commit()

@@ -34,6 +34,8 @@ class QNewDeckAudioListWidget(QTableWidget):
         super().__init__()
         
     def initAudioListWidget(self, dbAdapter, deckpath, current_rowid):
+        self.audioItemsDict = []
+        
         self.dbAdapter = dbAdapter
         self.deckpath = deckpath
         self.current_deck_rowid = current_rowid
@@ -44,7 +46,7 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         self.setColumnCount(3)
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
-        self.setRowCount(1)
+        self.setRowCount(0)
         
         self.itemChanged.connect(self.onItemChanged)
         
