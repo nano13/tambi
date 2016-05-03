@@ -1,10 +1,9 @@
 
 from PyQt5.QtWidgets import QPushButton, QMessageBox, QTableWidget, QTableWidgetItem
-from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
+from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent, QAudioRecorder, QAudioEncoderSettings
 from PyQt5 import QtCore
 
-from misc.audioRecording import RecordAudio
-from QCustomizedWidgets.QDeckAudioItemWidget import QDeckAudioItemWidget
+#from QCustomizedWidgets.QVoiceRecorder import QVoiceRecorder
 
 from functools import partial
 from os import path, remove
@@ -42,7 +41,12 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
-        self.audioRecorder = QDeckAudioItemWidget()
+        #self.audioRecorder = QDeckAudioItemWidget()
+        self.audioRecorder = QAudioRecorder()
+        settings = QAudioEncoderSettings()
+        settings.setCodec("audio/vorbis")
+        self.audioRecorder.setContainerFormat("ogg")
+        self.audioRecorder.setEncodingSettings(settings)
         
         self.setColumnCount(3)
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
@@ -122,7 +126,9 @@ class QNewDeckAudioListWidget(QTableWidget):
                 self.dbAdapter.deleteAudioItem(rowid)
             filename = self.audioItemsDict[row]["filename"]
             if filename:
-                remove(path.join(self.deckpath, filename))
+                filepath = path.join(self.deckpath, filename)
+                if path.exists(filepath):
+                    remove(filepath)
             
             del self.audioItemsDict[row]
             self.updateAudioListWidget()
@@ -155,8 +161,12 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         filename = str(int(time.time())) + self.randomword(5) + ".ogg"
         filepath = path.join(self.deckpath, filename)
-        self.audioRecorder.initAudioInput(filepath)
-        self.audioRecorder.start()
+        
+        #self.audioRecorder.initAudioInput(filepath)
+        #self.audioRecorder.start()
+        url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+        self.audioRecorder.setOutputLocation(url)
+        self.audioRecorder.record()
         
         self.audioItemsDict[row]["filename"] = filename
         
@@ -165,10 +175,10 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.updateAudioListWidget()
         
     def stopRecordButtonClicked(self, row):
-        try:
-            self.audioRecorder.stop()
-        except AttributeError:
-            pass
+        #try:
+        self.audioRecorder.stop()
+        #except AttributeError:
+        #    pass
         
         self.status = self.STOPPED
         self.updateAudioListWidget()

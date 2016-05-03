@@ -15,16 +15,17 @@ class RecordAudio(object):
         
         #self.recorder = QAudioRecorder()
         #source = QAudioInput()
-        source = QMediaObject()
-        self.recorder = QMediaRecorder(source)
+        #source = QMediaObject()
+        self.recorder = QAudioRecorder()
         
         settings = QAudioEncoderSettings()
         settings.setChannelCount(1)
         settings.setSampleRate(44100)
         settings.setBitRate(32)
-        settings.setCodec("audio/mp3")
+        settings.setCodec("audio/vorbis")
         #settings.setEncodingMode(QtMultimedia.ConstantQualityEnconding)
         
+        self.recorder.setContainerFormat("ogg")
         self.recorder.setEncodingSettings(settings)
         self.recorder.setOutputLocation(url)
         
