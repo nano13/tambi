@@ -115,3 +115,9 @@ class DeckDbAdapter(object):
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)
+    
+    def deleteAudioItem(self, rowid):
+        query = "DELETE FROM audio WHERE rowid={0}".format(rowid)
+        self.cursor.execute(query)
+        self.connection.commit()
+        

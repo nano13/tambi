@@ -7,7 +7,7 @@ from misc.audioRecording import RecordAudio
 from QCustomizedWidgets.QDeckAudioItemWidget import QDeckAudioItemWidget
 
 from functools import partial
-from os import path
+from os import path, remove
 import time, random, string
 
 PLAY_BUTTON_COLUMN = 1
@@ -116,6 +116,15 @@ class QNewDeckAudioListWidget(QTableWidget):
         reply = QMessageBox.question(self, 'Delete Audio', "really?", QMessageBox.Yes, QMessageBox.No)
         if reply == QMessageBox.Yes:
             self.removeRow(row)
+            
+            rowid = self.audioItemsDict[row]["rowid"]
+            if rowid:
+                self.dbAdapter.deleteAudioItem(rowid)
+            filename = self.audioItemsDict[row]["filename"]
+            if filename:
+                remove(path.join(self.deckpath, filename))
+            
+            del self.audioItemsDict[row]
             self.updateAudioListWidget()
         
     def recordStopButtonClicked(self, row):
@@ -123,7 +132,6 @@ class QNewDeckAudioListWidget(QTableWidget):
         #self.audioRecorder = QDeckAudioItemWidget()
         #self.audioRecorder.initAudioInput()
         #self.audioRecorder.start()
-        
         
         self.audioRecorder = RecordAudio()
         #self.audioRecorder.record("blaahh.ogg")
