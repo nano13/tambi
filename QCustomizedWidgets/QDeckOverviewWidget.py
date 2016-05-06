@@ -1,5 +1,4 @@
 
-
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox
 from PyQt5.QtCore import pyqtSignal
 from PyQt5 import QtSvg
@@ -26,13 +25,17 @@ class QDeckOverviewWidget(QWidget):
     def initializeDeckOverview(self, deckpath):
         self.deckpath = deckpath
         
-        self.dbAdapter = DeckDbAdapter(path.join(deckpath, "database.sqlite"))
+        db_path = path.join(deckpath, "database.sqlite")
+        #self.dbAdapter = DeckDbAdapter(path.join(deckpath, "database.sqlite"))
+        self.dbAdapter = DeckDbAdapter()
+        self.dbAdapter.initDB(db_path)
         
         deck_select_button = QPushButton("select deck")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
         self.tableWidget = QTableWidget()
         self.tableWidget.setColumnCount(8)
+        #self.tableWidget.setRowCount(0)
         self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "audio"])
         self.tableWidget.verticalHeader().hide()
         
@@ -50,6 +53,9 @@ class QDeckOverviewWidget(QWidget):
         self.initWithDbData()
         
     def initWithDbData(self):
+        self.tableWidget.clear()
+        print("initWithDB")
+        
         data = self.dbAdapter.selectDeckItems()
         self.tableWidget.setRowCount(len(data))
         

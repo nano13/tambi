@@ -2,13 +2,19 @@
 import sqlite3, time
 
 class DeckDbAdapter(object):
-    def __init__(self, dbpath):
+    def __init__(self):
+        pass
+    
+    def initDB(self, dbpath):
         
         self.connection = sqlite3.connect(dbpath)
         #self.connection.row_factory = self.dict_factory()
         self.cursor = self.connection.cursor()
         
         self.initializeTables()
+        
+    def closeDB(self):
+        self.connection.close()
         
     def initializeTables(self):
         query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, audio_filenames TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
