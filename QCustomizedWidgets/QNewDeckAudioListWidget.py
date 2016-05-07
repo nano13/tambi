@@ -77,20 +77,25 @@ class QNewDeckAudioListWidget(QTableWidget):
             self.setCellWidget(row, DELETE_BUTTON_COLUMN, button_delete)
             button_delete.clicked.connect(partial(self.deleteAudioButtonClicked, row))
             
-            if self.audioItemsDict[i]["filename"]:
-                if self.status == self.STOPPED:
+            if self.status == self.STOPPED:
+                if self.audioItemsDict[i]["filename"]:
                     self.insertPlayButton(row)
                 else:
-                    if i == self.row:
-                        self.insertStopPlayButton(row)
+                    self.insertRecordButton(row)
+            elif self.status == self.PLAYING:
+                if i == self.row:
+                    self.insertStopPlayButton(row)
+                else:
+                    if not self.audioItemsDict[i]["filename"]:
+                        self.insertRecordButton(row)
                     else:
                         self.insertPlayButton(row)
-            else:
-                if self.status == self.STOPPED:
-                    self.insertRecordButton(row)
+            elif self.status == self.RECORDING:
+                if i == self.row:
+                    self.insertStopRecordButton(row)
                 else:
-                    if i == self.row:
-                        self.insertStopRecordButton(row)
+                    if self.audioItemsDict[i]["filename"]:
+                        self.insertPlayButton(row)
                     else:
                         self.insertRecordButton(row)
             
@@ -112,7 +117,7 @@ class QNewDeckAudioListWidget(QTableWidget):
         button_record.clicked.connect(partial(self.recordButtonClicked, row))
         
     def insertStopRecordButton(self, row):
-        button_stop = QPushButton("stop", self)
+        button_stop = QPushButton("stop record", self)
         self.setCellWidget(row, RECORD_BUTTON_COLUMN, button_stop)
         button_stop.clicked.connect(partial(self.stopRecordButtonClicked, row))
             
@@ -133,28 +138,6 @@ class QNewDeckAudioListWidget(QTableWidget):
             del self.audioItemsDict[row]
             self.updateAudioListWidget()
         
-    def recordStopButtonClicked(self, row):
-        
-        #self.audioRecorder = QDeckAudioItemWidget()
-        #self.audioRecorder.initAudioInput()
-        #self.audioRecorder.start()
-        
-        self.audioRecorder = RecordAudio()
-        #self.audioRecorder.record("blaahh.ogg")
-        
-        #try:
-            #self.audioRecordingDict[row]
-        #except KeyError:
-            
-            #self.audioRecordingDict[row] = AudioRecording()
-            #self.audioRecordingDict[row].setFilename("audioout.wav")
-            
-        #else:
-            #if self.audioRecordingDict[row].recording:
-                #self.stopButtonClicked(row)
-            #else:
-                #self.recordButtonClicked(row)
-                
     def recordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
         self.stopRecordButtonClicked(row)
@@ -175,6 +158,7 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.updateAudioListWidget()
         
     def stopRecordButtonClicked(self, row):
+        self.stopPlayButtonClicked(row)
         #try:
         self.audioRecorder.stop()
         #except AttributeError:
@@ -184,6 +168,8 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.updateAudioListWidget()
             
     def playButtonClicked(self, row):
+        self.stopRecordButtonClicked(row)
+        
         filename = self.audioItemsDict[row]["filename"]
         filepath = path.join(self.deckpath, filename)
         url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
@@ -200,6 +186,12 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         self.status = self.STOPPED
         self.updateAudioListWidget()
+        
+    def stopAllAudio(self):
+        row = 1
+        self.stopPlayButtonClicked(row)
+        self.stopRecordButtonClicked(row)
+        self.status = self.STOPPED
         
     def mediaStatusChanged(self):
         #status = self.audioPlayer.mediaStatus()

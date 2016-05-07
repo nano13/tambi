@@ -96,6 +96,7 @@ class QNewDeckItemWidget(QWidget):
         return self
     
     def languageSelectButtonClicked(self):
+        self.audioListWidget.stopAllAudio()
         self.selectItem.emit()
         
     def newAudioButtonClicked(self):
