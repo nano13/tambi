@@ -34,6 +34,9 @@ class QNewDeckAudioListWidget(QTableWidget):
     def __init__(self):
         super().__init__()
         
+    def setRowID(self, rowid):
+        self. current_rowid = rowid
+        
     def initAudioListWidget(self, dbAdapter, deckpath, current_rowid):
         self.audioItemsDict = []
         
