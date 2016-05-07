@@ -19,6 +19,8 @@ class QNewDeckAudioListWidget(QTableWidget):
     current_deck_rowid = None
     dbAdapter = None
     
+    current_rowid = None
+    
     audioItemsDict = []
     audioPlayer = None
     audioRecorder = None
@@ -37,7 +39,7 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         self.dbAdapter = dbAdapter
         self.deckpath = deckpath
-        self.current_deck_rowid = current_rowid
+        self.current_rowid = current_rowid
         
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
@@ -156,6 +158,8 @@ class QNewDeckAudioListWidget(QTableWidget):
         self.status = self.RECORDING
         self.row = row
         self.updateAudioListWidget()
+        
+        self.saveStateToDB(self.current_rowid)
         
     def stopRecordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)

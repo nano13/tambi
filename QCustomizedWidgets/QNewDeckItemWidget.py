@@ -100,7 +100,12 @@ class QNewDeckItemWidget(QWidget):
         self.selectItem.emit()
         
     def newAudioButtonClicked(self):
-        self.audioListWidget.appendNewAudio()
+        if self.current_rowid == None:
+            reply = QMessageBox.question(self, 'Save first', 'please save the item first. Save now?', QMessageBox.Yes, QMessageBox.No)
+            if reply == QMessageBox.Yes:
+                self.saveButtonClicked()
+        else:
+            self.audioListWidget.appendNewAudio()
     
     def saveButtonClicked(self):
         
@@ -128,7 +133,7 @@ class QNewDeckItemWidget(QWidget):
             
         self.audioListWidget.saveStateToDB(deck_rowid)
         # return to parent view:
-        self.selectItem.emit()
+        #self.selectItem.emit()
     
     def clearDrawViewButtonClicked(self):#
         reply = QMessageBox.question(self, 'Drop Drawing', "really?", QMessageBox.Yes, QMessageBox.No)
