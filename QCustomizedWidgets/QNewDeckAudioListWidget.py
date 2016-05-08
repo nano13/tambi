@@ -205,7 +205,10 @@ class QNewDeckAudioListWidget(QTableWidget):
         
         if self.audioPlayer.state() == QMediaPlayer.StoppedState:
             self.status = self.STOPPED
-            self.updateAudioListWidget()
+            try:
+                self.updateAudioListWidget()
+            except IndexError:
+                print("index error")
             
     def onItemChanged(self):
         

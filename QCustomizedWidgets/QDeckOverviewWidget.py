@@ -54,7 +54,6 @@ class QDeckOverviewWidget(QWidget):
         
     def initWithDbData(self):
         self.tableWidget.clear()
-        print("initWithDB")
         
         data = self.dbAdapter.selectDeckItems()
         self.tableWidget.setRowCount(len(data))
