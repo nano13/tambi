@@ -124,6 +124,7 @@ class QNewDeckItemWidget(QWidget):
             self.dbAdapter.saveDeckItem(name, word, translation, svg_filename, audio_filenames)
             
             self.current_rowid = self.dbAdapter.getDeckItemRowID(name, word, translation, svg_filename)
+            self.svg_filename = svg_filename
             
         else:
             self.freehandDrawWidget.saveView(path.join(self.deckpath, self.svg_filename))
@@ -131,6 +132,9 @@ class QNewDeckItemWidget(QWidget):
             self.dbAdapter.updateDeckItem(self.current_rowid, name, word, translation, self.svg_filename, audio_filenames)
             
         self.audioListWidget.saveStateToDB(self.current_rowid)
+        
+        QMessageBox.information(self, "saved", "saved")
+        
         # return to parent view:
         #self.selectItem.emit()
     
