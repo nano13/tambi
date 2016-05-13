@@ -8,6 +8,11 @@ from QCustomizedWidgets.QNewDeckItemWidget import QNewDeckItemWidget
 #from os.path import expanduser, join
 from os import path
 
+SELECT_LANGUAGE_INDEX = 0
+VOCABLE_LEARN_INDEX = 1
+DECK_OVERVIEW_INDEX = 2
+NEW_DECK_INDEX = 3
+
 class QVocableStackedWidget(QWidget):
     def __init__(self):
         super().__init__()
@@ -49,22 +54,22 @@ class QVocableStackedWidget(QWidget):
         return self
     
     def displayWidget(self, i):
-        self.Stack.setCurrentIndex(0)
+        self.Stack.setCurrentIndex(SELECT_LANGUAGE_INDEX)
         
     def selectLanguage(self):
-        self.Stack.setCurrentIndex(0)
+        self.Stack.setCurrentIndex(SELECT_LANGUAGE_INDEX)
         
     def selectItem(self):
         self.stack_deck_overview.update()
-        self.Stack.setCurrentIndex(2)
+        self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
     def languageSelected(self, language):
-        self.Stack.setCurrentIndex(1)
+        self.Stack.setCurrentIndex(VOCABLE_LEARN_INDEX)
         
         self.stack_vocable_learn.getVocableList(language)
         
     def deckSelected(self, deck):
-        self.Stack.setCurrentIndex(2)
+        self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
         deckpath = path.join(self.defaultDeckPath, deck)
         self.stack_deck_overview.initializeDeckOverview(deckpath)
@@ -72,20 +77,20 @@ class QVocableStackedWidget(QWidget):
     def createnewDeck(self):
         folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", self.defaultDeckPath)
         if folder:
-            self.Stack.setCurrentIndex(2)
+            self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
             self.stack_deck_overview.initializeDeckOverview(folder)
             
     def selectDeck(self):
-        self.Stack.setCurrentIndex(0)
+        self.Stack.setCurrentIndex(SELECT_LANGUAGE_INDEX)
     
     def createNewDeckItem(self, deckpath, dbAdapter):
         self.stack_new_deck.setDeckpath(deckpath)
         self.stack_new_deck.setDbAdapter(dbAdapter)
         self.stack_new_deck.initializeAsEmpty()
-        self.Stack.setCurrentIndex(3)
+        self.Stack.setCurrentIndex(NEW_DECK_INDEX)
         
     def editDeckItem(self, deckpath, dbAdapter, rowid):
         self.stack_new_deck.setDeckpath(deckpath)
         self.stack_new_deck.setDbAdapter(dbAdapter)
         self.stack_new_deck.initializeWithRowID(rowid)
-        self.Stack.setCurrentIndex(3)
+        self.Stack.setCurrentIndex(NEW_DECK_INDEX)
