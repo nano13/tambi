@@ -16,6 +16,8 @@ class QDeckOverviewWidget(QWidget):
     createNewItem = pyqtSignal(str, object)
     editDeckItem = pyqtSignal(str, object, int)
     
+    tableWidget = None
+    
     def __init__(self):
         super().__init__()
         
@@ -33,24 +35,31 @@ class QDeckOverviewWidget(QWidget):
         deck_select_button = QPushButton("select deck")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
-        self.tableWidget = QTableWidget()
-        self.tableWidget.setColumnCount(8)
-        #self.tableWidget.setRowCount(0)
-        self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "audio"])
-        self.tableWidget.verticalHeader().hide()
-        
         new_item_button = QPushButton("new item")
         new_item_button.clicked.connect(self.newItemButtonClicked)
         #self.tableWidget.setCellWidget(0, 0, new_item_button)
         
-        self.grid = QGridLayout()
-        self.grid.addWidget(deck_select_button, 0, 0)
-        self.grid.addWidget(self.tableWidget, 1, 0, 1, 3)
-        self.grid.addWidget(new_item_button, 2, 0)
+        self.initTableWidget()
         
-        layout = self.setLayout(self.grid)
+        if not self.layout():
+            self.grid = QGridLayout()
+            self.grid.addWidget(deck_select_button, 0, 0)
+            self.grid.addWidget(self.tableWidget, 1, 0, 1, 3)
+            self.grid.addWidget(new_item_button, 2, 0)
+            
+            layout = self.setLayout(self.grid)
         
         self.initWithDbData()
+        
+    def initTableWidget(self):
+        if not self.tableWidget:
+            self.tableWidget = QTableWidget()
+            
+        self.tableWidget.setColumnCount(8)
+        self.tableWidget.setRowCount(0)
+        self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "audio"])
+        self.tableWidget.verticalHeader().hide()
+        
         
     def initWithDbData(self):
         self.tableWidget.clear()
