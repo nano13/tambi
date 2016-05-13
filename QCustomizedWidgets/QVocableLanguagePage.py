@@ -116,7 +116,7 @@ class QVocableLanguagePage(QWidget):
             
         dirnames = os.listdir(self.defaultDeckPath)
         
-        for deck in dirnames:
+        for deck in sorted(dirnames):
             languages_dict.append({"name": deck, "type": "deck"})
         
         return languages_dict
