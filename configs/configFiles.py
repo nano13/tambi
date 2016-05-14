@@ -6,63 +6,57 @@ import shutil
 import configparser
 
 CONFIG_FOLDER_NAME = "logos_bible"
+DEFAULT_CONFIG_FILE_NAME = "logos.conf"
 
-class Config(object):
-    def __init__(self, path_to_default_conf_dir, filename):
+class ConfigFile(object):
+    def __init__(self, filename):
         
         self.filename = filename
+        
         
     
 class ConfigDir(object):
     def __init__(self):
         
-        self.dir_path = self.checkForAndCreateConfigDir()
+        self.configDirPath = self.checkForAndCreateConfigDir()
+        self.checkForAndCreateConfigFile(DEFAULT_CONFIG_FILE_NAME)
         
     def getConfigDirPath(self):
-        return self.dir_path
+        return self.configDirPath
     
-    def getPathDelimiter(self):
-        os_name = platform.uname()[0]
+    def checkForAndCreateConfigFile(self, confName):
         
-        delimiter = ""
+        targetConfPath = os.path.join(self.configDirPath, confName)
         
-        if os_name == "Linux" or os_name == "Darwin":
-            delimiter = "/"
-        elif os_name == "Windows":
-            delimiter = "\\"
+        if not os.path.exists(targetConfPath):
+            defaultConf = os.path.join(os.getcwd(), "configs", confName)
+            targetConf = os.path.join(self.configDirPath, confName)
             
-        return delimiter
-    
-    def checkForAndCreateConfigFile(self, filepath):
-        
-        dir_path = checkForAndCreateConfigDir()
-        
-        if not os.path.exists(cfgfile_path):
-            pass
+            shutil.copyfile(defaultConf, targetConf)
     
     def checkForAndCreateConfigDir(self):
         
         os_name = platform.uname()[0]
         dir_path = ""
         
-        if  os_name == "Linux" or os_name == "Darwin":
-            home = os.getenv("HOME")
-            
-            dir_path = home + "/." + CONFIG_FOLDER_NAME
-            
-            if not os.path.exists(dir_path):
-                os.mkdir(dir_path)
-        
-        elif os_name == "Windows":
-            
+        if os_name == "Windows":
             home = os.getenv("APPDATA")
+            dir_path = os.path.join(home, CONFIG_FOLDER_NAME)
+        #elif  os_name == "Linux" or os_name == "Darwin":
+        else:
+            home = os.getenv("HOME")
+            dir_path = os.path.join(home, "."+CONFIG_FOLDER_NAME)
             
-            dir_path = home + "\\" +  CONFIG_FOLDER_NAME + "\\"
-            
-            if not os.path.exists(dir_path):
-                os.mkdir(dir_path)
+        if not os.path.exists(dir_path):
+            os.mkdir(dir_path)
                 
         return dir_path
+    
+class WriteMissingValueToConfig(object):
+    def __init__(self, filename, config, cfgfile_path):
+        self.filename = "./configs" + filename
+        self.config = config
+        self.cfgfile_path = cfgfile_path
 
 if __name__ == "__main__":
     c = ConfigDir()
