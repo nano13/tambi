@@ -23,6 +23,8 @@ class QVocableLanguagePage(QWidget):
     
     def __init__(self):
         super().__init__()
+        
+        self.tableWidget = QTableWidget()
     
     def setDefaultDeckPath(self, deckpath):
         self.defaultDeckPath = deckpath
@@ -39,12 +41,15 @@ class QVocableLanguagePage(QWidget):
         new_deck_button.clicked.connect(self.createNewDeck)
         
         return self
-        
+    
+    def rescanLanguageList(self):
+        print("rescanning")
+        self.tableWidget = self.createLanguageSelectList()
         
     def createLanguageSelectList(self):
         language_list = self.getLanguages()
         
-        self.tableWidget = QTableWidget()
+        
         self.tableWidget.setRowCount(len(language_list))
         self.tableWidget.setColumnCount(3)
         self.tableWidget.verticalHeader().hide()
@@ -77,8 +82,6 @@ class QVocableLanguagePage(QWidget):
         
         return self.tableWidget
     
-#    def buttonClicked(self, label):
-#        self.languageSelected.emit(label)
         
     def tableButtonLearnClicked(self, language):
         self.languageSelected.emit(language)
