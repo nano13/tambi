@@ -28,15 +28,8 @@ class ConfigFile(object):
         result = self.parser.get(section, option)
         result =  self.resolvePathConstants(result)
         
-        path_components = result.split("/")
-        if result.startswith("/"):
-            path_components[0] = "/" + path_components[0]
-        
-        absolute_path = ""
-        for component in path_components:
-            absolute_path = os.path.join(absolute_path, component)
-        
-        return absolute_path
+        return os.path.normpath(result)
+        #return os.path.normcase(result)
         
     def resolvePathConstants(self, confresult):
         if "$" in confresult:
