@@ -9,10 +9,38 @@ CONFIG_FOLDER_NAME = "logos_bible"
 DEFAULT_CONFIG_FILE_NAME = "logos.conf"
 
 class ConfigFile(object):
-    def __init__(self, filename):
+    def __init__(self):
         
-        self.filename = filename
+        #self.filename = filename
+        self.filename = DEFAULT_CONFIG_FILE_NAME
         
+        configDir = ConfigDir()
+        self.configDirPath = configDir.getConfigDirPath()
+        
+        self.parser = configparser.ConfigParser()
+        self.parser.read(os.path.join(self.configDirPath, DEFAULT_CONFIG_FILE_NAME))
+        
+    def readVar(self, section, option):
+        result = self.parser.get(section, option)
+        return result
+    
+    def readPath(self, section, option):
+        result = self.parser.get(section, option)
+        result =  self.resolvePathConstants(result)
+        
+        path_components = result.split("/")
+        
+        absolute_path = ""
+        for component in path_components:
+            absolute_path = os.path.join(absolute_path, component)
+        
+        return absolute_path
+        
+    def resolvePathConstants(self, confresult):
+        if "$" in confresult:
+            confresult = confresult.replace("$CONFDIR", self.configDirPath)
+            
+        return confresult
         
     
 class ConfigDir(object):

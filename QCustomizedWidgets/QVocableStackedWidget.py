@@ -5,6 +5,8 @@ from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
 from QCustomizedWidgets.QNewDeckItemWidget import QNewDeckItemWidget
 
+from configs.configFiles import ConfigFile
+
 #from os.path import expanduser, join
 from os import path
 
@@ -17,7 +19,8 @@ class QVocableStackedWidget(QWidget):
     def __init__(self):
         super().__init__()
         
-        self.defaultDeckPath = path.join(path.expanduser("~"), ".logos_bible", "decks")
+        config = ConfigFile()
+        self.defaultDeckPath = config.readPath("vocable", "deckpath")
         
     def vocableWidget(self):
         self.stack_language_select = QVocableLanguagePage()
