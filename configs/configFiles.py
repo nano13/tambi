@@ -29,6 +29,8 @@ class ConfigFile(object):
         result =  self.resolvePathConstants(result)
         
         path_components = result.split("/")
+        if result.startswith("/"):
+            path_components[0] = "/" + path_components[0]
         
         absolute_path = ""
         for component in path_components:
