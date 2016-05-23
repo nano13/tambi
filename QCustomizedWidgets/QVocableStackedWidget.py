@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog
+from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog, QMessageBox
 from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
 from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
@@ -7,8 +7,7 @@ from QCustomizedWidgets.QNewDeckItemWidget import QNewDeckItemWidget
 
 from configs.configFiles import ConfigFile
 
-#from os.path import expanduser, join
-from os import path
+import os
 
 SELECT_LANGUAGE_INDEX = 0
 VOCABLE_LEARN_INDEX = 1
@@ -21,6 +20,20 @@ class QVocableStackedWidget(QWidget):
         
         config = ConfigFile()
         self.defaultDeckPath = config.readPath("vocable", "deckpath")
+        
+        while not os.path.exists(self.defaultDeckPath):
+            title = "default path for decks needed"
+            text = "use " + self.defaultDeckPath + " as path for saving decks?"
+            reply = QMessageBox.question(self, title, text, QMessageBox.Yes, QMessageBox.No)
+            if reply == QMessageBox.Yes:
+                os.makedirs(self.defaultDeckPath)
+            else:
+                folder_path = QFileDialog.getExistingDirectory(self, "Please select Folder for Decks", self.defaultDeckPath)
+                
+                if folder_path:
+                    if not folder_path == self.defaultDeckPath:
+                        config.write("vocable", "deckpath", folder_path)
+                        self.defaultDeckPath = folder_path
         
     def vocableWidget(self):
         self.stack_language_select = QVocableLanguagePage()
@@ -74,7 +87,7 @@ class QVocableStackedWidget(QWidget):
     def deckSelected(self, deck):
         self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
-        deckpath = path.join(self.defaultDeckPath, deck)
+        deckpath = os.path.join(self.defaultDeckPath, deck)
         self.stack_deck_overview.initializeDeckOverview(deckpath)
         
     def createNewDeck(self):

@@ -16,16 +16,17 @@ class ConfigFile(object):
         
         configDir = ConfigDir()
         self.configDirPath = configDir.getConfigDirPath()
+        self.configFilePath = os.path.join(self.configDirPath, DEFAULT_CONFIG_FILE_NAME)
         
-        self.parser = configparser.ConfigParser()
-        self.parser.read(os.path.join(self.configDirPath, DEFAULT_CONFIG_FILE_NAME))
+        self.config = configparser.ConfigParser()
+        self.config.read(self.configFilePath)
         
     def readVar(self, section, option):
-        result = self.parser.get(section, option)
+        result = self.config.get(section, option)
         return result
     
     def readPath(self, section, option):
-        result = self.parser.get(section, option)
+        result = self.config.get(section, option)
         result =  self.resolvePathConstants(result)
         
         return os.path.normpath(result)
@@ -36,6 +37,12 @@ class ConfigFile(object):
             confresult = confresult.replace("$CONFDIR", self.configDirPath)
             
         return confresult
+    
+    def  write(self, section, option, value):
+        self.config.set(section, option, value)
+        
+        cfgfile = open(self.configFilePath, "w")
+        self.config.write(cfgfile)
         
     
 class ConfigDir(object):
