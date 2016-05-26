@@ -59,6 +59,7 @@ class QDeckOverviewWidget(QWidget):
         self.tableWidget.setRowCount(0)
         self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "audio"])
         self.tableWidget.verticalHeader().hide()
+        self.tableWidget.horizontalHeader().hide()
         
         
     def initWithDbData(self):
