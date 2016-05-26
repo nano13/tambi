@@ -2,7 +2,8 @@
 # -*- coding: utf_8 -*-
 
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QTabWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QTabWidget, QAction, qApp
+from PyQt5.QtGui import QIcon
 
 import signal
 # to make program closeable with ctr-c in terminal
@@ -34,9 +35,33 @@ class Logos(QMainWindow):
         sx, sy = screen_rectangle.getRect()[2], screen_rectangle.getRect()[3]
         
         #self.resize(sx*0.61, sy*0.61)
+        self.initMenuBar()
         
         self.setWindowTitle('logos')
         self.show()
+        
+    def initMenuBar(self):
+        #exitAction = QAction(QIcon('exit.png'), '&Exit', self)
+        exitAction = QAction(QIcon.fromTheme("application-exit"), "&Exit", self)
+        exitAction.setShortcut('Ctrl+Q')
+        exitAction.setStatusTip('Exit application')
+        exitAction.triggered.connect(qApp.quit)
+        
+        newCliTabAction = QAction(QIcon.fromTheme('utilities-terminal'), '&New Command Line Tab', self)
+        newCliTabAction.setStatusTip('Open new CLI Tab')
+        newCliTabAction.triggered.connect(self.addNewTableTab)
+        
+        newVocableTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Vocable Tab', self)
+        newVocableTabAction.setStatusTip('Open new Vocable Tab')
+        newVocableTabAction.triggered.connect(self.addNewVocableTab)
+        
+        menubar = self.menuBar()
+        
+        fileMenu = menubar.addMenu('&File')
+        fileMenu.addAction(newCliTabAction)
+        fileMenu.addAction(newVocableTabAction)
+        fileMenu.addSeparator()
+        fileMenu.addAction(exitAction)
         
     def initTabs(self):
         self.tab_widget = QTabWidget()
