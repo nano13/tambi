@@ -1,3 +1,4 @@
+# -*- coding: utf_8 -*-
 
 from PyQt5.QtWidgets import QMainWindow, QTabWidget, QPushButton
 from PyQt5.QtCore import Qt
@@ -15,7 +16,7 @@ class QVirtualKeyboard(QMainWindow):
         self.setWindowTitle("virtual keyboard")
         self.resize(450, 150)
         
-        self.drawKeyboard("de", "qwertz")
+        self.drawKeyboard("ar", "qwertz")
         
         self.show()
         
@@ -26,11 +27,27 @@ class QVirtualKeyboard(QMainWindow):
         line_pos = 0
         line_width = 30
         
-        self.drawFirstLine(chars[0], keys[0], line_pos)
-        self.drawSecondLine(chars[1], keys[1], line_pos+line_width)
-        self.drawThirdLine(chars[2], keys[2], line_pos + 2*line_width)
-        self.drawForthLine(chars[3], keys[3], line_pos + 3*line_width)
-        self.drawFifthLine(chars[4], keys[4], line_pos + 4*line_width)
+        #self.drawFirstLine(chars[0], keys[0], line_pos)
+        #self.drawSecondLine(chars[1], keys[1], line_pos+line_width)
+        #self.drawThirdLine(chars[2], keys[2], line_pos + 2*line_width)
+        #self.drawForthLine(chars[3], keys[3], line_pos + 3*line_width)
+        #self.drawFifthLine(chars[4], keys[4], line_pos + 4*line_width)
+        self.drawButtons(chars, keys)
+        
+        self.enter = QPushButton("\u23ce", self)
+        self.enter.resize(50, 60)
+        self.enter.move(400, line_pos + line_width)
+        
+    def drawButtons(self, chars, keys):
+        button_sizes = self.getButtonSizes()
+        
+        for row in range(0, 5):
+            for i in range(len(chars[row])):
+                button = QPushButton(chars[row][i], self)
+                button.resize(button_sizes[row][i], 30)
+                button.move(i*30, row*30)
+                
+                self.connectButton(button, chars[row][i], keys[row][i])
         
     def drawFirstLine(self, chars, keys, line_pos):
         for i in range(len(chars)):
@@ -134,7 +151,9 @@ class QVirtualKeyboard(QMainWindow):
         elif language == "gr":
             return self.getGreekChars()
         elif language == "he":
-            return getHebrewChars()
+            return self.getHebrewChars()
+        elif language == "ar":
+            return self.getArabChars()
         
     def getGreekChars(self):
         return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
@@ -163,14 +182,28 @@ class QVirtualKeyboard(QMainWindow):
                 ["\u21ea", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä", "'"],
                 ["\u21E7", ">", "Y", "X", "C", "V", "B", "N", "M", ";", ":" ,"_", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "agr", "\u2325", "ctrl"]]
+    
+    def getArabChars(self):
+        return [["ذ", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩", "٠", "~", "!", "\u232b"],
+                ["⇄", "ض", "ص", "ث", "ق", "ف", "غ", "ع", "ه", "خ", "ح", "ج", "د"],
+                ["\u21ea", "ش", "س", "ي", "ب", "ل", "ا", "ت", "ن", "م", "ك", "ط", "\\"],
+                ["\u21E7", "ئ", "ء", "ؤ", "ر", "لا", "ى", "ة", "و", "ز", "ظ" ,"ـ", "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
     "Template for copying it if you want to make new layouts"
     def getCharsTemplate(self):
         return [["", "", "", "", "", "", "", "", "", "", "", "", "", "\u232b"],
                 ["⇄", "", "", "", "", "", "", "", "", "", "", "", ""],
                 ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", ""],
-                ["\u21E7", "", "", "", "", "", "", "", "", "", "" ,"", "\u21E7"],
+                ["\u21E7", "", "", "", "", "", "", "", "", "", "", "", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+    
+    def getButtonSizes(self):
+        return [[30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 60],
+                [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+                [50, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 20],
+                [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 80],
+                [30, 30, 30, 150, 30, 30, 30, 30, 30, 30, 30]]
     
     def getKeys(self, layout):
         if layout == "qwertz":
