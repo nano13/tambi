@@ -14,7 +14,7 @@ PLAY_BUTTON_COLUMN = 1
 RECORD_BUTTON_COLUMN = 1
 DELETE_BUTTON_COLUMN = 2
 
-class QNewDeckAudioListWidget(QTableWidget):
+class QDeckAudioListWidget(QTableWidget):
     
     deckpath = None
     current_deck_rowid = None

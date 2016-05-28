@@ -4,13 +4,13 @@ from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
-from QCustomizedWidgets.QNewDeckAudioListWidget import QNewDeckAudioListWidget
+from QCustomizedWidgets.QDeckAudioListWidget import QDeckAudioListWidget
 
 from functools import partial
 from os import path
 import time, random, string
 
-class QNewDeckItemWidget(QWidget):
+class QDeckItemWidget(QWidget):
     
     selectItem = pyqtSignal()
     deckpath = None
@@ -72,7 +72,7 @@ class QNewDeckItemWidget(QWidget):
         self.wordLine = QLineEdit()
         translationLabel = QLabel("translation:")
         self.translationLine = QLineEdit()
-        self.audioListWidget = QNewDeckAudioListWidget()
+        self.audioListWidget = QDeckAudioListWidget()
         newAudioButton = QPushButton("new audio")
         newAudioButton.clicked.connect(self.newAudioButtonClicked)
         saveButton = QPushButton("save")

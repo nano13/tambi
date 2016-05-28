@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog, Q
 from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
 from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
-from QCustomizedWidgets.QNewDeckItemWidget import QNewDeckItemWidget
+from QCustomizedWidgets.QDeckItemWidget import QDeckItemWidget
 
 from configs.configFiles import ConfigFile
 
@@ -52,7 +52,7 @@ class QVocableStackedWidget(QWidget):
         self.stack_deck_overview.createNewItem.connect(self.createNewDeckItem)
         self.stack_deck_overview.editDeckItem.connect(self.editDeckItem)
         
-        self.stack_new_deck = QNewDeckItemWidget()
+        self.stack_new_deck = QDeckItemWidget()
         self.stack_new_deck.newDeckPage()
         self.stack_new_deck.selectItem.connect(self.selectItem)
         
