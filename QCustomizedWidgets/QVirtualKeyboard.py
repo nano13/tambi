@@ -28,16 +28,11 @@ class QVirtualKeyboard(QMainWindow):
         line_pos = 0
         line_width = 30
         
-        #self.drawFirstLine(chars[0], keys[0], line_pos)
-        #self.drawSecondLine(chars[1], keys[1], line_pos+line_width)
-        #self.drawThirdLine(chars[2], keys[2], line_pos + 2*line_width)
-        #self.drawForthLine(chars[3], keys[3], line_pos + 3*line_width)
-        #self.drawFifthLine(chars[4], keys[4], line_pos + 4*line_width)
         self.drawButtons(chars, keys)
         
-        #self.enter = QPushButton("\u23ce", self)
-        #self.enter.resize(50, 60)
-        #self.enter.move(400, line_pos + line_width)
+        self.enter = QPushButton("\u23ce", self)
+        self.enter.resize(50, 60)
+        self.enter.move(400, line_pos + line_width)
         
     def drawButtons(self, chars, keys):
         button_sizes = self.getButtonSizes()
@@ -52,95 +47,17 @@ class QVirtualKeyboard(QMainWindow):
                     button_a, button_b = button_sizes[row][i-1], button_sizes[row][i]
                     
                     if button_a > button_b:
-                        print("aaaaa")
-                        #offset = button_sizes[row][i-1] / button_sizes[row][i]
-                        offset = button_a / button_b
-                        row_offset = row_offset + offset - 1
-                    elif button_a < button_b:
-                        print("b")
-                        offset = button_sizes[row][i-1] / button_sizes[row][i]
-                        #row_offset = row_offset - offset + 1
-                    elif button_a == button_b:
-                        offset = None
-                        
-                        
-                    print(row, i, " offset: ", offset, " row_offset: ", row_offset, " | ", button_sizes[row][i-1], " | ", button_sizes[row][i])
+                        if button_b >= 30:
+                            offset = button_a / button_b
+                            row_offset = row_offset + offset - 1
+                
+                #button_width = button_sizes[row][i] / 10
                 
                 button = QPushButton(chars[row][i], self)
                 button.resize(button_sizes[row][i], 30)
                 button.move((i + row_offset)*30, row*30)
                 
                 self.connectButton(button, chars[row][i], keys[row][i])
-        
-    def drawFirstLine(self, chars, keys, line_pos):
-        for i in range(len(chars)):
-            button = QPushButton(chars[i], self)
-            if i == 13:
-                button.resize(60, 30)
-                button.move(i*30, line_pos)
-            else:
-                button.resize(30, 30)
-                button.move(i*30, line_pos)
-            
-            self.connectButton(button, chars[i], keys[i])
-            #button.show()
-    
-    def drawSecondLine(self, chars, keys, line_pos):
-        for i in range(len(chars)):
-            button = QPushButton(chars[i], self)
-            if i == 0:
-                button.resize(40, 30)
-                button.move(i*30, line_pos)
-            else:
-                button.resize(30, 30)
-                button.move((i+.35)*30, line_pos)
-            
-            self.connectButton(button, chars[i], keys[i])
-            
-    def drawThirdLine(self, chars, keys, line_pos):
-        for i in range(len(chars)):
-            button = QPushButton(chars[i], self)
-            if i == 0:
-                button.resize(50, 30)
-                button.move(i*30,line_pos)
-            elif i == 12:
-                button.resize(20, 30)
-                button.move((i+.67)*30, line_pos)
-            else:
-                button.resize(30, 30)
-                button.move((i+.67)*30, line_pos)
-                
-            self.connectButton(button, chars[i], keys[i])
-            
-    def drawForthLine(self, chars, keys, line_pos):
-        for i in range(len(chars)):
-            button = QPushButton(chars[i], self)
-            if i == 0:
-                button.resize(40, 30)
-                button.move(0, line_pos)
-            elif i == 12:
-                button.resize(80, 30)
-                button.move((i+.35)*30, line_pos)
-            else:
-                button.resize(30, 30)
-                button.move((i+.35)*30, line_pos)
-                
-            self.connectButton(button, chars[i], keys[i])
-            
-    def drawFifthLine(self, chars, keys, line_pos):
-        for i in range(len(chars)):
-            button = QPushButton(chars[i], self)
-            if i == 3:
-                button.resize(150, 30)
-                button.move(90, line_pos)
-            elif i > 3:
-                button.resize(30, 30)
-                button.move((i+4)*30, line_pos)
-            else:
-                button.resize(30, 30)
-                button.move(i*30, line_pos)
-                
-            self.connectButton(button, chars[i], keys[i])
             
     def connectButton(self, button, char, key):
         button.clicked.connect(functools.partial(self.printChar, char))
@@ -223,7 +140,7 @@ class QVirtualKeyboard(QMainWindow):
     
     def getButtonSizes(self):
         return [[30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 60],
-                [40, 30, 30, 30, 60, 30, 20, 30, 30, 30, 30, 30, 30],
+                [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
                 [50, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 20],
                 [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 80],
                 [30, 30, 30, 150, 30, 30, 30, 30, 30, 30, 30]]
