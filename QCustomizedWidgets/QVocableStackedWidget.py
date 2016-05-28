@@ -63,6 +63,7 @@ class QVocableStackedWidget(QWidget):
         self.Stack.addWidget(self.stack_new_deck)
         
         grid = QGridLayout()
+        grid.setContentsMargins(0, 0, 0, 0)
         layout = self.setLayout(grid)
         
         grid.addWidget(self.Stack)

@@ -10,6 +10,7 @@ import math
 class QVirtualKeyboard(QMainWindow):
     
     keyPressedAny = pyqtSignal(int)
+    lineEdit = None
     
     def __init__(self):
         super().__init__()
@@ -20,6 +21,9 @@ class QVirtualKeyboard(QMainWindow):
         self.drawKeyboard("ar", "qwertz")
         
         self.show()
+        
+    def setLineEdit(self, lineEdit):
+        self.lineEdit = lineEdit
         
     def drawKeyboard(self, language, layout):
         chars = self.getChars(language)
@@ -63,7 +67,10 @@ class QVirtualKeyboard(QMainWindow):
         self.keyPressedAny.connect(functools.partial(self.keyPressed, key, button))
         
     def printChar(self, char):
-        print(char)
+        if self.lineEdit:
+            self.lineEdit.appendText(char)
+        else:
+            print(char)
         
     def keyPressed(self, key, button, event):
         if event == key:

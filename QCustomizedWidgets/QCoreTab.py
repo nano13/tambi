@@ -47,6 +47,7 @@ class QCoreTab(QWidget):
         
     def tableTab(self):
         grid = QGridLayout()
+        #grid.setContentsMargins(0, 0, 0, 0)
         self.setLayout(grid)
         
         self.table = QTableWidget()

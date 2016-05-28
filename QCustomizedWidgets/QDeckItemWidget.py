@@ -5,6 +5,7 @@ from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
 from QCustomizedWidgets.QDeckAudioListWidget import QDeckAudioListWidget
+from QCustomizedWidgets.QVkbdLineEdit import QVkbdLineEdit
 
 from functools import partial
 from os import path
@@ -67,11 +68,11 @@ class QDeckItemWidget(QWidget):
         
         self.freehandDrawWidget = QFreehandDrawView(self)
         nameLabel = QLabel("name:")
-        self.nameLine = QLineEdit()
+        self.nameLine = QVkbdLineEdit() #QLineEdit()
         wordLabel = QLabel("word:")
-        self.wordLine = QLineEdit()
+        self.wordLine = QVkbdLineEdit() #QLineEdit()
         translationLabel = QLabel("translation:")
-        self.translationLine = QLineEdit()
+        self.translationLine = QVkbdLineEdit() #QLineEdit()
         self.audioListWidget = QDeckAudioListWidget()
         newAudioButton = QPushButton("new audio")
         newAudioButton.clicked.connect(self.newAudioButtonClicked)
@@ -90,6 +91,8 @@ class QDeckItemWidget(QWidget):
         grid.addWidget(self.audioListWidget, 5, 0, 1, 4)
         grid.addWidget(newAudioButton, 6, 0)
         grid.addWidget(saveButton, 6, 3)
+        
+        grid.setContentsMargins(0, 0, 0, 0)
         
         #self.freehandDrawWidget.loadView("outtest.svg")
         

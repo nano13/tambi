@@ -43,6 +43,7 @@ class QDeckOverviewWidget(QWidget):
         
         if not self.layout():
             self.grid = QGridLayout()
+            self.grid.setContentsMargins(0, 0, 0, 0)
             self.grid.addWidget(deck_select_button, 0, 0)
             self.grid.addWidget(self.tableWidget, 1, 0, 1, 3)
             self.grid.addWidget(new_item_button, 2, 0)

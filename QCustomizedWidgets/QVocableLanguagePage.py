@@ -31,6 +31,7 @@ class QVocableLanguagePage(QWidget):
     
     def vocableLanguagePage(self):
         self.grid = QGridLayout()
+        self.grid.setContentsMargins(0, 0, 0, 0)
         layout = self.setLayout(self.grid)
         
         self.tableWidget = self.createLanguageSelectList()
