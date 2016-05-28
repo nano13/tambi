@@ -5,6 +5,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtCore import pyqtSignal
 
 import functools
+import math
 
 class QVirtualKeyboard(QMainWindow):
     
@@ -34,18 +35,40 @@ class QVirtualKeyboard(QMainWindow):
         #self.drawFifthLine(chars[4], keys[4], line_pos + 4*line_width)
         self.drawButtons(chars, keys)
         
-        self.enter = QPushButton("\u23ce", self)
-        self.enter.resize(50, 60)
-        self.enter.move(400, line_pos + line_width)
+        #self.enter = QPushButton("\u23ce", self)
+        #self.enter.resize(50, 60)
+        #self.enter.move(400, line_pos + line_width)
         
     def drawButtons(self, chars, keys):
         button_sizes = self.getButtonSizes()
         
         for row in range(0, 5):
+            
+            row_offset = 0
             for i in range(len(chars[row])):
+                
+                if i > 0:
+                    
+                    button_a, button_b = button_sizes[row][i-1], button_sizes[row][i]
+                    
+                    if button_a > button_b:
+                        print("aaaaa")
+                        #offset = button_sizes[row][i-1] / button_sizes[row][i]
+                        offset = button_a / button_b
+                        row_offset = row_offset + offset - 1
+                    elif button_a < button_b:
+                        print("b")
+                        offset = button_sizes[row][i-1] / button_sizes[row][i]
+                        #row_offset = row_offset - offset + 1
+                    elif button_a == button_b:
+                        offset = None
+                        
+                        
+                    print(row, i, " offset: ", offset, " row_offset: ", row_offset, " | ", button_sizes[row][i-1], " | ", button_sizes[row][i])
+                
                 button = QPushButton(chars[row][i], self)
                 button.resize(button_sizes[row][i], 30)
-                button.move(i*30, row*30)
+                button.move((i + row_offset)*30, row*30)
                 
                 self.connectButton(button, chars[row][i], keys[row][i])
         
@@ -200,7 +223,7 @@ class QVirtualKeyboard(QMainWindow):
     
     def getButtonSizes(self):
         return [[30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 60],
-                [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+                [40, 30, 30, 30, 60, 30, 20, 30, 30, 30, 30, 30, 30],
                 [50, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 20],
                 [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 80],
                 [30, 30, 30, 150, 30, 30, 30, 30, 30, 30, 30]]
