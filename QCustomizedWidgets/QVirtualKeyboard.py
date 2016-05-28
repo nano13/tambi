@@ -30,9 +30,9 @@ class QVirtualKeyboard(QMainWindow):
         
         self.drawButtons(chars, keys)
         
-        self.enter = QPushButton("\u23ce", self)
-        self.enter.resize(50, 60)
-        self.enter.move(400, line_pos + line_width)
+        #self.enter = QPushButton("\u23ce", self)
+        #self.enter.resize(50, 60)
+        #self.enter.move(400, line_pos + line_width)
         
     def drawButtons(self, chars, keys):
         button_sizes = self.getButtonSizes()
@@ -51,9 +51,8 @@ class QVirtualKeyboard(QMainWindow):
                             offset = button_a / button_b
                             row_offset = row_offset + offset - 1
                 
-                #button_width = button_sizes[row][i] / 10
-                
-                button = QPushButton(chars[row][i], self)
+                #button = QPushButton(chars[row][i], self)
+                button = QVkeybdPushButton(chars[row][i], self)
                 button.resize(button_sizes[row][i], 30)
                 button.move((i + row_offset)*30, row*30)
                 
@@ -64,13 +63,9 @@ class QVirtualKeyboard(QMainWindow):
         self.keyPressedAny.connect(functools.partial(self.keyPressed, key, button))
         
     def printChar(self, char):
-        print("char")
         print(char)
         
     def keyPressed(self, key, button, event):
-        print("key")
-        print(event, key, button)
-        
         if event == key:
             button.animateClick()
         
@@ -97,22 +92,22 @@ class QVirtualKeyboard(QMainWindow):
         
     def getGreekChars(self):
         return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
-                ["⇄", ";", "ς", "ε", "ρ", "τ", "υ", "θ", "ι", "ο", "π", "[", "]"],
-                ["\u21ea", "α", "σ", "δ", "φ", "γ", "η", "ξ", "κ", "λ", "´", "'", ""],
+                ["⇄", ";", "ς", "ε", "ρ", "τ", "υ", "θ", "ι", "ο", "π", "[", "]", ""],
+                ["\u21ea", "α", "σ", "δ", "φ", "γ", "η", "ξ", "κ", "λ", "´", "'", "\u23ce"],
                 ["\u21E7", "|", "ζ", "χ", "ψ", "ω", "β", "ν", "μ", ",", ".", "/", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
     def getHebrewChars(self):
         return [[";", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
-                ["⇄", "/", "'", "ק", "ר", "א", "ט", "ו", "ן", "ם", "פ", "]", "["],
-                ["\u21ea", "ש", "ד", "ג", "כ", "ע", "י", "ח", "ל", "ך", "ף", ",", ""],
+                ["⇄", "/", "'", "ק", "ר", "א", "ט", "ו", "ן", "ם", "פ", "]", "[", ""],
+                ["\u21ea", "ש", "ד", "ג", "כ", "ע", "י", "ח", "ל", "ך", "ף", ",", "\u23ce"],
                 ["\u21E7", "", "ז", "ס", "ב", "ה", "נ", "מ", "צ", "ת", "ץ", ".", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
     def getGermanChars(self):
         return [["^", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "ß", "´", "\u232b"],
-                ["⇄", "q", "w", "e", "r", "t", "z", "u", "i", "o", "p", "ü", "+"],
-                ["\u21ea", "a", "s", "d", "f", "g", "h", "j", "k", "l", "ö", "ä", "#"],
+                ["⇄", "q", "w", "e", "r", "t", "z", "u", "i", "o", "p", "ü", "+", "#"],
+                ["\u21ea", "a", "s", "d", "f", "g", "h", "j", "k", "l", "ö", "ä", "\u23ce"],
                 ["\u21E7", "<", "y", "x", "c", "v", "b", "n", "m", ",", "." ,"-", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "agr", "\u2325", "ctrl"]]
         
@@ -125,8 +120,8 @@ class QVirtualKeyboard(QMainWindow):
     
     def getArabChars(self):
         return [["ذ", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩", "٠", "~", "!", "\u232b"],
-                ["⇄", "ض", "ص", "ث", "ق", "ف", "غ", "ع", "ه", "خ", "ح", "ج", "د"],
-                ["\u21ea", "ش", "س", "ي", "ب", "ل", "ا", "ت", "ن", "م", "ك", "ط", "\\"],
+                ["⇄", "ض", "ص", "ث", "ق", "ف", "غ", "ع", "ه", "خ", "ح", "ج", "د", "\\"],
+                ["\u21ea", "ش", "س", "ي", "ب", "ل", "ا", "ت", "ن", "م", "ك", "ط", "\u23ce"],
                 ["\u21E7", "ئ", "ء", "ؤ", "ر", "لا", "ى", "ة", "و", "ز", "ظ" ,"ـ", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
@@ -140,8 +135,8 @@ class QVirtualKeyboard(QMainWindow):
     
     def getButtonSizes(self):
         return [[30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 60],
-                [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
-                [50, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 20],
+                [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 50],
+                [50, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 70],
                 [40, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 80],
                 [30, 30, 30, 150, 30, 30, 30, 30, 30, 30, 30]]
     
@@ -151,10 +146,36 @@ class QVirtualKeyboard(QMainWindow):
         
     def getQwertzKeys(self):
         return [[16781906, Qt.Key_1, Qt.Key_2, Qt.Key_3, Qt.Key_4, Qt.Key_5, Qt.Key_6, Qt.Key_7, Qt.Key_8, Qt.Key_9, Qt.Key_0, Qt.Key_ssharp, 16781905, Qt.Key_Backspace],
-                [Qt.Key_Tab, Qt.Key_Q, Qt.Key_W, Qt.Key_E, Qt.Key_R, Qt.Key_T, Qt.Key_Z, Qt.Key_U, Qt.Key_I, Qt.Key_O, Qt.Key_P, Qt.Key_Udiaeresis, Qt.Key_Plus],
-                [Qt.Key_CapsLock, Qt.Key_A, Qt.Key_S, Qt.Key_D, Qt.Key_F, Qt.Key_G, Qt.Key_H, Qt.Key_J, Qt.Key_K, Qt.Key_L, Qt.Key_Odiaeresis, Qt.Key_Adiaeresis, Qt.Key_NumberSign],
+                [Qt.Key_Tab, Qt.Key_Q, Qt.Key_W, Qt.Key_E, Qt.Key_R, Qt.Key_T, Qt.Key_Z, Qt.Key_U, Qt.Key_I, Qt.Key_O, Qt.Key_P, Qt.Key_Udiaeresis, Qt.Key_Plus, Qt.Key_NumberSign],
+                [Qt.Key_CapsLock, Qt.Key_A, Qt.Key_S, Qt.Key_D, Qt.Key_F, Qt.Key_G, Qt.Key_H, Qt.Key_J, Qt.Key_K, Qt.Key_L, Qt.Key_Odiaeresis, Qt.Key_Adiaeresis, Qt.Key_Return],
                 [Qt.Key_Shift, Qt.Key_Less, Qt.Key_Y, Qt.Key_X, Qt.Key_C, Qt.Key_V, Qt.Key_B, Qt.Key_N, Qt.Key_M, Qt.Key_Comma, Qt.Key_Period, Qt.Key_Minus, -1],
                 [Qt.Key_Control, Qt.Key_Meta, Qt.Key_Alt, Qt.Key_Space,  Qt.Key_Left, Qt.Key_Down, Qt.Key_Up, Qt.Key_Right, Qt.Key_AltGr, -1, -1]]
+    
+class QVkeybdPushButton(QPushButton):
+    def __init__(self, text, parent=None):
+        super().__init__(text, parent)
+        
+    def keyPressEvent(self, e):
+        if e.key() == Qt.Key_Space:
+            e.ignore()
+        elif e.key() == Qt.Key_Left:
+            e.ignore()
+        elif e.key() == Qt.Key_Right:
+            e.ignore()
+        elif e.key() == Qt.Key_Up:
+            e.ignore()
+        elif e.key() == Qt.Key_Down:
+            e.ignore()
+        elif e.key() == Qt.Key_Escape:
+            e.ignore()
+        elif e.key() == Qt.Key_Tab:
+            e.ignore()
+        elif e.key() == Qt.Key_Return:
+            e.ignore()
+        elif e.key() == Qt.Key_Dead_Circumflex:
+            e.ignore()
+        else:
+            super().keyPressEvent(e)
         
 if __name__ == "__main__":
     import signal
