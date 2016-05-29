@@ -15,6 +15,15 @@ class QInputLine(QLineEdit):
     def __init__(self):
         super().__init__()
         
+    def appendText(self, text):
+        prev_text = self.text()
+        "backspace:"
+        if text == "\u232b":
+            self.setText(prev_text[:-1])
+        else:
+            prev_text += text
+            self.setText(prev_text)
+        
     def keyPressEvent(self, e):
         if e.key() == Qt.Key_Return:
             self.history.historyWrite(self.text())

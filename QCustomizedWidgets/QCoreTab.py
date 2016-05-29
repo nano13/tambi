@@ -1,12 +1,14 @@
 # -*- coding: utf_8 -*-
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton
+from PyQt5.QtGui import QIcon
 from QCustomizedWidgets.QInputLine import QInputLine
-#from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
-#from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
+from QCustomizedWidgets.QVirtualKeyboard import QVirtualKeyboard
 
 from interpreter.interpreter import Interpreter
+
+from functools import partial
 
 class QCoreTab(QWidget):
     
@@ -14,27 +16,6 @@ class QCoreTab(QWidget):
     
     def __init__(self):
         super().__init__()
-        
-    #def vocableLearnTab(self):
-        #grid = QGridLayout()
-        #self.setLayout(grid)
-        
-        #self.vocable_page = QVocableLearnPage().vocableLearnPage()
-        
-        #grid.addWidget(self.vocable_page, 0, 0)
-        
-        #return self
-    
-    #def vocableLanguageTab(self):
-        #grid = QGridLayout()
-        #self.setLayout(grid)
-        
-        #self.vocable_page = QVocableLanguagePage().vocableLanguagePage()
-        ##self.vocable_page.languageSelected.connect(self.languageSelected)
-        
-        #grid.addWidget(self.vocable_page, 0, 0)
-        
-        #return self
     
     def vocableTab(self):
         grid = QGridLayout()
@@ -52,13 +33,22 @@ class QCoreTab(QWidget):
         
         self.table = QTableWidget()
         
-        grid.addWidget(self.table, 0, 0)
+        grid.addWidget(self.table, 0, 0, 1, 0)
         
         line = QInputLine()
         line.return_pressed.connect(self.commandEntered)
         grid.addWidget(line, 1, 0)
         
+        vkbdButton = QPushButton(self)
+        vkbdButton.clicked.connect(partial(self.vkbdButtonClicked, line))
+        vkbdButton.setIcon(QIcon.fromTheme('input-keyboard'))
+        grid.addWidget(vkbdButton, 1, 1)
+        
         return self
+    
+    def vkbdButtonClicked(self, lineEdit):
+        kbd = QVirtualKeyboard()
+        kbd.setLineEdit(lineEdit)
     
     def commandEntered(self, command):
         print("command:", command)
