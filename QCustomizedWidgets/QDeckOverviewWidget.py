@@ -2,7 +2,6 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox
 from PyQt5.QtCore import pyqtSignal
 from PyQt5 import QtSvg
-#from QCustomizedWidgets.QNewDeckWidget import QNewDeckWidget
 from misc.deckDbAdapter import DeckDbAdapter
 
 from os import path, remove
@@ -75,11 +74,15 @@ class QDeckOverviewWidget(QWidget):
             word = line["word"]
             translation = line["translation"]
             svg_filename = line["svg_filename"]
-            audio_filenames = line["audio_filenames"]
+            #audio_filenames = line["audio_filenames"]
+            
+            audio_filenames = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
             
             svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, svg_filename))
             #svgWidget.setGeometry(50,50,759,668)
             svgWidget.setFixedSize(60, 30)
+            
+            audioWidget = QAudioItems(self.deckpath, audio_filenames)
             
             edit_button = QPushButton("edit")
             edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
@@ -93,6 +96,7 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
             self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
             self.tableWidget.setCellWidget(i, 6, svgWidget)
+            self.tableWidget.setCellWidget(i, 7, audioWidget)
             
         self.tableWidget.resizeColumnsToContents()
             
@@ -120,3 +124,62 @@ class QDeckOverviewWidget(QWidget):
                 remove(path.join(self.deckpath, audio))
             
             self.initWithDbData()
+
+
+from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
+from PyQt5.QtGui import QIcon
+from PyQt5 import QtCore
+from os import path
+
+class QAudioItems(QTableWidget):
+    
+    PLAYING = 1
+    STOPPED = 0
+    
+    audioPlayer = None
+    status = STOPPED
+    row = None
+    
+    def __init__(self, deckpath, audio_filenames):
+        super().__init__()
+        
+        self.deckpath = deckpath
+        
+        self.audioPlayer = QMediaPlayer()
+        self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
+        
+        #grid = QGridLayout()
+        
+        self.setColumnCount(len(audio_filenames))
+        self.setRowCount(1)
+        self.horizontalHeader().hide()
+        self.verticalHeader().hide()
+        
+        for i, audio in enumerate(audio_filenames):
+            filename = audio["filename"]
+            
+            button_play = QPushButton(self)
+            icon = QIcon.fromTheme('media-playback-start')
+            button_play.setIcon(icon)
+            button_play.clicked.connect(partial(self.playButtonClicked, filename))
+            
+            button_play.resize(30, 30)
+            
+            self.setCellWidget(0, i, button_play)
+            #grid.addWidget(button_play, 0, i)
+        
+        #self.setLayout(grid)
+        self.resizeColumnsToContents()
+        
+    def playButtonClicked(self, filename):
+        filepath = path.join(self.deckpath, filename)
+        url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+        content = QMediaContent(url)
+        self.audioPlayer.setMedia(content)
+        self.audioPlayer.play()
+        
+        self.status = self.PLAYING
+        #self.row = row
+        
+    def mediaStatusChanged(self):
+        pass
