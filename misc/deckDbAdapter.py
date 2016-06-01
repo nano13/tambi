@@ -78,6 +78,15 @@ class DeckDbAdapter(object):
         self.cursor.execute(query)
         
         self.connection.commit()
+        
+    def selectDeckItemsWithAudio(self):
+        query = "SELECT deck.rowid, name, word, translation, svg_filename, source, description, audio.filename FROM deck JOIN audio ON (deck.rowid = audio.deck_rowid) ORDER BY deck.rowid"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        #print(result)
+        
+        return self.dictFactory(result)
     
     def deleteItem(self, rowid):
         query = "SELECT svg_filename FROM deck WHERE rowid={0}".format(rowid)

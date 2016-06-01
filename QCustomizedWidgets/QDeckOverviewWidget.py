@@ -54,7 +54,7 @@ class QDeckOverviewWidget(QWidget):
     def initTableWidget(self):
         if not self.tableWidget:
             self.tableWidget = QTableWidget()
-            
+        
         self.tableWidget.setColumnCount(8)
         self.tableWidget.setRowCount(0)
         self.tableWidget.setHorizontalHeaderLabels(["", "", "id", "name", "word", "translation", "svg", "audio"])
@@ -66,7 +66,10 @@ class QDeckOverviewWidget(QWidget):
         self.tableWidget.clear()
         
         data = self.dbAdapter.selectDeckItems()
+        #data = self.dbAdapter.selectDeckItemsWithAudio()
+        print(data)
         self.tableWidget.setRowCount(len(data))
+        audioWidget = QAudioItems(self.deckpath, self.tableWidget)
         
         for i, line in enumerate(data):
             rowid = line["rowid"]
@@ -74,15 +77,13 @@ class QDeckOverviewWidget(QWidget):
             word = line["word"]
             translation = line["translation"]
             svg_filename = line["svg_filename"]
-            #audio_filenames = line["audio_filenames"]
             
             audio_filenames = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
+            #audio_filenames = [{"filename": "bla"},{"filename": "blubb"}]
             
             svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, svg_filename))
             #svgWidget.setGeometry(50,50,759,668)
             svgWidget.setFixedSize(60, 30)
-            
-            audioWidget = QAudioItems(self.deckpath, audio_filenames)
             
             edit_button = QPushButton("edit")
             edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
@@ -96,8 +97,12 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
             self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
             self.tableWidget.setCellWidget(i, 6, svgWidget)
-            self.tableWidget.setCellWidget(i, 7, audioWidget)
             
+            #if audio_filenames:
+            audioWidget.appendPlayButtons(audio_filenames, i, 7)
+            
+        column_count = audioWidget.getMaxColCount()
+        self.tableWidget.setColumnCount(column_count)
         self.tableWidget.resizeColumnsToContents()
             
     def selectDeckButtonClicked(self):
@@ -131,7 +136,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5 import QtCore
 from os import path
 
-class QAudioItems(QTableWidget):
+class QAudioItems(object):
     
     PLAYING = 1
     STOPPED = 0
@@ -140,38 +145,34 @@ class QAudioItems(QTableWidget):
     status = STOPPED
     row = None
     
-    def __init__(self, deckpath, audio_filenames):
-        super().__init__()
-        
+    max_button_count = 0
+    
+    def __init__(self, deckpath, tableWidget):
         self.deckpath = deckpath
+        self.tableWidget = tableWidget
         
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
         
-        #grid = QGridLayout()
-        
-        self.setColumnCount(len(audio_filenames))
-        self.setRowCount(1)
-        self.horizontalHeader().hide()
-        self.verticalHeader().hide()
+    def appendPlayButtons(self, audio_filenames, row, col_offset):
+        if len(audio_filenames) > self.max_button_count:
+            self.max_button_count = len(audio_filenames) + col_offset
+        if self.tableWidget.columnCount() < self.max_button_count:
+            self.tableWidget.setColumnCount(self.max_button_count)
         
         for i, audio in enumerate(audio_filenames):
             filename = audio["filename"]
             
-            button_play = QPushButton(self)
+            button_play = QPushButton()
             icon = QIcon.fromTheme('media-playback-start')
             button_play.setIcon(icon)
-            button_play.clicked.connect(partial(self.playButtonClicked, filename))
+            button_play.clicked.connect(partial(self.playButtonClicked, filename, row))
             
-            button_play.resize(30, 30)
+            #button_play.resize(30, 30)
             
-            self.setCellWidget(0, i, button_play)
-            #grid.addWidget(button_play, 0, i)
+            self.tableWidget.setCellWidget(row, i+col_offset, button_play)
         
-        #self.setLayout(grid)
-        self.resizeColumnsToContents()
-        
-    def playButtonClicked(self, filename):
+    def playButtonClicked(self, filename, row):
         filepath = path.join(self.deckpath, filename)
         url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
         content = QMediaContent(url)
@@ -179,7 +180,13 @@ class QAudioItems(QTableWidget):
         self.audioPlayer.play()
         
         self.status = self.PLAYING
-        #self.row = row
+        self.row = row
         
     def mediaStatusChanged(self):
         pass
+    
+    def getMaxColCount(self):
+        if not self.max_button_count == 0:
+            return self.max_button_count
+        else:
+            return self.tableWidget.columnCount()
