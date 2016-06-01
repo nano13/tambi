@@ -17,7 +17,7 @@ class DeckDbAdapter(object):
         self.connection.close()
         
     def initializeTables(self):
-        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, audio_filenames TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
+        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
         self.cursor.execute(query)
         
         query  = "CREATE TABLE IF NOT EXISTS audio (rowid INTEGER PRIMARY KEY AUTOINCREMENT, deck_rowid INTEGER, description TEXT, filename TEXT)"
@@ -43,13 +43,13 @@ class DeckDbAdapter(object):
         
         return result_list
         
-    def saveDeckItem(self, name, word, translation, svg_filename, audio_filenames):
-        query = "INSERT INTO deck (name, word, translation, svg_filename, audio_filenames, created, known, priority, changed) VALUES (?, ?, ?, ?, ?, ?, 0, 0, ?)"
+    def saveDeckItem(self, name, word, translation, svg_filename):
+        query = "INSERT INTO deck (name, word, translation, svg_filename, created, known, priority, changed) VALUES (?, ?, ?, ?, ?, 0, 0, ?)"
         
         created = int(time.time())
         changed = int(time.time())
         
-        self.cursor.execute(query, (name, word, translation, svg_filename, audio_filenames, created, changed))
+        self.cursor.execute(query, (name, word, translation, svg_filename, created, changed))
         self.connection.commit()
         
     def getDeckItemRowID(self, name, word, translation, svg_filename):
@@ -60,21 +60,21 @@ class DeckDbAdapter(object):
         return result[0][0]
         
     def selectDeckItems(self):
-        query = "SELECT rowid, name, word, translation, svg_filename, audio_filenames FROM deck"
+        query = "SELECT rowid, name, word, translation, svg_filename FROM deck"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)
     
     def selectDeckItem(self, rowid):
-        query = "SELECT name, word, translation, svg_filename, audio_filenames FROM deck WHERE rowid={0}".format(rowid)
+        query = "SELECT name, word, translation, svg_filename FROM deck WHERE rowid={0}".format(rowid)
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)[0]
     
-    def updateDeckItem(self, rowid, name, word, translation, svg_filename, audio_filenames):
-        query = "UPDATE deck SET name='{0}', word='{1}', translation='{2}', svg_filename='{3}', audio_filenames='{4}' WHERE rowid={5}".format(name, word, translation, str(svg_filename), audio_filenames, rowid)
+    def updateDeckItem(self, rowid, name, word, translation, svg_filename):
+        query = "UPDATE deck SET name='{0}', word='{1}', translation='{2}', svg_filename='{3}' WHERE rowid={4}".format(name, word, translation, str(svg_filename), rowid)
         self.cursor.execute(query)
         
         self.connection.commit()

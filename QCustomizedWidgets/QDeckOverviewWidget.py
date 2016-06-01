@@ -67,7 +67,6 @@ class QDeckOverviewWidget(QWidget):
         
         data = self.dbAdapter.selectDeckItems()
         #data = self.dbAdapter.selectDeckItemsWithAudio()
-        print(data)
         self.tableWidget.setRowCount(len(data))
         audioWidget = QAudioItems(self.deckpath, self.tableWidget)
         
