@@ -2,7 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QLineEdit, QPushButton, QGridLayout
 from PyQt5.QtGui import QIcon
 
-from QCustomizedWidgets.QVirtualKeyboard import QVirtualKeyboard
+from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 
 class QVkbdLineEdit(QWidget):
     def __init__(self):
@@ -42,5 +42,5 @@ class QVkbdLineEdit(QWidget):
         return self.lineEdit.text()
     
     def vkbdButtonClicked(self):
-        self.kbd = QVirtualKeyboard()
+        self.kbd = QVirtualKeyboardWindow()
         self.kbd.setLineEdit(self)

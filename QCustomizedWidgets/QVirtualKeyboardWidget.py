@@ -7,41 +7,6 @@ from PyQt5.QtCore import pyqtSignal
 import functools
 import math
 
-class QVirtualKeyboardWindow(QMainWindow):
-    
-    availableHostLayouts = ["qwertz"]
-    availableVirtualLayouts = ["german", "greek", "hebrew", "arabic", "hindi"]
-    
-    def __init__(self):
-        super().__init__()
-        
-        self.resize(500, 200)
-        
-        self.virtualKeyboard = QVirtualKeyboardWidget()
-        
-        layoutHostLabel = QLabel("Host Layout:")
-        layoutVirtualLabel = QLabel("Virtual Layout:")
-        
-        comboHostLayout = QComboBox(self)
-        for layout in sorted(self.availableHostLayouts):
-            comboHostLayout.addItem(layout)
-        
-        comboVirtualLayout = QComboBox(self)
-        for layout in sorted(self.availableVirtualLayouts):
-            comboVirtualLayout.addItem(layout)
-        
-        layoutHostLabel.move(10, 0)
-        comboHostLayout.move(100, 10)
-        comboVirtualLayout.move(200, 10)
-        
-        layoutHostLabel.adjustSize()
-        layoutVirtualLabel.adjustSize()
-        layoutHostLabel.show()
-        comboHostLayout.show()
-        comboVirtualLayout.show()
-        
-        self.show()
-
 class QVirtualKeyboardWidget(QWidget):
     
     keyPressedAny = pyqtSignal(int)
@@ -51,21 +16,18 @@ class QVirtualKeyboardWidget(QWidget):
         super().__init__()
         
         self.setWindowTitle("virtual keyboard")
-        #self.resize(450, 150)
+        self.resize(450, 150)
         
-        self.drawKeyboard("ar", "qwertz")
+        #self.drawKeyboard("arabic", "qwertz")
         
         #self.show()
         
     def setLineEdit(self, lineEdit):
         self.lineEdit = lineEdit
         
-    def drawKeyboard(self, language, layout):
+    def drawKeyboard(self, layout, language):
         chars = self.getChars(language)
         keys = self.getKeys(layout)
-        
-        #line_pos = 0
-        #line_width = 30
         
         self.drawButtons(chars, keys)
         
@@ -124,16 +86,18 @@ class QVirtualKeyboardWidget(QWidget):
             self.keyPressedAny.emit(e.key())
         
     def getChars(self, language):
-        if language == "de":
+        if language == "german":
             return self.getGermanChars()
-        elif language == "gr":
+        elif language == "greek":
             return self.getGreekChars()
-        elif language == "he":
+        elif language == "hebrew":
             return self.getHebrewChars()
-        elif language == "ar":
+        elif language == "arabic":
             return self.getArabChars()
-        elif language == "hi":
+        elif language == "hindi":
             return self.getDevanagariTemplate()
+        else:
+            return self.getHebrewChars()
         
     def getGreekChars(self):
         return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
@@ -195,6 +159,8 @@ class QVirtualKeyboardWidget(QWidget):
     def getKeys(self, layout):
         if layout == "qwertz":
             return self.getQwertzKeys()
+        else:
+            return self.getQwertzKeys()
         
     def getQwertzKeys(self):
         return [[16781906, Qt.Key_1, Qt.Key_2, Qt.Key_3, Qt.Key_4, Qt.Key_5, Qt.Key_6, Qt.Key_7, Qt.Key_8, Qt.Key_9, Qt.Key_0, Qt.Key_ssharp, 16781905, Qt.Key_Backspace],
@@ -236,14 +202,4 @@ class QVkeybdPushButton(QPushButton):
             e.ignore()
         else:
             super().keyPressEvent(e)
-        
-if __name__ == "__main__":
-    import signal
-    # to make program closeable with ctr-c in terminal
-    signal.signal(signal.SIGINT, signal.SIG_DFL)
-
-    from PyQt5.QtWidgets import QApplication
-    import sys
-    app = QApplication(sys.argv)
-    c = QVirtualKeyboardWindow()
-    sys.exit(app.exec_())
+    

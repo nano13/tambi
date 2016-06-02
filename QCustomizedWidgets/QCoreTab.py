@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
 from PyQt5.QtGui import QIcon
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
-from QCustomizedWidgets.QVirtualKeyboard import QVirtualKeyboard
+from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 
 from interpreter.interpreter import Interpreter
 
@@ -47,7 +47,7 @@ class QCoreTab(QWidget):
         return self
     
     def vkbdButtonClicked(self, lineEdit):
-        kbd = QVirtualKeyboard()
+        kbd = QVirtualKeyboardWindow()
         kbd.setLineEdit(lineEdit)
     
     def commandEntered(self, command):
