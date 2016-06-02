@@ -1,13 +1,48 @@
 # -*- coding: utf_8 -*-
 
-from PyQt5.QtWidgets import QMainWindow, QTabWidget, QPushButton
+from PyQt5.QtWidgets import QMainWindow, QWidget, QPushButton, QComboBox, QLabel
 from PyQt5.QtCore import Qt
 from PyQt5.QtCore import pyqtSignal
 
 import functools
 import math
 
-class QVirtualKeyboard(QMainWindow):
+class QVirtualKeyboardWindow(QMainWindow):
+    
+    availableHostLayouts = ["qwertz"]
+    availableVirtualLayouts = ["german", "greek", "hebrew", "arabic", "hindi"]
+    
+    def __init__(self):
+        super().__init__()
+        
+        self.resize(500, 200)
+        
+        self.virtualKeyboard = QVirtualKeyboardWidget()
+        
+        layoutHostLabel = QLabel("Host Layout:")
+        layoutVirtualLabel = QLabel("Virtual Layout:")
+        
+        comboHostLayout = QComboBox(self)
+        for layout in sorted(self.availableHostLayouts):
+            comboHostLayout.addItem(layout)
+        
+        comboVirtualLayout = QComboBox(self)
+        for layout in sorted(self.availableVirtualLayouts):
+            comboVirtualLayout.addItem(layout)
+        
+        layoutHostLabel.move(10, 0)
+        comboHostLayout.move(100, 10)
+        comboVirtualLayout.move(200, 10)
+        
+        layoutHostLabel.adjustSize()
+        layoutVirtualLabel.adjustSize()
+        layoutHostLabel.show()
+        comboHostLayout.show()
+        comboVirtualLayout.show()
+        
+        self.show()
+
+class QVirtualKeyboardWidget(QWidget):
     
     keyPressedAny = pyqtSignal(int)
     lineEdit = None
@@ -16,11 +51,11 @@ class QVirtualKeyboard(QMainWindow):
         super().__init__()
         
         self.setWindowTitle("virtual keyboard")
-        self.resize(450, 150)
+        #self.resize(450, 150)
         
         self.drawKeyboard("ar", "qwertz")
         
-        self.show()
+        #self.show()
         
     def setLineEdit(self, lineEdit):
         self.lineEdit = lineEdit
@@ -29,8 +64,8 @@ class QVirtualKeyboard(QMainWindow):
         chars = self.getChars(language)
         keys = self.getKeys(layout)
         
-        line_pos = 0
-        line_width = 30
+        #line_pos = 0
+        #line_width = 30
         
         self.drawButtons(chars, keys)
         
@@ -59,6 +94,7 @@ class QVirtualKeyboard(QMainWindow):
                 button = QVkeybdPushButton(chars[row][i], self)
                 button.resize(button_sizes[row][i], 30)
                 button.move((i + row_offset)*30, row*30)
+                button.show()
                 
                 self.connectButton(button, chars[row][i], keys[row][i])
             
@@ -96,6 +132,8 @@ class QVirtualKeyboard(QMainWindow):
             return self.getHebrewChars()
         elif language == "ar":
             return self.getArabChars()
+        elif language == "hi":
+            return self.getDevanagariTemplate()
         
     def getGreekChars(self):
         return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
@@ -132,12 +170,19 @@ class QVirtualKeyboard(QMainWindow):
                 ["\u21E7", "ئ", "ء", "ؤ", "ر", "لا", "ى", "ة", "و", "ز", "ظ" ,"ـ", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
+    def getDevanagariTemplate(self):
+        return [["ॊ", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "ृ", "\u232b"],
+                ["⇄", "ौ", "ै", "ा", "ी", "ू", "ब", "ह", "ग", "द", "ज", "ड", "ड़", "़"],
+                ["\u21ea", "ो", "े", "्", "ि", "ु", "प", "र", "क", "त", "च", "ट", "\u23ce"],
+                ["\u21E7", "ॆ", "ं", "म", "न", "व", "ल", "स", ",", ".", "य" ,"", "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+        
     "Template for copying it if you want to make new layouts"
     def getCharsTemplate(self):
         return [["", "", "", "", "", "", "", "", "", "", "", "", "", "\u232b"],
-                ["⇄", "", "", "", "", "", "", "", "", "", "", "", ""],
-                ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", ""],
-                ["\u21E7", "", "", "", "", "", "", "", "", "", "", "", "\u21E7"],
+                ["⇄", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+                ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", "\u23ce"],
+                ["\u21E7", "", "", "", "", "", "", "", "", "", "" ,"ـ", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
     
     def getButtonSizes(self):
@@ -157,6 +202,14 @@ class QVirtualKeyboard(QMainWindow):
                 [Qt.Key_CapsLock, Qt.Key_A, Qt.Key_S, Qt.Key_D, Qt.Key_F, Qt.Key_G, Qt.Key_H, Qt.Key_J, Qt.Key_K, Qt.Key_L, Qt.Key_Odiaeresis, Qt.Key_Adiaeresis, Qt.Key_Return],
                 [Qt.Key_Shift, Qt.Key_Less, Qt.Key_Y, Qt.Key_X, Qt.Key_C, Qt.Key_V, Qt.Key_B, Qt.Key_N, Qt.Key_M, Qt.Key_Comma, Qt.Key_Period, Qt.Key_Minus, -1],
                 [Qt.Key_Control, Qt.Key_Meta, Qt.Key_Alt, Qt.Key_Space,  Qt.Key_Left, Qt.Key_Down, Qt.Key_Up, Qt.Key_Right, Qt.Key_AltGr, -1, -1]]
+    
+    def destroyKeyboard(self):
+        for button in self.findChildren(QVkeybdPushButton):
+            button.clicked.disconnect()
+            button.deleteLater()
+        
+        self.keyPressedAny.disconnect()
+        
     
 class QVkeybdPushButton(QPushButton):
     def __init__(self, text, parent=None):
@@ -192,5 +245,5 @@ if __name__ == "__main__":
     from PyQt5.QtWidgets import QApplication
     import sys
     app = QApplication(sys.argv)
-    c = QVirtualKeyboard()
+    c = QVirtualKeyboardWindow()
     sys.exit(app.exec_())
