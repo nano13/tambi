@@ -38,7 +38,7 @@ class ConfigFile(object):
             
         return confresult
     
-    def  write(self, section, option, value):
+    def write(self, section, option, value):
         self.config.set(section, option, value)
         
         cfgfile = open(self.configFilePath, "w")
