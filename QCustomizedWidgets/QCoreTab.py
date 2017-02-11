@@ -55,9 +55,11 @@ class QCoreTab(QWidget):
         result = self.interpreter.interpreter(command)
         
         if result is None:
-            pass
+            self.showErrorMessage('no result found')
+        elif len(result) == 0:
+            self.showErrorMessage('result is empty')
         elif result.error != None:
-            pass
+            self.showErrorMessage('result contains error')
         elif result.category == "table":
             self.resultInTable(result)
         
@@ -76,3 +78,10 @@ class QCoreTab(QWidget):
                 self.table.setItem(row, column, QTableWidgetItem(str(item)))
                 
         self.table.resizeColumnsToContents()
+        
+    def showErrorMessage(self, message):
+        self.table.setRowCount(1)
+        self.table.setColumnCount(1)
+        self.table.setItem(0, 0, QTableWidgetItem(str(message)))
+        self.table.resizeColumnsToContents()
+        
