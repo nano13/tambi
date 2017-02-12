@@ -54,7 +54,7 @@ class QVirtualKeyboardWindow(QMainWindow):
         self.virtualKeyboard.drawKeyboard("qwertz", layout)
         
     def setLineEdit(self, lineEdit):
-        #self.virtualKeyboard.setLineEdit(lineEdit)
+        self.virtualKeyboard.setLineEdit(lineEdit)
         pass
         
 if __name__ == "__main__":
