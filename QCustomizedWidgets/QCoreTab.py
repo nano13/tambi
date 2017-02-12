@@ -32,6 +32,7 @@ class QCoreTab(QWidget):
         self.setLayout(grid)
         
         self.table = QTableWidget()
+        self.vkbd = None
         
         grid.addWidget(self.table, 0, 0, 1, 0)
         
@@ -47,8 +48,8 @@ class QCoreTab(QWidget):
         return self
     
     def vkbdButtonClicked(self, lineEdit):
-        kbd = QVirtualKeyboardWindow()
-        kbd.setLineEdit(lineEdit)
+        self.vkbd = QVirtualKeyboardWindow()
+        self.vkbd.setLineEdit(lineEdit)
     
     def commandEntered(self, command):
         print("command:", command)
