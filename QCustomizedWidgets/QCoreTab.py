@@ -54,12 +54,30 @@ class QCoreTab(QWidget):
         print("command:", command)
         result = self.interpreter.interpreter(command)
         
+        print(result)
+        print(type(result))
+        
+        error_happened = False
+        try:
+            result.error
+        except AttributeError:
+            self.showErrorMessage('result contains error')
+            error_happened = True
+        
+        try:
+            len(result)
+        except TypeError:
+            self.showErrorMessage('result is empty')
+            error_happened = True
+        
         if result is None:
             self.showErrorMessage('no result found')
-        elif len(result) == 0:
-            self.showErrorMessage('result is empty')
-        elif result.error != None:
-            self.showErrorMessage('result contains error')
+        #elif result.error != None:
+        #   self.showErrorMessage('result contains error')
+        #elif len(result) == 0:
+        #   self.showErrorMessage('result is empty')
+        elif error_happened:
+            pass
         elif result.category == "table":
             self.resultInTable(result)
         
