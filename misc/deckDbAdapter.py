@@ -23,6 +23,8 @@ class DeckDbAdapter(object):
         query  = "CREATE TABLE IF NOT EXISTS audio (rowid INTEGER PRIMARY KEY AUTOINCREMENT, deck_rowid INTEGER, description TEXT, filename TEXT)"
         self.cursor.execute(query)
         
+        #query = "CREATE TABLE IF NOT EXISTS column_names (rowid INTEGER PRIMARY KEY AUTOINCREMENT, "
+        
         self.connection.commit()
     
 #    def dict_factory(cursor, row):

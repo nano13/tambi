@@ -124,7 +124,7 @@ class QDeckItemWidget(QWidget):
             
             self.freehandDrawWidget.saveView(path.join(self.deckpath, svg_filename))
             
-            self.dbAdapter.saveDeckItem(name, word, translation, svg_filename, audio_filenames)
+            self.dbAdapter.saveDeckItem(name, word, translation, svg_filename)
             
             self.current_rowid = self.dbAdapter.getDeckItemRowID(name, word, translation, svg_filename)
             self.svg_filename = svg_filename
@@ -132,7 +132,7 @@ class QDeckItemWidget(QWidget):
         else:
             self.freehandDrawWidget.saveView(path.join(self.deckpath, self.svg_filename))
             
-            self.dbAdapter.updateDeckItem(self.current_rowid, name, word, translation, self.svg_filename, audio_filenames)
+            self.dbAdapter.updateDeckItem(self.current_rowid, name, word, translation, self.svg_filename)
             
         self.audioListWidget.saveStateToDB(self.current_rowid)
         
