@@ -1,2 +1,9 @@
 __pycache__
 *.pyc
+
+*.aux
+*.dvi
+*.log
+*.out
+*.pdf
+*.toc

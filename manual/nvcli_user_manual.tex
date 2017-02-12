@@ -1,0 +1,400 @@
+\documentclass[a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+\usepackage[german]{babel}
+\usepackage[colorlinks=true,linkcolor=blue,pdfpagelabels=true]{hyperref}
+\usepackage{color}
+\usepackage{microtype}
+\usepackage{multirow}
+
+\let\origitem\item
+\renewcommand{\item}{\normalfont\origitem}
+\newcommand{\bolditem}{\normalfont\bfseries\origitem}
+\newcommand{\ttitem}{\normalfont\ttfamily\origitem}
+
+\clubpenalty = 10000 % schliesst Schusterjungen aus
+\widowpenalty = 10000 % schliesst Hurenkinder aus
+\hyphenpenalty = 2500 %verringert Silbentrennung
+
+\begin{document}
+
+\title{Kurzanleitung zur Benutzung von NVCLI}
+\subtitle{Non Visual Command Line Interface}
+\author{Samuel Becker}
+\maketitle
+
+\tableofcontents
+
+%\newpage
+
+\setcounter{section}{-1}
+\section{Vorwort}
+
+\subsection{Ziel dieses Programmes}
+Dieses Programm wurde ursprünglich entwickelt, da ich, der Author, von Blinden Menschen angesprochen wurde, dass es für sie recht umständlich ist, vorhandene Bibelprogramme mit Screenreadern zu nutzen oder die Bibel auf entsprechenden Webseiten zu lesen. Daher kam die Idee, ein Programm zu schreiben, dass mehr auf diese Zielgruppe zugeschnitten ist. In wie fern das mit diesem Versuch wirklich gelungen ist, darf jeder Nutzer für sich selbst entscheiden.\\
+\\
+Verbesserungsvorschläge sind jederzeit willkommen und am Besten unter der Adresse \url{mailto:nano13@gmx.net} einzureichen.
+
+\subsection{Der Name}
+NVCLI (Non Visual Command Line Interface). Kommandozeilen sind allgemein nicht besonders visuell, der Name ist eher eine Anspielung auf den freien Screenreader NVDA (\url{http://www.nvda-project.org}), der für die Sprachausgabe unter Windows benötigt wird. (\nobreak{NVDA} steht für Non Visual Desktop-Acess.)
+
+\subsection{Warum heute noch eine Kommandozeile?}
+Viele Menschen halten das Konzept einer Kommandozeile in der heutigen Zeit, wo man von Windows Vista / 7, KDE, Gnome, OSX usw. eher übertrieben bunte Fenster mit übertrieben großen Schaltflächen gewöhnt ist, für vollständig überholt und antiquiert. Dies ändert jedoch nichts an der simplen Tatsache, dass Kommandozeilen sich schon seit vielen Jahren erfolgreich behaupten konnten und einfach in vielen Disziplinen (Einfachheit, Effizienz und Schnelligkeit in der Bedienung seien hier als Beispiele genannt) nach wie vor ungeschlagen sind.
+
+Gleichzeitig profitiert meines Erachtens gerade die Hauptzielgruppe dieses Programmes, nämlich Blinde Menschen, kaum von Graphischen Oberflächen, ich persönlich empfinde das ewige ''Durchtabben`` durch die Unübersichtlichkeiten des Fensterjungels mit Hilfe von Screenreadern als eher umständlich und zeitraubend. (Man sollte hier evtl. erwähnen, dass ich selber nicht blind bin, aber auch als sehender finde ich das ewige Herumklicken mit der Maus auf Fenster über Fenster über Fenster viel zu oft als ineffizient, zeitraubend, wenig zielführend.)
+
+Natürlich gibt es auch graphische Oberflächen, die tatsächlich auch die Bedienung eines Programmes erleichtern können, daher bin ich auch der Idee nicht abgeneigt, das Programm mit der Zeit auch durch einige einfache GUIs (Graphical User Interface) und Menüs zu ergänzen, jedoch wird die Konsole immer ein wichtiger Bestandteil des Programmes bleiben.
+
+Es soll nicht unerwähnt bleiben, dass Kommandozeilen naturgemäß den Nachteil mit sich bringen, dass sie ohne eine gewisse Einarbeitungszeit quasi unbenutzbar sind. Allerdings wird man, wenn man die Mühen der Einarbeitung auf sich nimmt, schnell mit einer nun durchaus sehr komfortablen Bedienung und effizienterem Arbeiten entlohnt.
+
+%\subsection{Was wird für dieses Programm benötigt?}
+%Da dieses Programm in Python geschrieben ist, ist es prinzipiell auf einer Vielzahl an Betriebssystemen lauffähig, getestet ist es aber nur unter Linux und Windows. Auf anderen Systemen wird es jedoch nicht ohne kleinere Anpassungen laufen.
+
+
+\subsection{Die Lizenzierung}
+Generell handelt es sich bei diesem Programm um open-source, eine kostenlose Weitergabe des Programmes ist nicht nur erlaubt, sondern auch erwünscht. Da dieses Programm in der Sprache Python geschrieben ist, welches nicht kompiliert, sondern interpretiert wird, erfolgt mit der Weitergabe des Programms auch automatisch eine Weitergabe des Quelltextes, der natürlich auch nach belieben verändert und wieder weitergegeben werden kann und darf.
+\\\\
+Auch sämtliche dem Programm beigefügte Daten sind frei von Rechtsansprüchen.
+
+\section{Die Sprachausgabe}
+Das Programm kümmert sich selbst um die Sprachausgabe, d.h., dass es nicht von Screenreadern vorgelesen werden soll, sondern selber aktiv wird und das Vorlesen seiner Inhalte übernimmt.
+
+\subsection{Linux}
+
+Dieser Teil ist zur Zeit Gegenstand starker Überarbeitungen.
+
+Es gibt eine funktionierende Unterstützung für \textit{espeak} via \textit{python\_espeak} und für \textit{svox pico}, eine Auflistung der dafür benötigten Komponenten und der Einstellungsmöglichkeiten wird folgen.
+%Zur Sprachausgabe wird espeak verwendet. Hierzu wird neben espeak selbst noch das Programm python\_espeak benötigt.\\
+%\\
+%Die Konfiguration der Sprachausgabe erfolgt über die Befehle:
+%
+%\begin{itemize}
+%\item setLanguage
+%\\
+%\item setSpeed
+%\item getSpeed
+%\\
+%\item setVolume
+%\item getVolume
+%\\
+%\item setPCM
+%\item getPCM
+%\end{itemize}
+
+\subsection{Windows}
+Zur Sprachausgabe wird NVDA benutzt (\url{http://www.nvda-project.org/}), der folglich gestartet sein muss. Sämtliche Einstellungen zur Sprachausgabe werden in NVDA vorgenommen.
+
+%Allerdings übernimmt NVDA nicht das Vorlesen der Oberfläche, sondern es teilt NVDA selber aktiv mit, was gerade gesprochen werden soll.
+
+\section{Die Oberfläche}
+
+Da es sich bei diesem Programm um eine Kommandozeile handelt, ist die Oberfläche entsprechend spartanisch gehalten. 
+
+\subsection{Die Tab-Leiste}
+Durch Drücken der Tasten \texttt{[Strg] + [t]} kann ein neuer Registrierreiter geöffnet werden. Zum schließen des aktuellen Registrierreiters kann man \texttt{[Strg] + [w]} nutzen.
+Die Tableiste wird wie üblich ganz oben im Fenster dargestellt. Zwischen Tabs wechseln kann man mit:
+\begin{itemize}
+\item Mausklick auf die Registrierreiter
+\item durch drücken von \texttt{[Alt] + [\textit{Ziffer}]} kann man zu einem bestimmten Tab wechseln
+	\subitem z.B. wechselt \texttt{[Alt] + [2]} zum zweiten Tab, so fern vorhanden und nicht bereits im Fokus
+\item durch drücken von \texttt{[Shift\footnote{''Shift`` ist ein anderer Name für die Großschreibtaste.}] + [$\rightarrow$]} bzw. \texttt{[Shift] + [$\leftarrow$]} wechselt man einen Tab vor oder zurück. %(\textit{[Shift] ist ein anderer Name für die Großschreibtaste.})
+\end{itemize}
+
+\subsection{Die Listenansicht}
+Als Listenansicht wird der mittlere und mit Abstand größte Teil des Fensters bezeichnet. Sie dient zur Anzeige der Ergebnisse. 
+Neue Ergebnisse werden immer ganz unten an das bestehende angefügt \textbf{(evtl. muss man herunterscrollen, um die neue Ausgabe sehen zu können}. (Das Programm scrollt nicht automatisch herunter, dies ist ein Feature, kein Bug. Auf eine Auflistung der genauen Gründe hierfür wird an dieser Stelle verzichtet.)\\
+
+Zurücksetzen kann man die Listenansicht mit dem Befehl \texttt{clear}
+
+\subsection{Die Eingabezeile}
+Ganz unten befindet sich die Eingabezeile.
+Sie ist das Kernstück des Programms, hier werden alle im folgenden beschriebenen Befehle abgesetzt, durch simples eintippen und anschließendes Bestätigen durch die \texttt{[Eingabetaste]}\\
+
+Es ist praktisch zu wissen, dass Pfeiltaste rauf bzw. runter in der Eingabezeile weitergeleitet wird an die Listenansicht, so muss man nicht ständig mit der \texttt{[Tab-Taste]} zwischen Listenansicht und Eingabezeile hin- und herwechseln. Diese Funktion ist eher für Leute von Interesse, die keine Maus verwenden.
+
+\subsubsection{Die History (Verlauf)}
+Um kürzlich abgesetzte Befehle nicht ständig erneut tippen zu müssen, gibt es auch hier, wie in jeder brauchbaren Kommandozeile, einen Verlauf. Diese verwendet man, indem man in der Eingabezeile \texttt{[Strg] + [$\uparrow$]} bzw. \texttt{[Strg] + [$\downarrow$]} drückt, um schnell kürzlich eingetippte Befehle wieder in die Eingabezeile zu holen.
+
+\subsection{Tastenkürzel}
+\subsubsection{Die Funktions-Tasten}
+Hier eine Auflistung der Funktionen der F-Tasten im Programm:\\
+
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Taste}	& \textbf{Funktion bei einmal drücken}	& \textbf{Funktion bei zweimal drücken} \\ \hline
+ESC	& löscht den Inhalt der Eingabezeile		 	& \\ \hline
+\multirow{3}{*}{F2}	& Liest vor, bei wie viel Prozent & Liest vor, bei wievielter Zeile \\
+	& von der aktuellen Ausgabe 					& sich der Cursor gerade befindet \\
+	& sich der Cursor befindet						& und wie viele Zeilen es insgesammt sind \\ \hline
+F3	&	& \\ \hline
+F4	& liest den Inhalt der Eingabezeile vor			& \\ \hline
+F5	& liest den letzten eingegebenen Befehl vor 	& \\ \hline
+F6	& liest die letzte eingegebene Bibelstelle vor	& \\ \hline
+F12	& Liest die aktuelle Uhrzeit vor				& Liest das aktuelle Datum vor \\ \hline
+\end{tabular}
+
+\subsubsection{Übersicht aller Tastenkürzel}
+Hier eine Auflistung aller im Programm nutzbaren Tastenkürzel:\\
+
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Tastenkombination}	& \textbf{Funktion}	& \textbf{Kommentar}	\\ \hline
+[Strg]+[t]				& neue Registerkarte öffnen			&	\\ \hline
+[Strg]+[w]				& aktuelle Registerkarte schließen	&	\\ \hline
+\multirow{2}{*}{[Strg]+[$\uparrow$]}		& vorherigen eingegebenen Befehl &	funktioniert nur\\
+						& in der Eingabezeile anzeigen (Verlauf zurück)		& in der Eingabezeile	\\ \hline
+[Strg]+[$\downarrow$]	& nächsten Befehl anzeigen (Verlauf vor)	& nur in Eingabezeile	\\ \hline
+						&							&	\\ \hline
+[Shift]+[$\leftarrow$]	& linksbenachbarte Registerkarte aktivieren		&	\\ \hline
+[Shift]+[$\rightarrow$]	& rechtsbenachbarte Registerkarte aktivieren	&	\\ \hline
+[Alt]+[1]				& Registerkarte 1 aktivieren	&	\\ \hline
+[Alt]+[2]				& Registerkarte 2 aktivieren	&	\\ \hline
+...						& Analog mit Registerkarte 3 bis 9	&	\\ \hline
+[Alt]+[0]				& Registerkarte 10 aktivieren	&	\\ \hline
+\end{tabular}
+
+\section{Das Lesen von Bibelstellen}
+
+Standardmäßig werden Bibeltexte aus der Elberfelder-Übersetzung von 1905 angezeigt, wie sie auf der Webseite \url{http://bibel-online.net} zu finden sind.
+Diese Übersetzung ist zwar schon recht alt, jedoch auch Frei von Urheberrechtsansprüchen. Gleichzeitig gilt bei Bibelübersetzungen auch ganz klar, dass neuer nicht gleich besser sein muss.
+
+Die Bibeltexte befinden sich in einzelnen Datenbankdateien im Programmverzeichnis, eine bestehende Internetverbindung ist zur Nutzung folglich nicht vonnöten.
+
+\subsection{Auswählen der verwendeten Übersetzung}
+
+Das Programm beinhaltet folgende Bibelübersetzungen, die durch Eingabe des jeweiligen Namens aktiviert werden können:
+
+\begin{itemize}
+\ttitem elberfelder
+	\subitem Elberfelder-Übersetzung von bibel-online.net
+\ttitem luther
+	\subitem Luther-Übersetzung von bibel-online.net
+\ttitem schlachter
+	\subitem Schlachter-Übersetzung von bibel-online.net
+\ttitem evangelistische
+	\subitem Neue Evangelistische Übersetzung von bibel-online.net
+\end{itemize}
+\noindent
+\textbf{Beispiel:}\\
+Wenn man also \texttt{evangelistische} in die Eingabezeile eingibt und mit der \texttt{[Eingabetaste]} bestätigt, dann wird die Übersetzung namens ''Neue Evangelistische`` aktiviert.\\
+\\ \noindent
+Alle weiteren Befehle, die in diesem Abschnitt besprochen werden, werden auf die aktivierte Bibelübersetzung angewendet. Die Auswahl der Bibelübersetzung betrifft nur den entsprechenden Registrierreiter, in der dieser Befehl aufgerufen wird, jeder andere Reiter verwendet nach wie vor die Standardübersetzung, in der Regel ist dies die Elberfelder. Auf diese Weise kann man einfach zwischen verschiedenen Übersetzungen hin und her wechseln.
+
+\subsection{Der Befehl \texttt{books}}
+
+Der Befehl \texttt{books} gibt eine Liste mit allen Büchern der Bibel zurück, von \textit{1mose} bis \textit{offenbarung}. \textbf{Nur diese Schreibweise der Bücher wird vom Programm in der Kommandozeile erkannt.} Die Zahlen hinter den Büchernamen geben die Anzahl der Kapitel in diesem Buch an.
+
+\subsection{Aufrufen einer Bibelstelle}
+
+Um eine Bibelstelle aufzurufen, muss man sie quasi beim Namen rufen.
+Die korrekte Schreibweise für die einzelnen Bücher kann man sich anzeigen lassen durch den Befehl "\textbf{\texttt{books}}".
+Nur die hierbei angezeigte Schreibweise der Namen der Bücher wird vom Programm korrekt erkannt.
+\\\\
+Als \textbf{Beispiel:}\\
+\texttt{1samuel 1}\\
+Zeigt das Erste Buch Samuel an, Kapitel 1\\
+\\
+\texttt{1samuel 1 2-6}\\
+Zeigt demnach Erstes Buch Samuel an, Kapitel 1, Verse 2-6\\
+
+\subsection{Suchen in der Bibel}
+
+Die Bibeltexte können mit dem Befehl \texttt{search} durchsucht werden, gefolgt vom Suchbegriff. Es kann auch nach Satzfragmenten gesucht werden; enthält das Suchmuster ein Leerzeichen, so muss es in Anführungsstriche gesetzt werden.\\
+
+\textit{Hinweis: Das suchen nach Suchmustern, die sehr häufig gefunden werden, dies ist vor allem bei sehr kurzen Suchmustern der Fall, kann das Suchen sehr lange dauern. Bei zu häufig vorkommenden Suchmustern empfiehlt es sich, die Suche auf einzelne Bücher einzuschränken}\\
+\\
+\textbf{Beispiel:}
+\\
+\texttt{search samuel}\\
+Findet alle Verse, in denen das Wort ''samuel`` vorkommt.\\
+\\
+\texttt{search ''rief samuel`` }\\
+Findet unter anderem: ''Und der HERR rief Samuel. Er aber antwortete: Siehe, hier bin ich! ``\\
+\\
+Ferner kann die Suche nur in einem einzigen Buch erfolgen, in diesem Fall gibt man zusätzlich zur Abfrage noch ''\texttt{in [Buchname]}`` an.\\
+\\
+\textbf{Beispiel:}\\
+\texttt{search ''Jesus sprach`` in matthäus}\\
+Sucht im Matthäusevangelium nach Versen, in denen die Zeichenkette \textit{Jesus sprach} vorkommt.\\
+\\
+Auch eine \textbf{Einschränkung der Suche auf eine Abfolge von Büchern} lässt sich erreichen. Hierbei sieht die Abfrage folgendermaßen aus:\\
+\texttt{search [Begriff] in [Start-Buch]-[End-Buch]}.\\
+Welche Bücher zwischen \texttt{[Start-Buch]} und \texttt{[End-Buch]} liegen, erfährt man ebenfalls durch die Ausgabe des Befehls \texttt{books}. Natürlich sollte \texttt{[Start-Buch]} vor \texttt{[End-Buch]} liegen.\\
+\\
+\textbf{Beispiel:}\\
+\texttt{search Jesus in matthäus-johannes}\\
+Sucht nach dem Wort ''Jesus`` in den Büchern von \textit{matthäus} bis \textit{johannes}, das wären also die Bücher \textit{matthäus, markus, lukas, johannes}.
+
+
+
+\section{Das Arbeiten mit der BiTuZa-Datenbank}
+
+Das bituza-Modul umfasst folgende Befehle:
+
+\begin{itemize}
+\ttitem bituza.search.elberfelder \textcolor{red}{\small{\textit{Übersetzung des Wortes aus der Elberfelder Übersetzung}}\normalsize}
+\ttitem bituza.search.unicode \textcolor{red}{\small{\textit{UTF8-Kodierung der Hebräischen und Griechischen Wörter}}\normalsize}
+\ttitem bituza.search.ascii \textcolor{red}{\small{\textit{Die Ursprünglichen Texte auf hebräisch bzw. griechisch, in ASCII kodiert. Hieraus wurde \texttt{unicode} generiert.}}\normalsize}
+\ttitem bituza.search.code \textcolor{red}{\small{\textit{Die einzelnen Zahlenwerte der Buchstaben in dem Wort, durch Unterstrich getrennt}}\normalsize}
+%\ttitem bituza.search.latex
+\ttitem bituza.search.tw \textcolor{red}{\small{\textit{Totalwert des Wortes}}\normalsize}
+\ttitem bituza.search.wv \textcolor{red}{\small{\textit{Nummer des Wortes im Vers}}\normalsize}
+\ttitem bituza.search.wk \textcolor{red}{\small{\textit{Nummer des Wortes im Kapitel}}\normalsize}
+\ttitem bituza.search.wb \textcolor{red}{\small{\textit{Nummer des Wortes im Buch}}\normalsize}
+\ttitem bituza.search.abv \textcolor{red}{\small{\textit{Nummer des Anfangsbuchstabens des Wortes im Vers}}\normalsize}
+\ttitem bituza.search.abk \textcolor{red}{\small{\textit{Nummer des Anfangsbuchstabens des Wortes im Kapitel}}\normalsize}
+\ttitem bituza.search.abb \textcolor{red}{\small{\textit{Nummer des Anfangsbuchstabens des Wortes im Buch}}\normalsize}
+\ttitem bituza.search.anz\_b \textcolor{red}{\small{\textit{Anzahl der Buchstaben des Wortes}}\normalsize}
+\\
+\ttitem bituza.search.stats\_verse \textcolor{red}{\small{\textit{Nummer des Verses im Buch}}\normalsize}
+\ttitem bituza.search.total\_v \textcolor{red}{\small{\textit{Gesamtzahl der Buchstaben im Vers}}\normalsize}
+\ttitem bituza.search.total\_k \textcolor{red}{\small{\textit{Gesamtzahl der Buchstaben im Kapitel}}\normalsize}
+\ttitem bituza.search.total\_b \textcolor{red}{\small{\textit{Gesamtzahl der Buchstaben im Buch}}\normalsize}
+\ttitem bituza.search.sum\_v \textcolor{red}{\small{\textit{Summe der Totalwerte im Vers}}\normalsize}
+\ttitem bituza.search.sum\_k \textcolor{red}{\small{\textit{Summe der Totalwerte im Kapitel}}\normalsize}
+\ttitem bituza.search.sum\_b \textcolor{red}{\small{\textit{Summe der Totalwerte im Buch}}\normalsize}
+\\
+\ttitem bituza.stats
+
+\ttitem bituza.word
+\end{itemize}
+
+\subsection{Die \texttt{bituza.search.[*]} - Befehle}
+
+Mit diesen Befehlen lässt sich die betreffende Spalte der Datenbank nach einem bestimmten Suchbegriff (oder Muster) durchsuchen.
+Als Wildcard kann hierbei das \%-Zeichen verwendet werden. Groß-/kleinschreibung ist irrelevant. \textbf{Enthält das Suchmuster Leerzeichen, so muss es mit Anführungsstrichen umgeben sein.}\\
+
+\textit{Hinweis: Das suchen nach Suchmustern, die sehr häufig gefunden werden, dies ist vor allem bei sehr kurzen Suchmustern der Fall, kann das Suchen sehr lange dauern. Bei zu häufig vorkommenden Suchmustern empfiehlt es sich, die Suche auf einzelne Bücher einzuschränken}\\
+\\\\
+\textbf{Beispiel:}\\
+\\
+\texttt{bituza.search.elberfelder \%Samuel\%}\\
+Findet alle Wörter der Bibel, in denen die Zeichenkette ''Samuel`` enthalten ist, so auch z.B. \textit{Samuel/Schemuel//<erhört von Gott>} mit allen zugehörigen Zahlenwerten etc.
+\\\\
+\texttt{bituza.search.tw 24}\\
+Findet alle Wörter dessen Totalwert (tw) 24 beträgt
+\\\\
+Auch hier lässt sich die \textbf{Suche auf ein einziges Buch beschränken}, indem man noch ''\texttt{in [Buchname]}`` anhängt. (\texttt{[Buchname]} gemäß der Ausgabe des Befehls \texttt{books})
+\\\\
+\texttt{bituza.search.tw 31 in 1thessalonicher}\\
+Sucht dementsprechend nur im ersten Brief an die Thessalonicher nach Wörtern mit dem Totalwert 13.
+\\\\
+\texttt{bituza.search.code \%2\% in matthäus}\\
+Sucht nach Wörtern, in denen ein Buchstabe mit dem Zahlenwert 2 vorkommt, und zwar nur im Matthäusevangelium
+\\\\
+\texttt{bituza.search.elberfelder ''gegeben hat``}\\
+Hier ein Beispiel, dass man Suchbegriffe, in denen Leerzeichen vorkommen, mit Anführungsstrichen umgeben muss.
+\\\\
+Nun noch ein Beispiel, wie man das eben gelernte auch kombinieren kann:\\
+\texttt{bituza.search.elberfelder ''\%ich werde Mitleid haben\%`` in jeremia}\\
+\\
+Auch eine \textbf{Einschränkung der Suche auf eine Abfolge von Büchern} lässt sich erreichen. Hierbei sieht die Abfrage folgendermaßen aus:\\
+\texttt{bituza.search.[*] [Suchmuster] in [Start-Buch]-[End-Buch]}.\\
+Welche Bücher zwischen \texttt{[Start-Buch]} und \texttt{[End-Buch]} liegen, erfährt man ebenfalls durch die Ausgabe des Befehls \texttt{books}. Natürlich sollte \texttt{[Start-Buch]} vor \texttt{[End-Buch]} liegen.\\
+\\
+\textbf{Beispiel:}\\
+\texttt{bituza.search.tw 42 in matthäus-johannes}\\
+Sucht nach dem Wert ''42`` in den Büchern von \textit{matthäus} bis \textit{johannes}, das wären also die Bücher \textit{matthäus, markus, lukas, johannes}.
+
+\subsection{Der Befehl \texttt{bituza.word}}
+
+Hiermit kann man sich bestimmte Stellen aus der Datenbanktabelle \texttt{word} anzeigen lassen. \textbf{Die vom Programm erkannte Schreibweise für die Bücher erhält man durch Aufrufen des Befehls \texttt{books}}
+\\\\
+Einige \textbf{Beispiele} sollen die Benutzung verdeutlichen:\\
+\\
+%\texttt{bituza.word 1samuel}\\
+%Zeigt das Ganze Buch 1samuel an.\\
+%\\
+\texttt{bituza.word 1samuel 1}\\
+Zeigt die Bibelstelle ''1. Buch Samuel, Kapitel 1`` an.\\
+\\
+\texttt{bituza.word 1samuel 1 2}\\
+Zeigt die Bibelstelle ''1. Buch Samuel, Kapitel 1, Vers 2`` an.\\
+\\
+\texttt{bituza.word 1samuel 1 2-6}\\
+Zeigt die Bibelstelle ''1. Buch Samuel, Kapitel 1, Verse 2 bis 6`` an.\\
+
+\subsection{Der Befehl \texttt{bituza.stats}}
+
+Zeigt die Statistiken zu einem bestimmten Kapitel an.\\
+\\
+\textbf{Beispiel:}\\
+\\
+\texttt{bituza.stats 1samuel 1}\\
+Gibt die Statistiken zu dem Kapitel ''1. Samuel 1`` aus.
+\\\\
+\texttt{bituza.stats 1samuel 1 2}\\
+Gibt die Statistiken zu dem Vers ''1. Samuel Kapitel 1, Vers 2`` aus.
+\\\\
+\texttt{bituza.stats 1samuel 1 2-4}\\
+Gibt die Statistiken zu dem Vers ''1. Samuel Kapitel 1, Verse 2 bis 4`` aus.
+
+\subsection{Das Datenbankschema}
+
+\textit{Hinweis: Das Datenbankschema ist zur Benutzung des Programmes nicht wirklich relevant, es sei denn, man möchte den Befehl \texttt{bituza.sql} nutzen, um eigene SQL-Abfragen absetzen zu können, oder direkt mit der SQLite-Datenbankdatei arbeiten.} Jedoch sind die Bezeichnungen der einzelnen Spalten die gleichen, die man auch im Programm präsentiert bekommt.\\\\
+\noindent
+Die BiTuZa-Datenbank ist eine SQLite-Datenbank, mit folgendem Schema:
+
+\subsubsection{Tabelle \texttt{structure}}
+
+\begin{tabular}{l|l}
+\texttt{\underline{structure\_row\_id}}	& dient als Primärschlüssel für die Datenbank	\\
+\texttt{book\_id}			& eine Zahl von 1 (1mose) bis 66 (offenbarung), id für die einzelnen Bücher	\\
+\texttt{book\_string}		& Name des Buches auf Deutsch \\
+							& \textbf{Achtung: dies ist nicht der Name, mit der man es im Programm}\\
+							& \textbf{aufrufen kann. Diese Namen erhält man mit dem Befehl \texttt{books}}	\\
+\texttt{chapter}			& Kapitel als Zahl	\\
+\texttt{verse}				& Versnummer als Zahl	\\
+\texttt{word}				& Anzahl der Wörter in diesem Vers als Zahl	\\
+\end{tabular}
+
+\subsubsection{Tabelle \texttt{elberfelder}}
+
+\begin{tabular}{l|l}
+\texttt{\underline{structure\_row\_id}}	& Schlüssel zur Tabelle \texttt{structure}	\\
+\texttt{elberfelder\_verse}	& Vers in der Elberfelder-Übersetzung		\\
+\end{tabular}
+
+\subsubsection{Tabelle \texttt{word}}
+
+Der eigentliche Kern der Datenbank.
+
+\begin{tabular}{l|l}
+\texttt{\underline{structure\_row\_id}}	& Schlüssel für die Tabelle \texttt{structure}	\\
+\texttt{word\_row\_id}		& id für die einzelnen Zeilen dieser Tabelle	\\
+\texttt{wv}					& Nummer des Wortes im Vers	\\
+\texttt{wk}					& Nummer des Wortes im Buch	\\
+\texttt{wb}					& Nummer des Wortes im Buch	\\
+\texttt{abv}				& Nummer des Anfangsbuchstabens des Wortes im Vers	\\
+\texttt{abk}				& Nummer des Anfangsbuchstabens des Wortes im Kapitel	\\
+\texttt{abb}				& Nummer des Anfangsbuchstabens des Wortes im Buch	\\
+\texttt{anz\_b}				& Anzahl der Buchstaben des Wortes	\\
+\texttt{tw}					& Totalwert des Wortes	\\
+\texttt{code}				& Zahlenwerte der einzelnen Buchstaben des Wortes, durch \_ getrennt	\\
+\texttt{latex}				& \LaTeX-Kodierung des Wortes (cjhebrew bzw. upgreek)	\\
+\texttt{unicode}			& UTF-8-Kodierung der hebräischen bzw. griechischen Texte	\\
+\texttt{ascii}				& Originales Datenmaterial in ASCII kodiert. Hierraus wurde \texttt{unicode} erstellt	\\
+\texttt{transcription}		& lateinische Umschrift gemäß üblicher Regeln	\\
+\texttt{translation\_de}	& Übersetzung gemäß Elberfelder	\\
+\end{tabular}
+
+\subsubsection{Tabelle \texttt{stats}}
+
+\begin{tabular}{l|l}
+\texttt{\underline{structure\_row\_id}}	& Schlüssel für die Tabelle \texttt{structure}	\\
+\texttt{stats\_verse}		& Nummer des Verses im Buch	\\
+\texttt{total\_v}			& Gesamtzahl der Buchstaben im Vers	\\
+\texttt{total\_k}			& Gesamtzahl der Buchstaben im Kapitel	\\
+\texttt{total\_b}			& Gesamtzahl der Buchstaben im Buch	\\
+\texttt{sum\_v}				& Summe der Totalwerte im Vers	\\
+\texttt{sum\_k}				& Summe der Totalwerte im Kapitel	\\
+\texttt{sum\_b}				& Summe der Totalwerte im Buch	\\
+\end{tabular}
+
+%\section{Das Liederbuch}
+
+%Dieses Programm enthält zusätzlich ein Liederbuch, das insbesondere auch Akkorde vorlesen kann.
+
+\end{document}
