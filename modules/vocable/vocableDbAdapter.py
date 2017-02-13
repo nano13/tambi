@@ -143,7 +143,7 @@ class VocableDbAdapter(object):
     def updateLastLearnedDate(self, language, display):
         date = int(time.time())
         
-        query = "UPDATE {0} SET date={1} WHERE display='{2}'".format(language, date, display)
+        query = "UPDATE {0} SET changed={1} WHERE display='{2}'".format(language, date, display)
         self.cursor.execute(query)
         self.connection.commit()
         
