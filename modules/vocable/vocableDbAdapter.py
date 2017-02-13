@@ -8,9 +8,9 @@ MASTER_DB_PATH = "modules/vocable/vocables.db"
 class VocableDbAdapter(object):
     def __init__(self):
         
+        # copy vocables.db to config dir first
         config = ConfigFile()
         dbpath = config.readPath("vocable", "vocableDBPath")
-        
         if not os.path.exists(dbpath):
             moveToConfigDir = ConfigDir()
             sourcepath = os.path.join(os.getcwd(), MASTER_DB_PATH)
