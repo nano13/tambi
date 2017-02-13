@@ -1,10 +1,24 @@
 
-import sqlite3, time, random
+from configs.configFiles import ConfigFile, ConfigDir
+
+import sqlite3, time, random, os, shutil
+
+MASTER_DB_PATH = "modules/vocable/vocables.db"
 
 class VocableDbAdapter(object):
     def __init__(self):
         
-        self.connection = sqlite3.connect("./modules/vocable/vocables.db")
+        config = ConfigFile()
+        dbpath = config.readPath("vocable", "vocableDBPath")
+        
+        if not os.path.exists(dbpath):
+            moveToConfigDir = ConfigDir()
+            sourcepath = os.path.join(os.getcwd(), MASTER_DB_PATH)
+            os.makedirs(os.path.dirname(dbpath))
+            shutil.copyfile(sourcepath, dbpath)
+        
+        
+        self.connection = sqlite3.connect(dbpath)
         self.cursor = self.connection.cursor()
         
     def getAvailableLanguages(self):
@@ -117,7 +131,7 @@ class VocableDbAdapter(object):
         res = int(result[0][0])
         new_value = res + int(value)
         
-        # known = 0 means not learned in db, we want to avoid this state for already learned ones:
+        # known = 0 means 'not learned' in db, we want to avoid this state for already learned ones:
         if new_value == 0:
             new_value = res + int(value)
             

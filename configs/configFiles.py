@@ -12,7 +12,7 @@ class ConfigFile(object):
     def __init__(self):
         
         #self.filename = filename
-        self.filename = DEFAULT_CONFIG_FILE_NAME
+        #self.filename = DEFAULT_CONFIG_FILE_NAME
         
         configDir = ConfigDir()
         self.configDirPath = configDir.getConfigDirPath()
@@ -81,6 +81,10 @@ class ConfigDir(object):
             os.mkdir(dir_path)
                 
         return dir_path
+    
+#    def moveFile(self, source_path, target_path):
+#        os.makedirs(os.path.dirname(target_path))
+#        shutil.copyfile(source_path, target_path)
     
 class WriteMissingValueToConfig(object):
     def __init__(self, filename, config, cfgfile_path):
