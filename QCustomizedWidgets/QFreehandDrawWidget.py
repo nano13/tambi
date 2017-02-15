@@ -52,13 +52,13 @@ class QFreehandDrawView(QGraphicsView):
         
         if self.mouseButton == QtCore.Qt.LeftButton:
             #QApplication.setOverrideCursor(QCursor(QtCore.Qt.CrossCursor))
-            cursor_pixmap = QPixmap("images/red_cursor.png")
+            cursor_pixmap = QPixmap("assets/images/red_cursor.png")
             cursor_pixmap = cursor_pixmap.scaled(self.penRadius, self.penRadius, QtCore.Qt.KeepAspectRatio)
             QApplication.setOverrideCursor(QCursor(cursor_pixmap))
         
         elif self.mouseButton == QtCore.Qt.RightButton:
             #QApplication.setOverrideCursor(QCursor(QtCore.Qt.CrossCursor))
-            cursor_pixmap = QPixmap("images/red_cursor.png")
+            cursor_pixmap = QPixmap("assets/images/red_cursor.png")
             cursor_pixmap = cursor_pixmap.scaled(self.rubberRadius, self.rubberRadius, QtCore.Qt.KeepAspectRatio)
             QApplication.setOverrideCursor(QCursor(cursor_pixmap))
             
