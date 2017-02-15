@@ -48,7 +48,6 @@ class Quran(object):
         pass
     
     def word(self, c, args):
-        print(args, len(args))
         
         if len(args) == 1:
             print("LEN 1", args[0])
@@ -64,7 +63,7 @@ class Quran(object):
                 self.cursor.execute(query, [int(args[0]), int(ayah_min), int(ayah_max)])
         
         result = self.cursor.fetchall()
-        print(result)
+        
         result_object = Result()
         result_object.category = "table"
         result_object.payload = result
