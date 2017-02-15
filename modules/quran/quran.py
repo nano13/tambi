@@ -47,5 +47,28 @@ class Quran(object):
     def search(self, c, a):
         pass
     
-    def word(self, c, a):
-        pass
+    def word(self, c, args):
+        print(args, len(args))
+        
+        if len(args) == 1:
+            print("LEN 1", args[0])
+            query = "SELECT surah, ayah, arabic, transcription, de_DE FROM quran WHERE surah=?"
+            self.cursor.execute(query, [int(args[0])])
+        elif len(args) == 2:
+            if args[1].find('-') == -1:
+                query = "SELECT surah, ayah, arabic, transcription, de_DE FROM quran WHERE surah=? AND ayah=?"
+                self.cursor.execute(query, [int(args[0]), int(args[1])])
+            else:
+                ayah_min, ayah_max = args[1].split('-')
+                query = "SELECT surah, ayah, arabic, transcription, de_DE FROM quran WHERE surah=? AND ayah>=? AND ayah<=?"
+                self.cursor.execute(query, [int(args[0]), int(ayah_min), int(ayah_max)])
+        
+        result = self.cursor.fetchall()
+        print(result)
+        result_object = Result()
+        result_object.category = "table"
+        result_object.payload = result
+        result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
+        result_object.name = "quran"
+        return result_object
+    
