@@ -14,7 +14,9 @@ class Quran(object):
         return {
             "quran.commands" : self.commands,
             
+            "quran.search" : self.search,
             
+            "quran.word" : self.word,
         }
     
     def interpreter(self, command, args):
@@ -42,4 +44,8 @@ class Quran(object):
         result_object.payload = all_commands
         return result_object
     
+    def search(self, c, a):
+        pass
     
+    def word(self, c, a):
+        pass
