@@ -22,7 +22,7 @@ class Logos(QMainWindow):
         
         self.initGUI()
         self.initTabs()
-        self.addNewTableTab()
+        self.addNewCliTab()
         #self.addNewVocableLearnTab()
         #self.addNewVocableLanguageTab()
         self.addNewVocableTab()
@@ -49,7 +49,7 @@ class Logos(QMainWindow):
         
         newCliTabAction = QAction(QIcon.fromTheme('utilities-terminal'), '&New Command Line Tab', self)
         newCliTabAction.setStatusTip('Open new CLI Tab')
-        newCliTabAction.triggered.connect(self.addNewTableTab)
+        newCliTabAction.triggered.connect(self.addNewCliTab)
         
         newVocableTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Vocable Tab', self)
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
@@ -73,23 +73,11 @@ class Logos(QMainWindow):
         self.tab_widget.removeTab(id)
         del self.tabs_list[id]
         
-    def addNewTableTab(self):
-        tab = QCoreTab().tableTab()
+    def addNewCliTab(self):
+        tab = QCoreTab().cliTab()
         
         self.tabs_list.append(tab)
-        self.tab_widget.addTab(tab, "Tab")
-        
-    #def addNewVocableLearnTab(self):
-        #tab = QCoreTab().vocableLearnTab()
-        
-        #self.tabs_list.append(tab)
-        #self.tab_widget.addTab(tab, "VocableLearnTab")
-    
-    #def addNewVocableLanguageTab(self):
-        #tab = QCoreTab().vocableLanguageTab()
-        
-        #self.tabs_list.append(tab)
-        #self.tab_widget.addTab(tab, "VocableLanguageTab")
+        self.tab_widget.addTab(tab, "CliTab")
         
     def addNewVocableTab(self):
         tab = QCoreTab().vocableTab()

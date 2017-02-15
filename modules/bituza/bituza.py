@@ -1,8 +1,9 @@
 # -*- coding: utf_8 -*-
 
-import sqlite3
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
+
+import sqlite3
 
 class Bituza(object):
     def __init__(self):
@@ -12,39 +13,39 @@ class Bituza(object):
     
     def getCommands(self):
         return {
-                "bituza.commands" : self.commands,
-                
-                "bituza.search.elberfelder" : self.search,
-                "bituza.search.unicode" : self.search,
-                "bituza.search.ascii" : self.search,
-                "bituza.search.transcription" : self.search,
-                "bituza.search.code" : self.search,
-                "bituza.search.latex" : self.search,
-                "bituza.search.tw" : self.search,
-                "bituza.search.wv" : self.search,
-                "bituza.search.wk" : self.search,
-                "bituza.search.wb" : self.search,
-                "bituza.search.abk" : self.search,
-                "bituza.search.abb" : self.search,
-                "bituza.search.abv" : self.search,
-                "bituza.search.anz_b" : self.search,
-                
-                "bituza.search.stats_verse" : self.search,
-                "bituza.search.total_v" : self.search,
-                "bituza.search.total_k" : self.search,
-                "bituza.search.total_b" : self.search,
-                "bituza.search.sum_v" : self.search,
-                "bituza.search.sum_k" : self.search,
-                "bituza.search.sum_b" : self.search,
-                
-                "bituza.stats" : self.stats,
-                
-                "bituza.word" : self.word,
-                "bituza.tr" : self.textusReceptus,
-                
-                "bituza.sql" : self.sql,
-                "bituza.schema" : self.schema,
-                }
+            "bituza.commands" : self.commands,
+            
+            "bituza.search.elberfelder" : self.search,
+            "bituza.search.unicode" : self.search,
+            "bituza.search.ascii" : self.search,
+            "bituza.search.transcription" : self.search,
+            "bituza.search.code" : self.search,
+            "bituza.search.latex" : self.search,
+            "bituza.search.tw" : self.search,
+            "bituza.search.wv" : self.search,
+            "bituza.search.wk" : self.search,
+            "bituza.search.wb" : self.search,
+            "bituza.search.abk" : self.search,
+            "bituza.search.abb" : self.search,
+            "bituza.search.abv" : self.search,
+            "bituza.search.anz_b" : self.search,
+            
+            "bituza.search.stats_verse" : self.search,
+            "bituza.search.total_v" : self.search,
+            "bituza.search.total_k" : self.search,
+            "bituza.search.total_b" : self.search,
+            "bituza.search.sum_v" : self.search,
+            "bituza.search.sum_k" : self.search,
+            "bituza.search.sum_b" : self.search,
+            
+            "bituza.stats" : self.stats,
+            
+            "bituza.word" : self.word,
+            "bituza.tr" : self.textusReceptus,
+            
+            "bituza.sql" : self.sql,
+            "bituza.schema" : self.schema,
+        }
     
     def interpreter(self, command, args):
         print("args:", args)
@@ -472,19 +473,18 @@ class Bituza(object):
         
     def commands(self, none1, none2):
         dic = self.getCommands()
-        
         commands = sorted(dic.items())
         
-        #all_commands = ""
-        all_commands2 = []
+        all_commands = []
         mime_list = []
-        line = ""
-        for key in commands:#.iterkeys():#items():
+        for key in commands:
             line = str(key).split(",")[0]
-            #all_commands += str(line[2:-1]) + "\n"
-            all_commands2.append(str(line[2:-1]))
-            mime_list.append("command/default")
-        return all_commands2, mime_list
+            all_commands.append(str(line[2:-1]))
+            
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = all_commands
+        return result_object
         
     def booksDictOT(self):
         return {
@@ -527,7 +527,7 @@ class Bituza(object):
             "haggai"    : 37,
             "sacharja"    : 38,
             "maleachi"    : 39,
-            }
+        }
         
     def booksDictNT(self):
         return {
@@ -558,7 +558,7 @@ class Bituza(object):
             "3johannes"    : 64,
             "judas"        : 65,
             "offenbarung"    : 66 
-            }
+        }
     
     def getBookList(self):
         book_list = ["1mose", "2mose", "3mose", "4mose", "5mose", "josua", "richter", "rut", "1samuel", "2samuel", u"1könige", u"2könige", "1chronik", "2chronik", "esra", "nehemia", "ester", "hiob", "psalm", u"sprüche", "prediger", "hohelied", "jesaja", "jeremia", "klagelieder", "hesekiel", "daniel", "hosea", "joel", "amos", "obadja", "jona", "micha", "nahum", "habakuk", "zefanja", "haggai", "sacharja", "maleachi", u"matthäus", "markus", "lukas", "johannes", "apostelgeschichte", u"römer", "1korinther", "2korinther", "galater", "epheser", "philipper", "kolosser", "1thessalonicher", "2thessalonicher", "1timotheus", "2timotheus", "titus", "philemon", u"hebräer", "jakobusbrief", "1petrus", "2petrus", "1johannes", "2johannes", "3johannes", "judas", "offenbarung" ]
