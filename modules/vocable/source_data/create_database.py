@@ -11,7 +11,7 @@ class DatabaseAdapter(object):
         
         self.table_name = ""
         
-        self.connection = sqlite3.connect("./vocables.db")
+        self.connection = sqlite3.connect("./../vocables.db")
         self.cursor = self.connection.cursor()
         
     def setName(self, name):
