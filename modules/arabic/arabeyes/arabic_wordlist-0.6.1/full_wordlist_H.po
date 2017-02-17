@@ -1,0 +1,8591 @@
+# translation of full_wordlist_H.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_H.po,v 1.20 2004/03/13 09:10:31 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'H'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_H\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"PO-Revision-Date: 2004-03-13 12:09+0300\n"
+
+msgid "H"
+msgstr "إتش - الحرف الثامن في اللغة الإنجليزية"
+
+msgid "Ha"
+msgstr "ها"
+
+msgid "Haag"
+msgstr "هاج"
+
+msgid "Haas"
+msgstr "هاس"
+
+msgid "Habe"
+msgstr "هاب"
+
+msgid "Habeas"
+msgstr "صك الخروج من السجن"
+
+msgid "Haben"
+msgstr "هابن"
+
+msgid "Haberdasher"
+msgstr "بائع لوازم الخياطة"
+
+msgid "Haberdasheries"
+msgstr "الكُلَفْ"
+
+msgid "Haberdashery"
+msgstr "دكان لوازم الخياطة"
+
+msgid "Haberman"
+msgstr "هابيرمان"
+
+msgid "Habib"
+msgstr "حبيب"
+
+msgid "Habiliment"
+msgstr "زيّ المناسبات"
+
+msgid "Habit"
+msgstr "العادة"
+
+msgid "Habitability"
+msgstr "صلاحية السكن"
+
+msgid "Habitable"
+msgstr "صالح للسكن"
+
+msgid "Habitableness"
+msgstr "القابلية للسكن"
+
+msgid "Habitably"
+msgstr "صالحا للسكن"
+
+msgid "Habitant"
+msgstr "الساكن"
+
+msgid "Habitants"
+msgstr "السكّان"
+
+msgid "Habitat"
+msgstr "البيئة"
+
+msgid "Habitation"
+msgstr "السكن"
+
+msgid "Habitations"
+msgstr "المساكن"
+
+msgid "Habitats"
+msgstr "البيئة"
+
+msgid "Habited"
+msgstr "لَبَسَ"
+
+msgid "Habiting"
+msgstr "المبارزة"
+
+msgid "Habits"
+msgstr "العادات"
+
+msgid "Habitual"
+msgstr "مألوف"
+
+msgid "Habitually"
+msgstr "إعتياديا"
+
+msgid "Habitualness"
+msgstr "السكنية"
+
+msgid "Habituate"
+msgstr "تعوّد"
+
+msgid "Habituated"
+msgstr "متعوّد"
+
+msgid "Habituates"
+msgstr "يتعوّد"
+
+msgid "Habituating"
+msgstr "التعوّد"
+
+msgid "Habituation"
+msgstr "التعويد"
+
+msgid "Habitude"
+msgstr "العادة"
+
+msgid "Hachures"
+msgstr "يخطّط"
+
+msgid "Hacienda"
+msgstr "هاسيندا"
+
+msgid "Haciendas"
+msgstr "العِزَبْ"
+
+msgid "Hack"
+msgstr "المأجور"
+
+msgid "Hackberry"
+msgstr "الثمر الميس"
+
+msgid "Hacked"
+msgstr "مقطّع"
+
+msgid "Hacker"
+msgstr "لصّ الكومبيوتر"
+
+msgid "Hackers"
+msgstr "لصوص الكومبيوتر"
+
+msgid "Hackett"
+msgstr "هاكيت"
+
+msgid "Hacking"
+msgstr "التقطيع"
+
+msgid "Hackle"
+msgstr "الممشقة"
+
+msgid "Hackled"
+msgstr "ممشّط"
+
+msgid "Hackler"
+msgstr "الماشق"
+
+msgid "Hackles"
+msgstr "الممشقات"
+
+msgid "Hackling"
+msgstr "التمشيط"
+
+msgid "Hackmatack"
+msgstr "هاكماتاك - شجرة"
+
+msgid "Hackney"
+msgstr "الحصان"
+
+msgid "Hackneyed"
+msgstr "مبتذل"
+
+msgid "Hackneying"
+msgstr "يخصص للإستعمال اليومي"
+
+msgid "Hackneys"
+msgstr "الحصان"
+
+msgid "Hacks"
+msgstr "المأجورون"
+
+msgid "Hacksaw"
+msgstr "المنشار"
+
+msgid "Hacksaws"
+msgstr "المناشير"
+
+msgid "Hackwork"
+msgstr "العمل الهابط"
+
+msgid "Had"
+msgstr "كان عنده"
+
+msgid "Hadamard"
+msgstr "هادامارد - عالم رياضيّات فرنسيّ"
+
+msgid "Haddad"
+msgstr "حداد"
+
+msgid "Haddock"
+msgstr "الحدوق"
+
+msgid "Haddocks"
+msgstr "الحدوق"
+
+msgid "Hades"
+msgstr "الإنحرافات"
+
+msgid "Hadley"
+msgstr "هادلي"
+
+msgid "Hadrian"
+msgstr "أدريان"
+
+msgid "Hadron"
+msgstr "هادرون - الجزيء الذي يتفاعل بقوّة مع الجزيئات الأخرى"
+
+msgid "Hafiz"
+msgstr "حافظ"
+
+msgid "Hafnium"
+msgstr "الهفينوم"
+
+msgid "Hafts"
+msgstr "القبضات"
+
+msgid "Hag"
+msgstr "العفريتة"
+
+msgid "Hagen"
+msgstr "هاجن"
+
+msgid "Hager"
+msgstr "هيدجر"
+
+msgid "Haggard"
+msgstr "منهك"
+
+msgid "Haggardly"
+msgstr "جموحا"
+
+msgid "Haggardness"
+msgstr "الإنهاك"
+
+msgid "Haggle"
+msgstr "المساومة"
+
+msgid "Haggled"
+msgstr "مقطّع"
+
+msgid "Haggler"
+msgstr "المساوم"
+
+msgid "Haggles"
+msgstr "المساومات"
+
+msgid "Haggling"
+msgstr "المساومة"
+
+msgid "Hags"
+msgstr "العفاريت"
+
+msgid "Hagstrom"
+msgstr "هاجستروم"
+
+msgid "Hague"
+msgstr "لاهاي"
+
+msgid "Hahn"
+msgstr "هان"
+
+msgid "Haifa"
+msgstr "حيفا"
+
+msgid "Haiku"
+msgstr "هايكو"
+
+msgid "Hail"
+msgstr "البرد"
+
+msgid "Hailed"
+msgstr "رحّب به"
+
+msgid "Hailer"
+msgstr "هيلير"
+
+msgid "Hailing"
+msgstr "الترحيب"
+
+msgid "Hails"
+msgstr "البرد"
+
+msgid "Hailstone"
+msgstr "الحالوب"
+
+msgid "Hailstones"
+msgstr "الحالوب"
+
+msgid "Hailstorm"
+msgstr "العاصفة الثلجية"
+
+msgid "Hailstorms"
+msgstr "العواصف الثلجية"
+
+msgid "Haines"
+msgstr "هينيس"
+
+msgid "Hair"
+msgstr "الشعر"
+
+msgid "Hair-do"
+msgstr "الشعر يعمل"
+
+msgid "Hair-dresser"
+msgstr "خزانة شعر"
+
+msgid "Hairbreadth"
+msgstr "قيد شعرة"
+
+msgid "Hairbrush"
+msgstr "فرشاة الشعر"
+
+msgid "Hairbrushes"
+msgstr "فرش الشعر"
+
+msgid "Haircut"
+msgstr "حلاقة الشعر"
+
+msgid "Haircuts"
+msgstr "حلاقة الشعر"
+
+msgid "Haircutter"
+msgstr "الحلّاق"
+
+msgid "Haircutting"
+msgstr "الحلاقة"
+
+msgid "Hairdo"
+msgstr "تصفيفة الشعر"
+
+msgid "Hairdos"
+msgstr "تصفيفة الشعر"
+
+msgid "Hairdresser"
+msgstr "مصفّف الشعر"
+
+msgid "Hairdressers"
+msgstr "مصفّفو الشعر"
+
+msgid "Hairdressing"
+msgstr "تصفيف الشعر"
+
+msgid "Haired"
+msgstr "مشعر"
+
+msgid "Hairier"
+msgstr "أكثر شعرا"
+
+msgid "Hairiest"
+msgstr "أكثر شعرا"
+
+msgid "Hairiness"
+msgstr "كثرة الشّعر"
+
+msgid "Hairless"
+msgstr "بلا شعر"
+
+msgid "Hairlessness"
+msgstr "الصّلع"
+
+msgid "Hairline"
+msgstr "منبت الشّعر"
+
+msgid "Hairpin"
+msgstr "دبوس الشعر"
+
+msgid "Hairpins"
+msgstr "دبابيس الشعر"
+
+msgid "Hairs"
+msgstr "الشعرات"
+
+msgid "Hairsplitting"
+msgstr "الشجار"
+
+msgid "Hairspring"
+msgstr "نابض الساعة"
+
+msgid "Hairstyle"
+msgstr "تصفيفة الشعر"
+
+msgid "Hairy"
+msgstr "مشعر"
+
+msgid "Haiti"
+msgstr "هايتي"
+
+msgid "Haitian"
+msgstr "الهايتي"
+
+msgid "Hal"
+msgstr "هال"
+
+msgid "Halation"
+msgstr "الهالة"
+
+msgid "Halberd"
+msgstr "المطرد"
+
+msgid "Halberds"
+msgstr "المطرد"
+
+msgid "Halcyon"
+msgstr "القاوند"
+
+msgid "Hale"
+msgstr "العافية"
+
+msgid "Haleness"
+msgstr "العافية"
+
+msgid "Haler"
+msgstr "معافى"
+
+msgid "Haley"
+msgstr "هايلي"
+
+msgid "Half"
+msgstr "النصف"
+
+msgid "Half-adder"
+msgstr "الجامع النصفي"
+
+msgid "Half-adjust"
+msgstr "النصف يعدّل"
+
+msgid "Half-byte"
+msgstr "نصف البايت"
+
+msgid "Half-coupling"
+msgstr "نصف الإزدواج"
+
+msgid "Half-life"
+msgstr "نصف الحياة"
+
+msgid "Half-section"
+msgstr "نصف القسم"
+
+msgid "Half-word"
+msgstr "نصف الكلمة"
+
+msgid "Halfback"
+msgstr "لاعب خطّ الوسط"
+
+msgid "Halfbacks"
+msgstr "لاعبون خطّ الوسط"
+
+msgid "Halfhearted"
+msgstr "فاتر"
+
+msgid "Halfheartedly"
+msgstr "بتراخي"
+
+msgid "Halfheartedness"
+msgstr "الفتور"
+
+msgid "Halfness"
+msgstr "عدم الإكتمال"
+
+msgid "Halftime"
+msgstr "نصف الوقت"
+
+msgid "Halftone"
+msgstr "الطّباعة النّصفيّة"
+
+msgid "Halftones"
+msgstr "اللّوحات"
+
+msgid "Halfway"
+msgstr "نصف الطريق"
+
+msgid "Halibut"
+msgstr "القفندر"
+
+msgid "Halibuts"
+msgstr "القفندر"
+
+msgid "Halide"
+msgstr "هالايد"
+
+msgid "Halifax"
+msgstr "هاليفاكس"
+
+msgid "Haling"
+msgstr "الجرّ"
+
+msgid "Halite"
+msgstr "هالايت"
+
+msgid "Halitosis"
+msgstr "رائحة الفم"
+
+msgid "Hall"
+msgstr "الصّالة"
+
+msgid "Hallelujah"
+msgstr "سبحان الله"
+
+msgid "Hallelujahs"
+msgstr "التسبيح"
+
+msgid "Haller"
+msgstr "هالر - فسيولوجيّ سويسري، عالم نبات و كاتب"
+
+msgid "Halley"
+msgstr "هالي"
+
+msgid "Hallinan"
+msgstr "هالينان"
+
+msgid "Hallmark"
+msgstr "العلامة"
+
+msgid "Hallmarked"
+msgstr "مدموغ"
+
+msgid "Hallmarking"
+msgstr "الدمغ"
+
+msgid "Hallmarks"
+msgstr "العلامات"
+
+msgid "Hallow"
+msgstr "قدّس"
+
+msgid "Hallowed"
+msgstr "مقدّس"
+
+msgid "Halloween"
+msgstr "العيد القدّيسين"
+
+msgid "Hallowing"
+msgstr "التقديس"
+
+msgid "Hallows"
+msgstr "يقدّس"
+
+msgid "Halls"
+msgstr "القاعات"
+
+msgid "Hallstand"
+msgstr "الشّمّاعة"
+
+msgid "Hallucinate"
+msgstr "تهلوس"
+
+msgid "Hallucinated"
+msgstr "متهلوس"
+
+msgid "Hallucinates"
+msgstr "يتهلوس"
+
+msgid "Hallucinating"
+msgstr "التهلوس"
+
+msgid "Hallucination"
+msgstr "الهلوسة"
+
+msgid "Hallucinations"
+msgstr "الهلوسة"
+
+msgid "Hallucinative"
+msgstr "بشكل مهلْوس"
+
+msgid "Hallucinogen"
+msgstr "مسبب للهلوسة"
+
+msgid "Hallway"
+msgstr "المدخل"
+
+msgid "Hallways"
+msgstr "المداخل"
+
+msgid "Halma"
+msgstr "هالما"
+
+msgid "Halo"
+msgstr "الهالة"
+
+msgid "Halocarbon"
+msgstr "هالوكاربون"
+
+msgid "Halogen"
+msgstr "الهلوجين"
+
+msgid "Halogens"
+msgstr "الهلوجين"
+
+msgid "Halos"
+msgstr "الهالات"
+
+msgid "Halpern"
+msgstr "هالبيرن - شاعر و محرّر أمريكي"
+
+msgid "Halsey"
+msgstr "هولسي"
+
+msgid "Halstead"
+msgstr "هالستيد"
+
+msgid "Halt"
+msgstr "التوقّف"
+
+msgid "Halted"
+msgstr "أوقف"
+
+msgid "Halter"
+msgstr "الرسن"
+
+msgid "Haltered"
+msgstr "مربوط"
+
+msgid "Haltering"
+msgstr "الربط"
+
+msgid "Halters"
+msgstr "الأرسنة"
+
+msgid "Halting"
+msgstr "الإيقاف"
+
+msgid "Haltingly"
+msgstr "بتردّد"
+
+msgid "Halts"
+msgstr "التوقّفات"
+
+msgid "Halvah"
+msgstr "الحلوى"
+
+msgid "Halve"
+msgstr "نصّف"
+
+msgid "Halved"
+msgstr "منصّف"
+
+msgid "Halvers"
+msgstr "الأنصاف"
+
+msgid "Halverson"
+msgstr "هالفيرسون"
+
+msgid "Halves"
+msgstr "الأنصاف"
+
+msgid "Halving"
+msgstr "التنصيف"
+
+msgid "Halyard"
+msgstr "حبل الراية"
+
+msgid "Halyards"
+msgstr "حبال الرايات"
+
+msgid "Ham"
+msgstr "لحم الخنزير"
+
+msgid "Hamal"
+msgstr "الشّيّال"
+
+msgid "Hamburg"
+msgstr "هامبورغ"
+
+msgid "Hamburger"
+msgstr "الهامبرغر"
+
+msgid "Hamburgers"
+msgstr "الهامبرغرات"
+
+msgid "Hamey"
+msgstr "هامي"
+
+msgid "Hamilton"
+msgstr "هاملتن"
+
+msgid "Hamiltonian"
+msgstr "هاميلتونايان"
+
+msgid "Hamlet"
+msgstr "هملت"
+
+msgid "Hamlets"
+msgstr "القرى"
+
+msgid "Hamlin"
+msgstr "هاملين"
+
+msgid "Hammer"
+msgstr "المطرقة"
+
+msgid "Hammered"
+msgstr "مطروق"
+
+msgid "Hammerer"
+msgstr "الطارق بالمطرقة"
+
+msgid "Hammerhead"
+msgstr "رأس المطرقة"
+
+msgid "Hammering"
+msgstr "الطرقة"
+
+msgid "Hammerless"
+msgstr "هاميرليس"
+
+msgid "Hammers"
+msgstr "المطارق"
+
+msgid "Hammett"
+msgstr "هاميت"
+
+msgid "Hamming"
+msgstr "المبالغة"
+
+msgid "Hammock"
+msgstr "الأرجوحة"
+
+msgid "Hammocks"
+msgstr "الأراجيح"
+
+msgid "Hammond"
+msgstr "هاموند"
+
+msgid "Hamper"
+msgstr "السلة"
+
+msgid "Hampered"
+msgstr "معاق"
+
+msgid "Hampering"
+msgstr "الإعاقة"
+
+msgid "Hampers"
+msgstr "السلال"
+
+msgid "Hampshire"
+msgstr "هامبشاير"
+
+msgid "Hampton"
+msgstr "هامبتون"
+
+msgid "Hams"
+msgstr "لحم الخنزير"
+
+msgid "Hamster"
+msgstr "جرذ الهامستر"
+
+msgid "Hamsters"
+msgstr "جرذان الهامستر"
+
+msgid "Hamstring"
+msgstr "وتر الركبة"
+
+msgid "Hamstrings"
+msgstr "أوتار الركبة"
+
+msgid "Han"
+msgstr "الهان"
+
+msgid "Hancock"
+msgstr "هانكوك"
+
+msgid "Hand"
+msgstr "اليدّ"
+
+msgid "Hand-bag"
+msgstr "الحقيبة اليدوية"
+
+msgid "Hand-operated"
+msgstr "التّشغيل يدويا"
+
+msgid "Hand-shaking"
+msgstr "المصافحة"
+
+msgid "Handbag"
+msgstr "الحقيبة اليدوية"
+
+msgid "Handbags"
+msgstr "الحقائب اليدوية"
+
+msgid "Handball"
+msgstr "كرة اليد"
+
+msgid "Handbill"
+msgstr "نشرة الإعلان"
+
+msgid "Handbills"
+msgstr "نشرات الإعلان"
+
+msgid "Handbook"
+msgstr "الكتيب"
+
+msgid "Handbooks"
+msgstr "الكتيبات"
+
+msgid "Handbrake"
+msgstr "فرملة اليد"
+
+msgid "Handcar"
+msgstr "سيّارة سكّة حديد صّغيرة تعمل يدويًّا"
+
+msgid "Handcars"
+msgstr "سيّارات سكّة حديد صّغيرة تعمل يدويًّا"
+
+msgid "Handcart"
+msgstr "عربة اليد"
+
+msgid "Handclasp"
+msgstr "المصافحة"
+
+msgid "Handcuff"
+msgstr "الصفد"
+
+msgid "Handcuffed"
+msgstr "مقيّد"
+
+msgid "Handcuffing"
+msgstr "التقييد"
+
+msgid "Handcuffs"
+msgstr "الأصفاد"
+
+msgid "Handed"
+msgstr "مسلّم"
+
+msgid "Handedness"
+msgstr "التّسليم"
+
+msgid "Handel"
+msgstr "هاندل"
+
+msgid "Hander"
+msgstr "يدوي"
+
+msgid "Handful"
+msgstr "الحفنة"
+
+msgid "Handfuls"
+msgstr "الحفنات"
+
+msgid "Handgun"
+msgstr "المسدس"
+
+msgid "Handguns"
+msgstr "المسدسات"
+
+msgid "Handhold"
+msgstr "الدّعامة"
+
+msgid "Handicap"
+msgstr "العائق"
+
+msgid "Handicapped"
+msgstr "معاق"
+
+msgid "Handicapper"
+msgstr "مراقب السّباق"
+
+msgid "Handicapping"
+msgstr "التعطيل"
+
+msgid "Handicaps"
+msgstr "الإعاقات"
+
+msgid "Handicraft"
+msgstr "الحرفة"
+
+msgid "Handicrafter"
+msgstr "المحترف بحرفة يدوية"
+
+msgid "Handicrafts"
+msgstr "الحرف"
+
+msgid "Handicraftsman"
+msgstr "الصناعة اليدوية"
+
+msgid "Handier"
+msgstr "أكثر فائدة"
+
+msgid "Handiest"
+msgstr "أكثر فائدة"
+
+msgid "Handily"
+msgstr "بشكل ملائم"
+
+msgid "Handiness"
+msgstr "البراعة"
+
+msgid "Handing"
+msgstr "التسليم"
+
+msgid "Handiwork"
+msgstr "العمل اليدوي"
+
+msgid "Handiworks"
+msgstr "الأعمال اليدوية"
+
+msgid "Handkerchief"
+msgstr "المنديل"
+
+msgid "Handkerchiefs"
+msgstr "المناديل"
+
+msgid "Handle"
+msgstr "المقبض"
+
+msgid "Handleable"
+msgstr "ممكن السّيطرة عليه"
+
+msgid "Handlebar"
+msgstr "المقود"
+
+msgid "Handlebars"
+msgstr "المقاود"
+
+msgid "Handled"
+msgstr "معالج"
+
+msgid "Handler"
+msgstr "العامل"
+
+msgid "Handlers"
+msgstr "العمال"
+
+msgid "Handles"
+msgstr "المقابض"
+
+msgid "Handless"
+msgstr "معدوم الأيادي"
+
+msgid "Handline"
+msgstr "هاندلن"
+
+msgid "Handling"
+msgstr "المعالجة"
+
+msgid "Handmade"
+msgstr "مصنوع باليد"
+
+msgid "Handmaid"
+msgstr "الخادمة"
+
+msgid "Handmaiden"
+msgstr "الخادمة"
+
+msgid "Handout"
+msgstr "المنحة"
+
+msgid "Handouts"
+msgstr "المنح"
+
+msgid "Handrail"
+msgstr "الدرابزين"
+
+msgid "Hands"
+msgstr "الأيدي"
+
+msgid "Handsaw"
+msgstr "المنشار"
+
+msgid "Handset"
+msgstr "السّمّاعة"
+
+msgid "Handsets"
+msgstr "السّمّاعات"
+
+msgid "Handshake"
+msgstr "المصافحة"
+
+msgid "Handshaker"
+msgstr "الشّخص الودود"
+
+msgid "Handshakes"
+msgstr "المصافحة"
+
+msgid "Handshaking"
+msgstr "المصافحة"
+
+msgid "Handsome"
+msgstr "وسيم"
+
+msgid "Handsomely"
+msgstr "بشكل رائع"
+
+msgid "Handsomeness"
+msgstr "الوسامة"
+
+msgid "Handsomer"
+msgstr "وسيم"
+
+msgid "Handsomest"
+msgstr "وسيم"
+
+msgid "Handspike"
+msgstr "الرّافعة"
+
+msgid "Handspikes"
+msgstr "الرافعات"
+
+msgid "Handstand"
+msgstr "الوقفة على اليدين"
+
+msgid "Handstands"
+msgstr "الوقفات على اليدين"
+
+msgid "Handwork"
+msgstr "الشغل اليدوي"
+
+msgid "Handwrite"
+msgstr "إكتب باليد"
+
+msgid "Handwrites"
+msgstr "يكتب باليد"
+
+msgid "Handwriting"
+msgstr "الكتابة اليدوية"
+
+msgid "Handwritings"
+msgstr "الكتابات اليدوية"
+
+msgid "Handwritten"
+msgstr "مكتوب باليد"
+
+msgid "Handy"
+msgstr "مفيد"
+
+msgid "Handyman"
+msgstr "العامل الماهر"
+
+msgid "Handymen"
+msgstr "العمال المهرة"
+
+msgid "Haney"
+msgstr "هاني"
+
+msgid "Hanford"
+msgstr "هانفورد"
+
+msgid "Hang"
+msgstr "علّق"
+
+msgid "Hangable"
+msgstr "قابل للتعليق"
+
+msgid "Hangar"
+msgstr "الحظيرة"
+
+msgid "Hangars"
+msgstr "الحظائر"
+
+msgid "Hangdog"
+msgstr "ذليل"
+
+msgid "Hanged"
+msgstr "مشنوق"
+
+msgid "Hanger"
+msgstr "المعلّق"
+
+msgid "Hangers"
+msgstr "المعلّقون"
+
+msgid "Hanging"
+msgstr "الشنق"
+
+msgid "Hangings"
+msgstr "الستائر"
+
+msgid "Hangman"
+msgstr "الجلاد"
+
+msgid "Hangmen"
+msgstr "الجلادون"
+
+msgid "Hangnail"
+msgstr "قطعة جلد عند قاعدة ظفر"
+
+msgid "Hangout"
+msgstr "مكان الإستراحة"
+
+msgid "Hangouts"
+msgstr "أماكن الإستراحة"
+
+msgid "Hangover"
+msgstr "صداع الكحول"
+
+msgid "Hangoverish"
+msgstr "تقريبا صداع كحول"
+
+msgid "Hangovers"
+msgstr "صداع الكحول"
+
+msgid "Hangs"
+msgstr "التعلق"
+
+msgid "Hangup"
+msgstr "أغلاق الخط"
+
+msgid "Hank"
+msgstr "الخصلة"
+
+msgid "Hankel"
+msgstr "هانكيل"
+
+msgid "Hanker"
+msgstr "إشتق"
+
+msgid "Hankered"
+msgstr "مشتاق"
+
+msgid "Hankerer"
+msgstr "المتلهّف، المتشوّق"
+
+msgid "Hankering"
+msgstr "الإشتياق"
+
+msgid "Hankers"
+msgstr "يشتاق"
+
+msgid "Hanks"
+msgstr "هانكس"
+
+msgid "Hanky"
+msgstr "المنديل"
+
+msgid "Hanky-panky"
+msgstr "النّشاط الجنسيّ الغير شرعي او التّصرفات المشبوهة"
+
+msgid "Hanley"
+msgstr "هانلي"
+
+msgid "Hanlon"
+msgstr "هانلون"
+
+msgid "Hanna"
+msgstr "حنّا"
+
+msgid "Hannah"
+msgstr "هانا"
+
+msgid "Hannibal"
+msgstr "هانيبال"
+
+msgid "Hanoi"
+msgstr "هانوي"
+
+msgid "Hanover"
+msgstr "هانوفر"
+
+msgid "Hanoverian"
+msgstr "متعلق بالعائلة المالكة من هانوفر"
+
+msgid "Hans"
+msgstr "هانز"
+
+msgid "Hansel"
+msgstr "هانسيل"
+
+msgid "Hansen"
+msgstr "هانسين"
+
+msgid "Hansom"
+msgstr "العربة"
+
+msgid "Hanson"
+msgstr "هانسن"
+
+msgid "Hanukkah"
+msgstr "الحانوكة"
+
+msgid "Hap"
+msgstr "الحظّ"
+
+msgid "Hapgood"
+msgstr "هابجود"
+
+msgid "Haphazard"
+msgstr "الصدفة"
+
+msgid "Haphazardly"
+msgstr "بشكل عشوائي"
+
+msgid "Haphazardness"
+msgstr "الصدفة"
+
+msgid "Hapless"
+msgstr "منحوس"
+
+msgid "Haplessly"
+msgstr "بسوء حظّ"
+
+msgid "Haplessness"
+msgstr "التّعاسة"
+
+msgid "Haploid"
+msgstr "إمتلاك مجموعة واحدة من الكروموسومات"
+
+msgid "Haploidy"
+msgstr "بإمتلاك مجموعة واحدة من الكروموسومات"
+
+msgid "Haplology"
+msgstr "فقدان مقطع أو إثنين من الكلمة"
+
+msgid "Haply"
+msgstr "بالمصادفة"
+
+msgid "Happen"
+msgstr "إحدث"
+
+msgid "Happened"
+msgstr "حادث"
+
+msgid "Happening"
+msgstr "الحدث"
+
+msgid "Happenings"
+msgstr "الأحداث"
+
+msgid "Happens"
+msgstr "يحدث"
+
+msgid "Happenstance"
+msgstr "الحدث العرضي"
+
+msgid "Happier"
+msgstr "أسعد"
+
+msgid "Happiest"
+msgstr "أسعد"
+
+msgid "Happily"
+msgstr "بسعادة"
+
+msgid "Happiness"
+msgstr "السعادة"
+
+msgid "Happy"
+msgstr "سعيد"
+
+msgid "Hapsburg"
+msgstr "هابسبيرغ"
+
+msgid "Harangue"
+msgstr "الخطبة"
+
+msgid "Harangued"
+msgstr "إنتقد"
+
+msgid "Haranguer"
+msgstr "المحاضر"
+
+msgid "Harangues"
+msgstr "الخطب"
+
+msgid "Haranguing"
+msgstr "الإنتقاد"
+
+msgid "Harass"
+msgstr "ضايق"
+
+msgid "Harassed"
+msgstr "مرهق"
+
+msgid "Harasser"
+msgstr "المتحرّش"
+
+msgid "Harasses"
+msgstr "يضايق"
+
+msgid "Harassing"
+msgstr "المضايقة"
+
+msgid "Harassment"
+msgstr "المضايقة"
+
+msgid "Harassments"
+msgstr "المضايقة"
+
+msgid "Harbin"
+msgstr "حربين"
+
+msgid "Harbinger"
+msgstr "الرائد"
+
+msgid "Harbingers"
+msgstr "الروّاد"
+
+msgid "Harbor"
+msgstr "الميناء"
+
+msgid "Harborage"
+msgstr "المرفأ"
+
+msgid "Harborages"
+msgstr "المرافيء"
+
+msgid "Harbored"
+msgstr "مأوي"
+
+msgid "Harborer"
+msgstr "الحامي"
+
+msgid "Harborers"
+msgstr "الحماة"
+
+msgid "Harboring"
+msgstr "الإيواء"
+
+msgid "Harbors"
+msgstr "الموانئ"
+
+msgid "Harbour"
+msgstr "الميناء"
+
+msgid "Harbourage"
+msgstr "المرفأ"
+
+msgid "Harbours"
+msgstr "الموانئ"
+
+msgid "Harcourt"
+msgstr "هاركورت"
+
+msgid "Hard"
+msgstr "بشدّة"
+
+msgid "Hard cash"
+msgstr "النقود الورقية والمعدنية مليست الشيكات او المستندات"
+
+msgid "Hard-disk"
+msgstr "القرص الصلب"
+
+msgid "Hard-wired"
+msgstr "مثير بشدّة"
+
+msgid "Hardbake"
+msgstr "هاردبيك"
+
+msgid "Hardboard"
+msgstr "اللوح المضغوط"
+
+msgid "Hardboiled"
+msgstr "مسلوق"
+
+msgid "Hardcopy"
+msgstr "النّسخة المطبوعة"
+
+msgid "Hardcore"
+msgstr "فاضح جدا"
+
+msgid "Harddisk"
+msgstr "القرص الصلب"
+
+msgid "Harddisks"
+msgstr "الأقراص الصلبة"
+
+msgid "Harden"
+msgstr "صلّب"
+
+msgid "Hardened"
+msgstr "مصلّب"
+
+msgid "Hardener"
+msgstr "هاردينير"
+
+msgid "Hardeners"
+msgstr "هاردينيرس"
+
+msgid "Hardening"
+msgstr "التصلّب"
+
+msgid "Hardens"
+msgstr "يصلّب"
+
+msgid "Harder"
+msgstr "أصلب"
+
+msgid "Hardest"
+msgstr "أصلب"
+
+msgid "Hardhat"
+msgstr "الخوذة"
+
+msgid "Hardheadedness"
+msgstr "العناد"
+
+msgid "Hardier"
+msgstr "أكثر جرأة"
+
+msgid "Hardiest"
+msgstr "أكثر جرأة"
+
+msgid "Hardihood"
+msgstr "الشجاعة"
+
+msgid "Hardin"
+msgstr "هاردن"
+
+msgid "Hardiness"
+msgstr "القساوة"
+
+msgid "Harding"
+msgstr "هاردينج- رئيس الولايات المتّحدة التاسع والعشرون"
+
+msgid "Hardly"
+msgstr "من غير المحتمل"
+
+msgid "Hardness"
+msgstr "القسوة"
+
+msgid "Hardnesses"
+msgstr "القسوة"
+
+msgid "Hards"
+msgstr "الجزء الخشن"
+
+msgid "Hardscrabble"
+msgstr "قاحلة"
+
+msgid "Hardshell"
+msgstr "عنيد"
+
+msgid "Hardship"
+msgstr "المشقّة"
+
+msgid "Hardships"
+msgstr "المشاق"
+
+msgid "Hardtack"
+msgstr "البسكويت"
+
+msgid "Hardtop"
+msgstr "سيّارة ذات سقف ثابت"
+
+msgid "Hardtops"
+msgstr "سيّارات ذات سقف ثابت"
+
+msgid "Hardware"
+msgstr "الأجهزة"
+
+msgid "Hardwares"
+msgstr "الأجهزة"
+
+msgid "Hardwire"
+msgstr "يربط"
+
+msgid "Hardwired"
+msgstr "ربط"
+
+msgid "Hardwires"
+msgstr "أسلاك الربط"
+
+msgid "Hardwiring"
+msgstr "الرّبط"
+
+msgid "Hardwood"
+msgstr "الخشب الصلب"
+
+msgid "Hardwoods"
+msgstr "الأخشاب الصلبة"
+
+msgid "Hardworking"
+msgstr "شغول"
+
+msgid "Hardy"
+msgstr "قويّ"
+
+msgid "Hare"
+msgstr "الأرنب البري"
+
+msgid "Harebrained"
+msgstr "أحمق"
+
+msgid "Harelip"
+msgstr "الشّفة المشقوقة"
+
+msgid "Harelips"
+msgstr "الشّفاه المشقوقة"
+
+msgid "Harem"
+msgstr "الحريم"
+
+msgid "Hares"
+msgstr "الأرانب البرية"
+
+msgid "Hark"
+msgstr "أصغ"
+
+msgid "Harked"
+msgstr "مصغى"
+
+msgid "Harken"
+msgstr "أنْصَتَ"
+
+msgid "Harking"
+msgstr "الإصغاء"
+
+msgid "Harks"
+msgstr "يصغي"
+
+msgid "Harlan"
+msgstr "هارلان"
+
+msgid "Harlem"
+msgstr "هارليم"
+
+msgid "Harlequin"
+msgstr "المهرج"
+
+msgid "Harley"
+msgstr "هارلي"
+
+msgid "Harlot"
+msgstr "العاهرة"
+
+msgid "Harlotry"
+msgstr "البغاء"
+
+msgid "Harlots"
+msgstr "العاهرات"
+
+msgid "Harm"
+msgstr "الأذى"
+
+msgid "Harmed"
+msgstr "مآذيّ"
+
+msgid "Harmer"
+msgstr "أكثر أذى"
+
+msgid "Harmful"
+msgstr "ضارّ"
+
+msgid "Harmfully"
+msgstr "بشكل ضارّ"
+
+msgid "Harmfulness"
+msgstr "الضرر"
+
+msgid "Harming"
+msgstr "الإيذاء"
+
+msgid "Harmless"
+msgstr "غير مؤذي"
+
+msgid "Harmlessly"
+msgstr "بشكل غير مؤذي"
+
+msgid "Harmlessness"
+msgstr "المسالمة"
+
+msgid "Harmon"
+msgstr "هارمون"
+
+msgid "Harmonic"
+msgstr "النغمة التوافقية"
+
+msgid "Harmonica"
+msgstr "الهارمونيكا"
+
+msgid "Harmonical"
+msgstr "متناسق"
+
+msgid "Harmonically"
+msgstr "بتناسق"
+
+msgid "Harmonicas"
+msgstr "الهارمونيكا"
+
+msgid "Harmonics"
+msgstr "التوافقيات"
+
+msgid "Harmonies"
+msgstr "الإنسجامات"
+
+msgid "Harmonious"
+msgstr "منسجم"
+
+msgid "Harmoniously"
+msgstr "بانسجام"
+
+msgid "Harmoniousness"
+msgstr "الإنسجام"
+
+msgid "Harmonization"
+msgstr "التوافق"
+
+msgid "Harmonizations"
+msgstr "التوافق"
+
+msgid "Harmonize"
+msgstr "نسّق"
+
+msgid "Harmonized"
+msgstr "منسّق"
+
+msgid "Harmonizer"
+msgstr "مثير الانسجام"
+
+msgid "Harmonizes"
+msgstr "ينسّق"
+
+msgid "Harmonizing"
+msgstr "التنسيق"
+
+msgid "Harmony"
+msgstr "الإنسجام"
+
+msgid "Harms"
+msgstr "الأذى"
+
+msgid "Harness"
+msgstr "اللجام"
+
+msgid "Harnessed"
+msgstr "مسخّر"
+
+msgid "Harnesser"
+msgstr "المستخدِم، المستعمِل"
+
+msgid "Harnesses"
+msgstr "الألجمة"
+
+msgid "Harnessing"
+msgstr "التسخير"
+
+msgid "Harold"
+msgstr "هارولد"
+
+msgid "Harp"
+msgstr "القيثارة"
+
+msgid "Harped"
+msgstr "عزف على قيثار"
+
+msgid "Harper"
+msgstr "عازف القيثارة"
+
+msgid "Harpers"
+msgstr "عازفو القيثارة"
+
+msgid "Harpies"
+msgstr "الطمّاعون"
+
+msgid "Harping"
+msgstr "العزف على القيثار"
+
+msgid "Harpings"
+msgstr "الأجزاء الأماميّة للحوت"
+
+msgid "Harpist"
+msgstr "عازف القيثارة"
+
+msgid "Harpists"
+msgstr "عازفو القيثارة"
+
+msgid "Harpoon"
+msgstr "الحربة"
+
+msgid "Harpooned"
+msgstr "قتل برمح"
+
+msgid "Harpooner"
+msgstr "صائد الحيتان"
+
+msgid "Harpooning"
+msgstr "إصطياد الحيتان"
+
+msgid "Harpoons"
+msgstr "الحراب"
+
+msgid "Harps"
+msgstr "القيثارات"
+
+msgid "Harpsichord"
+msgstr "البيان"
+
+msgid "Harpsichordist"
+msgstr "عازف هاربسيكورد"
+
+msgid "Harpsichords"
+msgstr "البيان"
+
+msgid "Harpy"
+msgstr "الطمّاع"
+
+msgid "Harried"
+msgstr "مغزو"
+
+msgid "Harrier"
+msgstr "هارير"
+
+msgid "Harries"
+msgstr "يغزو"
+
+msgid "Harriet"
+msgstr "هاريت"
+
+msgid "Harriman"
+msgstr "هاريمان"
+
+msgid "Harrington"
+msgstr "هارينجتون"
+
+msgid "Harris"
+msgstr "هاريس"
+
+msgid "Harrisburg"
+msgstr "هاريسبيرغ"
+
+msgid "Harrison"
+msgstr "هاريسن"
+
+msgid "Harrisonburg"
+msgstr "هاريسونبيرغ"
+
+msgid "Harrow"
+msgstr "المشط"
+
+msgid "Harrowed"
+msgstr "مسلوب"
+
+msgid "Harrower"
+msgstr "الزّاحف"
+
+msgid "Harrowing"
+msgstr "السلب"
+
+msgid "Harrowingly"
+msgstr "بشكل فظيع"
+
+msgid "Harrows"
+msgstr "الأمشاط"
+
+msgid "Harrumph"
+msgstr "يتنحنح"
+
+msgid "Harrumphed"
+msgstr "تنحنح"
+
+msgid "Harrumphing"
+msgstr "التنحنح"
+
+msgid "Harry"
+msgstr "هيري"
+
+msgid "Harrying"
+msgstr "الغزو"
+
+msgid "Harsh"
+msgstr "قاسي"
+
+msgid "Harshen"
+msgstr "يصعّب"
+
+msgid "Harshened"
+msgstr "صعَّب"
+
+msgid "Harshening"
+msgstr "التصعيب"
+
+msgid "Harsher"
+msgstr "أقسى"
+
+msgid "Harshest"
+msgstr "أقسى"
+
+msgid "Harshly"
+msgstr "بقسوة"
+
+msgid "Harshness"
+msgstr "القسوة"
+
+msgid "Hart"
+msgstr "هارت"
+
+msgid "Hartford"
+msgstr "هارتفورد"
+
+msgid "Hartley"
+msgstr "هارتلي"
+
+msgid "Hartman"
+msgstr "هارتمان"
+
+msgid "Harts"
+msgstr "الوعول"
+
+msgid "Harvard"
+msgstr "هارفارد"
+
+msgid "Harvest"
+msgstr "الحصاد"
+
+msgid "Harvested"
+msgstr "محصود"
+
+msgid "Harvester"
+msgstr "الحاصدة"
+
+msgid "Harvesters"
+msgstr "الحاصدات"
+
+msgid "Harvesting"
+msgstr "الحصاد"
+
+msgid "Harvestman"
+msgstr "الحاصد"
+
+msgid "Harvestmen"
+msgstr "الحاصدون"
+
+msgid "Harvests"
+msgstr "يحصد"
+
+msgid "Harvey"
+msgstr "هارفي"
+
+msgid "Has"
+msgstr "له"
+
+msgid "Hash"
+msgstr "اللحم المهروس"
+
+msgid "Hashed"
+msgstr "مثروم"
+
+msgid "Hasher"
+msgstr "هاشير"
+
+msgid "Hashes"
+msgstr "علامات الرقم"
+
+msgid "Hashing"
+msgstr "الثرم"
+
+msgid "Hashish"
+msgstr "الحشيش"
+
+msgid "Haskell"
+msgstr "حزقيل"
+
+msgid "Haskins"
+msgstr "هاسكينز"
+
+msgid "Hasp"
+msgstr "الربّاط"
+
+msgid "Hasps"
+msgstr "الربّاطات"
+
+msgid "Hass"
+msgstr "هاس"
+
+msgid "Hassle"
+msgstr "الإزعاج"
+
+msgid "Hassled"
+msgstr "منزعج"
+
+msgid "Hassler"
+msgstr "هاسلر"
+
+msgid "Hassles"
+msgstr "الإزعاج"
+
+msgid "Hassling"
+msgstr "الإزعاج"
+
+msgid "Hassock"
+msgstr "الوسادة"
+
+msgid "Hast"
+msgstr "يمتلك"
+
+msgid "Haste"
+msgstr "الإستعجال"
+
+msgid "Hasted"
+msgstr "معجّل"
+
+msgid "Hasten"
+msgstr "عجّل"
+
+msgid "Hastened"
+msgstr "معجّل"
+
+msgid "Hastener"
+msgstr "المُسرع"
+
+msgid "Hastening"
+msgstr "التعجيل"
+
+msgid "Hastens"
+msgstr "يعجّل"
+
+msgid "Hastes"
+msgstr "الإستعجالات"
+
+msgid "Hastier"
+msgstr "مستعجل"
+
+msgid "Hastiest"
+msgstr "مستعجل"
+
+msgid "Hastily"
+msgstr "بعجالة"
+
+msgid "Hastiness"
+msgstr "العجلة"
+
+msgid "Hasting"
+msgstr "التعجيل"
+
+msgid "Hastings"
+msgstr "هاستينجز"
+
+msgid "Hasty"
+msgstr "مستعجل"
+
+msgid "Hat"
+msgstr "القبعة"
+
+msgid "Hatband"
+msgstr "رباط البرنيطة"
+
+msgid "Hatbands"
+msgstr "أربطة البرنيطة"
+
+msgid "Hatch"
+msgstr "الفتحة"
+
+msgid "Hatched"
+msgstr "مفقّس"
+
+msgid "Hatcher"
+msgstr "الفقّاس"
+
+msgid "Hatcheries"
+msgstr "المفاقس"
+
+msgid "Hatchery"
+msgstr "المفقس"
+
+msgid "Hatches"
+msgstr "الفتحات"
+
+msgid "Hatchet"
+msgstr "الفأس"
+
+msgid "Hatchets"
+msgstr "الفؤوس"
+
+msgid "Hatching"
+msgstr "التفقيس"
+
+msgid "Hatchure"
+msgstr "الرّقن"
+
+msgid "Hatchway"
+msgstr "الفتحة"
+
+msgid "Hate"
+msgstr "الحقد"
+
+msgid "Hated"
+msgstr "مكروه"
+
+msgid "Hateful"
+msgstr "حقود"
+
+msgid "Hatefully"
+msgstr "بشكل حقود"
+
+msgid "Hatefulness"
+msgstr "الكراهية"
+
+msgid "Hater"
+msgstr "المعادي"
+
+msgid "Hates"
+msgstr "يكره"
+
+msgid "Hatfield"
+msgstr "هاتفيلد"
+
+msgid "Hath"
+msgstr "هاث"
+
+msgid "Hathaway"
+msgstr "هاثاواي"
+
+msgid "Hating"
+msgstr "الكراهية"
+
+msgid "Hatless"
+msgstr "بلا قبّعة"
+
+msgid "Hatred"
+msgstr "الكراهية"
+
+msgid "Hats"
+msgstr "القبعات"
+
+msgid "Hatted"
+msgstr "هاتيد"
+
+msgid "Hatteras"
+msgstr "هاتيراس"
+
+msgid "Hatters"
+msgstr "صناع القبعات"
+
+msgid "Hattie"
+msgstr "هاتي"
+
+msgid "Hattiesburg"
+msgstr "هاتيسبيرغ"
+
+msgid "Haugen"
+msgstr "هاوجين"
+
+msgid "Haughtier"
+msgstr "متغطرس"
+
+msgid "Haughtiest"
+msgstr "متغطرس"
+
+msgid "Haughtily"
+msgstr "بغطرسة"
+
+msgid "Haughtiness"
+msgstr "الغطرسة"
+
+msgid "Haughty"
+msgstr "متغطرس"
+
+msgid "Haul"
+msgstr "العتلة"
+
+msgid "Haulage"
+msgstr "النقل"
+
+msgid "Hauled"
+msgstr "مسحوب"
+
+msgid "Hauler"
+msgstr "متعهد النقل"
+
+msgid "Haulers"
+msgstr "متعهدو النقل"
+
+msgid "Hauling"
+msgstr "السحب"
+
+msgid "Hauls"
+msgstr "العتلات"
+
+msgid "Haunch"
+msgstr "الورك"
+
+msgid "Haunched"
+msgstr "بأفخاذ"
+
+msgid "Haunches"
+msgstr "الورك"
+
+msgid "Haunt"
+msgstr "المزار"
+
+msgid "Haunted"
+msgstr "مطارد"
+
+msgid "Haunter"
+msgstr "الزّائر"
+
+msgid "Haunters"
+msgstr "الزّوّار"
+
+msgid "Haunting"
+msgstr "المطاردة"
+
+msgid "Hauntingly"
+msgstr "حزنا"
+
+msgid "Haunts"
+msgstr "المزارات"
+
+msgid "Haupt"
+msgstr "هوبت"
+
+msgid "Hausdorff"
+msgstr "هوسدورف"
+
+msgid "Hauser"
+msgstr "هوسير"
+
+msgid "Hauteur"
+msgstr "الإستكبار"
+
+msgid "Havana"
+msgstr "هافانا"
+
+msgid "Have"
+msgstr "له"
+
+msgid "Haven"
+msgstr "الملجأ"
+
+msgid "Havens"
+msgstr "الملاجئ"
+
+msgid "Haver"
+msgstr "ثرثر"
+
+msgid "Havering"
+msgstr "هافيرينج"
+
+msgid "Havers"
+msgstr "يثرثر"
+
+msgid "Haversack"
+msgstr "الجراب"
+
+msgid "Haves"
+msgstr "الموسرون"
+
+msgid "Having"
+msgstr "الإمتلاك"
+
+msgid "Havoc"
+msgstr "الخراب"
+
+msgid "Havocs"
+msgstr "الخراب"
+
+msgid "Haw"
+msgstr "الزعرورة"
+
+msgid "Hawaii"
+msgstr "هاواي"
+
+msgid "Hawaiian"
+msgstr "هاواي"
+
+msgid "Hawing"
+msgstr "التلعثم"
+
+msgid "Hawk"
+msgstr "الصقر"
+
+msgid "Hawked"
+msgstr "إصطاد عن طريق الصقر"
+
+msgid "Hawker"
+msgstr "البائع المتجول"
+
+msgid "Hawkers"
+msgstr "الباعة المتجولون"
+
+msgid "Hawking"
+msgstr "الصيد عن طريق الصقر"
+
+msgid "Hawkins"
+msgstr "هوكينز"
+
+msgid "Hawkish"
+msgstr "متشدّد"
+
+msgid "Hawkishly"
+msgstr "بشكل متشدّد"
+
+msgid "Hawks"
+msgstr "الصقور"
+
+msgid "Hawley"
+msgstr "هاولي"
+
+msgid "Haws"
+msgstr "الزعرور"
+
+msgid "Hawser"
+msgstr "الحبل"
+
+msgid "Hawsers"
+msgstr "الحبال"
+
+msgid "Hawthorn"
+msgstr "الزعرور"
+
+msgid "Hawthorne"
+msgstr "هاوثورن"
+
+msgid "Hawthorns"
+msgstr "الزعرور"
+
+msgid "Hay"
+msgstr "القشّ"
+
+msgid "Hay fever"
+msgstr "حمّى القشّ"
+
+msgid "Haycock"
+msgstr "هايكوك"
+
+msgid "Haycocks"
+msgstr "أكوام القشّ"
+
+msgid "Hayden"
+msgstr "هايدن"
+
+msgid "Haydn"
+msgstr "هايدن"
+
+msgid "Hayer"
+msgstr "هاير"
+
+msgid "Hayes"
+msgstr "هايز"
+
+msgid "Hayfield"
+msgstr "حقل القش"
+
+msgid "Haying"
+msgstr "قطع الحشائش"
+
+msgid "Hayloft"
+msgstr "مخزن التّبن"
+
+msgid "Haylofts"
+msgstr "مخازن التّبن"
+
+msgid "Haynes"
+msgstr "هاينيس"
+
+msgid "Hays"
+msgstr "القشّ"
+
+msgid "Haystack"
+msgstr "كومة التبن"
+
+msgid "Haystacks"
+msgstr "أكوام التبن"
+
+msgid "Hayward"
+msgstr "هايوارد"
+
+msgid "Haywire"
+msgstr "مجنون"
+
+msgid "Haywood"
+msgstr "هايوود"
+
+msgid "Hazard"
+msgstr "الخطر"
+
+msgid "Hazarded"
+msgstr "مخاطر ب"
+
+msgid "Hazarding"
+msgstr "المخاطرة"
+
+msgid "Hazardous"
+msgstr "خطر"
+
+msgid "Hazardously"
+msgstr "بشكل خطر"
+
+msgid "Hazardousness"
+msgstr "الخطورة"
+
+msgid "Hazards"
+msgstr "الأخطار"
+
+msgid "Haze"
+msgstr "السديم"
+
+msgid "Hazed"
+msgstr "مشوّش"
+
+msgid "Hazel"
+msgstr "هيزل"
+
+msgid "Hazelnut"
+msgstr "البندقة"
+
+msgid "Hazelnuts"
+msgstr "البندق"
+
+msgid "Hazels"
+msgstr "البندق"
+
+msgid "Hazer"
+msgstr "هازير"
+
+msgid "Hazes"
+msgstr "يشوّش"
+
+msgid "Hazier"
+msgstr "أكثر إكفهرارا"
+
+msgid "Haziest"
+msgstr "أكثر إكفهرارا"
+
+msgid "Hazily"
+msgstr "بشكل مكفهر"
+
+msgid "Haziness"
+msgstr "التشوش"
+
+msgid "Hazing"
+msgstr "التشويش"
+
+msgid "Hazy"
+msgstr "خافت"
+
+msgid "He"
+msgstr "هو"
+
+msgid "Head"
+msgstr "الرئيس"
+
+msgid "Head-clerk"
+msgstr "رئيس كاتب"
+
+msgid "Headache"
+msgstr "الصداع"
+
+msgid "Headaches"
+msgstr "الصداع"
+
+msgid "Headband"
+msgstr "العصابة"
+
+msgid "Headbands"
+msgstr "العصابات"
+
+msgid "Headboard"
+msgstr "اللّوح الأماميّ"
+
+msgid "Headboards"
+msgstr "الألواح الأماميّة"
+
+msgid "Headcheese"
+msgstr "نقانق من لحم الرأس"
+
+msgid "Headcheeses"
+msgstr "نقانق من لحم الرأس"
+
+msgid "Headdress"
+msgstr "غطاء الرأس"
+
+msgid "Headed"
+msgstr "برأس"
+
+msgid "Header"
+msgstr "العنوان الرأسي"
+
+msgid "HeaderFooter"
+msgstr "رأستذييل"
+
+msgid "Headers"
+msgstr "العناوين الرأسية"
+
+msgid "Headgear"
+msgstr "غطاء الرأس"
+
+msgid "Headier"
+msgstr "أكثر إندفاعا"
+
+msgid "Headiest"
+msgstr "أكثر إندفاعا"
+
+msgid "Headily"
+msgstr "بشكل مندفع"
+
+msgid "Headiness"
+msgstr "السّكر"
+
+msgid "Heading"
+msgstr "العنوان"
+
+msgid "Headings"
+msgstr "العناوين"
+
+msgid "Headland"
+msgstr "الرأس البحري"
+
+msgid "Headlands"
+msgstr "الرؤوس البحرية"
+
+msgid "Headless"
+msgstr "بلا رأس"
+
+msgid "Headlessness"
+msgstr "بلارأس"
+
+msgid "Headlight"
+msgstr "الضوء العلوي"
+
+msgid "Headlights"
+msgstr "الأضواء العلوية"
+
+msgid "Headline"
+msgstr "العنوان البارز"
+
+msgid "Headlined"
+msgstr "تحت عنوان"
+
+msgid "Headliner"
+msgstr "المتصدر عناوين"
+
+msgid "Headlines"
+msgstr "العناوين البارزة"
+
+msgid "Headlining"
+msgstr "العنونة"
+
+msgid "Headlong"
+msgstr "متهور"
+
+msgid "Headman"
+msgstr "الزّعيم"
+
+msgid "Headmaster"
+msgstr "المدير"
+
+msgid "Headmasters"
+msgstr "المدراء"
+
+msgid "Headmistress"
+msgstr "المديرة"
+
+msgid "Headmistresses"
+msgstr "المديرات"
+
+msgid "Headmost"
+msgstr "أوّل"
+
+msgid "Headphone"
+msgstr "السماعة"
+
+msgid "Headphones"
+msgstr "السماعات"
+
+msgid "Headpiece"
+msgstr "غطاء الرأس"
+
+msgid "Headpieces"
+msgstr "أغطية الرأس"
+
+msgid "Headquarter"
+msgstr "إتّخذ مقرا"
+
+msgid "Headquartered"
+msgstr "إتّخذ مقرا"
+
+msgid "Headquarters"
+msgstr "المقر"
+
+msgid "Headrest"
+msgstr "المخدّة"
+
+msgid "Headrests"
+msgstr "المخدّات"
+
+msgid "Headroom"
+msgstr "الإرتفاع"
+
+msgid "Heads"
+msgstr "الرؤوس"
+
+msgid "Headsail"
+msgstr "الشراع الأمامي"
+
+msgid "Headset"
+msgstr "السماعة"
+
+msgid "Headsets"
+msgstr "السماعات"
+
+msgid "Headship"
+msgstr "الرّئاسة"
+
+msgid "Headsman"
+msgstr "سياف"
+
+msgid "Headsmen"
+msgstr "السيافون"
+
+msgid "Headstand"
+msgstr "الوقفة على اليدين"
+
+msgid "Headstands"
+msgstr "الوقفات على اليدين"
+
+msgid "Headstone"
+msgstr "شاهد القبر"
+
+msgid "Headstones"
+msgstr "شواهد القبور"
+
+msgid "Headstrong"
+msgstr "متهور"
+
+msgid "Headwaiter"
+msgstr "كبير الخدم"
+
+msgid "Headwaiters"
+msgstr "كبار الخدم"
+
+msgid "Headwater"
+msgstr "المنبع"
+
+msgid "Headwaters"
+msgstr "المنابع"
+
+msgid "Headway"
+msgstr "التقدّم"
+
+msgid "Headwind"
+msgstr "الرّياح العكسيّة"
+
+msgid "Headwinds"
+msgstr "الرّياح المضادّة في الإتجاه"
+
+msgid "Headword"
+msgstr "مدخل في المعجم"
+
+msgid "Heady"
+msgstr "مندفع"
+
+msgid "Heal"
+msgstr "أشف"
+
+msgid "Healable"
+msgstr "قابل للإشفاء"
+
+msgid "Healed"
+msgstr "مشفى"
+
+msgid "Healer"
+msgstr "المعالج"
+
+msgid "Healers"
+msgstr "المعالجون"
+
+msgid "Healey"
+msgstr "هيلي"
+
+msgid "Healing"
+msgstr "الشفاء"
+
+msgid "Heals"
+msgstr "يشفي"
+
+msgid "Health"
+msgstr "الصحة"
+
+msgid "Healthful"
+msgstr "صحّي"
+
+msgid "Healthfully"
+msgstr "بشكل صحّي"
+
+msgid "Healthfulness"
+msgstr "الصحّيةّ"
+
+msgid "Healthier"
+msgstr "أصح"
+
+msgid "Healthiest"
+msgstr "أصح"
+
+msgid "Healthily"
+msgstr "بشكل صحي"
+
+msgid "Healthiness"
+msgstr "الصحّة"
+
+msgid "Healths"
+msgstr "الصحة"
+
+msgid "Healthy"
+msgstr "صحّي"
+
+msgid "Healy"
+msgstr "هيلي"
+
+msgid "Heap"
+msgstr "الكومة"
+
+msgid "Heaped"
+msgstr "ممتلئ"
+
+msgid "Heaping"
+msgstr "التكويم"
+
+msgid "Heaps"
+msgstr "الأكوام"
+
+msgid "Hear"
+msgstr "إسمع"
+
+msgid "Heard"
+msgstr "مسموع"
+
+msgid "Heared"
+msgstr "سمع"
+
+msgid "Hearer"
+msgstr "السامع"
+
+msgid "Hearers"
+msgstr "السامعون"
+
+msgid "Hearing"
+msgstr "الجلسة"
+
+msgid "Hearings"
+msgstr "الجلسات"
+
+msgid "Hearken"
+msgstr "أصغ إليه"
+
+msgid "Hearkened"
+msgstr "مصغى إلى"
+
+msgid "Hearkening"
+msgstr "الإصغاء إلى"
+
+msgid "Hearkens"
+msgstr "يصغي إليه"
+
+msgid "Hears"
+msgstr "يسمع"
+
+msgid "Hearsay"
+msgstr "الإشاعة"
+
+msgid "Hearse"
+msgstr "العربة"
+
+msgid "Hearses"
+msgstr "العربات"
+
+msgid "Hearsing"
+msgstr "التكفين"
+
+msgid "Hearst"
+msgstr "هيرست"
+
+msgid "Heart"
+msgstr "القلب"
+
+msgid "Heartache"
+msgstr "وجع القلب"
+
+msgid "Heartaches"
+msgstr "أوجاع القلب"
+
+msgid "Heartbeat"
+msgstr "نبض القلب"
+
+msgid "Heartbeats"
+msgstr "النّبض"
+
+msgid "Heartbreak"
+msgstr "الأسى"
+
+msgid "Heartbreaking"
+msgstr "مفجع"
+
+msgid "Heartbreakingly"
+msgstr "بقلب حزين"
+
+msgid "Heartburn"
+msgstr "الحموضة المعوية"
+
+msgid "Heartburning"
+msgstr "الحسد"
+
+msgid "Hearted"
+msgstr "طيّب"
+
+msgid "Heartedness"
+msgstr "الأخلاص"
+
+msgid "Hearten"
+msgstr "شجّع"
+
+msgid "Heartened"
+msgstr "مشجّع"
+
+msgid "Heartening"
+msgstr "التشجيع"
+
+msgid "Hearteningly"
+msgstr "بشكل مشجّع"
+
+msgid "Heartens"
+msgstr "يشجّع"
+
+msgid "Heartfelt"
+msgstr "صادق"
+
+msgid "Hearth"
+msgstr "الموقد"
+
+msgid "Hearths"
+msgstr "الموقد"
+
+msgid "Hearthstone"
+msgstr "حجر الموقد"
+
+msgid "Hearthstones"
+msgstr "أحجار الموقد"
+
+msgid "Heartier"
+msgstr "أكثر قلبية"
+
+msgid "Hearties"
+msgstr "رفاق"
+
+msgid "Heartiest"
+msgstr "أكثر قلبية"
+
+msgid "Heartily"
+msgstr "بمودة"
+
+msgid "Heartiness"
+msgstr "الودّ"
+
+msgid "Heartland"
+msgstr "الوسط"
+
+msgid "Heartless"
+msgstr "قاس"
+
+msgid "Heartlessly"
+msgstr "بقسوة"
+
+msgid "Heartlessness"
+msgstr "القساوة"
+
+msgid "Hearts"
+msgstr "القلوب"
+
+msgid "Heartsick"
+msgstr "المحبط"
+
+msgid "Heartstrings"
+msgstr "الأعصاب"
+
+msgid "Heartthrob"
+msgstr "الحبيب"
+
+msgid "Heartthrobs"
+msgstr "الأحبة"
+
+msgid "Heartwood"
+msgstr "القلب"
+
+msgid "Hearty"
+msgstr "قلبي"
+
+msgid "Heat"
+msgstr "الحرارة"
+
+msgid "Heat-proof"
+msgstr "ضدّ الحرارة"
+
+msgid "Heatable"
+msgstr "قابل للتسخين"
+
+msgid "Heated"
+msgstr "ساخن"
+
+msgid "Heatedly"
+msgstr "بحماسة"
+
+msgid "Heater"
+msgstr "المدفأة"
+
+msgid "Heaters"
+msgstr "المدافئ"
+
+msgid "Heath"
+msgstr "المرج"
+
+msgid "Heathen"
+msgstr "وثني"
+
+msgid "Heathendom"
+msgstr "الوثنيّة"
+
+msgid "Heathenish"
+msgstr "وثني"
+
+msgid "Heathenishly"
+msgstr "وثنيا"
+
+msgid "Heathens"
+msgstr "الكفرة"
+
+msgid "Heather"
+msgstr "هذر"
+
+msgid "Heathman"
+msgstr "هيثمان"
+
+msgid "Heating"
+msgstr "التدفئة"
+
+msgid "Heating-up"
+msgstr "السخونة"
+
+msgid "Heatings"
+msgstr "التدفئة"
+
+msgid "Heats"
+msgstr "الحرارة"
+
+msgid "Heatwave"
+msgstr "موجة الحر"
+
+msgid "Heave"
+msgstr "إرفع"
+
+msgid "Heaved"
+msgstr "مرفوع"
+
+msgid "Heaven"
+msgstr "السماء"
+
+msgid "Heavenliness"
+msgstr "الروعة"
+
+msgid "Heavenly"
+msgstr "سماوي"
+
+msgid "Heavens"
+msgstr "السماوات"
+
+msgid "Heavenward"
+msgstr "نحو السماء"
+
+msgid "Heavenwards"
+msgstr "نحو السماء"
+
+msgid "Heaver"
+msgstr "الحمال"
+
+msgid "Heavers"
+msgstr "الحمالون"
+
+msgid "Heaves"
+msgstr "يرفع"
+
+msgid "Heavier"
+msgstr "أثقل"
+
+msgid "Heavies"
+msgstr "الثِّقال"
+
+msgid "Heaviest"
+msgstr "أثقل"
+
+msgid "Heavily"
+msgstr "بشدّة"
+
+msgid "Heaviness"
+msgstr "الثقل"
+
+msgid "Heaving"
+msgstr "الرفع"
+
+msgid "Heavy"
+msgstr "ثقيل"
+
+msgid "Heavyset"
+msgstr "ممتلئ الجسم"
+
+msgid "Heavyweight"
+msgstr "الوزن الثقيل"
+
+msgid "Heavyweights"
+msgstr "الأوزان الثقيلة"
+
+msgid "Hebe"
+msgstr "هيب - إله الربيع والشباب"
+
+msgid "Hebephrenic"
+msgstr "منفصم الشخصية"
+
+msgid "Hebraic"
+msgstr "عبراني"
+
+msgid "Hebrew"
+msgstr "عبري"
+
+msgid "Hebrews"
+msgstr "اليهود"
+
+msgid "Hecate"
+msgstr "هيكات"
+
+msgid "Hecatomb"
+msgstr "المذبحة"
+
+msgid "Heck"
+msgstr "هيك"
+
+msgid "Heckle"
+msgstr "ضايق"
+
+msgid "Heckled"
+msgstr "مضايق"
+
+msgid "Heckler"
+msgstr "المقاطع"
+
+msgid "Hecklers"
+msgstr "المقاطعون"
+
+msgid "Heckles"
+msgstr "يضايق"
+
+msgid "Heckling"
+msgstr "المقاطعة"
+
+msgid "Heckman"
+msgstr "هيكمان"
+
+msgid "Hectare"
+msgstr "الهكتار"
+
+msgid "Hectares"
+msgstr "الهكتارات"
+
+msgid "Hectic"
+msgstr "محموم"
+
+msgid "Hectically"
+msgstr "بشكل محموم"
+
+msgid "Hector"
+msgstr "هيكتر"
+
+msgid "Hectored"
+msgstr "مرهب"
+
+msgid "Hectoring"
+msgstr "الإرهاب"
+
+msgid "Hectors"
+msgstr "يرهب"
+
+msgid "Hecuba"
+msgstr "هيكبا - أساطير يونانيّة"
+
+msgid "Hedda"
+msgstr "هيدا"
+
+msgid "Hedge"
+msgstr "السياج"
+
+msgid "Hedged"
+msgstr "مسيّج"
+
+msgid "Hedgehog"
+msgstr "القنفذ"
+
+msgid "Hedgehogs"
+msgstr "القنافذ"
+
+msgid "Hedgehop"
+msgstr "طِر بانخفاض"
+
+msgid "Hedger"
+msgstr "هيجير"
+
+msgid "Hedgerow"
+msgstr "السياج"
+
+msgid "Hedges"
+msgstr "الأسيجة"
+
+msgid "Hedging"
+msgstr "التسييج"
+
+msgid "Hedonism"
+msgstr "اللذّة"
+
+msgid "Hedonist"
+msgstr "المتعي"
+
+msgid "Hedonistic"
+msgstr "تلذّذي"
+
+msgid "Hedonistically"
+msgstr "بشكل تمتّعي"
+
+msgid "Hedonists"
+msgstr "المتعيون"
+
+msgid "Heed"
+msgstr "الإنتباه"
+
+msgid "Heeded"
+msgstr "محترم"
+
+msgid "Heedful"
+msgstr "حذر"
+
+msgid "Heedfully"
+msgstr "بحذر"
+
+msgid "Heedfulness"
+msgstr "الاهتمام"
+
+msgid "Heeding"
+msgstr "الإحترام"
+
+msgid "Heedless"
+msgstr "طائش"
+
+msgid "Heedlessly"
+msgstr "بشكل طائش"
+
+msgid "Heedlessness"
+msgstr "الغفلة"
+
+msgid "Heeds"
+msgstr "الإنتباه"
+
+msgid "Heel"
+msgstr "الكعب"
+
+msgid "Heeled"
+msgstr "منعّل"
+
+msgid "Heeler"
+msgstr "الإسكافيّ"
+
+msgid "Heelers"
+msgstr "الإسكافيّون"
+
+msgid "Heeling"
+msgstr "التنعيل"
+
+msgid "Heels"
+msgstr "كعوب الحذاء"
+
+msgid "Heft"
+msgstr "الوزن الكبير"
+
+msgid "Hefted"
+msgstr "مرفوع"
+
+msgid "Heftier"
+msgstr "أعلى"
+
+msgid "Heftiest"
+msgstr "أعلى"
+
+msgid "Heftily"
+msgstr "بشكل هائل"
+
+msgid "Heftiness"
+msgstr "الضّخامة"
+
+msgid "Hefting"
+msgstr "الرفع"
+
+msgid "Hefts"
+msgstr "يرفع"
+
+msgid "Hefty"
+msgstr "عالي"
+
+msgid "Hegel"
+msgstr "هيغل"
+
+msgid "Hegelian"
+msgstr "هيغليّ"
+
+msgid "Hegemonic"
+msgstr "مسيطر"
+
+msgid "Hegemonies"
+msgstr "الزعامات"
+
+msgid "Hegemony"
+msgstr "الهيمنة"
+
+msgid "Heidegger"
+msgstr "هييديجر"
+
+msgid "Heidelberg"
+msgstr "هايديلبيرج"
+
+msgid "Heidi"
+msgstr "هيدي"
+
+msgid "Heifer"
+msgstr "العجلة"
+
+msgid "Heifers"
+msgstr "العجول"
+
+msgid "Heigh"
+msgstr "هيغ"
+
+msgid "Height"
+msgstr "الإرتفاع"
+
+msgid "Heighten"
+msgstr "صعّد"
+
+msgid "Heightened"
+msgstr "متصاعد"
+
+msgid "Heightening"
+msgstr "التصعيد"
+
+msgid "Heightens"
+msgstr "يصعّد"
+
+msgid "Heights"
+msgstr "المرتفعات"
+
+msgid "Heine"
+msgstr "هين"
+
+msgid "Heinlein"
+msgstr "هيينلين"
+
+msgid "Heinous"
+msgstr "شنيع"
+
+msgid "Heinously"
+msgstr "بشكل شنيع"
+
+msgid "Heinousness"
+msgstr "الفظاعة"
+
+msgid "Heinrich"
+msgstr "هينريتش"
+
+msgid "Heinz"
+msgstr "هينز"
+
+msgid "Heinze"
+msgstr "هيينز"
+
+msgid "Heir"
+msgstr "الوريث"
+
+msgid "Heiress"
+msgstr "الوريثة"
+
+msgid "Heiresses"
+msgstr "الوريثات"
+
+msgid "Heirloom"
+msgstr "الإرث"
+
+msgid "Heirs"
+msgstr "الورثة"
+
+msgid "Heisenberg"
+msgstr "هيسينبيرج"
+
+msgid "Heiser"
+msgstr "هيايزر"
+
+msgid "Heist"
+msgstr "إسرق"
+
+msgid "Heisted"
+msgstr "مسروق"
+
+msgid "Heister"
+msgstr "هيستير"
+
+msgid "Heisting"
+msgstr "السرقة"
+
+msgid "Heists"
+msgstr "يسرق"
+
+msgid "Held"
+msgstr "محمول"
+
+msgid "Helen"
+msgstr "هيلين"
+
+msgid "Helena"
+msgstr "هيلينا"
+
+msgid "Helene"
+msgstr "هيلين"
+
+msgid "Helga"
+msgstr "هيلجا"
+
+msgid "Helical"
+msgstr "حلزوني"
+
+msgid "Helically"
+msgstr "بشكل حلزوني"
+
+msgid "Helices"
+msgstr "اللوالب"
+
+msgid "Helicon"
+msgstr "الهليكون"
+
+msgid "Helicopter"
+msgstr "المروحية"
+
+msgid "Helicopters"
+msgstr "المروحيات"
+
+msgid "Heliocentric"
+msgstr "متعلّق بمركز الشّمس"
+
+msgid "Heliocentrically"
+msgstr "بمركزية الشمس"
+
+msgid "Heliochromy"
+msgstr "فن طباعة الصور الملونة"
+
+msgid "Heliograph"
+msgstr "الهليوغراف"
+
+msgid "Heliographic"
+msgstr "متعلق بالهليوغراف"
+
+msgid "Heliography"
+msgstr "هيليوجرافي"
+
+msgid "Heliogravure"
+msgstr "الحفر الفوتوغرافيّ"
+
+msgid "Heliopolis"
+msgstr "هيليوبوليس"
+
+msgid "Heliotrope"
+msgstr "الهليوتروب"
+
+msgid "Heliotype"
+msgstr "صّورة عن طريق عمليّة الهيليوتيب"
+
+msgid "Heliport"
+msgstr "المهبط"
+
+msgid "Helium"
+msgstr "الهليوم"
+
+msgid "Helix"
+msgstr "اللولب"
+
+msgid "Helixes"
+msgstr "اللولب"
+
+msgid "Hell"
+msgstr "الجحيم"
+
+msgid "Hellbender"
+msgstr "سمندر مائيّ كبير"
+
+msgid "Hellebore"
+msgstr "العشب"
+
+msgid "Hellenic"
+msgstr "إغريقيّ"
+
+msgid "Heller"
+msgstr "هيلير"
+
+msgid "Hellfire"
+msgstr "نار الجحيم"
+
+msgid "Hellgrammite"
+msgstr "هيلجرامايت"
+
+msgid "Hellish"
+msgstr "جهنمي"
+
+msgid "Hellishly"
+msgstr "بشكل جهنمي"
+
+msgid "Hellishness"
+msgstr "الفظاعة"
+
+msgid "Hello"
+msgstr "مرحبا"
+
+msgid "Hellos"
+msgstr "مجلّة هلو"
+
+msgid "Hells"
+msgstr "الجحيم"
+
+msgid "Helluva"
+msgstr "ممتاز"
+
+msgid "Helm"
+msgstr "القيادة"
+
+msgid "Helmet"
+msgstr "الخوذة"
+
+msgid "Helmeted"
+msgstr "مخوّذ"
+
+msgid "Helmets"
+msgstr "الخوذ"
+
+msgid "Helmholtz"
+msgstr "هيلمولز"
+
+msgid "Helmsman"
+msgstr "القائد"
+
+msgid "Helmsmen"
+msgstr "القادة"
+
+msgid "Helmut"
+msgstr "هيلموت"
+
+msgid "Help"
+msgstr "المساعدة"
+
+msgid "HelpAbout"
+msgstr "مساعدةعن"
+
+msgid "Helped"
+msgstr "سوعد"
+
+msgid "Helper"
+msgstr "المساعد"
+
+msgid "Helpers"
+msgstr "المساعدون"
+
+msgid "Helpful"
+msgstr "مساعد"
+
+msgid "Helpfully"
+msgstr "بشكل مساعد"
+
+msgid "Helpfulness"
+msgstr "المساعدة"
+
+msgid "Helping"
+msgstr "المساعدة على"
+
+msgid "Helpless"
+msgstr "عاجز"
+
+msgid "Helplessly"
+msgstr "بعجز"
+
+msgid "Helplessness"
+msgstr "العجز"
+
+msgid "Helplines"
+msgstr "خطوط مساعدة"
+
+msgid "Helpmate"
+msgstr "المساعد"
+
+msgid "Helpmates"
+msgstr "المساعدون"
+
+msgid "Helps"
+msgstr "يساعد"
+
+msgid "Helsinki"
+msgstr "هيلسنكي"
+
+msgid "Helve"
+msgstr "النصاب"
+
+msgid "Helves"
+msgstr "النصاب"
+
+msgid "Helvetica"
+msgstr "هلفتيكا"
+
+msgid "Hem"
+msgstr "الحاشية"
+
+msgid "Hematite"
+msgstr "الهيماتيت"
+
+msgid "Hemingway"
+msgstr "هيمنغواي"
+
+msgid "Hemisphere"
+msgstr "نصف الكرة الأرضية"
+
+msgid "Hemispheres"
+msgstr "نصف الكرة الأرضية"
+
+msgid "Hemispheric"
+msgstr "نصف كروي"
+
+msgid "Hemispherical"
+msgstr "نصف كروي"
+
+msgid "Hemlock"
+msgstr "الشّوكران"
+
+msgid "Hemlocks"
+msgstr "الشّوكران"
+
+msgid "Hemmed"
+msgstr "مكفوف"
+
+msgid "Hemming"
+msgstr "الكفّ"
+
+msgid "Hemoglobin"
+msgstr "الهيموغلوبين"
+
+msgid "Hemolytic"
+msgstr "إنحلالي"
+
+msgid "Hemophilia"
+msgstr "الهيموفيليا"
+
+msgid "Hemophiliac"
+msgstr "المصاب بالهيموفيليا"
+
+msgid "Hemophiliacs"
+msgstr "المصاب بالهيموفيليا"
+
+msgid "Hemorrhage"
+msgstr "النزف"
+
+msgid "Hemorrhaged"
+msgstr "نازف"
+
+msgid "Hemorrhages"
+msgstr "ينزف"
+
+msgid "Hemorrhagic"
+msgstr "نزفي"
+
+msgid "Hemorrhaging"
+msgstr "النزف"
+
+msgid "Hemorrhoid"
+msgstr "الباسور"
+
+msgid "Hemorrhoidal"
+msgstr "متعلق بالبواسير"
+
+msgid "Hemorrhoids"
+msgstr "البواسير"
+
+msgid "Hemosiderin"
+msgstr "هيموسيديرين - بروتين"
+
+msgid "Hemostat"
+msgstr "المرقأة"
+
+msgid "Hemostats"
+msgstr "المرقأة"
+
+msgid "Hemp"
+msgstr "القنب"
+
+msgid "Hempen"
+msgstr "تيل"
+
+msgid "Hempstead"
+msgstr "هيمبستيد"
+
+msgid "Hems"
+msgstr "الحواشي"
+
+msgid "Hemstitch"
+msgstr "الكفافة"
+
+msgid "Hen"
+msgstr "الدجاجة"
+
+msgid "Hen-pecked"
+msgstr "منقور دجاجة"
+
+msgid "Henbane"
+msgstr "البنج"
+
+msgid "Hence"
+msgstr "لذلك"
+
+msgid "Henceforth"
+msgstr "من الآن فصاعدا"
+
+msgid "Henceforward"
+msgstr "منذ الآن"
+
+msgid "Henchman"
+msgstr "النصير السياسي"
+
+msgid "Henchmen"
+msgstr "الأنصار السياسيون"
+
+msgid "Henderson"
+msgstr "هيندرسن"
+
+msgid "Hendrick"
+msgstr "هيندريك"
+
+msgid "Hendricks"
+msgstr "هيندريكس"
+
+msgid "Hendrickson"
+msgstr "هيندريكسون"
+
+msgid "Hendrix"
+msgstr "هيندريكس"
+
+msgid "Henequen"
+msgstr "هينيكين - نبات"
+
+msgid "Henley"
+msgstr "هينلي"
+
+msgid "Hennessey"
+msgstr "هينيسي"
+
+msgid "Henning"
+msgstr "هينينج"
+
+msgid "Henpeck"
+msgstr "سيطر"
+
+msgid "Henpecked"
+msgstr "مسيطر"
+
+msgid "Henpecking"
+msgstr "السيطرة"
+
+msgid "Henpecks"
+msgstr "يسيطر"
+
+msgid "Henri"
+msgstr "هنري"
+
+msgid "Henrietta"
+msgstr "هنرييتا"
+
+msgid "Henry"
+msgstr "هنري"
+
+msgid "Hens"
+msgstr "الدجاج"
+
+msgid "Hepatic"
+msgstr "كبدي"
+
+msgid "Hepatica"
+msgstr "هيباتيكا - نبات"
+
+msgid "Hepatitis"
+msgstr "إلتهاب الكبد"
+
+msgid "Hepburn"
+msgstr "هيبورن"
+
+msgid "Hepcat"
+msgstr "فنان موسيقى الجاز"
+
+msgid "Hepcats"
+msgstr "فنانو موسيقى الجاز"
+
+msgid "Heptagon"
+msgstr "المسبّع"
+
+msgid "Heptane"
+msgstr "الهيبتان"
+
+msgid "Her"
+msgstr "هي"
+
+msgid "Hera"
+msgstr "حيرا - إله النساء"
+
+msgid "Heraclitus"
+msgstr "هيراكليتس"
+
+msgid "Herald"
+msgstr "المنادي"
+
+msgid "Heralded"
+msgstr "مبشّر"
+
+msgid "Heraldic"
+msgstr "نسبي"
+
+msgid "Heralding"
+msgstr "التبشير"
+
+msgid "Heraldry"
+msgstr "أعلام النبلاء"
+
+msgid "Heralds"
+msgstr "المنادون"
+
+msgid "Herb"
+msgstr "العشبة"
+
+msgid "Herbaceous"
+msgstr "عشبي"
+
+msgid "Herbage"
+msgstr "الأعشاب"
+
+msgid "Herbal"
+msgstr "عشبي"
+
+msgid "Herbalist"
+msgstr "المختص بالأعشاب"
+
+msgid "Herbariums"
+msgstr "الأعشاب"
+
+msgid "Herbert"
+msgstr "هيربيرت"
+
+msgid "Herbicide"
+msgstr "مبيد الأعشاب"
+
+msgid "Herbivore"
+msgstr "آكل النبات"
+
+msgid "Herbivorous"
+msgstr "آكل للأعشاب"
+
+msgid "Herbivorously"
+msgstr "بشكل آكل للأعشاب"
+
+msgid "Herbs"
+msgstr "الأعشاب"
+
+msgid "Herculean"
+msgstr "شاقّ"
+
+msgid "Hercules"
+msgstr "هرقل"
+
+msgid "Herd"
+msgstr "القطيع"
+
+msgid "Herded"
+msgstr "متجمّع"
+
+msgid "Herder"
+msgstr "الرّاعي"
+
+msgid "Herders"
+msgstr "الرّعاة"
+
+msgid "Herding"
+msgstr "التجمّع"
+
+msgid "Herds"
+msgstr "القطعان"
+
+msgid "Herdsman"
+msgstr "راعي الماشية"
+
+msgid "Herdsmen"
+msgstr "رعاة الماشية"
+
+msgid "Here"
+msgstr "هنا"
+
+msgid "Hereabout"
+msgstr "قريبا من هنا"
+
+msgid "Hereabouts"
+msgstr "قريبا من هنا"
+
+msgid "Hereafter"
+msgstr "فيما بعد"
+
+msgid "Hereby"
+msgstr "بموجب هذا"
+
+msgid "Hereditarily"
+msgstr "بشكل وراثي"
+
+msgid "Hereditary"
+msgstr "وراثي"
+
+msgid "Heredity"
+msgstr "الوراثة"
+
+msgid "Hereford"
+msgstr "هيريفورد"
+
+msgid "Herein"
+msgstr "هنا"
+
+msgid "Hereinabove"
+msgstr "في نقطة سابقة من هذه الكتابة"
+
+msgid "Hereinafter"
+msgstr "أدناه"
+
+msgid "Hereinbelow"
+msgstr "أدناه"
+
+msgid "Hereof"
+msgstr "من هذا"
+
+msgid "Hereon"
+msgstr "هنا"
+
+msgid "Heres"
+msgstr "هيريس"
+
+msgid "Heresies"
+msgstr "البدع"
+
+msgid "Heresy"
+msgstr "البدعة"
+
+msgid "Heretic"
+msgstr "الزنديق"
+
+msgid "Heretical"
+msgstr "ضلالي"
+
+msgid "Heretically"
+msgstr "بشكل ضلالي"
+
+msgid "Hereticalness"
+msgstr "الإلحاد"
+
+msgid "Heretics"
+msgstr "الزنادقة"
+
+msgid "Hereto"
+msgstr "إلى هنا"
+
+msgid "Heretofore"
+msgstr "أدناه"
+
+msgid "Hereunder"
+msgstr "فيما يلي"
+
+msgid "Hereunto"
+msgstr "إلى هنا"
+
+msgid "Hereupon"
+msgstr "بهذا"
+
+msgid "Herewith"
+msgstr "طيّا"
+
+msgid "Heritability"
+msgstr "إمكانية التوريث"
+
+msgid "Heritable"
+msgstr "ممكن توريثه"
+
+msgid "Heritably"
+msgstr "بصورة توريثية"
+
+msgid "Heritage"
+msgstr "التراث"
+
+msgid "Heritages"
+msgstr "التراث"
+
+msgid "Heritor"
+msgstr "الوارث"
+
+msgid "Herkimer"
+msgstr "هيركيمير"
+
+msgid "Herman"
+msgstr "هيرمان"
+
+msgid "Hermann"
+msgstr "هيرمان"
+
+msgid "Hermaphrodite"
+msgstr "الخنثى"
+
+msgid "Hermaphroditic"
+msgstr "خنثوي"
+
+msgid "Hermaphroditically"
+msgstr "بشكل خنثوي"
+
+msgid "Hermeneutic"
+msgstr "تفسيري"
+
+msgid "Hermeneutics"
+msgstr "فرع اللّاهوت الذي يتعامل مع مبادئ التّفسير"
+
+msgid "Hermes"
+msgstr "هيرميس"
+
+msgid "Hermetic"
+msgstr "سحري"
+
+msgid "Hermetical"
+msgstr "سحري"
+
+msgid "Hermetically"
+msgstr "بشكل سحري"
+
+msgid "Hermit"
+msgstr "الناسك"
+
+msgid "Hermitage"
+msgstr "صومعة الناسك"
+
+msgid "Hermite"
+msgstr "هيرميت - عالم رياضيّات فرنسيّ"
+
+msgid "Hermits"
+msgstr "الناسكون"
+
+msgid "Hermosa"
+msgstr "هيرموسا"
+
+msgid "Hernandez"
+msgstr "هيرنانديز"
+
+msgid "Hernia"
+msgstr "الفتق"
+
+msgid "Hernial"
+msgstr "متعلق بالفتاق"
+
+msgid "Hernias"
+msgstr "الفتوق"
+
+msgid "Hero"
+msgstr "البطل"
+
+msgid "Herodotus"
+msgstr "هيرودوتس - أبو التاريخ"
+
+msgid "Heroes"
+msgstr "الأبطال"
+
+msgid "Heroic"
+msgstr "بطولي"
+
+msgid "Heroical"
+msgstr "بطولي"
+
+msgid "Heroically"
+msgstr "بشكل بطولي"
+
+msgid "Heroics"
+msgstr "الأعمال البطولية"
+
+msgid "Heroin"
+msgstr "الهيروين"
+
+msgid "Heroine"
+msgstr "البطلة"
+
+msgid "Heroines"
+msgstr "البطلات"
+
+msgid "Heroism"
+msgstr "البطولة"
+
+msgid "Heron"
+msgstr "مالك الحزين"
+
+msgid "Herons"
+msgstr "طيور مالك الحزين"
+
+msgid "Heros"
+msgstr "البطل"
+
+msgid "Herpes"
+msgstr "الحلأ"
+
+msgid "Herpetologist"
+msgstr "عالم الحيوان الذي يتعامل مع الزّاحفات و الكائنات البرمائيّة"
+
+msgid "Herpetology"
+msgstr "الزواحف"
+
+msgid "Herr"
+msgstr "هير"
+
+msgid "Herring"
+msgstr "الرنغة"
+
+msgid "Herringbone"
+msgstr "زخرف متعرّج"
+
+msgid "Herrings"
+msgstr "الرنغة"
+
+msgid "Herrington"
+msgstr "هيرينجتون"
+
+msgid "Hers"
+msgstr "لها"
+
+msgid "Herschel"
+msgstr "هيرشيل"
+
+msgid "Herself"
+msgstr "نفسه"
+
+msgid "Hersey"
+msgstr "هيرسي"
+
+msgid "Hershel"
+msgstr "هيرشيل"
+
+msgid "Hershey"
+msgstr "هيرشي"
+
+msgid "Hertz"
+msgstr "هيرتز"
+
+msgid "Hertzes"
+msgstr "هيرزيس"
+
+msgid "Hertzog"
+msgstr "هيرتزوج - سياسيّ و جنرال من جنوب أفريقيا"
+
+msgid "Hesitance"
+msgstr "التردّد"
+
+msgid "Hesitancy"
+msgstr "التردد"
+
+msgid "Hesitant"
+msgstr "متردد"
+
+msgid "Hesitantly"
+msgstr "بتردد"
+
+msgid "Hesitate"
+msgstr "تردّد"
+
+msgid "Hesitated"
+msgstr "متردّد"
+
+msgid "Hesitater"
+msgstr "المتردّد"
+
+msgid "Hesitates"
+msgstr "يتردّد"
+
+msgid "Hesitating"
+msgstr "التردّد"
+
+msgid "Hesitatingly"
+msgstr "بتردد"
+
+msgid "Hesitation"
+msgstr "التردد"
+
+msgid "Hesitations"
+msgstr "الترددات"
+
+msgid "Hesperus"
+msgstr "كوكب الزّهرة "
+
+msgid "Hess"
+msgstr "هيس"
+
+msgid "Hesse"
+msgstr "هيس"
+
+msgid "Hessian"
+msgstr "الجندي الألماني في الجيش الأمريكي"
+
+msgid "Hessians"
+msgstr "الجنود الألمان في الجيش الأمريكي"
+
+msgid "Hester"
+msgstr "هيستر"
+
+msgid "Heterocyclic"
+msgstr "أكثر من ذرّة متحدة على شكل حلقة"
+
+msgid "Heterodox"
+msgstr "بدعي"
+
+msgid "Heterodoxy"
+msgstr "الزندقة"
+
+msgid "Heterodyne"
+msgstr "متعلّق باقتران تردّدين"
+
+msgid "Heterogamous"
+msgstr "متغاير الأمشاج"
+
+msgid "Heterogamy"
+msgstr "متغاير الأمشاج"
+
+msgid "Heterogeneity"
+msgstr "عدم التجانس"
+
+msgid "Heterogeneous"
+msgstr "متباين"
+
+msgid "Heterogeneously"
+msgstr "بتباين"
+
+msgid "Heterogeneousness"
+msgstr "التّغاير"
+
+msgid "Heterogenous"
+msgstr "مختلف"
+
+msgid "Heterosexual"
+msgstr "متغاير الجنس"
+
+msgid "Heterosexuality"
+msgstr "العلاقة بين الجنسين"
+
+msgid "Heterosexually"
+msgstr "بشكل متغاير الجنس"
+
+msgid "Heterosexuals"
+msgstr "متعلق بالجنس المختلف "
+
+msgid "Heterozygous"
+msgstr "متعلق بالزيجوتات المتغايرة"
+
+msgid "Hetman"
+msgstr "هيتمان"
+
+msgid "Hettie"
+msgstr "هيتي"
+
+msgid "Hetty"
+msgstr "هيتي"
+
+msgid "Heublein"
+msgstr "هيوبلين"
+
+msgid "Heuchlerisch"
+msgstr "هيوتشليريستش"
+
+msgid "Heuristic"
+msgstr "إرشادي"
+
+msgid "Heuristically"
+msgstr "تجريبيّاً"
+
+msgid "Heuristics"
+msgstr "الاستدلال"
+
+msgid "Heusen"
+msgstr "هيوسين"
+
+msgid "Heuser"
+msgstr "هيوسير"
+
+msgid "Hew"
+msgstr "إقطع"
+
+msgid "Hewed"
+msgstr "قطع"
+
+msgid "Hewer"
+msgstr "القاطع"
+
+msgid "Hewett"
+msgstr "هويت"
+
+msgid "Hewing"
+msgstr "القطع"
+
+msgid "Hewitt"
+msgstr "هيويت"
+
+msgid "Hewlett"
+msgstr "هيوليت"
+
+msgid "Hewn"
+msgstr "مقطوع"
+
+msgid "Hews"
+msgstr "يقطع"
+
+msgid "Hex"
+msgstr "الهيكس"
+
+msgid "Hex#"
+msgstr "سادس عشري"
+
+msgid "Hexachloride"
+msgstr "هيكساكلورايد"
+
+msgid "Hexadecimal"
+msgstr "ستعشري"
+
+msgid "Hexadecimally"
+msgstr "بشكل ستعشري"
+
+msgid "Hexadecimals"
+msgstr "ستعشري"
+
+msgid "Hexafluoride"
+msgstr "الفلوريد الذي يحتوي على ستّة ذرّات من الفلور"
+
+msgid "Hexagon"
+msgstr "السداسي"
+
+msgid "Hexagonal"
+msgstr "سداسي"
+
+msgid "Hexagonally"
+msgstr "بشكل سداسي"
+
+msgid "Hexagons"
+msgstr "السداسيات"
+
+msgid "Hexahedron"
+msgstr "المكعّب"
+
+msgid "Hexahedrons"
+msgstr "المكعّبات"
+
+msgid "Hexameter"
+msgstr "سداسي التفاعيل"
+
+msgid "Hexane"
+msgstr "الهكسين"
+
+msgid "Hexed"
+msgstr "مشعوذ"
+
+msgid "Hexer"
+msgstr "المشعوذ"
+
+msgid "Hexes"
+msgstr "يشعوذ"
+
+msgid "Hey"
+msgstr "يا"
+
+msgid "Heyday"
+msgstr "العنفوان"
+
+msgid "Heywood"
+msgstr "هيوود"
+
+msgid "Hgcibm"
+msgstr "هجسيبم"
+
+msgid "Hi"
+msgstr "مرحبا"
+
+msgid "Hi-Lo-Close"
+msgstr "مرحبا إنتهاء الصغرى"
+
+msgid "Hiatt"
+msgstr "هيات"
+
+msgid "Hiatus"
+msgstr "الفجوة"
+
+msgid "Hiatuses"
+msgstr "الفجوات"
+
+msgid "Hiawatha"
+msgstr "هياواثا"
+
+msgid "Hibachi"
+msgstr "هيباتشي"
+
+msgid "Hibbard"
+msgstr "هيبارد"
+
+msgid "Hibernate"
+msgstr "إسبت"
+
+msgid "Hibernated"
+msgstr "مسبوت"
+
+msgid "Hibernates"
+msgstr "يسبت"
+
+msgid "Hibernating"
+msgstr "السبت"
+
+msgid "Hibernation"
+msgstr "السبات"
+
+msgid "Hibernia"
+msgstr "الاسم الشّاعريّ لجزيرة أيرلندا"
+
+msgid "Hibiscus"
+msgstr "الكركديه"
+
+msgid "Hiccough"
+msgstr "الفواق"
+
+msgid "Hiccup"
+msgstr "الفواق"
+
+msgid "Hiccups"
+msgstr "الفواق"
+
+msgid "Hick"
+msgstr "المتخلّف"
+
+msgid "Hickey"
+msgstr "العضّة الجنسيّة"
+
+msgid "Hickeys"
+msgstr "العضّات الجنسيّة"
+
+msgid "Hickman"
+msgstr "هيكمان"
+
+msgid "Hickok"
+msgstr "هيكوك"
+
+msgid "Hickories"
+msgstr "الهيكري"
+
+msgid "Hickory"
+msgstr "الهيكري"
+
+msgid "Hicks"
+msgstr "المتخلّفون"
+
+msgid "Hid"
+msgstr "إختفى"
+
+msgid "Hidalgo"
+msgstr "هيدالجو"
+
+msgid "Hidden"
+msgstr "مخفي"
+
+msgid "Hide"
+msgstr "الجلد"
+
+msgid "Hideaway"
+msgstr "المخبأ"
+
+msgid "Hidebound"
+msgstr "رجعيّ"
+
+msgid "Hided"
+msgstr "جَلَدَ"
+
+msgid "Hideous"
+msgstr "قبيح"
+
+msgid "Hideously"
+msgstr "بشكل مخيف"
+
+msgid "Hideousness"
+msgstr "البشاعة"
+
+msgid "Hideousnesses"
+msgstr "البشاعة"
+
+msgid "Hideout"
+msgstr "المخبأ"
+
+msgid "Hideouts"
+msgstr "المخابئ"
+
+msgid "Hider"
+msgstr "المُخْفِي"
+
+msgid "Hides"
+msgstr "الجلود"
+
+msgid "Hiding"
+msgstr "الإختفاء"
+
+msgid "Hiding-place"
+msgstr "المخبأ"
+
+msgid "Hie"
+msgstr "عجّل"
+
+msgid "Hied"
+msgstr "معجّل"
+
+msgid "Hieing"
+msgstr "الإسراع"
+
+msgid "Hierachy"
+msgstr "هرمي"
+
+msgid "Hierarchal"
+msgstr "مرتبي"
+
+msgid "Hierarchic"
+msgstr "مرتبي"
+
+msgid "Hierarchical"
+msgstr "مرتبي"
+
+msgid "Hierarchically"
+msgstr "بشكل مرتبي"
+
+msgid "Hierarchies"
+msgstr "التدرجات"
+
+msgid "Hierarchy"
+msgstr "التدرج"
+
+msgid "Hieratic"
+msgstr "هيري"
+
+msgid "Hieroglyphic"
+msgstr "هيروغليفي"
+
+msgid "Hieroglyphically"
+msgstr "بشكل هيروغليفي"
+
+msgid "Hieroglyphics"
+msgstr "الهيروغليفية"
+
+msgid "Hieroglyphs"
+msgstr "الطلاسم"
+
+msgid "Hies"
+msgstr "يعجّل"
+
+msgid "Hifalutin"
+msgstr "مدّعي"
+
+msgid "Higgins"
+msgstr "هيجينس"
+
+msgid "Higgledy-piggledy"
+msgstr "ملخبط"
+
+msgid "High"
+msgstr "المستوى العالي"
+
+msgid "High-frequency"
+msgstr "التذبذب العالي"
+
+msgid "High-level"
+msgstr "عالي المستوى"
+
+msgid "High-order"
+msgstr "عالي الرتبة"
+
+msgid "High-performance"
+msgstr "عالي الأداء"
+
+msgid "High-resolution"
+msgstr "درجة الوضوح العالية"
+
+msgid "High-speed"
+msgstr "سريع"
+
+msgid "High-technology"
+msgstr "التقنية المتطورة"
+
+msgid "Highball"
+msgstr "الخمر"
+
+msgid "Highboard"
+msgstr "لوح الغطس العالي"
+
+msgid "Highborn"
+msgstr "نبيل"
+
+msgid "Highboy"
+msgstr "الدّولاب"
+
+msgid "Highbred"
+msgstr "سلالة رفيعة"
+
+msgid "Highbrow"
+msgstr "مثقّف"
+
+msgid "Highclass"
+msgstr "راقي"
+
+msgid "Higher"
+msgstr "أعلى"
+
+msgid "Highest"
+msgstr "أعلى"
+
+msgid "Highest-order"
+msgstr "الطلب الأعلى"
+
+msgid "Highfalutin"
+msgstr "طنّان"
+
+msgid "Highfield"
+msgstr "هايفيلد"
+
+msgid "Highhanded"
+msgstr "متسلّط"
+
+msgid "Highhandedly"
+msgstr "بتسلّط"
+
+msgid "Highhandedness"
+msgstr "الاستبداد"
+
+msgid "Highland"
+msgstr "المرتفع"
+
+msgid "Highlander"
+msgstr "أحد سكان الجبال"
+
+msgid "Highlands"
+msgstr "الأراضي الجبليّة"
+
+msgid "Highlight"
+msgstr "الشيء المهم"
+
+msgid "Highlighted"
+msgstr "مبرز"
+
+msgid "Highlighting"
+msgstr "الإبراز"
+
+msgid "Highlights"
+msgstr "الأشياء المهمة"
+
+msgid "Highly"
+msgstr "إلى حد كبير"
+
+msgid "Highness"
+msgstr "السمو"
+
+msgid "Highnesses"
+msgstr "السمو"
+
+msgid "Highroad"
+msgstr "الطريق الرئيسي"
+
+msgid "Highs"
+msgstr "المستويات العالية"
+
+msgid "Highscore"
+msgstr "أعلى نقاط"
+
+msgid "Hight"
+msgstr "هايت"
+
+msgid "Hightail"
+msgstr "انسحب"
+
+msgid "Highway"
+msgstr "الطريق السريع"
+
+msgid "Highwayman"
+msgstr "قاطع الطريق"
+
+msgid "Highwaymen"
+msgstr "قطاع الطرق"
+
+msgid "Highways"
+msgstr "الطرق السريعة"
+
+msgid "Hijack"
+msgstr "الإختطاف"
+
+msgid "Hijacked"
+msgstr "مختطف"
+
+msgid "Hijacker"
+msgstr "المختطف"
+
+msgid "Hijackers"
+msgstr "المختطفون"
+
+msgid "Hijacking"
+msgstr "الإختطاف"
+
+msgid "Hijacks"
+msgstr "عمليات الإختطاف"
+
+msgid "Hijinks"
+msgstr "الصّخب"
+
+msgid "Hike"
+msgstr "الزيادة"
+
+msgid "Hiked"
+msgstr "متجوّل"
+
+msgid "Hiker"
+msgstr "المتجول"
+
+msgid "Hikers"
+msgstr "المتجولون"
+
+msgid "Hikes"
+msgstr "الزيادات"
+
+msgid "Hiking"
+msgstr "السفر على الأقدام"
+
+msgid "Hilarious"
+msgstr "فرحان"
+
+msgid "Hilariously"
+msgstr "بفرح شديد"
+
+msgid "Hilariousness"
+msgstr "الجذل"
+
+msgid "Hilarity"
+msgstr "الجذل"
+
+msgid "Hilbert"
+msgstr "هيلبيرت"
+
+msgid "Hildebrand"
+msgstr "القدّيس جريجوري"
+
+msgid "Hill"
+msgstr "التلّ"
+
+msgid "Hillary"
+msgstr "هيلاري"
+
+msgid "Hillbilly"
+msgstr "المتخلّف"
+
+msgid "Hillcrest"
+msgstr "هيلكريست"
+
+msgid "Hilled"
+msgstr "محاط بالتلال"
+
+msgid "Hillel"
+msgstr "هيليل"
+
+msgid "Hiller"
+msgstr "هيلير"
+
+msgid "Hillier"
+msgstr "أكثر مرتفعات"
+
+msgid "Hilliest"
+msgstr "أكثر مرتفعات"
+
+msgid "Hilling"
+msgstr "هيلينج"
+
+msgid "Hillman"
+msgstr "هيلمان"
+
+msgid "Hillmen"
+msgstr "هيلمان"
+
+msgid "Hillock"
+msgstr "الرابية"
+
+msgid "Hillocks"
+msgstr "الروابي"
+
+msgid "Hills"
+msgstr "التلال"
+
+msgid "Hillsboro"
+msgstr "هيلزبورو"
+
+msgid "Hillsdale"
+msgstr "هيلزدال"
+
+msgid "Hillside"
+msgstr "سفح التل"
+
+msgid "Hillsides"
+msgstr "سفوح التلال"
+
+msgid "Hilltop"
+msgstr "قمّة التل"
+
+msgid "Hilltops"
+msgstr "قمم التلال"
+
+msgid "Hilly"
+msgstr "ذو مرتفعات"
+
+msgid "HiLo"
+msgstr "وصل أقصى-أدنى"
+
+msgid "HiLoClose"
+msgstr "وصل-أقصى-أدنى مع إغلاق"
+
+msgid "HiLoOpenClose"
+msgstr "وصل-أقصى-أدنى مع فتح و إغلاق"
+
+msgid "Hilt"
+msgstr "المقبض"
+
+msgid "Hilton"
+msgstr "هيلتون - سلسلة فنادق أمريكية"
+
+msgid "Hilts"
+msgstr "المقابض"
+
+msgid "Hilum"
+msgstr "النّقير"
+
+msgid "Him"
+msgstr "هو"
+
+msgid "Himalaya"
+msgstr "هملايا"
+
+msgid "Himalayas"
+msgstr "جبال الهيمالياس"
+
+msgid "Himmler"
+msgstr "هيملير"
+
+msgid "Himself"
+msgstr "نفسه"
+
+msgid "Hind"
+msgstr "الوعلة"
+
+msgid "Hinder"
+msgstr "أعق"
+
+msgid "Hindered"
+msgstr "معاق"
+
+msgid "Hinderer"
+msgstr "المعوّق"
+
+msgid "Hindering"
+msgstr "الإعاقة"
+
+msgid "Hinders"
+msgstr "يعيق"
+
+msgid "Hindi"
+msgstr "هندي"
+
+msgid "Hindmost"
+msgstr "أخير"
+
+msgid "Hindquarter"
+msgstr "العجيزة"
+
+msgid "Hindquarters"
+msgstr "الخلف"
+
+msgid "Hindrance"
+msgstr "العائق"
+
+msgid "Hindrances"
+msgstr "العوائق"
+
+msgid "Hinds"
+msgstr "الوعلات"
+
+msgid "Hindsight"
+msgstr "الإدراك المتأخر"
+
+msgid "Hindu"
+msgstr "هندوسي"
+
+msgid "Hinduism"
+msgstr "الهندوسية"
+
+msgid "Hindus"
+msgstr "الهنودس"
+
+msgid "Hines"
+msgstr "هينيس"
+
+msgid "Hinge"
+msgstr "المفصلة"
+
+msgid "Hinged"
+msgstr "متمحور"
+
+msgid "Hinger"
+msgstr "هينجر"
+
+msgid "Hinges"
+msgstr "المفصلات"
+
+msgid "Hinging"
+msgstr "التمحور"
+
+msgid "Hinkle"
+msgstr "هينكل"
+
+msgid "Hinman"
+msgstr "هينمان"
+
+msgid "Hinsdale"
+msgstr "هينسدال"
+
+msgid "Hint"
+msgstr "التلميح"
+
+msgid "Hinted"
+msgstr "ملمّح"
+
+msgid "Hinter"
+msgstr "اللّمّاح"
+
+msgid "Hinterland"
+msgstr "المنطقة الداخلية"
+
+msgid "Hinterlands"
+msgstr "المناطق الداخلية"
+
+msgid "Hinting"
+msgstr "التلميح"
+
+msgid "Hints"
+msgstr "التلميحات"
+
+msgid "Hip"
+msgstr "الورك"
+
+msgid "Hip-Hop"
+msgstr "الهيب هوب"
+
+msgid "Hipbone"
+msgstr "عظمة الورك"
+
+msgid "Hipness"
+msgstr "الوعي"
+
+msgid "Hipped"
+msgstr "مكتئب"
+
+msgid "Hippie"
+msgstr "الهبي"
+
+msgid "Hippies"
+msgstr "مجموعات الهبيز"
+
+msgid "Hipping"
+msgstr "الإكتئاب"
+
+msgid "Hippo"
+msgstr "فرس النهر"
+
+msgid "Hippocrates"
+msgstr "هيبوقراط - أبو الطب"
+
+msgid "Hippocratic"
+msgstr "أبقراط"
+
+msgid "Hippodrome"
+msgstr "ساحة الألعاب"
+
+msgid "Hippopotami"
+msgstr "أفراس النهر"
+
+msgid "Hippopotamus"
+msgstr "فرس النهر"
+
+msgid "Hippopotamuses"
+msgstr "أفراس النهر"
+
+msgid "Hippos"
+msgstr "أفراس النهر"
+
+msgid "Hippy"
+msgstr "الهبي"
+
+msgid "Hips"
+msgstr "الوروك"
+
+msgid "Hipster"
+msgstr "محبّ الجاز"
+
+msgid "Hipsters"
+msgstr "محبّو موسيقى الجاز"
+
+msgid "Hiram"
+msgstr "حيرم"
+
+msgid "Hire"
+msgstr "التأجير"
+
+msgid "Hire-purchase"
+msgstr "الشراء بالتقسيط"
+
+msgid "Hired"
+msgstr "مستأجر"
+
+msgid "Hireling"
+msgstr "المستأجر"
+
+msgid "Hirelings"
+msgstr "المستأجرون"
+
+msgid "Hirer"
+msgstr "المؤجّر"
+
+msgid "Hirers"
+msgstr "المؤجّرون"
+
+msgid "Hires"
+msgstr "الأجور"
+
+msgid "Hiring"
+msgstr "الإستئجار"
+
+msgid "Hirings"
+msgstr "التوظيفات"
+
+msgid "Hiroshi"
+msgstr "هيروزهي"
+
+msgid "Hiroshima"
+msgstr "هيروشيما"
+
+msgid "Hirsch"
+msgstr "هيرش"
+
+msgid "Hirsute"
+msgstr "مشعر"
+
+msgid "Hirsuteness"
+msgstr "الشعر الكثيف"
+
+msgid "His"
+msgstr "له"
+
+msgid "Hispanic"
+msgstr "هسباني"
+
+msgid "Hispanics"
+msgstr "الهسبان"
+
+msgid "Hiss"
+msgstr "الفحيح"
+
+msgid "Hissed"
+msgstr "مهسهس"
+
+msgid "Hisser"
+msgstr "الفحّاح"
+
+msgid "Hisses"
+msgstr "يهسهس"
+
+msgid "Hissing"
+msgstr "الهسهسة"
+
+msgid "Hist"
+msgstr "أُصمت"
+
+msgid "Histamine"
+msgstr "الهستامين"
+
+msgid "Histidine"
+msgstr "الحامض الأمينيّ"
+
+msgid "Histochemical"
+msgstr "متعلق بكيمياء خلايا وأنسجة الجسم البشري"
+
+msgid "Histochemistry"
+msgstr "كيمياء خلايا وأنسجة الجسم البشري"
+
+msgid "Histogram"
+msgstr "المدرج الإحصائي"
+
+msgid "Histograms"
+msgstr "المدرج الإحصائي"
+
+msgid "Histology"
+msgstr "علم الأنسجة"
+
+msgid "Historian"
+msgstr "المؤرخ"
+
+msgid "Historians"
+msgstr "المؤرخون"
+
+msgid "Historic"
+msgstr "تأريخي"
+
+msgid "Historical"
+msgstr "تأريخي"
+
+msgid "Historically"
+msgstr "من الناحية التاريخية"
+
+msgid "Historicalness"
+msgstr "التاريخية"
+
+msgid "Historicism"
+msgstr "التّاريخيّة"
+
+msgid "Historicity"
+msgstr "الصفّة التأريخية"
+
+msgid "Histories"
+msgstr "التواريخ"
+
+msgid "Historiography"
+msgstr "كتابة التأريخ"
+
+msgid "History"
+msgstr "التأريخ"
+
+msgid "Histrionic"
+msgstr "فن التمثيل"
+
+msgid "Histrionically"
+msgstr "مسرحيا"
+
+msgid "Histrionics"
+msgstr "فن التمثيل"
+
+msgid "Hit"
+msgstr "الضربة"
+
+msgid "Hit-and-run"
+msgstr "ضرب وهروب"
+
+msgid "Hit-on-the-fly"
+msgstr "إضرب ذبابة على"
+
+msgid "Hitachi"
+msgstr "هيتاتشي"
+
+msgid "Hitch"
+msgstr "العقبة"
+
+msgid "Hitchcock"
+msgstr "هيتشكوك"
+
+msgid "Hitched"
+msgstr "مربوط"
+
+msgid "Hitcher"
+msgstr "الرّابط"
+
+msgid "Hitches"
+msgstr "العقبات"
+
+msgid "Hitchhike"
+msgstr "يسافر بالتماس الجولات المجّانيّة"
+
+msgid "Hitchhiked"
+msgstr "سافر بالتماس الجولات المجّانيّة"
+
+msgid "Hitchhiker"
+msgstr "المسافر بالتماس الجولات المجّانيّة"
+
+msgid "Hitchhikers"
+msgstr "المسافرون بالتماس الجولات المجّانيّة"
+
+msgid "Hitchhikes"
+msgstr "يسافر بالتماس الجولات المجّانيّة"
+
+msgid "Hitchhiking"
+msgstr "طلب التوصيل"
+
+msgid "Hitching"
+msgstr "الربط"
+
+msgid "Hither"
+msgstr "أقرب"
+
+msgid "Hitherto"
+msgstr "حتى الآن"
+
+msgid "Hitler"
+msgstr "هتلر"
+
+msgid "Hitless"
+msgstr "بدون أهداف"
+
+msgid "Hits"
+msgstr "الضربات"
+
+msgid "Hitter"
+msgstr "الضارب"
+
+msgid "Hitters"
+msgstr "الضاربون"
+
+msgid "Hitting"
+msgstr "الضرب"
+
+msgid "Hive"
+msgstr "خلية النحل"
+
+msgid "Hived"
+msgstr "منحل"
+
+msgid "Hives"
+msgstr "خلايا النحل"
+
+msgid "Hiving"
+msgstr "الإنحال"
+
+msgid "Hmm"
+msgstr "هم"
+
+msgid "Ho"
+msgstr "المكتب المنزلي"
+
+msgid "Hoagie"
+msgstr "سندويشة"
+
+msgid "Hoagies"
+msgstr "سندويشات"
+
+msgid "Hoagland"
+msgstr "هواجلاند"
+
+msgid "Hoagy"
+msgstr "سندويشة"
+
+msgid "Hoar"
+msgstr "الصقيع"
+
+msgid "Hoard"
+msgstr "الكنز"
+
+msgid "Hoarded"
+msgstr "مكتنز"
+
+msgid "Hoarder"
+msgstr "المكتنز"
+
+msgid "Hoarders"
+msgstr "المكتنزون"
+
+msgid "Hoarding"
+msgstr "لوحة الإعلانات"
+
+msgid "Hoards"
+msgstr "الكنوز"
+
+msgid "Hoarfrost"
+msgstr "الصّقيع"
+
+msgid "Hoarier"
+msgstr "أشيب"
+
+msgid "Hoariest"
+msgstr "أشيب"
+
+msgid "Hoariness"
+msgstr "حالة القِدَمْ"
+
+msgid "Hoarse"
+msgstr "أجش"
+
+msgid "Hoarsely"
+msgstr "بصوت أجش"
+
+msgid "Hoarsen"
+msgstr "هوارسين"
+
+msgid "Hoarseness"
+msgstr "الجشاشة"
+
+msgid "Hoarser"
+msgstr "أجش"
+
+msgid "Hoarsest"
+msgstr "أجش"
+
+msgid "Hoary"
+msgstr "أشيب"
+
+msgid "Hoax"
+msgstr "الخدعة"
+
+msgid "Hoaxed"
+msgstr "خدع"
+
+msgid "Hoaxer"
+msgstr "المخادع"
+
+msgid "Hoaxes"
+msgstr "الخدع"
+
+msgid "Hoaxing"
+msgstr "الخداع"
+
+msgid "Hob"
+msgstr "النتوء"
+
+msgid "Hobart"
+msgstr "هوبارت"
+
+msgid "Hobbes"
+msgstr "هوبز"
+
+msgid "Hobbies"
+msgstr "الهوايات"
+
+msgid "Hobble"
+msgstr "العقال"
+
+msgid "Hobbled"
+msgstr "عارج"
+
+msgid "Hobbler"
+msgstr "الماشي بصعوبة"
+
+msgid "Hobbles"
+msgstr "يعرج"
+
+msgid "Hobbling"
+msgstr "العرج"
+
+msgid "Hobbs"
+msgstr "هوبز"
+
+msgid "Hobby"
+msgstr "الهواية"
+
+msgid "Hobbyhorse"
+msgstr "اللّعبة"
+
+msgid "Hobbyist"
+msgstr "الهاوي"
+
+msgid "Hobbyists"
+msgstr "الهواة"
+
+msgid "Hobday"
+msgstr "هوبداي"
+
+msgid "Hobgoblin"
+msgstr "العفريت"
+
+msgid "Hobgoblins"
+msgstr "العفاريت"
+
+msgid "Hobnob"
+msgstr "عاشر"
+
+msgid "Hobo"
+msgstr "الأفاق"
+
+msgid "Hoboes"
+msgstr "الأفّاقون"
+
+msgid "Hoboken"
+msgstr "هوبوكين"
+
+msgid "Hobos"
+msgstr "الأفاق"
+
+msgid "Hobs"
+msgstr "النتوءات"
+
+msgid "Hoc"
+msgstr "هوك"
+
+msgid "Hock"
+msgstr "العرقوب"
+
+msgid "Hocked"
+msgstr "معاق"
+
+msgid "Hocker"
+msgstr "هوكر"
+
+msgid "Hockey"
+msgstr "الهوكي"
+
+msgid "Hocking"
+msgstr "الإعاقة"
+
+msgid "Hocks"
+msgstr "العراقيب"
+
+msgid "Hockshop"
+msgstr "محل الرّهن"
+
+msgid "Hocus"
+msgstr "إخدع"
+
+msgid "Hocus-pocus"
+msgstr "الخزعبلات"
+
+msgid "Hod"
+msgstr "الصندوق"
+
+msgid "Hodge"
+msgstr "هودج"
+
+msgid "Hodgepodge"
+msgstr "الخربطة"
+
+msgid "Hodges"
+msgstr "هوجيس"
+
+msgid "Hodgkin"
+msgstr "هودجكين"
+
+msgid "Hods"
+msgstr "الصناديق"
+
+msgid "Hoe"
+msgstr "المعزقة"
+
+msgid "Hoed"
+msgstr "معزوق"
+
+msgid "Hoeing"
+msgstr "العزق"
+
+msgid "Hoer"
+msgstr "أداة قطع الأعشاب"
+
+msgid "Hoes"
+msgstr "المعازق"
+
+msgid "Hoff"
+msgstr "هوف"
+
+msgid "Hoffman"
+msgstr "هوفمان"
+
+msgid "Hog"
+msgstr "الخنزير"
+
+msgid "Hogan"
+msgstr "هوجان"
+
+msgid "Hogging"
+msgstr "القصّ"
+
+msgid "Hoggish"
+msgstr "سيّئ"
+
+msgid "Hoggishly"
+msgstr "بسوء"
+
+msgid "Hogs"
+msgstr "الخنازير"
+
+msgid "Hogwash"
+msgstr "بقايا الطعام"
+
+msgid "Hoi"
+msgstr "هوي"
+
+msgid "Hoist"
+msgstr "الرافعة"
+
+msgid "Hoisted"
+msgstr "مرفوع"
+
+msgid "Hoister"
+msgstr "الرافع"
+
+msgid "Hoisting"
+msgstr "الرفع"
+
+msgid "Hoists"
+msgstr "الرافعات"
+
+msgid "Hokan"
+msgstr "هوكان - لغة من لغات الهنود الحمر"
+
+msgid "Hokey"
+msgstr "بسيط"
+
+msgid "Hokeyness"
+msgstr "البساطة"
+
+msgid "Hokum"
+msgstr "السّخف"
+
+msgid "Hokums"
+msgstr "السخافة"
+
+msgid "Holbrook"
+msgstr "هولبروك"
+
+msgid "Holcomb"
+msgstr "هولكوم"
+
+msgid "Hold"
+msgstr "القبضة"
+
+msgid "Hold-back"
+msgstr "العائق"
+
+msgid "Hold-file"
+msgstr "إحمل ملفا"
+
+msgid "Holden"
+msgstr "هولدن"
+
+msgid "Holder"
+msgstr "الحامل"
+
+msgid "Holders"
+msgstr "الحملة"
+
+msgid "Holding"
+msgstr "الحصّة"
+
+msgid "Holdings"
+msgstr "الحصص"
+
+msgid "Holdout"
+msgstr "المدافع"
+
+msgid "Holdover"
+msgstr "المستمر"
+
+msgid "Holdovers"
+msgstr "المستمرون"
+
+msgid "Holds"
+msgstr "العوائق"
+
+msgid "Holdup"
+msgstr "التعطيل"
+
+msgid "Holdups"
+msgstr "التعطيلات"
+
+msgid "Hole"
+msgstr "الفتحة"
+
+msgid "Hole-storage"
+msgstr "خزن فتحة"
+
+msgid "Holed"
+msgstr "مثقوب"
+
+msgid "Holeproof"
+msgstr "قماش مانع للثقوب"
+
+msgid "Holes"
+msgstr "الفتحات"
+
+msgid "Holiday"
+msgstr "العطلة"
+
+msgid "Holidayer"
+msgstr "المصطاف"
+
+msgid "Holidays"
+msgstr "العطل"
+
+msgid "Holier"
+msgstr "أقدس"
+
+msgid "Holies"
+msgstr "المقدّسات"
+
+msgid "Holiest"
+msgstr "أقدس"
+
+msgid "Holiness"
+msgstr "القدسية"
+
+msgid "Holing"
+msgstr "الحفر"
+
+msgid "Holistic"
+msgstr "شمولي"
+
+msgid "Holland"
+msgstr "هولندا"
+
+msgid "Hollandaise"
+msgstr "البيض و الزّبدة بعصير اللّيمون"
+
+msgid "Hollander"
+msgstr "مواطن هولاندا"
+
+msgid "Hollanders"
+msgstr "مواطنو هولاندا"
+
+msgid "Hollands"
+msgstr "الأنسجة الهولنديّة"
+
+msgid "Holler"
+msgstr "الصرخة"
+
+msgid "Hollered"
+msgstr "صرخ"
+
+msgid "Hollering"
+msgstr "الصراخ"
+
+msgid "Hollerith"
+msgstr "هولليريث"
+
+msgid "Hollers"
+msgstr "الصرخات"
+
+msgid "Hollies"
+msgstr "نبات شائك الأطراف"
+
+msgid "Hollingsworth"
+msgstr "هولينجسورث"
+
+msgid "Hollister"
+msgstr "هوليستير"
+
+msgid "Hollow"
+msgstr "الجوف"
+
+msgid "Holloway"
+msgstr "هولواي"
+
+msgid "Hollowed"
+msgstr "مجوّف"
+
+msgid "Hollower"
+msgstr "مجوّف"
+
+msgid "Hollowest"
+msgstr "مجوّف"
+
+msgid "Hollowing"
+msgstr "التجويف"
+
+msgid "Hollowly"
+msgstr "بشكل مجوّف"
+
+msgid "Hollowness"
+msgstr "الفراغ"
+
+msgid "Hollows"
+msgstr "الأجواف"
+
+msgid "Hollowware"
+msgstr "الأطباق الفضّية"
+
+msgid "Holly"
+msgstr "هولي"
+
+msgid "Hollyhock"
+msgstr "الخطمي"
+
+msgid "Hollyhocks"
+msgstr "الخطمي"
+
+msgid "Hollywood"
+msgstr "هوليود"
+
+msgid "Holm"
+msgstr "هولم"
+
+msgid "Holman"
+msgstr "هولمان"
+
+msgid "Holmdel"
+msgstr "هولمدل"
+
+msgid "Holmes"
+msgstr "هولمز"
+
+msgid "Holmium"
+msgstr "هولميوم"
+
+msgid "Holms"
+msgstr "السّهول"
+
+msgid "Holocaust"
+msgstr "المحرقة"
+
+msgid "Holocene"
+msgstr "تقريبًا آخر 10,000 سنة"
+
+msgid "Hologram"
+msgstr "الصّورة المجسّمة"
+
+msgid "Holograms"
+msgstr "الصّور المجسّمة"
+
+msgid "Holographic"
+msgstr "التصوير المجسّم"
+
+msgid "Holographical"
+msgstr "هولوجرافيكال"
+
+msgid "Holography"
+msgstr "التصور الهولوجرامي"
+
+msgid "Holst"
+msgstr "هولست"
+
+msgid "Holstein"
+msgstr "هولشتاين"
+
+msgid "Holsteins"
+msgstr "البقر"
+
+msgid "Holster"
+msgstr "الحافظة"
+
+msgid "Holstered"
+msgstr "غمد"
+
+msgid "Holstering"
+msgstr "الغمد"
+
+msgid "Holsters"
+msgstr "الحافظات"
+
+msgid "Holt"
+msgstr "هولت"
+
+msgid "Holy"
+msgstr "المقدّس"
+
+msgid "Holyoke"
+msgstr "هوليوك"
+
+msgid "Holystone"
+msgstr "حجر الخفان"
+
+msgid "Holystones"
+msgstr "أحجار الخفان"
+
+msgid "Holzman"
+msgstr "هولزمان"
+
+msgid "Hom"
+msgstr "من نفس الصنف"
+
+msgid "Homage"
+msgstr "الولاء"
+
+msgid "Homaged"
+msgstr "أثنى"
+
+msgid "Homager"
+msgstr "مقدِّم الثناء"
+
+msgid "Homages"
+msgstr "الولاء"
+
+msgid "Homaging"
+msgstr "الثّناء"
+
+msgid "Home"
+msgstr "البيت"
+
+msgid "Home-baked"
+msgstr "مخبوز بيتي"
+
+msgid "Homebound"
+msgstr "محصور في البيت"
+
+msgid "Homebred"
+msgstr "وطني"
+
+msgid "Homebrew"
+msgstr "البيرة المحلّيّة"
+
+msgid "Homebuilder"
+msgstr "البنّاء"
+
+msgid "Homebuilders"
+msgstr "البنّاءون"
+
+msgid "Homebuilding"
+msgstr "بناء المنازل"
+
+msgid "Homebuilt"
+msgstr "محلّيّ الصّنع"
+
+msgid "Homecoming"
+msgstr "العودة للوطن"
+
+msgid "Homecomings"
+msgstr "العودة للوطن"
+
+msgid "Homed"
+msgstr "هوميد"
+
+msgid "Homeland"
+msgstr "الوطن"
+
+msgid "Homeless"
+msgstr "المشرّد"
+
+msgid "Homelessly"
+msgstr "بشكل مشرّد"
+
+msgid "Homelessness"
+msgstr "التشرّد"
+
+msgid "Homelier"
+msgstr "بيتي"
+
+msgid "Homelike"
+msgstr "مريح"
+
+msgid "Homeliness"
+msgstr "البساطة"
+
+msgid "Homely"
+msgstr "بيتي"
+
+msgid "Homemade"
+msgstr "محلي الصنع"
+
+msgid "Homemaker"
+msgstr "ربّة البيت"
+
+msgid "Homemakers"
+msgstr "ربّات البيت"
+
+msgid "Homemaking"
+msgstr "تدبير المنزل"
+
+msgid "Homeomorphism"
+msgstr "التّشابه"
+
+msgid "Homeomorphisms"
+msgstr "التّشابهات"
+
+msgid "Homeopath"
+msgstr "الطبيب المثلي"
+
+msgid "Homeopathic"
+msgstr "بالمثل"
+
+msgid "Homeopaths"
+msgstr "الطبيب المثلي"
+
+msgid "Homeopathy"
+msgstr "المعالجة المثليّة"
+
+msgid "Homeostasis"
+msgstr "التوازن"
+
+msgid "Homeowner"
+msgstr "صاحب البيت"
+
+msgid "Homeowners"
+msgstr "أصحاب البيوت"
+
+msgid "Homeownership"
+msgstr "ملكيّة المنزل"
+
+msgid "Homepage"
+msgstr "الصفحة الرئيسية"
+
+msgid "Homer"
+msgstr "هوميروس"
+
+msgid "Homeric"
+msgstr "هومري"
+
+msgid "Homers"
+msgstr "الحمام الزاجل"
+
+msgid "Homes"
+msgstr "البيوت"
+
+msgid "Homesick"
+msgstr "الحنين للوطن"
+
+msgid "Homesickness"
+msgstr "الحنين إلى الوطن"
+
+msgid "Homespun"
+msgstr "النسيج البلدي"
+
+msgid "Homestead"
+msgstr "العزبة"
+
+msgid "Homesteader"
+msgstr "المزارع"
+
+msgid "Homesteaders"
+msgstr "المزارعون"
+
+msgid "Homesteads"
+msgstr "المنازل"
+
+msgid "Hometown"
+msgstr "هومتاون"
+
+msgid "Homeward"
+msgstr "بإتجاه البيت"
+
+msgid "Homewards"
+msgstr "بإتجاه البيت"
+
+msgid "Homework"
+msgstr "الواجب البيتي"
+
+msgid "Homeworker"
+msgstr "العامل المنزليّ"
+
+msgid "Homeworks"
+msgstr "الواجبات البيتية"
+
+msgid "Homey"
+msgstr "الزّميل"
+
+msgid "Homicidal"
+msgstr "قاتل"
+
+msgid "Homicidally"
+msgstr "بشكل قاتل"
+
+msgid "Homicide"
+msgstr "القتل"
+
+msgid "Homicides"
+msgstr "حالات القتل"
+
+msgid "Homilies"
+msgstr "المواعظ"
+
+msgid "Homily"
+msgstr "النّصيحة"
+
+msgid "Homing"
+msgstr "التوجيه"
+
+msgid "Hominy"
+msgstr "دقيق الذّرة الصّفراء"
+
+msgid "Homo"
+msgstr "اللّوطيّ"
+
+msgid "Homogamy"
+msgstr "اللواط"
+
+msgid "Homogenate"
+msgstr "الخليط"
+
+msgid "Homogenates"
+msgstr "الخليط"
+
+msgid "Homogeneities"
+msgstr "التجانسات"
+
+msgid "Homogeneity"
+msgstr "التجانس"
+
+msgid "Homogeneous"
+msgstr "متجانس"
+
+msgid "Homogeneously"
+msgstr "بتجانس"
+
+msgid "Homogeneousness"
+msgstr "التجانس"
+
+msgid "Homogenization"
+msgstr "التجانس"
+
+msgid "Homogenizations"
+msgstr "التجانسات"
+
+msgid "Homogenize"
+msgstr "جانس"
+
+msgid "Homogenized"
+msgstr "مجانس"
+
+msgid "Homogenizer"
+msgstr "الخالط"
+
+msgid "Homogenizers"
+msgstr "الخالطون"
+
+msgid "Homogenizes"
+msgstr "يجانس"
+
+msgid "Homogenizing"
+msgstr "المجانسة"
+
+msgid "Homogenous"
+msgstr "متجانس"
+
+msgid "Homologate"
+msgstr "إعترف"
+
+msgid "Homologous"
+msgstr "متشابه"
+
+msgid "Homologue"
+msgstr "المشابه"
+
+msgid "Homology"
+msgstr "التّماثل"
+
+msgid "Homomorphic"
+msgstr "متشابه"
+
+msgid "Homomorphism"
+msgstr "تشابه شكلي"
+
+msgid "Homomorphisms"
+msgstr "تشابهات شكلية"
+
+msgid "Homonym"
+msgstr "اللّفظ المتجانس"
+
+msgid "Homonymic"
+msgstr "متعلق باللّفظ المتجانس"
+
+msgid "Homonyms"
+msgstr "الألفاظ المتجانسة"
+
+msgid "Homophobia"
+msgstr "كراهية الشذوذ الجنسي"
+
+msgid "Homophone"
+msgstr "اللّفظ المتجانس"
+
+msgid "Homos"
+msgstr "اللّوطيّون"
+
+msgid "Homosexual"
+msgstr "شاذّ جنسيا"
+
+msgid "Homosexually"
+msgstr "بشكل شاذّ جنسيا"
+
+msgid "Homosexuals"
+msgstr "الشواذّ جنسيا"
+
+msgid "Homozygous"
+msgstr "متماثل الجينات"
+
+msgid "Homozygously"
+msgstr "بتطابق الجينات"
+
+msgid "Homunculus"
+msgstr "القزم"
+
+msgid "Hon"
+msgstr "المبجّل"
+
+msgid "Honda"
+msgstr "الهوندا"
+
+msgid "Hondo"
+msgstr "هوندو - أكبر جزيرة يابانية"
+
+msgid "Honduras"
+msgstr "هندوراس"
+
+msgid "Hone"
+msgstr "حجر الجلخ"
+
+msgid "Honed"
+msgstr "مشحوذ"
+
+msgid "Honer"
+msgstr "هونر"
+
+msgid "Hones"
+msgstr "أحجار الجلخ"
+
+msgid "Honest"
+msgstr "صادق"
+
+msgid "Honestly"
+msgstr "بأمانة"
+
+msgid "Honesty"
+msgstr "الأمانة"
+
+msgid "Honey"
+msgstr "العسل"
+
+msgid "Honeybee"
+msgstr "النّحل"
+
+msgid "Honeybees"
+msgstr "النّحل"
+
+msgid "Honeycomb"
+msgstr "قرص العسل"
+
+msgid "Honeycombed"
+msgstr "مليء"
+
+msgid "Honeycombs"
+msgstr "أقراص العسل"
+
+msgid "Honeydew"
+msgstr "المنّ"
+
+msgid "Honeyed"
+msgstr "معسّل"
+
+msgid "Honeying"
+msgstr "يلاطف"
+
+msgid "Honeymoon"
+msgstr "شهر العسل"
+
+msgid "Honeymooned"
+msgstr "مقضي شهر العسل"
+
+msgid "Honeymooner"
+msgstr "العريس"
+
+msgid "Honeymooners"
+msgstr "العرسان"
+
+msgid "Honeymooning"
+msgstr "قضاء شهر العسل"
+
+msgid "Honeymoons"
+msgstr "يقضي شهر العسل"
+
+msgid "Honeys"
+msgstr "العسل"
+
+msgid "Honeysuckle"
+msgstr "زهر العسل"
+
+msgid "Honeywell"
+msgstr "هونييويل - شركة متعدّدة الجنسيّات أمريكيّة الأصل"
+
+msgid "Hong"
+msgstr "هونج"
+
+msgid "Honing"
+msgstr "الشحذ"
+
+msgid "Honk"
+msgstr "التزمير"
+
+msgid "Honked"
+msgstr "زمّر"
+
+msgid "Honker"
+msgstr "الصيّاح"
+
+msgid "Honkies"
+msgstr "الرّجال البيض"
+
+msgid "Honking"
+msgstr "التزمير"
+
+msgid "Honks"
+msgstr "يزمّر"
+
+msgid "Honky"
+msgstr "الرّجل الأبيض"
+
+msgid "Honky-Tonk"
+msgstr "هونكي-تونك"
+
+msgid "Honolulu"
+msgstr "هونولولو"
+
+msgid "Honor"
+msgstr "الشرف"
+
+msgid "Honorable"
+msgstr "الفخامة"
+
+msgid "Honorableness"
+msgstr "الوقار"
+
+msgid "Honorables"
+msgstr "الفخامة"
+
+msgid "Honorably"
+msgstr "بشكل مشرّف"
+
+msgid "Honoraria"
+msgstr "المكافآت"
+
+msgid "Honorarium"
+msgstr "الأتعاب"
+
+msgid "Honorary"
+msgstr "فخري"
+
+msgid "Honored"
+msgstr "مشرّف"
+
+msgid "Honoree"
+msgstr "مكرَّم"
+
+msgid "Honorer"
+msgstr "المكرِّم"
+
+msgid "Honorers"
+msgstr "المكرِّمون"
+
+msgid "Honorific"
+msgstr "عبارات التعظيم"
+
+msgid "Honorifically"
+msgstr "شرفيًّا"
+
+msgid "Honoring"
+msgstr "التشريف"
+
+msgid "Honorless"
+msgstr "بلا شرف"
+
+msgid "Honors"
+msgstr "الشرف"
+
+msgid "Honour"
+msgstr "الشرف"
+
+msgid "Honourable"
+msgstr "الفخامة"
+
+msgid "Honoured"
+msgstr "مشرّف"
+
+msgid "Honouring"
+msgstr "التشريف"
+
+msgid "Honours"
+msgstr "الشرف"
+
+msgid "Honshu"
+msgstr "هونشو"
+
+msgid "Hooch"
+msgstr "المشروبات الروحية"
+
+msgid "Hood"
+msgstr "هود"
+
+msgid "Hooded"
+msgstr "مقنّع"
+
+msgid "Hooding"
+msgstr "التغطية"
+
+msgid "Hoodlum"
+msgstr "الشرير"
+
+msgid "Hoodlums"
+msgstr "الأشرار"
+
+msgid "Hoodoo"
+msgstr "الشؤم"
+
+msgid "Hoodoos"
+msgstr "الشؤم"
+
+msgid "Hoods"
+msgstr "القلنسوات"
+
+msgid "Hoodwink"
+msgstr "يخدع"
+
+msgid "Hoodwinked"
+msgstr "خدع"
+
+msgid "Hoodwinker"
+msgstr "المخادع"
+
+msgid "Hoodwinking"
+msgstr "الخداع"
+
+msgid "Hoodwinks"
+msgstr "يخدع"
+
+msgid "Hooey"
+msgstr "الكلام الفارغ"
+
+msgid "Hoof"
+msgstr "الحافر"
+
+msgid "Hoofbeat"
+msgstr "صوت حافر الحيوان"
+
+msgid "Hoofbeats"
+msgstr "أصوات حوافر الحيوانات"
+
+msgid "Hoofed"
+msgstr "ذو حوافر"
+
+msgid "Hoofer"
+msgstr "هوفر"
+
+msgid "Hoofmark"
+msgstr "أثر الحافر على الأرض"
+
+msgid "Hoofmarks"
+msgstr "أثار الحوافر على الأرض"
+
+msgid "Hoofs"
+msgstr "الحوافر"
+
+msgid "Hook"
+msgstr "الخطّاف"
+
+msgid "Hook-up"
+msgstr "شكّل"
+
+msgid "Hookah"
+msgstr "النرجيلة"
+
+msgid "Hookahs"
+msgstr "النرجيلات"
+
+msgid "Hooked"
+msgstr "معلّق"
+
+msgid "Hookedness"
+msgstr "الإنعقاف"
+
+msgid "Hooker"
+msgstr "هوكير"
+
+msgid "Hookers"
+msgstr "المومسات"
+
+msgid "Hooking"
+msgstr "التعليق"
+
+msgid "Hooks"
+msgstr "الخطّافات"
+
+msgid "Hookup"
+msgstr "هوكوب"
+
+msgid "Hookups"
+msgstr "الإنضمامات"
+
+msgid "Hookworm"
+msgstr "دودة الأنكلستوما"
+
+msgid "Hookworms"
+msgstr "ديدان الأنكلستوما"
+
+msgid "Hooky"
+msgstr "الغياب"
+
+msgid "Hooligan"
+msgstr "المشاغب"
+
+msgid "Hooliganism"
+msgstr "الشغب"
+
+msgid "Hooligans"
+msgstr "المشاغبون"
+
+msgid "Hoop"
+msgstr "الطوق"
+
+msgid "Hooped"
+msgstr "مطوّق"
+
+msgid "Hooper"
+msgstr "هوبير"
+
+msgid "Hooping"
+msgstr "التطويق"
+
+msgid "Hoopla"
+msgstr "الهرج والمرج"
+
+msgid "Hooplas"
+msgstr "الهرج والمرج"
+
+msgid "Hoopoe"
+msgstr "الهدهد"
+
+msgid "Hoopoes"
+msgstr "الهداهد"
+
+msgid "Hoops"
+msgstr "الأطواق"
+
+msgid "Hooray"
+msgstr "الصّيحة"
+
+msgid "Hoorays"
+msgstr "الصّيحات"
+
+msgid "Hoosegow"
+msgstr "السّجن"
+
+msgid "Hoosegows"
+msgstr "السّجون"
+
+msgid "Hoosier"
+msgstr "هوسير - مواطن ولاية إنديانا"
+
+msgid "Hoot"
+msgstr "النعيب"
+
+msgid "Hooted"
+msgstr "مصيح"
+
+msgid "Hootenannies"
+msgstr "الغناء الشعبي"
+
+msgid "Hootenanny"
+msgstr "الغناء الشعبي"
+
+msgid "Hooter"
+msgstr "البوق"
+
+msgid "Hooters"
+msgstr "الأبواق"
+
+msgid "Hooting"
+msgstr "الصيحة"
+
+msgid "Hoots"
+msgstr "العطعطة"
+
+msgid "Hoover"
+msgstr "هوفير"
+
+msgid "Hooves"
+msgstr "الحوافر"
+
+msgid "Hop"
+msgstr "القفزة"
+
+msgid "Hope"
+msgstr "الأمل"
+
+msgid "Hoped"
+msgstr "متمنّى"
+
+msgid "Hopeful"
+msgstr "متفائل"
+
+msgid "Hopefully"
+msgstr "على أمل"
+
+msgid "Hopefulness"
+msgstr "الأمل"
+
+msgid "Hopefuls"
+msgstr "المتفائلون"
+
+msgid "Hopeless"
+msgstr "يائس"
+
+msgid "Hopelessly"
+msgstr "بشكل يائس"
+
+msgid "Hopelessness"
+msgstr "اليأس"
+
+msgid "Hoper"
+msgstr "المتمني"
+
+msgid "Hopes"
+msgstr "الآمال"
+
+msgid "Hopi"
+msgstr "هوبي - اللغة الشوشونية"
+
+msgid "Hoping"
+msgstr "التمنّي"
+
+msgid "Hopkins"
+msgstr "هوبكنز"
+
+msgid "Hopped"
+msgstr "قافز"
+
+msgid "Hopper"
+msgstr "النطاط"
+
+msgid "Hoppers"
+msgstr "النطاطات"
+
+msgid "Hopping"
+msgstr "القفز"
+
+msgid "Hopple"
+msgstr "يربط"
+
+msgid "Hoppled"
+msgstr "ربط، مربوط"
+
+msgid "Hopples"
+msgstr "يربط"
+
+msgid "Hops"
+msgstr "القفزات"
+
+msgid "Hopscotch"
+msgstr "لعبة المربعات"
+
+msgid "Horace"
+msgstr "هوراس"
+
+msgid "Horatio"
+msgstr "هوراشيو"
+
+msgid "Horde"
+msgstr "الحشد"
+
+msgid "Hordes"
+msgstr "الحشود"
+
+msgid "Horehound"
+msgstr "النّعناع"
+
+msgid "Horizon"
+msgstr "الأفق"
+
+msgid "Horizons"
+msgstr "الآفاق"
+
+msgid "Horizontal"
+msgstr "أفقي"
+
+msgid "Horizontally"
+msgstr "أفقيا"
+
+msgid "Hormonal"
+msgstr "هورموني"
+
+msgid "Hormone"
+msgstr "الهورمون"
+
+msgid "Hormones"
+msgstr "الهورمونات"
+
+msgid "Horn"
+msgstr "القرن"
+
+msgid "Hornbeam"
+msgstr "شجرة النّير"
+
+msgid "Hornblende"
+msgstr "الهورنبلند - معدن"
+
+msgid "Hornblower"
+msgstr "نافخ البوق"
+
+msgid "Horned"
+msgstr "مقرّن"
+
+msgid "Hornedness"
+msgstr "متعلق بذوات القرون"
+
+msgid "Hornet"
+msgstr "الدّبّور"
+
+msgid "Hornets"
+msgstr "الزنابير"
+
+msgid "Hornier"
+msgstr "أكثر تقرّنا"
+
+msgid "Horniest"
+msgstr "أكثر تقرّنا"
+
+msgid "Horniness"
+msgstr "القسوة"
+
+msgid "Horns"
+msgstr "القرون"
+
+msgid "Horntail"
+msgstr "الذبابة المنشاريّة"
+
+msgid "Hornwort"
+msgstr "هورنوورت - نبات مائي"
+
+msgid "Horny"
+msgstr "مقرّن"
+
+msgid "Horologe"
+msgstr "السّاعة"
+
+msgid "Horology"
+msgstr "علم قياس الزمن"
+
+msgid "Horoscope"
+msgstr "الطالع"
+
+msgid "Horoscopes"
+msgstr "الطوالع"
+
+msgid "Horowitz"
+msgstr "هورويز"
+
+msgid "Horrendous"
+msgstr "مفزع"
+
+msgid "Horrendously"
+msgstr "بشكل مفزع"
+
+msgid "Horrible"
+msgstr "فظيع"
+
+msgid "Horribleness"
+msgstr "البذاءة"
+
+msgid "Horribly"
+msgstr "بشكل مروّع"
+
+msgid "Horrid"
+msgstr "مروّع"
+
+msgid "Horridly"
+msgstr "ببشاعة"
+
+msgid "Horridness"
+msgstr "البشاعة"
+
+msgid "Horrified"
+msgstr "مذعور"
+
+msgid "Horrifies"
+msgstr "يروّع"
+
+msgid "Horrify"
+msgstr "روّع"
+
+msgid "Horrifying"
+msgstr "الترويع"
+
+msgid "Horrifyingly"
+msgstr "بشكل مرعب"
+
+msgid "Horror"
+msgstr "الرعب"
+
+msgid "Horrors"
+msgstr "الرعب"
+
+msgid "Horse"
+msgstr "الحصان"
+
+msgid "Horseback"
+msgstr "ظهور الخيل"
+
+msgid "Horsed"
+msgstr "زوّد بجواد"
+
+msgid "Horseflesh"
+msgstr "لحم الخيل"
+
+msgid "Horseflies"
+msgstr "ذباب الخيل"
+
+msgid "Horsefly"
+msgstr "ذبابة الخيل"
+
+msgid "Horsehair"
+msgstr "السبّيب"
+
+msgid "Horsely"
+msgstr "هورسيلي"
+
+msgid "Horseman"
+msgstr "الخيال"
+
+msgid "Horsemanship"
+msgstr "الفروسية"
+
+msgid "Horsemen"
+msgstr "الخيالة"
+
+msgid "Horsens"
+msgstr "هورسنز"
+
+msgid "Horseplay"
+msgstr "الخشونة"
+
+msgid "Horseplayer"
+msgstr "الفارس القاسي على الجواد"
+
+msgid "Horsepower"
+msgstr "الحصان"
+
+msgid "Horseradish"
+msgstr "الفجل"
+
+msgid "Horseradishes"
+msgstr "الفجل"
+
+msgid "Horses"
+msgstr "الخيول"
+
+msgid "Horseshoe"
+msgstr "حذوة الحصان"
+
+msgid "Horseshoer"
+msgstr "هورسيشوير"
+
+msgid "Horseshoes"
+msgstr "حذوات الحصن"
+
+msgid "Horsetail"
+msgstr "ذيل الحصان"
+
+msgid "Horsewhip"
+msgstr "السوط"
+
+msgid "Horsewoman"
+msgstr "الفارسة"
+
+msgid "Horsewomen"
+msgstr "الفارسات"
+
+msgid "Horsing"
+msgstr "التزويد بحصان"
+
+msgid "Hortative"
+msgstr "تشجيعي"
+
+msgid "Hortatory"
+msgstr "تشجيعي"
+
+msgid "Horticultural"
+msgstr "بستاني"
+
+msgid "Horticulturally"
+msgstr "بشكل بستاني"
+
+msgid "Horticulture"
+msgstr "البستنة"
+
+msgid "Horticulturist"
+msgstr "البستاني"
+
+msgid "Horton"
+msgstr "هورتن"
+
+msgid "Horus"
+msgstr "حورس - إله الشمس"
+
+msgid "Hose"
+msgstr "الخرطوم"
+
+msgid "Hosed"
+msgstr "مسقي"
+
+msgid "Hoses"
+msgstr "الخراطيم"
+
+msgid "Hosiery"
+msgstr "الجوارب"
+
+msgid "Hosing"
+msgstr "السقاية"
+
+msgid "Hospice"
+msgstr "دار العجزة"
+
+msgid "Hospices"
+msgstr "دور العجزة"
+
+msgid "Hospitable"
+msgstr "مضياف"
+
+msgid "Hospitableness"
+msgstr "الضيافة"
+
+msgid "Hospitably"
+msgstr "ضيافيا"
+
+msgid "Hospital"
+msgstr "المستشفى"
+
+msgid "Hospitality"
+msgstr "الكرم"
+
+msgid "Hospitalization"
+msgstr "العلاج بالمستشفى"
+
+msgid "Hospitalizations"
+msgstr "العلاج بالمستشفى"
+
+msgid "Hospitalize"
+msgstr "أدخل المستشفى"
+
+msgid "Hospitalized"
+msgstr "مدخل المستشفى"
+
+msgid "Hospitalizes"
+msgstr "يدخل المستشفى"
+
+msgid "Hospitalizing"
+msgstr "إدخال المستشفى"
+
+msgid "Hospitals"
+msgstr "المستشفيات"
+
+msgid "Host"
+msgstr "المضيّف"
+
+msgid "Hostage"
+msgstr "الرهينة"
+
+msgid "Hostages"
+msgstr "الرهائن"
+
+msgid "HostDomain"
+msgstr "النطاقالمضيف"
+
+msgid "Hosted"
+msgstr "مستضاف"
+
+msgid "Hostel"
+msgstr "الفندق"
+
+msgid "Hostelries"
+msgstr "الخانات"
+
+msgid "Hostelry"
+msgstr "الخان"
+
+msgid "Hostels"
+msgstr "الفنادق"
+
+msgid "Hostess"
+msgstr "المضيّفة"
+
+msgid "Hostesses"
+msgstr "المضيّفات"
+
+msgid "Hostile"
+msgstr "معادي"
+
+msgid "Hostilely"
+msgstr "بشكل معادي"
+
+msgid "Hostilities"
+msgstr "العداوات"
+
+msgid "Hostility"
+msgstr "العداوة"
+
+msgid "Hosting"
+msgstr "الإستضافة"
+
+msgid "Hostler"
+msgstr "السائس"
+
+msgid "Hostlers"
+msgstr "السياس"
+
+msgid "Hostly"
+msgstr "بترحيب"
+
+msgid "Hostname"
+msgstr "اسم المضيّف"
+
+msgid "HOSTNAMEPORT"
+msgstr "اسم المضيفالبوابة"
+
+msgid "Hosts"
+msgstr "المضيّفون"
+
+msgid "HostUser"
+msgstr "مستضيفمستخدم"
+
+msgid "Hot"
+msgstr "حار"
+
+msgid "Hot-dipped"
+msgstr "الحار المنخفض"
+
+msgid "Hotbed"
+msgstr "المستنبت"
+
+msgid "Hotbox"
+msgstr "محور السيارة عندما ترتفع حرارته"
+
+msgid "Hotdogs"
+msgstr "المقانق المقلية"
+
+msgid "Hotel"
+msgstr "الفندق"
+
+msgid "Hotelier"
+msgstr "مدير الفندق"
+
+msgid "Hotelman"
+msgstr "مدير الفندق"
+
+msgid "Hotels"
+msgstr "الفنادق"
+
+msgid "Hotfoot"
+msgstr "استعجل"
+
+msgid "Hothead"
+msgstr "المتهور"
+
+msgid "Hotheaded"
+msgstr "متهوّر"
+
+msgid "Hotheadedly"
+msgstr "بتهوّر"
+
+msgid "Hotheadedness"
+msgstr "التهوّر"
+
+msgid "Hotheads"
+msgstr "المتهورون"
+
+msgid "Hothouse"
+msgstr "المستدفأ الإستنباتي"
+
+msgid "Hotkey"
+msgstr "المفتاح الذي يُبَرْمَج على أن يؤدّي سلسلةً من الخطوات"
+
+msgid "Hotlist"
+msgstr "القائمة السريعة"
+
+msgid "Hotly"
+msgstr "بشكل حار"
+
+msgid "Hotness"
+msgstr "الحرارة"
+
+msgid "Hotrod"
+msgstr "السّيّارة المعدّلة"
+
+msgid "Hotshot"
+msgstr "العامل البارع"
+
+msgid "Hotspur"
+msgstr "عنيف"
+
+msgid "Hottentot"
+msgstr "أسمر"
+
+msgid "Hotter"
+msgstr "أحرّ"
+
+msgid "Hottest"
+msgstr "أحرّ"
+
+msgid "Houdaille"
+msgstr "هوديل"
+
+msgid "Houdini"
+msgstr "هودني"
+
+msgid "Hough"
+msgstr "هوغ"
+
+msgid "Houghton"
+msgstr "هوغتون"
+
+msgid "Hound"
+msgstr "كلب الصيد"
+
+msgid "Hounded"
+msgstr "مطارد"
+
+msgid "Hounder"
+msgstr "الملاحِق"
+
+msgid "Hounding"
+msgstr "المطاردة"
+
+msgid "Hounds"
+msgstr "كلاب الصيد"
+
+msgid "Hour"
+msgstr "الساعة"
+
+msgid "Hourglass"
+msgstr "السّاعة الرّمليّة"
+
+msgid "Hourglasses"
+msgstr "السّاعات الرّمليّة"
+
+msgid "Hourly"
+msgstr "كل ساعة"
+
+msgid "Hourr"
+msgstr "هور"
+
+msgid "Hours"
+msgstr "الساعات"
+
+msgid "House"
+msgstr "المنزل"
+
+msgid "Houseboat"
+msgstr "المركب"
+
+msgid "Houseboats"
+msgstr "المراكب"
+
+msgid "Housebreak"
+msgstr "روّض"
+
+msgid "Housebreaker"
+msgstr "اللّصّ"
+
+msgid "Housebreakers"
+msgstr "اللّصّوص"
+
+msgid "Housebreaking"
+msgstr "التّرويض"
+
+msgid "Housebreakings"
+msgstr "سرقات المنازل"
+
+msgid "Housebroken"
+msgstr "أليف"
+
+msgid "Housecoat"
+msgstr "الرّوب"
+
+msgid "Housed"
+msgstr "مسكن"
+
+msgid "Houseflies"
+msgstr "الذّباب"
+
+msgid "Housefly"
+msgstr "الذّبابة"
+
+msgid "Household"
+msgstr "العائلة"
+
+msgid "Householder"
+msgstr "المستأجر"
+
+msgid "Householders"
+msgstr "المستأجرون"
+
+msgid "Households"
+msgstr "العوائل"
+
+msgid "Housekeep"
+msgstr "يدير المنزل"
+
+msgid "Housekeeper"
+msgstr "مدبرة المنزل"
+
+msgid "Housekeepers"
+msgstr "مدبرات المنزل"
+
+msgid "Housekeeping"
+msgstr "التدبير المنزلي"
+
+msgid "Housemaid"
+msgstr "الخادمة"
+
+msgid "Houser"
+msgstr "المشرف على مشاريع الإسكان"
+
+msgid "Houses"
+msgstr "البيوت"
+
+msgid "Housetop"
+msgstr "سطح المنزل"
+
+msgid "Housetops"
+msgstr "أسطح المنازل"
+
+msgid "Housewares"
+msgstr "أدوات المطبخ"
+
+msgid "Housewife"
+msgstr "ربّة البيت"
+
+msgid "Housewifeliness"
+msgstr "متعلق بربّة البيت"
+
+msgid "Housewifely"
+msgstr "متعلق بربّة البيت"
+
+msgid "Housewives"
+msgstr "ربّات البيوت"
+
+msgid "Housework"
+msgstr "الشغل المنزلي"
+
+msgid "Houseworker"
+msgstr "الخادم"
+
+msgid "Houseworkers"
+msgstr "الخدم"
+
+msgid "Housing"
+msgstr "الإسكان"
+
+msgid "Housings"
+msgstr "المقرّات"
+
+msgid "Houston"
+msgstr "هيوستن"
+
+msgid "Hove"
+msgstr "إنتفخ"
+
+msgid "Hovel"
+msgstr "الكوخ"
+
+msgid "Hovels"
+msgstr "الأكواخ"
+
+msgid "Hover"
+msgstr "حم"
+
+msgid "Hovercraft"
+msgstr "الحوامة"
+
+msgid "Hovered"
+msgstr "حائم"
+
+msgid "Hoverer"
+msgstr "المحلّق"
+
+msgid "Hovering"
+msgstr "الحوم"
+
+msgid "Hovers"
+msgstr "يحوم"
+
+msgid "How"
+msgstr "كيف"
+
+msgid "Howard"
+msgstr "هاوارد"
+
+msgid "Howbeit"
+msgstr "مع ذلك"
+
+msgid "Howdy"
+msgstr "مرحبًا"
+
+msgid "Howe"
+msgstr "هو"
+
+msgid "Howell"
+msgstr "هاويل"
+
+msgid "However"
+msgstr "على أية حال"
+
+msgid "Howitzer"
+msgstr "الهاون"
+
+msgid "Howl"
+msgstr "العواء"
+
+msgid "Howled"
+msgstr "معوي"
+
+msgid "Howler"
+msgstr "الغلطة الفاحشة"
+
+msgid "Howling"
+msgstr "العواء"
+
+msgid "Howls"
+msgstr "يعوي"
+
+msgid "Hows"
+msgstr "هاوس"
+
+msgid "Howsoever"
+msgstr "مع ذلك"
+
+msgid "Hoy"
+msgstr "السّفينة"
+
+msgid "Hoyden"
+msgstr "الفتاة الصاخبة"
+
+msgid "Hoydenish"
+msgstr "مستهتر"
+
+msgid "Hoyt"
+msgstr "هويت"
+
+msgid "HP"
+msgstr "شركه هولت باكرد"
+
+msgid "Hrothgar"
+msgstr "هروثجار"
+
+msgid "Hrs"
+msgstr "الساعات"
+
+msgid "Html"
+msgstr "اللغة المستعملة في بناء وثائق النّصّ المتشعّب أو المتصفّحات وتسمى الويب"
+
+msgid "Http"
+msgstr "بروتوكول انتقال النّصّ المتشعّب"
+
+msgid "Hub"
+msgstr "المحور"
+
+msgid "Hubbard"
+msgstr "هوبارد"
+
+msgid "Hubbell"
+msgstr "هوبيل"
+
+msgid "Hubbies"
+msgstr "الأزواج"
+
+msgid "Hubble"
+msgstr "هبل"
+
+msgid "Hubbub"
+msgstr "الضجيج"
+
+msgid "Hubby"
+msgstr "الزوج"
+
+msgid "Hubcap"
+msgstr "غطاء إطار السيارة"
+
+msgid "Huber"
+msgstr "هوبير"
+
+msgid "Hubert"
+msgstr "هيوبرت"
+
+msgid "Hubris"
+msgstr "الكبرياء"
+
+msgid "Hubristic"
+msgstr "إستعلائي"
+
+msgid "Hubs"
+msgstr "المحاور"
+
+msgid "Huck"
+msgstr "القطن الخشن أو قماش الكتّان"
+
+msgid "Huckleberries"
+msgstr "التّوت"
+
+msgid "Huckleberry"
+msgstr "التّوت"
+
+msgid "Huckster"
+msgstr "البائع المتجول"
+
+msgid "Huckstered"
+msgstr "مساوم"
+
+msgid "Huckstering"
+msgstr "المساومة"
+
+msgid "Hucksters"
+msgstr "الباعة المتجولون"
+
+msgid "Huddle"
+msgstr "التلملم"
+
+msgid "Huddled"
+msgstr "مكوّم"
+
+msgid "Huddler"
+msgstr "المزاحم"
+
+msgid "Huddles"
+msgstr "التلملم"
+
+msgid "Huddling"
+msgstr "التكويم"
+
+msgid "Hudson"
+msgstr "هودسون"
+
+msgid "Hue"
+msgstr "الشكل"
+
+msgid "Hued"
+msgstr "ملوّن"
+
+msgid "Hues"
+msgstr "الأشكال"
+
+msgid "Huey"
+msgstr "هيوي"
+
+msgid "Huff"
+msgstr "التكشير"
+
+msgid "Huffed"
+msgstr "منفوخ"
+
+msgid "Huffily"
+msgstr "بشكل غاضب"
+
+msgid "Huffiness"
+msgstr "المزاج السيّئ"
+
+msgid "Huffing"
+msgstr "النفخ"
+
+msgid "Huffish"
+msgstr "غاضب"
+
+msgid "Huffishly"
+msgstr "بشكل غاضب"
+
+msgid "Huffishness"
+msgstr "الضّيق"
+
+msgid "Huffman"
+msgstr "هوفمان"
+
+msgid "Huffs"
+msgstr "التكشيرات"
+
+msgid "Huffy"
+msgstr "غاضب"
+
+msgid "Hug"
+msgstr "الحضنة"
+
+msgid "Huge"
+msgstr "ضخم"
+
+msgid "Hugely"
+msgstr "إلى حدّ كبير جدا"
+
+msgid "Hugeness"
+msgstr "الضخامة"
+
+msgid "Huger"
+msgstr "أضخم"
+
+msgid "Hugest"
+msgstr "أضخم"
+
+msgid "Hugged"
+msgstr "معانق"
+
+msgid "Huggermugger"
+msgstr "سرًّا"
+
+msgid "Hugging"
+msgstr "المعانقة"
+
+msgid "Huggins"
+msgstr "هجينجز"
+
+msgid "Hugh"
+msgstr "هيو"
+
+msgid "Hughes"
+msgstr "هيوز"
+
+msgid "Hugo"
+msgstr "هيوجو"
+
+msgid "Hugs"
+msgstr "الحضنات"
+
+msgid "Hugu"
+msgstr "هوجو"
+
+msgid "Huguenot"
+msgstr "هاجينوت"
+
+msgid "Huguenots"
+msgstr "المسيحيّون الفرنسيّون"
+
+msgid "Huh"
+msgstr "هاه - للتّعبير عن الاستجواب"
+
+msgid "Hulk"
+msgstr "الهيكل"
+
+msgid "Hulked"
+msgstr "تحرّك بتثاقل"
+
+msgid "Hulking"
+msgstr "ضخم"
+
+msgid "Hulks"
+msgstr "الهياكل"
+
+msgid "Hull"
+msgstr "الهيكل"
+
+msgid "Hulled"
+msgstr "مقشّر"
+
+msgid "Huller"
+msgstr "مزيل البزر من الثمار"
+
+msgid "Hulling"
+msgstr "التقشير"
+
+msgid "Hulls"
+msgstr "الهياكل"
+
+msgid "Hum"
+msgstr "الدندنة"
+
+msgid "Human"
+msgstr "الإنسان"
+
+msgid "Humane"
+msgstr "إنساني"
+
+msgid "Humanely"
+msgstr "إنسانيا"
+
+msgid "Humaneness"
+msgstr "الإنسانية"
+
+msgid "Humanism"
+msgstr "الإنسانية"
+
+msgid "Humanist"
+msgstr "إنساني"
+
+msgid "Humanistic"
+msgstr "إنساني"
+
+msgid "Humanistically"
+msgstr "بصورة إنسانية"
+
+msgid "Humanists"
+msgstr "الإنسانيّون"
+
+msgid "Humanitarian"
+msgstr "إنساني"
+
+msgid "Humanitarianism"
+msgstr "الإنسانية"
+
+msgid "Humanitarians"
+msgstr "المحسنون"
+
+msgid "Humanities"
+msgstr "العلوم الانسانية"
+
+msgid "Humanity"
+msgstr "الإنسانية"
+
+msgid "Humanize"
+msgstr "أنّس"
+
+msgid "Humanized"
+msgstr "إنساني"
+
+msgid "Humanizer"
+msgstr "المُطَعِّم بالإنسانية"
+
+msgid "Humanizers"
+msgstr "المُطَعِّمون بالإنسانية"
+
+msgid "Humanizes"
+msgstr "يؤنّس"
+
+msgid "Humanizing"
+msgstr "التأنيس"
+
+msgid "Humankind"
+msgstr "البشر"
+
+msgid "Humanly"
+msgstr "إنسانيا"
+
+msgid "Humanness"
+msgstr "الإنسانية"
+
+msgid "Humanoid"
+msgstr "له مواصفات البشر"
+
+msgid "Humans"
+msgstr "البشر"
+
+msgid "Humble"
+msgstr "متواضع"
+
+msgid "Humbled"
+msgstr "مذلّ"
+
+msgid "Humbleness"
+msgstr "الوضاعة"
+
+msgid "Humbler"
+msgstr "متواضع"
+
+msgid "Humbles"
+msgstr "يذلّ"
+
+msgid "Humblest"
+msgstr "متواضع"
+
+msgid "Humbling"
+msgstr "الإذلال"
+
+msgid "Humbly"
+msgstr "بتواضع"
+
+msgid "Humboldt"
+msgstr "هومبولدت"
+
+msgid "Humbugged"
+msgstr "مخدوع"
+
+msgid "Humbugging"
+msgstr "الخدع"
+
+msgid "Humbugs"
+msgstr "الخدع"
+
+msgid "Humdinger"
+msgstr "الإستثنائي"
+
+msgid "Humdingers"
+msgstr "الإستثنائيون"
+
+msgid "Humdrum"
+msgstr "مملّ"
+
+msgid "Hume"
+msgstr "هيوم"
+
+msgid "Humeral"
+msgstr "عضدي"
+
+msgid "Humerus"
+msgstr "عظم العضد"
+
+msgid "Humid"
+msgstr "رطب"
+
+msgid "Humidification"
+msgstr "الترطيب"
+
+msgid "Humidifications"
+msgstr "الترطيب"
+
+msgid "Humidified"
+msgstr "مرطّب"
+
+msgid "Humidifier"
+msgstr "المرطّب"
+
+msgid "Humidifiers"
+msgstr "المرطّبون"
+
+msgid "Humidifies"
+msgstr "يرطّب"
+
+msgid "Humidify"
+msgstr "رطّب"
+
+msgid "Humidifying"
+msgstr "الترطيب"
+
+msgid "Humidistat"
+msgstr "جهاز قياس نسبة الرطوبة"
+
+msgid "Humidity"
+msgstr "الرطوبة"
+
+msgid "Humidly"
+msgstr "بشكل رطب"
+
+msgid "Humiliate"
+msgstr "أذلل"
+
+msgid "Humiliated"
+msgstr "مذلّ"
+
+msgid "Humiliates"
+msgstr "يذلّ"
+
+msgid "Humiliating"
+msgstr "الإذلال"
+
+msgid "Humiliatingly"
+msgstr "بإذلال"
+
+msgid "Humiliation"
+msgstr "الإذلال"
+
+msgid "Humiliations"
+msgstr "الإذلال"
+
+msgid "Humility"
+msgstr "الإذلال"
+
+msgid "Hummed"
+msgstr "مهمهم"
+
+msgid "Hummel"
+msgstr "بلا قرون"
+
+msgid "Humming"
+msgstr "الهمهمة"
+
+msgid "Hummingbird"
+msgstr "الطائر الطنّان"
+
+msgid "Hummingbirds"
+msgstr "الطيور الطنّانة"
+
+msgid "Hummock"
+msgstr "الربوة"
+
+msgid "Hummocks"
+msgstr "الروابي"
+
+msgid "Humor"
+msgstr "المرح"
+
+msgid "Humored"
+msgstr "ملاطف"
+
+msgid "Humoring"
+msgstr "الملاطفة"
+
+msgid "Humorist"
+msgstr "الفكاهي"
+
+msgid "Humorists"
+msgstr "الفكاهيون"
+
+msgid "Humorous"
+msgstr "مضحك"
+
+msgid "Humorously"
+msgstr "بظرافة"
+
+msgid "Humorousness"
+msgstr "الفكاهة"
+
+msgid "Humors"
+msgstr "المزاجات"
+
+msgid "Humour"
+msgstr "المرح"
+
+msgid "Humoured"
+msgstr "ملاطف"
+
+msgid "Humouredly"
+msgstr "بشكل ظريف"
+
+msgid "Hump"
+msgstr "الحدبة"
+
+msgid "Humpback"
+msgstr "الأحدب"
+
+msgid "Humpbacked"
+msgstr "أحدب"
+
+msgid "Humpbacks"
+msgstr "الحدب"
+
+msgid "Humped"
+msgstr "محدّب"
+
+msgid "Humphrey"
+msgstr "همفري"
+
+msgid "Humphreys"
+msgstr "همفرييس"
+
+msgid "Humping"
+msgstr "التحديب"
+
+msgid "Humps"
+msgstr "الحدب"
+
+msgid "Humpty"
+msgstr "متضايق"
+
+msgid "Hums"
+msgstr "الدندنات"
+
+msgid "Humus"
+msgstr "الدبال"
+
+msgid "Hun"
+msgstr "هان"
+
+msgid "Hunch"
+msgstr "الحدبة"
+
+msgid "Hunchback"
+msgstr "الأحدب"
+
+msgid "Hunchbacked"
+msgstr "أحدب"
+
+msgid "Hunchbacks"
+msgstr "الحدب"
+
+msgid "Hunched"
+msgstr "متحدّب"
+
+msgid "Hunches"
+msgstr "الحدب"
+
+msgid "Hundred"
+msgstr "مائة"
+
+msgid "Hundredfold"
+msgstr "مئة ضعف"
+
+msgid "Hundreds"
+msgstr "المئات"
+
+msgid "Hundredth"
+msgstr "مائة"
+
+msgid "Hundredths"
+msgstr "المئات"
+
+msgid "Hung"
+msgstr "معلّق"
+
+msgid "Hungarian"
+msgstr "الهنغاري"
+
+msgid "Hungary"
+msgstr "هنغاريا"
+
+msgid "Hunger"
+msgstr "الجوع"
+
+msgid "Hungered"
+msgstr "مجاع"
+
+msgid "Hungering"
+msgstr "الجوع"
+
+msgid "Hungers"
+msgstr "يجوع"
+
+msgid "Hungrier"
+msgstr "أكثر جوعا"
+
+msgid "Hungriest"
+msgstr "أكثر جوعا"
+
+msgid "Hungrily"
+msgstr "بجوع"
+
+msgid "Hungriness"
+msgstr "الجوع"
+
+msgid "Hungry"
+msgstr "جائع"
+
+msgid "Hunk"
+msgstr "الكتلة"
+
+msgid "Hunker"
+msgstr "المركِّع"
+
+msgid "Hunkered"
+msgstr "جلس"
+
+msgid "Hunkering"
+msgstr "الجلوس"
+
+msgid "Hunkers"
+msgstr "الورك"
+
+msgid "Hunks"
+msgstr "الكتل"
+
+msgid "Hunt"
+msgstr "الصيد"
+
+msgid "Hunted"
+msgstr "مطارد"
+
+msgid "Hunter"
+msgstr "هنتر"
+
+msgid "Hunters"
+msgstr "الصيّادون"
+
+msgid "Hunting"
+msgstr "الصيد"
+
+msgid "Huntings"
+msgstr "الصيد"
+
+msgid "Huntington"
+msgstr "هانتينجتن"
+
+msgid "Huntley"
+msgstr "هانتلي"
+
+msgid "Huntress"
+msgstr "الصيّادة"
+
+msgid "Hunts"
+msgstr "يطارد"
+
+msgid "Huntsman"
+msgstr "الصيّاد"
+
+msgid "Huntsville"
+msgstr "هانتسفيل"
+
+msgid "Hurd"
+msgstr "هيرد"
+
+msgid "Hurdle"
+msgstr "المانع"
+
+msgid "Hurdled"
+msgstr "مسيّج"
+
+msgid "Hurdler"
+msgstr "قافز الموانع"
+
+msgid "Hurdles"
+msgstr "الموانع"
+
+msgid "Hurdling"
+msgstr "التسييج"
+
+msgid "Hurl"
+msgstr "إقذف"
+
+msgid "Hurled"
+msgstr "مقذوف"
+
+msgid "Hurler"
+msgstr "الرّامي"
+
+msgid "Hurlers"
+msgstr "الرّماة"
+
+msgid "Hurley"
+msgstr "هورلي"
+
+msgid "Hurling"
+msgstr "القذف"
+
+msgid "Hurls"
+msgstr "يقذف"
+
+msgid "Huron"
+msgstr "هيرن"
+
+msgid "Hurrah"
+msgstr "هلّل"
+
+msgid "Hurray"
+msgstr "هلّل"
+
+msgid "Hurrays"
+msgstr "تهاليل"
+
+msgid "Hurricane"
+msgstr "الإعصار"
+
+msgid "Hurricanes"
+msgstr "الأعاصير"
+
+msgid "Hurried"
+msgstr "معجّل"
+
+msgid "Hurriedly"
+msgstr "بعجالة"
+
+msgid "Hurriedness"
+msgstr "العجالة"
+
+msgid "Hurrier"
+msgstr "أكثر عُجالة"
+
+msgid "Hurries"
+msgstr "يعجّل"
+
+msgid "Hurry"
+msgstr "العجلة"
+
+msgid "Hurrying"
+msgstr "التعجيل"
+
+msgid "Hurryingly"
+msgstr "بعجالة"
+
+msgid "Hurst"
+msgstr "هورست"
+
+msgid "Hurt"
+msgstr "الأذى"
+
+msgid "Hurter"
+msgstr "أكثر إصابة"
+
+msgid "Hurtful"
+msgstr "موجع"
+
+msgid "Hurtfully"
+msgstr "بألم"
+
+msgid "Hurtfulness"
+msgstr "الإيذاء"
+
+msgid "Hurting"
+msgstr "الإيذاء"
+
+msgid "Hurtle"
+msgstr "إندفع"
+
+msgid "Hurtled"
+msgstr "مندفع"
+
+msgid "Hurtles"
+msgstr "يندفع"
+
+msgid "Hurtling"
+msgstr "الإندفاع"
+
+msgid "Hurts"
+msgstr "يآذي"
+
+msgid "Hurwitz"
+msgstr "هرويتز"
+
+msgid "Husband"
+msgstr "الزوج"
+
+msgid "Husbandly"
+msgstr "إقتصادي"
+
+msgid "Husbandman"
+msgstr "الفلاح"
+
+msgid "Husbandmen"
+msgstr "الفلاحون"
+
+msgid "Husbandry"
+msgstr "الفلاحة"
+
+msgid "Husbands"
+msgstr "الأزواج"
+
+msgid "Hush"
+msgstr "الصمت"
+
+msgid "Hushed"
+msgstr "خافت"
+
+msgid "Hushes"
+msgstr "يسكت"
+
+msgid "Hushing"
+msgstr "الإسكات"
+
+msgid "Husk"
+msgstr "القشة"
+
+msgid "Husked"
+msgstr "قشّر"
+
+msgid "Husker"
+msgstr "المقشّر"
+
+msgid "Huskers"
+msgstr "المقشّرون"
+
+msgid "Huskier"
+msgstr "أجشّ"
+
+msgid "Huskies"
+msgstr "أقوياء البنية"
+
+msgid "Huskiest"
+msgstr "أجشّ"
+
+msgid "Huskily"
+msgstr "قشريا"
+
+msgid "Huskiness"
+msgstr "الخشونة"
+
+msgid "Husking"
+msgstr "التّقشير"
+
+msgid "Husks"
+msgstr "القشّ"
+
+msgid "Husky"
+msgstr "كلب الأسكيمو"
+
+msgid "Hussar"
+msgstr "الخيّال"
+
+msgid "Hussies"
+msgstr "البنات الوقحات"
+
+msgid "Hussy"
+msgstr "البنت الوقحة"
+
+msgid "Hustle"
+msgstr "الزحام"
+
+msgid "Hustled"
+msgstr "مدفوع"
+
+msgid "Hustler"
+msgstr "المزاحم"
+
+msgid "Hustlers"
+msgstr "المزاحمون"
+
+msgid "Hustles"
+msgstr "الزحام"
+
+msgid "Hustling"
+msgstr "الدفع"
+
+msgid "Huston"
+msgstr "هيوستن"
+
+msgid "Hut"
+msgstr "الكوخ"
+
+msgid "Hutch"
+msgstr "القفص"
+
+msgid "Hutches"
+msgstr "الأقفاص"
+
+msgid "Hutchins"
+msgstr "هوتشينس"
+
+msgid "Hutchinson"
+msgstr "هوتشينسون"
+
+msgid "Hutchison"
+msgstr "هوتشيسون"
+
+msgid "Huts"
+msgstr "الأكواخ"
+
+msgid "Huxley"
+msgstr "هوكسلي"
+
+msgid "Huxtable"
+msgstr "هاكستابل"
+
+msgid "Huzzah"
+msgstr "هتاف ابتهاج"
+
+msgid "Huzzahs"
+msgstr "هتاف ابتهاج"
+
+msgid "Hyacinth"
+msgstr "السنبل"
+
+msgid "Hyacinths"
+msgstr "السنبل"
+
+msgid "Hyades"
+msgstr "القلائص"
+
+msgid "Hyaena"
+msgstr "الضّبع"
+
+msgid "Hyaenas"
+msgstr "الضّباع"
+
+msgid "Hyaline"
+msgstr "الهيالين"
+
+msgid "Hyannis"
+msgstr "هيانيس"
+
+msgid "Hybrid"
+msgstr "الهجين"
+
+msgid "Hybridism"
+msgstr "التّهجين"
+
+msgid "Hybridization"
+msgstr "التّهجين"
+
+msgid "Hybridize"
+msgstr "هجّن"
+
+msgid "Hybridized"
+msgstr "مهجّن"
+
+msgid "Hybridizes"
+msgstr "يهجّن"
+
+msgid "Hybridizing"
+msgstr "التهجين"
+
+msgid "Hybrids"
+msgstr "الهجائن"
+
+msgid "Hyde"
+msgstr "هيد"
+
+msgid "Hydra"
+msgstr "الهيدرة"
+
+msgid "Hydrangea"
+msgstr "الكوبيّة - شجيرة"
+
+msgid "Hydrant"
+msgstr "الحنفية"
+
+msgid "Hydrants"
+msgstr "الحنفيات"
+
+msgid "Hydrate"
+msgstr "ميّه"
+
+msgid "Hydrated"
+msgstr "رطب"
+
+msgid "Hydrates"
+msgstr "يميّه"
+
+msgid "Hydrating"
+msgstr "التمييه"
+
+msgid "Hydration"
+msgstr "الترطيب"
+
+msgid "Hydrations"
+msgstr "الترطيب"
+
+msgid "Hydraulic"
+msgstr "هيدروليكي"
+
+msgid "Hydraulical"
+msgstr "هيدروليكي"
+
+msgid "Hydraulically"
+msgstr "هيدروليكيا"
+
+msgid "Hydraulics"
+msgstr "علم الهايدروليكا"
+
+msgid "Hydride"
+msgstr "الهيدريد"
+
+msgid "Hydrides"
+msgstr "الهيدريد"
+
+msgid "Hydro"
+msgstr "المصحة المائية"
+
+msgid "Hydrocarbon"
+msgstr "الهيدروكربون"
+
+msgid "Hydrocarbons"
+msgstr "الهيدروكربون"
+
+msgid "Hydrocele"
+msgstr "القيلة"
+
+msgid "Hydroceles"
+msgstr "القيلات"
+
+msgid "Hydrocephalies"
+msgstr "تضخّم الرأس"
+
+msgid "Hydrocephalus"
+msgstr "تضخّم الرأس"
+
+msgid "Hydrocephaly"
+msgstr "متعلق بتضخّم الرأس"
+
+msgid "Hydrochloric"
+msgstr "حمض الهيدرو كلوريك"
+
+msgid "Hydrochloride"
+msgstr "الهيدروكلوريد"
+
+msgid "Hydrodynamic"
+msgstr "متعلّق بقوّة مائيّة"
+
+msgid "Hydrodynamics"
+msgstr "الهيدروناميكا"
+
+msgid "Hydroelectric"
+msgstr "كهرومائي"
+
+msgid "Hydrofluoric"
+msgstr "متعلق بالهيدروفلورين"
+
+msgid "Hydrofoil"
+msgstr "القارب المزعنف"
+
+msgid "Hydrofoils"
+msgstr "القوارب المزعنفة"
+
+msgid "Hydrogen"
+msgstr "الهيدروجين"
+
+msgid "Hydrogenate"
+msgstr "هدرج"
+
+msgid "Hydrogenated"
+msgstr "مهدرج"
+
+msgid "Hydrogenates"
+msgstr "يهدرج"
+
+msgid "Hydrogenating"
+msgstr "التهدرج"
+
+msgid "Hydrogenation"
+msgstr "الهدرجة"
+
+msgid "Hydrogenous"
+msgstr "هايدروجيني"
+
+msgid "Hydrogens"
+msgstr "الهيدروجين"
+
+msgid "Hydrological"
+msgstr "هيدرولوجيّ"
+
+msgid "Hydrologically"
+msgstr "الهيدرولوجية"
+
+msgid "Hydrology"
+msgstr "دراسة الموارد المائية"
+
+msgid "Hydrolysis"
+msgstr "التميّؤ"
+
+msgid "Hydrolytic"
+msgstr "متحلّل بالماء"
+
+msgid "Hydrolyzed"
+msgstr "تحلّل"
+
+msgid "Hydrometer"
+msgstr "مقياس ثقل السّائل النّوعيّ"
+
+msgid "Hydrometers"
+msgstr "الهيدرومتر"
+
+msgid "Hydronium"
+msgstr "هيدرونيوم"
+
+msgid "Hydropathic"
+msgstr "متعلق بالعلاج بالماء"
+
+msgid "Hydropathies"
+msgstr "العلاج بالماء"
+
+msgid "Hydropathy"
+msgstr "العلاج بالماء"
+
+msgid "Hydrophilic"
+msgstr "قابل للاتّحاد مع الماء"
+
+msgid "Hydrophobia"
+msgstr "داء الكلب"
+
+msgid "Hydrophobic"
+msgstr "مصاب بفوبيا الماء"
+
+msgid "Hydroplane"
+msgstr "الزّلّاقة"
+
+msgid "Hydroplanes"
+msgstr "الزّلّاقات"
+
+msgid "Hydros"
+msgstr "المصحّات المائية"
+
+msgid "Hydrosphere"
+msgstr "المحيط المائيّ"
+
+msgid "Hydrostatic"
+msgstr "متوازن مائيًّا"
+
+msgid "Hydrostatics"
+msgstr "أستاتيكا الموائع"
+
+msgid "Hydrothermal"
+msgstr "خاصّ بالمياه الحارّة"
+
+msgid "Hydrothermally"
+msgstr "خاصّ بالمياه الحارّة"
+
+msgid "Hydrous"
+msgstr "مائيّ"
+
+msgid "Hydroxide"
+msgstr "الهيدروكسيد"
+
+msgid "Hydroxides"
+msgstr "الهيدروكسيد"
+
+msgid "Hydroxy"
+msgstr "هيدروكسيلي"
+
+msgid "Hydroxyl"
+msgstr "هيدروكسيل"
+
+msgid "Hydroxylate"
+msgstr "يدخل عنصر الهيدروكسيل"
+
+msgid "Hydroxylation"
+msgstr "يدخل عنصر الهيدروكسيل"
+
+msgid "Hydroxyls"
+msgstr "الهيدروكسيل"
+
+msgid "Hydroxyzine"
+msgstr "هيدروكسيزاين"
+
+msgid "Hydrus"
+msgstr "هيدرس - نجوم"
+
+msgid "Hyena"
+msgstr "الضبع"
+
+msgid "Hyenas"
+msgstr "الضباع"
+
+msgid "Hygiene"
+msgstr "النظافة"
+
+msgid "Hygienic"
+msgstr "صحّي"
+
+msgid "Hygienically"
+msgstr "صحيا"
+
+msgid "Hygienics"
+msgstr "علم الصّحّة"
+
+msgid "Hygienist"
+msgstr "المساعد الصّحي"
+
+msgid "Hygrometer"
+msgstr "مقياس درجة الرطوبة"
+
+msgid "Hygrometers"
+msgstr "مقياس درجة الرطوبة"
+
+msgid "Hygroscope"
+msgstr "مقياس الرّطوبة"
+
+msgid "Hygroscopic"
+msgstr "متعلق بمقياس الرّطوبة"
+
+msgid "Hygroscopical"
+msgstr "متعلق بمقياس الرّطوبة"
+
+msgid "Hying"
+msgstr "التعجيل"
+
+msgid "Hyman"
+msgstr "هيمان"
+
+msgid "Hymen"
+msgstr "غشاء البكارة"
+
+msgid "Hymens"
+msgstr "أغشية البكارة"
+
+msgid "Hymn"
+msgstr "الترتيلة"
+
+msgid "Hymnal"
+msgstr "كتاب التراتيل"
+
+msgid "Hymnals"
+msgstr "كتب التراتيل"
+
+msgid "Hymning"
+msgstr "التسبيح"
+
+msgid "Hymnody"
+msgstr "إنشاد التّراتيل"
+
+msgid "Hymns"
+msgstr "التراتيل"
+
+msgid "Hype"
+msgstr "الدعاية"
+
+msgid "Hyped"
+msgstr "روّج له"
+
+msgid "Hyper"
+msgstr "جدا"
+
+msgid "Hyperactive"
+msgstr "شديد النشاط"
+
+msgid "Hyperbola"
+msgstr "القطع الزائد"
+
+msgid "Hyperbolas"
+msgstr "القطوع الزائدة"
+
+msgid "Hyperbole"
+msgstr "المبالغة"
+
+msgid "Hyperbolic"
+msgstr "إطنابي"
+
+msgid "Hyperbolical"
+msgstr "إطنابي"
+
+msgid "Hyperbolically"
+msgstr "بشكل إطنابي"
+
+msgid "Hyperboloid"
+msgstr "متعلق بالقطع الزّائد"
+
+msgid "Hyperboloidal"
+msgstr "متعلق بالقطع الزّائد"
+
+msgid "Hypercellularity"
+msgstr "كثرة الخلايا بشكل غير طبيعي"
+
+msgid "Hypercritical"
+msgstr "شديد الانتقاد"
+
+msgid "Hypercritically"
+msgstr "بشكل شديد الانتقاد"
+
+msgid "Hypercube"
+msgstr "مكعّب ذو بُعد رابع"
+
+msgid "Hypercubes"
+msgstr "مكعّبات ذات بُعد رابع"
+
+msgid "Hyperemia"
+msgstr "فرط الدّم"
+
+msgid "Hyperemic"
+msgstr "متعلق بفرط الدّم"
+
+msgid "Hyperfine"
+msgstr "شديد الدقّة"
+
+msgid "Hyperfunction"
+msgstr "عملية كبيرة"
+
+msgid "Hyperfunctions"
+msgstr "عمليات كبيرة"
+
+msgid "Hypergamy"
+msgstr "الزواج من نفس الطبقة أو أعلى"
+
+msgid "Hyperlink"
+msgstr "الوصلة الفائقة"
+
+msgid "Hyperopia"
+msgstr "الإبصار للبعيد أفضل منه للقريب"
+
+msgid "Hyperplasia"
+msgstr "التضخّم الكمّي"
+
+msgid "Hypersensitive"
+msgstr "شديد الحساسية"
+
+msgid "Hypersensitivity"
+msgstr "فرط الحساسية"
+
+msgid "Hypersonic"
+msgstr "فائق سرعة الصّوت"
+
+msgid "Hypertension"
+msgstr "إرتفاع ضغط الدم"
+
+msgid "Hypertensive"
+msgstr "إرتفاع ضغط الدمّ"
+
+msgid "Hypertext"
+msgstr "مادة الإنترنت"
+
+msgid "Hypertrophic"
+msgstr "متعلق بتضخّم بعض أجزاء الجسم"
+
+msgid "Hypertrophied"
+msgstr "تطوّر بإفراط "
+
+msgid "Hypertrophies"
+msgstr "تضخّم في نموّ عضو"
+
+msgid "Hypertrophy"
+msgstr "التضخّم"
+
+msgid "Hypervelocity"
+msgstr "السّرعة المفرطة"
+
+msgid "Hypes"
+msgstr "أعمال الدعاية"
+
+msgid "Hyphen"
+msgstr "الشرطة"
+
+msgid "Hyphenate"
+msgstr "وصّل"
+
+msgid "Hyphenated"
+msgstr "موصّل"
+
+msgid "Hyphenates"
+msgstr "يوصّل"
+
+msgid "Hyphenating"
+msgstr "التوصيل"
+
+msgid "Hyphenation"
+msgstr "التشريط"
+
+msgid "Hyphenations"
+msgstr "التشريط"
+
+msgid "Hyphened"
+msgstr "موصّل"
+
+msgid "Hyphening"
+msgstr "التوصيل"
+
+msgid "Hyphens"
+msgstr "الشرطات"
+
+msgid "Hypnoses"
+msgstr "التناويم المغناطيسية"
+
+msgid "Hypnosis"
+msgstr "التنويم المغناطيسي"
+
+msgid "Hypnotic"
+msgstr "منوّم"
+
+msgid "Hypnotically"
+msgstr "على نحو منوّم مغنطيسيًّا"
+
+msgid "Hypnotics"
+msgstr "المنوّمون"
+
+msgid "Hypnotism"
+msgstr "التنويم المغناطيسي"
+
+msgid "Hypnotisms"
+msgstr "التنويم المغناطيسي"
+
+msgid "Hypnotist"
+msgstr "المنوّم المغناطيسي"
+
+msgid "Hypnotizable"
+msgstr "قابل للتنويم المغناطيسي"
+
+msgid "Hypnotize"
+msgstr "نوّم"
+
+msgid "Hypnotized"
+msgstr "منوّم"
+
+msgid "Hypnotizes"
+msgstr "ينوّم"
+
+msgid "Hypnotizing"
+msgstr "التنويم"
+
+msgid "Hypo"
+msgstr "الهيبوسلفات"
+
+msgid "Hypoactive"
+msgstr "على نحو كسول"
+
+msgid "Hypocellularity"
+msgstr "إمتلاك خلايا قليلة"
+
+msgid "Hypochlorite"
+msgstr "هيبوكلورايت - حمض"
+
+msgid "Hypochlorous"
+msgstr "هيبوكلوروس"
+
+msgid "Hypochondria"
+msgstr "الوسواس"
+
+msgid "Hypochondriac"
+msgstr "وسواسي"
+
+msgid "Hypocrisies"
+msgstr "النّفاق"
+
+msgid "Hypocrisy"
+msgstr "النفاق"
+
+msgid "Hypocrite"
+msgstr "المنافق"
+
+msgid "Hypocrites"
+msgstr "المنافقون"
+
+msgid "Hypocritic"
+msgstr "نفاقي"
+
+msgid "Hypocritical"
+msgstr "منافق"
+
+msgid "Hypocritically"
+msgstr "بشكل منافق"
+
+msgid "Hypocycloid"
+msgstr "الخطّ الناتج عن نقطة على الدّائرة التي تتدحرج داخل دائرة أخرى"
+
+msgid "Hypodermic"
+msgstr "تحت الجلد"
+
+msgid "Hypodermics"
+msgstr "هيبودرميس"
+
+msgid "Hypophyseal"
+msgstr "هيبوفيسيل"
+
+msgid "Hypophysectomized"
+msgstr "بلا غدّة نخاميّة"
+
+msgid "Hypotenuse"
+msgstr "وتر الزاوية قائمة"
+
+msgid "Hypotenuses"
+msgstr "أوتار الزوايا القائمة"
+
+msgid "Hypothalamic"
+msgstr "الجزء من المخّ تحت المهاد البصريّ"
+
+msgid "Hypothalamically"
+msgstr "متعلق بالهايبوتلاموس"
+
+msgid "Hypothalamus"
+msgstr "الهايبوتلاموس"
+
+msgid "Hypothecate"
+msgstr "يضع فرضيّة"
+
+msgid "Hypothecated"
+msgstr "وضع فرضيّة"
+
+msgid "Hypothecates"
+msgstr "يضع فرضيّة"
+
+msgid "Hypothecating"
+msgstr "وضْع فرضيّة"
+
+msgid "Hypothermia"
+msgstr "إنخفاض درجة الحرارة"
+
+msgid "Hypotheses"
+msgstr "الفرضيات"
+
+msgid "Hypothesis"
+msgstr "الفرضية"
+
+msgid "Hypothesize"
+msgstr "إفترض"
+
+msgid "Hypothesized"
+msgstr "مفترض"
+
+msgid "Hypothesizes"
+msgstr "يفترض"
+
+msgid "Hypothesizing"
+msgstr "الإفتراض"
+
+msgid "Hypothetic"
+msgstr "إفتراضي"
+
+msgid "Hypothetical"
+msgstr "إفتراضي"
+
+msgid "Hypothetically"
+msgstr "إفتراضيا"
+
+msgid "Hypothyroid"
+msgstr "متعلق بالقصور الدّرقيّ"
+
+msgid "Hypothyroidism"
+msgstr "القصور الدّرقيّ"
+
+msgid "Hysterectomies"
+msgstr "استئصالات الرّحم"
+
+msgid "Hysterectomy"
+msgstr "استئصال الرّحم"
+
+msgid "Hysteresis"
+msgstr "التخلفية"
+
+msgid "Hysteria"
+msgstr "الهستيريا"
+
+msgid "Hysteric"
+msgstr "هستيري"
+
+msgid "Hysterical"
+msgstr "هستيري"
+
+msgid "Hysterically"
+msgstr "بشكل هستيري"
+
+msgid "Hysterics"
+msgstr "النوبات الهستيرية"
+
+msgid "Hz"
+msgstr "الهيرتز"
+
+msgid "Human capital"
+msgstr "القوى البشرية العاملة"
+
+msgid "Headscarves"
+msgstr "أوشحة تغطي الرأس"
+
+msgid "Helpdesk"
+msgstr "جهة تقوم بتزويد المساعدة والدّعم الفنّي لمستخدمي الكمبيوتر"
+
+msgid "Hsn"
+msgstr "محطّة تلفزيونيّة تعني بالتّسوق والتّبضّع عن طريق عرض البضاعة على شاشة التلفزيون"
+
+msgid "Halal"
+msgstr "لحم حلال :: مذبوح حسب الشريعة الإسلامية :: مباح"
+

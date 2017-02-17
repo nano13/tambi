@@ -1,0 +1,2075 @@
+# translation of full_wordlist_K.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_K.po,v 1.16 2004/02/16 21:36:05 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'K'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_K\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2003-12-15 01:42+0300\n"
+
+msgid "K"
+msgstr "كي - الحرف الحادي عشر في اللغة الإنجليزية"
+
+msgid "Kaboom"
+msgstr "كابوم - لعبة لجهاز الأتاري"
+
+msgid "Kabuki"
+msgstr "كابوكي - نوع لدراما يابانيّة شعبيّة"
+
+msgid "Kabul"
+msgstr "كابول - عاصمة واكبر مدينة في أفغانستان"
+
+msgid "Kaddish"
+msgstr "كاديش - صلاة يهودية يومية"
+
+msgid "Kafka"
+msgstr "كافكا"
+
+msgid "Kafkaesque"
+msgstr "متعلّق بفرانز كافكا أو مؤلّفاته"
+
+msgid "Kahn"
+msgstr "كان"
+
+msgid "Kaiman"
+msgstr "كيمان"
+
+msgid "Kaiser"
+msgstr "قيصر"
+
+msgid "Kajar"
+msgstr "كاجار - الأسرة التي حكمت إيران"
+
+msgid "Kaku"
+msgstr "كاكو"
+
+msgid "Kalamazoo"
+msgstr "كالامازو"
+
+msgid "Kale"
+msgstr "اللفت"
+
+msgid "Kaleidoscope"
+msgstr "المشكال"
+
+msgid "Kaleidoscopic"
+msgstr "متلوّن"
+
+msgid "Kalmia"
+msgstr "كالميا"
+
+msgid "Kalmuk"
+msgstr "كالموك"
+
+msgid "Kamchatka"
+msgstr "كامتشاتكا"
+
+msgid "Kamikaze"
+msgstr "إنتحاري"
+
+msgid "Kamikazes"
+msgstr "الانتحاريّون"
+
+msgid "Kampala"
+msgstr "كامبالا"
+
+msgid "Kane"
+msgstr "كين"
+
+msgid "Kangaroo"
+msgstr "الكنغر"
+
+msgid "Kangaroos"
+msgstr "الكناغر"
+
+msgid "Kankakee"
+msgstr "كانكاكي -  نهر في شماليّ إنديانا"
+
+msgid "Kansas"
+msgstr "كانساس"
+
+msgid "Kant"
+msgstr "كانت"
+
+msgid "Kaolin"
+msgstr "الكاولين"
+
+msgid "Kaolinite"
+msgstr "الكولنيت - معدن"
+
+msgid "Kaplan"
+msgstr "كابلان"
+
+msgid "Kapok"
+msgstr "الكابوك"
+
+msgid "Kappa"
+msgstr "كابا"
+
+msgid "Karachi"
+msgstr "كراتشي"
+
+msgid "Karamazov"
+msgstr "كارامازوف"
+
+msgid "Karat"
+msgstr "القيراط"
+
+msgid "Karate"
+msgstr "الكراتيه"
+
+msgid "Karats"
+msgstr "القراريط"
+
+msgid "Karen"
+msgstr "كارين"
+
+msgid "Karl"
+msgstr "كارل"
+
+msgid "Karma"
+msgstr "السّلوك"
+
+msgid "Karol"
+msgstr "كارول"
+
+msgid "Karp"
+msgstr "كارب"
+
+msgid "Kaskaskia"
+msgstr "كاسكاسكيا"
+
+msgid "Kate"
+msgstr "كايت"
+
+msgid "Katharine"
+msgstr "كاثرين"
+
+msgid "Katherine"
+msgstr "كاثرين"
+
+msgid "Kathleen"
+msgstr "كاثلين"
+
+msgid "Kathy"
+msgstr "كاثي"
+
+msgid "Katie"
+msgstr "كايتي"
+
+msgid "Katmandu"
+msgstr "كاتماندو"
+
+msgid "Katowice"
+msgstr "كاتوايس"
+
+msgid "Katz"
+msgstr "كاز"
+
+msgid "Kauffman"
+msgstr "كوفمان"
+
+msgid "Kaufman"
+msgstr "كوفمان"
+
+msgid "Kava"
+msgstr "شجيرة الكافا"
+
+msgid "Kay"
+msgstr "كاي"
+
+msgid "Kayo"
+msgstr "كايو"
+
+msgid "Kazakhstan"
+msgstr "كازاخستان"
+
+msgid "Kazoo"
+msgstr "المزمار"
+
+msgid "Kazoos"
+msgstr "المزامير"
+
+msgid "KB"
+msgstr "ك بايت"
+
+msgid "KBabel"
+msgstr "كيبيبل"
+
+msgid "KBabelDict"
+msgstr "قاموس كيبيبل"
+
+msgid "KBanner"
+msgstr "لافتة"
+
+msgid "KBlankScreen"
+msgstr "شاشة فارغة"
+
+msgid "KBlob"
+msgstr "بقعة التلوين"
+
+msgid "Kbps"
+msgstr "كيلو بتّ بالثانية"
+
+msgid "KBs"
+msgstr "ك بايتث"
+
+msgid "Kbytes"
+msgstr "ك بايت"
+
+msgid "Kcal"
+msgstr "ألف سعرة حرارية"
+
+msgid "KCardtest"
+msgstr "برنامج فحص البطاقات"
+
+msgid "Kcmkwindecoration"
+msgstr "زخارف النوافذ"
+
+msgid "KCron"
+msgstr "كرون"
+
+msgid "KDE"
+msgstr "كيدي"
+
+msgid "KDontChangeTheHostName"
+msgstr "كلاتغيراسمالمستضيف"
+
+msgid "Keaton"
+msgstr "كيتون"
+
+msgid "Keats"
+msgstr "كيتس"
+
+msgid "Kebob"
+msgstr "الكباب"
+
+msgid "Keddah"
+msgstr "مصيدة فيلة"
+
+msgid "Kedges"
+msgstr "يجرّ"
+
+msgid "Keegan"
+msgstr "كيجان"
+
+msgid "Keel"
+msgstr "عارضة القعر"
+
+msgid "Keeled"
+msgstr "منقلب"
+
+msgid "Keeler"
+msgstr "كيلير"
+
+msgid "Keeling"
+msgstr "الإنقلاب"
+
+msgid "Keels"
+msgstr "عارضات القعر"
+
+msgid "Keelson"
+msgstr "كيلسون"
+
+msgid "Keen"
+msgstr "متحمّس"
+
+msgid "Keen-eyed"
+msgstr "ذو عيون متحمّس"
+
+msgid "Keenan"
+msgstr "كينان"
+
+msgid "Keener"
+msgstr "أكثر حماسا"
+
+msgid "Keenest"
+msgstr "أكثر حماسا"
+
+msgid "Keening"
+msgstr "كينينج"
+
+msgid "Keenly"
+msgstr "بشكل متحمّس"
+
+msgid "Keenness"
+msgstr "الحرص"
+
+msgid "Keep"
+msgstr "العيش"
+
+msgid "Keeper"
+msgstr "المراقب"
+
+msgid "Keepers"
+msgstr "المراقبون"
+
+msgid "Keeping"
+msgstr "الإستمرار"
+
+msgid "Keeps"
+msgstr "يبقي"
+
+msgid "Keepsake"
+msgstr "التذكار"
+
+msgid "Keeshond"
+msgstr "كيشوند - فصيلة كلاب"
+
+msgid "Keg"
+msgstr "البرميل"
+
+msgid "Kegs"
+msgstr "البراميل"
+
+msgid "Keith"
+msgstr "كيث"
+
+msgid "Keller"
+msgstr "كيلير"
+
+msgid "Kelley"
+msgstr "كيلي"
+
+msgid "Kellogg"
+msgstr "كيلوج"
+
+msgid "Kelly"
+msgstr "كيلي"
+
+msgid "Keloid"
+msgstr "الجدرة"
+
+msgid "Kelp"
+msgstr "عشب البحر"
+
+msgid "Kelsey"
+msgstr "كيلسي"
+
+msgid "Kelvin"
+msgstr "كيلفن"
+
+msgid "Kemp"
+msgstr "كيمب"
+
+msgid "Ken"
+msgstr "كين"
+
+msgid "Kendall"
+msgstr "كيندل"
+
+msgid "Kenilworth"
+msgstr "كينيلورث"
+
+msgid "Kennan"
+msgstr "كينان"
+
+msgid "Kennecott"
+msgstr "مدينة كينيكوت"
+
+msgid "Kennedy"
+msgstr "كندي"
+
+msgid "Kennel"
+msgstr "بيت الكلب"
+
+msgid "Kenneled"
+msgstr "محجوز"
+
+msgid "Kenneling"
+msgstr "الحجز"
+
+msgid "Kennels"
+msgstr "بيوت الكلاب"
+
+msgid "Kenneth"
+msgstr "كينيث"
+
+msgid "Kenney"
+msgstr "كيني"
+
+msgid "Kenning"
+msgstr "كينينج"
+
+msgid "Kenny"
+msgstr "كيني"
+
+msgid "Keno"
+msgstr "كينو"
+
+msgid "Kenosha"
+msgstr "كينوشا"
+
+msgid "Kens"
+msgstr "الإدراك"
+
+msgid "Kensington"
+msgstr "كينسينجتون"
+
+msgid "Kent"
+msgstr "كينت"
+
+msgid "Kenton"
+msgstr "كينتن"
+
+msgid "Kentucky"
+msgstr "كنتاكي"
+
+msgid "Kenya"
+msgstr "كينيا"
+
+msgid "Kenyan"
+msgstr "الكيني"
+
+msgid "Kenyon"
+msgstr "كينيون"
+
+msgid "Kepler"
+msgstr "كيبلير"
+
+msgid "Kept"
+msgstr "أبقى"
+
+msgid "Keratin"
+msgstr "القرتين"
+
+msgid "Keratitis"
+msgstr "إلتهاب القرنية"
+
+msgid "Kerb"
+msgstr "الرصيف"
+
+msgid "Kerbstone"
+msgstr "حجر الرّصيف"
+
+msgid "Kerchief"
+msgstr "المنديل"
+
+msgid "Kerchiefed"
+msgstr "مغطيْ الرأس بمنديل"
+
+msgid "Kerchiefs"
+msgstr "المناديل"
+
+msgid "Kerf"
+msgstr "الشّقّ"
+
+msgid "Kermit"
+msgstr "كيرميت - نظام إتصالات"
+
+msgid "Kern"
+msgstr "كيرن"
+
+msgid "Kernal"
+msgstr "اللّبّ، النواة"
+
+msgid "Kernel"
+msgstr "اللبّ"
+
+msgid "Kernels"
+msgstr "الألباب"
+
+msgid "Kernighan"
+msgstr "كيرنيغان"
+
+msgid "Kerning"
+msgstr "تقليص المسافات"
+
+msgid "Kerosene"
+msgstr "النفط الأبيض"
+
+msgid "Kerr"
+msgstr "كر - كاتب مسرحيّ أمريكيّ"
+
+msgid "Kerry"
+msgstr "كيري"
+
+msgid "Kerygma"
+msgstr "كيريجما"
+
+msgid "Kessler"
+msgstr "كيسلير"
+
+msgid "Kestrel"
+msgstr "العاسوق"
+
+msgid "Ketch"
+msgstr "المركب"
+
+msgid "Ketchup"
+msgstr "الصلصة"
+
+msgid "Ketone"
+msgstr "الكيتون"
+
+msgid "Ketosis"
+msgstr "الكيتوزية"
+
+msgid "Kettering"
+msgstr "كيترينج"
+
+msgid "Kettle"
+msgstr "المغلاة"
+
+msgid "Kettledrum"
+msgstr "الطّبلة"
+
+msgid "Kettles"
+msgstr "الغلايات"
+
+msgid "KEuroCalc"
+msgstr "حاسبة اليورو"
+
+msgid "Kevin"
+msgstr "كيفين"
+
+msgid "Kewaskum"
+msgstr "كواسكم"
+
+msgid "Kewaunee"
+msgstr "كووني"
+
+msgid "Key"
+msgstr "المفتاح"
+
+msgid "Key-driven"
+msgstr "المفتاح قاد"
+
+msgid "Key-note"
+msgstr "الملاحظة الرئيسية"
+
+msgid "Key-stroke"
+msgstr "ضربة المفتاح"
+
+msgid "Keyboard"
+msgstr "لوحة المفاتيح"
+
+msgid "Keyboard-controlled"
+msgstr "مدار من قبل لوحة المفاتيح"
+
+msgid "Keyboard-operated"
+msgstr "مشغّل بلوحة المفاتيح"
+
+msgid "Keyboarder"
+msgstr "عازف الأورغ"
+
+msgid "Keyboarding"
+msgstr "الطباعة"
+
+msgid "Keyboards"
+msgstr "لوحات المفاتيح"
+
+msgid "Keyed"
+msgstr "مقفول"
+
+msgid "Keyes"
+msgstr "كييس"
+
+msgid "Keyhole"
+msgstr "ثقب المفتاح"
+
+msgid "Keyholes"
+msgstr "ثقوب المفاتيح"
+
+msgid "Keying"
+msgstr "القفل"
+
+msgid "Keymap"
+msgstr "خريطة مفتاح"
+
+msgid "Keymaps"
+msgstr "خرائط مفاتيح"
+
+msgid "Keynes"
+msgstr "كيينيز - عالم اقتصاديّ إنجليزيّ"
+
+msgid "Keynesian"
+msgstr "متعلق بـ كيينيز - عالم اقتصاديّ إنجليزيّ"
+
+msgid "Keynote"
+msgstr "الأساس"
+
+msgid "Keynoter"
+msgstr "الخطيب"
+
+msgid "Keynotes"
+msgstr "الأساسات"
+
+msgid "Keypad"
+msgstr "لوحة المفاتيح"
+
+msgid "Keypads"
+msgstr "لوحات المفاتيح"
+
+msgid "Keypress"
+msgstr "ضربة المفتاح"
+
+msgid "Keypunch"
+msgstr "الخرّامة"
+
+msgid "Keypunched"
+msgstr "خَرَمَ"
+
+msgid "Keypuncher"
+msgstr "الخرّام"
+
+msgid "Keypunches"
+msgstr "الثقوب"
+
+msgid "Keypunching"
+msgstr "التخريم"
+
+msgid "Keys"
+msgstr "المفاتيح"
+
+msgid "Keystone"
+msgstr "حجر الأساس"
+
+msgid "Keystones"
+msgstr "أحجار الأساس"
+
+msgid "Keystroke"
+msgstr "ضربة المفتاح"
+
+msgid "Keystrokes"
+msgstr "ضربات المفاتيح"
+
+msgid "Keyword"
+msgstr "الكلمة الدليلية"
+
+msgid "KeywordExpression"
+msgstr "كلمة مميزة"
+
+msgid "Keywords"
+msgstr "الكلمات الدليلية"
+
+msgid "Keyz"
+msgstr "كيز"
+
+msgid "KFloppy"
+msgstr "كفلوبي"
+
+msgid "KGB"
+msgstr "كيه جي بي - المخابرات و الوكالة الأمنيّة الدّاخليّة للاتّحاد السّوفيتيّ السّابق"
+
+msgid "Khaki"
+msgstr "قماش الخاكي"
+
+msgid "Khan"
+msgstr "خان"
+
+msgid "Khartoum"
+msgstr "الخرطوم"
+
+msgid "Khmer"
+msgstr "الخمير"
+
+msgid "Khrushchev"
+msgstr "خراشتشيف"
+
+msgid "KHz"
+msgstr "ألف ذبذبة"
+
+msgid "Kibble"
+msgstr "إطحن"
+
+msgid "Kibbled"
+msgstr "مطحون"
+
+msgid "Kibbles"
+msgstr "يطحن"
+
+msgid "Kibbling"
+msgstr "الطحن"
+
+msgid "Kibbutzim"
+msgstr "كيبتزيم -  مستوطنة في إسرائيل"
+
+msgid "Kibitz"
+msgstr "تطفّل"
+
+msgid "Kibitzer"
+msgstr "مقدّم النصيحة بدون إستئذان"
+
+msgid "Kick"
+msgstr "الركلة"
+
+msgid "Kickapoo"
+msgstr "كيكابو - شعب أمريكيّ أصليّ"
+
+msgid "Kickback"
+msgstr "الرسم"
+
+msgid "Kickbacks"
+msgstr "الرسوم"
+
+msgid "Kicked"
+msgstr "مرفوس"
+
+msgid "Kicker"
+msgstr "الراكل"
+
+msgid "Kickers"
+msgstr "الراكلون"
+
+msgid "Kicking"
+msgstr "الرفس"
+
+msgid "Kickoff"
+msgstr "ضربة البداية"
+
+msgid "Kickoffs"
+msgstr "الضربات الأولى"
+
+msgid "Kicks"
+msgstr "الركلات"
+
+msgid "Kickstarter"
+msgstr "ذراع تشغيل المحرّك"
+
+msgid "Kid"
+msgstr "الطفل"
+
+msgid "Kidde"
+msgstr "كيد"
+
+msgid "Kidded"
+msgstr "مازح"
+
+msgid "Kidder"
+msgstr "المازح"
+
+msgid "Kiddie"
+msgstr "الطفل"
+
+msgid "Kiddies"
+msgstr "الأطفال"
+
+msgid "Kidding"
+msgstr "المزاح"
+
+msgid "Kiddingly"
+msgstr "بمزاح"
+
+msgid "Kiddy"
+msgstr "الطفل"
+
+msgid "Kidnap"
+msgstr "الخطف"
+
+msgid "Kidnaped"
+msgstr "اختطف"
+
+msgid "Kidnaper"
+msgstr "المختطف"
+
+msgid "Kidnapers"
+msgstr "المختطفون"
+
+msgid "Kidnaping"
+msgstr "الاختطاف"
+
+msgid "Kidnapped"
+msgstr "مختطف"
+
+msgid "Kidnapper"
+msgstr "المختطف"
+
+msgid "Kidnappers"
+msgstr "المختطفون"
+
+msgid "Kidnapping"
+msgstr "الإختطاف"
+
+msgid "Kidnappings"
+msgstr "حوادث الإختطاف"
+
+msgid "Kidnaps"
+msgstr "عمليات الخطف"
+
+msgid "Kidney"
+msgstr "الكلية"
+
+msgid "Kidneys"
+msgstr "الكلى"
+
+msgid "Kids"
+msgstr "الأطفال"
+
+msgid "Kidskin"
+msgstr "جلد من ماعز صغير"
+
+msgid "Kieffer"
+msgstr "كيفير"
+
+msgid "Kiel"
+msgstr "كيل"
+
+msgid "Kiev"
+msgstr "كيف"
+
+msgid "Kigali"
+msgstr "كيغالي"
+
+msgid "Kikuyu"
+msgstr "الكيكيو"
+
+msgid "Kilgore"
+msgstr "كيلجور"
+
+msgid "Kill"
+msgstr "القتل"
+
+msgid "Killable"
+msgstr "مباح الذّبح"
+
+msgid "Killdeer"
+msgstr "الزقزاق - طائر"
+
+msgid "Killebrew"
+msgstr "كيليبرو"
+
+msgid "Killed"
+msgstr "مقتول"
+
+msgid "Killer"
+msgstr "القاتل"
+
+msgid "Killers"
+msgstr "القتلة"
+
+msgid "Killing"
+msgstr "القتل"
+
+msgid "Killingly"
+msgstr "بقتل"
+
+msgid "Killings"
+msgstr "حالات القتل"
+
+msgid "Killjoy"
+msgstr "هادم اللّذّات"
+
+msgid "Kills"
+msgstr "عمليات القتل"
+
+msgid "Kilo"
+msgstr "الكيلو"
+
+msgid "Kilobaud"
+msgstr "ألف بود - البود هي وحدة سرعة في إرسال البيانات "
+
+msgid "Kilobit"
+msgstr "الكيلوبت"
+
+msgid "Kilobits"
+msgstr "الكيلوبت"
+
+msgid "Kilobuck"
+msgstr "ألف دولار"
+
+msgid "Kilobyte"
+msgstr "الكيلوبايت"
+
+msgid "Kilobytes"
+msgstr "الكيلوبايتات"
+
+msgid "Kilocycle"
+msgstr "الدورة بالكيلو"
+
+msgid "Kilogauss"
+msgstr "كيلوجوس - وحدة قياس المغناطيسية"
+
+msgid "Kilogram"
+msgstr "الكيلوغرام"
+
+msgid "Kilograms"
+msgstr "الكيلوغرامات"
+
+msgid "Kilohertz"
+msgstr "الكيلوهيرتز"
+
+msgid "Kilohm"
+msgstr "وحدة قياس المقاومة وتساوي 1000 اوم"
+
+msgid "Kilojoule"
+msgstr "الكيلوجول"
+
+msgid "Kilometer"
+msgstr "الكيلومتر"
+
+msgid "Kilometers"
+msgstr "الكيلومترات"
+
+msgid "Kilometre"
+msgstr "الكيلومتر"
+
+msgid "Kilometres"
+msgstr "الكيلومترات"
+
+msgid "Kiloton"
+msgstr "الكيلوطنّ - ألف طن"
+
+msgid "Kilotons"
+msgstr "كيلوتونس"
+
+msgid "Kilovolt"
+msgstr "الكيلوفولت"
+
+msgid "Kilovolts"
+msgstr "الكيلوفولت"
+
+msgid "Kilowatt"
+msgstr "كيلو الواط - ألف واط"
+
+msgid "Kilowatts"
+msgstr "كيلوات الواط - ألف واط"
+
+msgid "Kilt"
+msgstr "التنّورة"
+
+msgid "Kilter"
+msgstr "حالة جيّدة"
+
+msgid "Kilts"
+msgstr "التنّورات"
+
+msgid "Kim"
+msgstr "كيم"
+
+msgid "Kimball"
+msgstr "كيمبول"
+
+msgid "Kimberly"
+msgstr "كيمبيرلي"
+
+msgid "Kimono"
+msgstr "ثوب الكيمونو"
+
+msgid "Kin"
+msgstr "قريب"
+
+msgid "Kind"
+msgstr "النوع"
+
+msgid "Kinder"
+msgstr "أرحم"
+
+msgid "Kindergarten"
+msgstr "روضة الأطفال"
+
+msgid "Kindest"
+msgstr "أرحم"
+
+msgid "Kindhearted"
+msgstr "طيّب القلب"
+
+msgid "Kindheartedly"
+msgstr "بطيْبة"
+
+msgid "Kindheartedness"
+msgstr "طيْبة القلب"
+
+msgid "Kindle"
+msgstr "أوقد"
+
+msgid "Kindled"
+msgstr "موقد"
+
+msgid "Kindler"
+msgstr "الشاعل"
+
+msgid "Kindles"
+msgstr "يوقد"
+
+msgid "Kindlier"
+msgstr "أكثر عطفا"
+
+msgid "Kindliest"
+msgstr "أكثر عطفا"
+
+msgid "Kindliness"
+msgstr "العطف"
+
+msgid "Kindling"
+msgstr "الإشعال"
+
+msgid "Kindly"
+msgstr "بلطف"
+
+msgid "Kindness"
+msgstr "الشفقة"
+
+msgid "Kindnesses"
+msgstr "الشفقة"
+
+msgid "Kindred"
+msgstr "القريب"
+
+msgid "Kinds"
+msgstr "الأنواع"
+
+msgid "Kinematic"
+msgstr "حركيّ"
+
+msgid "Kinematical"
+msgstr "حركيّ"
+
+msgid "Kinematically"
+msgstr "بشكل حركيّ"
+
+msgid "Kinematics"
+msgstr "الكينماتيكا"
+
+msgid "Kinesic"
+msgstr "دراسة الحركات الجسديّة"
+
+msgid "Kinesics"
+msgstr "دراسات الحركات الجسديّة"
+
+msgid "Kinesthesis"
+msgstr "القدرة على إحساس تحرّكات الأطراف و الجسم"
+
+msgid "Kinesthetic"
+msgstr "حركيّ"
+
+msgid "Kinesthetically"
+msgstr "حركيًّا"
+
+msgid "Kinesthetics"
+msgstr "القدرة على إحساس تحرّكات الأطراف و الجسم"
+
+msgid "Kinetic"
+msgstr "حركيّ"
+
+msgid "Kinetics"
+msgstr "علم القوى المحركة"
+
+msgid "King"
+msgstr "الملك"
+
+msgid "Kingbird"
+msgstr "طائر أمريكي يقتات على صيد الذباب"
+
+msgid "Kingdom"
+msgstr "المملكة"
+
+msgid "Kingdom-come"
+msgstr "المملكة تجيء"
+
+msgid "Kingdoms"
+msgstr "الممالك"
+
+msgid "Kingfisher"
+msgstr "الرفراف"
+
+msgid "Kingfishers"
+msgstr "الرفرافات"
+
+msgid "Kinglet"
+msgstr "ملك لمملكة صغيرة"
+
+msgid "Kinglier"
+msgstr "ملوكي"
+
+msgid "Kinglike"
+msgstr "كينجليك"
+
+msgid "Kingliness"
+msgstr "الملوكية"
+
+msgid "Kingly"
+msgstr "ملوكي"
+
+msgid "Kingpin"
+msgstr "المسمار الرئيسي"
+
+msgid "Kings"
+msgstr "الملوك"
+
+msgid "Kingsbury"
+msgstr "كينجسبري"
+
+msgid "Kingship"
+msgstr "الملوكية"
+
+msgid "Kingsize"
+msgstr "كبير"
+
+msgid "Kingsley"
+msgstr "كنجسلي"
+
+msgid "Kingston"
+msgstr "كينجستون"
+
+msgid "Kingstown"
+msgstr "كينجستون"
+
+msgid "Kingwood"
+msgstr "كينجوود - شجرة جنوب أمريكيّة"
+
+msgid "Kink"
+msgstr "العقدة"
+
+msgid "Kinked"
+msgstr "متلوّى"
+
+msgid "Kinkier"
+msgstr "أغرب"
+
+msgid "Kinkiest"
+msgstr "أغرب"
+
+msgid "Kinkiness"
+msgstr "الغرابة"
+
+msgid "Kinking"
+msgstr "التلوّي"
+
+msgid "Kinks"
+msgstr "العقد"
+
+msgid "Kinky"
+msgstr "غريب"
+
+msgid "Kinney"
+msgstr "كيني"
+
+msgid "Kins"
+msgstr "الأقرباء"
+
+msgid "Kinsey"
+msgstr "كينزي"
+
+msgid "Kinsfolk"
+msgstr "الأهل"
+
+msgid "Kinship"
+msgstr "القرابة"
+
+msgid "Kinsman"
+msgstr "القريب"
+
+msgid "Kinsmen"
+msgstr "الأقرباء"
+
+msgid "Kinswoman"
+msgstr "القريبة"
+
+msgid "Kinswomen"
+msgstr "القريبات"
+
+msgid "Kiosk"
+msgstr "الكشك"
+
+msgid "Kiosks"
+msgstr "الأكشاك"
+
+msgid "Kiowa"
+msgstr "كيوا"
+
+msgid "Kipling"
+msgstr "كيبلينج"
+
+msgid "Kipper"
+msgstr "السلمون المدخّن"
+
+msgid "Kippers"
+msgstr "أسماك الرنجة"
+
+msgid "Kirby"
+msgstr "كيربي"
+
+msgid "Kirchner"
+msgstr "كيرتشنير"
+
+msgid "Kirchoff"
+msgstr "كيرتشوف"
+
+msgid "Kiribati"
+msgstr "كرباتيا"
+
+msgid "Kirk"
+msgstr "كيرك"
+
+msgid "Kirkland"
+msgstr "كيركلاند"
+
+msgid "Kirkpatrick"
+msgstr "كيركباتريك"
+
+msgid "Kirkwood"
+msgstr "كيركوود"
+
+msgid "Kirov"
+msgstr "كيروف"
+
+msgid "Kirsch"
+msgstr "كيرش"
+
+msgid "Kirundi"
+msgstr "اللغة الرسميّة في بروندي"
+
+msgid "Kismet"
+msgstr "القسمة"
+
+msgid "Kiss"
+msgstr "القبلة"
+
+msgid "Kissable"
+msgstr "قابل للتقبيل"
+
+msgid "Kissed"
+msgstr "مقبّل"
+
+msgid "Kisser"
+msgstr "المقبّل"
+
+msgid "Kissers"
+msgstr "المقبّلون"
+
+msgid "Kisses"
+msgstr "القبل"
+
+msgid "Kissing"
+msgstr "التقبيل"
+
+msgid "Kissings"
+msgstr "التقبيل"
+
+msgid "Kit"
+msgstr "العدّة"
+
+msgid "Kitakyushu"
+msgstr "كيتاكيشو"
+
+msgid "Kitchen"
+msgstr "المطبخ"
+
+msgid "Kitchener"
+msgstr "كيتشنر"
+
+msgid "Kitchenette"
+msgstr "المطبخ الصغير"
+
+msgid "Kitchenettes"
+msgstr "المطابخ الصغيرة"
+
+msgid "Kitchens"
+msgstr "المطابخ"
+
+msgid "Kitchenware"
+msgstr "أدوات المطبخ"
+
+msgid "Kite"
+msgstr "الطائرة الورقية"
+
+msgid "Kited"
+msgstr "حلّق عالياً"
+
+msgid "Kites"
+msgstr "الطائرات الورقية"
+
+msgid "Kith"
+msgstr "الأقرباء"
+
+msgid "Kiting"
+msgstr "الطيران الورقي"
+
+msgid "Kits"
+msgstr "العدد"
+
+msgid "Kitsch"
+msgstr "الفنّ الهابط"
+
+msgid "Kitten"
+msgstr "الهريرة"
+
+msgid "Kittened"
+msgstr "ولدت قطط صغيرة"
+
+msgid "Kittening"
+msgstr "ولادة قطط صغيرة"
+
+msgid "Kittenish"
+msgstr "تقريبا هريرة"
+
+msgid "Kittenishly"
+msgstr "بمرح"
+
+msgid "Kittenishness"
+msgstr "المرح"
+
+msgid "Kittens"
+msgstr "الهريرات"
+
+msgid "Kitties"
+msgstr "البسيسات"
+
+msgid "Kittiwake"
+msgstr "طائر النّورس"
+
+msgid "Kittle"
+msgstr "دغدغ"
+
+msgid "Kitty"
+msgstr "البسيسة"
+
+msgid "Kiva"
+msgstr "الكيفة - حجرة تحت الأرض في قرية بويبلو"
+
+msgid "Kivu"
+msgstr "كيفو - بحيرة على حدود الكونغو"
+
+msgid "Kiwanis"
+msgstr "جمعية رجالية في أمريكا وتعنى بخدمة المجتمع"
+
+msgid "Kiwi"
+msgstr "الكيوي"
+
+msgid "KKK"
+msgstr "جماعة كو كلوكس كلان السّرية العنصرية"
+
+msgid "Klan"
+msgstr "جمعية الكوكلوكس"
+
+msgid "Klaus"
+msgstr "كلوس"
+
+msgid "Klaxon"
+msgstr "البوق"
+
+msgid "Kleenex"
+msgstr "كلينيكس"
+
+msgid "Klein"
+msgstr "كلين"
+
+msgid "Kleinrock"
+msgstr "كلينروك"
+
+msgid "KLettres"
+msgstr "احرف ك"
+
+msgid "Kline"
+msgstr "كلاين"
+
+msgid "KLines"
+msgstr "خطوط"
+
+msgid "Kloof"
+msgstr "كلوف - وادي عميق في جنوب أفريقيا"
+
+msgid "KLorenz"
+msgstr "لورينز"
+
+msgid "Kludge"
+msgstr "حل أهوج لمشكلة"
+
+msgid "Kludges"
+msgstr "يحل المشكلة بشكل أهوج"
+
+msgid "Klutz"
+msgstr "الأخرق"
+
+msgid "Klutzes"
+msgstr "الخرقاء"
+
+msgid "Klutziness"
+msgstr "البلاهة"
+
+msgid "Klutzy"
+msgstr "أخرق"
+
+msgid "Klystron"
+msgstr "جهاز الكليسترون"
+
+msgid "Klystrons"
+msgstr "أجهزة الكليسترون"
+
+msgid "Km"
+msgstr "الكيلومتر"
+
+msgid "Kmatrix"
+msgstr "ماتريكس حافظة شاشة على نمط فيلم"
+
+msgid "Knack"
+msgstr "الموهبة"
+
+msgid "Knacker"
+msgstr "تاجر الخيول"
+
+msgid "Knacks"
+msgstr "المواهب"
+
+msgid "Knapp"
+msgstr "ناب"
+
+msgid "Knapsack"
+msgstr "الحقيبة"
+
+msgid "Knapsacks"
+msgstr "الحقائب"
+
+msgid "Knauer"
+msgstr "ناير"
+
+msgid "Knave"
+msgstr "الشرير"
+
+msgid "Knaveries"
+msgstr "نافيريس"
+
+msgid "Knavery"
+msgstr "الخبث"
+
+msgid "Knaves"
+msgstr "الأشرار"
+
+msgid "Knavish"
+msgstr "مخادع"
+
+msgid "Knavishly"
+msgstr "بمكر"
+
+msgid "Knead"
+msgstr "إعجن"
+
+msgid "Kneadable"
+msgstr "قابل للعجن"
+
+msgid "Kneaded"
+msgstr "معجون"
+
+msgid "Kneader"
+msgstr "نيدر"
+
+msgid "Kneading"
+msgstr "العجن"
+
+msgid "Kneads"
+msgstr "يعجن"
+
+msgid "Knee"
+msgstr "الركبة"
+
+msgid "Kneecap"
+msgstr "الرضفة"
+
+msgid "Kneecaps"
+msgstr "الرضفات"
+
+msgid "Kneed"
+msgstr "نيد"
+
+msgid "Kneeing"
+msgstr "نيينج"
+
+msgid "Kneel"
+msgstr "إسجد"
+
+msgid "Kneeled"
+msgstr "ركع"
+
+msgid "Kneeler"
+msgstr "الراكع"
+
+msgid "Kneeling"
+msgstr "الركوع"
+
+msgid "Kneels"
+msgstr "يسجد"
+
+msgid "Kneepad"
+msgstr "نيباد"
+
+msgid "Kneepads"
+msgstr "نيبادس"
+
+msgid "Knees"
+msgstr "الركب"
+
+msgid "Knell"
+msgstr "دقة النعي"
+
+msgid "Knells"
+msgstr "دقات النعي"
+
+msgid "Knelt"
+msgstr "ساجد"
+
+msgid "Knew"
+msgstr "عرف"
+
+msgid "Knick"
+msgstr "نيك"
+
+msgid "Knicker"
+msgstr "نيكير"
+
+msgid "Knickerbocker"
+msgstr "البنطلون القصير"
+
+msgid "Knickers"
+msgstr "الكلسون"
+
+msgid "Knickknack"
+msgstr "التحفة الزهيدة"
+
+msgid "Knife"
+msgstr "السكين"
+
+msgid "Knifed"
+msgstr "مطعون"
+
+msgid "Knifelike"
+msgstr "نيفيليك"
+
+msgid "Knifes"
+msgstr "السكين"
+
+msgid "Knifing"
+msgstr "الطعن"
+
+msgid "Knight"
+msgstr "الفارس"
+
+msgid "Knighted"
+msgstr "نايتيد"
+
+msgid "Knighthood"
+msgstr "الفروسية"
+
+msgid "Knighting"
+msgstr "نايتينج"
+
+msgid "Knightlily"
+msgstr "نايتليلي"
+
+msgid "Knightliness"
+msgstr "نايتلنيس"
+
+msgid "Knightly"
+msgstr "فروسي"
+
+msgid "Knights"
+msgstr "الفرسان"
+
+msgid "Knightsbridge"
+msgstr "نايتسبردج"
+
+msgid "Knit"
+msgstr "حك"
+
+msgid "Knits"
+msgstr "يحوك"
+
+msgid "Knitted"
+msgstr "محيك"
+
+msgid "Knitter"
+msgstr "نيتير"
+
+msgid "Knitting"
+msgstr "الحياكة"
+
+msgid "Knitwear"
+msgstr "نيتوير"
+
+msgid "Knives"
+msgstr "السكاكين"
+
+msgid "Knob"
+msgstr "المقبض"
+
+msgid "Knobbed"
+msgstr "بارز"
+
+msgid "Knobbier"
+msgstr "أكثر عقدا"
+
+msgid "Knobbiest"
+msgstr "أكثر عقدا"
+
+msgid "Knobby"
+msgstr "عقدي"
+
+msgid "Knobs"
+msgstr "المقابض"
+
+msgid "Knock"
+msgstr "الدقة"
+
+msgid "Knockabout"
+msgstr "رائع"
+
+msgid "Knockdown"
+msgstr "قاضي"
+
+msgid "Knockdowns"
+msgstr "الطّرح أرضاً"
+
+msgid "Knocked"
+msgstr "مضروب"
+
+msgid "Knocker"
+msgstr "مقرعة الباب"
+
+msgid "Knockers"
+msgstr "مقارع الباب"
+
+msgid "Knocking"
+msgstr "الضرب"
+
+msgid "Knockout"
+msgstr "الضربة القاضية"
+
+msgid "Knockouts"
+msgstr "الضربات القاضية"
+
+msgid "Knocks"
+msgstr "الدقات"
+
+msgid "Knockwurst"
+msgstr "نقانق مبهّرة سميكة و قصيرة"
+
+msgid "Knoll"
+msgstr "الربوة"
+
+msgid "Knolled"
+msgstr "مقروع"
+
+msgid "Knolling"
+msgstr "القرع"
+
+msgid "Knolls"
+msgstr "الروابي"
+
+msgid "Knop"
+msgstr "نوب"
+
+msgid "Knot"
+msgstr "العقدة"
+
+msgid "Knothole"
+msgstr "ثقب في الخشب تخرج منه عقدة"
+
+msgid "Knots"
+msgstr "العقد"
+
+msgid "Knott"
+msgstr "نوت"
+
+msgid "Knotted"
+msgstr "معقود"
+
+msgid "Knotter"
+msgstr "مزيل العقد"
+
+msgid "Knottier"
+msgstr "أكثر عقدا"
+
+msgid "Knottiest"
+msgstr "أكثر عقدا"
+
+msgid "Knottiness"
+msgstr "الصعوبة"
+
+msgid "Knotting"
+msgstr "العقد"
+
+msgid "Knotty"
+msgstr "معقّد"
+
+msgid "Knout"
+msgstr "السوط"
+
+msgid "Know"
+msgstr "إعرف"
+
+msgid "Knowable"
+msgstr "قابل للمعرفة"
+
+msgid "Knower"
+msgstr "العارف"
+
+msgid "Knowhow"
+msgstr "الخبرة"
+
+msgid "Knowing"
+msgstr "المعرفة"
+
+msgid "Knowingly"
+msgstr "بمعرفة مسبّقة"
+
+msgid "Knowledgable"
+msgstr "مطّلِع"
+
+msgid "Knowledge"
+msgstr "المعرفة"
+
+msgid "Knowledgeability"
+msgstr "الإطّلاع"
+
+msgid "Knowledgeable"
+msgstr "واسع الإطّلاع"
+
+msgid "Knowledgeableness"
+msgstr "الخبرة"
+
+msgid "Knowledgeably"
+msgstr "بمعرفة"
+
+msgid "Knowledges"
+msgstr "المعارف"
+
+msgid "Knowles"
+msgstr "نولز"
+
+msgid "Knowlton"
+msgstr "ناولتون"
+
+msgid "Known"
+msgstr "معروف"
+
+msgid "Knows"
+msgstr "يعرف"
+
+msgid "Knox"
+msgstr "نوكس"
+
+msgid "Knoxville"
+msgstr "نوكسفيل"
+
+msgid "Knuckle"
+msgstr "المفصل"
+
+msgid "Knuckleball"
+msgstr "قذفة في لعبة البيسبول تُلقى بسرعة قليلة"
+
+msgid "Knuckleballer"
+msgstr "قاذف الكرة البطيئة في لعبة البيسبول"
+
+msgid "Knucklebone"
+msgstr "عظم المفصل"
+
+msgid "Knuckled"
+msgstr "مذعن"
+
+msgid "Knuckles"
+msgstr "المفاصل"
+
+msgid "Knuckling"
+msgstr "الإذعان"
+
+msgid "Knudsen"
+msgstr "نودسين - صاحب مصنع أمريكيّ, مولود في الدّنمارك"
+
+msgid "Knudson"
+msgstr "ندسون"
+
+msgid "Knurl"
+msgstr "مقبض"
+
+msgid "Knurled"
+msgstr "مخرّش"
+
+msgid "Knurls"
+msgstr "مقابض"
+
+msgid "Knuth"
+msgstr "نث"
+
+msgid "Knutsen"
+msgstr "نتسين"
+
+msgid "Knutson"
+msgstr "نتسون"
+
+msgid "Koala"
+msgstr "الكوالا"
+
+msgid "Kobayashi"
+msgstr "كوباياشي"
+
+msgid "Koch"
+msgstr "كوتش"
+
+msgid "Kodachrome"
+msgstr "كوداكروم - ماركة تجارية"
+
+msgid "Kodak"
+msgstr "كوداك"
+
+msgid "Kodiak"
+msgstr "كودياك - دبّ بنّيّ ساحلي"
+
+msgid "KOdometer"
+msgstr "كودوميتر"
+
+msgid "Koenig"
+msgstr "كونيج"
+
+msgid "Koenigsberg"
+msgstr "كوينيجسبيرج"
+
+msgid "Kohler"
+msgstr "كولر"
+
+msgid "Kohlrabi"
+msgstr "الكرنب"
+
+msgid "Koinonia"
+msgstr "كوينونيا"
+
+msgid "Kola"
+msgstr "جوزة الكولا"
+
+msgid "Kolkhoz"
+msgstr "المزرعة الجماعية"
+
+msgid "Kombu"
+msgstr "كومبو"
+
+msgid "Kong"
+msgstr "كونج"
+
+msgid "Konkani"
+msgstr "كونكاني - لهجة ماراثي لغربيّ الهند"
+
+msgid "Konqueror"
+msgstr "كونكيورر"
+
+msgid "Konrad"
+msgstr "كونراد"
+
+msgid "Kook"
+msgstr "المجنون"
+
+msgid "Kookier"
+msgstr "أكثر خبلا"
+
+msgid "Kookiness"
+msgstr "الجنون"
+
+msgid "Kooks"
+msgstr "المجانين"
+
+msgid "Koran"
+msgstr "القرآن"
+
+msgid "Korea"
+msgstr "كوريا"
+
+msgid "Korean"
+msgstr "كوري"
+
+msgid "Koreans"
+msgstr "الكوريون"
+
+msgid "Kosher"
+msgstr "موافق للشّريعة اليهوديّة"
+
+msgid "Koshered"
+msgstr "جعل مباحًا في الشّريعة اليهوديّة"
+
+msgid "Koshering"
+msgstr "جعْل الشيء مباح في الشريعة اليهودية"
+
+msgid "Kovacs"
+msgstr "كوفاكس"
+
+msgid "Kowalewski"
+msgstr "كواليوسكي"
+
+msgid "Kowalski"
+msgstr "كوالسكي"
+
+msgid "Kowloon"
+msgstr "كولون"
+
+msgid "KPackage"
+msgstr "حزم ك"
+
+msgid "Kpf"
+msgstr "كبف"
+
+msgid "KPolygon"
+msgstr "أشكال"
+
+msgid "KPPP"
+msgstr "برنامج اتصال كيدي"
+
+msgid "Kraemer"
+msgstr "كرايمير"
+
+msgid "Kraft"
+msgstr "كرافت"
+
+msgid "Krakatoa"
+msgstr "كراكاتوا"
+
+msgid "Krakow"
+msgstr "كراكو"
+
+msgid "Kramer"
+msgstr "كرامير"
+
+msgid "Krause"
+msgstr "كروس"
+
+msgid "Kraut"
+msgstr "كروت"
+
+msgid "Krauts"
+msgstr "الألمان"
+
+msgid "Krebs"
+msgstr "كريبز"
+
+msgid "Kremlin"
+msgstr "الكرملين"
+
+msgid "Kresge"
+msgstr "كريسج"
+
+msgid "Kreuzkuemmel"
+msgstr "كريوزكويميل"
+
+msgid "Kreuzungs"
+msgstr "كريوزانجس"
+
+msgid "Krieger"
+msgstr "كريجير"
+
+msgid "Krill"
+msgstr "القوقعة"
+
+msgid "Kris"
+msgstr "كريس"
+
+msgid "Krishna"
+msgstr "كريشنا"
+
+msgid "Kristin"
+msgstr "كريستين"
+
+msgid "Kristina"
+msgstr "كريستينا"
+
+msgid "Kronecker"
+msgstr "كرونيكير"
+
+msgid "Krueger"
+msgstr "كرويجير"
+
+msgid "Kruger"
+msgstr "كروغار"
+
+msgid "Kruse"
+msgstr "كروس"
+
+msgid "Krypton"
+msgstr "الكريبتون"
+
+msgid "KS"
+msgstr "كانساس"
+
+msgid "Ksa"
+msgstr "المملكة العربية السعودية"
+
+msgid "KSlideshow"
+msgstr "عرض الصور"
+
+msgid "KStars"
+msgstr "نجوم ك"
+
+msgid "KTimer"
+msgstr "مؤقتك"
+
+msgid "Ku"
+msgstr "جامعة الكويت"
+
+msgid "Ku Klux Klan"
+msgstr "جماعة كو كلوكس كلان السّرية العنصرية"
+
+msgid "Kudo"
+msgstr "جائزة"
+
+msgid "Kudos"
+msgstr "الشهرة"
+
+msgid "Kudzu"
+msgstr "كدزو - كرمة آسيويّة شرقيّة"
+
+msgid "Kuhn"
+msgstr "كن"
+
+msgid "Kulak"
+msgstr "الكولاكي"
+
+msgid "Kumquat"
+msgstr "البرتقال الذّهبيّ"
+
+msgid "Kurd"
+msgstr "كردي"
+
+msgid "Kurdish"
+msgstr "كردي"
+
+msgid "Kurt"
+msgstr "كورت"
+
+msgid "Kuru"
+msgstr "مرض عصبيّ مدهور و تدريجيّاً يؤدّي الى الموت"
+
+msgid "KUser"
+msgstr "كمستخدم"
+
+msgid "Kuwait"
+msgstr "الكويت"
+
+msgid "Kvetch"
+msgstr "الشّكوى"
+
+msgid "Kwashiorkor"
+msgstr "نقص البروتين"
+
+msgid "KY"
+msgstr "ولاية كنتاكي الأمريكيّة"
+
+msgid "Kyle"
+msgstr "كايل"
+
+msgid "Kyoto"
+msgstr "كايوتو"
+
+msgid "Kyrgyzstan"
+msgstr "قرغيزستان"
+
+msgid "Kufr"
+msgstr "الجحود بذات الله وبما أنزل به سبحانه وتعالى"
+

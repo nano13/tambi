@@ -1,0 +1,10472 @@
+# translation of full_wordlist_E.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_E.po,v 1.18 2004/02/16 21:34:18 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'E'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_E\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2003-10-11 23:49+0300\n"
+
+msgid "E"
+msgstr "إي - الحرف الخامس في اللغة الإنجليزية"
+
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+msgid "E.g"
+msgstr "ومثال على ذلك"
+
+msgid "Each"
+msgstr "كلّ"
+
+msgid "Eagan"
+msgstr "ايجان"
+
+msgid "Eager"
+msgstr "متلهّف"
+
+msgid "Eagerer"
+msgstr "متلهّف"
+
+msgid "Eagerest"
+msgstr "متلهّف"
+
+msgid "Eagerly"
+msgstr "بلهفة"
+
+msgid "Eagerness"
+msgstr "الإشتياق"
+
+msgid "Eagle"
+msgstr "النسر"
+
+msgid "Eagles"
+msgstr "النسور"
+
+msgid "Eagre"
+msgstr "إرتفاع المدّ"
+
+msgid "Eagres"
+msgstr "إرتفاع المدّ"
+
+msgid "Ear"
+msgstr "الأذن"
+
+msgid "Ear piercing"
+msgstr "الصّوت المرتفع جدّا"
+
+msgid "Ear-phone"
+msgstr "هاتف أذن"
+
+msgid "Ear-plug"
+msgstr "سدادة الأذن"
+
+msgid "Ear-shot"
+msgstr "مضروب أذن"
+
+msgid "Earache"
+msgstr "وجع الأذن"
+
+msgid "Earaches"
+msgstr "أوجاع الأذن"
+
+msgid "Eardrops"
+msgstr "قطرة الأذن"
+
+msgid "Eardrum"
+msgstr "طبلة الأذن"
+
+msgid "Eardrums"
+msgstr "طبلات الأذن"
+
+msgid "Eared"
+msgstr "ذو أذنين"
+
+msgid "Earing"
+msgstr "الحبل"
+
+msgid "Earl"
+msgstr "الإيرل"
+
+msgid "Earldom"
+msgstr "الأرليّة"
+
+msgid "Earldoms"
+msgstr "الأرليّة"
+
+msgid "Earlier"
+msgstr "في وقت سابق"
+
+msgid "Earliest"
+msgstr "أسبق"
+
+msgid "Earliness"
+msgstr "التبكير"
+
+msgid "Earls"
+msgstr "الإيرل"
+
+msgid "Early"
+msgstr "مبكرا"
+
+msgid "Earmark"
+msgstr "الإشارة"
+
+msgid "Earmarked"
+msgstr "مخصّص"
+
+msgid "Earmarking"
+msgstr "التخصيص"
+
+msgid "Earmarkings"
+msgstr "التخصيص"
+
+msgid "Earmarks"
+msgstr "الإشارات"
+
+msgid "Earmuffs"
+msgstr "واقيات للأذن"
+
+msgid "Earn"
+msgstr "إكسب"
+
+msgid "Earned"
+msgstr "مكسوب"
+
+msgid "Earner"
+msgstr "الكاسب"
+
+msgid "Earners"
+msgstr "الكسبة"
+
+msgid "Earnest"
+msgstr "العربون"
+
+msgid "Earnestly"
+msgstr "بشكل جديّ"
+
+msgid "Earnestness"
+msgstr "الجدّيّة"
+
+msgid "Earning"
+msgstr "الدخل"
+
+msgid "Earnings"
+msgstr "المداخيل"
+
+msgid "Earns"
+msgstr "يكسب"
+
+msgid "Earp"
+msgstr "إيرب -  أمريكيّ، رجل قانون و مقاتل"
+
+msgid "Earphone"
+msgstr "السمّاعة"
+
+msgid "Earphones"
+msgstr "السمّاعات"
+
+msgid "Earpiece"
+msgstr "أداة الاذن"
+
+msgid "Earpieces"
+msgstr "أدوات الاذان"
+
+msgid "Earplug"
+msgstr "سدادة الأذن"
+
+msgid "Earring"
+msgstr "القرط"
+
+msgid "Earrings"
+msgstr "الأقراط"
+
+msgid "Ears"
+msgstr "الآذان"
+
+msgid "Earshot"
+msgstr "مدى السمع"
+
+msgid "Earsplitting"
+msgstr "صام للأذن"
+
+msgid "Earth"
+msgstr "الأرض"
+
+msgid "Earthed"
+msgstr "اختبأ في اﻷرض"
+
+msgid "Earthen"
+msgstr "طيني"
+
+msgid "Earthenware"
+msgstr "الفخاريات"
+
+msgid "Earthier"
+msgstr "أكثر ترابا"
+
+msgid "Earthiest"
+msgstr "أكثر ترابا"
+
+msgid "Earthiness"
+msgstr "الدّنيويّة"
+
+msgid "Earthing"
+msgstr "الاختباء في اﻷرض"
+
+msgid "Earthliness"
+msgstr "الدّنيويّة"
+
+msgid "Earthly"
+msgstr "دنيوي"
+
+msgid "Earthmen"
+msgstr "بني البشر"
+
+msgid "Earthmover"
+msgstr "ماكينة الحفر أو نقل التراب"
+
+msgid "Earthmoving"
+msgstr "الحفر أو نقل التراب"
+
+msgid "Earthquake"
+msgstr "الزلزال"
+
+msgid "Earthquakes"
+msgstr "الزلازل"
+
+msgid "Earths"
+msgstr "الأرض"
+
+msgid "Earthshaking"
+msgstr "ذو أهمية كبرى"
+
+msgid "Earthward"
+msgstr "باتجاه الأرض"
+
+msgid "Earthwork"
+msgstr "المانع الأرضي"
+
+msgid "Earthworm"
+msgstr "دودة الأرض"
+
+msgid "Earthworms"
+msgstr "ديدان الأرض"
+
+msgid "Earthy"
+msgstr "ترابي"
+
+msgid "Earwax"
+msgstr "شمع الأذن"
+
+msgid "Earwig"
+msgstr "أبو المقص"
+
+msgid "Earwigs"
+msgstr "آباء المقص"
+
+msgid "Earwitness"
+msgstr "الشاهد"
+
+msgid "Earwitnesses"
+msgstr "الشهود"
+
+msgid "Ease"
+msgstr "السهولة"
+
+msgid "Eased"
+msgstr "خفّف"
+
+msgid "Easel"
+msgstr "الحامل"
+
+msgid "Easels"
+msgstr "الحوامل"
+
+msgid "Easement"
+msgstr "الراحة"
+
+msgid "Easements"
+msgstr "الراحة"
+
+msgid "Eases"
+msgstr "يخفّف"
+
+msgid "Easier"
+msgstr "أسهل"
+
+msgid "Easiest"
+msgstr "أسهل"
+
+msgid "Easily"
+msgstr "بسهولة"
+
+msgid "Easiness"
+msgstr "السهولة"
+
+msgid "Easing"
+msgstr "التخفيف"
+
+msgid "East"
+msgstr "الشرق"
+
+msgid "Eastbound"
+msgstr "متجّه شرقا"
+
+msgid "Easter"
+msgstr "عيد الفصح"
+
+msgid "Easterly"
+msgstr "باتجاه الشّرق"
+
+msgid "Eastern"
+msgstr "شرقي"
+
+msgid "Easterner"
+msgstr "الشرقي"
+
+msgid "Easterners"
+msgstr "الشرقيون"
+
+msgid "Easternmost"
+msgstr "أقصى الشرق"
+
+msgid "Easthampton"
+msgstr "إيستهامبتون"
+
+msgid "Easting"
+msgstr "الذهاب بإتجاه الشرق"
+
+msgid "Eastland"
+msgstr "إيستلاند - سياسيّ أمريكيّ : عضو مجلس الشّيوخ"
+
+msgid "Eastman"
+msgstr "إيسمان"
+
+msgid "Easts"
+msgstr "الشرق"
+
+msgid "Eastward"
+msgstr "شرقا"
+
+msgid "Eastwards"
+msgstr "شرقا"
+
+msgid "Eastwick"
+msgstr "إيستويك"
+
+msgid "Eastwood"
+msgstr "إيستوود"
+
+msgid "Easy"
+msgstr "سهل"
+
+msgid "Easygoing"
+msgstr "بسيط"
+
+msgid "Easygoingness"
+msgstr "البساطة"
+
+msgid "Eat"
+msgstr "كل"
+
+msgid "Eatable"
+msgstr "صالح للأكل"
+
+msgid "Eatables"
+msgstr "الأطعمة"
+
+msgid "Eaten"
+msgstr "مأكول"
+
+msgid "Eater"
+msgstr "الآكل"
+
+msgid "Eaters"
+msgstr "الأكلة"
+
+msgid "Eating"
+msgstr "الأكل"
+
+msgid "Eatings"
+msgstr "الأكل"
+
+msgid "Eaton"
+msgstr "إيتون"
+
+msgid "Eats"
+msgstr "يأكل"
+
+msgid "Eau"
+msgstr "إيو"
+
+msgid "Eave"
+msgstr "إيف"
+
+msgid "Eaves"
+msgstr "الإفريز"
+
+msgid "Eavesdrop"
+msgstr "التصنّت"
+
+msgid "Eavesdropped"
+msgstr "متصنّت"
+
+msgid "Eavesdropper"
+msgstr "المتصنّت"
+
+msgid "Eavesdroppers"
+msgstr "المتصنّتون"
+
+msgid "Eavesdropping"
+msgstr "الإنصات"
+
+msgid "Eavesdrops"
+msgstr "يتصنّت"
+
+msgid "Eazel"
+msgstr "إيزيل"
+
+msgid "Ebb"
+msgstr "الجزر"
+
+msgid "Ebbed"
+msgstr "إنحسر"
+
+msgid "Ebbing"
+msgstr "الإنحسار"
+
+msgid "Ebbs"
+msgstr "ينحسر"
+
+msgid "EBCDIC"
+msgstr "الشفرة الموسعة للتبادل العشريّ المشفّر"
+
+msgid "Eben"
+msgstr "إبين"
+
+msgid "Ebonite"
+msgstr "الإيبونيت"
+
+msgid "Ebony"
+msgstr "الأبنوس"
+
+msgid "Ebullience"
+msgstr "الحماسة"
+
+msgid "Ebulliency"
+msgstr "الابتهاج"
+
+msgid "Ebullient"
+msgstr "متحمّس"
+
+msgid "Ebulliently"
+msgstr "بشكل متحمّس"
+
+msgid "Ebullition"
+msgstr "الغليان"
+
+msgid "Ebullitions"
+msgstr "الغليان"
+
+msgid "Eccentric"
+msgstr "الغريب الأطوار"
+
+msgid "Eccentrically"
+msgstr "بشكل لامركزي"
+
+msgid "Eccentricities"
+msgstr "غرابة الأطوار"
+
+msgid "Eccentricity"
+msgstr "اللا مركزية"
+
+msgid "Eccentrics"
+msgstr "الغريبو الأطوار"
+
+msgid "Eccles"
+msgstr "إكليس"
+
+msgid "Ecclesiastic"
+msgstr "القسّ"
+
+msgid "Ecclesiastical"
+msgstr "إكليروسي"
+
+msgid "Ecclesiastically"
+msgstr "بشكل إكليروسي"
+
+msgid "Echelon"
+msgstr "المستوى"
+
+msgid "Echelons"
+msgstr "المستويات"
+
+msgid "Echidna"
+msgstr "إيكيدنا (آكل النمل)"
+
+msgid "Echinoderm"
+msgstr "شوكيّ"
+
+msgid "Echo"
+msgstr "الصدى"
+
+msgid "Echoed"
+msgstr "مردّد صدى"
+
+msgid "Echoes"
+msgstr "الأصداء"
+
+msgid "Echoing"
+msgstr "ترديد صدى"
+
+msgid "Echos"
+msgstr "الصدى"
+
+msgid "Eclat"
+msgstr "الشهرة"
+
+msgid "Eclectic"
+msgstr "إنتقائي"
+
+msgid "Eclectically"
+msgstr "بشكل إنتقائي"
+
+msgid "Eclipse"
+msgstr "الكسوف"
+
+msgid "Eclipsed"
+msgstr "مكسوف"
+
+msgid "Eclipses"
+msgstr "الكسوف"
+
+msgid "Eclipsing"
+msgstr "الكسوف"
+
+msgid "Ecliptic"
+msgstr "مسير الشمس"
+
+msgid "Eclogue"
+msgstr "القصيدة"
+
+msgid "EcoBlack"
+msgstr "أسود اقتصادي"
+
+msgid "Ecole"
+msgstr "دراسات عليا"
+
+msgid "Ecological"
+msgstr "بيئيّ"
+
+msgid "Ecologically"
+msgstr "بيئيا"
+
+msgid "Ecologies"
+msgstr "علوم البيئة"
+
+msgid "Ecologist"
+msgstr "عالم البيئة"
+
+msgid "Ecologists"
+msgstr "علماء الالبيئة"
+
+msgid "Ecology"
+msgstr "علم البيئة"
+
+msgid "Econometric"
+msgstr "اقتصاد إحصائيّ"
+
+msgid "Econometricians"
+msgstr "المتخصصون بالإقتصاد القياسي"
+
+msgid "Econometrics"
+msgstr "الإقتصاد القياسي"
+
+msgid "Economic"
+msgstr "إقتصادي"
+
+msgid "Economical"
+msgstr "إقتصادي"
+
+msgid "Economically"
+msgstr "إقتصاديا"
+
+msgid "Economics"
+msgstr "الإقتصاد"
+
+msgid "Economies"
+msgstr "الإقتصاديات"
+
+msgid "Economist"
+msgstr "الإقتصادي"
+
+msgid "Economists"
+msgstr "الإقتصاديون"
+
+msgid "Economize"
+msgstr "إقتصد"
+
+msgid "Economized"
+msgstr "مقتصد"
+
+msgid "Economizer"
+msgstr "المقتصد"
+
+msgid "Economizers"
+msgstr "المقتصدون"
+
+msgid "Economizes"
+msgstr "يقتصد"
+
+msgid "Economizing"
+msgstr "الإقتصاد"
+
+msgid "EconoMode"
+msgstr "النمط الاقتصادي"
+
+msgid "Economy"
+msgstr "الإقتصاد"
+
+msgid "Ecosystem"
+msgstr "النظام البيئي"
+
+msgid "Ecosystems"
+msgstr "الأنظمة البيئية"
+
+msgid "Ecstasies"
+msgstr "النّشوات"
+
+msgid "Ecstasize"
+msgstr "إنشرح"
+
+msgid "Ecstasized"
+msgstr "منشرح"
+
+msgid "Ecstasizes"
+msgstr "ينشرح"
+
+msgid "Ecstasizing"
+msgstr "الإنشراح"
+
+msgid "Ecstasy"
+msgstr "النشوة"
+
+msgid "Ecstatic"
+msgstr "منتشي"
+
+msgid "Ecstatically"
+msgstr "بنشوة"
+
+msgid "Ectoderm"
+msgstr "الأدمة"
+
+msgid "Ectopic"
+msgstr "منزاح"
+
+msgid "Ecuador"
+msgstr "إكوادور"
+
+msgid "Ecumenic"
+msgstr "متعلق بتوحيد اﻷديان"
+
+msgid "Ecumenical"
+msgstr "عالمي"
+
+msgid "Ecumenically"
+msgstr "عالميا"
+
+msgid "Ecumenicist"
+msgstr "موحد اﻷديان"
+
+msgid "Ecumenicists"
+msgstr "موحدين اﻷديان"
+
+msgid "Ecumenics"
+msgstr "تحليل عالمية الكنيسة"
+
+msgid "Ecumenism"
+msgstr "الوحدوية"
+
+msgid "Ecumenist"
+msgstr "الدّاعي الى توحيد الكنائس"
+
+msgid "Eczema"
+msgstr "الأكزيما"
+
+msgid "Eczemas"
+msgstr "الأكزيما"
+
+msgid "Ed"
+msgstr "إد"
+
+msgid "Edam"
+msgstr "إدام"
+
+msgid "Eddie"
+msgstr "إدي"
+
+msgid "Eddied"
+msgstr "مدوّم"
+
+msgid "Eddies"
+msgstr "الدوامة"
+
+msgid "Eddy"
+msgstr "الدوامة"
+
+msgid "Eddying"
+msgstr "التدويم"
+
+msgid "Edelweiss"
+msgstr "إديلويس"
+
+msgid "Edema"
+msgstr "الوذمة"
+
+msgid "Edemas"
+msgstr "الوذمة"
+
+msgid "Edematous"
+msgstr "متورم"
+
+msgid "Eden"
+msgstr "عدن"
+
+msgid "Edgar"
+msgstr "إدغار"
+
+msgid "Edge"
+msgstr "الحافة"
+
+msgid "Edge-mounted"
+msgstr "صاعد حافة"
+
+msgid "Edge-notched"
+msgstr "الحافة أحرزت"
+
+msgid "Edge-punched"
+msgstr "مثقوب حافة"
+
+msgid "Edged"
+msgstr "مشحوذ"
+
+msgid "Edger"
+msgstr "المقلم"
+
+msgid "Edgerton"
+msgstr "إجيرتون"
+
+msgid "Edges"
+msgstr "الحافات"
+
+msgid "Edgewater"
+msgstr "ايدجواتر"
+
+msgid "Edgeways"
+msgstr "على الحافة"
+
+msgid "Edgewise"
+msgstr "على الحافة"
+
+msgid "Edgewood"
+msgstr "إجوود"
+
+msgid "Edgier"
+msgstr "أكثر تنرفزا"
+
+msgid "Edgiest"
+msgstr "أكثر تنرفزا"
+
+msgid "Edginess"
+msgstr "الحدّة"
+
+msgid "Edging"
+msgstr "الشحذ"
+
+msgid "Edgy"
+msgstr "حاد"
+
+msgid "Edibility"
+msgstr "صلوحية الأكل"
+
+msgid "Edible"
+msgstr "صالح للأكل"
+
+msgid "Edibleness"
+msgstr "التّلاؤم للأكل"
+
+msgid "Edibles"
+msgstr "المأكولات"
+
+msgid "Edict"
+msgstr "المرسوم"
+
+msgid "Edicts"
+msgstr "المراسيم"
+
+msgid "Edification"
+msgstr "التنوير"
+
+msgid "Edifice"
+msgstr "الصرح"
+
+msgid "Edifices"
+msgstr "الصروح"
+
+msgid "Edified"
+msgstr "منشأ"
+
+msgid "Edifies"
+msgstr "ينشئ"
+
+msgid "Edify"
+msgstr "أنشأ"
+
+msgid "Edifying"
+msgstr "الإنشاء"
+
+msgid "Edifyingly"
+msgstr "بطريقة تنويريّة"
+
+msgid "Edinburgh"
+msgstr "أدنبرة"
+
+msgid "Edison"
+msgstr "إديسون"
+
+msgid "Edit"
+msgstr "التحرير"
+
+msgid "Editable"
+msgstr "قابل للتحرير"
+
+msgid "Edited"
+msgstr "محرّر"
+
+msgid "Edith"
+msgstr "إديث"
+
+msgid "Editing"
+msgstr "التحرير"
+
+msgid "Edition"
+msgstr "الطبعة"
+
+msgid "Editions"
+msgstr "الطبعات"
+
+msgid "Editor"
+msgstr "المحرّر"
+
+msgid "Editorial"
+msgstr "الإفتتاحية"
+
+msgid "Editorialist"
+msgstr "المحرّر"
+
+msgid "Editorialize"
+msgstr "إكتب إفتتاحية"
+
+msgid "Editorialized"
+msgstr "كتب إفتتاحية"
+
+msgid "Editorializer"
+msgstr "كاتب الافتتاحية"
+
+msgid "Editorializes"
+msgstr "يكتب إفتتاحية"
+
+msgid "Editorializing"
+msgstr "كتابة إفتتاحية"
+
+msgid "Editorially"
+msgstr "بشكل تحريري"
+
+msgid "Editorials"
+msgstr "الإفتتاحيات"
+
+msgid "Editors"
+msgstr "المحرّرون"
+
+msgid "Editorship"
+msgstr "منصب رئيس التحرير"
+
+msgid "Edits"
+msgstr "عمليات التحرير"
+
+msgid "Edmonds"
+msgstr "إدموندز"
+
+msgid "Edmondson"
+msgstr "إدموندسون"
+
+msgid "Edmonton"
+msgstr "أدمنتون"
+
+msgid "Edmund"
+msgstr "إدموند"
+
+msgid "Edna"
+msgstr "إدنة"
+
+msgid "EDP"
+msgstr "معالجة البيانات الإلكترونيّة"
+
+msgid "Eds"
+msgstr "اختصار ل أخصائي تعليم"
+
+msgid "Edsger"
+msgstr "إدسجير"
+
+msgid "EDT"
+msgstr "التوقيت الصيفي الشرقي"
+
+msgid "Eduard"
+msgstr "إدوارد"
+
+msgid "Eduardo"
+msgstr "إدواردو"
+
+msgid "Educable"
+msgstr "قابل للتعليم"
+
+msgid "Educate"
+msgstr "تعلّم"
+
+msgid "Educated"
+msgstr "متعلّم"
+
+msgid "Educatedly"
+msgstr "بشكل متعلّم"
+
+msgid "Educatedness"
+msgstr "الثقافة"
+
+msgid "Educates"
+msgstr "يتعلّم"
+
+msgid "Educating"
+msgstr "التعلّم"
+
+msgid "Education"
+msgstr "التعليم"
+
+msgid "Educational"
+msgstr "تربوي"
+
+msgid "Educationally"
+msgstr "بشكل تربوي"
+
+msgid "Educationist"
+msgstr "المربي"
+
+msgid "Educations"
+msgstr "التعليم"
+
+msgid "Educative"
+msgstr "تربوي"
+
+msgid "Educator"
+msgstr "المربي"
+
+msgid "Educators"
+msgstr "المربون"
+
+msgid "Educe"
+msgstr "إستنتج"
+
+msgid "Educed"
+msgstr "مستنتج"
+
+msgid "Educes"
+msgstr "يستنتج"
+
+msgid "Educible"
+msgstr "إستنباطيّ"
+
+msgid "Educing"
+msgstr "الإستنتاج"
+
+msgid "Edward"
+msgstr "إدوارد"
+
+msgid "Edwardian"
+msgstr "متعلق بالملك \"ايدوارد\" ملك انجلترا"
+
+msgid "Edwards"
+msgstr "إدواردز"
+
+msgid "Edwin"
+msgstr "إدوين"
+
+msgid "Edwina"
+msgstr "إدوينا"
+
+msgid "EEG"
+msgstr "التخطيط الدماغي"
+
+msgid "Eel"
+msgstr "الأنقليس"
+
+msgid "Eelgrass"
+msgstr "يلجراس"
+
+msgid "Eels"
+msgstr "الأنقليس"
+
+msgid "EEOC"
+msgstr "لجنة فرصة العمل المتساوية"
+
+msgid "Eerie"
+msgstr "مخيف"
+
+msgid "Eerier"
+msgstr "يرير"
+
+msgid "Eeriest"
+msgstr "يريست"
+
+msgid "Eerily"
+msgstr "بشكل مخيف"
+
+msgid "Eeriness"
+msgstr "يرينيس"
+
+msgid "Efface"
+msgstr "إمسح"
+
+msgid "Effaceable"
+msgstr "قابل للمسح"
+
+msgid "Effaced"
+msgstr "ممسوح"
+
+msgid "Effacement"
+msgstr "الطمس"
+
+msgid "Effacements"
+msgstr "الطمس"
+
+msgid "Effacer"
+msgstr "الماسح"
+
+msgid "Effaces"
+msgstr "يمسح"
+
+msgid "Effacing"
+msgstr "المسح"
+
+msgid "Effect"
+msgstr "التأثير"
+
+msgid "Effected"
+msgstr "منجز"
+
+msgid "Effecting"
+msgstr "الإحداث"
+
+msgid "Effective"
+msgstr "فعّال"
+
+msgid "Effectively"
+msgstr "عمليا"
+
+msgid "Effectiveness"
+msgstr "التأثير"
+
+msgid "Effectless"
+msgstr "غير فعّال"
+
+msgid "Effector"
+msgstr "المستجيب"
+
+msgid "Effectors"
+msgstr "المستجيبات"
+
+msgid "Effects"
+msgstr "التأثيرات"
+
+msgid "Effectual"
+msgstr "فعّال"
+
+msgid "Effectuality"
+msgstr "القدرة على التأثير"
+
+msgid "Effectually"
+msgstr "بشكل فعّال"
+
+msgid "Effectualness"
+msgstr "الفاعليّة"
+
+msgid "Effectuate"
+msgstr "أثّر"
+
+msgid "Effectuated"
+msgstr "مؤثّر"
+
+msgid "Effectuates"
+msgstr "يؤثّر"
+
+msgid "Effectuating"
+msgstr "التأثير"
+
+msgid "Effectuation"
+msgstr "الإتّمام"
+
+msgid "Effeminacy"
+msgstr "الخنوثة"
+
+msgid "Effeminate"
+msgstr "متخنث"
+
+msgid "Effeminately"
+msgstr "بشكل متخنث"
+
+msgid "Effeminateness"
+msgstr "الخنوثة"
+
+msgid "Efferent"
+msgstr "ناقل"
+
+msgid "Efferently"
+msgstr "بشكل ناقل"
+
+msgid "Effervesce"
+msgstr "فر"
+
+msgid "Effervesced"
+msgstr "مفار"
+
+msgid "Effervescence"
+msgstr "الإنفعال"
+
+msgid "Effervescent"
+msgstr "منفعل"
+
+msgid "Effervescently"
+msgstr "بشكل منفعل"
+
+msgid "Effervesces"
+msgstr "يفور"
+
+msgid "Effervescing"
+msgstr "الفوران"
+
+msgid "Effete"
+msgstr "واهن"
+
+msgid "Effetely"
+msgstr "بشكل واهن"
+
+msgid "Effeteness"
+msgstr "الضّعف، العقم"
+
+msgid "Efficacies"
+msgstr "الكفاءات"
+
+msgid "Efficacious"
+msgstr "فعّال"
+
+msgid "Efficaciously"
+msgstr "بشكل فعّال"
+
+msgid "Efficaciousness"
+msgstr "الفعالية"
+
+msgid "Efficacy"
+msgstr "الكفاءة"
+
+msgid "Efficiencies"
+msgstr "الكفاءات"
+
+msgid "Efficiency"
+msgstr "الكفاءة"
+
+msgid "Efficient"
+msgstr "كفوء"
+
+msgid "Efficiently"
+msgstr "بشكل كفوء"
+
+msgid "Effie"
+msgstr "إفي"
+
+msgid "Effigies"
+msgstr "الدمى"
+
+msgid "Effigy"
+msgstr "الدمية"
+
+msgid "Effloresce"
+msgstr "أزهر"
+
+msgid "Efflorescent"
+msgstr "مزهر"
+
+msgid "Effluence"
+msgstr "الدفق"
+
+msgid "Effluences"
+msgstr "الدفقات"
+
+msgid "Effluent"
+msgstr "متدفّق"
+
+msgid "Effluents"
+msgstr "المخلّفات السّائلة"
+
+msgid "Effluvia"
+msgstr "الروائح"
+
+msgid "Effluvium"
+msgstr "الرائحة"
+
+msgid "Efflux"
+msgstr "الدفق"
+
+msgid "Effluxion"
+msgstr "التدفق"
+
+msgid "Effort"
+msgstr "الجهد"
+
+msgid "Effortless"
+msgstr "سهل"
+
+msgid "Effortlessly"
+msgstr "بشكل سهل"
+
+msgid "Effortlessness"
+msgstr "السهولة"
+
+msgid "Efforts"
+msgstr "الجهود"
+
+msgid "Effulgently"
+msgstr "بشكل ساطع"
+
+msgid "Effuse"
+msgstr "أرق"
+
+msgid "Effused"
+msgstr "مراق"
+
+msgid "Effuses"
+msgstr "يريق"
+
+msgid "Effusing"
+msgstr "الإراقة"
+
+msgid "Effusion"
+msgstr "الإراقة"
+
+msgid "Effusions"
+msgstr "الإراقة"
+
+msgid "Effusive"
+msgstr "فياض"
+
+msgid "Effusively"
+msgstr "بشكل فياض"
+
+msgid "Effusiveness"
+msgstr "الفيض"
+
+msgid "Eft"
+msgstr "الإفت (زاحف)"
+
+msgid "Eg"
+msgstr "على سبيل المثال"
+
+msgid "EGA"
+msgstr "محوّل الجرافيك المحسّن"
+
+msgid "Egad"
+msgstr "التّعجّب الذي يعبّر عن الفرح أو المفاجأة"
+
+msgid "Egalitarian"
+msgstr "عادل"
+
+msgid "Egalitarianism"
+msgstr "مذهب المساواة"
+
+msgid "Egan"
+msgstr "إجان"
+
+msgid "Egerton"
+msgstr "إجيرتون"
+
+msgid "Egg"
+msgstr "البيض"
+
+msgid "Eggbeater"
+msgstr "مضرب البيض"
+
+msgid "Eggcup"
+msgstr "كأس البيضة"
+
+msgid "Egged"
+msgstr "يحرّض, يحرّك"
+
+msgid "Egger"
+msgstr "المحرض أو مجمع البيض"
+
+msgid "Egghead"
+msgstr "المثقّف"
+
+msgid "Eggheaded"
+msgstr "مثقّف"
+
+msgid "Eggheadedness"
+msgstr "الثقافة"
+
+msgid "Eggheads"
+msgstr "المثقّفون"
+
+msgid "Egging"
+msgstr "التحريض، الاصرار"
+
+msgid "Eggnog"
+msgstr "شراب البيض"
+
+msgid "Eggnogs"
+msgstr "مشروبات البيض"
+
+msgid "Eggplant"
+msgstr "الباذنجان"
+
+msgid "Eggplants"
+msgstr "الباذنجان"
+
+msgid "Eggs"
+msgstr "البيض"
+
+msgid "Eggshell"
+msgstr "قشر البيض"
+
+msgid "Eggshells"
+msgstr "قشور البيض"
+
+msgid "Ego"
+msgstr "الأنا"
+
+msgid "Egocentric"
+msgstr "مغرور"
+
+msgid "Egocentricity"
+msgstr "الأنانيّة"
+
+msgid "Egoism"
+msgstr "الأنا"
+
+msgid "Egoisms"
+msgstr "الأنا"
+
+msgid "Egoist"
+msgstr "أناني"
+
+msgid "Egoists"
+msgstr "الأنانيون"
+
+msgid "Egomaniacal"
+msgstr "مزهوّ"
+
+msgid "Egos"
+msgstr "الأنا"
+
+msgid "Egotism"
+msgstr "الغرورية"
+
+msgid "Egotisms"
+msgstr "الغرورية"
+
+msgid "Egotist"
+msgstr "المغرور"
+
+msgid "Egotistic"
+msgstr "مغرور"
+
+msgid "Egotistical"
+msgstr "مغرور"
+
+msgid "Egotistically"
+msgstr "بشكل مغرور"
+
+msgid "Egotists"
+msgstr "المغرورون"
+
+msgid "Egregious"
+msgstr "شنيع"
+
+msgid "Egregiously"
+msgstr "بشكل فضيع"
+
+msgid "Egregiousness"
+msgstr "الفضاعة"
+
+msgid "Egress"
+msgstr "الخروج"
+
+msgid "Egresses"
+msgstr "المخارج"
+
+msgid "Egression"
+msgstr "المخرج"
+
+msgid "Egressions"
+msgstr "المخارج"
+
+msgid "Egret"
+msgstr "مالك الحزين، أبن الماء"
+
+msgid "Egrets"
+msgstr "أبناء الماء"
+
+msgid "Egypt"
+msgstr "مصر"
+
+msgid "Egyptian"
+msgstr "المصري"
+
+msgid "Egyptians"
+msgstr "المصريون"
+
+msgid "Eh"
+msgstr "ايه"
+
+msgid "Ehrlich"
+msgstr "إهرليتش"
+
+msgid "Eichmann"
+msgstr "آيتشمان"
+
+msgid "Eider"
+msgstr "نوع من البط"
+
+msgid "Eiderdown"
+msgstr "ريش العيدر"
+
+msgid "Eiderdowns"
+msgstr "ريش العيدر"
+
+msgid "Eidetic"
+msgstr "تخيّلي"
+
+msgid "Eigenvalue"
+msgstr "معامل التحول الخطي"
+
+msgid "Eigenvalues"
+msgstr "معامل التحول الخطي (جمع)"
+
+msgid "Eight"
+msgstr "ثمانية"
+
+msgid "Eight-channel"
+msgstr "القناة ثمانية"
+
+msgid "Eighteen"
+msgstr "ثمانية عشر"
+
+msgid "Eighteenth"
+msgstr "ثامن عشر"
+
+msgid "Eighteenthly"
+msgstr "بشكل ثامن عشر"
+
+msgid "Eightfold"
+msgstr "ثمانيّ"
+
+msgid "Eighth"
+msgstr "الثمن"
+
+msgid "Eighthes"
+msgstr "الثمن"
+
+msgid "Eighthly"
+msgstr "ثامنا"
+
+msgid "Eighths"
+msgstr "الأثمان"
+
+msgid "Eighties"
+msgstr "الثمانينات"
+
+msgid "Eightieth"
+msgstr "ثمانون"
+
+msgid "Eights"
+msgstr "الثمانيات"
+
+msgid "Eighty"
+msgstr "ثمانون"
+
+msgid "Eighty-column"
+msgstr "العمود ثمانون"
+
+msgid "Eile"
+msgstr "آيل"
+
+msgid "Eileen"
+msgstr "آيلين"
+
+msgid "Einstein"
+msgstr "آينشتاين"
+
+msgid "Einsteinian"
+msgstr "منسوب ل أينشتين"
+
+msgid "Einsteinium"
+msgstr "الآينشتانيوم"
+
+msgid "Eire"
+msgstr "آير"
+
+msgid "Eisenhower"
+msgstr "آيزنهاور"
+
+msgid "Eisner"
+msgstr "آيسنير"
+
+msgid "Either"
+msgstr "أمّا"
+
+msgid "Either-way"
+msgstr "بأي من الطّرق"
+
+msgid "Either...or"
+msgstr "أمّا.. أو"
+
+msgid "Ejaculate"
+msgstr "إقذف"
+
+msgid "Ejaculated"
+msgstr "مقذوف"
+
+msgid "Ejaculates"
+msgstr "يقذف"
+
+msgid "Ejaculating"
+msgstr "القذف"
+
+msgid "Ejaculation"
+msgstr "القذف"
+
+msgid "Ejaculations"
+msgstr "القذف"
+
+msgid "Ejaculatory"
+msgstr "قذفي"
+
+msgid "Eject"
+msgstr "إقذف"
+
+msgid "Ejected"
+msgstr "مقذوف"
+
+msgid "Ejecting"
+msgstr "القذف"
+
+msgid "Ejection"
+msgstr "الطرد"
+
+msgid "Ejective"
+msgstr "طردي"
+
+msgid "Ejector"
+msgstr "القاذف"
+
+msgid "Ejectors"
+msgstr "القاذفات"
+
+msgid "Ejects"
+msgstr "يقذف"
+
+msgid "Ekberg"
+msgstr "إكبيرج"
+
+msgid "Eke"
+msgstr "دبّر"
+
+msgid "Eked"
+msgstr "دبّر"
+
+msgid "Ekes"
+msgstr "يدبّر"
+
+msgid "Eking"
+msgstr "التدبير"
+
+msgid "Ekstrom"
+msgstr "إكستروم"
+
+msgid "Ektachrome"
+msgstr "إكتاتشروم"
+
+msgid "El"
+msgstr "ال"
+
+msgid "Elaborate"
+msgstr "متقن"
+
+msgid "Elaborated"
+msgstr "متوسّع"
+
+msgid "Elaborately"
+msgstr "بشكل متقن"
+
+msgid "Elaborateness"
+msgstr "الإسهاب"
+
+msgid "Elaborates"
+msgstr "يتوسّع"
+
+msgid "Elaborating"
+msgstr "التوسّع"
+
+msgid "Elaboration"
+msgstr "الإسهاب"
+
+msgid "Elaborations"
+msgstr "الإسهاب"
+
+msgid "Elaborative"
+msgstr "مسهب"
+
+msgid "Elaborators"
+msgstr "المسهبون"
+
+msgid "Elaine"
+msgstr "إلين"
+
+msgid "Elan"
+msgstr "الهمّة"
+
+msgid "Elapse"
+msgstr "إنقض"
+
+msgid "Elapsed"
+msgstr "منقضي"
+
+msgid "Elapses"
+msgstr "ينقضي"
+
+msgid "Elapsing"
+msgstr "الإنقضاء"
+
+msgid "Elastic"
+msgstr "الشريط المطاطي"
+
+msgid "Elastical"
+msgstr "مرن"
+
+msgid "Elastically"
+msgstr "مطاطيا"
+
+msgid "Elasticities"
+msgstr "المرونة"
+
+msgid "Elasticity"
+msgstr "المطاطية"
+
+msgid "Elasticly"
+msgstr "بشكل مطاطي"
+
+msgid "Elastics"
+msgstr "الأشرطة المطاطية"
+
+msgid "Elastomer"
+msgstr "إلاستومر (يشبه المطاط)"
+
+msgid "Elate"
+msgstr "إنتش"
+
+msgid "Elated"
+msgstr "مبتهج"
+
+msgid "Elatedly"
+msgstr "بشكل مبتهج"
+
+msgid "Elatedness"
+msgstr "الابتهاج"
+
+msgid "Elater"
+msgstr "إلاتر"
+
+msgid "Elates"
+msgstr "ينتشي"
+
+msgid "Elating"
+msgstr "الإنتشاء"
+
+msgid "Elation"
+msgstr "الإنتشاء"
+
+msgid "Elba"
+msgstr "إلبا"
+
+msgid "Elbow"
+msgstr "المرفق"
+
+msgid "Elbowed"
+msgstr "مدفوع"
+
+msgid "Elbowing"
+msgstr "الدفع"
+
+msgid "Elbowroom"
+msgstr "المجال"
+
+msgid "Elbows"
+msgstr "المرافق"
+
+msgid "Elder"
+msgstr "الشيخ"
+
+msgid "Elderliness"
+msgstr "الكهولة"
+
+msgid "Elderly"
+msgstr "مسن"
+
+msgid "Elders"
+msgstr "الشيوخ"
+
+msgid "Eldest"
+msgstr "أكبر"
+
+msgid "Eldon"
+msgstr "إلدون"
+
+msgid "Eleanor"
+msgstr "إلينور"
+
+msgid "Eleazar"
+msgstr "إليزار"
+
+msgid "Elect"
+msgstr "منتخب"
+
+msgid "Elected"
+msgstr "منتخب"
+
+msgid "Electing"
+msgstr "الإنتخاب"
+
+msgid "Election"
+msgstr "الإنتخاب"
+
+msgid "Electioneer"
+msgstr "منظم الإنتخابات"
+
+msgid "Electioneered"
+msgstr "مساند مرشح"
+
+msgid "Electioneering"
+msgstr "مساندة مرشح"
+
+msgid "Electioneers"
+msgstr "منظمو الإنتخابات"
+
+msgid "Elections"
+msgstr "الإنتخابات"
+
+msgid "Elective"
+msgstr "إنتخابي"
+
+msgid "Electively"
+msgstr "إختياريا"
+
+msgid "Electiveness"
+msgstr "الاختيارية"
+
+msgid "Electives"
+msgstr "الموادّ الاختياريّة"
+
+msgid "Elector"
+msgstr "الناخب"
+
+msgid "Electoral"
+msgstr "إنتخابي"
+
+msgid "Electorally"
+msgstr "إنتخابيا"
+
+msgid "Electorate"
+msgstr "الناخبون"
+
+msgid "Electorates"
+msgstr "الناخبون"
+
+msgid "Electors"
+msgstr "الناخبون"
+
+msgid "Electra"
+msgstr "إليكترا"
+
+msgid "Electress"
+msgstr "المنتخبة"
+
+msgid "Electret"
+msgstr "ذو قطبية كهربائية دائمة"
+
+msgid "Electric"
+msgstr "كهربائي"
+
+msgid "Electrical"
+msgstr "كهربائي"
+
+msgid "Electrically"
+msgstr "بشكل كهربائي"
+
+msgid "Electricalness"
+msgstr "الحالة الكهربائية"
+
+msgid "Electrician"
+msgstr "الكهربائي"
+
+msgid "Electricians"
+msgstr "الكهربائيون"
+
+msgid "Electricities"
+msgstr "الكهرباء"
+
+msgid "Electricity"
+msgstr "الكهرباء"
+
+msgid "Electrics"
+msgstr "الكهرباء"
+
+msgid "Electrification"
+msgstr "الكهربة"
+
+msgid "Electrifications"
+msgstr "الكهربة"
+
+msgid "Electrified"
+msgstr "مكهرب"
+
+msgid "Electrifies"
+msgstr "يكهرب"
+
+msgid "Electrify"
+msgstr "كهرب"
+
+msgid "Electrifying"
+msgstr "التكهرب"
+
+msgid "Electrize"
+msgstr "كهرب"
+
+msgid "Electro"
+msgstr "كهرو"
+
+msgid "Electroanalysis"
+msgstr "التّحليل الكهربائيّ"
+
+msgid "Electrocardiogram"
+msgstr "رسم القلب"
+
+msgid "Electrocardiograms"
+msgstr "رسوم القلب"
+
+msgid "Electrocardiograph"
+msgstr "جهاز رسم القلب"
+
+msgid "Electrochemical"
+msgstr "كهروكيمياوي"
+
+msgid "Electrocute"
+msgstr "كهرب"
+
+msgid "Electrocuted"
+msgstr "مكهرب"
+
+msgid "Electrocutes"
+msgstr "يكهرب"
+
+msgid "Electrocuting"
+msgstr "التكهرب"
+
+msgid "Electrocution"
+msgstr "القتل بالصدمة الكهربائية"
+
+msgid "Electrocutions"
+msgstr "القتل بالصدمة الكهربائية"
+
+msgid "Electrode"
+msgstr "القطب الكهربائي"
+
+msgid "Electrodes"
+msgstr "الأقطاب الكهربائية"
+
+msgid "Electrodynamic"
+msgstr "كهروديناميكي"
+
+msgid "Electrodynamicly"
+msgstr "بشكل كهروديناميكي"
+
+msgid "Electrodynamics"
+msgstr "الديناميكا الكهربائية"
+
+msgid "Electroencephalogram"
+msgstr "رسم المخّ"
+
+msgid "Electroencephalograms"
+msgstr "رسوم المخّ"
+
+msgid "Electroencephalograph"
+msgstr "جهاز رسم المخّ"
+
+msgid "Electroencephalography"
+msgstr "رسم المخّ"
+
+msgid "Electrographic"
+msgstr "إليكتروجرافيك"
+
+msgid "Electrolysis"
+msgstr "التحليل الكهربائي"
+
+msgid "Electrolyte"
+msgstr "المنحل بالكهرباء"
+
+msgid "Electrolytes"
+msgstr "المنحلات بالكهرباء"
+
+msgid "Electrolytic"
+msgstr "محلّل كهربائيًّا"
+
+msgid "Electrolytically"
+msgstr "تحلّيلا كهربائيًّا"
+
+msgid "Electromagnet"
+msgstr "المغناطيس الكهربائي"
+
+msgid "Electromagnetic"
+msgstr "كهرومغناطيسي"
+
+msgid "Electromagnetically"
+msgstr "بالكهرومغناطيسية"
+
+msgid "Electromagnetism"
+msgstr "الكهرومغناطيسية"
+
+msgid "Electromagnetisms"
+msgstr "الكهرومغناطيسيات"
+
+msgid "Electromagnets"
+msgstr "المغناطيسات الكهربائية"
+
+msgid "Electromechanical"
+msgstr "كهروميكانيكيّ"
+
+msgid "Electromotive"
+msgstr "كهرو حركي"
+
+msgid "Electromyograph"
+msgstr "جهاز قياس كهربائية العضلات"
+
+msgid "Electromyographic"
+msgstr "متعلق ب جهاز قياس كهربائية العضلات"
+
+msgid "Electromyographically"
+msgstr "رسم كهربائية العضام بيانيا"
+
+msgid "Electromyography"
+msgstr "تشخيص أمراض العضلات"
+
+msgid "Electron"
+msgstr "الألكترون"
+
+msgid "Electron-emitting"
+msgstr "بعث الألكترون"
+
+msgid "Electronic"
+msgstr "إلكتروني"
+
+msgid "Electronically"
+msgstr "إلكترونيا"
+
+msgid "Electronics"
+msgstr "الإلكترونيات"
+
+msgid "Electrons"
+msgstr "الألكترونات"
+
+msgid "Electrophoresis"
+msgstr "الهجرة الكهربائيّة"
+
+msgid "Electrophorus"
+msgstr "مولد للكهرباء الساكنة"
+
+msgid "Electrophotographic"
+msgstr "تصوير كهربائي"
+
+msgid "Electroplate"
+msgstr "المطلي بالكهرباء"
+
+msgid "Electroplated"
+msgstr "مطلي"
+
+msgid "Electroplates"
+msgstr "يطلي"
+
+msgid "Electroplating"
+msgstr "الطلي"
+
+msgid "Electroshock"
+msgstr "الصّدمة الكهربيّة"
+
+msgid "Electroshocks"
+msgstr "الصّدمات الكهربيّة"
+
+msgid "Electrostatic"
+msgstr "مستقرّ الكهربائية"
+
+msgid "Electrostatically"
+msgstr "بالكهربائية المستقرة"
+
+msgid "Electrostatics"
+msgstr "علم الكهرباء المستقرّة"
+
+msgid "Electrotherapist"
+msgstr "المعالج بالكهرباء"
+
+msgid "Electrotypers"
+msgstr "الدهانون بالكهرباء"
+
+msgid "Electroweak"
+msgstr "متعلق بالكهرومغناطيسية والقوة الضعيفة"
+
+msgid "Elects"
+msgstr "المنتخبون"
+
+msgid "Eled"
+msgstr "إليد"
+
+msgid "Elegance"
+msgstr "الرشاقة"
+
+msgid "Elegances"
+msgstr "الرشاقة"
+
+msgid "Elegancy"
+msgstr "إليجانسي"
+
+msgid "Elegant"
+msgstr "رائع"
+
+msgid "Elegantly"
+msgstr "بشكل رائع"
+
+msgid "Elegiac"
+msgstr "رثائي"
+
+msgid "Elegies"
+msgstr "المرثيات"
+
+msgid "Elegy"
+msgstr "المرثية"
+
+msgid "Element"
+msgstr "العنصر"
+
+msgid "Elemental"
+msgstr "عنصري"
+
+msgid "Elementally"
+msgstr "جوهريا"
+
+msgid "Elementarily"
+msgstr "بشكل أولّي"
+
+msgid "Elementariness"
+msgstr "العنصرية الغير مركبة"
+
+msgid "Elementary"
+msgstr "أولّي"
+
+msgid "Elements"
+msgstr "العناصر"
+
+msgid "Eleminate"
+msgstr "إليمنات"
+
+msgid "Elena"
+msgstr "إلينا"
+
+msgid "Elephant"
+msgstr "الفيل"
+
+msgid "Elephantine"
+msgstr "فيلي"
+
+msgid "Elephants"
+msgstr "الفيلة"
+
+msgid "Elevate"
+msgstr "إرفع"
+
+msgid "Elevated"
+msgstr "مرتفع"
+
+msgid "Elevates"
+msgstr "يرفع"
+
+msgid "Elevating"
+msgstr "الرفع"
+
+msgid "Elevation"
+msgstr "الإرتفاع"
+
+msgid "Elevations"
+msgstr "الإرتفاعات"
+
+msgid "Elevator"
+msgstr "المصعد"
+
+msgid "Elevators"
+msgstr "المصاعد"
+
+msgid "Eleven"
+msgstr "أحد عشر"
+
+msgid "Elevenses"
+msgstr "التصبيرة الصباحية"
+
+msgid "Eleventh"
+msgstr "حادي عشر"
+
+msgid "Elf"
+msgstr "العفريت"
+
+msgid "Elfin"
+msgstr "عفريتي"
+
+msgid "Elfish"
+msgstr "عفريتي"
+
+msgid "Elfishly"
+msgstr "بشكل عفريتي"
+
+msgid "Elfishness"
+msgstr "العفرتة"
+
+msgid "Elfs"
+msgstr "الجني"
+
+msgid "Elgin"
+msgstr "إلجين"
+
+msgid "Eli"
+msgstr "ألي"
+
+msgid "Elicit"
+msgstr "إنتزع"
+
+msgid "Elicitation"
+msgstr "الاستخراج"
+
+msgid "Elicitations"
+msgstr "الاستخراجات"
+
+msgid "Elicited"
+msgstr "منتزع"
+
+msgid "Eliciting"
+msgstr "الإنتزاع"
+
+msgid "Elicits"
+msgstr "ينتزع"
+
+msgid "Elide"
+msgstr "أسقط"
+
+msgid "Elided"
+msgstr "مسقط"
+
+msgid "Elides"
+msgstr "يسقط"
+
+msgid "Eliding"
+msgstr "الإسقاط"
+
+msgid "Eligibilities"
+msgstr "الإستحقاقات"
+
+msgid "Eligibility"
+msgstr "الإستحقاق"
+
+msgid "Eligible"
+msgstr "مؤهّل"
+
+msgid "Eligibly"
+msgstr "مؤهلا"
+
+msgid "Elijah"
+msgstr "أليجه"
+
+msgid "Eliminate"
+msgstr "أزل"
+
+msgid "Eliminated"
+msgstr "مزال"
+
+msgid "Eliminates"
+msgstr "يزيل"
+
+msgid "Eliminating"
+msgstr "الإزالة"
+
+msgid "Elimination"
+msgstr "الإزالة"
+
+msgid "Eliminations"
+msgstr "الإزالة"
+
+msgid "Eliminative"
+msgstr "مزيل"
+
+msgid "Eliminator"
+msgstr "المزيل"
+
+msgid "Eliminators"
+msgstr "المزيلات"
+
+msgid "Elinor"
+msgstr "إلينور"
+
+msgid "Eliot"
+msgstr "إليوت"
+
+msgid "Elisabeth"
+msgstr "إليزابيث"
+
+msgid "Elise"
+msgstr "إليز"
+
+msgid "Elisha"
+msgstr "إليشا"
+
+msgid "Elision"
+msgstr "الترخيم"
+
+msgid "Elisions"
+msgstr "الترخيم"
+
+msgid "Elite"
+msgstr "النخبة"
+
+msgid "Elites"
+msgstr "النخب"
+
+msgid "Elitism"
+msgstr "النخبية"
+
+msgid "Elitist"
+msgstr "نخبوي"
+
+msgid "Elixir"
+msgstr "الإكسير"
+
+msgid "Elizabeth"
+msgstr "إليزابيث"
+
+msgid "Elizabethan"
+msgstr "اليزابيثي"
+
+msgid "Elizabethans"
+msgstr "اليزابيثيون"
+
+msgid "Elk"
+msgstr "الأيّل"
+
+msgid "Elkhart"
+msgstr "إلخارت"
+
+msgid "Elks"
+msgstr "الأيآئل"
+
+msgid "Ell"
+msgstr "الذراع"
+
+msgid "Ella"
+msgstr "إيلا"
+
+msgid "Ellen"
+msgstr "إلين"
+
+msgid "Ellie"
+msgstr "إلي"
+
+msgid "Elliot"
+msgstr "إليوت"
+
+msgid "Elliott"
+msgstr "إليوت"
+
+msgid "Ellipse"
+msgstr "البيضوي"
+
+msgid "Ellipses"
+msgstr "الحذوفات"
+
+msgid "Ellipsis"
+msgstr "الحذف"
+
+msgid "Ellipsoid"
+msgstr "مجسم القطع الناقص"
+
+msgid "Ellipsoidal"
+msgstr "بيضاوي"
+
+msgid "Ellipsoids"
+msgstr "مجسمات القطع الناقص"
+
+msgid "Ellipsometer"
+msgstr "جهاز قياس الأهليلجية"
+
+msgid "Elliptic"
+msgstr "إهليليجي"
+
+msgid "Elliptical"
+msgstr "إهليليجي"
+
+msgid "Elliptically"
+msgstr "بشكل إهليليجي"
+
+msgid "Ellipticity"
+msgstr "الإهليليجية"
+
+msgid "Ellis"
+msgstr "أليس"
+
+msgid "Ellison"
+msgstr "إليسون"
+
+msgid "Ellsworth"
+msgstr "ألسويرث"
+
+msgid "Ellwood"
+msgstr "ألوود"
+
+msgid "Elm"
+msgstr "الدردار"
+
+msgid "Elmer"
+msgstr "ألمير"
+
+msgid "Elmhurst"
+msgstr "إلمهورست"
+
+msgid "Elmira"
+msgstr "إلميرا"
+
+msgid "Elms"
+msgstr "أشجار الدردار"
+
+msgid "Elmsford"
+msgstr "إلمسفورد"
+
+msgid "Elocution"
+msgstr "الخطابة"
+
+msgid "Elocutionist"
+msgstr "الخطيب"
+
+msgid "Elocutions"
+msgstr "الخطابة"
+
+msgid "Eloise"
+msgstr "إلويس"
+
+msgid "Elongate"
+msgstr "طوّل"
+
+msgid "Elongated"
+msgstr "مطوّل"
+
+msgid "Elongates"
+msgstr "يطوّل"
+
+msgid "Elongating"
+msgstr "التطويل"
+
+msgid "Elongation"
+msgstr "الإطالة"
+
+msgid "Elope"
+msgstr "إهرب"
+
+msgid "Eloped"
+msgstr "هارب"
+
+msgid "Elopement"
+msgstr "الفرار"
+
+msgid "Eloper"
+msgstr "إلوبير"
+
+msgid "Elopes"
+msgstr "يهرب"
+
+msgid "Eloping"
+msgstr "الهروب"
+
+msgid "Eloquence"
+msgstr "الفصاحة"
+
+msgid "Eloquent"
+msgstr "بليغ"
+
+msgid "Eloquently"
+msgstr "بشكل بليغ"
+
+msgid "Elroy"
+msgstr "ألروي"
+
+msgid "Els"
+msgstr "إيلس"
+
+msgid "Else"
+msgstr "ما عدا ذلك"
+
+msgid "Elsewhere"
+msgstr "في مكان آخر"
+
+msgid "Elsie"
+msgstr "إلسي"
+
+msgid "Elsinore"
+msgstr "إلزينور"
+
+msgid "Elton"
+msgstr "ألتن"
+
+msgid "Eluate"
+msgstr "المحلول السّائل الذي ينشأ عن عملية الاستخراج"
+
+msgid "Eluates"
+msgstr "المحاليل السّائلة التي تنشأ عن عملية الاستخراج"
+
+msgid "Elucidate"
+msgstr "وضّح"
+
+msgid "Elucidated"
+msgstr "موضّح"
+
+msgid "Elucidates"
+msgstr "يوضّح"
+
+msgid "Elucidating"
+msgstr "التوضيح"
+
+msgid "Elucidation"
+msgstr "التوضيح"
+
+msgid "Elucidations"
+msgstr "التوضيحات"
+
+msgid "Elucidative"
+msgstr "توضيحي"
+
+msgid "Elude"
+msgstr "تملّص"
+
+msgid "Eluded"
+msgstr "متملّص"
+
+msgid "Eludes"
+msgstr "يتملّص"
+
+msgid "Eluding"
+msgstr "التملّص"
+
+msgid "Elusion"
+msgstr "المراوغة"
+
+msgid "Elusions"
+msgstr "المراوغات"
+
+msgid "Elusive"
+msgstr "مراوغ"
+
+msgid "Elusively"
+msgstr "بشكل مراوغ"
+
+msgid "Elusiveness"
+msgstr "المراوغة"
+
+msgid "Elute"
+msgstr "أزل"
+
+msgid "Eluted"
+msgstr "مزال"
+
+msgid "Eluting"
+msgstr "الإزالة"
+
+msgid "Elution"
+msgstr "عملية الاستخراج"
+
+msgid "Elves"
+msgstr "الجان"
+
+msgid "Elvis"
+msgstr "ألفيس"
+
+msgid "Ely"
+msgstr "ألي"
+
+msgid "Elysian"
+msgstr "سماويّ"
+
+msgid "Elysium"
+msgstr "الجنّة"
+
+msgid "Em"
+msgstr "إم - وحدة قياس"
+
+msgid "Emaciate"
+msgstr "إضعف"
+
+msgid "Emaciated"
+msgstr "ضاعف"
+
+msgid "Emaciates"
+msgstr "يضعف"
+
+msgid "Emaciating"
+msgstr "الضعف"
+
+msgid "Emaciation"
+msgstr "النحول"
+
+msgid "Emaciations"
+msgstr "النحول"
+
+msgid "Emacs"
+msgstr "إماس"
+
+msgid "Email"
+msgstr "البريد الإلكترونيّ"
+
+msgid "Emanate"
+msgstr "إنبثق"
+
+msgid "Emanated"
+msgstr "منبثق"
+
+msgid "Emanates"
+msgstr "ينبثق"
+
+msgid "Emanating"
+msgstr "الإنبثاق"
+
+msgid "Emanation"
+msgstr "الإنبثاق"
+
+msgid "Emanations"
+msgstr "الإنبثاق"
+
+msgid "Emanative"
+msgstr "إنبثاقي"
+
+msgid "Emancipate"
+msgstr "أعتق"
+
+msgid "Emancipated"
+msgstr "معتق"
+
+msgid "Emancipates"
+msgstr "يعتق"
+
+msgid "Emancipating"
+msgstr "الإعتاق"
+
+msgid "Emancipation"
+msgstr "الإنعتاق"
+
+msgid "Emancipations"
+msgstr "الإنعتاق"
+
+msgid "Emancipator"
+msgstr "المعتق"
+
+msgid "Emancipators"
+msgstr "المعتقون"
+
+msgid "Emanuel"
+msgstr "إمانويل"
+
+msgid "Emasculate"
+msgstr "مخنّث"
+
+msgid "Emasculated"
+msgstr "مخصي"
+
+msgid "Emasculates"
+msgstr "يخصي"
+
+msgid "Emasculating"
+msgstr "الخصية"
+
+msgid "Emasculation"
+msgstr "الإخصاء"
+
+msgid "Emasculations"
+msgstr "الإخصاء"
+
+msgid "Embalm"
+msgstr "حنّط"
+
+msgid "Embalmed"
+msgstr "محنّط"
+
+msgid "Embalmer"
+msgstr "المحنّط"
+
+msgid "Embalmers"
+msgstr "المحنّطون"
+
+msgid "Embalming"
+msgstr "التحنيط"
+
+msgid "Embalmment"
+msgstr "الصبر"
+
+msgid "Embalmments"
+msgstr "الصبر"
+
+msgid "Embalms"
+msgstr "يحنّط"
+
+msgid "Embank"
+msgstr "سدّ"
+
+msgid "Embanked"
+msgstr "مسدود"
+
+msgid "Embanking"
+msgstr "السدّ"
+
+msgid "Embankment"
+msgstr "الحاجز"
+
+msgid "Embankments"
+msgstr "الحواجز"
+
+msgid "Embanks"
+msgstr "يسدّ"
+
+msgid "Embarcadero"
+msgstr "مكان النزول بخاصّة على ممرّ مائيّ داخليّ"
+
+msgid "Embargo"
+msgstr "المقاطعة"
+
+msgid "Embargoed"
+msgstr "مقاطع"
+
+msgid "Embargoes"
+msgstr "المقاطعات"
+
+msgid "Embargoing"
+msgstr "المقاطعة"
+
+msgid "Embark"
+msgstr "إصعد"
+
+msgid "Embarkation"
+msgstr "الصعود"
+
+msgid "Embarkations"
+msgstr "الصعود"
+
+msgid "Embarked"
+msgstr "صاعد"
+
+msgid "Embarking"
+msgstr "الصعود"
+
+msgid "Embarkment"
+msgstr "الرّكوب"
+
+msgid "Embarkments"
+msgstr "الركوب"
+
+msgid "Embarks"
+msgstr "يصعد"
+
+msgid "Embarrass"
+msgstr "أحرج"
+
+msgid "Embarrassed"
+msgstr "محرج"
+
+msgid "Embarrassedly"
+msgstr "باحراج"
+
+msgid "Embarrasses"
+msgstr "يحرج"
+
+msgid "Embarrassing"
+msgstr "الإحراج"
+
+msgid "Embarrassingly"
+msgstr "باحراج"
+
+msgid "Embarrassment"
+msgstr "الإحراج"
+
+msgid "Embassies"
+msgstr "السفارات"
+
+msgid "Embassy"
+msgstr "السفارة"
+
+msgid "Embattle"
+msgstr "عبّئ"
+
+msgid "Embattled"
+msgstr "محاصر"
+
+msgid "Embattles"
+msgstr "يعبّئ"
+
+msgid "Embattling"
+msgstr "التعبئة"
+
+msgid "Embed"
+msgstr "ضمّن"
+
+msgid "Embedded"
+msgstr "مضمّن"
+
+msgid "Embedding"
+msgstr "التضمين"
+
+msgid "Embedment"
+msgstr "الغرز"
+
+msgid "Embeds"
+msgstr "يضمّن"
+
+msgid "Embellish"
+msgstr "زيّن"
+
+msgid "Embellished"
+msgstr "مزيّن"
+
+msgid "Embellisher"
+msgstr "المجمل"
+
+msgid "Embellishes"
+msgstr "يزيّن"
+
+msgid "Embellishing"
+msgstr "التزيين"
+
+msgid "Embellishment"
+msgstr "الزينة"
+
+msgid "Embellishments"
+msgstr "الزينة"
+
+msgid "Ember"
+msgstr "الجمرة"
+
+msgid "Embers"
+msgstr "الجمر"
+
+msgid "Embezzle"
+msgstr "إختلس"
+
+msgid "Embezzled"
+msgstr "مختلس"
+
+msgid "Embezzlement"
+msgstr "الإختلاس"
+
+msgid "Embezzlements"
+msgstr "الإختلاسات"
+
+msgid "Embezzler"
+msgstr "المختلس"
+
+msgid "Embezzlers"
+msgstr "المختلسون"
+
+msgid "Embezzles"
+msgstr "يختلس"
+
+msgid "Embezzling"
+msgstr "الإختلاس"
+
+msgid "Embitter"
+msgstr "أشعر بالمرارة"
+
+msgid "Embittered"
+msgstr "شاعر بالمرارة"
+
+msgid "Embittering"
+msgstr "إشعار بالمرارة"
+
+msgid "Embitterment"
+msgstr "التنغيص"
+
+msgid "Embitterments"
+msgstr "التنغيص"
+
+msgid "Embitters"
+msgstr "يشعر بالمرارة"
+
+msgid "Emblazon"
+msgstr "مجّد"
+
+msgid "Emblazoned"
+msgstr "مزركش"
+
+msgid "Emblazonment"
+msgstr "الزّخرفة"
+
+msgid "Emblazons"
+msgstr "يمجّد"
+
+msgid "Emblem"
+msgstr "الشعار"
+
+msgid "Emblematic"
+msgstr "رمزي"
+
+msgid "Emblematical"
+msgstr "رمزي"
+
+msgid "Emblematically"
+msgstr "بشكل رمزي"
+
+msgid "Emblems"
+msgstr "الشعارات"
+
+msgid "Embodied"
+msgstr "مجسّد"
+
+msgid "Embodier"
+msgstr "المجسّد"
+
+msgid "Embodies"
+msgstr "يجسّد"
+
+msgid "Embodiment"
+msgstr "التضمين"
+
+msgid "Embodiments"
+msgstr "التضمين"
+
+msgid "Embody"
+msgstr "جسّد"
+
+msgid "Embodying"
+msgstr "التجسيد"
+
+msgid "Embolden"
+msgstr "شجّع"
+
+msgid "Emboldened"
+msgstr "مشجّع"
+
+msgid "Emboldening"
+msgstr "التشجيع"
+
+msgid "Emboldens"
+msgstr "يشجّع"
+
+msgid "Embolism"
+msgstr "الجلطة"
+
+msgid "Embolisms"
+msgstr "الجلطات"
+
+msgid "Embosom"
+msgstr "إحضن"
+
+msgid "Embosomed"
+msgstr "محضون"
+
+msgid "Embosoming"
+msgstr "الحضن"
+
+msgid "Embosoms"
+msgstr "يحضن"
+
+msgid "Emboss"
+msgstr "إنقش"
+
+msgid "Embossed"
+msgstr "منقوش"
+
+msgid "Embosser"
+msgstr "المزخرف"
+
+msgid "Embossers"
+msgstr "المزخرفون"
+
+msgid "Embosses"
+msgstr "ينقش"
+
+msgid "Embossing"
+msgstr "النقش"
+
+msgid "Embossment"
+msgstr "النقش"
+
+msgid "Embossments"
+msgstr "النقوش"
+
+msgid "Embouchure"
+msgstr "استخدام الشفاه، اللّسان و الأسنان في عزف آلات النفخ الموسيقية"
+
+msgid "Embower"
+msgstr "ظلّل"
+
+msgid "Embrace"
+msgstr "العناق"
+
+msgid "Embraceable"
+msgstr "قابل للضّم"
+
+msgid "Embraced"
+msgstr "تعانق"
+
+msgid "Embracement"
+msgstr "العناق"
+
+msgid "Embracer"
+msgstr "المعانق"
+
+msgid "Embraces"
+msgstr "المعانقة"
+
+msgid "Embracing"
+msgstr "التعانق"
+
+msgid "Embracingly"
+msgstr "بعناق"
+
+msgid "Embracive"
+msgstr "إحتوائي"
+
+msgid "Embrittle"
+msgstr "هشّش"
+
+msgid "Embroider"
+msgstr "طرّز"
+
+msgid "Embroidered"
+msgstr "مطّرز"
+
+msgid "Embroiderer"
+msgstr "المطّرز"
+
+msgid "Embroiderers"
+msgstr "المطّرزون"
+
+msgid "Embroideries"
+msgstr "التطريزات"
+
+msgid "Embroidering"
+msgstr "التطريز"
+
+msgid "Embroiders"
+msgstr "يطرّز"
+
+msgid "Embroidery"
+msgstr "التطريز"
+
+msgid "Embroil"
+msgstr "ورّط"
+
+msgid "Embroiled"
+msgstr "مورّط"
+
+msgid "Embroiling"
+msgstr "التوريط"
+
+msgid "Embroils"
+msgstr "يورّط"
+
+msgid "Embryo"
+msgstr "الجنين"
+
+msgid "Embryologic"
+msgstr "جنيني"
+
+msgid "Embryological"
+msgstr "جنيني"
+
+msgid "Embryologically"
+msgstr "بشكل جنيني"
+
+msgid "Embryology"
+msgstr "علم الأجنة"
+
+msgid "Embryonic"
+msgstr "جنيني"
+
+msgid "Embryonically"
+msgstr "بشكل جنيني"
+
+msgid "Embryos"
+msgstr "الجنين"
+
+msgid "Emcee"
+msgstr "المقدّم"
+
+msgid "Emceed"
+msgstr "قدَم"
+
+msgid "Emend"
+msgstr "صحّح"
+
+msgid "Emendable"
+msgstr "قابل للتّصحيح"
+
+msgid "Emended"
+msgstr "مصحّح"
+
+msgid "Emender"
+msgstr "المصحح"
+
+msgid "Emerald"
+msgstr "الزمردة"
+
+msgid "Emeralds"
+msgstr "الزمردات"
+
+msgid "Emerge"
+msgstr "إظهر"
+
+msgid "Emerged"
+msgstr "ظاهر"
+
+msgid "Emergence"
+msgstr "الظهور"
+
+msgid "Emergences"
+msgstr "الظهور"
+
+msgid "Emergencies"
+msgstr "حالات الطوارئ"
+
+msgid "Emergency"
+msgstr "الطوارئ"
+
+msgid "Emergent"
+msgstr "ظاهر"
+
+msgid "Emerges"
+msgstr "يظهر"
+
+msgid "Emerging"
+msgstr "الظهور"
+
+msgid "Emeries"
+msgstr "الأحجار"
+
+msgid "Emeriti"
+msgstr "المحارب الذي أنهى خدمته بشرف"
+
+msgid "Emeritus"
+msgstr "فخري"
+
+msgid "Emersion"
+msgstr "الطلوع"
+
+msgid "Emerson"
+msgstr "إيمرسن"
+
+msgid "Emery"
+msgstr "الحجر"
+
+msgid "Emetic"
+msgstr "مقيئ"
+
+msgid "Emetics"
+msgstr "المقيئات"
+
+msgid "Emigrant"
+msgstr "مهاجر"
+
+msgid "Emigrants"
+msgstr "المهاجرون"
+
+msgid "Emigrate"
+msgstr "هاجر"
+
+msgid "Emigrated"
+msgstr "مهاجر"
+
+msgid "Emigrates"
+msgstr "يهاجر"
+
+msgid "Emigrating"
+msgstr "الهجرة"
+
+msgid "Emigration"
+msgstr "الهجرة"
+
+msgid "Emigrations"
+msgstr "الهجرات"
+
+msgid "Emil"
+msgstr "أميل"
+
+msgid "Emile"
+msgstr "أميل"
+
+msgid "Emilio"
+msgstr "إمليو"
+
+msgid "Emily"
+msgstr "إيميلي"
+
+msgid "Eminence"
+msgstr "السّموّ"
+
+msgid "Eminent"
+msgstr "سامي"
+
+msgid "Eminently"
+msgstr "بتفوق"
+
+msgid "Emirate"
+msgstr "الإمارة"
+
+msgid "Emirates"
+msgstr "الإمارات"
+
+msgid "Emissaries"
+msgstr "المبعوثون"
+
+msgid "Emissary"
+msgstr "المبعوث"
+
+msgid "Emission"
+msgstr "الإشعاع"
+
+msgid "Emissions"
+msgstr "الإشعاعات"
+
+msgid "Emissivities"
+msgstr "قوة الإشعاع"
+
+msgid "Emissivity"
+msgstr "قوة الإشعاع"
+
+msgid "Emit"
+msgstr "إبعث"
+
+msgid "Emits"
+msgstr "يبعث"
+
+msgid "Emittance"
+msgstr "الابتعاثية"
+
+msgid "Emitted"
+msgstr "مبعوث"
+
+msgid "Emitter"
+msgstr "الباعث"
+
+msgid "Emitters"
+msgstr "الباعثون"
+
+msgid "Emitting"
+msgstr "البعث"
+
+msgid "Emma"
+msgstr "إيما"
+
+msgid "Emmanuel"
+msgstr "إمانويل"
+
+msgid "Emmett"
+msgstr "إميت"
+
+msgid "Emolument"
+msgstr "المكافأة"
+
+msgid "Emoluments"
+msgstr "المكافآت"
+
+msgid "Emory"
+msgstr "إموري"
+
+msgid "Emotion"
+msgstr "العاطفة"
+
+msgid "Emotional"
+msgstr "عاطفي"
+
+msgid "Emotionalism"
+msgstr "العاطفية"
+
+msgid "Emotionality"
+msgstr "العاطفية"
+
+msgid "Emotionally"
+msgstr "عاطفيا"
+
+msgid "Emotionless"
+msgstr "قاس"
+
+msgid "Emotions"
+msgstr "العواطف"
+
+msgid "Empath"
+msgstr "إمباث"
+
+msgid "Empathetically"
+msgstr "بشكل تقمّصيّ"
+
+msgid "Empathic"
+msgstr "تقمّصيّ"
+
+msgid "Empathized"
+msgstr "تعاطف"
+
+msgid "Empathy"
+msgstr "التعاطف"
+
+msgid "Emperor"
+msgstr "الإمبراطور"
+
+msgid "Emperors"
+msgstr "الأباطرة"
+
+msgid "Emphases"
+msgstr "التأكيدات"
+
+msgid "Emphasis"
+msgstr "التأكيد"
+
+msgid "Emphasize"
+msgstr "أكّد"
+
+msgid "Emphasized"
+msgstr "مؤكّد"
+
+msgid "Emphasizes"
+msgstr "يؤكّد"
+
+msgid "Emphasizing"
+msgstr "التأكيد"
+
+msgid "Emphatic"
+msgstr "توكيدي"
+
+msgid "Emphatically"
+msgstr "بتأكيد"
+
+msgid "Emphysema"
+msgstr "الانتفاخ"
+
+msgid "Emphysematous"
+msgstr "الامتلاء"
+
+msgid "Empire"
+msgstr "الإمبراطورية"
+
+msgid "Empires"
+msgstr "الإمبراطوريات"
+
+msgid "Empiric"
+msgstr "المجرب"
+
+msgid "Empirical"
+msgstr "تجريبي"
+
+msgid "Empirically"
+msgstr "بشكل تجريبي"
+
+msgid "Empiricism"
+msgstr "التجريبية"
+
+msgid "Empiricist"
+msgstr "التجريبي"
+
+msgid "Empiricists"
+msgstr "التجريبيون"
+
+msgid "Emplace"
+msgstr "ضع"
+
+msgid "Emplacement"
+msgstr "الموضع"
+
+msgid "Emplastic"
+msgstr "إمبلاستيك"
+
+msgid "Employ"
+msgstr "الإستخدام"
+
+msgid "Employability"
+msgstr "الإستخدامية"
+
+msgid "Employable"
+msgstr "قابل للإستخدام"
+
+msgid "Employed"
+msgstr "مستخدم"
+
+msgid "Employee"
+msgstr "المستخدم"
+
+msgid "Employees"
+msgstr "المستخدمون"
+
+msgid "Employer"
+msgstr "ربّ العمل"
+
+msgid "Employers"
+msgstr "أرباب الأعمال"
+
+msgid "Employing"
+msgstr "الإستخدام"
+
+msgid "Employment"
+msgstr "التوظيف"
+
+msgid "Employments"
+msgstr "التوظيف"
+
+msgid "Employs"
+msgstr "الإستخدامات"
+
+msgid "Emporia"
+msgstr "المخازن التجارية"
+
+msgid "Emporium"
+msgstr "المتجر"
+
+msgid "Emporiums"
+msgstr "المتاجر"
+
+msgid "Empower"
+msgstr "شجّع"
+
+msgid "Empowered"
+msgstr "مخوّل"
+
+msgid "Empowering"
+msgstr "التشجيع"
+
+msgid "Empowers"
+msgstr "يشجّع"
+
+msgid "Empress"
+msgstr "الإمبراطورة"
+
+msgid "Empresses"
+msgstr "الإمبراطورات"
+
+msgid "Emptied"
+msgstr "مفرغ"
+
+msgid "Emptier"
+msgstr "أفرغ"
+
+msgid "Empties"
+msgstr "يفرغ"
+
+msgid "Emptiest"
+msgstr "أفرغ"
+
+msgid "Emptily"
+msgstr "بلا معنى"
+
+msgid "Emptiness"
+msgstr "الفراغ"
+
+msgid "Empty"
+msgstr "فارغ"
+
+msgid "Emptying"
+msgstr "الإفراغ"
+
+msgid "Empyreal"
+msgstr "السماء"
+
+msgid "Empyrean"
+msgstr "السماء"
+
+msgid "Emulate"
+msgstr "حاك"
+
+msgid "Emulated"
+msgstr "محاكى"
+
+msgid "Emulates"
+msgstr "يحاكي"
+
+msgid "Emulating"
+msgstr "المحاكاة"
+
+msgid "Emulation"
+msgstr "المحاكاة"
+
+msgid "Emulations"
+msgstr "المحاكاة"
+
+msgid "Emulative"
+msgstr "محاكي"
+
+msgid "Emulatively"
+msgstr "بشكل محاكي"
+
+msgid "Emulator"
+msgstr "المحاكي"
+
+msgid "Emulators"
+msgstr "المحاكون"
+
+msgid "Emulsification"
+msgstr "المستحلب"
+
+msgid "Emulsified"
+msgstr "مستحلب"
+
+msgid "Emulsifier"
+msgstr "المستحلب"
+
+msgid "Emulsifies"
+msgstr "يستحلب"
+
+msgid "Emulsify"
+msgstr "إستحلب"
+
+msgid "Emulsifying"
+msgstr "الإستحلاب"
+
+msgid "Emulsion"
+msgstr "المستحلب"
+
+msgid "Emulsions"
+msgstr "المستحلبات"
+
+msgid "Emulsive"
+msgstr "مستحلب"
+
+msgid "En"
+msgstr "إن"
+
+msgid "Enable"
+msgstr "يؤهّل‎، يخول، يمكن"
+
+msgid "EnableColorCorrection"
+msgstr "تمكين تصحيح الألوان"
+
+msgid "Enabled"
+msgstr "ممكّن"
+
+msgid "Enabler"
+msgstr "المساعد"
+
+msgid "Enablers"
+msgstr "المساعدون"
+
+msgid "Enables"
+msgstr "يمكّن"
+
+msgid "Enabling"
+msgstr "التمكين"
+
+msgid "Enact"
+msgstr "شرّع"
+
+msgid "Enacted"
+msgstr "مشرّع"
+
+msgid "Enacting"
+msgstr "التشريع"
+
+msgid "Enactment"
+msgstr "التشريع"
+
+msgid "Enactments"
+msgstr "التشريعات"
+
+msgid "Enacts"
+msgstr "يشرّع"
+
+msgid "Enamel"
+msgstr "المينا"
+
+msgid "Enameled"
+msgstr "مصقول"
+
+msgid "Enameler"
+msgstr "الصاقل (يصقل)"
+
+msgid "Enamelers"
+msgstr "الصقَال (يصقل)"
+
+msgid "Enameling"
+msgstr "الصَقل"
+
+msgid "Enamelled"
+msgstr "مطلي"
+
+msgid "Enamelling"
+msgstr "الطلي"
+
+msgid "Enamels"
+msgstr "يطلي"
+
+msgid "Enamor"
+msgstr "إفتن"
+
+msgid "Enamored"
+msgstr "مفتون"
+
+msgid "Enamoring"
+msgstr "الفتنة"
+
+msgid "Enamors"
+msgstr "يفتن"
+
+msgid "Enamour"
+msgstr "إفتن"
+
+msgid "Enamoured"
+msgstr "معجب"
+
+msgid "Enamours"
+msgstr "فتن"
+
+msgid "Encamp"
+msgstr "عسكر"
+
+msgid "Encamped"
+msgstr "معسكر"
+
+msgid "Encamping"
+msgstr "العسكرة"
+
+msgid "Encampment"
+msgstr "المعسكر"
+
+msgid "Encampments"
+msgstr "المعسكرات"
+
+msgid "Encamps"
+msgstr "يعسكر"
+
+msgid "Encapsulate"
+msgstr "غلّف"
+
+msgid "Encapsulated"
+msgstr "مغلّف"
+
+msgid "Encapsulates"
+msgstr "يغلّف"
+
+msgid "Encapsulating"
+msgstr "التغليف"
+
+msgid "Encapsulation"
+msgstr "التّلخيص"
+
+msgid "Encapsulations"
+msgstr "التّلخيصات"
+
+msgid "Encase"
+msgstr "غلّف"
+
+msgid "Encased"
+msgstr "مغلّف"
+
+msgid "Encasement"
+msgstr "التغليف"
+
+msgid "Encasements"
+msgstr "التغليفات"
+
+msgid "Encases"
+msgstr "يغلّف"
+
+msgid "Encasing"
+msgstr "التغليف"
+
+msgid "Encephalitis"
+msgstr "إلتهاب الدماغ"
+
+msgid "Encephalographic"
+msgstr "متعلق برسم الدّماغ"
+
+msgid "Encephalopathy"
+msgstr "التّلف الدّماغيّ"
+
+msgid "Enchain"
+msgstr "قيّد"
+
+msgid "Enchained"
+msgstr "مقيّد"
+
+msgid "Enchaining"
+msgstr "التقييد"
+
+msgid "Enchains"
+msgstr "يقيّد"
+
+msgid "Enchant"
+msgstr "إسحر"
+
+msgid "Enchanted"
+msgstr "مسحور"
+
+msgid "Enchanter"
+msgstr "الساحر"
+
+msgid "Enchanters"
+msgstr "السحرة"
+
+msgid "Enchanting"
+msgstr "السحر"
+
+msgid "Enchantingly"
+msgstr "بشكل بهيج"
+
+msgid "Enchantment"
+msgstr "السحر"
+
+msgid "Enchantments"
+msgstr "السحر"
+
+msgid "Enchantress"
+msgstr "الساحرة"
+
+msgid "Enchantresses"
+msgstr "الساحرات"
+
+msgid "Enchants"
+msgstr "يسحر"
+
+msgid "Encharge"
+msgstr "تكلفة :: يضع قيمة او ثمن :: يفرض قيمة او ثمن"
+
+msgid "Enchase"
+msgstr "رصّع"
+
+msgid "Enchiladas"
+msgstr "الإنتشلادا"
+
+msgid "Encipher"
+msgstr "شفّر"
+
+msgid "Enciphered"
+msgstr "مشفّر"
+
+msgid "Encipherer"
+msgstr "المشفّر"
+
+msgid "Enciphering"
+msgstr "التشفير"
+
+msgid "Enciphers"
+msgstr "يشفّر"
+
+msgid "Encircle"
+msgstr "طوّق"
+
+msgid "Encircled"
+msgstr "مطوّق"
+
+msgid "Encirclement"
+msgstr "التطويق"
+
+msgid "Encirclements"
+msgstr "التطويق"
+
+msgid "Encircles"
+msgstr "يطوّق"
+
+msgid "Encircling"
+msgstr "التطويق"
+
+msgid "Enclave"
+msgstr "الجيب"
+
+msgid "Enclaves"
+msgstr "الجيوب"
+
+msgid "Enclose"
+msgstr "أرفق"
+
+msgid "Enclosed"
+msgstr "مرفق"
+
+msgid "Encloses"
+msgstr "يرفق"
+
+msgid "Enclosing"
+msgstr "الإرفاق"
+
+msgid "Enclosure"
+msgstr "التسييج"
+
+msgid "Enclosures"
+msgstr "المرفقات"
+
+msgid "Encode"
+msgstr "شفّر"
+
+msgid "Encoded"
+msgstr "مشفّر"
+
+msgid "Encoder"
+msgstr "آلة التّشفير"
+
+msgid "Encoders"
+msgstr "آلات التّشفير"
+
+msgid "Encodes"
+msgstr "يشفّر"
+
+msgid "Encoding"
+msgstr "التشفير"
+
+msgid "Encomia"
+msgstr "إنكوميا"
+
+msgid "Encomium"
+msgstr "الثناء"
+
+msgid "Encomiums"
+msgstr "الثناءات"
+
+msgid "Encompass"
+msgstr "أحط"
+
+msgid "Encompassed"
+msgstr "محاط"
+
+msgid "Encompasses"
+msgstr "يحيط"
+
+msgid "Encompassing"
+msgstr "الإحاطة"
+
+msgid "Encompassment"
+msgstr "الإحاطة"
+
+msgid "Encore"
+msgstr "المرّة الأخرى"
+
+msgid "Encored"
+msgstr "مستعاد"
+
+msgid "Encores"
+msgstr "الإستعادة"
+
+msgid "Encoring"
+msgstr "الإستعادة"
+
+msgid "Encounter"
+msgstr "اللقاء"
+
+msgid "Encountered"
+msgstr "مصادف"
+
+msgid "Encountering"
+msgstr "المصادفة"
+
+msgid "Encounters"
+msgstr "اللقاءات"
+
+msgid "Encourage"
+msgstr "شجّع"
+
+msgid "Encouraged"
+msgstr "مشجّع"
+
+msgid "Encouragement"
+msgstr "التشجيع"
+
+msgid "Encouragements"
+msgstr "التشجيع"
+
+msgid "Encourager"
+msgstr "المشجّع"
+
+msgid "Encourages"
+msgstr "يشجّع"
+
+msgid "Encouraging"
+msgstr "التشجيع"
+
+msgid "Encouragingly"
+msgstr "بشكل مشجّع"
+
+msgid "Encroach"
+msgstr "تجاوز"
+
+msgid "Encroached"
+msgstr "متجاوز"
+
+msgid "Encroacher"
+msgstr "المتجاوز"
+
+msgid "Encroaches"
+msgstr "يتجاوز"
+
+msgid "Encroaching"
+msgstr "التجاوز"
+
+msgid "Encroachment"
+msgstr "الإنتهاك"
+
+msgid "Encroachments"
+msgstr "الإنتهاكات"
+
+msgid "Encrust"
+msgstr "غطّ"
+
+msgid "Encrustation"
+msgstr "القشرة"
+
+msgid "Encrustations"
+msgstr "القشور"
+
+msgid "Encrusted"
+msgstr "مغطّى"
+
+msgid "Encrusting"
+msgstr "التغطية"
+
+msgid "Encrusts"
+msgstr "يغطّي"
+
+msgid "Encrypt"
+msgstr "شفّر"
+
+msgid "Encrypted"
+msgstr "مشفّر"
+
+msgid "Encrypting"
+msgstr "التشفير"
+
+msgid "Encryption"
+msgstr "التشفير"
+
+msgid "Encryptions"
+msgstr "التشفيرات"
+
+msgid "Encrypts"
+msgstr "يشفّر"
+
+msgid "Encumber"
+msgstr "أثقل"
+
+msgid "Encumbered"
+msgstr "مثقل"
+
+msgid "Encumbering"
+msgstr "الإثقال"
+
+msgid "Encumbers"
+msgstr "يثقل"
+
+msgid "Encumbrance"
+msgstr "العبء"
+
+msgid "Encumbrancer"
+msgstr "العائق"
+
+msgid "Encumbrances"
+msgstr "الأعباء"
+
+msgid "Encyclical"
+msgstr "المنشور"
+
+msgid "Encyclicals"
+msgstr "المنشورات"
+
+msgid "Encyclopaedia"
+msgstr "الموسوعة"
+
+msgid "Encyclopaedias"
+msgstr "الموسوعات"
+
+msgid "Encyclopaedic"
+msgstr "موسوعي"
+
+msgid "Encyclopaedical"
+msgstr "موسوعي"
+
+msgid "Encyclopaedically"
+msgstr "بشكل موسوعي"
+
+msgid "Encyclopedia"
+msgstr "الموسوعة"
+
+msgid "Encyclopedias"
+msgstr "الموسوعات"
+
+msgid "Encyclopedic"
+msgstr "موسوعيّ"
+
+msgid "Encyclopedical"
+msgstr "موسوعيّ"
+
+msgid "Encyclopedically"
+msgstr "بشكل موسوعيّ"
+
+msgid "End"
+msgstr "النهاية"
+
+msgid "End-user"
+msgstr "المستعمل"
+
+msgid "Endanger"
+msgstr "عرّض للخطر"
+
+msgid "Endangered"
+msgstr "معرّض للخطر"
+
+msgid "Endangering"
+msgstr "تعريض للخطر"
+
+msgid "Endangerment"
+msgstr "المخاطرة"
+
+msgid "Endangerments"
+msgstr "المخاطرة"
+
+msgid "Endangers"
+msgstr "يعرّض للخطر"
+
+msgid "Endear"
+msgstr "حبّب"
+
+msgid "Endeared"
+msgstr "محبّب"
+
+msgid "Endearing"
+msgstr "التحبيب"
+
+msgid "Endearingly"
+msgstr "بتحبّب"
+
+msgid "Endearment"
+msgstr "التحبّب"
+
+msgid "Endearments"
+msgstr "التحبّب"
+
+msgid "Endears"
+msgstr "يحبّب"
+
+msgid "Endeavor"
+msgstr "المسعى"
+
+msgid "Endeavored"
+msgstr "مسعي"
+
+msgid "Endeavorer"
+msgstr "المحاول"
+
+msgid "Endeavorers"
+msgstr "المحاولون"
+
+msgid "Endeavoring"
+msgstr "السعي"
+
+msgid "Endeavors"
+msgstr "المساعي"
+
+msgid "Endeavour"
+msgstr "المسعى"
+
+msgid "Endeavoured"
+msgstr "مسعي"
+
+msgid "Endeavouring"
+msgstr "السعي"
+
+msgid "Endeavours"
+msgstr "المساعي"
+
+msgid "Ended"
+msgstr "منتهى"
+
+msgid "Endemic"
+msgstr "المرض المستوطن"
+
+msgid "Endemicity"
+msgstr "الاستشراء"
+
+msgid "Ender"
+msgstr "طرف"
+
+msgid "Enders"
+msgstr "إندرز"
+
+msgid "Endgame"
+msgstr "المرحلة النهائية"
+
+msgid "Endicott"
+msgstr "مدينة إنديكوت"
+
+msgid "Ending"
+msgstr "الإنهاء"
+
+msgid "Endings"
+msgstr "النهايات"
+
+msgid "Endive"
+msgstr "الهندباء"
+
+msgid "Endless"
+msgstr "لانهائي"
+
+msgid "Endless-tape"
+msgstr "الشريط اللانهائي"
+
+msgid "Endlessly"
+msgstr "بشكل لانهائي"
+
+msgid "Endlessness"
+msgstr "الإستمرارية"
+
+msgid "Endmost"
+msgstr "أبعد"
+
+msgid "Endnote"
+msgstr "تعليق ختامي"
+
+msgid "EndNotes"
+msgstr "تعليقات ختامية"
+
+msgid "Endoderm"
+msgstr "السطح الداخلي من الجلد"
+
+msgid "Endogamous"
+msgstr "زواجي"
+
+msgid "Endogamy"
+msgstr "التزاوج بين الأقارب"
+
+msgid "Endogenous"
+msgstr "ذاتي النشوء"
+
+msgid "Endogenously"
+msgstr "بشكل ذاتي النشوء"
+
+msgid "Endomorphism"
+msgstr "التشابه الشكلي"
+
+msgid "Endorsable"
+msgstr "قابل للتّصديق"
+
+msgid "Endorse"
+msgstr "صدّق"
+
+msgid "Endorsed"
+msgstr "مصدّق"
+
+msgid "Endorsee"
+msgstr "المصدّق"
+
+msgid "Endorsees"
+msgstr "المصدّقون"
+
+msgid "Endorsement"
+msgstr "التصديق"
+
+msgid "Endorsements"
+msgstr "التصديقات"
+
+msgid "Endorser"
+msgstr "المصدّق"
+
+msgid "Endorsers"
+msgstr "المصدّقون"
+
+msgid "Endorses"
+msgstr "يصدّق"
+
+msgid "Endorsing"
+msgstr "التصديق"
+
+msgid "Endosperm"
+msgstr "السّويداء"
+
+msgid "Endothelial"
+msgstr "غشائيّ"
+
+msgid "Endothermic"
+msgstr "ماصّ للحرارة"
+
+msgid "Endow"
+msgstr "هب"
+
+msgid "Endowed"
+msgstr "موهوب"
+
+msgid "Endowing"
+msgstr "الوهب"
+
+msgid "Endowment"
+msgstr "الهبة"
+
+msgid "Endowments"
+msgstr "الهبات"
+
+msgid "Endows"
+msgstr "يهب"
+
+msgid "Endpoint"
+msgstr "نقطة انتهاء"
+
+msgid "Endpoints"
+msgstr "نقاط انتهاء"
+
+msgid "Ends"
+msgstr "النهايات"
+
+msgid "Endue"
+msgstr "هب"
+
+msgid "Endued"
+msgstr "موهوب"
+
+msgid "Endues"
+msgstr "يهب"
+
+msgid "Enduing"
+msgstr "الوهب"
+
+msgid "Endurable"
+msgstr "قابل للتحمّل"
+
+msgid "Endurably"
+msgstr "بشكل لا يطاق"
+
+msgid "Endurance"
+msgstr "التحمّل"
+
+msgid "Endure"
+msgstr "تحمّل"
+
+msgid "Endured"
+msgstr "متحمّل"
+
+msgid "Endures"
+msgstr "يتحمّل"
+
+msgid "Enduring"
+msgstr "المعاناة"
+
+msgid "Enduringly"
+msgstr "بشكل دائمي"
+
+msgid "Enduringness"
+msgstr "طول اﻷمد"
+
+msgid "Endwise"
+msgstr "طولا"
+
+msgid "Enema"
+msgstr "الحقنة الشرجية"
+
+msgid "Enemas"
+msgstr "الحقن الشرجية"
+
+msgid "Enemies"
+msgstr "الأعداء"
+
+msgid "Enemy"
+msgstr "العدو"
+
+msgid "Energetic"
+msgstr "نشيط"
+
+msgid "Energetically"
+msgstr "بشكل نشيط"
+
+msgid "Energeticly"
+msgstr "بشكل نشيط"
+
+msgid "Energetics"
+msgstr "علم الطاقة"
+
+msgid "Energies"
+msgstr "الطاقات"
+
+msgid "Energize"
+msgstr "نشّط"
+
+msgid "Energized"
+msgstr "منشّط"
+
+msgid "Energizes"
+msgstr "ينشّط"
+
+msgid "Energizing"
+msgstr "التنشيط"
+
+msgid "Energy"
+msgstr "الطاقة"
+
+msgid "Enervate"
+msgstr "أضعف"
+
+msgid "Enervated"
+msgstr "مضعف"
+
+msgid "Enervates"
+msgstr "يضعف"
+
+msgid "Enervating"
+msgstr "الإضعاف"
+
+msgid "Enervation"
+msgstr "الوهن"
+
+msgid "Enervations"
+msgstr "الوهن"
+
+msgid "Enervative"
+msgstr "مضعٌف"
+
+msgid "Enfant"
+msgstr "طفل"
+
+msgid "Enfeeble"
+msgstr "أضعف"
+
+msgid "Enfeebled"
+msgstr "مضعف"
+
+msgid "Enfeeblement"
+msgstr "الإضعاف"
+
+msgid "Enfeebles"
+msgstr "يضعف"
+
+msgid "Enfeebling"
+msgstr "الإضعاف"
+
+msgid "Enfield"
+msgstr "مدينة إنفيلد"
+
+msgid "Enfold"
+msgstr "إطو"
+
+msgid "Enfolded"
+msgstr "مطوي"
+
+msgid "Enfolding"
+msgstr "الطوي"
+
+msgid "Enfolds"
+msgstr "يطوى"
+
+msgid "Enforce"
+msgstr "إفرض"
+
+msgid "Enforceability"
+msgstr "الإلزامية"
+
+msgid "Enforceable"
+msgstr "إلزامي"
+
+msgid "Enforced"
+msgstr "مفروض"
+
+msgid "Enforcedly"
+msgstr "فرضا"
+
+msgid "Enforcement"
+msgstr "التنفيذ"
+
+msgid "Enforcements"
+msgstr "التنفيذ"
+
+msgid "Enforcer"
+msgstr "المنفّذ"
+
+msgid "Enforcers"
+msgstr "المنفّذون"
+
+msgid "Enforces"
+msgstr "يفرض"
+
+msgid "Enforcible"
+msgstr "إنفورسيبل"
+
+msgid "Enforcing"
+msgstr "الفرض"
+
+msgid "Enfranchise"
+msgstr "حرّر"
+
+msgid "Enfranchised"
+msgstr "محرّر"
+
+msgid "Enfranchisement"
+msgstr "تحرير العبيد"
+
+msgid "Enfranchisements"
+msgstr "تحرير العبيد"
+
+msgid "Enfranchiser"
+msgstr "المانح بتوكيل تجاريّ"
+
+msgid "Enfranchises"
+msgstr "يحرّر"
+
+msgid "Enfranchising"
+msgstr "التحرير"
+
+msgid "Eng"
+msgstr "اختصار مهندس، هندسة"
+
+msgid "Engage"
+msgstr "إشغل"
+
+msgid "Engaged"
+msgstr "مشغول"
+
+msgid "Engagement"
+msgstr "الإرتباط"
+
+msgid "Engagements"
+msgstr "الإرتباطات"
+
+msgid "Engages"
+msgstr "يشغل"
+
+msgid "Engaging"
+msgstr "الشغل"
+
+msgid "Engagingly"
+msgstr "بشكل جذّاب"
+
+msgid "Engel"
+msgstr "إنجيل"
+
+msgid "Engender"
+msgstr "أحدث"
+
+msgid "Engendered"
+msgstr "محدث"
+
+msgid "Engendering"
+msgstr "الإحداث"
+
+msgid "Engenders"
+msgstr "يحدث"
+
+msgid "Engine"
+msgstr "المحرّك"
+
+msgid "Engined"
+msgstr "بمحرك"
+
+msgid "Engineer"
+msgstr "المهندس"
+
+msgid "Engineered"
+msgstr "مهندس"
+
+msgid "Engineering"
+msgstr "الهندسة"
+
+msgid "Engineerings"
+msgstr "الهندسة"
+
+msgid "Engineers"
+msgstr "المهندسون"
+
+msgid "Engines"
+msgstr "المحرّكات"
+
+msgid "Engining"
+msgstr "التزويد بمحرك"
+
+msgid "England"
+msgstr "إنجلترا"
+
+msgid "Englander"
+msgstr "إنجلاندر"
+
+msgid "Engle"
+msgstr "إنجل"
+
+msgid "Englewood"
+msgstr "إنجليوود"
+
+msgid "Englisch"
+msgstr "إنجليتش - جوزيف، طّبيب نّمساويّ"
+
+msgid "English"
+msgstr "إنجليزي"
+
+msgid "Englishman"
+msgstr "الرجل الإنجليزي"
+
+msgid "Englishmen"
+msgstr "الرجال الإنجليز"
+
+msgid "Engorge"
+msgstr "إلتهم"
+
+msgid "Engorged"
+msgstr "ملتهم"
+
+msgid "Engorgement"
+msgstr "الالتهام"
+
+msgid "Engorges"
+msgstr "يلتهم"
+
+msgid "Engorging"
+msgstr "الإلتهام"
+
+msgid "Engrained"
+msgstr "مرسّخ"
+
+msgid "Engrave"
+msgstr "إنقش"
+
+msgid "Engraved"
+msgstr "منقوش"
+
+msgid "Engraver"
+msgstr "النقاش"
+
+msgid "Engravers"
+msgstr "النقّاشون"
+
+msgid "Engraves"
+msgstr "ينقش"
+
+msgid "Engraving"
+msgstr "الحفر"
+
+msgid "Engravings"
+msgstr "الحفر"
+
+msgid "Engross"
+msgstr "إنسخ"
+
+msgid "Engrossed"
+msgstr "منسوخ"
+
+msgid "Engrosser"
+msgstr "الناسخ"
+
+msgid "Engrosses"
+msgstr "ينسخ"
+
+msgid "Engrossing"
+msgstr "النسخ"
+
+msgid "Engrossingly"
+msgstr "بتشويق"
+
+msgid "Engrossment"
+msgstr "الإنشغال"
+
+msgid "Engulf"
+msgstr "إبتلع"
+
+msgid "Engulfed"
+msgstr "مبتلع"
+
+msgid "Engulfing"
+msgstr "الإبتلاع"
+
+msgid "Engulfs"
+msgstr "يبتلع"
+
+msgid "Enhance"
+msgstr "حسّن"
+
+msgid "Enhanced"
+msgstr "محسّن"
+
+msgid "Enhancement"
+msgstr "التحسين"
+
+msgid "Enhancements"
+msgstr "التحسينات"
+
+msgid "Enhancer"
+msgstr "المحسّن"
+
+msgid "Enhances"
+msgstr "يحسّن"
+
+msgid "Enhancing"
+msgstr "التحسين"
+
+msgid "Enid"
+msgstr "مدينة إنيد"
+
+msgid "Enigma"
+msgstr "اللغز"
+
+msgid "Enigmas"
+msgstr "الألغاز"
+
+msgid "Enigmatic"
+msgstr "مبهم"
+
+msgid "Enigmatical"
+msgstr "مبهم"
+
+msgid "Enigmatically"
+msgstr "بشكل مبهم"
+
+msgid "Enigmaticly"
+msgstr "بشكل مبهم"
+
+msgid "Enjoin"
+msgstr "وجّه"
+
+msgid "Enjoinder"
+msgstr "الأمر او النّهي"
+
+msgid "Enjoined"
+msgstr "موجّه"
+
+msgid "Enjoining"
+msgstr "التوجيه"
+
+msgid "Enjoins"
+msgstr "يوجّه"
+
+msgid "Enjoy"
+msgstr "تمتّع به"
+
+msgid "Enjoyable"
+msgstr "ممتع"
+
+msgid "Enjoyableness"
+msgstr "المتعة"
+
+msgid "Enjoyably"
+msgstr "بمتعة"
+
+msgid "Enjoyed"
+msgstr "متمتّع ب"
+
+msgid "Enjoying"
+msgstr "التمتّع"
+
+msgid "Enjoyment"
+msgstr "المتعة"
+
+msgid "Enjoyments"
+msgstr "المتعة"
+
+msgid "Enjoys"
+msgstr "يتمتّع به"
+
+msgid "Enlarge"
+msgstr "تضخّم"
+
+msgid "Enlargeable"
+msgstr "قابل للزيادة"
+
+msgid "Enlarged"
+msgstr "مكبّر"
+
+msgid "Enlargement"
+msgstr "التوسيع"
+
+msgid "Enlargements"
+msgstr "عمليات التوسيع"
+
+msgid "Enlarger"
+msgstr "المكبّر"
+
+msgid "Enlargers"
+msgstr "المكبّرات"
+
+msgid "Enlarges"
+msgstr "يتضخّم"
+
+msgid "Enlarging"
+msgstr "التضخّم"
+
+msgid "Enlighten"
+msgstr "نوّر"
+
+msgid "Enlightened"
+msgstr "مطّلع"
+
+msgid "Enlightening"
+msgstr "التنوير"
+
+msgid "Enlightenment"
+msgstr "التنوير"
+
+msgid "Enlightenments"
+msgstr "التنوير"
+
+msgid "Enlightens"
+msgstr "ينوّر"
+
+msgid "Enlist"
+msgstr "سجّل"
+
+msgid "Enlisted"
+msgstr "مسجّل"
+
+msgid "Enlister"
+msgstr "إنليستر"
+
+msgid "Enlisting"
+msgstr "التسجيل"
+
+msgid "Enlistment"
+msgstr "التسجيل"
+
+msgid "Enlistments"
+msgstr "التسجيلات"
+
+msgid "Enlists"
+msgstr "يسجّل"
+
+msgid "Enliven"
+msgstr "نشّط"
+
+msgid "Enlivened"
+msgstr "منشّط"
+
+msgid "Enlivening"
+msgstr "التنشيط"
+
+msgid "Enlivenment"
+msgstr "الحيوية"
+
+msgid "Enlivens"
+msgstr "ينشّط"
+
+msgid "Enmesh"
+msgstr "شبّك"
+
+msgid "Enmeshed"
+msgstr "مشبّك"
+
+msgid "Enmities"
+msgstr "العداوات"
+
+msgid "Enmity"
+msgstr "العداوة"
+
+msgid "Ennoble"
+msgstr "عظّم"
+
+msgid "Ennobled"
+msgstr "معظّم"
+
+msgid "Ennoblement"
+msgstr "التشريف"
+
+msgid "Ennobler"
+msgstr "المرتق"
+
+msgid "Ennobles"
+msgstr "يعظّم"
+
+msgid "Ennobling"
+msgstr "التعظيم"
+
+msgid "Ennui"
+msgstr "الملل"
+
+msgid "Enoch"
+msgstr "منتظم"
+
+msgid "Enol"
+msgstr "إنول"
+
+msgid "Enormities"
+msgstr "الفظاعات"
+
+msgid "Enormity"
+msgstr "الفداحة"
+
+msgid "Enormous"
+msgstr "هائل"
+
+msgid "Enormously"
+msgstr "جدا"
+
+msgid "Enormousness"
+msgstr "الهول"
+
+msgid "Enos"
+msgstr "إنوس"
+
+msgid "Enough"
+msgstr "بما فيه الكفاية"
+
+msgid "Enquire"
+msgstr "إستفسر"
+
+msgid "Enquired"
+msgstr "مستفسر"
+
+msgid "Enquirer"
+msgstr "المستفسر"
+
+msgid "Enquirers"
+msgstr "المستفسرون"
+
+msgid "Enquires"
+msgstr "يستفسر"
+
+msgid "Enquiries"
+msgstr "التحقيقات"
+
+msgid "Enquiring"
+msgstr "الإستفسار"
+
+msgid "Enquiry"
+msgstr "التحقيق"
+
+msgid "Enrage"
+msgstr "أغضب"
+
+msgid "Enraged"
+msgstr "مغضب"
+
+msgid "Enrages"
+msgstr "يغضب"
+
+msgid "Enraging"
+msgstr "الإغضاب"
+
+msgid "Enrapture"
+msgstr "أبهج"
+
+msgid "Enraptured"
+msgstr "مبهج"
+
+msgid "Enraptures"
+msgstr "يبهج"
+
+msgid "Enrapturing"
+msgstr "الإبهاج"
+
+msgid "Enrich"
+msgstr "أغن"
+
+msgid "Enriched"
+msgstr "مغنى"
+
+msgid "Enricher"
+msgstr "المثري"
+
+msgid "Enriches"
+msgstr "يغني"
+
+msgid "Enriching"
+msgstr "الإغناء"
+
+msgid "Enrichment"
+msgstr "الإغناء"
+
+msgid "Enrichments"
+msgstr "الإغناء"
+
+msgid "Enrico"
+msgstr "إنريكو"
+
+msgid "Enrol"
+msgstr "سجّل"
+
+msgid "Enroll"
+msgstr "سجّل"
+
+msgid "Enrolled"
+msgstr "مسجّل"
+
+msgid "Enrollee"
+msgstr "المشارك"
+
+msgid "Enrollees"
+msgstr "المشاركون"
+
+msgid "Enrolling"
+msgstr "التسجيل"
+
+msgid "Enrollment"
+msgstr "التسجيل"
+
+msgid "Enrollments"
+msgstr "التسجيلات"
+
+msgid "Enrolls"
+msgstr "يسجّل"
+
+msgid "Enrolment"
+msgstr "التسجيل"
+
+msgid "Enrolments"
+msgstr "التسجيلات"
+
+msgid "Enrols"
+msgstr "يسجّل"
+
+msgid "Ensconce"
+msgstr "إحجب"
+
+msgid "Ensconced"
+msgstr "محجوب"
+
+msgid "Ensconces"
+msgstr "يحجب"
+
+msgid "Ensconcing"
+msgstr "الحجب"
+
+msgid "Ensemble"
+msgstr "المجموعة"
+
+msgid "Ensembles"
+msgstr "المجموعات"
+
+msgid "Enshrine"
+msgstr "قدّس"
+
+msgid "Enshrined"
+msgstr "مقدّس"
+
+msgid "Enshrinement"
+msgstr "الحفظ"
+
+msgid "Enshrinements"
+msgstr "الحفظ"
+
+msgid "Enshrines"
+msgstr "يقدّس"
+
+msgid "Enshroud"
+msgstr "كفّن"
+
+msgid "Enshrouded"
+msgstr "مكفّن"
+
+msgid "Enshrouding"
+msgstr "التكفين"
+
+msgid "Enshrouds"
+msgstr "يكفّن"
+
+msgid "Ensign"
+msgstr "الراية"
+
+msgid "Ensigns"
+msgstr "الرايات"
+
+msgid "Enslave"
+msgstr "إستعبد"
+
+msgid "Enslaved"
+msgstr "مستعبد"
+
+msgid "Enslavement"
+msgstr "الإستعباد"
+
+msgid "Enslavements"
+msgstr "الإستعباد"
+
+msgid "Enslaver"
+msgstr "المستعبد"
+
+msgid "Enslavers"
+msgstr "المستعبدون"
+
+msgid "Enslaves"
+msgstr "يستعبد"
+
+msgid "Enslaving"
+msgstr "الإستعباد"
+
+msgid "Ensnare"
+msgstr "ورّط"
+
+msgid "Ensnared"
+msgstr "مورّط"
+
+msgid "Ensnares"
+msgstr "يورّط"
+
+msgid "Ensnaring"
+msgstr "التوريط"
+
+msgid "Enstatite"
+msgstr "إنستاتايت (معدن)"
+
+msgid "Ensue"
+msgstr "إتل"
+
+msgid "Ensued"
+msgstr "متلي"
+
+msgid "Ensues"
+msgstr "يتلي"
+
+msgid "Ensuing"
+msgstr "الإتّباع"
+
+msgid "Ensure"
+msgstr "إضمن"
+
+msgid "Ensured"
+msgstr "مضمون"
+
+msgid "Ensurer"
+msgstr "المؤمّن"
+
+msgid "Ensures"
+msgstr "يضمن"
+
+msgid "Ensuring"
+msgstr "الضمان"
+
+msgid "Entablature"
+msgstr "السّطح المعمّد"
+
+msgid "Entail"
+msgstr "الميراث"
+
+msgid "Entailed"
+msgstr "مستلزم"
+
+msgid "Entailer"
+msgstr "المورث"
+
+msgid "Entailing"
+msgstr "الإستلزام"
+
+msgid "Entailment"
+msgstr "الاستتباع"
+
+msgid "Entails"
+msgstr "الميراث"
+
+msgid "Entangle"
+msgstr "التشابك"
+
+msgid "Entangled"
+msgstr "متشابك"
+
+msgid "Entanglement"
+msgstr "التشابك"
+
+msgid "Entanglements"
+msgstr "التشابك"
+
+msgid "Entangler"
+msgstr "المعقد"
+
+msgid "Entangles"
+msgstr "التشابكات"
+
+msgid "Entangling"
+msgstr "المشابكة"
+
+msgid "Entendre"
+msgstr "التّورية"
+
+msgid "Enter"
+msgstr "إدخل"
+
+msgid "Entered"
+msgstr "داخل"
+
+msgid "Enterer"
+msgstr "المقدم، الداخل"
+
+msgid "Entering"
+msgstr "الدخول"
+
+msgid "Enterprise"
+msgstr "المشروع"
+
+msgid "Enterpriser"
+msgstr "المستثمر"
+
+msgid "Enterprises"
+msgstr "المشاريع"
+
+msgid "Enterprising"
+msgstr "جريئ"
+
+msgid "Enterprisingly"
+msgstr "بشكل جريئ"
+
+msgid "Enters"
+msgstr "يدخل"
+
+msgid "Entertain"
+msgstr "سلّ"
+
+msgid "Entertained"
+msgstr "مسلّى"
+
+msgid "Entertainer"
+msgstr "الشخص الهزلي"
+
+msgid "Entertainers"
+msgstr "الهزليون"
+
+msgid "Entertaining"
+msgstr "التسلية"
+
+msgid "Entertainingly"
+msgstr "بامتاع"
+
+msgid "Entertainment"
+msgstr "الترفيه"
+
+msgid "Entertainments"
+msgstr "التسالي"
+
+msgid "Entertains"
+msgstr "يسلّي"
+
+msgid "Enthalpy"
+msgstr "الطاقة الداخليّة للجسم و نتاج حجمه المضروبان في الضّغط"
+
+msgid "Enthrall"
+msgstr "إسحر"
+
+msgid "Enthralled"
+msgstr "مسحور"
+
+msgid "Enthralling"
+msgstr "السحر"
+
+msgid "Enthralls"
+msgstr "يسحر"
+
+msgid "Enthrone"
+msgstr "توّج"
+
+msgid "Enthroned"
+msgstr "متوّج"
+
+msgid "Enthrones"
+msgstr "يتوّج"
+
+msgid "Enthroning"
+msgstr "التتويج"
+
+msgid "Enthuse"
+msgstr "حمّس"
+
+msgid "Enthused"
+msgstr "محمّس"
+
+msgid "Enthuses"
+msgstr "يحمّس"
+
+msgid "Enthusiasm"
+msgstr "الحماس"
+
+msgid "Enthusiasms"
+msgstr "الحماسة"
+
+msgid "Enthusiast"
+msgstr "المتحمّس"
+
+msgid "Enthusiastic"
+msgstr "متحمس"
+
+msgid "Enthusiastically"
+msgstr "بحماس"
+
+msgid "Enthusiasts"
+msgstr "المتحمّسون"
+
+msgid "Enthusing"
+msgstr "التحمّس"
+
+msgid "Entice"
+msgstr "أغر"
+
+msgid "Enticed"
+msgstr "مغرى"
+
+msgid "Enticement"
+msgstr "الإغراء"
+
+msgid "Enticements"
+msgstr "الإغراءات"
+
+msgid "Enticer"
+msgstr "المغري"
+
+msgid "Enticers"
+msgstr "المغرون"
+
+msgid "Entices"
+msgstr "يغري"
+
+msgid "Enticing"
+msgstr "الإغراء"
+
+msgid "Entire"
+msgstr "كامل"
+
+msgid "Entirely"
+msgstr "كليّا"
+
+msgid "Entireties"
+msgstr "المجاميع"
+
+msgid "Entirety"
+msgstr "المجموع"
+
+msgid "Entities"
+msgstr "الكيانات"
+
+msgid "Entitle"
+msgstr "أهّل"
+
+msgid "Entitled"
+msgstr "معنون"
+
+msgid "Entitlement"
+msgstr "التأهيل"
+
+msgid "Entitlements"
+msgstr "التأهيل"
+
+msgid "Entitles"
+msgstr "يؤهّل"
+
+msgid "Entitling"
+msgstr "التأهيل"
+
+msgid "Entity"
+msgstr "الكيان"
+
+msgid "Entomb"
+msgstr "إدفن"
+
+msgid "Entombed"
+msgstr "مدفون"
+
+msgid "Entombment"
+msgstr "القبر"
+
+msgid "Entomologist"
+msgstr "الحشراتي"
+
+msgid "Entomology"
+msgstr "علم الحشرات"
+
+msgid "Entourage"
+msgstr "الحاشية"
+
+msgid "Entourages"
+msgstr "الحشم"
+
+msgid "Entrails"
+msgstr "الأحشاء"
+
+msgid "Entrain"
+msgstr "جرّ"
+
+msgid "Entrained"
+msgstr "مجرور"
+
+msgid "Entrainer"
+msgstr "المنساب"
+
+msgid "Entraining"
+msgstr "الجرّ"
+
+msgid "Entrains"
+msgstr "يجرّ"
+
+msgid "Entrance"
+msgstr "المدخل"
+
+msgid "Entranced"
+msgstr "مدوّخ"
+
+msgid "Entrances"
+msgstr "المداخل"
+
+msgid "Entranceway"
+msgstr "الطريق الى المدخل"
+
+msgid "Entrancing"
+msgstr "التدويخ"
+
+msgid "Entrant"
+msgstr "المشترك"
+
+msgid "Entrants"
+msgstr "المشتركون"
+
+msgid "Entrap"
+msgstr "حاصر"
+
+msgid "Entrapment"
+msgstr "الفخ"
+
+msgid "Entrapments"
+msgstr "الفخاخ"
+
+msgid "Entrapped"
+msgstr "محاصر"
+
+msgid "Entraps"
+msgstr "يحاصر"
+
+msgid "Entreat"
+msgstr "توسّل"
+
+msgid "Entreated"
+msgstr "متوسّل"
+
+msgid "Entreaties"
+msgstr "الإلتماس"
+
+msgid "Entreating"
+msgstr "التوسّل"
+
+msgid "Entreatingly"
+msgstr "بتوسل"
+
+msgid "Entreats"
+msgstr "يتوسّل"
+
+msgid "Entreaty"
+msgstr "الإلتماس"
+
+msgid "Entree"
+msgstr "الدخول"
+
+msgid "Entrees"
+msgstr "الدخول"
+
+msgid "Entremets"
+msgstr "المقبّلات"
+
+msgid "Entrench"
+msgstr "تحصّن"
+
+msgid "Entrenched"
+msgstr "متحصّن"
+
+msgid "Entrenches"
+msgstr "يتحصّن"
+
+msgid "Entrenching"
+msgstr "التحصين"
+
+msgid "Entrenchment"
+msgstr "الإستحكام"
+
+msgid "Entrenchments"
+msgstr "الإستحكامات"
+
+msgid "Entrepreneur"
+msgstr "رجل الأعمال"
+
+msgid "Entrepreneurial"
+msgstr "تجاري"
+
+msgid "Entrepreneurs"
+msgstr "رجال الأعمال"
+
+msgid "Entrepreneurship"
+msgstr "العمل الحرّ"
+
+msgid "Entresol"
+msgstr "طابق منخفض بين طابقين (ميزانين)"
+
+msgid "Entresols"
+msgstr "طوابق منخفضة بين طابقين (ميزانين)"
+
+msgid "Entrie"
+msgstr "إنتري"
+
+msgid "Entries"
+msgstr "المداخل"
+
+msgid "Entropies"
+msgstr "الانتروبيا"
+
+msgid "Entropy"
+msgstr "الانتروبيا"
+
+msgid "Entrust"
+msgstr "إئتمن"
+
+msgid "Entrusted"
+msgstr "مؤتمن"
+
+msgid "Entrusting"
+msgstr "الإئتمان"
+
+msgid "Entrusts"
+msgstr "يأتمن"
+
+msgid "Entry"
+msgstr "الدخول"
+
+msgid "Entwine"
+msgstr "إضفر"
+
+msgid "Entwined"
+msgstr "ضافر"
+
+msgid "Entwines"
+msgstr "يضفر"
+
+msgid "Entwining"
+msgstr "الضفر"
+
+msgid "Enumerable"
+msgstr "قابل للاحصاء"
+
+msgid "Enumerate"
+msgstr "عدّد"
+
+msgid "Enumerated"
+msgstr "معدّد"
+
+msgid "Enumerates"
+msgstr "يعدّد"
+
+msgid "Enumerating"
+msgstr "التعديد"
+
+msgid "Enumeration"
+msgstr "الحساب"
+
+msgid "Enumerations"
+msgstr "الحسابات"
+
+msgid "Enumerative"
+msgstr "حسابي"
+
+msgid "Enumerator"
+msgstr "المحاسب"
+
+msgid "Enumerators"
+msgstr "المحاسبون"
+
+msgid "Enunciable"
+msgstr "ملفوظ"
+
+msgid "Enunciate"
+msgstr "إلفظ"
+
+msgid "Enunciated"
+msgstr "ملفوظ"
+
+msgid "Enunciates"
+msgstr "يلفظ"
+
+msgid "Enunciating"
+msgstr "اللفظ"
+
+msgid "Enunciation"
+msgstr "الإعلان"
+
+msgid "Enunciations"
+msgstr "الإعلانات"
+
+msgid "Enunciative"
+msgstr "تصريحي"
+
+msgid "Enunciator"
+msgstr "المصرّح"
+
+msgid "Enunciators"
+msgstr "المصرّحون"
+
+msgid "Enuresis"
+msgstr "البول في الفراش"
+
+msgid "Envelop"
+msgstr "الظرف"
+
+msgid "Envelope"
+msgstr "الظرف"
+
+msgid "Enveloped"
+msgstr "مغلّف"
+
+msgid "Enveloper"
+msgstr "المغلّف"
+
+msgid "Envelopes"
+msgstr "الظروف"
+
+msgid "Enveloping"
+msgstr "التغليف"
+
+msgid "Envelopment"
+msgstr "التغليف"
+
+msgid "Envelopments"
+msgstr "التغليف"
+
+msgid "Envelops"
+msgstr "الظروف"
+
+msgid "Envenom"
+msgstr "سمّم"
+
+msgid "Envenomed"
+msgstr "مسمّم"
+
+msgid "Envenoming"
+msgstr "التسمّم"
+
+msgid "Envenoms"
+msgstr "يسمّم"
+
+msgid "Enviable"
+msgstr "محسود"
+
+msgid "Enviableness"
+msgstr "مدعاة للحسد"
+
+msgid "Enviably"
+msgstr "بحسد"
+
+msgid "Envied"
+msgstr "محسود"
+
+msgid "Envier"
+msgstr "الحسود"
+
+msgid "Enviers"
+msgstr "الحسّاد"
+
+msgid "Envies"
+msgstr "يحسد"
+
+msgid "Envious"
+msgstr "حسود"
+
+msgid "Enviously"
+msgstr "بشكل حسود"
+
+msgid "Enviousness"
+msgstr "الحسد"
+
+msgid "Environ"
+msgstr "حوّط"
+
+msgid "Environed"
+msgstr "محوّط"
+
+msgid "Environing"
+msgstr "التحويط"
+
+msgid "Environment"
+msgstr "البيئة"
+
+msgid "Environmental"
+msgstr "بيئي"
+
+msgid "Environmentalist"
+msgstr "إختصاصي البيئة"
+
+msgid "Environmentally"
+msgstr "بيئيا"
+
+msgid "Environments"
+msgstr "البيئات"
+
+msgid "Environs"
+msgstr "الضواحي"
+
+msgid "Envisage"
+msgstr "تصوّر"
+
+msgid "Envisaged"
+msgstr "متصوّر"
+
+msgid "Envisages"
+msgstr "يتصوّر"
+
+msgid "Envisaging"
+msgstr "التصوّر"
+
+msgid "Envision"
+msgstr "تصوّر"
+
+msgid "Envisioned"
+msgstr "متصوّر"
+
+msgid "Envisioning"
+msgstr "التصوّر"
+
+msgid "Envisions"
+msgstr "يتصوّر"
+
+msgid "Envoy"
+msgstr "المبعوث"
+
+msgid "Envoys"
+msgstr "المبعوثون"
+
+msgid "Envy"
+msgstr "الحسد"
+
+msgid "Envyed"
+msgstr "إنفيد"
+
+msgid "Envying"
+msgstr "الحسد"
+
+msgid "Envyingly"
+msgstr "بحسد"
+
+msgid "Enzymatic"
+msgstr "إنزيميّ"
+
+msgid "Enzymatically"
+msgstr "بشكل إنزيميّ"
+
+msgid "Enzyme"
+msgstr "الإنزيم"
+
+msgid "Enzymes"
+msgstr "الإنزيمات"
+
+msgid "Enzymology"
+msgstr "علم الإنزيمات"
+
+msgid "Eocene"
+msgstr "بداية الزمن"
+
+msgid "Eohippus"
+msgstr "أول حصان يظهر على اﻷرض"
+
+msgid "Eosine"
+msgstr "صبغة فوسفوريةّ حمراء"
+
+msgid "EPA"
+msgstr "وكالة حماية البيئة"
+
+msgid "Epaulet"
+msgstr "الكتفيّة"
+
+msgid "Epaulets"
+msgstr "الكتفيّات"
+
+msgid "Epaulette"
+msgstr "الكتفيّة"
+
+msgid "Epaulettes"
+msgstr "الكتفيّة"
+
+msgid "Ephemeral"
+msgstr "عابر"
+
+msgid "Ephemerally"
+msgstr "بشكل عابر"
+
+msgid "Ephemerals"
+msgstr "العوابر"
+
+msgid "Ephemerides"
+msgstr "الرزنامة، المذكرات اليومية"
+
+msgid "Ephemeris"
+msgstr "الرزنامة، المذكرات اليومية"
+
+msgid "Ephesian"
+msgstr "إفيسي"
+
+msgid "Ephesians"
+msgstr "إفيسيون"
+
+msgid "Ephesus"
+msgstr "إفيسس (مدينة)"
+
+msgid "Ephraim"
+msgstr "إفرايم - فيلسوف يونانيّ"
+
+msgid "Epic"
+msgstr "الملحمة"
+
+msgid "Epical"
+msgstr "ملحمي"
+
+msgid "Epicenter"
+msgstr "المركز"
+
+msgid "Epicenters"
+msgstr "المراكز"
+
+msgid "Epics"
+msgstr "الملاحم"
+
+msgid "Epicure"
+msgstr "الأبيقوري"
+
+msgid "Epicurean"
+msgstr "الأبيقوري"
+
+msgid "Epicures"
+msgstr "الأبيقوريون"
+
+msgid "Epicurus"
+msgstr "إبيكرس - فيلسوف يونانيّ"
+
+msgid "Epicycle"
+msgstr "فلك التدوير"
+
+msgid "Epicycles"
+msgstr "أفلاك التدوير"
+
+msgid "Epicyclic"
+msgstr "تداويري"
+
+msgid "Epicyclical"
+msgstr "متعلق ب فلك التّدوير"
+
+msgid "Epidemic"
+msgstr "الوباء"
+
+msgid "Epidemical"
+msgstr "وبائي"
+
+msgid "Epidemically"
+msgstr "بشكل وبائي"
+
+msgid "Epidemics"
+msgstr "الأوبئة"
+
+msgid "Epidemiological"
+msgstr "متعلّق بعلم الأوبئة"
+
+msgid "Epidemiologically"
+msgstr "مرضيا وبائيا"
+
+msgid "Epidemiology"
+msgstr "علم الأوبئة"
+
+msgid "Epidermal"
+msgstr "جلدي"
+
+msgid "Epidermic"
+msgstr "جلدي"
+
+msgid "Epidermis"
+msgstr "البشرة"
+
+msgid "Epigenetic"
+msgstr "متعلق ب التّخلّق المتعاقب"
+
+msgid "Epigram"
+msgstr "الحكمة"
+
+msgid "Epigrammatic"
+msgstr "ساخر"
+
+msgid "Epigrammatically"
+msgstr "بشكل ساخر"
+
+msgid "Epigrams"
+msgstr "الحكم"
+
+msgid "Epigraph"
+msgstr "النقوش"
+
+msgid "Epigrapher"
+msgstr "الابيغرافي"
+
+msgid "Epilepsy"
+msgstr "الصرع"
+
+msgid "Epileptic"
+msgstr "المصاب بالصّرع"
+
+msgid "Epileptically"
+msgstr "بشكل صرعي"
+
+msgid "Epileptics"
+msgstr "المصابون بالصّرع"
+
+msgid "Epilog"
+msgstr "الخاتمة"
+
+msgid "Epilogue"
+msgstr "الخاتمة"
+
+msgid "Epilogues"
+msgstr "الخواتم"
+
+msgid "Epiphany"
+msgstr "عيد الظهور"
+
+msgid "Epiphenomena"
+msgstr "الظّاهرة الثّانويّة"
+
+msgid "Epiphyseal"
+msgstr "متعلق ب الكردوس"
+
+msgid "Epiphysis"
+msgstr "الكردوس"
+
+msgid "Episcopal"
+msgstr "كنسي"
+
+msgid "Episcopalian"
+msgstr "الأسقفي"
+
+msgid "Episcopally"
+msgstr "بشكل كنسي"
+
+msgid "Episcopate"
+msgstr "الأسقفية"
+
+msgid "Episode"
+msgstr "الحادثة"
+
+msgid "Episodes"
+msgstr "الحوادث"
+
+msgid "Episodic"
+msgstr "إستطرادي"
+
+msgid "Episodical"
+msgstr "إستطرادي"
+
+msgid "Episodically"
+msgstr "بشكل إستطرادي"
+
+msgid "Epistemological"
+msgstr "متعلق ب نظريّة المعرفة"
+
+msgid "Epistemologically"
+msgstr "ذو علاقة بنظرية المعرفة"
+
+msgid "Epistemology"
+msgstr "نظرية المعرفة"
+
+msgid "Epistle"
+msgstr "الرسالة"
+
+msgid "Epistler"
+msgstr "كاتب الرّسائل"
+
+msgid "Epistles"
+msgstr "الرسائل"
+
+msgid "Epistolatory"
+msgstr "على شكل رسائل"
+
+msgid "Epitaph"
+msgstr "المرثية"
+
+msgid "Epitaphs"
+msgstr "المرثيات"
+
+msgid "Epitaxial"
+msgstr "بشكل النّموّ على طبقة شفّافة"
+
+msgid "Epitaxially"
+msgstr "بنّموّ على طبقة شفّافة"
+
+msgid "Epitaxy"
+msgstr "إبيتاز"
+
+msgid "Epithelia"
+msgstr "الظهارة"
+
+msgid "Epithelial"
+msgstr "طلائي"
+
+msgid "Epithelium"
+msgstr "الظهارة"
+
+msgid "Epitheliums"
+msgstr "الظهارة"
+
+msgid "Epithet"
+msgstr "الصفة"
+
+msgid "Epithets"
+msgstr "الصفات"
+
+msgid "Epitome"
+msgstr "الخلاصة"
+
+msgid "Epitomes"
+msgstr "الخلاصات"
+
+msgid "Epitomize"
+msgstr "لخّص"
+
+msgid "Epitomized"
+msgstr "ملخّص"
+
+msgid "Epitomizer"
+msgstr "الملخّص"
+
+msgid "Epitomizers"
+msgstr "الملخّصون"
+
+msgid "Epitomizes"
+msgstr "يلخّص"
+
+msgid "Epitomizing"
+msgstr "التلخيص"
+
+msgid "Epoch"
+msgstr "العهد"
+
+msgid "Epochal"
+msgstr "تأريخي"
+
+msgid "Epochally"
+msgstr "بشكل تأريخي"
+
+msgid "Epochs"
+msgstr "العهود"
+
+msgid "Eponym"
+msgstr "مسمّى على اسم"
+
+msgid "Eponymous"
+msgstr "مسمّى على اسم"
+
+msgid "Epoxy"
+msgstr "إبوكسي"
+
+msgid "Epsilon"
+msgstr "الحرف الخامس للألفباء اليونانيّة"
+
+msgid "Epsilons"
+msgstr "الحرف الخامس للألفباء اليونانيّة"
+
+msgid "Epsom"
+msgstr "إبسوم - ملح مرّ عديم اللّون"
+
+msgid "Epstein"
+msgstr "إبشتاين"
+
+msgid "Equability"
+msgstr "التساوي"
+
+msgid "Equable"
+msgstr "مطّرد"
+
+msgid "Equableness"
+msgstr "التساوي"
+
+msgid "Equably"
+msgstr "برصانة"
+
+msgid "Equal"
+msgstr "النظير"
+
+msgid "Equaled"
+msgstr "ساوى"
+
+msgid "Equaling"
+msgstr "المساواة"
+
+msgid "Equalities"
+msgstr "المساواة"
+
+msgid "Equality"
+msgstr "المساواة"
+
+msgid "Equalization"
+msgstr "المساواة"
+
+msgid "Equalizations"
+msgstr "المساواة"
+
+msgid "Equalize"
+msgstr "ساو"
+
+msgid "Equalized"
+msgstr "مساوى"
+
+msgid "Equalizer"
+msgstr "المعادل"
+
+msgid "Equalizers"
+msgstr "المعادلات"
+
+msgid "Equalizes"
+msgstr "يساوي"
+
+msgid "Equalizing"
+msgstr "المساواة"
+
+msgid "Equally"
+msgstr "على حد سواء"
+
+msgid "Equals"
+msgstr "النظائر"
+
+msgid "Equanimities"
+msgstr "الرصانة"
+
+msgid "Equanimity"
+msgstr "الرصانة"
+
+msgid "Equate"
+msgstr "ساو"
+
+msgid "Equated"
+msgstr "مساوى"
+
+msgid "Equates"
+msgstr "يساوي"
+
+msgid "Equating"
+msgstr "المساواة"
+
+msgid "Equation"
+msgstr "المعادلة"
+
+msgid "Equational"
+msgstr "تعادلي"
+
+msgid "Equationally"
+msgstr "بشكل تعادلي"
+
+msgid "Equations"
+msgstr "المعادلات"
+
+msgid "Equator"
+msgstr "خط الإستواء"
+
+msgid "Equatorial"
+msgstr "إستوائي"
+
+msgid "EquatorialGalactic"
+msgstr "استوائيمجري"
+
+msgid "Equatorialy"
+msgstr "بشكل إستوائي"
+
+msgid "Equators"
+msgstr "خطوط الإستواء"
+
+msgid "Equerries"
+msgstr "الساسة"
+
+msgid "Equerry"
+msgstr "السائس"
+
+msgid "Equestrian"
+msgstr "الفارس"
+
+msgid "Equestrians"
+msgstr "الفرسان"
+
+msgid "Equiangular"
+msgstr "متساوي الزوايا"
+
+msgid "Equidistance"
+msgstr "تساوي البعد"
+
+msgid "Equidistant"
+msgstr "متساوي البعد"
+
+msgid "Equidistantly"
+msgstr "بشكل متساوي البعد"
+
+msgid "Equilateral"
+msgstr "متساوي الأضلاع"
+
+msgid "Equilaterally"
+msgstr "بشكل متساوي الأضلاع"
+
+msgid "Equilaterals"
+msgstr "متساوو الأضلاع"
+
+msgid "Equilibrate"
+msgstr "وازن"
+
+msgid "Equilibrated"
+msgstr "موازن"
+
+msgid "Equilibrates"
+msgstr "يوازن"
+
+msgid "Equilibrating"
+msgstr "الموازنة"
+
+msgid "Equilibration"
+msgstr "الموازنة"
+
+msgid "Equilibria"
+msgstr "التوازنات"
+
+msgid "Equilibrist"
+msgstr "البهلوان (المشي على الحبل باتزان)"
+
+msgid "Equilibrium"
+msgstr "الموازنة"
+
+msgid "Equilibriums"
+msgstr "التوازنات"
+
+msgid "Equine"
+msgstr "فرسي"
+
+msgid "Equines"
+msgstr "متعلق ب أو يشبه الخيول"
+
+msgid "Equinoctial"
+msgstr "إعتدالي"
+
+msgid "Equinox"
+msgstr "الإعتدال"
+
+msgid "Equinoxes"
+msgstr "الإعتدالات"
+
+msgid "Equip"
+msgstr "جهّز"
+
+msgid "Equipage"
+msgstr "التجهيز"
+
+msgid "Equipment"
+msgstr "الأجهزة"
+
+msgid "Equipments"
+msgstr "الأجهزة"
+
+msgid "Equipoise"
+msgstr "التوازن"
+
+msgid "Equipotent"
+msgstr "مكافئ"
+
+msgid "Equipped"
+msgstr "مجهّز"
+
+msgid "Equipping"
+msgstr "التجهيز"
+
+msgid "Equips"
+msgstr "يجهّز"
+
+msgid "Equitable"
+msgstr "عادل"
+
+msgid "Equitableness"
+msgstr "العدل"
+
+msgid "Equitably"
+msgstr "بانصاف"
+
+msgid "Equitation"
+msgstr "الفروسية"
+
+msgid "Equities"
+msgstr "الأسهم العادية"
+
+msgid "Equity"
+msgstr "العدالة"
+
+msgid "Equivalence"
+msgstr "المكافئة"
+
+msgid "Equivalences"
+msgstr "المكافئات"
+
+msgid "Equivalency"
+msgstr "المكافئة"
+
+msgid "Equivalent"
+msgstr "المكافئ"
+
+msgid "Equivalently"
+msgstr "بشكل مكافئ"
+
+msgid "Equivalents"
+msgstr "المكافئون"
+
+msgid "Equivocal"
+msgstr "مريب"
+
+msgid "Equivocally"
+msgstr "بشكل مريب"
+
+msgid "Equivocalness"
+msgstr "الغموض"
+
+msgid "Equivocate"
+msgstr "راوغ"
+
+msgid "Equivocated"
+msgstr "مراوغ"
+
+msgid "Equivocates"
+msgstr "يراوغ"
+
+msgid "Equivocating"
+msgstr "المراوغة"
+
+msgid "Equivocation"
+msgstr "المراوغة"
+
+msgid "Equivocator"
+msgstr "المراوغ"
+
+msgid "ER"
+msgstr "غرفة الطواريء في المستشفى"
+
+msgid "Era"
+msgstr "العصر"
+
+msgid "Eradicable"
+msgstr "قابل للإستئصال"
+
+msgid "Eradicate"
+msgstr "إستأصل"
+
+msgid "Eradicated"
+msgstr "مستأصل"
+
+msgid "Eradicates"
+msgstr "يستأصل"
+
+msgid "Eradicating"
+msgstr "الإستئصال"
+
+msgid "Eradication"
+msgstr "الإستئصال"
+
+msgid "Eradications"
+msgstr "الإستئصال"
+
+msgid "Eradicative"
+msgstr "استئصالي"
+
+msgid "Eras"
+msgstr "العصور"
+
+msgid "Erasable"
+msgstr "قابل للمسح"
+
+msgid "Erase"
+msgstr "إمح"
+
+msgid "Erased"
+msgstr "ممحو"
+
+msgid "Eraser"
+msgstr "المحّاية"
+
+msgid "Erasers"
+msgstr "المحّايات"
+
+msgid "Erases"
+msgstr "يمحو"
+
+msgid "Erasing"
+msgstr "المحو"
+
+msgid "Erasion"
+msgstr "المسح"
+
+msgid "Erastus"
+msgstr "محبوب"
+
+msgid "Erasure"
+msgstr "المحو"
+
+msgid "Erasures"
+msgstr "المحو"
+
+msgid "Erato"
+msgstr "إراتو"
+
+msgid "Eratosthenes"
+msgstr "إراتوسثينيز - عالم رياضيّات يونانيّ"
+
+msgid "Erbium"
+msgstr "الأربيوم"
+
+msgid "ERDA"
+msgstr "إردا"
+
+msgid "Ere"
+msgstr "يحرث"
+
+msgid "Erect"
+msgstr "منتصب"
+
+msgid "Erected"
+msgstr "منصوب"
+
+msgid "Erectile"
+msgstr "قابل للإنتصاب"
+
+msgid "Erecting"
+msgstr "النصب"
+
+msgid "Erection"
+msgstr "الإنتصاب"
+
+msgid "Erections"
+msgstr "الإنتصاب"
+
+msgid "Erectly"
+msgstr "بشكل منتصب"
+
+msgid "Erectness"
+msgstr "الإنتصاب"
+
+msgid "Erector"
+msgstr "المركّب"
+
+msgid "Erectors"
+msgstr "المركّبون"
+
+msgid "Erects"
+msgstr "ينصب"
+
+msgid "Erg"
+msgstr "الإرج"
+
+msgid "Ergative"
+msgstr "متعلق ب اللغة الارجاتية"
+
+msgid "Ergo"
+msgstr "ولهذا"
+
+msgid "Ergodic"
+msgstr "إرجوديك"
+
+msgid "Ergodicity"
+msgstr "احتمال حدوث الشيىء مرة أخرى"
+
+msgid "Ergonomic"
+msgstr "مريح"
+
+msgid "Ergonomics"
+msgstr "الهندسة الإنسانية"
+
+msgid "Ergonomist"
+msgstr "العالم بارتباط الانسان بالمادة"
+
+msgid "Ergot"
+msgstr "الشقران"
+
+msgid "Eric"
+msgstr "إيريك"
+
+msgid "Erich"
+msgstr "إريك"
+
+msgid "Erickson"
+msgstr "إريكسون"
+
+msgid "Ericsson"
+msgstr "أريكسون"
+
+msgid "Erie"
+msgstr "آيري - أحد بحيرات \"البحيرات العظمى\""
+
+msgid "Erik"
+msgstr "إريك"
+
+msgid "Erikson"
+msgstr "إريكسون"
+
+msgid "Eritrea"
+msgstr "أرتيريا"
+
+msgid "Erlang"
+msgstr "إرلانج"
+
+msgid "Erlenmeyer"
+msgstr "إرلينميير"
+
+msgid "Ermine"
+msgstr "فرو القاقم"
+
+msgid "Ermined"
+msgstr "إرمنيد"
+
+msgid "Ermines"
+msgstr "فرو القاقم"
+
+msgid "Ernest"
+msgstr "إيرنست"
+
+msgid "Ernestine"
+msgstr "إرنيستاين"
+
+msgid "Ernie"
+msgstr "إرني"
+
+msgid "Ernst"
+msgstr "إيرنست - رسّام ألمانيّ"
+
+msgid "Erode"
+msgstr "تآكل"
+
+msgid "Eroded"
+msgstr "متآكل"
+
+msgid "Erodes"
+msgstr "يتآكل"
+
+msgid "Erodible"
+msgstr "قابل للتآكل"
+
+msgid "Eroding"
+msgstr "التآكل"
+
+msgid "Erogenous"
+msgstr "حسّاس جنسيًّا"
+
+msgid "Eros"
+msgstr "إروز"
+
+msgid "Erosion"
+msgstr "التآكل"
+
+msgid "Erosions"
+msgstr "التآكلات"
+
+msgid "Erosive"
+msgstr "تآكلي"
+
+msgid "Erosiveness"
+msgstr "التآكل"
+
+msgid "Erotic"
+msgstr "جنسي"
+
+msgid "Erotica"
+msgstr "اﻷعمال الجنسية (أفلام، صور)"
+
+msgid "Erotically"
+msgstr "بشكل جنسي مثير"
+
+msgid "Eroticism"
+msgstr "الإثارة الجنسية"
+
+msgid "Erotism"
+msgstr "الشهوة الجنسية"
+
+msgid "Err"
+msgstr "أخطأ"
+
+msgid "Errancies"
+msgstr "المغامرات"
+
+msgid "Errancy"
+msgstr "المغامرة"
+
+msgid "Errand"
+msgstr "المهمة"
+
+msgid "Errands"
+msgstr "المهمات"
+
+msgid "Errant"
+msgstr "ضالّ"
+
+msgid "Errantly"
+msgstr "ضالا"
+
+msgid "Errantry"
+msgstr "التجوال"
+
+msgid "Errants"
+msgstr "الانحرافات"
+
+msgid "Errata"
+msgstr "الأخطاء"
+
+msgid "Erratic"
+msgstr "عصبي"
+
+msgid "Erratically"
+msgstr "بعصبية"
+
+msgid "Erratum"
+msgstr "الخطأ"
+
+msgid "Erred"
+msgstr "مخطأ"
+
+msgid "Erring"
+msgstr "الخطأ"
+
+msgid "Errol"
+msgstr "إرول"
+
+msgid "Erroneous"
+msgstr "خاطئ"
+
+msgid "Erroneously"
+msgstr "خطأ"
+
+msgid "Erroneousness"
+msgstr "الخطأ"
+
+msgid "Error"
+msgstr "الخطأ"
+
+msgid "Error-checking"
+msgstr "التأكد من الخطأ"
+
+msgid "Error-correcting"
+msgstr "تصحيح الخطأ"
+
+msgid "Error-detecting"
+msgstr "إكتشاف الخطأ"
+
+msgid "Error-free"
+msgstr "سليم"
+
+msgid "Errors"
+msgstr "الأخطاء"
+
+msgid "Errs"
+msgstr "يخطئ"
+
+msgid "Ersatz"
+msgstr "بديل"
+
+msgid "Erskine"
+msgstr "إرسكين"
+
+msgid "Erstwhile"
+msgstr "سابقا"
+
+msgid "Erudite"
+msgstr "مطّلع"
+
+msgid "Eruditely"
+msgstr "بشكل مطّلع"
+
+msgid "Eruditeness"
+msgstr "الاطلاع"
+
+msgid "Erudition"
+msgstr "سعة الإطلاع"
+
+msgid "Erupt"
+msgstr "إنفجر"
+
+msgid "Erupted"
+msgstr "منفجر"
+
+msgid "Erupting"
+msgstr "الإنفجار"
+
+msgid "Eruption"
+msgstr "الإنفجار"
+
+msgid "Eruptions"
+msgstr "الإنفجارات"
+
+msgid "Eruptive"
+msgstr "إنفجاري"
+
+msgid "Eruptively"
+msgstr "بشكل إنفجاري"
+
+msgid "Erupts"
+msgstr "ينفجر"
+
+msgid "Ervin"
+msgstr "إرفإن"
+
+msgid "Erwin"
+msgstr "إرون"
+
+msgid "Esc"
+msgstr "خروج"
+
+msgid "Escadrille"
+msgstr "سرب صغير"
+
+msgid "Escalate"
+msgstr "تصاعد"
+
+msgid "Escalated"
+msgstr "متصاعد"
+
+msgid "Escalates"
+msgstr "يتصاعد"
+
+msgid "Escalating"
+msgstr "التصاعد"
+
+msgid "Escalation"
+msgstr "التصعيد"
+
+msgid "Escalations"
+msgstr "التصعيدات"
+
+msgid "Escalator"
+msgstr "المصعد"
+
+msgid "Escalators"
+msgstr "المصاعد"
+
+msgid "Escapable"
+msgstr "ممكن تّجنّبه"
+
+msgid "Escapade"
+msgstr "الطيش"
+
+msgid "Escapades"
+msgstr "الطيش"
+
+msgid "Escape"
+msgstr "الهروب"
+
+msgid "Escaped"
+msgstr "هارب"
+
+msgid "Escapee"
+msgstr "الهارب"
+
+msgid "Escapees"
+msgstr "الهاربون"
+
+msgid "Escapement"
+msgstr "ميزان الساعة"
+
+msgid "Escapements"
+msgstr "ميزان الساعة"
+
+msgid "Escaper"
+msgstr "الهارب"
+
+msgid "Escapes"
+msgstr "يهرب"
+
+msgid "Escaping"
+msgstr "الهروب"
+
+msgid "Escapist"
+msgstr "الإنهزامي"
+
+msgid "Escargot"
+msgstr "قوقعة"
+
+msgid "Escargots"
+msgstr "قواقع"
+
+msgid "Escarole"
+msgstr "إسكارول (أعشاب)"
+
+msgid "Escarpment"
+msgstr "الجرف"
+
+msgid "Escarpments"
+msgstr "الجرف"
+
+msgid "Escheat"
+msgstr "الإستيراث"
+
+msgid "Escherichia"
+msgstr "إسكيريتشيا - بكتيريا معويّة"
+
+msgid "Eschew"
+msgstr "تجنّب"
+
+msgid "Eschewed"
+msgstr "متجنّب"
+
+msgid "Eschewing"
+msgstr "التجنّب"
+
+msgid "Eschews"
+msgstr "يتجنّب"
+
+msgid "Escort"
+msgstr "المرافق"
+
+msgid "Escorted"
+msgstr "مرافق"
+
+msgid "Escorting"
+msgstr "المرافقة"
+
+msgid "Escorts"
+msgstr "المرافقون"
+
+msgid "Escritoire"
+msgstr "منضدة الكتابة"
+
+msgid "Escrow"
+msgstr "خاص"
+
+msgid "Escutcheon"
+msgstr "شعار النبالة"
+
+msgid "Escutcheons"
+msgstr "شعارات النبالة"
+
+msgid "Esentially"
+msgstr "أساسا"
+
+msgid "Eskimo"
+msgstr "أسكيمو"
+
+msgid "Eskimos"
+msgstr "الأسكيمو"
+
+msgid "Esophagi"
+msgstr "جمع \"مريء\""
+
+msgid "Esophagus"
+msgstr "المرئ"
+
+msgid "Esoteric"
+msgstr "باطني"
+
+msgid "Esoterically"
+msgstr "بشكل باطني"
+
+msgid "Esp"
+msgstr "الإدراك اللّاشّعوريّ"
+
+msgid "Espalier"
+msgstr "التعريشة"
+
+msgid "Espaliers"
+msgstr "التعريشات"
+
+msgid "Especial"
+msgstr "خاصّ"
+
+msgid "Especially"
+msgstr "خصوصا"
+
+msgid "Esperance"
+msgstr "الأمل، التّوقع"
+
+msgid "Esperanto"
+msgstr "الإسبيرانتو"
+
+msgid "Espied"
+msgstr "مراقب"
+
+msgid "Espies"
+msgstr "يراقب"
+
+msgid "Espionage"
+msgstr "التجسس"
+
+msgid "Esplanade"
+msgstr "المتنزه"
+
+msgid "Esposito"
+msgstr "إسبوسيتو"
+
+msgid "Espousal"
+msgstr "الإعتناق"
+
+msgid "Espousals"
+msgstr "الإعتناق"
+
+msgid "Espouse"
+msgstr "تبنّ"
+
+msgid "Espoused"
+msgstr "تبنّى"
+
+msgid "Espouser"
+msgstr "المؤيّد"
+
+msgid "Espouses"
+msgstr "يتبنّى"
+
+msgid "Espousing"
+msgstr "التبنّي"
+
+msgid "Espressos"
+msgstr "الإسبريسو"
+
+msgid "Esprit"
+msgstr "الروح"
+
+msgid "Esprits"
+msgstr "الأرواح"
+
+msgid "Espy"
+msgstr "راقب"
+
+msgid "Espying"
+msgstr "المراقبة"
+
+msgid "Esquire"
+msgstr "المحترم"
+
+msgid "Esquires"
+msgstr "المحترمون"
+
+msgid "Essay"
+msgstr "المقالة"
+
+msgid "Essayed"
+msgstr "محاول"
+
+msgid "Essayer"
+msgstr "إساير"
+
+msgid "Essayist"
+msgstr "الكاتب"
+
+msgid "Essayists"
+msgstr "الكتّاب"
+
+msgid "Essays"
+msgstr "المقالات"
+
+msgid "Essen"
+msgstr "إسين"
+
+msgid "Essence"
+msgstr "الجوهر"
+
+msgid "Essences"
+msgstr "الجواهر"
+
+msgid "Essential"
+msgstr "ضروري"
+
+msgid "Essentially"
+msgstr "جوهريا"
+
+msgid "Essentialness"
+msgstr "الضرورة"
+
+msgid "Essentials"
+msgstr "الضروريات"
+
+msgid "Essex"
+msgstr "إسيكس"
+
+msgid "EST"
+msgstr "توقيت شرق أمريكا"
+
+msgid "Establish"
+msgstr "ينشئ"
+
+msgid "Established"
+msgstr "قائم"
+
+msgid "Establisher"
+msgstr "المؤسس"
+
+msgid "Establishes"
+msgstr "يؤسّس"
+
+msgid "Establishing"
+msgstr "التأسيس"
+
+msgid "Establishment"
+msgstr "المؤسسة"
+
+msgid "Establishments"
+msgstr "المؤسسات"
+
+msgid "Estate"
+msgstr "العقار"
+
+msgid "Estates"
+msgstr "العقارات"
+
+msgid "Esteem"
+msgstr "الإحترام"
+
+msgid "Esteemed"
+msgstr "مثمّن"
+
+msgid "Esteeming"
+msgstr "التثمين"
+
+msgid "Esteems"
+msgstr "الإحترامات"
+
+msgid "Estella"
+msgstr "إستيلا"
+
+msgid "Ester"
+msgstr "ملح الإستر"
+
+msgid "Esters"
+msgstr "ملح الإستر"
+
+msgid "Estes"
+msgstr "إستيس"
+
+msgid "Esther"
+msgstr "إستر"
+
+msgid "Esthete"
+msgstr "إسذيت"
+
+msgid "Esthetes"
+msgstr "إسذيتيس"
+
+msgid "Esthetic"
+msgstr "جمالي"
+
+msgid "Esthetically"
+msgstr "جماليًّا"
+
+msgid "Esthetics"
+msgstr "الجماليات"
+
+msgid "Estimable"
+msgstr "محترم"
+
+msgid "Estimableness"
+msgstr "احترام أو تقدير النفس"
+
+msgid "Estimably"
+msgstr "بصورة محترمة"
+
+msgid "Estimate"
+msgstr "التخمين"
+
+msgid "Estimated"
+msgstr "مخمّن"
+
+msgid "Estimates"
+msgstr "التخمينات"
+
+msgid "Estimating"
+msgstr "التخمين"
+
+msgid "Estimation"
+msgstr "التقدير"
+
+msgid "Estimations"
+msgstr "التقديرات"
+
+msgid "Estimative"
+msgstr "تقديري"
+
+msgid "Estimator"
+msgstr "المقدّر"
+
+msgid "Estimators"
+msgstr "المقدّرون"
+
+msgid "Estonia"
+msgstr "أستونيا"
+
+msgid "Estonian"
+msgstr "الأستوني"
+
+msgid "Estop"
+msgstr "إمنع"
+
+msgid "Estoppel"
+msgstr "منع قانوني"
+
+msgid "Estrange"
+msgstr "جاف"
+
+msgid "Estranged"
+msgstr "مجافى"
+
+msgid "Estrangement"
+msgstr "الجفاء"
+
+msgid "Estrangements"
+msgstr "الجفاء"
+
+msgid "Estranger"
+msgstr "المنفر"
+
+msgid "Estranges"
+msgstr "يجافي"
+
+msgid "Estranging"
+msgstr "المجافاة"
+
+msgid "Estrogen"
+msgstr "ايستروجين - الهرمون الأنثوي في الجسم"
+
+msgid "Estuaries"
+msgstr "المصبّات"
+
+msgid "Estuarine"
+msgstr "مصبّي"
+
+msgid "Estuary"
+msgstr "المصبّ"
+
+msgid "Et"
+msgstr "الكائن الفضائيّ"
+
+msgid "Eta"
+msgstr "إيتا - الحرف السّابع للأبجدية اليونانيّة، موعد الوصول التقريبي"
+
+msgid "Etas"
+msgstr "الحرف السّابع للأبجدية اليونانيّة"
+
+msgid "Etc"
+msgstr "الخ"
+
+msgid "Etcetera"
+msgstr "إلى آخره"
+
+msgid "Etch"
+msgstr "إحفر"
+
+msgid "Etched"
+msgstr "محفور"
+
+msgid "Etcher"
+msgstr "النقّاش"
+
+msgid "Etches"
+msgstr "يحفر"
+
+msgid "Etching"
+msgstr "النقش"
+
+msgid "Etchings"
+msgstr "النقش"
+
+msgid "Eternal"
+msgstr "أبدي"
+
+msgid "Eternalize"
+msgstr "يخلد (الخلود)"
+
+msgid "Eternalized"
+msgstr "خلد (الخلود)"
+
+msgid "Eternalizing"
+msgstr "يخلد (الخلود)"
+
+msgid "Eternally"
+msgstr "إلى الأبد"
+
+msgid "Eternalness"
+msgstr "الخلود"
+
+msgid "Eternities"
+msgstr "الخلود"
+
+msgid "Eternity"
+msgstr "الخلود"
+
+msgid "Ethan"
+msgstr "إثان"
+
+msgid "Ethane"
+msgstr "الإثنين"
+
+msgid "Ethanol"
+msgstr "ايثانول"
+
+msgid "Ethel"
+msgstr "إثيل"
+
+msgid "Ether"
+msgstr "الأثير"
+
+msgid "Ethereal"
+msgstr "أثيري"
+
+msgid "Ethereally"
+msgstr "بشكل أثيري"
+
+msgid "Etherealness"
+msgstr "اﻷثيرية"
+
+msgid "Ethernet"
+msgstr "الإيثرنت"
+
+msgid "Ethernets"
+msgstr "الإيثرنت"
+
+msgid "Ethic"
+msgstr "الخلق"
+
+msgid "Ethical"
+msgstr "أخلاقي"
+
+msgid "Ethically"
+msgstr "بشكل أخلاقي"
+
+msgid "Ethicalness"
+msgstr "اﻷخلاقية"
+
+msgid "Ethicist"
+msgstr "عالم اﻷخلاق"
+
+msgid "Ethicists"
+msgstr "إثيسيستس"
+
+msgid "Ethics"
+msgstr "الأخلاق"
+
+msgid "Ethiopia"
+msgstr "إثيوبيا"
+
+msgid "Ethiopians"
+msgstr "الأثيوبيون"
+
+msgid "Ethnic"
+msgstr "عرقي"
+
+msgid "Ethnical"
+msgstr "عرقي"
+
+msgid "Ethnically"
+msgstr "عرقيا"
+
+msgid "Ethnicities"
+msgstr "الإنتماءات العرقية"
+
+msgid "Ethnicity"
+msgstr "الإنتماء العرقي"
+
+msgid "Ethnographers"
+msgstr "الإنثوغرافيون"
+
+msgid "Ethnographic"
+msgstr "أنثوغرافي"
+
+msgid "Ethnography"
+msgstr "وصف الأعراق البشرية"
+
+msgid "Ethnologic"
+msgstr "إنثولوجي"
+
+msgid "Ethnological"
+msgstr "إنثولوجي"
+
+msgid "Ethnology"
+msgstr "علم الأجناس"
+
+msgid "Ethnomethodology"
+msgstr "علم الاجتماع"
+
+msgid "Ethology"
+msgstr "اﻷخلاقيات"
+
+msgid "Ethos"
+msgstr "الأخلاقيات"
+
+msgid "Ethyl"
+msgstr "الأثيل"
+
+msgid "Ethyl-Benzene"
+msgstr "بنزين أثيل"
+
+msgid "Ethylene"
+msgstr "الإثيلين"
+
+msgid "Ethyls"
+msgstr "الأثيل"
+
+msgid "Etiology"
+msgstr "علم المسببات"
+
+msgid "Etiquette"
+msgstr "السلوك"
+
+msgid "Etiquettes"
+msgstr "السلوك"
+
+msgid "Etruscan"
+msgstr "مواطن إتريوريا"
+
+msgid "Etude"
+msgstr "القطعة الموسيقية"
+
+msgid "Etudes"
+msgstr "القطع الموسيقية"
+
+msgid "Etymological"
+msgstr "إشتقاقي"
+
+msgid "Etymologically"
+msgstr "بشكل إشتقاقي"
+
+msgid "Etymologies"
+msgstr "علم أصول الكلام"
+
+msgid "Etymology"
+msgstr "علم أصل الكلمة"
+
+msgid "Eucalyptus"
+msgstr "الأوكالبتوس (نوع من النباتات)"
+
+msgid "Eucalyptuses"
+msgstr "الأوكالبتوس (نوع من النباتات)"
+
+msgid "Eucharist"
+msgstr "القربان المقدس"
+
+msgid "Eucharistical"
+msgstr "قرباني"
+
+msgid "Euchre"
+msgstr "يوكر(لعبة ورق) "
+
+msgid "Euchred"
+msgstr "خدع"
+
+msgid "Euchres"
+msgstr "يوكر (لعبة ورق)"
+
+msgid "Euchring"
+msgstr "يخدع"
+
+msgid "Euclid"
+msgstr "إقليديس"
+
+msgid "Euclidean"
+msgstr "إقليدي"
+
+msgid "Eugene"
+msgstr "يوجين"
+
+msgid "Eugenia"
+msgstr "يوجينيا"
+
+msgid "Eugenic"
+msgstr "محسن للنّسل"
+
+msgid "Eugenically"
+msgstr "متعلق بتحسين النّسل"
+
+msgid "Eugenics"
+msgstr "علم تحسين النسل"
+
+msgid "Eukaryote"
+msgstr "يوكاريوت (كائن حي أحادي أو ثنائي الخلية)"
+
+msgid "Euler"
+msgstr "يولر"
+
+msgid "Eulerian"
+msgstr "متّعلّق ب يولر, عالم رياضيّات ألمانيّ"
+
+msgid "Eulogies"
+msgstr "قصائد المدح"
+
+msgid "Eulogist"
+msgstr "المدّاح"
+
+msgid "Eulogistic"
+msgstr "مدحي"
+
+msgid "Eulogists"
+msgstr "المدّاحون"
+
+msgid "Eulogize"
+msgstr "إمدح"
+
+msgid "Eulogized"
+msgstr "ممدوح"
+
+msgid "Eulogizer"
+msgstr "المادح"
+
+msgid "Eulogizers"
+msgstr "المادحون"
+
+msgid "Eulogizes"
+msgstr "يمدح"
+
+msgid "Eulogizing"
+msgstr "المدح"
+
+msgid "Eulogy"
+msgstr "قصيدة المدح"
+
+msgid "Eumenides"
+msgstr "المهذبون"
+
+msgid "Eunice"
+msgstr "يونيس"
+
+msgid "Eunuch"
+msgstr "الخصيّ"
+
+msgid "Eunuchs"
+msgstr "الخصيّ"
+
+msgid "Euphemism"
+msgstr "التلطيفية"
+
+msgid "Euphemisms"
+msgstr "التلطيفية"
+
+msgid "Euphemist"
+msgstr "مسيىء الفهم"
+
+msgid "Euphemistic"
+msgstr "تلطيفي"
+
+msgid "Euphemistically"
+msgstr "باساءة الفهم"
+
+msgid "Euphonic"
+msgstr "رخيم"
+
+msgid "Euphonies"
+msgstr "الكلمات الجميلة"
+
+msgid "Euphonious"
+msgstr "رخيم"
+
+msgid "Euphoniously"
+msgstr "بشكل رخيم"
+
+msgid "Euphony"
+msgstr "رخامة الصوت"
+
+msgid "Euphorbia"
+msgstr "الفربيون (شجرة)"
+
+msgid "Euphoria"
+msgstr "الغبطة"
+
+msgid "Euphorias"
+msgstr "الغبطة"
+
+msgid "Euphoric"
+msgstr "مبتهج"
+
+msgid "Euphrates"
+msgstr "الفرات"
+
+msgid "Eurasia"
+msgstr "يوراسيا - اسم ل آسيا و أوروبّا"
+
+msgid "Eurasian"
+msgstr "أوراسيوي"
+
+msgid "Eureka"
+msgstr "وجدتها"
+
+msgid "Euripides"
+msgstr "يوريبيديز - كاتب مسرحيّ يونانيّ"
+
+msgid "Euro-House"
+msgstr "منزل أوربي"
+
+msgid "Euro-Techno"
+msgstr "تيكنو أوربي"
+
+msgid "Eurocard"
+msgstr "يوروكأرد - عدة مقاسات موحدة ﻷلواح الدوائر الكهربائية"
+
+msgid "Eurodance"
+msgstr "رقص اوروبي"
+
+msgid "Europa"
+msgstr "أوروبا"
+
+msgid "Europe"
+msgstr "أوروبا"
+
+msgid "European"
+msgstr "أوروبي"
+
+msgid "Europeanization"
+msgstr "الأوربة"
+
+msgid "Europeanizations"
+msgstr "الأوربة"
+
+msgid "Europeanized"
+msgstr "مؤورب"
+
+msgid "Europeans"
+msgstr "الأوربيون"
+
+msgid "Europium"
+msgstr "الأوروبيوم"
+
+msgid "EuroScale"
+msgstr "قياس أوروبي"
+
+msgid "Eurostandard"
+msgstr "أوروبي قياسي"
+
+msgid "Eurydice"
+msgstr "يوريديس - زوجة أورفيس"
+
+msgid "Eutectic"
+msgstr "إنصهاري"
+
+msgid "Euterpe"
+msgstr "يوتيرب - الوحيّ للموسيقى (الأساطير اليونانيّة)"
+
+msgid "Euthanasia"
+msgstr "موت الرحمة"
+
+msgid "Eva"
+msgstr "إيفا"
+
+msgid "Evacuate"
+msgstr "أخل"
+
+msgid "Evacuated"
+msgstr "مخلى"
+
+msgid "Evacuates"
+msgstr "يخلي"
+
+msgid "Evacuating"
+msgstr "الإخلاء"
+
+msgid "Evacuation"
+msgstr "الإخلاء"
+
+msgid "Evacuations"
+msgstr "عمليات الإخلاء"
+
+msgid "Evacuative"
+msgstr "اخلائي"
+
+msgid "Evacuee"
+msgstr "المجلى"
+
+msgid "Evacuees"
+msgstr "المجلون"
+
+msgid "Evadable"
+msgstr "مجتنب"
+
+msgid "Evade"
+msgstr "تجنّب"
+
+msgid "Evaded"
+msgstr "متجنّب"
+
+msgid "Evader"
+msgstr "المتهرّب"
+
+msgid "Evaders"
+msgstr "المتهرّبون"
+
+msgid "Evades"
+msgstr "يتجنّب"
+
+msgid "Evading"
+msgstr "التجنّب"
+
+msgid "Evaluate"
+msgstr "قيّم"
+
+msgid "Evaluated"
+msgstr "مقيّم"
+
+msgid "Evaluates"
+msgstr "يقيّم"
+
+msgid "Evaluating"
+msgstr "التقييم"
+
+msgid "Evaluation"
+msgstr "التقييم"
+
+msgid "Evaluations"
+msgstr "التقييمات"
+
+msgid "Evaluative"
+msgstr "تقييمي"
+
+msgid "Evaluator"
+msgstr "المخمّن"
+
+msgid "Evaluators"
+msgstr "المخمّنون"
+
+msgid "Evanescence"
+msgstr "التّلاشي"
+
+msgid "Evanescent"
+msgstr "متلاشي"
+
+msgid "Evanescently"
+msgstr "بشكل متلاشي"
+
+msgid "Evangel"
+msgstr "الإنجيل"
+
+msgid "Evangelic"
+msgstr "إنجيلي"
+
+msgid "Evangelical"
+msgstr "إنجيلي"
+
+msgid "Evangelicalism"
+msgstr "الأنجليكانية"
+
+msgid "Evangelically"
+msgstr "بشكل إنجيلي"
+
+msgid "Evangelicals"
+msgstr "التبشيريون"
+
+msgid "Evangeline"
+msgstr "إفانجيلاين"
+
+msgid "Evangelism"
+msgstr "الدعوة الإنجيلية"
+
+msgid "Evangelist"
+msgstr "الداعية"
+
+msgid "Evangelistic"
+msgstr "إنجيلي"
+
+msgid "Evangelistically"
+msgstr "بصورة تبشيرية"
+
+msgid "Evangelists"
+msgstr "الدعاة"
+
+msgid "Evangelize"
+msgstr "نصّر"
+
+msgid "Evangelized"
+msgstr "منصّر"
+
+msgid "Evangelizes"
+msgstr "ينصّر"
+
+msgid "Evangelizing"
+msgstr "التنصير"
+
+msgid "Evans"
+msgstr "إيفانس"
+
+msgid "Evanston"
+msgstr "إيفانستون"
+
+msgid "Evansville"
+msgstr "إيفانسفيل"
+
+msgid "Evaporate"
+msgstr "تبخّر"
+
+msgid "Evaporated"
+msgstr "مبخّر"
+
+msgid "Evaporates"
+msgstr "يتبخّر"
+
+msgid "Evaporating"
+msgstr "التبخير"
+
+msgid "Evaporation"
+msgstr "التبخير"
+
+msgid "Evaporations"
+msgstr "التبخير"
+
+msgid "Evaporative"
+msgstr "تبخّري"
+
+msgid "Evaporatively"
+msgstr "بشكل تبخّري"
+
+msgid "Evaporator"
+msgstr "المبخّر"
+
+msgid "Evasion"
+msgstr "المراوغة"
+
+msgid "Evasions"
+msgstr "التهرّب"
+
+msgid "Evasive"
+msgstr "مراوغ"
+
+msgid "Evasively"
+msgstr "تهربّا"
+
+msgid "Evasiveness"
+msgstr "التهرّب"
+
+msgid "Eve"
+msgstr "حواء"
+
+msgid "Eved"
+msgstr "إفيد"
+
+msgid "Evelyn"
+msgstr "إفيلن"
+
+msgid "Even"
+msgstr "حتى"
+
+msgid "Even-numbered"
+msgstr "حتى معدود"
+
+msgid "Evened"
+msgstr "مسوّى"
+
+msgid "Evener"
+msgstr "المساوي"
+
+msgid "Evenhanded"
+msgstr "عادل"
+
+msgid "Evenhandedly"
+msgstr "بانصاف"
+
+msgid "Evenhandedness"
+msgstr "الإنصاف"
+
+msgid "Evening"
+msgstr "المساء"
+
+msgid "Evenings"
+msgstr "الأمسيات"
+
+msgid "Evenly"
+msgstr "بانتظام"
+
+msgid "Evenness"
+msgstr "المساواة"
+
+msgid "Evens"
+msgstr "يسوّي"
+
+msgid "Evensong"
+msgstr "صلاة المساء"
+
+msgid "Event"
+msgstr "الحدث"
+
+msgid "Eventful"
+msgstr "حافل بالأحداث"
+
+msgid "Eventfully"
+msgstr "زاخرا بالأحداث"
+
+msgid "Eventfulness"
+msgstr "تعددية اﻷحداث"
+
+msgid "Eventide"
+msgstr "المساء"
+
+msgid "Eventides"
+msgstr "الأماسي"
+
+msgid "Events"
+msgstr "الأحداث"
+
+msgid "Eventual"
+msgstr "نهائي"
+
+msgid "Eventualities"
+msgstr "الإحتمالات"
+
+msgid "Eventuality"
+msgstr "الإحتمال"
+
+msgid "Eventually"
+msgstr "في النهاية"
+
+msgid "Eventuate"
+msgstr "إحدث"
+
+msgid "Eventuated"
+msgstr "حادث"
+
+msgid "Eventuates"
+msgstr "يحدث"
+
+msgid "Eventuating"
+msgstr "الحدث"
+
+msgid "Eventuation"
+msgstr "المحصلة"
+
+msgid "Ever"
+msgstr "أبدا"
+
+msgid "Everest"
+msgstr "جبل ايفيرست"
+
+msgid "Everett"
+msgstr "إفيريت"
+
+msgid "Everglade"
+msgstr "إفيرجلاد"
+
+msgid "Everglades"
+msgstr "إفيرجلاديز"
+
+msgid "Evergreen"
+msgstr "الشجرة دائمة الخضرة"
+
+msgid "Everhart"
+msgstr "إفيرهارت"
+
+msgid "Everlasting"
+msgstr "أبدي"
+
+msgid "Everlastingly"
+msgstr "بشكل أبدي"
+
+msgid "Everlastingness"
+msgstr "الديمومة"
+
+msgid "Evermore"
+msgstr "دائما"
+
+msgid "Every"
+msgstr "كلّ"
+
+msgid "Everybody"
+msgstr "كلّ شخص"
+
+msgid "Everyday"
+msgstr "كلّ يوم"
+
+msgid "Everydayness"
+msgstr "الروتين"
+
+msgid "Everyman"
+msgstr "كلّ رجل"
+
+msgid "Everyone"
+msgstr "كلّ شخص"
+
+msgid "Everything"
+msgstr "كلّ شيء"
+
+msgid "Everywhere"
+msgstr "في كل مكان"
+
+msgid "Eves"
+msgstr "الليالي"
+
+msgid "Evict"
+msgstr "إطرد"
+
+msgid "Evicted"
+msgstr "مطرود"
+
+msgid "Evicting"
+msgstr "الطرد"
+
+msgid "Eviction"
+msgstr "الطرد"
+
+msgid "Evictions"
+msgstr "أعمال الطرد"
+
+msgid "Evicts"
+msgstr "يطرد"
+
+msgid "Evidence"
+msgstr "الدليل"
+
+msgid "Evidenced"
+msgstr "أثبت"
+
+msgid "Evidences"
+msgstr "الأدلّة"
+
+msgid "Evidencing"
+msgstr "الإثبات"
+
+msgid "Evident"
+msgstr "واضح"
+
+msgid "Evidential"
+msgstr "واضح"
+
+msgid "Evidentially"
+msgstr "بشكل واضح"
+
+msgid "Evidently"
+msgstr "من الواضح"
+
+msgid "Evil"
+msgstr "الشرّ"
+
+msgid "Evildoer"
+msgstr "الشرّير"
+
+msgid "Evildoers"
+msgstr "الأشرار"
+
+msgid "Eviler"
+msgstr "أكثر شرّا"
+
+msgid "Evilest"
+msgstr "أكثر شرّا"
+
+msgid "Evilly"
+msgstr "بشكل شرير"
+
+msgid "Evilness"
+msgstr "الشر"
+
+msgid "Evils"
+msgstr "الشرور"
+
+msgid "Evince"
+msgstr "برهن"
+
+msgid "Evinced"
+msgstr "مبرهن"
+
+msgid "Evinces"
+msgstr "يبرهن"
+
+msgid "Evincible"
+msgstr "ممكن اثباته"
+
+msgid "Evincing"
+msgstr "البرهنة"
+
+msgid "Eviscerate"
+msgstr "إنزع أحشاء"
+
+msgid "Eviscerated"
+msgstr "منزوع أحشاء"
+
+msgid "Eviscerates"
+msgstr "ينزع أحشاء"
+
+msgid "Eviscerating"
+msgstr "نزع أحشاء"
+
+msgid "Evisceration"
+msgstr "نزع الأحشاء"
+
+msgid "Eviscerations"
+msgstr "نزع الأحشاء"
+
+msgid "Evocable"
+msgstr "قابل للاثارة"
+
+msgid "Evocate"
+msgstr "يثير"
+
+msgid "Evocation"
+msgstr "البعث"
+
+msgid "Evocations"
+msgstr "البعث"
+
+msgid "Evocative"
+msgstr "مذكّر"
+
+msgid "Evocatively"
+msgstr "شاعريا"
+
+msgid "Evocativeness"
+msgstr "الاثارة"
+
+msgid "Evoke"
+msgstr "إستدع"
+
+msgid "Evoked"
+msgstr "مستدعى"
+
+msgid "Evokes"
+msgstr "يستدعى"
+
+msgid "Evoking"
+msgstr "الإستدعاء"
+
+msgid "Evolute"
+msgstr "منشىء المنحنى"
+
+msgid "Evolutes"
+msgstr "مناشئ المنحنى"
+
+msgid "Evolution"
+msgstr "التطور"
+
+msgid "Evolutionary"
+msgstr "تطوّري"
+
+msgid "Evolutionism"
+msgstr "مذهب التطور"
+
+msgid "Evolutionist"
+msgstr "التطوري"
+
+msgid "Evolutionists"
+msgstr "التطوريون"
+
+msgid "Evolutions"
+msgstr "التطورات"
+
+msgid "Evolve"
+msgstr "تطوّر"
+
+msgid "Evolved"
+msgstr "متطوّر"
+
+msgid "Evolvement"
+msgstr "التطور"
+
+msgid "Evolvements"
+msgstr "التطورات"
+
+msgid "Evolvent"
+msgstr "المنحنى المعقد (رياضيات)"
+
+msgid "Evolves"
+msgstr "يتطوّر"
+
+msgid "Evolving"
+msgstr "التطوّر"
+
+msgid "Evzone"
+msgstr "حراس القصر"
+
+msgid "Ewe"
+msgstr "النعجة"
+
+msgid "Ewen"
+msgstr "إوين"
+
+msgid "Ewer"
+msgstr "الإبريق"
+
+msgid "Ewes"
+msgstr "النعاج"
+
+msgid "Ewing"
+msgstr "مدينة إوينج"
+
+msgid "Ex"
+msgstr "سابق"
+
+msgid "Exacerbate"
+msgstr "أثر"
+
+msgid "Exacerbated"
+msgstr "مثار"
+
+msgid "Exacerbates"
+msgstr "يثير"
+
+msgid "Exacerbating"
+msgstr "الإثارة"
+
+msgid "Exacerbation"
+msgstr "التفاقم"
+
+msgid "Exacerbations"
+msgstr "التفاقم"
+
+msgid "Exact"
+msgstr "مضبوط"
+
+msgid "Exacted"
+msgstr "منتزع"
+
+msgid "Exacter"
+msgstr "الفارض"
+
+msgid "Exacting"
+msgstr "الإنتزاع"
+
+msgid "Exactingly"
+msgstr "بشكل مطلوب"
+
+msgid "Exactingness"
+msgstr "الشًقة"
+
+msgid "Exaction"
+msgstr "الفرض"
+
+msgid "Exactions"
+msgstr "الفروض"
+
+msgid "Exactitude"
+msgstr "الضبط"
+
+msgid "Exactly"
+msgstr "بالضبط"
+
+msgid "Exactness"
+msgstr "الضبط"
+
+msgid "Exacts"
+msgstr "ينتزع"
+
+msgid "Exaggerate"
+msgstr "بالغ"
+
+msgid "Exaggerated"
+msgstr "مبالغ"
+
+msgid "Exaggeratedly"
+msgstr "بمبالغة"
+
+msgid "Exaggeratedness"
+msgstr "المبالغة"
+
+msgid "Exaggerates"
+msgstr "يبالغ"
+
+msgid "Exaggerating"
+msgstr "المبالغة"
+
+msgid "Exaggeration"
+msgstr "المبالغة"
+
+msgid "Exaggerations"
+msgstr "المبالغات"
+
+msgid "Exaggerative"
+msgstr "مبالغ"
+
+msgid "Exaggeratively"
+msgstr "بشكل مبالغ"
+
+msgid "Exalt"
+msgstr "إرفع"
+
+msgid "Exaltation"
+msgstr "الإعلاء"
+
+msgid "Exaltations"
+msgstr "الإعلاء"
+
+msgid "Exalted"
+msgstr "سامي"
+
+msgid "Exaltedly"
+msgstr "بتمجيد"
+
+msgid "Exalter"
+msgstr "المرقّي"
+
+msgid "Exalters"
+msgstr "المرقّون"
+
+msgid "Exalting"
+msgstr "الرفع"
+
+msgid "Exalts"
+msgstr "يرفع"
+
+msgid "Exam"
+msgstr "الإمتحان"
+
+msgid "Examen"
+msgstr "إختبار"
+
+msgid "Examinable"
+msgstr "قابل للفحص"
+
+msgid "Examination"
+msgstr "الفحص"
+
+msgid "Examinations"
+msgstr "الفحوص"
+
+msgid "Examine"
+msgstr "إفحص"
+
+msgid "Examined"
+msgstr "مفحوص"
+
+msgid "Examiner"
+msgstr "الممتحن"
+
+msgid "Examiners"
+msgstr "الممتحنون"
+
+msgid "Examines"
+msgstr "يفحص"
+
+msgid "Examining"
+msgstr "الفحص"
+
+msgid "Example"
+msgstr "المثال"
+
+msgid "Exampled"
+msgstr "مثّل"
+
+msgid "Examples"
+msgstr "الأمثلة"
+
+msgid "Exampling"
+msgstr "يشرح بمثال"
+
+msgid "Exams"
+msgstr "الإمتحانات"
+
+msgid "Exasperate"
+msgstr "أثر"
+
+msgid "Exasperated"
+msgstr "مثار"
+
+msgid "Exasperatedly"
+msgstr "بسخط"
+
+msgid "Exasperater"
+msgstr "ألمغيظ"
+
+msgid "Exasperates"
+msgstr "يثير"
+
+msgid "Exasperating"
+msgstr "الإثارة"
+
+msgid "Exasperatingly"
+msgstr "باغضاب"
+
+msgid "Exasperation"
+msgstr "الغضب"
+
+msgid "Exasperations"
+msgstr "الغضب"
+
+msgid "Excavate"
+msgstr "نقّب"
+
+msgid "Excavated"
+msgstr "منقّب"
+
+msgid "Excavates"
+msgstr "ينقّب"
+
+msgid "Excavating"
+msgstr "التنقيب"
+
+msgid "Excavation"
+msgstr "التنقيب"
+
+msgid "Excavations"
+msgstr "التنقيب"
+
+msgid "Excavator"
+msgstr "المنقّب"
+
+msgid "Excavators"
+msgstr "المنقّبون"
+
+msgid "Exceed"
+msgstr "تجاوز"
+
+msgid "Exceedable"
+msgstr "القدرة على التفوّق"
+
+msgid "Exceeded"
+msgstr "متجاوز"
+
+msgid "Exceeder"
+msgstr "المتفوّق"
+
+msgid "Exceeding"
+msgstr "التجاوز"
+
+msgid "Exceedingly"
+msgstr "جدا"
+
+msgid "Exceeds"
+msgstr "يتجاوز"
+
+msgid "Excel"
+msgstr "إبرع"
+
+msgid "Excelled"
+msgstr "بارع"
+
+msgid "Excellence"
+msgstr "البراعة"
+
+msgid "Excellences"
+msgstr "البراعة"
+
+msgid "Excellencies"
+msgstr "أصحاب السعادة"
+
+msgid "Excellency"
+msgstr "السعادة"
+
+msgid "Excellent"
+msgstr "ممتاز"
+
+msgid "Excellently"
+msgstr "بشكل ممتاز"
+
+msgid "Excelling"
+msgstr "البراعة"
+
+msgid "Excels"
+msgstr "يبرع"
+
+msgid "Excelsior"
+msgstr "النشارة"
+
+msgid "Except"
+msgstr "ماعدا"
+
+msgid "Excepted"
+msgstr "أُبعِد"
+
+msgid "Excepting"
+msgstr "بأستثناء"
+
+msgid "Exception"
+msgstr "الإستثناء"
+
+msgid "Exceptional"
+msgstr "إستثنائي"
+
+msgid "Exceptionally"
+msgstr "على نحو استثنائي"
+
+msgid "Exceptionalness"
+msgstr "أﻹمتياز"
+
+msgid "Exceptions"
+msgstr "الإستثناءات"
+
+msgid "Exceptive"
+msgstr "إستثنائي"
+
+msgid "Excepts"
+msgstr "إستثناء"
+
+msgid "Excerpt"
+msgstr "المقتطف"
+
+msgid "Excerpted"
+msgstr "مقتطف"
+
+msgid "Excerpter"
+msgstr "المقتطف، المختار"
+
+msgid "Excerpts"
+msgstr "المقتطفات"
+
+msgid "Excess"
+msgstr "الزيادة"
+
+msgid "Excesses"
+msgstr "الزيادات"
+
+msgid "Excessive"
+msgstr "مفرط"
+
+msgid "Excessively"
+msgstr "بإفراط"
+
+msgid "Excessiveness"
+msgstr "الإفراط"
+
+msgid "Exchange"
+msgstr "التبادل"
+
+msgid "Exchangeable"
+msgstr "قابل للتبادل"
+
+msgid "Exchanged"
+msgstr "متبادل"
+
+msgid "Exchanger"
+msgstr "المبدّل"
+
+msgid "Exchangers"
+msgstr "المبدّلون"
+
+msgid "Exchanges"
+msgstr "التبادلات"
+
+msgid "Exchanging"
+msgstr "التبادل"
+
+msgid "Exchequer"
+msgstr "الخزينة العامة"
+
+msgid "Exchequers"
+msgstr "الخزانات العامة"
+
+msgid "Excisable"
+msgstr "خاضع للضريبة"
+
+msgid "Excise"
+msgstr "الضريبة"
+
+msgid "Excised"
+msgstr "مفروض ضريبة"
+
+msgid "Excises"
+msgstr "الضرائب"
+
+msgid "Excising"
+msgstr "فرض ضريبة"
+
+msgid "Excision"
+msgstr "القطع"
+
+msgid "Excisions"
+msgstr "القطوع"
+
+msgid "Excitability"
+msgstr "الإثارة"
+
+msgid "Excitable"
+msgstr "مثير"
+
+msgid "Excitableness"
+msgstr "سرعة الانفعال"
+
+msgid "Excitation"
+msgstr "الإثارة"
+
+msgid "Excitations"
+msgstr "الإثارات"
+
+msgid "Excitatory"
+msgstr "مثير"
+
+msgid "Excite"
+msgstr "إيكسايت"
+
+msgid "Excited"
+msgstr "متحمّس"
+
+msgid "Excitedly"
+msgstr "باثارة"
+
+msgid "Excitement"
+msgstr "الحماس"
+
+msgid "Exciter"
+msgstr "المثير"
+
+msgid "Excites"
+msgstr "يثير"
+
+msgid "Exciting"
+msgstr "الإثارة"
+
+msgid "Excitingly"
+msgstr "بشكل مثير"
+
+msgid "Exciton"
+msgstr "حالة اﻹلكترون و الثقب"
+
+msgid "Exclaim"
+msgstr "صح"
+
+msgid "Exclaimed"
+msgstr "مصيح"
+
+msgid "Exclaimer"
+msgstr "الصّارخ"
+
+msgid "Exclaimers"
+msgstr "الصّارخون"
+
+msgid "Exclaiming"
+msgstr "الصيحة"
+
+msgid "Exclaims"
+msgstr "يصيح"
+
+msgid "Exclamation"
+msgstr "الصياح"
+
+msgid "Exclamations"
+msgstr "الصياح"
+
+msgid "Exclamatory"
+msgstr "تعجّبي"
+
+msgid "Exclude"
+msgstr "إستثن"
+
+msgid "Excluded"
+msgstr "مستثنى"
+
+msgid "Excluder"
+msgstr "المانع"
+
+msgid "Excludes"
+msgstr "يستثنى"
+
+msgid "Excluding"
+msgstr "ماعدا"
+
+msgid "Exclusion"
+msgstr "الإستثناء"
+
+msgid "Exclusionary"
+msgstr "إستثنائي"
+
+msgid "Exclusions"
+msgstr "الإستثناءات"
+
+msgid "Exclusive"
+msgstr "حصري"
+
+msgid "Exclusive-or"
+msgstr "الحصري أو"
+
+msgid "Exclusively"
+msgstr "بشكل خاص"
+
+msgid "Exclusiveness"
+msgstr "الخصوصية"
+
+msgid "Exclusivity"
+msgstr "الخصوصية"
+
+msgid "Excommunicate"
+msgstr "المطرود"
+
+msgid "Excommunicated"
+msgstr "مطرود"
+
+msgid "Excommunicates"
+msgstr "المطرودون"
+
+msgid "Excommunicating"
+msgstr "الطرد"
+
+msgid "Excommunication"
+msgstr "الطرد"
+
+msgid "Excommunicative"
+msgstr "حرماني"
+
+msgid "Excoriate"
+msgstr "إسلخ"
+
+msgid "Excoriated"
+msgstr "مسلوخ"
+
+msgid "Excoriates"
+msgstr "يسلخ"
+
+msgid "Excoriating"
+msgstr "السلخ"
+
+msgid "Excoriation"
+msgstr "السلخ"
+
+msgid "Excoriations"
+msgstr "السلخ"
+
+msgid "Excrement"
+msgstr "الغائط"
+
+msgid "Excrements"
+msgstr "الغائط"
+
+msgid "Excrescence"
+msgstr "الزائدة"
+
+msgid "Excrescences"
+msgstr "الزوائد"
+
+msgid "Excrescent"
+msgstr "زائد"
+
+msgid "Excrete"
+msgstr "تغوّط"
+
+msgid "Excreted"
+msgstr "متغوّط"
+
+msgid "Excreter"
+msgstr "ألفصل ثم الإزالة"
+
+msgid "Excretes"
+msgstr "يتغوّط"
+
+msgid "Excreting"
+msgstr "التغوّط"
+
+msgid "Excretion"
+msgstr "الطرح"
+
+msgid "Excretions"
+msgstr "الطرح"
+
+msgid "Excretory"
+msgstr "إبرازي"
+
+msgid "Excruciate"
+msgstr "عذّب"
+
+msgid "Excruciated"
+msgstr "معذّب"
+
+msgid "Excruciates"
+msgstr "يعذّب"
+
+msgid "Excruciating"
+msgstr "التعذيب"
+
+msgid "Excruciatingly"
+msgstr "بشكل لايطاق"
+
+msgid "Excruciation"
+msgstr "العذاب"
+
+msgid "Exculpate"
+msgstr "برّئ"
+
+msgid "Exculpated"
+msgstr "مبرّأ"
+
+msgid "Exculpates"
+msgstr "يبرّئ"
+
+msgid "Exculpating"
+msgstr "التبرئة"
+
+msgid "Exculpatory"
+msgstr "تبريئي"
+
+msgid "Excursion"
+msgstr "النزهة"
+
+msgid "Excursions"
+msgstr "النزهة"
+
+msgid "Excursive"
+msgstr "تجوالي"
+
+msgid "Excursively"
+msgstr "بشكل تجوالي"
+
+msgid "Excursus"
+msgstr "الملحق"
+
+msgid "Excursuses"
+msgstr "الملاحق"
+
+msgid "Excusable"
+msgstr "معذور"
+
+msgid "Excusableness"
+msgstr "العفو"
+
+msgid "Excusably"
+msgstr "بعفو"
+
+msgid "Excuse"
+msgstr "العذر"
+
+msgid "Excused"
+msgstr "معذر"
+
+msgid "Excuser"
+msgstr "الصافح"
+
+msgid "Excuses"
+msgstr "الأعذار"
+
+msgid "Excusing"
+msgstr "الإعذار"
+
+msgid "Exe"
+msgstr "إكس"
+
+msgid "Exeat"
+msgstr "الإذن بالتّغيب"
+
+msgid "Exec"
+msgstr "إكسيك"
+
+msgid "Execrable"
+msgstr "سيء"
+
+msgid "Execrableness"
+msgstr "اللعنة"
+
+msgid "Execrate"
+msgstr "إلعن"
+
+msgid "Execrated"
+msgstr "ملعون"
+
+msgid "Execrates"
+msgstr "يلعن"
+
+msgid "Execrating"
+msgstr "اللعنة"
+
+msgid "Execration"
+msgstr "اللعنة"
+
+msgid "Execrative"
+msgstr "شيطاني"
+
+msgid "Executable"
+msgstr "قابل للتّنفيذ"
+
+msgid "Executables"
+msgstr "البرامج"
+
+msgid "Execute"
+msgstr "نفّذ"
+
+msgid "Executed"
+msgstr "منفّذ"
+
+msgid "Executer"
+msgstr "المنفّذ"
+
+msgid "Executes"
+msgstr "ينفّذ"
+
+msgid "Executing"
+msgstr "التنفيذ"
+
+msgid "Execution"
+msgstr "الإعدام"
+
+msgid "Executioner"
+msgstr "الجلاد"
+
+msgid "Executioners"
+msgstr "الجلادون"
+
+msgid "Executions"
+msgstr "أحكام الإعدام"
+
+msgid "Executive"
+msgstr "المدير التنفيذي"
+
+msgid "Executives"
+msgstr "المدراء التنفيذيون"
+
+msgid "Executor"
+msgstr "المنفّذ"
+
+msgid "Executors"
+msgstr "المنفّذون"
+
+msgid "Executory"
+msgstr "تنفيذي"
+
+msgid "Executrix"
+msgstr "المنفّذة"
+
+msgid "Executrixes"
+msgstr "المنفّذات"
+
+msgid "Exegeses"
+msgstr "التفاسير"
+
+msgid "Exegesis"
+msgstr "التفسير"
+
+msgid "Exegete"
+msgstr "إكسيجيت"
+
+msgid "Exemplar"
+msgstr "النموذج"
+
+msgid "Exemplarily"
+msgstr "نموذجيا"
+
+msgid "Exemplariness"
+msgstr "النّموذج"
+
+msgid "Exemplars"
+msgstr "النماذج"
+
+msgid "Exemplary"
+msgstr "نموذجي"
+
+msgid "Exemplification"
+msgstr "التمثيل"
+
+msgid "Exemplified"
+msgstr "مثبت"
+
+msgid "Exemplifier"
+msgstr "الممثّل"
+
+msgid "Exemplifiers"
+msgstr "الممثّلون"
+
+msgid "Exemplifies"
+msgstr "يثبت"
+
+msgid "Exemplify"
+msgstr "أثبت"
+
+msgid "Exemplifying"
+msgstr "الإثبات"
+
+msgid "Exempt"
+msgstr "معفى"
+
+msgid "Exempted"
+msgstr "معفى"
+
+msgid "Exempting"
+msgstr "الإعفاء"
+
+msgid "Exemption"
+msgstr "الإستثناء"
+
+msgid "Exemptions"
+msgstr "الإستثناءات"
+
+msgid "Exempts"
+msgstr "يعفي"
+
+msgid "Exercisable"
+msgstr "قابل للاستعمال"
+
+msgid "Exercise"
+msgstr "التمرين"
+
+msgid "Exercised"
+msgstr "ممارس"
+
+msgid "Exerciser"
+msgstr "المتمرن"
+
+msgid "Exercisers"
+msgstr "المتمرنون"
+
+msgid "Exercises"
+msgstr "التمارين"
+
+msgid "Exercising"
+msgstr "الممارسة"
+
+msgid "Exert"
+msgstr "مارس"
+
+msgid "Exerted"
+msgstr "ممارس"
+
+msgid "Exerting"
+msgstr "الممارسة"
+
+msgid "Exertion"
+msgstr "العمل"
+
+msgid "Exertions"
+msgstr "الأعمال"
+
+msgid "Exerts"
+msgstr "يمارس"
+
+msgid "Exess-three"
+msgstr "إكسيس ثلاثة"
+
+msgid "Exeter"
+msgstr "إكسيتر"
+
+msgid "Exhale"
+msgstr "إزفر"
+
+msgid "Exhaled"
+msgstr "مزفور"
+
+msgid "Exhales"
+msgstr "يزفر"
+
+msgid "Exhaling"
+msgstr "الزفير"
+
+msgid "Exhaust"
+msgstr "العادم"
+
+msgid "Exhausted"
+msgstr "منهك"
+
+msgid "Exhaustedly"
+msgstr "باستنزاف"
+
+msgid "Exhauster"
+msgstr "المستنفذ"
+
+msgid "Exhaustible"
+msgstr "مستنزف"
+
+msgid "Exhausting"
+msgstr "الإستنزاف"
+
+msgid "Exhaustingly"
+msgstr "بشكل منهك"
+
+msgid "Exhaustion"
+msgstr "الإعياء"
+
+msgid "Exhaustive"
+msgstr "شامل"
+
+msgid "Exhaustively"
+msgstr "بشكل كامل"
+
+msgid "Exhaustiveness"
+msgstr "الإعياء"
+
+msgid "Exhausts"
+msgstr "العوادم"
+
+msgid "Exhibit"
+msgstr "المعروض"
+
+msgid "Exhibited"
+msgstr "معروض"
+
+msgid "Exhibiting"
+msgstr "العرض"
+
+msgid "Exhibition"
+msgstr "المعرض"
+
+msgid "Exhibitioner"
+msgstr "متلقّي الإعانة"
+
+msgid "Exhibitionists"
+msgstr "المتباهون"
+
+msgid "Exhibitions"
+msgstr "المعارض"
+
+msgid "Exhibitive"
+msgstr "الممثّل"
+
+msgid "Exhibitor"
+msgstr "العارض"
+
+msgid "Exhibitors"
+msgstr "العارضون"
+
+msgid "Exhibits"
+msgstr "المعروضات"
+
+msgid "Exhilarate"
+msgstr "أبهج"
+
+msgid "Exhilarated"
+msgstr "مبهج"
+
+msgid "Exhilarates"
+msgstr "يبهج"
+
+msgid "Exhilarating"
+msgstr "الإبهاج"
+
+msgid "Exhilaratingly"
+msgstr "بشكل مبهج"
+
+msgid "Exhilaration"
+msgstr "الإبتهاج"
+
+msgid "Exhilarative"
+msgstr "إبتهاجي"
+
+msgid "Exhort"
+msgstr "حثّ"
+
+msgid "Exhortation"
+msgstr "الحثّ"
+
+msgid "Exhortations"
+msgstr "الحثّ"
+
+msgid "Exhorted"
+msgstr "محثوث"
+
+msgid "Exhorter"
+msgstr "الحاثّ"
+
+msgid "Exhorting"
+msgstr "الحثّ"
+
+msgid "Exhorts"
+msgstr "يحثّ"
+
+msgid "Exhumation"
+msgstr "النبش"
+
+msgid "Exhumations"
+msgstr "النبش"
+
+msgid "Exhume"
+msgstr "إنبش"
+
+msgid "Exhumed"
+msgstr "منبوش"
+
+msgid "Exhumer"
+msgstr "نبّاش القبور"
+
+msgid "Exhumes"
+msgstr "ينبش"
+
+msgid "Exhuming"
+msgstr "النبش"
+
+msgid "Exigencies"
+msgstr "الضرورات"
+
+msgid "Exigency"
+msgstr "الضرورة"
+
+msgid "Exigent"
+msgstr "ملحّ"
+
+msgid "Exigently"
+msgstr "بشكل ملحّ"
+
+msgid "Exiguity"
+msgstr "القلة"
+
+msgid "Exile"
+msgstr "المنفى"
+
+msgid "Exiled"
+msgstr "منفي"
+
+msgid "Exiles"
+msgstr "المنفيون"
+
+msgid "Exiling"
+msgstr "النفي"
+
+msgid "Exist"
+msgstr "جد"
+
+msgid "Existed"
+msgstr "موجود"
+
+msgid "Existence"
+msgstr "الوجود"
+
+msgid "Existences"
+msgstr "الوجود"
+
+msgid "Existent"
+msgstr "موجود"
+
+msgid "Existential"
+msgstr "وجودي"
+
+msgid "Existentialism"
+msgstr "الوجودية"
+
+msgid "Existentialist"
+msgstr "الوجودي"
+
+msgid "Existentialists"
+msgstr "الوجوديون"
+
+msgid "Existentially"
+msgstr "بشكل وجودي"
+
+msgid "Existing"
+msgstr "الإيجاد"
+
+msgid "Exists"
+msgstr "يجد"
+
+msgid "Exit"
+msgstr "الخروج"
+
+msgid "Exited"
+msgstr "خارج"
+
+msgid "Exiting"
+msgstr "الخروج"
+
+msgid "Exits"
+msgstr "المخارج"
+
+msgid "Exodus"
+msgstr "النزوح الجماعي"
+
+msgid "Exogamous"
+msgstr "تحريمي"
+
+msgid "Exogamy"
+msgstr "الزواج من خارج العشيرة"
+
+msgid "Exogenous"
+msgstr "خارجي"
+
+msgid "Exogenously"
+msgstr "بشكل خارجي"
+
+msgid "Exonerate"
+msgstr "برّئ"
+
+msgid "Exonerated"
+msgstr "مبرّأ"
+
+msgid "Exonerates"
+msgstr "يبرّئ"
+
+msgid "Exonerating"
+msgstr "التبرئة"
+
+msgid "Exoneration"
+msgstr "التبرئة"
+
+msgid "Exonerative"
+msgstr "تبريئي"
+
+msgid "Exorbitant"
+msgstr "باهظ"
+
+msgid "Exorbitantly"
+msgstr "بفداحة"
+
+msgid "Exorcise"
+msgstr "طهّر"
+
+msgid "Exorciser"
+msgstr "الطّارد"
+
+msgid "Exorcism"
+msgstr "طرد الأرواح"
+
+msgid "Exorcist"
+msgstr "التعويذي"
+
+msgid "Exorcists"
+msgstr "التعويذيون"
+
+msgid "Exorcize"
+msgstr "طهّر"
+
+msgid "Exorcized"
+msgstr "مطهّر"
+
+msgid "Exorcizes"
+msgstr "يطهّر"
+
+msgid "Exorcizing"
+msgstr "التطهير"
+
+msgid "Exoskeleton"
+msgstr "الهيكل الخارجيّ"
+
+msgid "Exoskeletons"
+msgstr "الهياكل الخارجيّة"
+
+msgid "Exothermic"
+msgstr "الحرارة الخارجية"
+
+msgid "Exotic"
+msgstr "الغريب"
+
+msgid "Exotica"
+msgstr "الغرابة"
+
+msgid "Exoticness"
+msgstr "الغرابة"
+
+msgid "Exp"
+msgstr "إكسب"
+
+msgid "Expand"
+msgstr "توسّع"
+
+msgid "Expandability"
+msgstr "التوسّع"
+
+msgid "Expandable"
+msgstr "متمدّد"
+
+msgid "Expanded"
+msgstr "موسّع"
+
+msgid "Expander"
+msgstr "المتوسّع"
+
+msgid "Expanders"
+msgstr "المتوسّعون"
+
+msgid "Expanding"
+msgstr "التوسّع"
+
+msgid "Expands"
+msgstr "يتوسّع"
+
+msgid "Expanse"
+msgstr "الفسحة"
+
+msgid "Expanses"
+msgstr "الفسحة"
+
+msgid "Expansibility"
+msgstr "التوسّع"
+
+msgid "Expansible"
+msgstr "متوسّع"
+
+msgid "Expansion"
+msgstr "التوسّع"
+
+msgid "Expansionism"
+msgstr "التوسّعية"
+
+msgid "Expansionist"
+msgstr "التوسّعي"
+
+msgid "Expansions"
+msgstr "التوسّعات"
+
+msgid "Expansive"
+msgstr "توسّعي"
+
+msgid "Expansively"
+msgstr "بشكل واسع"
+
+msgid "Expansiveness"
+msgstr "التوسّع"
+
+msgid "Expatiate"
+msgstr "طف"
+
+msgid "Expatiated"
+msgstr "مطاف"
+
+msgid "Expatiates"
+msgstr "يطوف"
+
+msgid "Expatiating"
+msgstr "الطوف"
+
+msgid "Expatriate"
+msgstr "المغترب"
+
+msgid "Expatriated"
+msgstr "متغرّب"
+
+msgid "Expatriating"
+msgstr "التغريب"
+
+msgid "Expatriations"
+msgstr "الإغتراب"
+
+msgid "Expect"
+msgstr "توقّع"
+
+msgid "Expectable"
+msgstr "متوقّع"
+
+msgid "Expectancies"
+msgstr "التوقّعات"
+
+msgid "Expectancy"
+msgstr "التوقّع"
+
+msgid "Expectant"
+msgstr "متوقع"
+
+msgid "Expectantly"
+msgstr "بإنتظار"
+
+msgid "Expectation"
+msgstr "التوقّع"
+
+msgid "Expectations"
+msgstr "التوقّعات"
+
+msgid "Expected"
+msgstr "متوقّع"
+
+msgid "Expectedly"
+msgstr "بشكل متوقّع"
+
+msgid "Expectedness"
+msgstr "التّوقّع"
+
+msgid "Expecting"
+msgstr "التوقّع"
+
+msgid "Expectingly"
+msgstr "بشكل متوقّع"
+
+msgid "Expectorant"
+msgstr "مقشّع"
+
+msgid "Expectorate"
+msgstr "إبصق"
+
+msgid "Expectoration"
+msgstr "البصاق"
+
+msgid "Expects"
+msgstr "يتوقّع"
+
+msgid "Expedience"
+msgstr "الذرائع"
+
+msgid "Expediency"
+msgstr "الذريعة"
+
+msgid "Expedient"
+msgstr "الوسيلة"
+
+msgid "Expediently"
+msgstr "بشكل مناسب"
+
+msgid "Expedite"
+msgstr "عاجل"
+
+msgid "Expedited"
+msgstr "معجّل"
+
+msgid "Expediter"
+msgstr "عاجل"
+
+msgid "Expedites"
+msgstr "يعجّل"
+
+msgid "Expediting"
+msgstr "التعجيل"
+
+msgid "Expedition"
+msgstr "البعثة"
+
+msgid "Expeditions"
+msgstr "البعثات"
+
+msgid "Expeditious"
+msgstr "عاجل"
+
+msgid "Expeditiously"
+msgstr "بشكل عاجل"
+
+msgid "Expeditiousness"
+msgstr "السرعة"
+
+msgid "Expel"
+msgstr "إطرد"
+
+msgid "Expellable"
+msgstr "قابل للطرد"
+
+msgid "Expelled"
+msgstr "مطرود"
+
+msgid "Expelling"
+msgstr "الطرد"
+
+msgid "Expels"
+msgstr "يطرد"
+
+msgid "Expend"
+msgstr "أنفق"
+
+msgid "Expendable"
+msgstr "قابل للإستهلاك"
+
+msgid "Expended"
+msgstr "منفق"
+
+msgid "Expender"
+msgstr "المنفق"
+
+msgid "Expending"
+msgstr "الإنفاق"
+
+msgid "Expenditure"
+msgstr "الإنفاق"
+
+msgid "Expenditures"
+msgstr "الإنفاق"
+
+msgid "Expends"
+msgstr "ينفق"
+
+msgid "Expense"
+msgstr "النفقة"
+
+msgid "Expensed"
+msgstr "ألزم بالنّفقات"
+
+msgid "Expenses"
+msgstr "النفقات"
+
+msgid "Expensing"
+msgstr "إلزام بالنّفقات"
+
+msgid "Expensive"
+msgstr "غالي"
+
+msgid "Expensively"
+msgstr "بشكل مكلّف"
+
+msgid "Expensiveness"
+msgstr "الغلاء"
+
+msgid "Experience"
+msgstr "التجربة"
+
+msgid "Experienced"
+msgstr "مجرّب"
+
+msgid "Experiences"
+msgstr "التجارب"
+
+msgid "Experiencing"
+msgstr "المواجهة"
+
+msgid "Experiential"
+msgstr "تجريبي"
+
+msgid "Experientially"
+msgstr "بشكل تجريبي"
+
+msgid "Experiment"
+msgstr "التجربة"
+
+msgid "Experimental"
+msgstr "تجريبي"
+
+msgid "Experimentalism"
+msgstr "التجريبية"
+
+msgid "Experimentalist"
+msgstr "التجريبي"
+
+msgid "Experimentalists"
+msgstr "التجريبيون"
+
+msgid "Experimentally"
+msgstr "بشكل تجريبي"
+
+msgid "Experimentation"
+msgstr "التجريب"
+
+msgid "Experimentations"
+msgstr "التجريب"
+
+msgid "Experimented"
+msgstr "مجرّب"
+
+msgid "Experimenter"
+msgstr "المجرب"
+
+msgid "Experimenters"
+msgstr "المجربون"
+
+msgid "Experimenting"
+msgstr "التجريب"
+
+msgid "Experiments"
+msgstr "التجارب"
+
+msgid "Expert"
+msgstr "الخبير"
+
+msgid "Expertise"
+msgstr "الخبرة"
+
+msgid "Expertly"
+msgstr "بشكل محترف"
+
+msgid "Expertness"
+msgstr "الخبرة"
+
+msgid "Experts"
+msgstr "الخبراء"
+
+msgid "Expession"
+msgstr "إكسبيشن"
+
+msgid "Expiable"
+msgstr "يكفّر عنه"
+
+msgid "Expiate"
+msgstr "كفّر عنه"
+
+msgid "Expiated"
+msgstr "مكفّر عن"
+
+msgid "Expiates"
+msgstr "يكفّر عنه"
+
+msgid "Expiating"
+msgstr "التكفير عن"
+
+msgid "Expiation"
+msgstr "التكفير"
+
+msgid "Expiatory"
+msgstr "تكفيري"
+
+msgid "Expiration"
+msgstr "الإنتهاء"
+
+msgid "Expirations"
+msgstr "الإنتهاء"
+
+msgid "Expire"
+msgstr "إنته"
+
+msgid "Expired"
+msgstr "منتهى"
+
+msgid "Expires"
+msgstr "ينتهي"
+
+msgid "Expiring"
+msgstr "الإنتهاء"
+
+msgid "Expiry"
+msgstr "الإنتهاء"
+
+msgid "Explain"
+msgstr "وضّح"
+
+msgid "Explainable"
+msgstr "قابل للتوضيح"
+
+msgid "Explained"
+msgstr "موضّح"
+
+msgid "Explainer"
+msgstr "المفسّر"
+
+msgid "Explainers"
+msgstr "المفسّرون"
+
+msgid "Explaining"
+msgstr "التوضيح"
+
+msgid "Explains"
+msgstr "يوضّح"
+
+msgid "Explanation"
+msgstr "التفسير"
+
+msgid "Explanations"
+msgstr "التفسيرات"
+
+msgid "Explanatory"
+msgstr "توضيحي"
+
+msgid "Expletive"
+msgstr "الشتيمة"
+
+msgid "Expletives"
+msgstr "الشتائم"
+
+msgid "Explicable"
+msgstr "قابل للتوضيح"
+
+msgid "Explicably"
+msgstr "بشكل قابل للتوضيح"
+
+msgid "Explicate"
+msgstr "وضّح"
+
+msgid "Explicated"
+msgstr "موضّح"
+
+msgid "Explicates"
+msgstr "يوضّح"
+
+msgid "Explicating"
+msgstr "التوضيح"
+
+msgid "Explication"
+msgstr "التوضيح"
+
+msgid "Explications"
+msgstr "التوضيحات"
+
+msgid "Explicative"
+msgstr "توضيحي"
+
+msgid "Explicatively"
+msgstr "بشكل توضيحي"
+
+msgid "Explicit"
+msgstr "واضح"
+
+msgid "Explicitly"
+msgstr "بشكل واضح"
+
+msgid "Explicitness"
+msgstr "الوضوح"
+
+msgid "Explode"
+msgstr "إنفجر"
+
+msgid "Exploded"
+msgstr "منفجر"
+
+msgid "Exploder"
+msgstr "المتفجّر"
+
+msgid "Explodes"
+msgstr "ينفجر"
+
+msgid "Exploding"
+msgstr "الإنفجار"
+
+msgid "Exploit"
+msgstr "المأثرة"
+
+msgid "Exploitable"
+msgstr "قابل للاستغلال"
+
+msgid "Exploitation"
+msgstr "الإستغلال"
+
+msgid "Exploitations"
+msgstr "الإستغلال"
+
+msgid "Exploited"
+msgstr "مستغلّ"
+
+msgid "Exploiter"
+msgstr "المستغلّ"
+
+msgid "Exploiters"
+msgstr "المستغلّون"
+
+msgid "Exploiting"
+msgstr "الإستغلال"
+
+msgid "Exploitive"
+msgstr "إستغلالي"
+
+msgid "Exploits"
+msgstr "المآثر"
+
+msgid "Exploration"
+msgstr "الإستكشاف"
+
+msgid "Explorations"
+msgstr "الإستكشافات"
+
+msgid "Exploratory"
+msgstr "إستطلاعي"
+
+msgid "Explore"
+msgstr "إستكشف"
+
+msgid "Explored"
+msgstr "مستكشف"
+
+msgid "Explorer"
+msgstr "المستكشف"
+
+msgid "Explorers"
+msgstr "المستكشفون"
+
+msgid "Explores"
+msgstr "يستكشف"
+
+msgid "Exploring"
+msgstr "الإستكشاف"
+
+msgid "Explosion"
+msgstr "الإنفجار"
+
+msgid "Explosions"
+msgstr "الإنفجارات"
+
+msgid "Explosive"
+msgstr "المادّة المتفجّرة"
+
+msgid "Explosively"
+msgstr "بشكل إنفجاري"
+
+msgid "Explosiveness"
+msgstr "الإنفجارية"
+
+msgid "Explosives"
+msgstr "المتفجرات"
+
+msgid "Exponent"
+msgstr "الداعية"
+
+msgid "Exponential"
+msgstr "أسّي"
+
+msgid "Exponentially"
+msgstr "تصاعديا"
+
+msgid "Exponentiation"
+msgstr "التّرقية"
+
+msgid "Exponentiations"
+msgstr "التّرقيات"
+
+msgid "Exponents"
+msgstr "الدعاة"
+
+msgid "Export"
+msgstr "التصدير"
+
+msgid "Exportation"
+msgstr "التصدير"
+
+msgid "Exportations"
+msgstr "الصادرات"
+
+msgid "Exported"
+msgstr "مصدّر"
+
+msgid "Exporter"
+msgstr "المصدّر"
+
+msgid "Exporters"
+msgstr "المصدّرون"
+
+msgid "Exporting"
+msgstr "التصدير"
+
+msgid "Exports"
+msgstr "الصادرات"
+
+msgid "Expose"
+msgstr "عرّض"
+
+msgid "Exposed"
+msgstr "مكشوف"
+
+msgid "Exposer"
+msgstr "الفاضح"
+
+msgid "Exposers"
+msgstr "الفاضحون"
+
+msgid "Exposes"
+msgstr "يعرّض"
+
+msgid "Exposing"
+msgstr "التعريض"
+
+msgid "Exposit"
+msgstr "إشرح"
+
+msgid "Exposition"
+msgstr "الشرح"
+
+msgid "Expositions"
+msgstr "الشروحات"
+
+msgid "Expositor"
+msgstr "المفسّر"
+
+msgid "Expository"
+msgstr "تفسيري"
+
+msgid "Expostulated"
+msgstr "مجادل"
+
+msgid "Exposure"
+msgstr "التعرّض"
+
+msgid "Exposures"
+msgstr "التعرّض"
+
+msgid "Expound"
+msgstr "إشرح"
+
+msgid "Expounded"
+msgstr "مشروح"
+
+msgid "Expounder"
+msgstr "الشارح"
+
+msgid "Expounding"
+msgstr "الشرح"
+
+msgid "Expounds"
+msgstr "يشرح"
+
+msgid "Express"
+msgstr "السريع"
+
+msgid "Expressed"
+msgstr "مظهر"
+
+msgid "Expresser"
+msgstr "سريع"
+
+msgid "Expresses"
+msgstr "السريعون"
+
+msgid "Expressible"
+msgstr "قابل للتعبير"
+
+msgid "Expressibly"
+msgstr "بتعبير"
+
+msgid "Expressing"
+msgstr "الإبداء"
+
+msgid "Expression"
+msgstr "التعبير"
+
+msgid "Expressionism"
+msgstr "التعبيرية"
+
+msgid "Expressionist"
+msgstr "التعبيري"
+
+msgid "Expressionistic"
+msgstr "تعبيري"
+
+msgid "Expressionists"
+msgstr "التعبيريون"
+
+msgid "Expressionless"
+msgstr "غير معبّر"
+
+msgid "Expressionlessly"
+msgstr "بشكل غير معبّر"
+
+msgid "Expressionlessness"
+msgstr "اللا تعبيري"
+
+msgid "Expressions"
+msgstr "التعابير"
+
+msgid "Expressive"
+msgstr "معبّر"
+
+msgid "Expressively"
+msgstr "بشكل معبّر"
+
+msgid "Expressiveness"
+msgstr "التعبير"
+
+msgid "Expressly"
+msgstr "بشكل واضح"
+
+msgid "Expressway"
+msgstr "الطريق السريع"
+
+msgid "Expressways"
+msgstr "الطرق السريعة"
+
+msgid "Expropriate"
+msgstr "صادر"
+
+msgid "Expropriated"
+msgstr "مصادر"
+
+msgid "Expropriates"
+msgstr "يصادر"
+
+msgid "Expropriating"
+msgstr "المصادرة"
+
+msgid "Expropriation"
+msgstr "نزع الملكية"
+
+msgid "Expropriations"
+msgstr "نزع الملكيات"
+
+msgid "Expulsion"
+msgstr "الطرد"
+
+msgid "Expunge"
+msgstr "إحذف"
+
+msgid "Expunged"
+msgstr "محذوف"
+
+msgid "Expunger"
+msgstr "إكسبانجير"
+
+msgid "Expunges"
+msgstr "يحذف"
+
+msgid "Expunging"
+msgstr "الحذف"
+
+msgid "Expurgate"
+msgstr "حرّر"
+
+msgid "Expurgated"
+msgstr "محرّر"
+
+msgid "Expurgates"
+msgstr "يحرّر"
+
+msgid "Expurgating"
+msgstr "التحرير"
+
+msgid "Expurgation"
+msgstr "التنقيح"
+
+msgid "Exquisite"
+msgstr "المتأنّق"
+
+msgid "Exquisitely"
+msgstr "بشكل رائع"
+
+msgid "Exquisiteness"
+msgstr "الروعة"
+
+msgid "Extant"
+msgstr "موجود"
+
+msgid "Extemporaneous"
+msgstr "إرتجالي"
+
+msgid "Extemporaneously"
+msgstr "بشكل إرتجالي"
+
+msgid "Extemporaneousness"
+msgstr "الإرتجال"
+
+msgid "Extempore"
+msgstr "بشكل إرتجالي"
+
+msgid "Extemporize"
+msgstr "إرتجل"
+
+msgid "Extemporized"
+msgstr "مرتجل"
+
+msgid "Extemporizer"
+msgstr "المرتجل"
+
+msgid "Extemporizers"
+msgstr "المرتجلون"
+
+msgid "Extemporizes"
+msgstr "يرتجل"
+
+msgid "Extemporizing"
+msgstr "الإرتجال"
+
+msgid "Extend"
+msgstr "مدّد"
+
+msgid "Extended"
+msgstr "ممتد"
+
+msgid "Extendedly"
+msgstr "بشكل ممتد"
+
+msgid "Extendedness"
+msgstr "التمديد"
+
+msgid "Extender"
+msgstr "الممدّد"
+
+msgid "Extendible"
+msgstr "متمدّد"
+
+msgid "Extending"
+msgstr "التمديد"
+
+msgid "Extends"
+msgstr "يمدّد"
+
+msgid "Extensibilities"
+msgstr "القابلية للتمديد"
+
+msgid "Extensibility"
+msgstr "التمدّد"
+
+msgid "Extensible"
+msgstr "قابل للإمتداد"
+
+msgid "Extension"
+msgstr "الإمتداد"
+
+msgid "Extensional"
+msgstr "تفرعي، توسّعي"
+
+msgid "Extensionally"
+msgstr "تفرعيا، توسعيا"
+
+msgid "Extensions"
+msgstr "الإمتدادات"
+
+msgid "Extensive"
+msgstr "شامل"
+
+msgid "Extensively"
+msgstr "على نطاق واسع"
+
+msgid "Extensiveness"
+msgstr "الشمولية"
+
+msgid "Extensor"
+msgstr "العضلة الباسطة"
+
+msgid "Extent"
+msgstr "المدى"
+
+msgid "Extents"
+msgstr "المديات"
+
+msgid "Extenuate"
+msgstr "خفّف"
+
+msgid "Extenuated"
+msgstr "مخفّف"
+
+msgid "Extenuates"
+msgstr "يخفّف"
+
+msgid "Extenuating"
+msgstr "التخفيف"
+
+msgid "Extenuation"
+msgstr "التخفيف"
+
+msgid "Extenuations"
+msgstr "التخفيف"
+
+msgid "Exterior"
+msgstr "الخارج"
+
+msgid "Exteriorly"
+msgstr "بشكل خارجي"
+
+msgid "Exteriors"
+msgstr "الخارجيات"
+
+msgid "Exterminate"
+msgstr "أبد"
+
+msgid "Exterminated"
+msgstr "مباد"
+
+msgid "Exterminates"
+msgstr "يبيد"
+
+msgid "Exterminating"
+msgstr "الإبادة"
+
+msgid "Extermination"
+msgstr "الإبادة"
+
+msgid "Exterminations"
+msgstr "الإبادة"
+
+msgid "Exterminator"
+msgstr "المبيد"
+
+msgid "Exterminators"
+msgstr "المبيدات"
+
+msgid "Extern"
+msgstr "خارجي"
+
+msgid "External"
+msgstr "خارجي"
+
+msgid "Externalities"
+msgstr "الخارجيات"
+
+msgid "Externalization"
+msgstr "التبرير بوجود عوامل خارجية"
+
+msgid "Externalizations"
+msgstr "التبرير بوجود عوامل خارجية"
+
+msgid "Externally"
+msgstr "خارجيا"
+
+msgid "Externals"
+msgstr "الظواهر"
+
+msgid "ExtEvents"
+msgstr "أحداث"
+
+msgid "Extinct"
+msgstr "منقرض"
+
+msgid "Extinction"
+msgstr "الإنقراض"
+
+msgid "Extinctions"
+msgstr "الإنقراض"
+
+msgid "Extinctive"
+msgstr "إنقراضي"
+
+msgid "Extinguish"
+msgstr "أطفأ"
+
+msgid "Extinguished"
+msgstr "مطفأ"
+
+msgid "Extinguisher"
+msgstr "المطفأة"
+
+msgid "Extinguishers"
+msgstr "المطافئ"
+
+msgid "Extinguishes"
+msgstr "يطفئ"
+
+msgid "Extinguishing"
+msgstr "الإطفاء"
+
+msgid "Extirpate"
+msgstr "إستأصل"
+
+msgid "Extirpated"
+msgstr "مستأصل"
+
+msgid "Extirpates"
+msgstr "يستأصل"
+
+msgid "Extirpating"
+msgstr "الإستئصال"
+
+msgid "Extirpation"
+msgstr "الإستئصال"
+
+msgid "Extirpations"
+msgstr "الإستئصال"
+
+msgid "Extirpative"
+msgstr "إجتثاثي (من يجتث)"
+
+msgid "Extol"
+msgstr "مجّد"
+
+msgid "Extolled"
+msgstr "ممجّد"
+
+msgid "Extoller"
+msgstr "الممجّد"
+
+msgid "Extolling"
+msgstr "المدح"
+
+msgid "Extols"
+msgstr "يمجّد"
+
+msgid "Extorsively"
+msgstr "بانتزاع، بابتزاز"
+
+msgid "Extort"
+msgstr "إبتزّ"
+
+msgid "Extorted"
+msgstr "مبتزّ"
+
+msgid "Extorter"
+msgstr "المبتزّ"
+
+msgid "Extorting"
+msgstr "الإبتزاز"
+
+msgid "Extortion"
+msgstr "الإبتزاز"
+
+msgid "Extortioner"
+msgstr "الإبتزازي"
+
+msgid "Extortioners"
+msgstr "الإبتزازيون"
+
+msgid "Extortionist"
+msgstr "المبتز، المنتزع"
+
+msgid "Extortionists"
+msgstr "المبتزون، المنتزعون"
+
+msgid "Extortions"
+msgstr "الإبتزازات"
+
+msgid "Extortive"
+msgstr "إبتزازي"
+
+msgid "Extorts"
+msgstr "يبتزّ"
+
+msgid "Extra"
+msgstr "إضافي"
+
+msgid "Extra-pay"
+msgstr "الأجر الإضافي"
+
+msgid "Extracellular"
+msgstr "خارج الخلية"
+
+msgid "Extracellularly"
+msgstr "بشكل خارج الخلية"
+
+msgid "Extracs"
+msgstr "إكستراس"
+
+msgid "Extract"
+msgstr "المقتطف"
+
+msgid "Extracted"
+msgstr "منتزع"
+
+msgid "Extracting"
+msgstr "الإنتزاع"
+
+msgid "Extraction"
+msgstr "الإنتزاع"
+
+msgid "Extractions"
+msgstr "الأصول"
+
+msgid "Extractive"
+msgstr "إستخلاصي"
+
+msgid "Extractively"
+msgstr "بشكل إستخلاصي"
+
+msgid "Extractor"
+msgstr "النازع"
+
+msgid "Extractors"
+msgstr "النازعون"
+
+msgid "Extracts"
+msgstr "المقتطفات"
+
+msgid "Extracurricular"
+msgstr "لا مدرسي"
+
+msgid "Extraditable"
+msgstr "عرضة للتسليم"
+
+msgid "Extradite"
+msgstr "سلّم"
+
+msgid "Extradited"
+msgstr "مسلّم"
+
+msgid "Extradites"
+msgstr "يسلّم"
+
+msgid "Extraditing"
+msgstr "التسليم"
+
+msgid "Extradition"
+msgstr "التسليم"
+
+msgid "Extralegal"
+msgstr "غير مقنن"
+
+msgid "Extralegally"
+msgstr "بلا قانونية"
+
+msgid "Extralinguistic"
+msgstr "خارج نطاق اللغة"
+
+msgid "Extramarital"
+msgstr "خارج العلاقة الزّوجيّة"
+
+msgid "Extramural"
+msgstr "خارج حدود التنظيم"
+
+msgid "Extraneous"
+msgstr "غريب"
+
+msgid "Extraneously"
+msgstr "بشكل غريب"
+
+msgid "Extraneousness"
+msgstr "الغرابة"
+
+msgid "Extraordinarily"
+msgstr "بشكل غير عادي"
+
+msgid "Extraordinariness"
+msgstr "الروعة"
+
+msgid "Extraordinary"
+msgstr "إستثنائي"
+
+msgid "Extrapolate"
+msgstr "إستنبط"
+
+msgid "Extrapolated"
+msgstr "مستنبط"
+
+msgid "Extrapolates"
+msgstr "يستنبط"
+
+msgid "Extrapolating"
+msgstr "الإستنباط"
+
+msgid "Extrapolation"
+msgstr "الإستنباط"
+
+msgid "Extrapolations"
+msgstr "الإستنباط"
+
+msgid "Extrapolative"
+msgstr "إستقرائي"
+
+msgid "Extras"
+msgstr "الإضافيات"
+
+msgid "Extraterrestrial"
+msgstr "أحد المخلوقات العليا"
+
+msgid "Extravagance"
+msgstr "التبذير"
+
+msgid "Extravagances"
+msgstr "التبذير"
+
+msgid "Extravagant"
+msgstr "مفرط"
+
+msgid "Extravagantly"
+msgstr "بإسراف"
+
+msgid "Extravaganza"
+msgstr "الروعة"
+
+msgid "Extravaganzas"
+msgstr "الروعة"
+
+msgid "Extrema"
+msgstr "القمم أو القيعان لناتج عملية رياضية"
+
+msgid "Extreme"
+msgstr "النهاية"
+
+msgid "Extremely"
+msgstr "جدا"
+
+msgid "Extremeness"
+msgstr "التطرّف"
+
+msgid "Extremer"
+msgstr "متطرّف"
+
+msgid "Extremes"
+msgstr "النهايات"
+
+msgid "Extremest"
+msgstr "متطرّف"
+
+msgid "Extremis"
+msgstr "في الظّروف الشّديدة"
+
+msgid "Extremism"
+msgstr "التطرّفية"
+
+msgid "Extremist"
+msgstr "المتطرّف"
+
+msgid "Extremists"
+msgstr "المتطرّفون"
+
+msgid "Extremities"
+msgstr "الحدود القصوى"
+
+msgid "Extremity"
+msgstr "الحدّ الأقصى"
+
+msgid "Extremum"
+msgstr "القمّة أو القاع لناتج عملية رياضية"
+
+msgid "Extricable"
+msgstr "قابل للتخليص"
+
+msgid "Extricate"
+msgstr "خلّص"
+
+msgid "Extricated"
+msgstr "مخلّص"
+
+msgid "Extricates"
+msgstr "يخلّص"
+
+msgid "Extricating"
+msgstr "التخليص"
+
+msgid "Extrication"
+msgstr "التخليص"
+
+msgid "Extrinsic"
+msgstr "عرضي"
+
+msgid "Extrinsical"
+msgstr "بلا إنتماء"
+
+msgid "Extroversion"
+msgstr "الإهتمام  بإرضاء الاخرين"
+
+msgid "Extrovert"
+msgstr "المنفتح"
+
+msgid "Extroverted"
+msgstr "منفتح"
+
+msgid "Extroverts"
+msgstr "المنفتحون"
+
+msgid "Extrude"
+msgstr "إقذف"
+
+msgid "Extruded"
+msgstr "مقذوف"
+
+msgid "Extruder"
+msgstr "الطارد"
+
+msgid "Extrudes"
+msgstr "يقذف"
+
+msgid "Extruding"
+msgstr "القذف"
+
+msgid "Extrusion"
+msgstr "النتوء"
+
+msgid "Extrusive"
+msgstr "طردي"
+
+msgid "Exuberance"
+msgstr "الغزارة"
+
+msgid "Exuberances"
+msgstr "الغزارة"
+
+msgid "Exuberant"
+msgstr "غزير"
+
+msgid "Exuberantly"
+msgstr "بشكل غزير"
+
+msgid "Exudate"
+msgstr "الإفرازات الجسمية"
+
+msgid "Exudation"
+msgstr "الإفراز"
+
+msgid "Exude"
+msgstr "إنضح"
+
+msgid "Exuded"
+msgstr "ناضح"
+
+msgid "Exudes"
+msgstr "ينضح"
+
+msgid "Exuding"
+msgstr "النضوح"
+
+msgid "Exult"
+msgstr "إغتبط"
+
+msgid "Exultant"
+msgstr "مبتهج"
+
+msgid "Exultantly"
+msgstr "بشكل مبتهج"
+
+msgid "Exultation"
+msgstr "الإغتباط"
+
+msgid "Exulted"
+msgstr "مغتبط"
+
+msgid "Exulting"
+msgstr "الإغتباط"
+
+msgid "Exultingly"
+msgstr "ببهجة"
+
+msgid "Exults"
+msgstr "يغتبط"
+
+msgid "Exxon"
+msgstr "إكسون"
+
+msgid "Exzess"
+msgstr "إكسزيس"
+
+msgid "Eye"
+msgstr "العين"
+
+msgid "Eyeball"
+msgstr "مقلة العين"
+
+msgid "Eyeballed"
+msgstr "ييباليد"
+
+msgid "Eyeballing"
+msgstr "ييبالينج"
+
+msgid "Eyeballs"
+msgstr "مقل العيون"
+
+msgid "Eyebolt"
+msgstr "ييبولت"
+
+msgid "Eyebright"
+msgstr "ييبرايت"
+
+msgid "Eyebrow"
+msgstr "الحاجب"
+
+msgid "Eyebrows"
+msgstr "الحواجب"
+
+msgid "Eyed"
+msgstr "مراقب"
+
+msgid "Eyedness"
+msgstr "ييدنيس"
+
+msgid "Eyeful"
+msgstr "العين"
+
+msgid "Eyeglass"
+msgstr "ييجلاس"
+
+msgid "Eyeglasses"
+msgstr "النظّارات"
+
+msgid "Eyeing"
+msgstr "المراقبة"
+
+msgid "Eyelash"
+msgstr "الرمش"
+
+msgid "Eyelashes"
+msgstr "الرموش"
+
+msgid "Eyeless"
+msgstr "بلا عيون"
+
+msgid "Eyelet"
+msgstr "الثقب"
+
+msgid "Eyelets"
+msgstr "الثقوب"
+
+msgid "Eyelid"
+msgstr "الجفن"
+
+msgid "Eyelids"
+msgstr "الجفون"
+
+msgid "Eyepencil"
+msgstr "ييبينسيل"
+
+msgid "Eyepiece"
+msgstr "العدسة"
+
+msgid "Eyepieces"
+msgstr "العدسات"
+
+msgid "Eyer"
+msgstr "يير"
+
+msgid "Eyers"
+msgstr "ييرس"
+
+msgid "Eyes"
+msgstr "العيون"
+
+msgid "Eyesight"
+msgstr "النظر"
+
+msgid "Eyesore"
+msgstr "القذى"
+
+msgid "Eyesores"
+msgstr "ييسوريس"
+
+msgid "Eyestrain"
+msgstr "حسور العين"
+
+msgid "Eyeteeth"
+msgstr "ييتيث"
+
+msgid "Eyewash"
+msgstr "غسل العين"
+
+msgid "Eyewitness"
+msgstr "شاهد العيان"
+
+msgid "Eyewitnesses"
+msgstr "شهود العيان"
+
+msgid "Eying"
+msgstr "المراقبة"
+
+msgid "Ezekiel"
+msgstr "حزقيال"
+
+msgid "Ezra"
+msgstr "عزرا"
+
+msgid "Encharged"
+msgstr "وضع قيمة او ثمن :: فرض قيمة او ثمن"
+
+msgid "Elli"
+msgstr "إله الشيخوخة - أساطير نرويجية"
+

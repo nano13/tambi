@@ -1,0 +1,11618 @@
+# translation of full_wordlist_I.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_I.po,v 1.23 2004/02/14 18:36:37 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'I'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_I\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"PO-Revision-Date: 2004-02-14 21:34+0300\n"
+
+msgid "I"
+msgstr "آي - الحرف التاسع في اللغة الإنجليزية، انا"
+
+msgid "I-section"
+msgstr "أقسّم"
+
+msgid "I.e"
+msgstr "وبمعنى آخر"
+
+msgid "IA"
+msgstr "ولاية أيوا"
+
+msgid "Iambic"
+msgstr "الإيامبي"
+
+msgid "Ian"
+msgstr "إيان"
+
+msgid "Iberia"
+msgstr "إيبريا"
+
+msgid "Iberian"
+msgstr "آيبيري"
+
+msgid "Ibero"
+msgstr "إبيرو"
+
+msgid "Ibex"
+msgstr "الوعل"
+
+msgid "Ibexes"
+msgstr "الوعول"
+
+msgid "Ibid"
+msgstr "في نفس المكان"
+
+msgid "Ibis"
+msgstr "أبو منجل"
+
+msgid "Ibises"
+msgstr "آباء منجل"
+
+msgid "IBM"
+msgstr "شركه اي بي ام"
+
+msgid "Ibn"
+msgstr "إبن"
+
+msgid "Ibsen"
+msgstr "إبسن"
+
+msgid "Icarus"
+msgstr "إكاروس"
+
+msgid "ICC"
+msgstr "غرفة التجارة العالمية"
+
+msgid "Ice"
+msgstr "الثلج"
+
+msgid "Ice-cream"
+msgstr "الآيس كريم"
+
+msgid "Iceberg"
+msgstr "الجبل الثلجي"
+
+msgid "Icebergs"
+msgstr "الجبال الثلجية"
+
+msgid "Iceboat"
+msgstr "عربة للتزحلق على الجليد"
+
+msgid "Icebound"
+msgstr "محاط بالجليد"
+
+msgid "Icebox"
+msgstr "الثلاجة"
+
+msgid "Iceboxes"
+msgstr "الثلاجات"
+
+msgid "Icebreaker"
+msgstr "كاسحة الجليد"
+
+msgid "Icecold"
+msgstr "شديد البرودة"
+
+msgid "Iced"
+msgstr "مجمّد"
+
+msgid "Iceland"
+msgstr "آيسلندا"
+
+msgid "Icelander"
+msgstr "الآيسلندي"
+
+msgid "Icelandic"
+msgstr "الآيسلندي"
+
+msgid "Iceman"
+msgstr "رجل الثلج"
+
+msgid "Icemen"
+msgstr "بائعو الثّلج"
+
+msgid "Ices"
+msgstr "الثلوج"
+
+msgid "Ichneumon"
+msgstr "النّمس"
+
+msgid "Ichor"
+msgstr "دم الإله - أساطير يونانيّة"
+
+msgid "Icicle"
+msgstr "رقاقة الثلج"
+
+msgid "Icicles"
+msgstr "رقاقات الثلج"
+
+msgid "Icier"
+msgstr "أثلج"
+
+msgid "Iciest"
+msgstr "أثلج"
+
+msgid "Icily"
+msgstr "ثلجيا"
+
+msgid "Iciness"
+msgstr "التثلّج"
+
+msgid "Icing"
+msgstr "التغطية بالسكر"
+
+msgid "Icings"
+msgstr "التغطية بالسكر"
+
+msgid "Icky"
+msgstr "رديء"
+
+msgid "Icon"
+msgstr "الأيقونة"
+
+msgid "Iconic"
+msgstr "أيقوني"
+
+msgid "Iconoclasm"
+msgstr "تحطيم المعتقدات التّقليديّة"
+
+msgid "Iconoclast"
+msgstr "الثّائر"
+
+msgid "Iconoclastic"
+msgstr "متمرّد"
+
+msgid "Iconoclasts"
+msgstr "الثّوّار"
+
+msgid "Icons"
+msgstr "الأيقونات"
+
+msgid "Icosahedra"
+msgstr "متعدّد السّطوح ذو 20 وجهًا"
+
+msgid "Icosahedral"
+msgstr "متعلق بمتعدّد السّطوح ذو 20 وجهًا"
+
+msgid "Icosahedron"
+msgstr "العشروني الوجوه"
+
+msgid "Icy"
+msgstr "متجمّد"
+
+msgid "Id"
+msgstr "بطاقة الهوية الشخصية"
+
+msgid "Ida"
+msgstr "إدا"
+
+msgid "Idaho"
+msgstr "إداهو"
+
+msgid "IDE"
+msgstr "بيئة تطوير متكاملة"
+
+msgid "Idea"
+msgstr "الفكرة"
+
+msgid "Ideal"
+msgstr "مثالي"
+
+msgid "Idealism"
+msgstr "المثالية"
+
+msgid "Idealist"
+msgstr "المثالي"
+
+msgid "Idealistic"
+msgstr "مثالي"
+
+msgid "Idealistically"
+msgstr "مثاليا"
+
+msgid "Idealists"
+msgstr "المثاليون"
+
+msgid "Idealization"
+msgstr "التمثيل"
+
+msgid "Idealizations"
+msgstr "التمثيل"
+
+msgid "Idealize"
+msgstr "مثّل"
+
+msgid "Idealized"
+msgstr "مثالي"
+
+msgid "Idealizer"
+msgstr "الحالم"
+
+msgid "Idealizers"
+msgstr "الحالم"
+
+msgid "Idealizes"
+msgstr "يمثّل"
+
+msgid "Idealizing"
+msgstr "التمثيل"
+
+msgid "Ideally"
+msgstr "مثاليا"
+
+msgid "Ideals"
+msgstr "النماذج"
+
+msgid "Ideas"
+msgstr "الأفكار"
+
+msgid "Ideate"
+msgstr "تصوّر"
+
+msgid "Ideates"
+msgstr "يتصوّر"
+
+msgid "Ideation"
+msgstr "التّفكير"
+
+msgid "Idem"
+msgstr "مثله"
+
+msgid "Idempotent"
+msgstr "كما لو استخدم مرّة واحدة فقط "
+
+msgid "Idempotents"
+msgstr "كما لو استخدموا مرّة واحدة فقط "
+
+msgid "Identic"
+msgstr "مماثل"
+
+msgid "Identical"
+msgstr "مماثل"
+
+msgid "Identically"
+msgstr "بشكل مماثل"
+
+msgid "Identicalness"
+msgstr "التشابه"
+
+msgid "Identifiable"
+msgstr "مميّز"
+
+msgid "Identifiably"
+msgstr "بطريقة محدّدة"
+
+msgid "Identification"
+msgstr "التعريف"
+
+msgid "Identifications"
+msgstr "التعريفات"
+
+msgid "Identified"
+msgstr "مميّز"
+
+msgid "Identifier"
+msgstr "المعرّف"
+
+msgid "Identifiers"
+msgstr "المعرّفون"
+
+msgid "Identifies"
+msgstr "يميّز"
+
+msgid "Identify"
+msgstr "ميّز"
+
+msgid "Identifying"
+msgstr "التمييز"
+
+msgid "Identities"
+msgstr "الهويّات"
+
+msgid "Identity"
+msgstr "الهوية"
+
+msgid "Ideolect"
+msgstr "إديوليكت"
+
+msgid "Ideologic"
+msgstr "إديولوجيك"
+
+msgid "Ideological"
+msgstr "أيديولوجي"
+
+msgid "Ideologically"
+msgstr "فكريا"
+
+msgid "Ideologies"
+msgstr "العقائد"
+
+msgid "Ideologist"
+msgstr "المذهبي"
+
+msgid "Ideologists"
+msgstr "المذهبيون"
+
+msgid "Ideologue"
+msgstr "المذهبي"
+
+msgid "Ideology"
+msgstr "العقيدة"
+
+msgid "Idiocies"
+msgstr "الحماقات"
+
+msgid "Idiocy"
+msgstr "البلاهة"
+
+msgid "Idiolect"
+msgstr "اللّهجة"
+
+msgid "Idiom"
+msgstr "التعبير"
+
+msgid "Idiomatic"
+msgstr "تعبيري"
+
+msgid "Idiomatically"
+msgstr "بشكل تعبيري"
+
+msgid "Idioms"
+msgstr "التعابير"
+
+msgid "Idiopathic"
+msgstr "مجهول العلّة"
+
+msgid "Idiosyncrasies"
+msgstr "الخواص"
+
+msgid "Idiosyncrasy"
+msgstr "الخاصية"
+
+msgid "Idiosyncratic"
+msgstr "تمييزي"
+
+msgid "Idiosyncratically"
+msgstr "بشكل تمييزي"
+
+msgid "Idiot"
+msgstr "الأبله"
+
+msgid "Idiotic"
+msgstr "غبي"
+
+msgid "Idiotically"
+msgstr "بغباء"
+
+msgid "Idioticly"
+msgstr "بشكل غبي"
+
+msgid "Idiots"
+msgstr "البلهاء"
+
+msgid "Idle"
+msgstr "عاطل"
+
+msgid "Idled"
+msgstr "مضيع"
+
+msgid "Idleness"
+msgstr "التسيّب"
+
+msgid "Idler"
+msgstr "العاطل"
+
+msgid "Idlers"
+msgstr "العاطلون"
+
+msgid "Idles"
+msgstr "يضيع"
+
+msgid "Idlest"
+msgstr "عاطل"
+
+msgid "Idling"
+msgstr "الضياع"
+
+msgid "Idly"
+msgstr "بكسل"
+
+msgid "Idol"
+msgstr "المعبود"
+
+msgid "Idolater"
+msgstr "الوثني"
+
+msgid "Idolatrous"
+msgstr "وثني"
+
+msgid "Idolatrously"
+msgstr "بشكل وثني"
+
+msgid "Idolatrousness"
+msgstr "الوثنيّة"
+
+msgid "Idolatry"
+msgstr "عبادة الأصنام"
+
+msgid "Idolization"
+msgstr "العبادة"
+
+msgid "Idolize"
+msgstr "إعبد"
+
+msgid "Idolized"
+msgstr "معبود"
+
+msgid "Idolizer"
+msgstr "العابد"
+
+msgid "Idolizers"
+msgstr "العابدون"
+
+msgid "Idolizes"
+msgstr "يعبد"
+
+msgid "Idolizing"
+msgstr "العبادة"
+
+msgid "Idols"
+msgstr "الأصنام"
+
+msgid "Idyll"
+msgstr "القصيدة الرعوية"
+
+msgid "Idyllic"
+msgstr "شاعري"
+
+msgid "Idyllically"
+msgstr "بانشراح"
+
+msgid "Idylls"
+msgstr "القصائد الرعوية"
+
+msgid "Ie"
+msgstr "أو بمعنى اخر.."
+
+msgid "IEEE"
+msgstr "معهد مهندسي الكهرباء والإلكترونيات"
+
+msgid "If"
+msgstr "إذا"
+
+msgid "Iffiness"
+msgstr "التشكّك"
+
+msgid "Iffy"
+msgstr "متشكّك"
+
+msgid "Ifni"
+msgstr "إيفني"
+
+msgid "Igloo"
+msgstr "كوخ الإسكيمو"
+
+msgid "Igloos"
+msgstr "أكواخ الإسكيمو"
+
+msgid "Igneous"
+msgstr "ناري"
+
+msgid "Ignite"
+msgstr "أشعل"
+
+msgid "Ignited"
+msgstr "مشعل"
+
+msgid "Igniter"
+msgstr "الشاعل"
+
+msgid "Ignites"
+msgstr "يشعل"
+
+msgid "Igniting"
+msgstr "الإشعال"
+
+msgid "Ignition"
+msgstr "الإيقاد"
+
+msgid "Ignitions"
+msgstr "الإيقاد"
+
+msgid "Ignoble"
+msgstr "دنيئ"
+
+msgid "Ignobleness"
+msgstr "الحقارة"
+
+msgid "Ignobly"
+msgstr "بحقارة"
+
+msgid "Ignominies"
+msgstr "الفضائح"
+
+msgid "Ignominious"
+msgstr "مخزي"
+
+msgid "Ignominiously"
+msgstr "بشكل مخزي"
+
+msgid "Ignoramus"
+msgstr "الجهول"
+
+msgid "Ignoramuses"
+msgstr "الجهلة"
+
+msgid "Ignorance"
+msgstr "الجهل"
+
+msgid "Ignorant"
+msgstr "الجاهل"
+
+msgid "Ignorantly"
+msgstr "بشكل جاهل"
+
+msgid "Ignorantness"
+msgstr "الجهل"
+
+msgid "Ignore"
+msgstr "أهمل"
+
+msgid "Ignored"
+msgstr "مهمل"
+
+msgid "Ignorer"
+msgstr "الغير مهتم"
+
+msgid "Ignores"
+msgstr "يهمل"
+
+msgid "Ignoring"
+msgstr "الإهمال"
+
+msgid "Igor"
+msgstr "إيغور"
+
+msgid "Iguanas"
+msgstr "الإيغوانات"
+
+msgid "Ii"
+msgstr "الثّاني"
+
+msgid "Iid"
+msgstr "آلة تشابك المشغّل"
+
+msgid "Iii"
+msgstr "الثّالث"
+
+msgid "Ike"
+msgstr "آيك"
+
+msgid "IL"
+msgstr "إلينوي"
+
+msgid "Ileum"
+msgstr "المعي اللفائفي"
+
+msgid "Ileus"
+msgstr "الشلل اللفائفي"
+
+msgid "Ileuses"
+msgstr "الشلل اللفائفي"
+
+msgid "Ilia"
+msgstr "إليا"
+
+msgid "Iliac"
+msgstr "حرقفي"
+
+msgid "Iliad"
+msgstr "إلياذة هوميروس"
+
+msgid "Ilium"
+msgstr "إليوم"
+
+msgid "Ilk"
+msgstr "الجنس"
+
+msgid "Ill"
+msgstr "المرض"
+
+msgid "Ill-favoured"
+msgstr "قبيح"
+
+msgid "Illbred"
+msgstr "وقح"
+
+msgid "Illegal"
+msgstr "غير شرعي"
+
+msgid "Illegalities"
+msgstr "الانتهاكات"
+
+msgid "Illegality"
+msgstr "الغير شرعية"
+
+msgid "Illegally"
+msgstr "بشكل غير قانوني"
+
+msgid "Illegibility"
+msgstr "غموض الخط"
+
+msgid "Illegible"
+msgstr "غير مقروء"
+
+msgid "Illegibly"
+msgstr "بصورة تصعب قراءتها"
+
+msgid "Illegitimacy"
+msgstr "النغولة"
+
+msgid "Illegitimate"
+msgstr "غير شرعي"
+
+msgid "Illegitimately"
+msgstr "بشكل غير شرعي"
+
+msgid "Illgotten"
+msgstr "حرام"
+
+msgid "Illiberal"
+msgstr "ضيّق الآفق"
+
+msgid "Illiberally"
+msgstr "بشكل ضيّق الآفق"
+
+msgid "Illicit"
+msgstr "محظور"
+
+msgid "Illicitly"
+msgstr "بشكل محظور"
+
+msgid "Illimitability"
+msgstr "اللاحدودية"
+
+msgid "Illimitable"
+msgstr "بلا حدود"
+
+msgid "Illimitableness"
+msgstr "اللامحدود"
+
+msgid "Illimitably"
+msgstr "بشكل لا متناه"
+
+msgid "Illinois"
+msgstr "إلينوي"
+
+msgid "Illiteracy"
+msgstr "الأميّة"
+
+msgid "Illiterate"
+msgstr "أمّي"
+
+msgid "Illiterately"
+msgstr "أميا"
+
+msgid "Illiterateness"
+msgstr "الأميّة"
+
+msgid "Illiteratenesses"
+msgstr "الأميّة"
+
+msgid "Illiterates"
+msgstr "الأميّون"
+
+msgid "Illness"
+msgstr "المرض"
+
+msgid "Illnesses"
+msgstr "الأمراض"
+
+msgid "Illogic"
+msgstr "اللّامنطقيّة"
+
+msgid "Illogical"
+msgstr "غير منطقي"
+
+msgid "Illogically"
+msgstr "بشكل غير منطقي"
+
+msgid "Illogicalness"
+msgstr "اللا منطقية"
+
+msgid "Ills"
+msgstr "الأمراض"
+
+msgid "Illume"
+msgstr "أنر"
+
+msgid "Illumed"
+msgstr "منار"
+
+msgid "Illumes"
+msgstr "ينير"
+
+msgid "Illuminable"
+msgstr "قابل للإضاءة"
+
+msgid "Illuminance"
+msgstr "الإضاءة"
+
+msgid "Illuminate"
+msgstr "منوّر"
+
+msgid "Illuminated"
+msgstr "منار"
+
+msgid "Illuminates"
+msgstr "ينير"
+
+msgid "Illuminating"
+msgstr "الإضاءة"
+
+msgid "Illuminatingly"
+msgstr "بشكل منير"
+
+msgid "Illumination"
+msgstr "الإضاءة"
+
+msgid "Illuminations"
+msgstr "أنوار الزينة"
+
+msgid "Illuminative"
+msgstr "مضيئ"
+
+msgid "Illuminator"
+msgstr "الضوء"
+
+msgid "Illuminators"
+msgstr "الأضواء"
+
+msgid "Illumine"
+msgstr "أنر"
+
+msgid "Illumined"
+msgstr "منار"
+
+msgid "Illumines"
+msgstr "ينير"
+
+msgid "Illuming"
+msgstr "الإنارة"
+
+msgid "Illumining"
+msgstr "الإنارة"
+
+msgid "Illusion"
+msgstr "الوهم"
+
+msgid "Illusionary"
+msgstr "وهمي"
+
+msgid "Illusions"
+msgstr "الأوهام"
+
+msgid "Illusive"
+msgstr "خدّاع"
+
+msgid "Illusively"
+msgstr "بشكل خدّاع"
+
+msgid "Illusiveness"
+msgstr "الخداع"
+
+msgid "Illusivenesses"
+msgstr "الخداع"
+
+msgid "Illusorily"
+msgstr "بشكل خدّاع"
+
+msgid "Illusoriness"
+msgstr "الزّيف"
+
+msgid "Illusory"
+msgstr "خدّاع"
+
+msgid "Illust"
+msgstr "الصّورة"
+
+msgid "Illustrate"
+msgstr "صوّر"
+
+msgid "Illustrated"
+msgstr "مصوّر"
+
+msgid "Illustrates"
+msgstr "يصوّر"
+
+msgid "Illustrating"
+msgstr "التصوير"
+
+msgid "Illustration"
+msgstr "الإيضاح"
+
+msgid "Illustrations"
+msgstr "الإيضاحات"
+
+msgid "Illustrative"
+msgstr "إيضاحي"
+
+msgid "Illustratively"
+msgstr "بشكل إيضاحي"
+
+msgid "Illustrator"
+msgstr "المصور"
+
+msgid "Illustrators"
+msgstr "المصورون"
+
+msgid "Illustrious"
+msgstr "شهير"
+
+msgid "Illustriously"
+msgstr "بشكل شهير"
+
+msgid "Illustriousness"
+msgstr "اللمعان"
+
+msgid "Illy"
+msgstr "إلي"
+
+msgid "Ilona"
+msgstr "إلونا"
+
+msgid "Ilyushin"
+msgstr "إليشين"
+
+msgid "Image"
+msgstr "الصورة"
+
+msgid "Image-File"
+msgstr "ملف صورة"
+
+msgid "Image-Type"
+msgstr "من نوع صورة"
+
+msgid "ImageCanvas"
+msgstr "مساحة الصورة"
+
+msgid "Imaged"
+msgstr "معكوس"
+
+msgid "Imageries"
+msgstr "الصور"
+
+msgid "Imagery"
+msgstr "الصورة"
+
+msgid "Images"
+msgstr "الصور"
+
+msgid "Imaginable"
+msgstr "قابل للتخيل"
+
+msgid "Imaginableness"
+msgstr "الإمكانية"
+
+msgid "Imaginably"
+msgstr "بصورة خياليّة"
+
+msgid "Imaginariness"
+msgstr "الخيالية"
+
+msgid "Imaginary"
+msgstr "خيالي"
+
+msgid "Imaginate"
+msgstr "خياليّ"
+
+msgid "Imagination"
+msgstr "الخيال"
+
+msgid "Imaginations"
+msgstr "التخيلات"
+
+msgid "Imaginative"
+msgstr "مبدع"
+
+msgid "Imaginatively"
+msgstr "بشكل خلاّق"
+
+msgid "Imaginativeness"
+msgstr "التّخيّل"
+
+msgid "Imagine"
+msgstr "تخيّل"
+
+msgid "Imagined"
+msgstr "متخيّل"
+
+msgid "Imaginer"
+msgstr "المتخيّل"
+
+msgid "Imagines"
+msgstr "يتخيّل"
+
+msgid "Imaging"
+msgstr "التصوير"
+
+msgid "Imagining"
+msgstr "التخيّل"
+
+msgid "Imbalance"
+msgstr "عدم التوازن"
+
+msgid "Imbalances"
+msgstr "حالات عدم التوازن"
+
+msgid "Imbecile"
+msgstr "أبله"
+
+msgid "Imbecilely"
+msgstr "بشكل أبله"
+
+msgid "Imbeciles"
+msgstr "البلهاء"
+
+msgid "Imbecilic"
+msgstr "أبله"
+
+msgid "Imbecilities"
+msgstr "إمبيسيليتيس"
+
+msgid "Imbecility"
+msgstr "البلاهة"
+
+msgid "Imbed"
+msgstr "إطمر"
+
+msgid "Imbedding"
+msgstr "الطمر"
+
+msgid "Imbeds"
+msgstr "يطمر"
+
+msgid "Imbibe"
+msgstr "إشرب"
+
+msgid "Imbibed"
+msgstr "مشروب"
+
+msgid "Imbiber"
+msgstr "المتجرّع"
+
+msgid "Imbibes"
+msgstr "يشرب"
+
+msgid "Imbibing"
+msgstr "الشرب"
+
+msgid "Imbroglio"
+msgstr "الفوضى"
+
+msgid "Imbroglios"
+msgstr "الورطة"
+
+msgid "Imbrue"
+msgstr "ضرّج"
+
+msgid "Imbrued"
+msgstr "مضرّج"
+
+msgid "Imbrues"
+msgstr "يضرّج"
+
+msgid "Imbruing"
+msgstr "التضريج"
+
+msgid "Imbue"
+msgstr "شبّع"
+
+msgid "Imbued"
+msgstr "مشبّع"
+
+msgid "Imbues"
+msgstr "يشبّع"
+
+msgid "Imbuing"
+msgstr "التشبّع"
+
+msgid "Imitable"
+msgstr "قابل للتّقليد"
+
+msgid "Imitate"
+msgstr "قلّد"
+
+msgid "Imitated"
+msgstr "مقلّد"
+
+msgid "Imitates"
+msgstr "يقلّد"
+
+msgid "Imitating"
+msgstr "التقليد"
+
+msgid "Imitation"
+msgstr "التقليد"
+
+msgid "Imitations"
+msgstr "التقليد"
+
+msgid "Imitative"
+msgstr "تقليدي"
+
+msgid "Imitatively"
+msgstr "بشكل تقليدي"
+
+msgid "Imitativeness"
+msgstr "التّقليد"
+
+msgid "Imitator"
+msgstr "المقلّد"
+
+msgid "Imitators"
+msgstr "المقلدون"
+
+msgid "Immaculate"
+msgstr "نظيف جدا"
+
+msgid "Immaculately"
+msgstr "بنظافة شديدة"
+
+msgid "Immaculateness"
+msgstr "النظافة الشديدة"
+
+msgid "Immanence"
+msgstr "اللزوم"
+
+msgid "Immanent"
+msgstr "جوهري"
+
+msgid "Immanently"
+msgstr "بشكل جوهري"
+
+msgid "Immaterial"
+msgstr "غير أساسي"
+
+msgid "Immaterially"
+msgstr "بشكل غير أساسي"
+
+msgid "Immaterialness"
+msgstr "اللامادية"
+
+msgid "Immature"
+msgstr "غير ناضج"
+
+msgid "Immaturely"
+msgstr "بشكل غير ناضج"
+
+msgid "Immatureness"
+msgstr "عدم النضوج"
+
+msgid "Immaturity"
+msgstr "عدم النضج"
+
+msgid "Immeasurable"
+msgstr "بلا حدود"
+
+msgid "Immeasurableness"
+msgstr "اللامحدودية"
+
+msgid "Immeasurably"
+msgstr "بلا حصر"
+
+msgid "Immediacies"
+msgstr "الآنية"
+
+msgid "Immediacy"
+msgstr "الآنية"
+
+msgid "Immediate"
+msgstr "فوري"
+
+msgid "Immediately"
+msgstr "فورا"
+
+msgid "Immediateness"
+msgstr "الآنية"
+
+msgid "Immediatly"
+msgstr "حالا"
+
+msgid "Immemorial"
+msgstr "سحيق"
+
+msgid "Immemorially"
+msgstr "بشكل سحيق"
+
+msgid "Immense"
+msgstr "هائل"
+
+msgid "Immensely"
+msgstr "كثيرا"
+
+msgid "Immenseness"
+msgstr "الضخامة"
+
+msgid "Immensities"
+msgstr "الأبعاد الهائلة"
+
+msgid "Immensity"
+msgstr "الضخامة"
+
+msgid "Immerse"
+msgstr "إغطس"
+
+msgid "Immersed"
+msgstr "غاطس"
+
+msgid "Immerses"
+msgstr "يغطس"
+
+msgid "Immersing"
+msgstr "الغطس"
+
+msgid "Immersion"
+msgstr "الغمر"
+
+msgid "Immersions"
+msgstr "الغمر"
+
+msgid "Immigrant"
+msgstr "المهاجر"
+
+msgid "Immigrants"
+msgstr "المهاجرون"
+
+msgid "Immigrate"
+msgstr "هاجر"
+
+msgid "Immigrated"
+msgstr "مهاجر"
+
+msgid "Immigrates"
+msgstr "يهاجر"
+
+msgid "Immigrating"
+msgstr "الهجرة"
+
+msgid "Immigration"
+msgstr "الهجرة"
+
+msgid "Immigrations"
+msgstr "دوائر الهجرة"
+
+msgid "Imminence"
+msgstr "الوشاكة"
+
+msgid "Imminent"
+msgstr "وشيك"
+
+msgid "Imminently"
+msgstr "قريبا جدا"
+
+msgid "Imminentness"
+msgstr "على وشك"
+
+msgid "Immiscible"
+msgstr "غير قابل للإمتزاج"
+
+msgid "Immobile"
+msgstr "ثابت"
+
+msgid "Immobilisation"
+msgstr "الشلّ"
+
+msgid "Immobility"
+msgstr "التعوّق"
+
+msgid "Immobilize"
+msgstr "شلّ"
+
+msgid "Immobilized"
+msgstr "مشلول"
+
+msgid "Immobilizer"
+msgstr "المثبت عن الحركة"
+
+msgid "Immobilizes"
+msgstr "يشلّ"
+
+msgid "Immobilizing"
+msgstr "الشلّ"
+
+msgid "Immoderate"
+msgstr "مفرط"
+
+msgid "Immoderately"
+msgstr "بشكل مفرط"
+
+msgid "Immoderateness"
+msgstr "التطرّف"
+
+msgid "Immoderation"
+msgstr "التطرّف"
+
+msgid "Immodest"
+msgstr "دعيّ"
+
+msgid "Immodestly"
+msgstr "بشكل دعيّ"
+
+msgid "Immodesty"
+msgstr "التكبّر"
+
+msgid "Immolate"
+msgstr "ضحّ به"
+
+msgid "Immolated"
+msgstr "مضحّى ب"
+
+msgid "Immolates"
+msgstr "يضحّي به"
+
+msgid "Immolating"
+msgstr "التضحية"
+
+msgid "Immolation"
+msgstr "التضحية"
+
+msgid "Immoral"
+msgstr "عديم الأخلاق"
+
+msgid "Immoralities"
+msgstr "الانحرافات"
+
+msgid "Immorality"
+msgstr "العهر"
+
+msgid "Immorally"
+msgstr "بشكل عديم الأخلاق"
+
+msgid "Immortal"
+msgstr "خالد"
+
+msgid "Immortality"
+msgstr "الخلود"
+
+msgid "Immortalize"
+msgstr "خلّد"
+
+msgid "Immortalized"
+msgstr "مخلّد"
+
+msgid "Immortalizes"
+msgstr "يخلّد"
+
+msgid "Immortalizing"
+msgstr "التخليد"
+
+msgid "Immortally"
+msgstr "بشكل خالد"
+
+msgid "Immortals"
+msgstr "الخالدون"
+
+msgid "Immovability"
+msgstr "الرسوخ"
+
+msgid "Immovable"
+msgstr "ثابت"
+
+msgid "Immovableness"
+msgstr "الرسوخ"
+
+msgid "Immovables"
+msgstr "الثوابت"
+
+msgid "Immovably"
+msgstr "بلا حركة"
+
+msgid "Immun"
+msgstr "إمان"
+
+msgid "Immune"
+msgstr "منيع"
+
+msgid "Immunities"
+msgstr "المناعات"
+
+msgid "Immunity"
+msgstr "المناعة"
+
+msgid "Immunization"
+msgstr "التلقيح"
+
+msgid "Immunizations"
+msgstr "التلقيح"
+
+msgid "Immunize"
+msgstr "لقّح"
+
+msgid "Immunized"
+msgstr "لقّح"
+
+msgid "Immunoelectrophoresis"
+msgstr "انفصال و تعريف البروتينات"
+
+msgid "Immunological"
+msgstr "مناعي"
+
+msgid "Immunologically"
+msgstr "مناعيا"
+
+msgid "Immunology"
+msgstr "علم المناعة"
+
+msgid "Immured"
+msgstr "محصور"
+
+msgid "Immutability"
+msgstr "الثبات"
+
+msgid "Immutable"
+msgstr "ثابت"
+
+msgid "Immutableness"
+msgstr "الثبات"
+
+msgid "Immutably"
+msgstr "بثبات"
+
+msgid "Imp"
+msgstr "العفريت"
+
+msgid "Impact"
+msgstr "التأثير"
+
+msgid "Impacted"
+msgstr "مغمور"
+
+msgid "Impacter"
+msgstr "إمباكتر"
+
+msgid "Impacting"
+msgstr "التأثير على"
+
+msgid "Impaction"
+msgstr "الإنحشار"
+
+msgid "Impactions"
+msgstr "الإنحشار"
+
+msgid "Impactive"
+msgstr "ناتج عن التّصادم"
+
+msgid "Impactor"
+msgstr "المتصادم"
+
+msgid "Impacts"
+msgstr "التأثيرات"
+
+msgid "Impair"
+msgstr "أضعف"
+
+msgid "Impaired"
+msgstr "ضعيف"
+
+msgid "Impairer"
+msgstr "المفسد"
+
+msgid "Impairing"
+msgstr "الإضعاف"
+
+msgid "Impairment"
+msgstr "الضعف"
+
+msgid "Impairments"
+msgstr "الضعف"
+
+msgid "Impairs"
+msgstr "يضعف"
+
+msgid "Impale"
+msgstr "خوزق"
+
+msgid "Impaled"
+msgstr "مخوزق"
+
+msgid "Impalement"
+msgstr "التطويق"
+
+msgid "Impalements"
+msgstr "التطويق"
+
+msgid "Impales"
+msgstr "يخوزق"
+
+msgid "Impaling"
+msgstr "التخوزق"
+
+msgid "Impalpable"
+msgstr "غير محسوس"
+
+msgid "Impalpably"
+msgstr "بصورة غير ملموسة"
+
+msgid "Imparity"
+msgstr "التباين"
+
+msgid "Impart"
+msgstr "إمنح"
+
+msgid "Impartation"
+msgstr "الإفساد"
+
+msgid "Impartations"
+msgstr "الإفسادات"
+
+msgid "Imparted"
+msgstr "ممنوح"
+
+msgid "Impartial"
+msgstr "نزيه"
+
+msgid "Impartiality"
+msgstr "النزاهة"
+
+msgid "Impartially"
+msgstr "بشكل نزيه"
+
+msgid "Impartialness"
+msgstr "الحيادية"
+
+msgid "Imparting"
+msgstr "المنح"
+
+msgid "Imparts"
+msgstr "يمنح"
+
+msgid "Impassable"
+msgstr "غير قابل للعبور"
+
+msgid "Impassableness"
+msgstr "إستحالة العبور"
+
+msgid "Impassably"
+msgstr "بصورة غير سالكة"
+
+msgid "Impasse"
+msgstr "الطريق المسدود"
+
+msgid "Impasses"
+msgstr "الطرق المسدودة"
+
+msgid "Impassibility"
+msgstr "عدم الشعور"
+
+msgid "Impassible"
+msgstr "عديم الشعور"
+
+msgid "Impassibly"
+msgstr "متعلق بعديم الحسّ"
+
+msgid "Impassion"
+msgstr "أثر"
+
+msgid "Impassioned"
+msgstr "حماسي"
+
+msgid "Impassioning"
+msgstr "الإثارة"
+
+msgid "Impassions"
+msgstr "يثير"
+
+msgid "Impassive"
+msgstr "غير منفعل"
+
+msgid "Impassively"
+msgstr "بشكل غير منفعل"
+
+msgid "Impassiveness"
+msgstr "عدم الشعور"
+
+msgid "Impassivity"
+msgstr "عدم الشعور"
+
+msgid "Impatience"
+msgstr "نفاد الصبر"
+
+msgid "Impatient"
+msgstr "غير صبور"
+
+msgid "Impatiently"
+msgstr "بنفاذ صبر"
+
+msgid "Impeach"
+msgstr "إتّهم"
+
+msgid "Impeachable"
+msgstr "قابل للإتهام"
+
+msgid "Impeached"
+msgstr "متّهم"
+
+msgid "Impeaches"
+msgstr "يتّهم"
+
+msgid "Impeaching"
+msgstr "الإتّهام"
+
+msgid "Impeachment"
+msgstr "المعاقبة"
+
+msgid "Impeccability"
+msgstr "غاية الإتقان"
+
+msgid "Impeccable"
+msgstr "معصوم"
+
+msgid "Impeccably"
+msgstr "بشكل منزّه"
+
+msgid "Impecunious"
+msgstr "معدم"
+
+msgid "Impecuniously"
+msgstr "بشكل معدم"
+
+msgid "Impecuniousness"
+msgstr "الإفلاس"
+
+msgid "Impedance"
+msgstr "المعاوقة الكهربائية"
+
+msgid "Impedances"
+msgstr "المعاوقات الكهربائية"
+
+msgid "Impede"
+msgstr "عرقل"
+
+msgid "Impeded"
+msgstr "معرقل"
+
+msgid "Impeder"
+msgstr "إمبيدر"
+
+msgid "Impedes"
+msgstr "يعرقل"
+
+msgid "Impediment"
+msgstr "العائق"
+
+msgid "Impediments"
+msgstr "العوائق"
+
+msgid "Impeding"
+msgstr "العرقلة"
+
+msgid "Impel"
+msgstr "إدفع"
+
+msgid "Impelled"
+msgstr "مدفوع"
+
+msgid "Impellent"
+msgstr "الدافع"
+
+msgid "Impeller"
+msgstr "الدفاعة"
+
+msgid "Impellers"
+msgstr "الدفاعات"
+
+msgid "Impelling"
+msgstr "الدفع"
+
+msgid "Impels"
+msgstr "يدفع"
+
+msgid "Impend"
+msgstr "هدّد"
+
+msgid "Impended"
+msgstr "مهدّد"
+
+msgid "Impending"
+msgstr "التهديد"
+
+msgid "Impends"
+msgstr "يهدّد"
+
+msgid "Impenetrability"
+msgstr "المناعة"
+
+msgid "Impenetrable"
+msgstr "منيع"
+
+msgid "Impenetrableness"
+msgstr "المناعة"
+
+msgid "Impenetrably"
+msgstr "بمناعة"
+
+msgid "Impenitence"
+msgstr "التمادي"
+
+msgid "Impenitent"
+msgstr "غير نادم"
+
+msgid "Impenitently"
+msgstr "بشكل غير نادم"
+
+msgid "Imperate"
+msgstr "يفرض"
+
+msgid "Imperative"
+msgstr "الأولوية"
+
+msgid "Imperatively"
+msgstr "حتميا"
+
+msgid "Imperativeness"
+msgstr "الضّرورة"
+
+msgid "Imperatives"
+msgstr "الأولويات"
+
+msgid "Imperceivable"
+msgstr "غير واضح"
+
+msgid "Imperceptible"
+msgstr "لايدرك"
+
+msgid "Imperceptibly"
+msgstr "بشكل غير ملحوظ"
+
+msgid "Imperceptive"
+msgstr "لاإدراكي"
+
+msgid "Imperfect"
+msgstr "ناقص"
+
+msgid "Imperfectability"
+msgstr "عدم القدرة على الكمال"
+
+msgid "Imperfection"
+msgstr "النقص"
+
+msgid "Imperfections"
+msgstr "النقائص"
+
+msgid "Imperfective"
+msgstr "عدم مراعاة للبداية أو انتهاء العمل للفعل"
+
+msgid "Imperfectly"
+msgstr "بشكل ناقص"
+
+msgid "Imperfectness"
+msgstr "النقص"
+
+msgid "Imperfects"
+msgstr "الأفعال الماضية النّاقصة"
+
+msgid "Imperforate"
+msgstr "غير مثقّب"
+
+msgid "Imperial"
+msgstr "الإمبراطور"
+
+msgid "Imperialism"
+msgstr "الإمبريالية"
+
+msgid "Imperialisms"
+msgstr "الإمبريالية"
+
+msgid "Imperialist"
+msgstr "الإمبريالي"
+
+msgid "Imperialistic"
+msgstr "إستعماري"
+
+msgid "Imperialistically"
+msgstr "بطريقة إمبرياليّة"
+
+msgid "Imperialists"
+msgstr "الإمبرياليون"
+
+msgid "Imperially"
+msgstr "بشكل إمبراطوري"
+
+msgid "Imperil"
+msgstr "خاطر"
+
+msgid "Imperiled"
+msgstr "عرّض للخطر"
+
+msgid "Imperiling"
+msgstr "التعريض للخطر"
+
+msgid "Imperils"
+msgstr "يخاطر"
+
+msgid "Imperious"
+msgstr "متجبّر"
+
+msgid "Imperiously"
+msgstr "بشكل متجبّر"
+
+msgid "Imperiousness"
+msgstr "الجبريّة"
+
+msgid "Imperishability"
+msgstr "الخلود"
+
+msgid "Imperishable"
+msgstr "خالد"
+
+msgid "Imperishableness"
+msgstr "الخلود"
+
+msgid "Imperishably"
+msgstr "بطريقة خالدة"
+
+msgid "Impermanence"
+msgstr "المؤقتية"
+
+msgid "Impermanent"
+msgstr "مؤقت"
+
+msgid "Impermanently"
+msgstr "بشكل مؤقت"
+
+msgid "Impermeability"
+msgstr "عدم النفاذ"
+
+msgid "Impermeable"
+msgstr "غير نفّاذ"
+
+msgid "Impermeableness"
+msgstr "عدم النفاذ"
+
+msgid "Impermeably"
+msgstr "بصورة عازلة"
+
+msgid "Impermissible"
+msgstr "محظور"
+
+msgid "Impersonal"
+msgstr "غير شخصي"
+
+msgid "Impersonalized"
+msgstr "معمّم"
+
+msgid "Impersonally"
+msgstr "موضوعيا"
+
+msgid "Impersonate"
+msgstr "قلّد"
+
+msgid "Impersonated"
+msgstr "مقلّد"
+
+msgid "Impersonates"
+msgstr "يقلّد"
+
+msgid "Impersonating"
+msgstr "التقليد"
+
+msgid "Impersonation"
+msgstr "التقليد"
+
+msgid "Impersonations"
+msgstr "التقليد"
+
+msgid "Impersonator"
+msgstr "المقلد"
+
+msgid "Impertinence"
+msgstr "الصلافة"
+
+msgid "Impertinences"
+msgstr "الصلافة"
+
+msgid "Impertinent"
+msgstr "صلف"
+
+msgid "Impertinently"
+msgstr "بوقاحة"
+
+msgid "Imperturbability"
+msgstr "الهدوء"
+
+msgid "Imperturbable"
+msgstr "هادئ"
+
+msgid "Imperturbableness"
+msgstr "التماسك"
+
+msgid "Imperturbably"
+msgstr "بثبات"
+
+msgid "Impervious"
+msgstr "غير نفّاذ"
+
+msgid "Imperviously"
+msgstr "بشكل غير نفّاذ"
+
+msgid "Imperviousness"
+msgstr "عدم النفاذ"
+
+msgid "Impetigo"
+msgstr "الحصف"
+
+msgid "Impetuous"
+msgstr "متهور"
+
+msgid "Impetuously"
+msgstr "بشكل متهور"
+
+msgid "Impetuousness"
+msgstr "التهور"
+
+msgid "Impetus"
+msgstr "الحافز"
+
+msgid "Impetuses"
+msgstr "الحوافز"
+
+msgid "Impiety"
+msgstr "المعصية"
+
+msgid "Impinge"
+msgstr "إرتطم"
+
+msgid "Impinged"
+msgstr "مرتطم"
+
+msgid "Impingement"
+msgstr "الإصطدام"
+
+msgid "Impingements"
+msgstr "الإصطدامات"
+
+msgid "Impinges"
+msgstr "يرتطم"
+
+msgid "Impinging"
+msgstr "الإرتطام"
+
+msgid "Impious"
+msgstr "أثيم"
+
+msgid "Impiously"
+msgstr "بشكل أثيم"
+
+msgid "Impiousness"
+msgstr "العقوق"
+
+msgid "Impish"
+msgstr "عفريتي"
+
+msgid "Impishly"
+msgstr "بشكل عفريتي"
+
+msgid "Impishness"
+msgstr "الشّيطانيّة"
+
+msgid "Implacability"
+msgstr "الحقد"
+
+msgid "Implacable"
+msgstr "متصلّب"
+
+msgid "Implacableness"
+msgstr "الحقد"
+
+msgid "Implacably"
+msgstr "بتصلب"
+
+msgid "Implant"
+msgstr "الزرع"
+
+msgid "Implantation"
+msgstr "الزرع"
+
+msgid "Implantations"
+msgstr "الزرع"
+
+msgid "Implanted"
+msgstr "مزروع"
+
+msgid "Implanter"
+msgstr "القائم بعمليّة الغرس"
+
+msgid "Implanting"
+msgstr "الزراعة"
+
+msgid "Implants"
+msgstr "يزرع"
+
+msgid "Implausibility"
+msgstr "اللامعقولية"
+
+msgid "Implausible"
+msgstr "غير قابل للتّصديق"
+
+msgid "Implausibleness"
+msgstr "اللامعقولية"
+
+msgid "Implausibly"
+msgstr "بشكل لا يصدّق"
+
+msgid "Implement"
+msgstr "الأداة"
+
+msgid "Implementation"
+msgstr "التطبيق"
+
+msgid "Implementations"
+msgstr "التطبيقات"
+
+msgid "Implemented"
+msgstr "مطبّق"
+
+msgid "Implementer"
+msgstr "المطبّق"
+
+msgid "Implementers"
+msgstr "المطبّقون"
+
+msgid "Implementing"
+msgstr "التطبيق"
+
+msgid "Implementor"
+msgstr "المطبّق"
+
+msgid "Implementors"
+msgstr "المطبّقون"
+
+msgid "Implements"
+msgstr "الأدوات"
+
+msgid "Implicate"
+msgstr "ورّط"
+
+msgid "Implicated"
+msgstr "مورّط"
+
+msgid "Implicates"
+msgstr "يورّط"
+
+msgid "Implicating"
+msgstr "التوريط"
+
+msgid "Implication"
+msgstr "النتيجة"
+
+msgid "Implications"
+msgstr "النتائج"
+
+msgid "Implicative"
+msgstr "توريطي"
+
+msgid "Implicatively"
+msgstr "مائلا للتوريط"
+
+msgid "Implicativeness"
+msgstr "التضمينيّة"
+
+msgid "Implicatory"
+msgstr "تضمينيّ"
+
+msgid "Implicit"
+msgstr "ضمني"
+
+msgid "Implicitly"
+msgstr "ضمنيا"
+
+msgid "Implicitness"
+msgstr "الضمنيةّ"
+
+msgid "Implied"
+msgstr "ضمني"
+
+msgid "Implies"
+msgstr "يدلّ عليه"
+
+msgid "Implode"
+msgstr "إنفجر"
+
+msgid "Implore"
+msgstr "ناشد"
+
+msgid "Implored"
+msgstr "مناشد"
+
+msgid "Implores"
+msgstr "يناشد"
+
+msgid "Imploring"
+msgstr "المناشدة"
+
+msgid "Imploringly"
+msgstr "بتوسل"
+
+msgid "Implosion"
+msgstr "الإنهيار الداخلي"
+
+msgid "Implosive"
+msgstr "إمبلوسيف"
+
+msgid "Imply"
+msgstr "دلّ عليه"
+
+msgid "Implying"
+msgstr "الدلالة على"
+
+msgid "Impolite"
+msgstr "وقح"
+
+msgid "Impolitely"
+msgstr "بشكل وقح"
+
+msgid "Impoliteness"
+msgstr "الوقاحة"
+
+msgid "Impolitic"
+msgstr "غير حكيم"
+
+msgid "Impolitically"
+msgstr "لاسياسياً"
+
+msgid "Impoliticly"
+msgstr "بشكل غير حكيم"
+
+msgid "Impoliticness"
+msgstr "ألاسياسية"
+
+msgid "Imponderability"
+msgstr "عدم القدرة على التقييم"
+
+msgid "Imponderable"
+msgstr "مستحيل التقدير"
+
+msgid "Imponderableness"
+msgstr "أستحالة التقدير"
+
+msgid "Imponderables"
+msgstr "الأمور المجهولة"
+
+msgid "Imponderably"
+msgstr "باستحالة التقدير"
+
+msgid "Import"
+msgstr "الإستيراد"
+
+msgid "Importable"
+msgstr "قابل للإستيراد"
+
+msgid "Importance"
+msgstr "الأهمية"
+
+msgid "Important"
+msgstr "مهم"
+
+msgid "Importantly"
+msgstr "بأهمية"
+
+msgid "Importation"
+msgstr "الإستيراد"
+
+msgid "Importations"
+msgstr "الإستيراد"
+
+msgid "Imported"
+msgstr "مستورد"
+
+msgid "Importer"
+msgstr "المستورد"
+
+msgid "Importers"
+msgstr "المستوردون"
+
+msgid "Importing"
+msgstr "الإستيراد"
+
+msgid "Imports"
+msgstr "الإستيرادات"
+
+msgid "Importunate"
+msgstr "ملح"
+
+msgid "Importunately"
+msgstr "بإلحاح"
+
+msgid "Importunateness"
+msgstr "الإزعاج"
+
+msgid "Importune"
+msgstr "ملح"
+
+msgid "Importunely"
+msgstr "بشكل ملح"
+
+msgid "Importuner"
+msgstr "المزعج"
+
+msgid "Importuners"
+msgstr "المزعجون"
+
+msgid "Importuning"
+msgstr "اللجّ"
+
+msgid "Importunities"
+msgstr "الإلحاح"
+
+msgid "Importunity"
+msgstr "الإلحاح"
+
+msgid "Impose"
+msgstr "إفرض"
+
+msgid "Imposed"
+msgstr "مفروض"
+
+msgid "Imposer"
+msgstr "الفارض"
+
+msgid "Imposes"
+msgstr "يفرض"
+
+msgid "Imposing"
+msgstr "الفرض"
+
+msgid "Imposingly"
+msgstr "بشكل بارز"
+
+msgid "Imposition"
+msgstr "الفرض"
+
+msgid "Impositions"
+msgstr "الفروض"
+
+msgid "Impossibilities"
+msgstr "الإستحالات"
+
+msgid "Impossibility"
+msgstr "الإستحالة"
+
+msgid "Impossible"
+msgstr "مستحيل"
+
+msgid "Impossibleness"
+msgstr "الإستحالة"
+
+msgid "Impossibly"
+msgstr "مستحيلا"
+
+msgid "Impost"
+msgstr "المكس"
+
+msgid "Imposter"
+msgstr "النّصّاب"
+
+msgid "Impostor"
+msgstr "المنتحل"
+
+msgid "Impostors"
+msgstr "المنتحلون"
+
+msgid "Imposts"
+msgstr "المكوس"
+
+msgid "Imposture"
+msgstr "الخدعة"
+
+msgid "Impostures"
+msgstr "الخدع"
+
+msgid "Impotence"
+msgstr "العجز"
+
+msgid "Impotency"
+msgstr "العجز"
+
+msgid "Impotent"
+msgstr "عاجز"
+
+msgid "Impotently"
+msgstr "بشكل عقيم"
+
+msgid "Impound"
+msgstr "إحجز"
+
+msgid "Impounded"
+msgstr "محجوز"
+
+msgid "Impounding"
+msgstr "الحجز"
+
+msgid "Impoundment"
+msgstr "الحجز"
+
+msgid "Impoundments"
+msgstr "الحجوزات"
+
+msgid "Impounds"
+msgstr "يحجز"
+
+msgid "Impoverish"
+msgstr "أفقر"
+
+msgid "Impoverished"
+msgstr "فقير"
+
+msgid "Impoverisher"
+msgstr "المفقّر"
+
+msgid "Impoverishes"
+msgstr "يفقر"
+
+msgid "Impoverishing"
+msgstr "الإفقار"
+
+msgid "Impoverishment"
+msgstr "التفقير"
+
+msgid "Impracticability"
+msgstr "اللا عملية"
+
+msgid "Impracticable"
+msgstr "غير واقعي"
+
+msgid "Impracticableness"
+msgstr "اللا عملية"
+
+msgid "Impractical"
+msgstr "غير عملي"
+
+msgid "Impracticality"
+msgstr "اللا عملية"
+
+msgid "Impractically"
+msgstr "بشكل غير عملي"
+
+msgid "Impracticalness"
+msgstr "اللا عملية"
+
+msgid "Imprecate"
+msgstr "إلعن"
+
+msgid "Imprecated"
+msgstr "ملعون"
+
+msgid "Imprecates"
+msgstr "يلعن"
+
+msgid "Imprecating"
+msgstr "اللعنة"
+
+msgid "Imprecation"
+msgstr "اللعنة"
+
+msgid "Imprecations"
+msgstr "اللعنات"
+
+msgid "Imprecatory"
+msgstr "لاعن"
+
+msgid "Imprecise"
+msgstr "غير دقيق"
+
+msgid "Imprecisely"
+msgstr "بشكل غير دقيق"
+
+msgid "Impreciseness"
+msgstr "عدم الدقّة"
+
+msgid "Imprecision"
+msgstr "الغموض"
+
+msgid "Impregnable"
+msgstr "حصين"
+
+msgid "Impregnableness"
+msgstr "المناعة"
+
+msgid "Impregnably"
+msgstr "بمناعة"
+
+msgid "Impregnate"
+msgstr "ملقّح"
+
+msgid "Impregnated"
+msgstr "ملقّح"
+
+msgid "Impregnates"
+msgstr "يلقّح"
+
+msgid "Impregnating"
+msgstr "التلقيح"
+
+msgid "Impregnation"
+msgstr "الإشباع"
+
+msgid "Impregnations"
+msgstr "الإشباع"
+
+msgid "Impresario"
+msgstr "متعهد الحفلات"
+
+msgid "Impress"
+msgstr "الختم"
+
+msgid "Impressed"
+msgstr "معجب"
+
+msgid "Impresser"
+msgstr "إمبريسير"
+
+msgid "Impresses"
+msgstr "الأختام"
+
+msgid "Impressible"
+msgstr "حساس"
+
+msgid "Impressibly"
+msgstr "بليونة"
+
+msgid "Impressing"
+msgstr "إثارة إعجاب"
+
+msgid "Impression"
+msgstr "الإنطباع"
+
+msgid "Impressionable"
+msgstr "قابل للتحوير"
+
+msgid "Impressionableness"
+msgstr "الحساسية"
+
+msgid "Impressionism"
+msgstr "الإنطباعية"
+
+msgid "Impressionist"
+msgstr "الإنطباعي"
+
+msgid "Impressionistic"
+msgstr "إنطباعي"
+
+msgid "Impressionists"
+msgstr "الإنطباعيون"
+
+msgid "Impressions"
+msgstr "الإنطباعات"
+
+msgid "Impressive"
+msgstr "رائع"
+
+msgid "Impressively"
+msgstr "بشكل مثير للإعجاب"
+
+msgid "Impressiveness"
+msgstr "الإثارة"
+
+msgid "Impressment"
+msgstr "التّجنيد"
+
+msgid "Imprimatur"
+msgstr "التصريح"
+
+msgid "Imprimaturs"
+msgstr "التصاريح"
+
+msgid "Imprint"
+msgstr "الأثر"
+
+msgid "Imprinted"
+msgstr "مطبوع"
+
+msgid "Imprinting"
+msgstr "الطباعة"
+
+msgid "Imprints"
+msgstr "الآثار"
+
+msgid "Imprison"
+msgstr "إسجن"
+
+msgid "Imprisoned"
+msgstr "مسجون"
+
+msgid "Imprisoning"
+msgstr "السجن"
+
+msgid "Imprisonment"
+msgstr "السجن"
+
+msgid "Imprisonments"
+msgstr "السجون"
+
+msgid "Imprisons"
+msgstr "يسجن"
+
+msgid "Improbabilities"
+msgstr "الاستبعاد"
+
+msgid "Improbability"
+msgstr "اللا إحتمالية"
+
+msgid "Improbable"
+msgstr "غير محتمل"
+
+msgid "Improbableness"
+msgstr "حالة استبعاد الحدث"
+
+msgid "Improbably"
+msgstr "بصورة غير محتملة"
+
+msgid "Impromptu"
+msgstr "إرتجالا"
+
+msgid "Improper"
+msgstr "غير صحيح"
+
+msgid "Improperly"
+msgstr "بشكل غير صحيح"
+
+msgid "Improperness"
+msgstr "صفة غير الملائمة"
+
+msgid "Impropitious"
+msgstr "غير محبب"
+
+msgid "Improprieties"
+msgstr "الأخطاء"
+
+msgid "Impropriety"
+msgstr "الخطأ"
+
+msgid "Improvable"
+msgstr "قابل للتحسين"
+
+msgid "Improve"
+msgstr "تحسّن"
+
+msgid "Improved"
+msgstr "محسّن"
+
+msgid "Improvement"
+msgstr "التحسين"
+
+msgid "Improvements"
+msgstr "التحسينات"
+
+msgid "Improver"
+msgstr "المحسّن"
+
+msgid "Improvers"
+msgstr "المحسّنون"
+
+msgid "Improves"
+msgstr "يتحسّن"
+
+msgid "Improvidence"
+msgstr "الإسراف"
+
+msgid "Improvident"
+msgstr "مبذّر"
+
+msgid "Improvidently"
+msgstr "بشكل مبذّر"
+
+msgid "Improving"
+msgstr "التحسين"
+
+msgid "Improvisate"
+msgstr "إمبروفيسات"
+
+msgid "Improvisation"
+msgstr "الإرتجال"
+
+msgid "Improvisational"
+msgstr "ارتجاليّ"
+
+msgid "Improvisations"
+msgstr "الإرتجال"
+
+msgid "Improvisatory"
+msgstr "إرتجالي"
+
+msgid "Improvise"
+msgstr "إرتجل"
+
+msgid "Improvised"
+msgstr "مرتجل"
+
+msgid "Improviser"
+msgstr "المرتجل"
+
+msgid "Improvisers"
+msgstr "المرتجلون"
+
+msgid "Improvises"
+msgstr "يرتجل"
+
+msgid "Improvising"
+msgstr "الإرتجال"
+
+msgid "Imprudence"
+msgstr "الحماقة"
+
+msgid "Imprudent"
+msgstr "أحمق"
+
+msgid "Imprudently"
+msgstr "بشكل أحمق"
+
+msgid "Imps"
+msgstr "العفاريت"
+
+msgid "Impudence"
+msgstr "الوقاحة"
+
+msgid "Impudent"
+msgstr "صفيق"
+
+msgid "Impudently"
+msgstr "بشكل صفيق"
+
+msgid "Impugn"
+msgstr "فنّد"
+
+msgid "Impugned"
+msgstr "مفنّد"
+
+msgid "Impugner"
+msgstr "الشكّاك"
+
+msgid "Impugning"
+msgstr "التفنيد"
+
+msgid "Impugns"
+msgstr "يفنّد"
+
+msgid "Impuls"
+msgstr "إمبولس"
+
+msgid "Impulse"
+msgstr "قوّة الدفع"
+
+msgid "Impulsed"
+msgstr "أبدى رغبة"
+
+msgid "Impulses"
+msgstr "قوّى الدفع"
+
+msgid "Impulsing"
+msgstr "إبداء الرّغبة"
+
+msgid "Impulsion"
+msgstr "الدافع"
+
+msgid "Impulsions"
+msgstr "الدوافع"
+
+msgid "Impulsive"
+msgstr "مندفع"
+
+msgid "Impulsively"
+msgstr "بشكل مندفع"
+
+msgid "Impulsiveness"
+msgstr "الإندفاع"
+
+msgid "Impunity"
+msgstr "الحصانة"
+
+msgid "Impure"
+msgstr "ملوّث"
+
+msgid "Impurely"
+msgstr "بشكل ملوّث"
+
+msgid "Impureness"
+msgstr "التلوّث"
+
+msgid "Impurities"
+msgstr "الشوائب"
+
+msgid "Impurity"
+msgstr "الشائبة"
+
+msgid "Imputable"
+msgstr "قابل للإسناد"
+
+msgid "Imputation"
+msgstr "الإتّهام"
+
+msgid "Imputations"
+msgstr "الإتّهام"
+
+msgid "Impute"
+msgstr "إنسب إليه"
+
+msgid "Imputed"
+msgstr "منسوب إلى"
+
+msgid "Imputes"
+msgstr "ينسب إليه"
+
+msgid "Imputing"
+msgstr "النسب إلى"
+
+msgid "In"
+msgstr "في"
+
+msgid "In-band"
+msgstr "في الفرقة"
+
+msgid "In-bound"
+msgstr "في الحدّ"
+
+msgid "In-circuit"
+msgstr "في الدائرة"
+
+msgid "In-house"
+msgstr "خاص"
+
+msgid "In-line"
+msgstr "بالإتجاه نفسه"
+
+msgid "In-plane"
+msgstr "في الطائرة"
+
+msgid "In-plant"
+msgstr "في المصنع"
+
+msgid "In-process"
+msgstr "في العملية"
+
+msgid "In-station"
+msgstr "في المحطة"
+
+msgid "Inabilities"
+msgstr "إنعدام القابليات"
+
+msgid "Inability"
+msgstr "عدم القابلية"
+
+msgid "Inaccessibility"
+msgstr "صعوبة الوصول"
+
+msgid "Inaccessible"
+msgstr "صعب الوصول"
+
+msgid "Inaccessibleness"
+msgstr "المناعة"
+
+msgid "Inaccessibly"
+msgstr "بصعوبة"
+
+msgid "Inaccuracies"
+msgstr "الأخطاء"
+
+msgid "Inaccuracy"
+msgstr "الخطأ"
+
+msgid "Inaccurate"
+msgstr "خاطئ"
+
+msgid "Inaccurately"
+msgstr "بلا دقة"
+
+msgid "Inaccurateness"
+msgstr "عدم الدّقة"
+
+msgid "Inaction"
+msgstr "التكاسل"
+
+msgid "Inactions"
+msgstr "التكاسل"
+
+msgid "Inactivate"
+msgstr "عطّل"
+
+msgid "Inactivated"
+msgstr "معطّل"
+
+msgid "Inactivating"
+msgstr "التعطيل"
+
+msgid "Inactivation"
+msgstr "التعطيل"
+
+msgid "Inactive"
+msgstr "خامل"
+
+msgid "Inactively"
+msgstr "بشكل خامل"
+
+msgid "Inactiveness"
+msgstr "الخمول"
+
+msgid "Inactivity"
+msgstr "الخمول"
+
+msgid "Inadaptable"
+msgstr "غير قابل للتكيف"
+
+msgid "Inadequacies"
+msgstr "النقائص"
+
+msgid "Inadequacy"
+msgstr "النقص"
+
+msgid "Inadequate"
+msgstr "ناقص"
+
+msgid "Inadequately"
+msgstr "بشكل ناقص"
+
+msgid "Inadequateness"
+msgstr "النقص"
+
+msgid "Inadmissibility"
+msgstr "الرفض"
+
+msgid "Inadmissible"
+msgstr "مرفوض"
+
+msgid "Inadmissibly"
+msgstr "بشكل مرفوض"
+
+msgid "Inadvertence"
+msgstr "الإهمال"
+
+msgid "Inadvertency"
+msgstr "الإهمال"
+
+msgid "Inadvertent"
+msgstr "غافل"
+
+msgid "Inadvertently"
+msgstr "بشكل غير مقصود"
+
+msgid "Inadvisability"
+msgstr "عدم الاستحسان"
+
+msgid "Inadvisable"
+msgstr "غير مستحسن"
+
+msgid "Inalienable"
+msgstr "ثابت"
+
+msgid "Inalienably"
+msgstr "بثبات"
+
+msgid "Inalterable"
+msgstr "غير قابل للتعديل"
+
+msgid "Inalterableness"
+msgstr "الثّبات"
+
+msgid "Inane"
+msgstr "فارغ"
+
+msgid "Inanely"
+msgstr "تافها"
+
+msgid "Inaneness"
+msgstr "التفاهة"
+
+msgid "Inaner"
+msgstr "فارغ"
+
+msgid "Inanest"
+msgstr "فارغ"
+
+msgid "Inanimate"
+msgstr "غير متحرك"
+
+msgid "Inanimately"
+msgstr "بشكل غير متحرك"
+
+msgid "Inanimateness"
+msgstr "الموت"
+
+msgid "Inanity"
+msgstr "السفاهة"
+
+msgid "Inapparent"
+msgstr "غير ضاهر او واضح"
+
+msgid "Inapparently"
+msgstr "بصورة غير ضاهرة او واضحة"
+
+msgid "Inappeasable"
+msgstr "غير قابل للإرضاء"
+
+msgid "Inapplicability"
+msgstr "اللاتطبيقية"
+
+msgid "Inapplicable"
+msgstr "غير ملائم"
+
+msgid "Inapplicably"
+msgstr "بطريقة غير ملائمة"
+
+msgid "Inappreciable"
+msgstr "تافه"
+
+msgid "Inappreciably"
+msgstr "بشكل دقيق"
+
+msgid "Inappreciative"
+msgstr "غير مقدّر"
+
+msgid "Inappreciatively"
+msgstr "بصورة غير تقديرية"
+
+msgid "Inappreciativeness"
+msgstr "عدم التقدير"
+
+msgid "Inapproachable"
+msgstr "صعب الوصول"
+
+msgid "Inapproachably"
+msgstr "بشكل غير ودود"
+
+msgid "Inappropriate"
+msgstr "غير ملائم"
+
+msgid "Inappropriately"
+msgstr "على نحو غير ملائم"
+
+msgid "Inappropriateness"
+msgstr "اللاتلائمية"
+
+msgid "Inapt"
+msgstr "غير لائق"
+
+msgid "Inaptitude"
+msgstr "إنعدام الذكاء"
+
+msgid "Inaptly"
+msgstr "بشكل غير لائق"
+
+msgid "Inaptness"
+msgstr "عدم قدرة"
+
+msgid "Inarguable"
+msgstr "غير قابل للنّقاش"
+
+msgid "Inarguably"
+msgstr "بطريقة غير قابلة للنّقاش"
+
+msgid "Inarticulate"
+msgstr "لامفصلي"
+
+msgid "Inarticulately"
+msgstr "بشكل لامفصلي"
+
+msgid "Inarticulateness"
+msgstr "الغموض"
+
+msgid "Inartistic"
+msgstr "غير فني"
+
+msgid "Inartistically"
+msgstr "بلا حسّ فنّيّ"
+
+msgid "Inasmuch"
+msgstr "بما أن"
+
+msgid "Inattention"
+msgstr "السهو"
+
+msgid "Inattentive"
+msgstr "غافل"
+
+msgid "Inattentively"
+msgstr "بشكل غافل"
+
+msgid "Inattentiveness"
+msgstr "السهو"
+
+msgid "Inaudibility"
+msgstr "الخفوت"
+
+msgid "Inaudible"
+msgstr "غير مسموع"
+
+msgid "Inaudibly"
+msgstr "بشكل غير مسموع"
+
+msgid "Inaugural"
+msgstr "إفتتاحي"
+
+msgid "Inaugurals"
+msgstr "افتتاحيّات"
+
+msgid "Inaugurate"
+msgstr "إفتتح"
+
+msgid "Inaugurated"
+msgstr "مفتتح"
+
+msgid "Inaugurates"
+msgstr "يفتتح"
+
+msgid "Inaugurating"
+msgstr "الإفتتاح"
+
+msgid "Inauguration"
+msgstr "التنصيب"
+
+msgid "Inaugurations"
+msgstr "التنصيب"
+
+msgid "Inauspicious"
+msgstr "مشؤوم"
+
+msgid "Inauspiciously"
+msgstr "بشكل مشؤوم"
+
+msgid "Inauspiciousness"
+msgstr "النحس"
+
+msgid "Inauthentic"
+msgstr "زائف"
+
+msgid "Inauthenticity"
+msgstr "الزّيف"
+
+msgid "Inbetween"
+msgstr "في المنتصف"
+
+msgid "Inboard"
+msgstr "داخلي"
+
+msgid "Inborn"
+msgstr "غريزي"
+
+msgid "Inbounds"
+msgstr "داخل الملعب"
+
+msgid "Inbox"
+msgstr "صندوق الواردات"
+
+msgid "Inbred"
+msgstr "طبيعي"
+
+msgid "Inbreed"
+msgstr "توالد"
+
+msgid "Inbreeder"
+msgstr "القائم على تزاوج الأقارب"
+
+msgid "Inbreeding"
+msgstr "التوالد الداخلي"
+
+msgid "Inbuilt"
+msgstr "داخليّ"
+
+msgid "Inc"
+msgstr "المحدودة"
+
+msgid "Inca"
+msgstr "إنكا"
+
+msgid "Incalculability"
+msgstr "اللاتناهي"
+
+msgid "Incalculable"
+msgstr "غير محسوب"
+
+msgid "Incalculableness"
+msgstr "اللاتناهي"
+
+msgid "Incalculably"
+msgstr "بدرجة كبيرة"
+
+msgid "Incandescence"
+msgstr "الإنارة"
+
+msgid "Incandescent"
+msgstr "منير"
+
+msgid "Incandescently"
+msgstr "بشكل منير"
+
+msgid "Incant"
+msgstr "إنكانت"
+
+msgid "Incantation"
+msgstr "التعزيم"
+
+msgid "Incantations"
+msgstr "التعزيم"
+
+msgid "Incanted"
+msgstr "إنكانتيد"
+
+msgid "Incapable"
+msgstr "عاجز"
+
+msgid "Incapableness"
+msgstr "عدم القدرة"
+
+msgid "Incapably"
+msgstr "على نحو عاجز"
+
+msgid "Incapacitate"
+msgstr "عطّل"
+
+msgid "Incapacitated"
+msgstr "معاق"
+
+msgid "Incapacitates"
+msgstr "يعطّل"
+
+msgid "Incapacitating"
+msgstr "التعطيل"
+
+msgid "Incapacitation"
+msgstr "الإعجاز"
+
+msgid "Incapacities"
+msgstr "العجز"
+
+msgid "Incapacity"
+msgstr "الإعياء"
+
+msgid "Incarcerate"
+msgstr "إسجن"
+
+msgid "Incarcerated"
+msgstr "مسجون"
+
+msgid "Incarcerates"
+msgstr "يسجن"
+
+msgid "Incarcerating"
+msgstr "السجن"
+
+msgid "Incarceration"
+msgstr "السجن"
+
+msgid "Incarnate"
+msgstr "مجسّد"
+
+msgid "Incarnated"
+msgstr "مجسّد"
+
+msgid "Incarnates"
+msgstr "يجسّد"
+
+msgid "Incarnation"
+msgstr "التجسيد"
+
+msgid "Incarnations"
+msgstr "التجسيد"
+
+msgid "Incas"
+msgstr "شعب الإينكا"
+
+msgid "Incaution"
+msgstr "الغفلة"
+
+msgid "Incautious"
+msgstr "متعجّل"
+
+msgid "Incautiously"
+msgstr "بشكل متعجّل"
+
+msgid "Incautiousness"
+msgstr "الغفلة"
+
+msgid "Incendiaries"
+msgstr "المحرقون"
+
+msgid "Incendiary"
+msgstr "حارق"
+
+msgid "Incense"
+msgstr "البخور"
+
+msgid "Incensed"
+msgstr "غاضب"
+
+msgid "Incenses"
+msgstr "يبخّر"
+
+msgid "Incensing"
+msgstr "التبخير"
+
+msgid "Incentive"
+msgstr "الحافز"
+
+msgid "Incentively"
+msgstr "بشكل محفّز"
+
+msgid "Incentives"
+msgstr "الحوافز"
+
+msgid "Incept"
+msgstr "إقبل"
+
+msgid "Incepted"
+msgstr "مقبول"
+
+msgid "Incepting"
+msgstr "القبول"
+
+msgid "Inception"
+msgstr "الإستهلال"
+
+msgid "Inceptions"
+msgstr "الإستهلال"
+
+msgid "Inceptive"
+msgstr "إستهلالي"
+
+msgid "Inceptively"
+msgstr "بشكل إستهلالي"
+
+msgid "Inceptor"
+msgstr "المتخرج"
+
+msgid "Incepts"
+msgstr "يقبل"
+
+msgid "Incertitude"
+msgstr "عدم اليقين"
+
+msgid "Incessancy"
+msgstr "الإستمرارية"
+
+msgid "Incessant"
+msgstr "مستمر"
+
+msgid "Incessantly"
+msgstr "بشكل مستمر"
+
+msgid "Incest"
+msgstr "النكاح المحرم"
+
+msgid "Incests"
+msgstr "النكاح المحرم"
+
+msgid "Incestuous"
+msgstr "زاني"
+
+msgid "Incestuously"
+msgstr "بشكل زاني"
+
+msgid "Incestuousness"
+msgstr "لا شرعيّة"
+
+msgid "Inch"
+msgstr "البوصة"
+
+msgid "Inched"
+msgstr "تحرّك"
+
+msgid "Inches"
+msgstr "البوصات"
+
+msgid "Inching"
+msgstr "التحرّك"
+
+msgid "Inchoate"
+msgstr "بدائي"
+
+msgid "Inchoately"
+msgstr "بشكل بدائي"
+
+msgid "Inchoateness"
+msgstr "عدم النضوج"
+
+msgid "Inchworm"
+msgstr "يرقة فراشة جيوميتريد"
+
+msgid "Incidence"
+msgstr "الحادثة"
+
+msgid "Incidences"
+msgstr "الحوادث"
+
+msgid "Incident"
+msgstr "الحادثة"
+
+msgid "Incidental"
+msgstr "عرضي"
+
+msgid "Incidentally"
+msgstr "على سبيل المصادفة"
+
+msgid "Incidentals"
+msgstr "العارضات"
+
+msgid "Incidents"
+msgstr "الحوادث"
+
+msgid "Incinerate"
+msgstr "أحرق"
+
+msgid "Incinerated"
+msgstr "محترق"
+
+msgid "Incinerates"
+msgstr "يحرق"
+
+msgid "Incinerating"
+msgstr "الإحتراق"
+
+msgid "Incineration"
+msgstr "الحرق"
+
+msgid "Incinerations"
+msgstr "الحرق"
+
+msgid "Incinerator"
+msgstr "الفرن"
+
+msgid "Incinerators"
+msgstr "الأفران"
+
+msgid "Incipience"
+msgstr "البدء"
+
+msgid "Incipiencies"
+msgstr "البدايات"
+
+msgid "Incipiency"
+msgstr "البدء"
+
+msgid "Incipient"
+msgstr "أوّلي"
+
+msgid "Incipiently"
+msgstr "بشكل أوّلي"
+
+msgid "Incircle"
+msgstr "طوّق"
+
+msgid "Incise"
+msgstr "إقطع"
+
+msgid "Incised"
+msgstr "محزوز"
+
+msgid "Incises"
+msgstr "يقطع"
+
+msgid "Incising"
+msgstr "القطع"
+
+msgid "Incision"
+msgstr "الشقّ"
+
+msgid "Incisions"
+msgstr "الشقوق"
+
+msgid "Incisive"
+msgstr "حادّ"
+
+msgid "Incisively"
+msgstr "بشكل حادّ"
+
+msgid "Incisiveness"
+msgstr "الحدة"
+
+msgid "Incisor"
+msgstr "القاطعة"
+
+msgid "Incisors"
+msgstr "القواطع"
+
+msgid "Incitations"
+msgstr "الحوافز"
+
+msgid "Incite"
+msgstr "حرّض"
+
+msgid "Incited"
+msgstr "محرّض"
+
+msgid "Incitement"
+msgstr "التحريض"
+
+msgid "Incitements"
+msgstr "التحريض"
+
+msgid "Inciter"
+msgstr "المحرّض"
+
+msgid "Incites"
+msgstr "يحرّض"
+
+msgid "Inciting"
+msgstr "التحريض"
+
+msgid "Incivility"
+msgstr "الفضاضة"
+
+msgid "Inclemency"
+msgstr "العنف"
+
+msgid "Inclement"
+msgstr "عنيف"
+
+msgid "Inclemently"
+msgstr "بشكل عنيف"
+
+msgid "Inclinable"
+msgstr "ميّال"
+
+msgid "Inclination"
+msgstr "الميل"
+
+msgid "Inclinational"
+msgstr "ميلي"
+
+msgid "Inclinations"
+msgstr "الميول"
+
+msgid "Incline"
+msgstr "المنحدر"
+
+msgid "Inclined"
+msgstr "مميل"
+
+msgid "Incliner"
+msgstr "المسبب للإنحدار"
+
+msgid "Inclines"
+msgstr "المنحدرات"
+
+msgid "Inclining"
+msgstr "الإمالة"
+
+msgid "Inclinometer"
+msgstr "مقياس الميل"
+
+msgid "Inclinometers"
+msgstr "مقاييس الميل"
+
+msgid "Inclose"
+msgstr "إحصر"
+
+msgid "Inclosed"
+msgstr "محصور"
+
+msgid "Incloses"
+msgstr "يحصر"
+
+msgid "Inclosing"
+msgstr "الحصر"
+
+msgid "Inclosure"
+msgstr "التسييج"
+
+msgid "Includable"
+msgstr "قابل للشمل"
+
+msgid "Include"
+msgstr "تضمّن"
+
+msgid "Included"
+msgstr "متضمّن"
+
+msgid "Includes"
+msgstr "يتضمّن"
+
+msgid "Including"
+msgstr "بضمن ذلك"
+
+msgid "Inclusion"
+msgstr "الإدراج"
+
+msgid "Inclusions"
+msgstr "الإدراج"
+
+msgid "Inclusive"
+msgstr "شامل"
+
+msgid "Inclusively"
+msgstr "ضمنا"
+
+msgid "Inclusiveness"
+msgstr "التضمينية"
+
+msgid "Incoercible"
+msgstr "جامح"
+
+msgid "Incognito"
+msgstr "التستّر"
+
+msgid "Incognizance"
+msgstr "عدم الإدراك"
+
+msgid "Incognizant"
+msgstr "غير مدرك"
+
+msgid "Incoherence"
+msgstr "التنافر"
+
+msgid "Incoherences"
+msgstr "التنافر"
+
+msgid "Incoherencies"
+msgstr "عدم الفهم"
+
+msgid "Incoherency"
+msgstr "التنافر"
+
+msgid "Incoherent"
+msgstr "متفكّك"
+
+msgid "Incoherently"
+msgstr "بشكل متفكّك"
+
+msgid "Incombustible"
+msgstr "غير قابل للإحتراق"
+
+msgid "Income"
+msgstr "الدخل"
+
+msgid "Incomer"
+msgstr "الداخل"
+
+msgid "Incomes"
+msgstr "الدخول"
+
+msgid "Incoming"
+msgstr "الوصول"
+
+msgid "Incommensurable"
+msgstr "غير قابل للقياس"
+
+msgid "Incommensurate"
+msgstr "غير قابل للقياس"
+
+msgid "Incommensurately"
+msgstr "بشكل غير قابل للقياس"
+
+msgid "Incommensurateness"
+msgstr "اللا قياسية"
+
+msgid "Incommode"
+msgstr "ضايق"
+
+msgid "Incommoded"
+msgstr "مضايق"
+
+msgid "Incommodes"
+msgstr "يضايق"
+
+msgid "Incommoding"
+msgstr "المضايقة"
+
+msgid "Incommodious"
+msgstr "ضيّق"
+
+msgid "Incommodiously"
+msgstr "بشكل ضيّق"
+
+msgid "Incommodiousness"
+msgstr "التّعب، عدم الرّاحة"
+
+msgid "Incommunicable"
+msgstr "لايشارك"
+
+msgid "Incommunicably"
+msgstr "بشكل يصعب فيه القول"
+
+msgid "Incommunicado"
+msgstr "مقطوع"
+
+msgid "Incommutable"
+msgstr "غير قابل للتبديل"
+
+msgid "Incomparability"
+msgstr "التّفرّد"
+
+msgid "Incomparable"
+msgstr "لا يضاهى"
+
+msgid "Incomparableness"
+msgstr "اللامقارنة"
+
+msgid "Incomparably"
+msgstr "بشكل لا يقبل المقارنة"
+
+msgid "Incompatibilities"
+msgstr "عدم الموافقة"
+
+msgid "Incompatibility"
+msgstr "عدم الموافقة"
+
+msgid "Incompatible"
+msgstr "الغير متوافق"
+
+msgid "Incompatibleness"
+msgstr "عدم التوافق"
+
+msgid "Incompatibly"
+msgstr "بشكل لا يقبل التوافق"
+
+msgid "Incompetence"
+msgstr "العجز"
+
+msgid "Incompetency"
+msgstr "العجز"
+
+msgid "Incompetent"
+msgstr "العاجز"
+
+msgid "Incompetently"
+msgstr "بعجز"
+
+msgid "Incompetents"
+msgstr "العاجزون"
+
+msgid "Incomplete"
+msgstr "ناقص"
+
+msgid "Incompletely"
+msgstr "بشكل ناقص"
+
+msgid "Incompleteness"
+msgstr "النقص"
+
+msgid "Incompletion"
+msgstr "النقص"
+
+msgid "Incomprehensibility"
+msgstr "الإبهام"
+
+msgid "Incomprehensible"
+msgstr "غير مفهوم"
+
+msgid "Incomprehensibleness"
+msgstr "الإبهام"
+
+msgid "Incomprehensibly"
+msgstr "بطريقة مبهمة"
+
+msgid "Incomprehension"
+msgstr "عدم الفهم"
+
+msgid "Incomprehensive"
+msgstr "غير مستوعب"
+
+msgid "Incomprehensively"
+msgstr "بشكل غير مفهوم"
+
+msgid "Incomprehensiveness"
+msgstr "عدم الفهم"
+
+msgid "Incompressibility"
+msgstr "فقدان القدرة على الضّغط"
+
+msgid "Incompressible"
+msgstr "غير قابل للضغط"
+
+msgid "Incomputable"
+msgstr "غير قابل للحساب"
+
+msgid "Inconceivability"
+msgstr "الغرابة"
+
+msgid "Inconceivable"
+msgstr "لا يصدّق"
+
+msgid "Inconceivableness"
+msgstr "عدم التصديق"
+
+msgid "Inconceivably"
+msgstr "بشكل لا يصدّق"
+
+msgid "Inconclusive"
+msgstr "غير حاسم"
+
+msgid "Inconclusively"
+msgstr "بشكل غير حاسم"
+
+msgid "Inconclusiveness"
+msgstr "عدم الحسم"
+
+msgid "Incondensable"
+msgstr "غير قابل للتكثيف"
+
+msgid "Inconformity"
+msgstr "عدم الإتسّاق"
+
+msgid "Incongruence"
+msgstr "الاختلاف"
+
+msgid "Incongruent"
+msgstr "متعارض"
+
+msgid "Incongruently"
+msgstr "بتعارض"
+
+msgid "Incongruities"
+msgstr "التنافر"
+
+msgid "Incongruity"
+msgstr "التنافر"
+
+msgid "Incongruous"
+msgstr "متعارض"
+
+msgid "Incongruously"
+msgstr "بتعارض"
+
+msgid "Incongruousness"
+msgstr "الاختلاف"
+
+msgid "Inconsequence"
+msgstr "اللا منطقية"
+
+msgid "Inconsequent"
+msgstr "غير منطقي"
+
+msgid "Inconsequential"
+msgstr "غير هام"
+
+msgid "Inconsequentially"
+msgstr "بشكل غير هام"
+
+msgid "Inconsequently"
+msgstr "بشكل غير منطقي"
+
+msgid "Inconsiderable"
+msgstr "تافه"
+
+msgid "Inconsiderableness"
+msgstr "التفاهة"
+
+msgid "Inconsiderably"
+msgstr "بصورة غير مهمّة"
+
+msgid "Inconsiderate"
+msgstr "متهور"
+
+msgid "Inconsiderately"
+msgstr "بشكل متهور"
+
+msgid "Inconsiderateness"
+msgstr "اللا مراعاة"
+
+msgid "Inconsideration"
+msgstr "التهوّر"
+
+msgid "Inconsistence"
+msgstr "التضارب"
+
+msgid "Inconsistencies"
+msgstr "التضاربات"
+
+msgid "Inconsistency"
+msgstr "التضارب"
+
+msgid "Inconsistent"
+msgstr "متناقض"
+
+msgid "Inconsistently"
+msgstr "بشكل متضارب"
+
+msgid "Inconsolable"
+msgstr "لا عزاء له"
+
+msgid "Inconsolableness"
+msgstr "الحزن"
+
+msgid "Inconsolably"
+msgstr "بشكل فادح"
+
+msgid "Inconsonance"
+msgstr "التّنافر"
+
+msgid "Inconspicuous"
+msgstr "مبهم"
+
+msgid "Inconspicuously"
+msgstr "بشكل مبهم"
+
+msgid "Inconspicuousness"
+msgstr "عدم الوضوح"
+
+msgid "Inconstancies"
+msgstr "التقلبات"
+
+msgid "Inconstancy"
+msgstr "التقلب"
+
+msgid "Inconstant"
+msgstr "متقلّب"
+
+msgid "Inconstantly"
+msgstr "بشكل متقلّب"
+
+msgid "Incontestable"
+msgstr "لا جدال فيه"
+
+msgid "Incontestably"
+msgstr "بشكل قاطع"
+
+msgid "Incontinence"
+msgstr "السلس"
+
+msgid "Incontinent"
+msgstr "منفلت"
+
+msgid "Incontinently"
+msgstr "بشكل منفلت"
+
+msgid "Incontrollable"
+msgstr "منفلت"
+
+msgid "Incontrovertible"
+msgstr "محسوم"
+
+msgid "Incontrovertibleness"
+msgstr "التأكيد"
+
+msgid "Incontrovertibly"
+msgstr "بشكل قاطع"
+
+msgid "Inconvenience"
+msgstr "الإزعاج"
+
+msgid "Inconvenienced"
+msgstr "منزعج"
+
+msgid "Inconveniences"
+msgstr "الإزعاج"
+
+msgid "Inconveniencing"
+msgstr "الإزعاج"
+
+msgid "Inconvenient"
+msgstr "غير مناسب"
+
+msgid "Inconveniently"
+msgstr "بشكل غير مناسب"
+
+msgid "Inconvertibility"
+msgstr "اللا صرفية"
+
+msgid "Inconvertible"
+msgstr "غير قابل للتحويل"
+
+msgid "Inconvertibly"
+msgstr "بشكل غير قابل للتّحويل"
+
+msgid "Incorporable"
+msgstr "قابل للتوحيد"
+
+msgid "Incorporate"
+msgstr "متّحد"
+
+msgid "Incorporated"
+msgstr "متّحد"
+
+msgid "Incorporates"
+msgstr "يدمج"
+
+msgid "Incorporating"
+msgstr "الدمج"
+
+msgid "Incorporation"
+msgstr "الإندماج"
+
+msgid "Incorporative"
+msgstr "توحيدي"
+
+msgid "Incorporeal"
+msgstr "معنوي"
+
+msgid "Incorporeally"
+msgstr "بشكل معنوي"
+
+msgid "Incorrect"
+msgstr "خاطئ"
+
+msgid "Incorrectable"
+msgstr "غير قابل للإصلاح"
+
+msgid "Incorrectly"
+msgstr "بشكل خاطئ"
+
+msgid "Incorrectness"
+msgstr "الخطأ"
+
+msgid "Incorrectnesses"
+msgstr "الأخطاء"
+
+msgid "Incorrigibility"
+msgstr "الفساد"
+
+msgid "Incorrigible"
+msgstr "الفاسد"
+
+msgid "Incorrigibleness"
+msgstr "السوء"
+
+msgid "Incorrigibly"
+msgstr "بشكل غير قابل للإصلاح"
+
+msgid "Incorrupt"
+msgstr "عفيف"
+
+msgid "Incorruptibility"
+msgstr "اللا فسادية"
+
+msgid "Incorruptible"
+msgstr "عفيف"
+
+msgid "Incorruption"
+msgstr "الإستقامة"
+
+msgid "Incorruptly"
+msgstr "بشكل عفيف"
+
+msgid "Incorruptness"
+msgstr "الإستقامة"
+
+msgid "Incost"
+msgstr "إنكوست"
+
+msgid "Increasable"
+msgstr "قابل للزيادة"
+
+msgid "Increase"
+msgstr "الزيادة"
+
+msgid "Increased"
+msgstr "متزايد"
+
+msgid "Increaser"
+msgstr "المسبب للزيادة"
+
+msgid "Increases"
+msgstr "الزيادات"
+
+msgid "Increasing"
+msgstr "الزيادة"
+
+msgid "Increasingly"
+msgstr "على نحو متزايد"
+
+msgid "Incredibility"
+msgstr "اللا تصورية"
+
+msgid "Incredible"
+msgstr "مدهش"
+
+msgid "Incredibleness"
+msgstr "إنعدام المصداقيّة"
+
+msgid "Incredibly"
+msgstr "بشكل لا يصدق"
+
+msgid "Incredulity"
+msgstr "الشكوكية"
+
+msgid "Incredulous"
+msgstr "مرتاب"
+
+msgid "Incredulously"
+msgstr "بشكوك"
+
+msgid "Incredulousness"
+msgstr "الريبة"
+
+msgid "Increment"
+msgstr "الزيادة"
+
+msgid "Incremental"
+msgstr "تزايدي"
+
+msgid "Incrementally"
+msgstr "بشكل تزايدي"
+
+msgid "Incremented"
+msgstr "إزداد"
+
+msgid "Incrementer"
+msgstr "المسبب للزيادة"
+
+msgid "Incrementing"
+msgstr "الزيادة"
+
+msgid "Increments"
+msgstr "الزيادات"
+
+msgid "Incriminate"
+msgstr "جرّم"
+
+msgid "Incriminated"
+msgstr "مجرّم"
+
+msgid "Incriminates"
+msgstr "يجرّم"
+
+msgid "Incriminating"
+msgstr "التجريم"
+
+msgid "Incrimination"
+msgstr "التوريط في الجريمة"
+
+msgid "Incriminatory"
+msgstr "تجريمي"
+
+msgid "Incrustation"
+msgstr "القشرة"
+
+msgid "Incrustations"
+msgstr "القشور"
+
+msgid "Incrusted"
+msgstr "مغطّى"
+
+msgid "Incubate"
+msgstr "فقّس"
+
+msgid "Incubated"
+msgstr "مفقّس"
+
+msgid "Incubates"
+msgstr "يفقّس"
+
+msgid "Incubating"
+msgstr "التفقيس"
+
+msgid "Incubation"
+msgstr "الإحتضان"
+
+msgid "Incubative"
+msgstr "حضني"
+
+msgid "Incubator"
+msgstr "الحاضنة"
+
+msgid "Incubators"
+msgstr "الحاضنات"
+
+msgid "Incubi"
+msgstr "إنكوبي"
+
+msgid "Incubus"
+msgstr "الكابوس"
+
+msgid "Inculcate"
+msgstr "إطبع"
+
+msgid "Inculcated"
+msgstr "مطبوع"
+
+msgid "Inculcates"
+msgstr "يغرس"
+
+msgid "Inculcating"
+msgstr "الغرس"
+
+msgid "Inculcation"
+msgstr "التلقين"
+
+msgid "Inculpable"
+msgstr "بريء"
+
+msgid "Inculpate"
+msgstr "جرّم"
+
+msgid "Inculpated"
+msgstr "مجرّم"
+
+msgid "Inculpates"
+msgstr "يجرّم"
+
+msgid "Inculpating"
+msgstr "التجريم"
+
+msgid "Incumbencies"
+msgstr "المناصب"
+
+msgid "Incumbency"
+msgstr "المنصب"
+
+msgid "Incumbent"
+msgstr "صاحب المنصب"
+
+msgid "Incumbents"
+msgstr "أصحاب المناصب"
+
+msgid "Incur"
+msgstr "تحمّل"
+
+msgid "Incurability"
+msgstr "العضالية"
+
+msgid "Incurable"
+msgstr "العضول"
+
+msgid "Incurableness"
+msgstr "العضالية"
+
+msgid "Incurables"
+msgstr "العضولون"
+
+msgid "Incurably"
+msgstr "بشكل غير قابل للشّفاء"
+
+msgid "Incurred"
+msgstr "متحمّل"
+
+msgid "Incurring"
+msgstr "التحمّل"
+
+msgid "Incurs"
+msgstr "يتحمّل"
+
+msgid "Incursion"
+msgstr "التوغّل"
+
+msgid "Incursions"
+msgstr "التوغّلات"
+
+msgid "Indebted"
+msgstr "مدين"
+
+msgid "Indebtedness"
+msgstr "الدين"
+
+msgid "Indecencies"
+msgstr "الفحش"
+
+msgid "Indecency"
+msgstr "البذائة"
+
+msgid "Indecent"
+msgstr "مخلّ بالآداب"
+
+msgid "Indecently"
+msgstr "بطريقة مخلّة بالآداب"
+
+msgid "Indecipherable"
+msgstr "عويص"
+
+msgid "Indecision"
+msgstr "التردد"
+
+msgid "Indecisions"
+msgstr "الترددات"
+
+msgid "Indecisive"
+msgstr "غير حاسم"
+
+msgid "Indecisively"
+msgstr "بشكل غير حاسم"
+
+msgid "Indecisiveness"
+msgstr "التردّد"
+
+msgid "Indecomposable"
+msgstr "غير قابل للتّحلّل"
+
+msgid "Indecorous"
+msgstr "غير لائق"
+
+msgid "Indecorously"
+msgstr "بشكل غير لائق"
+
+msgid "Indecorousness"
+msgstr "إنديكوروسنيس"
+
+msgid "Indeed"
+msgstr "في الحقيقة"
+
+msgid "Indefatigability"
+msgstr "التحمّل"
+
+msgid "Indefatigable"
+msgstr "نشيط"
+
+msgid "Indefatigableness"
+msgstr "الحيوية، النّشاط"
+
+msgid "Indefatigably"
+msgstr "بإصرار"
+
+msgid "Indefensibility"
+msgstr "عدم الدّفاع"
+
+msgid "Indefensible"
+msgstr "غير قابل للدفاع"
+
+msgid "Indefensibleness"
+msgstr "إنعدام القدرة على الدفاع"
+
+msgid "Indefensibly"
+msgstr "بشكل بالغ"
+
+msgid "Indefinability"
+msgstr "بشكل غامض"
+
+msgid "Indefinable"
+msgstr "غامض"
+
+msgid "Indefinableness"
+msgstr "الغموض"
+
+msgid "Indefinite"
+msgstr "غير محدد"
+
+msgid "Indefinitely"
+msgstr "بشكل غير محدد"
+
+msgid "Indefiniteness"
+msgstr "التشوّش"
+
+msgid "Indelibility"
+msgstr "اللا زوالية"
+
+msgid "Indelible"
+msgstr "دائم"
+
+msgid "Indelibleness"
+msgstr "إنعدام القدرة على الإزالة"
+
+msgid "Indelibly"
+msgstr "بشكل غير قابل للإزالة"
+
+msgid "Indelicacy"
+msgstr "الخشونة"
+
+msgid "Indelicate"
+msgstr "خشن"
+
+msgid "Indelicately"
+msgstr "بشكل خشن"
+
+msgid "Indelicateness"
+msgstr "الوقاحة"
+
+msgid "Indemnification"
+msgstr "التأمين"
+
+msgid "Indemnified"
+msgstr "مضمون"
+
+msgid "Indemnifies"
+msgstr "يضمن"
+
+msgid "Indemnify"
+msgstr "إضمن"
+
+msgid "Indemnifying"
+msgstr "الضمان"
+
+msgid "Indemnities"
+msgstr "الضمانات"
+
+msgid "Indemnity"
+msgstr "الضمان"
+
+msgid "Indemonstrably"
+msgstr "بشكل غير قابل للإثبات"
+
+msgid "Indent"
+msgstr "الطلب الرسمي"
+
+msgid "Indentation"
+msgstr "التثليم"
+
+msgid "Indentations"
+msgstr "التثليم"
+
+msgid "Indented"
+msgstr "مطعوج"
+
+msgid "Indenter"
+msgstr "إندينتر"
+
+msgid "Indenting"
+msgstr "الطعج"
+
+msgid "Indents"
+msgstr "الطلبات الرسمية"
+
+msgid "Indenture"
+msgstr "عقد العمل"
+
+msgid "Indentured"
+msgstr "ملزم"
+
+msgid "Indentures"
+msgstr "عقود العمل"
+
+msgid "Indenturing"
+msgstr "الإلزام"
+
+msgid "Independence"
+msgstr "الإستقلال"
+
+msgid "Independent"
+msgstr "مستقل"
+
+msgid "Independently"
+msgstr "بشكل مستقل"
+
+msgid "Independents"
+msgstr "المستقلون"
+
+msgid "Indescribability"
+msgstr "أنعدام قدرة الوصف"
+
+msgid "Indescribable"
+msgstr "متعذر وصفه"
+
+msgid "Indescribableness"
+msgstr "حالة إنتفاء قدرة الوصف"
+
+msgid "Indescribably"
+msgstr "بشكل لا يوصف"
+
+msgid "Indestructibility"
+msgstr "اللا إتلافية"
+
+msgid "Indestructible"
+msgstr "راسخ"
+
+msgid "Indestructibleness"
+msgstr "القوّة"
+
+msgid "Indestructibly"
+msgstr "بشكل غير تدميري"
+
+msgid "Indeterminable"
+msgstr "متعذّر التحديد"
+
+msgid "Indeterminableness"
+msgstr "إنتفاء قدرة التحديد"
+
+msgid "Indeterminably"
+msgstr "بشكل غير محدد"
+
+msgid "Indeterminacy"
+msgstr "عدم التحديد"
+
+msgid "Indeterminate"
+msgstr "غير محدّد"
+
+msgid "Indeterminately"
+msgstr "بشكل غير محدّد"
+
+msgid "Indeterminateness"
+msgstr "عدم التحديد"
+
+msgid "Indetermination"
+msgstr "عدم التحديد"
+
+msgid "Indeterminism"
+msgstr "اللاحتمية"
+
+msgid "Indeterministic"
+msgstr "غير حتمي"
+
+msgid "Index"
+msgstr "الدليل"
+
+msgid "Indexation"
+msgstr "نظام إقتصادي - الفهرسة"
+
+msgid "Indexed"
+msgstr "مفهرس"
+
+msgid "Indexer"
+msgstr "واضع الفهرس"
+
+msgid "Indexes"
+msgstr "الأدلة"
+
+msgid "Indexing"
+msgstr "الفهرسة"
+
+msgid "India"
+msgstr "الهند"
+
+msgid "Indian"
+msgstr "الهندي"
+
+msgid "Indiana"
+msgstr "إنديانا"
+
+msgid "Indianapolis"
+msgstr "إنديانابوليس"
+
+msgid "Indians"
+msgstr "الهنود"
+
+msgid "Indicant"
+msgstr "مؤشّر"
+
+msgid "Indicants"
+msgstr "المشيرون"
+
+msgid "Indicate"
+msgstr "أشر إليه"
+
+msgid "Indicated"
+msgstr "أشير إليه"
+
+msgid "Indicates"
+msgstr "يشير إليه"
+
+msgid "Indicating"
+msgstr "الإشارة إلى"
+
+msgid "Indication"
+msgstr "الإشارة"
+
+msgid "Indications"
+msgstr "الإشارات"
+
+msgid "Indicative"
+msgstr "دلالي"
+
+msgid "Indicatively"
+msgstr "بشكل دلالي"
+
+msgid "Indicatives"
+msgstr "الأساليب الخبريّة"
+
+msgid "Indicator"
+msgstr "المؤشر"
+
+msgid "Indicators"
+msgstr "المؤشرات"
+
+msgid "Indices"
+msgstr "الفهارس"
+
+msgid "Indict"
+msgstr "إتّهم"
+
+msgid "Indictable"
+msgstr "عرضة للإتهام"
+
+msgid "Indicted"
+msgstr "متّهم"
+
+msgid "Indicter"
+msgstr "المُدين، المُتّهِم"
+
+msgid "Indicting"
+msgstr "الإتّهام"
+
+msgid "Indictment"
+msgstr "الإتّهام"
+
+msgid "Indictments"
+msgstr "الإتهامات"
+
+msgid "Indicts"
+msgstr "يتّهم"
+
+msgid "Indie"
+msgstr "مستقلّ"
+
+msgid "Indies"
+msgstr "إنديز"
+
+msgid "Indifference"
+msgstr "اللامبالاة"
+
+msgid "Indifferent"
+msgstr "بلا مبالاة"
+
+msgid "Indifferently"
+msgstr "بشكل بلا مبالاة"
+
+msgid "Indigence"
+msgstr "الفاقة"
+
+msgid "Indigene"
+msgstr "المواطن الأصليّ"
+
+msgid "Indigenous"
+msgstr "أصلي"
+
+msgid "Indigenously"
+msgstr "بشكل أصلي"
+
+msgid "Indigenousness"
+msgstr "المحلّيّة"
+
+msgid "Indigent"
+msgstr "فقير"
+
+msgid "Indigently"
+msgstr "بشكل فقير"
+
+msgid "Indigested"
+msgstr "غير مهضوم"
+
+msgid "Indigestibility"
+msgstr "عسر الهضم"
+
+msgid "Indigestible"
+msgstr "عسر الهضم"
+
+msgid "Indigestibleness"
+msgstr "عُسر الهضم"
+
+msgid "Indigestibly"
+msgstr "بشكل غير قابل للهضم"
+
+msgid "Indigestion"
+msgstr "عسر الهضم"
+
+msgid "Indigestions"
+msgstr "عسر الهضم"
+
+msgid "Indignant"
+msgstr "ساخط"
+
+msgid "Indignantly"
+msgstr "بسخط"
+
+msgid "Indignation"
+msgstr "الإستياء"
+
+msgid "Indignations"
+msgstr "الإستياء"
+
+msgid "Indignities"
+msgstr "المذلّة"
+
+msgid "Indignity"
+msgstr "المذلّة"
+
+msgid "Indigo"
+msgstr "نيلي"
+
+msgid "Indira"
+msgstr "إنديرا"
+
+msgid "Indirect"
+msgstr "غير مباشر"
+
+msgid "Indirected"
+msgstr "بلا إتجاه"
+
+msgid "Indirection"
+msgstr "المراوغة"
+
+msgid "Indirections"
+msgstr "المراوغات"
+
+msgid "Indirectly"
+msgstr "بشكل غير مباشر"
+
+msgid "Indirectness"
+msgstr "المراوغة"
+
+msgid "Indirectnesses"
+msgstr "المراوغات"
+
+msgid "Indiscernible"
+msgstr "متعذر تمييزه"
+
+msgid "Indiscernibleness"
+msgstr "عدم الفهم"
+
+msgid "Indiscernibly"
+msgstr "بطريقة غير مدركة"
+
+msgid "Indiscipline"
+msgstr "العصيان"
+
+msgid "Indisciplined"
+msgstr "غير مضبوط أو منتظم"
+
+msgid "Indiscoverable"
+msgstr "غير ممكن اكتشافه"
+
+msgid "Indiscreet"
+msgstr "أحمق"
+
+msgid "Indiscreetly"
+msgstr "بشكل أحمق"
+
+msgid "Indiscreetness"
+msgstr "الحماقة"
+
+msgid "Indiscretion"
+msgstr "الطّيش"
+
+msgid "Indiscretions"
+msgstr "الأعمال الطّائشة"
+
+msgid "Indiscriminate"
+msgstr "عشوائي"
+
+msgid "Indiscriminately"
+msgstr "عشوائيا"
+
+msgid "Indiscriminateness"
+msgstr "اللاتفرقة"
+
+msgid "Indiscriminating"
+msgstr "عشوائي"
+
+msgid "Indiscriminatingly"
+msgstr "بشكل عشوائي"
+
+msgid "Indiscrimination"
+msgstr "عدم التفرقة"
+
+msgid "Indiscriminative"
+msgstr "عشوائي"
+
+msgid "Indiscriminatively"
+msgstr "بشكل عشوائي"
+
+msgid "Indispensability"
+msgstr "اللزومية"
+
+msgid "Indispensable"
+msgstr "لا غنى عنه"
+
+msgid "Indispensableness"
+msgstr "الضّروريّة"
+
+msgid "Indispensably"
+msgstr "بشكل ضروريّ"
+
+msgid "Indispose"
+msgstr "نفّر"
+
+msgid "Indisposed"
+msgstr "متوعّك"
+
+msgid "Indisposes"
+msgstr "ينفّر"
+
+msgid "Indisposing"
+msgstr "التنفير"
+
+msgid "Indisposition"
+msgstr "التوعك"
+
+msgid "Indisputability"
+msgstr "إنعدام الشّك"
+
+msgid "Indisputable"
+msgstr "غير قابل للجدال"
+
+msgid "Indisputableness"
+msgstr "التأكيد"
+
+msgid "Indisputably"
+msgstr "بشكل غير قابل للجدل"
+
+msgid "Indissociable"
+msgstr "غير قابل للإنفصال"
+
+msgid "Indissolubility"
+msgstr "اللا إنحلالية"
+
+msgid "Indissoluble"
+msgstr "غير قابل للذوبان"
+
+msgid "Indissolubleness"
+msgstr "الرّسوخ"
+
+msgid "Indissolubly"
+msgstr "بشكل راسخ"
+
+msgid "Indistinct"
+msgstr "غامض"
+
+msgid "Indistinctive"
+msgstr "غير مميّز"
+
+msgid "Indistinctly"
+msgstr "بغموض"
+
+msgid "Indistinctness"
+msgstr "الغموض"
+
+msgid "Indistinguishability"
+msgstr "بشكل يتعذّر تميزه"
+
+msgid "Indistinguishable"
+msgstr "متعذر تميزه"
+
+msgid "Indistinguishableness"
+msgstr "اللا تميّز"
+
+msgid "Indistinguishably"
+msgstr "بشكل غير مميز"
+
+msgid "Indite"
+msgstr "نظّم"
+
+msgid "Indited"
+msgstr "منظّم"
+
+msgid "Indites"
+msgstr "ينظّم"
+
+msgid "Inditing"
+msgstr "التنظيم"
+
+msgid "Indium"
+msgstr "إنديوم"
+
+msgid "Individual"
+msgstr "الفرد"
+
+msgid "Individualism"
+msgstr "الفردية"
+
+msgid "Individualist"
+msgstr "الأناني"
+
+msgid "Individualistic"
+msgstr "فردي"
+
+msgid "Individualistically"
+msgstr "في سلوك فرديّ"
+
+msgid "Individualists"
+msgstr "الأنانيون"
+
+msgid "Individuality"
+msgstr "الفردية"
+
+msgid "Individualization"
+msgstr "شخّص، فصّل"
+
+msgid "Individualizations"
+msgstr "التشخيصات، التفصيلات"
+
+msgid "Individualize"
+msgstr "خصّص"
+
+msgid "Individualized"
+msgstr "مخصّص"
+
+msgid "Individualizer"
+msgstr "فصّل، شخّص"
+
+msgid "Individualizes"
+msgstr "يخصّص"
+
+msgid "Individualizing"
+msgstr "التخصيص"
+
+msgid "Individually"
+msgstr "بشكل منفرد"
+
+msgid "Individuals"
+msgstr "الأفراد"
+
+msgid "Individuate"
+msgstr "يتفرّد"
+
+msgid "Individuated"
+msgstr "تفرّد"
+
+msgid "Individuates"
+msgstr "يتفرّد"
+
+msgid "Individuating"
+msgstr "التّفرّد"
+
+msgid "Individuation"
+msgstr "التّميّز"
+
+msgid "Indivisibility"
+msgstr "عدم القابلية للقسمة"
+
+msgid "Indivisible"
+msgstr "غير قابل للقسمة"
+
+msgid "Indivisibleness"
+msgstr "ألا تجزئة"
+
+msgid "Indivisibly"
+msgstr "بشكل غير قابل للانقسام"
+
+msgid "Indochina"
+msgstr "الهند الصينية"
+
+msgid "Indochinese"
+msgstr "هندي صيني"
+
+msgid "Indocile"
+msgstr "عنود"
+
+msgid "Indoctrinate"
+msgstr "لقّن"
+
+msgid "Indoctrinated"
+msgstr "ملقّن"
+
+msgid "Indoctrinates"
+msgstr "يلقّن"
+
+msgid "Indoctrinating"
+msgstr "التلقين"
+
+msgid "Indoctrination"
+msgstr "التلقين"
+
+msgid "Indoctrinator"
+msgstr "المعلّم، المدرّس"
+
+msgid "Indoeuropean"
+msgstr "هنديّ أوروبّيّ"
+
+msgid "Indolence"
+msgstr "الكسل"
+
+msgid "Indolent"
+msgstr "كسول"
+
+msgid "Indolently"
+msgstr "بشكل كسول"
+
+msgid "Indomitability"
+msgstr "اللا خضوعية"
+
+msgid "Indomitable"
+msgstr "لا يقهر"
+
+msgid "Indomitableness"
+msgstr "اللا قهر"
+
+msgid "Indomitably"
+msgstr "بشكل لا يقهر"
+
+msgid "Indonesia"
+msgstr "أندونيسيا"
+
+msgid "Indonesian"
+msgstr "الأندونوسي"
+
+msgid "Indoor"
+msgstr "داخلي"
+
+msgid "Indoors"
+msgstr "في الداخل"
+
+msgid "Indorse"
+msgstr "صدّق"
+
+msgid "Indubitable"
+msgstr "مؤكّد"
+
+msgid "Indubitableness"
+msgstr "بلا شك"
+
+msgid "Indubitably"
+msgstr "بلا شكّ"
+
+msgid "Induce"
+msgstr "أقنع"
+
+msgid "Induced"
+msgstr "مستحثّ"
+
+msgid "Inducement"
+msgstr "الحافز"
+
+msgid "Inducements"
+msgstr "الحوافز"
+
+msgid "Inducer"
+msgstr "المولّد - جينات"
+
+msgid "Induces"
+msgstr "يقنع"
+
+msgid "Inducible"
+msgstr "قابل للتولّد"
+
+msgid "Inducing"
+msgstr "الإقناع"
+
+msgid "Induct"
+msgstr "أدخل"
+
+msgid "Inductance"
+msgstr "المحاثّة الكهربائية"
+
+msgid "Inductances"
+msgstr "المحاثّة الكهربائية"
+
+msgid "Inducted"
+msgstr "مدخل"
+
+msgid "Inductee"
+msgstr "المجنّد"
+
+msgid "Inductees"
+msgstr "المجنّدون"
+
+msgid "Inductile"
+msgstr "غير مطاوع"
+
+msgid "Inducting"
+msgstr "الإدخال"
+
+msgid "Induction"
+msgstr "الحثّ"
+
+msgid "Inductions"
+msgstr "الحثّ"
+
+msgid "Inductive"
+msgstr "حثّي"
+
+msgid "Inductively"
+msgstr "بالحثّ"
+
+msgid "Inductiveness"
+msgstr "الإستقرائيةّ"
+
+msgid "Inductor"
+msgstr "أداة الحثّ"
+
+msgid "Inductors"
+msgstr "أدواة الحثّ"
+
+msgid "Inducts"
+msgstr "يدخل"
+
+msgid "Indulge"
+msgstr "إنغمس"
+
+msgid "Indulged"
+msgstr "منغمس"
+
+msgid "Indulgence"
+msgstr "الإنغماس"
+
+msgid "Indulgences"
+msgstr "الإنغماس"
+
+msgid "Indulgent"
+msgstr "متساهل"
+
+msgid "Indulgently"
+msgstr "بشكل متساهل"
+
+msgid "Indulger"
+msgstr "إندولجير"
+
+msgid "Indulges"
+msgstr "ينغمس"
+
+msgid "Indulging"
+msgstr "الإنغماس"
+
+msgid "Indurate"
+msgstr "صلّب"
+
+msgid "Indurated"
+msgstr "مصلّب"
+
+msgid "Indurates"
+msgstr "يصلّب"
+
+msgid "Indurating"
+msgstr "التصلّب"
+
+msgid "Induration"
+msgstr "التصلّب"
+
+msgid "Industrial"
+msgstr "صناعي"
+
+msgid "Industrialisation"
+msgstr "التصنيع"
+
+msgid "Industrialism"
+msgstr "الصناعة"
+
+msgid "Industrialist"
+msgstr "الصناعي"
+
+msgid "Industrialists"
+msgstr "الصناعيون"
+
+msgid "Industrialization"
+msgstr "التصنيع"
+
+msgid "Industrializations"
+msgstr "التصنيع"
+
+msgid "Industrialize"
+msgstr "صنّع"
+
+msgid "Industrialized"
+msgstr "صناعي"
+
+msgid "Industrializes"
+msgstr "يصنّع"
+
+msgid "Industrializing"
+msgstr "التصنيع"
+
+msgid "Industrially"
+msgstr "صناعيا"
+
+msgid "Industrials"
+msgstr "الأسهم الصناعية"
+
+msgid "Industrie"
+msgstr "إندوستري"
+
+msgid "Industries"
+msgstr "الصناعات"
+
+msgid "Industrious"
+msgstr "دؤوب"
+
+msgid "Industriously"
+msgstr "صناعيا"
+
+msgid "Industriousness"
+msgstr "الاجتهاد"
+
+msgid "Industry"
+msgstr "الصناعة"
+
+msgid "Indwell"
+msgstr "إندويل"
+
+msgid "Indwelling"
+msgstr "السكنى"
+
+msgid "Indwelt"
+msgstr "أقام"
+
+msgid "Indy"
+msgstr "إندي"
+
+msgid "Inebriate"
+msgstr "سكران"
+
+msgid "Inebriated"
+msgstr "مسكر"
+
+msgid "Inebriates"
+msgstr "السكارى"
+
+msgid "Inebriating"
+msgstr "الإسكار"
+
+msgid "Inebriation"
+msgstr "السكر"
+
+msgid "Inedibility"
+msgstr "عدم صلاحية الأكل"
+
+msgid "Inedible"
+msgstr "غير صالح للأكل"
+
+msgid "Inedited"
+msgstr "غير منقّح"
+
+msgid "Ineducable"
+msgstr "بليد"
+
+msgid "Ineffability"
+msgstr "اللاوصفي"
+
+msgid "Ineffable"
+msgstr "فائق الوصف"
+
+msgid "Ineffableness"
+msgstr "القدسية"
+
+msgid "Ineffably"
+msgstr "بشكل لا يوصف"
+
+msgid "Ineffaceable"
+msgstr "لا يمحى"
+
+msgid "Ineffective"
+msgstr "غير مؤثّر"
+
+msgid "Ineffectively"
+msgstr "بشكل غير مؤثّر"
+
+msgid "Ineffectiveness"
+msgstr "عدم التأثير"
+
+msgid "Ineffectual"
+msgstr "غير نافع"
+
+msgid "Ineffectually"
+msgstr "بشكل غير نافع"
+
+msgid "Ineffectualness"
+msgstr "عدم الجدوى"
+
+msgid "Inefficacious"
+msgstr "غير مؤثّر"
+
+msgid "Inefficaciously"
+msgstr "بشكل غير مؤثّر"
+
+msgid "Inefficaciousness"
+msgstr "الغير فعّال"
+
+msgid "Inefficacy"
+msgstr "اللّافاعليّة"
+
+msgid "Inefficiencies"
+msgstr "عدم الكفاءة"
+
+msgid "Inefficiency"
+msgstr "عدم الكفاءة"
+
+msgid "Inefficient"
+msgstr "غير كفء"
+
+msgid "Inefficiently"
+msgstr "بشكل غير كفء"
+
+msgid "Inegalitarian"
+msgstr "غير منصف"
+
+msgid "Inelastic"
+msgstr "غير مرن"
+
+msgid "Inelasticity"
+msgstr "عدم المرونة"
+
+msgid "Inelegance"
+msgstr "اللاأناقة"
+
+msgid "Inelegant"
+msgstr "غير أنيق"
+
+msgid "Inelegantly"
+msgstr "بشكل غير أنيق"
+
+msgid "Ineligibility"
+msgstr "اللاأهلية"
+
+msgid "Ineligible"
+msgstr "غير مؤهّل"
+
+msgid "Ineligibleness"
+msgstr "حالة الغير مؤهّل"
+
+msgid "Ineligibly"
+msgstr "يشكل غير مؤهّل"
+
+msgid "Ineloquent"
+msgstr "غير فصيح"
+
+msgid "Ineloquently"
+msgstr "بشكل غير فصيح"
+
+msgid "Ineluctable"
+msgstr "حتمي"
+
+msgid "Ineluctably"
+msgstr "حتمًا"
+
+msgid "Inept"
+msgstr "أحمق"
+
+msgid "Ineptitude"
+msgstr "الحماقة"
+
+msgid "Ineptly"
+msgstr "بحماقة"
+
+msgid "Ineptness"
+msgstr "الحماقة"
+
+msgid "Inequalities"
+msgstr "التفاوت"
+
+msgid "Inequality"
+msgstr "عدم المساواة"
+
+msgid "Inequitable"
+msgstr "ظالم"
+
+msgid "Inequitably"
+msgstr "بظلم"
+
+msgid "Inequities"
+msgstr "الإساءات"
+
+msgid "Inequity"
+msgstr "اللاإنصاف"
+
+msgid "Ineradicable"
+msgstr "متأصّل"
+
+msgid "Inerasable"
+msgstr "غير قابل للمسح او الإزالة"
+
+msgid "Inert"
+msgstr "خامد"
+
+msgid "Inertance"
+msgstr "الخمول"
+
+msgid "Inertia"
+msgstr "القصور الذاتي"
+
+msgid "Inertial"
+msgstr "متجمّد"
+
+msgid "Inertially"
+msgstr "بخمول"
+
+msgid "Inertias"
+msgstr "القصور الذاتي"
+
+msgid "Inertly"
+msgstr "بشكل خامد"
+
+msgid "Inertness"
+msgstr "الخمول"
+
+msgid "Inescapable"
+msgstr "محتوم"
+
+msgid "Inescapably"
+msgstr "بشكل حتميّ"
+
+msgid "Inessential"
+msgstr "غير أساسي"
+
+msgid "Inessentially"
+msgstr "بشكل غير أساسي"
+
+msgid "Inestimable"
+msgstr "لا يقدّر"
+
+msgid "Inestimably"
+msgstr "بشكل قيّم"
+
+msgid "Inevitabilities"
+msgstr "الحتميّة"
+
+msgid "Inevitability"
+msgstr "الحتمية"
+
+msgid "Inevitable"
+msgstr "الأمر الحتمي"
+
+msgid "Inevitableness"
+msgstr "الحتمية"
+
+msgid "Inevitably"
+msgstr "حتما"
+
+msgid "Inexact"
+msgstr "غير دقيق"
+
+msgid "Inexactitude"
+msgstr "عدم الدقّة"
+
+msgid "Inexactly"
+msgstr "بشكل غير دقيق"
+
+msgid "Inexactness"
+msgstr "عدم الدقّة"
+
+msgid "Inexcusability"
+msgstr "اللاعذرية"
+
+msgid "Inexcusable"
+msgstr "لايغتفر"
+
+msgid "Inexcusableness"
+msgstr "اللاعذرية"
+
+msgid "Inexcusably"
+msgstr "بشكل فادح"
+
+msgid "Inexhaustibility"
+msgstr "اللانفاذية"
+
+msgid "Inexhaustible"
+msgstr "لا ينضب"
+
+msgid "Inexhaustibleness"
+msgstr "عدم النضوب"
+
+msgid "Inexhaustibly"
+msgstr "بشكل لا ينفد"
+
+msgid "Inexistent"
+msgstr "غير موجود"
+
+msgid "Inexorability"
+msgstr "العناد"
+
+msgid "Inexorable"
+msgstr "عنيد"
+
+msgid "Inexorableness"
+msgstr "الحتميّة"
+
+msgid "Inexorably"
+msgstr "بعناد"
+
+msgid "Inexpedience"
+msgstr "الإستهجان"
+
+msgid "Inexpediency"
+msgstr "الإستهجان"
+
+msgid "Inexpedient"
+msgstr "غير مناسب"
+
+msgid "Inexpediently"
+msgstr "بشكل غير مناسب"
+
+msgid "Inexpensive"
+msgstr "رخيص"
+
+msgid "Inexpensively"
+msgstr "بشكل رخيص"
+
+msgid "Inexpensiveness"
+msgstr "الرخص"
+
+msgid "Inexperience"
+msgstr "إنعدام الخبرة"
+
+msgid "Inexperienced"
+msgstr "عديم الخبرة"
+
+msgid "Inexperiences"
+msgstr "قلّة الخبرة"
+
+msgid "Inexpert"
+msgstr "عديم الخبرة"
+
+msgid "Inexpertly"
+msgstr "بشكل عديم الخبرة"
+
+msgid "Inexpertness"
+msgstr "انعدام الخبرة"
+
+msgid "Inexpiable"
+msgstr "لا يغتفر"
+
+msgid "Inexpiableness"
+msgstr "الفداحة"
+
+msgid "Inexpiably"
+msgstr "بشكل فادح"
+
+msgid "Inexplainable"
+msgstr "غير قابل للتفسير"
+
+msgid "Inexplicability"
+msgstr "اللا تعليلية"
+
+msgid "Inexplicable"
+msgstr "غير قابل للتوضيح"
+
+msgid "Inexplicableness"
+msgstr "اللاتعليلية"
+
+msgid "Inexplicably"
+msgstr "بشكل غير قابل للتوضيح"
+
+msgid "Inexplicit"
+msgstr "غامض"
+
+msgid "Inexplosive"
+msgstr "غير قابل للإنفجار"
+
+msgid "Inexpressibility"
+msgstr "إنعدام قدرة الوصف"
+
+msgid "Inexpressible"
+msgstr "متعذر وصفه"
+
+msgid "Inexpressibleness"
+msgstr "حالة إنعدام قدرة الوصف"
+
+msgid "Inexpressibly"
+msgstr "بشكل يفوق الوصف"
+
+msgid "Inexpressive"
+msgstr "غير معبّر"
+
+msgid "Inexpressively"
+msgstr "بشكل غير معبّر"
+
+msgid "Inexpressiveness"
+msgstr "الحالة الغير معبّرة"
+
+msgid "Inexpugnable"
+msgstr "منيع"
+
+msgid "Inextensible"
+msgstr "غير قابل للمدّ"
+
+msgid "Inextinguishable"
+msgstr "متعذر إطفائه"
+
+msgid "Inextinguishably"
+msgstr "على نحو متّقد"
+
+msgid "Inextricability"
+msgstr "التّعقيد"
+
+msgid "Inextricable"
+msgstr "معقّد"
+
+msgid "Inextricableness"
+msgstr "عدم الإنفصام"
+
+msgid "Inextricably"
+msgstr "بشكل معقّد"
+
+msgid "Inf"
+msgstr "إنف"
+
+msgid "Infallibility"
+msgstr "المعصومية"
+
+msgid "Infallible"
+msgstr "معصوم"
+
+msgid "Infallibleness"
+msgstr "المعصومية"
+
+msgid "Infallibly"
+msgstr "بطريقة لا يشوبها خطأ"
+
+msgid "Infamies"
+msgstr "الخسّة"
+
+msgid "Infamous"
+msgstr "سيئ السمعة"
+
+msgid "Infamously"
+msgstr "بشكل سيئ السمعة"
+
+msgid "Infamousness"
+msgstr "سوء السّمعة"
+
+msgid "Infamy"
+msgstr "العار"
+
+msgid "Infancies"
+msgstr "الطفولات"
+
+msgid "Infancy"
+msgstr "الطفولة"
+
+msgid "Infant"
+msgstr "الرضيع"
+
+msgid "Infanticide"
+msgstr "الوأد"
+
+msgid "Infanticides"
+msgstr "الوأد"
+
+msgid "Infantile"
+msgstr "طفولي"
+
+msgid "Infantries"
+msgstr "المشاة"
+
+msgid "Infantry"
+msgstr "المشاة"
+
+msgid "Infantryman"
+msgstr "جندي المشاة"
+
+msgid "Infantrymen"
+msgstr "جنود المشاة"
+
+msgid "Infants"
+msgstr "الأطفال"
+
+msgid "Infarct"
+msgstr "عائق"
+
+msgid "Infarction"
+msgstr "الإنتهاك"
+
+msgid "Infarcts"
+msgstr "عوائق"
+
+msgid "Infatuate"
+msgstr "إفتن"
+
+msgid "Infatuated"
+msgstr "مفتون"
+
+msgid "Infatuates"
+msgstr "يفتن"
+
+msgid "Infatuating"
+msgstr "الفتنة"
+
+msgid "Infatuation"
+msgstr "الهيام"
+
+msgid "Infauna"
+msgstr "إينفونا - حيوان"
+
+msgid "Infeasibility"
+msgstr "عدم الجدوى"
+
+msgid "Infeasible"
+msgstr "غير قابل للتطبيق"
+
+msgid "Infect"
+msgstr "أصب"
+
+msgid "Infected"
+msgstr "مصاب"
+
+msgid "Infecting"
+msgstr "الإصابة"
+
+msgid "Infection"
+msgstr "العدوى"
+
+msgid "Infections"
+msgstr "الإصابات"
+
+msgid "Infectious"
+msgstr "معدي"
+
+msgid "Infectiously"
+msgstr "مسببا للعدوى"
+
+msgid "Infectiousness"
+msgstr "العدوى"
+
+msgid "Infective"
+msgstr "معدي"
+
+msgid "Infectively"
+msgstr "بشكل معدي"
+
+msgid "Infects"
+msgstr "يصيب"
+
+msgid "Infecund"
+msgstr "غير نافع"
+
+msgid "Infelicitous"
+msgstr "غير موفّق"
+
+msgid "Infelicitously"
+msgstr "بشكل غير موفّق"
+
+msgid "Infelicity"
+msgstr "عدم التوفيق"
+
+msgid "Infer"
+msgstr "إستنتج"
+
+msgid "Inferable"
+msgstr "قابل للإستنتاج"
+
+msgid "Inference"
+msgstr "الإستدلال"
+
+msgid "Inferences"
+msgstr "الإستدلالات"
+
+msgid "Inferential"
+msgstr "إستنتاجي"
+
+msgid "Inferentially"
+msgstr "بشكل إستنتاجي"
+
+msgid "Inferior"
+msgstr "التابع"
+
+msgid "Inferiorities"
+msgstr "الدّونيّة"
+
+msgid "Inferiority"
+msgstr "الوضاعة"
+
+msgid "Inferiorly"
+msgstr "بشكل دون المستوى"
+
+msgid "Inferiors"
+msgstr "التوابع"
+
+msgid "Infernal"
+msgstr "جهنمي"
+
+msgid "Infernally"
+msgstr "بشكل جهنمي"
+
+msgid "Inferno"
+msgstr "الجحيم"
+
+msgid "Infernos"
+msgstr "الجحيم"
+
+msgid "Inferred"
+msgstr "مستنتج"
+
+msgid "Inferring"
+msgstr "الإستنتاج"
+
+msgid "Infers"
+msgstr "يستنتج"
+
+msgid "Infertile"
+msgstr "عقيم"
+
+msgid "Infertility"
+msgstr "العقم"
+
+msgid "Infest"
+msgstr "أزعج"
+
+msgid "Infestation"
+msgstr "الإبتلاء"
+
+msgid "Infestations"
+msgstr "الإبتلاء"
+
+msgid "Infested"
+msgstr "منزعج"
+
+msgid "Infester"
+msgstr "السّاكن"
+
+msgid "Infesting"
+msgstr "الإزعاج"
+
+msgid "Infests"
+msgstr "يزعج"
+
+msgid "Infidel"
+msgstr "الكافر"
+
+msgid "Infidelities"
+msgstr "الخيانات"
+
+msgid "Infidelity"
+msgstr "الخيانة"
+
+msgid "Infidels"
+msgstr "الكفّار"
+
+msgid "Infield"
+msgstr "أحط"
+
+msgid "Infielder"
+msgstr "اللّاعب"
+
+msgid "Infielders"
+msgstr "اللّاعبون"
+
+msgid "Infields"
+msgstr "يحيط"
+
+msgid "Infight"
+msgstr "يلاكم"
+
+msgid "Infighter"
+msgstr "المشارك في النزاعات الداخلية"
+
+msgid "Infighters"
+msgstr "المشاركون في النزاعات الداخلية"
+
+msgid "Infighting"
+msgstr "المشاكل الداخلية"
+
+msgid "Infiltrate"
+msgstr "إخترق"
+
+msgid "Infiltrated"
+msgstr "مخترق"
+
+msgid "Infiltrates"
+msgstr "يخترق"
+
+msgid "Infiltrating"
+msgstr "الإختراق"
+
+msgid "Infiltration"
+msgstr "التسرّب"
+
+msgid "Infiltrations"
+msgstr "التسرّبات"
+
+msgid "Infiltrative"
+msgstr "إختراقي"
+
+msgid "Infimum"
+msgstr "أكبر حدّ أدنى لقيمتين"
+
+msgid "Infinite"
+msgstr "الأزل"
+
+msgid "Infinitely"
+msgstr "بشكل لانهائي"
+
+msgid "Infiniteness"
+msgstr "اللانهائية"
+
+msgid "Infinitesimal"
+msgstr "الكمّية المتناهية في الصّغر"
+
+msgid "Infinitesimally"
+msgstr "بشكل متناهي الصغر"
+
+msgid "Infinities"
+msgstr "لا محدوديّة"
+
+msgid "Infinitive"
+msgstr "المصدر"
+
+msgid "Infinitively"
+msgstr "بشكل مصدري"
+
+msgid "Infinitives"
+msgstr "المصادر"
+
+msgid "Infinitude"
+msgstr "اللا تناهي"
+
+msgid "Infinitum"
+msgstr "بلا حدود"
+
+msgid "Infinity"
+msgstr "اللا نهاية"
+
+msgid "Infirm"
+msgstr "واهن"
+
+msgid "Infirmaries"
+msgstr "المستشفيات"
+
+msgid "Infirmary"
+msgstr "المستشفى"
+
+msgid "Infirmed"
+msgstr "إنفيرميد"
+
+msgid "Infirmities"
+msgstr "العيوب"
+
+msgid "Infirmity"
+msgstr "الوهن"
+
+msgid "Infirmly"
+msgstr "بشكل واهن"
+
+msgid "Infirmness"
+msgstr "الضّعف"
+
+msgid "Infix"
+msgstr "الحرف المزيد"
+
+msgid "Infixes"
+msgstr "الحروف المزيدة"
+
+msgid "Inflame"
+msgstr "ألهب"
+
+msgid "Inflamed"
+msgstr "ملتهب"
+
+msgid "Inflamer"
+msgstr "المهيّج"
+
+msgid "Inflames"
+msgstr "يلهب"
+
+msgid "Inflaming"
+msgstr "الإلهاب"
+
+msgid "Inflammability"
+msgstr "قابلية الإشتعال"
+
+msgid "Inflammable"
+msgstr "قابل للاشتعال"
+
+msgid "Inflammableness"
+msgstr "قابلية الإشتعال"
+
+msgid "Inflammably"
+msgstr "بصورة سريعة الإشتعال"
+
+msgid "Inflammation"
+msgstr "الإلتهاب"
+
+msgid "Inflammations"
+msgstr "الإلتهابات"
+
+msgid "Inflammatory"
+msgstr "تحريضي"
+
+msgid "Inflatable"
+msgstr "قابل للنفخ"
+
+msgid "Inflate"
+msgstr "إنفخ"
+
+msgid "Inflated"
+msgstr "منتفخ"
+
+msgid "Inflater"
+msgstr "النّافخ"
+
+msgid "Inflates"
+msgstr "ينفخ"
+
+msgid "Inflating"
+msgstr "النفخ"
+
+msgid "Inflation"
+msgstr "التضّخم"
+
+msgid "Inflationary"
+msgstr "تضخّمي"
+
+msgid "Inflations"
+msgstr "التضّخم"
+
+msgid "Inflect"
+msgstr "قوّس"
+
+msgid "Inflected"
+msgstr "مقوّس"
+
+msgid "Inflecting"
+msgstr "التقويس"
+
+msgid "Inflection"
+msgstr "التصريف"
+
+msgid "Inflectional"
+msgstr "إعرابي"
+
+msgid "Inflectionally"
+msgstr "تصريفيا"
+
+msgid "Inflections"
+msgstr "الإلتواءات"
+
+msgid "Inflective"
+msgstr "عطفي"
+
+msgid "Inflects"
+msgstr "يقوّس"
+
+msgid "Inflexed"
+msgstr "منحني"
+
+msgid "Inflexibility"
+msgstr "اللامرونة"
+
+msgid "Inflexible"
+msgstr "صلب"
+
+msgid "Inflexibleness"
+msgstr "الصرامة"
+
+msgid "Inflexibly"
+msgstr "بعناد"
+
+msgid "Inflexion"
+msgstr "الإلتواء"
+
+msgid "Inflexions"
+msgstr "الإلتواءات"
+
+msgid "Inflict"
+msgstr "أوقع"
+
+msgid "Inflicted"
+msgstr "موقع"
+
+msgid "Inflicter"
+msgstr "المصيب"
+
+msgid "Inflicting"
+msgstr "الإيقاع"
+
+msgid "Infliction"
+msgstr "الإصابة"
+
+msgid "Inflictive"
+msgstr "ضارب"
+
+msgid "Inflicts"
+msgstr "يوقع"
+
+msgid "Inflow"
+msgstr "الجريان"
+
+msgid "Inflows"
+msgstr "التدفّقات"
+
+msgid "Influence"
+msgstr "التأثير"
+
+msgid "Influenced"
+msgstr "متأثر"
+
+msgid "Influencer"
+msgstr "المؤثّر"
+
+msgid "Influences"
+msgstr "التأثيرات"
+
+msgid "Influencing"
+msgstr "التأثير على"
+
+msgid "Influent"
+msgstr "مؤثر"
+
+msgid "Influential"
+msgstr "مؤثر"
+
+msgid "Influentially"
+msgstr "بشكل مؤثر"
+
+msgid "Influenza"
+msgstr "الإنفلونزا"
+
+msgid "Influx"
+msgstr "التدفّق"
+
+msgid "Info"
+msgstr "المعلومات"
+
+msgid "Infold"
+msgstr "إطو"
+
+msgid "Infolded"
+msgstr "مطوي"
+
+msgid "Infolding"
+msgstr "الطوي"
+
+msgid "Infolds"
+msgstr "يطوى"
+
+msgid "Inform"
+msgstr "أعلم"
+
+msgid "Informal"
+msgstr "غير رسمي"
+
+msgid "Informality"
+msgstr "الشكلية"
+
+msgid "Informally"
+msgstr "بشكل غير رسمي"
+
+msgid "Informant"
+msgstr "المخبر"
+
+msgid "Informants"
+msgstr "المخبرون"
+
+msgid "Information"
+msgstr "المعلومات"
+
+msgid "Informational"
+msgstr "معلوماتي"
+
+msgid "Informations"
+msgstr "المعلومات"
+
+msgid "Informative"
+msgstr "غني بالمعلومات المفيدة"
+
+msgid "Informatively"
+msgstr "بشكل غني بالمعلومات المفيدة"
+
+msgid "Informativeness"
+msgstr "الثّقافة"
+
+msgid "Informed"
+msgstr "مطّلع"
+
+msgid "Informer"
+msgstr "المخبر"
+
+msgid "Informers"
+msgstr "المخبرون"
+
+msgid "Informing"
+msgstr "الإعلام"
+
+msgid "Informs"
+msgstr "يعلم"
+
+msgid "Infra"
+msgstr "تحت"
+
+msgid "Infract"
+msgstr "خالف"
+
+msgid "Infraction"
+msgstr "الإخلال"
+
+msgid "Infractions"
+msgstr "الإخلالات"
+
+msgid "Infrared"
+msgstr "الأشعة تحت الحمراء"
+
+msgid "Infrasonic"
+msgstr "تحت صوتيّ"
+
+msgid "Infrastructure"
+msgstr "البناء التحتي"
+
+msgid "Infrastructures"
+msgstr "البنى التحتية"
+
+msgid "Infrequence"
+msgstr "الندرة"
+
+msgid "Infrequency"
+msgstr "الندرة"
+
+msgid "Infrequent"
+msgstr "نادر"
+
+msgid "Infrequently"
+msgstr "بشكل نادر"
+
+msgid "Infringe"
+msgstr "خالف"
+
+msgid "Infringed"
+msgstr "مخالف"
+
+msgid "Infringement"
+msgstr "الإنتهاك"
+
+msgid "Infringements"
+msgstr "الإنتهاكات"
+
+msgid "Infringer"
+msgstr "المنتهك"
+
+msgid "Infringes"
+msgstr "يخالف"
+
+msgid "Infringing"
+msgstr "المخالفة"
+
+msgid "Infuriate"
+msgstr "أغضب"
+
+msgid "Infuriated"
+msgstr "غاضب"
+
+msgid "Infuriates"
+msgstr "يغضب"
+
+msgid "Infuriating"
+msgstr "الإغضاب"
+
+msgid "Infuriatingly"
+msgstr "بشكل يدعو للضّيق"
+
+msgid "Infuriation"
+msgstr "الغضب الشديد"
+
+msgid "Infuse"
+msgstr "صبّ"
+
+msgid "Infused"
+msgstr "مصبوب"
+
+msgid "Infuser"
+msgstr "المساعد على التحلّل"
+
+msgid "Infuses"
+msgstr "يصبّ"
+
+msgid "Infusible"
+msgstr "غير قابل للإنصهار"
+
+msgid "Infusibleness"
+msgstr "اللاإنصهارية"
+
+msgid "Infusing"
+msgstr "الصبّ"
+
+msgid "Infusion"
+msgstr "الصبّ، الحقن، الغرس"
+
+msgid "Infusions"
+msgstr "الصبّ"
+
+msgid "Ingather"
+msgstr "إنجاثر"
+
+msgid "Ingel"
+msgstr "إنجيل"
+
+msgid "Ingenious"
+msgstr "مبدع"
+
+msgid "Ingeniously"
+msgstr "بشكل مبدع"
+
+msgid "Ingeniousness"
+msgstr "الذكاء"
+
+msgid "Ingenue"
+msgstr "الفتاة الساذجة"
+
+msgid "Ingenuities"
+msgstr "الإبداعات"
+
+msgid "Ingenuity"
+msgstr "الإبداع"
+
+msgid "Ingenuous"
+msgstr "صريح"
+
+msgid "Ingenuously"
+msgstr "بشكل صريح"
+
+msgid "Ingenuousness"
+msgstr "السذاجة"
+
+msgid "Ingersoll"
+msgstr "إنجيرسول"
+
+msgid "Ingest"
+msgstr "إبتلع"
+
+msgid "Ingested"
+msgstr "مبتلع"
+
+msgid "Ingestible"
+msgstr "قابل للهضم"
+
+msgid "Ingestion"
+msgstr "الإبتلاع"
+
+msgid "Ingestive"
+msgstr "هضمي"
+
+msgid "Ingests"
+msgstr "يبتلع"
+
+msgid "Inglenook"
+msgstr "ناحية الموقد"
+
+msgid "Inglorious"
+msgstr "غير مشرّف"
+
+msgid "Ingloriously"
+msgstr "بشكل غير مشرّف"
+
+msgid "Ingloriousness"
+msgstr "الخزي"
+
+msgid "Ingot"
+msgstr "القالب"
+
+msgid "Ingots"
+msgstr "القوالب"
+
+msgid "Ingrain"
+msgstr "رسّخ"
+
+msgid "Ingrained"
+msgstr "متشرّب"
+
+msgid "Ingrainedly"
+msgstr "بشكل متشرّب"
+
+msgid "Ingrains"
+msgstr "يرسّخ"
+
+msgid "Ingram"
+msgstr "إنجرام"
+
+msgid "Ingrate"
+msgstr "ناكر الجميل"
+
+msgid "Ingratiate"
+msgstr "تزلّف"
+
+msgid "Ingratiated"
+msgstr "متزلّف"
+
+msgid "Ingratiates"
+msgstr "يتزلّف"
+
+msgid "Ingratiating"
+msgstr "التزلّف"
+
+msgid "Ingratiatingly"
+msgstr "بشكل متزلّف"
+
+msgid "Ingratiation"
+msgstr "الحُظِيْ"
+
+msgid "Ingratitude"
+msgstr "الجحود"
+
+msgid "Ingredient"
+msgstr "المكون"
+
+msgid "Ingredients"
+msgstr "المكونات"
+
+msgid "Ingress"
+msgstr "الدخول"
+
+msgid "Ingresses"
+msgstr "الدخول"
+
+msgid "Ingrowing"
+msgstr "نام للداخل"
+
+msgid "Ingrown"
+msgstr "نام للداخل"
+
+msgid "Ingrownness"
+msgstr "النّمو الى الدّاخل"
+
+msgid "Ingrowth"
+msgstr "النّموّ الدّاخليّ"
+
+msgid "Ingrowths"
+msgstr "النّموّ الدّاخليّ"
+
+msgid "Inguinal"
+msgstr "أربيّي"
+
+msgid "Inhabit"
+msgstr "إسكن"
+
+msgid "Inhabitability"
+msgstr "مدى صلاحية المكان للسكن"
+
+msgid "Inhabitable"
+msgstr "غير صالح للسكن"
+
+msgid "Inhabitance"
+msgstr "السكنى"
+
+msgid "Inhabitancy"
+msgstr "السكنى"
+
+msgid "Inhabitant"
+msgstr "الساكن"
+
+msgid "Inhabitants"
+msgstr "السكّان"
+
+msgid "Inhabitation"
+msgstr "السكنى"
+
+msgid "Inhabited"
+msgstr "مسكون"
+
+msgid "Inhabiter"
+msgstr "الساكن"
+
+msgid "Inhabiters"
+msgstr "السكنة"
+
+msgid "Inhabiting"
+msgstr "السكون"
+
+msgid "Inhabits"
+msgstr "يسكن"
+
+msgid "Inhalant"
+msgstr "المستنشق"
+
+msgid "Inhalants"
+msgstr "المستنشقات"
+
+msgid "Inhalation"
+msgstr "الإستنشاق"
+
+msgid "Inhalations"
+msgstr "الإستنشاق"
+
+msgid "Inhale"
+msgstr "إستنشق"
+
+msgid "Inhaled"
+msgstr "مستنشق"
+
+msgid "Inhaler"
+msgstr "المستنشق"
+
+msgid "Inhales"
+msgstr "يستنشق"
+
+msgid "Inhaling"
+msgstr "الإستنشاق"
+
+msgid "Inharmonic"
+msgstr "متنافر"
+
+msgid "Inharmonious"
+msgstr "متنافر"
+
+msgid "Inharmoniously"
+msgstr "بشكل متنافر"
+
+msgid "Inharmoniousness"
+msgstr "التّنافر"
+
+msgid "Inhere"
+msgstr "لازم"
+
+msgid "Inhered"
+msgstr "ملازم"
+
+msgid "Inherence"
+msgstr "التلازم"
+
+msgid "Inherent"
+msgstr "متأصّل"
+
+msgid "Inherently"
+msgstr "أصلا"
+
+msgid "Inheres"
+msgstr "يلازم"
+
+msgid "Inhering"
+msgstr "الملازمة"
+
+msgid "Inherit"
+msgstr "رث"
+
+msgid "Inheritable"
+msgstr "موروث"
+
+msgid "Inheritableness"
+msgstr "القابلية للتوريث"
+
+msgid "Inheritance"
+msgstr "الميراث"
+
+msgid "Inheritances"
+msgstr "المواريث"
+
+msgid "Inherited"
+msgstr "موروث"
+
+msgid "Inheriting"
+msgstr "الوراثة"
+
+msgid "Inheritor"
+msgstr "الوارث"
+
+msgid "Inheritors"
+msgstr "الورثة"
+
+msgid "Inheritress"
+msgstr "الوريثة"
+
+msgid "Inheritrix"
+msgstr "الوريثة"
+
+msgid "Inherits"
+msgstr "يرث"
+
+msgid "Inhibit"
+msgstr "إمنع"
+
+msgid "Inhibited"
+msgstr "حسّاس"
+
+msgid "Inhibiter"
+msgstr "المانع"
+
+msgid "Inhibiting"
+msgstr "المنع"
+
+msgid "Inhibition"
+msgstr "المنع"
+
+msgid "Inhibitions"
+msgstr "المنع"
+
+msgid "Inhibitive"
+msgstr "تحريمي"
+
+msgid "Inhibitor"
+msgstr "المانع"
+
+msgid "Inhibitors"
+msgstr "المانعون"
+
+msgid "Inhibitory"
+msgstr "تحريمي"
+
+msgid "Inhibits"
+msgstr "يمنع"
+
+msgid "Inholding"
+msgstr "أرض خاصّة في وسط أرض عامّة"
+
+msgid "Inholdings"
+msgstr "أراضي خاصّة في وسط أرض عامّة"
+
+msgid "Inhomogeneities"
+msgstr "إنعدام التّجانس"
+
+msgid "Inhomogeneity"
+msgstr "التّجانس"
+
+msgid "Inhomogeneous"
+msgstr "متغاير"
+
+msgid "Inhospitable"
+msgstr "قاس"
+
+msgid "Inhospitableness"
+msgstr "القساوة"
+
+msgid "Inhospitably"
+msgstr "بشكل رديء"
+
+msgid "Inhospitality"
+msgstr "بلا حفاوة"
+
+msgid "Inhuman"
+msgstr "لا إنساني"
+
+msgid "Inhumane"
+msgstr "لا إنساني"
+
+msgid "Inhumanely"
+msgstr "بشكل لا إنساني"
+
+msgid "Inhumanities"
+msgstr "الوحشيّة"
+
+msgid "Inhumanly"
+msgstr "بشكل لا إنساني"
+
+msgid "Inhumanness"
+msgstr "القسوة"
+
+msgid "Inhume"
+msgstr "إدفن"
+
+msgid "Inhumed"
+msgstr "مدفون"
+
+msgid "Inhuming"
+msgstr "الدفن"
+
+msgid "Inimical"
+msgstr "عدائي"
+
+msgid "Inimically"
+msgstr "بشكل عدائي"
+
+msgid "Inimitability"
+msgstr "فريد"
+
+msgid "Inimitable"
+msgstr "غير قابل للتقليد"
+
+msgid "Inimitableness"
+msgstr "فريد"
+
+msgid "Inimitably"
+msgstr "بشكل غير قابل للتّقليد"
+
+msgid "Inion"
+msgstr "عظمة في أسفل الجمجمة"
+
+msgid "Iniquities"
+msgstr "الظّلم"
+
+msgid "Iniquitous"
+msgstr "جائر"
+
+msgid "Iniquitously"
+msgstr "بشكل جائر"
+
+msgid "Iniquitousness"
+msgstr "الظلم"
+
+msgid "Iniquity"
+msgstr "الظلم"
+
+msgid "Init"
+msgstr "إختصار ل الحرف الأوّل"
+
+msgid "Initial"
+msgstr "الأولي"
+
+msgid "Initialed"
+msgstr "وقّع بالأحرف الأولى"
+
+msgid "Initialer"
+msgstr "أولي"
+
+msgid "Initialing"
+msgstr "توقيع بالأحرف الأولى"
+
+msgid "Initialization"
+msgstr "التهيئة"
+
+msgid "Initializations"
+msgstr "التهيئة"
+
+msgid "Initialize"
+msgstr "شغّل"
+
+msgid "Initialized"
+msgstr "شغّل"
+
+msgid "Initializer"
+msgstr "المعدّ"
+
+msgid "Initializers"
+msgstr "المعدّون"
+
+msgid "Initializes"
+msgstr "يشغّل"
+
+msgid "Initializing"
+msgstr "التشغيل"
+
+msgid "Initially"
+msgstr "أوليا"
+
+msgid "Initialness"
+msgstr "البداية"
+
+msgid "Initials"
+msgstr "حروف الاسم الأولى"
+
+msgid "Initiate"
+msgstr "مستهلّ"
+
+msgid "Initiated"
+msgstr "مبدوء"
+
+msgid "Initiates"
+msgstr "المبتدئون"
+
+msgid "Initiating"
+msgstr "البدء"
+
+msgid "Initiation"
+msgstr "التلقين"
+
+msgid "Initiations"
+msgstr "التلقين"
+
+msgid "Initiative"
+msgstr "المبادرة"
+
+msgid "Initiatively"
+msgstr "بشكل أولي"
+
+msgid "Initiatives"
+msgstr "المبادرات"
+
+msgid "Initiator"
+msgstr "البادئ"
+
+msgid "Initiators"
+msgstr "البادئون"
+
+msgid "Inject"
+msgstr "إحقن"
+
+msgid "Injectable"
+msgstr "قابل للحقن"
+
+msgid "Injected"
+msgstr "محقون"
+
+msgid "Injecting"
+msgstr "الحقن"
+
+msgid "Injection"
+msgstr "الحقن"
+
+msgid "Injections"
+msgstr "الحقن"
+
+msgid "Injective"
+msgstr "العملية الرياضيّة المتوافقة "
+
+msgid "Injector"
+msgstr "الحاقن"
+
+msgid "Injects"
+msgstr "يحقن"
+
+msgid "Injudicious"
+msgstr "غير حكيم"
+
+msgid "Injudiciously"
+msgstr "بشكل غير حكيم"
+
+msgid "Injudiciousness"
+msgstr "الطيش"
+
+msgid "Injun"
+msgstr "إينجن - مصطلح بغيض للأمريكيّين الأصليّين"
+
+msgid "Injunction"
+msgstr "الأمر"
+
+msgid "Injunctions"
+msgstr "الأوامر"
+
+msgid "Injunctive"
+msgstr "تحذيري"
+
+msgid "Injure"
+msgstr "إجرح"
+
+msgid "Injured"
+msgstr "جريح"
+
+msgid "Injurer"
+msgstr "المؤذي"
+
+msgid "Injures"
+msgstr "يجرح"
+
+msgid "Injuries"
+msgstr "الإصابات"
+
+msgid "Injuring"
+msgstr "الجرح"
+
+msgid "Injurious"
+msgstr "تجريحي"
+
+msgid "Injuriously"
+msgstr "بشكل تجريحي"
+
+msgid "Injuriousness"
+msgstr "الضرر"
+
+msgid "Injury"
+msgstr "الجرح"
+
+msgid "Injustice"
+msgstr "الظلم"
+
+msgid "Injustices"
+msgstr "الظلم"
+
+msgid "Ink"
+msgstr "الحبر"
+
+msgid "Ink-eraser"
+msgstr "محّاية حبر"
+
+msgid "Ink-jet"
+msgstr "طائرة حبر"
+
+msgid "Ink-pad"
+msgstr "وسادة حبر"
+
+msgid "Ink-pencil"
+msgstr "قلم رصاص حبر"
+
+msgid "Inkblot"
+msgstr "بقعة حبر"
+
+msgid "Inked"
+msgstr "محبّر"
+
+msgid "Inker"
+msgstr "المحبّر"
+
+msgid "Inkers"
+msgstr "المحبّرات"
+
+msgid "Inkier"
+msgstr "محبّر"
+
+msgid "Inkiest"
+msgstr "محبّر"
+
+msgid "Inking"
+msgstr "التحبير"
+
+msgid "Inkling"
+msgstr "الفكرة"
+
+msgid "Inklings"
+msgstr "الأفكار"
+
+msgid "Inks"
+msgstr "الأحبار"
+
+msgid "Inkstand"
+msgstr "المحبرة"
+
+msgid "Inkwell"
+msgstr "المحبرة"
+
+msgid "Inky"
+msgstr "محبّر"
+
+msgid "Inlaid"
+msgstr "مطعّم"
+
+msgid "Inland"
+msgstr "داخل البلاد"
+
+msgid "Inlander"
+msgstr "داخلي"
+
+msgid "Inlands"
+msgstr "داخل البلاد"
+
+msgid "Inlay"
+msgstr "البطانة"
+
+msgid "Inlayer"
+msgstr "المبطّن"
+
+msgid "Inlaying"
+msgstr "التطعيم"
+
+msgid "Inlays"
+msgstr "البطانات"
+
+msgid "Inlet"
+msgstr "الفتحة"
+
+msgid "Inlets"
+msgstr "الفتحات"
+
+msgid "Inlier"
+msgstr "كتلة صخور يُحَيط بها صخور أصغر في العمر"
+
+msgid "Inly"
+msgstr "داخليًّا"
+
+msgid "Inlying"
+msgstr "داخلي"
+
+msgid "Inman"
+msgstr "إنمان"
+
+msgid "Inmate"
+msgstr "النزيل"
+
+msgid "Inmates"
+msgstr "النزلاء"
+
+msgid "Inmost"
+msgstr "أعمق"
+
+msgid "Inn"
+msgstr "الحانة"
+
+msgid "Innards"
+msgstr "المصارين"
+
+msgid "Innate"
+msgstr "فطري"
+
+msgid "Innately"
+msgstr "بشكل فطري"
+
+msgid "Innateness"
+msgstr "الفطرة"
+
+msgid "Inner"
+msgstr "الداخل"
+
+msgid "Innerly"
+msgstr "بشكل داخلي"
+
+msgid "Innermost"
+msgstr "أعمق"
+
+msgid "Innervate"
+msgstr "عصّب"
+
+msgid "Innervated"
+msgstr "معصّب"
+
+msgid "Innervates"
+msgstr "يعصّب"
+
+msgid "Innervating"
+msgstr "التعصيب"
+
+msgid "Inning"
+msgstr "الجولة"
+
+msgid "Innings"
+msgstr "الجولات"
+
+msgid "Innkeeper"
+msgstr "صاحب الحانة"
+
+msgid "Innocence"
+msgstr "البراءة"
+
+msgid "Innocense"
+msgstr "إينوسينس - زهرة"
+
+msgid "Innocent"
+msgstr "بريء"
+
+msgid "Innocently"
+msgstr "بشكل بريء"
+
+msgid "Innocents"
+msgstr "الأبرياء"
+
+msgid "Innocuous"
+msgstr "غير مؤذي"
+
+msgid "Innocuously"
+msgstr "بشكل غير مؤذي"
+
+msgid "Innocuousness"
+msgstr "السلامة"
+
+msgid "Innovate"
+msgstr "إبتدع"
+
+msgid "Innovated"
+msgstr "مبتدع"
+
+msgid "Innovates"
+msgstr "يبتدع"
+
+msgid "Innovating"
+msgstr "الإبتداع"
+
+msgid "Innovation"
+msgstr "الإبداع"
+
+msgid "Innovations"
+msgstr "الإبداع"
+
+msgid "Innovative"
+msgstr "إبداعي"
+
+msgid "Innovativeness"
+msgstr "الإبتكار"
+
+msgid "Innovator"
+msgstr "المبتكر"
+
+msgid "Innovators"
+msgstr "المبتكرون"
+
+msgid "Innoxious"
+msgstr "غير مؤذي"
+
+msgid "Innoxiously"
+msgstr "بشكل غير مؤذي"
+
+msgid "Inns"
+msgstr "الحانات"
+
+msgid "Innuendo"
+msgstr "الإساءة المبطّنة"
+
+msgid "Innuendoes"
+msgstr "الإساءات المبطّنة"
+
+msgid "Innuendos"
+msgstr "الإساءة المبطّنة"
+
+msgid "Innumerability"
+msgstr "بشكل غير محدود"
+
+msgid "Innumerable"
+msgstr "غير معدود"
+
+msgid "Innumerableness"
+msgstr "اللامعدودية"
+
+msgid "Innumerably"
+msgstr "بطريقة لا تعدّ"
+
+msgid "Inoculate"
+msgstr "تلقّح"
+
+msgid "Inoculated"
+msgstr "تلقّح"
+
+msgid "Inoculates"
+msgstr "يتلقّح"
+
+msgid "Inoculating"
+msgstr "التلقيح"
+
+msgid "Inoculation"
+msgstr "التلقيح"
+
+msgid "Inoculations"
+msgstr "التصحيحات"
+
+msgid "Inoculative"
+msgstr "تلقيحي"
+
+msgid "Inoffensive"
+msgstr "غير مؤذي"
+
+msgid "Inoffensively"
+msgstr "على نحو مسالم"
+
+msgid "Inoffensiveness"
+msgstr "عدم الإيذاء"
+
+msgid "Inoperable"
+msgstr "غير صالح للعملية"
+
+msgid "Inoperative"
+msgstr "عديم المفعول"
+
+msgid "Inoperativeness"
+msgstr "حالة الجهاز العطلان"
+
+msgid "Inopportune"
+msgstr "غير مناسب"
+
+msgid "Inopportunely"
+msgstr "بشكل غير مناسب"
+
+msgid "Inopportuneness"
+msgstr "سوء التّوقيت"
+
+msgid "Inordinacy"
+msgstr "الزّيادة"
+
+msgid "Inordinate"
+msgstr "غير منتظم"
+
+msgid "Inordinately"
+msgstr "بشكل غير منتظم"
+
+msgid "Inordinateness"
+msgstr "الزّيادة"
+
+msgid "Inorganic"
+msgstr "لا عضوي"
+
+msgid "Inorganically"
+msgstr "لا عضويا"
+
+msgid "Inpatient"
+msgstr "النّزيل"
+
+msgid "Inpatients"
+msgstr "النّزلاء"
+
+msgid "Input"
+msgstr "المساهمة"
+
+msgid "Input-output"
+msgstr "المدخلات المخرجات"
+
+msgid "Inputing"
+msgstr "الإدخال"
+
+msgid "Inputoutput"
+msgstr "إدخالإخراج"
+
+msgid "Inputs"
+msgstr "المساهمات"
+
+msgid "InputSlot"
+msgstr "منفذ الإدخال"
+
+msgid "Inputted"
+msgstr "أدخل"
+
+msgid "Inputting"
+msgstr "الإدخال"
+
+msgid "Inquest"
+msgstr "التحقيق"
+
+msgid "Inquests"
+msgstr "التحقيقات"
+
+msgid "Inquietude"
+msgstr "القلق"
+
+msgid "Inquire"
+msgstr "إستفسر"
+
+msgid "Inquired"
+msgstr "مستفسر"
+
+msgid "Inquirer"
+msgstr "المستعلم"
+
+msgid "Inquirers"
+msgstr "المستعلمون"
+
+msgid "Inquires"
+msgstr "يستفسر"
+
+msgid "Inquiries"
+msgstr "التحقيقات"
+
+msgid "Inquiring"
+msgstr "الإستفسار"
+
+msgid "Inquiringly"
+msgstr "بشكل مستفسر"
+
+msgid "Inquiry"
+msgstr "التحقيق"
+
+msgid "Inquiry-response"
+msgstr "ردّ تحقيق"
+
+msgid "Inquisition"
+msgstr "الإستقصاء"
+
+msgid "Inquisitional"
+msgstr "متعلق بالمحكمة"
+
+msgid "Inquisitions"
+msgstr "الإستقصاء"
+
+msgid "Inquisitive"
+msgstr "فضولي"
+
+msgid "Inquisitively"
+msgstr "بشكل فضولي"
+
+msgid "Inquisitiveness"
+msgstr "الفضول"
+
+msgid "Inquisitor"
+msgstr "المحقّق"
+
+msgid "Inquisitorial"
+msgstr "إستقصائي"
+
+msgid "Inquisitorially"
+msgstr "بشكل إستقصائي"
+
+msgid "Inquisitors"
+msgstr "المحقّقون"
+
+msgid "Inroad"
+msgstr "الغارة"
+
+msgid "Inroads"
+msgstr "الغارات"
+
+msgid "Inrun"
+msgstr "المسار الجليدي المنحدر الذي يقطعه المتزلج لزيادة سرعته قبل القفز من على حافّة المنحدر"
+
+msgid "Inrushing"
+msgstr "التّدفّق"
+
+msgid "INS"
+msgstr "مكتب خادمات الهجرة"
+
+msgid "Insalubrious"
+msgstr "غير صحّي"
+
+msgid "Insane"
+msgstr "مجنون"
+
+msgid "Insanely"
+msgstr "بشكل مجنون"
+
+msgid "Insaneness"
+msgstr "الجنون"
+
+msgid "Insanitary"
+msgstr "غير صحّي"
+
+msgid "Insanity"
+msgstr "الجنون"
+
+msgid "Insatiability"
+msgstr "الجشع"
+
+msgid "Insatiable"
+msgstr "جشع"
+
+msgid "Insatiableness"
+msgstr "الطّمع"
+
+msgid "Insatiably"
+msgstr "بجشع"
+
+msgid "Insatiate"
+msgstr "نهم"
+
+msgid "Insatiately"
+msgstr "بِنَهَمْ"
+
+msgid "Insatiateness"
+msgstr "حالة الشّرِهْ"
+
+msgid "Inscribe"
+msgstr "إكتب"
+
+msgid "Inscribed"
+msgstr "مكتوب"
+
+msgid "Inscriber"
+msgstr "النقاش"
+
+msgid "Inscribes"
+msgstr "يكتب"
+
+msgid "Inscribing"
+msgstr "الكتابة"
+
+msgid "Inscription"
+msgstr "النقش"
+
+msgid "Inscriptions"
+msgstr "النقوش"
+
+msgid "Inscrutability"
+msgstr "الغموض"
+
+msgid "Inscrutable"
+msgstr "غامض"
+
+msgid "Inscrutableness"
+msgstr "الغموض"
+
+msgid "Inscrutably"
+msgstr "بغموض"
+
+msgid "Insect"
+msgstr "الحشرة"
+
+msgid "Insecticide"
+msgstr "مبيد الحشرات"
+
+msgid "Insecticides"
+msgstr "مبيدات الحشرات"
+
+msgid "Insectivore"
+msgstr "إنسيكتيفور"
+
+msgid "Insectivorous"
+msgstr "آكل الحشرات"
+
+msgid "Insects"
+msgstr "الحشرات"
+
+msgid "Insecure"
+msgstr "غير آمن"
+
+msgid "Insecurely"
+msgstr "بشكل غير آمن"
+
+msgid "Insecureness"
+msgstr "عدم الإطمئنان"
+
+msgid "Insecurities"
+msgstr "حالات عدم الأمان"
+
+msgid "Insecurity"
+msgstr "عدم الأمان"
+
+msgid "Inseminate"
+msgstr "لقّح"
+
+msgid "Inseminated"
+msgstr "ملقّح"
+
+msgid "Inseminates"
+msgstr "يلقّح"
+
+msgid "Inseminating"
+msgstr "التلقيح"
+
+msgid "Insemination"
+msgstr "التلقيح"
+
+msgid "Inseminations"
+msgstr "التلقيح"
+
+msgid "Insensate"
+msgstr "عديم الحس"
+
+msgid "Insensately"
+msgstr "بشكل عديم الحس"
+
+msgid "Insensateness"
+msgstr "إنعدام الإحساس"
+
+msgid "Insensibility"
+msgstr "عدم الإحساس"
+
+msgid "Insensible"
+msgstr "عديم الحس"
+
+msgid "Insensibleness"
+msgstr "عدم الإدراك"
+
+msgid "Insensibly"
+msgstr "بعدم إكتراث"
+
+msgid "Insensitive"
+msgstr "عديم الحس"
+
+msgid "Insensitively"
+msgstr "بشكل عديم الحس"
+
+msgid "Insensitiveness"
+msgstr "عدم الحساسية"
+
+msgid "Insensitivity"
+msgstr "البرود"
+
+msgid "Insentient"
+msgstr "عديم الحسّ"
+
+msgid "Inseparability"
+msgstr "التلازم"
+
+msgid "Inseparable"
+msgstr "متلازم"
+
+msgid "Inseparableness"
+msgstr "التلازم"
+
+msgid "Inseparably"
+msgstr "بشكل غير منفصل"
+
+msgid "Insert"
+msgstr "الملحق، ادخل، يدخل"
+
+msgid "Inserted"
+msgstr "مدخل"
+
+msgid "Inserter"
+msgstr "الواضِع بين"
+
+msgid "Inserting"
+msgstr "الإدخال"
+
+msgid "Insertion"
+msgstr "الإدخال"
+
+msgid "Insertions"
+msgstr "الإدخال"
+
+msgid "Inserts"
+msgstr "الملاحق"
+
+msgid "Inset"
+msgstr "الشكل"
+
+msgid "Insets"
+msgstr "الأشكال"
+
+msgid "Insetting"
+msgstr "الإدراج"
+
+msgid "Inshore"
+msgstr "ساحلي"
+
+msgid "Inside"
+msgstr "داخل"
+
+msgid "Insider"
+msgstr "المطلّع بشؤون"
+
+msgid "Insiders"
+msgstr "المطّلعون بشؤون"
+
+msgid "Insides"
+msgstr "الدواخل"
+
+msgid "Insidious"
+msgstr "ماكر"
+
+msgid "Insidiously"
+msgstr "بشكل ماكر"
+
+msgid "Insidiousness"
+msgstr "المكر"
+
+msgid "Insight"
+msgstr "البصيرة"
+
+msgid "Insightful"
+msgstr "ذو بصيرة"
+
+msgid "Insightfully"
+msgstr "بتبصّر"
+
+msgid "Insightfulness"
+msgstr "التبصّر"
+
+msgid "Insights"
+msgstr "البصائر"
+
+msgid "Insignia"
+msgstr "الشارة"
+
+msgid "Insignias"
+msgstr "الشارة"
+
+msgid "Insignificance"
+msgstr "التفاهة"
+
+msgid "Insignificances"
+msgstr "التفاهة"
+
+msgid "Insignificant"
+msgstr "تافه"
+
+msgid "Insignificantly"
+msgstr "بتفاهة"
+
+msgid "Insincere"
+msgstr "منافق"
+
+msgid "Insincerely"
+msgstr "بشكل منافق"
+
+msgid "Insincerities"
+msgstr "النفاق"
+
+msgid "Insincerity"
+msgstr "النفاق"
+
+msgid "Insinuate"
+msgstr "دسّ"
+
+msgid "Insinuated"
+msgstr "مدسوس"
+
+msgid "Insinuates"
+msgstr "يدسّ"
+
+msgid "Insinuating"
+msgstr "الدسّ"
+
+msgid "Insinuatingly"
+msgstr "تلميحيا"
+
+msgid "Insinuation"
+msgstr "التلميح"
+
+msgid "Insinuations"
+msgstr "التلميحات"
+
+msgid "Insinuative"
+msgstr "دسّي"
+
+msgid "Insipid"
+msgstr "عديم الطعم"
+
+msgid "Insipidity"
+msgstr "التفاهة"
+
+msgid "Insipidly"
+msgstr "بشكل عديم الطعم"
+
+msgid "Insipidness"
+msgstr "التفاهة"
+
+msgid "Insist"
+msgstr "أصرر"
+
+msgid "Insisted"
+msgstr "مصرّ"
+
+msgid "Insistence"
+msgstr "الإصرار"
+
+msgid "Insistency"
+msgstr "الإلحاح"
+
+msgid "Insistent"
+msgstr "مصرّ"
+
+msgid "Insistently"
+msgstr "بشكل مصرّ"
+
+msgid "Insisting"
+msgstr "الإصرار"
+
+msgid "Insists"
+msgstr "يصرّ"
+
+msgid "Insobriety"
+msgstr "السكر"
+
+msgid "Insociability"
+msgstr "بصورة غير إجتماعية"
+
+msgid "Insociable"
+msgstr "انطوائيّ"
+
+msgid "Insociably"
+msgstr "بصورة إنطوائية"
+
+msgid "Insofar"
+msgstr "لدرجة أنّ"
+
+msgid "Insolation"
+msgstr "التعرّض للشمس"
+
+msgid "Insole"
+msgstr "النعل الداخلي"
+
+msgid "Insolence"
+msgstr "الوقاحة"
+
+msgid "Insolent"
+msgstr "وقح"
+
+msgid "Insolently"
+msgstr "بشكل وقح"
+
+msgid "Insoles"
+msgstr "النعال الداخلية"
+
+msgid "Insolubility"
+msgstr "الصلابة"
+
+msgid "Insoluble"
+msgstr "عديم الذوبان"
+
+msgid "Insolubleness"
+msgstr "الصلابة"
+
+msgid "Insolubly"
+msgstr "بصورة لا يتم فيها الذوبان"
+
+msgid "Insolvable"
+msgstr "متعذّر حلّ"
+
+msgid "Insolvencies"
+msgstr "الإفلاس"
+
+msgid "Insolvency"
+msgstr "الإفلاس"
+
+msgid "Insolvent"
+msgstr "المفلس"
+
+msgid "Insolvently"
+msgstr "بشكل مفلس"
+
+msgid "Insomnia"
+msgstr "الأرق"
+
+msgid "Insomniac"
+msgstr "المؤرق"
+
+msgid "Insomniacs"
+msgstr "المؤرقون"
+
+msgid "Insomuch"
+msgstr "إلى حدّ"
+
+msgid "Insouciance"
+msgstr "عدم المبالاة"
+
+msgid "Insouciant"
+msgstr "لا مبالي"
+
+msgid "Insouciantly"
+msgstr "بشكل لا مبالي"
+
+msgid "Inspect"
+msgstr "فتّش"
+
+msgid "Inspected"
+msgstr "مفتّش"
+
+msgid "Inspecting"
+msgstr "التفتيش"
+
+msgid "Inspection"
+msgstr "التفتيش"
+
+msgid "Inspections"
+msgstr "عمليات التفتيش"
+
+msgid "Inspective"
+msgstr "متعلق بالتفتيش"
+
+msgid "Inspector"
+msgstr "المفتش"
+
+msgid "Inspectors"
+msgstr "المفتشون"
+
+msgid "Inspects"
+msgstr "يفتّش"
+
+msgid "Inspiration"
+msgstr "الإلهام"
+
+msgid "Inspirational"
+msgstr "إلهامي"
+
+msgid "Inspirationally"
+msgstr "بشكل إلهامي"
+
+msgid "Inspirations"
+msgstr "الإلهام"
+
+msgid "Inspire"
+msgstr "ألهم"
+
+msgid "Inspired"
+msgstr "ملهم"
+
+msgid "Inspirer"
+msgstr "الملهم"
+
+msgid "Inspires"
+msgstr "يلهم"
+
+msgid "Inspiring"
+msgstr "الإلهام"
+
+msgid "Inspiringly"
+msgstr "بإلهام"
+
+msgid "Inspirit"
+msgstr "ألهم"
+
+msgid "Instabilities"
+msgstr "عدم الإستقرار"
+
+msgid "Instability"
+msgstr "عدم الإستقرار"
+
+msgid "Instable"
+msgstr "متغيّر"
+
+msgid "Install"
+msgstr "ركّب"
+
+msgid "Installable"
+msgstr "قابل للتّثبيت"
+
+msgid "Installation"
+msgstr "التركيب"
+
+msgid "Installations"
+msgstr "التجهيزات"
+
+msgid "Installed"
+msgstr "مركّب"
+
+msgid "Installer"
+msgstr "المركّب"
+
+msgid "Installers"
+msgstr "المركّبون"
+
+msgid "Installing"
+msgstr "التركيب"
+
+msgid "Installment"
+msgstr "القسط"
+
+msgid "Installments"
+msgstr "الأقساط"
+
+msgid "Installs"
+msgstr "يركّب"
+
+msgid "InstallUninstall"
+msgstr "تنصيبإزالة"
+
+msgid "Instalment"
+msgstr "القسط"
+
+msgid "Instalments"
+msgstr "الأقساط"
+
+msgid "Instance"
+msgstr "الحالة"
+
+msgid "Instanced"
+msgstr "وضّح"
+
+msgid "Instances"
+msgstr "الحالات"
+
+msgid "Instancing"
+msgstr "التّوضيح"
+
+msgid "Instancy"
+msgstr "الفورية"
+
+msgid "Instant"
+msgstr "اللحظة"
+
+msgid "Instantaneous"
+msgstr "آني"
+
+msgid "Instantaneously"
+msgstr "بشكل آني"
+
+msgid "Instantaneousness"
+msgstr "الآنية"
+
+msgid "Instanter"
+msgstr "فورا"
+
+msgid "Instantiate"
+msgstr "مثّل"
+
+msgid "Instantiated"
+msgstr "مثّل"
+
+msgid "Instantiates"
+msgstr "يمثّل"
+
+msgid "Instantiating"
+msgstr "التّمثيل"
+
+msgid "Instantiation"
+msgstr "التّجسيد"
+
+msgid "Instantiations"
+msgstr "التّجسيدات"
+
+msgid "Instantly"
+msgstr "فورا"
+
+msgid "Instantness"
+msgstr "اللحظية"
+
+msgid "Instants"
+msgstr "اللحظات"
+
+msgid "Instated"
+msgstr "منصّب"
+
+msgid "Instates"
+msgstr "ينصّب"
+
+msgid "Instating"
+msgstr "التنصيب"
+
+msgid "Instead"
+msgstr "بدلا من ذلك"
+
+msgid "Instep"
+msgstr "مشط القدم"
+
+msgid "Insteps"
+msgstr "أمشاط الأقدام"
+
+msgid "Instigate"
+msgstr "حرّض"
+
+msgid "Instigated"
+msgstr "محرّض"
+
+msgid "Instigates"
+msgstr "يحرّض"
+
+msgid "Instigating"
+msgstr "التحريض"
+
+msgid "Instigation"
+msgstr "التحريض"
+
+msgid "Instigative"
+msgstr "تحريكي، ثوري"
+
+msgid "Instigator"
+msgstr "المحرض"
+
+msgid "Instigators"
+msgstr "المحرضون"
+
+msgid "Instil"
+msgstr "إغرس"
+
+msgid "Instill"
+msgstr "إغرس"
+
+msgid "Instillation"
+msgstr "التقطير"
+
+msgid "Instilled"
+msgstr "مغروس"
+
+msgid "Instiller"
+msgstr "من يقوم بعملية الغرس"
+
+msgid "Instilling"
+msgstr "الغرس"
+
+msgid "Instills"
+msgstr "يغرس"
+
+msgid "Instils"
+msgstr "يغرس"
+
+msgid "Instinct"
+msgstr "الغريزة"
+
+msgid "Instinctive"
+msgstr "فطري"
+
+msgid "Instinctively"
+msgstr "بالغريزة"
+
+msgid "Instinctiveness"
+msgstr "الفطريّة"
+
+msgid "Instincts"
+msgstr "الغرائز"
+
+msgid "Instinctual"
+msgstr "فطري"
+
+msgid "Institute"
+msgstr "المعهد"
+
+msgid "Instituted"
+msgstr "مفروض"
+
+msgid "Instituter"
+msgstr "المؤسس، المدير"
+
+msgid "Institutes"
+msgstr "المعاهد"
+
+msgid "Instituting"
+msgstr "الفرض"
+
+msgid "Institution"
+msgstr "المؤسسة"
+
+msgid "Institutional"
+msgstr "مؤسساتي"
+
+msgid "Institutionalist"
+msgstr "المؤسسي"
+
+msgid "Institutionalization"
+msgstr "المؤسّساتيّة"
+
+msgid "Institutionalize"
+msgstr "أسّس"
+
+msgid "Institutionalized"
+msgstr "مؤسّس"
+
+msgid "Institutionalizes"
+msgstr "يؤسّس"
+
+msgid "Institutionalizing"
+msgstr "التأسيس"
+
+msgid "Institutionally"
+msgstr "بشكل مؤسساتي"
+
+msgid "Institutions"
+msgstr "المؤسسات"
+
+msgid "Institutive"
+msgstr "إداري"
+
+msgid "Instruct"
+msgstr "مر"
+
+msgid "Instructed"
+msgstr "مأمور"
+
+msgid "Instructing"
+msgstr "الأمر"
+
+msgid "Instruction"
+msgstr "الأمر"
+
+msgid "Instructional"
+msgstr "تعليمي"
+
+msgid "Instructions"
+msgstr "الأوامر"
+
+msgid "Instructive"
+msgstr "تعليمي"
+
+msgid "Instructively"
+msgstr "بشكل تعليمي"
+
+msgid "Instructiveness"
+msgstr "التثقيفيةّ"
+
+msgid "Instructor"
+msgstr "المدرب"
+
+msgid "Instructors"
+msgstr "المدربون"
+
+msgid "Instructs"
+msgstr "يأمر"
+
+msgid "Instrument"
+msgstr "الآلة"
+
+msgid "Instrumental"
+msgstr "ذو دور فعّال"
+
+msgid "Instrumentalist"
+msgstr "العازف"
+
+msgid "Instrumentalists"
+msgstr "العازفون"
+
+msgid "Instrumentalities"
+msgstr "المعزوفات"
+
+msgid "Instrumentality"
+msgstr "الواسطة"
+
+msgid "Instrumentally"
+msgstr "بشكل ذو دور فعّال"
+
+msgid "Instrumentals"
+msgstr "المعزوفات"
+
+msgid "Instrumentation"
+msgstr "توزيع الموسيقي"
+
+msgid "Instrumented"
+msgstr "وجّه"
+
+msgid "Instrumenting"
+msgstr "التّوجيه"
+
+msgid "Instruments"
+msgstr "الآلات"
+
+msgid "Insubordinate"
+msgstr "متمرّد"
+
+msgid "Insubordinately"
+msgstr "بشكل متمرّد"
+
+msgid "Insubordination"
+msgstr "التمرد"
+
+msgid "Insubstantial"
+msgstr "واهي"
+
+msgid "Insubstantiality"
+msgstr "الخيال"
+
+msgid "Insufferable"
+msgstr "لايحتمل"
+
+msgid "Insufferably"
+msgstr "بطريقة لا تحتمل"
+
+msgid "Insufficiencies"
+msgstr "حالات القصور"
+
+msgid "Insufficiency"
+msgstr "القصور"
+
+msgid "Insufficient"
+msgstr "غير كافي"
+
+msgid "Insufficiently"
+msgstr "بشكل غير كافي"
+
+msgid "Insular"
+msgstr "معزول"
+
+msgid "Insularity"
+msgstr "التعصّب"
+
+msgid "Insularly"
+msgstr "بشكل معزول"
+
+msgid "Insulate"
+msgstr "إعزل"
+
+msgid "Insulated"
+msgstr "معزول"
+
+msgid "Insulates"
+msgstr "يعزل"
+
+msgid "Insulating"
+msgstr "العزل"
+
+msgid "Insulation"
+msgstr "العزل"
+
+msgid "Insulations"
+msgstr "العزل"
+
+msgid "Insulator"
+msgstr "العازل"
+
+msgid "Insulators"
+msgstr "العوازل"
+
+msgid "Insulin"
+msgstr "الأنسيولين"
+
+msgid "Insult"
+msgstr "الإهانة"
+
+msgid "Insulted"
+msgstr "مهان"
+
+msgid "Insulter"
+msgstr "المهين"
+
+msgid "Insulting"
+msgstr "الإهانة"
+
+msgid "Insultingly"
+msgstr "بشكل مهين"
+
+msgid "Insults"
+msgstr "الإهانات"
+
+msgid "Insuperable"
+msgstr "منيع"
+
+msgid "Insuperableness"
+msgstr "الإستعصاء - إستعصاء الأمر"
+
+msgid "Insuperably"
+msgstr "بشكل لا يقهر"
+
+msgid "Insupportable"
+msgstr "لايحتمل"
+
+msgid "Insupportableness"
+msgstr "عدم التحمّل"
+
+msgid "Insupportably"
+msgstr "بشكل لا يحتمل"
+
+msgid "Insuppressible"
+msgstr "لا يقمع"
+
+msgid "Insurability"
+msgstr "التّأمين"
+
+msgid "Insurable"
+msgstr "قابل للتأمين"
+
+msgid "Insurance"
+msgstr "التأمين"
+
+msgid "Insurances"
+msgstr "التأمينات"
+
+msgid "Insurant"
+msgstr "المأمّن عليه"
+
+msgid "Insure"
+msgstr "أمّن"
+
+msgid "Insured"
+msgstr "مؤمّن"
+
+msgid "Insuree"
+msgstr "إنجر"
+
+msgid "Insurer"
+msgstr "المؤمّن"
+
+msgid "Insurers"
+msgstr "المؤمّنون"
+
+msgid "Insures"
+msgstr "يأمّن"
+
+msgid "Insurgence"
+msgstr "التمرّد"
+
+msgid "Insurgencies"
+msgstr "أعمال التمرّد"
+
+msgid "Insurgency"
+msgstr "التمرّد"
+
+msgid "Insurgent"
+msgstr "متمرّد"
+
+msgid "Insurgents"
+msgstr "المتمرّدون"
+
+msgid "Insuring"
+msgstr "التأمين"
+
+msgid "Insurmountable"
+msgstr "منيع"
+
+msgid "Insurmountably"
+msgstr "بطريقة مستعصية"
+
+msgid "Insurrection"
+msgstr "التمرد"
+
+msgid "Insurrectionist"
+msgstr "المتمرّد"
+
+msgid "Insurrections"
+msgstr "التمرد"
+
+msgid "Insusceptibility"
+msgstr "المناعة"
+
+msgid "Insusceptible"
+msgstr "لايتأثر"
+
+msgid "Insusceptibly"
+msgstr "بتحصّن"
+
+msgid "Int"
+msgstr "دولي"
+
+msgid "Intact"
+msgstr "سليم"
+
+msgid "Intactly"
+msgstr "بشكل سليم"
+
+msgid "Intactness"
+msgstr "السلامة"
+
+msgid "Intaglio"
+msgstr "النقش"
+
+msgid "Intake"
+msgstr "الكمية"
+
+msgid "Intakes"
+msgstr "الكميات"
+
+msgid "Intangible"
+msgstr "الحاجة المعنوية"
+
+msgid "Intangibleness"
+msgstr "المعنوية"
+
+msgid "Intangibles"
+msgstr "الحاجات المعنوية"
+
+msgid "Intangibly"
+msgstr "بشكل غير ملموس"
+
+msgid "Integer"
+msgstr "العدد الصحيح"
+
+msgid "Integers"
+msgstr "الأعداد الصحيحة"
+
+msgid "Integrable"
+msgstr "متكامل"
+
+msgid "Integral"
+msgstr "تكاملي"
+
+msgid "Integrally"
+msgstr "بشكل تكاملي"
+
+msgid "Integrand"
+msgstr "الكميّة المتكاملة"
+
+msgid "Integrant"
+msgstr "مكمّل"
+
+msgid "Integrate"
+msgstr "كامل"
+
+msgid "Integrated"
+msgstr "متكامل"
+
+msgid "Integrates"
+msgstr "يكامل"
+
+msgid "Integrating"
+msgstr "المكاملة"
+
+msgid "Integration"
+msgstr "التكامل"
+
+msgid "Integrations"
+msgstr "التكامل"
+
+msgid "Integrative"
+msgstr "تكاملي"
+
+msgid "Integrator"
+msgstr "الموحّد"
+
+msgid "Integrity"
+msgstr "النزاهة"
+
+msgid "Integument"
+msgstr "الغلاف"
+
+msgid "Intel"
+msgstr "إنتيل"
+
+msgid "Intellect"
+msgstr "الفكر"
+
+msgid "Intellective"
+msgstr "فكري"
+
+msgid "Intellectively"
+msgstr "بشكل فكري"
+
+msgid "Intellects"
+msgstr "الفكر"
+
+msgid "Intellectual"
+msgstr "المثقّف"
+
+msgid "Intellectuality"
+msgstr "التثقّفية"
+
+msgid "Intellectually"
+msgstr "بشكل ثقافي"
+
+msgid "Intellectualness"
+msgstr "سعة الأُفق"
+
+msgid "Intellectuals"
+msgstr "المثقّفون"
+
+msgid "Intelligence"
+msgstr "الإستخبارات"
+
+msgid "Intelligencer"
+msgstr "المخبر"
+
+msgid "Intelligences"
+msgstr "الإستخبارات"
+
+msgid "Intelligent"
+msgstr "ذكي"
+
+msgid "Intelligently"
+msgstr "بشكل ذكي"
+
+msgid "Intelligentsia"
+msgstr "المثقفون"
+
+msgid "Intelligibility"
+msgstr "الوضوح"
+
+msgid "Intelligible"
+msgstr "واضح"
+
+msgid "Intelligibleness"
+msgstr "الفهم"
+
+msgid "Intelligibly"
+msgstr "بشكل مفهوم"
+
+msgid "Intemperance"
+msgstr "العصبية"
+
+msgid "Intemperances"
+msgstr "العصبية"
+
+msgid "Intemperate"
+msgstr "عصبي"
+
+msgid "Intemperately"
+msgstr "بشكل عصبي"
+
+msgid "Intemperateness"
+msgstr "العصبية"
+
+msgid "Intend"
+msgstr "إنو"
+
+msgid "Intendant"
+msgstr "المشرف"
+
+msgid "Intendants"
+msgstr "المشرفون"
+
+msgid "Intended"
+msgstr "مقصود"
+
+msgid "Intendedly"
+msgstr "بشكل مقصود"
+
+msgid "Intender"
+msgstr "الذي يعتزم"
+
+msgid "Intending"
+msgstr "النيّة"
+
+msgid "Intends"
+msgstr "ينوى"
+
+msgid "Intense"
+msgstr "حادّ"
+
+msgid "Intensely"
+msgstr "بحدّة"
+
+msgid "Intenseness"
+msgstr "الشدّة"
+
+msgid "Intensification"
+msgstr "التركيز"
+
+msgid "Intensified"
+msgstr "مكثّف"
+
+msgid "Intensifier"
+msgstr "المشدّد"
+
+msgid "Intensifiers"
+msgstr "المشدّدات"
+
+msgid "Intensifies"
+msgstr "يشتدّ"
+
+msgid "Intensify"
+msgstr "إشتدّ"
+
+msgid "Intensifying"
+msgstr "الإشتداد"
+
+msgid "Intension"
+msgstr "التوتّر"
+
+msgid "Intensional"
+msgstr "متعلق بالشِّدّة"
+
+msgid "Intensionally"
+msgstr "بصورة كثيفة"
+
+msgid "Intensities"
+msgstr "الكثافة"
+
+msgid "Intensity"
+msgstr "الكثافة"
+
+msgid "IntensityBrightness"
+msgstr "كثافةالإضاءة"
+
+msgid "Intensive"
+msgstr "مركّز"
+
+msgid "Intensively"
+msgstr "بشكل مركّز"
+
+msgid "Intensiveness"
+msgstr "تكثيف"
+
+msgid "Intent"
+msgstr "النية"
+
+msgid "Intention"
+msgstr "النية"
+
+msgid "Intentional"
+msgstr "متعمّد"
+
+msgid "Intentionally"
+msgstr "عمدا"
+
+msgid "Intentioned"
+msgstr "متعمّد"
+
+msgid "Intentions"
+msgstr "النوايا"
+
+msgid "Intently"
+msgstr "باهتمام شديد"
+
+msgid "Intentness"
+msgstr "النية"
+
+msgid "Intents"
+msgstr "النوايا"
+
+msgid "Inter"
+msgstr "بيْن"
+
+msgid "Inter-relation"
+msgstr "علاقة إنتر"
+
+msgid "Interact"
+msgstr "تفاعل"
+
+msgid "Interacted"
+msgstr "متفاعل"
+
+msgid "Interacting"
+msgstr "التفاعل"
+
+msgid "Interaction"
+msgstr "التفاعل"
+
+msgid "Interactions"
+msgstr "التفاعلات"
+
+msgid "Interactive"
+msgstr "تفاعلي"
+
+msgid "Interactively"
+msgstr "بشكل تفاعلي"
+
+msgid "Interactivity"
+msgstr "التفاعلية"
+
+msgid "Interacts"
+msgstr "يتفاعل"
+
+msgid "Interblock"
+msgstr "بين جزئين من المعلومات"
+
+msgid "Interbred"
+msgstr "تهاجن"
+
+msgid "Interbreed"
+msgstr "هجّن"
+
+msgid "Interbreeding"
+msgstr "التهجين"
+
+msgid "Interbreeds"
+msgstr "يهجّن"
+
+msgid "Intercalary"
+msgstr "مقحم"
+
+msgid "Intercalate"
+msgstr "أقحم"
+
+msgid "Intercalated"
+msgstr "مقحم"
+
+msgid "Intercalates"
+msgstr "يقحم"
+
+msgid "Intercalating"
+msgstr "الإقحام"
+
+msgid "Intercalation"
+msgstr "تزويد السّنة بيوم إضافي"
+
+msgid "Intercalative"
+msgstr "إقحامي"
+
+msgid "Intercaste"
+msgstr "عبر حدود الطّبقات الإجتماعية"
+
+msgid "Intercede"
+msgstr "توسّط"
+
+msgid "Interceded"
+msgstr "متوسّط"
+
+msgid "Interceder"
+msgstr "المتوسّل، الوسيط"
+
+msgid "Intercedes"
+msgstr "يتوسّط"
+
+msgid "Interceding"
+msgstr "التوسّط"
+
+msgid "Intercensal"
+msgstr "بين التّعدادات السّكّانيّة"
+
+msgid "Intercept"
+msgstr "الإعتراض"
+
+msgid "Intercepted"
+msgstr "معترض"
+
+msgid "Intercepter"
+msgstr "المتصدّي"
+
+msgid "Intercepting"
+msgstr "الإعتراض"
+
+msgid "Interception"
+msgstr "الإعتراض"
+
+msgid "Interceptor"
+msgstr "المعترض"
+
+msgid "Intercepts"
+msgstr "عمليات الاعتراض"
+
+msgid "Intercession"
+msgstr "الشفاعة"
+
+msgid "Intercessional"
+msgstr "توسّطي"
+
+msgid "Intercessions"
+msgstr "الشفاعة"
+
+msgid "Intercessor"
+msgstr "الشفيع"
+
+msgid "Intercessory"
+msgstr "توسّطي"
+
+msgid "Interchange"
+msgstr "التبادل"
+
+msgid "Interchangeability"
+msgstr "قابلية التبادل"
+
+msgid "Interchangeable"
+msgstr "قابل للتبادل"
+
+msgid "Interchangeableness"
+msgstr "التبادل"
+
+msgid "Interchangeably"
+msgstr "بشكل متبادل"
+
+msgid "Interchanged"
+msgstr "متبادل"
+
+msgid "Interchanger"
+msgstr "المبادل"
+
+msgid "Interchanges"
+msgstr "التبادلات"
+
+msgid "Interchanging"
+msgstr "التبادل"
+
+msgid "Intercity"
+msgstr "بين المدن"
+
+msgid "Interclass"
+msgstr "بين الطّبقات الإجتماعية"
+
+msgid "Intercollegiate"
+msgstr "عبر الكليات"
+
+msgid "Intercom"
+msgstr "الإتصال الداخلي"
+
+msgid "Intercommunicate"
+msgstr "إتّصل"
+
+msgid "Intercommunicated"
+msgstr "متّصل"
+
+msgid "Intercommunicates"
+msgstr "يتّصل"
+
+msgid "Intercommunicating"
+msgstr "الإتّصال"
+
+msgid "Intercommunication"
+msgstr "الاتصال الداخلي"
+
+msgid "Intercoms"
+msgstr "الإتصال الداخلي"
+
+msgid "Interconnect"
+msgstr "إربط"
+
+msgid "Interconnected"
+msgstr "مربوط"
+
+msgid "Interconnectedness"
+msgstr "الترابط"
+
+msgid "Interconnecting"
+msgstr "الربط"
+
+msgid "Interconnection"
+msgstr "الترابط"
+
+msgid "Interconnections"
+msgstr "الترابط"
+
+msgid "Interconnects"
+msgstr "يربط"
+
+msgid "Intercontinental"
+msgstr "عابر للقارات"
+
+msgid "Intercooler"
+msgstr "المبرّد"
+
+msgid "Intercooling"
+msgstr "التبريد"
+
+msgid "Intercostal"
+msgstr "بين الضلوع"
+
+msgid "Intercourse"
+msgstr "الإتصال"
+
+msgid "Intercultural"
+msgstr "متباين الثقافة"
+
+msgid "Interdenominational"
+msgstr "بين الفئات"
+
+msgid "Interdepartmental"
+msgstr "بين الأقسام"
+
+msgid "Interdepartmentally"
+msgstr "بشكل بين الأقسام"
+
+msgid "Interdepend"
+msgstr "إعتمد"
+
+msgid "Interdependence"
+msgstr "الإعتماد"
+
+msgid "Interdependency"
+msgstr "الإعتماد المتبادل"
+
+msgid "Interdependent"
+msgstr "معتمد"
+
+msgid "Interdependently"
+msgstr "بشكل معتمد"
+
+msgid "Interdict"
+msgstr "التحريم"
+
+msgid "Interdicted"
+msgstr "محرّم"
+
+msgid "Interdicting"
+msgstr "التحريم"
+
+msgid "Interdiction"
+msgstr "التحريم"
+
+msgid "Interdictions"
+msgstr "التحريم"
+
+msgid "Interdictive"
+msgstr "إنترديكتيف"
+
+msgid "Interdictively"
+msgstr "بصورة مانعة"
+
+msgid "Interdicts"
+msgstr "التحريم"
+
+msgid "Interdisciplinary"
+msgstr "بين حقول الدراسة"
+
+msgid "Interest"
+msgstr "الإهتمام"
+
+msgid "Interested"
+msgstr "مهتمّ"
+
+msgid "Interestedly"
+msgstr "مهتما"
+
+msgid "Interesting"
+msgstr "الإهتمام"
+
+msgid "Interestingly"
+msgstr "بشكل مثير للأنتباه"
+
+msgid "Interestingness"
+msgstr "الإمتاع"
+
+msgid "Interests"
+msgstr "المصالح"
+
+msgid "Interface"
+msgstr "الوصلة"
+
+msgid "Interfaced"
+msgstr "وصّل"
+
+msgid "Interfaces"
+msgstr "الوصلات"
+
+msgid "Interfacing"
+msgstr "التوصيل"
+
+msgid "Interfaith"
+msgstr "ديني مشترك"
+
+msgid "Interfere"
+msgstr "تدخّل"
+
+msgid "Interfered"
+msgstr "متدخّل"
+
+msgid "Interference"
+msgstr "التدخل"
+
+msgid "Interferences"
+msgstr "التدخلات"
+
+msgid "Interferer"
+msgstr "المتدخّل"
+
+msgid "Interferes"
+msgstr "يتدخّل"
+
+msgid "Interfering"
+msgstr "التدخّل"
+
+msgid "Interferingly"
+msgstr "بتدخّل"
+
+msgid "Interferometer"
+msgstr "مقياس التّداخل"
+
+msgid "Interferometers"
+msgstr "مقاييس التّداخل"
+
+msgid "Interferometric"
+msgstr "متعلق بمقياس التّداخل"
+
+msgid "Interferometry"
+msgstr "متعلق بمقياس التّداخل"
+
+msgid "Interferon"
+msgstr "مضادّ للفيروسات"
+
+msgid "Intergalactic"
+msgstr "بين المجرّات"
+
+msgid "Intergenerational"
+msgstr "بين الأجيال"
+
+msgid "Interglacial"
+msgstr "بين العصور الجليدية"
+
+msgid "Intergovernmental"
+msgstr "ما بين الحكومات"
+
+msgid "Intergroup"
+msgstr "بين المجموعات"
+
+msgid "Interim"
+msgstr "الفاصل"
+
+msgid "Interims"
+msgstr "الفواصل"
+
+msgid "Interior"
+msgstr "الداخل"
+
+msgid "Interiorly"
+msgstr "بشكل داخلي"
+
+msgid "Interiors"
+msgstr "الأشياء الداخلية"
+
+msgid "Interjacent"
+msgstr "بيْن"
+
+msgid "Interject"
+msgstr "تدخّل"
+
+msgid "Interjected"
+msgstr "متدخّل"
+
+msgid "Interjecting"
+msgstr "التدخّل"
+
+msgid "Interjection"
+msgstr "الأقحام"
+
+msgid "Interjectional"
+msgstr "إقحامي"
+
+msgid "Interjectionally"
+msgstr "بشكل إقحامي"
+
+msgid "Interjections"
+msgstr "الأقحام"
+
+msgid "Interjects"
+msgstr "يتدخّل"
+
+msgid "Interlace"
+msgstr "شابك"
+
+msgid "Interlaced"
+msgstr "مشابك"
+
+msgid "Interlaces"
+msgstr "يشابك"
+
+msgid "Interlacing"
+msgstr "المشابكة"
+
+msgid "Interlard"
+msgstr "نوّع"
+
+msgid "Interlarded"
+msgstr "منوّع"
+
+msgid "Interlarding"
+msgstr "التنويع"
+
+msgid "Interlards"
+msgstr "ينوّع"
+
+msgid "Interlayer"
+msgstr "طبقة بين طبقات أخرى"
+
+msgid "Interleaf"
+msgstr "الورقة الموضوعة بين صفحات الكتاب"
+
+msgid "Interleave"
+msgstr "أدخل"
+
+msgid "Interleaved"
+msgstr "مدخل"
+
+msgid "Interleaves"
+msgstr "يدخل"
+
+msgid "Interleaving"
+msgstr "الإدخال"
+
+msgid "Interlibrary"
+msgstr "بين المكتبات"
+
+msgid "Interline"
+msgstr "أدخل"
+
+msgid "Interlinear"
+msgstr "بين السطور"
+
+msgid "Interlined"
+msgstr "مدخل"
+
+msgid "Interlines"
+msgstr "يدخل"
+
+msgid "Interlingua"
+msgstr "اللغة الإصطناعية"
+
+msgid "Interlining"
+msgstr "الإدخال"
+
+msgid "Interlink"
+msgstr "الترابط"
+
+msgid "Interlinked"
+msgstr "مربوط"
+
+msgid "Interlinking"
+msgstr "الربط"
+
+msgid "Interlinks"
+msgstr "الترابطات"
+
+msgid "Interlisp"
+msgstr "إنترليسب - لغة برمجية"
+
+msgid "Interlobular"
+msgstr "بين شحوم الأذن"
+
+msgid "Interlock"
+msgstr "جهاز التعشيق"
+
+msgid "Interlocked"
+msgstr "مشابك"
+
+msgid "Interlocking"
+msgstr "المشابكة"
+
+msgid "Interlocks"
+msgstr "أجهزة التعشيق"
+
+msgid "Interlocution"
+msgstr "المحادثة"
+
+msgid "Interlocutions"
+msgstr "المحادثات"
+
+msgid "Interlocutor"
+msgstr "المتحدّث"
+
+msgid "Interlope"
+msgstr "إنترلوب"
+
+msgid "Interloped"
+msgstr "تطفّل"
+
+msgid "Interloper"
+msgstr "المتطفّل"
+
+msgid "Interlopers"
+msgstr "المتطفّلون"
+
+msgid "Interlopes"
+msgstr "يتطفّل"
+
+msgid "Interloping"
+msgstr "التطفّل"
+
+msgid "Interlude"
+msgstr "الفاصل"
+
+msgid "Interludes"
+msgstr "الفواصل"
+
+msgid "Intermarriage"
+msgstr "التزاوج"
+
+msgid "Intermediaries"
+msgstr "الوسطاء"
+
+msgid "Intermediary"
+msgstr "الوسيط"
+
+msgid "Intermediate"
+msgstr "متوسّط"
+
+msgid "Intermediated"
+msgstr "متوسّط"
+
+msgid "Intermediately"
+msgstr "بشكل متوسّط"
+
+msgid "Intermediateness"
+msgstr "الوساطة"
+
+msgid "Intermediates"
+msgstr "يتوسّط"
+
+msgid "Intermediating"
+msgstr "التوسّط"
+
+msgid "Intermediation"
+msgstr "الوساطة"
+
+msgid "Interment"
+msgstr "الدفن"
+
+msgid "Interments"
+msgstr "يدفن"
+
+msgid "Intermesh"
+msgstr "التّناغم، يتناغم مع"
+
+msgid "Intermeshed"
+msgstr "تشابك"
+
+msgid "Intermezzos"
+msgstr "الفواصل الموسيقية"
+
+msgid "Interminable"
+msgstr "مطوّل"
+
+msgid "Interminableness"
+msgstr "اللانهاية"
+
+msgid "Interminably"
+msgstr "بدون توقّف"
+
+msgid "Intermingle"
+msgstr "إختلط"
+
+msgid "Intermingled"
+msgstr "مختلط"
+
+msgid "Intermingles"
+msgstr "يختلط"
+
+msgid "Intermingling"
+msgstr "الإختلاط"
+
+msgid "Intermission"
+msgstr "الإستراحة"
+
+msgid "Intermissions"
+msgstr "الإستراحة"
+
+msgid "Intermit"
+msgstr "أوقف"
+
+msgid "Intermits"
+msgstr "يوقف"
+
+msgid "Intermitted"
+msgstr "موقف"
+
+msgid "Intermittency"
+msgstr "التقطّع"
+
+msgid "Intermittent"
+msgstr "متقطّع"
+
+msgid "Intermittently"
+msgstr "بشكل متقطّع"
+
+msgid "Intermitting"
+msgstr "الإيقاف"
+
+msgid "Intermix"
+msgstr "إختلط"
+
+msgid "Intermixed"
+msgstr "مختلط"
+
+msgid "Intermixes"
+msgstr "يختلط"
+
+msgid "Intermixing"
+msgstr "الإختلاط"
+
+msgid "Intermixture"
+msgstr "المزيج"
+
+msgid "Intermodule"
+msgstr "إنترمودول"
+
+msgid "Intermolecular"
+msgstr "بين الجزيئات"
+
+msgid "Intermolecularly"
+msgstr "بشكل بين الجزيئات"
+
+msgid "Intern"
+msgstr "الطبيب المقيم"
+
+msgid "Internal"
+msgstr "داخلي"
+
+msgid "Internalization"
+msgstr "التّطبّع"
+
+msgid "Internalize"
+msgstr "إقبل"
+
+msgid "Internalized"
+msgstr "قبل"
+
+msgid "Internalizes"
+msgstr "يقبل"
+
+msgid "Internalizing"
+msgstr "القبول"
+
+msgid "Internally"
+msgstr "داخليا"
+
+msgid "International"
+msgstr "دولي"
+
+msgid "Internationalism"
+msgstr "الدولية"
+
+msgid "Internationalist"
+msgstr "المؤمن بالدّولية"
+
+msgid "Internationalists"
+msgstr "المؤمنون بالدّولية"
+
+msgid "Internationality"
+msgstr "إنترنيشناليتي"
+
+msgid "Internationalization"
+msgstr "العولمة"
+
+msgid "Internationalizations"
+msgstr "العولمة"
+
+msgid "Internationalize"
+msgstr "دوّل"
+
+msgid "Internationalized"
+msgstr "مدوّل"
+
+msgid "Internationalizes"
+msgstr "يدوّل"
+
+msgid "Internationalizing"
+msgstr "التدويل"
+
+msgid "Internationally"
+msgstr "عالميا"
+
+msgid "Internationals"
+msgstr "اللاعبون الدوليون"
+
+msgid "Internecine"
+msgstr "مميت"
+
+msgid "Interned"
+msgstr "محجوز"
+
+msgid "Internet"
+msgstr "الإنترنت"
+
+msgid "Internetwork"
+msgstr "الشبكة الداخلية"
+
+msgid "Interning"
+msgstr "الحجز"
+
+msgid "Internist"
+msgstr "الممارس العامّ"
+
+msgid "Internment"
+msgstr "الحجز"
+
+msgid "Internments"
+msgstr "الإعتقالات"
+
+msgid "Interns"
+msgstr "الأطباء المقيمون"
+
+msgid "Interoffice"
+msgstr "بين المكاتب"
+
+msgid "Interoperability"
+msgstr "القابلية في تبادل المعدّات او المكوّنات"
+
+msgid "Interpenetrate"
+msgstr "إخترق"
+
+msgid "Interpenetrated"
+msgstr "مخترق"
+
+msgid "Interpenetrates"
+msgstr "يخترق"
+
+msgid "Interpenetrating"
+msgstr "الإختراق"
+
+msgid "Interpenetration"
+msgstr "التداخل"
+
+msgid "Interpersonal"
+msgstr "شخصي"
+
+msgid "Interpersonally"
+msgstr "بين الأشخاص"
+
+msgid "Interphone"
+msgstr "الهاتف البينيّ"
+
+msgid "Interplanetary"
+msgstr "بين الكواكب"
+
+msgid "Interplant"
+msgstr "يزرع"
+
+msgid "Interplay"
+msgstr "التفاعل"
+
+msgid "Interpol"
+msgstr "الشرطة الدولية"
+
+msgid "Interpolate"
+msgstr "حرّف"
+
+msgid "Interpolated"
+msgstr "محرّف"
+
+msgid "Interpolates"
+msgstr "يحرّف"
+
+msgid "Interpolating"
+msgstr "التحريف"
+
+msgid "Interpolation"
+msgstr "الزيادة"
+
+msgid "Interpolations"
+msgstr "الزيادات"
+
+msgid "Interpolative"
+msgstr "إقحامي"
+
+msgid "Interpose"
+msgstr "وسّط"
+
+msgid "Interposed"
+msgstr "موسّط"
+
+msgid "Interposer"
+msgstr "المتدخّل"
+
+msgid "Interposes"
+msgstr "يوسّط"
+
+msgid "Interposing"
+msgstr "التوسّط"
+
+msgid "Interposition"
+msgstr "الإعتراض"
+
+msgid "Interpret"
+msgstr "ترجم"
+
+msgid "Interpretable"
+msgstr "قابل للتفسير"
+
+msgid "Interpretation"
+msgstr "التفسير"
+
+msgid "Interpretations"
+msgstr "التفسيرات"
+
+msgid "Interpretative"
+msgstr "تفسيري"
+
+msgid "Interpretatively"
+msgstr "بشكل تفسيري"
+
+msgid "Interpreted"
+msgstr "مترجم"
+
+msgid "Interpreter"
+msgstr "المترجم"
+
+msgid "Interpreters"
+msgstr "المترجمون"
+
+msgid "Interpreting"
+msgstr "الترجمة"
+
+msgid "Interpretive"
+msgstr "تفسيري"
+
+msgid "Interpretively"
+msgstr "بشكل تفسيري"
+
+msgid "Interprets"
+msgstr "يترجم"
+
+msgid "Interracial"
+msgstr "عرقي"
+
+msgid "Interred"
+msgstr "مدفون"
+
+msgid "Interregional"
+msgstr "بين المناطق"
+
+msgid "Interregnum"
+msgstr "فترة خلو العرش"
+
+msgid "Interregnums"
+msgstr "فترات خلو العرش"
+
+msgid "Interrelate"
+msgstr "ترابط"
+
+msgid "Interrelated"
+msgstr "مترابط"
+
+msgid "Interrelatedly"
+msgstr "على شكل علاقة متبادلة"
+
+msgid "Interrelatedness"
+msgstr "العلاقة المتبادلة"
+
+msgid "Interrelates"
+msgstr "يترابط"
+
+msgid "Interrelating"
+msgstr "الترابط"
+
+msgid "Interrelation"
+msgstr "العلاقة المتبادلة"
+
+msgid "Interrelations"
+msgstr "العلاقات المتبادلة"
+
+msgid "Interrelationship"
+msgstr "العلاقة الداخلية"
+
+msgid "Interrelationships"
+msgstr "العلاقات الداخلية"
+
+msgid "Interrogate"
+msgstr "إستجوب"
+
+msgid "Interrogated"
+msgstr "إستجوب"
+
+msgid "Interrogates"
+msgstr "يستجوب"
+
+msgid "Interrogating"
+msgstr "الإستجواب"
+
+msgid "Interrogation"
+msgstr "الإستجواب"
+
+msgid "Interrogations"
+msgstr "الإستجوابات"
+
+msgid "Interrogative"
+msgstr "ضمير الإستفهام"
+
+msgid "Interrogatively"
+msgstr "بشكل إستجوابي"
+
+msgid "Interrogatives"
+msgstr "ضمائر الإستفهام"
+
+msgid "Interrogator"
+msgstr "المستجوب"
+
+msgid "Interrogatories"
+msgstr "استفهاميّات"
+
+msgid "Interrogators"
+msgstr "المستجوبون"
+
+msgid "Interrogatory"
+msgstr "إستجوابي"
+
+msgid "Interrupt"
+msgstr "قاطع"
+
+msgid "Interrupt-controlled"
+msgstr "قاطع مسيطر عليه"
+
+msgid "Interrupt-driven"
+msgstr "قاطع قاد"
+
+msgid "Interrupted"
+msgstr "مقاطع"
+
+msgid "Interrupter"
+msgstr "المقاطع"
+
+msgid "Interrupters"
+msgstr "المقاطعون"
+
+msgid "Interruptible"
+msgstr "عرضة للمقاطعة"
+
+msgid "Interrupting"
+msgstr "المقاطعة"
+
+msgid "Interruption"
+msgstr "التوقف"
+
+msgid "Interruption-free"
+msgstr "خالي من توقف"
+
+msgid "Interruptions"
+msgstr "التوقفات"
+
+msgid "Interruptive"
+msgstr "تقاطعي"
+
+msgid "Interrupts"
+msgstr "يقاطع"
+
+msgid "Inters"
+msgstr "يدفن"
+
+msgid "Intersect"
+msgstr "تقاطع"
+
+msgid "Intersected"
+msgstr "متقاطع"
+
+msgid "Intersecting"
+msgstr "التقاطع"
+
+msgid "Intersection"
+msgstr "التقاطع"
+
+msgid "Intersections"
+msgstr "التقاطعات"
+
+msgid "Intersects"
+msgstr "يتقاطع"
+
+msgid "Interspecies"
+msgstr "بين الأصناف"
+
+msgid "Intersperse"
+msgstr "بعثر"
+
+msgid "Interspersed"
+msgstr "مبعثر"
+
+msgid "Intersperses"
+msgstr "يبعثر"
+
+msgid "Interspersing"
+msgstr "التبعثر"
+
+msgid "Interspersion"
+msgstr "التناثر"
+
+msgid "Interspersions"
+msgstr "التناثر"
+
+msgid "Interstage"
+msgstr "إنترستاج"
+
+msgid "Interstate"
+msgstr "الطريق السريع"
+
+msgid "Interstation"
+msgstr "بين المحطّات"
+
+msgid "Interstellar"
+msgstr "بين النجوم"
+
+msgid "Interstice"
+msgstr "الفجوة"
+
+msgid "Interstices"
+msgstr "الفجوات"
+
+msgid "Interstitial"
+msgstr "فراغي"
+
+msgid "Interstitially"
+msgstr "بشكل فراغي"
+
+msgid "Intertwine"
+msgstr "شابك"
+
+msgid "Intertwined"
+msgstr "مشابك"
+
+msgid "Intertwines"
+msgstr "يشابك"
+
+msgid "Intertwining"
+msgstr "المشابكة"
+
+msgid "Interurban"
+msgstr "بين المدن"
+
+msgid "Interval"
+msgstr "الفترة"
+
+msgid "Intervals"
+msgstr "الفترات"
+
+msgid "Intervene"
+msgstr "تدخّل"
+
+msgid "Intervened"
+msgstr "متدخّل"
+
+msgid "Intervener"
+msgstr "المتدخّل"
+
+msgid "Intervenes"
+msgstr "يتدخّل"
+
+msgid "Intervening"
+msgstr "التدخّل"
+
+msgid "Intervenor"
+msgstr "المتدخّل"
+
+msgid "Intervention"
+msgstr "التدخّل"
+
+msgid "Interventionist"
+msgstr "مؤيد للتدخل"
+
+msgid "Interventions"
+msgstr "التدخّلات"
+
+msgid "Intervertebral"
+msgstr "بين فقرات"
+
+msgid "Interview"
+msgstr "المقابلة"
+
+msgid "Interviewed"
+msgstr "مقابل"
+
+msgid "Interviewee"
+msgstr "المقابل"
+
+msgid "Interviewees"
+msgstr "المقابلون"
+
+msgid "Interviewer"
+msgstr "المقابل"
+
+msgid "Interviewers"
+msgstr "المقابلون"
+
+msgid "Interviewing"
+msgstr "المقابلة"
+
+msgid "Interviews"
+msgstr "المقابلات"
+
+msgid "Intervocalic"
+msgstr "بين الحروف المتحرّكة"
+
+msgid "Interweaves"
+msgstr "يشابك"
+
+msgid "Interweaving"
+msgstr "المشابكة"
+
+msgid "Interwove"
+msgstr "شوبك"
+
+msgid "Interwoven"
+msgstr "مشابك"
+
+msgid "Intestate"
+msgstr "بلا وصيّة"
+
+msgid "Intestinal"
+msgstr "معوي"
+
+msgid "Intestinally"
+msgstr "بشكل معوي"
+
+msgid "Intestine"
+msgstr "الأمعاء"
+
+msgid "Intestines"
+msgstr "الأمعاء"
+
+msgid "Intifada"
+msgstr "الانتفاضة الفلسطينيّة"
+
+msgid "Intimacies"
+msgstr "الحميميات"
+
+msgid "Intimacy"
+msgstr "الألفة"
+
+msgid "Intimal"
+msgstr "إنتيمال"
+
+msgid "Intimate"
+msgstr "عميق"
+
+msgid "Intimated"
+msgstr "معلن"
+
+msgid "Intimately"
+msgstr "بحميمية"
+
+msgid "Intimateness"
+msgstr "المودّة"
+
+msgid "Intimater"
+msgstr "عميق"
+
+msgid "Intimates"
+msgstr "يعلن"
+
+msgid "Intimating"
+msgstr "الإعلان"
+
+msgid "Intimation"
+msgstr "التنويه"
+
+msgid "Intimations"
+msgstr "التنويهات"
+
+msgid "Intimidate"
+msgstr "أخف"
+
+msgid "Intimidated"
+msgstr "مخاف"
+
+msgid "Intimidates"
+msgstr "يخيف"
+
+msgid "Intimidating"
+msgstr "الإخافة"
+
+msgid "Intimidation"
+msgstr "التخويف"
+
+msgid "Into"
+msgstr "إلى"
+
+msgid "Intolerability"
+msgstr "الصفّة الغير محتملة"
+
+msgid "Intolerable"
+msgstr "لايطاق"
+
+msgid "Intolerableness"
+msgstr "عدم تحمّل"
+
+msgid "Intolerably"
+msgstr "بشكل لا يطاق"
+
+msgid "Intolerance"
+msgstr "التعصّب"
+
+msgid "Intolerant"
+msgstr "عديم التسامح"
+
+msgid "Intolerantly"
+msgstr "بدون تسامح"
+
+msgid "Intolerantness"
+msgstr "إنعدام قدرة أو كُره التّحمّل"
+
+msgid "Intonate"
+msgstr "رتّل"
+
+msgid "Intonation"
+msgstr "الترنيم"
+
+msgid "Intonations"
+msgstr "الترنيم"
+
+msgid "Intone"
+msgstr "رتّل"
+
+msgid "Intoned"
+msgstr "مرتّل"
+
+msgid "Intoner"
+msgstr "المرتّل"
+
+msgid "Intones"
+msgstr "يرتّل"
+
+msgid "Intoning"
+msgstr "الترتيل"
+
+msgid "Intorsion"
+msgstr "اللي"
+
+msgid "Intoxicant"
+msgstr "مسكّر"
+
+msgid "Intoxicantly"
+msgstr "بشكل مسكّر"
+
+msgid "Intoxicants"
+msgstr "المسكرات"
+
+msgid "Intoxicate"
+msgstr "سمّم"
+
+msgid "Intoxicated"
+msgstr "مسمّم"
+
+msgid "Intoxicatedly"
+msgstr "بصورة ثملة"
+
+msgid "Intoxicates"
+msgstr "يسمّم"
+
+msgid "Intoxicating"
+msgstr "التسمّم"
+
+msgid "Intoxicatingly"
+msgstr "بشكل مسمّم"
+
+msgid "Intoxication"
+msgstr "التسمّم"
+
+msgid "Intra"
+msgstr "داخل"
+
+msgid "Intra-ocular"
+msgstr "داخل بصري"
+
+msgid "Intracity"
+msgstr "ضمن المدينة"
+
+msgid "Intractability"
+msgstr "العناد"
+
+msgid "Intractable"
+msgstr "عنيد"
+
+msgid "Intractableness"
+msgstr "إستحالة السّحب"
+
+msgid "Intractably"
+msgstr "بعناد"
+
+msgid "Intradepartmental"
+msgstr "في نطاق الدائرة"
+
+msgid "Intramolecular"
+msgstr "داخل الذرّة"
+
+msgid "Intramural"
+msgstr "داخلي"
+
+msgid "Intramurally"
+msgstr "بشكل داخلي"
+
+msgid "Intramuscular"
+msgstr "داخل العضل"
+
+msgid "Intramuscularly"
+msgstr "عضليّ"
+
+msgid "Intranasal"
+msgstr "داخل الأنف"
+
+msgid "Intransigence"
+msgstr "العناد"
+
+msgid "Intransigent"
+msgstr "العنيد"
+
+msgid "Intransigently"
+msgstr "بعناد"
+
+msgid "Intransigents"
+msgstr "العنيدون"
+
+msgid "Intransitive"
+msgstr "اللازم"
+
+msgid "Intransitively"
+msgstr "بشكل لازم"
+
+msgid "Intransitiveness"
+msgstr "العلاقة النّحويّة المتكونة بالفعل اللازم"
+
+msgid "Intrapulmonary"
+msgstr "رئوي"
+
+msgid "Intrastate"
+msgstr "داخل الولاية"
+
+msgid "Intravenous"
+msgstr "وريدي"
+
+msgid "Intravenously"
+msgstr "بشكل وريدي"
+
+msgid "Intrepid"
+msgstr "باسل"
+
+msgid "Intrepidity"
+msgstr "الجرءة"
+
+msgid "Intrepidly"
+msgstr "بشكل باسل"
+
+msgid "Intrepidness"
+msgstr "الجرأة"
+
+msgid "Intricacies"
+msgstr "التعقيدات"
+
+msgid "Intricacy"
+msgstr "التعقيد"
+
+msgid "Intricate"
+msgstr "معقّد"
+
+msgid "Intricately"
+msgstr "بشكل معقّد"
+
+msgid "Intricateness"
+msgstr "التعقيد"
+
+msgid "Intrigue"
+msgstr "الإثارة"
+
+msgid "Intrigued"
+msgstr "مفتون"
+
+msgid "Intriguer"
+msgstr "الفاتن"
+
+msgid "Intriguers"
+msgstr "الفاتنون"
+
+msgid "Intrigues"
+msgstr "الدسائس"
+
+msgid "Intriguing"
+msgstr "الفتنة"
+
+msgid "Intriguingly"
+msgstr "بشكل مثير"
+
+msgid "Intrinsic"
+msgstr "جوهري"
+
+msgid "Intrinsically"
+msgstr "جوهريا"
+
+msgid "Intrinsics"
+msgstr "إينترينساكس - مكتبية تعمل على أساس المكتبية Xlib"
+
+msgid "Intro"
+msgstr "إنترو"
+
+msgid "Introduce"
+msgstr "قدّم"
+
+msgid "Introduced"
+msgstr "مقدّم"
+
+msgid "Introducer"
+msgstr "المقدّم"
+
+msgid "Introduces"
+msgstr "يقدّم"
+
+msgid "Introducing"
+msgstr "التقديم"
+
+msgid "Introduction"
+msgstr "المقدمة"
+
+msgid "Introductions"
+msgstr "المقدمات"
+
+msgid "Introductive"
+msgstr "تمهيدي"
+
+msgid "Introductorily"
+msgstr "تمهيديا"
+
+msgid "Introductory"
+msgstr "تمهيدي"
+
+msgid "Introit"
+msgstr "اللّحن الافتتاحيّ"
+
+msgid "Introject"
+msgstr "إغرس"
+
+msgid "Introjected"
+msgstr "مغروس"
+
+msgid "Introjects"
+msgstr "يغرس"
+
+msgid "Introspect"
+msgstr "إفحص"
+
+msgid "Introspected"
+msgstr "مفحوص"
+
+msgid "Introspecting"
+msgstr "التفحّص"
+
+msgid "Introspection"
+msgstr "تأمل النفس"
+
+msgid "Introspections"
+msgstr "تأمل النفس"
+
+msgid "Introspective"
+msgstr "متعمّق"
+
+msgid "Introspectively"
+msgstr "بتعمّق"
+
+msgid "Introspectiveness"
+msgstr "التّأمّل عن وضعك و مشاعرك الخاصّة"
+
+msgid "Introversion"
+msgstr "الإنطواء الذاتي"
+
+msgid "Introversive"
+msgstr "إنطوائي"
+
+msgid "Introvert"
+msgstr "الإنطوائي"
+
+msgid "Introverted"
+msgstr "إنطوائي"
+
+msgid "Intrude"
+msgstr "تطفّل"
+
+msgid "Intruded"
+msgstr "متطفّل"
+
+msgid "Intruder"
+msgstr "الدخيل"
+
+msgid "Intruders"
+msgstr "الدخلاء"
+
+msgid "Intrudes"
+msgstr "يتطفّل"
+
+msgid "Intruding"
+msgstr "التطفّل"
+
+msgid "Intrusion"
+msgstr "التدخل"
+
+msgid "Intrusions"
+msgstr "التدخلات"
+
+msgid "Intrusive"
+msgstr "تدخلي"
+
+msgid "Intrusively"
+msgstr "بشكل تدخلي"
+
+msgid "Intrusiveness"
+msgstr "التّطفّل"
+
+msgid "Intrust"
+msgstr "إئتمن"
+
+msgid "Intrusted"
+msgstr "مؤتمن"
+
+msgid "Intrusting"
+msgstr "الإئتمان"
+
+msgid "Intrusts"
+msgstr "يأتمن"
+
+msgid "Intubate"
+msgstr "أدخل أنبوب"
+
+msgid "Intubated"
+msgstr "مدخل أنبوب"
+
+msgid "Intubates"
+msgstr "يدخل أنبوب"
+
+msgid "Intubating"
+msgstr "إدخال أنبوب"
+
+msgid "Intubation"
+msgstr "عملية إبقاء العضو البشري مفتوحاً بواسطة أنبوب"
+
+msgid "Intuit"
+msgstr "إحدس"
+
+msgid "Intuited"
+msgstr "محدوس"
+
+msgid "Intuition"
+msgstr "الحدس"
+
+msgid "Intuitional"
+msgstr "حدسي"
+
+msgid "Intuitionally"
+msgstr "بشكل حدسي"
+
+msgid "Intuitionist"
+msgstr "حدسيّ"
+
+msgid "Intuitions"
+msgstr "البديهيات"
+
+msgid "Intuitive"
+msgstr "حدسي"
+
+msgid "Intuitively"
+msgstr "بشكل حدسي"
+
+msgid "Intuitiveness"
+msgstr "البداهة"
+
+msgid "Inunction"
+msgstr "مسح الدهدان "
+
+msgid "Inundate"
+msgstr "فض"
+
+msgid "Inundated"
+msgstr "مفيض"
+
+msgid "Inundates"
+msgstr "يفيض"
+
+msgid "Inundating"
+msgstr "الفيضان"
+
+msgid "Inundation"
+msgstr "الغمر"
+
+msgid "Inundations"
+msgstr "الغمر"
+
+msgid "Inure"
+msgstr "تعوّد"
+
+msgid "Inured"
+msgstr "متعوّد"
+
+msgid "Inurement"
+msgstr "عادة، طبع"
+
+msgid "Inures"
+msgstr "يتعوّد"
+
+msgid "Inuring"
+msgstr "التعوّد"
+
+msgid "Inutile"
+msgstr "عديم الفائدة"
+
+msgid "Invade"
+msgstr "إغز"
+
+msgid "Invaded"
+msgstr "مغزو"
+
+msgid "Invader"
+msgstr "المحتل"
+
+msgid "Invaders"
+msgstr "المحتلون"
+
+msgid "Invades"
+msgstr "يغزو"
+
+msgid "Invading"
+msgstr "الغزو"
+
+msgid "Invalid"
+msgstr "العاجز"
+
+msgid "Invalidate"
+msgstr "أبطل"
+
+msgid "Invalidated"
+msgstr "مبطل"
+
+msgid "Invalidates"
+msgstr "يبطل"
+
+msgid "Invalidating"
+msgstr "الإبطال"
+
+msgid "Invalidation"
+msgstr "الإبطال"
+
+msgid "Invalidations"
+msgstr "الإبطال"
+
+msgid "Invalidism"
+msgstr "السقام"
+
+msgid "Invalidity"
+msgstr "البطلان"
+
+msgid "Invalidly"
+msgstr "باطلا"
+
+msgid "Invalidness"
+msgstr "البطلان"
+
+msgid "Invalids"
+msgstr "العاجزون"
+
+msgid "Invaluable"
+msgstr "ثمين"
+
+msgid "Invaluableness"
+msgstr "الثمن الباهض"
+
+msgid "Invaluably"
+msgstr "بشكل ثمين"
+
+msgid "Invariability"
+msgstr "الثبات"
+
+msgid "Invariable"
+msgstr "ثابت"
+
+msgid "Invariableness"
+msgstr "الثبات"
+
+msgid "Invariably"
+msgstr "دائما"
+
+msgid "Invariance"
+msgstr "الثابتية"
+
+msgid "Invariant"
+msgstr "الثابت"
+
+msgid "Invariantly"
+msgstr "بشكل ثابت"
+
+msgid "Invariants"
+msgstr "الثوابت"
+
+msgid "Invasion"
+msgstr "الإحتلال"
+
+msgid "Invasions"
+msgstr "عمليات الاحتلال"
+
+msgid "Invasive"
+msgstr "منتشر"
+
+msgid "Invasively"
+msgstr "بشكل منتشر"
+
+msgid "Invasiveness"
+msgstr "الجانب العدواني من عملية الغزو"
+
+msgid "Invective"
+msgstr "الإهانة"
+
+msgid "Invectively"
+msgstr "بشكل شاتم"
+
+msgid "Invectiveness"
+msgstr "القذف، السّب"
+
+msgid "Invectives"
+msgstr "الإهانات"
+
+msgid "Inveigh"
+msgstr "هاجم"
+
+msgid "Inveighed"
+msgstr "مندّد ب"
+
+msgid "Inveigher"
+msgstr "المحْتج"
+
+msgid "Inveighs"
+msgstr "يندّد به"
+
+msgid "Inveigle"
+msgstr "إستدرج"
+
+msgid "Inveigled"
+msgstr "مستدرج"
+
+msgid "Inveigler"
+msgstr "المستدرج"
+
+msgid "Inveigles"
+msgstr "يستدرج"
+
+msgid "Inveigling"
+msgstr "الإستدراج"
+
+msgid "Invent"
+msgstr "إخترع"
+
+msgid "Invented"
+msgstr "مخترع"
+
+msgid "Inventing"
+msgstr "الإختراع"
+
+msgid "Invention"
+msgstr "الإختراع"
+
+msgid "Inventions"
+msgstr "الإختراعات"
+
+msgid "Inventive"
+msgstr "مخترع"
+
+msgid "Inventively"
+msgstr "بشكل مخترع"
+
+msgid "Inventiveness"
+msgstr "الإختراعية"
+
+msgid "Inventor"
+msgstr "المخترع"
+
+msgid "Inventoried"
+msgstr "أعدّ قائمة، أحصى"
+
+msgid "Inventories"
+msgstr "الموجودات"
+
+msgid "Inventors"
+msgstr "المخترعون"
+
+msgid "Inventory"
+msgstr "الجرد"
+
+msgid "Inventorying"
+msgstr "الإحصاء، إعداد قائمة بالممتلكات"
+
+msgid "Invents"
+msgstr "يخترع"
+
+msgid "Inveracity"
+msgstr "الخداع"
+
+msgid "Inverness"
+msgstr "شال بلا أكمام"
+
+msgid "Inverse"
+msgstr "معكوس"
+
+msgid "Inversely"
+msgstr "عكسيا"
+
+msgid "Inverses"
+msgstr "العكوس"
+
+msgid "Inversion"
+msgstr "العكس"
+
+msgid "Inversions"
+msgstr "العكس"
+
+msgid "Inversive"
+msgstr "عكسي"
+
+msgid "Invert"
+msgstr "المقلوب"
+
+msgid "Invertebrate"
+msgstr "اللا فقريات"
+
+msgid "Invertebrates"
+msgstr "اللا فقريات"
+
+msgid "Inverted"
+msgstr "معكوس"
+
+msgid "Inverter"
+msgstr "العاكس - الذي يقوم بعملية العكس"
+
+msgid "Inverters"
+msgstr "العاكسون"
+
+msgid "Invertible"
+msgstr "قابل للعكس"
+
+msgid "Inverting"
+msgstr "العكس"
+
+msgid "Inverts"
+msgstr "المقلوب"
+
+msgid "Invest"
+msgstr "إستثمر"
+
+msgid "Invested"
+msgstr "مستثمر"
+
+msgid "Investigate"
+msgstr "حقّق فيه"
+
+msgid "Investigated"
+msgstr "حقّق فيه"
+
+msgid "Investigates"
+msgstr "يحقّق فيه"
+
+msgid "Investigating"
+msgstr "التحقيق في"
+
+msgid "Investigation"
+msgstr "التحقيق"
+
+msgid "Investigations"
+msgstr "التحقيقات"
+
+msgid "Investigative"
+msgstr "إستقصائي"
+
+msgid "Investigator"
+msgstr "المحقّق"
+
+msgid "Investigators"
+msgstr "المحقّقون"
+
+msgid "Investigatory"
+msgstr "تحقيقي"
+
+msgid "Investing"
+msgstr "الإستثمار"
+
+msgid "Investiture"
+msgstr "الإستثمار"
+
+msgid "Investment"
+msgstr "الإستثمار"
+
+msgid "Investments"
+msgstr "الإستثمارات"
+
+msgid "Investor"
+msgstr "المستثمر"
+
+msgid "Investors"
+msgstr "المستثمرون"
+
+msgid "Invests"
+msgstr "يستثمر"
+
+msgid "Inveteracy"
+msgstr "الرسوخ"
+
+msgid "Inveterate"
+msgstr "راسخ"
+
+msgid "Inveterately"
+msgstr "بشكل راسخ"
+
+msgid "Inviability"
+msgstr "إنعدام قدرة التطوير"
+
+msgid "Inviable"
+msgstr "غير مكتمل"
+
+msgid "Invidious"
+msgstr "حسود"
+
+msgid "Invidiously"
+msgstr "حسدا"
+
+msgid "Invidiousness"
+msgstr "الحسد"
+
+msgid "Invigilate"
+msgstr "راقب"
+
+msgid "Invigilator"
+msgstr "المراقب"
+
+msgid "Invigorate"
+msgstr "نشّط"
+
+msgid "Invigorated"
+msgstr "منشّط"
+
+msgid "Invigorates"
+msgstr "ينشّط"
+
+msgid "Invigorating"
+msgstr "التنشيط"
+
+msgid "Invigoratingly"
+msgstr "بحيويّة"
+
+msgid "Invigoration"
+msgstr "الإنتعاش"
+
+msgid "Invigorations"
+msgstr "الإنتعاش"
+
+msgid "Invincibility"
+msgstr "المناعة"
+
+msgid "Invincible"
+msgstr "منيع"
+
+msgid "Invincibleness"
+msgstr "اللاقهر"
+
+msgid "Inviolability"
+msgstr "الحصانة"
+
+msgid "Inviolable"
+msgstr "منيع"
+
+msgid "Inviolableness"
+msgstr "المناعة من الإختراقات"
+
+msgid "Inviolably"
+msgstr "بلا إختراقات"
+
+msgid "Inviolacy"
+msgstr "السلامة، لم يُمس من قِبَل الاخرين"
+
+msgid "Inviolate"
+msgstr "منيع"
+
+msgid "Inviolately"
+msgstr "بشكل منيع"
+
+msgid "Inviolateness"
+msgstr "السلامة، لم يُمس"
+
+msgid "Invisibility"
+msgstr "الخفاء"
+
+msgid "Invisible"
+msgstr "مخفي"
+
+msgid "Invisibleness"
+msgstr "الإختفاء"
+
+msgid "Invisibly"
+msgstr "بخفاء"
+
+msgid "Invitation"
+msgstr "الدعوة"
+
+msgid "Invitational"
+msgstr "مقصور للمدعوين فقط"
+
+msgid "Invitations"
+msgstr "الدعوات"
+
+msgid "Invite"
+msgstr "إدع"
+
+msgid "Invited"
+msgstr "مدعو"
+
+msgid "Invitee"
+msgstr "المدعو"
+
+msgid "Invitees"
+msgstr "المدعوون"
+
+msgid "Inviter"
+msgstr "الداعي"
+
+msgid "Invites"
+msgstr "الدعوات"
+
+msgid "Inviting"
+msgstr "الدعوة"
+
+msgid "Invitingly"
+msgstr "بشكل ممتع"
+
+msgid "Invocate"
+msgstr "ينادي على، يستشهد بـ"
+
+msgid "Invocation"
+msgstr "الدعاء"
+
+msgid "Invocations"
+msgstr "الدعوات"
+
+msgid "Invoice"
+msgstr "الفاتورة"
+
+msgid "Invoiced"
+msgstr "منظّم فاتورة"
+
+msgid "Invoices"
+msgstr "الفواتير"
+
+msgid "Invoicing"
+msgstr "تنظيم فاتورة"
+
+msgid "Invoke"
+msgstr "تضرّع"
+
+msgid "Invoked"
+msgstr "متضرّع"
+
+msgid "Invoker"
+msgstr "المنادي على، المستشهد بـ"
+
+msgid "Invokers"
+msgstr "المنادون على، المستشهدون بـ"
+
+msgid "Invokes"
+msgstr "يتضرّع"
+
+msgid "Invoking"
+msgstr "التضرّع"
+
+msgid "Involuntarily"
+msgstr "تلقائيا"
+
+msgid "Involuntariness"
+msgstr "اللّاإراديّة"
+
+msgid "Involuntary"
+msgstr "تلقائي"
+
+msgid "Involute"
+msgstr "مطوي"
+
+msgid "Involuted"
+msgstr "مطوي"
+
+msgid "Involutely"
+msgstr "بشكل مطوي"
+
+msgid "Involution"
+msgstr "الإلتفاف"
+
+msgid "Involutions"
+msgstr "الإلتفاف"
+
+msgid "Involve"
+msgstr "تضمّن"
+
+msgid "Involved"
+msgstr "ذو علاقة"
+
+msgid "Involvedly"
+msgstr "بشكل ذو علاقة"
+
+msgid "Involvement"
+msgstr "التدخّل"
+
+msgid "Involvements"
+msgstr "الإرتباطات"
+
+msgid "Involver"
+msgstr "المُحتوي على، المشارك بـ"
+
+msgid "Involves"
+msgstr "يتضمّن"
+
+msgid "Involving"
+msgstr "التضمين"
+
+msgid "Invulnerability"
+msgstr "الحصانة"
+
+msgid "Invulnerable"
+msgstr "منيع"
+
+msgid "Invulnerableness"
+msgstr "المناعة"
+
+msgid "Invulnerably"
+msgstr "بقوّة"
+
+msgid "Inward"
+msgstr "داخلي"
+
+msgid "Inwardly"
+msgstr "داخليا"
+
+msgid "Inwardness"
+msgstr "الجوهر"
+
+msgid "Inwards"
+msgstr "إلى الداخل"
+
+msgid "Inwrought"
+msgstr "مزخرف"
+
+msgid "Io"
+msgstr "أيو - البكر التي أُحِبهاَّ زيوس - أساطير يونانيّة"
+
+msgid "IO-Port"
+msgstr "نافذة الإدخال والإخراج"
+
+msgid "IO-Range"
+msgstr "مجال الإدخال والإخراج"
+
+msgid "Ioctl"
+msgstr "التحكّم بالداخل والخارج - برمجيّات"
+
+msgid "Iodate"
+msgstr "يعالج بـ اليود"
+
+msgid "Iodated"
+msgstr "عالج بـ اليود"
+
+msgid "Iodating"
+msgstr "المعالجة بـ اليود"
+
+msgid "Iodation"
+msgstr "المعالجة بـ اليود"
+
+msgid "Iodide"
+msgstr "اليوديد"
+
+msgid "Iodinate"
+msgstr "عالج باليود"
+
+msgid "Iodinated"
+msgstr "معالج بـ اليود"
+
+msgid "Iodinating"
+msgstr "المعالجة بـ اليود"
+
+msgid "Iodination"
+msgstr "المعالجة بـ اليود"
+
+msgid "Iodine"
+msgstr "اليود"
+
+msgid "Ion"
+msgstr "الآيون"
+
+msgid "Ionic"
+msgstr "أيوني"
+
+msgid "Ionisation"
+msgstr "التأيّن"
+
+msgid "Ionizable"
+msgstr "قابل للتأين"
+
+msgid "Ionization"
+msgstr "التأيّن"
+
+msgid "Ionize"
+msgstr "أيّن"
+
+msgid "Ionized"
+msgstr "مؤيّن"
+
+msgid "Ionizer"
+msgstr "المؤيّن"
+
+msgid "Ionizes"
+msgstr "يأيّن"
+
+msgid "Ionizing"
+msgstr "التأيين"
+
+msgid "Ionosphere"
+msgstr "الأيونوسفير"
+
+msgid "Ionospheric"
+msgstr "أيونوسفيري"
+
+msgid "Ions"
+msgstr "الآيونات"
+
+msgid "Iota"
+msgstr "الأيوتا"
+
+msgid "Iotas"
+msgstr "الأيوتا"
+
+msgid "Iou"
+msgstr "وعد بدفع الدين أو المستحقات"
+
+msgid "Iowa"
+msgstr "آيوا"
+
+msgid "Ipecac"
+msgstr "إيبيكا - شجيرة أمريكيّة استوائيّة"
+
+msgid "Ipsilateral"
+msgstr "متعلق بـ نفس الجانب من جسم الإنسان"
+
+msgid "Ipso"
+msgstr "إيبسو - منظّمة الدّراسات التّحليليّة الدّوليّة"
+
+msgid "IQ"
+msgstr "معامل الذّكاء"
+
+msgid "IR"
+msgstr "دون الأشعة الحمراء"
+
+msgid "Ira"
+msgstr "الجيش الجمهوري الآيرلندي"
+
+msgid "Iran"
+msgstr "إيران"
+
+msgid "Iranian"
+msgstr "الإيراني"
+
+msgid "Iraq"
+msgstr "العراق"
+
+msgid "Iraqi"
+msgstr "العراقي"
+
+msgid "Irascibility"
+msgstr "سرعة التهيّج"
+
+msgid "Irascible"
+msgstr "غضوب"
+
+msgid "Irascibleness"
+msgstr "سرعة الغضب"
+
+msgid "Irascibly"
+msgstr "غضوبا"
+
+msgid "Irate"
+msgstr "غاضب"
+
+msgid "Irately"
+msgstr "بغضب شديد"
+
+msgid "Irateness"
+msgstr "السّخط"
+
+msgid "Ire"
+msgstr "الغضب"
+
+msgid "Ireland"
+msgstr "إيرلنده"
+
+msgid "Irene"
+msgstr "إرين"
+
+msgid "Ires"
+msgstr "الغضب"
+
+msgid "Iridescence"
+msgstr "متخيّف الألوان"
+
+msgid "Iridescent"
+msgstr "قزحي الألوان"
+
+msgid "Iridescently"
+msgstr "قزحيا"
+
+msgid "Iridium"
+msgstr "الإيريديوم"
+
+msgid "Iris"
+msgstr "آيريس"
+
+msgid "Irises"
+msgstr "القزحيّات"
+
+msgid "Irish"
+msgstr "آيرلندي"
+
+msgid "Irishman"
+msgstr "الآيرلندي"
+
+msgid "Irishmen"
+msgstr "الآيرلنديون"
+
+msgid "Irishwoman"
+msgstr "الآيرلندية"
+
+msgid "Irk"
+msgstr "أتعب"
+
+msgid "Irked"
+msgstr "متعب"
+
+msgid "Irking"
+msgstr "الإتعاب"
+
+msgid "Irks"
+msgstr "يتعب"
+
+msgid "Irksome"
+msgstr "شاق"
+
+msgid "Irksomely"
+msgstr "بمشقّة"
+
+msgid "Irksomeness"
+msgstr "الملل"
+
+msgid "Irma"
+msgstr "إرما"
+
+msgid "Iron"
+msgstr "الحديد"
+
+msgid "Ironclad"
+msgstr "المدرعة"
+
+msgid "Ironed"
+msgstr "مكوي"
+
+msgid "Ironer"
+msgstr "حديدي"
+
+msgid "Ironic"
+msgstr "ساخر"
+
+msgid "Ironical"
+msgstr "ساخر"
+
+msgid "Ironically"
+msgstr "من سخرية القدر"
+
+msgid "Ironicalness"
+msgstr "التهكمية"
+
+msgid "Ironicly"
+msgstr "بشكل ساخر"
+
+msgid "Ironies"
+msgstr "السخريات"
+
+msgid "Ironing"
+msgstr "الكوي"
+
+msgid "Ironings"
+msgstr "الكوي"
+
+msgid "Ironmonger"
+msgstr "تاجر الحديد"
+
+msgid "Ironmongers"
+msgstr "تجار الحديد"
+
+msgid "Ironness"
+msgstr "الحديدية"
+
+msgid "Irons"
+msgstr "الحديد"
+
+msgid "Ironside"
+msgstr "رجل ذو قوّة كبيرة أو شّجاعة"
+
+msgid "Ironsides"
+msgstr "رجال ذوو قوّة كبيرة أو شّجاعة"
+
+msgid "Ironstone"
+msgstr "حجر الحديد"
+
+msgid "Ironwood"
+msgstr "الخشب القوي"
+
+msgid "Ironwork"
+msgstr "الشغل الحديدي"
+
+msgid "Ironworker"
+msgstr "الحدّاد"
+
+msgid "Ironworks"
+msgstr "الأشغال الحديدية"
+
+msgid "Irony"
+msgstr "السخرية"
+
+msgid "Iroquois"
+msgstr "إيروكويس - أمريكيّ أصليّ يسكن ولاية نيويورك"
+
+msgid "Irradiance"
+msgstr "الإشعاع"
+
+msgid "Irradiate"
+msgstr "أضئ"
+
+msgid "Irradiated"
+msgstr "مضاء"
+
+msgid "Irradiates"
+msgstr "يضيئ"
+
+msgid "Irradiating"
+msgstr "الإضاءة"
+
+msgid "Irradiation"
+msgstr "الإنارة"
+
+msgid "Irradiative"
+msgstr "مشعّ"
+
+msgid "Irrational"
+msgstr "لا عقلاني"
+
+msgid "Irrationality"
+msgstr "اللا عقلانية"
+
+msgid "Irrationally"
+msgstr "بشكل لا عقلاني"
+
+msgid "Irrationalness"
+msgstr "اللا منطقية"
+
+msgid "Irrationals"
+msgstr "اللا عقلانيون"
+
+msgid "Irrawaddy"
+msgstr "إيراوادي - نهر في  ميانمار"
+
+msgid "Irreclaimable"
+msgstr "غير قابل للإسترداد"
+
+msgid "Irreclaimably"
+msgstr "لا يمكن إسترجاعه"
+
+msgid "Irrecognizable"
+msgstr "متعذّر التمييز"
+
+msgid "Irreconcilability"
+msgstr "التناقض"
+
+msgid "Irreconcilable"
+msgstr "متناقض"
+
+msgid "Irreconcilableness"
+msgstr "اللا قابلية للحلّ"
+
+msgid "Irreconcilably"
+msgstr "بشكل متناقض"
+
+msgid "Irrecoverable"
+msgstr "لايسترد"
+
+msgid "Irrecoverableness"
+msgstr "إنعدام قدرة الإسترجاع"
+
+msgid "Irredeemability"
+msgstr "فقدان القدرة على التعويض"
+
+msgid "Irredeemable"
+msgstr "لايعوّض"
+
+msgid "Irredeemableness"
+msgstr "عدم إمكانية التعويض"
+
+msgid "Irredeemably"
+msgstr "بشكل لا يعوّض"
+
+msgid "Irredentism"
+msgstr "الوحدويّة"
+
+msgid "Irredentist"
+msgstr "تحرريّ"
+
+msgid "Irreducible"
+msgstr "متعذر الإنقاص"
+
+msgid "Irreducibly"
+msgstr "بشكل غير قابل للإنقاص"
+
+msgid "Irreflexive"
+msgstr "غير متبادل"
+
+msgid "Irrefragable"
+msgstr "غير قابل للدحض"
+
+msgid "Irrefragably"
+msgstr "بصورة معروفة"
+
+msgid "Irrefutability"
+msgstr "اللاتناقضية"
+
+msgid "Irrefutable"
+msgstr "غير قابل للدحض"
+
+msgid "Irrefutably"
+msgstr "بشكل لايقبل الجدل"
+
+msgid "Irregardless"
+msgstr "بالرّغم من كل شيئ"
+
+msgid "Irregular"
+msgstr "شاذ"
+
+msgid "Irregularities"
+msgstr "المخالفات"
+
+msgid "Irregularity"
+msgstr "المخالفة"
+
+msgid "Irregularly"
+msgstr "بدون إنتظام"
+
+msgid "Irregulars"
+msgstr "إريجولارس"
+
+msgid "Irrelevance"
+msgstr "اللا علاقية"
+
+msgid "Irrelevances"
+msgstr "التفاهات"
+
+msgid "Irrelevancies"
+msgstr "التّفاهات"
+
+msgid "Irrelevancy"
+msgstr "اللا علاقية"
+
+msgid "Irrelevant"
+msgstr "غير ذو علاقة"
+
+msgid "Irrelevantly"
+msgstr "بشكل غير ذو علاقة"
+
+msgid "Irreligiously"
+msgstr "بشكل غير متدين"
+
+msgid "Irremediable"
+msgstr "عضال"
+
+msgid "Irremediableness"
+msgstr "لا قابلية للعلاج"
+
+msgid "Irremediably"
+msgstr "بشكل غير قابل للعلاج"
+
+msgid "Irremovability"
+msgstr "إنعدام قدرة التحريك"
+
+msgid "Irremovable"
+msgstr "ثابت"
+
+msgid "Irreparability"
+msgstr "إنعدام قدرة الإصلاح"
+
+msgid "Irreparable"
+msgstr "متعذر الإصلاح"
+
+msgid "Irreparableness"
+msgstr "العطل الذي لايمكن إصلاحه"
+
+msgid "Irreparably"
+msgstr "بشكل يعجز إصلاحه"
+
+msgid "Irreplaceable"
+msgstr "متعذر الإبدال"
+
+msgid "Irreplaceableness"
+msgstr "إنعدام قدرة الإبدال"
+
+msgid "Irreplaceably"
+msgstr "بطريقة لا تستبدل"
+
+msgid "Irrepressible"
+msgstr "متعذر الكبت"
+
+msgid "Irrepressibly"
+msgstr "بحيويّة"
+
+msgid "Irreproachability"
+msgstr "تحاشي الأخطاء"
+
+msgid "Irreproachable"
+msgstr "نزيه"
+
+msgid "Irreproachableness"
+msgstr "النزاهة"
+
+msgid "Irreproachably"
+msgstr "بشكل لا غبار عليه"
+
+msgid "Irreproducibility"
+msgstr "عدم إمكانية الحصول على"
+
+msgid "Irreproducible"
+msgstr "غير متكاثر"
+
+msgid "Irresistibility"
+msgstr "عدم المقاومة"
+
+msgid "Irresistible"
+msgstr "لا يقاوم"
+
+msgid "Irresistibleness"
+msgstr "عدم المقاومة"
+
+msgid "Irresistibly"
+msgstr "بشكل لا يقاوم"
+
+msgid "Irresolute"
+msgstr "متردّد"
+
+msgid "Irresolutely"
+msgstr "بشكل متردّد"
+
+msgid "Irresoluteness"
+msgstr "التردد"
+
+msgid "Irresolution"
+msgstr "التردد"
+
+msgid "Irresolutions"
+msgstr "الترددات"
+
+msgid "Irresolvable"
+msgstr "متعذر الحلّ"
+
+msgid "Irrespective"
+msgstr "بغضّ النّظر"
+
+msgid "Irrespectively"
+msgstr "بغض النظر عن"
+
+msgid "Irresponsibility"
+msgstr "عدم الشعور بالمسؤلية"
+
+msgid "Irresponsible"
+msgstr "لامبالي"
+
+msgid "Irresponsibleness"
+msgstr "عدم الإكتراث"
+
+msgid "Irresponsibly"
+msgstr "بلا مسؤولية"
+
+msgid "Irretrievable"
+msgstr "غير قابل للإسترجاع"
+
+msgid "Irretrievableness"
+msgstr "الفقدان إلى الأبد"
+
+msgid "Irretrievably"
+msgstr "بلا عودة"
+
+msgid "Irreverence"
+msgstr "الإستخفاف"
+
+msgid "Irreverent"
+msgstr "عديم الإحترام"
+
+msgid "Irreverently"
+msgstr "باستخفاف"
+
+msgid "Irreversibility"
+msgstr "إنتفاء قدرة العودة"
+
+msgid "Irreversible"
+msgstr "غير قابل للنقض"
+
+msgid "Irreversibleness"
+msgstr "إنتفاء القدرةعلى العودة"
+
+msgid "Irreversibly"
+msgstr "بشكل غير قابل للنقض"
+
+msgid "Irrevocability"
+msgstr "القطعية"
+
+msgid "Irrevocable"
+msgstr "غير قابل للنقض"
+
+msgid "Irrevocableness"
+msgstr "القطعية"
+
+msgid "Irrevocably"
+msgstr "بشكل غير قابل للنقض"
+
+msgid "Irrigate"
+msgstr "إسق"
+
+msgid "Irrigated"
+msgstr "مسقي"
+
+msgid "Irrigates"
+msgstr "يسقي"
+
+msgid "Irrigating"
+msgstr "السقاية"
+
+msgid "Irrigation"
+msgstr "الريّ"
+
+msgid "Irrigations"
+msgstr "الريّ"
+
+msgid "Irritabilities"
+msgstr "التهيّجات"
+
+msgid "Irritability"
+msgstr "الطيش"
+
+msgid "Irritable"
+msgstr "عصبي"
+
+msgid "Irritableness"
+msgstr "سرعة الغضب"
+
+msgid "Irritably"
+msgstr "بانفعال"
+
+msgid "Irritant"
+msgstr "مثير"
+
+msgid "Irritants"
+msgstr "المهيّجات"
+
+msgid "Irritate"
+msgstr "أغضب"
+
+msgid "Irritated"
+msgstr "مغضب"
+
+msgid "Irritates"
+msgstr "يهيّج"
+
+msgid "Irritating"
+msgstr "التهيّج"
+
+msgid "Irritatingly"
+msgstr "بشكل مزعج"
+
+msgid "Irritation"
+msgstr "التهيّج"
+
+msgid "Irritations"
+msgstr "التهيّج"
+
+msgid "Irritative"
+msgstr "مثير"
+
+msgid "Irrupt"
+msgstr "يخرج بقوة - كما البركان"
+
+msgid "Irrupted"
+msgstr "خرج بقوة - كما البركان"
+
+msgid "Irrupting"
+msgstr "الخروج بقوة - كما البركان"
+
+msgid "Irruption"
+msgstr "الإقتحام"
+
+msgid "Irruptions"
+msgstr "الإقتحام"
+
+msgid "Irruptive"
+msgstr "إقتحامي"
+
+msgid "Irruptively"
+msgstr "بشكل إقتحامي"
+
+msgid "Irrupts"
+msgstr "يخرج بقوة - كما البركان"
+
+msgid "IRS"
+msgstr "مكتب خادمات الأموال الداخليه"
+
+msgid "Irvin"
+msgstr "إرفين"
+
+msgid "Irvine"
+msgstr "إرفين"
+
+msgid "Irving"
+msgstr "إرفينج"
+
+msgid "Irwin"
+msgstr "إروين"
+
+msgid "Is"
+msgstr "هل"
+
+msgid "Isaac"
+msgstr "إسحاق"
+
+msgid "Isaacs"
+msgstr "إيساكس - قانونيّ أستراليّ"
+
+msgid "Isaacson"
+msgstr "إيزاسون"
+
+msgid "Isabel"
+msgstr "إيزابيل"
+
+msgid "Isabella"
+msgstr "إيزابيلا"
+
+msgid "Isadore"
+msgstr "إيزادور"
+
+msgid "Isaiah"
+msgstr "أشعيا"
+
+msgid "ISDN"
+msgstr "شبكة رقمية ذات خرمات متكاملة"
+
+msgid "Isentropic"
+msgstr "بدون التّغيير في الانتروبيا"
+
+msgid "Isfahan"
+msgstr "إصفهان"
+
+msgid "Ising"
+msgstr "إيسينج"
+
+msgid "Isinglass"
+msgstr "إيسينج - جيلاتين شفّاف, نقيّ تقريبًا"
+
+msgid "Isis"
+msgstr "إيزيس - الرّبّة الرّئيسيّة المعبودة من قبل المصريّين, أساطير"
+
+msgid "Islam"
+msgstr "الإسلام"
+
+msgid "Islamabad"
+msgstr "إسلام آباد"
+
+msgid "Islamic"
+msgstr "إسلامي"
+
+msgid "Island"
+msgstr "الجزيرة"
+
+msgid "Islander"
+msgstr "ساكن الجزيرة"
+
+msgid "Islanders"
+msgstr "سكنة الجزيرة"
+
+msgid "Islandia"
+msgstr "إيزلانديا"
+
+msgid "Islands"
+msgstr "الجزر"
+
+msgid "Isle"
+msgstr "الجزيرة"
+
+msgid "Isles"
+msgstr "الجزر"
+
+msgid "Islet"
+msgstr "الجزيرة"
+
+msgid "Islets"
+msgstr "الجزر"
+
+msgid "Isling"
+msgstr "لعمل جزيرة من.."
+
+msgid "ISO"
+msgstr "الأيزو"
+
+msgid "ISO-Size"
+msgstr "حجم آيسو"
+
+msgid "Isobar"
+msgstr "الأيسوبار"
+
+msgid "Isobars"
+msgstr "الأيسوبار"
+
+msgid "Isochronal"
+msgstr "متساوي في المدّة"
+
+msgid "Isochronally"
+msgstr "بتساوي في المدّة"
+
+msgid "Isochronous"
+msgstr "متساوي في المدّة"
+
+msgid "Isochronously"
+msgstr "بتساوي في المدّة"
+
+msgid "Isocline"
+msgstr "طرف متماثل الميل"
+
+msgid "Isocyanate"
+msgstr "أيزوسيانيت - ملح"
+
+msgid "Isolate"
+msgstr "إعزل"
+
+msgid "Isolated"
+msgstr "معزول"
+
+msgid "Isolates"
+msgstr "يعزل"
+
+msgid "Isolating"
+msgstr "العزل"
+
+msgid "Isolation"
+msgstr "العزلة"
+
+msgid "Isolationism"
+msgstr "الإنعزالية"
+
+msgid "Isolationist"
+msgstr "المعتزلي"
+
+msgid "Isolationistic"
+msgstr "انعزاليّ"
+
+msgid "Isolationists"
+msgstr "المعتزلة"
+
+msgid "Isolations"
+msgstr "العزلة"
+
+msgid "Isolde"
+msgstr "أيسولد - في أسطورة أرثرايان, الأميرة الأيرلنديّة التي تزوّجت ملك كورنوول"
+
+msgid "Isomer"
+msgstr "الأيسومر"
+
+msgid "Isomeric"
+msgstr "أيسومري"
+
+msgid "Isomers"
+msgstr "الأيسومر"
+
+msgid "Isometric"
+msgstr "متساوي القياس"
+
+msgid "Isometrical"
+msgstr "متعلق بتساوي القياس"
+
+msgid "Isometrically"
+msgstr "متساوو القياس"
+
+msgid "Isometrics"
+msgstr "التّمارين الرّياضيّة"
+
+msgid "Isomorph"
+msgstr "المماثل"
+
+msgid "Isomorphic"
+msgstr "متماثل"
+
+msgid "Isomorphically"
+msgstr "بشكل متماثل"
+
+msgid "Isomorphism"
+msgstr "التّماثل"
+
+msgid "Isomorphisms"
+msgstr "التّماثل"
+
+msgid "Isopleth"
+msgstr "خط يرسم على الخريطة يقوم بالتوصيل بين عدة نقاط"
+
+msgid "Isoprene"
+msgstr "أيسوبرين - سائل متطاير عديم اللّون"
+
+msgid "Isopropyl"
+msgstr "الآيزوبروبيل"
+
+msgid "Isosceles"
+msgstr "متساوي الساقين"
+
+msgid "Isotherm"
+msgstr "الأيسوثرم"
+
+msgid "Isothermal"
+msgstr "متساوي الحرارة"
+
+msgid "Isothermally"
+msgstr "بشكل متساوي الحرارة"
+
+msgid "Isotherms"
+msgstr "الأيسوثرم"
+
+msgid "Isotonic"
+msgstr "متساوي التّوتّر"
+
+msgid "Isotope"
+msgstr "النظائر المشعة"
+
+msgid "Isotopes"
+msgstr "النظائر المشعة"
+
+msgid "Isotopic"
+msgstr "أحاديّ النّظير"
+
+msgid "Isotropic"
+msgstr "موحّد الخواصّ"
+
+msgid "Isotropy"
+msgstr "توحّد الخواصّ"
+
+msgid "Isp"
+msgstr "شركة خدمات الإنترنت،  مزوّد خدمات الإنترنت"
+
+msgid "Israel"
+msgstr "إسرائيل"
+
+msgid "Israeli"
+msgstr "المواطن الإسرائيلي :: متعلّق بإسرائيل او مواطنيها"
+
+msgid "Israelis"
+msgstr "الإسرائيليون"
+
+msgid "Israelite"
+msgstr "الإسرائيلي"
+
+msgid "Israelites"
+msgstr "الإسرائيليون"
+
+msgid "Iss"
+msgstr "المحطّة الفضائيّة الدّوليّة"
+
+msgid "Issuable"
+msgstr "قابل الإصدار"
+
+msgid "Issuance"
+msgstr "الإصدار"
+
+msgid "Issuances"
+msgstr "الإصدار"
+
+msgid "Issuant"
+msgstr "الإصدار"
+
+msgid "Issue"
+msgstr "القضية"
+
+msgid "Issued"
+msgstr "مصدر"
+
+msgid "Issueless"
+msgstr "بدون موضوع"
+
+msgid "Issuer"
+msgstr "المصدّر"
+
+msgid "Issuers"
+msgstr "المصدّرون"
+
+msgid "Issues"
+msgstr "القضايا"
+
+msgid "Issuing"
+msgstr "الإصدار"
+
+msgid "Istanbul"
+msgstr "إسطنبول"
+
+msgid "Isthmus"
+msgstr "البرزخ"
+
+msgid "Isthmuses"
+msgstr "البرازخ"
+
+msgid "Istvan"
+msgstr "إيزتفان"
+
+msgid "It"
+msgstr "هو"
+
+msgid "Italian"
+msgstr "الإيطالي"
+
+msgid "Italians"
+msgstr "الإيطاليون"
+
+msgid "Italic"
+msgstr "مائل"
+
+msgid "Italicize"
+msgstr "ميّل"
+
+msgid "Italicized"
+msgstr "ميّال"
+
+msgid "Italicizes"
+msgstr "يميّل"
+
+msgid "Italicizing"
+msgstr "الميلا"
+
+msgid "Italics"
+msgstr "إتاليس"
+
+msgid "Italy"
+msgstr "إيطاليا"
+
+msgid "Itch"
+msgstr "الحكّة"
+
+msgid "Itched"
+msgstr "محكوك"
+
+msgid "Itches"
+msgstr "الحكّة"
+
+msgid "Itchier"
+msgstr "حاك"
+
+msgid "Itchiest"
+msgstr "حاك"
+
+msgid "Itchiness"
+msgstr "الحكّ"
+
+msgid "Itching"
+msgstr "الحكّ"
+
+msgid "Itchy"
+msgstr "حاك"
+
+msgid "Item"
+msgstr "المادة"
+
+msgid "Itemise"
+msgstr "فصّل"
+
+msgid "Itemization"
+msgstr "التفصيل"
+
+msgid "Itemizations"
+msgstr "التفصيل"
+
+msgid "Itemize"
+msgstr "فصّل"
+
+msgid "Itemized"
+msgstr "مفصّل"
+
+msgid "Itemizer"
+msgstr "المصنّف"
+
+msgid "Itemizers"
+msgstr "المصنّفون"
+
+msgid "Itemizes"
+msgstr "يفصّل"
+
+msgid "Itemizing"
+msgstr "التفصيل"
+
+msgid "Items"
+msgstr "المواد"
+
+msgid "Iterate"
+msgstr "كرّر"
+
+msgid "Iterated"
+msgstr "مكرّر"
+
+msgid "Iterates"
+msgstr "يكرّر"
+
+msgid "Iterating"
+msgstr "التكرار"
+
+msgid "Iteration"
+msgstr "التكرار"
+
+msgid "Iterations"
+msgstr "التكرار"
+
+msgid "Iterative"
+msgstr "تكراري"
+
+msgid "Iteratively"
+msgstr "بشكل تكراري"
+
+msgid "Iterator"
+msgstr "من يحصل على أي عنصر من قائمة عناصر - برمجيّات"
+
+msgid "Ithaca"
+msgstr "إيثيكا"
+
+msgid "Itinerant"
+msgstr "متجوّل"
+
+msgid "Itinerantly"
+msgstr "بشكل متجوّل"
+
+msgid "Itineraries"
+msgstr "المخططات"
+
+msgid "Itinerary"
+msgstr "مخطّط الرحلة"
+
+msgid "Ito"
+msgstr "منظمة التجارة الدولية"
+
+msgid "Its"
+msgstr "له"
+
+msgid "Itself"
+msgstr "نفسه"
+
+msgid "ITT"
+msgstr "تكنولوجيا المعلومات و تكنولوجيا الاتّصالات"
+
+msgid "IUD"
+msgstr "اللّولب"
+
+msgid "IUDs"
+msgstr "اللوالب"
+
+msgid "Iv"
+msgstr "الرّابع"
+
+msgid "Ivan"
+msgstr "إيفان"
+
+msgid "Ivanhoe"
+msgstr "إفانهوي"
+
+msgid "Iverson"
+msgstr "إفيرسون"
+
+msgid "Ivied"
+msgstr "مكسوّ باللّبلاب"
+
+msgid "Ivies"
+msgstr "أشجار اللبلاب"
+
+msgid "Ivories"
+msgstr "العاج"
+
+msgid "Ivory"
+msgstr "العاج"
+
+msgid "Ivy"
+msgstr "آيفي"
+
+msgid "Ix"
+msgstr "الرقم تسعة"
+
+msgid "Izaak"
+msgstr "إسحاق"
+
+msgid "Izvestia"
+msgstr "إزفيستيا"
+
+msgid "Internet protocol"
+msgstr "بروتوكول الإنترنت"
+

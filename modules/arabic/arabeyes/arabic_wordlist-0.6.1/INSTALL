@@ -1,0 +1,59 @@
+/************************************************************************
+ * $Id: INSTALL,v 1.3 2003/12/16 05:50:08 anmar Exp $
+ *
+ * ------------
+ * Description:
+ * ------------
+ *  This INSTALL file is intended to be give instructions on how to
+ *  go about using the full_wordlist_* files and possible sample
+ *  usages.
+ *
+ * -----------------
+ * Revision Details:    (Updated by Revision Control System)
+ * -----------------
+ *  $Date: 2003/12/16 05:50:08 $
+ *  $Author: anmar $
+ *  $Revision: 1.3 $
+ *  $Source: /home/arabeyes/cvs/translate/wordlist/INSTALL,v $
+ *
+ ************************************************************************/
+
+-----------
+Via dictd
+-----------
+
+To prepare all 26 files to be used with a dictd server, one has to
+follow these steps:
+
+1) Make sure you have dictd & dictfmt installed on your *nix machine. On
+   Debian, run the following command as 'root' to fetch the above from your
+   Debian repository 
+
+     apt-get install dictd dictfmt
+
+2) Run the 'scripts/po2dictd' script to generate "arabic.dict" 
+and "arabic.index", the Arabic dictionary and index files.
+
+   the Arabic dictionary and index files.
+   
+     http://cvs.arabeyes.org/viewcvs/translate/wordlist/scripts/
+
+   Those files will be copied to the place where you keep your dictionary
+   files under dictd (where dictd stores its dictionary and index files).
+   in This case they will be stored in "/usr/share/dictd".
+
+3) Restart your dictd process. On Debian, run the following as 'root':
+
+     /etc/init.d/dictd restart
+
+You can see the results by pointing your dictionary client like kdict
+or gdict to the machine running 'dictd' and fetch for and English word
+and hope to find a suitable translation.
+
+To ask questions or to inquire about anything related to this project,
+subscribe and post to the 'doc' mailing-list (and search its archives),
+
+  http://lists.arabeyes.org/mailman/listinfo/doc
+
+Enjoy.
+

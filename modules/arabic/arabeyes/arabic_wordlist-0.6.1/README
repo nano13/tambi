@@ -1,0 +1,48 @@
+/************************************************************************
+ * $Id: README,v 1.4 2003/08/12 23:34:52 nadim Exp $
+ *
+ * ------------
+ * Description:
+ * ------------
+ *  This README file is intended to be give a glimpse of what the
+ *  Wordlist project is all about.
+ *
+ *  For more concrete details inspect the INSTALL file.
+ *
+ * -----------------
+ * Revision Details:    (Updated by Revision Control System)
+ * -----------------
+ *  $Date: 2003/08/12 23:34:52 $
+ *  $Author: nadim $
+ *  $Revision: 1.4 $
+ *  $Source: /home/arabeyes/cvs/translate/wordlist/README,v $
+ *
+ ************************************************************************/
+
+Wordlist is an Arabeyes project for/by its volunteers to create a GPLed
+English/Arabic dictionary.  Wordlist is comprised of 26 .po files; each
+file contains a good portion of the English language words.
+
+English words that begin with the letter 'A' are stored in the file
+full_wordlist_A.po, words that begin with the letter 'B' are stored in
+full_wordlist_B.po, etc, etc.
+
+The files might not be of value without further processing.  As such a
+sample perl script (po2dict.pl) is provided to export all 26 .po files
+into an understandable format which a dictd server can comprehend.
+Please refer to INSTALL for how to use these files in a fruitful manner.
+
+This project doesn't currently have a completion date associated with
+it since it's a rather fluid/ongoing effort by many volunteers to add
+and enhance the content of the dictionary at hand.
+
+For further details, check the project page,
+
+  http://www.arabeyes.org/project.php?proj=Wordlist
+
+To ask questions or to inquire about anything related to this project,
+subscribe and post to the 'doc' mailing-list (and search its archives),
+
+  http://lists.arabeyes.org/mailman/listinfo/doc
+
+Your help is always appreciated.

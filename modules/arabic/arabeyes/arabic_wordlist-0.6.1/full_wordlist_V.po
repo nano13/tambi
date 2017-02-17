@@ -1,0 +1,6182 @@
+# translation of full_wordlist_V.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_V.po,v 1.19 2003/11/02 17:22:16 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'V'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_V\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2003-11-01 15:01+0300\n"
+
+msgid "V"
+msgstr "في - الحرف الثاني والعشرون في اللغة الإنجليزية"
+
+msgid "V-j"
+msgstr "يوم انتصار الحلفاء على اليابان في الحرب العالمية الثانية"
+
+msgid "V22"
+msgstr "بروتوكول لاتّصالات المودم"
+
+msgid "V25"
+msgstr "بروتوكول لاتّصالات المودم"
+
+msgid "V32bis"
+msgstr "بروتوكول لاتّصالات المودم"
+
+msgid "V35"
+msgstr "بروتوكول لاتّصالات المودم"
+
+msgid "V7"
+msgstr "الإصدار السّابع"
+
+msgid "VA"
+msgstr "فرجينيا"
+
+msgid "Vac"
+msgstr "إختصار لـ الفضاء، شاغر، المكنسة الكهربائيّة"
+
+msgid "Vacancies"
+msgstr "المناصب الشاغرة"
+
+msgid "Vacancy"
+msgstr "المنصب الشاغر"
+
+msgid "Vacant"
+msgstr "شاغر"
+
+msgid "Vacantly"
+msgstr "بشكل شاغر"
+
+msgid "Vacantness"
+msgstr "الخلو من الشواغر"
+
+msgid "Vacate"
+msgstr "أخل"
+
+msgid "Vacated"
+msgstr "مخلى"
+
+msgid "Vacates"
+msgstr "يخلي"
+
+msgid "Vacating"
+msgstr "الإخلاء"
+
+msgid "Vacation"
+msgstr "العطلة"
+
+msgid "Vacationed"
+msgstr "قضى اجازة"
+
+msgid "Vacationer"
+msgstr "المصطاف"
+
+msgid "Vacationers"
+msgstr "المصطافون"
+
+msgid "Vacationing"
+msgstr "قضاء العطلة"
+
+msgid "Vacationist"
+msgstr "القاضى للاجازة"
+
+msgid "Vacationists"
+msgstr "القاضون للاجازة"
+
+msgid "Vacationland"
+msgstr "مكان الاجازة"
+
+msgid "Vacations"
+msgstr "العطل"
+
+msgid "Vaccary"
+msgstr "حظيرة الأبقار"
+
+msgid "Vaccina"
+msgstr "جدريّ البقر"
+
+msgid "Vaccinate"
+msgstr "لقّح"
+
+msgid "Vaccinated"
+msgstr "ملقّح"
+
+msgid "Vaccinates"
+msgstr "يلقّح"
+
+msgid "Vaccinating"
+msgstr "التلقيح"
+
+msgid "Vaccination"
+msgstr "التطعيم"
+
+msgid "Vaccinations"
+msgstr "التطعيمات"
+
+msgid "Vaccinator"
+msgstr "القائم بعملية التطعيم"
+
+msgid "Vaccinators"
+msgstr "القائمين بعملية التطعيم"
+
+msgid "Vaccine"
+msgstr "اللقاح"
+
+msgid "Vaccinee"
+msgstr "المستقبل للقاح التطعيم"
+
+msgid "Vaccines"
+msgstr "اللقاحات"
+
+msgid "Vaccinia"
+msgstr "مصل التطعيم"
+
+msgid "Vaccinial"
+msgstr "طَعَّمَ لَقَّح"
+
+msgid "Vaccinium"
+msgstr "شجرة فاكسينيوم"
+
+msgid "Vacillant"
+msgstr "غير متأكّد من الغرض أو الهدف، متشكك"
+
+msgid "Vacillate"
+msgstr "تأرجح"
+
+msgid "Vacillated"
+msgstr "متأرجح"
+
+msgid "Vacillates"
+msgstr "يتأرجح"
+
+msgid "Vacillating"
+msgstr "التذبذب"
+
+msgid "Vacillatingly"
+msgstr "تردد تذبذب"
+
+msgid "Vacillation"
+msgstr "التذبذب"
+
+msgid "Vacillations"
+msgstr "التذبذب"
+
+msgid "Vacillator"
+msgstr "المتذبذب المتردد"
+
+msgid "Vacillators"
+msgstr "المتذبذبين المترددين"
+
+msgid "Vacillatory"
+msgstr "متردّد"
+
+msgid "Vacua"
+msgstr "الفراغات"
+
+msgid "Vacuate"
+msgstr "يفرغ، يلغي"
+
+msgid "Vacuation"
+msgstr "الإفراغ، الإلغاء"
+
+msgid "Vacuity"
+msgstr "حالة الفراغ"
+
+msgid "Vacuna"
+msgstr "فاكنا - ربّة وقت الفراغ الرّيفيّ. أساطير رومانيّة"
+
+msgid "Vacuo"
+msgstr "الفراغ"
+
+msgid "Vacuolate"
+msgstr "يفرغ"
+
+msgid "Vacuolated"
+msgstr "أفرغ"
+
+msgid "Vacuolation"
+msgstr "عملية التفريغ"
+
+msgid "Vacuole"
+msgstr "فراغ"
+
+msgid "Vacuoles"
+msgstr "فراغات"
+
+msgid "Vacuolization"
+msgstr "مليء بالفراغ"
+
+msgid "Vacuous"
+msgstr "بلا معنى"
+
+msgid "Vacuously"
+msgstr "بشكل بلا معنى"
+
+msgid "Vacuousness"
+msgstr "فَرَاغ"
+
+msgid "Vacuum"
+msgstr "الفراغ"
+
+msgid "Vacuumed"
+msgstr "فَرَاغ فَضَاء"
+
+msgid "Vacuuming"
+msgstr "كَنْس"
+
+msgid "Vacuums"
+msgstr "الفراغات"
+
+msgid "Vada"
+msgstr "مدينة فادا"
+
+msgid "Vade"
+msgstr "يختفي"
+
+msgid "Vade-mecum"
+msgstr "دليل الجيب"
+
+msgid "Vader"
+msgstr "مدينة فادر"
+
+msgid "Vadium"
+msgstr "التّعهّد، الكفالة"
+
+msgid "Vaduz"
+msgstr "فينا"
+
+msgid "Vafrous"
+msgstr "بارع، المكر، ماكر"
+
+msgid "Vagabond"
+msgstr "المتشرّد"
+
+msgid "Vagabondage"
+msgstr "اِبْنُ السَّبِيل"
+
+msgid "Vagabonds"
+msgstr "الصعاليك"
+
+msgid "Vagal"
+msgstr "متعلق بالأعصاب"
+
+msgid "Vagaries"
+msgstr "هَوًى"
+
+msgid "Vagarious"
+msgstr "هَوًى"
+
+msgid "Vagary"
+msgstr "هَوًى"
+
+msgid "Vagient"
+msgstr "الصّياح والعويل مثل الطّفل"
+
+msgid "Vagile"
+msgstr "حر الحركة، طليق"
+
+msgid "Vagina"
+msgstr "المهبل"
+
+msgid "Vaginae"
+msgstr "مَهْبِل"
+
+msgid "Vaginal"
+msgstr "مهبلي"
+
+msgid "Vaginally"
+msgstr "بشكل مهبلي"
+
+msgid "Vaginas"
+msgstr "المهابل"
+
+msgid "Vaginate"
+msgstr "مزوّد بغمد"
+
+msgid "Vaginated"
+msgstr "مزوّد بغمد"
+
+msgid "Vaginismus"
+msgstr "التّشنّج المهبليّ"
+
+msgid "Vaginitis"
+msgstr "التهاب المهبل"
+
+msgid "Vagrancies"
+msgstr "التشرّد"
+
+msgid "Vagrancy"
+msgstr "التشرّد"
+
+msgid "Vagrant"
+msgstr "المتشرّد"
+
+msgid "Vagrantly"
+msgstr "تَشَرُّد "
+
+msgid "Vagrants"
+msgstr "المشردّون"
+
+msgid "Vague"
+msgstr "مبهم"
+
+msgid "Vaguely"
+msgstr "بشكل مبهم"
+
+msgid "Vagueness"
+msgstr "الغموض"
+
+msgid "Vaguer"
+msgstr "أكثر إبهاما"
+
+msgid "Vaguest"
+msgstr "أكثر إبهاما"
+
+msgid "Vagus"
+msgstr "عب من أعصاب الجسم التي تتحكم بالرئتين والبلعوم"
+
+msgid "Vail"
+msgstr "طأطأ احتراما أو خضوعا"
+
+msgid "Vailer"
+msgstr "المخفّض، المطأطىء، السّاتر، المُغطّي"
+
+msgid "Vain"
+msgstr "بلا قيمة"
+
+msgid "Vainer"
+msgstr "أكثر تكبرأ"
+
+msgid "Vainest"
+msgstr "أكثر تكبرأ"
+
+msgid "Vainglories"
+msgstr "التصلّف"
+
+msgid "Vainglorious"
+msgstr "صلّف"
+
+msgid "Vaingloriously"
+msgstr "بشكل صلّف"
+
+msgid "Vaingloriousness"
+msgstr "الخيلاء أو العظمة"
+
+msgid "Vainglory"
+msgstr "التصلّف"
+
+msgid "Vainly"
+msgstr "عبثا"
+
+msgid "Vainness"
+msgstr "عَبَث فَسَاد"
+
+msgid "Vair"
+msgstr "الفرو"
+
+msgid "Vaisya"
+msgstr "ثالث أربعة طبقات هندوسيّة رئيسيّة"
+
+msgid "Vaivode"
+msgstr "قائد الجيش"
+
+msgid "Vajra"
+msgstr "الصّاعقة أو سلاح ممتلك من قبل إندرا الإلة. هندوسيّة"
+
+msgid "Vakeel"
+msgstr "الوكيل، السّفير"
+
+msgid "Val"
+msgstr "إختصار لـ وادي، قيمة"
+
+msgid "Valance"
+msgstr "الستارة"
+
+msgid "Valanced"
+msgstr "قماش يغطي حافة السرير أو الطاولة"
+
+msgid "Valances"
+msgstr "الستائر"
+
+msgid "Valders"
+msgstr "مدينة فالديرز"
+
+msgid "Valdez"
+msgstr "مدينة فالديز"
+
+msgid "Valdosta"
+msgstr "مدينة فالدوستا "
+
+msgid "Vale"
+msgstr "الوادي"
+
+msgid "Valediction"
+msgstr "تَوْدِيع وَدَاع"
+
+msgid "Valedictions"
+msgstr "تَوْدِيع وَدَاع"
+
+msgid "Valedictorian"
+msgstr "الطالب المتفوّق"
+
+msgid "Valedictorians"
+msgstr "الطلبة المتفوّقون"
+
+msgid "Valedictories"
+msgstr "حفلات الوداع"
+
+msgid "Valedictory"
+msgstr "حفلة الوداع"
+
+msgid "Valence"
+msgstr "التكافؤ"
+
+msgid "Valences"
+msgstr "التكافؤ"
+
+msgid "Valencia"
+msgstr "مدينة فالينسيا الأسبانيّة"
+
+msgid "Valency"
+msgstr "التكافؤ"
+
+msgid "Valent"
+msgstr "تَكَافُؤ"
+
+msgid "Valentia"
+msgstr "نوع من الأقمشة"
+
+msgid "Valentine"
+msgstr "محبوب يوم الحب"
+
+msgid "Valentines"
+msgstr "الأحبّة"
+
+msgid "Valera"
+msgstr "مدينة فاليرا"
+
+msgid "Valerate"
+msgstr "ملح الفاليريت"
+
+msgid "Valerian"
+msgstr "حشيشة الهرّ"
+
+msgid "Valerie"
+msgstr "فاليري"
+
+msgid "Valerin"
+msgstr "ملح الفاليرين"
+
+msgid "Valery"
+msgstr "فاليري"
+
+msgid "Vales"
+msgstr "الوديان"
+
+msgid "Valet"
+msgstr "الخادم"
+
+msgid "Valeted"
+msgstr "مخدوم"
+
+msgid "Valeting"
+msgstr "الخدمة"
+
+msgid "Valets"
+msgstr "الخدم"
+
+msgid "Valetudinarian"
+msgstr "معلول"
+
+msgid "Valetudinarianism"
+msgstr "الوهن، المرض"
+
+msgid "Valetudinary"
+msgstr "السّقيم، المريض"
+
+msgid "Valhalla"
+msgstr "قاعة الولائم"
+
+msgid "Valiance"
+msgstr "الشّجاعة، الجسارة"
+
+msgid "Valiant"
+msgstr "جريئ"
+
+msgid "Valiantly"
+msgstr "بشكل جريئ"
+
+msgid "Valiantness"
+msgstr "فاليانتنيس"
+
+msgid "Valid"
+msgstr "سليم صالِح"
+
+msgid "Validate"
+msgstr "صدّق"
+
+msgid "Validated"
+msgstr "مصدّق"
+
+msgid "Validates"
+msgstr "يصدّق"
+
+msgid "Validating"
+msgstr "التصديق"
+
+msgid "Validation"
+msgstr "التصديق"
+
+msgid "Validations"
+msgstr "التصديق"
+
+msgid "Validatory"
+msgstr "مساند، مؤيّد"
+
+msgid "Validities"
+msgstr "الصلاحيات"
+
+msgid "Validity"
+msgstr "الصلاحية"
+
+msgid "Validly"
+msgstr "بشكل صحيح"
+
+msgid "Validness"
+msgstr "سليم صالِح"
+
+msgid "Valier"
+msgstr "مدينة فالير"
+
+msgid "Valine"
+msgstr "حمض أميني أساسي"
+
+msgid "Valise"
+msgstr "الحقيبة"
+
+msgid "Valises"
+msgstr "الحقائب"
+
+msgid "Valium"
+msgstr "فاليوم - ماركة تجاريّة لمهدّيء"
+
+msgid "Valkyrie"
+msgstr "الفتاة الإسطوريّة"
+
+msgid "Valla"
+msgstr "التحصينات، الدّفاعات"
+
+msgid "Vallar"
+msgstr "دائري"
+
+msgid "Vallary"
+msgstr "دائري"
+
+msgid "Vallation"
+msgstr "الخندق"
+
+msgid "Vallejo"
+msgstr " مدينة فاليهو"
+
+msgid "Valletta"
+msgstr "عاصمة مالطا"
+
+msgid "Valley"
+msgstr "الوادي"
+
+msgid "Valleys"
+msgstr "الوديان"
+
+msgid "Valliant"
+msgstr "مدينة فاليانت"
+
+msgid "Vallum"
+msgstr "السّاتر، السّور"
+
+msgid "Valois"
+msgstr "سُلالَةٌ حاكِمَة فرنسية"
+
+msgid "Valonia"
+msgstr "نوع من الطّحالب البحرية"
+
+msgid "Valor"
+msgstr "الشجاعة"
+
+msgid "Valorem"
+msgstr "ضريبة معدّلة"
+
+msgid "Valorization"
+msgstr "التسعير"
+
+msgid "Valorizations"
+msgstr "التسعير"
+
+msgid "Valorize"
+msgstr "سعّر"
+
+msgid "Valorized"
+msgstr "مسعّر"
+
+msgid "Valorizes"
+msgstr "يسعّر"
+
+msgid "Valorizing"
+msgstr "التسعير"
+
+msgid "Valorous"
+msgstr "شجاع"
+
+msgid "Valorously"
+msgstr "بشكل شجاع"
+
+msgid "Valors"
+msgstr "الشجاعة"
+
+msgid "Valour"
+msgstr "الشجاعة"
+
+msgid "Valourousness"
+msgstr "صفات البطل أو البطلة، الشّجاعة الاستثنائيّة"
+
+msgid "Valours"
+msgstr "الشجاعة"
+
+msgid "Valparaiso"
+msgstr "أكبر مدينة في تشيلي"
+
+msgid "Valse"
+msgstr "الفالز"
+
+msgid "Valses"
+msgstr "الفالز"
+
+msgid "Valuable"
+msgstr "الشيء الثمين"
+
+msgid "Valuableness"
+msgstr "نَفَاسَة"
+
+msgid "Valuables"
+msgstr "الأشياء الثمينة"
+
+msgid "Valuably"
+msgstr "قَيِّم نَفِيس"
+
+msgid "Valuate"
+msgstr "قيّم"
+
+msgid "Valuated"
+msgstr "قيّم"
+
+msgid "Valuates"
+msgstr "يقيّم"
+
+msgid "Valuating"
+msgstr "التقييم"
+
+msgid "Valuation"
+msgstr "التثمين"
+
+msgid "Valuations"
+msgstr "التقديرات"
+
+msgid "Valuator"
+msgstr "الدلال المثمن"
+
+msgid "Valuators"
+msgstr "الدلالون المثمنون"
+
+msgid "Value"
+msgstr "القيمة"
+
+msgid "Value-added"
+msgstr "ضريبة شراء السلع"
+
+msgid "Valued"
+msgstr "مقيّم"
+
+msgid "Valueless"
+msgstr "عديم القيمة"
+
+msgid "Valuelessness"
+msgstr "قَيِّم نَفِيس"
+
+msgid "Valuer"
+msgstr "المثمّن"
+
+msgid "Valuers"
+msgstr "المثمنون"
+
+msgid "Values"
+msgstr "القيم"
+
+msgid "Valuing"
+msgstr "التقييم"
+
+msgid "Valure"
+msgstr "القيمة"
+
+msgid "Valuta"
+msgstr "سعر الصّرف"
+
+msgid "Valvata"
+msgstr "فالفاتا - نوع من الزّواحف المائية"
+
+msgid "Valvate"
+msgstr "ذو صمام او بأجزاء تشبه الصّمّام"
+
+msgid "Valve"
+msgstr "الصمام"
+
+msgid "Valved"
+msgstr "محكم بصمام"
+
+msgid "Valves"
+msgstr "الصمامات"
+
+msgid "Valving"
+msgstr "احكام بصمام"
+
+msgid "Valvula"
+msgstr "الصّمّام الصّغير"
+
+msgid "Valvular"
+msgstr "صمامي"
+
+msgid "Valylene"
+msgstr "فاليلين - هيدروكربون سائل سريع الإشتعال"
+
+msgid "Vambrace"
+msgstr "الدرع الذي يحمي السّاعد"
+
+msgid "Vamoose"
+msgstr "إرحل"
+
+msgid "Vamoosed"
+msgstr "راحل"
+
+msgid "Vamooses"
+msgstr "يرحل"
+
+msgid "Vamoosing"
+msgstr "الرحيل"
+
+msgid "Vamos"
+msgstr "للمغادرة بسرعة"
+
+msgid "Vamose"
+msgstr "يغادر بسرعة"
+
+msgid "Vamp"
+msgstr "الرقعة"
+
+msgid "Vamped"
+msgstr "مرقّع"
+
+msgid "Vamper"
+msgstr "فامبير"
+
+msgid "Vamping"
+msgstr "الترقيع"
+
+msgid "Vampire"
+msgstr "مصّاص الدماء"
+
+msgid "Vampires"
+msgstr "مصاصو الدماء"
+
+msgid "Vampirism"
+msgstr "تَهْدِيدِيّ"
+
+msgid "Vamps"
+msgstr "الرقعات"
+
+msgid "Vampyre"
+msgstr "شبح ماصّ للدّم، الإبتزازي"
+
+msgid "Van"
+msgstr "فان"
+
+msgid "Vanadate"
+msgstr "ملح فاناديت"
+
+msgid "Vanadic"
+msgstr "حمض الـ فانديك"
+
+msgid "Vanadium"
+msgstr "الفاناديوم"
+
+msgid "Vanadous"
+msgstr "يحتوي على عنصر الفانديوم"
+
+msgid "Vance"
+msgstr "مدينة في كارولينا الجنوبية"
+
+msgid "Vancouver"
+msgstr "فانكوفر"
+
+msgid "Vanda"
+msgstr "فاندا - نوع من الزهور"
+
+msgid "Vandal"
+msgstr "المخرّب"
+
+msgid "Vandalia"
+msgstr "مدينة فانداليا"
+
+msgid "Vandalic"
+msgstr "تخريبي، تهديمي"
+
+msgid "Vandalise"
+msgstr "دمّر بشكل لا مبرّر له"
+
+msgid "Vandalism"
+msgstr "التخريب"
+
+msgid "Vandalize"
+msgstr "خرّب"
+
+msgid "Vandalized"
+msgstr "خرّب"
+
+msgid "Vandalizes"
+msgstr "يخرّب"
+
+msgid "Vandalizing"
+msgstr "التخريب"
+
+msgid "Vandals"
+msgstr "المخربون"
+
+msgid "Vandenberg"
+msgstr "فاندينبيرج"
+
+msgid "Vander"
+msgstr "مدينة فاندر"
+
+msgid "Vanderbilt"
+msgstr "فاندربيلت"
+
+msgid "Vanderburgh"
+msgstr "فاندربيرغه"
+
+msgid "Vanderpoel"
+msgstr "فاندربويل"
+
+msgid "Vandling"
+msgstr "مدينة فاندلينج"
+
+msgid "Vandyck"
+msgstr "الرّسّام فانديك"
+
+msgid "Vandyke"
+msgstr "الرّسّام فانديك"
+
+msgid "Vane"
+msgstr "دوّارة الريح"
+
+msgid "Vaned"
+msgstr "مزود بالريش"
+
+msgid "Vanellus"
+msgstr "طائر اللابوينج"
+
+msgid "Vanes"
+msgstr "دوّارات الريح"
+
+msgid "Vanessa"
+msgstr "فينيسا"
+
+msgid "Vang"
+msgstr "حبل يمسك بسارية القارب وقاعدة الشّراع"
+
+msgid "Vanguard"
+msgstr "الطليعة"
+
+msgid "Vanguards"
+msgstr "الطلائع"
+
+msgid "Vaniish"
+msgstr "يختفي، يضيع"
+
+msgid "Vanilla"
+msgstr "الفانيلا"
+
+msgid "Vanillin"
+msgstr "ونيلين"
+
+msgid "Vanir"
+msgstr "سباق الآلهة. أساطير إسكندنافيّة"
+
+msgid "Vanish"
+msgstr "إختف"
+
+msgid "Vanished"
+msgstr "مختفى"
+
+msgid "Vanisher"
+msgstr "اِحْتَجَبَ اِخْتَبَأَ"
+
+msgid "Vanishes"
+msgstr "يختفي"
+
+msgid "Vanishing"
+msgstr "الإختفاء"
+
+msgid "Vanishingly"
+msgstr "بزوال"
+
+msgid "Vanities"
+msgstr "حالة ألشعور بالفراغ"
+
+msgid "Vanity"
+msgstr "الزهو، الغرور"
+
+msgid "Vanner"
+msgstr "الشّخص الذي يمتلك سيّارة فان"
+
+msgid "Vannevar"
+msgstr "تنبّؤ تكنولوجيّ زائف"
+
+msgid "Vanning"
+msgstr "التّنقّل بواسطة سيارة فان"
+
+msgid "Vanquish"
+msgstr "إقهر"
+
+msgid "Vanquished"
+msgstr "مقهور"
+
+msgid "Vanquisher"
+msgstr "قَهَّار"
+
+msgid "Vanquishers"
+msgstr "قَهَّار"
+
+msgid "Vanquishes"
+msgstr "يقهر"
+
+msgid "Vanquishing"
+msgstr "القهر"
+
+msgid "Vans"
+msgstr "الشاحنات"
+
+msgid "Vant"
+msgstr "يتكلّم بتفاخر، تفاخر، يتفاخر"
+
+msgid "Vantage"
+msgstr "الفضل"
+
+msgid "Vantages"
+msgstr "الأفضال"
+
+msgid "Vanuatu"
+msgstr "فانواتو"
+
+msgid "Vanward"
+msgstr "أمام او بمواجهة السّيّارة الـ فان"
+
+msgid "Vap"
+msgstr "مملّ، عديم الطعم، بلا حياة"
+
+msgid "Vapid"
+msgstr "مملّ"
+
+msgid "Vapidity"
+msgstr "التفاهة"
+
+msgid "Vapidly"
+msgstr "بشكل مملّ"
+
+msgid "Vapidness"
+msgstr "سَلِيخ مَسِيخ"
+
+msgid "Vapor"
+msgstr "البخار"
+
+msgid "Vaporable"
+msgstr "ممكن تبخيره بواسطة معامل التّبخرة كالحرارة"
+
+msgid "Vaporation"
+msgstr "التّبخير، تحويل السّائل الى بخار"
+
+msgid "Vapored"
+msgstr "دُخَّان"
+
+msgid "Vaporer"
+msgstr "ألقائم بعملية التبخير"
+
+msgid "Vaporers"
+msgstr "ألقائم بعملية التبخير"
+
+msgid "Vaporing"
+msgstr "تبخير"
+
+msgid "Vaporingly"
+msgstr "بتَبَجُّح"
+
+msgid "Vaporings"
+msgstr "تبخير"
+
+msgid "Vaporisation"
+msgstr "التّبخرة، تحوّل السّائل الى بخار"
+
+msgid "Vaporizable"
+msgstr "ممكن تحويله الى بخار"
+
+msgid "Vaporization"
+msgstr "تَبَخُّر تَبْخِير"
+
+msgid "Vaporizations"
+msgstr "تَبَخُّر تَبْخِير"
+
+msgid "Vaporize"
+msgstr "بخّر"
+
+msgid "Vaporized"
+msgstr "مبخّر"
+
+msgid "Vaporizer"
+msgstr "المبخر"
+
+msgid "Vaporizers"
+msgstr "المبخر"
+
+msgid "Vaporizes"
+msgstr "يبخّر"
+
+msgid "Vaporizing"
+msgstr "التبخير"
+
+msgid "Vaporous"
+msgstr "بخاري"
+
+msgid "Vaporously"
+msgstr "بشكل بخاري"
+
+msgid "Vapors"
+msgstr "الأبخرة"
+
+msgid "Vaporware"
+msgstr "برنامج الكمبيوتر الذي أُعْلِن عنه ولكن لم يتمّ إنتاجه"
+
+msgid "Vapory"
+msgstr "بخاري الحالة، مملوء بالبخار"
+
+msgid "Vapour"
+msgstr "البخار"
+
+msgid "Vapours"
+msgstr "الأبخرة"
+
+msgid "VAR"
+msgstr "بائع ذو خدمات اضافية على البضاعة اﻷصلية"
+
+msgid "Vapulation"
+msgstr "الضّرب او الخفق"
+
+msgid "Vaquero"
+msgstr "راعي البقر"
+
+msgid "Vara"
+msgstr "وحدة طول أسبانيّة. حوالي ياردة"
+
+msgid "Varan"
+msgstr "فاران - حيوان زاحف مفترس"
+
+msgid "Vare"
+msgstr "العرسة"
+
+msgid "Varec"
+msgstr "عشب البحر"
+
+msgid "Vari"
+msgstr "فاري - قرد ليموري"
+
+msgid "Variability"
+msgstr "التغيّر"
+
+msgid "Variable"
+msgstr "المتغيّر"
+
+msgid "Variableness"
+msgstr "تَقَلُّب"
+
+msgid "Variablenesses"
+msgstr "ألتقلب"
+
+msgid "Variables"
+msgstr "المتغيّرات"
+
+msgid "Variably"
+msgstr "بشكل متغيّر"
+
+msgid "Variac"
+msgstr "محوّل"
+
+msgid "Varian"
+msgstr "فاريان"
+
+msgid "Variance"
+msgstr "الخلاف"
+
+msgid "Variances"
+msgstr "الخلافات"
+
+msgid "Variant"
+msgstr "المغاير"
+
+msgid "Variantly"
+msgstr "بشكل مختلف"
+
+msgid "Variants"
+msgstr "المغايرات"
+
+msgid "Variate"
+msgstr "نوّع"
+
+msgid "Variated"
+msgstr "منوّع"
+
+msgid "Variates"
+msgstr "ينوّع"
+
+msgid "Variating"
+msgstr "التنويع"
+
+msgid "Variation"
+msgstr "الإختلاف"
+
+msgid "Variational"
+msgstr "متعلق بالتّغير او الإختلاف او التّباين"
+
+msgid "Variations"
+msgstr "الإختلافات"
+
+msgid "Varicella"
+msgstr "جديري الماء"
+
+msgid "Varices"
+msgstr "عروق الدّم الملتوية أو المتورّمة بصورة غير طبيعية، الدّوالي "
+
+msgid "Varicocele"
+msgstr "العروق المتورّمة في كيس الصّفن"
+
+msgid "Varicolored"
+msgstr "مُتَلَوِّن"
+
+msgid "Varicoloured"
+msgstr "متعدد الألوان"
+
+msgid "Varicose"
+msgstr "دوالي"
+
+msgid "Varicoses"
+msgstr "دوالي"
+
+msgid "Varicosis"
+msgstr "الدّوالي، أوعية دمويّة متورّمة"
+
+msgid "Varicosities"
+msgstr "انتفاخات"
+
+msgid "Varicosity"
+msgstr "انتفاخ"
+
+msgid "Varied"
+msgstr "مختلف"
+
+msgid "Variedly"
+msgstr "بتفاوت"
+
+msgid "Variegate"
+msgstr "لوّن"
+
+msgid "Variegated"
+msgstr "متنوّع"
+
+msgid "Variegates"
+msgstr "يلوّن"
+
+msgid "Variegating"
+msgstr "التلوين"
+
+msgid "Variegation"
+msgstr "تَشْكِيل نَقْش"
+
+msgid "Varier"
+msgstr "هائم"
+
+msgid "Varies"
+msgstr "يتفاوت"
+
+msgid "Varietal"
+msgstr "متباين، متنوّع"
+
+msgid "Varietas"
+msgstr "التّشكيلة"
+
+msgid "Varieties"
+msgstr "التنويعات"
+
+msgid "Variety"
+msgstr "التشكيلة"
+
+msgid "Variform"
+msgstr "متعدد الأشكال"
+
+msgid "Varify"
+msgstr "يباين، يجعله مختلف، يلوّن"
+
+msgid "Variola"
+msgstr "الجدريّ"
+
+msgid "Variole"
+msgstr "الكتلة الصّخرية المستديرة"
+
+msgid "Variorum"
+msgstr "الطّبعة من الكتاب التي تحتوي على تعليقات وملاحظات ثلّة من الأدباء"
+
+msgid "Various"
+msgstr "مختلف"
+
+msgid "Variously"
+msgstr "بشكل مختلف"
+
+msgid "Variousness"
+msgstr "اِخْتِلاف"
+
+msgid "Varistor"
+msgstr "مُكثِّف"
+
+msgid "Varitype"
+msgstr "يطبع"
+
+msgid "Varix"
+msgstr "عروق الدّم الملتوية أو المتورّمة بصورة غير طبيعية"
+
+msgid "Vark"
+msgstr "خنزير"
+
+msgid "Varlet"
+msgstr "أَلْكَع زَنِيم"
+
+msgid "Varlets"
+msgstr "أَلْكَع زَنِيم"
+
+msgid "Varment"
+msgstr "الحيوان البرّيّ المفترس الغير مرغوب فيه. على سبيل المثال ابن آوى"
+
+msgid "Varmint"
+msgstr "اللئيم"
+
+msgid "Varmints"
+msgstr "اللئيمون"
+
+msgid "Varna"
+msgstr "مدينة فارنا البلغاريّة"
+
+msgid "Varnish"
+msgstr "الصبغ"
+
+msgid "Varnished"
+msgstr "ملمّع"
+
+msgid "Varnisher"
+msgstr "ألد هان"
+
+msgid "Varnishers"
+msgstr "ألدهانون - جمع دهان"
+
+msgid "Varnishes"
+msgstr "الأصباغ"
+
+msgid "Varnishing"
+msgstr "التلميع"
+
+msgid "Varsities"
+msgstr "الجامعات"
+
+msgid "Varsity"
+msgstr "الجامعة"
+
+msgid "Varuna"
+msgstr "الإله الخالق الهندوسي"
+
+msgid "Varus"
+msgstr "التّقوّس، معقوف للداخل"
+
+msgid "Varvel"
+msgstr "الحلقة التي توثق أرجل الصّقر بيد المدرّب"
+
+msgid "Vary"
+msgstr "تفاوت"
+
+msgid "Varying"
+msgstr "التفاوت"
+
+msgid "Varyingly"
+msgstr "باختلاف"
+
+msgid "Varyings"
+msgstr "مُتَغَيِّر مُتَقَلِّب"
+
+msgid "Vas"
+msgstr "الوريد في جسم الإنسان او الحيوان"
+
+msgid "Vasa"
+msgstr "الأوردة في جسم الإنسان او الحيوان"
+
+msgid "Vascula"
+msgstr "الصّناديق"
+
+msgid "Vascular"
+msgstr "وعائي"
+
+msgid "Vascularity"
+msgstr "الوعائيّة، الإحتوائيّة"
+
+msgid "Vascularly"
+msgstr "بشكل وعائي"
+
+msgid "Vasculitis"
+msgstr "التهاب الأوعية الدّمويّة"
+
+msgid "Vasculum"
+msgstr "الصّندوق"
+
+msgid "Vase"
+msgstr "الزهرية"
+
+msgid "Vasectomies"
+msgstr "عمليات جراحية تمنع انتاج الحيوانات المنوية"
+
+msgid "Vasectomy"
+msgstr "عملية جراحية تمنع انتاج الحيوانات المنوية"
+
+msgid "Vaselin"
+msgstr "مرهم الفاسيلين"
+
+msgid "Vaseline"
+msgstr "الفازيلين"
+
+msgid "Vases"
+msgstr "الزهريات"
+
+msgid "Vashti"
+msgstr "فاشتي"
+
+msgid "Vasiform"
+msgstr "بصورة اسطوانية"
+
+msgid "Vasoconstriction"
+msgstr "انقباض الأوعية الدّمويّة مما يقلل من تدفق الدم في الجسم"
+
+msgid "Vasoconstrictor"
+msgstr "دواء او مسبب لتقلّص الأوعية الدموية"
+
+msgid "Vasodilation"
+msgstr "توسيع الأوعية الدّمويّة"
+
+msgid "Vasodilator"
+msgstr "الدّواء الذي يسبّب توسيع الأوعية الدّمويّة"
+
+msgid "Vasomotor"
+msgstr "مؤثر على قطر الأوعية الدّمويّة"
+
+msgid "Vasopressin"
+msgstr "فاسوبريسين - الهرمون الذي يرفع ضغط الدّم"
+
+msgid "Vasquez"
+msgstr "فاسكويز"
+
+msgid "Vass"
+msgstr "مدينة فاس"
+
+msgid "Vassal"
+msgstr "التابع"
+
+msgid "Vassalage"
+msgstr "قَطِيعَة"
+
+msgid "Vassals"
+msgstr "التوابع"
+
+msgid "Vassar"
+msgstr "فاسار"
+
+msgid "Vast"
+msgstr "واسع"
+
+msgid "Vastation"
+msgstr "الخسارة، نزع السّكّان، التّدمير"
+
+msgid "Vaster"
+msgstr "أوسع"
+
+msgid "Vastest"
+msgstr "أوسع"
+
+msgid "Vastitude"
+msgstr "الاتّساع، المدًى الكبير"
+
+msgid "Vastity"
+msgstr "الاتّساع"
+
+msgid "Vastly"
+msgstr "بشكل واسع"
+
+msgid "Vastness"
+msgstr "السعة"
+
+msgid "Vastnesses"
+msgstr "السعة"
+
+msgid "Vasty"
+msgstr "شاسع، كبير"
+
+msgid "Vasum"
+msgstr "فاسم - حيوان بحري بطني الأقدام ذو صدفة على كمّثريّة الشّكل"
+
+msgid "Vat"
+msgstr "الحوض"
+
+msgid "Vatia"
+msgstr "مدينة فاتيا"
+
+msgid "Vatic"
+msgstr "متعلق بالنبي ونبوأته او رسالته"
+
+msgid "Vatical"
+msgstr "متعلق بالنبي ونبوأته او رسالته"
+
+msgid "Vatican"
+msgstr "الفاتيكان"
+
+msgid "Vaticide"
+msgstr "القتل أو قاتل النبيّ"
+
+msgid "Vaticinate"
+msgstr "يتّنبّأ بشيئ ما"
+
+msgid "Vaticination"
+msgstr "معرفة المستقبل وعلم الغيب"
+
+msgid "Vaticinator"
+msgstr "الذي يخمّن المستقبل"
+
+msgid "Vats"
+msgstr "الأحواض"
+
+msgid "Vatted"
+msgstr "وضع أو نقل في برميل"
+
+msgid "Vatting"
+msgstr "الوضع أو النّقل في برميل"
+
+msgid "Vaudeville"
+msgstr "الإستعراض المسرحي"
+
+msgid "Vaudevilles"
+msgstr "الإستعراضات المسرحية"
+
+msgid "Vaudevillian"
+msgstr "الممثل الذي يعمل في المنوّعات و الإستعراض المسرحي"
+
+msgid "Vaudois"
+msgstr "سكان اقليم فود السويسري"
+
+msgid "Vaughan"
+msgstr "فآن"
+
+msgid "Vaughn"
+msgstr "فان"
+
+msgid "Vault"
+msgstr "المدفن"
+
+msgid "Vaulted"
+msgstr "مقبّب"
+
+msgid "Vaulter"
+msgstr "المسؤول عن القبو"
+
+msgid "Vaulting"
+msgstr "التقبيب"
+
+msgid "Vaults"
+msgstr "المدافن"
+
+msgid "Vaulty"
+msgstr "فسيح، واسع"
+
+msgid "Vaunt"
+msgstr "التفاخر"
+
+msgid "Vaunted"
+msgstr "متبجّح"
+
+msgid "Vaunter"
+msgstr "المتبجح"
+
+msgid "Vaunting"
+msgstr "التبجّح"
+
+msgid "Vauntingly"
+msgstr "بطريقة متفاخرة"
+
+msgid "Vaunts"
+msgstr "التفاخر"
+
+msgid "Vaut"
+msgstr "الفسيح، القفزة، يقفز"
+
+msgid "Vauty"
+msgstr "قفز"
+
+msgid "Vauxhall"
+msgstr "مدينة فوكسهول"
+
+msgid "Vavasor"
+msgstr "لقب تشريف يوازي تشريف لقب البارون"
+
+msgid "Vavasour"
+msgstr "الإقطاعيّ الذي تمّ تصنيفه مباشرةً تحت مرتبة بارون"
+
+msgid "Vaward"
+msgstr "المقدّمة، الجزء الأمامي"
+
+msgid "Vax"
+msgstr "ميني كومبيوتر"
+
+msgid "VCR"
+msgstr "جهاز فيديو"
+
+msgid "Vaxectomy"
+msgstr "استئصال او إزالة جهاز فاكس VAX"
+
+msgid "Vayu"
+msgstr "إله الرّيح لدى الهندوس"
+
+msgid "Vd"
+msgstr "المرض الجنسيّ"
+
+msgid "Vdt"
+msgstr "شاشة كمبيوتر"
+
+msgid "Vdu"
+msgstr "شاشة كمبيوتر"
+
+msgid "Ve"
+msgstr "ف"
+
+msgid "Veal"
+msgstr "لحم العجل"
+
+msgid "Vealer"
+msgstr "العجل المربى للأكل"
+
+msgid "Veau"
+msgstr "لحم  العجل"
+
+msgid "Veblen"
+msgstr "فيبلين - عالم رياضيّات من الولايات المتّحدة"
+
+msgid "Vection"
+msgstr "العدوى، إنتقال المرض من شخص الى آخر"
+
+msgid "Vector"
+msgstr "الموجه"
+
+msgid "Vectored"
+msgstr "مُوجَّه"
+
+msgid "Vectorial"
+msgstr "إتّجاهي"
+
+msgid "Vectoring"
+msgstr "توجيه"
+
+msgid "Vectorization"
+msgstr "كَمِّيَّةٌ مُوَجَّهَة"
+
+msgid "Vectorizing"
+msgstr "كَمِّيَّةٌ مُوَجَّهَة"
+
+msgid "Vectors"
+msgstr "الموجهات"
+
+msgid "Vecture"
+msgstr "إنتقال العدوى"
+
+msgid "Veda"
+msgstr "الفيدا"
+
+msgid "Vedanta"
+msgstr "مدرسة الهندوسيّة"
+
+msgid "Vedantic"
+msgstr "متعلّق بالمدرسة الهندوسيّة"
+
+msgid "Vedette"
+msgstr "الزّورق"
+
+msgid "Vedic"
+msgstr "متعلق بديانة الفيدا الهنديّة"
+
+msgid "Vedro"
+msgstr "فيدرو - وحدة مقياس سائل روسيّ"
+
+msgid "Vee"
+msgstr "في"
+
+msgid "Veep"
+msgstr "نائب الرئيس"
+
+msgid "Veeps"
+msgstr "نائبوا الرؤساء"
+
+msgid "Veer"
+msgstr "إنحرف"
+
+msgid "Veered"
+msgstr "منحرف"
+
+msgid "Veeries"
+msgstr "عصافير فيري"
+
+msgid "Veering"
+msgstr "الإنحراف"
+
+msgid "Veeringly"
+msgstr "اِنْحِرَاف"
+
+msgid "Veers"
+msgstr "ينحرف"
+
+msgid "Veery"
+msgstr "عصفور فيري"
+
+msgid "Vega"
+msgstr "نجم فيجا"
+
+msgid "Vegan"
+msgstr "النّباتي"
+
+msgid "Vegas"
+msgstr "فيجاس"
+
+msgid "Vegetable"
+msgstr "الخضار"
+
+msgid "Vegetables"
+msgstr "الخضار"
+
+msgid "Vegetal"
+msgstr "نباتي"
+
+msgid "Vegetarian"
+msgstr "نباتي"
+
+msgid "Vegetarianism"
+msgstr "الريجيم النباتي"
+
+msgid "Vegetarians"
+msgstr "النباتيون"
+
+msgid "Vegetate"
+msgstr "إنبت"
+
+msgid "Vegetated"
+msgstr "مزروع"
+
+msgid "Vegetates"
+msgstr "ينبت"
+
+msgid "Vegetating"
+msgstr "النبتة"
+
+msgid "Vegetation"
+msgstr "النباتات"
+
+msgid "Vegetational"
+msgstr "يتكوّن من النّباتات"
+
+msgid "Vegetations"
+msgstr "النباتات"
+
+msgid "Vegetative"
+msgstr "زراعي"
+
+msgid "Vegetatively"
+msgstr "بشكل زراعي"
+
+msgid "Vegetativeness"
+msgstr "القابلية على النّمو والإثمار"
+
+msgid "Vegete"
+msgstr "نشيط،  شاقّ"
+
+msgid "Vegetous"
+msgstr "شاقّ، نشيط"
+
+msgid "Veggie"
+msgstr "الخضروات، الشّحخص النّباتي"
+
+msgid "Vehemence"
+msgstr "العنف"
+
+msgid "Vehemences"
+msgstr "العنف"
+
+msgid "Vehemency"
+msgstr "العنف"
+
+msgid "Vehement"
+msgstr "عنيف"
+
+msgid "Vehemently"
+msgstr "بشكل عنيف"
+
+msgid "Vehicle"
+msgstr "العربة"
+
+msgid "Vehicled"
+msgstr "نقل في مركبة،  مزوّد بمركبة"
+
+msgid "Vehicles"
+msgstr "العربات"
+
+msgid "Vehicular"
+msgstr "خاص بالعربات"
+
+msgid "Veil"
+msgstr "الحجاب"
+
+msgid "Veiled"
+msgstr "محجّب"
+
+msgid "Veiling"
+msgstr "نسيج البراقع"
+
+msgid "Veilings"
+msgstr "نسيج البراقع"
+
+msgid "Veils"
+msgstr "الأحجبة"
+
+msgid "Vein"
+msgstr "العرق"
+
+msgid "Veinal"
+msgstr "وريدي، متعلق بالوريد"
+
+msgid "Veined"
+msgstr "كثير العروق"
+
+msgid "Veiner"
+msgstr "أدات حفر الخشب"
+
+msgid "Veining"
+msgstr "التعرّق"
+
+msgid "Veinless"
+msgstr "بلا عروق"
+
+msgid "Veinlet"
+msgstr "عرق صغير"
+
+msgid "Veinous"
+msgstr "بارز العروق"
+
+msgid "Veins"
+msgstr "العروق"
+
+msgid "Veiny"
+msgstr "ممتلئ بالعروق"
+
+msgid "Vel"
+msgstr "إختصار لكلمة السّرعة"
+
+msgid "Vela"
+msgstr "فيلا - مجموعة نجوم في نصف الكرة الجنوبيّ"
+
+msgid "Velar"
+msgstr "حلقي"
+
+msgid "Velarize"
+msgstr "اصدر صوتًا حلقيًّا"
+
+msgid "Velarized"
+msgstr "اصدر صوتًا حلقيًّا"
+
+msgid "Velarizes"
+msgstr "يصدر صوتًا حلقيًّا"
+
+msgid "Velarizing"
+msgstr "إصدار الصوت الحلقي"
+
+msgid "Velasquez"
+msgstr "فيلاسكويز"
+
+msgid "Velate"
+msgstr "يمتلك حجاب، محجّب"
+
+msgid "Velcro"
+msgstr "الفيلكرو - ماركة تجاريّة"
+
+msgid "Veld"
+msgstr "السهب"
+
+msgid "Velds"
+msgstr "السهوب"
+
+msgid "Veldt"
+msgstr "السهب"
+
+msgid "Veldts"
+msgstr "السهوب"
+
+msgid "Vele"
+msgstr "الحجاب"
+
+msgid "Veliferous"
+msgstr "مزوّد بأشرعة"
+
+msgid "Veliger"
+msgstr "مرحلة يرقيّة لحيوان رخويّ"
+
+msgid "Velitation"
+msgstr "النّزاع، المسابقة، المناوشة"
+
+msgid "Vell"
+msgstr "جلد الغنم"
+
+msgid "Vella"
+msgstr "فيلا"
+
+msgid "Velleity"
+msgstr "الأمنية المجرّدة الغير مصحوبة بمجهود لتحقيقها"
+
+msgid "Vellet"
+msgstr "القطيفة، المخمل"
+
+msgid "Vellicate"
+msgstr "إلتقط، إرتعش"
+
+msgid "Vellicated"
+msgstr "إلتقط، إرتعش"
+
+msgid "Vellicating"
+msgstr "الإلتقاط، الإرتعاش"
+
+msgid "Vellication"
+msgstr "الحشر بإحكام بين الأصابع"
+
+msgid "Vellum"
+msgstr "الرقّ"
+
+msgid "Vellums"
+msgstr "الرقاق"
+
+msgid "Velma"
+msgstr "مدينة فيلما"
+
+msgid "Velocimeter"
+msgstr "جهاز لقياس السّرعة"
+
+msgid "Velocipede"
+msgstr "الدرّاجة"
+
+msgid "Velocipedes"
+msgstr "الدرّاجات"
+
+msgid "Velociraptor"
+msgstr "فيلوسيرابتور - من الدّيناصورات"
+
+msgid "Velocities"
+msgstr "السرع"
+
+msgid "Velocity"
+msgstr "السرعة"
+
+msgid "Velour"
+msgstr "القطيفة"
+
+msgid "Velours"
+msgstr "القطائف"
+
+msgid "Veloute"
+msgstr "صلصة بيضاء اللون"
+
+msgid "Velum"
+msgstr "الغشاء"
+
+msgid "Velure"
+msgstr "قماش المخمل"
+
+msgid "Velutinous"
+msgstr "مخملي الملمس"
+
+msgid "Velvet"
+msgstr "القطيفة"
+
+msgid "Velveteen"
+msgstr "القماش المخملي"
+
+msgid "Velveteens"
+msgstr "الأقمشة المخملية"
+
+msgid "Velvetleaf"
+msgstr "نبات الفيلفيتليف"
+
+msgid "Velvety"
+msgstr "مخملي"
+
+msgid "Vena"
+msgstr "العرق، وعاء دموي"
+
+msgid "Venae"
+msgstr "العروق، الأوعية الدموية"
+
+msgid "Venal"
+msgstr "مرتش"
+
+msgid "Venality"
+msgstr "الإرتشاء"
+
+msgid "Venally"
+msgstr "بشكل مرتش"
+
+msgid "Venary"
+msgstr "متعلق بالصيد"
+
+msgid "Venatic"
+msgstr "متعلق بالصيد"
+
+msgid "Venation"
+msgstr "توزيع العروق"
+
+msgid "Vend"
+msgstr "بع"
+
+msgid "Vendable"
+msgstr "صالح لعرضه للبيع"
+
+msgid "Vendace"
+msgstr "السّمك الأبيض الأوربّيّ"
+
+msgid "Vended"
+msgstr "مبيع"
+
+msgid "Vendee"
+msgstr "المشتري"
+
+msgid "Vendees"
+msgstr "المشترون"
+
+msgid "Vendemiaire"
+msgstr "الشهرالأوّل من التقويم الثّوري الفرنسي "
+
+msgid "Vender"
+msgstr "البائع"
+
+msgid "Vendetta"
+msgstr "الثأر"
+
+msgid "Vendible"
+msgstr "قابل للبيع"
+
+msgid "Vending"
+msgstr "البيع"
+
+msgid "Vendis"
+msgstr "السّمك الأبيض الأوربّيّ"
+
+msgid "Vendition"
+msgstr "البيع لكسب الرّزق"
+
+msgid "Vendor"
+msgstr "البائع"
+
+msgid "Vendors"
+msgstr "الباعة"
+
+msgid "Vends"
+msgstr "يبيع"
+
+msgid "Vendue"
+msgstr "المزاد العلني"
+
+msgid "Veneer"
+msgstr "الغشاء"
+
+msgid "Veneered"
+msgstr "مكسو"
+
+msgid "Veneerer"
+msgstr "الكاسي"
+
+msgid "Veneering"
+msgstr "الكسوة"
+
+msgid "Veneers"
+msgstr "الأغشية"
+
+msgid "Venemous"
+msgstr "خبيث، سامّ"
+
+msgid "Venenose"
+msgstr "سامّ"
+
+msgid "Venerability"
+msgstr "الوقار"
+
+msgid "Venerable"
+msgstr "موقّر"
+
+msgid "Venerableness"
+msgstr "الوقار"
+
+msgid "Venerably"
+msgstr "بشكل موقّر"
+
+msgid "Venerate"
+msgstr "بجّل"
+
+msgid "Venerated"
+msgstr "مبجّل"
+
+msgid "Venerates"
+msgstr "يبجّل"
+
+msgid "Venerating"
+msgstr "التبجيل"
+
+msgid "Veneration"
+msgstr "التبجيل"
+
+msgid "Venerations"
+msgstr "التبجيل"
+
+msgid "Venerator"
+msgstr "مُقدّم الإحترام والتّبجيل"
+
+msgid "Venereal"
+msgstr "تناسلي"
+
+msgid "Venereous"
+msgstr "شهواني، فاسق، داعر، جنسيّ، الشّهوة المثيرة، المثير"
+
+msgid "Veneridae"
+msgstr "المحّار"
+
+msgid "Venerous"
+msgstr "شهواني، فاسق، داعر"
+
+msgid "Venery"
+msgstr "الحبّ الجنسيّ، الجماع، الاصطياد"
+
+msgid "Venesection"
+msgstr "جراحة الشّرايين"
+
+msgid "Veneta"
+msgstr "مدينة فينيتا"
+
+msgid "Venetian"
+msgstr "فينيسيْ"
+
+msgid "Venetians"
+msgstr "الفينيسيون"
+
+msgid "Veneto"
+msgstr "فينيتو"
+
+msgid "Venew"
+msgstr "الدّفعة، الضّربة"
+
+msgid "Veney"
+msgstr "الدّفعة، الضّربة"
+
+msgid "Venezia"
+msgstr "فينيزيا - العاصمة الإقليميّة لـ فينيتو"
+
+msgid "Venezuela"
+msgstr "فينزويلا"
+
+msgid "Venezuelan"
+msgstr "الفينزويلي"
+
+msgid "Venge"
+msgstr "ينتقم، يعاقب"
+
+msgid "Vengeance"
+msgstr "الثأر"
+
+msgid "Vengeances"
+msgstr "الإنتقامات"
+
+msgid "Vengeful"
+msgstr "حقود"
+
+msgid "Vengefully"
+msgstr "بشكل حقود"
+
+msgid "Vengefulness"
+msgstr "الحقد"
+
+msgid "Venger"
+msgstr "المنتقم"
+
+msgid "Veniable"
+msgstr "صغير، مغفور"
+
+msgid "Venial"
+msgstr "طفيف"
+
+msgid "Veniality"
+msgstr "الصّغَر"
+
+msgid "Venially"
+msgstr "بشكل طفيف"
+
+msgid "Venialness"
+msgstr "الصّغر، التفاهة"
+
+msgid "Venice"
+msgstr "فينيسيا"
+
+msgid "Venin"
+msgstr "سم الأفعى"
+
+msgid "Venire"
+msgstr "عمليّة إنتقاء المحلّفين"
+
+msgid "Venison"
+msgstr "لحم الغزال"
+
+msgid "Venite"
+msgstr "الصلوات الكنسيّة"
+
+msgid "Venn"
+msgstr "فين"
+
+msgid "Venom"
+msgstr "السمّ"
+
+msgid "Venomed"
+msgstr "مكروه، بغيض"
+
+msgid "Venomous"
+msgstr "سامّ"
+
+msgid "Venomously"
+msgstr "بشكل سامّ"
+
+msgid "Venomousness"
+msgstr "السّموميّة"
+
+msgid "Venoms"
+msgstr "السموم"
+
+msgid "Venose"
+msgstr "يشبه العروق او الشّرايين"
+
+msgid "Venosity"
+msgstr "تدهور تدفّق الدم في الشّرايين"
+
+msgid "Venous"
+msgstr "وريدي"
+
+msgid "Venously"
+msgstr "بشكل وريدي"
+
+msgid "Vent"
+msgstr "المنفس"
+
+msgid "Ventage"
+msgstr "فتحة صغيرة"
+
+msgid "Ventail"
+msgstr "الجزء السّفلى من خوذة القرون الوسطى"
+
+msgid "Vented"
+msgstr "منفّس"
+
+msgid "Venter"
+msgstr "البطن"
+
+msgid "Venthole"
+msgstr "فتحة التّهوية"
+
+msgid "Ventiduct"
+msgstr "ممر تهوية"
+
+msgid "Ventilate"
+msgstr "هوّ"
+
+msgid "Ventilated"
+msgstr "مهوّى"
+
+msgid "Ventilates"
+msgstr "يهوّي"
+
+msgid "Ventilating"
+msgstr "التهوية"
+
+msgid "Ventilation"
+msgstr "التهوية"
+
+msgid "Ventilations"
+msgstr "التهوية"
+
+msgid "Ventilative"
+msgstr "خاص بالتهوية"
+
+msgid "Ventilator"
+msgstr "جهاز التهوية"
+
+msgid "Ventilators"
+msgstr "أجهزة التهوية"
+
+msgid "Venting"
+msgstr "التنفيس"
+
+msgid "Ventolin"
+msgstr "فينتولين - ماركة تجارية لدواء لعلاج أمراض الرّئة"
+
+msgid "Ventral"
+msgstr "بطني"
+
+msgid "Ventrally"
+msgstr "بطنيا"
+
+msgid "Ventricle"
+msgstr "البطين"
+
+msgid "Ventricles"
+msgstr "البطينات"
+
+msgid "Ventricular"
+msgstr "بطيني"
+
+msgid "Ventriculi"
+msgstr "التّجويف الهضمي لبعض الحشرات"
+
+msgid "Ventriculus"
+msgstr "التّجويف الهضمي لبعض الحشرات"
+
+msgid "Ventriloquism"
+msgstr "التكلّم من البطن"
+
+msgid "Ventriloquist"
+msgstr "المتكلّم من البطن"
+
+msgid "Ventriloquists"
+msgstr "المتكلمون من البطن"
+
+msgid "Ventriloquous"
+msgstr "متعلقة بالتّكلم او المتكلّم"
+
+msgid "Ventriloquy"
+msgstr "الكلام من البطن"
+
+msgid "Vents"
+msgstr "المنافس"
+
+msgid "Ventura"
+msgstr "فينتشورا"
+
+msgid "Venture"
+msgstr "المغامرة"
+
+msgid "Ventured"
+msgstr "مخاطر"
+
+msgid "Venturer"
+msgstr "مخاطر"
+
+msgid "Venturers"
+msgstr "مخاطرون"
+
+msgid "Ventures"
+msgstr "المغامرات"
+
+msgid "Venturesome"
+msgstr "مغامر"
+
+msgid "Venturesomely"
+msgstr "بمغامرة"
+
+msgid "Venturesomeness"
+msgstr "المغامرة"
+
+msgid "Venturi"
+msgstr "بخّاخ"
+
+msgid "Venturine"
+msgstr "المسحوق الذّهبيّ"
+
+msgid "Venturing"
+msgstr "المخاطرة"
+
+msgid "Venturis"
+msgstr "بخّاخات"
+
+msgid "Venturous"
+msgstr "مخاطر"
+
+msgid "Venturously"
+msgstr "بشكل معرض للخطر"
+
+msgid "Venue"
+msgstr "المكان"
+
+msgid "Venues"
+msgstr "الأماكن"
+
+msgid "Venula"
+msgstr "شعيرة دمويّة"
+
+msgid "Venule"
+msgstr "شعيرة دمويّة"
+
+msgid "Venus"
+msgstr "الزهرة"
+
+msgid "Venusian"
+msgstr "متعلق بكوكب الزهرة"
+
+msgid "Venusians"
+msgstr "متعلقة بكوكب الزهرة"
+
+msgid "Venust"
+msgstr "جميل"
+
+msgid "Veps"
+msgstr "لغة الفيبس المتداولة في شمال غرب روسيا"
+
+msgid "Vepsian"
+msgstr "لغة الفيبسيان المتداولة في شمال غرب روسيا"
+
+msgid "Ver"
+msgstr "الإصدار"
+
+msgid "Vera"
+msgstr "فيرا"
+
+msgid "Veracious"
+msgstr "صادق"
+
+msgid "Veraciously"
+msgstr "بشكل صادق"
+
+msgid "Veraciousness"
+msgstr "الصّدق"
+
+msgid "Veracities"
+msgstr "الحقائق"
+
+msgid "Veracity"
+msgstr "الصدق"
+
+msgid "Veracruz"
+msgstr "ميناء فيراكروز المكسيكي"
+
+msgid "Veranda"
+msgstr "الشرفة"
+
+msgid "Verandaed"
+msgstr "ذا شرفة"
+
+msgid "Verandah"
+msgstr "الشرفة"
+
+msgid "Verandahed"
+msgstr "ذا شرفة"
+
+msgid "Verandas"
+msgstr "الشرفات"
+
+msgid "Verapamil"
+msgstr "فيراباميل - ماركة تجارية لدواء للقلب"
+
+msgid "Veratrum"
+msgstr "فيراترم - أعشاب سامّة"
+
+msgid "Verb"
+msgstr "الفعل"
+
+msgid "Verbal"
+msgstr "شفوي"
+
+msgid "Verbalism"
+msgstr "شفهيّة"
+
+msgid "Verbalisms"
+msgstr "شفهيّات"
+
+msgid "Verbalist"
+msgstr "فصيح"
+
+msgid "Verbalists"
+msgstr "فصحاء"
+
+msgid "Verbality"
+msgstr "الكلمات المجرّدة، التّعبير الحرفيّ العاري"
+
+msgid "Verbalization"
+msgstr "الشفهيّة"
+
+msgid "Verbalize"
+msgstr "فعّل"
+
+msgid "Verbalized"
+msgstr "مفعّل"
+
+msgid "Verbalizer"
+msgstr "متحدّث"
+
+msgid "Verbalizes"
+msgstr "يفعّل"
+
+msgid "Verbalizing"
+msgstr "التفعيل"
+
+msgid "Verbally"
+msgstr "شفهيا"
+
+msgid "Verbarian"
+msgstr "متعلق بالكلام"
+
+msgid "Verbarium"
+msgstr "فيربريوم - لعبة تعتمد على الكلام"
+
+msgid "Verbascum"
+msgstr "أعشاب فيرباسكم"
+
+msgid "Verbatim"
+msgstr "حرفيا"
+
+msgid "Verbena"
+msgstr "نبات رعي الحمام"
+
+msgid "Verbiage"
+msgstr "الإسهاب"
+
+msgid "Verbiages"
+msgstr "الإسهاب"
+
+msgid "Verbigeration"
+msgstr "الإعادة المفرطة للكلمات بلا معنى"
+
+msgid "Verbose"
+msgstr "مضجر"
+
+msgid "Verbosely"
+msgstr "بشكل مضجر"
+
+msgid "Verboseness"
+msgstr "الإسهاب"
+
+msgid "Verbosities"
+msgstr "الإطالة في الكلام، الإسهاب"
+
+msgid "Verbosity"
+msgstr "الإسهاب"
+
+msgid "Verbs"
+msgstr "الأفعال"
+
+msgid "Verd"
+msgstr "حقّ رعي الحيوانات في الغابة، حق قطع الأخشاب في الغابة للوقود"
+
+msgid "Verdancy"
+msgstr "الخضار"
+
+msgid "Verdandi"
+msgstr "ربّة القدر"
+
+msgid "Verdant"
+msgstr "الأخضر"
+
+msgid "Verdantly"
+msgstr "بشكل أخضر"
+
+msgid "Verde"
+msgstr "فيرد"
+
+msgid "Verdel"
+msgstr "مدينة فيردل"
+
+msgid "Verden"
+msgstr "مدينة فردن"
+
+msgid "Verdi"
+msgstr "فيردي"
+
+msgid "Verdict"
+msgstr "القرار"
+
+msgid "Verdicts"
+msgstr "القرارات"
+
+msgid "Verdigris"
+msgstr "الزنجار"
+
+msgid "Verdigrises"
+msgstr "الزنجار"
+
+msgid "Verdin"
+msgstr "طائر الفيردن"
+
+msgid "Verdine"
+msgstr "فيرداين - اسم تجاريّ لصبغة خضراء اللون"
+
+msgid "Verdit"
+msgstr "القرار، الحُكم"
+
+msgid "Verditer"
+msgstr "الصّبغة الزّرقاء أو الخضراء"
+
+msgid "Verdun"
+msgstr "فيردن - معركة في الحرب العالميّة الأولى ( 1916 ). من أكثر المعارك دمويّة"
+
+msgid "Verdure"
+msgstr "الخضرة"
+
+msgid "Verdured"
+msgstr "مكسوّ بالخضرة"
+
+msgid "Verdures"
+msgstr "الخضرة"
+
+msgid "Verdurous"
+msgstr "مخضرّ اللون"
+
+msgid "Verecund"
+msgstr "خجول أو متواضع"
+
+msgid "Verecundity"
+msgstr "التّواضع، الخجل"
+
+msgid "Verein"
+msgstr "الاتّحاد، الجمعيّة"
+
+msgid "Vergas"
+msgstr "مدينة فيرجاس"
+
+msgid "Verge"
+msgstr "الحافّة"
+
+msgid "Verged"
+msgstr "مقارب"
+
+msgid "Vergency"
+msgstr "الميل، الإقتراب"
+
+msgid "Vergennes"
+msgstr "مدينة فرجينيز"
+
+msgid "Verger"
+msgstr "الشمّاس"
+
+msgid "Verges"
+msgstr "الحواف"
+
+msgid "Vergil"
+msgstr "فيرجل"
+
+msgid "Vergilian"
+msgstr "متعلقة بالشاعر الروماني فيرجل"
+
+msgid "Verging"
+msgstr "الإقتراب، المحاذاة"
+
+msgid "Veridic"
+msgstr "صادق"
+
+msgid "Veridical"
+msgstr "صادق"
+
+msgid "Veridically"
+msgstr "بصدق"
+
+msgid "Verier"
+msgstr "أكثر حقيقةً"
+
+msgid "Veriest"
+msgstr "الأكثر حقيقةً"
+
+msgid "Verifiability"
+msgstr "قبوليّة الإثبات"
+
+msgid "Verifiable"
+msgstr "قابل للإثبات"
+
+msgid "Verifiableness"
+msgstr "قبوليّة الإثبات"
+
+msgid "Verifiably"
+msgstr "بشكل إثباتي"
+
+msgid "Verification"
+msgstr "التحقّق"
+
+msgid "Verifications"
+msgstr "التحقّق"
+
+msgid "Verified"
+msgstr "محقّق"
+
+msgid "Verifier"
+msgstr "متحقّق"
+
+msgid "Verifies"
+msgstr "يحقّق"
+
+msgid "Verify"
+msgstr "حقّق"
+
+msgid "Verifying"
+msgstr "التحقيق"
+
+msgid "Verilog"
+msgstr "فيريلوج"
+
+msgid "Verily"
+msgstr "حقا"
+
+msgid "Verisimilar"
+msgstr "محتمل ان يكون حقيقي"
+
+msgid "Verisimilitude"
+msgstr "مخيلة الحقيقة"
+
+msgid "Verisimility"
+msgstr "الواقعيّة"
+
+msgid "Veritable"
+msgstr "حقيقي"
+
+msgid "Veritableness"
+msgstr "الحقيقة"
+
+msgid "Veritably"
+msgstr "بشكل حقيقي"
+
+msgid "Verities"
+msgstr "الحقائق"
+
+msgid "Verity"
+msgstr "الحقيقة"
+
+msgid "Vermeil"
+msgstr "فيرميل - سائل ملمّع"
+
+msgid "Vermicelli"
+msgstr "المعكرونة"
+
+msgid "Vermicide"
+msgstr "مبيد الدّيدان"
+
+msgid "Vermicious"
+msgstr "متعلق بالديدان"
+
+msgid "Vermicular"
+msgstr "دوديّ"
+
+msgid "Vermicularly"
+msgstr "بشكل دوديّ"
+
+msgid "Vermiculate"
+msgstr "متعرّج، ذو خطوط متموّجة"
+
+msgid "Vermiculated"
+msgstr "متعرّج، ذو خطوط متموّجة"
+
+msgid "Vermiculation"
+msgstr "التّعرّج"
+
+#, Name of group of minirals
+msgid "Vermiculite"
+msgstr "فيرميكيوﻻيت"
+
+msgid "Vermiform"
+msgstr "دوديّ"
+
+msgid "Vermifuge"
+msgstr "دواء مضاد للدود"
+
+#, medication capable of causing the evacuation of parasitic intestinal worms
+msgid "Vermifuges"
+msgstr "أدوية مضادة للدّود"
+
+msgid "Vermil"
+msgstr "بلون أحمر برّاق"
+
+msgid "Vermilion"
+msgstr "الزنجفر"
+
+msgid "Vermilions"
+msgstr "الزفنجر"
+
+msgid "Vermillion"
+msgstr "برتقالي مائل للحمرة"
+
+msgid "Vermily"
+msgstr "بلون أحمر برّاق"
+
+msgid "Vermin"
+msgstr "الآفات"
+
+msgid "Verminous"
+msgstr "حشري"
+
+msgid "Verminously"
+msgstr "بشكل حشري"
+
+msgid "Vermont"
+msgstr "فيرمونت"
+
+msgid "Vermouth"
+msgstr "النبيذ"
+
+msgid "Vermouths"
+msgstr "المشروبات"
+
+msgid "Vermuth"
+msgstr "مشروب مسكر يصنع من الخمر الأبيض"
+
+msgid "Vern"
+msgstr "فيرن"
+
+#, Name
+msgid "Verna"
+msgstr "فيرنا"
+
+msgid "Vernacular"
+msgstr "اللهجة"
+
+msgid "Vernacularly"
+msgstr "بلغة عامية"
+
+msgid "Vernaculars"
+msgstr "اللهجات"
+
+msgid "Vernal"
+msgstr "ربيعي"
+
+msgid "Vernally"
+msgstr "ربيعيا"
+
+msgid "Verne"
+msgstr "فيرن"
+
+msgid "Vernier"
+msgstr "الورنيّة"
+
+msgid "Vernile"
+msgstr "ذليل، متذلّل"
+
+msgid "Vernility"
+msgstr "الذّل"
+
+msgid "Vernon"
+msgstr "فيرنون"
+
+msgid "Vernonia"
+msgstr "نبات فيرنونيا"
+
+msgid "Verona"
+msgstr "فيرونا"
+
+msgid "Veronal"
+msgstr "فيرونال  - ماركة تجاريّة لمنوّم"
+
+msgid "Veronica"
+msgstr "فيرونيكا"
+
+msgid "Veronicas"
+msgstr "نباتات الفيرونيكا"
+
+msgid "Verray"
+msgstr "حقيقي"
+
+msgid "Verruca"
+msgstr "البثرة"
+
+msgid "Verrucose"
+msgstr "مغطّى بالبثور"
+
+msgid "Verrucous"
+msgstr "مغطّى بالبثور"
+
+msgid "Vers"
+msgstr "الشِّعر"
+
+msgid "Versa"
+msgstr "العكس"
+
+msgid "Versability"
+msgstr "المهارة"
+
+msgid "Versailles"
+msgstr "فيرساي"
+
+msgid "Versal"
+msgstr "عامّ"
+
+msgid "Versant"
+msgstr "إنحدار او ميل الجبل"
+
+msgid "Versatec"
+msgstr "فيرساتيك"
+
+msgid "Versatile"
+msgstr "متعدّد الإستعمالات"
+
+msgid "Versatilely"
+msgstr "بشكل متعدّد الإستعمالات"
+
+msgid "Versatileness"
+msgstr "تعدد الاستخدامات"
+
+msgid "Versatility"
+msgstr "تعددية الاستعمال"
+
+msgid "Verse"
+msgstr "الشعر"
+
+msgid "Versed"
+msgstr "مثقّف"
+
+msgid "Verseman"
+msgstr "الشّاعر"
+
+msgid "Verser"
+msgstr "الشاعر"
+
+msgid "Verses"
+msgstr "الأشعار"
+
+msgid "Verset"
+msgstr "المقطع"
+
+msgid "Versicle"
+msgstr "شِعر قصير"
+
+msgid "Versicles"
+msgstr "أشعار قصيرة"
+
+msgid "Versicolor"
+msgstr "متعدد الألوان"
+
+msgid "Versification"
+msgstr "نظم الشعر"
+
+msgid "Versificator"
+msgstr "الشّاعر"
+
+msgid "Versified"
+msgstr "منظوم"
+
+msgid "Versifier"
+msgstr "الشاعر"
+
+msgid "Versifiers"
+msgstr "الشعراء"
+
+msgid "Versifies"
+msgstr "ينظم"
+
+msgid "Versify"
+msgstr "إنظم"
+
+msgid "Versifying"
+msgstr "النظم"
+
+msgid "Versing"
+msgstr "النظم"
+
+msgid "Version"
+msgstr "النسخة"
+
+msgid "Versions"
+msgstr "النسخ"
+
+msgid "Verso"
+msgstr "الصفحة اليسرى"
+
+msgid "Versos"
+msgstr "الصفحات اليسرى"
+
+msgid "Verst"
+msgstr "الفرست - وحدة طول روسيّة"
+
+msgid "Versus"
+msgstr "مقابل"
+
+msgid "Vert"
+msgstr "إختصار لـ فقاري، عمودي"
+
+msgid "Vertebra"
+msgstr "الفقرة"
+
+msgid "Vertebrae"
+msgstr "الفقرات"
+
+msgid "Vertebral"
+msgstr "فقري"
+
+msgid "Vertebrally"
+msgstr "بشكل فقري"
+
+msgid "Vertebras"
+msgstr "الفقرات"
+
+msgid "Vertebrata"
+msgstr "ذوات العمود الفقري"
+
+msgid "Vertebrate"
+msgstr "الفقريّات"
+
+msgid "Vertebrates"
+msgstr "الفقريّات"
+
+msgid "Vertebration"
+msgstr "التقسيم إلى فقرات"
+
+msgid "Vertebre"
+msgstr "الفقرة"
+
+msgid "Vertex"
+msgstr "القمّة"
+
+msgid "Vertexes"
+msgstr "القمّة"
+
+msgid "Vertical"
+msgstr "عمودي"
+
+msgid "Verticality"
+msgstr "العموديّة، 90 درجة"
+
+msgid "Vertically"
+msgstr "بشكل عمودي"
+
+msgid "Verticalness"
+msgstr "عمودي"
+
+msgid "Verticals"
+msgstr "الأعمدة"
+
+msgid "Verticel"
+msgstr "التّرتيب الدّائريّ"
+
+msgid "Vertices"
+msgstr "القمم"
+
+msgid "Verticil"
+msgstr "التّرتيب الدّائريّ"
+
+msgid "Verticillate"
+msgstr "دائري"
+
+msgid "Verticity"
+msgstr "الدوران"
+
+msgid "Verticle"
+msgstr "مِحْوَرْ"
+
+msgid "Vertiginate"
+msgstr "إستدار،  يصاب بدوار"
+
+msgid "Vertigines"
+msgstr "الدّوار"
+
+msgid "Vertiginous"
+msgstr "مصاب بالدوار"
+
+msgid "Vertiginously"
+msgstr "بشكل مصاب بالدوار"
+
+msgid "Vertigo"
+msgstr "الدوار"
+
+msgid "Vertigoes"
+msgstr "الدّوار، الذّهول"
+
+msgid "Vertu"
+msgstr "الجودة الفنّيّة"
+
+msgid "Vervain"
+msgstr "نبات فيرفين"
+
+msgid "Verve"
+msgstr "النشاط"
+
+msgid "Verves"
+msgstr "النشاطات"
+
+msgid "Vervet"
+msgstr "الفرفت - قرد جنوب أفريقيّ"
+
+msgid "Very"
+msgstr "جدا"
+
+msgid "Vesa"
+msgstr "رابطة معايير صناعة فيديو الكمبيوتر"
+
+msgid "Vesbium"
+msgstr "عنصر الـ فيسبيوم"
+
+msgid "Vese"
+msgstr "البدء، أسرع، التّيّار البارد العنيف"
+
+msgid "Vesical"
+msgstr "متعلق بالمثانة"
+
+msgid "Vesicant"
+msgstr "منفّط"
+
+msgid "Vesicants"
+msgstr "منفّطات"
+
+msgid "Vesicaria"
+msgstr "أعشاب الـ فيسيكاريا"
+
+msgid "Vesicate"
+msgstr "بثّر"
+
+msgid "Vesicated"
+msgstr "مبثّر"
+
+msgid "Vesicates"
+msgstr "يبثّر"
+
+msgid "Vesicating"
+msgstr "التبثير"
+
+msgid "Vesicatory"
+msgstr "المادّة الكيميائيّة التي تسبّب التّقرّح"
+
+msgid "Vesicle"
+msgstr "الحويصلة"
+
+msgid "Vesicles"
+msgstr "الحويصلات"
+
+msgid "Vesicular"
+msgstr "بثريّ"
+
+msgid "Vesicularly"
+msgstr "بشكل بثريّ"
+
+msgid "Vesiculate"
+msgstr "ممتلئ بالبثور"
+
+msgid "Vesiculation"
+msgstr "تكوّن البثور"
+
+msgid "Vespa"
+msgstr "فيسبا - نوع من الحشرات الطّائرة"
+
+msgid "Vesper"
+msgstr "نجمة المساء"
+
+msgid "Vespers"
+msgstr "صلاة الغروب"
+
+msgid "Vespertinal"
+msgstr "ليلي، ينشط في الليل"
+
+msgid "Vespertine"
+msgstr "ليلي، ينشط في الليل"
+
+msgid "Vespid"
+msgstr "الزّنبور، حشرة الدّبّور"
+
+msgid "Vespucci"
+msgstr "فيسبكي - ملّاح إيطاليّ و مستكشف السّاحل الجنوب أمريكيّ"
+
+msgid "Vessel"
+msgstr "السفينة"
+
+msgid "Vessels"
+msgstr "السفن"
+
+msgid "Vest"
+msgstr "الصدريّة"
+
+msgid "Vesta"
+msgstr "الثقاب"
+
+msgid "Vestal"
+msgstr "طاهر"
+
+msgid "Vestals"
+msgstr "النساء"
+
+msgid "Vestas"
+msgstr "الثقاب"
+
+msgid "Vested"
+msgstr "ملبس"
+
+msgid "Vestiary"
+msgstr "غرفة تبديل الملابس"
+
+msgid "Vestibular"
+msgstr "دهليزيّ - lمتعلق بالدّهليز"
+
+msgid "Vestibule"
+msgstr "الدهليز"
+
+msgid "Vestibuled"
+msgstr "ذا دهليز"
+
+msgid "Vestibules"
+msgstr "الدهاليز"
+
+msgid "Vestigate"
+msgstr "يتحقق من، يبحث في"
+
+msgid "Vestige"
+msgstr "الأثر"
+
+msgid "Vestiges"
+msgstr "الآثار"
+
+msgid "Vestigial"
+msgstr "أثري"
+
+msgid "Vestigially"
+msgstr "بشكل أثري"
+
+msgid "Vesting"
+msgstr "الإلباس"
+
+msgid "Vestment"
+msgstr "ثوْب"
+
+msgid "Vestments"
+msgstr "أثواب"
+
+msgid "Vestries"
+msgstr "مجالس الكنائس"
+
+msgid "Vestry"
+msgstr "مجلس الكنيسة"
+
+msgid "Vestryman"
+msgstr "عضو في مجلس الكنيسة"
+
+msgid "Vestrymen"
+msgstr "أعضاء في مجلس الكنيسة"
+
+msgid "Vests"
+msgstr "الصداري"
+
+msgid "Vesture"
+msgstr "الرداء"
+
+msgid "Vestured"
+msgstr "ملبس"
+
+msgid "Vestures"
+msgstr "الأردية"
+
+msgid "Vesturing"
+msgstr "الإلباس"
+
+msgid "Vesuvian"
+msgstr "بركانيّ"
+
+msgid "Vesuvius"
+msgstr "فيسفيس - بركان في جنوب غرب إيطاليا"
+
+msgid "Vet"
+msgstr "الطبيب البيطري"
+
+msgid "Vetal"
+msgstr "مدينة فيتال"
+
+msgid "Vetch"
+msgstr "الجلبان"
+
+msgid "Vetches"
+msgstr "الجلبانات"
+
+msgid "Vetchy"
+msgstr "يحتوي على الأعلاف"
+
+msgid "Veteran"
+msgstr "الخبير"
+
+msgid "Veteranly"
+msgstr "بشكل مخضرم"
+
+msgid "Veterans"
+msgstr "الخبراء"
+
+msgid "Veterinarian"
+msgstr "طبيب بيطري"
+
+msgid "Veterinarians"
+msgstr "أطباء بيطريّون"
+
+msgid "Veterinaries"
+msgstr "الأطباء البيطريون"
+
+msgid "Veterinary"
+msgstr "بيطري"
+
+msgid "Vetiver"
+msgstr "فيتيفر - أعشاب هنديّة طويلة"
+
+msgid "Vetivert"
+msgstr "زيت نباتيّ"
+
+msgid "Veto"
+msgstr "النقض"
+
+msgid "Vetoed"
+msgstr "منقوض"
+
+msgid "Vetoer"
+msgstr "الناقض"
+
+msgid "Vetoes"
+msgstr "عمليات النقض"
+
+msgid "Vetoing"
+msgstr "النقض"
+
+msgid "Vetoist"
+msgstr "مستخدم او مؤيّد حق الرّفض الفيتو"
+
+msgid "Vets"
+msgstr "الأطباء البيطريون"
+
+msgid "Vetted"
+msgstr "مدقّق"
+
+msgid "Vetting"
+msgstr "التدقيق"
+
+msgid "Vettura"
+msgstr "عربة نقل"
+
+msgid "Vetturino"
+msgstr "قائد عربة النّقل"
+
+msgid "Vetust"
+msgstr "قديم، عتيق"
+
+msgid "Vex"
+msgstr "أغظ"
+
+msgid "Vexation"
+msgstr "الإنزعاج"
+
+msgid "Vexatious"
+msgstr "مزعج"
+
+msgid "Vexatiously"
+msgstr "بشكل مزعج"
+
+msgid "Vexatiousness"
+msgstr "قصد الإغاظة"
+
+msgid "Vexed"
+msgstr "عويص"
+
+msgid "Vexedly"
+msgstr "بإزعاج"
+
+msgid "Vexer"
+msgstr "المحيّر، المضايق"
+
+msgid "Vexes"
+msgstr "يغيظ"
+
+msgid "Vexil"
+msgstr "اللّواء، الرّاية"
+
+msgid "Vexilla"
+msgstr "الألوية، الرّايات"
+
+msgid "Vexillary"
+msgstr "متعلق باللواء او الرّاية"
+
+msgid "Vexillum"
+msgstr "اللّواء، الرّاية"
+
+msgid "Vexing"
+msgstr "الإغاظة"
+
+msgid "VGA"
+msgstr "تجهيز مرئي"
+
+msgid "VHF"
+msgstr "تردد عالي جدا"
+
+msgid "Veyo"
+msgstr "مدينة فيو"
+
+msgid "Vfat"
+msgstr "نظام الملفّات لنظام تشغيل MS-DOS"
+
+msgid "Vgrep"
+msgstr "البحث عن كلمة في نص باستخدام العين المجرّدة"
+
+msgid "Vhost"
+msgstr "خادم إفتراضي"
+
+msgid "Vhs"
+msgstr "ماركة تجاريّة مستعملة لشكل شريط الفيديو"
+
+msgid "Vi"
+msgstr "السّادس"
+
+msgid "Via"
+msgstr "عن طريق"
+
+msgid "Viability"
+msgstr "قابلية النجاح"
+
+msgid "Viable"
+msgstr "قابل للتطبيق"
+
+msgid "Viably"
+msgstr "بشكل قابل للتطبيق"
+
+msgid "Viaduct"
+msgstr "الجسر"
+
+msgid "Viaducts"
+msgstr "الجسور"
+
+msgid "Viage"
+msgstr "الرّحلة"
+
+msgid "Vial"
+msgstr "القارورة"
+
+msgid "Vialing"
+msgstr "الحِفظ، المداراة"
+
+msgid "Vials"
+msgstr "القوارير"
+
+msgid "Vian"
+msgstr "مدينة فايان"
+
+msgid "Viand"
+msgstr "مُؤنة"
+
+msgid "Viands"
+msgstr "مُؤنْ"
+
+msgid "Viary"
+msgstr "متعلقة بالطّرقات"
+
+msgid "Viatic"
+msgstr "متعلقة بالرّحلة او التّنقّل"
+
+msgid "Viatical"
+msgstr "متعلقة بالرّحلة او التّنقّل"
+
+msgid "Viatication"
+msgstr "شراء بوليصات التّامين من المصابين بمرض مميت"
+
+msgid "Viaticum"
+msgstr "القربان، مصاريف رحلة العمل"
+
+msgid "Viaticus"
+msgstr "شراء بوليصات التّامين من المصابين بمرض مميت"
+
+msgid "Vibes"
+msgstr "المشاعر"
+
+msgid "Vibraharp"
+msgstr "أداة موسيقيّة إيقاعية بقطع معدنيّة"
+
+msgid "Vibrancies"
+msgstr "التذبذبات"
+
+msgid "Vibrancy"
+msgstr "التذبذب"
+
+msgid "Vibrant"
+msgstr "حيوي"
+
+msgid "Vibrantly"
+msgstr "بشكل حيوي"
+
+msgid "Vibraphone"
+msgstr "الفيبرافون"
+
+msgid "Vibraphones"
+msgstr "الفيبرافونات"
+
+msgid "Vibrate"
+msgstr "تذبذب"
+
+msgid "Vibrated"
+msgstr "متذبذب"
+
+msgid "Vibrates"
+msgstr "يتذبذب"
+
+msgid "Vibrating"
+msgstr "التذبذب"
+
+msgid "Vibration"
+msgstr "الإهتزاز"
+
+msgid "Vibration-free"
+msgstr "خالي من إهتزاز"
+
+msgid "Vibrations"
+msgstr "الإهتزازات"
+
+msgid "Vibratiuncle"
+msgstr "الإهتزازة الصّغيرة"
+
+msgid "Vibrato"
+msgstr "تهديج الصوت"
+
+msgid "Vibrator"
+msgstr "الهزّاز"
+
+msgid "Vibrators"
+msgstr "الهزّاز"
+
+msgid "Vibratory"
+msgstr "إهتزازي"
+
+msgid "Vibratos"
+msgstr "تهديج الصوت"
+
+#, curved rodlike motile bacterium
+msgid "Vibrio"
+msgstr "الضَّمّة"
+
+msgid "Vibrionic"
+msgstr "مسبب من الضَّمّة"
+
+msgid "Vibrios"
+msgstr "الضّمّات"
+
+msgid "Vibrissa"
+msgstr "شعرة الحيوان او ريش الطّائر"
+
+msgid "Viburnum"
+msgstr "الويبُرْنوم"
+
+msgid "Vic"
+msgstr "فيك"
+
+msgid "Vicar"
+msgstr "النّائب"
+
+msgid "Vicarage"
+msgstr "بيت الكاهن"
+
+msgid "Vicarages"
+msgstr "بيوت الكهنة"
+
+msgid "Vicarial"
+msgstr "النائب أو العمل كنائب"
+
+msgid "Vicarian"
+msgstr "النّائب"
+
+msgid "Vicarious"
+msgstr "مفوّض"
+
+msgid "Vicariously"
+msgstr "بشكل مفوّض"
+
+msgid "Vicariousness"
+msgstr "البدل"
+
+msgid "Vicars"
+msgstr "الكهنة"
+
+msgid "Vicary"
+msgstr "النّائب"
+
+msgid "Vice"
+msgstr "النائب"
+
+msgid "Vice-regal"
+msgstr "متعلّق بنائب الملك"
+
+msgid "Viced"
+msgstr "قاسي, فاسد"
+
+msgid "Vicegerent"
+msgstr "نائب"
+
+msgid "Vicennial"
+msgstr "مرّة كل عشرين عام"
+
+msgid "Viceregal"
+msgstr "نائبي"
+
+msgid "Viceroy"
+msgstr "نائب الملك"
+
+msgid "Viceroyalty"
+msgstr "المنطقة أو إقليم"
+
+msgid "Viceroys"
+msgstr "نواب الملك"
+
+msgid "Vices"
+msgstr "الملازم"
+
+msgid "Vicety"
+msgstr "الخطأ، العيب، الخشونة"
+
+#, Name
+msgid "Vichy"
+msgstr "فيشي"
+
+msgid "Vici"
+msgstr "مدينة فيسي"
+
+msgid "Vicia"
+msgstr "نبات الـ فيسيا"
+
+msgid "Viciate"
+msgstr "يضعف"
+
+msgid "Vicinage"
+msgstr "جوار"
+
+msgid "Vicinal"
+msgstr "محلّي"
+
+msgid "Vicine"
+msgstr "بالقرب، مجاور"
+
+msgid "Vicing"
+msgstr "إبدال"
+
+msgid "Vicinities"
+msgstr "الجوار"
+
+msgid "Vicinity"
+msgstr "الجوار"
+
+msgid "Vicious"
+msgstr "شرير"
+
+msgid "Viciously"
+msgstr "بضراوة"
+
+msgid "Viciousness"
+msgstr "الوحشيّة"
+
+msgid "Vicissitude"
+msgstr "التقلّب"
+
+msgid "Vicissitudes"
+msgstr "التقلبات"
+
+msgid "Vicissitudinous"
+msgstr "متقلّب"
+
+msgid "Vick"
+msgstr "مدينة فيك"
+
+#, Name
+msgid "Vickers"
+msgstr "فايكرز"
+
+msgid "Vickery"
+msgstr "مدينة فيكاري"
+
+msgid "Vickie"
+msgstr "فيكي"
+
+msgid "Vicksburg"
+msgstr "فيكسبيرغ"
+
+msgid "Vicky"
+msgstr "فيكي"
+
+msgid "Vicount"
+msgstr "الفيكونت - منزلة إجتماعية"
+
+msgid "Victim"
+msgstr "الضحيّة"
+
+msgid "Victimate"
+msgstr "يجعل منه ضحيّة"
+
+msgid "Victimisation"
+msgstr "العمل الذي ينتج عنه ضحايا"
+
+msgid "Victimise"
+msgstr "عاقب بظلم"
+
+msgid "Victimization"
+msgstr "العمل الذي ينتج عنه ضحايا"
+
+msgid "Victimize"
+msgstr "يُضحّي بـ"
+
+msgid "Victimized"
+msgstr "ضحّى بـ"
+
+msgid "Victimizer"
+msgstr "مُضحّي بـ"
+
+msgid "Victimizes"
+msgstr "يُضحّي بـ"
+
+msgid "Victimizing"
+msgstr "التّضحية بـ"
+
+msgid "Victims"
+msgstr "الضحايا"
+
+msgid "Victor"
+msgstr "المنتصر"
+
+msgid "Victoria"
+msgstr "فيكتوريا"
+
+msgid "Victorian"
+msgstr "الفيكتوريّ"
+
+msgid "Victoriana"
+msgstr "أشياء من عصر فيكتوريا"
+
+msgid "Victorians"
+msgstr "الفيكتوريّون"
+
+msgid "Victories"
+msgstr "الإنتصارات"
+
+msgid "Victorious"
+msgstr "منتصر"
+
+msgid "Victoriously"
+msgstr "بشكل منتصر"
+
+msgid "Victoriousness"
+msgstr "النّصر"
+
+msgid "Victors"
+msgstr "المنتصرون"
+
+msgid "Victory"
+msgstr "النصر"
+
+#, Name
+msgid "Victrola"
+msgstr "فيكترولا"
+
+msgid "Victual"
+msgstr "المؤونة"
+
+msgid "Victualage"
+msgstr "المؤن، الطّعام"
+
+msgid "Victualed"
+msgstr "مموَّن"
+
+msgid "Victualer"
+msgstr "مموِّن"
+
+msgid "Victualers"
+msgstr "مموِّنون"
+
+msgid "Victualing"
+msgstr "التموين"
+
+msgid "Victualling"
+msgstr "التّزويد بالطّعام والمؤن"
+
+msgid "Victuals"
+msgstr "المؤن"
+
+msgid "Victus"
+msgstr "الطّعام, الغذاء"
+
+msgid "Vida"
+msgstr "فيدا"
+
+msgid "Vidal"
+msgstr "فيدال"
+
+msgid "Vidalia"
+msgstr "مدينة فيداليا"
+
+msgid "Vide"
+msgstr "إنظر"
+
+msgid "Videlicet"
+msgstr "بمعنى"
+
+msgid "Video"
+msgstr "الفيديو"
+
+msgid "Videocassette"
+msgstr "الكاسيت لشريط الفيديو"
+
+msgid "Videodisk"
+msgstr "قرص مرئي"
+
+msgid "Videos"
+msgstr "الفيديوات"
+
+msgid "Videotape"
+msgstr "شريط الفديو"
+
+msgid "Videotaped"
+msgstr "مسجّل على شريط فيديو"
+
+msgid "Videotapes"
+msgstr "أشرطة الفديو"
+
+msgid "Videotaping"
+msgstr "التسجيل على شريط فيديو"
+
+msgid "Videotex"
+msgstr "البثّ النّصّي"
+
+msgid "Vidette"
+msgstr "الزّورق"
+
+msgid "Vidonia"
+msgstr "خمر أبيض جافّ"
+
+msgid "Vidor"
+msgstr "فيدور - مخرج فيلم أمريكيّ"
+
+msgid "Vidual"
+msgstr "أرمل"
+
+msgid "Viduation"
+msgstr "الأرمل، المفجوع، الخسارة، الحرمان"
+
+msgid "Viduity"
+msgstr "التّرمّل"
+
+msgid "Vie"
+msgstr "نافس"
+
+msgid "Vied"
+msgstr "منافس"
+
+msgid "Vielle"
+msgstr "آلة موسيقيّة وتريّة"
+
+msgid "Vienna"
+msgstr "فْيَنّا"
+
+msgid "Viennese"
+msgstr "فْيَنّي"
+
+#, Name
+msgid "Vientiane"
+msgstr "فْيَنتيان"
+
+msgid "Vier"
+msgstr "فْيير"
+
+msgid "Vies"
+msgstr "ينافس"
+
+msgid "Viet"
+msgstr "اختصار فيتنام"
+
+msgid "Vietnam"
+msgstr "فيتنام"
+
+msgid "Vietnamese"
+msgstr "الفيتناميون"
+
+msgid "View"
+msgstr "وجهة النظر"
+
+msgid "Viewable"
+msgstr "صالح للمشاهدة"
+
+msgid "Viewdata"
+msgstr "عرض البيانات"
+
+msgid "Viewed"
+msgstr "منظور"
+
+msgid "Viewer"
+msgstr "المشاهد"
+
+msgid "Viewers"
+msgstr "المشاهدون"
+
+msgid "Viewfinder"
+msgstr "عدسة الكاميرا"
+
+msgid "Viewgraph"
+msgstr "فيوجراف"
+
+msgid "Viewing"
+msgstr "المراقبة"
+
+msgid "Viewings"
+msgstr "المراقبات"
+
+msgid "Viewless"
+msgstr "غير مبدي الرأي"
+
+msgid "Viewlessly"
+msgstr "بشكل غير مبدي الراي"
+
+msgid "Viewpoint"
+msgstr "وجهة النظر"
+
+msgid "Viewpoints"
+msgstr "وجهات النظر"
+
+msgid "Views"
+msgstr "وجهات النظر"
+
+msgid "Viewy"
+msgstr "مناظر غريبة، خياليّ، غير عمليّ، شخص خياليّ"
+
+msgid "Vigesimal"
+msgstr "متعلق بالرّقم عشرون"
+
+msgid "Vigil"
+msgstr "السهر"
+
+msgid "Vigilance"
+msgstr "اليقظة"
+
+msgid "Vigilances"
+msgstr "اليقظة"
+
+msgid "Vigilant"
+msgstr "متيقظ"
+
+msgid "Vigilante"
+msgstr "الحارس"
+
+msgid "Vigilantes"
+msgstr "الحراس"
+
+msgid "Vigilantism"
+msgstr "اليقظة، الأمن"
+
+msgid "Vigilantly"
+msgstr "بإحتراس"
+
+msgid "Vigils"
+msgstr "السهر"
+
+msgid "Vigna"
+msgstr "نبات الـ فيجنا"
+
+msgid "Vignette"
+msgstr "المقالة القصيرة"
+
+msgid "Vignetted"
+msgstr "مكتوب بإيجاز"
+
+msgid "Vignetter"
+msgstr "كاتب المقاﻻت القصيرة"
+
+msgid "Vignettes"
+msgstr "المقالات القصيرة"
+
+msgid "Vignetting"
+msgstr "التظليل"
+
+msgid "Vigo"
+msgstr "مدينة فيجو"
+
+msgid "Vigor"
+msgstr "الحماسة"
+
+msgid "Vigoroso"
+msgstr "نشيط"
+
+msgid "Vigorous"
+msgstr "نشيط"
+
+msgid "Vigorously"
+msgstr "بنشاط"
+
+msgid "Vigorousness"
+msgstr "النّشاط"
+
+msgid "Vigors"
+msgstr "الحماسة"
+
+msgid "Vigour"
+msgstr "الحماسة"
+
+msgid "Vigours"
+msgstr "الحماسة"
+
+msgid "Vii"
+msgstr "السّابع"
+
+msgid "Viii"
+msgstr "الثّامن"
+
+msgid "Viinage"
+msgstr "المنطقة، الجوار"
+
+msgid "Viking"
+msgstr "الفايكنك"
+
+msgid "Vikings"
+msgstr "الفايكنكز"
+
+msgid "Vila"
+msgstr "فيلا - عاصمة فانوتو"
+
+msgid "Vilany"
+msgstr "الحقارة"
+
+msgid "Vilas"
+msgstr "مدينة فيلاس"
+
+msgid "Vilayet"
+msgstr "الولاية - تقسيم إداري"
+
+msgid "Vile"
+msgstr "حقير"
+
+msgid "Viled"
+msgstr "بذيء، افترائيّ، رديء"
+
+msgid "Vilely"
+msgstr "بشكل حقير"
+
+msgid "Vileness"
+msgstr "الدناءة"
+
+msgid "Viler"
+msgstr "حقير"
+
+msgid "Vilest"
+msgstr "أكثر حقارة"
+
+msgid "Vilification"
+msgstr "الطعن"
+
+msgid "Vilifications"
+msgstr "الطعنات"
+
+msgid "Vilified"
+msgstr "مذموم"
+
+msgid "Vilifier"
+msgstr "المشوّه للسمعة"
+
+msgid "Vilifies"
+msgstr "يذمّ"
+
+msgid "Vilify"
+msgstr "ذمّ"
+
+msgid "Vilifying"
+msgstr "الذمّ"
+
+msgid "Vilipend"
+msgstr "يستخف،يزدري"
+
+msgid "Vility"
+msgstr "الحقارة، الخسّة"
+
+msgid "Vill"
+msgstr "قرية"
+
+msgid "Villa"
+msgstr "الفيللا"
+
+msgid "Village"
+msgstr "القرية"
+
+msgid "Villager"
+msgstr "القرويّ"
+
+msgid "Villagers"
+msgstr "القرويّون"
+
+msgid "Villages"
+msgstr "القرى"
+
+msgid "Villain"
+msgstr "وغد"
+
+msgid "Villainess"
+msgstr "المرأة الشّريرة"
+
+msgid "Villainies"
+msgstr "الخباثة"
+
+msgid "Villainous"
+msgstr "خسيس"
+
+msgid "Villainously"
+msgstr "بشكل خسيس"
+
+msgid "Villainousness"
+msgstr "النّذالة"
+
+msgid "Villains"
+msgstr "الأوغاد"
+
+msgid "Villainy"
+msgstr "الخبث"
+
+msgid "Villan"
+msgstr "الشّرّير"
+
+msgid "Villanage"
+msgstr "الخسّة، سوء السّمعة، الحقارة"
+
+msgid "Villanize"
+msgstr "يسبّ"
+
+msgid "Villanous"
+msgstr "الشّرّ أو الفساد"
+
+msgid "Villanousness"
+msgstr "الشرّير"
+
+msgid "Villanova"
+msgstr "مدينة فيلانوفا"
+
+msgid "Villany"
+msgstr "الشّر"
+
+msgid "Villard"
+msgstr "فيلارد - رجل أعمال من الولايات المتّحدة "
+
+msgid "Villas"
+msgstr "الفيلات"
+
+msgid "Villatic"
+msgstr "القرويّ، الريفيّ"
+
+msgid "Villein"
+msgstr "الرقّ"
+
+msgid "Villenage"
+msgstr "الخسّة، سوء السّمعة، الحقارة"
+
+msgid "Villi"
+msgstr "الزّغب"
+
+msgid "Villiform"
+msgstr "الزّغب"
+
+msgid "Villous"
+msgstr "زَغِبيّ"
+
+msgid "Villus"
+msgstr "الزّغبة"
+
+msgid "Vilna"
+msgstr "فيلنا - العاصمة والمدينة الأكبر لـ ليثوانيا"
+
+msgid "Vilnius"
+msgstr "فيلنيوس - عاصمة ليثوانيا"
+
+msgid "Vim"
+msgstr "النشاط"
+
+msgid "Vimen"
+msgstr "غصن الشّجرة"
+
+msgid "Viminaria"
+msgstr "فيميناريا - شجيرات أستراليّة غير مورقة"
+
+msgid "Vims"
+msgstr "النشاطات"
+
+msgid "Vin"
+msgstr "رقم المركبة"
+
+msgid "Vina"
+msgstr "آلة موسيقيّة  وتريّة"
+
+msgid "Vinaceous"
+msgstr "متعلق بالنّبيذ"
+
+msgid "Vinaigrette"
+msgstr "صلصة الخلّ"
+
+msgid "Vinaigrettes"
+msgstr "صلصة الخلّ"
+
+msgid "Vinasse"
+msgstr "مخلّفات التّخمّر"
+
+msgid "Vinca"
+msgstr "نبات الـ فينكا"
+
+msgid "Vince"
+msgstr "فينس"
+
+msgid "Vincennes"
+msgstr "مدينة فينسينز"
+
+msgid "Vincent"
+msgstr "فنسينت"
+
+msgid "Vincible"
+msgstr "ممكن قهره"
+
+msgid "Vincture"
+msgstr "غلاف الكتاب"
+
+msgid "Vincula"
+msgstr "الرّابطة"
+
+msgid "Vinculum"
+msgstr "الرّابطة"
+
+msgid "Vinculums"
+msgstr "الرّوابط"
+
+msgid "Vindicable"
+msgstr "قابل للتّبرير"
+
+msgid "Vindicate"
+msgstr "برّئ"
+
+msgid "Vindicated"
+msgstr "مبرّأ"
+
+msgid "Vindicates"
+msgstr "يبرّئ"
+
+msgid "Vindicating"
+msgstr "التبرئة"
+
+msgid "Vindication"
+msgstr "التبرئة"
+
+msgid "Vindications"
+msgstr "التبريئات"
+
+msgid "Vindicative"
+msgstr "تبريئي"
+
+msgid "Vindicator"
+msgstr "المُدافع، المُبرّئ"
+
+msgid "Vindicatory"
+msgstr "تبريئي"
+
+msgid "Vindictive"
+msgstr "حقود"
+
+msgid "Vindictively"
+msgstr "بشكل حقود"
+
+msgid "Vindictiveness"
+msgstr "حب الانتقام"
+
+msgid "Vine"
+msgstr "الكرمة"
+
+msgid "Vine-clad"
+msgstr "غطّى بالكروم، مُغطّى بالكروم"
+
+msgid "Vineal"
+msgstr "يحتوي على كروم، متعلق بالكروم"
+
+msgid "Vined"
+msgstr "نبات ضعيف لايقوى على الإنتصاب ويعتمد على التّسلّق"
+
+msgid "Vinedresser"
+msgstr "عامل في حقل الكرم"
+
+msgid "Vinegar"
+msgstr "الخلّ"
+
+msgid "Vinegarette"
+msgstr "الخليط، عربة صغيرة"
+
+msgid "Vinegarroon"
+msgstr "عقرب كبير"
+
+msgid "Vinegars"
+msgstr "الخلّ"
+
+msgid "Vinegary"
+msgstr "خلّي"
+
+msgid "Viner"
+msgstr "زارع العنب"
+
+msgid "Vinery"
+msgstr "مزرعة عنب"
+
+msgid "Vines"
+msgstr "الكرمات"
+
+msgid "Vinette"
+msgstr "العود أو الفرع"
+
+msgid "Vineyard"
+msgstr "مزرعة العنب"
+
+msgid "Vineyards"
+msgstr "مزارع العنب"
+
+msgid "Vinic"
+msgstr "متعلق بالخمر"
+
+msgid "Viniculture"
+msgstr "زراعة الكرمة او العنب"
+
+msgid "Vinifera"
+msgstr "العنب الأوروبي"
+
+msgid "Vinification"
+msgstr "تحويل عصير العنب إلى خمر"
+
+msgid "Vining"
+msgstr "يشكّل كالكرمة"
+
+msgid "Vinings"
+msgstr "مدينة فينينجز"
+
+msgid "Vinita"
+msgstr "مدينة فينيتا"
+
+msgid "Vino"
+msgstr "الخمر"
+
+msgid "Vinolent"
+msgstr "مخمور"
+
+msgid "Vinous"
+msgstr "فينوس"
+
+msgid "Vinson"
+msgstr "فينسن"
+
+msgid "Vintage"
+msgstr "محصول العنب"
+
+msgid "Vintager"
+msgstr "ممتاز"
+
+msgid "Vintages"
+msgstr "محاصيل العنب"
+
+msgid "Vintner"
+msgstr "الخمّار"
+
+msgid "Vintners"
+msgstr "الخمّارون"
+
+msgid "Vinton"
+msgstr "مدينة فينتون"
+
+msgid "Viny"
+msgstr "متعلق بشجرة الكرم"
+
+msgid "Vinyl"
+msgstr "الفينيل"
+
+msgid "Viol"
+msgstr "الفيول - آلة مةسيقية وترية"
+
+msgid "Viola"
+msgstr "الكمان"
+
+msgid "Violable"
+msgstr "قابل للإنتهاك"
+
+msgid "Violably"
+msgstr "بشكل انتهاكي"
+
+msgid "Violas"
+msgstr "الكمانات"
+
+msgid "Violate"
+msgstr "إنتهك"
+
+msgid "Violated"
+msgstr "منتهك"
+
+msgid "Violates"
+msgstr "ينتهك"
+
+msgid "Violating"
+msgstr "الإنتهاك"
+
+msgid "Violation"
+msgstr "الإنتهاك"
+
+msgid "Violations"
+msgstr "الإنتهاكات"
+
+msgid "Violative"
+msgstr "إنتهاكي"
+
+msgid "Violator"
+msgstr "المنتهك"
+
+msgid "Violators"
+msgstr "المنتهكون"
+
+msgid "Viole"
+msgstr "الزّجاجة"
+
+msgid "Violence"
+msgstr "العنف"
+
+msgid "Violences"
+msgstr "العنف"
+
+msgid "Violent"
+msgstr "عنيف"
+
+msgid "Violently"
+msgstr "بقسوة"
+
+msgid "Violet"
+msgstr "البنفسج"
+
+msgid "Violet-tip"
+msgstr "نوع من أنواع الفراشات"
+
+msgid "Violets"
+msgstr "البنفسج"
+
+msgid "Violin"
+msgstr "الكمان"
+
+msgid "Violinist"
+msgstr "عازف الكمان"
+
+msgid "Violinists"
+msgstr "عازفو الكمان"
+
+msgid "Violins"
+msgstr "الكمانات"
+
+msgid "Violist"
+msgstr "عازف الكمان"
+
+msgid "Violoncello"
+msgstr "الكمنجة الكبيرة"
+
+msgid "Violoncellos"
+msgstr "الكمنجة الكبيرة"
+
+msgid "Violone"
+msgstr "فيولون - آلة موسيقية"
+
+msgid "Vip"
+msgstr "شخصيّة هامّة جدًّا"
+
+msgid "Viper"
+msgstr "الأفعى الخبيثة"
+
+msgid "Viperine"
+msgstr "مشابهة الأفعى"
+
+msgid "Viperous"
+msgstr "أفعوي"
+
+msgid "Viperously"
+msgstr "بشكل أفعوي"
+
+msgid "Vipers"
+msgstr "الأفاعي"
+
+msgid "Virago"
+msgstr "امرأة سليطة"
+
+msgid "Viragoes"
+msgstr "نساء سليطات"
+
+msgid "Viragos"
+msgstr "نساء سليطات"
+
+msgid "Viral"
+msgstr "فيروسي"
+
+msgid "Virally"
+msgstr "بشكل فيروسي"
+
+msgid "Vire"
+msgstr "السهم، النّشاب"
+
+msgid "Virelay"
+msgstr "القصيدة"
+
+msgid "Vireo"
+msgstr "فيرو - طائر يأكل الحشرات"
+
+msgid "Vires"
+msgstr "القوى"
+
+msgid "Virescent"
+msgstr "مخضرّ"
+
+msgid "Vireton"
+msgstr "السهم، النّشاب"
+
+msgid "Virgate"
+msgstr "مثل العصا، طويل و رفيع"
+
+msgid "Virgated"
+msgstr "مخطّط"
+
+msgid "Virge"
+msgstr "الحافّة، الطرف، الحد"
+
+msgid "Virger"
+msgstr "الخادم"
+
+msgid "Virgil"
+msgstr "فيرجل"
+
+msgid "Virgilian"
+msgstr "متعلق بـ فيرجل - الشاعر الروماني"
+
+msgid "Virgin"
+msgstr "العذراء"
+
+msgid "Virginal"
+msgstr "عذري"
+
+msgid "Virginally"
+msgstr "بشكل عذري"
+
+msgid "Virginia"
+msgstr "فرجينيا"
+
+#, resident of Verginia
+msgid "Virginian"
+msgstr "فيرجينيّ"
+
+msgid "Virginity"
+msgstr "البكارة"
+
+msgid "Virgins"
+msgstr "العذارى"
+
+msgid "Virgo"
+msgstr "العذراء"
+
+msgid "Virgos"
+msgstr "العذراء"
+
+msgid "Virgulate"
+msgstr "على شكل العصا"
+
+msgid "Virgule"
+msgstr "الفاصلة المائلة"
+
+msgid "Virid"
+msgstr "أخضر فاتح"
+
+msgid "Viridescence"
+msgstr "أخضر أو أخضر قليلاً"
+
+msgid "Viridescent"
+msgstr "ضارب إلى الخضرة"
+
+msgid "Viridity"
+msgstr "الخُضرة"
+
+msgid "Virile"
+msgstr "شجاع"
+
+msgid "Virility"
+msgstr "الرجولة"
+
+msgid "Virion"
+msgstr "الفيروس المُعدي"
+
+msgid "Viroid"
+msgstr "الفيروس المُعدي"
+
+msgid "Virology"
+msgstr "علم الفيروسات"
+
+msgid "Virose"
+msgstr "يمتلك رائحة مقزّزة، نتن، سامّ"
+
+msgid "Virtu"
+msgstr "التحف الفنيّة"
+
+msgid "Virtual"
+msgstr "تخيليّ"
+
+msgid "Virtuality"
+msgstr "الواقعيّة"
+
+msgid "Virtually"
+msgstr "عمليا"
+
+msgid "Virtue"
+msgstr "المزيّة"
+
+msgid "Virtues"
+msgstr "المزايا"
+
+msgid "Virtuosi"
+msgstr "الموهوبون"
+
+msgid "Virtuosities"
+msgstr "البراعة"
+
+msgid "Virtuosity"
+msgstr "البراعة"
+
+msgid "Virtuoso"
+msgstr "الموهوب"
+
+msgid "Virtuosos"
+msgstr "الموهوبون"
+
+msgid "Virtuous"
+msgstr "مستقيم"
+
+msgid "Virtuously"
+msgstr "بشكل مستقيم"
+
+msgid "Virtuousness"
+msgstr "الاستقامة"
+
+msgid "Virulence"
+msgstr "الشدّة"
+
+msgid "Virulency"
+msgstr "خُبْث"
+
+msgid "Virulent"
+msgstr "فتّاك"
+
+msgid "Virulently"
+msgstr "بشكل فتّاك"
+
+msgid "Virus"
+msgstr "الفيروس"
+
+msgid "Viruses"
+msgstr "الفيروسات"
+
+msgid "Vis"
+msgstr "قُوّة"
+
+msgid "Vis-a-vis"
+msgstr "مقابل، وجهاً لوجه، النّظير، الحنطور المجرور بحصان"
+
+msgid "Visa"
+msgstr "التأشيرة"
+
+msgid "Visaed"
+msgstr "يعطى تأشيرة"
+
+msgid "Visage"
+msgstr "المحيّا"
+
+msgid "Visaged"
+msgstr "محيّا"
+
+msgid "Visages"
+msgstr "المحيّا"
+
+msgid "Visaing"
+msgstr "يعطى تأشيرة"
+
+msgid "Visalia"
+msgstr "مدينة فايسليا"
+
+msgid "Visar"
+msgstr "القناع"
+
+msgid "Visard"
+msgstr "قناع"
+
+msgid "Visas"
+msgstr "التأشيرات"
+
+msgid "Visayan"
+msgstr "الفلبيني، شخص من الفلبين"
+
+msgid "Viscera"
+msgstr "الأحشاء"
+
+msgid "Visceral"
+msgstr "عميق"
+
+msgid "Viscerally"
+msgstr "بشكل عميق"
+
+msgid "Viscerate"
+msgstr "ينزع الأحشاء"
+
+msgid "Viscerated"
+msgstr "نزع الأحشاء"
+
+msgid "Viscid"
+msgstr "لزج"
+
+msgid "Viscidity"
+msgstr "لزوجة"
+
+msgid "Viscidly"
+msgstr "بشكل لزج"
+
+msgid "Viscoelastic"
+msgstr "لزج مطاطي"
+
+msgid "Viscoelasticity"
+msgstr "لزوجة مطاطية"
+
+msgid "Viscoidal"
+msgstr "نوعًا ما لزج"
+
+msgid "Viscometer"
+msgstr "مقياس اللزوجة"
+
+msgid "Viscometers"
+msgstr "مقياس اللزوجة"
+
+msgid "Viscosities"
+msgstr "اللزوجة"
+
+msgid "Viscosity"
+msgstr "اللزوجة"
+
+msgid "Viscount"
+msgstr "الفيكونت"
+
+msgid "Viscountess"
+msgstr "زوجة أو أرملة الفيكونت"
+
+msgid "Viscounts"
+msgstr "الفيكونتات"
+
+msgid "Viscous"
+msgstr "لزج"
+
+msgid "Viscously"
+msgstr "بشكل لزج"
+
+msgid "Viscousness"
+msgstr "اللزوجة"
+
+msgid "Viscus"
+msgstr "الأحشاء، أحشاء الجسم"
+
+msgid "Vise"
+msgstr "الملزمة"
+
+msgid "Vised"
+msgstr "فيسيد"
+
+msgid "Viselike"
+msgstr "كالملزمة"
+
+msgid "Vises"
+msgstr "الملازم"
+
+msgid "Vishnu"
+msgstr "فيشنو"
+
+msgid "Visibilities"
+msgstr "الرؤى"
+
+msgid "Visibility"
+msgstr "الرؤية"
+
+msgid "Visible"
+msgstr "مرئي"
+
+msgid "Visibleness"
+msgstr "المرئيّة"
+
+msgid "Visibly"
+msgstr "بوضوح"
+
+msgid "Visier"
+msgstr "مسئول تنفيذيّ عالي"
+
+msgid "Visigoth"
+msgstr "القوطيّ الغربيّ"
+
+msgid "Visigothic"
+msgstr "الشخص القوطيّ"
+
+msgid "Visigoths"
+msgstr "القوطيّون الغربيّون"
+
+msgid "Vising"
+msgstr "الإلزام"
+
+msgid "Vision"
+msgstr "الرؤية"
+
+msgid "Visionaries"
+msgstr "الحالمون"
+
+msgid "Visionariness"
+msgstr "المثاليّة"
+
+msgid "Visionary"
+msgstr "الحالم"
+
+msgid "Visioned"
+msgstr "متصوّر"
+
+msgid "Visioning"
+msgstr "التصوّر"
+
+msgid "Visions"
+msgstr "الرؤى"
+
+msgid "Visit"
+msgstr "الزيارة"
+
+msgid "Visitable"
+msgstr "قابل للزيارة"
+
+msgid "Visitant"
+msgstr "الزائر"
+
+msgid "Visitants"
+msgstr "الزوّار"
+
+msgid "Visitation"
+msgstr "الزيارة"
+
+msgid "Visitations"
+msgstr "الزيارات"
+
+msgid "Visite"
+msgstr "شال خفيف"
+
+msgid "Visited"
+msgstr "مزار"
+
+msgid "Visiter"
+msgstr "الزّائر"
+
+msgid "Visiting"
+msgstr "الزيارة"
+
+msgid "Visitor"
+msgstr "الزائر"
+
+msgid "Visitors"
+msgstr "الزوّار"
+
+msgid "Visits"
+msgstr "الزيارات"
+
+msgid "Visive"
+msgstr "متعلق بالنظر"
+
+msgid "Visne"
+msgstr "المنطقة، الجوار"
+
+msgid "Visnomy"
+msgstr "الوجه، التّعبير"
+
+msgid "Vison"
+msgstr "حيوان المنك"
+
+msgid "Visor"
+msgstr "قناع"
+
+msgid "Visored"
+msgstr "مقنّع"
+
+msgid "Visors"
+msgstr "أقنعة"
+
+msgid "Vista"
+msgstr "المشهد"
+
+msgid "Vistaed"
+msgstr "مشكّل كمشهد"
+
+msgid "Vistas"
+msgstr "المشاهد"
+
+msgid "Visto"
+msgstr "الأفق، الأمل"
+
+msgid "Vistula"
+msgstr "فيستلا - نهر في بولندا"
+
+msgid "Visual"
+msgstr "بصري"
+
+msgid "Visualisation"
+msgstr "التّصوّر، التّخيّل"
+
+msgid "Visualise"
+msgstr "تخيّل، تصوّر"
+
+msgid "Visualization"
+msgstr "التصوّر"
+
+msgid "Visualizations"
+msgstr "المؤثرات البصرية"
+
+msgid "Visualize"
+msgstr "تصوّر"
+
+msgid "Visualized"
+msgstr "متصوّر"
+
+msgid "Visualizer"
+msgstr "متخيّل"
+
+msgid "Visualizers"
+msgstr "متخيّلون"
+
+msgid "Visualizes"
+msgstr "يتصوّر"
+
+msgid "Visualizing"
+msgstr "التصوّر"
+
+msgid "Visually"
+msgstr "بشكل بصري"
+
+msgid "Visuals"
+msgstr "المرئيّات"
+
+msgid "Vita"
+msgstr "سيرة ذاتية"
+
+msgid "Vitaceae"
+msgstr "نوع من الأعناب"
+
+msgid "Vitae"
+msgstr "سيرة ذاتية"
+
+msgid "Vitagraph"
+msgstr "آلة العرض السينمائيّة"
+
+msgid "Vital"
+msgstr "حيوي"
+
+msgid "Vitalise"
+msgstr "نشّط، أحيا"
+
+msgid "Vitalism"
+msgstr "المذهب الحيويّ"
+
+msgid "Vitalist"
+msgstr "المؤمن بالمذهب الحيويّ"
+
+msgid "Vitalities"
+msgstr "النشاطات"
+
+msgid "Vitality"
+msgstr "الحيوية"
+
+msgid "Vitalization"
+msgstr "إعطاء الحيوية"
+
+msgid "Vitalize"
+msgstr "نشّط"
+
+msgid "Vitalized"
+msgstr "منشّط"
+
+msgid "Vitalizing"
+msgstr "التنشيط"
+
+msgid "Vitally"
+msgstr "بشكل حيوي"
+
+msgid "Vitals"
+msgstr "الأعضاء الحيوية"
+
+msgid "Vitamin"
+msgstr "الفيتامين"
+
+msgid "Vitamine"
+msgstr "فيتامين"
+
+msgid "Vitaminize"
+msgstr "يزوّد بالفيتامينات"
+
+msgid "Vitaminized"
+msgstr "مُزوّد بالفيتامينات"
+
+msgid "Vitamins"
+msgstr "الفيتامينات"
+
+msgid "Vitellin"
+msgstr "الفيتالين - بروتين في محّ البيضة"
+
+msgid "Vitellus"
+msgstr "محّ البيضة"
+
+msgid "Vitiate"
+msgstr "أفسد"
+
+msgid "Vitiated"
+msgstr "مفسد"
+
+msgid "Vitiates"
+msgstr "يفسد"
+
+msgid "Vitiating"
+msgstr "الإفساد"
+
+msgid "Vitiation"
+msgstr "الإفساد"
+
+msgid "Viticultural"
+msgstr "زراعة العنب"
+
+msgid "Viticulture"
+msgstr "زراعة العنب"
+
+msgid "Viticulturist"
+msgstr "مُزارع العنب، العامل في حقول العنب"
+
+msgid "Vitiligo"
+msgstr "مرض جلدي"
+
+msgid "Vito"
+msgstr "فيتو"
+
+msgid "Vitoe"
+msgstr "فيتو - نوع من الطّيور"
+
+msgid "Vitreous"
+msgstr "زجاجي"
+
+msgid "Vitreously"
+msgstr "بشكل زجاجي"
+
+msgid "Vitreousness"
+msgstr "الزّجاجيّة"
+
+msgid "Vitric"
+msgstr "شبيه بالزّجاج"
+
+msgid "Vitrics"
+msgstr "الآنية الزّجاجيّة"
+
+msgid "Vitrifaction"
+msgstr "التّحوّل إلى زجاج"
+
+msgid "Vitrification"
+msgstr "تزجيج"
+
+msgid "Vitrified"
+msgstr "مزجّج"
+
+msgid "Vitrify"
+msgstr "زجّج"
+
+msgid "Vitrifying"
+msgstr "التزجيج"
+
+msgid "Vitrine"
+msgstr "الفترينة، مكان عرض السلع في المِحال التّجاريّة"
+
+msgid "Vitriol"
+msgstr "النقد اللاذع"
+
+msgid "Vitriolate"
+msgstr "يلذع"
+
+msgid "Vitriolic"
+msgstr "لاذع"
+
+msgid "Vitriolize"
+msgstr "يحرق بماء النّار"
+
+msgid "Vitriolous"
+msgstr "قاسي"
+
+#, Name
+msgid "Vitro"
+msgstr "فيترو"
+
+msgid "Vitruvian"
+msgstr "متعلق بالمعماري الرّوماني فيترفيس"
+
+msgid "Vitta"
+msgstr "خطّ ملوّن على جسم الحيوان، الأنبوب"
+
+msgid "Vittae"
+msgstr "خطوط ملوّنة على جسم الحيوان، الأنابيب"
+
+msgid "Vittate"
+msgstr "مخطّط طوليًّا"
+
+msgid "Vituperate"
+msgstr "ذمّ"
+
+msgid "Vituperated"
+msgstr "مذموم"
+
+msgid "Vituperates"
+msgstr "يذمّ"
+
+msgid "Vituperating"
+msgstr "الذمّ"
+
+msgid "Vituperation"
+msgstr "السبّ"
+
+msgid "Vituperations"
+msgstr "السبّ"
+
+msgid "Vituperative"
+msgstr "انتقاديّ"
+
+msgid "Vituperatively"
+msgstr "بشكل انتقاديّ"
+
+msgid "Vituperator"
+msgstr "الشّاتم، ذو الكلام اللاذع"
+
+#, Name
+msgid "Vitus"
+msgstr "فيتاس"
+
+msgid "Viva"
+msgstr "يعيش"
+
+msgid "Vivace"
+msgstr "سريع النغمة"
+
+msgid "Vivacious"
+msgstr "حيوي"
+
+msgid "Vivaciously"
+msgstr "بشكل حيوي"
+
+msgid "Vivaciousness"
+msgstr "الحيويّة"
+
+msgid "Vivacities"
+msgstr "النشاطات"
+
+msgid "Vivacity"
+msgstr "الحيوية"
+
+#, Name
+msgid "Vivaldi"
+msgstr "فيفالدي"
+
+msgid "Vivandiere"
+msgstr "نساء ذوات أعمال مساندة في الجيش"
+
+msgid "Vivaria"
+msgstr "المحميّات"
+
+msgid "Vivarium"
+msgstr "الحظيرة"
+
+msgid "Vivariums"
+msgstr "الحظيرة"
+
+msgid "Vivda"
+msgstr "اللحم المقدّد"
+
+msgid "Vive"
+msgstr "فلْيَحْيى"
+
+msgid "Viverrine"
+msgstr "فيفيرين - حيوان ثديي مفترس"
+
+msgid "Vivers"
+msgstr "المموّنون"
+
+msgid "Vives"
+msgstr "مرض حيواني"
+
+msgid "Vivian"
+msgstr "فيفيان"
+
+msgid "Vivid"
+msgstr "واضح"
+
+msgid "Vivid-Detail"
+msgstr "التفصيل الواضح"
+
+msgid "Vivid-Smooth"
+msgstr "الواضح الناعم"
+
+msgid "Vividly"
+msgstr "بشكل واضح"
+
+msgid "Vividness"
+msgstr "الحيويّة"
+
+msgid "Vivific"
+msgstr "حيوي، منعش"
+
+msgid "Vivification"
+msgstr "إفعام بالحيوية"
+
+msgid "Vivified"
+msgstr "منشّط"
+
+msgid "Vivifier"
+msgstr "مُحيي"
+
+msgid "Vivifies"
+msgstr "ينشّط"
+
+msgid "Vivify"
+msgstr "نشّط"
+
+msgid "Vivifying"
+msgstr "التنشيط"
+
+msgid "Viviparity"
+msgstr "الوَلوديّة"
+
+msgid "Viviparous"
+msgstr "وَلود"
+
+msgid "Viviparously"
+msgstr "على نحو وَلوديّ"
+
+msgid "Vivisect"
+msgstr "شرّح"
+
+msgid "Vivisected"
+msgstr "مشرّح"
+
+msgid "Vivisecting"
+msgstr "التشريح"
+
+msgid "Vivisection"
+msgstr "التشريح"
+
+msgid "Vivisectionist"
+msgstr "مشرّح الحيوانات"
+
+msgid "Vivisections"
+msgstr "التشريح"
+
+msgid "Vivisects"
+msgstr "يشرّح"
+
+#, Name
+msgid "Vivo"
+msgstr "فيفو"
+
+msgid "Vivre"
+msgstr "التمتّع بالحياة"
+
+msgid "Vixen"
+msgstr "الثعلبة"
+
+msgid "Vixenish"
+msgstr "شرس"
+
+msgid "Vixenishly"
+msgstr "بشكل شرس"
+
+msgid "Vixenly"
+msgstr "مثل الثعلب"
+
+msgid "Vixens"
+msgstr "الثعالب"
+
+msgid "Viyella"
+msgstr "فييلا - ماركة تجارية لقماش"
+
+msgid "Viz"
+msgstr "بمعنى"
+
+msgid "Vizard"
+msgstr "قناع"
+
+msgid "Vizarded"
+msgstr "لبسّ قناع"
+
+msgid "Vizards"
+msgstr "أقنعة"
+
+msgid "Vizer"
+msgstr "عضو مجلس دولة، مسئول تنفيذيّ عالي"
+
+msgid "Vizier"
+msgstr "الوزير"
+
+msgid "Viziers"
+msgstr "الوزراء"
+
+msgid "Vizir"
+msgstr "عضو مجلس دولة، مسئول تنفيذيّ عالي"
+
+msgid "Vizla"
+msgstr "فيزلا - كلب صيد مجريّ"
+
+msgid "Vizor"
+msgstr "القناع المعدني الواقي للوجه"
+
+msgid "Vladimir"
+msgstr "فلاديمير"
+
+msgid "Vladivostok"
+msgstr "فلاديفوستوك"
+
+msgid "VLSI"
+msgstr "اندماج بين أطراف متعددة"
+
+msgid "VMS"
+msgstr "نظام تشغيل أجهزة ديجيتال"
+
+msgid "Vlb"
+msgstr "الناقل فيزا"
+
+msgid "Vlf"
+msgstr "التردد المنخفض جداً - من 3 الى 30 كهتز"
+
+msgid "Vliets"
+msgstr "مدينة فليتس"
+
+msgid "Vm"
+msgstr "الآلة الإفتراضية"
+
+msgid "Vme"
+msgstr "نظام تشغيل أجهزة الكمبيوتر العملاقة"
+
+msgid "Voca"
+msgstr "مدينة فوكا"
+
+msgid "Vocable"
+msgstr "اللفظة"
+
+msgid "Vocabularian"
+msgstr "لفظيّ"
+
+msgid "Vocabularies"
+msgstr "المفردات"
+
+msgid "Vocabulary"
+msgstr "المفردات"
+
+msgid "Vocal"
+msgstr "صوتي"
+
+msgid "Vocalic"
+msgstr "معتلّ"
+
+msgid "Vocalism"
+msgstr "غناء"
+
+msgid "Vocalist"
+msgstr "المطرب"
+
+msgid "Vocalists"
+msgstr "المطربون"
+
+msgid "Vocality"
+msgstr "الصّوتيّة"
+
+msgid "Vocalization"
+msgstr "غناء"
+
+msgid "Vocalize"
+msgstr "إلفظ"
+
+msgid "Vocalized"
+msgstr "ملفوظ"
+
+msgid "Vocalizer"
+msgstr "ناطق"
+
+msgid "Vocalizes"
+msgstr "يلفظ"
+
+msgid "Vocalizing"
+msgstr "اللفظ"
+
+msgid "Vocally"
+msgstr "بشكل صوتي"
+
+msgid "Vocals"
+msgstr "الأغاني"
+
+msgid "Vocat"
+msgstr "ندائيّ"
+
+msgid "Vocation"
+msgstr "المهنة"
+
+msgid "Vocational"
+msgstr "مهني"
+
+msgid "Vocationally"
+msgstr "مهنيا"
+
+msgid "Vocations"
+msgstr "المهن"
+
+msgid "Vocative"
+msgstr "ندائي"
+
+msgid "Vocatively"
+msgstr "بشكل ندائي"
+
+msgid "Vocatives"
+msgstr "ندائيّات"
+
+msgid "Vociferate"
+msgstr "يتكلم بصوت عالي"
+
+msgid "Vociferated"
+msgstr "مصيح"
+
+msgid "Vociferating"
+msgstr "الكلام بصوت عالي"
+
+msgid "Vociferation"
+msgstr "الصّياح"
+
+msgid "Vociferous"
+msgstr "صاخب"
+
+msgid "Vociferously"
+msgstr "بشكل صاخب"
+
+msgid "Vociferousness"
+msgstr "الصّخب"
+
+msgid "Vocoder"
+msgstr "مشفّر صوتي"
+
+msgid "Vocular"
+msgstr "الكلام بصوت منخفض، صوت غير واضح"
+
+msgid "Vocule"
+msgstr "الكلام بصوت منخفض، صوت غير واضح"
+
+msgid "Vod"
+msgstr "فيديو عند الطّلب"
+
+msgid "Vodka"
+msgstr "الفودكا"
+
+msgid "Vodkas"
+msgstr "الفودكا"
+
+msgid "Vodoun"
+msgstr "فودون - طائفة دينيّة في البلاد الكاريبيّة"
+
+msgid "Voe"
+msgstr "الخليج أو القناة"
+
+#, Name
+msgid "Vogel"
+msgstr "فوجل"
+
+msgid "Vogle"
+msgstr "التّجويف"
+
+msgid "Vogue"
+msgstr "رائج"
+
+msgid "Vogues"
+msgstr "الرواج"
+
+msgid "Voguish"
+msgstr "متماشي مع الموضة"
+
+msgid "Vogul"
+msgstr "من يقطن جبال أورال في روسيا"
+
+msgid "Voice"
+msgstr "الصوت"
+
+msgid "Voice-operated"
+msgstr "مشغّل بالصوت"
+
+msgid "Voiced"
+msgstr "جهوري"
+
+msgid "Voiceless"
+msgstr "بلا صوت"
+
+msgid "Voicelessly"
+msgstr "بشكل صامت"
+
+msgid "Voicelessness"
+msgstr "البَكَمْ"
+
+msgid "Voiceprint"
+msgstr "تخطيط الصوت"
+
+msgid "Voiceprints"
+msgstr "تخطيط الصوت"
+
+msgid "Voicer"
+msgstr "مصوّت"
+
+msgid "Voicers"
+msgstr "مصوّتون"
+
+msgid "Voices"
+msgstr "الأصوات"
+
+msgid "Voicing"
+msgstr "التصويت"
+
+msgid "Void"
+msgstr "الفراغ"
+
+msgid "Voidable"
+msgstr "قابل للإبطال"
+
+msgid "Voidance"
+msgstr "إبطال العقد المبرم، الإخلاء"
+
+msgid "Voided"
+msgstr "مبطل"
+
+msgid "Voider"
+msgstr "باطل"
+
+msgid "Voiding"
+msgstr "الإبطال"
+
+msgid "Voidly"
+msgstr "بشكل باطل"
+
+msgid "Voidness"
+msgstr "بُطلان"
+
+msgid "Voids"
+msgstr "الفراغات"
+
+msgid "Voila"
+msgstr "فويلا - تعبير عن الرّضا"
+
+msgid "Voile"
+msgstr "الفَوَال"
+
+msgid "Voiture"
+msgstr "الحنطور"
+
+msgid "Voivode"
+msgstr "الحاكم المحلّيّ"
+
+msgid "Vol"
+msgstr "الجزء"
+
+msgid "Volaille"
+msgstr "لحم الدّجاج"
+
+msgid "Volant"
+msgstr "الرشيق، خفيف وسريع"
+
+msgid "Volante"
+msgstr "الحنطور"
+
+msgid "Volapuk"
+msgstr "اللّغة الاصطناعيّة : لغة مبنية على أساس الإنجليزيّة و الألمانيّة"
+
+msgid "Volar"
+msgstr "أخمصيّ"
+
+msgid "Volary"
+msgstr "قفص الطيور"
+
+msgid "Volatile"
+msgstr "مادة متطايرة"
+
+msgid "Volatilely"
+msgstr "بشكل قلق"
+
+msgid "Volatileness"
+msgstr "التطايريّة"
+
+msgid "Volatiles"
+msgstr "مواد متطايرة"
+
+msgid "Volatility"
+msgstr "عدم الثبات"
+
+msgid "Volatilization"
+msgstr "تطيير"
+
+msgid "Volatilize"
+msgstr "بخّر"
+
+msgid "Volatilized"
+msgstr "مبخّر"
+
+msgid "Volatilizing"
+msgstr "التبخير"
+
+msgid "Volcanic"
+msgstr "بركاني"
+
+msgid "Volcanically"
+msgstr "على شكل بركانيّ"
+
+msgid "Volcanism"
+msgstr "البركانيّة"
+
+msgid "Volcanize"
+msgstr "يغير الشيء بتأثير البركان"
+
+msgid "Volcanized"
+msgstr "غيّر الشيء بتأثير البركان"
+
+msgid "Volcano"
+msgstr "البركان"
+
+msgid "Volcanoes"
+msgstr "البراكين"
+
+msgid "Volcanology"
+msgstr "علم البراكين"
+
+msgid "Volcanos"
+msgstr "البراكين"
+
+msgid "Vole"
+msgstr "فأر الحقل"
+
+msgid "Volery"
+msgstr "قفص الطيور"
+
+msgid "Voles"
+msgstr "فئران الحقل"
+
+msgid "Volga"
+msgstr "نهر الفولجا الروسي"
+
+msgid "Volin"
+msgstr "مدينة فولين"
+
+msgid "Volitable"
+msgstr "قابل للتطاير او التّبخّر"
+
+msgid "Volitation"
+msgstr "الطّيران"
+
+msgid "Volition"
+msgstr "الإرادة"
+
+msgid "Volitional"
+msgstr "إراديّ"
+
+msgid "Volitionally"
+msgstr "بشكل إراديّ"
+
+msgid "Volitions"
+msgstr "الإرادات"
+
+msgid "Volitive"
+msgstr "إراديّ"
+
+msgid "Volkswagen"
+msgstr "فولكسواجين"
+
+msgid "Volley"
+msgstr "الوابل"
+
+msgid "Volleyball"
+msgstr "الكرة الطائرة"
+
+msgid "Volleyballs"
+msgstr "كرات الطائرة"
+
+msgid "Volleyed"
+msgstr "مضروب"
+
+msgid "Volleyer"
+msgstr "ﻻعب الكرة الطائرة"
+
+msgid "Volleying"
+msgstr "الضرب"
+
+msgid "Volleys"
+msgstr "الوابل"
+
+msgid "Volost"
+msgstr "الرّيف السّوفييتيّ"
+
+msgid "Volplane"
+msgstr "إنسب"
+
+msgid "Volplanes"
+msgstr "ينساب"
+
+#, Name
+msgid "Volstead"
+msgstr "فولستِدْ"
+
+msgid "Volt"
+msgstr "الفولت"
+
+msgid "Volt-ampere"
+msgstr "فولت- أمبير : وحدة قدرة كهربائيّة"
+
+#, Name
+msgid "Volta"
+msgstr "فولتا"
+
+msgid "Voltage"
+msgstr "الفولطية"
+
+msgid "Voltage-dependent"
+msgstr "معتمد على فولطية"
+
+msgid "Voltage-sensitive"
+msgstr "فولطية حسّاسة"
+
+msgid "Voltages"
+msgstr "الفولطيات"
+
+msgid "Voltaic"
+msgstr "فولطي"
+
+#, Name
+msgid "Voltaire"
+msgstr "فولتاير"
+
+msgid "Voltaism"
+msgstr "الكلفانية : إنتاج الكهرباء بالتّفاعل الكيميائيّ"
+
+msgid "Volte-face"
+msgstr "التّغيّر، الإنقلاب على الأعقاب"
+
+#, Name
+msgid "Volterra"
+msgstr "فولتيرّا"
+
+msgid "Voltmeter"
+msgstr "الفولتميتر"
+
+msgid "Voltmeters"
+msgstr "الفولتميترات"
+
+msgid "Volts"
+msgstr "الفولتات"
+
+msgid "Volubile"
+msgstr "الإلتفاف، الدّوران، الانحناء"
+
+msgid "Volubilities"
+msgstr "الثرثرة"
+
+msgid "Volubility"
+msgstr "الثرثرة"
+
+msgid "Voluble"
+msgstr "طلق اللسان"
+
+msgid "Volubleness"
+msgstr "طلاقة اللّسان"
+
+msgid "Volubly"
+msgstr "بشكل دوّار"
+
+msgid "Volume"
+msgstr "الحجم"
+
+msgid "Volume-ID"
+msgstr "هوية حجم"
+
+msgid "Volumed"
+msgstr "بمجلدات"
+
+msgid "Volumes"
+msgstr "الحجوم"
+
+msgid "Volumetric"
+msgstr "حجمي"
+
+msgid "Volumetrically"
+msgstr "بشكل حجمي"
+
+msgid "Voluming"
+msgstr "التحجيم"
+
+msgid "Voluminous"
+msgstr "وافر"
+
+msgid "Voluminously"
+msgstr "بشكل كبير جدا"
+
+msgid "Voluminousness"
+msgstr "الوفرة"
+
+msgid "Voluntaries"
+msgstr "مقطوعة موسيقية قصيرة"
+
+msgid "Voluntarily"
+msgstr "طوعاً"
+
+msgid "Voluntariness"
+msgstr "الطّوعيّة"
+
+msgid "Voluntarism"
+msgstr "الطّوعيّة"
+
+msgid "Voluntary"
+msgstr "طوعيّ"
+
+msgid "Voluntaryism"
+msgstr "التّطوّعيّة"
+
+msgid "Volunteer"
+msgstr "المتطوّع"
+
+msgid "Volunteered"
+msgstr "تطوّع"
+
+msgid "Volunteering"
+msgstr "التطوّع"
+
+msgid "Volunteers"
+msgstr "المتطوعون"
+
+msgid "Voluptuaries"
+msgstr "الشهوانيون"
+
+msgid "Voluptuary"
+msgstr "الشهواني"
+
+msgid "Voluptuous"
+msgstr "شهوانيّ"
+
+msgid "Voluptuously"
+msgstr "بشكل شهوانيّ"
+
+msgid "Voluptuousness"
+msgstr "الشّهوانيّة"
+
+msgid "Volupty"
+msgstr "الفتنة"
+
+msgid "Volution"
+msgstr "حركة دوّارة"
+
+msgid "Volvo"
+msgstr "فولفو"
+
+msgid "Volvox"
+msgstr "فولفوكس - طحالب مياه عذبة"
+
+msgid "Volvulus"
+msgstr "التواء الأمعاء وانسدادهاّ"
+
+msgid "Volyer"
+msgstr "الكلب المهجّن"
+
+msgid "Vom"
+msgstr "مقياس لفرق الجهد والمقاومة"
+
+msgid "Vomer"
+msgstr "العظمة الأنفيّة"
+
+msgid "Vomerine"
+msgstr "متعلق بالعظمة الأنفية"
+
+msgid "Vomit"
+msgstr "القيئ"
+
+msgid "Vomited"
+msgstr "متقيّأ"
+
+msgid "Vomiter"
+msgstr "المتقيّء"
+
+msgid "Vomiting"
+msgstr "التقيّأ"
+
+msgid "Vomitive"
+msgstr "دواء مسبب للتقيء"
+
+msgid "Vomitory"
+msgstr "مقيّئ، مسبب للتقيء"
+
+msgid "Vomits"
+msgstr "يتقيّأ"
+
+msgid "Vomiturition"
+msgstr "محاولة للتّقيّؤ"
+
+#, Name
+msgid "Von"
+msgstr "فون"
+
+msgid "Vona"
+msgstr "مدينة فونا"
+
+msgid "Voodoo"
+msgstr "الودّونية"
+
+msgid "Voodooism"
+msgstr "طائفة دينيّة من البلاد الكاريبيّة"
+
+msgid "Voodoos"
+msgstr "الودّونية"
+
+msgid "Voracious"
+msgstr "شره"
+
+msgid "Voraciously"
+msgstr "بشكل شره"
+
+msgid "Voraciousness"
+msgstr "الدّردوريّة"
+
+msgid "Voracity"
+msgstr "الشراهة"
+
+msgid "Vortex"
+msgstr "الدوّامة"
+
+msgid "Vortexes"
+msgstr "الدوّامة"
+
+msgid "Vortical"
+msgstr "دوراني"
+
+msgid "Vorticella"
+msgstr "كائن حي أحاديّ الخليّة"
+
+msgid "Vortices"
+msgstr "الدوّامات"
+
+msgid "Vorticity"
+msgstr "الدّردوريّة"
+
+#, Name
+msgid "Voss"
+msgstr "فوسّ"
+
+msgid "Votaries"
+msgstr "الأنصار"
+
+msgid "Votary"
+msgstr "النصير"
+
+msgid "Vote"
+msgstr "الصوت"
+
+msgid "Voted"
+msgstr "مصوّت"
+
+msgid "Voteless"
+msgstr "محروم من حق الإنتخاب"
+
+msgid "Voter"
+msgstr "الناخب"
+
+msgid "Voters"
+msgstr "الناخبون"
+
+msgid "Votes"
+msgstr "الأصوات"
+
+msgid "Voting"
+msgstr "التصويت"
+
+msgid "Votings"
+msgstr "التصويت"
+
+msgid "Votive"
+msgstr "نذري"
+
+msgid "Votively"
+msgstr "بشكل نذري"
+
+msgid "Votiveness"
+msgstr "النّذريّة"
+
+msgid "Vouch"
+msgstr "إكفل"
+
+msgid "Vouched"
+msgstr "مكفول"
+
+msgid "Voucher"
+msgstr "مستند الصرف"
+
+msgid "Vouchers"
+msgstr "مستندات الصرف"
+
+msgid "Vouches"
+msgstr "يكفل"
+
+msgid "Vouching"
+msgstr "الكفل"
+
+msgid "Vouchor"
+msgstr "الوصل، إيصال المعاملة التجارية"
+
+msgid "Vouchsafe"
+msgstr "إمنح"
+
+msgid "Vouchsafed"
+msgstr "ممنوح"
+
+msgid "Vouchsafes"
+msgstr "يمنح"
+
+msgid "Vouchsafing"
+msgstr "المنح"
+
+msgid "Vought"
+msgstr "فوغت"
+
+msgid "Vow"
+msgstr "القسم"
+
+msgid "Vowed"
+msgstr "مقسم"
+
+msgid "Vowel"
+msgstr "حرف العلّة"
+
+msgid "Vowels"
+msgstr "أحرف العلة"
+
+msgid "Vower"
+msgstr "النّاذر"
+
+msgid "Vowing"
+msgstr "القسم"
+
+msgid "Vows"
+msgstr "الوعود"
+
+msgid "Voyage"
+msgstr "الرحلة"
+
+msgid "Voyaged"
+msgstr "مسافر"
+
+msgid "Voyager"
+msgstr "المسافر"
+
+msgid "Voyagers"
+msgstr "المسافرون"
+
+msgid "Voyages"
+msgstr "الرحلات"
+
+msgid "Voyageur"
+msgstr "ناقل الفرو، المتعهد بنقل الفرو"
+
+msgid "Voyaging"
+msgstr "السفر"
+
+msgid "Voyal"
+msgstr "فويال - آلة موسيقية"
+
+msgid "Voyeur"
+msgstr "مختلس النّظر"
+
+msgid "Voyeurism"
+msgstr "التلذّذ عن طريق التّلصّص"
+
+msgid "Voyeuristic"
+msgstr "متعلق بالتّلصّص"
+
+msgid "Voyeurs"
+msgstr "مختلسوا النظر"
+
+msgid "Vp"
+msgstr "نائب الرّئيس"
+
+msgid "Vram"
+msgstr "ذاكرة الفيديو"
+
+msgid "Vreeland"
+msgstr "فريلاند"
+
+msgid "VT"
+msgstr "فيرمونت"
+
+msgid "Vsat"
+msgstr "محطة أقمار اصطناعيّة أرضيّة صغيرة"
+
+msgid "Vue"
+msgstr "بيئة المستخدم المرئيّة من شركة HP"
+
+#, Name
+msgid "Vulcan"
+msgstr "فولكان"
+
+msgid "Vulcanite"
+msgstr "يُبركن"
+
+msgid "Vulcanize"
+msgstr "كبرت"
+
+msgid "Vulcanized"
+msgstr "معالج بالكبريت"
+
+msgid "Vulcanizes"
+msgstr "يكبرت"
+
+msgid "Vulcanizing"
+msgstr "الكبرتة"
+
+msgid "Vulcano"
+msgstr "البركان"
+
+msgid "Vulcanology"
+msgstr "علم البراكين"
+
+msgid "Vulgar"
+msgstr "فظّ"
+
+msgid "Vulgarian"
+msgstr "غني ولكن ذو ذوق رديء"
+
+msgid "Vulgarisation"
+msgstr "الإغواء"
+
+msgid "Vulgarism"
+msgstr "الإبتذال"
+
+msgid "Vulgarities"
+msgstr "المبتذﻻت"
+
+msgid "Vulgarity"
+msgstr "السوقيّة"
+
+msgid "Vulgarization"
+msgstr "الإغواء"
+
+msgid "Vulgarize"
+msgstr "إبتذل"
+
+msgid "Vulgarized"
+msgstr "مبتذل"
+
+msgid "Vulgarizes"
+msgstr "يبتذل"
+
+msgid "Vulgarizing"
+msgstr "الإبتذال"
+
+msgid "Vulgarly"
+msgstr "بشكل فظّ"
+
+msgid "Vulgarness"
+msgstr "السوقيّة"
+
+msgid "Vulgate"
+msgstr "النسخة اللّاتينيّة للإنجيل"
+
+msgid "Vulnerabilities"
+msgstr "نقاط الضعف"
+
+msgid "Vulnerability"
+msgstr "الضعف"
+
+msgid "Vulnerable"
+msgstr "ضعيف"
+
+msgid "Vulnerableness"
+msgstr "عرضة للخطر"
+
+msgid "Vulnerably"
+msgstr "بشكل معرض للخطر"
+
+msgid "Vulnerary"
+msgstr "دواء لعلاج الجروح"
+
+msgid "Vulpecular"
+msgstr "كما الثّعلب"
+
+msgid "Vulpes"
+msgstr "الثعالب"
+
+msgid "Vulpine"
+msgstr "ثعلبي"
+
+msgid "Vulpinely"
+msgstr "بشكل ثعلبي"
+
+msgid "Vulture"
+msgstr "العُقاب"
+
+msgid "Vultures"
+msgstr "العقبان"
+
+msgid "Vulturine"
+msgstr "الجشع، الإفتراس"
+
+msgid "Vulturous"
+msgstr "نسْرانيّ"
+
+msgid "Vulva"
+msgstr "الفرج"
+
+msgid "Vulvae"
+msgstr "فولفا"
+
+msgid "Vulval"
+msgstr "متعلّق بالفرج"
+
+msgid "Vulvar"
+msgstr "فولفار"
+
+msgid "Vulvitis"
+msgstr "التهاب الفرج"
+
+msgid "Vxd"
+msgstr "مشغّل الجهاز الإفتراضي"
+
+msgid "Vying"
+msgstr "المنافسة"
+
+msgid "Vyingly"
+msgstr "بشكل تنافسيّ"
+

@@ -1,0 +1,12208 @@
+# translation of full_wordlist_U.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_U.po,v 1.19 2004/03/08 20:56:41 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'U'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ossama M. Khayat <okhayat@yahoo.com>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_U\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"PO-Revision-Date: 2004-02-24 18:41+0300\n"
+
+msgid "U"
+msgstr "يو - الحرف الحادي والعشرون في اللغة الإنجليزية"
+
+msgid "U-boat"
+msgstr "الغوّاصة الحربية"
+
+msgid "U-shaped"
+msgstr "على شكل الحرف الإنجليزي يو"
+
+msgid "U-turn"
+msgstr "الدّوران للخلف"
+
+msgid "U.S"
+msgstr "الولايات المتّحدة"
+
+msgid "U.S.A"
+msgstr "الولايات المتّحدة"
+
+msgid "UART"
+msgstr "المرسل-المستقبل العالمي اللاتزامني"
+
+msgid "Uakari"
+msgstr "أكاري - نوع من القردة"
+
+msgid "Ubermensch"
+msgstr "شخص ذو قدرات كبيرة"
+
+msgid "Uberous"
+msgstr "مثمر، غزير، وفير"
+
+msgid "Uberty"
+msgstr "الإنتاج، الوفرة، الكثرة"
+
+msgid "Ubiety"
+msgstr "التواجد في مكان معين"
+
+msgid "Ubiquitary"
+msgstr "من يتواجد في كل مكان"
+
+msgid "Ubiquitous"
+msgstr "موجود في كلّ مكان"
+
+msgid "Ubiquitously"
+msgstr "بتواجد مطلق"
+
+msgid "Ubiquitousness"
+msgstr "التّواجد المطلق"
+
+msgid "Ubiquity"
+msgstr "الوجود المطلق"
+
+msgid "UCLA"
+msgstr "جامعة كاليفورنيا في لوس أنجليس"
+
+msgid "Uc"
+msgstr "الحروف الكبيرة"
+
+msgid "Ucb"
+msgstr "جامعة كاليفورنيا لدى بيركلي"
+
+msgid "Ucon"
+msgstr "مدينة يوكون"
+
+msgid "Udall"
+msgstr "يودالّ"
+
+msgid "Udder"
+msgstr "الضرع"
+
+msgid "Uddered"
+msgstr "يمتلك ضرع أو ضروع"
+
+msgid "Udderless"
+msgstr "بدون حليب الأم"
+
+msgid "Udders"
+msgstr "الضروع"
+
+msgid "Udell"
+msgstr "مدينة يوديل"
+
+msgid "Udmurt"
+msgstr "لهجة فنلنديّة"
+
+msgid "Udometer"
+msgstr "مقياس المطر"
+
+msgid "Ufa"
+msgstr "مدينة يوفا الصّناعية"
+
+msgid "Ufo"
+msgstr "الجسم الغريب"
+
+msgid "Uganda"
+msgstr "أوغندا"
+
+msgid "Ugaritic"
+msgstr "اللغة الإجاراتية"
+
+msgid "Ugh"
+msgstr "هتاف اشمئزاز"
+
+msgid "Ugli"
+msgstr "فاكهة الأجلي"
+
+msgid "Uglier"
+msgstr "أقبح"
+
+msgid "Ugliest"
+msgstr "أقبح"
+
+msgid "Uglify"
+msgstr "يجعل قبيحاً"
+
+msgid "Uglily"
+msgstr "بشكل قبيح"
+
+msgid "Ugliness"
+msgstr "القبح"
+
+msgid "Ugly"
+msgstr "قبيح"
+
+msgid "UHF"
+msgstr "التّردّد العالي جدّاً"
+
+msgid "UID"
+msgstr "رمز المستخدم"
+
+msgid "UK"
+msgstr "المملكة المتحدة"
+
+msgid "Ugsome"
+msgstr "قبيح، مقزّز"
+
+msgid "Ugsomeness"
+msgstr "القُبح"
+
+msgid "Uhland"
+msgstr "أهلاند - شاعر رومانسيّ ألمانيّ"
+
+msgid "Ui"
+msgstr "واجهة المستخدم"
+
+msgid "Ukase"
+msgstr "مرْسوم"
+
+msgid "Uke"
+msgstr "قيثارة صغيرة"
+
+msgid "Ukiah"
+msgstr "مدينة يوكيا"
+
+msgid "Ukraine"
+msgstr "أوكرانيا"
+
+msgid "Ukrainian"
+msgstr "الأوكراني"
+
+msgid "Ukrainians"
+msgstr "الأوكرانيون"
+
+msgid "Ukranian"
+msgstr "الأوكرانيّ"
+
+msgid "Ukrayina"
+msgstr "جمهورية اوكرانيا"
+
+msgid "Ukulele"
+msgstr "قيثارة الأكْلال"
+
+msgid "Ukuleles"
+msgstr "قيثارات الأكْلال"
+
+msgid "Ulan"
+msgstr "فارس بروسيّ"
+
+msgid "Ulcer"
+msgstr "القرحة"
+
+msgid "Ulcerate"
+msgstr "تقرّح"
+
+msgid "Ulcerated"
+msgstr "متقرّح"
+
+msgid "Ulcerates"
+msgstr "يتقرّح"
+
+msgid "Ulcerating"
+msgstr "التقرّح"
+
+msgid "Ulceration"
+msgstr "التقرّح"
+
+msgid "Ulcerations"
+msgstr "التقرّح"
+
+msgid "Ulcerative"
+msgstr "تقرّحي"
+
+msgid "Ulcered"
+msgstr "تقرّح"
+
+msgid "Ulcerous"
+msgstr "تقرّحي"
+
+msgid "Ulcerously"
+msgstr "بشكل تقرّحي"
+
+msgid "Ulcers"
+msgstr "القرح"
+
+msgid "Ulema"
+msgstr "علماء المسلمين"
+
+msgid "Ulen"
+msgstr "مدينة يولين"
+
+msgid "Uler"
+msgstr "مدينة يولر"
+
+msgid "Uliginous"
+msgstr "موحل، طينيّ"
+
+msgid "Ullage"
+msgstr "النّقصْ"
+
+msgid "Ullages"
+msgstr "النّقوصات"
+
+msgid "Ullman"
+msgstr "ألمان"
+
+msgid "Ulm"
+msgstr "مدينة أولم"
+
+msgid "Ulman"
+msgstr "مدينة أولمان"
+
+msgid "Ulna"
+msgstr "عظم الزند"
+
+msgid "Ulnas"
+msgstr "عظم الزند"
+
+msgid "Uloid"
+msgstr "مشابهة للندب"
+
+msgid "Ulotrichous"
+msgstr "مجعّد الشّعر"
+
+msgid "Ulster"
+msgstr "معطف ارلندي فضفاض"
+
+msgid "Ulsters"
+msgstr "معاطف ارلنديّة فضفاضة"
+
+msgid "Ulterior"
+msgstr "أقصى"
+
+msgid "Ulteriorly"
+msgstr "على نحو بعيد"
+
+msgid "Ultima"
+msgstr "آخر المقطع، الآخر"
+
+msgid "Ultimata"
+msgstr "العروض النهائية"
+
+msgid "Ultimate"
+msgstr "نهائي"
+
+msgid "Ultimated"
+msgstr "أنهى، حدث"
+
+msgid "Ultimately"
+msgstr "في النهاية"
+
+msgid "Ultimateness"
+msgstr "القمّة"
+
+msgid "Ultimation"
+msgstr "المطلق"
+
+msgid "Ultimatum"
+msgstr "الإنذار النهائي"
+
+msgid "Ultimatums"
+msgstr "الإنذارات النهائية"
+
+msgid "Ultimo"
+msgstr "للشّهر الماضي"
+
+msgid "Ultion"
+msgstr "الأخذ بالثّأر :: الانتقام"
+
+msgid "Ultra"
+msgstr "جدا"
+
+msgid "Ultra-"
+msgstr "كلمة إبتدائيّة وتعني فائق"
+
+msgid "Ultra-short"
+msgstr "القصير جدا"
+
+msgid "Ultra-violet"
+msgstr "الأشعّة الفوق بنفسجيّة"
+
+msgid "Ultracentrifugally"
+msgstr "النّبذ بشكل فائق السّرعة"
+
+msgid "Ultracentrifugation"
+msgstr "النّبذ بسرعة فائقة"
+
+msgid "Ultracentrifuge"
+msgstr "نابذة فائقة السّرعة"
+
+msgid "Ultraconservative"
+msgstr "مسرف في المحافظة"
+
+msgid "Ultrafast"
+msgstr "فائق السّرعة"
+
+msgid "Ultrahigh"
+msgstr "فوق العالي"
+
+msgid "Ultraism"
+msgstr "التّطرّف"
+
+msgid "Ultraist"
+msgstr "المتطرّف"
+
+#, not a valid English word
+msgid "Ultralarge"
+msgstr "فائق الكِبَرْ"
+
+msgid "Ultramarine"
+msgstr "اللازود"
+
+msgid "Ultramicroscopic"
+msgstr "بالغ الصّغر"
+
+msgid "Ultramodern"
+msgstr "فائق الحداثة"
+
+msgid "Ultramontane"
+msgstr "وراء الجبال"
+
+msgid "Ultramundane"
+msgstr "وراء العالم او الكون"
+
+msgid "Ultranationalism"
+msgstr "الوطنيّة المتعصّبة"
+
+msgid "Ultraprecision"
+msgstr "الدقّة الفائقة"
+
+msgid "Ultrared"
+msgstr "فوق الحمراء"
+
+msgid "Ultrashort"
+msgstr "قصير جدّاً"
+
+msgid "Ultrasonic"
+msgstr "فوق الصّوتي"
+
+msgid "Ultrasonically"
+msgstr "بشكل فوق صوتيّ"
+
+msgid "Ultrasonics"
+msgstr "الفوق صوتيّات"
+
+msgid "Ultrasonography"
+msgstr "التصوير السوناري"
+
+msgid "Ultrasound"
+msgstr "الأشعة الفوق السمعية"
+
+msgid "Ultrasounds"
+msgstr "الأشعة الفوق السمعية"
+
+msgid "Ultrastructure"
+msgstr "التركيب الدقيق"
+
+msgid "Ultraviolet"
+msgstr "فوق البنفسجي"
+
+msgid "Ultrix"
+msgstr "الألتريكس"
+
+msgid "Ulula"
+msgstr "نوع من البوم"
+
+msgid "Ululant"
+msgstr "النّابح :: العاوي"
+
+msgid "Ululate"
+msgstr "هلّل"
+
+msgid "Ululated"
+msgstr "هلّل"
+
+msgid "Ululates"
+msgstr "يهلّل"
+
+msgid "Ululating"
+msgstr "التهليل"
+
+msgid "Ululation"
+msgstr "التّهليل"
+
+msgid "Ulysses"
+msgstr "أوليسيس"
+
+msgid "Um"
+msgstr "صوت شكّ"
+
+msgid "Umbel"
+msgstr "زهرة الخَيْمة"
+
+msgid "Umbellate"
+msgstr "خَيْميّ"
+
+msgid "Umbellet"
+msgstr "عنقود صغير"
+
+msgid "Umbels"
+msgstr "أزهار الخَيْمة"
+
+msgid "Umber"
+msgstr "سمك اللّبيس الأوروبي"
+
+msgid "Umbered"
+msgstr "مغمّق إلى البنّي المصفّر"
+
+msgid "Umbering"
+msgstr "يغمّق إلى البنّي المصفّر"
+
+msgid "Umbery"
+msgstr "كما اللون البنّي"
+
+msgid "Umbilical"
+msgstr "سُرِّيّ"
+
+msgid "Umbilici"
+msgstr "سُرَرْ"
+
+msgid "Umbilicus"
+msgstr "سُرّة"
+
+msgid "Umbilicuses"
+msgstr "سُرَرْ"
+
+msgid "Umbles"
+msgstr "الأحشاء الحيوانيّة"
+
+msgid "Umbra"
+msgstr "ظِلّ"
+
+msgid "Umbraculiform"
+msgstr "على شكل مظلّة"
+
+msgid "Umbrage"
+msgstr "الإستياء"
+
+msgid "Umbrageous"
+msgstr "ظليل، سريع الاستياء"
+
+msgid "Umbrageously"
+msgstr "بشكل سريع الاستياء"
+
+msgid "Umbras"
+msgstr "ظلال"
+
+msgid "Umbrel"
+msgstr "الشّمسيّة"
+
+msgid "Umbrella"
+msgstr "المظلّة"
+
+msgid "Umbrellas"
+msgstr "المظلّات"
+
+msgid "Umbriferous"
+msgstr "ظليل"
+
+msgid "Umbrine"
+msgstr "سمكة الأمبرين"
+
+msgid "Umbrose"
+msgstr "ظليل"
+
+msgid "Umbrosity"
+msgstr "الضّل"
+
+msgid "Umlaut"
+msgstr "علامة تغيّر في الصوت"
+
+msgid "Umlauts"
+msgstr "علامات تغيّر في الصّوت"
+
+msgid "Ump"
+msgstr "يقوم بعملية التحكيم أثناء المباراة"
+
+msgid "Umpirage"
+msgstr "التحكيم في المباراة"
+
+msgid "Umpire"
+msgstr "الحكم"
+
+msgid "Umpired"
+msgstr "محكّم"
+
+msgid "Umpires"
+msgstr "الحكّام"
+
+msgid "Umpireship"
+msgstr "التحكيم في المباراة"
+
+msgid "Umpiring"
+msgstr "التحكيم"
+
+msgid "Umpteen"
+msgstr "لا يعدّ ولا يحصى"
+
+msgid "UN"
+msgstr "الأمم المتّحدة"
+
+msgid "Umpteenth"
+msgstr "الأخير"
+
+msgid "Umteen"
+msgstr "غير محدود، لكثير"
+
+msgid "Umteenth"
+msgstr "الأخير"
+
+msgid "Un-"
+msgstr "كلمة بادئة وتستعمل للنقض"
+
+msgid "Un-Indent"
+msgstr "غير طلب رسمي"
+
+msgid "Un-american"
+msgstr "ضدّ أمريكا"
+
+msgid "Un-inhibited"
+msgstr "جريء"
+
+msgid "Un-necessary"
+msgstr "غير ضروريّ"
+
+msgid "Unabashed"
+msgstr "غير خجول"
+
+msgid "Unabashedly"
+msgstr "بلا خجل"
+
+msgid "Unabated"
+msgstr "بدون إنقطاع"
+
+msgid "Unabatedly"
+msgstr "بشكل بدون إنقطاع"
+
+msgid "Unabbreviated"
+msgstr "غير مختصر"
+
+msgid "Unability"
+msgstr "غير قدرة"
+
+msgid "Unable"
+msgstr "عاجز"
+
+msgid "Unabled"
+msgstr "معاق"
+
+msgid "Unabridged"
+msgstr "كامل"
+
+msgid "Unabused"
+msgstr "غير منتهك"
+
+msgid "Unaccelerated"
+msgstr "غير معجّل"
+
+msgid "Unaccented"
+msgstr "غير مشدّد"
+
+msgid "Unacceptability"
+msgstr "غير مقبولية"
+
+msgid "Unacceptable"
+msgstr "غير مقبول"
+
+msgid "Unacceptably"
+msgstr "بشكل غير مقبول"
+
+msgid "Unaccepted"
+msgstr "مرفوض"
+
+msgid "Unaccessible"
+msgstr "غير سهل الوصول"
+
+msgid "Unacclimatized"
+msgstr "غير متأقلم"
+
+msgid "Unaccommodated"
+msgstr "غير مسكن"
+
+msgid "Unaccommodating"
+msgstr "صعب :: غير مرحّب"
+
+msgid "Unaccompanied"
+msgstr "منفرد"
+
+msgid "Unaccomplishable"
+msgstr "غير قابل للإنجاز"
+
+msgid "Unaccomplished"
+msgstr "ناقص"
+
+msgid "Unaccountable"
+msgstr "غير قابل للتفسير"
+
+msgid "Unaccountably"
+msgstr "لأسباب مجهولة"
+
+msgid "Unaccounted"
+msgstr "غير محسوب"
+
+msgid "Unaccredited"
+msgstr "غير معتمد"
+
+msgid "Unaccrued"
+msgstr "غير متجمّع"
+
+msgid "Unaccusable"
+msgstr "غير قابل للإتهام"
+
+msgid "Unaccused"
+msgstr "غير متّهم"
+
+msgid "Unaccustomed"
+msgstr "غير متعوّد"
+
+msgid "Unaccustomedly"
+msgstr "بشكل غير مألوف "
+
+msgid "Unachievable"
+msgstr "غير قابل للإنجاز"
+
+msgid "Unachievably"
+msgstr "في طريقة متعذّرة"
+
+msgid "Unachieved"
+msgstr "غير منجز"
+
+msgid "Unacknowledged"
+msgstr "غير ملحوظ"
+
+msgid "Unacquainted"
+msgstr "غير محاط علما"
+
+msgid "Unactable"
+msgstr "غير قابل للتمثيل"
+
+msgid "Unacted"
+msgstr "غير متصرّف"
+
+msgid "Unactive"
+msgstr "غير نشيط"
+
+msgid "Unadaptable"
+msgstr "غير متكيّف"
+
+msgid "Unadapted"
+msgstr "غير متكيّف"
+
+msgid "Unaddicted"
+msgstr "غير مدمن"
+
+msgid "Unaddressed"
+msgstr "غير معنون :: غير مطروح"
+
+msgid "Unadept"
+msgstr "غير بارع"
+
+msgid "Unadjustable"
+msgstr "غير قابل للتعديل"
+
+msgid "Unadjusted"
+msgstr "غير معدّل"
+
+msgid "Unadopted"
+msgstr "غير متبنّى"
+
+msgid "Unadorned"
+msgstr "غير مزيّن"
+
+msgid "Unadulterate"
+msgstr "يصفّي :: ينقّي"
+
+msgid "Unadulterated"
+msgstr "نقي"
+
+msgid "Unadulteratedly"
+msgstr "بشكل صرف"
+
+msgid "Unadventurous"
+msgstr "غير مغامر"
+
+msgid "Unadvertised"
+msgstr "غير معلن"
+
+msgid "Unadvisable"
+msgstr "لاينصح به"
+
+msgid "Unadvised"
+msgstr "غير منصوح"
+
+msgid "Unadvisedly"
+msgstr "غير بتبصّر"
+
+msgid "Unadvisedness"
+msgstr "الطّيْش"
+
+msgid "Unaerated"
+msgstr "دم بلا أكسجين"
+
+msgid "Unaesthetic"
+msgstr "غير جماليّ"
+
+msgid "Unaffected"
+msgstr "غير متأثّر"
+
+msgid "Unaffectedly"
+msgstr "بدون تأثّر"
+
+msgid "Unaffectedness"
+msgstr "اللاتأثّر"
+
+msgid "Unaffectionate"
+msgstr "غير حنون"
+
+msgid "Unaffectionately"
+msgstr "غير عاطفيا"
+
+msgid "Unaffiliated"
+msgstr "غير تابع"
+
+msgid "Unafraid"
+msgstr "غير خائف"
+
+msgid "Unaggregated"
+msgstr "غير مجموع"
+
+msgid "Unaggressive"
+msgstr "غير عدواني"
+
+msgid "Unagitated"
+msgstr "غير مهيّج"
+
+msgid "Unaided"
+msgstr "غير مدعوم"
+
+msgid "Unaidedly"
+msgstr "بشكل غير مدعوم"
+
+msgid "Unairworthy"
+msgstr "غير صالح للطيران"
+
+msgid "Unaka"
+msgstr "مدينة أناكا"
+
+msgid "Unalarmed"
+msgstr "غير خائف"
+
+msgid "Unalarming"
+msgstr "غير خطير"
+
+msgid "Unalert"
+msgstr "غير يقظ"
+
+msgid "Unalienability"
+msgstr "غير تغرّب"
+
+msgid "Unalienable"
+msgstr "غير قابل للنقل"
+
+msgid "Unaligned"
+msgstr "غير التّحالف"
+
+msgid "Unalike"
+msgstr "غير متشابه"
+
+msgid "Unallocated"
+msgstr "غير مخصّص"
+
+msgid "Unalloyed"
+msgstr "غير مخلوط"
+
+msgid "Unalluring"
+msgstr "غير فتنة"
+
+msgid "Unalterability"
+msgstr "غير تعديل"
+
+msgid "Unalterable"
+msgstr "مستحيل التعديل"
+
+msgid "Unalterableness"
+msgstr "الرّسوخ"
+
+msgid "Unalterably"
+msgstr "بشكل راسخ"
+
+msgid "Unaltered"
+msgstr "بدون تعديل"
+
+msgid "Unamazed"
+msgstr "غير مندهش"
+
+msgid "Unambiguity"
+msgstr "غير غموض"
+
+msgid "Unambiguous"
+msgstr "واضح"
+
+msgid "Unambiguously"
+msgstr "بشكل واضح"
+
+msgid "Unambiguousness"
+msgstr "الإجماعيّة"
+
+msgid "Unambitious"
+msgstr "قنوع"
+
+msgid "Unamenable"
+msgstr "غير قابل لكذا وكذا"
+
+msgid "Unamended"
+msgstr "غير معدّل"
+
+msgid "Unamiable"
+msgstr "غير محبوب"
+
+msgid "Unamortization"
+msgstr "غير إيفاء دين"
+
+msgid "Unamortized"
+msgstr "غير ممات"
+
+msgid "Unamused"
+msgstr "غير مسلّى"
+
+msgid "Unamusing"
+msgstr "غير مسلّي"
+
+msgid "Unanalogous"
+msgstr "غير مماثل"
+
+msgid "Unanalyzable"
+msgstr "غير قابل للتحليل"
+
+msgid "Unanalyzed"
+msgstr "غير محلّل"
+
+msgid "Unanchored"
+msgstr "محلول مرساة"
+
+msgid "Unangry"
+msgstr "غير غضبان"
+
+msgid "Unanimated"
+msgstr "ممل"
+
+msgid "Unanimities"
+msgstr "الإجماع"
+
+msgid "Unanimity"
+msgstr "الإجماع"
+
+msgid "Unanimous"
+msgstr "جماعي"
+
+msgid "Unanimously"
+msgstr "بالإجماع"
+
+msgid "Unannounced"
+msgstr "غير متوقّع"
+
+msgid "Unanswerable"
+msgstr "قاطع"
+
+msgid "Unanswerably"
+msgstr "بشكل مفحم"
+
+msgid "Unanswered"
+msgstr "لاجواب له"
+
+msgid "Unantagonized"
+msgstr "غير مثار عداء"
+
+msgid "Unantagonizing"
+msgstr "غير إثارة عداء"
+
+msgid "Unanticipated"
+msgstr "غير متوقّع"
+
+msgid "Unanticipatedly"
+msgstr "بشكل غير متوقّع"
+
+msgid "Unapologetic"
+msgstr "غير مستعد لتقديم إعتذار"
+
+msgid "Unapologetically"
+msgstr "بشكل غير قابل للاعتذار"
+
+msgid "Unapologizing"
+msgstr "غير إعتذار"
+
+msgid "Unapparent"
+msgstr "غير ظاهر"
+
+msgid "Unappealable"
+msgstr "غير قابل للاستئناف"
+
+msgid "Unappealing"
+msgstr "غير جذاب"
+
+msgid "Unappealingly"
+msgstr "غير بشكل جذّاب"
+
+msgid "Unappeasable"
+msgstr "غير قابل للإسترضاء"
+
+msgid "Unappeasably"
+msgstr "بشكل غير قابل للإرضاء"
+
+msgid "Unappetizing"
+msgstr "غير مشّهي"
+
+msgid "Unappetizingly"
+msgstr "على نحو غير مشهّي"
+
+msgid "Unapplicable"
+msgstr "غير ملائم"
+
+msgid "Unappreciated"
+msgstr "غير مقدّر"
+
+msgid "Unappreciative"
+msgstr "غير مقدِّر"
+
+msgid "Unappreciatively"
+msgstr "غير بتقدير"
+
+msgid "Unapproachability"
+msgstr "غير تقاربية"
+
+msgid "Unapproachable"
+msgstr "مستحيل الوصول"
+
+msgid "Unapproachableness"
+msgstr "استحالة الوصول"
+
+msgid "Unapproachably"
+msgstr "بشكل غير قابل للوصول"
+
+msgid "Unappropriate"
+msgstr "غير مناسب أو ملائم"
+
+msgid "Unappropriated"
+msgstr "غير مخصّص"
+
+msgid "Unapproved"
+msgstr "غير مصدّق"
+
+msgid "Unapt"
+msgstr "غير ملائم"
+
+msgid "Unaptly"
+msgstr "بشكل غير مناسب"
+
+msgid "Unaptness"
+msgstr "اللامناسبة"
+
+msgid "Unarguable"
+msgstr "غير قابل للنقاش"
+
+msgid "Unarguably"
+msgstr "غير جدليا"
+
+msgid "Unarm"
+msgstr "إنزع سلاح"
+
+msgid "Unarmed"
+msgstr "غير مسلّح"
+
+msgid "Unarming"
+msgstr "نزع سلاح"
+
+msgid "Unarmored"
+msgstr "غير مدرّع"
+
+msgid "Unarmoured"
+msgstr "غير محصّن"
+
+msgid "Unarms"
+msgstr "ينزع سلاح"
+
+msgid "Unarrested"
+msgstr "غير معتقل"
+
+msgid "Unartful"
+msgstr "غير ماكر"
+
+msgid "Unarticulated"
+msgstr "غير مفصلي"
+
+msgid "Unartistic"
+msgstr "بلا إحساس جماليّ"
+
+msgid "Unary"
+msgstr "أحادي"
+
+msgid "Unascertainable"
+msgstr "غير قابل للتحقيق او الإثبات"
+
+msgid "Unashamed"
+msgstr "بلا حياء"
+
+msgid "Unashamedly"
+msgstr "بشكل بلا حياء"
+
+msgid "Unasked"
+msgstr "لم يسأل"
+
+msgid "Unaskedly"
+msgstr "بشكل لم يسأل"
+
+msgid "Unassailable"
+msgstr "منيع"
+
+msgid "Unassailableness"
+msgstr "المناعة"
+
+msgid "Unassailably"
+msgstr "على نحو منيع"
+
+msgid "Unassayed"
+msgstr "غير مجرّب"
+
+msgid "Unassembled"
+msgstr "غير متجمّع"
+
+msgid "Unassertive"
+msgstr "خجول"
+
+msgid "Unassigned"
+msgstr "غير مخصّص"
+
+msgid "Unassimilable"
+msgstr "غير مندمج"
+
+msgid "Unassimilated"
+msgstr "غير مستوعب"
+
+msgid "Unassisted"
+msgstr "غير مساعد"
+
+msgid "Unassociated"
+msgstr "غير مرتبط"
+
+msgid "Unassuming"
+msgstr "متواضع"
+
+msgid "Unassumingly"
+msgstr "بشكل متواضع"
+
+msgid "Unassumingness"
+msgstr "التّواضع"
+
+msgid "Unasterisked"
+msgstr "غير أشّر عليه"
+
+msgid "Unathletic"
+msgstr "غير رياضي"
+
+msgid "Unattached"
+msgstr "منفصل"
+
+msgid "Unattachedly"
+msgstr "بشكل منفصل"
+
+msgid "Unattackable"
+msgstr "منيع"
+
+msgid "Unattainability"
+msgstr "غير نيل"
+
+msgid "Unattainable"
+msgstr "مستحيل الإدراك"
+
+msgid "Unattainably"
+msgstr "بشكل مستحيل الإدراك"
+
+msgid "Unattempted"
+msgstr "غير محاول"
+
+msgid "Unattended"
+msgstr "غير مصحوب"
+
+msgid "Unattenuated"
+msgstr "غير مخفّف"
+
+msgid "Unattractive"
+msgstr "غير جذاب"
+
+msgid "Unattractively"
+msgstr "بشكل غير جذاب"
+
+msgid "Unattractiveness"
+msgstr "اللاجاذبيّة"
+
+msgid "Unattributed"
+msgstr "غير منسوب"
+
+msgid "Unau"
+msgstr "أناو - نوع من الحيوانات من فئة الكسلان"
+
+msgid "Unauspicious"
+msgstr "مشئوم"
+
+msgid "Unauthentic"
+msgstr "مزيّف"
+
+msgid "Unauthenticated"
+msgstr "غير موثّق"
+
+msgid "Unauthorize"
+msgstr "ارفض :: يرفض"
+
+msgid "Unauthorized"
+msgstr "غير مخوّل"
+
+msgid "Unauthorizedly"
+msgstr "بشكل غير مخوّل"
+
+msgid "Unavailability"
+msgstr "غير توفر"
+
+msgid "Unavailable"
+msgstr "غير متوفر"
+
+msgid "Unavailably"
+msgstr "غير بوفرة"
+
+msgid "Unavailing"
+msgstr "غير مجدي"
+
+msgid "Unavailingly"
+msgstr "بشكل غير مجدي"
+
+msgid "Unavailingness"
+msgstr "اللّاجدوى"
+
+msgid "Unavenged"
+msgstr "غير منتقم لـ"
+
+msgid "Unavoidable"
+msgstr "مستحيل التجنب"
+
+msgid "Unavoidableness"
+msgstr "اللّامفرّ"
+
+msgid "Unavoidably"
+msgstr "بشكل غير قابل للتجنب"
+
+msgid "Unavowed"
+msgstr "غير مقرّ"
+
+msgid "Unavowedly"
+msgstr "غير جهارا"
+
+msgid "Unawakened"
+msgstr "غير مصحو"
+
+msgid "Unaware"
+msgstr "غافل"
+
+msgid "Unawarely"
+msgstr "بشكل غافل"
+
+msgid "Unawareness"
+msgstr "الجَهْل"
+
+msgid "Unawares"
+msgstr "على غير توقع"
+
+msgid "Unawed"
+msgstr "غير مرعوب"
+
+msgid "Unbacked"
+msgstr "غير الدّعم"
+
+msgid "Unbackedly"
+msgstr "بشكل غير مروّض"
+
+msgid "Unbag"
+msgstr "أخرج"
+
+msgid "Unbagged"
+msgstr "غير كيّس"
+
+msgid "Unbagging"
+msgstr "غير تكييس"
+
+msgid "Unbags"
+msgstr "يخرج"
+
+msgid "Unbaked"
+msgstr "غير مخبوز"
+
+msgid "Unbalance"
+msgstr "أخلل بتوازن"
+
+msgid "Unbalanced"
+msgstr "غير متوازن"
+
+msgid "Unbalancedly"
+msgstr "بشكل غير متوازن"
+
+msgid "Unbalancedness"
+msgstr "اللّاتوازن"
+
+msgid "Unbalancing"
+msgstr "إخلال بتوازن"
+
+msgid "UnBan"
+msgstr "غير منع"
+
+msgid "Unbanned"
+msgstr "غير ممنوع"
+
+msgid "Unbanning"
+msgstr "غير منع"
+
+msgid "Unbans"
+msgstr "أنبانس"
+
+msgid "Unbaptized"
+msgstr "غير معمّد"
+
+msgid "Unbar"
+msgstr "يزيل قضيب من الخشب او الحديد"
+
+msgid "Unbarbered"
+msgstr "غير حلق"
+
+msgid "Unbarred"
+msgstr "غير مخطّط"
+
+msgid "Unbarring"
+msgstr "غير منع"
+
+msgid "Unbashful"
+msgstr "غير خجول"
+
+msgid "Unbastardized"
+msgstr "خفّض غير من قيمته"
+
+msgid "Unbated"
+msgstr "غير مخفوف"
+
+msgid "Unbear"
+msgstr "يزيل لجام الحصان"
+
+msgid "Unbearable"
+msgstr "لا يطاق"
+
+msgid "Unbearably"
+msgstr "بشكل لا يطاق"
+
+msgid "Unbeatable"
+msgstr "لايهزم"
+
+msgid "Unbeatably"
+msgstr "بشكل ﻻ يقهر"
+
+msgid "Unbeaten"
+msgstr "غير مهزوم"
+
+msgid "Unbeatenly"
+msgstr "بشكل غير مهزوم"
+
+msgid "Unbeautiful"
+msgstr "قبيح"
+
+msgid "Unbeautifully"
+msgstr "بشكل قبيح"
+
+msgid "Unbecoming"
+msgstr "غير ﻻئق"
+
+msgid "Unbecomingly"
+msgstr "بشكل غير ﻻئق"
+
+msgid "Unbecomingness"
+msgstr "عدم اللّياقة"
+
+msgid "Unbed"
+msgstr "ينهض من الفراش"
+
+msgid "Unbegotten"
+msgstr "أبدي ::  لم يولد"
+
+msgid "Unbeknown"
+msgstr "مجهول"
+
+msgid "Unbeknownst"
+msgstr "مجهول"
+
+msgid "Unbelief"
+msgstr "الشكّ"
+
+msgid "Unbelievable"
+msgstr "غير قابل للتصديق"
+
+msgid "Unbelievably"
+msgstr "بشكل لا يصدق"
+
+msgid "Unbelieved"
+msgstr "لم يصدّق"
+
+msgid "Unbeliever"
+msgstr "المتشكّك"
+
+msgid "Unbelievers"
+msgstr "المتشكّكون"
+
+msgid "Unbelieving"
+msgstr "كافر"
+
+msgid "Unbelievingly"
+msgstr "بشك"
+
+msgid "Unbelt"
+msgstr "يخلع الحزام"
+
+msgid "Unbelted"
+msgstr "فكّ حزام"
+
+msgid "Unbend"
+msgstr "عدّل"
+
+msgid "Unbendable"
+msgstr "مستحيل اللي"
+
+msgid "Unbended"
+msgstr "غير مخلوط"
+
+msgid "Unbending"
+msgstr "التعديل"
+
+msgid "Unbends"
+msgstr "يعدّل"
+
+msgid "Unbent"
+msgstr "عدّل"
+
+msgid "Unbetrothed"
+msgstr "غير مخطوب"
+
+msgid "Unbias"
+msgstr "لا ينحاز"
+
+msgid "Unbiased"
+msgstr "غير متحيّز"
+
+msgid "Unbiasedly"
+msgstr "بشكل غير متحيّز"
+
+msgid "Unbiasedness"
+msgstr "اللّاتحيّز"
+
+msgid "Unbiassed"
+msgstr "غير متحيّز"
+
+msgid "Unbiassedly"
+msgstr "بشكل غير متحيّز"
+
+msgid "Unbid"
+msgstr "غير مطلوب"
+
+msgid "Unbidden"
+msgstr "غير مطلوب"
+
+msgid "Unbiddenly"
+msgstr "بشكل غير مطلوب"
+
+msgid "Unbigoted"
+msgstr "غير متزمّت"
+
+msgid "Unbind"
+msgstr "حلّ"
+
+msgid "Unbinding"
+msgstr "الحلّ"
+
+msgid "Unbinds"
+msgstr "يحلّ"
+
+msgid "Unbitter"
+msgstr "غير مستاء"
+
+msgid "Unblanking"
+msgstr "غير مسح"
+
+msgid "Unbleached"
+msgstr "غير مقصور"
+
+msgid "Unblemished"
+msgstr "غير مشوب"
+
+msgid "Unblended"
+msgstr "غير ممزوج"
+
+msgid "Unbless"
+msgstr "يحرم"
+
+msgid "Unblessed"
+msgstr "المحروم"
+
+msgid "Unblest"
+msgstr "غير مبارك"
+
+msgid "Unblinded"
+msgstr "غير معمى"
+
+msgid "Unblinking"
+msgstr "لايرّف"
+
+msgid "Unblinkingly"
+msgstr "بشكل لايرّف"
+
+msgid "Unblock"
+msgstr "إفتح"
+
+msgid "Unblocked"
+msgstr "مفتوح"
+
+msgid "Unblocking"
+msgstr "الفتح"
+
+msgid "Unblocks"
+msgstr "يفتح"
+
+msgid "Unblown"
+msgstr "غير منفوخ"
+
+msgid "Unblunted"
+msgstr "غير مخشّن"
+
+msgid "Unblushing"
+msgstr "بلا حياء"
+
+msgid "Unblushingly"
+msgstr "بشكل بلا حياء"
+
+msgid "Unboastful"
+msgstr "غير متبجّح"
+
+msgid "Unboastfully"
+msgstr "غير تبجّحا"
+
+msgid "Unbodied"
+msgstr "غير أعطى شكلاه"
+
+msgid "Unbody"
+msgstr "التحرّر من الجسد"
+
+msgid "Unboiled"
+msgstr "غير مغلي"
+
+msgid "Unbolt"
+msgstr "إفتح"
+
+msgid "Unbolted"
+msgstr "مفتوح"
+
+msgid "Unbolting"
+msgstr "الفتح"
+
+msgid "Unbolts"
+msgstr "يفتح"
+
+msgid "Unbone"
+msgstr "يزيل العظام"
+
+msgid "Unboned"
+msgstr "مزال عظام"
+
+msgid "Unbonneted"
+msgstr "حاسر الرّأس"
+
+msgid "Unborn"
+msgstr "غير مولود"
+
+msgid "Unbornly"
+msgstr "بشكل غير مولود"
+
+msgid "Unborrowed"
+msgstr "غير مستعار"
+
+msgid "Unbosom"
+msgstr "إكشف عنه"
+
+msgid "Unbosomed"
+msgstr "مكشوف عن"
+
+msgid "Unbosoming"
+msgstr "الكشف عن"
+
+msgid "Unbosoms"
+msgstr "يكشف عنه"
+
+msgid "Unbought"
+msgstr "غير مشترى"
+
+msgid "Unbound"
+msgstr "غير مقيّد"
+
+msgid "Unbounded"
+msgstr "غير محدود"
+
+msgid "Unboundedly"
+msgstr "بشكل غير محدود"
+
+msgid "Unboundedness"
+msgstr "اللّاحدود"
+
+msgid "Unbow"
+msgstr "يعتدل"
+
+msgid "Unbowed"
+msgstr "لايقهر"
+
+msgid "Unbox"
+msgstr "يفرغ العلبة من محتوياتها"
+
+msgid "Unbrace"
+msgstr "يزيل دعامة"
+
+msgid "Unbraced"
+msgstr "محلول"
+
+msgid "Unbraid"
+msgstr "يفكّ الضفيرة"
+
+msgid "Unbranched"
+msgstr "غير متفرّع"
+
+msgid "Unbreakable"
+msgstr "مستحيل الكسر"
+
+msgid "Unbreathable"
+msgstr "غير صالح للشّم"
+
+msgid "Unbred"
+msgstr "غير مدرَّب"
+
+msgid "Unbridle"
+msgstr "يطلق سراح :: يحرّر"
+
+msgid "Unbridled"
+msgstr "حرّ"
+
+msgid "Unbroken"
+msgstr "تامّ"
+
+msgid "Unbrokenly"
+msgstr "بشكل تامّ"
+
+msgid "Unbrokenness"
+msgstr "التّمام"
+
+msgid "Unbrutalized"
+msgstr "غير مرعب"
+
+msgid "Unbuckle"
+msgstr "فكّ إبزيم"
+
+msgid "Unbuckled"
+msgstr "مفكوك إبزيم"
+
+msgid "Unbuckles"
+msgstr "يفكّ إبزيم"
+
+msgid "Unbuckling"
+msgstr "فكّ إبزيم"
+
+msgid "Unbudging"
+msgstr "غير متزحزح"
+
+msgid "Unbudgingly"
+msgstr "بشكل غير متزحزح"
+
+msgid "Unbuffered"
+msgstr "غير مصقول"
+
+msgid "Unbuild"
+msgstr "يهدم"
+
+msgid "Unbuilt"
+msgstr "غير مبني"
+
+msgid "Unbundle"
+msgstr "أخرج"
+
+msgid "Unbundled"
+msgstr "مخرج"
+
+msgid "Unburden"
+msgstr "حرّر"
+
+msgid "Unburdened"
+msgstr "محرّر"
+
+msgid "Unburdening"
+msgstr "التحرير"
+
+msgid "Unburdens"
+msgstr "يحرّر"
+
+msgid "Unbureaucratic"
+msgstr "غير بيروقراطي"
+
+msgid "Unburied"
+msgstr "غير مدفون"
+
+msgid "Unburned"
+msgstr "غير محترق"
+
+msgid "Unburnished"
+msgstr "غير لمّاع"
+
+msgid "Unburnt"
+msgstr "غير محترق"
+
+msgid "Unburthen"
+msgstr "يخفّف الوطأة"
+
+msgid "Unbusinesslike"
+msgstr "مغاير لأصول العمل"
+
+msgid "Unbuttered"
+msgstr "غير مزبّد"
+
+msgid "Unbutton"
+msgstr "حلّ أزرار"
+
+msgid "Unbuttoned"
+msgstr "محلول أزرار"
+
+msgid "Unbuttoning"
+msgstr "حلّ أزرار"
+
+msgid "Unbuttons"
+msgstr "يحلّ أزرار"
+
+msgid "Unc"
+msgstr "سيطرة الأمم المتحدة"
+
+msgid "Uncage"
+msgstr "يطلق سراح :: يحرّر"
+
+msgid "Uncaged"
+msgstr "محرّر"
+
+msgid "Uncages"
+msgstr "يحرّر"
+
+msgid "Uncaging"
+msgstr "التحرير"
+
+msgid "Uncalculating"
+msgstr "غير مقدّرتقديرا"
+
+msgid "Uncalled"
+msgstr "غير مسمّى"
+
+msgid "Uncalm"
+msgstr "يزعج :: يضايق"
+
+msgid "Uncanceled"
+msgstr "غير ملغي"
+
+msgid "Uncandidly"
+msgstr "بشكل غير صريح"
+
+msgid "Uncannily"
+msgstr "بشكل خارق للطبيعة"
+
+msgid "Uncanniness"
+msgstr "خرق الطبيعة"
+
+msgid "Uncanny"
+msgstr "خارق للطبيعة"
+
+msgid "Uncanonized"
+msgstr "غير مقدّس"
+
+msgid "Uncap"
+msgstr "إرفع قبّعة"
+
+msgid "Uncapable"
+msgstr "غير قادر"
+
+msgid "Uncapitalized"
+msgstr "غير مموّل"
+
+msgid "Uncared"
+msgstr "متجاهَلْ"
+
+msgid "Uncareful"
+msgstr "غير حذر"
+
+msgid "Uncaring"
+msgstr "غير مهتمّ"
+
+msgid "Uncarpeted"
+msgstr "غير مفروش"
+
+msgid "Uncart"
+msgstr "يطلق سراح :: يحرّر"
+
+msgid "Uncase"
+msgstr "إفتح"
+
+msgid "Uncatchable"
+msgstr "غير قابل للمسك"
+
+msgid "Uncategorized"
+msgstr "غير مصنّف"
+
+msgid "Uncaught"
+msgstr "غير مسك"
+
+msgid "Uncaused"
+msgstr "غير مسبّب"
+
+msgid "Uncauterized"
+msgstr "غير مكوي"
+
+msgid "Unce"
+msgstr "مقدار بسيط"
+
+msgid "Unceasable"
+msgstr "متواصل"
+
+msgid "Unceasing"
+msgstr "متواصل"
+
+msgid "Unceasingly"
+msgstr "بشكل متواصل"
+
+msgid "Unced"
+msgstr "أنسيد"
+
+msgid "Uncelebrated"
+msgstr "غير مشهور"
+
+msgid "Uncensored"
+msgstr "غير مراقب"
+
+msgid "Unceremonious"
+msgstr "غير رسمي"
+
+msgid "Unceremoniously"
+msgstr "بشكل غير رسمي"
+
+msgid "Unceremoniousness"
+msgstr "اللّارسميّة"
+
+msgid "Uncertain"
+msgstr "قلق"
+
+msgid "Uncertainly"
+msgstr "في حيرة"
+
+msgid "Uncertainness"
+msgstr "الحيرة"
+
+msgid "Uncertainties"
+msgstr "الحيرة"
+
+msgid "Uncertainty"
+msgstr "الحيرة"
+
+msgid "Uncertified"
+msgstr "غير موثّق"
+
+msgid "Unchain"
+msgstr "حرّر"
+
+msgid "Unchained"
+msgstr "محرّر"
+
+msgid "Unchaining"
+msgstr "التحرير"
+
+msgid "Unchains"
+msgstr "يحرّر"
+
+msgid "Unchallengeable"
+msgstr "غير قابل للمنازلة"
+
+msgid "Unchallenged"
+msgstr "بدون تحدي"
+
+msgid "Unchangeability"
+msgstr "غير تغير"
+
+msgid "Unchangeable"
+msgstr "ثابت"
+
+msgid "Unchangeableness"
+msgstr "الثّبات"
+
+msgid "Unchangeably"
+msgstr "غير بتقلب"
+
+msgid "Unchanged"
+msgstr "بدون تغيير"
+
+msgid "Unchangedly"
+msgstr "بشكل بدون تغيير"
+
+msgid "Unchanging"
+msgstr "ثابت"
+
+msgid "Unchangingly"
+msgstr "بشكل ثابت"
+
+msgid "Unchangingness"
+msgstr "الثّبات"
+
+msgid "Unchaperoned"
+msgstr "غير مرافق"
+
+msgid "Uncharacteristic"
+msgstr "غير معهود"
+
+msgid "Uncharacteristically"
+msgstr "على نحو غير معهود"
+
+msgid "Uncharacterized"
+msgstr "غير مميّز"
+
+msgid "Uncharged"
+msgstr "محرّر"
+
+msgid "Uncharitable"
+msgstr "غير متسامح"
+
+msgid "Uncharitableness"
+msgstr "اللّاتسامحيّة"
+
+msgid "Uncharitably"
+msgstr "بغير تسامح"
+
+msgid "Uncharity"
+msgstr "جاف :: غير محب"
+
+msgid "Uncharted"
+msgstr "مجهول"
+
+msgid "Unchartered"
+msgstr "غير مؤجّر"
+
+msgid "Unchaste"
+msgstr "غير عفيف"
+
+msgid "Unchastened"
+msgstr "غير خاضع  للّوم أو التّوبيخ"
+
+msgid "Unchastity"
+msgstr "غير عفة"
+
+msgid "Uncheckable"
+msgstr "غير قابل للفحص"
+
+msgid "Unchecked"
+msgstr "غير مراقب"
+
+msgid "Unchewed"
+msgstr "غير ممضوغ"
+
+msgid "Unchildlike"
+msgstr "غير طفولي"
+
+msgid "Unchilled"
+msgstr "غير مبرّد"
+
+msgid "Unchivalrous"
+msgstr "غير نبيل"
+
+msgid "Unchivalrously"
+msgstr "بشكل غير نبيل"
+
+msgid "Unchlorinated"
+msgstr "غير مكلور"
+
+msgid "Unchosen"
+msgstr "غير مختار"
+
+msgid "Unchristened"
+msgstr "غير معمّد"
+
+msgid "Unchristian"
+msgstr "غير مسيحي"
+
+msgid "Uncinate"
+msgstr "معقوف"
+
+msgid "Uncipher"
+msgstr "يفك الشّفرة"
+
+msgid "Uncirculated"
+msgstr "غير موزّع"
+
+msgid "Uncircumcised"
+msgstr "غير مطهّر"
+
+msgid "Uncivil"
+msgstr "همجي"
+
+msgid "Uncivilized"
+msgstr "غير متحضّر"
+
+msgid "Uncivilizedly"
+msgstr "بشكل همجي"
+
+msgid "Uncivilly"
+msgstr "بشكل همجي"
+
+msgid "Unclad"
+msgstr "عاري"
+
+msgid "Unclaimed"
+msgstr "غير مطلوب"
+
+msgid "Unclaimedly"
+msgstr "بشكل غير مطلوب"
+
+msgid "Unclamorous"
+msgstr "غير صاخب"
+
+msgid "Unclamp"
+msgstr "غير مشبك"
+
+msgid "Unclamped"
+msgstr "غير مثبّت"
+
+msgid "Unclamping"
+msgstr "غير تثبيت"
+
+msgid "Unclarity"
+msgstr "غير وضوح"
+
+msgid "Unclasp"
+msgstr "أرخ"
+
+msgid "Unclasped"
+msgstr "مرخى"
+
+msgid "Unclasping"
+msgstr "الإرخاء"
+
+msgid "Unclasps"
+msgstr "يرخي"
+
+msgid "Unclassifiable"
+msgstr "غير قابل للتصنيف"
+
+msgid "Unclassified"
+msgstr "غير مصنّف"
+
+msgid "Uncle"
+msgstr "العمّ"
+
+msgid "Unclean"
+msgstr "قذر"
+
+msgid "Uncleaned"
+msgstr "غير منظّف"
+
+msgid "Uncleanliness"
+msgstr "القذارة"
+
+msgid "Uncleanly"
+msgstr "بشكل قذر"
+
+msgid "Uncleanness"
+msgstr "القذارة"
+
+msgid "Unclear"
+msgstr "غير واضح"
+
+msgid "Uncleared"
+msgstr "غير بريء"
+
+msgid "Unclench"
+msgstr "غير إحكام"
+
+msgid "Unclenched"
+msgstr "غير مثبّت"
+
+msgid "Uncles"
+msgstr "الأعمام"
+
+msgid "Unclip"
+msgstr "يزل المشبك"
+
+msgid "Unclipped"
+msgstr "غير مقصوص"
+
+msgid "Uncloak"
+msgstr "يكشف الغطاء"
+
+msgid "Uncloaked"
+msgstr "مكشوف"
+
+msgid "Uncloaks"
+msgstr "يكشف"
+
+msgid "UnClose"
+msgstr "إفتح"
+
+msgid "Unclog"
+msgstr "حرّر :: أزال العوائق"
+
+msgid "Unclosed"
+msgstr "مفتوح"
+
+msgid "Uncloses"
+msgstr "يفتح"
+
+msgid "Unclosing"
+msgstr "الفتح"
+
+msgid "Unclothe"
+msgstr "عرّ"
+
+msgid "Unclothed"
+msgstr "عاري"
+
+msgid "Unclothes"
+msgstr "يعرّي"
+
+msgid "Unclouded"
+msgstr "صافي"
+
+msgid "Uncloudedly"
+msgstr "بشكل صافي"
+
+msgid "Unclustered"
+msgstr "غير متجمّع"
+
+msgid "Uncluttered"
+msgstr "مرتّب"
+
+msgid "Unco"
+msgstr "غريب"
+
+msgid "Uncoated"
+msgstr "غير مكسو"
+
+msgid "Uncock"
+msgstr "تهيّأ"
+
+msgid "Uncocked"
+msgstr "متهيّأ"
+
+msgid "Uncocking"
+msgstr "التهيّأ"
+
+msgid "Uncocks"
+msgstr "يتهيّأ"
+
+msgid "Uncode"
+msgstr "غير رمز"
+
+msgid "Uncoded"
+msgstr "غير مشفّر"
+
+msgid "Uncoil"
+msgstr "حلّ"
+
+msgid "Uncoiled"
+msgstr "محلول"
+
+msgid "Uncoiling"
+msgstr "الحلّ"
+
+msgid "Uncoils"
+msgstr "يحلّ"
+
+msgid "Uncoined"
+msgstr "غير مسكوك"
+
+msgid "Uncollected"
+msgstr "غير مجموع"
+
+msgid "Uncollectible"
+msgstr "لايمكن تحصيله"
+
+msgid "Uncolonized"
+msgstr "غير مُسْتَعمر"
+
+msgid "Uncolored"
+msgstr "بغير لون"
+
+msgid "Uncombable"
+msgstr "غير قابل للتّمشيط"
+
+msgid "Uncombed"
+msgstr "غير ممشّط"
+
+msgid "Uncomely"
+msgstr "غير وسيم"
+
+msgid "Uncomfortable"
+msgstr "مزعج"
+
+msgid "Uncomfortableness"
+msgstr "التّوتّر"
+
+msgid "Uncomfortably"
+msgstr "بتضايق"
+
+msgid "Uncomforted"
+msgstr "غير مريّح"
+
+msgid "Uncomment"
+msgstr "غير تعليق"
+
+msgid "Uncommented"
+msgstr "غير معلّق"
+
+msgid "Uncommenting"
+msgstr "غير تعليق"
+
+msgid "Uncommercial"
+msgstr "غير تجاري"
+
+msgid "Uncommitted"
+msgstr "غير ملتزم"
+
+msgid "Uncommon"
+msgstr "نادر"
+
+msgid "Uncommonly"
+msgstr "غير إعتيادي"
+
+msgid "Uncommonness"
+msgstr "النّدرة"
+
+msgid "Uncommunicable"
+msgstr "غير قابل للإتصال"
+
+msgid "Uncommunicative"
+msgstr "غير صريح"
+
+msgid "Uncommunicatively"
+msgstr "بصمت"
+
+msgid "Uncommunicativeness"
+msgstr "التحفّظ"
+
+msgid "Uncompassionate"
+msgstr "قاسي"
+
+msgid "Uncompetitive"
+msgstr "غير تنافسي"
+
+msgid "Uncompiled"
+msgstr "غير مجموع"
+
+msgid "Uncomplaining"
+msgstr "غير مشتكي"
+
+msgid "Uncomplainingly"
+msgstr "بشكل غير مشتكي"
+
+msgid "Uncompleted"
+msgstr "غير مكتمل"
+
+msgid "Uncomplex"
+msgstr "غير معقّد"
+
+msgid "Uncomplicated"
+msgstr "سهل"
+
+msgid "Uncomplimentary"
+msgstr "غير مجّاني"
+
+msgid "Uncompounded"
+msgstr "خالص :: غير مركّب"
+
+msgid "Uncomprehend"
+msgstr "لا يستوعب او يفهم"
+
+msgid "Uncomprehending"
+msgstr "جاهل"
+
+msgid "Uncomprehendingly"
+msgstr "بشكل جاهل"
+
+msgid "Uncomprehensible"
+msgstr "غير مفهوم :: مبهم"
+
+msgid "Uncomprehensive"
+msgstr "غير مفهوم"
+
+msgid "Uncompress"
+msgstr "إفتح"
+
+msgid "Uncompressed"
+msgstr "فتح"
+
+msgid "Uncompresses"
+msgstr "يفتح"
+
+msgid "Uncompressing"
+msgstr "الفتح"
+
+msgid "Uncompressor"
+msgstr "غير ضاغط"
+
+msgid "Uncompromised"
+msgstr "غير مساوم"
+
+msgid "Uncompromising"
+msgstr "عنيد"
+
+msgid "Uncompromisingly"
+msgstr "بدون مساومة"
+
+msgid "Uncomputable"
+msgstr "غير محسوب"
+
+msgid "Unconcealed"
+msgstr "ظاهر"
+
+msgid "Unconceivable"
+msgstr "غير معقول"
+
+msgid "Unconcern"
+msgstr "عدم الإكتراث"
+
+msgid "Unconcerned"
+msgstr "غير مكترث"
+
+msgid "Unconcernedly"
+msgstr "بشكل غير مكترث"
+
+msgid "Unconcernedness"
+msgstr "اللّامباﻻة"
+
+msgid "Unconcerns"
+msgstr "عدم الإكتراث"
+
+msgid "Unconditional"
+msgstr "غير مشروط"
+
+msgid "Unconditionally"
+msgstr "بدون شرط"
+
+msgid "Unconditioned"
+msgstr "غير مشروط"
+
+msgid "Unconfessed"
+msgstr "غير مقرّ"
+
+msgid "Unconfidence"
+msgstr "إنعدام الثقة"
+
+msgid "Unconfident"
+msgstr "غير واثق"
+
+msgid "Unconfined"
+msgstr "غير محصور"
+
+msgid "Unconfirmed"
+msgstr "غير مؤكّد"
+
+msgid "Unconfirmedly"
+msgstr "بشكل غير مؤكّد"
+
+msgid "Unconformable"
+msgstr "غير مطيع"
+
+msgid "Unconformity"
+msgstr "غير إلتزام"
+
+msgid "Uncongenial"
+msgstr "غير مناسب"
+
+msgid "Uncongeniality"
+msgstr "غير ملائمة"
+
+msgid "Unconnected"
+msgstr "غير مرتبط"
+
+msgid "Unconnectedly"
+msgstr "بشكل غير مرتبط"
+
+msgid "Unconning"
+msgstr "الجهل بالأمر :: الجاهل بالأمور"
+
+msgid "Unconquerable"
+msgstr "لايقهر"
+
+msgid "Unconquerably"
+msgstr "بشكل لايقهر"
+
+msgid "Unconquered"
+msgstr "لم يقهر"
+
+msgid "Unconscientious"
+msgstr "غير متفاني"
+
+msgid "Unconscionable"
+msgstr "غير مقبول"
+
+msgid "Unconscionableness"
+msgstr "انعدام الضّمير"
+
+msgid "Unconscionably"
+msgstr "بدون معقولية"
+
+msgid "Unconscious"
+msgstr "العقل الباطن"
+
+msgid "Unconsciously"
+msgstr "بشكل فاقد الوعي"
+
+msgid "Unconsciousness"
+msgstr "عدم الشعور"
+
+msgid "Unconsecrated"
+msgstr "غير معلن"
+
+msgid "Unconsenting"
+msgstr "معارض"
+
+msgid "Unconsidered"
+msgstr "غير مدروس"
+
+msgid "Unconsolidated"
+msgstr "غير مدعوم"
+
+msgid "Unconspicuous"
+msgstr "بسيط"
+
+msgid "Unconstant"
+msgstr "غير ثابت"
+
+msgid "Unconstipated"
+msgstr "لا يشكو من الإمساك"
+
+msgid "Unconstitutional"
+msgstr "غير دستوري"
+
+msgid "Unconstitutionality"
+msgstr "غير دستورية"
+
+msgid "Unconstitutionally"
+msgstr "بشكل غير دستوري"
+
+msgid "Unconstrained"
+msgstr "منطلق"
+
+msgid "Unconsumed"
+msgstr "غير مستهلك"
+
+msgid "Unconsummated"
+msgstr "ناقص"
+
+msgid "Uncontable"
+msgstr "أنكونتابل"
+
+msgid "Uncontaminated"
+msgstr "غير ملوّث"
+
+msgid "Uncontestable"
+msgstr "مؤكّد"
+
+msgid "Uncontested"
+msgstr "لا إعتراض عليه"
+
+msgid "Uncontinuous"
+msgstr "غير مستمر"
+
+msgid "Uncontradicted"
+msgstr "غير متناقض"
+
+msgid "Uncontrollability"
+msgstr "غير قابلية تحكم"
+
+msgid "Uncontrollable"
+msgstr "خارج السّيطرة"
+
+msgid "Uncontrollably"
+msgstr "بدون سيطرة"
+
+msgid "Uncontrolled"
+msgstr "غير مراقب"
+
+msgid "Uncontrolledly"
+msgstr "بشكل غير مراقب"
+
+msgid "Uncontroversial"
+msgstr "غير مثير للجدل"
+
+msgid "Uncontrovertible"
+msgstr "مؤكّد"
+
+msgid "Unconvenient"
+msgstr "غير مناسب"
+
+msgid "Unconventional"
+msgstr "غير تقليدي"
+
+msgid "Unconventionality"
+msgstr "الغير تقليديّة"
+
+msgid "Unconventionally"
+msgstr "بشكل لا تقليدي"
+
+msgid "Unconverted"
+msgstr "غير محوّل"
+
+msgid "Unconvertible"
+msgstr "غير قابل للتحويل"
+
+msgid "Unconvinced"
+msgstr "غير مقتنع"
+
+msgid "Unconvincedly"
+msgstr "بشكل غير مقتنع"
+
+msgid "Unconvincing"
+msgstr "غير مقنع"
+
+msgid "Unconvincingly"
+msgstr "بشكل غير مقنع"
+
+msgid "Unconvincingness"
+msgstr "اللّاإقناع"
+
+msgid "Uncooked"
+msgstr "غير مطبوخ"
+
+msgid "Uncool"
+msgstr "غير بارد"
+
+msgid "Uncooled"
+msgstr "غير مبرّد"
+
+msgid "Uncooperative"
+msgstr "غير تعاوني"
+
+msgid "Uncooperatively"
+msgstr "بدون تعاون"
+
+msgid "Uncoordinated"
+msgstr "غير منسّق"
+
+msgid "Uncord"
+msgstr "يفك وثاق"
+
+msgid "Uncordial"
+msgstr "غير ودّي"
+
+msgid "Uncordially"
+msgstr "غير وديا"
+
+msgid "Uncork"
+msgstr "إفتح"
+
+msgid "Uncorked"
+msgstr "مفتوح"
+
+msgid "Uncorking"
+msgstr "الفتح"
+
+msgid "Uncorks"
+msgstr "يفتح"
+
+msgid "Uncorrectable"
+msgstr "غير قابل للتصحيح"
+
+msgid "Uncorrected"
+msgstr "غير مصحّح"
+
+msgid "Uncorrelated"
+msgstr "غير مربوط"
+
+msgid "Uncorroborated"
+msgstr "غير معضّد"
+
+msgid "Uncorrupt"
+msgstr "غير فاسد"
+
+msgid "Uncorrupted"
+msgstr "غير فاسد"
+
+msgid "Uncounselled"
+msgstr "غير منصوح"
+
+msgid "Uncountable"
+msgstr "غير معدود"
+
+msgid "Uncountably"
+msgstr "بشكل غير محدود"
+
+msgid "Uncounted"
+msgstr "غير معدود"
+
+msgid "Uncouple"
+msgstr "إفصل"
+
+msgid "Uncoupled"
+msgstr "مفصول"
+
+msgid "Uncouples"
+msgstr "يفصل"
+
+msgid "Uncoupling"
+msgstr "الفصل"
+
+msgid "Uncourageous"
+msgstr "غير شجاع"
+
+msgid "Uncourteous"
+msgstr "غير مهذّب"
+
+msgid "Uncous"
+msgstr "كما الخطّاف"
+
+msgid "Uncousinly"
+msgstr "بشكل غير ﻻئق بالقرابة"
+
+msgid "Uncouth"
+msgstr "فظّ"
+
+msgid "Uncouthly"
+msgstr "بشكل فظّ"
+
+msgid "Uncouthness"
+msgstr "الفظاظة"
+
+msgid "Uncovenanted"
+msgstr "غير ملزم"
+
+msgid "Uncover"
+msgstr "إكشف"
+
+msgid "Uncovered"
+msgstr "غير مغطّى"
+
+msgid "Uncovering"
+msgstr "الكشف"
+
+msgid "Uncovers"
+msgstr "يكشف"
+
+msgid "Uncrate"
+msgstr "يزيل من الصّندوق"
+
+msgid "Uncreased"
+msgstr "غير متجعّد"
+
+msgid "Uncreate"
+msgstr "اهلك :: يهلك"
+
+msgid "Uncreated"
+msgstr "غير مخلوق"
+
+msgid "Uncritical"
+msgstr "غير ناقد"
+
+msgid "Uncritically"
+msgstr "بشكل غير ناقد"
+
+msgid "Uncriticized"
+msgstr "غير منتقد"
+
+msgid "Uncriticizing"
+msgstr "غير إنتقاد"
+
+msgid "Uncropped"
+msgstr "غير مقصوص"
+
+msgid "Uncross"
+msgstr "غير متقاطع"
+
+msgid "Uncrossed"
+msgstr "عديم التقاطع"
+
+msgid "Uncrosses"
+msgstr "يلغي التقاطع"
+
+msgid "Uncrossing"
+msgstr "غير عبور"
+
+msgid "Uncrowded"
+msgstr "غير مزدحم"
+
+msgid "Uncrown"
+msgstr "اخلع :: يخلع"
+
+msgid "Uncrowned"
+msgstr "غير متوّج"
+
+msgid "Uncrushable"
+msgstr "غير قابل للسحق"
+
+msgid "Uncrystallized"
+msgstr "غير مبلور"
+
+msgid "Unction"
+msgstr "مرهم"
+
+msgid "Unctious"
+msgstr "دهنيّ"
+
+msgid "Unctuous"
+msgstr "متزلف"
+
+msgid "Unctuously"
+msgstr "بشكل متزلف"
+
+msgid "Unctuousness"
+msgstr "التّملّق"
+
+msgid "Uncultivated"
+msgstr "غير مهذّب"
+
+msgid "Unculture"
+msgstr "فقدان الثّقافة :: انعدام الثّقافة"
+
+msgid "Uncultured"
+msgstr "جاهل"
+
+msgid "Uncunning"
+msgstr "جاهل :: الجهل"
+
+msgid "Uncurable"
+msgstr "غير قابل للعلاج"
+
+msgid "Uncurbed"
+msgstr "غير مكبوح"
+
+msgid "Uncured"
+msgstr "غير معالج"
+
+msgid "Uncurl"
+msgstr "سدّل"
+
+msgid "Uncurled"
+msgstr "مسدّل"
+
+msgid "Uncut"
+msgstr "غير مقطوع"
+
+msgid "Uncuth"
+msgstr "غير معروف :: غريب"
+
+msgid "Uncynical"
+msgstr "غير متهكم"
+
+msgid "Uncynically"
+msgstr "بشكل غير متهكم"
+
+msgid "Uncypher"
+msgstr "يفهم :: يفكّ الشفرة"
+
+msgid "Undam"
+msgstr "يحرّر من القيود"
+
+msgid "Undamaged"
+msgstr "سليم"
+
+msgid "Undamagedly"
+msgstr "بشكل سليم"
+
+msgid "Undamped"
+msgstr "غير ثبّط"
+
+msgid "Undatable"
+msgstr "غير محدد او معرّف بتاريخ معيّن"
+
+msgid "Undated"
+msgstr "غير مؤرّخ"
+
+msgid "Undaunted"
+msgstr "غير متهيّب"
+
+msgid "Undauntedly"
+msgstr "بإقدام"
+
+msgid "Undazzled"
+msgstr "غير مبهر"
+
+msgid "Undeaf"
+msgstr "يعالج الصّمم"
+
+msgid "Undebatable"
+msgstr "غير قابل للنقاش"
+
+msgid "Undebugged"
+msgstr "غير منقّح"
+
+msgid "Undecayed"
+msgstr "غير فاسد"
+
+msgid "Undeceive"
+msgstr "وضّح"
+
+msgid "Undeceived"
+msgstr "موضّح"
+
+msgid "Undeceives"
+msgstr "يوضّح"
+
+msgid "Undeceiving"
+msgstr "التوضيح"
+
+msgid "Undecent"
+msgstr "غير محترم"
+
+msgid "Undecidable"
+msgstr "غير مقرّر"
+
+msgid "Undecide"
+msgstr "يتراجع عن القرار"
+
+msgid "Undecided"
+msgstr "متردّد"
+
+msgid "Undecidedly"
+msgstr "بشكل متردّد"
+
+msgid "Undecipherable"
+msgstr "مستحيل الحل"
+
+msgid "Undeciphered"
+msgstr "غير محلول"
+
+msgid "Undecisive"
+msgstr "غير حاسم"
+
+msgid "Undeck"
+msgstr "غير طابق"
+
+msgid "Undeclared"
+msgstr "غير مصرّح به"
+
+msgid "Undecomposable"
+msgstr "غير متفسّخ"
+
+msgid "Undecorated"
+msgstr "غير مزيّن"
+
+msgid "Undedicated"
+msgstr "غير مكرّس"
+
+msgid "Undefatigable"
+msgstr "نشيط"
+
+msgid "Undefeated"
+msgstr "غير مهزوم"
+
+msgid "Undefendable"
+msgstr "غير محمي :: معرّض للخطر"
+
+msgid "Undefended"
+msgstr "غير محمي"
+
+msgid "Undefiled"
+msgstr "غير مدنّس"
+
+msgid "Undefinable"
+msgstr "غير قابل للتعريف"
+
+msgid "Undefine"
+msgstr "يربك التّعريف"
+
+msgid "Undefined"
+msgstr "غير معرّف"
+
+msgid "Undeflected"
+msgstr "غير منحرف"
+
+msgid "Undeformed"
+msgstr "غير مشوّه"
+
+msgid "Undelayed"
+msgstr "غير متأخر"
+
+msgid "Undelete"
+msgstr "أعد"
+
+msgid "Undeleted"
+msgstr "أعيد"
+
+msgid "Undeliverable"
+msgstr "غير قابل للتسليم"
+
+msgid "Undemanding"
+msgstr "قنوع :: قليل الطّلبات"
+
+msgid "Undemocratic"
+msgstr "غير ديموقراطي"
+
+msgid "Undemocratically"
+msgstr "بشكل غير ديموقراطي"
+
+msgid "Undemonstrable"
+msgstr "غير قابل للاثبات"
+
+msgid "Undemonstrative"
+msgstr "متحفّظ"
+
+msgid "Undemonstratively"
+msgstr "بشكل متحفّظ"
+
+msgid "Undemonstrativeness"
+msgstr "التحفّظ"
+
+msgid "Undeniable"
+msgstr "مستحيل النكران"
+
+msgid "Undeniableness"
+msgstr "عدم النّكران"
+
+msgid "Undeniably"
+msgstr "بشكل لاينكر"
+
+msgid "Undenominational"
+msgstr "غير طائفي"
+
+msgid "Undependability"
+msgstr "أنعدام الثّقة"
+
+msgid "Undependable"
+msgstr "غير موثوق"
+
+msgid "Undepicted"
+msgstr "غير مصوّر"
+
+msgid "Under"
+msgstr "تحت"
+
+msgid "Under-coat"
+msgstr "معطف داخلي :: طبقة دّهان مانعة للصّدأ"
+
+msgid "Under-study"
+msgstr "الممثّل البديل"
+
+msgid "Under-way"
+msgstr "جاري :: في طور التنفيذ"
+
+msgid "Underachiever"
+msgstr "المقصّر في الأداء"
+
+msgid "Underachievers"
+msgstr "المقصّرون"
+
+msgid "Underact"
+msgstr "قصّر"
+
+msgid "Underacted"
+msgstr "مقصّر"
+
+msgid "Underacting"
+msgstr "التقصير"
+
+msgid "Underacts"
+msgstr "يقصّر"
+
+msgid "Underage"
+msgstr "القاصر"
+
+msgid "Underarm"
+msgstr "الإبط"
+
+msgid "Underbear"
+msgstr "يساند :: يتحمّل"
+
+msgid "Underbellies"
+msgstr "أسفل البطن"
+
+msgid "Underbelly"
+msgstr "أسفل البطن"
+
+msgid "Underbid"
+msgstr "إخصم"
+
+msgid "Underbidding"
+msgstr "الخصم"
+
+msgid "Underbids"
+msgstr "يخصم"
+
+msgid "Underbodice"
+msgstr "ملابس داخليّة قصيرة بلا كمّ للنّساء"
+
+msgid "Underbred"
+msgstr "فظّ"
+
+msgid "Underbrush"
+msgstr "الشّجيرات النّامية تحت الأشجار الكبيرة"
+
+msgid "Undercarriage"
+msgstr "عجلات الطائرة"
+
+msgid "Undercarriages"
+msgstr "عجلات الطائرة"
+
+msgid "Undercharge"
+msgstr "إخصم"
+
+msgid "Undercharged"
+msgstr "مخصوم"
+
+msgid "Undercharges"
+msgstr "يخصم"
+
+msgid "Undercharging"
+msgstr "الخصم"
+
+msgid "Underclass"
+msgstr "الطّبقة الدّنيا من المجتمع"
+
+msgid "Underclassman"
+msgstr "اللّامتخرّج"
+
+msgid "Underclassmen"
+msgstr "طالب في المرحلة الأولى او الثانية في الجامعة"
+
+msgid "Underclothes"
+msgstr "الملابس الداخليّة"
+
+msgid "Underclothing"
+msgstr "الملابس الداخليّة"
+
+msgid "Undercoat"
+msgstr "الطلاء التحتي"
+
+msgid "Undercoats"
+msgstr "الستر التحتانية"
+
+msgid "Underconsumption"
+msgstr "قلّة الاستهلاك"
+
+msgid "Undercooked"
+msgstr "غير مطبوخ جيدا"
+
+msgid "Undercount"
+msgstr "سجّل عدداً أقل"
+
+msgid "Undercounts"
+msgstr "يسجّل عدداً أقل"
+
+msgid "Undercover"
+msgstr "سريّ"
+
+msgid "Undercurrent"
+msgstr "التيّار التحتي"
+
+msgid "Undercurrents"
+msgstr "التيّارات التحتية"
+
+msgid "Undercut"
+msgstr "لحم المتن"
+
+msgid "Undercuts"
+msgstr "لحوم المتن"
+
+msgid "Undercutting"
+msgstr "البيع بسعر أدنى"
+
+msgid "Underdeveloped"
+msgstr "متخلّف"
+
+msgid "Underdevelopment"
+msgstr "نقْص النّموّ"
+
+msgid "Underdo"
+msgstr "تهاون في العمل"
+
+msgid "Underdog"
+msgstr "المستضعف"
+
+msgid "Underdogs"
+msgstr "المستضعفون"
+
+msgid "Underdone"
+msgstr "غير تام"
+
+msgid "Underdose"
+msgstr "جرعة الدواء الغير كافية"
+
+msgid "Underdrain"
+msgstr "ممر لصرف المياه"
+
+msgid "Undereducated"
+msgstr "رديء التعلّم"
+
+msgid "Underemphasize"
+msgstr "يقلّل التأكيد"
+
+msgid "Underemphasized"
+msgstr "قليل التأكيد"
+
+msgid "Underemphasizes"
+msgstr "يقلّل التّأكيد"
+
+msgid "Underemphasizing"
+msgstr "تقليل التّأكيد"
+
+msgid "Underemployed"
+msgstr "أسيء استغلال مهاراته"
+
+msgid "Underemployment"
+msgstr "إساءة استغلال المهارات"
+
+msgid "Underestimate"
+msgstr "قلّل من تقدير"
+
+msgid "Underestimated"
+msgstr "قلّل من تقدير"
+
+msgid "Underestimates"
+msgstr "يقلّل من تقدير"
+
+msgid "Underestimating"
+msgstr "تقليل من تقدير"
+
+msgid "Underestimation"
+msgstr "قلّة التقدير"
+
+msgid "Underexpose"
+msgstr "عرّض قليلا"
+
+msgid "Underexposed"
+msgstr "معرّض قليلا"
+
+msgid "Underexposes"
+msgstr "يعرّض قليلا"
+
+msgid "Underexposing"
+msgstr "تعريض قليلا"
+
+msgid "Underexposure"
+msgstr "التّعريض النّاقص"
+
+msgid "Underfed"
+msgstr "ناقص التغذية"
+
+msgid "Underfedly"
+msgstr "بشكل ناقص التغذية"
+
+msgid "Underfeed"
+msgstr "أنقص تغذية"
+
+msgid "Underfeeding"
+msgstr "إنقاص تغذية"
+
+msgid "Underflow"
+msgstr "خطأ معالجة"
+
+msgid "Underflows"
+msgstr "يخطئ في المعالجة"
+
+msgid "Underfoot"
+msgstr "تحت القدمين"
+
+msgid "Underframe"
+msgstr "البنْية الدّاعمة"
+
+msgid "Undergarment"
+msgstr "ثوْب تحتيّ"
+
+msgid "Undergarments"
+msgstr "أثواب تحتيّة"
+
+msgid "Underget"
+msgstr "يفهم"
+
+msgid "Undergird"
+msgstr "يساند معنوياً"
+
+msgid "Undergirding"
+msgstr "تقوية الأساس"
+
+msgid "Undergo"
+msgstr "مرّ به"
+
+msgid "Undergoes"
+msgstr "يمرّ به"
+
+msgid "Undergoing"
+msgstr "المرور"
+
+msgid "Undergone"
+msgstr "ممرور ب"
+
+msgid "Undergrad"
+msgstr "الطالب الجامعي"
+
+msgid "Undergrads"
+msgstr "الطلاب الجامعيون"
+
+msgid "Undergraduate"
+msgstr "الطالب الجامعي"
+
+msgid "Undergraduates"
+msgstr "الطلاب الجامعيون"
+
+msgid "Underground"
+msgstr "تحت الأرض"
+
+msgid "Undergrounder"
+msgstr "تحْأرضيْ"
+
+msgid "Undergrounds"
+msgstr "تحت الأرض"
+
+msgid "Undergrowth"
+msgstr "ضعف النمو"
+
+msgid "Underhand"
+msgstr "خفيّ"
+
+msgid "Underhanded"
+msgstr "يُخْفى"
+
+msgid "Underhandedly"
+msgstr "بخفْية"
+
+msgid "Underhandedness"
+msgstr "الخِفْية"
+
+msgid "Underhandly"
+msgstr "بشكل خفيّ"
+
+#, Translated in regards to overheat
+msgid "Underheat"
+msgstr "خفض الحرارة"
+
+msgid "Underhill"
+msgstr "مدينة أندرهيل"
+
+msgid "Underhung"
+msgstr "بارِز"
+
+msgid "Underivable"
+msgstr "غير قابل للإشتقاق"
+
+msgid "Underived"
+msgstr "غير مشتقّ"
+
+msgid "Underkind"
+msgstr "نوع متدنّي"
+
+msgid "Underlain"
+msgstr "موقوع تحت"
+
+msgid "Underlay"
+msgstr "البطانة"
+
+msgid "Underlet"
+msgstr "يؤجّر بالباطن :: يؤجّر بثمن بخس"
+
+msgid "Underlie"
+msgstr "قع تحته"
+
+msgid "Underlies"
+msgstr "يقع تحته"
+
+msgid "Underline"
+msgstr "أكّد"
+
+msgid "Underlined"
+msgstr "مؤكّد"
+
+msgid "Underlines"
+msgstr "يؤكّد"
+
+msgid "Underling"
+msgstr "التابع"
+
+msgid "Underlings"
+msgstr "التوابع"
+
+msgid "Underlining"
+msgstr "التأكيد"
+
+msgid "Underlinings"
+msgstr "التأكيدات"
+
+msgid "Underlip"
+msgstr "الشّفّة السفلى"
+
+msgid "Underly"
+msgstr "بشكل غير كافي"
+
+msgid "Underlying"
+msgstr "الوقع تحت"
+
+msgid "Undermine"
+msgstr "قوّض"
+
+msgid "Undermined"
+msgstr "مقوّض"
+
+msgid "Undermines"
+msgstr "يقوّض"
+
+msgid "Undermining"
+msgstr "التقويض"
+
+msgid "Undermost"
+msgstr "الأدنى"
+
+msgid "Underneath"
+msgstr "تحت"
+
+msgid "Undernourished"
+msgstr "ناقص التغذية"
+
+msgid "Undernourishment"
+msgstr "سوء التّغذية"
+
+msgid "Underofficer"
+msgstr "ضابط مرءوس"
+
+msgid "Underpaid"
+msgstr "قليل الأجور"
+
+msgid "Underpants"
+msgstr "السّروال :: الملابس الدّاخلية"
+
+msgid "Underpass"
+msgstr "الطريق السفلي"
+
+msgid "Underpasses"
+msgstr "الطرق السفلية"
+
+msgid "Underpay"
+msgstr "إدفع قليلا"
+
+msgid "Underpaying"
+msgstr "دفع قليلا"
+
+msgid "Underpayment"
+msgstr "الدفع القليل"
+
+msgid "Underpayments"
+msgstr "الدفع القليل"
+
+msgid "Underpays"
+msgstr "يدفع قليلا"
+
+msgid "Underpin"
+msgstr "أسند"
+
+msgid "Underpinned"
+msgstr "مسند"
+
+msgid "Underpinning"
+msgstr "الدعامة"
+
+msgid "Underpinnings"
+msgstr "الدعامات"
+
+msgid "Underpins"
+msgstr "يسند"
+
+msgid "Underplay"
+msgstr "تحفّظ"
+
+msgid "Underplayed"
+msgstr "متحفّظ"
+
+msgid "Underplaying"
+msgstr "التحفّظ"
+
+msgid "Underplays"
+msgstr "يتحفّظ"
+
+msgid "Underplot"
+msgstr "الحبكة الثانوية"
+
+msgid "Underplots"
+msgstr "الحبكات الثانوية"
+
+msgid "Underpopulated"
+msgstr "قليل السكان"
+
+msgid "Underprice"
+msgstr "خفّض سعر"
+
+msgid "Underprices"
+msgstr "يخفّض سعر"
+
+msgid "Underprivileged"
+msgstr "بائس"
+
+msgid "Underprop"
+msgstr "يسند من الأسفل :: يضع دعامة من الأسفل :: يساند"
+
+msgid "Underrate"
+msgstr "قلّل تقدير"
+
+msgid "Underrated"
+msgstr "مقلّل تقدير"
+
+msgid "Underrating"
+msgstr "تقليل تقدير"
+
+msgid "Underreported"
+msgstr "ما قلّ إعلانه"
+
+msgid "Underreporting"
+msgstr "قلّه الإعلان"
+
+msgid "Underrepresentation"
+msgstr "سوء التمثيل"
+
+msgid "Underrepresented"
+msgstr "سيء تمثيله"
+
+msgid "Underrun"
+msgstr "مرّ من الأسفل"
+
+msgid "Undersaturated"
+msgstr "غير مشبّع"
+
+msgid "Underscore"
+msgstr "أكّد"
+
+msgid "Underscored"
+msgstr "مؤكّد"
+
+msgid "Underscores"
+msgstr "يؤكّد"
+
+msgid "Underscoring"
+msgstr "التأكيد"
+
+msgid "Undersea"
+msgstr "تحت البحر"
+
+msgid "Underseas"
+msgstr "تحت سطح البحر"
+
+msgid "Undersecretaries"
+msgstr "وكلاء الوزارات"
+
+msgid "Undersecretary"
+msgstr "وكيل الوزارة"
+
+msgid "Undersell"
+msgstr "إبخس الثمن"
+
+msgid "Undersells"
+msgstr "يُبخس الثمن"
+
+msgid "Underset"
+msgstr "تيّار المحيط التّحتي"
+
+msgid "Undersheriff"
+msgstr "نائب العمدة"
+
+msgid "Undershirt"
+msgstr "القميص داخلي"
+
+msgid "Undershirts"
+msgstr "القمصان الداخلية"
+
+msgid "Undershoot"
+msgstr "أطلق مقصراً عن الرمية"
+
+msgid "Undershooting"
+msgstr "الإطلاق بإقصار الرمية"
+
+msgid "Undershoots"
+msgstr "يطلق مقصراً الرمية"
+
+msgid "Undershot"
+msgstr "أطلق مقصراً الرمية"
+
+msgid "Underside"
+msgstr "الجانب السفلي"
+
+msgid "Undersides"
+msgstr "الجوانب السفلي"
+
+msgid "Undersign"
+msgstr "وقّع"
+
+msgid "Undersigned"
+msgstr "الموقع أدناه"
+
+msgid "Undersigning"
+msgstr "التوقيع"
+
+msgid "Undersigns"
+msgstr "يوقّع"
+
+msgid "Undersize"
+msgstr "أصغر من الحجم العادي"
+
+msgid "Undersized"
+msgstr "أصغر من الحجم العادي"
+
+msgid "Underskirt"
+msgstr "التنورة التحتية"
+
+msgid "Underskirts"
+msgstr "التنورات التحتية"
+
+msgid "Underslung"
+msgstr "معلّق من أسفل"
+
+msgid "Undersold"
+msgstr "بيع أرخص منه"
+
+msgid "Undersong"
+msgstr "الغناء المصاحب"
+
+msgid "Underspend"
+msgstr "يقلل المصروف"
+
+msgid "Underspore"
+msgstr "يرفع بواسطة قطعة خشب تستخدم كرافعة"
+
+msgid "Understaffed"
+msgstr "ناقص الأيدي العاملة"
+
+msgid "Understaffedly"
+msgstr "بشكل ناقص الأيدي العاملة"
+
+msgid "Understairs"
+msgstr "القبو :: السرداب"
+
+msgid "Understand"
+msgstr "إفهم"
+
+msgid "Understandability"
+msgstr "قابليّة الفهم"
+
+msgid "Understandable"
+msgstr "مفهوم"
+
+msgid "Understandably"
+msgstr "بشكل مفهوم"
+
+msgid "Understanded"
+msgstr "فهم"
+
+msgid "Understanding"
+msgstr "الفهم"
+
+msgid "Understandingly"
+msgstr "بشكل متعاطف"
+
+msgid "Understandings"
+msgstr "الفهم"
+
+msgid "Understands"
+msgstr "يفهم"
+
+msgid "Understate"
+msgstr "إغمطه"
+
+msgid "Understated"
+msgstr "مغموط"
+
+msgid "Understatement"
+msgstr "الإستهانة"
+
+msgid "Understatements"
+msgstr "الإستهانات"
+
+msgid "Understates"
+msgstr "يغمطه"
+
+msgid "Understating"
+msgstr "الغمط"
+
+msgid "Understood"
+msgstr "مفهوم"
+
+msgid "Understrapper"
+msgstr "تافه :: حقير :: شخص تافه :: التّابع"
+
+msgid "Understructure"
+msgstr "البنية التحتية"
+
+msgid "Understudied"
+msgstr "مثّل بدﻻً عن"
+
+msgid "Understudies"
+msgstr "الممثلون البدلاء"
+
+msgid "Understudy"
+msgstr "الممثل البديل"
+
+msgid "Understudying"
+msgstr "تمثيل بديل"
+
+msgid "Undertake"
+msgstr "تعهّد"
+
+msgid "Undertaken"
+msgstr "متعهّد"
+
+msgid "Undertaker"
+msgstr "متعهّد دفن الموتى"
+
+msgid "Undertakers"
+msgstr "متعهّدو دفن الموتى"
+
+msgid "Undertakes"
+msgstr "يتعهّد"
+
+msgid "Undertaking"
+msgstr "التعهّد"
+
+msgid "Undertakings"
+msgstr "التعهّدات"
+
+msgid "Undertone"
+msgstr "النغمة الخفيفة"
+
+msgid "Undertones"
+msgstr "النغمات الخفيفة"
+
+msgid "Undertook"
+msgstr "تعهّد"
+
+msgid "Undertow"
+msgstr "التيار البحري"
+
+msgid "Undertows"
+msgstr "التيارات البحرية"
+
+msgid "Underutilization"
+msgstr "قلّة الاستعمال"
+
+msgid "Underutilized"
+msgstr "قليل الإستعمال"
+
+msgid "Undervaluation"
+msgstr "الإستخفاف"
+
+msgid "Undervaluations"
+msgstr "الإستخفاف"
+
+msgid "Undervalue"
+msgstr "إبخس"
+
+msgid "Undervalued"
+msgstr "رخيص"
+
+msgid "Undervalues"
+msgstr "يبخس"
+
+msgid "Undervaluing"
+msgstr "البخس"
+
+msgid "Undervest"
+msgstr "القميص الداخلي"
+
+msgid "Undervests"
+msgstr "القمصان الداخليّة"
+
+msgid "Underwater"
+msgstr "تحت الماء"
+
+msgid "Underway"
+msgstr "جاري"
+
+msgid "Underwear"
+msgstr "الملابس الداخلية"
+
+msgid "Underwears"
+msgstr "الملابس الداخلية"
+
+msgid "Underweight"
+msgstr "قليل الوزن"
+
+msgid "Underwent"
+msgstr "مرّ به"
+
+msgid "Underwhelm"
+msgstr "خيّب"
+
+msgid "Underwhelmed"
+msgstr "خيّب"
+
+msgid "Underwhelming"
+msgstr "مخيّب"
+
+msgid "Underwhelms"
+msgstr "يخيّب"
+
+msgid "Underwood"
+msgstr "الشّجيرات النّامية تحت الأشجار الكبيرة"
+
+msgid "Underworld"
+msgstr "عالم الجريمة"
+
+msgid "Underworlds"
+msgstr "عالم الجريمة"
+
+msgid "Underwrit"
+msgstr "يكتب أسفل"
+
+msgid "Underwrite"
+msgstr "أمّن عليه"
+
+msgid "Underwriter"
+msgstr "الوكيل"
+
+msgid "Underwriters"
+msgstr "الوكلاء"
+
+msgid "Underwrites"
+msgstr "يأمّن عليه"
+
+msgid "Underwriting"
+msgstr "التأمين"
+
+msgid "Underwritten"
+msgstr "أمّن عليه"
+
+msgid "Underwrote"
+msgstr "أمّن عليه"
+
+msgid "Undescended"
+msgstr "غير منحدر"
+
+msgid "Undescribed"
+msgstr "غير موصوف"
+
+msgid "Undeserved"
+msgstr "غير مستحق"
+
+msgid "Undeservedly"
+msgstr "بشكل غير مستحق"
+
+msgid "Undeserving"
+msgstr "غير مستحقّ"
+
+msgid "Undeservingly"
+msgstr "غير بجدارة"
+
+msgid "Undesignated"
+msgstr "غير معيّن"
+
+msgid "Undesigned"
+msgstr "غير مقصود"
+
+msgid "Undesignedly"
+msgstr "بشكل غير مقصود"
+
+msgid "Undesigning"
+msgstr "صادق"
+
+msgid "Undesigningly"
+msgstr "بشكل صادق"
+
+msgid "Undesirability"
+msgstr "غير رغبة"
+
+msgid "Undesirable"
+msgstr "المكروه"
+
+msgid "Undesirableness"
+msgstr "عدم الاستحباب"
+
+msgid "Undesirables"
+msgstr "المكروهون"
+
+msgid "Undesirably"
+msgstr "بشكل غير مستحب"
+
+msgid "Undesired"
+msgstr "غير مطلوب"
+
+msgid "Undesirous"
+msgstr "غير توّاق"
+
+msgid "Undetached"
+msgstr "غير مفصول"
+
+msgid "Undetailed"
+msgstr "بدون تفاصيل :: ذو تفاصيل قليلة"
+
+msgid "Undetectable"
+msgstr "غير قابل للكشف"
+
+msgid "Undetected"
+msgstr "غير مكتشف"
+
+msgid "Undeterminable"
+msgstr "لا يمكن البتّ فيه"
+
+msgid "Undetermination"
+msgstr "عدم التحديد"
+
+msgid "Undetermined"
+msgstr "غير مقرّر"
+
+msgid "Undeterred"
+msgstr "هيّاب"
+
+msgid "Undeveloped"
+msgstr "متخلّف"
+
+msgid "Undeviated"
+msgstr "غير منحرف"
+
+msgid "Undeviating"
+msgstr "غير منحرف"
+
+msgid "Undeviatingly"
+msgstr "بشكل غير منحرف"
+
+msgid "Undialyzed"
+msgstr "غير مفرز"
+
+msgid "Undid"
+msgstr "ألغى"
+
+msgid "Undidactic"
+msgstr "غير تعليمي"
+
+msgid "Undies"
+msgstr "الملابس الداخليّة"
+
+msgid "Undifferentiated"
+msgstr "مشوّه"
+
+msgid "Undiffused"
+msgstr "غير منشور"
+
+msgid "Undigested"
+msgstr "غير مهضوم"
+
+msgid "Undight"
+msgstr "التّأجيل :: الوضع جانبًا :: التّنحية"
+
+msgid "Undignified"
+msgstr "مخجل"
+
+msgid "Undignifiedly"
+msgstr "بشكل مخجل"
+
+msgid "Undilated"
+msgstr "غير متوسّع"
+
+msgid "Undiluted"
+msgstr "غير مخفّف"
+
+msgid "Undiminished"
+msgstr "ثابت"
+
+msgid "Undimmed"
+msgstr "غير مخفوت"
+
+msgid "Undiplomatic"
+msgstr "غير دبلوماسي"
+
+msgid "Undiplomatically"
+msgstr "غير دبلوماسيا"
+
+msgid "Undirected"
+msgstr "غير موجّه"
+
+msgid "Undiscernible"
+msgstr "غير قابل للإدراك"
+
+msgid "Undiscerning"
+msgstr "غير بصير"
+
+msgid "Undischarged"
+msgstr "غير مطلق"
+
+msgid "Undiscipline"
+msgstr "سمة إنتفاء الانضباط"
+
+msgid "Undisciplined"
+msgstr "غير منضبط"
+
+msgid "Undisclosed"
+msgstr "غير معلن"
+
+msgid "Undiscouraged"
+msgstr "غير فاقد الثقة"
+
+msgid "Undiscoverable"
+msgstr "غير قابل للإكتشاف"
+
+msgid "Undiscovered"
+msgstr "غير مكتشف"
+
+msgid "Undiscreet"
+msgstr "طائش :: غير حكيم :: أحمق"
+
+msgid "Undiscriminating"
+msgstr "غير مميّز"
+
+msgid "Undiscriminatingly"
+msgstr "بشكل غير مميّز"
+
+msgid "Undiscussed"
+msgstr "غير مناقش"
+
+msgid "Undisguised"
+msgstr "غير متنكر"
+
+msgid "Undisguisedly"
+msgstr "بشكل غير متنكر"
+
+msgid "Undishonored"
+msgstr "غير مخزى"
+
+msgid "Undismayed"
+msgstr "غير هيّاب"
+
+msgid "Undisorganized"
+msgstr "غير مشوّش"
+
+msgid "Undispensable"
+msgstr "مهمّ :: لايمكن الإستغناء عنه"
+
+msgid "Undisputable"
+msgstr "غير قابل للنقاش"
+
+msgid "Undisputed"
+msgstr "غير متنازع عليه"
+
+msgid "Undisputedly"
+msgstr "في صورة يقينيّة"
+
+msgid "Undisrupted"
+msgstr "غير معرقل"
+
+msgid "Undissected"
+msgstr "غير مشرّح"
+
+msgid "Undissociated"
+msgstr "غير معزول"
+
+msgid "Undissolved"
+msgstr "غير منحل"
+
+msgid "Undistilled"
+msgstr "غير مقطّر"
+
+msgid "Undistinctive"
+msgstr "غير مميّز"
+
+msgid "Undistinguishable"
+msgstr "غير قابل للتمييز"
+
+msgid "Undistinguishably"
+msgstr "بشكل غير قابل للتمييز"
+
+msgid "Undistinguished"
+msgstr "غير مميّز"
+
+msgid "Undistorted"
+msgstr "غير مشوّه"
+
+msgid "Undistributed"
+msgstr "غير موزّع"
+
+msgid "Undisturbed"
+msgstr "غير ملموس"
+
+msgid "Undisturbing"
+msgstr "غير مقلق"
+
+msgid "Undiversified"
+msgstr "غير متنوّع"
+
+msgid "Undivided"
+msgstr "غير مقسّم"
+
+msgid "Undivorced"
+msgstr "غير مطلّق"
+
+msgid "Undo"
+msgstr "الإلغاء"
+
+msgid "Undoable"
+msgstr "غير ممكن"
+
+msgid "Undocumented"
+msgstr "غير موثّق"
+
+msgid "Undoer"
+msgstr "غير فاعل"
+
+msgid "Undoes"
+msgstr "يلغي"
+
+msgid "Undogmatic"
+msgstr "غير عَقَديّ"
+
+msgid "Undogmatically"
+msgstr "بشكل غير عَقَديّ"
+
+msgid "Undoing"
+msgstr "الإلغاء"
+
+msgid "Undoings"
+msgstr "الإبطالات"
+
+msgid "Undomestic"
+msgstr "غريب :: غير محلّي :: أجنبي"
+
+msgid "Undomesticated"
+msgstr "غير مدجّن"
+
+msgid "Undone"
+msgstr "ملغى"
+
+msgid "Undoubled"
+msgstr "غير مضاعف"
+
+msgid "Undoubtable"
+msgstr "مؤكّد :: بلا شك"
+
+msgid "Undoubted"
+msgstr "غير مشكوك فيه"
+
+msgid "Undoubtedly"
+msgstr "بلا شك"
+
+msgid "Undoubtful"
+msgstr "غير مريب"
+
+msgid "Undrained"
+msgstr "غير جافّ"
+
+msgid "Undramatic"
+msgstr "غير مثير"
+
+msgid "Undramatically"
+msgstr "غير بشكل مثير"
+
+msgid "Undramatized"
+msgstr "غير ممسرح"
+
+msgid "Undraped"
+msgstr "بلا ستارة"
+
+msgid "Undraw"
+msgstr "أزح"
+
+msgid "Undrawn"
+msgstr "غير مسحوب"
+
+msgid "Undreamed"
+msgstr "غير محلوم"
+
+msgid "Undreamt"
+msgstr "غير متخيَّل"
+
+msgid "Undreamtly"
+msgstr "بشكل غير متخيَّل"
+
+msgid "Undress"
+msgstr "الملابس الشكلية"
+
+msgid "Undressed"
+msgstr "عاري"
+
+msgid "Undresses"
+msgstr "ثياب البيت"
+
+msgid "Undressing"
+msgstr "نزع ملابس"
+
+msgid "Undried"
+msgstr "غير مجفّف"
+
+msgid "Undrinkable"
+msgstr "غير صالح للشرب"
+
+msgid "Undriven"
+msgstr "غير قاد"
+
+msgid "Undubbed"
+msgstr "غير ملقّب"
+
+msgid "Undue"
+msgstr "لا داعي له"
+
+msgid "Unduely"
+msgstr "بشكل لا داعي له"
+
+msgid "Undulant"
+msgstr "متموّج"
+
+msgid "Undulate"
+msgstr "تموّج"
+
+msgid "Undulated"
+msgstr "متموّج"
+
+msgid "Undulates"
+msgstr "يتموّج"
+
+msgid "Undulating"
+msgstr "التموّج"
+
+msgid "Undulation"
+msgstr "التموّج"
+
+msgid "Undulations"
+msgstr "التموّجات"
+
+msgid "Undulatory"
+msgstr "يتحرك بتموّج"
+
+msgid "Unduly"
+msgstr "بإفراط"
+
+msgid "Unduplicated"
+msgstr "غير منسوخ"
+
+msgid "Undust"
+msgstr "ينفض الغبار"
+
+msgid "Undutiful"
+msgstr "غير مطيع"
+
+msgid "Undutifully"
+msgstr "بدون التزام"
+
+msgid "Undutifulness"
+msgstr "اللّاإلتزام"
+
+msgid "Undyed"
+msgstr "غير مصبوغ"
+
+msgid "Undying"
+msgstr "أبديّ"
+
+msgid "Undyingly"
+msgstr "بشكل أبديّ"
+
+msgid "Undynamic"
+msgstr "غير دينامي"
+
+msgid "Uneager"
+msgstr "غير متلهّف"
+
+msgid "Uneagerly"
+msgstr "بغير لهفة"
+
+msgid "Unearned"
+msgstr "غير مكسوب"
+
+msgid "Unearth"
+msgstr "إكشف عنه"
+
+msgid "Unearthed"
+msgstr "كشف عنه"
+
+msgid "Unearthing"
+msgstr "الكشف عن"
+
+msgid "Unearthliness"
+msgstr "السماويّة"
+
+msgid "Unearthly"
+msgstr "سماوية"
+
+msgid "Unearths"
+msgstr "يكشف عنه"
+
+msgid "Unease"
+msgstr "القلق"
+
+msgid "Uneasier"
+msgstr "مضطرب"
+
+msgid "Uneasiest"
+msgstr "مضطرب"
+
+msgid "Uneasily"
+msgstr "بشكل مضطرب"
+
+msgid "Uneasiness"
+msgstr "عدم الإرتياح"
+
+msgid "Uneasinesses"
+msgstr "عدم الإرتياح"
+
+msgid "Uneasy"
+msgstr "مضطرب"
+
+msgid "Uneatable"
+msgstr "غير صالح للأكل"
+
+msgid "Uneaten"
+msgstr "غير مأكول"
+
+msgid "Uneath"
+msgstr "صعب :: غير سهل"
+
+msgid "Uneconomic"
+msgstr "غير مربح"
+
+msgid "Uneconomical"
+msgstr "غير مربح"
+
+msgid "Uneconomically"
+msgstr "بشكل غير مربح"
+
+msgid "Uneconomizing"
+msgstr "غير إقتصاد"
+
+msgid "Unedifying"
+msgstr "غير إنشاء"
+
+msgid "Unedited"
+msgstr "غير محرّر"
+
+msgid "Uneducated"
+msgstr "جاهل"
+
+msgid "Uneducatedly"
+msgstr "بشكل جاهل"
+
+msgid "Uneffective"
+msgstr "غير مؤثّر"
+
+msgid "Unelastic"
+msgstr "غير مرن"
+
+msgid "Unelected"
+msgstr "غير منتخب"
+
+msgid "Unelegant"
+msgstr "غير رشيق"
+
+msgid "Uneloquent"
+msgstr "غير بليغ"
+
+msgid "Unembarrassed"
+msgstr "غير مستحي"
+
+msgid "Unembellished"
+msgstr "غير مزيّن"
+
+msgid "Unembodied"
+msgstr "غير مجسّد"
+
+msgid "Unemotional"
+msgstr "غير عاطفي"
+
+msgid "Unemotionally"
+msgstr "غير عاطفيا"
+
+msgid "Unemphatic"
+msgstr "غير توكيدي"
+
+msgid "Unemphatically"
+msgstr "غير بتأكيد"
+
+msgid "Unemployability"
+msgstr "غير إستخدامية"
+
+msgid "Unemployable"
+msgstr "غير قابل للإستخدام"
+
+msgid "Unemployed"
+msgstr "عاطل"
+
+msgid "Unemployedly"
+msgstr "بشكل عاطل"
+
+msgid "Unemployment"
+msgstr "البطالة"
+
+msgid "Unemployments"
+msgstr "البطالة"
+
+msgid "Unenclosed"
+msgstr "مشترك"
+
+msgid "Unencoded"
+msgstr "غير مشفّر"
+
+msgid "Unencrypted"
+msgstr "غير مشفّر"
+
+msgid "Unencumber"
+msgstr "يحرّر :: يّخّيص"
+
+msgid "Unencumbered"
+msgstr "غير مثقل"
+
+msgid "Unendeavored"
+msgstr "غير مسعي"
+
+msgid "Unended"
+msgstr "بلا نهاية :: بلا استنتاج"
+
+msgid "Unending"
+msgstr "لاينتهي"
+
+msgid "Unendingly"
+msgstr "بشكل لاينتهي"
+
+msgid "Unendorsed"
+msgstr "غير مصدّق"
+
+msgid "Unendurable"
+msgstr "لايطاق"
+
+msgid "Unendurableness"
+msgstr "عدم الإطاقة"
+
+msgid "Unendurably"
+msgstr "بشكل لايطاق"
+
+msgid "Unenergized"
+msgstr "غير منشّط"
+
+msgid "Unenforceable"
+msgstr "غير إلزامي"
+
+msgid "Unenforced"
+msgstr "غير مفروض"
+
+msgid "Unengaged"
+msgstr "غير مشغول"
+
+msgid "Unenjoyable"
+msgstr "غير ممتع"
+
+msgid "Unenlarged"
+msgstr "غير مكبّر"
+
+msgid "Unenlightened"
+msgstr "جاهل"
+
+msgid "Unenlightening"
+msgstr "غير تنوير"
+
+msgid "Unenlightenment"
+msgstr "انتفاء التّفاهم"
+
+msgid "Unenlivened"
+msgstr "غير منشّط"
+
+msgid "Unenriched"
+msgstr "غير مغنى"
+
+msgid "Unentangled"
+msgstr "غير متشابك"
+
+msgid "Unentered"
+msgstr "غير داخل"
+
+msgid "Unenterprising"
+msgstr "غير مغامر"
+
+msgid "Unenthusiastic"
+msgstr "غير متحمّس"
+
+msgid "Unenthusiastically"
+msgstr "غير بحماس"
+
+msgid "Unenumerated"
+msgstr "غير معدّد"
+
+msgid "Unenunciated"
+msgstr "غير ملفوظ"
+
+msgid "Unenviable"
+msgstr "لايحسد عليه"
+
+msgid "Unenvied"
+msgstr "غير محسود"
+
+msgid "Unenvious"
+msgstr "غير حسود"
+
+msgid "Unepitomized"
+msgstr "غير ملخّص"
+
+msgid "Unequable"
+msgstr "غير مطّرد"
+
+msgid "Unequably"
+msgstr "غير برصانة"
+
+msgid "Unequal"
+msgstr "غير متساوي"
+
+msgid "Unequaled"
+msgstr "ﻻ يُجارى"
+
+msgid "Unequalized"
+msgstr "غير مساوى"
+
+msgid "Unequalled"
+msgstr "مميّز جوهريًّا :: بلانلّدّ"
+
+msgid "Unequally"
+msgstr "بشكل غير متساوي"
+
+msgid "Unequation"
+msgstr "غير معادلة"
+
+msgid "Unequipped"
+msgstr "غير مجهّز"
+
+msgid "Unequitable"
+msgstr "جائر"
+
+msgid "Unequity"
+msgstr "الظّلم :: الشّرّ"
+
+msgid "Unequivocal"
+msgstr "صريح"
+
+msgid "Unequivocally"
+msgstr "بشكل صريح"
+
+msgid "Unerasable"
+msgstr "غير قابل للمسح"
+
+msgid "Unerased"
+msgstr "غير ممحو"
+
+msgid "Unerect"
+msgstr "غير منتصب"
+
+msgid "Unergetic"
+msgstr "ناقص في اليقظة أو النّشاط"
+
+msgid "Unerotic"
+msgstr "غير جنسي"
+
+msgid "Unerring"
+msgstr "صائب"
+
+msgid "Unerringly"
+msgstr "بشكل صائب"
+
+msgid "Unescapable"
+msgstr "ﻻ مفرّ منه"
+
+msgid "UNESCO"
+msgstr "منظمة الأمم المتحدة للعلوم والتربية والثقافة"
+
+msgid "Unescorted"
+msgstr "غير مرافق"
+
+msgid "Unessential"
+msgstr "غير أساسي"
+
+msgid "Unestablished"
+msgstr "غير مؤكّد"
+
+msgid "Unesthetic"
+msgstr "غير جمالي"
+
+msgid "Unestimable"
+msgstr "غير محترم"
+
+msgid "Unethes"
+msgstr "بصعوبة :: بالكاد"
+
+msgid "Unethical"
+msgstr "لا أخلاقي"
+
+msgid "Unethically"
+msgstr "بشكل لا أخلاقي"
+
+msgid "Uneulogized"
+msgstr "غير ممدوح"
+
+msgid "Unevaluated"
+msgstr "غير مقيّم"
+
+msgid "Unevaporated"
+msgstr "غير متبخّر"
+
+msgid "Uneven"
+msgstr "غير مستوي"
+
+msgid "Uneven-numbered"
+msgstr "الغير مستوي المعدود"
+
+msgid "Unevenly"
+msgstr "بشكل غير مستوي"
+
+msgid "Unevenness"
+msgstr "عدم الإستواء"
+
+msgid "Uneventful"
+msgstr "هادئ"
+
+msgid "Uneventfully"
+msgstr "بشكل هادئ"
+
+msgid "Unevitable"
+msgstr "حتميّ :: لا محالة"
+
+msgid "Unevoked"
+msgstr "غير مستدعى"
+
+msgid "Unevolved"
+msgstr "غير متطوّر"
+
+msgid "Unexact"
+msgstr "غير مضبوط"
+
+msgid "Unexaggerated"
+msgstr "غير مبالغ"
+
+msgid "Unexalted"
+msgstr "غير سامي"
+
+msgid "Unexaminable"
+msgstr "غير قابل للفحص"
+
+msgid "Unexamined"
+msgstr "غير مفحوص"
+
+msgid "Unexampled"
+msgstr "نادر"
+
+msgid "Unexampledly"
+msgstr "بشكل نادر"
+
+msgid "Unexcavated"
+msgstr "غير منقّب"
+
+msgid "Unexceeded"
+msgstr "لا يمكن تحسينه"
+
+msgid "Unexcelled"
+msgstr "غير بارع"
+
+msgid "Unexceptionable"
+msgstr "ممتاز"
+
+msgid "Unexceptionably"
+msgstr "بشكل ممتاز"
+
+msgid "Unexceptional"
+msgstr "غير إستثنائي"
+
+msgid "Unexceptionally"
+msgstr "غير على نحو استثنائي"
+
+msgid "Unexchangeable"
+msgstr "غير قابل للتبادل"
+
+msgid "Unexcitable"
+msgstr "غير مثير"
+
+msgid "Unexcited"
+msgstr "هادئ"
+
+msgid "Unexciting"
+msgstr "غير مثير"
+
+msgid "Unexclusive"
+msgstr "عام"
+
+msgid "Unexcusable"
+msgstr "غير معذور"
+
+msgid "Unexcused"
+msgstr "غير معذر"
+
+msgid "Unexercised"
+msgstr "غير ممارس"
+
+msgid "Unexhausted"
+msgstr "غير منهك"
+
+msgid "Unexhaustible"
+msgstr "غير مستنزف"
+
+msgid "Unexistence"
+msgstr "غير وجود"
+
+msgid "Unexpanded"
+msgstr "غير موسّع"
+
+msgid "Unexpansive"
+msgstr "لا يساعد على النّشوة أو التّدفّق"
+
+msgid "Unexpectation"
+msgstr "غياب التّوقّع :: الحاجة لبعد النّظر"
+
+msgid "Unexpected"
+msgstr "غير متوقّع"
+
+msgid "Unexpectedly"
+msgstr "بشكل مفاجئ"
+
+msgid "Unexpectedness"
+msgstr "الفجائيّة"
+
+msgid "Unexpended"
+msgstr "غير منفق"
+
+msgid "Unexpensive"
+msgstr "ثمن بخس :: زهيد"
+
+msgid "Unexperienced"
+msgstr "غير مجرّب"
+
+msgid "Unexpertly"
+msgstr "بصورة لا تنمّ عن الخبرة"
+
+msgid "Unexpired"
+msgstr "غير منتهي"
+
+msgid "Unexplainable"
+msgstr "غير قابل للتفسير"
+
+msgid "Unexplained"
+msgstr "غير مفسر"
+
+msgid "Unexplainedly"
+msgstr "بشكل غير مفسر"
+
+msgid "Unexplicit"
+msgstr "غير واضح"
+
+msgid "Unexploded"
+msgstr "غير منفجر"
+
+msgid "Unexploited"
+msgstr "غير مستغل"
+
+msgid "Unexplored"
+msgstr "غير مستكشف"
+
+msgid "Unexported"
+msgstr "غير مصدّر"
+
+msgid "Unexposed"
+msgstr "غير معلن"
+
+msgid "Unexpressed"
+msgstr "غير مظهر"
+
+msgid "Unexpressive"
+msgstr "غير معبّر"
+
+msgid "Unexpurgated"
+msgstr "كامل"
+
+msgid "Unextended"
+msgstr "غير ممتد"
+
+msgid "Unextinct"
+msgstr "غير منقرض"
+
+msgid "Unextinguishable"
+msgstr "متّقد :: لا يخبأ"
+
+msgid "Unextinguished"
+msgstr "غير مطفأ"
+
+msgid "Unface"
+msgstr "يزيل الوجه أو الغطاء من :: يفضح :: يّعّيض"
+
+msgid "Unfaded"
+msgstr "غير مبهوت"
+
+msgid "Unfading"
+msgstr "باقي"
+
+msgid "Unfadingly"
+msgstr "بشكل باقي"
+
+msgid "Unfailable"
+msgstr "معصوم :: لا يخطيء"
+
+msgid "Unfailing"
+msgstr "ثابت"
+
+msgid "Unfailingly"
+msgstr "بدقة دائمة"
+
+msgid "Unfailingness"
+msgstr "الدّقة الدائمة"
+
+msgid "Unfair"
+msgstr "غير عادل"
+
+msgid "Unfairly"
+msgstr "بشكل غير عادل"
+
+msgid "Unfairness"
+msgstr "عدم الإنصاف"
+
+msgid "Unfaith"
+msgstr "غير إيمان"
+
+msgid "Unfaithful"
+msgstr "غير مخلص"
+
+msgid "Unfaithfully"
+msgstr "بشكل خياني"
+
+msgid "Unfaithfulness"
+msgstr "الخيانة"
+
+msgid "Unfallible"
+msgstr "معصوم :: لا يخطيء"
+
+msgid "Unfaltering"
+msgstr "ثابت"
+
+msgid "Unfalteringly"
+msgstr "بشكل ثابت"
+
+msgid "Unfamiliar"
+msgstr "غريب"
+
+msgid "Unfamiliarity"
+msgstr "غير ألفة"
+
+msgid "Unfamiliarized"
+msgstr "غير مألوف"
+
+msgid "Unfamiliarly"
+msgstr "بشكل غريب"
+
+msgid "Unfashionable"
+msgstr "غير عصري"
+
+msgid "Unfashionably"
+msgstr "بشكل غير عصري"
+
+msgid "Unfasten"
+msgstr "حلّ"
+
+msgid "Unfastened"
+msgstr "محلول"
+
+msgid "Unfastening"
+msgstr "الحلّ"
+
+msgid "Unfastens"
+msgstr "يحلّ"
+
+msgid "Unfathered"
+msgstr "مجهول الأصل"
+
+msgid "Unfathomable"
+msgstr "لا يدرك"
+
+msgid "Unfathomably"
+msgstr "بشكل لا يدرك"
+
+msgid "Unfathomed"
+msgstr "غير مفهوم"
+
+msgid "Unfatigued"
+msgstr "غير مرهق"
+
+msgid "Unfatiguing"
+msgstr "غير تاعب"
+
+msgid "Unfavorable"
+msgstr "غير مناسب"
+
+msgid "Unfavorableness"
+msgstr "عدم المناسبة"
+
+msgid "Unfavorably"
+msgstr "على نحو غير مناسب"
+
+msgid "Unfavored"
+msgstr "غير مفضّل"
+
+msgid "Unfavorite"
+msgstr "غير مفضّل"
+
+msgid "Unfavourable"
+msgstr "غير مناسب"
+
+msgid "Unfavourably"
+msgstr "على نحو غير مناسب"
+
+msgid "Unfearing"
+msgstr "شجاع"
+
+msgid "Unfeasibility"
+msgstr "غير عملية"
+
+msgid "Unfeasible"
+msgstr "غير عملي"
+
+msgid "Unfeathered"
+msgstr "غير مريّش"
+
+msgid "Unfeatured"
+msgstr "مشوّه"
+
+msgid "Unfed"
+msgstr "غير مغذّى"
+
+msgid "Unfederated"
+msgstr "غير موحّد"
+
+msgid "Unfeeling"
+msgstr "عديم الشعور"
+
+msgid "Unfeelingly"
+msgstr "بانعدام الشعور"
+
+msgid "Unfeelingness"
+msgstr "انعدام الشّعور"
+
+msgid "Unfeigned"
+msgstr "صادق"
+
+msgid "Unfeignedly"
+msgstr "بشكل صادق"
+
+msgid "Unfelt"
+msgstr "غير شعر"
+
+msgid "Unfeminine"
+msgstr "غير أنثوي"
+
+msgid "Unfenced"
+msgstr "غير مسيّج"
+
+msgid "Unfermented"
+msgstr "غير مختمر"
+
+msgid "Unfertile"
+msgstr "غير مخصّب"
+
+msgid "Unfertilized"
+msgstr "غير مخصّب"
+
+msgid "Unfetter"
+msgstr "حرّر"
+
+msgid "Unfettered"
+msgstr "غير مقيّد"
+
+msgid "Unfile"
+msgstr "يزيل الوثيقة من الملف او المستند"
+
+msgid "Unfiled"
+msgstr "غير مسجّل في المكان المحدّد بالقانون"
+
+msgid "Unfilial"
+msgstr "غير مطيع"
+
+msgid "Unfilially"
+msgstr "بشكل غير مطيع"
+
+msgid "Unfilled"
+msgstr "غير مليئ ب"
+
+msgid "Unfilmed"
+msgstr "غير مصوّر"
+
+msgid "Unfiltered"
+msgstr "غير مرشّح"
+
+msgid "Unfindable"
+msgstr "غير قابل للإيجاد"
+
+msgid "Unfinished"
+msgstr "غير منتهي"
+
+msgid "Unfinishedly"
+msgstr "بشكل غير منتهي"
+
+msgid "Unfired"
+msgstr "غير مطرود"
+
+msgid "Unfirm"
+msgstr "غير قوي"
+
+msgid "Unfit"
+msgstr "غير سليم"
+
+msgid "Unfitly"
+msgstr "بدون ملائمة"
+
+msgid "Unfitness"
+msgstr "عدم الملائمة"
+
+msgid "Unfitted"
+msgstr "غير ملائم"
+
+msgid "Unfitting"
+msgstr "غير ملائم"
+
+msgid "Unfix"
+msgstr "حلّ"
+
+msgid "Unfixable"
+msgstr "غير قابل للتثبيت"
+
+msgid "Unfixed"
+msgstr "محلول"
+
+msgid "Unfixing"
+msgstr "الحلّ"
+
+msgid "Unflagging"
+msgstr "لايكلّ"
+
+msgid "Unflaggingly"
+msgstr "بشكل لايكلّ"
+
+msgid "Unflappable"
+msgstr "صعب الاستثارة"
+
+msgid "Unflappably"
+msgstr "بشكل يصعب استثارته"
+
+msgid "Unflattering"
+msgstr "غير إغراء"
+
+msgid "Unflatteringly"
+msgstr "بشكل غير إغرائي"
+
+msgid "Unflavored"
+msgstr "غير منكّه"
+
+msgid "Unflawed"
+msgstr "غير خاطئ"
+
+msgid "Unfledged"
+msgstr "غير ناضج"
+
+msgid "Unflexed"
+msgstr "غير مثني"
+
+msgid "Unflexible"
+msgstr "صارم :: غير مرن"
+
+msgid "Unflinching"
+msgstr "ثابت"
+
+msgid "Unflinchingly"
+msgstr "بدون تردد"
+
+msgid "Unfluctuating"
+msgstr "غير متقلّب"
+
+msgid "Unflurried"
+msgstr "خالي من الانفعال العاطفيّ أو التّوتّر العصبيّ"
+
+msgid "Unflustered"
+msgstr "خالي من الانفعال العاطفيّ أو التّوتّر العصبيّ"
+
+msgid "Unfocused"
+msgstr "غير مركّز"
+
+msgid "Unfocussed"
+msgstr "غير مركّز في نقطة واحدة أو على هدف واحد"
+
+msgid "Unfold"
+msgstr "تفتّج"
+
+msgid "Unfolded"
+msgstr "متفتّح"
+
+msgid "Unfolding"
+msgstr "يتفتّح"
+
+msgid "Unfoldment"
+msgstr "تفتّح"
+
+msgid "Unfolds"
+msgstr "يتفتّح"
+
+msgid "UnFollow"
+msgstr "فولو غير"
+
+msgid "Unforbearing"
+msgstr "كاره على أن يتحمّل"
+
+msgid "Unforbidden"
+msgstr "غير محرّم"
+
+msgid "Unforcedly"
+msgstr "غير بقسر"
+
+msgid "Unforeseeable"
+msgstr "غير قادر على التّوقّع"
+
+msgid "Unforeseen"
+msgstr "غير متوقّع"
+
+msgid "Unforeseenly"
+msgstr "بشكل غير متوقّع"
+
+msgid "Unforgeable"
+msgstr "غير قابل للتزوير"
+
+msgid "Unforgettable"
+msgstr "غير منسي"
+
+msgid "Unforgettably"
+msgstr "بشكل غير قابل للنسيان"
+
+msgid "Unforgivable"
+msgstr "لا يغتفر"
+
+msgid "Unforgivably"
+msgstr "بشكل غير قابل للغفران"
+
+msgid "Unforgiven"
+msgstr "غير مغفور لـ"
+
+msgid "Unforgiving"
+msgstr "عديم الرحمة"
+
+msgid "Unforgivingly"
+msgstr "بدون رحمة"
+
+msgid "Unforgivingness"
+msgstr "عدم التسامح"
+
+msgid "Unforgotten"
+msgstr "غير منسي"
+
+msgid "Unform"
+msgstr "يالتّحلّل إلالأجز ::ءيلتّمير الشّك:: نيلتّدمير"
+
+msgid "Unformal"
+msgstr "غير رسمي"
+
+msgid "Unformalized"
+msgstr "غير مشكّل"
+
+msgid "Unformatted"
+msgstr "غير محضّر"
+
+msgid "Unformed"
+msgstr "عديم الشكل"
+
+msgid "Unforthcoming"
+msgstr "غير قادم"
+
+msgid "Unfortified"
+msgstr "غير مزوّد"
+
+msgid "Unfortunate"
+msgstr "سيء الحظ"
+
+msgid "Unfortunately"
+msgstr "لسوء الحظ"
+
+msgid "Unfortunates"
+msgstr "التعساء"
+
+msgid "Unfossilized"
+msgstr "غير محجّر"
+
+msgid "Unfounded"
+msgstr "عديم الأساس"
+
+msgid "Unfractured"
+msgstr "غير مكسور"
+
+msgid "Unfragment"
+msgstr "غير جزء"
+
+msgid "Unframed"
+msgstr "غير مؤطّر"
+
+msgid "Unfrank"
+msgstr "غير ختم"
+
+msgid "Unfraternal"
+msgstr "غير أخوي"
+
+msgid "Unfraternizing"
+msgstr "غير تآخي"
+
+msgid "Unfree"
+msgstr "غير حرّ"
+
+msgid "Unfreeze"
+msgstr "يحوّل الى الحالة السّائلة :: يجعل الأصول متوفّرة"
+
+msgid "Unfrequented"
+msgstr "مهجور"
+
+msgid "Unfrequently"
+msgstr "بقلّة"
+
+msgid "Unfriend"
+msgstr "العدو :: ليس بالصّديق"
+
+msgid "Unfriendliness"
+msgstr "اللاودّية"
+
+msgid "Unfriendly"
+msgstr "غير ودّي"
+
+msgid "Unfrock"
+msgstr "جرّد"
+
+msgid "Unfrocking"
+msgstr "التجريد"
+
+msgid "Unfrosted"
+msgstr "غير متجمّد"
+
+msgid "Unfrozen"
+msgstr "محلول تجميد"
+
+msgid "Unfrugal"
+msgstr "غير مقتصد"
+
+msgid "Unfruitful"
+msgstr "غير مثمر"
+
+msgid "Unfruitfully"
+msgstr "بشكل غير مثمر"
+
+msgid "Unfruitfulness"
+msgstr "عدم الإثمار"
+
+msgid "Unfueled"
+msgstr "غير مثار"
+
+msgid "Unfulfilled"
+msgstr "غير متحقق"
+
+msgid "Unfunded"
+msgstr "غير مموّل"
+
+msgid "Unfunnily"
+msgstr "غير بشكل مضحك"
+
+msgid "Unfunny"
+msgstr "غير مضحك"
+
+msgid "Unfurl"
+msgstr "إنشر"
+
+msgid "Unfurled"
+msgstr "منشور"
+
+msgid "Unfurling"
+msgstr "النشر"
+
+msgid "Unfurls"
+msgstr "ينشر"
+
+msgid "Unfurnished"
+msgstr "غير مؤثّث"
+
+msgid "Unfurnishedly"
+msgstr "بشكل غير مؤثّث"
+
+msgid "Ungainliness"
+msgstr "الغلاظة"
+
+msgid "Ungainly"
+msgstr "أخرق"
+
+msgid "Ungallant"
+msgstr "غير أنيق"
+
+msgid "Ungallantly"
+msgstr "بشكل غير أنيق"
+
+msgid "Ungarbed"
+msgstr "عاري من الملابس"
+
+msgid "Ungarmented"
+msgstr "عاري من الملابس"
+
+msgid "Ungarnished"
+msgstr "غير مزيّن"
+
+msgid "Ungeneralized"
+msgstr "غير معمّم"
+
+msgid "Ungenerous"
+msgstr "شحيح"
+
+msgid "Ungenerously"
+msgstr "بشكل شحيح"
+
+msgid "Ungenitured"
+msgstr "مجرّد من الأعضاء الجنسيّة :: عاجز جنسيًّا"
+
+msgid "Ungentle"
+msgstr "غير لطيف"
+
+msgid "Ungentlemanly"
+msgstr "غير نبيل"
+
+msgid "Ungently"
+msgstr "غير بلطف"
+
+msgid "Ungifted"
+msgstr "غير موهوب"
+
+msgid "Ungird"
+msgstr "حلّ"
+
+msgid "Ungirt"
+msgstr "حلّ"
+
+msgid "Ungiving"
+msgstr "غير إعطاء"
+
+msgid "Unglamorous"
+msgstr "غير فتّان"
+
+msgid "Unglamorously"
+msgstr "بشكل غير فتّان"
+
+msgid "Unglaze"
+msgstr "يزيل الزّجاج"
+
+msgid "Unglazed"
+msgstr "غير مزجّج"
+
+msgid "Unglossed"
+msgstr "غير ملمّع"
+
+msgid "Ungloved"
+msgstr "أنجلوفيد"
+
+msgid "Unglue"
+msgstr "يفصل الشيئ بعدما إنغلق بالصّمغ"
+
+msgid "Unglued"
+msgstr "غير إلتصق"
+
+msgid "Ungodliness"
+msgstr "عدم التّقوى"
+
+msgid "Ungodly"
+msgstr "شرير"
+
+msgid "Ungot"
+msgstr "غير أصبح"
+
+msgid "Ungotten"
+msgstr "غير أصبح"
+
+msgid "Ungovernable"
+msgstr "صعب الإنقياد"
+
+msgid "Ungovernably"
+msgstr "بشكل صعب الانقياد"
+
+msgid "Ungoverned"
+msgstr "غير محكوم"
+
+msgid "Ungraceful"
+msgstr "غير لطيف"
+
+msgid "Ungracefully"
+msgstr "بغير لطافة"
+
+msgid "Ungracefulness"
+msgstr "عدم اللطافة"
+
+msgid "Ungracious"
+msgstr "فظّ"
+
+msgid "Ungraciously"
+msgstr "بفظاظة"
+
+msgid "Ungraciousness"
+msgstr "الفظاظة"
+
+msgid "Ungraded"
+msgstr "غير مدرّج"
+
+msgid "Ungrammatical"
+msgstr "غير قواعدي"
+
+msgid "Ungrammaticality"
+msgstr "اللاقواعديّة"
+
+msgid "Ungrammatically"
+msgstr "بشكل غير قواعدي"
+
+msgid "Ungrateful"
+msgstr "ناكر الجميل"
+
+msgid "Ungratefully"
+msgstr "بشكل ناكر للجميل"
+
+msgid "Ungratefulness"
+msgstr "إنكار الجميل"
+
+msgid "Ungratified"
+msgstr "غير راضي"
+
+msgid "Ungreased"
+msgstr "غير مدهون"
+
+msgid "Ungroomed"
+msgstr "غير منظّم او ذكيّ المظهر"
+
+msgid "Ungrounded"
+msgstr "عديم الأساس"
+
+msgid "Ungroup"
+msgstr "غير مجموعة"
+
+msgid "Ungrudging"
+msgstr "غير مكره"
+
+msgid "Ungual"
+msgstr "متعلّق بالمسمار أو المخلب أو الحافر"
+
+msgid "Unguaranteed"
+msgstr "بدون الأمان المادّيّ"
+
+msgid "Unguard"
+msgstr "يحرم من الحراسة :: يتركه مكشوف :: يتركه معرّض"
+
+msgid "Unguarded"
+msgstr "غير حذر"
+
+msgid "Unguardedly"
+msgstr "بشكل غير حذر"
+
+msgid "Unguardedness"
+msgstr "عدم الحذر"
+
+msgid "Unguent"
+msgstr "المرهم"
+
+msgid "Unguentary"
+msgstr "مثل المرهم ::  مثل صفات المرهم"
+
+msgid "Unguents"
+msgstr "المراهم"
+
+msgid "Unguessable"
+msgstr "غير قابل للتخمين"
+
+msgid "Unguessed"
+msgstr "غير محزور"
+
+msgid "Unguiculata"
+msgstr "الثدييّات ذوات الأظافر والمخالب"
+
+msgid "Unguiculate"
+msgstr "الثدييّات ذوات الأظافر والمخالب"
+
+msgid "Unguided"
+msgstr "غير موجّه"
+
+msgid "Unguinous"
+msgstr "متكوّن من أو مشابه للدّهن أو الزيت :: مزيّت :: متملّق :: زيتيّ"
+
+msgid "Unguis"
+msgstr "الظّفر :: المخلب :: الحافر"
+
+msgid "Ungula"
+msgstr "الحافر :: المخلب"
+
+msgid "Ungulata"
+msgstr "الثدييّات ذوات الظّلف كما البقر والماعز"
+
+msgid "Ungulate"
+msgstr "الثدييّات ذوات الظّلف كما البقر والماعز"
+
+msgid "Ungulated"
+msgstr "ذوات ظلف كما البقر والماعز"
+
+msgid "Unguled"
+msgstr "ذوات ظلف كما البقر والماعز"
+
+msgid "Unguligrade"
+msgstr "ذوات ظلف كما البقر والماعز"
+
+msgid "Ungummed"
+msgstr "محلول"
+
+msgid "Unh"
+msgstr "عنصر الـ أنيلهيكسيوم"
+
+msgid "Unhabitable"
+msgstr "غير صالح للسكن"
+
+msgid "Unhair"
+msgstr "يقصّ الشعر"
+
+msgid "Unhallow"
+msgstr "دنّس"
+
+msgid "Unhallowed"
+msgstr "غير شرعي"
+
+msgid "Unhalted"
+msgstr "غير أوقف"
+
+msgid "Unhalved"
+msgstr "غير منصّف"
+
+msgid "Unhampered"
+msgstr "غير معاق"
+
+msgid "Unhand"
+msgstr "حلّ"
+
+msgid "Unhanded"
+msgstr "محلول"
+
+msgid "Unhandily"
+msgstr "بشكل أرعن"
+
+msgid "Unhandiness"
+msgstr "الإعاقة"
+
+msgid "Unhanding"
+msgstr "الحلّ"
+
+msgid "Unhands"
+msgstr "يحلّ"
+
+msgid "Unhandsome"
+msgstr "غير وسيم"
+
+msgid "Unhandsomely"
+msgstr "غير بشكل رائع"
+
+msgid "Unhandy"
+msgstr "أرعن"
+
+msgid "Unhappier"
+msgstr "حزين"
+
+msgid "Unhappiest"
+msgstr "حزين"
+
+msgid "Unhappily"
+msgstr "بحزن"
+
+msgid "Unhappiness"
+msgstr "الحزن"
+
+msgid "Unhappy"
+msgstr "حزين"
+
+msgid "Unharmed"
+msgstr "سليم"
+
+msgid "Unharmedly"
+msgstr "بشكل سليم"
+
+msgid "Unharmonious"
+msgstr "غير منسجم"
+
+msgid "Unharmoniously"
+msgstr "غير بانسجام"
+
+msgid "Unharmonized"
+msgstr "غير منسّق"
+
+msgid "Unharness"
+msgstr "ينزع الطقم أو العدّة"
+
+msgid "Unharnessed"
+msgstr "غير مسخّر"
+
+msgid "Unhasty"
+msgstr "غير مستعجل"
+
+msgid "Unhat"
+msgstr "يخلع القبّعة تعبيراً عن الإحترام"
+
+msgid "Unhazardous"
+msgstr "لايشكّل خطورة"
+
+msgid "Unheal"
+msgstr "البليّة :: الكارثة :: المرض"
+
+msgid "Unhealed"
+msgstr "غير مشفي"
+
+msgid "Unhealthful"
+msgstr "ضارّ بالصّحّة :: غير صحّيّ"
+
+msgid "Unhealthier"
+msgstr "غير صحّي"
+
+msgid "Unhealthiest"
+msgstr "غير صحّي"
+
+msgid "Unhealthily"
+msgstr "بشكل غير صحّي"
+
+msgid "Unhealthiness"
+msgstr "تدهور الصّحّة"
+
+msgid "Unhealthy"
+msgstr "غير صحّي"
+
+msgid "Unhearable"
+msgstr "مستحيل السّماع :: غير ملحوظ بالأذن"
+
+msgid "Unheard"
+msgstr "غير مسموع"
+
+msgid "Unheated"
+msgstr "غير ساخن"
+
+msgid "Unheeded"
+msgstr "غير محترم"
+
+msgid "Unheedful"
+msgstr "غير حذر"
+
+msgid "Unheeding"
+msgstr "بدون انتباه"
+
+msgid "Unheedingly"
+msgstr "بشكل غير منتبه"
+
+msgid "Unhelm"
+msgstr "غير قيادة"
+
+msgid "Unhelped"
+msgstr "غير ساعد"
+
+msgid "Unhelpful"
+msgstr "غير مساعد"
+
+msgid "Unhelpfully"
+msgstr "بشكل غير مساعد"
+
+msgid "Unheralded"
+msgstr "غير معروف"
+
+msgid "Unhesitant"
+msgstr "غير متردد"
+
+msgid "Unhesitating"
+msgstr "غير متردّد"
+
+msgid "Unhesitatingly"
+msgstr "بشكل غير متردّد"
+
+msgid "Unhide"
+msgstr "غير جلد"
+
+msgid "Unhighlighted"
+msgstr "غير مبرز"
+
+msgid "Unhindered"
+msgstr "غير معاق"
+
+msgid "Unhinge"
+msgstr "إنزع"
+
+msgid "Unhinged"
+msgstr "معتوه"
+
+msgid "Unhired"
+msgstr "غير مستأجر"
+
+msgid "Unhistoric"
+msgstr "لاتأريخي"
+
+msgid "Unhistorical"
+msgstr "غير تأريخي"
+
+msgid "Unhitch"
+msgstr "فكّ"
+
+msgid "Unhitched"
+msgstr "مفكوك"
+
+msgid "Unhitching"
+msgstr "الفكّ"
+
+msgid "Unhoard"
+msgstr "يسرق من مخزون :: يسرق"
+
+msgid "Unhold"
+msgstr "يتوقّف عن المسك :: يترك :: يحرّر"
+
+msgid "Unholier"
+msgstr "أكثر إثماً"
+
+msgid "Unholiest"
+msgstr "الأكثر إثماً"
+
+msgid "Unholiness"
+msgstr "الإثم"
+
+msgid "Unholy"
+msgstr "سيء"
+
+msgid "Unhomogeneous"
+msgstr "غير متجانس"
+
+msgid "Unhonorably"
+msgstr "غير بشكل مشرّف"
+
+msgid "Unhonored"
+msgstr "غير مشرّف"
+
+msgid "Unhonoured"
+msgstr "غير مشرّف"
+
+msgid "Unhook"
+msgstr "حلّ"
+
+msgid "Unhooked"
+msgstr "محلول"
+
+msgid "Unhooking"
+msgstr "الحلّ"
+
+msgid "Unhooks"
+msgstr "يحلّ"
+
+msgid "Unhoped"
+msgstr "غير متمنّى"
+
+msgid "Unhopeful"
+msgstr "غير متفائل"
+
+msgid "Unhopefully"
+msgstr "غير على أمل"
+
+msgid "Unhorse"
+msgstr "ينزل من على صهوة الحصان"
+
+msgid "Unhouse"
+msgstr "يُخْرج من البيت أو السكن :: يطرد :: يحرم من المأوى"
+
+msgid "Unhoused"
+msgstr "مشرّد"
+
+msgid "Unhuman"
+msgstr "غير بشري"
+
+msgid "Unhumble"
+msgstr "غير متواضع"
+
+msgid "Unhumored"
+msgstr "غير ملاطف"
+
+msgid "Unhumorous"
+msgstr "غير مضحك"
+
+msgid "Unhumorously"
+msgstr "غير بظرافة"
+
+msgid "Unhunted"
+msgstr "غير مطارد"
+
+msgid "Unhurried"
+msgstr "متأنّي"
+
+msgid "Unhurriedly"
+msgstr "بشكل متأنّي"
+
+msgid "Unhurt"
+msgstr "سليم"
+
+msgid "Unhurtly"
+msgstr "بشكل سليم"
+
+msgid "Unhydrolyzed"
+msgstr "مزال التحليل"
+
+msgid "Unhygienic"
+msgstr "غير صحّي"
+
+msgid "Unhyphenated"
+msgstr "غير موصّل"
+
+msgid "Unhysterical"
+msgstr "غير هستيري"
+
+msgid "Unhysterically"
+msgstr "بشكل غير هستيريّ"
+
+msgid "Uni"
+msgstr "البادئة التي تعني واحد او مرّة واحدة"
+
+msgid "Uni-"
+msgstr "البادئة التي تعني واحد او مرّة واحدة"
+
+msgid "Uni-directional"
+msgstr "أحاديّ الاتّجاه"
+
+msgid "Uniat"
+msgstr "عضو في الكنيسة اليونانيّة"
+
+msgid "Uniats"
+msgstr "أعضاء في الكنيسة اليونانيّة"
+
+msgid "Uniaxal"
+msgstr "أحاديّ المحور"
+
+msgid "Uniaxial"
+msgstr "أحادي المحور"
+
+msgid "Unicameral"
+msgstr "مكوّن من هيئة تشريعيّة واحدة"
+
+msgid "Unicef"
+msgstr "اليونيسيف - وكالة للأمم المتحدة مسئولة عن برامج تعليم و صحّة الأطفال"
+
+msgid "Unicellular"
+msgstr "أحادي الخليّة"
+
+msgid "Unicity"
+msgstr "حالة الإتّحاد :: الإتّحاد :: فريدد"
+
+msgid "Unicode"
+msgstr "نظام الحروف الدولي الموحد"
+
+msgid "Unicorn"
+msgstr "وحيد القرن"
+
+msgid "Unicorns"
+msgstr "وحيدات القرن"
+
+msgid "Unicos"
+msgstr "نظام تشغيل مشابه لـ ينيكس"
+
+msgid "Unicycle"
+msgstr "الدرّاجة الهوائية الأحادية العجلة"
+
+msgid "Unideaed"
+msgstr "بلا أفكار :: عديم المعنى :: تافه"
+
+msgid "Unideal"
+msgstr "غير مثالي"
+
+msgid "Unidealized"
+msgstr "غير مثالي"
+
+msgid "Unidentifiable"
+msgstr "غير مميّز"
+
+msgid "Unidentified"
+msgstr "غير معروف"
+
+msgid "Unidimensional"
+msgstr "أحادي البعد"
+
+msgid "Unidirectional"
+msgstr "أحادي الإتجاه"
+
+msgid "Unidirectionally"
+msgstr "باتجاه واحد"
+
+msgid "Unidolized"
+msgstr "غير معبود"
+
+msgid "Unific"
+msgstr "التّوحيد"
+
+msgid "Unification"
+msgstr "التوحيد"
+
+msgid "Unifications"
+msgstr "التوحيد"
+
+msgid "Unified"
+msgstr "موحّد"
+
+msgid "Unifier"
+msgstr "موحّد"
+
+msgid "Unifies"
+msgstr "يوحّد"
+
+msgid "Unifilar"
+msgstr "أحادي السّلك"
+
+msgid "Uniform"
+msgstr "الزيّ الرسمي"
+
+msgid "Uniformal"
+msgstr "الزّيّ الموحّد"
+
+msgid "Uniformed"
+msgstr "منتظم"
+
+msgid "Uniforming"
+msgstr "تنظيم"
+
+msgid "Uniformities"
+msgstr "الإتساق"
+
+msgid "Uniformity"
+msgstr "الإتساق"
+
+msgid "Uniformize"
+msgstr "يوحّد"
+
+msgid "Uniformly"
+msgstr "بشكل موحّد"
+
+msgid "Uniformness"
+msgstr "الاتّساق"
+
+msgid "Uniforms"
+msgstr "الأزياء الرسمية"
+
+msgid "Unify"
+msgstr "وحّد"
+
+msgid "Unifying"
+msgstr "التوحيد"
+
+msgid "Unilateral"
+msgstr "أحادي الجانب"
+
+msgid "Unilateralism"
+msgstr "الأحاديّة"
+
+msgid "Unilateralist"
+msgstr "من يتبنّى مبدأ الأحاديّة"
+
+msgid "Unilaterally"
+msgstr "من طرف واحد"
+
+msgid "Uniliteral"
+msgstr "يحتوي على حرف واحد"
+
+msgid "Unilluminated"
+msgstr "غير منار"
+
+msgid "Unilluminating"
+msgstr "غير منير"
+
+msgid "Unilocular"
+msgstr "يحتوي على خليّة واحدة :: يحتوي على تجويف واحد"
+
+msgid "Unimaginable"
+msgstr "مستحيل التصور"
+
+msgid "Unimaginably"
+msgstr "بشكل لايمكن تصوّره"
+
+msgid "Unimaginative"
+msgstr "ضعيف الخيال"
+
+msgid "Unimaginatively"
+msgstr "بشكل ضعيف الخيال"
+
+msgid "Unimagined"
+msgstr "غير متخيّل"
+
+msgid "Unimitable"
+msgstr "ﻻ يضاهى"
+
+msgid "Unimitated"
+msgstr "غير مقلّد"
+
+msgid "Unimmortalized"
+msgstr "غير مخلّد"
+
+msgid "Unimmunized"
+msgstr "غير ملقّح"
+
+msgid "Unimodal"
+msgstr "أحادي الشكل"
+
+msgid "Unimodular"
+msgstr "أحادي النتيجة"
+
+msgid "Unimpaired"
+msgstr "سالم"
+
+msgid "Unimpassioned"
+msgstr "غير حماسي"
+
+msgid "Unimpeachable"
+msgstr "موثوق"
+
+msgid "Unimpeachably"
+msgstr "بلاشك"
+
+msgid "Unimpeded"
+msgstr "غير معرقل"
+
+msgid "Unimplemented"
+msgstr "غير مطبّق"
+
+msgid "Unimportance"
+msgstr "غير أهمية"
+
+msgid "Unimportant"
+msgstr "غير مهم"
+
+msgid "Unimportantly"
+msgstr "بشكل غير مهم"
+
+msgid "Unimposing"
+msgstr "غير بارز"
+
+msgid "Unimpressed"
+msgstr "غير مرتاح"
+
+msgid "Unimpressible"
+msgstr "غير حساس"
+
+msgid "Unimpressionable"
+msgstr "غير قابل للتحوير"
+
+msgid "Unimpressive"
+msgstr "عادي"
+
+msgid "Unimpressively"
+msgstr "بشكل عادي"
+
+msgid "Unimprisoned"
+msgstr "مُحرّر :: طليق"
+
+msgid "Unimproved"
+msgstr "غير محسّن"
+
+msgid "Unimprovedly"
+msgstr "بشكل غير محسّن"
+
+msgid "Unincisive"
+msgstr "غير حادّ"
+
+msgid "Unincorporated"
+msgstr "غير مشكّل"
+
+msgid "Unincumbered"
+msgstr "خالي من الدّيون او من التّكاليف"
+
+msgid "Unindent"
+msgstr "غير طلب رسمي"
+
+msgid "Unindented"
+msgstr "غير مطعوج"
+
+msgid "Unindexed"
+msgstr "غير مصنّف"
+
+msgid "Unindividualized"
+msgstr "غير مخصّص"
+
+msgid "Unindustrialized"
+msgstr "غير صناعي"
+
+msgid "Uninfected"
+msgstr "غير مصاب"
+
+msgid "Uninfectious"
+msgstr "غير معدي"
+
+msgid "Uninfested"
+msgstr "غير مليئ ب"
+
+msgid "Uninflected"
+msgstr "غير صرفيّ"
+
+msgid "Uninfluenced"
+msgstr "غير متأئّر"
+
+msgid "Uninfluential"
+msgstr "غير مؤثّر"
+
+msgid "Uninformative"
+msgstr "غير غني بالمعلومات المفيدة"
+
+msgid "Uninformatively"
+msgstr "بشكل ﻻ يغني بالمعلومات"
+
+msgid "Uninformed"
+msgstr "غير مطّلع"
+
+msgid "Uninformedly"
+msgstr "بشكل غير مطّلع"
+
+msgid "Uninhabitable"
+msgstr "غير صالح للسكن"
+
+msgid "Uninhabited"
+msgstr "غير مسكون"
+
+msgid "Uninhibited"
+msgstr "غير حسّاس"
+
+msgid "Uninhibitedly"
+msgstr "بشكل غير حسّاس"
+
+msgid "Uninhibitedness"
+msgstr "عدم الحساسية"
+
+msgid "Uninitialized"
+msgstr "غير شغّل"
+
+msgid "Uninitiate"
+msgstr "غير مستهلّ"
+
+msgid "Uninitiated"
+msgstr "غير مستهل"
+
+msgid "Uninjectable"
+msgstr "غير صالح للحقن"
+
+msgid "Uninjured"
+msgstr "غير مجروح"
+
+msgid "Uninked"
+msgstr "غير محبّر"
+
+msgid "Uninominal"
+msgstr "أحادي الترشيح"
+
+msgid "Uninspired"
+msgstr "غير مستلهم"
+
+msgid "Uninspiring"
+msgstr "غير ملهم"
+
+msgid "Uninspiringly"
+msgstr "بشكل غير ملهم"
+
+msgid "Uninstall"
+msgstr "إمسح"
+
+msgid "Uninstalling"
+msgstr "المسح"
+
+msgid "Uninstructed"
+msgstr "غير مأمور"
+
+msgid "Uninsulated"
+msgstr "غير معزول"
+
+msgid "Uninsurable"
+msgstr "غير قابل للتأمين"
+
+msgid "Uninsured"
+msgstr "غير مؤمّن"
+
+msgid "Unintegrated"
+msgstr "غير متكامل"
+
+msgid "Unintelligent"
+msgstr "غبي"
+
+msgid "Unintelligently"
+msgstr "بشكل غبي"
+
+msgid "Unintelligibility"
+msgstr "غير وضوح"
+
+msgid "Unintelligible"
+msgstr "غير واضح"
+
+msgid "Unintelligibleness"
+msgstr "عدم الوضوح"
+
+msgid "Unintelligibly"
+msgstr "بشكل غير واضح"
+
+msgid "Unintended"
+msgstr "غير مقصود"
+
+msgid "Unintentional"
+msgstr "غير مقصود"
+
+msgid "Unintentionally"
+msgstr "بغير قصد"
+
+msgid "Uninteressed"
+msgstr "غير مهتمّ :: غير متأثّر"
+
+msgid "Uninterested"
+msgstr "غير مهتم"
+
+msgid "Uninteresting"
+msgstr "غير مهم"
+
+msgid "Uninterestingly"
+msgstr "بدون إهتمام"
+
+msgid "Uninterestingness"
+msgstr "العجز في شدّ او جذب الإنتباه"
+
+msgid "Uninterpretable"
+msgstr "غير مفسّر"
+
+msgid "Uninterpreted"
+msgstr "غير مترجم"
+
+msgid "Uninterrupted"
+msgstr "مستمر"
+
+msgid "Uninterruptedly"
+msgstr "بشكل مستمر"
+
+msgid "Uninterruptible"
+msgstr "مستمر"
+
+msgid "Uninterviewed"
+msgstr "غير مقابل"
+
+msgid "Unintimate"
+msgstr "غير عميق"
+
+msgid "Unintrusive"
+msgstr "لايتدخّل في شؤون الغير"
+
+msgid "Uninucleate"
+msgstr "ذو نواة واحدة"
+
+msgid "Uninventive"
+msgstr "غير مبدع"
+
+msgid "Uninvested"
+msgstr "غير مستثمر"
+
+msgid "Uninvited"
+msgstr "متطفّل"
+
+msgid "Uninviting"
+msgstr "غير ممتع"
+
+msgid "Uninvitingly"
+msgstr "بشكل غير ممتع"
+
+msgid "Uninvolved"
+msgstr "غير ذو علاقة"
+
+msgid "Union"
+msgstr "الإتحاد"
+
+msgid "Unionism"
+msgstr "نظام اتّحاد العمّال"
+
+msgid "Unionist"
+msgstr "النقابي"
+
+msgid "Unionists"
+msgstr "الإتّحاديون"
+
+msgid "Unionization"
+msgstr "توحيد في نقابة"
+
+msgid "Unionize"
+msgstr "يوحّد في نقابة"
+
+msgid "Unionized"
+msgstr "توحّد في نقابة"
+
+msgid "Unionizer"
+msgstr "موحّد في نقابة"
+
+msgid "Unionizes"
+msgstr "يوحّد في نقابة"
+
+msgid "Unionizing"
+msgstr "التّوحيد في نقابة"
+
+msgid "Unions"
+msgstr "الإتحادات"
+
+msgid "Uniparous"
+msgstr "يلد مولود واحد عن كل مرة يحدث فيها حمل"
+
+msgid "Uniped"
+msgstr "ذو قدم واحدة"
+
+msgid "Unipolar"
+msgstr "أحادي القطب"
+
+msgid "Uniprocessor"
+msgstr "أحادي المعالج"
+
+msgid "Uniprocessors"
+msgstr "أحاديّات المعالج"
+
+msgid "Unique"
+msgstr "فريد"
+
+msgid "Uniquely"
+msgstr "إستثنائيا"
+
+msgid "Uniqueness"
+msgstr "التفردية"
+
+msgid "Uniquity"
+msgstr "التّميّز :: الإنفراد"
+
+msgid "Uniramous"
+msgstr "ذو فرع واحد"
+
+msgid "Unisex"
+msgstr "للجنسين"
+
+msgid "Unisexual"
+msgstr "أحادي الجنس"
+
+msgid "Unison"
+msgstr "الإئتلاف"
+
+msgid "Unisonance"
+msgstr "التوافق :: الانسجام"
+
+msgid "Unisonous"
+msgstr "متناغم :: متجانس :: متوافق"
+
+msgid "Unisons"
+msgstr "الإئتلافات"
+
+msgid "Unissued"
+msgstr "غير مُصدر"
+
+#, Company Name
+msgid "Unisys"
+msgstr "يونيسس"
+
+msgid "Unit"
+msgstr "الوحدة"
+
+msgid "Unital"
+msgstr "ينيتال"
+
+msgid "Unitalicized"
+msgstr "غير ميّال"
+
+msgid "Unitarian"
+msgstr "موحِّد"
+
+msgid "Unitarianism"
+msgstr "التوحيدية"
+
+msgid "Unitarians"
+msgstr "موحِّدون"
+
+msgid "Unitary"
+msgstr "وحدوي"
+
+msgid "Unite"
+msgstr "إتّحد"
+
+msgid "United"
+msgstr "متّحد"
+
+msgid "Unitedly"
+msgstr "باتحاد"
+
+msgid "Unitemized"
+msgstr "غير مفصّل"
+
+msgid "Uniter"
+msgstr "موحِّد"
+
+msgid "Unites"
+msgstr "يتّحد"
+
+msgid "Unities"
+msgstr "الوحدات"
+
+msgid "Uniting"
+msgstr "الإتّحاد"
+
+msgid "Unitive"
+msgstr "توحّدي"
+
+msgid "Unitively"
+msgstr "في طريقة موحّدة"
+
+msgid "Unitize"
+msgstr "وحّد"
+
+msgid "Unitized"
+msgstr "موحّد"
+
+msgid "Unitizing"
+msgstr "يوحّد :: يصنّف الى وحدات"
+
+msgid "Units"
+msgstr "الوحدات"
+
+msgid "Unity"
+msgstr "الوحدة"
+
+#, name
+msgid "Univac"
+msgstr "يونيفاك"
+
+msgid "Univalent"
+msgstr "أحاديّ التكافؤ"
+
+msgid "Univalve"
+msgstr "أحادي الصّمّام"
+
+msgid "Univalves"
+msgstr "أحاديّات الصّمّام"
+
+msgid "Univariate"
+msgstr "أحاديّ المتغيّر"
+
+msgid "Universal"
+msgstr "عالمي"
+
+msgid "Universalism"
+msgstr "العالميّة"
+
+msgid "Universalist"
+msgstr "المتعلّق او المساند للعالميّة"
+
+msgid "Universalistic"
+msgstr "متعلّق بالعالميّة"
+
+msgid "Universalities"
+msgstr "العالميّة"
+
+msgid "Universality"
+msgstr "العالميّة"
+
+msgid "Universalize"
+msgstr "يجعله عالميّاً"
+
+msgid "Universalized"
+msgstr "جعله عالميّاً"
+
+msgid "Universalizes"
+msgstr "يجعله عالميّاً"
+
+msgid "Universalizing"
+msgstr "جعله عالميّاً"
+
+msgid "Universally"
+msgstr "عالميا"
+
+msgid "Universalness"
+msgstr "العالميّة"
+
+msgid "Universals"
+msgstr "المُسلّمات"
+
+msgid "Universe"
+msgstr "الكون"
+
+msgid "Universes"
+msgstr "الأكوان"
+
+msgid "Universities"
+msgstr "الجامعات"
+
+msgid "University"
+msgstr "الجامعة"
+
+msgid "UNIX"
+msgstr "اليونيكس"
+
+msgid "Univocal"
+msgstr "أحاديّ المعنى :: يؤدّي الى نتيجة واحدة"
+
+msgid "Univocally"
+msgstr "أحادي المعنى :: يؤدّي الى نتيجة واحدة"
+
+msgid "Unjaded"
+msgstr "غير متعب"
+
+msgid "Unjam"
+msgstr "غير مربّى"
+
+msgid "Unjammed"
+msgstr "غير مسدود"
+
+msgid "Unjamming"
+msgstr "غير تشويش"
+
+msgid "Unjoin"
+msgstr "يفصل :: يفرّق"
+
+msgid "Unjoined"
+msgstr "مفصول"
+
+msgid "Unjust"
+msgstr "ظالم"
+
+msgid "Unjustice"
+msgstr "الظّلم :: انتفاء العدالة"
+
+msgid "Unjustifiable"
+msgstr "غير مبرّر"
+
+msgid "Unjustifiably"
+msgstr "بدون مبرر"
+
+msgid "Unjustified"
+msgstr "غير مبرّر"
+
+msgid "Unjustly"
+msgstr "بشكل ظالم"
+
+msgid "Unjustness"
+msgstr "الظلم"
+
+msgid "Unked"
+msgstr "وحيد :: ممل ::- غري :: قبيح  ::, فظّ"
+
+msgid "Unkempt"
+msgstr "مبهذل"
+
+msgid "Unkemptly"
+msgstr "بشكل مبهذل"
+
+msgid "Unkent"
+msgstr "المجهول :: الغريب"
+
+msgid "Unkept"
+msgstr "عقد او اتّفاق غير مستوفى"
+
+msgid "Unkind"
+msgstr "قاس"
+
+msgid "Unkindled"
+msgstr "غير موقد"
+
+msgid "Unkindlier"
+msgstr "غير مؤدّب"
+
+msgid "Unkindliest"
+msgstr "غير مؤدّب"
+
+msgid "Unkindliness"
+msgstr "اللاأدب"
+
+msgid "Unkindly"
+msgstr "غير مؤدّب"
+
+msgid "Unkindness"
+msgstr "القسوة"
+
+msgid "Unking"
+msgstr "يبطل عمل الملك :: الإطاحة بالملك"
+
+msgid "Unkink"
+msgstr "غير عقدة"
+
+msgid "Unkissed"
+msgstr "غير مقبّل"
+
+msgid "Unkle"
+msgstr "العم :: الخال"
+
+msgid "Unknit"
+msgstr "غير يحوك"
+
+msgid "Unknot"
+msgstr "حلّ"
+
+msgid "Unknowable"
+msgstr "مجهول"
+
+msgid "Unknowably"
+msgstr "بشكل غير معروف"
+
+msgid "Unknowing"
+msgstr "غير عارف"
+
+msgid "Unknowingly"
+msgstr "بدون معرفة"
+
+msgid "Unknowledgeable"
+msgstr "غير واسع الإطّلاع"
+
+msgid "Unknown"
+msgstr "مجهول"
+
+msgid "Unknowns"
+msgstr "المجهولون"
+
+msgid "Unlabeled"
+msgstr "غير إعتبر"
+
+msgid "Unlabelled"
+msgstr "غير إعتبر"
+
+msgid "Unlabored"
+msgstr "غير معمول"
+
+msgid "Unlace"
+msgstr "حلّ"
+
+msgid "Unlaced"
+msgstr "محلول"
+
+msgid "Unlaces"
+msgstr "يحلّ"
+
+msgid "Unlacing"
+msgstr "الحلّ"
+
+msgid "Unlade"
+msgstr "يخفف الحمل عن :: ينزّل البضاعة :: يزيل"
+
+msgid "Unladen"
+msgstr "مفرغ"
+
+msgid "Unlaid"
+msgstr "غير مثبّت :: غير موجود هنا"
+
+msgid "Unlamented"
+msgstr "غير رثى"
+
+msgid "Unlash"
+msgstr "يفكّ الرّباط "
+
+msgid "Unlashed"
+msgstr "محلول"
+
+msgid "Unlasting"
+msgstr "غير دائم"
+
+msgid "Unlatch"
+msgstr "إفتح"
+
+msgid "Unlatched"
+msgstr "مفتوح"
+
+msgid "Unlatches"
+msgstr "يفتح"
+
+msgid "Unlatching"
+msgstr "الفتح"
+
+msgid "Unlaundered"
+msgstr "غير مغسول"
+
+msgid "Unlaw"
+msgstr "غرامة ماليّة :: مخالفة قانونيّة"
+
+msgid "Unlawful"
+msgstr "غير قانوني"
+
+msgid "Unlawfully"
+msgstr "بشكل غير قانوني"
+
+msgid "Unlawfulness"
+msgstr "اللاشرعيّة"
+
+msgid "Unlay"
+msgstr "يفكّ الحبل"
+
+msgid "Unleaded"
+msgstr "خالي من الرّصاص"
+
+msgid "Unlearn"
+msgstr "إنس"
+
+msgid "Unlearned"
+msgstr "أميّ"
+
+msgid "Unlearning"
+msgstr "النسيان"
+
+msgid "Unlearns"
+msgstr "ينسي"
+
+msgid "Unlearnt"
+msgstr "جاهل"
+
+msgid "Unleased"
+msgstr "غير مؤجّر"
+
+msgid "Unleash"
+msgstr "أطلق عنان"
+
+msgid "Unleashed"
+msgstr "مطلق عنان"
+
+msgid "Unleashes"
+msgstr "يطلق عنان"
+
+msgid "Unleashing"
+msgstr "إطلاق عنان"
+
+msgid "Unleavened"
+msgstr "خالي من الخميرة"
+
+msgid "Unled"
+msgstr "لايتمتّع بشخصيّة قياديّة"
+
+msgid "Unlegalized"
+msgstr "غير مشروع"
+
+msgid "Unless"
+msgstr "مالم"
+
+msgid "Unlettered"
+msgstr "أميّ"
+
+msgid "Unlevel"
+msgstr "غير مستوي"
+
+msgid "Unleveled"
+msgstr "غير إستوى"
+
+msgid "Unleveling"
+msgstr "غير إستواء"
+
+msgid "Unlevied"
+msgstr "غير مجموع"
+
+msgid "Unliberalized"
+msgstr "غير محرّر"
+
+msgid "Unlicensed"
+msgstr "غير مجاز"
+
+msgid "Unlicked"
+msgstr "غير ملعوق"
+
+msgid "Unlifelike"
+msgstr "غير حيّ"
+
+msgid "Unlighted"
+msgstr "غير موقد"
+
+msgid "Unlike"
+msgstr "على خلاف"
+
+msgid "Unlikelihood"
+msgstr "المستبعد"
+
+msgid "Unlikelihoods"
+msgstr "المستبعد"
+
+msgid "Unlikeliness"
+msgstr "بعد الاحتمال"
+
+msgid "Unlikely"
+msgstr "من غير المحتمل"
+
+msgid "Unlikeness"
+msgstr "التغاير"
+
+msgid "Unlimber"
+msgstr "غير لدن"
+
+msgid "Unlimbered"
+msgstr "غير ملدّن"
+
+msgid "Unlimbering"
+msgstr "عدم التلدين"
+
+msgid "Unlimbers"
+msgstr "يقسّي"
+
+msgid "Unlimited"
+msgstr "غير محدود"
+
+msgid "Unlimitedly"
+msgstr "بشكل غير محدود"
+
+msgid "Unline"
+msgstr "يُفْرغ"
+
+msgid "Unlined"
+msgstr "غير مخطّط"
+
+msgid "Unlink"
+msgstr "فكّ"
+
+msgid "Unlinked"
+msgstr "فكّ"
+
+msgid "Unlinking"
+msgstr "الفكّ"
+
+msgid "Unlinks"
+msgstr "يفكّ"
+
+msgid "Unliquidated"
+msgstr "غير مصفّى"
+
+msgid "Unlisted"
+msgstr "غير مدرج"
+
+msgid "Unlit"
+msgstr "غير مضاء"
+
+msgid "Unliteral"
+msgstr "غير حرفي"
+
+msgid "Unliterary"
+msgstr "غير أدبي"
+
+msgid "Unlivable"
+msgstr "غير صالح للعيش"
+
+msgid "Unlived"
+msgstr "بائس أو محروم من الحياة"
+
+msgid "Unlively"
+msgstr "غير نشيط"
+
+msgid "Unliving"
+msgstr "غير حيّ"
+
+msgid "Unload"
+msgstr "أفرغ"
+
+msgid "Unloaded"
+msgstr "مفرغ"
+
+msgid "Unloader"
+msgstr "مفرِّغ"
+
+msgid "Unloading"
+msgstr "الإفراغ"
+
+msgid "Unloads"
+msgstr "يفرغ"
+
+msgid "Unlocalized"
+msgstr "غير محلي"
+
+msgid "Unlocated"
+msgstr "غير واقع"
+
+msgid "Unlock"
+msgstr "إفتح"
+
+msgid "Unlocked"
+msgstr "مفتوح"
+
+msgid "Unlocking"
+msgstr "الفتح"
+
+msgid "Unlocks"
+msgstr "يفتح"
+
+msgid "Unlogged"
+msgstr "غير مثقل"
+
+msgid "Unlook"
+msgstr "يتذكّر"
+
+msgid "Unlooked"
+msgstr "غير متوقّع :: لم يكن بالحسبان"
+
+msgid "Unloose"
+msgstr "حلّ"
+
+msgid "Unloosed"
+msgstr "محلول"
+
+msgid "Unloosen"
+msgstr "حلّ"
+
+msgid "Unloosened"
+msgstr "محلول"
+
+msgid "Unloosening"
+msgstr "الحلّ"
+
+msgid "Unloosens"
+msgstr "يحلّ"
+
+msgid "Unlooses"
+msgstr "يحلّ"
+
+msgid "Unloosing"
+msgstr "الحلّ"
+
+msgid "Unlovable"
+msgstr "مكروه"
+
+msgid "Unlove"
+msgstr "يكره :: يتوقف عن الحب"
+
+msgid "Unloved"
+msgstr "مكروه"
+
+msgid "Unloveliness"
+msgstr "الكراهة"
+
+msgid "Unlovely"
+msgstr "كريه"
+
+msgid "Unloving"
+msgstr "غير محبّ"
+
+msgid "Unlovingly"
+msgstr "بشكل غير محبّ"
+
+msgid "Unlubricated"
+msgstr "غير مزيّت"
+
+msgid "Unluckier"
+msgstr "أسوأ حظا"
+
+msgid "Unluckiest"
+msgstr "أسوأ حظا"
+
+msgid "Unluckily"
+msgstr "لسوء الحظ"
+
+msgid "Unluckiness"
+msgstr "سوء الحظّ"
+
+msgid "Unlucky"
+msgstr "سيئ الحظ"
+
+msgid "Unmade"
+msgstr "دمّر"
+
+msgid "Unmagnetic"
+msgstr "غير مغناطيسي"
+
+msgid "Unmagnetized"
+msgstr "غير ممغنط"
+
+msgid "Unmagnified"
+msgstr "غير مكبّر"
+
+msgid "Unmaiden"
+msgstr "يغتصب"
+
+msgid "Unmailable"
+msgstr "غير قابل الإرسال بالبريد"
+
+msgid "Unmaintainable"
+msgstr "غير قابل للدعم"
+
+msgid "Unmaintained"
+msgstr "غير مبقى"
+
+msgid "Unmake"
+msgstr "دمّر"
+
+msgid "Unmakes"
+msgstr "يدمّر"
+
+msgid "Unmaking"
+msgstr "التدمير"
+
+msgid "Unmalicious"
+msgstr "غير خبيث"
+
+msgid "Unmaliciously"
+msgstr "بشكل غير خبيث"
+
+msgid "Unmaligned"
+msgstr "لم يهاجم باستخدام اللغة السّاخطة"
+
+msgid "Unman"
+msgstr "أنزل رجال"
+
+msgid "Unmanageable"
+msgstr "صعب"
+
+msgid "Unmanageableness"
+msgstr "إنتفاء السّيطرة :: صعوبة السّيطرة"
+
+msgid "Unmanageably"
+msgstr "بشكل صعب"
+
+msgid "Unmanaged"
+msgstr "غير مدار"
+
+msgid "Unmanliness"
+msgstr "الخنوثة"
+
+msgid "Unmanly"
+msgstr "جبان"
+
+msgid "Unmanned"
+msgstr "آلي"
+
+msgid "Unmannered"
+msgstr "وقح"
+
+msgid "Unmanneredly"
+msgstr "بشكل وقح"
+
+msgid "Unmannerliness"
+msgstr "اللاأخلاقيّة"
+
+msgid "Unmannerly"
+msgstr "غير مهذّب"
+
+msgid "Unmanning"
+msgstr "إنزال رجال"
+
+msgid "Unmans"
+msgstr "ينزل رجال"
+
+msgid "Unmantle"
+msgstr "يكشف :: يكشف المستور"
+
+msgid "Unmapped"
+msgstr "غير مخطّط"
+
+msgid "Unmark"
+msgstr "غير علامة"
+
+msgid "Unmarked"
+msgstr "غير مؤشّر"
+
+msgid "Unmarred"
+msgstr "غير مفسد"
+
+msgid "Unmarriageable"
+msgstr "غير صالحة للزواج"
+
+msgid "Unmarried"
+msgstr "أعزب"
+
+msgid "Unmarrieds"
+msgstr "أعازب"
+
+msgid "Unmasculine"
+msgstr "غير مذكر"
+
+msgid "Unmask"
+msgstr "إكشف"
+
+msgid "Unmasked"
+msgstr "مكشوف"
+
+msgid "Unmasking"
+msgstr "الكشف"
+
+msgid "Unmasks"
+msgstr "يكشف"
+
+msgid "Unmasterable"
+msgstr "غير قابل للتّحكّم به :: لايمكن إدارته"
+
+msgid "Unmastered"
+msgstr "غير متقن"
+
+msgid "Unmatchable"
+msgstr "غير مناظر"
+
+msgid "Unmatched"
+msgstr "فريد"
+
+msgid "Unmated"
+msgstr "غير مزاوج"
+
+msgid "Unmaterial"
+msgstr "غير مادّي :: معنوي"
+
+msgid "Unmathematical"
+msgstr "غير رياضي"
+
+msgid "Unmeaning"
+msgstr "مبهم"
+
+msgid "Unmeaningly"
+msgstr "بشكل مبهم"
+
+msgid "Unmeant"
+msgstr "غير عنى"
+
+msgid "Unmeasurable"
+msgstr "غير قابل للقياس"
+
+msgid "Unmeasured"
+msgstr "غير مقاس"
+
+msgid "Unmechanical"
+msgstr "غير ميكانيكي"
+
+msgid "Unmechanically"
+msgstr "بشكل غير ميكانيكي"
+
+msgid "Unmechanized"
+msgstr "غير آلي"
+
+msgid "Unmediated"
+msgstr "بلا تدخّل أطراف ثانية أو تأثير ظروف معيّنة"
+
+msgid "Unmedicated"
+msgstr "غير معالج"
+
+msgid "Unmeet"
+msgstr "غير يجتمع"
+
+msgid "Unmelodious"
+msgstr "بلا لحن :: بلا نغمة موسيقيّة"
+
+msgid "Unmelted"
+msgstr "غير ذاب"
+
+msgid "Unmemorialized"
+msgstr "غير مقدّم مذكرة"
+
+msgid "Unmemorized"
+msgstr "غير مستظهر"
+
+msgid "Unmentionable"
+msgstr "ممنوع الذكر"
+
+msgid "Unmentionables"
+msgstr "ممنوعة الذكر"
+
+msgid "Unmentionably"
+msgstr "بشكل ممنوع الذكر"
+
+msgid "Unmentioned"
+msgstr "غير مذكور"
+
+msgid "Unmerciful"
+msgstr "غير رحيم"
+
+msgid "Unmercifully"
+msgstr "بلا رحمة"
+
+msgid "Unmercifulness"
+msgstr "اللارحمة"
+
+msgid "Unmerciless"
+msgstr "قاسي جدّاً :: بلا رحمة"
+
+msgid "Unmerited"
+msgstr "غير مستحقّ"
+
+msgid "Unmeritorious"
+msgstr "غير جدير بالتقدير"
+
+msgid "Unmeshed"
+msgstr "غير متشبّك"
+
+msgid "Unmesmerized"
+msgstr "غير شاده"
+
+msgid "Unmet"
+msgstr "لم ينفّذ"
+
+msgid "Unmethodical"
+msgstr "غير منهجي"
+
+msgid "Unmew"
+msgstr "يطلق سراح :: يحرّر من القيود"
+
+msgid "Unmilitary"
+msgstr "غير عسكري"
+
+msgid "Unmindful"
+msgstr "غافل"
+
+msgid "Unmindfully"
+msgstr "بغفلة"
+
+msgid "Unmineralized"
+msgstr "غير ممعدن"
+
+msgid "Unmingled"
+msgstr "غير مختلط بالعناصر الدّخيلة"
+
+msgid "Unminimize"
+msgstr "غير يقلّل"
+
+msgid "Unminimized"
+msgstr "غير مقلّل"
+
+msgid "Unmissed"
+msgstr "غير مفتقد"
+
+msgid "Unmistakable"
+msgstr "واضح"
+
+msgid "Unmistakably"
+msgstr "بشكل واضح"
+
+msgid "Unmitigated"
+msgstr "تامّ"
+
+msgid "Unmitigatedly"
+msgstr "بدون تلطيف"
+
+msgid "Unmitigatedness"
+msgstr "عدم التلطيف"
+
+msgid "Unmitre"
+msgstr "يحرم من رتبة الأسقف :: يقيل من طبقة الأسقف"
+
+msgid "Unmixable"
+msgstr "غير قابل للمزج"
+
+msgid "Unmixed"
+msgstr "غير مختلط"
+
+msgid "Unmobilized"
+msgstr "غير معبّأ"
+
+msgid "Unmoderated"
+msgstr "مفتوح"
+
+msgid "Unmodernized"
+msgstr "غير عصري"
+
+msgid "Unmodest"
+msgstr "غير معتدل"
+
+msgid "Unmodifiable"
+msgstr "غير قابل للتعديل"
+
+msgid "Unmodified"
+msgstr "غير معدّل"
+
+msgid "Unmodulated"
+msgstr "غير متغيّر :: بلا تنغيم"
+
+msgid "Unmolested"
+msgstr "بدون تدخّل"
+
+msgid "Unmolestedly"
+msgstr "بشكل بدون تدخّل"
+
+msgid "Unmonopolized"
+msgstr "غير محتكر"
+
+msgid "Unmoral"
+msgstr "لا أخلاقي"
+
+msgid "Unmortgaged"
+msgstr "غير مرهون"
+
+msgid "Unmotivated"
+msgstr "غير مدفوع"
+
+msgid "Unmotorized"
+msgstr "غير ذو محرّك"
+
+msgid "Unmount"
+msgstr "يخفض"
+
+msgid "Unmountable"
+msgstr "غير صالح للركوب"
+
+msgid "Unmounted"
+msgstr "غير صاعد"
+
+msgid "Unmountedly"
+msgstr "بشكل خافض"
+
+msgid "Unmounting"
+msgstr "غير متزايد"
+
+msgid "Unmourned"
+msgstr "غير مندوب"
+
+msgid "Unmovable"
+msgstr "غير متحرّك"
+
+msgid "Unmovably"
+msgstr "بشكل غير متحرّك"
+
+msgid "Unmoved"
+msgstr "غير متأثّر"
+
+msgid "Unmovedly"
+msgstr "بشكل غير متأثّر"
+
+msgid "Unmoving"
+msgstr "غير مؤثّر"
+
+msgid "Unmown"
+msgstr "غير مقصوص"
+
+msgid "Unmurmuring"
+msgstr "غير تذمّر"
+
+msgid "Unmusical"
+msgstr "غير موسيقي"
+
+msgid "Unmuted"
+msgstr "غير صامت"
+
+msgid "Unmutilated"
+msgstr "بلا عيوب"
+
+msgid "Unmuzzle"
+msgstr "يزيل القناع الواقي من على وجه الكلب"
+
+msgid "Unnail"
+msgstr "يزيل المسامير"
+
+msgid "Unnameable"
+msgstr "غير مسمّى"
+
+msgid "Unnamed"
+msgstr "غير مسمّى"
+
+msgid "Unnamedly"
+msgstr "بشكل غير مسمّى"
+
+msgid "Unnationalized"
+msgstr "غير مؤمّم"
+
+msgid "Unnatural"
+msgstr "متصنّع"
+
+msgid "Unnaturalized"
+msgstr "مشوّه"
+
+msgid "Unnaturally"
+msgstr "بشكل متصنّع"
+
+msgid "Unnaturalness"
+msgstr "التصنّع"
+
+msgid "Unnavigable"
+msgstr "غير صالح للملاحة"
+
+msgid "Unnecessarily"
+msgstr "بشكل غير ضروري"
+
+msgid "Unnecessary"
+msgstr "غير ضروري"
+
+msgid "Unneeded"
+msgstr "غير مطلوب"
+
+msgid "Unnegated"
+msgstr "غير منفي"
+
+msgid "Unneighbored"
+msgstr "غير مجاور"
+
+msgid "Unneighborliness"
+msgstr "اللاودّيّة"
+
+msgid "Unneighborly"
+msgstr "غير ودّي"
+
+msgid "Unnervate"
+msgstr "يُضعِف"
+
+msgid "Unnerve"
+msgstr "أثر أعصاب"
+
+msgid "Unnerved"
+msgstr "ضعيف أعصاب"
+
+msgid "Unnerves"
+msgstr "يثير أعصاب"
+
+msgid "Unnerving"
+msgstr "إثارة أعصاب"
+
+msgid "Unnervingly"
+msgstr "بشكل مقلق"
+
+msgid "Unnesessarily"
+msgstr "ليس من الضّرورة :: غير مطلوب"
+
+msgid "Unnesessary"
+msgstr "ليس من الضّرورة :: غير مطلوب"
+
+msgid "Unneutralized"
+msgstr "غير محيّد"
+
+msgid "Unnormalized"
+msgstr "غير مطبّع"
+
+msgid "Unnoted"
+msgstr "غير ملحوظ"
+
+msgid "Unnoticeable"
+msgstr "غير ملحوظ :: لا يجذب الإنتباه"
+
+msgid "Unnoticeably"
+msgstr "غير بشكل ملحوظ"
+
+msgid "Unnoticed"
+msgstr "غير ملحوظ"
+
+msgid "Unnoticedly"
+msgstr "بشكل غير ملحوظ"
+
+msgid "Unnotify"
+msgstr "يتراجع عن إشعار معيّن :: يسحب لافتة معيّنة"
+
+msgid "Unnourished"
+msgstr "غير مغذّى"
+
+msgid "Unnumbered"
+msgstr "غير مرقّم"
+
+msgid "Unnun"
+msgstr "تتراجع عن كونها راهبة"
+
+msgid "Uno"
+msgstr "مدينة أونو"
+
+msgid "Unobjected"
+msgstr "غير معارض"
+
+msgid "Unobjectionable"
+msgstr "غير مكروه"
+
+msgid "Unobjectionably"
+msgstr "غير كريها"
+
+msgid "Unobliging"
+msgstr "غير خدوم"
+
+msgid "Unobscured"
+msgstr "غير محجوب"
+
+msgid "Unobservable"
+msgstr "غير جدير بالملاحظة"
+
+msgid "Unobservant"
+msgstr "غافل"
+
+msgid "Unobservantly"
+msgstr "بشكل غافل"
+
+msgid "Unobserved"
+msgstr "غير ملحوظ"
+
+msgid "Unobservedly"
+msgstr "بشكل غير ملحوظ"
+
+msgid "Unobserving"
+msgstr "غير ملاحظ"
+
+msgid "Unobstructed"
+msgstr "غير معرقل"
+
+msgid "Unobtainable"
+msgstr "غير متوفّر"
+
+msgid "Unobtrusive"
+msgstr "مخفي"
+
+msgid "Unobtrusively"
+msgstr "بشكل مخفي"
+
+msgid "Unobtrusiveness"
+msgstr "الإحتشام"
+
+msgid "Unobvious"
+msgstr "غير واضح"
+
+msgid "Unoccupied"
+msgstr "غير مشغول"
+
+msgid "Unoccupiedly"
+msgstr "بشكل غير مشغول"
+
+msgid "Unoffended"
+msgstr "غير مهان"
+
+msgid "Unoffending"
+msgstr "غير هجومي :: لا يسبّب التّذمّر :: لا يسبّب الأذى"
+
+msgid "Unoffensive"
+msgstr "غير هجومي"
+
+msgid "Unoffered"
+msgstr "غير معروض"
+
+msgid "Unofficial"
+msgstr "غير رسمي"
+
+msgid "Unofficially"
+msgstr "بشكل غير رسمي"
+
+msgid "Unoil"
+msgstr "يزيل الدّهن او الشّحم من"
+
+msgid "Unoiled"
+msgstr "غير مزيّت"
+
+msgid "Unopen"
+msgstr "غير مفتوح"
+
+msgid "Unopened"
+msgstr "غير مفتوح"
+
+msgid "Unoperative"
+msgstr "غير فعّال"
+
+msgid "Unopposed"
+msgstr "بدون معارضة"
+
+msgid "Unoppressed"
+msgstr "غير مضطهد"
+
+msgid "Unoppressive"
+msgstr "غير مستبدّ"
+
+msgid "Unoptimized"
+msgstr "غير محسّن"
+
+msgid "Unorder"
+msgstr "ينقض أمر ما"
+
+msgid "Unordered"
+msgstr "غير منظّم"
+
+msgid "Unorderly"
+msgstr "غير منظّم"
+
+msgid "Unorganizable"
+msgstr "غير قابل للتنظيم"
+
+msgid "Unorganized"
+msgstr "غير منظّم"
+
+msgid "Unorganizedly"
+msgstr "بشكل غير منظّم"
+
+msgid "Unoriented"
+msgstr "غير موجه"
+
+msgid "Unoriginal"
+msgstr "مزوّر"
+
+msgid "Unornamental"
+msgstr "غير تزييني"
+
+msgid "Unornamented"
+msgstr "التّجميل الغير بارع :: الزّخرفة الرّديئة"
+
+msgid "Unorthodox"
+msgstr "غير تقليديّ"
+
+msgid "Unorthodoxly"
+msgstr "بشكل غير تقليديّ"
+
+msgid "Unorthodoxy"
+msgstr "غير أرثذوكسي"
+
+msgid "Unostentatious"
+msgstr "غير متفاخر"
+
+msgid "Unostentatiously"
+msgstr "بغير تفاخر"
+
+msgid "Unowned"
+msgstr "غير مملوك"
+
+msgid "Unoxidized"
+msgstr "غير مكسد"
+
+msgid "Unpacified"
+msgstr "غير مهدوء"
+
+msgid "Unpack"
+msgstr "إفتح"
+
+msgid "Unpackaged"
+msgstr "غير معلّب"
+
+msgid "Unpacked"
+msgstr "مفتوح"
+
+msgid "Unpacker"
+msgstr "فاتح الحزم"
+
+msgid "Unpacking"
+msgstr "الفتح"
+
+msgid "Unpacks"
+msgstr "يفتح"
+
+msgid "Unpadded"
+msgstr "غير مبطّن"
+
+msgid "Unpaged"
+msgstr "غير مرقّم صفحات"
+
+msgid "Unpaid"
+msgstr "غير مدفوع"
+
+msgid "Unpaintable"
+msgstr "غير صالح للصبغ"
+
+msgid "Unpainted"
+msgstr "غير مصبوغ"
+
+msgid "Unpaired"
+msgstr "غير مزاوج"
+
+msgid "Unpalatability"
+msgstr "عدم الاستساغة"
+
+msgid "Unpalatable"
+msgstr "غير مستساغ"
+
+msgid "Unpalatably"
+msgstr "بشكل غير مستساغ"
+
+msgid "Unparallel"
+msgstr "غير متوازي"
+
+msgid "Unparalleled"
+msgstr "فريد"
+
+msgid "Unpardonable"
+msgstr "لايغتفر"
+
+msgid "Unpardonably"
+msgstr "بشكل لايغتفر"
+
+msgid "Unpardoned"
+msgstr "غير معفو عن"
+
+msgid "Unparliamentary"
+msgstr "غير برلماني"
+
+msgid "Unparsed"
+msgstr "غير معرب"
+
+msgid "Unpartisan"
+msgstr "غير تحزبي"
+
+msgid "Unpartitioned"
+msgstr "غير مقسّم"
+
+msgid "Unpassable"
+msgstr "لا يمكن المرور من خلاله"
+
+msgid "Unpasteurized"
+msgstr "غير مبستر"
+
+msgid "Unpatented"
+msgstr "غير مسجّل براءة إختراع"
+
+msgid "Unpatriotic"
+msgstr "مخالف للوطنية"
+
+msgid "Unpatriotically"
+msgstr "غير بوطنية"
+
+msgid "Unpatronized"
+msgstr "غير مأمور"
+
+msgid "Unpatronizing"
+msgstr "غير سلطوي"
+
+msgid "Unpatterned"
+msgstr "نمط رديء وبلا ألوان"
+
+msgid "Unpause"
+msgstr "غير مهلة"
+
+msgid "Unpaved"
+msgstr "غير معبّد"
+
+msgid "Unpeace"
+msgstr "اللا سِلْم :: الحرب"
+
+msgid "Unpedagogical"
+msgstr "غير تربوي"
+
+msgid "Unpeg"
+msgstr "يزيل الشّمّاعة :: يفكّ وثاق :: يحرّر"
+
+msgid "Unpen"
+msgstr "يطلق سراحه من السّجن"
+
+msgid "Unpenalized"
+msgstr "غير معاقب"
+
+msgid "Unpent"
+msgstr "غير محصور"
+
+msgid "Unpeopled"
+msgstr "خالي من السكان"
+
+msgid "Unperceivable"
+msgstr "مستحيل أو صعب الإدراك بالعقل أو الحواسّ"
+
+msgid "Unperceived"
+msgstr "غير محسوس"
+
+msgid "Unperceivedly"
+msgstr "بشكل غير محسوس"
+
+msgid "Unperfect"
+msgstr "غير تامّ او كامل :: يفسد الكمال"
+
+msgid "Unperfected"
+msgstr "غير متقن"
+
+msgid "Unperfectness"
+msgstr "النّقص :: إنتفاء صفة الكمال"
+
+msgid "Unperforated"
+msgstr "غير مثقّب"
+
+msgid "Unperformable"
+msgstr "غير قابل للإداء"
+
+msgid "Unperformed"
+msgstr "غير مؤدّى"
+
+msgid "Unperilous"
+msgstr "غير خطر"
+
+msgid "Unpermissiveness"
+msgstr "إنتفاء صفة التّسامح"
+
+msgid "Unperplex"
+msgstr "يحرّر من التّخبّط :: يوْقِف الحيْرة"
+
+msgid "Unpersuadable"
+msgstr "غير قابل للإقناع"
+
+msgid "Unpersuaded"
+msgstr "غير مقنع"
+
+msgid "Unpersuasive"
+msgstr "غير مقنع"
+
+msgid "Unpersuasiveness"
+msgstr "العجز عن الإقناع :: عدم المقدرة على الإقناع"
+
+msgid "Unperturbed"
+msgstr "رابط الجأش"
+
+msgid "Unperturbedly"
+msgstr "بشكل رابط الجأش"
+
+msgid "Unphilosophized"
+msgstr "غير مفلسف"
+
+msgid "Unphonetic"
+msgstr "غير صوتي"
+
+msgid "Unphysical"
+msgstr "غير طبيعي"
+
+msgid "Unpick"
+msgstr "إفتح"
+
+msgid "Unpicked"
+msgstr "مفتوح"
+
+msgid "Unpicturesque"
+msgstr "غير رائع"
+
+msgid "Unpigmented"
+msgstr "بلا ألوان :: بلا أصباغ :: غير ملوّن"
+
+msgid "Unpin"
+msgstr "إفتح"
+
+msgid "Unpinned"
+msgstr "مفتوح"
+
+msgid "Unpinning"
+msgstr "الفتح"
+
+msgid "Unpins"
+msgstr "يفتح"
+
+msgid "Unpitying"
+msgstr "غير إستخطاء"
+
+msgid "Unplaced"
+msgstr "بدون مكان"
+
+msgid "Unplagued"
+msgstr "غير مصاب"
+
+msgid "Unplanned"
+msgstr "غير مخطّط"
+
+msgid "Unplanted"
+msgstr "غير مزروع"
+
+msgid "Unplayable"
+msgstr "غير قابل للعب"
+
+msgid "Unplayed"
+msgstr "غير لعب"
+
+msgid "Unpleasant"
+msgstr "غير سار"
+
+msgid "Unpleasantly"
+msgstr "على نحو كريه"
+
+msgid "Unpleasantness"
+msgstr "الكراهة"
+
+msgid "Unpleasantries"
+msgstr "تعليق مرير :: وضع مرير :: عمل مرير"
+
+msgid "Unpleased"
+msgstr "غير مسرور"
+
+msgid "Unpleasing"
+msgstr "غير سارّ"
+
+msgid "Unpleated"
+msgstr "غير مطوي"
+
+msgid "Unpledged"
+msgstr "غير متعهّد"
+
+msgid "Unplowed"
+msgstr "غير محروث"
+
+msgid "Unplucked"
+msgstr "غير سحب"
+
+msgid "Unplug"
+msgstr "إفصل"
+
+msgid "Unplugged"
+msgstr "منزوع القابس"
+
+msgid "Unplugging"
+msgstr "الفصل"
+
+msgid "Unplugs"
+msgstr "يفصل"
+
+msgid "Unplumbed"
+msgstr "غير معدّل"
+
+msgid "Unpoetic"
+msgstr "غير شاعري"
+
+msgid "Unpoetical"
+msgstr "غير شاعري"
+
+msgid "Unpointed"
+msgstr "غير مدبّب"
+
+msgid "Unpointedness"
+msgstr "بلا رأس مدبّب"
+
+msgid "Unpoised"
+msgstr "غير رزين :: غير متوازن"
+
+msgid "Unpolarized"
+msgstr "غير مستقطب"
+
+msgid "Unpolished"
+msgstr "غير ملمّع"
+
+msgid "Unpolite"
+msgstr "وقح :: فض :: قليل الأدب"
+
+msgid "Unpolitic"
+msgstr "غير معقول :: طائش :: غير حكيم"
+
+msgid "Unpolitical"
+msgstr "غير سياسي"
+
+msgid "Unpolled"
+msgstr "غير منيل"
+
+msgid "Unpolluted"
+msgstr "غير ملوّث"
+
+msgid "Unpollutedly"
+msgstr "بشكل غير ملوّث"
+
+msgid "Unpopular"
+msgstr "مكروه"
+
+msgid "Unpopularity"
+msgstr "اللاشعبية"
+
+msgid "Unpopularly"
+msgstr "بشكل غير شعبي"
+
+msgid "Unpopulated"
+msgstr "خالي من السكان"
+
+msgid "Unportable"
+msgstr "غير نقّال"
+
+msgid "Unportunate"
+msgstr "لحوح :: كثير الطّلبات :: متعب في الطّلب"
+
+msgid "Unpossible"
+msgstr "مستحيل :: لايطاق :: متعذّر"
+
+msgid "Unpracticable"
+msgstr "غير عملي :: خيالي :: متعذّر التّنفيذ :: غير قابل للتّطبيق"
+
+msgid "Unpractical"
+msgstr "غير عملي"
+
+msgid "Unpractically"
+msgstr "بشكل غير عملي"
+
+msgid "Unpracticed"
+msgstr "غير ممارس"
+
+msgid "Unpractised"
+msgstr "لم يتلقّ التّدريب المكثّف بشكل وافي"
+
+msgid "Unpreach"
+msgstr "يطيح او يبطل عمل ما عن طريق الخطابة"
+
+msgid "Unprecedented"
+msgstr "لم يسبق له مثيل"
+
+msgid "Unprecedentedly"
+msgstr "بشكل لم يسبق له مثيل"
+
+msgid "Unpredictability"
+msgstr "التقلب"
+
+msgid "Unpredictable"
+msgstr "متقلّب"
+
+msgid "Unpredictably"
+msgstr "غير بشكل متوقع"
+
+msgid "Unpredicted"
+msgstr "غير متوّقع"
+
+msgid "Unprejudiced"
+msgstr "غير متحيّز"
+
+msgid "Unprejudicedly"
+msgstr "بشكل غير متحيّز"
+
+msgid "Unpremeditated"
+msgstr "غير متعمّد"
+
+msgid "Unpreoccupied"
+msgstr "غير مشغول"
+
+msgid "Unprepared"
+msgstr "غير مستعد"
+
+msgid "Unpreparedly"
+msgstr "بشكل غير مستعد"
+
+msgid "Unprepossessing"
+msgstr "تكوين الانطباع الأوّل الحياديّ أو السيّئ"
+
+msgid "Unprescribed"
+msgstr "غير موصوف"
+
+msgid "Unpresentable"
+msgstr "غير صالح للتقديم"
+
+msgid "Unpreserved"
+msgstr "غير محفوظ"
+
+msgid "Unpressed"
+msgstr "غير مضغوط"
+
+msgid "Unpretending"
+msgstr "متواضع"
+
+msgid "Unpretendingly"
+msgstr "بشكل متواضع"
+
+msgid "Unpretentious"
+msgstr "متواضع"
+
+msgid "Unpretentiously"
+msgstr "بشكل متواضع"
+
+msgid "Unpretentiousness"
+msgstr "التّواضع"
+
+msgid "Unprevented"
+msgstr "غير مسبوق"
+
+msgid "Unpriced"
+msgstr "غير مسعّر"
+
+msgid "Unprimed"
+msgstr "غير معبّى"
+
+msgid "Unprimitive"
+msgstr "غير بدائي"
+
+msgid "Unprincipled"
+msgstr "غير مبدئي"
+
+msgid "Unprincipledly"
+msgstr "بشكل غير مبدئي"
+
+msgid "Unprincipledness"
+msgstr "اللامبدئية"
+
+msgid "Unprintable"
+msgstr "غير صالح للطبع"
+
+msgid "Unprinted"
+msgstr "غير مطبوع"
+
+msgid "Unprivileged"
+msgstr "غير صاحب امتيازات"
+
+msgid "Unprizable"
+msgstr "باهض التّكاليف :: غالي الثّمن"
+
+msgid "Unproblematic"
+msgstr "غير صعب"
+
+msgid "Unproblematical"
+msgstr "غير صعب"
+
+msgid "Unprocessed"
+msgstr "غير مصنّع"
+
+msgid "Unprocurable"
+msgstr "صعب المراس"
+
+msgid "Unproductive"
+msgstr "غير منتج"
+
+msgid "Unproductively"
+msgstr "بشكل غير منتج"
+
+msgid "Unproductiveness"
+msgstr "عدم الإنتاجية"
+
+msgid "Unprofessional"
+msgstr "غير محترف"
+
+msgid "Unprofessionally"
+msgstr "بشكل غير محترف"
+
+msgid "Unprofitability"
+msgstr "اللا ربح :: بدون أرباح أو فوائد"
+
+msgid "Unprofitable"
+msgstr "غير مربح"
+
+msgid "Unprofitableness"
+msgstr "عدم الإرباح"
+
+msgid "Unprofitably"
+msgstr "بشكل غير مربح"
+
+msgid "Unprohibited"
+msgstr "غير محرّم"
+
+msgid "Unprojected"
+msgstr "غير متوقّع"
+
+msgid "Unpromising"
+msgstr "غير مرجو النجاح"
+
+msgid "Unpromisingly"
+msgstr "بشكل غير مرجو النجاح"
+
+msgid "Unprompted"
+msgstr "عفوي"
+
+msgid "Unpronounceable"
+msgstr "غير واضح"
+
+msgid "Unpropagated"
+msgstr "غير مكاثر"
+
+msgid "Unproper"
+msgstr "غريب :: غير لائق :: غير محتشم :: غير صحيح"
+
+msgid "Unpropertied"
+msgstr "غير مالك"
+
+msgid "Unpropitious"
+msgstr "غير مواتي"
+
+msgid "Unpropped"
+msgstr "مضعف"
+
+msgid "Unprotect"
+msgstr "غير يحمي"
+
+msgid "Unprotected"
+msgstr "غير محمي"
+
+msgid "Unprotectedly"
+msgstr "بشكل غير محمي"
+
+msgid "Unprotection"
+msgstr "غير حماية"
+
+msgid "Unprovability"
+msgstr "عدم إمكانيّة البرهنة"
+
+msgid "Unprovable"
+msgstr "غير قابل للبرهان"
+
+msgid "Unproved"
+msgstr "غير مثبت"
+
+msgid "Unprovedly"
+msgstr "بشكل غير مثبت"
+
+msgid "Unproven"
+msgstr "غير مثبت"
+
+msgid "Unprovided"
+msgstr "معدم"
+
+msgid "Unprovident"
+msgstr "قصير النّظر :: مسرف :: مبذّر"
+
+msgid "Unprovocative"
+msgstr "غير إستفزازي"
+
+msgid "Unprovoked"
+msgstr "بدون تحفيز أو تحرّش"
+
+msgid "Unpruned"
+msgstr "غير مشذّب"
+
+msgid "Unpublished"
+msgstr "غير منشور"
+
+msgid "Unpulverized"
+msgstr "غير مسحوق"
+
+msgid "Unpunched"
+msgstr "غير مثقوب"
+
+msgid "Unpunctual"
+msgstr "غير حريص"
+
+msgid "Unpunished"
+msgstr "بدون عقاب"
+
+msgid "Unpure"
+msgstr "غير نقي :: غير صافي :: ملوّث"
+
+msgid "Unpurified"
+msgstr "غير منقّى"
+
+msgid "Unqualified"
+msgstr "غير مؤهّل"
+
+msgid "Unqualifiedly"
+msgstr "بشكل غير مؤهّل"
+
+msgid "Unquantifiable"
+msgstr "غير قابل للقياس"
+
+msgid "Unquenchable"
+msgstr "غير قابل للإخماد"
+
+msgid "Unquenchably"
+msgstr "بشكل غير قابل للإخماد"
+
+msgid "Unquenched"
+msgstr "غير مروي"
+
+msgid "Unquestionable"
+msgstr "مؤكّد"
+
+msgid "Unquestionably"
+msgstr "بما لاشكّ فيه"
+
+msgid "Unquestioned"
+msgstr "مؤكّد"
+
+msgid "Unquestioning"
+msgstr "مطلق"
+
+msgid "Unquestioningly"
+msgstr "بشكل مطلق"
+
+msgid "Unquiet"
+msgstr "قلق"
+
+msgid "Unquietly"
+msgstr "بشكل قلق"
+
+msgid "Unquietness"
+msgstr "القلق"
+
+msgid "Unquote"
+msgstr "اختم كلاماً مقتبساً"
+
+msgid "Unquoted"
+msgstr "ختم كلاماً مقتبساً"
+
+msgid "Unquoting"
+msgstr "ختم كلام مقتبس"
+
+msgid "Unraised"
+msgstr "مصنوع أو معمول بدون خميرة"
+
+msgid "Unranked"
+msgstr "غير مصنّف"
+
+msgid "Unratable"
+msgstr "غير قابل للتقدير"
+
+msgid "Unrated"
+msgstr "غير مقدّر"
+
+msgid "Unravel"
+msgstr "تكشّف"
+
+msgid "Unraveled"
+msgstr "متكشّف"
+
+msgid "Unraveling"
+msgstr "التكشّف"
+
+msgid "Unravelled"
+msgstr "متكشّف"
+
+msgid "Unravelling"
+msgstr "التكشّف"
+
+msgid "Unravels"
+msgstr "يتكشّف"
+
+msgid "Unreachable"
+msgstr "بعيد المنال"
+
+msgid "Unreacted"
+msgstr "غير مردود"
+
+msgid "Unreactive"
+msgstr "غير تفاعلي"
+
+msgid "Unread"
+msgstr "غير مقروء"
+
+msgid "Unreadability"
+msgstr "غير مقروئية"
+
+msgid "Unreadable"
+msgstr "غير صالح للقراءة"
+
+msgid "Unreadably"
+msgstr "بشكل غير مقروء"
+
+msgid "Unreadily"
+msgstr "غير بسهولة"
+
+msgid "Unreadiness"
+msgstr "عدم الجهوزيّة"
+
+msgid "Unready"
+msgstr "غير جاهز"
+
+msgid "Unreal"
+msgstr "غير واقعي"
+
+msgid "Unrealism"
+msgstr "غير واقعية"
+
+msgid "Unrealistic"
+msgstr "غير واقعي"
+
+msgid "Unrealistically"
+msgstr "غير بواقعية"
+
+msgid "Unreality"
+msgstr "الوهمية"
+
+msgid "Unrealizable"
+msgstr "غير قابل للتحقيق"
+
+msgid "Unrealized"
+msgstr "غير مدرك"
+
+msgid "Unreally"
+msgstr "بشكل غير واقعي"
+
+msgid "Unreason"
+msgstr "الجهالة"
+
+msgid "Unreasonable"
+msgstr "غير معقول"
+
+msgid "Unreasonableness"
+msgstr "عدم التعقّل"
+
+msgid "Unreasonably"
+msgstr "بشكل غير معقول"
+
+msgid "Unreasoning"
+msgstr "غير معقول"
+
+msgid "Unreasoningly"
+msgstr "بشكل غير معقول"
+
+msgid "Unreassuringly"
+msgstr "بغير شكل تطميني"
+
+msgid "Unreceptive"
+msgstr "غير تقبّلي"
+
+msgid "Unreciprocated"
+msgstr "غير ممتن بالجميل"
+
+msgid "Unreckoned"
+msgstr "غير محسوب"
+
+msgid "Unrecognizable"
+msgstr "مستحيل التمييز"
+
+msgid "Unrecognizably"
+msgstr "بشكل لايمكن تمييزه"
+
+msgid "Unrecognized"
+msgstr "غير معترف به"
+
+msgid "Unrecognizing"
+msgstr "غير إعتراف"
+
+msgid "Unreconcilable"
+msgstr "صعب الإصلاح :: صعب التّوفيق :: صعب في تسوية الخلاف"
+
+msgid "Unreconciled"
+msgstr "غير مصالح"
+
+msgid "Unreconstructed"
+msgstr "غير معاد بناء"
+
+msgid "Unrecordable"
+msgstr "غير قابل للتسجيل"
+
+msgid "Unrecorded"
+msgstr "غير مسجّل"
+
+msgid "Unrecounted"
+msgstr "غير معاد حساب"
+
+msgid "Unrecoverable"
+msgstr "غير قابل للإسترداد"
+
+msgid "Unredeemable"
+msgstr "غير قابل للإسترداد"
+
+msgid "Unredeemed"
+msgstr "غير معوّض"
+
+msgid "Unreduced"
+msgstr "غير مخفّض"
+
+msgid "Unreducible"
+msgstr "غير قابل للتخفيض"
+
+msgid "Unreel"
+msgstr "حلّ"
+
+msgid "Unreeled"
+msgstr "محلول"
+
+msgid "Unreeling"
+msgstr "الحلّ"
+
+msgid "Unreels"
+msgstr "يحلّ"
+
+msgid "Unreferenced"
+msgstr "غير مرجع"
+
+msgid "Unrefined"
+msgstr "غير مصفّى"
+
+msgid "Unreflected"
+msgstr "غير منعكس"
+
+msgid "Unreflective"
+msgstr "غير عاكس"
+
+msgid "Unreformable"
+msgstr "فاسد"
+
+msgid "Unreformed"
+msgstr "غير منصلح"
+
+msgid "Unrefreshed"
+msgstr "غير منعش"
+
+msgid "Unregenerate"
+msgstr "رديء بدرجة ميئوس منها :: لافائدة ترجى منه"
+
+msgid "Unregister"
+msgstr "غير سجلّ"
+
+msgid "Unregistered"
+msgstr "غير مسجّل"
+
+msgid "Unregistering"
+msgstr "غير تسجيل"
+
+msgid "Unregretted"
+msgstr "غير أسف"
+
+msgid "Unregulated"
+msgstr "غير منظّم"
+
+msgid "Unrehearsed"
+msgstr "غير متدرّب عليه"
+
+msgid "Unreinforced"
+msgstr "غير مدعوم"
+
+msgid "Unrelated"
+msgstr "غير مرتبط"
+
+msgid "Unreleased"
+msgstr "غير مصدر"
+
+msgid "Unrelenting"
+msgstr "شديد"
+
+msgid "Unrelentingly"
+msgstr "بشكل شديد"
+
+msgid "Unreliability"
+msgstr "غير ثقة"
+
+msgid "Unreliable"
+msgstr "عديم الثقة"
+
+msgid "Unreliableness"
+msgstr "انعدام الثقة"
+
+msgid "Unreliably"
+msgstr "بشكل غير موثوق"
+
+msgid "Unrelievable"
+msgstr "غير قابل للشفاء"
+
+msgid "Unrelieved"
+msgstr "غير مرتاح"
+
+msgid "Unrelievedly"
+msgstr "بشكل غير مرتاح"
+
+msgid "Unreligious"
+msgstr "زنديق :: غير متديّن"
+
+msgid "Unremarkable"
+msgstr "عادي"
+
+msgid "Unremarkably"
+msgstr "بشكل عادي"
+
+msgid "Unremarked"
+msgstr "غير مشار"
+
+msgid "Unremedied"
+msgstr "غير معالج"
+
+msgid "Unremitting"
+msgstr "متواصل"
+
+msgid "Unremittingly"
+msgstr "بشكل متواصل"
+
+msgid "Unremunerated"
+msgstr "غير مكافأ"
+
+msgid "Unremunerative"
+msgstr "غير مدفوع الأجر"
+
+msgid "Unrenewed"
+msgstr "غير مجدّد"
+
+msgid "Unrented"
+msgstr "غير مستأجر"
+
+msgid "Unreorganized"
+msgstr "غير معاد تنظيم"
+
+msgid "Unrepaired"
+msgstr "غير مصلّح"
+
+msgid "Unrepealed"
+msgstr "غير مبطل"
+
+msgid "Unrepeatable"
+msgstr "فريد :: لا يوجد مثله"
+
+msgid "Unrepentant"
+msgstr "غير تائب"
+
+msgid "Unrepenting"
+msgstr "غير نادم"
+
+msgid "Unrepentingly"
+msgstr "غير توبة"
+
+msgid "Unrepining"
+msgstr "غير تشكّي"
+
+msgid "Unrepiningly"
+msgstr "غير بتذمر"
+
+msgid "Unreported"
+msgstr "غير مسجّل"
+
+msgid "Unrepresentable"
+msgstr "غير قابل للتمثيل"
+
+msgid "Unrepresentative"
+msgstr "غير تمثيلي"
+
+msgid "Unrepresented"
+msgstr "غير ممثّل"
+
+msgid "Unrepressed"
+msgstr "غير مكبوت"
+
+msgid "Unreprievable"
+msgstr "لا يمكن إرجائه :: لا يمكن تأجيله :: يجب تنفيذه في الحال"
+
+msgid "Unreproachful"
+msgstr "غير تأنيبي"
+
+msgid "Unreproducible"
+msgstr "غير قابل للإنتاج"
+
+msgid "Unreproducibly"
+msgstr "بصورة غير قابلة للتّكرار او إعادة الإنتاج"
+
+msgid "Unrequested"
+msgstr "غير مطلوب"
+
+msgid "Unrequited"
+msgstr "غير متبادل"
+
+msgid "Unrequitedly"
+msgstr "بشكل غير متبادل"
+
+msgid "Unresembling"
+msgstr "غير شبه"
+
+msgid "Unresented"
+msgstr "غير مستاء من"
+
+msgid "Unreserved"
+msgstr "صريح"
+
+msgid "Unreservedly"
+msgstr "بشكل صريح"
+
+msgid "Unreservedness"
+msgstr "عدم التحفّظ"
+
+msgid "Unresigned"
+msgstr "غير مستقيل"
+
+msgid "Unresistant"
+msgstr "غير مقاوم"
+
+msgid "Unresisted"
+msgstr "غير مقاوم"
+
+msgid "Unresistible"
+msgstr "شديد الإغواء :: لايقاوم :: مغري :: رائع"
+
+msgid "Unresisting"
+msgstr "دون مقاومة"
+
+msgid "Unresistingly"
+msgstr "بشكل غير مقاوم"
+
+msgid "Unresolvable"
+msgstr "لا يمكن حلّه :: من الصّعب إيجاد حل له"
+
+msgid "Unresolved"
+msgstr "عالق"
+
+msgid "Unrespect"
+msgstr "يزدري :: إزدراء :: إستهتار :: قلّة إحترام"
+
+msgid "Unrespectable"
+msgstr "غير جدير بالإحترام :: لايستحق الإحترام"
+
+msgid "Unrespectful"
+msgstr "غير محترم"
+
+msgid "Unrespectfully"
+msgstr "غير متسم بالإحترام"
+
+msgid "Unresponsible"
+msgstr "مستهتر :: غير مسؤول :: غير قادر على تحمّل المسؤوليّة"
+
+msgid "Unresponsive"
+msgstr "هامل"
+
+msgid "Unresponsively"
+msgstr "بشكل هامل"
+
+msgid "Unresponsiveness"
+msgstr "عدم التجاوب"
+
+msgid "Unrest"
+msgstr "الإضطراب"
+
+msgid "Unresting"
+msgstr "غير إرتياح"
+
+msgid "Unrestrainable"
+msgstr "غير قابل للكبح"
+
+msgid "Unrestrained"
+msgstr "غير مقيّد"
+
+msgid "Unrestrainedly"
+msgstr "بشكل غير مقيّد"
+
+msgid "Unrestrainedness"
+msgstr "عدم التّقيّد"
+
+msgid "Unrestraint"
+msgstr "غير ضبط نفس"
+
+msgid "Unrestricted"
+msgstr "غير مقيّد"
+
+msgid "Unrestrictedly"
+msgstr "بشكل غير مقيّد"
+
+msgid "Unrestrictive"
+msgstr "غير تقييدي"
+
+msgid "Unrests"
+msgstr "الإضطرابات"
+
+msgid "Unretentive"
+msgstr "ليست له ذاكرة قويّة :: لايحفظ جيّداً"
+
+msgid "Unreticent"
+msgstr "غير كتوم"
+
+msgid "Unretracted"
+msgstr "غير منسحب"
+
+msgid "Unretrievable"
+msgstr "صعب الإسترداد :: لا يمكن تعويضه :: لا يمكن إرجاعه"
+
+msgid "Unreturned"
+msgstr "غير معاد"
+
+msgid "Unrevealed"
+msgstr "غير معلن"
+
+msgid "Unrevealing"
+msgstr "غير مدهش"
+
+msgid "Unreverence"
+msgstr "إستهتار :: عدم التّوقير :: عمل ينم عن عدم التّوقير"
+
+msgid "Unrevised"
+msgstr "غير مراجع"
+
+msgid "Unrevoked"
+msgstr "غير مبطل"
+
+msgid "Unrewarded"
+msgstr "فاشل"
+
+msgid "Unrewarding"
+msgstr "غير مجزي"
+
+msgid "Unrhetorical"
+msgstr "غير بلاغي :: غير بياني"
+
+msgid "Unrhymed"
+msgstr "غير مقفّى"
+
+msgid "Unrhythmical"
+msgstr "غير متناغم :: غير إيقاعي"
+
+msgid "Unriddle"
+msgstr "حلّ"
+
+msgid "Unriddled"
+msgstr "محلول"
+
+msgid "Unriddles"
+msgstr "يحلّ"
+
+msgid "Unriddling"
+msgstr "الحلّ"
+
+msgid "Unrifled"
+msgstr "غير مسروق"
+
+msgid "Unrig"
+msgstr "غير زيّ"
+
+msgid "Unright"
+msgstr "غير صحيح"
+
+msgid "Unrighteous"
+msgstr "أثيم"
+
+msgid "Unrighteously"
+msgstr "بشكل أثيم"
+
+msgid "Unrighteousness"
+msgstr "الإثم"
+
+msgid "Unrightful"
+msgstr "غير شرعي"
+
+msgid "Unrip"
+msgstr "يشق :: يفتح :: يمزّق"
+
+msgid "Unripe"
+msgstr "غير ناضج"
+
+msgid "Unripely"
+msgstr "بشكل غير ناضج"
+
+msgid "Unripened"
+msgstr "غير ناضج"
+
+msgid "Unripeness"
+msgstr "عدم النّضج"
+
+msgid "Unrivaled"
+msgstr "لانظير له"
+
+msgid "Unrivalled"
+msgstr "لانظير له"
+
+msgid "Unrivalledly"
+msgstr "بشكل لانظير له"
+
+msgid "Unroasted"
+msgstr "غير محمّص"
+
+msgid "Unrobe"
+msgstr "يخلع :: يخلع الرّداء :: يخلع الملابس"
+
+msgid "Unrol"
+msgstr "يفتح الملابس المطويّة :: يفتح العلم المطوي :: يُظْهر"
+
+msgid "Unroll"
+msgstr "إفتح"
+
+msgid "Unrolled"
+msgstr "مفتوح"
+
+msgid "Unrolling"
+msgstr "الفتح"
+
+msgid "Unrolls"
+msgstr "يفتح"
+
+msgid "Unromantic"
+msgstr "غير رومانسي"
+
+msgid "Unromantically"
+msgstr "بغير رومانسية"
+
+msgid "Unroof"
+msgstr "غير مسقوف"
+
+msgid "Unroot"
+msgstr "يستأصل من الجذور :: يجتثّ :: يبيد"
+
+msgid "Unrotated"
+msgstr "غير مدار"
+
+msgid "Unrude"
+msgstr "غير وقح"
+
+msgid "Unruffled"
+msgstr "هادئ"
+
+msgid "Unruled"
+msgstr "غير محكوم"
+
+msgid "Unrulier"
+msgstr "منفلت"
+
+msgid "Unruliest"
+msgstr "منفلت"
+
+msgid "Unruliness"
+msgstr "التمرد"
+
+msgid "Unruly"
+msgstr "منفلت"
+
+msgid "Unrumored"
+msgstr "غير مشاع"
+
+msgid "Unsacred"
+msgstr "غير مقدّس"
+
+msgid "Unsad"
+msgstr "متقلّب :: متلوّن :: متحوّل :: متغيّر"
+
+msgid "Unsaddle"
+msgstr "إنزع سرج"
+
+msgid "Unsaddled"
+msgstr "منزوع سرج"
+
+msgid "Unsaddles"
+msgstr "ينزع سرج"
+
+msgid "Unsaddling"
+msgstr "نزع سرج"
+
+msgid "Unsafe"
+msgstr "خطر"
+
+msgid "Unsafely"
+msgstr "بشكل خطر"
+
+msgid "Unsaid"
+msgstr "لم يذكر"
+
+msgid "Unsaint"
+msgstr "لا يتورّع :: لايُحرّم :: غير مُقدّس"
+
+msgid "Unsaintly"
+msgstr "غير قدسي"
+
+msgid "Unsalable"
+msgstr "من المستحيل او الصعب بيعُه"
+
+msgid "Unsalaried"
+msgstr "غير ذو مرتّب"
+
+msgid "Unsaleable"
+msgstr "غير قابل للبيع"
+
+msgid "Unsalted"
+msgstr "غير مملّح"
+
+msgid "Unsalty"
+msgstr "لا يتمتّع بمذاق مالح"
+
+msgid "Unsanctified"
+msgstr "غير مقدّس لأنّه غير منذور لله أو لأنّه قذر"
+
+msgid "Unsanctioned"
+msgstr "بلا تفويض أو اذن قانوني معيّن"
+
+msgid "Unsanded"
+msgstr "الخشب الغير مصنفر :: الخشب الغير منعّم"
+
+msgid "Unsanitarily"
+msgstr "غير صحيا"
+
+msgid "Unsanitary"
+msgstr "غير صحّي"
+
+msgid "Unsated"
+msgstr "غير راضي"
+
+msgid "Unsatiable"
+msgstr "مستحيل الإشباع أو الإرضاء"
+
+msgid "Unsatiate"
+msgstr "لا يشبع :: نهم"
+
+msgid "Unsatiated"
+msgstr "مستحيل الإشباع أو الإرضاء:: غير شبعان :: غير راضي"
+
+msgid "Unsatisfaction"
+msgstr "استياء :: سخط :: تبرّم"
+
+msgid "Unsatisfactorily"
+msgstr "بشكل غير مرضي"
+
+msgid "Unsatisfactory"
+msgstr "غير مرض"
+
+msgid "Unsatisfiable"
+msgstr "غير قابل للإرضاء"
+
+msgid "Unsatisfied"
+msgstr "غير مقتنع"
+
+msgid "Unsatisfiedly"
+msgstr "بشكل غير مقتنع"
+
+msgid "Unsatisfying"
+msgstr "غير مرضي"
+
+msgid "Unsatisfyingly"
+msgstr "بشكل غير مرضي"
+
+msgid "Unsaturated"
+msgstr "غير مشبّع"
+
+msgid "Unsaturation"
+msgstr "حالة اللا تشبّع"
+
+msgid "Unsaved"
+msgstr "غير محفوظ"
+
+msgid "Unsavored"
+msgstr "بلا طعم"
+
+msgid "Unsavorily"
+msgstr "بشكل مهين أخلاقياً"
+
+msgid "Unsavoriness"
+msgstr "التَّفاهة"
+
+msgid "Unsavory"
+msgstr "بلاطعم"
+
+msgid "Unsavoury"
+msgstr "مهين أخلاقياً"
+
+msgid "Unsay"
+msgstr "إسحب كلام"
+
+msgid "Unsaying"
+msgstr "سحب كلام"
+
+msgid "Unscaled"
+msgstr "غير مقيس"
+
+msgid "Unscandalized"
+msgstr "غير مروّع"
+
+msgid "Unscarred"
+msgstr "غير مخدوش"
+
+msgid "Unscathed"
+msgstr "غير منتقد بشدّة"
+
+msgid "Unscheduled"
+msgstr "غير محدّد"
+
+msgid "Unscholarly"
+msgstr "غير علمي"
+
+msgid "Unschooled"
+msgstr "غير تعلّم"
+
+msgid "Unscientific"
+msgstr "لاعلمي"
+
+msgid "Unscientifically"
+msgstr "بشكل غير علمي"
+
+msgid "Unscramble"
+msgstr "حلّ"
+
+msgid "Unscrambled"
+msgstr "محلول"
+
+msgid "Unscrambler"
+msgstr "غير مفتاح"
+
+msgid "Unscrambles"
+msgstr "يحلّ"
+
+msgid "Unscrambling"
+msgstr "الحلّ"
+
+msgid "Unscratched"
+msgstr "غير مخدوش"
+
+msgid "Unscreened"
+msgstr "غير معروض"
+
+msgid "Unscrew"
+msgstr "فكّ"
+
+msgid "Unscrewed"
+msgstr "مفكوك"
+
+msgid "Unscrewing"
+msgstr "الفكّ"
+
+msgid "Unscrews"
+msgstr "يفكّ"
+
+msgid "Unscripted"
+msgstr "مرتجل"
+
+msgid "Unscriptural"
+msgstr "غير ديني"
+
+msgid "Unscrupulous"
+msgstr "عديم الضمير"
+
+msgid "Unscrupulously"
+msgstr "بشكل عديم الضمير"
+
+msgid "Unscrupulousness"
+msgstr "انعدام الضمير"
+
+msgid "Unscrutinized"
+msgstr "غير مفحوص بدقّة"
+
+msgid "Unscrutinizing"
+msgstr "غير فحص بدقّة"
+
+msgid "Unseal"
+msgstr "إفتح"
+
+msgid "Unsealed"
+msgstr "مفتوح"
+
+msgid "Unsealing"
+msgstr "الفتح"
+
+msgid "Unseals"
+msgstr "يفتح"
+
+msgid "Unseamed"
+msgstr "غير مدرّز :: لم يُحكْ :: غير ملفّق"
+
+msgid "Unsearchable"
+msgstr "خفيّ"
+
+msgid "Unsearchably"
+msgstr "بشكل خفيّ"
+
+msgid "Unsearched"
+msgstr "غير مفتّش"
+
+msgid "Unseasonable"
+msgstr "في غير أوانه"
+
+msgid "Unseasonableness"
+msgstr "في غير الأوان"
+
+msgid "Unseasonably"
+msgstr "غير بشكل ملائم"
+
+msgid "Unseasoned"
+msgstr "غير محنّك"
+
+msgid "Unseat"
+msgstr "إعزل"
+
+msgid "Unseated"
+msgstr "معزول"
+
+msgid "Unseating"
+msgstr "العزل"
+
+msgid "Unseats"
+msgstr "يعزل"
+
+msgid "Unseaworthy"
+msgstr "غير صالح للإبحار"
+
+msgid "Unsecretive"
+msgstr "غير سرّي"
+
+msgid "Unsecularized"
+msgstr "غير معلمن"
+
+msgid "Unsecure"
+msgstr "غير آمن :: غير واثق :: متزعزع"
+
+msgid "Unsecured"
+msgstr "غير مضمون"
+
+msgid "Unsee"
+msgstr "غير يرى"
+
+msgid "Unseeable"
+msgstr "غير مرئي"
+
+msgid "Unseeded"
+msgstr "غير مصنّف"
+
+msgid "Unseeing"
+msgstr "غافل"
+
+msgid "Unseel"
+msgstr "يفتح :: يسلّط الضوء"
+
+msgid "Unseemly"
+msgstr "غير مهذّب"
+
+msgid "Unseen"
+msgstr "غير مرئي"
+
+msgid "Unsegmented"
+msgstr "غير مقطّع"
+
+msgid "Unsegregated"
+msgstr "غير معزول"
+
+msgid "Unseizable"
+msgstr "غير قابل للحجز"
+
+msgid "Unselect"
+msgstr "غير منتقى"
+
+msgid "Unselected"
+msgstr "غير مختار"
+
+msgid "Unselective"
+msgstr "غير إنتقائي"
+
+msgid "Unselfconscious"
+msgstr "غير خجول"
+
+msgid "Unselfconsciousness"
+msgstr "عدم الخجل"
+
+msgid "Unselfish"
+msgstr "غير أناني"
+
+msgid "Unselfishly"
+msgstr "بدون أنانية"
+
+msgid "Unselfishness"
+msgstr "الكرم"
+
+msgid "Unsensible"
+msgstr "جامد :: خال من المعنى :: غير مدرك"
+
+msgid "Unsensitized"
+msgstr "غير محسّس"
+
+msgid "Unsent"
+msgstr "غير مرسل"
+
+msgid "Unsentimental"
+msgstr "غير عاطفي"
+
+msgid "Unsentimentally"
+msgstr "غير برقة"
+
+msgid "Unseparable"
+msgstr "غير مفصول"
+
+msgid "Unserved"
+msgstr "غير مخدوم"
+
+msgid "Unservice"
+msgstr "الإهمال في العمل :: الجمود :: كسل طبيعي :: بلادة"
+
+msgid "Unserviceable"
+msgstr "غير نافع"
+
+msgid "Unserviced"
+msgstr "غير مصلّح"
+
+msgid "Unservile"
+msgstr "غير متذلّل"
+
+msgid "Unset"
+msgstr "غير مثبّت :: غير معيّن"
+
+msgid "Unsettle"
+msgstr "زعزع"
+
+msgid "Unsettled"
+msgstr "مضطرب"
+
+msgid "Unsettledness"
+msgstr "عدم الاستقرار"
+
+msgid "Unsettling"
+msgstr "الزعزعة"
+
+msgid "Unsettlingly"
+msgstr "بشكل مقلق"
+
+msgid "Unsew"
+msgstr "يبطل عمل ما :: يفكّ الخياط :: يمزّق"
+
+msgid "Unsex"
+msgstr "يخصي :: يزيل الخصوبة"
+
+msgid "Unsexed"
+msgstr "مخصّى :: بلا خصوبة"
+
+msgid "Unsexual"
+msgstr "غير جنسي"
+
+msgid "Unsexy"
+msgstr "غير مثير جنسيّاً"
+
+msgid "Unshackle"
+msgstr "يحرّر من الكلبشات :: يطلق سراح :: يحرر"
+
+msgid "Unshackled"
+msgstr "خالي من القيود :: طليق :: حُرْ"
+
+msgid "Unshaded"
+msgstr "غير مظلّل"
+
+msgid "Unshakable"
+msgstr "ثابت"
+
+msgid "Unshakably"
+msgstr "بشكل مصمّم"
+
+msgid "Unshakeable"
+msgstr "ثابت"
+
+msgid "Unshaken"
+msgstr "ثابت"
+
+msgid "Unshakenly"
+msgstr "بشكل ثابت"
+
+msgid "Unshapely"
+msgstr "غير رشيق"
+
+msgid "Unshared"
+msgstr "غير مشترك"
+
+msgid "Unsharpened"
+msgstr "غير حاد"
+
+msgid "Unshaved"
+msgstr "غير محلوق"
+
+msgid "Unshaven"
+msgstr "غير حليق"
+
+msgid "Unshavenly"
+msgstr "بشكل غير حليق"
+
+msgid "Unsheared"
+msgstr "غير مسلوخ الجلد :: غير مقصوص الشّعر او الفرو"
+
+msgid "Unsheathe"
+msgstr "إسحب"
+
+msgid "Unsheathed"
+msgstr "مسحوب"
+
+msgid "Unsheathes"
+msgstr "يسحب"
+
+msgid "Unsheathing"
+msgstr "السحب"
+
+msgid "Unshed"
+msgstr "غير سقيفة"
+
+msgid "Unshell"
+msgstr "يفتح :: يزيل الصّدفة من على.. :: ينزع الصّدفة من على.."
+
+msgid "Unshelled"
+msgstr "غير مقصوف"
+
+msgid "Unsheltered"
+msgstr "غير محمي"
+
+msgid "Unshepherded"
+msgstr "غير رعى"
+
+msgid "Unshielded"
+msgstr "مكشوف"
+
+msgid "Unship"
+msgstr "يزيل :: يفصل بين شيئين متلاصقين :: يزيل من على السفينة"
+
+msgid "Unshod"
+msgstr "حفّى"
+
+msgid "Unshorn"
+msgstr "غير محروم"
+
+msgid "Unshrinkable"
+msgstr "لايتقلّص"
+
+msgid "Unshrinking"
+msgstr "غير متقلّص"
+
+msgid "Unshrouded"
+msgstr "مكشوف"
+
+msgid "Unsifted"
+msgstr "غير منخول"
+
+msgid "Unsighted"
+msgstr "غير بصير"
+
+msgid "Unsightlier"
+msgstr "بشع"
+
+msgid "Unsightliest"
+msgstr "بشع"
+
+msgid "Unsightly"
+msgstr "بشع"
+
+msgid "Unsigned"
+msgstr "غير موقّع"
+
+msgid "Unsignificant"
+msgstr "بسيط :: تافه :: زهيد :: حقير :: ضئيل"
+
+msgid "Unsimplified"
+msgstr "غير مبسّط"
+
+msgid "Unsin"
+msgstr "يمحو الخطايا :: يجعله نقيّاً من الخطايا"
+
+msgid "Unsinkable"
+msgstr "غير قابل للإغراق"
+
+msgid "Unsister"
+msgstr "يفرّق :: يفصل"
+
+msgid "Unsized"
+msgstr "غير بحجم"
+
+msgid "Unskilled"
+msgstr "غير ماهر"
+
+msgid "Unskilledly"
+msgstr "بشكل غير ماهر"
+
+msgid "Unskillful"
+msgstr "غير ماهر"
+
+msgid "Unskillfully"
+msgstr "مصنّع برداءة"
+
+msgid "Unskillfulness"
+msgstr "التصنيع الرديء"
+
+msgid "Unskimmed"
+msgstr "غير مقشوط"
+
+msgid "Unslaked"
+msgstr "غير مروى"
+
+msgid "Unslings"
+msgstr "ينزع"
+
+msgid "Unsloped"
+msgstr "غير منحدر"
+
+msgid "Unsluice"
+msgstr "يفتح الصّمام :: يمنع الإعاقة :: يفرغ من المحتويات"
+
+msgid "Unslung"
+msgstr "نزع"
+
+msgid "Unsmiling"
+msgstr "متجهّم"
+
+msgid "Unsmilingly"
+msgstr "بشكل متجهّم"
+
+msgid "Unsmoked"
+msgstr "غير مدخّن"
+
+msgid "Unsnap"
+msgstr "غير سريع"
+
+msgid "Unsnapped"
+msgstr "غير معضوض"
+
+msgid "Unsnapping"
+msgstr "غير نهّاش"
+
+msgid "Unsnaps"
+msgstr "الطقّة"
+
+msgid "Unsnarl"
+msgstr "حلّ"
+
+msgid "Unsnarled"
+msgstr "محلول"
+
+msgid "Unsnarling"
+msgstr "الحلّ"
+
+msgid "Unsnarls"
+msgstr "يحلّ"
+
+msgid "Unsociability"
+msgstr "غير مؤانسة"
+
+msgid "Unsociable"
+msgstr "غير إجتماعي"
+
+msgid "Unsociableness"
+msgstr "العزلة"
+
+msgid "Unsociably"
+msgstr "بشكل غير إجتماعي"
+
+msgid "Unsocial"
+msgstr "غير إجتماعي"
+
+msgid "Unsocialized"
+msgstr "غير معاشر"
+
+msgid "Unsocially"
+msgstr "بإزعاج"
+
+msgid "Unsoder"
+msgstr "يفرّق :: يفصل بين شيئين ملتصقين"
+
+msgid "Unsoiled"
+msgstr "غير ملوّث"
+
+msgid "Unsold"
+msgstr "غير مباع"
+
+msgid "Unsolder"
+msgstr "فكّ لحيم"
+
+msgid "Unsoldered"
+msgstr "مفكوك لحيم"
+
+msgid "Unsoldering"
+msgstr "فكّ لحيم"
+
+msgid "Unsolders"
+msgstr "يفكّ لحيم"
+
+msgid "Unsolicited"
+msgstr "غير مرغوب"
+
+msgid "Unsolicitous"
+msgstr "غير مراعي لشعور الآخرين"
+
+msgid "Unsolvable"
+msgstr "مستحيل الحل"
+
+msgid "Unsolved"
+msgstr "غير محلول"
+
+msgid "Unsolvedly"
+msgstr "بشكل غير محلول"
+
+msgid "Unsonsy"
+msgstr "غير محظوظ :: تعيس الحظ :: ذو حظّ عاثر"
+
+msgid "Unsophisticate"
+msgstr "ساذج :: نقي :: غير مشوب :: غير مغشوش"
+
+msgid "Unsophisticated"
+msgstr "بسيط"
+
+msgid "Unsophisticatedly"
+msgstr "بشكل بسيط"
+
+msgid "Unsophistication"
+msgstr "عدم التعقيد"
+
+msgid "Unsorted"
+msgstr "غير مصنّف"
+
+msgid "Unsought"
+msgstr "غير مطلوب"
+
+msgid "Unsoul"
+msgstr "يثبّط من المعنويّات :: ينتقص من المبادئ"
+
+msgid "Unsound"
+msgstr "خاطئ"
+
+msgid "Unsounded"
+msgstr "غير بدا"
+
+msgid "Unsoundly"
+msgstr "بشكل خاطئ"
+
+msgid "Unsoundness"
+msgstr "عدم الصّحّة"
+
+msgid "Unsown"
+msgstr "غير مبذورة :: غير مزروعة :: بلازرع"
+
+msgid "Unspanned"
+msgstr "غير ممتدّ"
+
+msgid "Unsparing"
+msgstr "غير مقتصد"
+
+msgid "Unsparingly"
+msgstr "بشكل غير مفاجئ"
+
+msgid "Unspeakable"
+msgstr "ﻻ يصحّ ذكره"
+
+msgid "Unspeakably"
+msgstr "بشكل ﻻ يصحّ ذكره"
+
+msgid "Unspeaking"
+msgstr "التراجع"
+
+msgid "Unspecialized"
+msgstr "غير متخصّص"
+
+msgid "Unspecializing"
+msgstr "غير متخصّص"
+
+msgid "Unspecific"
+msgstr "غير معيّن"
+
+msgid "Unspecified"
+msgstr "غير محدّد"
+
+msgid "Unspectacular"
+msgstr "ضعيف"
+
+msgid "Unspent"
+msgstr "غير مصروف"
+
+msgid "Unspently"
+msgstr "بشكل غير مصروف"
+
+msgid "Unsphere"
+msgstr "يُخرج من :: يُقصي عن"
+
+msgid "Unspiritual"
+msgstr "لا روحي"
+
+msgid "Unsplit"
+msgstr "غير منقسم"
+
+msgid "Unspoiled"
+msgstr "غير ملوّث"
+
+msgid "Unspoilt"
+msgstr "غير ملوّث"
+
+msgid "Unspoken"
+msgstr "خفي"
+
+msgid "Unsponsored"
+msgstr "غير مدعوم"
+
+msgid "Unsporting"
+msgstr "ضارباً عرض الحائط بالقوانين والمُثل"
+
+msgid "Unsportsmanlike"
+msgstr "غير رياضي"
+
+msgid "Unspotted"
+msgstr "غير مرقّط"
+
+msgid "Unsprayed"
+msgstr "غير مرشوش"
+
+msgid "Unsprung"
+msgstr "غير قافز"
+
+msgid "Unsqueeze"
+msgstr "غير عصرة"
+
+msgid "Unsqueezed"
+msgstr "غير معصور"
+
+msgid "Unsqueezing"
+msgstr "غير عصر"
+
+msgid "Unstable"
+msgstr "غير مستقر"
+
+msgid "Unstableness"
+msgstr "عدم الاستقرار"
+
+msgid "Unstably"
+msgstr "بشكل غير مستقر"
+
+msgid "Unstacked"
+msgstr "غير مكدّس"
+
+msgid "Unstained"
+msgstr "غير ملطّخ"
+
+msgid "Unstamped"
+msgstr "غير مختوم"
+
+msgid "Unstandardized"
+msgstr "غير قياسي"
+
+msgid "Unstapled"
+msgstr "غير مدبّس"
+
+msgid "Unstaring"
+msgstr "غير تحديق"
+
+msgid "Unstated"
+msgstr "غير مذكور"
+
+msgid "Unstatesmanlike"
+msgstr "غير كرجل دولة"
+
+msgid "Unsteadier"
+msgstr "غير مستقر"
+
+msgid "Unsteadiest"
+msgstr "غير مستقر"
+
+msgid "Unsteadily"
+msgstr "بشكل غير مستقرّ"
+
+msgid "Unsteadiness"
+msgstr "عدم الاستقرار"
+
+msgid "Unsteady"
+msgstr "غير مستقر"
+
+msgid "Unstep"
+msgstr "يزيل السّارية من على قاعدتها"
+
+msgid "Unsterile"
+msgstr "غير معقّم"
+
+msgid "Unsterilized"
+msgstr "غير معقّم"
+
+msgid "Unstigmatized"
+msgstr "غير موشوم"
+
+msgid "Unstilted"
+msgstr "غير متكلف"
+
+msgid "Unstinted"
+msgstr "جواد :: كريم :: سخيّ"
+
+msgid "Unstinting"
+msgstr "جبّار"
+
+msgid "Unstintingly"
+msgstr "بشكل جبّار"
+
+msgid "Unstitched"
+msgstr "غير مخيّط"
+
+msgid "Unstop"
+msgstr "إفتح"
+
+msgid "Unstoppable"
+msgstr "لايمكن إيقافه"
+
+msgid "Unstopped"
+msgstr "مفتوح"
+
+msgid "Unstopping"
+msgstr "الفتح"
+
+msgid "Unstops"
+msgstr "يفتح"
+
+msgid "Unstrained"
+msgstr "غير مقيّد"
+
+msgid "Unstrainedly"
+msgstr "بشكل غير مقيّد"
+
+msgid "Unstrap"
+msgstr "حلّ"
+
+msgid "Unstrapped"
+msgstr "محلول"
+
+msgid "Unstrapping"
+msgstr "الحلّ"
+
+msgid "Unstraps"
+msgstr "يحلّ"
+
+msgid "Unstratified"
+msgstr "غير مرتّب"
+
+msgid "Unstreamed"
+msgstr "غير مجري"
+
+msgid "Unstressed"
+msgstr "غير مشدّد"
+
+msgid "Unstressedly"
+msgstr "بشكل غير مشدّد"
+
+msgid "Unstriated"
+msgstr "غير مخطّط"
+
+msgid "Unstriped"
+msgstr "غير مخطّط"
+
+msgid "Unstructured"
+msgstr "غير منظّم"
+
+msgid "Unstrung"
+msgstr "حلّ"
+
+msgid "Unstuck"
+msgstr "مفصول"
+
+msgid "Unstudied"
+msgstr "غير مدروس"
+
+msgid "Unstuff"
+msgstr "يُخلّص من :: يفتح الإنسداد"
+
+msgid "Unstuffy"
+msgstr "غير فاسد"
+
+msgid "Unsubdivided"
+msgstr "أوراق الشّجر الغير مجزّئه او لا تتكوّن من أجزاء صغيرة"
+
+msgid "Unsubduable"
+msgstr "لا يُقهر :: لا يُخضع :: لا يُهزم"
+
+msgid "Unsubdued"
+msgstr "لا يُقهر :: لا يُخضع :: لا يُهزم"
+
+msgid "Unsubsidized"
+msgstr "غير مدعوم"
+
+msgid "Unsubstantial"
+msgstr "غير كبير"
+
+msgid "Unsubstantially"
+msgstr "غير بشكل كبير جدا"
+
+msgid "Unsubstantiated"
+msgstr "غير مؤكّد"
+
+msgid "Unsubstituted"
+msgstr "غير مستبدل"
+
+msgid "Unsubtle"
+msgstr "غير غير ملحوظ"
+
+msgid "Unsuccess"
+msgstr "الفشل :: سوء الحظ :: كريهة :: مصيبة :: ملمَّة"
+
+msgid "Unsuccessful"
+msgstr "مخفق"
+
+msgid "Unsuccessfully"
+msgstr "بإخفاق"
+
+msgid "Unsuccessfulness"
+msgstr "الإخفاق"
+
+msgid "Unsuccored"
+msgstr "غير مغاث"
+
+msgid "Unsufferable"
+msgstr "لا يُحتمل :: لا يُطاق"
+
+msgid "Unsufficiency"
+msgstr "الحاجة :: العوز :: النّقص :: العجز"
+
+msgid "Unsufficient"
+msgstr "غير كاف :: قاصر :: ناقص"
+
+msgid "Unsuffixed"
+msgstr "غير ملحق"
+
+msgid "Unsuit"
+msgstr "لا يلائم :: ذو مقاس مختلف"
+
+msgid "Unsuitability"
+msgstr "عدم ملائمة"
+
+msgid "Unsuitable"
+msgstr "غير ملائم"
+
+msgid "Unsuitableness"
+msgstr "عدم الملائمة"
+
+msgid "Unsuitably"
+msgstr "بشكل غير ملائم"
+
+msgid "Unsuited"
+msgstr "غير ملائم"
+
+msgid "Unsullied"
+msgstr "لا تشوبه شائبة"
+
+msgid "Unsummarized"
+msgstr "غير ملخّص"
+
+msgid "Unsung"
+msgstr "غير مغنّى"
+
+msgid "Unsupervised"
+msgstr "غير مشرف عليه"
+
+msgid "Unsupportable"
+msgstr "غير قابل للدعم"
+
+msgid "Unsupported"
+msgstr "غير مدعوم"
+
+msgid "Unsupportedly"
+msgstr "بشكل غير مدعوم"
+
+msgid "Unsuppressed"
+msgstr "غير مقموع"
+
+msgid "Unsure"
+msgstr "غير متأكد"
+
+msgid "Unsured"
+msgstr "غير واثق :: غير متأكّد"
+
+msgid "Unsurely"
+msgstr "بشكل غير متأكد"
+
+msgid "Unsurety"
+msgstr "الشّك :: اشتباه :: شيء مجهول :: شيء مشكوك فيه"
+
+msgid "Unsurmountable"
+msgstr "غير قابل للقهر"
+
+msgid "Unsurpassable"
+msgstr "ﻻ يمكن تجاوزه"
+
+msgid "Unsurpassed"
+msgstr "لا نظير له"
+
+msgid "Unsurprised"
+msgstr "غير مفاجئ"
+
+msgid "Unsurprising"
+msgstr "غير مفاجئ"
+
+msgid "Unsurprisingly"
+msgstr "بشكل غير مفاجئ"
+
+msgid "Unsurveyed"
+msgstr "غير ممسوح"
+
+msgid "Unsusceptibility"
+msgstr "عدم الإحساس :: عدم القابليّة :: بطأ التّأثّر"
+
+msgid "Unsusceptible"
+msgstr "غير سريع التأثير"
+
+msgid "Unsusceptibly"
+msgstr "غير بشكل حساس"
+
+msgid "Unsuspected"
+msgstr "غير معروف"
+
+msgid "Unsuspectedly"
+msgstr "بشكل غير معروف"
+
+msgid "Unsuspecting"
+msgstr "جاهل"
+
+msgid "Unsuspectingly"
+msgstr "بشكل جاهل"
+
+msgid "Unsuspended"
+msgstr "غير معلّق"
+
+msgid "Unsuspicious"
+msgstr "غير مثير للشكّ"
+
+msgid "Unsuspiciously"
+msgstr "غير بصورة مريبة"
+
+msgid "Unsustainable"
+msgstr "لا يمكن دعمه"
+
+msgid "Unswallowable"
+msgstr "غير قابل للبلع"
+
+msgid "Unsweet"
+msgstr "مشمئز :: كريه"
+
+msgid "Unsweetened"
+msgstr "غير محلّى"
+
+msgid "Unswept"
+msgstr "غير كنس"
+
+msgid "Unswerving"
+msgstr "ثابت"
+
+msgid "Unswervingly"
+msgstr "بشكل ثابت"
+
+msgid "Unswollen"
+msgstr "غير متورّم"
+
+msgid "Unsworn"
+msgstr "غير مقسم"
+
+msgid "Unsymbolized"
+msgstr "غير ممثّل"
+
+msgid "Unsymmetric"
+msgstr "غير متّسق :: غير متماثل :: غير متناسق"
+
+msgid "Unsymmetrical"
+msgstr "غير متماثل"
+
+msgid "Unsymmetrically"
+msgstr "بشكل غير متماثل"
+
+msgid "Unsympathetic"
+msgstr "غير متعاطف"
+
+msgid "Unsympathetically"
+msgstr "غير عاطفيا"
+
+msgid "Unsympathized"
+msgstr "غير متعاطف"
+
+msgid "Unsympathizing"
+msgstr "غير متعاطف"
+
+msgid "Unsynchronized"
+msgstr "غير مزامن"
+
+msgid "Unsynthesized"
+msgstr "غير مركّب"
+
+msgid "Unsystematic"
+msgstr "غير نظاميّ"
+
+msgid "Unsystematical"
+msgstr "غير نظاميّ"
+
+msgid "Unsystematically"
+msgstr "بشكل غير نظاميّ"
+
+msgid "Unsystematized"
+msgstr "غير منظّم"
+
+msgid "Unsystematizing"
+msgstr "غير تنظيم"
+
+msgid "Untack"
+msgstr "إفصل"
+
+msgid "Untackle"
+msgstr "ينزع الطقم :: ينزع العدة"
+
+msgid "Untactful"
+msgstr "غير لبق"
+
+msgid "Untactfully"
+msgstr "غير بلباقة"
+
+msgid "Untag"
+msgstr "غير بطاقة"
+
+msgid "Untagged"
+msgstr "غير معلّم"
+
+msgid "Untainted"
+msgstr "غير ملوّث"
+
+msgid "Untalented"
+msgstr "غير موهوب"
+
+msgid "Untamable"
+msgstr "أنتامابل"
+
+msgid "Untamed"
+msgstr "جامح"
+
+msgid "Untampered"
+msgstr "غير عابث"
+
+msgid "Untangible"
+msgstr "غير ملموس :: مجرد :: معنوي"
+
+msgid "Untangle"
+msgstr "حلّ"
+
+msgid "Untangled"
+msgstr "محلول"
+
+msgid "Untangles"
+msgstr "يحلّ"
+
+msgid "Untangling"
+msgstr "الحلّ"
+
+msgid "Untantalized"
+msgstr "غير مثار"
+
+msgid "Untaped"
+msgstr "غير مسجّل"
+
+msgid "Untapped"
+msgstr "غير مستغلّ"
+
+msgid "Untarnished"
+msgstr "غير ملوّث"
+
+msgid "Untasted"
+msgstr "غير مذاق"
+
+msgid "Untaught"
+msgstr "غير معلّم"
+
+msgid "Untaxed"
+msgstr "غير مفروض عليه ضريبة"
+
+msgid "Unteach"
+msgstr "يدرّس معلومة تناقض معلومات سابقة "
+
+msgid "Unteachable"
+msgstr "غير قابل للتعليم"
+
+msgid "Untechnical"
+msgstr "غير متمكّن او متمرّس في الفنون التّطبيقيّة"
+
+msgid "Untellable"
+msgstr "ﻻ يمكن وصفه"
+
+msgid "Untempered"
+msgstr "غير مخفّف"
+
+msgid "Unten"
+msgstr "عشر غير"
+
+msgid "Untenable"
+msgstr "لايمكن الدفاع عنه"
+
+msgid "Untenably"
+msgstr "بشكل يمكن الإحتفاظ به"
+
+msgid "Untenanted"
+msgstr "غير مستأجر"
+
+msgid "Untended"
+msgstr "غير مُعتنى به"
+
+msgid "Untented"
+msgstr "عاري"
+
+msgid "Unterminated"
+msgstr "غير منهى"
+
+msgid "Unterrorized"
+msgstr "غير مرهب"
+
+msgid "Untestable"
+msgstr "غير قابل للفحص"
+
+msgid "Untested"
+msgstr "لم يختبر"
+
+msgid "Untethered"
+msgstr "غير مقيّد او محكوم بحبل"
+
+msgid "Unthankful"
+msgstr "جاحد للجميل :: ناكر المعروف"
+
+msgid "Unthankfully"
+msgstr "غير ممتنّ"
+
+msgid "Unthankfulness"
+msgstr "عدم الامتنان"
+
+msgid "Unthaw"
+msgstr "يذيب الجليد :: يتحوّل الى سائل او ليّن"
+
+msgid "Unthawed"
+msgstr "متجمّد :: لم يذب عنه الجليد"
+
+msgid "Untheatrical"
+msgstr "غير مسرحي"
+
+msgid "Unthematic"
+msgstr "غير موضوعي"
+
+msgid "Unthinkable"
+msgstr "مستحيل"
+
+msgid "Unthinkably"
+msgstr "بشكل غير وارد"
+
+msgid "Unthinking"
+msgstr "الغفل"
+
+msgid "Unthinkingly"
+msgstr "بشكل مغفول"
+
+msgid "Unthought"
+msgstr "غفل"
+
+msgid "Unthrifty"
+msgstr "غير مقتصد"
+
+msgid "Untidier"
+msgstr "غير مرتّب"
+
+msgid "Untidiest"
+msgstr "غير مرتّب"
+
+msgid "Untidily"
+msgstr "بشكل غير مرتّب"
+
+msgid "Untidiness"
+msgstr "عدم الترتيب"
+
+msgid "Untidy"
+msgstr "غير مرتّب"
+
+msgid "Untie"
+msgstr "حلّ"
+
+msgid "Untied"
+msgstr "محلول"
+
+msgid "Unties"
+msgstr "يحلّ"
+
+msgid "Until"
+msgstr "حتى"
+
+msgid "Untile"
+msgstr "يزيل البلاط :: يكشف الأرض عن طريق إزالة البلاط"
+
+msgid "Untill"
+msgstr "غير درج نقود"
+
+msgid "Untilled"
+msgstr "غير محروث"
+
+msgid "Untime"
+msgstr "في الوقت الغير مناسب :: في غير أوانه :: غير مرغوب فيه :: غير مألوف"
+
+msgid "Untimeliness"
+msgstr "سبق الأوان"
+
+msgid "Untimely"
+msgstr "سابق لأوانه"
+
+msgid "Untimeous"
+msgstr "في غير أوانه :: قبل الأوان :: مبكر"
+
+msgid "Untinged"
+msgstr "غير مخلوط"
+
+msgid "Untirable"
+msgstr "ﻻ يمكن ارهاقه"
+
+msgid "Untiring"
+msgstr "مثابر"
+
+msgid "Untiringly"
+msgstr "بشكل مثابر"
+
+msgid "Untitled"
+msgstr "غير ملقّب"
+
+msgid "Unto"
+msgstr "إلى"
+
+msgid "Untold"
+msgstr "لم يسمع به من قبل"
+
+msgid "Untoldly"
+msgstr "بشكل لم يسمع به من قبل"
+
+msgid "Untolerable"
+msgstr "لا يحمل :: لا يطاق :: مفرط"
+
+msgid "Untorn"
+msgstr "غير ممزّق"
+
+msgid "Untouchable"
+msgstr "المحصّن"
+
+msgid "Untouchables"
+msgstr "المحصّنون"
+
+msgid "Untouchably"
+msgstr "فوق النقد"
+
+msgid "Untouched"
+msgstr "غير متأثّر"
+
+msgid "Untoward"
+msgstr "غير متوقّع"
+
+msgid "Untowardly"
+msgstr "بشكل غير متوقّع"
+
+msgid "Untowardness"
+msgstr "الفجائيّة"
+
+msgid "Untraceable"
+msgstr "غير قابل للتقصّي"
+
+msgid "Untraceably"
+msgstr "غير بشكل قابل للتقصّي"
+
+msgid "Untraced"
+msgstr "غير متتبّع"
+
+msgid "Untracked"
+msgstr "غير متعقّب"
+
+msgid "Untraditional"
+msgstr "غير تقليدي"
+
+msgid "Untrained"
+msgstr "غير مدرّب"
+
+msgid "Untrammeled"
+msgstr "غير مقيّد"
+
+msgid "Untrammelled"
+msgstr "غير محدود :: غير مقيّد"
+
+msgid "Untransferable"
+msgstr "غير قابل للتحويل"
+
+msgid "Untransferred"
+msgstr "غير محوّل"
+
+msgid "Untransformed"
+msgstr "غير تحوّل"
+
+msgid "Untranslatable"
+msgstr "غير قابل للترجمة"
+
+msgid "Untranslated"
+msgstr "غير مترجم"
+
+msgid "Untransposed"
+msgstr "غير منقول"
+
+msgid "Untraveled"
+msgstr "غير مستخدم للسفر"
+
+msgid "Untread"
+msgstr "عد"
+
+msgid "Untreated"
+msgstr "غير معالج"
+
+msgid "Untried"
+msgstr "غير مجرّب"
+
+msgid "Untriedly"
+msgstr "بشكل غير مجرّب"
+
+msgid "Untrimmed"
+msgstr "أشعث :: أشعر :: فظ"
+
+msgid "Untrod"
+msgstr "غير داس"
+
+msgid "Untrodden"
+msgstr "غير مداس"
+
+msgid "Untroubled"
+msgstr "غير متأثّر"
+
+msgid "Untroubledly"
+msgstr "بشكل غير متأثّر"
+
+msgid "Untrowable"
+msgstr "لا يُصدق :: مستبعد جداً"
+
+msgid "Untrue"
+msgstr "غير صحيح"
+
+msgid "Untruely"
+msgstr "بشكل غير صحيح"
+
+msgid "Untruly"
+msgstr "بكذب"
+
+msgid "Untrusted"
+msgstr "غير مؤتمن"
+
+msgid "Untrusting"
+msgstr "لايثق بالنّاس :: غير موثوق به"
+
+msgid "Untrustworthiness"
+msgstr "غير أهل للثقة"
+
+msgid "Untrustworthy"
+msgstr "غير موثوق"
+
+msgid "Untrusty"
+msgstr "غير وفي"
+
+msgid "Untruth"
+msgstr "الكذبة"
+
+msgid "Untruthful"
+msgstr "كاذب"
+
+msgid "Untruthfully"
+msgstr "بشكل كاذب"
+
+msgid "Untruthfulness"
+msgstr "عدم المصداقيّة"
+
+msgid "Untruths"
+msgstr "الكذب"
+
+msgid "Untuck"
+msgstr "يفتح شيئاً مطوياً كالسّجادة او اللحاف"
+
+msgid "Untune"
+msgstr "يفسد تقسيم الآلة الموسيقيّة :: يجعل الآلة الموسيقية تنشّز"
+
+msgid "Untuned"
+msgstr "مشوّش"
+
+msgid "Untuneful"
+msgstr "بلا صوت موسيقي :: نشاز"
+
+msgid "Unturned"
+msgstr "غير مقلوب"
+
+msgid "Untutored"
+msgstr "غير دارس"
+
+msgid "Untwine"
+msgstr "يفكّ المتشابك :: يفكّ المتحابك"
+
+msgid "Untwirl"
+msgstr "يحلّ :: يفكّ"
+
+msgid "Untwist"
+msgstr "حلّ"
+
+msgid "Untwisted"
+msgstr "محلول"
+
+msgid "Untwisting"
+msgstr "الحلّ"
+
+msgid "Untwists"
+msgstr "يحلّ"
+
+msgid "Unty"
+msgstr "انحل :: انفك :: حلّ :: فكّ :: يحل :: يسلّك :: يفك"
+
+msgid "Untying"
+msgstr "الحلّ"
+
+msgid "Untyped"
+msgstr "غير مطبوع"
+
+msgid "Untypical"
+msgstr "غير نموذجي"
+
+msgid "Untypically"
+msgstr "بشكل غير نموذجي"
+
+msgid "Ununderstood"
+msgstr "غير مفهوم :: غير واضح :: مبهم"
+
+msgid "Unusable"
+msgstr "غير صالح للإستعمال"
+
+msgid "Unuseable"
+msgstr "غير صالح للإستعمال"
+
+msgid "Unused"
+msgstr "غير مستعمل"
+
+msgid "Unusual"
+msgstr "غير عادي"
+
+msgid "Unusually"
+msgstr "بشكل غير إعتيادي"
+
+msgid "Unusualness"
+msgstr "النّدرة"
+
+msgid "Unutilized"
+msgstr "غير مستعمل"
+
+msgid "Unutterable"
+msgstr "لا يوصف"
+
+msgid "Unutterably"
+msgstr "بشكل لا يوصف"
+
+msgid "Unuttered"
+msgstr "غير منطوق"
+
+msgid "Unvaccinated"
+msgstr "غير ملقّح"
+
+msgid "Unvail"
+msgstr "يكشف النقاب عن :: يميط اللثام"
+
+msgid "Unvaluable"
+msgstr "نفيس :: ثمين :: لا يعادله شيء :: لا يقدر بثمن"
+
+msgid "Unvalued"
+msgstr "غير مقيّم"
+
+msgid "Unvanquishable"
+msgstr "لا يُقهر :: لا يُهزم"
+
+msgid "Unvanquished"
+msgstr "غير مقهور"
+
+msgid "Unvariable"
+msgstr "غير متغيّر"
+
+msgid "Unvaried"
+msgstr "غير مختلف"
+
+msgid "Unvarnished"
+msgstr "بدون تزويق"
+
+msgid "Unvarnishedly"
+msgstr "بشكل بدون تزويق"
+
+msgid "Unvarying"
+msgstr "ثابت"
+
+msgid "Unvaryingly"
+msgstr "بشكل ثابت"
+
+msgid "Unveil"
+msgstr "إكشف"
+
+msgid "Unveiled"
+msgstr "مكشوف"
+
+msgid "Unveiling"
+msgstr "الكشف"
+
+msgid "Unveils"
+msgstr "يكشف"
+
+msgid "Unvented"
+msgstr "غير منفّس"
+
+msgid "Unventilated"
+msgstr "غير مهوّى"
+
+msgid "Unveracity"
+msgstr "إنتفاء الصّحة في الكلام :: بلا دقّة :: بلا صِدْق"
+
+msgid "Unverbalized"
+msgstr "غير مفعّل"
+
+msgid "Unverifiable"
+msgstr "غير قابل للإثبات"
+
+msgid "Unverified"
+msgstr "غير محقّق"
+
+msgid "Unversed"
+msgstr "غير متمكن :: غير مُلم :: غير متمرّس"
+
+msgid "Unversedly"
+msgstr "بشكل جاهل"
+
+msgid "Unvexed"
+msgstr "غير عويص"
+
+msgid "Unvictimized"
+msgstr "غير ظلم"
+
+msgid "Unvindicated"
+msgstr "غير مبرّأ"
+
+msgid "Unviolated"
+msgstr "غير مخدوش :: مُصان :: لم ينتهك"
+
+msgid "Unvisited"
+msgstr "غير مزار"
+
+msgid "Unvisualized"
+msgstr "غير متصوّر"
+
+msgid "Unvitiated"
+msgstr "بتولي :: بحت :: أصيل :: خالص :: طاهر"
+
+msgid "Unvocalized"
+msgstr "غير ملفوظ"
+
+msgid "Unvoiced"
+msgstr "صامت"
+
+msgid "Unvoluntary"
+msgstr "لا إرادي"
+
+msgid "Unvulcanized"
+msgstr "غير معالج بالكبريت"
+
+msgid "Unwaged"
+msgstr "غير مأجور"
+
+msgid "Unwanted"
+msgstr "غير مرغوب"
+
+msgid "Unwantedly"
+msgstr "بشكل غير مرغوب"
+
+msgid "Unwarily"
+msgstr "بشكل غافل"
+
+msgid "Unwariness"
+msgstr "الغفلة"
+
+msgid "Unwarm"
+msgstr "بلا دفىء :: بارد"
+
+msgid "Unwarmed"
+msgstr "غير مدفّأ"
+
+msgid "Unwarrantable"
+msgstr "لا مبرّر له"
+
+msgid "Unwarranted"
+msgstr "لا مبرّر له"
+
+msgid "Unwarrantedly"
+msgstr "بشكل لا مبرّر له"
+
+msgid "Unwary"
+msgstr "غافل"
+
+msgid "Unwashed"
+msgstr "وسخ"
+
+msgid "Unwashedness"
+msgstr "التّجاهل"
+
+msgid "Unwatched"
+msgstr "غير مراقب"
+
+msgid "Unwatered"
+msgstr "غير مسقي"
+
+msgid "Unwavering"
+msgstr "ثابت"
+
+msgid "Unwaveringly"
+msgstr "بشكل ثابت"
+
+msgid "Unwaxed"
+msgstr "غير مصبح"
+
+msgid "Unweaned"
+msgstr "غير مفطوم :: لازال يرضع الحليب"
+
+msgid "Unwearable"
+msgstr "لايصلح للإرتداء"
+
+msgid "Unwearied"
+msgstr "دؤوب"
+
+msgid "Unweariedly"
+msgstr "بشكل دؤوب"
+
+msgid "Unweary"
+msgstr "غير مرهق"
+
+msgid "Unwed"
+msgstr "غير يتزوّج"
+
+msgid "Unwedded"
+msgstr "أعزب :: غير متزوّج :: غير متزوّجة"
+
+msgid "Unweeting"
+msgstr "غير متعمد :: غير مقصود"
+
+msgid "Unweighed"
+msgstr "غير موزون"
+
+msgid "Unweighted"
+msgstr "غير مرجّح"
+
+msgid "Unwelcome"
+msgstr "غير مرغوب فيه"
+
+msgid "Unweldy"
+msgstr "صعب المأخذ :: غير عملي :: أخرق :: غير ملائم "
+
+msgid "Unwell"
+msgstr "مريض"
+
+msgid "Unwept"
+msgstr "غير مرثي"
+
+msgid "Unwhipped"
+msgstr "غير مخفوق"
+
+msgid "Unwholesome"
+msgstr "غير صحي"
+
+msgid "Unwholesomely"
+msgstr "بشكل ضار"
+
+msgid "Unwieldier"
+msgstr "أصعب مراساً"
+
+msgid "Unwieldiest"
+msgstr "الأصعب مراساً"
+
+msgid "Unwieldiness"
+msgstr "صعوبة المراس"
+
+msgid "Unwieldy"
+msgstr "صعب المراس"
+
+msgid "Unwild"
+msgstr "يروض :: يُخْضِع"
+
+msgid "Unwill"
+msgstr "يبطل عمل ما او إجراء معيّن نتيجة تعليمات واردة في الوصيّة"
+
+msgid "Unwilled"
+msgstr "لا إرادي"
+
+msgid "Unwilling"
+msgstr "غير راغب"
+
+msgid "Unwillingly"
+msgstr "بشكل غير راغب"
+
+msgid "Unwillingness"
+msgstr "الإحجام"
+
+msgid "Unwind"
+msgstr "فكّ"
+
+msgid "Unwinding"
+msgstr "الفكّ"
+
+msgid "Unwinds"
+msgstr "يفكّ"
+
+msgid "Unwinking"
+msgstr "غير رمش"
+
+msgid "Unwire"
+msgstr "غير سلك"
+
+msgid "Unwired"
+msgstr "غير مثير"
+
+msgid "Unwise"
+msgstr "غير حكيم"
+
+msgid "Unwisely"
+msgstr "برعونة"
+
+msgid "Unwiser"
+msgstr "غير حكيم"
+
+msgid "Unwisest"
+msgstr "غير حكيم"
+
+msgid "Unwished"
+msgstr "غير مرحّب به"
+
+msgid "Unwit"
+msgstr "الجهل :: عدم العلم"
+
+msgid "Unwithered"
+msgstr "غير ذابل"
+
+msgid "Unwitnessed"
+msgstr "غير شاهد"
+
+msgid "Unwitting"
+msgstr "غير متعمّد"
+
+msgid "Unwittingly"
+msgstr "بشكل غير متعمّد"
+
+msgid "Unwomanized"
+msgstr "غير معاشر النساء"
+
+msgid "Unwomanly"
+msgstr "غير أنثوي"
+
+msgid "Unwont"
+msgstr "غير مملوك :: غير مستعمل :: غير مألوف"
+
+msgid "Unwonted"
+msgstr "نادر"
+
+msgid "Unwontedly"
+msgstr "بشكل نادر"
+
+msgid "Unwontedness"
+msgstr "الندرة"
+
+msgid "Unwooded"
+msgstr "بلا حياة نباتيّة :: بلا أشجار"
+
+msgid "Unworkable"
+msgstr "فاشل"
+
+msgid "Unworkably"
+msgstr "بشكل فاشل"
+
+msgid "Unworked"
+msgstr "غير مشغول"
+
+msgid "Unworkmanlike"
+msgstr "غير بارع"
+
+msgid "Unworldliness"
+msgstr "السذاجة"
+
+msgid "Unworldly"
+msgstr "ساذج"
+
+msgid "Unworn"
+msgstr "غير ملبوس"
+
+msgid "Unworried"
+msgstr "بلا مشاكل او هموم او قلق"
+
+msgid "Unworthily"
+msgstr "بشكل مهين"
+
+msgid "Unworthiness"
+msgstr "عدم الجدارة"
+
+msgid "Unworthy"
+msgstr "لا يستحق"
+
+msgid "Unwound"
+msgstr "غير منصوب"
+
+msgid "Unwounded"
+msgstr "غير مجروح"
+
+msgid "Unwoven"
+msgstr "غير محاك"
+
+msgid "Unwrap"
+msgstr "إفتح"
+
+msgid "Unwrapped"
+msgstr "غير ملفوف ب"
+
+msgid "Unwrapping"
+msgstr "إزالة التغليف"
+
+msgid "Unwraps"
+msgstr "يفتح"
+
+msgid "Unwrinkled"
+msgstr "غير مجعّد"
+
+msgid "Unwritable"
+msgstr "غير قابل للتسجيل عليه"
+
+msgid "Unwritten"
+msgstr "غير مكتوب"
+
+msgid "Unwrought"
+msgstr "غير معمول"
+
+msgid "Unyielded"
+msgstr "غير منتج"
+
+msgid "Unyielding"
+msgstr "ثابت"
+
+msgid "Unyieldingly"
+msgstr "بشكل ثابت"
+
+msgid "Unyoke"
+msgstr "يحرّر الماشية من القيود"
+
+msgid "Unzealous"
+msgstr "غير متحمّس"
+
+msgid "Unzealously"
+msgstr "غير بحماسة"
+
+msgid "Unzip"
+msgstr "حلّ"
+
+msgid "Unzipped"
+msgstr "محلول"
+
+msgid "Unzipping"
+msgstr "الحلّ"
+
+msgid "Unzips"
+msgstr "يحلّ"
+
+msgid "Up"
+msgstr "فوق"
+
+msgid "Up-and-coming"
+msgstr "يعمل بجدّ لتحقيق هدف ما"
+
+msgid "Up-and-down"
+msgstr "في أقصى وأدنى"
+
+msgid "Up-coming"
+msgstr "سيحصل قريباً :: وشيك :: آت قريباً"
+
+msgid "Up-date"
+msgstr "يحدّث معلومات قديمة :: يبدل معلومات قديمة بأخرى جديدة وحديثة"
+
+msgid "Up-gather"
+msgstr "يحشد النّاس :: يتعاقد مع حشد من النّاس"
+
+msgid "Up-lift"
+msgstr "يرفع :: يرفع من شأن :: يسمو"
+
+msgid "Up-line"
+msgstr "سكّة الحديد الثّانوية المؤديّة الى محطة القطار الرّئيسيّة"
+
+msgid "Up-market"
+msgstr "مخصّص لذوي الدّخول المرتفعة :: سلعة باهضة التّكاليف"
+
+msgid "Up-scale"
+msgstr "مخصّص لذوي الدّخول المرتفعة :: سلعة باهضة التّكاليف"
+
+msgid "Up-start"
+msgstr "شخص من اصول متواضعة يصل الى أعلى المراتب المهمّة"
+
+msgid "Up-to-date"
+msgstr "أحدث"
+
+msgid "Uparrow"
+msgstr "سهم للأعلى"
+
+msgid "Upbear"
+msgstr "يرفع عالياً :: يساند شيئ مرتفع"
+
+msgid "Upbeat"
+msgstr "مستبشر"
+
+msgid "Upbraid"
+msgstr "يوبّخ"
+
+msgid "Upbraided"
+msgstr "وبّخ"
+
+msgid "Upbraider"
+msgstr "موبّخ"
+
+msgid "Upbraiding"
+msgstr "التوبيخ"
+
+msgid "Upbraidingly"
+msgstr "بشكل توبيخيّ"
+
+msgid "Upbraids"
+msgstr "يوبّخ"
+
+msgid "Upbreak"
+msgstr "يشقّ طريقه الى الأعلى"
+
+msgid "Upbreathe"
+msgstr "يزفر :: يخرج الهواء من رئتيه"
+
+msgid "Upbreed"
+msgstr "يحتضن :: يربّي :: يرضع"
+
+msgid "Upbringing"
+msgstr "التربية"
+
+msgid "Upbrought"
+msgstr "متعلّم :: مثقّف :: حسن الإنشاء والتّربية"
+
+msgid "Upburst"
+msgstr "يشق طريقه الى الأعلى"
+
+msgid "Upcast"
+msgstr "نظام تهوية وتنقية الهواء في المناجم"
+
+msgid "Upcaught"
+msgstr "مضبوط :: محجوز"
+
+msgid "Upcheer"
+msgstr "يُبهج :: يضفي نوع من السعادة"
+
+msgid "Upchuck"
+msgstr "تقيّأ"
+
+msgid "Upchucked"
+msgstr "تقيّأ"
+
+msgid "Upchucking"
+msgstr "تقيّؤ"
+
+msgid "Upchucks"
+msgstr "يتقيّأ"
+
+msgid "Upclimb"
+msgstr "يتسلق الى الأعلى :: يصعد الى الأعلى"
+
+msgid "Upcoil"
+msgstr "يلف (الملف) :: يداور"
+
+msgid "Upcoming"
+msgstr "قادم"
+
+msgid "Upcountry"
+msgstr "في داخل البلاد"
+
+msgid "Update"
+msgstr "التجديد"
+
+msgid "Updated"
+msgstr "مجدّد"
+
+msgid "Updates"
+msgstr "التجديدات"
+
+msgid "Updating"
+msgstr "التجديد"
+
+msgid "Updive"
+msgstr "يصعد الى الأعلى"
+
+msgid "Updraft"
+msgstr "التيار الصاعد"
+
+msgid "Upend"
+msgstr "إنقلب"
+
+msgid "Upended"
+msgstr "إنقلب"
+
+msgid "Upending"
+msgstr "الإنقلاب"
+
+msgid "Upends"
+msgstr "ينقلب"
+
+msgid "Upenn"
+msgstr "جامعة بنسلفانيا"
+
+msgid "Upfield"
+msgstr "أول الملعب"
+
+msgid "Upfill"
+msgstr "يملأ"
+
+msgid "Upflow"
+msgstr "يتدفّق الى الأعلى"
+
+msgid "Upgather"
+msgstr "يجمع الناس :: يتعاقد مع الناس"
+
+msgid "Upgaze"
+msgstr "يحدّق الى الأعلى :: ينظر الى اﻷعلى"
+
+msgid "Upgive"
+msgstr "يتخلّى عن :: يترك لصالح"
+
+msgid "Upgradability"
+msgstr "قابلية الترقية"
+
+msgid "Upgradable"
+msgstr "قابل للترقية"
+
+msgid "Upgrade"
+msgstr "الترقية"
+
+msgid "Upgradeability"
+msgstr "قابلية الترقية"
+
+msgid "Upgraded"
+msgstr "مرقّى"
+
+msgid "Upgrades"
+msgstr "الترقيات"
+
+msgid "Upgrading"
+msgstr "الترقية"
+
+msgid "Upgrow"
+msgstr "يكبر :: يترعرع"
+
+msgid "Upgrowth"
+msgstr "عمليّة النمو او الكِبر :: التّطوّر"
+
+msgid "Upgush"
+msgstr "التّدفّق الى اﻷعلى :: يدفع الى اﻷعلى"
+
+msgid "Uphang"
+msgstr "يغلق خط الهاتف"
+
+msgid "Uphasp"
+msgstr "يُغلق"
+
+msgid "Upheaped"
+msgstr "تراكم :: مجمّع :: مُكدَّس"
+
+msgid "Upheaval"
+msgstr "الثورة"
+
+msgid "Upheavals"
+msgstr "الثورات"
+
+msgid "Upheave"
+msgstr "إرفع"
+
+msgid "Upheaved"
+msgstr "مرفوع"
+
+msgid "Upheaves"
+msgstr "يرفع"
+
+msgid "Upheaving"
+msgstr "الرفع"
+
+msgid "Upheld"
+msgstr "أيّد"
+
+msgid "Uphill"
+msgstr "المرتفع"
+
+msgid "Uphilt"
+msgstr "يطعن بسيف او بخنجر"
+
+msgid "Uphold"
+msgstr "أيّد"
+
+msgid "Upholder"
+msgstr "مؤيّد"
+
+msgid "Upholders"
+msgstr "مؤيّدون"
+
+msgid "Upholding"
+msgstr "التأييد"
+
+msgid "Upholds"
+msgstr "يؤيّد"
+
+msgid "Upholster"
+msgstr "نجّد"
+
+msgid "Upholstered"
+msgstr "منجّد"
+
+msgid "Upholsterer"
+msgstr "المنجد"
+
+msgid "Upholsterers"
+msgstr "المنجّدون"
+
+msgid "Upholsteries"
+msgstr "مواد التّنجيد"
+
+msgid "Upholstering"
+msgstr "التنجيد"
+
+msgid "Upholsters"
+msgstr "ينجّد"
+
+msgid "Upholstery"
+msgstr "النجادة"
+
+msgid "Upkeep"
+msgstr "الصيانة"
+
+msgid "Upkeeps"
+msgstr "الصيانة"
+
+msgid "Upland"
+msgstr "النجد"
+
+msgid "Uplander"
+msgstr "ساكن النّجد"
+
+msgid "Uplandish"
+msgstr "غير متحظّر :: أخرق :: بسيط"
+
+msgid "Uplands"
+msgstr "النجد"
+
+msgid "Uplead"
+msgstr "يقود الى اﻷعلى"
+
+msgid "Uplean"
+msgstr "يميل الى :: يستند على"
+
+msgid "Uplift"
+msgstr "يرفع"
+
+msgid "Uplifted"
+msgstr "رفع"
+
+msgid "Uplifter"
+msgstr "رافع"
+
+msgid "Uplifting"
+msgstr "الرفع"
+
+msgid "Uplifts"
+msgstr "الإرتفاعات"
+
+msgid "Upload"
+msgstr "الارسال"
+
+msgid "Uploaded"
+msgstr "مرسل"
+
+msgid "Uploading"
+msgstr "الإرسال"
+
+msgid "Uploads"
+msgstr "يرسل"
+
+msgid "Uplock"
+msgstr "يقفل الشيء :: يحكم إغلاق الشيء"
+
+msgid "Uplook"
+msgstr "ينظر الى :: يحدّق بـ"
+
+msgid "Upmarket"
+msgstr "مخصّص لذوي الدّخول العالية"
+
+msgid "Upmost"
+msgstr "الأعلى"
+
+msgid "Upon"
+msgstr "على"
+
+msgid "Upped"
+msgstr "مرفوع"
+
+msgid "Upper"
+msgstr "أعلى"
+
+msgid "Upper-bound"
+msgstr "محصور في أعلى"
+
+msgid "Upper-case"
+msgstr "كبير"
+
+msgid "Upper-class"
+msgstr "يحتل اعلى مرتبة إجتماعية وماليّة في المجتمع"
+
+msgid "Uppercase"
+msgstr "حرف كبير"
+
+msgid "Uppercased"
+msgstr "حوّله حروفاً كبيرة"
+
+msgid "Uppercases"
+msgstr "الحروف الكبيرة"
+
+msgid "Uppercasing"
+msgstr "يحول حروفاً كبيرة"
+
+msgid "Upperclassman"
+msgstr "طالب السنة الثالثة أو الرابعة"
+
+msgid "Upperclassmen"
+msgstr "طلاب السنة الثالثة أو الرابعة"
+
+msgid "Uppercut"
+msgstr "لكمة موجّهة صعوداً"
+
+msgid "Uppermost"
+msgstr "أعلى"
+
+msgid "Uppers"
+msgstr "وجه الحذاء"
+
+msgid "Uppile"
+msgstr "يكوّم :: يكدّس :: يراكم"
+
+msgid "Uppish"
+msgstr "مغرور"
+
+msgid "Uppishly"
+msgstr "بخيلاء :: بتكبّر"
+
+msgid "Uppishness"
+msgstr "الغطرسة :: التّكبّر :: الخيلاء"
+
+msgid "Uppity"
+msgstr "مغرور"
+
+msgid "Uppluck"
+msgstr "يسحب :: ينتزع الرّيش"
+
+msgid "Upprop"
+msgstr "يساند :: يدعم :: يرتكز"
+
+msgid "Upraise"
+msgstr "إرفع"
+
+msgid "Upraised"
+msgstr "مرفوع"
+
+msgid "Upraises"
+msgstr "يرفع"
+
+msgid "Uprear"
+msgstr "يرفع عالياً :: ينصّب"
+
+msgid "Upright"
+msgstr "عموديا"
+
+msgid "Uprighteously"
+msgstr "بوضع معتدل :: بصورة سويّة"
+
+msgid "Uprightly"
+msgstr "عموديا"
+
+msgid "Uprightness"
+msgstr "الإستقامة"
+
+msgid "Uprise"
+msgstr "إنهض"
+
+msgid "Upriser"
+msgstr "النّاهض"
+
+msgid "Uprising"
+msgstr "الإنتفاضة"
+
+msgid "Uprisings"
+msgstr "الإنتفاضات"
+
+msgid "Uprist"
+msgstr "الثورة :: الإنتفاضة"
+
+msgid "Upriver"
+msgstr "نحو المصدر"
+
+msgid "Uproar"
+msgstr "الضجيج"
+
+msgid "Uproarious"
+msgstr "صاخب"
+
+msgid "Uproariously"
+msgstr "بشكل صاخب"
+
+msgid "Uproariousness"
+msgstr "الصّخب"
+
+msgid "Uproars"
+msgstr "الضجيج"
+
+msgid "Uproll"
+msgstr "يطوي (السّجّادة)"
+
+msgid "Uproot"
+msgstr "إجتثّ"
+
+msgid "Uprooted"
+msgstr "مجتثّ"
+
+msgid "Uprooter"
+msgstr "مُجتثّ"
+
+msgid "Uprooting"
+msgstr "الإجتثاث"
+
+msgid "Uproots"
+msgstr "يجتثّ"
+
+msgid "Uprouse"
+msgstr "يفيق :: يستيقض من النّوم :: يثير :: يستحث"
+
+msgid "Uprush"
+msgstr "يندفع الى اﻷعلى :: يتدفّق الى اﻷعلى"
+
+msgid "Ups"
+msgstr "يرفع"
+
+msgid "Upsala"
+msgstr "مدينة أبسالا السّويديّة"
+
+msgid "Upscale"
+msgstr "مخصّص لذوي الدّخول المرتفعة :: باهض الثّمن"
+
+msgid "Upset"
+msgstr "الإنزعاج"
+
+msgid "Upsets"
+msgstr "التكدّر"
+
+msgid "Upsetting"
+msgstr "الإزعاج"
+
+msgid "Upshoot"
+msgstr "يرمي الى الأعلى :: يقذف الى اﻷعلى"
+
+msgid "Upshot"
+msgstr "النتيجة"
+
+msgid "Upshots"
+msgstr "النتائج"
+
+msgid "Upside"
+msgstr "الأعلى"
+
+msgid "Upside-down"
+msgstr "مقلوب :: غير منظّم"
+
+msgid "Upsides"
+msgstr "الأعلى"
+
+msgid "Upsidown"
+msgstr "مقلوب :: غير منظّم"
+
+msgid "Upsilon"
+msgstr "إبسِلون"
+
+msgid "Upslope"
+msgstr "مائل للأعلى"
+
+msgid "Upsoar"
+msgstr "يحلّق :: حلّق :: يحوم"
+
+msgid "Upsodown"
+msgstr "مقلوب :: غير منظّم"
+
+msgid "Upspear"
+msgstr "ينمو :: يكبر :: يترعرع"
+
+msgid "Upspring"
+msgstr "وثبة :: قفزة :: يقفز"
+
+msgid "Upstage"
+msgstr "خلفية المسرح"
+
+msgid "Upstair"
+msgstr "طابق علوي"
+
+msgid "Upstairs"
+msgstr "الطابق العلوي"
+
+msgid "Upstand"
+msgstr "قِفْ"
+
+msgid "Upstanding"
+msgstr "مستقيم"
+
+msgid "Upstandingness"
+msgstr "الاستقامة"
+
+msgid "Upstare"
+msgstr "مميّز :: واضح :: جليّ :: في مكان مرتفع"
+
+msgid "Upstart"
+msgstr "حديث النعمة"
+
+msgid "Upstarts"
+msgstr "حديثو النعمة"
+
+msgid "Upstate"
+msgstr "الريف"
+
+msgid "Upstater"
+msgstr "شماليّ وﻻية"
+
+msgid "Upstay"
+msgstr "يساعد :: يساند :: يؤازر"
+
+msgid "Upstir"
+msgstr "الثّورة :: الضّجّة :: الإزعاج"
+
+msgid "Upstream"
+msgstr "ضدّ التّيار"
+
+msgid "Upstreet"
+msgstr "في الإتّجاه المؤدّي إلى قمّة الشّارع"
+
+msgid "Upstroke"
+msgstr "تمسيد للأعلى"
+
+msgid "Upsun"
+msgstr "وقت ظهور الشّمس في السماء :: النّهار"
+
+msgid "Upsurge"
+msgstr "الإنتفاضة"
+
+msgid "Upsurges"
+msgstr "الزيادات"
+
+msgid "Upswarm"
+msgstr "ينظمّ الى السّرب :: يؤدّي الى الإنظمام الى السّرب"
+
+msgid "Upsway"
+msgstr "يأرجح :: التأرجح"
+
+msgid "Upsweep"
+msgstr "يُصعِّد"
+
+msgid "Upswell"
+msgstr "يتّضخّم ::  يرتفع"
+
+msgid "Upswing"
+msgstr "الصعود"
+
+msgid "Upswings"
+msgstr "الصعود"
+
+msgid "Upsyturvy"
+msgstr "مقلوب :: غير منظّم"
+
+msgid "Uptake"
+msgstr "المنفذ"
+
+msgid "Uptear"
+msgstr "يمزّق الى قطع صغيرة"
+
+msgid "Upthrow"
+msgstr "الارتفاع :: القذف الى الأعلى"
+
+msgid "Upthrust"
+msgstr "دفع علوي"
+
+msgid "Upthunder"
+msgstr "يصدر صوت كما صوت الرّعد"
+
+msgid "Uptie"
+msgstr "يقيّد :: يُوْثِق"
+
+msgid "Uptight"
+msgstr "متوتّر"
+
+msgid "Uptime"
+msgstr "مدّة التشغيل"
+
+msgid "Upton"
+msgstr "القرية العلويّة"
+
+msgid "Uptown"
+msgstr "أعلى القرية"
+
+msgid "Uptrain"
+msgstr "يُدرّب :: يُعلّم"
+
+msgid "Uptrend"
+msgstr "التحسّن"
+
+msgid "Upturn"
+msgstr "التحسّن"
+
+msgid "Upturned"
+msgstr "مقلوب"
+
+msgid "Upturning"
+msgstr "القلب"
+
+msgid "Upturns"
+msgstr "الإنعطاف"
+
+msgid "Upwaft"
+msgstr "ينبعث الى اﻷعلى :: يدفع الى اﻷعلى"
+
+msgid "Upward"
+msgstr "صاعد"
+
+msgid "Upwardly"
+msgstr "بشكل صاعد"
+
+msgid "Upwardness"
+msgstr "الصعود"
+
+msgid "Upwards"
+msgstr "إلى أعلى"
+
+msgid "Upwhirl"
+msgstr "يصعد الى اﻷعلى في صورة دوّامة"
+
+msgid "Upwind"
+msgstr "عكس الريح"
+
+msgid "Ur"
+msgstr "مدينة أور القديمة والواقعة على نهر الفرات"
+
+msgid "Uracil"
+msgstr "يوراسيل"
+
+msgid "Uraemia"
+msgstr "إنحباس او إنسداد في الشرايين ناتج عن خلل في الكلية"
+
+msgid "Uraemic"
+msgstr "متعلّق بانسداد او إنحباس الدّم في الشّرايين"
+
+msgid "Uraeus"
+msgstr "رأس الأفعى الذي تزيّن به الفراعنة والدّال على القوّة"
+
+msgid "Ural"
+msgstr "سلسلة جبال أورال الممتدّة بين اوروبا واسيا"
+
+msgid "Uralian"
+msgstr "متعلّق بجبال أورال"
+
+msgid "Uralic"
+msgstr "متعلّق بجبال أورال"
+
+msgid "Urals"
+msgstr "سلسلة جبال أورال الممتدّة بين اوروبا واسيا"
+
+msgid "Uranalysis"
+msgstr "التحليل الطّبي للبول"
+
+msgid "Urania"
+msgstr "يورانيا"
+
+msgid "Uranian"
+msgstr "متعلق بالكوكب أورانوس"
+
+msgid "Uranic"
+msgstr "سماوي :: متعلّق باﻷجرام السّماويّة"
+
+msgid "Uranitic"
+msgstr "متعلّق باليورانيم :: يحتوي على عنصر اليورانيوم"
+
+msgid "Uranium"
+msgstr "اليورانيوم"
+
+msgid "Uranographic"
+msgstr "متعلّق بعلم الفلك المختص برسم الخرائط للنجوم والمجرّات وباقي الأجرام السّماويّة"
+
+msgid "Uranographist"
+msgstr "عالم الفلك  المختص برسم الخرائط للنجوم والمجرّات وباقي الأجرام السّماويّة"
+
+msgid "Uranography"
+msgstr "علم الفلك المختص برسم الخرائط للنجوم والمجرّات وباقي الأجرام السّماويّة"
+
+msgid "Uranolite"
+msgstr "نيزك :: حجر نيزكي"
+
+msgid "Uranologist"
+msgstr "الفيزيائي المختص بعلم الفلك"
+
+msgid "Uranology"
+msgstr "الفيزياء المختصّة بعلم الفلك واﻷجرام السماويّة"
+
+msgid "Uranometria"
+msgstr "مصور فلكي"
+
+msgid "Uranometry"
+msgstr "خريطة توضّح مواقع النجوم واﻷجرام السّماويّة"
+
+msgid "Uranoplasty"
+msgstr "عمليّة جراحيّة في أعلى الحلق"
+
+msgid "Uranoscopy"
+msgstr "متابعة وملاحظة النّجوم واﻷجرام السّماويّة"
+
+msgid "Uranous"
+msgstr "متعلّق بعنصر اليورانيوم :: يحتوي على عنصر اليورانيوم"
+
+msgid "Uranus"
+msgstr "أورانوس"
+
+msgid "Uranyl"
+msgstr "ثاني اكسيد اليورانيوم"
+
+msgid "Urarthritis"
+msgstr "التهابات مؤلمة في إبهام القدم والقدم نفسها"
+
+msgid "Urban"
+msgstr "حضري"
+
+msgid "Urbana"
+msgstr "أوربانا"
+
+msgid "Urbane"
+msgstr "مؤدّب"
+
+msgid "Urbanely"
+msgstr "بشكل مؤدّب"
+
+msgid "Urbanism"
+msgstr "علم العمران"
+
+msgid "Urbaniste"
+msgstr "كمثرى كبيرة وطيّبة المذاق"
+
+msgid "Urbanite"
+msgstr "المدينيّ"
+
+msgid "Urbanites"
+msgstr "المدينيّون"
+
+msgid "Urbanity"
+msgstr "الدماثة"
+
+msgid "Urbanization"
+msgstr "التعمير"
+
+msgid "Urbanizations"
+msgstr "التعمير"
+
+msgid "Urbanize"
+msgstr "مدّن"
+
+msgid "Urbanized"
+msgstr "ممدّن"
+
+msgid "Urbanizes"
+msgstr "يمدّن"
+
+msgid "Urbanizing"
+msgstr "التمدّن"
+
+msgid "Urbank"
+msgstr "مدينة أوربانك"
+
+msgid "Urbanly"
+msgstr "بشكل حضري"
+
+msgid "Urbanna"
+msgstr "مدينة أوربانا"
+
+msgid "Urbicolous"
+msgstr "حضري :: مدني :: منسوب إلى مدينة"
+
+msgid "Urceolar"
+msgstr "على صورة جرّة"
+
+msgid "Urceole"
+msgstr "وعاء يحتوي على ماء لغسل الأيدي"
+
+msgid "Urchin"
+msgstr "قنفذ البحر"
+
+msgid "Urchins"
+msgstr "قنافذ البحر"
+
+msgid "Urchon"
+msgstr "القنفذ :: ولد صغير وفقير مؤذ وعابث"
+
+msgid "Urd"
+msgstr "إله القضاء والقدر"
+
+msgid "Urdu"
+msgstr "لغة الأُردو واسع الإنتشار في الهند وباكستان وتكتب بالأحرف العربية"
+
+msgid "Urea"
+msgstr "يوريا"
+
+msgid "Ureal"
+msgstr "متعلق بمادة اليوريا :: يحتوي على مادة اليوريا"
+
+msgid "Ureameter"
+msgstr "جهاز لقياس نسبة اليوريا في البول"
+
+msgid "Uremia"
+msgstr "تبوْلن الدم"
+
+msgid "Ureter"
+msgstr "الحالب"
+
+msgid "Ureteritis"
+msgstr "التهاب الحالب"
+
+msgid "Ureters"
+msgstr "الحالب"
+
+msgid "Urethane"
+msgstr "أسيد إريثان"
+
+msgid "Urethanes"
+msgstr "أسيد إريثان"
+
+msgid "Urethra"
+msgstr "الإحليل"
+
+msgid "Urethrae"
+msgstr "الأحاليل"
+
+msgid "Urethral"
+msgstr "إحليلي"
+
+msgid "Urethras"
+msgstr "الأحاليل"
+
+msgid "Urethritis"
+msgstr "إلتهاب الإحليل"
+
+msgid "Urethroscope"
+msgstr "منظار للرؤية داخل مجرى البول"
+
+msgid "Urethroscopy"
+msgstr "تشخيص مجرى البول بواسطة المنظار"
+
+msgid "Urethrotomy"
+msgstr "شقّ لمجرى البول"
+
+msgid "Uretic"
+msgstr "متعلق بالبول"
+
+msgid "Urge"
+msgstr "الحافز"
+
+msgid "Urged"
+msgstr "محثوث"
+
+msgid "Urgence"
+msgstr "الطّوارئ"
+
+msgid "Urgencies"
+msgstr "الإضطرار"
+
+msgid "Urgency"
+msgstr "الإضطرار"
+
+msgid "Urgent"
+msgstr "مستعجل"
+
+msgid "Urgently"
+msgstr "بسرعة عاجلة"
+
+msgid "Urger"
+msgstr "مُلحِّ"
+
+msgid "Urges"
+msgstr "الحوافز"
+
+msgid "Urging"
+msgstr "إلحاح"
+
+msgid "Urgings"
+msgstr "إلحاحات"
+
+msgid "Uri"
+msgstr "وري"
+
+msgid "Urial"
+msgstr "الغنم الحمراء الملتحية في جنوبيّ آسيا"
+
+msgid "Uric"
+msgstr "بولي"
+
+msgid "Urinal"
+msgstr "المبولة"
+
+msgid "Urinals"
+msgstr "المبولات"
+
+msgid "Urinalyses"
+msgstr "تحاليل البول"
+
+msgid "Urinalysis"
+msgstr "تحليل البول"
+
+msgid "Urinary"
+msgstr "المبولة"
+
+msgid "Urinate"
+msgstr "تبوّل"
+
+msgid "Urinated"
+msgstr "متبوّل"
+
+msgid "Urinates"
+msgstr "يتبوّل"
+
+msgid "Urinating"
+msgstr "التبوّل"
+
+msgid "Urination"
+msgstr "التبوّل"
+
+msgid "Urinative"
+msgstr "مثير لتدفّق البول :: مساعد على التّبوّل"
+
+msgid "Urinator"
+msgstr "شخص يقوم بالتّبوّل"
+
+msgid "Urine"
+msgstr "البول"
+
+msgid "Urines"
+msgstr "البول"
+
+msgid "URL"
+msgstr "موقع"
+
+msgid "URL-Completion"
+msgstr "تكملة العناوين"
+
+msgid "URLs"
+msgstr "عنوان الموقع"
+
+msgid "Uriniferous"
+msgstr "ناقل للبول"
+
+msgid "Uriniparous"
+msgstr "مُنتج أو معدّ للبول"
+
+msgid "Urinogenital"
+msgstr "متّعلّق بالأعضاء التّناسليّة و البوليّة"
+
+msgid "Urinose"
+msgstr "يشبه البول :: يحتوي على البول"
+
+msgid "Urinous"
+msgstr "يشبه البول :: يحتوي على البول"
+
+msgid "Urn"
+msgstr "الجرّة"
+
+msgid "Urns"
+msgstr "الجرار"
+
+msgid "Urocyst"
+msgstr "المثانة البوليّة"
+
+msgid "Urodele"
+msgstr "البرمائيّات التي تشبه السّحالي"
+
+msgid "Urodelian"
+msgstr "متعلّق بالبرمائيّات التي تشبه السّحالي"
+
+msgid "Urogenital"
+msgstr "بولي تناسلي"
+
+msgid "Urologist"
+msgstr "إخصّائي الأمراض البولية"
+
+msgid "Urologists"
+msgstr "إخصّائيو الأمراض البولية"
+
+msgid "Urology"
+msgstr "طبّ المجاري البولية"
+
+msgid "Uronology"
+msgstr "الطّب المتعلّق بالبول والمسالك البوليّة"
+
+msgid "Uroscopy"
+msgstr "تشخيص الأمراض عن طريق تحليل البول"
+
+msgid "Uroulette"
+msgstr "موقع على الإنترنت متخصّص بالقمار"
+
+msgid "Ursa"
+msgstr "أورسا"
+
+msgid "Ursine"
+msgstr "دبّي"
+
+msgid "Ursula"
+msgstr "أورسولا"
+
+msgid "Ursuline"
+msgstr "أورسلينية - راهبة "
+
+msgid "Ursus"
+msgstr "فصيلة الدّببة البنّية"
+
+msgid "Urth"
+msgstr "إلهة القدر :: الماضي"
+
+msgid "Uruguay"
+msgstr "أورغواي"
+
+msgid "Uruguayan"
+msgstr "مواطن من أوروغواي"
+
+msgid "Urus"
+msgstr "ثور برّي ذو قرون طويلة ومنقرض حديثاً"
+
+msgid "Us"
+msgstr "نحن"
+
+msgid "USA"
+msgstr "الولايات المتحدة الأمريكية"
+
+msgid "Usability"
+msgstr "سهولة الاستخدام"
+
+msgid "Usable"
+msgstr "صالح للإستعمال"
+
+msgid "Usableness"
+msgstr "صالح للاستخدام"
+
+msgid "Usably"
+msgstr "بشكل صالح للاستخدام"
+
+msgid "USAF"
+msgstr "السّلاح الجوّي الأميركي"
+
+msgid "Usage"
+msgstr "الإستعمال"
+
+msgid "Usager"
+msgstr "المؤتمن :: حافظ الأمانة"
+
+msgid "Usages"
+msgstr "الإستعمالات"
+
+msgid "Usance"
+msgstr "المهلة العرفية لدفع قيمة الكمبيالة"
+
+msgid "Usances"
+msgstr "المهلة العرفية لدفع قيمة الكمبيالة"
+
+msgid "USART"
+msgstr "المرسل المستقبل التزامني اللاتزامني العالمي"
+
+msgid "USC"
+msgstr "جامعة كاليفورنيا الجنوبية"
+
+msgid "USC&GS"
+msgstr "المَسْح الجيوديكي والسّاحلي الأميركي"
+
+msgid "USDA"
+msgstr "وزارة الزراعة الأميركية"
+
+msgid "Use"
+msgstr "الإستعمال"
+
+msgid "Useable"
+msgstr "صالح للاستخدام"
+
+msgid "Used"
+msgstr "مستعمل"
+
+msgid "Useful"
+msgstr "مفيد"
+
+msgid "Usefully"
+msgstr "بشكل مفيد"
+
+msgid "Usefulness"
+msgstr "الفائدة"
+
+msgid "Useless"
+msgstr "عديم الفائدة"
+
+msgid "Uselessly"
+msgstr "بشكل عديم الفائدة"
+
+msgid "Uselessness"
+msgstr "انعدام الفائدة"
+
+msgid "Usenet"
+msgstr "اليوزنت"
+
+msgid "Usenix"
+msgstr "اتحاد الحوسبة التقنية المتقدمة"
+
+msgid "User"
+msgstr "المستعمل"
+
+msgid "User-defined"
+msgstr "معرّف من قبل المستعمل"
+
+msgid "User-dependent"
+msgstr "معتمد على مستعمل"
+
+msgid "User-driven"
+msgstr "المستعمل قاد"
+
+msgid "User-friendly"
+msgstr "سهل الإستعمال"
+
+msgid "User-independent"
+msgstr "مستعمل مستقل"
+
+msgid "User-oriented"
+msgstr "موجه مستعمل"
+
+msgid "User-own"
+msgstr "ملك مستعمل"
+
+msgid "User-programmable"
+msgstr "مستعمل قابل للبرمجة"
+
+msgid "User-related"
+msgstr "ذو علاقة بمستعمل"
+
+msgid "User-specific"
+msgstr "مستعمل معيّن"
+
+msgid "UserAgent"
+msgstr "وكيل المستخدم"
+
+msgid "Username"
+msgstr "اسم المستعمل"
+
+msgid "Users"
+msgstr "المستعملون"
+
+msgid "UsersTasksVariables"
+msgstr "مستخدمونمهاممتغييرات"
+
+msgid "Uses"
+msgstr "الإستعمالات"
+
+#, Unix Support Group
+msgid "USG"
+msgstr "مجموعة دعم يونيكس"
+
+msgid "USGS"
+msgstr "وكالة الأبحاث الجيولوجيّة الأميركيّة"
+
+msgid "Ushas"
+msgstr "إلهة الفجر"
+
+msgid "Usher"
+msgstr "الدليل"
+
+msgid "Ushered"
+msgstr "مدلول على"
+
+msgid "Usherette"
+msgstr "المرشدة"
+
+msgid "Ushering"
+msgstr "الدلالة على"
+
+msgid "Usherless"
+msgstr "بلا دليل :: بلا هادي"
+
+msgid "Ushers"
+msgstr "الأدلاء"
+
+msgid "USIA"
+msgstr "وكالة الإعلام الأميركية"
+
+msgid "Using"
+msgstr "الإستعمال"
+
+msgid "USN"
+msgstr "الأسطول الأميركي"
+
+msgid "USPS"
+msgstr "خدمة البريد الأميركيّة"
+
+msgid "USSR"
+msgstr "الإتحاد السّوفيتي"
+
+msgid "Usk"
+msgstr "نهر الأسك"
+
+msgid "Ustulate"
+msgstr "محترق :: محروق"
+
+msgid "Ustulation"
+msgstr "العشق الفاسق :: الشّهوة :: الإحتراق"
+
+msgid "Usual"
+msgstr "عادي"
+
+msgid "Usually"
+msgstr "عادة"
+
+msgid "Usualness"
+msgstr "الاعتياد"
+
+msgid "Usumbura"
+msgstr "أوسومبورا - عاصمة بروندي"
+
+msgid "Usurer"
+msgstr "المرابي"
+
+msgid "Usurers"
+msgstr "المرابون"
+
+msgid "Usuries"
+msgstr "مراباة"
+
+msgid "Usurious"
+msgstr "رباويّ"
+
+msgid "Usuriously"
+msgstr "بشكل رباويّ"
+
+msgid "Usuriousness"
+msgstr "الرّبويّة"
+
+msgid "Usurp"
+msgstr "إغتصب"
+
+msgid "Usurpation"
+msgstr "الإغتصاب"
+
+msgid "Usurpations"
+msgstr "الإغتصاب"
+
+msgid "Usurped"
+msgstr "مغتصب"
+
+msgid "Usurper"
+msgstr "المغتصب"
+
+msgid "Usurpers"
+msgstr "المغتصبون"
+
+msgid "Usurping"
+msgstr "الإغتصاب"
+
+msgid "Usurpingly"
+msgstr "بشكل اغتصابي"
+
+msgid "Usurps"
+msgstr "يغتصب"
+
+msgid "Usury"
+msgstr "الربا"
+
+msgid "UT"
+msgstr "ولاية يوتاه الأمريكية"
+
+msgid "Utah"
+msgstr "يوتا"
+
+msgid "Utc"
+msgstr "توقيت غرينيتش"
+
+msgid "Utensil"
+msgstr "الأداة"
+
+msgid "Utensils"
+msgstr "الأدوات"
+
+msgid "Uterine"
+msgstr "رحمي"
+
+msgid "Uterogestation"
+msgstr "الحمل (بغرض الولادة)"
+
+msgid "Uterovaginal"
+msgstr "متعلق بكل من المهبل والرحم"
+
+msgid "Uterus"
+msgstr "الرحم"
+
+msgid "Uteruses"
+msgstr "الأرحام"
+
+msgid "UTF"
+msgstr "الرموز العالميه لتحوير الهيئة"
+
+#, name
+msgid "Utica"
+msgstr "يوتكا"
+
+msgid "Utile"
+msgstr "عمليّ"
+
+msgid "Utilisation"
+msgstr "الإستعمال :: الإستخدام"
+
+msgid "Utilise"
+msgstr "يستخدم :: يستعمل"
+
+msgid "Utilitarian"
+msgstr "نصير المذهب النفعي"
+
+msgid "Utilitarianism"
+msgstr "النفعية"
+
+msgid "Utilities"
+msgstr "المرافق"
+
+msgid "Utility"
+msgstr "منفعة"
+
+msgid "Utilizable"
+msgstr "من الممكن إستعماله :: من الممكن الربح من ورائه"
+
+msgid "Utilization"
+msgstr "الإستخدام"
+
+msgid "Utilizations"
+msgstr "الإستخدام"
+
+msgid "Utilize"
+msgstr "إستعمل"
+
+msgid "Utilized"
+msgstr "مستعمل"
+
+msgid "Utilizer"
+msgstr "متنفع"
+
+msgid "Utilizes"
+msgstr "يستعمل"
+
+msgid "Utilizing"
+msgstr "الإستعمال"
+
+msgid "Utmost"
+msgstr "أعلى"
+
+msgid "Utopia"
+msgstr "اليوطوبيا"
+
+msgid "Utopian"
+msgstr "اليوطوبيّ"
+
+msgid "Utopianism"
+msgstr "اليوطوبيّة"
+
+msgid "Utopianist"
+msgstr "المتفائل"
+
+msgid "Utopians"
+msgstr "اليوطوبيّون"
+
+msgid "Utopias"
+msgstr "اليوطوبيا"
+
+msgid "Utopist"
+msgstr "خيالي :: تفائلي"
+
+msgid "Utopistic"
+msgstr "اليوطوبيّة"
+
+msgid "Utp"
+msgstr "أسلاك ملتفّة على بعضها لإلغاء التداخل كما في خطوط الهاتف"
+
+#, name
+msgid "Utrecht"
+msgstr "يوتركت"
+
+msgid "Utriculate"
+msgstr "يشبه المثانة :: منتفخ كما المثانة"
+
+msgid "Utriculoid"
+msgstr "يشبه المثانة :: منتفخ كما المثانة"
+
+msgid "Utrillo"
+msgstr "أوتريللو - رسام فرنسي إشتهر برسمه للشوارع الباريسية"
+
+msgid "Utter"
+msgstr "مطلق"
+
+msgid "Utterable"
+msgstr "من الممكن التلفظ به"
+
+msgid "Utterance"
+msgstr "الكلام"
+
+msgid "Utterances"
+msgstr "الكلام"
+
+msgid "Uttered"
+msgstr "منطوق"
+
+msgid "Utterer"
+msgstr "مطلق"
+
+msgid "Utterest"
+msgstr "أعظم :: أقصى :: أكبر"
+
+msgid "Uttering"
+msgstr "النطق"
+
+msgid "Utterless"
+msgstr "لا يمكن التلفظ به"
+
+msgid "Utterly"
+msgstr "تماما"
+
+msgid "Uttermost"
+msgstr "أعلى"
+
+msgid "Utterness"
+msgstr "البعد :: ألعظمة :: القصوى"
+
+msgid "Utters"
+msgstr "ينطق"
+
+msgid "Uucp"
+msgstr "نظام نقل الأخبار والبريد الالكتروني"
+
+msgid "Uudecode"
+msgstr "يعيد تجميع الملف من صيغة ASCII الى صيغة الثنائي Binary"
+
+msgid "Uuencode"
+msgstr "يجمّيع الملف من صيغة Binary الى صيغة  ASCII"
+
+msgid "Uv"
+msgstr "أشعة فوق البنفسجية"
+
+msgid "Uvula"
+msgstr "لهاة الحلق"
+
+msgid "Uvulas"
+msgstr "لهاة الحلق"
+
+msgid "Ux"
+msgstr "المصطلح القانوني لكلمة زوجة :: قرينة"
+
+msgid "Uxooriously"
+msgstr "معجب جدّاً :: مولع :: خاضع"
+
+msgid "Uxor"
+msgstr "المصطلح القانوني لكلمة زوجة :: قرينة"
+
+msgid "Uxorial"
+msgstr "متعلق بالزوجة :: متعلق بالقرينة"
+
+msgid "Uxoricide"
+msgstr "قاتل زوجته :: جريمة القتل التي يقتل فيها الزوج زوجته"
+
+msgid "Uxorious"
+msgstr "مفتون بزوجته"
+
+msgid "Uxoriously"
+msgstr "بشكل مفتون بزوجته"
+
+msgid "Uxoriousness"
+msgstr "الخنوع للزوجة"
+
+msgid "Uz"
+msgstr "رمز الإنترنت لجمهورية أوزبيكيستان"
+
+msgid "Uzbek"
+msgstr "مواطن من أوزبيكيستان :: لغة جمهورية أوزبيكيستان"
+
+msgid "Uzbekistan"
+msgstr "أوزبكستان"
+
+msgid "Uzi"
+msgstr "عوزي - سلاح رشّاش صغير الحجم من صنع إسرائيل"
+
+msgid "Uae"
+msgstr "الإمارات العربية المتحدة"
+

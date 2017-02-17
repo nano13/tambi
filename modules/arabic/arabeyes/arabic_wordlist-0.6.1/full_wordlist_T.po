@@ -1,0 +1,12814 @@
+# translation of full_wordlist_T1.po to Arabic
+# translation of full_wordlist_T.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_T.po,v 1.29 2004/02/21 12:18:58 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'T'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ossama M. Khayat <okhayat@yahoo.com>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_T\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2003-12-15 11:53+0300\n"
+
+msgid "T"
+msgstr "تي - الحرف العشرون في اللغة الإنجليزية"
+
+msgid "T-shirt"
+msgstr "القميص القصير الأكمام، التي شيرت"
+
+msgid "TA"
+msgstr "التنتالوم"
+
+msgid "Tab"
+msgstr "الحبّة"
+
+msgid "Tabacco"
+msgstr "التّبغ"
+
+msgid "Tabard"
+msgstr "الطّبَرْد"
+
+msgid "Tabards"
+msgstr "الطّبَرْد"
+
+msgid "Tabbies"
+msgstr "العوانس"
+
+msgid "Tabbing"
+msgstr "الجدولة"
+
+msgid "Tabby"
+msgstr "العانس"
+
+msgid "Tabernacle"
+msgstr "المعبد"
+
+msgid "Tabernacled"
+msgstr "مسكون"
+
+msgid "Tabernacles"
+msgstr "المعابد"
+
+msgid "Tabernacling"
+msgstr "السكون"
+
+msgid "Table"
+msgstr "المنضدة"
+
+msgid "Table-cloth"
+msgstr "شرشف الطاولة"
+
+msgid "Table-oriented"
+msgstr "موجه منضدة"
+
+msgid "Table-track"
+msgstr "مسار منضدة"
+
+msgid "Tableau"
+msgstr "اللوحة"
+
+msgid "Tableaus"
+msgstr "اللوحات"
+
+msgid "Tableaux"
+msgstr "اللوحات"
+
+msgid "Tablecloth"
+msgstr "مفرش المائدة"
+
+msgid "Tablecloths"
+msgstr "مفارش المائدة"
+
+msgid "Tabled"
+msgstr "مدرج"
+
+msgid "Tableland"
+msgstr "أرض مسطّحة"
+
+msgid "Tablelands"
+msgstr "أراضي مسطّحة"
+
+msgid "Tables"
+msgstr "المناضد"
+
+msgid "Tablespoon"
+msgstr "ملعقة الطعام"
+
+msgid "Tablespoonful"
+msgstr "ملئ ملعقة الطعام"
+
+msgid "Tablespoonfuls"
+msgstr "ملء ملعقة طعام"
+
+msgid "Tablespoons"
+msgstr "ملاعق الطعام"
+
+msgid "Tablet"
+msgstr "القرص"
+
+msgid "Tabletop"
+msgstr "سطح المنضدة"
+
+msgid "Tabletops"
+msgstr "أسطح المناضد"
+
+msgid "Tablets"
+msgstr "الأقراص"
+
+msgid "Tableware"
+msgstr "أدوات المائدة"
+
+msgid "Tabling"
+msgstr "الإدراج"
+
+msgid "Tabloid"
+msgstr "الصحيفة الشعبية"
+
+msgid "Tabloids"
+msgstr "الصحف الشعبية"
+
+msgid "Taboo"
+msgstr "الحرام"
+
+msgid "Tabooing"
+msgstr "التحريم"
+
+msgid "Taboos"
+msgstr "الحرام"
+
+msgid "Tabors"
+msgstr "دفوف"
+
+msgid "Tabs"
+msgstr "الأسعار"
+
+msgid "Tabu"
+msgstr "محرّم"
+
+msgid "Tabula"
+msgstr "اللّوح"
+
+msgid "Tabular"
+msgstr "مجدول"
+
+msgid "Tabularly"
+msgstr "بشكل مجدول"
+
+msgid "Tabulate"
+msgstr "مسطّح"
+
+msgid "Tabulated"
+msgstr "مجدول"
+
+msgid "Tabulates"
+msgstr "يجدول"
+
+msgid "Tabulating"
+msgstr "الجدولة"
+
+msgid "Tabulation"
+msgstr "الجدولة"
+
+msgid "Tabulations"
+msgstr "الجداول"
+
+msgid "Tabulator"
+msgstr "منظم الجداول"
+
+msgid "Tabulators"
+msgstr "منظموا الجداول"
+
+msgid "Tachinid"
+msgstr "حشرات تاكينا"
+
+msgid "Tachistoscope"
+msgstr "آلة فحض الإدراك المرئي"
+
+msgid "Tachograph"
+msgstr "العدّاد الرسومي"
+
+msgid "Tachographs"
+msgstr "العدّادات الرّسوميّة"
+
+msgid "Tachometer"
+msgstr "مقياس سرعة الدّوران"
+
+msgid "Tachometers"
+msgstr "آﻻت قياس سرعة الدوران"
+
+msgid "Tachometry"
+msgstr "قياس سرعة الدّوران"
+
+msgid "Tachycardia"
+msgstr " نبض سريع للقلب على نحو شاذّ"
+
+msgid "Tachymeter"
+msgstr "أداة تحديد المسافات بسرعة"
+
+msgid "Tacit"
+msgstr "ضمني"
+
+msgid "Tacitly"
+msgstr "ضمنيا"
+
+msgid "Tacitness"
+msgstr "الضّمنيّة"
+
+msgid "Taciturn"
+msgstr "قليل الكلام"
+
+msgid "Taciturnity"
+msgstr "الصمت"
+
+msgid "Taciturnly"
+msgstr "بشكل قليل الكلام"
+
+#, name
+msgid "Tacitus"
+msgstr "تاسيتَس"
+
+msgid "Tack"
+msgstr "المسمار"
+
+msgid "Tacked"
+msgstr "مثبّت"
+
+msgid "Tacker"
+msgstr "مُثبِّت"
+
+msgid "Tackiest"
+msgstr "أرخص"
+
+msgid "Tackily"
+msgstr "بشكل مبتذل"
+
+msgid "Tackiness"
+msgstr "الابتذال"
+
+msgid "Tacking"
+msgstr "التثبيت"
+
+msgid "Tackle"
+msgstr "الأدوات"
+
+msgid "Tackled"
+msgstr "معالج"
+
+msgid "Tackler"
+msgstr "مُعرقِل"
+
+msgid "Tackles"
+msgstr "الأدوات"
+
+msgid "Tackling"
+msgstr "المعالجة"
+
+msgid "Tacks"
+msgstr "المسامير"
+
+msgid "Tacky"
+msgstr "رخيص"
+
+msgid "Taco"
+msgstr "تاكو"
+
+msgid "Tacoma"
+msgstr "تاكوما"
+
+msgid "Tacos"
+msgstr "سندويشات التاكو"
+
+msgid "Tact"
+msgstr "الكياسة"
+
+msgid "Tactful"
+msgstr "لبق"
+
+msgid "Tactfully"
+msgstr "بلباقة"
+
+msgid "Tactfulness"
+msgstr "اللّباقة"
+
+msgid "Tactic"
+msgstr "الوسيلة"
+
+msgid "Tactical"
+msgstr "تكتيكي"
+
+msgid "Tactically"
+msgstr "تعبويا"
+
+msgid "Tactician"
+msgstr "خبير التكتيك"
+
+msgid "Tacticians"
+msgstr "خبراء التكتيك"
+
+msgid "Tactics"
+msgstr "الوسائل"
+
+msgid "Tactile"
+msgstr "كثير اللمس"
+
+msgid "Tactilely"
+msgstr "بشكل كثير اللمس"
+
+msgid "Tactility"
+msgstr "حاسّة اللّمس"
+
+msgid "Tactless"
+msgstr "عديم اللباقة"
+
+msgid "Tactlessly"
+msgstr "بشكل عديم اللباقة"
+
+msgid "Tactlessness"
+msgstr "انعدام اللّباقة"
+
+msgid "Tacts"
+msgstr "الكياسة"
+
+msgid "Tactual"
+msgstr "ملموس"
+
+msgid "Tactually"
+msgstr "لمسيا"
+
+msgid "Tad"
+msgstr "غلام"
+
+msgid "Tadpole"
+msgstr "الشُّرغوف"
+
+msgid "Tadpoles"
+msgstr "الشّراغف"
+
+msgid "Taffeta"
+msgstr "قماش التفتا"
+
+msgid "Taffetas"
+msgstr "أقمشة التفتا"
+
+msgid "Taffies"
+msgstr "الويلزيون"
+
+msgid "Taffy"
+msgstr "الويلزي"
+
+msgid "Taft"
+msgstr "تافت"
+
+msgid "Tag"
+msgstr "البطاقة"
+
+msgid "Tagged"
+msgstr "معلَّم"
+
+msgid "Tagging"
+msgstr "التعليم"
+
+msgid "Tags"
+msgstr "البطاقات"
+
+msgid "Tahiti"
+msgstr "تاهيتي"
+
+msgid "Tahoe"
+msgstr "تاهو"
+
+msgid "Tail"
+msgstr "الذيل"
+
+msgid "Tailback"
+msgstr "طابور المرور"
+
+msgid "Tailed"
+msgstr "متعقّب"
+
+msgid "Tailer"
+msgstr "جاسوس"
+
+msgid "Tailgate"
+msgstr "الباب الخلفي"
+
+msgid "Tailgated"
+msgstr "ذو بوابة خلفية"
+
+msgid "Tailgater"
+msgstr "السائق المُتَتَبّع"
+
+msgid "Tailgating"
+msgstr "التّتَبّع بدنوّ خطر"
+
+msgid "Tailing"
+msgstr "التعقّب"
+
+msgid "Tailings"
+msgstr "التعقّبات"
+
+msgid "Taillight"
+msgstr "الضوء الخلفي"
+
+msgid "Taillights"
+msgstr "الأضواء الخلفية"
+
+msgid "Tailor"
+msgstr "الخيّاط"
+
+msgid "Tailor-made"
+msgstr "مصنوع حسب الطلب"
+
+msgid "Tailored"
+msgstr "مضبوط"
+
+msgid "Tailoring"
+msgstr "الخياطة"
+
+msgid "Tailors"
+msgstr "الخياطون"
+
+msgid "Tailpiece"
+msgstr "الذيل"
+
+msgid "Tails"
+msgstr "الذيول"
+
+msgid "Tailspin"
+msgstr "الإنهيار"
+
+msgid "Tailwind"
+msgstr "الريح الخلفيّة"
+
+msgid "Taint"
+msgstr "العيب"
+
+msgid "Tainted"
+msgstr "ملوّث"
+
+msgid "Tainting"
+msgstr "التلويث"
+
+msgid "Taints"
+msgstr "العيوب"
+
+msgid "Taipei"
+msgstr "تايبيه"
+
+msgid "Taiwan"
+msgstr "تايوان"
+
+msgid "Taiwanese"
+msgstr "التايواني"
+
+msgid "Tajik"
+msgstr "الطاجيكي"
+
+msgid "Tajikistan"
+msgstr "طاجيكستان"
+
+msgid "Take"
+msgstr "الوارد"
+
+msgid "Take-apart"
+msgstr "فكّك"
+
+msgid "Take-home"
+msgstr "صافي"
+
+msgid "Take-off"
+msgstr "الإقلاع"
+
+msgid "Take-up"
+msgstr "وافق عليه"
+
+msgid "Taken"
+msgstr "مأخوذ"
+
+msgid "Takeoff"
+msgstr "الإقلاع"
+
+msgid "Takeoffs"
+msgstr "الإقلاع"
+
+msgid "Takeover"
+msgstr "السيطرة"
+
+msgid "Takeovers"
+msgstr "عمليات الشرائ"
+
+msgid "Taker"
+msgstr "الآخذ"
+
+msgid "Takers"
+msgstr "الآخذون"
+
+msgid "Takes"
+msgstr "التقديرات"
+
+msgid "Taking"
+msgstr "الأخذ"
+
+msgid "Takings"
+msgstr "الإيرادات"
+
+msgid "Talc"
+msgstr "الطلق"
+
+msgid "Talcs"
+msgstr "البودرة"
+
+msgid "Talcum"
+msgstr "البودرة"
+
+msgid "Talcums"
+msgstr "البودرة"
+
+msgid "Tale"
+msgstr "الحكاية"
+
+msgid "Talebearer"
+msgstr "ناشر الإشاعات"
+
+msgid "Talebearers"
+msgstr "ناشروا الإشاعات"
+
+msgid "Talent"
+msgstr "الموهبة"
+
+msgid "Talented"
+msgstr "موهوب"
+
+msgid "Talents"
+msgstr "المواهب"
+
+msgid "Taler"
+msgstr "عملة تايلر"
+
+msgid "Tales"
+msgstr "الحكايات"
+
+msgid "Talion"
+msgstr "تاليون"
+
+msgid "Talisman"
+msgstr "السحر"
+
+msgid "Talismanic"
+msgstr "سحري"
+
+msgid "Talismans"
+msgstr "التعويذات"
+
+msgid "Talk"
+msgstr "الكلام"
+
+msgid "Talk-back"
+msgstr "ردّ"
+
+msgid "Talkative"
+msgstr "ثرثار"
+
+msgid "Talkatively"
+msgstr "بشكل ثرثار"
+
+msgid "Talkativeness"
+msgstr "الثّرثرة"
+
+msgid "Talked"
+msgstr "متكلّم"
+
+msgid "Talken"
+msgstr "تالكين"
+
+msgid "Talker"
+msgstr "المتكلم"
+
+msgid "Talkers"
+msgstr "المتكلمون"
+
+msgid "Talkie"
+msgstr "الفلم الناطق"
+
+msgid "Talkies"
+msgstr "الأفلام الناطقة"
+
+msgid "Talking"
+msgstr "الكلام"
+
+msgid "Talks"
+msgstr "المحادثات"
+
+msgid "Talky"
+msgstr "ثرثار"
+
+msgid "Tall"
+msgstr "طويل"
+
+#, name
+msgid "Talladega"
+msgstr "تالاديجا"
+
+msgid "Tallahassee"
+msgstr "تالاهاسي"
+
+#, name of river
+msgid "Tallahatchie"
+msgstr "تالّاهاتشي"
+
+#, name
+msgid "Tallchief"
+msgstr "تالتشيف"
+
+msgid "Taller"
+msgstr "أطول"
+
+msgid "Tallest"
+msgstr "الأطول"
+
+#, name
+msgid "Talleyrand"
+msgstr "تاليراند"
+
+msgid "Tallied"
+msgstr "مدوّن"
+
+msgid "Tallies"
+msgstr "الحسابات"
+
+msgid "Tallness"
+msgstr "الطّول"
+
+msgid "Tallow"
+msgstr "الشحم"
+
+msgid "Tallows"
+msgstr "الشحوم"
+
+msgid "Tallowy"
+msgstr "ذو شحم"
+
+msgid "Tally"
+msgstr "العدد"
+
+msgid "Tallyho"
+msgstr "نداء القنّاص"
+
+msgid "Tallying"
+msgstr "التدوين"
+
+msgid "Talmud"
+msgstr "التلمود"
+
+msgid "Talmudic"
+msgstr "تلمودي"
+
+msgid "Talon"
+msgstr "المخلب"
+
+msgid "Taloned"
+msgstr "ذو مخالب"
+
+msgid "Talons"
+msgstr "المخالب"
+
+msgid "Talus"
+msgstr "عظم الكعب"
+
+msgid "Tam"
+msgstr "قلنسوة صوفيّة"
+
+msgid "Tamable"
+msgstr "قابل للترويض"
+
+msgid "Tamale"
+msgstr "تامال"
+
+msgid "Tamarack"
+msgstr "شجرة الطَّمراق"
+
+msgid "Tamarind"
+msgstr "تمر الهند"
+
+msgid "Tamarinds"
+msgstr "تمور الهند"
+
+msgid "Tambour"
+msgstr "الدفّ"
+
+msgid "Tambourine"
+msgstr "الدفّ"
+
+msgid "Tambourines"
+msgstr "الدفوف"
+
+msgid "Tame"
+msgstr "أليف"
+
+msgid "Tamed"
+msgstr "مروّض"
+
+msgid "Tamely"
+msgstr "بشكل أليف"
+
+msgid "Tameness"
+msgstr "التروّض"
+
+msgid "Tamer"
+msgstr "مروِّض"
+
+msgid "Tamers"
+msgstr "مروِّضون"
+
+msgid "Tames"
+msgstr "يروّض"
+
+msgid "Tamest"
+msgstr "الأكثر ألفة"
+
+msgid "Tamil"
+msgstr "لغة التاميل المتداولة في جنوب الهند و سريلانكا"
+
+msgid "Taming"
+msgstr "الترويض"
+
+msgid "Tammany"
+msgstr "تامانيّ"
+
+msgid "Tamp"
+msgstr "إحش"
+
+msgid "Tampa"
+msgstr "تامبا"
+
+msgid "Tamped"
+msgstr "محشو"
+
+msgid "Tamper"
+msgstr "إعبث"
+
+msgid "Tampered"
+msgstr "مُغيَّر"
+
+msgid "Tamperer"
+msgstr "عابث"
+
+msgid "Tampering"
+msgstr "العبث"
+
+msgid "Tampers"
+msgstr "يعبث"
+
+msgid "Tamping"
+msgstr "الحشوة"
+
+msgid "Tampon"
+msgstr "سدّ"
+
+msgid "Tamps"
+msgstr "يحشو"
+
+msgid "Tan"
+msgstr "ظا"
+
+msgid "Tanager"
+msgstr "طائر التّناجر"
+
+#, name
+msgid "Tanaka"
+msgstr "تاناكا"
+
+msgid "Tananarive"
+msgstr "تاناناريف"
+
+msgid "Tandem"
+msgstr "الدرّاجة الهوائية المزدوجة"
+
+msgid "Tang"
+msgstr "رنين"
+
+msgid "Tanganyika"
+msgstr "تانجانيكا"
+
+msgid "Tanged"
+msgstr "رنّ"
+
+msgid "Tangency"
+msgstr "تماسّ"
+
+msgid "Tangent"
+msgstr "الظلّ"
+
+msgid "Tangential"
+msgstr "تماسّي"
+
+msgid "Tangentially"
+msgstr "بشكل تماسّي"
+
+msgid "Tangents"
+msgstr "الظلال"
+
+msgid "Tangerine"
+msgstr "اليوسفي"
+
+msgid "Tangerines"
+msgstr "اليوسفي"
+
+msgid "Tangibility"
+msgstr "الملموسيّة"
+
+msgid "Tangible"
+msgstr "ملموس"
+
+msgid "Tangibleness"
+msgstr "الماديّة"
+
+msgid "Tangibly"
+msgstr "بشكل ملموس"
+
+msgid "Tangier"
+msgstr "طنجة"
+
+msgid "Tangle"
+msgstr "التشابك"
+
+msgid "Tangled"
+msgstr "متشابك"
+
+msgid "Tangles"
+msgstr "التشابك"
+
+msgid "Tangling"
+msgstr "المشابكة"
+
+msgid "Tangly"
+msgstr "متشابك"
+
+msgid "Tango"
+msgstr "التانجو"
+
+msgid "Tangos"
+msgstr "التانجو"
+
+msgid "Tangy"
+msgstr "منعش"
+
+msgid "Tanh"
+msgstr "تان"
+
+msgid "Tank"
+msgstr "الدبابة"
+
+msgid "Tankage"
+msgstr "سعة الخزان"
+
+msgid "Tankages"
+msgstr "سعة الخزان"
+
+msgid "Tankard"
+msgstr "المشربة"
+
+msgid "Tankards"
+msgstr "المشربات"
+
+msgid "Tanked"
+msgstr "مخزون"
+
+msgid "Tanker"
+msgstr "الناقلة"
+
+msgid "Tankers"
+msgstr "الناقلات"
+
+msgid "Tanking"
+msgstr "الخزن"
+
+msgid "Tanks"
+msgstr "الدبابات"
+
+msgid "Tanned"
+msgstr "مسمرّ"
+
+msgid "Tannenbaum"
+msgstr "تانينبوم"
+
+msgid "Tanner"
+msgstr "مسمّر الجلد نتيجة التعرض للشمس"
+
+msgid "Tanneries"
+msgstr "المدابغ"
+
+msgid "Tanners"
+msgstr "الدباغون"
+
+msgid "Tannery"
+msgstr "المدبغة"
+
+msgid "Tannic"
+msgstr "دباغي"
+
+msgid "Tannin"
+msgstr "التانين"
+
+msgid "Tanning"
+msgstr "الدباغة"
+
+msgid "Tans"
+msgstr "السمرات"
+
+msgid "Tansy"
+msgstr "حشيشة الدود"
+
+msgid "Tantalization"
+msgstr "تعذيب"
+
+msgid "Tantalize"
+msgstr "أثر"
+
+msgid "Tantalized"
+msgstr "مثار"
+
+msgid "Tantalizer"
+msgstr "معذّب"
+
+msgid "Tantalizes"
+msgstr "يثير"
+
+msgid "Tantalizing"
+msgstr "الإثارة"
+
+msgid "Tantalizingly"
+msgstr "بعذاب"
+
+msgid "Tantalum"
+msgstr "التانتالوم"
+
+msgid "Tantalus"
+msgstr "خزانة المشروبات"
+
+msgid "Tantamount"
+msgstr "مساوي"
+
+msgid "Tantrum"
+msgstr "نوبة الغضب"
+
+msgid "Tantrums"
+msgstr "نوبات الغضب"
+
+msgid "Tanya"
+msgstr "تانيا"
+
+msgid "Tanzania"
+msgstr "تانزانيا"
+
+msgid "Tao"
+msgstr "سبيل الفضيلة، في الكونفوشية"
+
+msgid "Taoism"
+msgstr "الطّاويّة"
+
+msgid "Taoist"
+msgstr "طاويّ"
+
+msgid "Taos"
+msgstr "تاوس"
+
+msgid "Tap"
+msgstr "الحنفية"
+
+msgid "Tapa"
+msgstr "تابا"
+
+msgid "Tapdance"
+msgstr "الرّقص النّقري"
+
+msgid "Tape"
+msgstr "الشريط"
+
+msgid "Taped"
+msgstr "مسجّل"
+
+msgid "Taper"
+msgstr "الإستدقاق"
+
+msgid "Tapered"
+msgstr "مستدقّ"
+
+msgid "Taperer"
+msgstr "مستدق"
+
+msgid "Tapering"
+msgstr "الإستدقاق"
+
+msgid "Tapers"
+msgstr "الإستدقاق"
+
+msgid "Tapes"
+msgstr "الأشرطة"
+
+msgid "Tapestried"
+msgstr "مزيّن بالرسوم"
+
+msgid "Tapestries"
+msgstr "أقمشة النجود"
+
+msgid "Tapestry"
+msgstr "قماش النجود"
+
+msgid "Tapeworm"
+msgstr "الدودة الوحيدة"
+
+msgid "Tapeworms"
+msgstr "الديدان الوحيدة"
+
+msgid "Taping"
+msgstr "التسجيل"
+
+msgid "Tapir"
+msgstr "التابير"
+
+msgid "Tapirs"
+msgstr "حيوانات التابير"
+
+msgid "Tapis"
+msgstr "بساط"
+
+msgid "Tappa"
+msgstr "لحاء شجرة توت الورق"
+
+msgid "Tapped"
+msgstr "منقور"
+
+msgid "Tapper"
+msgstr "مسترق الأسلاك"
+
+msgid "Tappers"
+msgstr "مسترقوا الأسلاك"
+
+msgid "Tappet"
+msgstr "عتلة الدفع"
+
+msgid "Tappets"
+msgstr "عتلات الدفع"
+
+msgid "Tapping"
+msgstr "النقر"
+
+msgid "Taproom"
+msgstr "غرفة المشروبات"
+
+msgid "Taprooms"
+msgstr "غرف المشروبات"
+
+msgid "Taproot"
+msgstr "الجذر الرئيسي"
+
+msgid "Taproots"
+msgstr "الجذور الرئيسية"
+
+msgid "Taps"
+msgstr "الحنفيات"
+
+msgid "Tar"
+msgstr "القطران"
+
+msgid "Tara"
+msgstr "تارا"
+
+msgid "Tarantula"
+msgstr "الرتيلاء"
+
+msgid "Tarantulas"
+msgstr "الرتيلاء"
+
+#, name
+msgid "Tarbell"
+msgstr "تاربِلْ"
+
+msgid "Tardier"
+msgstr "أبطأ"
+
+msgid "Tardies"
+msgstr "بطيئون"
+
+msgid "Tardiest"
+msgstr "الأبطأ"
+
+msgid "Tardily"
+msgstr "بشكل بطيئ"
+
+msgid "Tardiness"
+msgstr "التأخر"
+
+msgid "Tardy"
+msgstr "بطيئ"
+
+msgid "Tare"
+msgstr "الوزن الفارغ"
+
+msgid "Tared"
+msgstr "وزن الفراغ"
+
+msgid "Tares"
+msgstr "الأوزان الفارغة"
+
+msgid "Target"
+msgstr "الهدف"
+
+msgid "Targeted"
+msgstr "مستهدف"
+
+msgid "Targeting"
+msgstr "الإستهداف"
+
+msgid "Targets"
+msgstr "الأهداف"
+
+msgid "Tariff"
+msgstr "التعريفة"
+
+msgid "Tariffed"
+msgstr "خاضع لتعريفة"
+
+msgid "Tariffing"
+msgstr "تحديد التعريفة الجمركية"
+
+msgid "Tariffs"
+msgstr "التعريفات"
+
+msgid "Taring"
+msgstr "وزن الفراغ"
+
+msgid "Tarnish"
+msgstr "الشائبة"
+
+msgid "Tarnishable"
+msgstr "عرضة للتلوّث"
+
+msgid "Tarnished"
+msgstr "ملوّث"
+
+msgid "Tarnishes"
+msgstr "الشوائب"
+
+msgid "Tarnishing"
+msgstr "التلويث"
+
+msgid "Tarnishs"
+msgstr "الشائبة"
+
+msgid "Tarot"
+msgstr "التارو"
+
+msgid "Tarp"
+msgstr "قماش القنّب"
+
+msgid "Tarpaper"
+msgstr "الورق المقيَّر"
+
+msgid "Tarpaulin"
+msgstr "القماش المشمّع"
+
+msgid "Tarpaulins"
+msgstr "الأقمشة المشمعة"
+
+msgid "Tarpon"
+msgstr "سمك الطّربون"
+
+msgid "Tarpons"
+msgstr "سمك الطّربون"
+
+msgid "Tarred"
+msgstr "مقيّر"
+
+msgid "Tarried"
+msgstr "متلكّأ"
+
+msgid "Tarries"
+msgstr "يتلكّأ"
+
+msgid "Tarring"
+msgstr "التحريض"
+
+msgid "Tarry"
+msgstr "تلكّأ"
+
+msgid "Tarrying"
+msgstr "التلكّأ"
+
+msgid "Tarrytown"
+msgstr "تاريتاون"
+
+msgid "Tars"
+msgstr "القطران"
+
+msgid "Tarsal"
+msgstr "عظم الكعب"
+
+msgid "Tart"
+msgstr "الفطيرة"
+
+msgid "Tartan"
+msgstr "الترتان"
+
+msgid "Tartans"
+msgstr "الترتان"
+
+msgid "Tartar"
+msgstr "التكلّس"
+
+msgid "Tartaric"
+msgstr "طرطاري"
+
+msgid "Tartary"
+msgstr "طَرْطيريّ"
+
+msgid "Tartly"
+msgstr "بشكل لاذع"
+
+msgid "Tartness"
+msgstr "اللّذاعة"
+
+msgid "Tarts"
+msgstr "الفطائر"
+
+msgid "Tartuffe"
+msgstr "المُرائي"
+
+msgid "Tarzan"
+msgstr "طرزان"
+
+msgid "Task"
+msgstr "المهمّة"
+
+msgid "Task-oriented"
+msgstr "موجه مهمّة"
+
+msgid "Taskbar"
+msgstr "شريط المهام"
+
+msgid "Tasked"
+msgstr "كلّف بمهمّة"
+
+msgid "Tasking"
+msgstr "تكليف بمهمّة"
+
+msgid "Taskmaster"
+msgstr "الرئيس المتعسف"
+
+msgid "Tasks"
+msgstr "المهام"
+
+msgid "Tasmania"
+msgstr "تاسمانيا"
+
+msgid "Tass"
+msgstr "فرع من لغة الأسيمبلي البرمجية"
+
+msgid "Tassel"
+msgstr "الشرّابة"
+
+msgid "Tassels"
+msgstr "الشرّابة"
+
+msgid "Taste"
+msgstr "الطعم"
+
+msgid "Tasted"
+msgstr "كان طعمه"
+
+msgid "Tasteful"
+msgstr "حسن الذوق"
+
+msgid "Tastefully"
+msgstr "بحسن ذوق"
+
+msgid "Tastefulness"
+msgstr "حُسْن الذّوق"
+
+msgid "Tasteless"
+msgstr "عديم الطعم"
+
+msgid "Tastelessly"
+msgstr "بلا طعم"
+
+msgid "Tastelessness"
+msgstr "التّفاهة"
+
+msgid "Taster"
+msgstr "المتذوّق"
+
+msgid "Tasters"
+msgstr "المتذوّقون"
+
+msgid "Tastes"
+msgstr "الأذواق"
+
+msgid "Tastier"
+msgstr "ألذّ"
+
+msgid "Tastiest"
+msgstr "ألذّ"
+
+msgid "Tastily"
+msgstr "بشكل لذيذ"
+
+msgid "Tastiness"
+msgstr "طيب المذاق"
+
+msgid "Tasting"
+msgstr "الذوق"
+
+msgid "Tasty"
+msgstr "لذيذ"
+
+msgid "Tat"
+msgstr "يخرّم"
+
+msgid "Tatar"
+msgstr "التتريّ"
+
+msgid "Tatars"
+msgstr "التتر"
+
+msgid "Tate"
+msgstr "مبهج"
+
+msgid "Tater"
+msgstr "بطاطس"
+
+msgid "Tatter"
+msgstr "الخرقة"
+
+msgid "Tattered"
+msgstr "رثّ"
+
+msgid "Tattering"
+msgstr "البلاء"
+
+msgid "Tatters"
+msgstr "الخرق"
+
+msgid "Tattier"
+msgstr "رثّ"
+
+msgid "Tatting"
+msgstr "تخريم ذو عقد"
+
+msgid "Tattle"
+msgstr "الدردشة"
+
+msgid "Tattled"
+msgstr "مثرثر"
+
+msgid "Tattler"
+msgstr "طائر الثّرثار"
+
+msgid "Tattlers"
+msgstr "طيور الثّرثار"
+
+msgid "Tattles"
+msgstr "الدردشة"
+
+msgid "Tattletale"
+msgstr "النمّام"
+
+msgid "Tattling"
+msgstr "الثرثرة"
+
+msgid "Tattoo"
+msgstr "الوشم"
+
+msgid "Tattooed"
+msgstr "موشوم"
+
+msgid "Tattooer"
+msgstr "الواشم"
+
+msgid "Tattooing"
+msgstr "الوَشْم"
+
+msgid "Tattoos"
+msgstr "الأوشام"
+
+msgid "Tatty"
+msgstr "رثّ"
+
+msgid "Tau"
+msgstr "تو"
+
+msgid "Taught"
+msgstr "معلّم"
+
+msgid "Taunt"
+msgstr "التهكّم"
+
+msgid "Taunted"
+msgstr "معنّف"
+
+msgid "Taunter"
+msgstr "مُتهكّم"
+
+msgid "Taunting"
+msgstr "التعنيف"
+
+msgid "Tauntingly"
+msgstr "بشكل تعنيفيّ"
+
+msgid "Taunts"
+msgstr "التهكّم"
+
+msgid "Taurus"
+msgstr "الثور"
+
+msgid "Tauruses"
+msgstr "الثور"
+
+msgid "Taut"
+msgstr "منشدّ جدا"
+
+msgid "Tauten"
+msgstr "شدّ"
+
+msgid "Tautened"
+msgstr "مشدود"
+
+msgid "Tautening"
+msgstr "الشدّ"
+
+msgid "Tautly"
+msgstr "بانشداد"
+
+msgid "Tautness"
+msgstr "الإنشداد"
+
+msgid "Tautological"
+msgstr "الحَشْو في الكلام"
+
+msgid "Tautologically"
+msgstr "بطريقة حشْو في الكلام"
+
+msgid "Tautologies"
+msgstr "الحَشْو في الكلام"
+
+msgid "Tautology"
+msgstr "الحَشْو"
+
+msgid "Tavern"
+msgstr "الحانة"
+
+msgid "Taverna"
+msgstr "حانة"
+
+msgid "Taverner"
+msgstr "صاحب الحانة"
+
+msgid "Taverns"
+msgstr "الحانات"
+
+msgid "Taw"
+msgstr "إدبغ"
+
+msgid "Tawdrier"
+msgstr "أرخص"
+
+msgid "Tawdriest"
+msgstr "أرخص"
+
+msgid "Tawdrily"
+msgstr "بشكل مبهرج"
+
+msgid "Tawdriness"
+msgstr "بهْرجة"
+
+msgid "Tawdry"
+msgstr "رخيص"
+
+msgid "Tawer"
+msgstr "الدّبّاغ"
+
+msgid "Tawney"
+msgstr "تاوني"
+
+msgid "Tawnier"
+msgstr "أكثر سماراً مصفرّ"
+
+msgid "Tawnies"
+msgstr "الأسمر المصفرّ"
+
+msgid "Tawniness"
+msgstr "السّمرة المصفرّة"
+
+msgid "Tawny"
+msgstr "أصحر"
+
+msgid "Taws"
+msgstr "يدبغ"
+
+msgid "Tax"
+msgstr "الضريبة"
+
+msgid "Tax Shelter"
+msgstr "طريقة يدار بها العمل تقوم على التّقليل من قيمة الضّرائب المستحقّة للدولة"
+
+msgid "Tax-exempt"
+msgstr "معفي من الضريبة"
+
+msgid "Tax-free"
+msgstr "معفي من الضريبة"
+
+msgid "Tax-payer"
+msgstr "دافع الضرائب"
+
+msgid "Taxable"
+msgstr "خاضع للضريبة"
+
+msgid "Taxably"
+msgstr "بشكل خاضع للضريبة"
+
+msgid "Taxation"
+msgstr "النظام الضريبي"
+
+msgid "Taxations"
+msgstr "الأنظمة الضريبية"
+
+msgid "Taxed"
+msgstr "مفروض عليه ضريبة"
+
+msgid "Taxer"
+msgstr "محصّل الضريبة"
+
+msgid "Taxes"
+msgstr "الضرائب"
+
+msgid "Taxi"
+msgstr "سيارة الأجرة"
+
+msgid "Taxicab"
+msgstr "سيارة الأجرة"
+
+msgid "Taxicabs"
+msgstr "سيارات الأجرة"
+
+msgid "Taxidermic"
+msgstr "تحنيطيّ"
+
+msgid "Taxidermist"
+msgstr "المحنط"
+
+msgid "Taxidermists"
+msgstr "المحنطون"
+
+msgid "Taxidermy"
+msgstr "التحنيط"
+
+msgid "Taxied"
+msgstr "نقل بسيّارة الأجرة"
+
+msgid "Taxiing"
+msgstr "النّقل بسيّارات الأجرة"
+
+msgid "Taximeter"
+msgstr "عدّاد التاكسي"
+
+msgid "Taximeters"
+msgstr "عدّادات التّاكسي"
+
+msgid "Taxing"
+msgstr "فرض الضريبة على"
+
+msgid "Taxingly"
+msgstr "بإرهاق"
+
+msgid "Taxis"
+msgstr "سيارات الأجرة"
+
+msgid "Taxiway"
+msgstr "المَدْرَجَة"
+
+msgid "Taxiways"
+msgstr "المَدْرجات"
+
+msgid "Taxonomic"
+msgstr "تصنيفيّ"
+
+msgid "Taxonomically"
+msgstr "بشكل تصنيفيّ"
+
+msgid "Taxonomy"
+msgstr "علم تصنيف الأنواع"
+
+msgid "Taxpayer"
+msgstr "دافع الضرائب"
+
+msgid "Taxpayers"
+msgstr "دافعو الضرائب"
+
+msgid "Taxpaying"
+msgstr "دفْع الضّرائب"
+
+msgid "Taylor"
+msgstr "خيّاط"
+
+#, Name
+msgid "Taylors"
+msgstr "تايلورز"
+
+msgid "Tchaikovsky"
+msgstr "تشيكوفسكاي"
+
+msgid "TCP"
+msgstr "نظام السيطرة على الارسال"
+
+msgid "Tea"
+msgstr "الشاي"
+
+msgid "Teacart"
+msgstr "عربة الشّاي"
+
+msgid "Teach"
+msgstr "علّم"
+
+msgid "Teachable"
+msgstr "قابل للتعليم"
+
+msgid "Teachableness"
+msgstr "قابليّة التعليم"
+
+msgid "Teachably"
+msgstr "بشكل قابل للتعليم"
+
+msgid "Teacher"
+msgstr "المعلّم"
+
+msgid "Teachers"
+msgstr "المعلمون"
+
+msgid "Teaches"
+msgstr "يعلّم"
+
+msgid "Teaching"
+msgstr "التعليم"
+
+msgid "Teachings"
+msgstr "التعليمات"
+
+msgid "Teacup"
+msgstr "قدح الشاي"
+
+msgid "Teacupful"
+msgstr "ملء قدح الشّاي"
+
+msgid "Teacupfuls"
+msgstr "ملء قدح الشّاي"
+
+msgid "Teacups"
+msgstr "أقداح الشاي"
+
+msgid "Teahouse"
+msgstr "المقهى"
+
+msgid "Teahouses"
+msgstr "المقاهي"
+
+msgid "Teak"
+msgstr "خشب السّاج"
+
+msgid "Teakettle"
+msgstr "غلّاية الشّاي"
+
+msgid "Teakettles"
+msgstr "غلّايات الشّاي"
+
+msgid "Teaks"
+msgstr "أخشاب السّاج"
+
+msgid "Teakwood"
+msgstr "خشب السّاج"
+
+msgid "Teal"
+msgstr "البط البري"
+
+msgid "Teals"
+msgstr "البطّات البرية"
+
+msgid "Team"
+msgstr "الفريق"
+
+msgid "Teamed"
+msgstr "كوّن فريقاً"
+
+msgid "Teaming"
+msgstr "تكوين الفرق"
+
+msgid "Teammate"
+msgstr "عضو الفريق"
+
+msgid "Teammates"
+msgstr "أعضاء الفريق"
+
+msgid "Teams"
+msgstr "الفرق"
+
+msgid "Teamster"
+msgstr "سائق الشاحنة"
+
+msgid "Teamsters"
+msgstr "سائقو الشاحنات"
+
+msgid "Teamwork"
+msgstr "فريق العمل"
+
+msgid "Teapot"
+msgstr "إبريق الشاي"
+
+msgid "Teapots"
+msgstr "أباريق الشاي"
+
+msgid "Tear"
+msgstr "الدمعة"
+
+msgid "Tear-off"
+msgstr "مزّق قبالة"
+
+msgid "Tearable"
+msgstr "تيرابل"
+
+msgid "Teardrop"
+msgstr "الدمعة"
+
+msgid "Teardrops"
+msgstr "الدموع"
+
+msgid "Teared"
+msgstr "مزّق"
+
+msgid "Tearer"
+msgstr "ممزّق"
+
+msgid "Tearful"
+msgstr "باكي"
+
+msgid "Tearfully"
+msgstr "بشكل باكي"
+
+msgid "Tearfulness"
+msgstr "البكاء"
+
+msgid "Teargas"
+msgstr "الغاز المسيّل للدموع"
+
+msgid "Tearier"
+msgstr "باكي"
+
+msgid "Teariest"
+msgstr "باكي"
+
+msgid "Tearily"
+msgstr "بشكل دامع"
+
+msgid "Teariness"
+msgstr "التدميع"
+
+msgid "Tearing"
+msgstr "التمزيق"
+
+msgid "Tearjerker"
+msgstr "المستدرّ للدّموع"
+
+msgid "Tearjerkers"
+msgstr "المستدرّون للدموع"
+
+msgid "Tearless"
+msgstr "بلا دموع"
+
+msgid "Tearoom"
+msgstr "المقهى"
+
+msgid "Tearooms"
+msgstr "المقاهي"
+
+msgid "Tears"
+msgstr "الدموع"
+
+msgid "Tearstained"
+msgstr "مبقّع بالدمع"
+
+msgid "Teary"
+msgstr "باكي"
+
+msgid "Teas"
+msgstr "الشايات"
+
+msgid "Tease"
+msgstr "أثر"
+
+msgid "Teased"
+msgstr "مثار"
+
+msgid "Teasel"
+msgstr "إنفش"
+
+msgid "Teaseled"
+msgstr "منفوش"
+
+msgid "Teaseling"
+msgstr "النفش"
+
+msgid "Teasels"
+msgstr "ينفش"
+
+msgid "Teaser"
+msgstr "المثير"
+
+msgid "Teases"
+msgstr "يثير"
+
+msgid "Teasing"
+msgstr "الإثارة"
+
+msgid "Teasingly"
+msgstr "بشكل مثار"
+
+msgid "Teasings"
+msgstr "تيسينجس"
+
+msgid "Teaspoon"
+msgstr "ملعقة الشاي"
+
+msgid "Teaspoonful"
+msgstr "ملء ملعقة الشاي"
+
+msgid "Teaspoonfuls"
+msgstr "ملء ملعقة الشاي"
+
+msgid "Teaspoons"
+msgstr "ملاعق الشاي"
+
+msgid "Teat"
+msgstr "الحلمة"
+
+msgid "Teated"
+msgstr "ذو حلمة"
+
+msgid "Teats"
+msgstr "الحلمات"
+
+msgid "Tech"
+msgstr "التقنية"
+
+msgid "Teched"
+msgstr "مختل عقلياً"
+
+msgid "Technetium"
+msgstr "التكنيتيوم"
+
+msgid "Technic"
+msgstr "تقنيّ"
+
+msgid "Technical"
+msgstr "تقني"
+
+msgid "Technicalities"
+msgstr "التفاصيل"
+
+msgid "Technicality"
+msgstr "التفصيل"
+
+msgid "Technically"
+msgstr "تقنيا"
+
+msgid "Technicalness"
+msgstr "التقنيّة"
+
+msgid "Technician"
+msgstr "التقني"
+
+msgid "Technicians"
+msgstr "التقنيون"
+
+msgid "Technicolor"
+msgstr "تكنيكولور"
+
+msgid "Technics"
+msgstr "التعليم التطبيقي"
+
+msgid "Technion"
+msgstr "المؤسسة الإسرائيلية للتكنولوجيا"
+
+msgid "Technique"
+msgstr "التقنية"
+
+msgid "Techniques"
+msgstr "التقنيات"
+
+msgid "Techno"
+msgstr "التيكنو"
+
+msgid "Technocracy"
+msgstr "حكومة الفنيّين"
+
+msgid "Technocrat"
+msgstr "نصير التقنية"
+
+msgid "Technocratic"
+msgstr "نصير التقنية"
+
+msgid "Technocrats"
+msgstr "أنصار التقنية"
+
+msgid "Technologic"
+msgstr "تقني"
+
+msgid "Technological"
+msgstr "تقني"
+
+msgid "Technologically"
+msgstr "تقنيا"
+
+msgid "Technologies"
+msgstr "التقنيات"
+
+msgid "Technologist"
+msgstr "التقني"
+
+msgid "Technologists"
+msgstr "التقنيون"
+
+msgid "Technology"
+msgstr "التقنية"
+
+msgid "Tectonic"
+msgstr "بنائي"
+
+msgid "Tectonically"
+msgstr "بشكل بنائيّ"
+
+msgid "Tectonics"
+msgstr "فنّ البناء"
+
+msgid "Tecum"
+msgstr "الألياف القويّة"
+
+msgid "Ted"
+msgstr "تيد"
+
+msgid "Teddies"
+msgstr "الدمى"
+
+msgid "Teddy"
+msgstr "دمية"
+
+msgid "Tedious"
+msgstr "مضجر"
+
+msgid "Tediously"
+msgstr "بشكل مضجر"
+
+msgid "Tediousness"
+msgstr "الإضجار"
+
+msgid "Tedium"
+msgstr "الملل"
+
+msgid "Tee"
+msgstr "المِحْملة"
+
+msgid "Teed"
+msgstr "وضع على المِحْملة"
+
+msgid "Teeing"
+msgstr "الوضْع على المِحملة"
+
+msgid "Teem"
+msgstr "صبّ"
+
+msgid "Teemed"
+msgstr "مصبوب"
+
+msgid "Teeming"
+msgstr "الصبّ"
+
+msgid "Teemingly"
+msgstr "بشكل صاخب"
+
+msgid "Teemingness"
+msgstr "الصّخب"
+
+msgid "Teems"
+msgstr "يصبّ"
+
+msgid "Teen"
+msgstr "المراهق"
+
+msgid "Teenage"
+msgstr "مراهق"
+
+msgid "Teenaged"
+msgstr "مراهق"
+
+msgid "Teenager"
+msgstr "المراهق"
+
+msgid "Teenagers"
+msgstr "المراهقون"
+
+msgid "Teener"
+msgstr "مراهق"
+
+msgid "Teeniest"
+msgstr "أصغر"
+
+msgid "Teens"
+msgstr "المراهقون"
+
+msgid "Teensier"
+msgstr "أصغر"
+
+msgid "Teensy"
+msgstr "صغير جداً"
+
+msgid "Teeny"
+msgstr "صغير جداً"
+
+msgid "Teenyboppers"
+msgstr "مراهقة صغيرة"
+
+msgid "Tees"
+msgstr "المِحمَلات"
+
+msgid "Teet"
+msgstr "تيت"
+
+msgid "Teeter"
+msgstr "تأرجح"
+
+msgid "Teetered"
+msgstr "متأرجح"
+
+msgid "Teetering"
+msgstr "التأرجح"
+
+msgid "Teeters"
+msgstr "يتأرجح"
+
+msgid "Teeth"
+msgstr "الأسنان"
+
+msgid "Teethe"
+msgstr "سنّن"
+
+msgid "Teethed"
+msgstr "مسنّن"
+
+msgid "Teether"
+msgstr "عضّاضة للأسنان"
+
+msgid "Teethes"
+msgstr "يسنّن"
+
+msgid "Teething"
+msgstr "التسنين"
+
+msgid "Teetotal"
+msgstr "يمتنع عن الخمور"
+
+msgid "Teetotaler"
+msgstr "ممتنع عن الخمور"
+
+msgid "Teetotalers"
+msgstr "ممتنعون عن الخمور"
+
+msgid "Teetotalism"
+msgstr "الإمتناع عن شرب الكحول"
+
+msgid "Teetotaller"
+msgstr "الشخص الممتنع عن شرب الكحول"
+
+msgid "Teetotallers"
+msgstr "الممتنعون عن شرب الكحول"
+
+msgid "Teflon"
+msgstr "تفلون"
+
+msgid "Teflon-coated"
+msgstr "مغطى بالتفلون"
+
+msgid "Tegucigalpa"
+msgstr "تجيوسيغالبا"
+
+msgid "Teheran"
+msgstr "طهران"
+
+msgid "Tehran"
+msgstr "طهران"
+
+msgid "Tektite"
+msgstr "التكتيت"
+
+msgid "Tektites"
+msgstr "التكتيت"
+
+msgid "Tektronix"
+msgstr "تكترونكس"
+
+msgid "Tel"
+msgstr "الهاتف"
+
+msgid "Telecamera"
+msgstr "كاميرا تلفزيونية"
+
+msgid "Telecast"
+msgstr "الإذاعة التلفزيونية"
+
+msgid "Telecasted"
+msgstr "مذاع"
+
+msgid "Telecaster"
+msgstr "المذيع"
+
+msgid "Telecasting"
+msgstr "الإذاعة"
+
+msgid "Telecasts"
+msgstr "الإذاعات التلفزيونية"
+
+msgid "Telecommunicate"
+msgstr "يتّصل"
+
+msgid "Telecommunication"
+msgstr "الإتصال"
+
+msgid "Telecommunications"
+msgstr "الإتصالات"
+
+msgid "Telecommuting"
+msgstr "العمل عن بعد"
+
+msgid "Teleconference"
+msgstr "الإجتماع عبر الهاتف"
+
+msgid "Teleconferenced"
+msgstr "اجتمع عبر الهاتف"
+
+msgid "Teleconferences"
+msgstr "الإجتماع عبر الهاتف"
+
+msgid "Teleconferencing"
+msgstr "الاجتماع عبر الهاتف"
+
+msgid "Telecopier"
+msgstr "الفاكس"
+
+msgid "Telecopy"
+msgstr "أرسل فاكس"
+
+msgid "Telecopying"
+msgstr "إرسال فاكس"
+
+msgid "Telecourse"
+msgstr "درس تلفزيوني"
+
+msgid "Telecourses"
+msgstr "دروس تلفزيونية"
+
+msgid "Telediagnosis"
+msgstr "التحليل عن بعد"
+
+msgid "Teledyne"
+msgstr "تيليدين"
+
+msgid "Telegrafic"
+msgstr "برقيّ"
+
+msgid "Telegram"
+msgstr "البرقية"
+
+msgid "Telegrams"
+msgstr "البرقيات"
+
+msgid "Telegraph"
+msgstr "البرقية"
+
+msgid "Telegraphed"
+msgstr "مبرق"
+
+msgid "Telegrapher"
+msgstr "عامل التلغراف"
+
+msgid "Telegraphers"
+msgstr "عمّال البرقيات"
+
+msgid "Telegraphese"
+msgstr "تحرير البرقيات"
+
+msgid "Telegraphic"
+msgstr "برقي"
+
+msgid "Telegraphical"
+msgstr "برقيّ"
+
+msgid "Telegraphically"
+msgstr "بشكل دقيق"
+
+msgid "Telegraphicly"
+msgstr "بشكل برقي"
+
+msgid "Telegraphing"
+msgstr "الإبراق"
+
+msgid "Telegraphist"
+msgstr "عامل البرقيات"
+
+msgid "Telegraphists"
+msgstr "عمّال البرقيات"
+
+msgid "Telegraphs"
+msgstr "يبرق"
+
+msgid "Telegraphy"
+msgstr "الإبراق"
+
+msgid "Telekinesis"
+msgstr "التحريك الذهني"
+
+#, name
+msgid "Telemann"
+msgstr "تلمان"
+
+msgid "Telemeter"
+msgstr "مقياس البعد"
+
+msgid "Telemetering"
+msgstr "قياس البعد"
+
+msgid "Telemeters"
+msgstr "مقاييس البعد"
+
+msgid "Telemetric"
+msgstr "متعلق بالقياس عن بعد"
+
+msgid "Telemetrically"
+msgstr "بشكل قياس ورصد المعلومات عن بعد"
+
+msgid "Telemetry"
+msgstr "قياس المعلومات عن بعد"
+
+msgid "Teleological"
+msgstr "غائي"
+
+msgid "Teleologically"
+msgstr "بشكل غائي"
+
+msgid "Teleology"
+msgstr "الغائية"
+
+msgid "Teleost"
+msgstr "عظميّة"
+
+msgid "Telepathic"
+msgstr "تخاطري"
+
+msgid "Telepathically"
+msgstr "بشكل تخاطريّ"
+
+msgid "Telepathy"
+msgstr "التخاطر"
+
+msgid "Telephone"
+msgstr "الهاتف"
+
+msgid "Telephoned"
+msgstr "مخابر"
+
+msgid "Telephoner"
+msgstr "المُتّصل"
+
+msgid "Telephones"
+msgstr "الهواتف"
+
+msgid "Telephonic"
+msgstr "هاتفي"
+
+msgid "Telephonically"
+msgstr "بشكل هاتفيّ"
+
+msgid "Telephoning"
+msgstr "المخابرة"
+
+msgid "Telephony"
+msgstr "الإرسال الهاتفي"
+
+msgid "Telephote"
+msgstr "تليفوت"
+
+msgid "Telephoto"
+msgstr "تليفوتوغرافي"
+
+msgid "Telephotograph"
+msgstr "صوّر"
+
+msgid "Telephotographic"
+msgstr "مقرّب"
+
+msgid "Telephotographically"
+msgstr "تليفوتوغرافي"
+
+msgid "Telephotographs"
+msgstr "يصوّر"
+
+msgid "Telephotography"
+msgstr "التصوير البعدي"
+
+msgid "Teleprint"
+msgstr "المبرقة الكاتبة"
+
+msgid "Teleprinter"
+msgstr "المبرقة الكاتبة"
+
+msgid "Teleprinters"
+msgstr "المبرقات الكاتبة"
+
+msgid "Teleprocessing"
+msgstr "المعالجة عن بعد"
+
+msgid "Teleprompter"
+msgstr "الملقّن عن بعد"
+
+msgid "Telescope"
+msgstr "المنظار"
+
+msgid "Telescoped"
+msgstr "صغّر"
+
+msgid "Telescopes"
+msgstr "المناظير"
+
+msgid "Telescopic"
+msgstr "متداخل"
+
+msgid "Telescopically"
+msgstr "بشكل تلسكوبيّ"
+
+msgid "Telescoping"
+msgstr "تصغير"
+
+msgid "Telescreen"
+msgstr "شاشة تلفزيون ضخمة"
+
+#, programming language
+msgid "Telescript"
+msgstr "تلسكربت"
+
+msgid "Teleseme"
+msgstr "نظام أجهزة للإشارات الكهربائيّة"
+
+msgid "Teleshopping"
+msgstr "التّسوق عن بعد"
+
+msgid "Telethon"
+msgstr "حملة التبرعات عبر التلفزيون"
+
+msgid "Teletype"
+msgstr "المبرقة الكاتبة"
+
+msgid "Teletypesetting"
+msgstr "استخدام المبرقة الكاتبة"
+
+msgid "Teletypewriter"
+msgstr "المبرقة الكاتبة"
+
+msgid "Teletypewriters"
+msgstr "المبرقات الكاتبة"
+
+msgid "Teletypist"
+msgstr "عامل المبرقة الكاتبة"
+
+msgid "Teletypists"
+msgstr "عمّال المبرقة الكاتبة"
+
+msgid "Teleview"
+msgstr "شاهد"
+
+msgid "Televiewed"
+msgstr "مشاهد"
+
+msgid "Televiewer"
+msgstr "مشاهد البرامج التلفزيونية"
+
+msgid "Televiewers"
+msgstr "مشاهدوا البرامج التلفزيونية"
+
+msgid "Televiewing"
+msgstr "المشاهدة"
+
+msgid "Televise"
+msgstr "تلفز"
+
+msgid "Televised"
+msgstr "تلفزيوني"
+
+msgid "Televises"
+msgstr "يتلفز"
+
+msgid "Televising"
+msgstr "التلفزة"
+
+msgid "Television"
+msgstr "التلفزيون"
+
+msgid "Televisions"
+msgstr "التلفزيونات"
+
+msgid "Televisor"
+msgstr "مذيع بالتلفزيون"
+
+msgid "Televisors"
+msgstr "مذيعون بالتلفزيون"
+
+msgid "Telex"
+msgstr "التلكس"
+
+msgid "Tell"
+msgstr "أخبر"
+
+msgid "Tellable"
+msgstr "يمكن إخباره"
+
+msgid "Teller"
+msgstr "الراوي"
+
+msgid "Tellers"
+msgstr "الرواة"
+
+msgid "Telling"
+msgstr "الإخبار"
+
+msgid "Tellingly"
+msgstr "بشكل صادق"
+
+msgid "Tells"
+msgstr "يخبر"
+
+msgid "Telltale"
+msgstr "الراوي"
+
+msgid "Telltales"
+msgstr "الرواة"
+
+msgid "Tellurium"
+msgstr "التَّلّوريوم"
+
+msgid "Telnet"
+msgstr "التّلنتْ"
+
+msgid "Telnets"
+msgstr "التّلنتْ"
+
+msgid "Telpher"
+msgstr "العربة المعلقة"
+
+msgid "Temerities"
+msgstr "التهوّر"
+
+msgid "Temerity"
+msgstr "التهوّر"
+
+msgid "Temp"
+msgstr "الموظف المؤقت"
+
+msgid "Temper"
+msgstr "المزاج"
+
+msgid "Tempera"
+msgstr "الصبغ"
+
+msgid "Temperable"
+msgstr "مزاجي"
+
+msgid "Temperament"
+msgstr "حساسية بالغة"
+
+msgid "Temperamental"
+msgstr "مزاجيّ"
+
+msgid "Temperamentally"
+msgstr "بمزاجية"
+
+msgid "Temperaments"
+msgstr "المزاجات"
+
+msgid "Temperance"
+msgstr "الإعتدال"
+
+msgid "Temperances"
+msgstr "الإعتدالات"
+
+msgid "Temperas"
+msgstr "الأصباغ"
+
+msgid "Temperate"
+msgstr "معتدل"
+
+msgid "Temperately"
+msgstr "بشكل معتدل"
+
+msgid "Temperateness"
+msgstr "الاعتدال"
+
+msgid "Temperature"
+msgstr "درجة الحرارة"
+
+msgid "Temperatures"
+msgstr "درجات الحرارة"
+
+msgid "Tempered"
+msgstr "مخفّف"
+
+msgid "Temperer"
+msgstr "الخلاط"
+
+msgid "Tempering"
+msgstr "الخلط"
+
+msgid "Tempers"
+msgstr "المزاج"
+
+msgid "Tempest"
+msgstr "العاصفة"
+
+msgid "Tempests"
+msgstr "العواصف"
+
+msgid "Tempestuous"
+msgstr "عاصف"
+
+msgid "Tempestuously"
+msgstr "بشكل عاصف"
+
+msgid "Tempestuousness"
+msgstr "تيمبيستووسنيس"
+
+msgid "Template"
+msgstr "النموذج"
+
+msgid "Templates"
+msgstr "النماذج"
+
+msgid "Temple"
+msgstr "المعبد"
+
+msgid "Templed"
+msgstr "مُعبّد"
+
+#, name
+msgid "Templeman"
+msgstr "تمبلْمان"
+
+msgid "Temples"
+msgstr "المعابد"
+
+msgid "Templeton"
+msgstr "تيمبيلتن"
+
+msgid "Tempo"
+msgstr "سرعة الإيقاع"
+
+msgid "Temporal"
+msgstr "دنيوي"
+
+msgid "Temporally"
+msgstr "بشكل دنيوي"
+
+msgid "Temporaries"
+msgstr "المؤقَّتات"
+
+msgid "Temporarily"
+msgstr "بشكل مؤقت"
+
+msgid "Temporariness"
+msgstr "عدم الاستمرارية"
+
+msgid "Temporary"
+msgstr "مؤقت"
+
+msgid "Temporize"
+msgstr "ماطل"
+
+msgid "Temporized"
+msgstr "مماطَل"
+
+msgid "Temporizer"
+msgstr "مماطِل"
+
+msgid "Temporizes"
+msgstr "يماطل"
+
+msgid "Temporizing"
+msgstr "المماطلة"
+
+msgid "Temporizingly"
+msgstr "بشكل مماطل"
+
+msgid "Temporo"
+msgstr "مرتبط ب"
+
+msgid "Tempos"
+msgstr "سرعات الإيقاع"
+
+msgid "Tempt"
+msgstr "أغرِ"
+
+msgid "Temptable"
+msgstr "قابل للإغراء"
+
+msgid "Temptation"
+msgstr "الإغراء"
+
+msgid "Temptations"
+msgstr "الإغراءات"
+
+msgid "Tempted"
+msgstr "مغرى"
+
+msgid "Tempter"
+msgstr "المغوي"
+
+msgid "Tempters"
+msgstr "المغوون"
+
+msgid "Tempting"
+msgstr "الإغراء"
+
+msgid "Temptingly"
+msgstr "بشكل مغري"
+
+msgid "Temptress"
+msgstr "الفاتنة"
+
+msgid "Temptresses"
+msgstr "الفاتنات"
+
+msgid "Tempts"
+msgstr "يغري"
+
+msgid "Ten"
+msgstr "عشر"
+
+msgid "Tenable"
+msgstr "متَقبَّل"
+
+msgid "Tenableness"
+msgstr "إمكانيّة التّقبّل"
+
+msgid "Tenably"
+msgstr "بشكل مقبول"
+
+msgid "Tenacious"
+msgstr "عنيد"
+
+msgid "Tenaciously"
+msgstr "بشكل عنيد"
+
+msgid "Tenaciousness"
+msgstr "الإصرار"
+
+msgid "Tenacities"
+msgstr "الإصرار"
+
+msgid "Tenacity"
+msgstr "الإصرار"
+
+msgid "Tenancies"
+msgstr "الإيجار"
+
+msgid "Tenancy"
+msgstr "الإيجار"
+
+msgid "Tenant"
+msgstr "المستأجر"
+
+msgid "Tenantries"
+msgstr "جماعات المستأجرين"
+
+msgid "Tenantry"
+msgstr "جماعة المستأجرين"
+
+msgid "Tenants"
+msgstr "المستأجرون"
+
+msgid "Tend"
+msgstr "أدر"
+
+msgid "Tended"
+msgstr "أدير"
+
+msgid "Tendencies"
+msgstr "الميول"
+
+msgid "Tendency"
+msgstr "الميل"
+
+msgid "Tendentious"
+msgstr "متحيّز"
+
+msgid "Tendentiously"
+msgstr "بشكل متحيّز"
+
+msgid "Tender"
+msgstr "العرض"
+
+msgid "Tendered"
+msgstr "قدّم"
+
+msgid "Tenderer"
+msgstr "مقدم العطاء"
+
+msgid "Tenderfeet"
+msgstr "المُبتدئون"
+
+msgid "Tenderfoot"
+msgstr "المُبتدئ"
+
+msgid "Tenderfoots"
+msgstr "المُبتدئون"
+
+msgid "Tenderhearted"
+msgstr "حنون"
+
+msgid "Tenderheartedly"
+msgstr "بشكل حنون"
+
+msgid "Tendering"
+msgstr "التقديم"
+
+msgid "Tenderize"
+msgstr "ليّن"
+
+msgid "Tenderized"
+msgstr "مليّن"
+
+msgid "Tenderizes"
+msgstr "يليّن"
+
+msgid "Tenderizing"
+msgstr "التليين"
+
+msgid "Tenderloin"
+msgstr "لحم المتن"
+
+msgid "Tenderloins"
+msgstr "لحوم المتن"
+
+msgid "Tenderly"
+msgstr "برقة"
+
+msgid "Tenderness"
+msgstr "الرقة"
+
+msgid "Tendernesses"
+msgstr "الرقة"
+
+msgid "Tenders"
+msgstr "العروض"
+
+msgid "Tending"
+msgstr "الإدارة"
+
+msgid "Tendon"
+msgstr "الوتر"
+
+msgid "Tendons"
+msgstr "أوتار العضل"
+
+msgid "Tendril"
+msgstr "المحلاق"
+
+msgid "Tendrils"
+msgstr "المحلاق"
+
+msgid "Tends"
+msgstr "يدير"
+
+msgid "Tenebrous"
+msgstr "قاتم"
+
+msgid "Tenement"
+msgstr "المبنى"
+
+msgid "Tenements"
+msgstr "المباني"
+
+msgid "Tenet"
+msgstr "العقيدة"
+
+msgid "Tenets"
+msgstr "العقائد"
+
+#, trademark
+msgid "Tenex"
+msgstr "تينكس"
+
+msgid "Tenfold"
+msgstr "عشرة أضعاف"
+
+msgid "Tennessee"
+msgstr "تينيسي"
+
+#, name
+msgid "Tenney"
+msgstr "تيني"
+
+msgid "Tennis"
+msgstr "التنس"
+
+#, name
+msgid "Tennyson"
+msgstr "تينيسون"
+
+msgid "Tenon"
+msgstr "لسان"
+
+msgid "Tenons"
+msgstr "يُلسّن"
+
+msgid "Tenor"
+msgstr "الفحوى"
+
+msgid "Tenors"
+msgstr "الفحوى"
+
+msgid "Tenpin"
+msgstr "القارورة العشريّة"
+
+msgid "Tenpins"
+msgstr "لعبة البولنج العشرية"
+
+msgid "Tens"
+msgstr "العشرات"
+
+msgid "Tense"
+msgstr "يوتّر"
+
+msgid "Tensed"
+msgstr "متوتّر"
+
+msgid "Tensely"
+msgstr "بتوتّر"
+
+msgid "Tenseness"
+msgstr "التّوتّر"
+
+msgid "Tenser"
+msgstr "متوتر"
+
+msgid "Tenses"
+msgstr "يتوتّر"
+
+msgid "Tensest"
+msgstr "متوتّر"
+
+msgid "Tensibility"
+msgstr "قابليّة الشّد"
+
+msgid "Tensile"
+msgstr "توتّري"
+
+msgid "Tensing"
+msgstr "توْتير"
+
+msgid "Tension"
+msgstr "التوتّر"
+
+msgid "Tensional"
+msgstr "توتّري"
+
+msgid "Tensioned"
+msgstr "متوتّر"
+
+msgid "Tensioner"
+msgstr "المُوتّر"
+
+msgid "Tensioning"
+msgstr "التّوتير"
+
+msgid "Tensionless"
+msgstr "مُرتاح"
+
+msgid "Tensions"
+msgstr "التوتّرات"
+
+msgid "Tensive"
+msgstr "توتّري"
+
+msgid "Tensor"
+msgstr "العضلة الشّادّة"
+
+msgid "Tensorial"
+msgstr "عضليّ"
+
+msgid "Tensors"
+msgstr "العضلات الشّادّة"
+
+msgid "Tent"
+msgstr "الخيمة"
+
+msgid "Tentacle"
+msgstr "اللامسة"
+
+msgid "Tentacled"
+msgstr "ذو مجسّات"
+
+msgid "Tentacles"
+msgstr "اللوامس"
+
+msgid "Tentacular"
+msgstr "ذو مجسّات"
+
+msgid "Tentative"
+msgstr "مؤقّت"
+
+msgid "Tentatively"
+msgstr "بتردد"
+
+msgid "Tentativeness"
+msgstr "التّردّد"
+
+msgid "Tented"
+msgstr "مُخيّم"
+
+msgid "Tenter"
+msgstr "المُخيّم"
+
+msgid "Tenterhook"
+msgstr "الكلابة"
+
+msgid "Tenterhooks"
+msgstr "الكلابات"
+
+msgid "Tenth"
+msgstr "العشر"
+
+msgid "Tenthes"
+msgstr "العشر"
+
+msgid "Tenthly"
+msgstr "عاشرا"
+
+msgid "Tenths"
+msgstr "الأعشار"
+
+msgid "Tenting"
+msgstr "التّخييم"
+
+msgid "Tents"
+msgstr "الخِيَم"
+
+msgid "Tenuity"
+msgstr "ضَعْف"
+
+msgid "Tenuous"
+msgstr "ضعيف"
+
+msgid "Tenuously"
+msgstr "بضَعْف"
+
+msgid "Tenuousness"
+msgstr "الضّعْف"
+
+msgid "Tenure"
+msgstr "مدّة الخدمة"
+
+msgid "Tenured"
+msgstr "دائم"
+
+msgid "Tenures"
+msgstr "الحيازة"
+
+msgid "Tepee"
+msgstr "الخيمة"
+
+msgid "Tepees"
+msgstr "الخيم"
+
+msgid "Tepid"
+msgstr "فاتر"
+
+msgid "Tepidity"
+msgstr "الفُتور"
+
+msgid "Tepidly"
+msgstr "بشكل فاتر"
+
+msgid "Tepidness"
+msgstr "الفتور"
+
+msgid "Tequila"
+msgstr "تيكيلا"
+
+msgid "Teratogenic"
+msgstr "متعلق بالتشوّهات الجنينية"
+
+msgid "Teratology"
+msgstr "مبحث عجائب المخلوقات"
+
+msgid "Terbium"
+msgstr "التّيربيوم"
+
+msgid "Tercel"
+msgstr "النسر"
+
+msgid "Tercentenary"
+msgstr "الذكرى المئوية الثالثة"
+
+msgid "Tercentennial"
+msgstr "الذكرى المئوية الثالثة"
+
+msgid "Teresa"
+msgstr "تيريزا"
+
+msgid "Tergiversate"
+msgstr "راوغ"
+
+msgid "Tergiversated"
+msgstr "مراوغ"
+
+msgid "Tergiversates"
+msgstr "يراوغ"
+
+msgid "Tergiversating"
+msgstr "المراوغة"
+
+msgid "Term"
+msgstr "التعبير"
+
+msgid "Termagant"
+msgstr "السليطة"
+
+msgid "Termagantly"
+msgstr "بشكل سليط"
+
+msgid "Termcap"
+msgstr "محارف سطر الأوامر"
+
+msgid "Termed"
+msgstr "معيّن"
+
+msgid "Termer"
+msgstr "مرّات"
+
+msgid "Termin"
+msgstr "ترمن"
+
+msgid "Terminable"
+msgstr "قابل للإنهاء"
+
+msgid "Terminableness"
+msgstr "قابلية الانهاء"
+
+msgid "Terminably"
+msgstr "بشكل قابل للإنهاء"
+
+msgid "Terminal"
+msgstr "المحطة الطرفية"
+
+msgid "Terminal-controlled"
+msgstr "مدار من قبل المحطة الطرفية"
+
+msgid "Terminal-Emulation"
+msgstr "المحاكاة الطرفية"
+
+msgid "Terminally"
+msgstr "بشكل طرفي"
+
+msgid "Terminals"
+msgstr "المحطات الطرفية"
+
+msgid "Terminate"
+msgstr "منتهي"
+
+msgid "Terminated"
+msgstr "منهى"
+
+msgid "Terminates"
+msgstr "ينهي"
+
+msgid "Terminating"
+msgstr "الإنهاء"
+
+msgid "Termination"
+msgstr "الإنهاء"
+
+msgid "Terminations"
+msgstr "الإنهاء"
+
+msgid "Terminative"
+msgstr "إنتهائي"
+
+msgid "Terminatively"
+msgstr "بشكل إنتهائي"
+
+msgid "Terminator"
+msgstr "المُنهي"
+
+msgid "Terminators"
+msgstr "المُنهون"
+
+msgid "Terming"
+msgstr "التعيين"
+
+msgid "Termini"
+msgstr "حدّ"
+
+msgid "Terminological"
+msgstr "إصطلاحي"
+
+msgid "Terminologically"
+msgstr "بمصطلح فني"
+
+msgid "Terminologies"
+msgstr "المصطلحات"
+
+msgid "Terminology"
+msgstr "المصطلح"
+
+msgid "Terminus"
+msgstr "النهاية"
+
+msgid "Termite"
+msgstr "النمل الأبيض"
+
+msgid "Termites"
+msgstr "النمل الأبيض"
+
+msgid "Termly"
+msgstr "بشكل مرّات"
+
+msgid "Terms"
+msgstr "الشروط"
+
+msgid "Tern"
+msgstr "خطّاف البحر"
+
+msgid "Ternary"
+msgstr "ترناري"
+
+msgid "Terns"
+msgstr "خطاف البحر"
+
+msgid "Terpsichore"
+msgstr "فنّ الرّقص"
+
+msgid "Terpsichorean"
+msgstr "متعلّق بفنّ الرقص"
+
+msgid "Terra"
+msgstr "تيرا"
+
+msgid "Terrace"
+msgstr "الشرفة"
+
+msgid "Terraced"
+msgstr "متجاور"
+
+msgid "Terraces"
+msgstr "الشرفات"
+
+msgid "Terracing"
+msgstr "التزويد بشُرفة"
+
+msgid "Terracotta"
+msgstr "الطين"
+
+msgid "Terrain"
+msgstr "التضاريس"
+
+msgid "Terrains"
+msgstr "الأراضي"
+
+msgid "Terramycin"
+msgstr "طِرمايسين"
+
+msgid "Terran"
+msgstr "أرضيّ"
+
+msgid "Terrapin"
+msgstr "السلحفاة"
+
+msgid "Terrapins"
+msgstr "السلاحف"
+
+msgid "Terre"
+msgstr "بيت صغير أو شقّة"
+
+msgid "Terrestrial"
+msgstr "أرضيّ"
+
+msgid "Terrestrially"
+msgstr "أرضيا"
+
+msgid "Terrestrials"
+msgstr "أرضيّون"
+
+msgid "Terrible"
+msgstr "فظيع"
+
+msgid "Terribleness"
+msgstr "الفظاعة"
+
+msgid "Terribly"
+msgstr "بشدة"
+
+msgid "Terrier"
+msgstr "الكلب"
+
+msgid "Terriers"
+msgstr "الكلاب"
+
+msgid "Terries"
+msgstr "الوبرات"
+
+msgid "Terrific"
+msgstr "رائع"
+
+msgid "Terrifically"
+msgstr "بشكل رائع"
+
+msgid "Terrified"
+msgstr "مفزع"
+
+msgid "Terrifies"
+msgstr "يفزع"
+
+msgid "Terrify"
+msgstr "أفزع"
+
+msgid "Terrifying"
+msgstr "الإفزاع"
+
+msgid "Terrifyingly"
+msgstr "بشكل مرعب"
+
+msgid "Territorial"
+msgstr "الجندي المرابط"
+
+msgid "Territorially"
+msgstr "إقليميا"
+
+msgid "Territories"
+msgstr "الأراضي"
+
+msgid "Territory"
+msgstr "الأرض"
+
+msgid "Terror"
+msgstr "الإرهاب"
+
+msgid "Terrorism"
+msgstr "الإرهاب"
+
+msgid "Terrorist"
+msgstr "الإرهابي"
+
+msgid "Terroristic"
+msgstr "إرهابي"
+
+msgid "Terrorists"
+msgstr "الإرهابيون"
+
+msgid "Terrorize"
+msgstr "أرهب"
+
+msgid "Terrorized"
+msgstr "مرهَب"
+
+msgid "Terrorizer"
+msgstr "مُرهِب"
+
+msgid "Terrorizers"
+msgstr "مُرهِبون"
+
+msgid "Terrorizes"
+msgstr "يرهب"
+
+msgid "Terrorizing"
+msgstr "الإرهاب"
+
+msgid "Terrors"
+msgstr "الرعب"
+
+msgid "Terry"
+msgstr "الوبرة"
+
+msgid "Terse"
+msgstr "مقتضب"
+
+msgid "Tersely"
+msgstr "بشكل مقتضب"
+
+msgid "Terseness"
+msgstr "الإيجاز البليغ"
+
+msgid "Terser"
+msgstr "أكثر إقتضابا"
+
+msgid "Tersest"
+msgstr "أكثر إقتضابا"
+
+msgid "Tertian"
+msgstr "ثلثي"
+
+msgid "Tertiaries"
+msgstr "الثالث"
+
+msgid "Tertiary"
+msgstr "العصر الجيولوجي الثالث"
+
+msgid "Tess"
+msgstr "تيس"
+
+msgid "Tessellate"
+msgstr "غطّ بالفسيفساء"
+
+msgid "Tessellated"
+msgstr "فسيفسائي"
+
+msgid "Tessellates"
+msgstr "يغطي بالفسيفساء"
+
+msgid "Tessellating"
+msgstr "التغطية بالفسيفساء"
+
+msgid "Tessellation"
+msgstr "التغطية بالفسيفساء"
+
+msgid "Tessie"
+msgstr "تيسي"
+
+msgid "Test"
+msgstr "الإختبار"
+
+msgid "Test-bench"
+msgstr "مقعد إختبار"
+
+msgid "Testability"
+msgstr "قابليّة الاختبار"
+
+msgid "Testable"
+msgstr "قابل للاختبار"
+
+msgid "Testament"
+msgstr "الوصيّة"
+
+msgid "Testamentary"
+msgstr "وصائي"
+
+msgid "Testaments"
+msgstr "الوصايا"
+
+msgid "Testate"
+msgstr "الموصي"
+
+msgid "Testator"
+msgstr "الموصي"
+
+msgid "Testators"
+msgstr "الموصون"
+
+msgid "Testatrix"
+msgstr "الموصية"
+
+msgid "Testatrixes"
+msgstr "الموصية"
+
+msgid "Tested"
+msgstr "مجرّب"
+
+msgid "Tester"
+msgstr "الفاحص"
+
+msgid "Testers"
+msgstr "الفاحصات"
+
+msgid "Testes"
+msgstr "الخصيات"
+
+msgid "Testicle"
+msgstr "الخصية"
+
+msgid "Testicles"
+msgstr "الخصيات"
+
+msgid "Testicular"
+msgstr "خصيوي"
+
+msgid "Testier"
+msgstr "حاد الطبع"
+
+msgid "Testiest"
+msgstr "حاد الطبع"
+
+msgid "Testified"
+msgstr "شاهَد"
+
+msgid "Testifier"
+msgstr "شاهِد"
+
+msgid "Testifiers"
+msgstr "شُهود"
+
+msgid "Testifies"
+msgstr "يشهد"
+
+msgid "Testify"
+msgstr "إشهد"
+
+msgid "Testifying"
+msgstr "الشهادة"
+
+msgid "Testily"
+msgstr "بحدّة طبع"
+
+msgid "Testimonial"
+msgstr "التزكية"
+
+msgid "Testimonials"
+msgstr "التزكيات"
+
+msgid "Testimonies"
+msgstr "الشهادات"
+
+msgid "Testimony"
+msgstr "الشهادة"
+
+msgid "Testiness"
+msgstr "حدّة الطبع"
+
+msgid "Testing"
+msgstr "الإختبار"
+
+msgid "Testings"
+msgstr "الإختبار"
+
+msgid "Testis"
+msgstr "الخصية"
+
+msgid "Testosterone"
+msgstr "التيستوستيرون"
+
+msgid "Tests"
+msgstr "الإختبارات"
+
+msgid "Testudo"
+msgstr "درع"
+
+msgid "Testy"
+msgstr "حاد الطبع"
+
+msgid "Tetanus"
+msgstr "داء الكزاز"
+
+msgid "Tete"
+msgstr "الشَّعر المستعار"
+
+msgid "Tether"
+msgstr "الحبل"
+
+msgid "Tethered"
+msgstr "مربوط"
+
+msgid "Tethering"
+msgstr "الربط"
+
+msgid "Tethers"
+msgstr "الحبال"
+
+msgid "Tetrachloride"
+msgstr "رباعي الكلوريد"
+
+msgid "Tetracycline"
+msgstr "تيترسيكلين"
+
+msgid "Tetrade"
+msgstr "مجموعة من 4"
+
+msgid "Tetrafluoride"
+msgstr "رباعي الفلوريد"
+
+msgid "Tetragonal"
+msgstr "رباعيّ الأضلاع"
+
+msgid "Tetragonally"
+msgstr "على شكل رباعيّ الأضلاع"
+
+msgid "Tetrahalide"
+msgstr "رباعيّات الهالوجين"
+
+msgid "Tetrahedra"
+msgstr "رباعي الأسطح"
+
+msgid "Tetrahedral"
+msgstr "رباعي الأسطح"
+
+msgid "Tetrahedrally"
+msgstr "بشكل رباعي الأسطح"
+
+msgid "Tetrahedron"
+msgstr "رباعي الأسطح"
+
+msgid "Tetrahedrons"
+msgstr "رباعيات الأسطح"
+
+msgid "Tetrameter"
+msgstr "ذو أربعة مقاسات"
+
+msgid "Tetrameters"
+msgstr "ذوي أربعة مقاسات"
+
+msgid "Tetrasodium"
+msgstr "رباعي الصوديوم"
+
+msgid "Tetravalent"
+msgstr "رباعيّ التكافؤ"
+
+msgid "Teutonic"
+msgstr "توتوني"
+
+msgid "TeX"
+msgstr "تكس"
+
+msgid "Texaco"
+msgstr "تيكساكو"
+
+msgid "Texan"
+msgstr "تكساسي"
+
+msgid "Texas"
+msgstr "تكساس"
+
+msgid "Text"
+msgstr "النصّ"
+
+msgid "Textbook"
+msgstr "الكتاب الدراسي"
+
+msgid "Textbooks"
+msgstr "الكتب الدراسية"
+
+msgid "TextContentsToHeight"
+msgstr "توسعة المحتويات لارتفاع الكائن"
+
+msgid "Textile"
+msgstr "المنسوج"
+
+msgid "Textiles"
+msgstr "المنسوجات"
+
+msgid "Textquote"
+msgstr "إقتباس نص"
+
+msgid "TextRSS"
+msgstr "نص"
+
+msgid "Texts"
+msgstr "النصوص"
+
+msgid "Textual"
+msgstr "نصّي"
+
+msgid "Textually"
+msgstr "نصيا"
+
+msgid "Textural"
+msgstr "تركيبيّ"
+
+msgid "Texturally"
+msgstr "بشكل تركيبيّ"
+
+msgid "Texture"
+msgstr "تركيب"
+
+msgid "Textured"
+msgstr "مركّب"
+
+msgid "Textures"
+msgstr "القوام"
+
+msgid "Texturing"
+msgstr "التّركيب"
+
+msgid "Th"
+msgstr "ث"
+
+msgid "Thai"
+msgstr "التايلانديون"
+
+msgid "Thailand"
+msgstr "تايلند"
+
+msgid "Thalamic"
+msgstr "مهادي"
+
+msgid "Thalamus"
+msgstr "المهاد"
+
+msgid "Thalia"
+msgstr "ثاليا"
+
+msgid "Thallium"
+msgstr "الثاليوم"
+
+msgid "Thallophyte"
+msgstr "المَشْريّة"
+
+msgid "Thames"
+msgstr "التايمز"
+
+msgid "Than"
+msgstr "من"
+
+msgid "Thank"
+msgstr "إشكر"
+
+msgid "Thanked"
+msgstr "مشكور"
+
+msgid "Thanker"
+msgstr "شاكر"
+
+msgid "Thankful"
+msgstr "متشكّر"
+
+msgid "Thankfully"
+msgstr "شكرا"
+
+msgid "Thankfulness"
+msgstr "التّشكّر"
+
+msgid "Thanking"
+msgstr "الشكر"
+
+msgid "Thankless"
+msgstr "ناكر للجميل"
+
+msgid "Thanklessly"
+msgstr "بنكران جميل"
+
+msgid "Thanklessness"
+msgstr "نكران الجميل"
+
+msgid "Thanks"
+msgstr "شكرا"
+
+msgid "Thanksgiving"
+msgstr "عيد الشكر"
+
+msgid "Thanksgivings"
+msgstr "أعياد الشكر"
+
+msgid "That"
+msgstr "ذلك"
+
+msgid "Thatch"
+msgstr "القشّ"
+
+msgid "Thatched"
+msgstr "مسقّف"
+
+msgid "Thatcher"
+msgstr "مُسقِف"
+
+msgid "Thatches"
+msgstr "القشّ"
+
+msgid "Thatching"
+msgstr "تسقيف"
+
+msgid "Thaw"
+msgstr "الذوبان"
+
+msgid "Thawed"
+msgstr "مذاب"
+
+msgid "Thawing"
+msgstr "الذوبان"
+
+msgid "Thaws"
+msgstr "الذوبان"
+
+#, name
+msgid "Thayer"
+msgstr "ثاير"
+
+msgid "The"
+msgstr "الـ"
+
+msgid "Thea"
+msgstr "ثيا"
+
+msgid "Theater"
+msgstr "المسرح"
+
+msgid "Theatergoer"
+msgstr "إلْفُ المسارح"
+
+msgid "Theatergoers"
+msgstr "إلْفو المسارح"
+
+msgid "Theatergoing"
+msgstr "إلفَة المسارح"
+
+msgid "Theaters"
+msgstr "المسارح"
+
+msgid "Theatre"
+msgstr "المسرح"
+
+msgid "Theatregoer"
+msgstr "مرتاد المسرح"
+
+msgid "Theatregoers"
+msgstr "رواد الالمسرح"
+
+msgid "Theatres"
+msgstr "المسارح"
+
+msgid "Theatric"
+msgstr "مسرحيّ"
+
+msgid "Theatrical"
+msgstr "مسرحي"
+
+msgid "Theatrically"
+msgstr "مسرحياً"
+
+msgid "Theatricals"
+msgstr "الأدوار المسرحية"
+
+msgid "Theatrics"
+msgstr "التمثيل المسرحي"
+
+msgid "Thebes"
+msgstr "الثيبات"
+
+msgid "Thee"
+msgstr "أنت"
+
+msgid "Theft"
+msgstr "السرقة"
+
+msgid "Thefts"
+msgstr "السرقات"
+
+msgid "Their"
+msgstr "هم"
+
+msgid "Theirs"
+msgstr "لهم"
+
+msgid "Theism"
+msgstr "الإيمان بالله"
+
+msgid "Theist"
+msgstr "المؤمن"
+
+msgid "Theistic"
+msgstr "إيمانيّ"
+
+msgid "Theistical"
+msgstr "إيمانيّ"
+
+msgid "Theistically"
+msgstr "بشكل إيمانيّ"
+
+msgid "Thelma"
+msgstr "ثيلما"
+
+msgid "Them"
+msgstr "هم"
+
+msgid "Thematic"
+msgstr "موضوعي"
+
+msgid "Thematically"
+msgstr "بشكل موضوعيّ"
+
+msgid "Theme"
+msgstr "الموضوع"
+
+msgid "Themes"
+msgstr "المواضيع"
+
+msgid "Themselves"
+msgstr "أنفسهم"
+
+msgid "Then"
+msgstr "ثمّ"
+
+msgid "Thence"
+msgstr "من ثمَّ"
+
+msgid "Thenceforth"
+msgstr "من ذلك الحين فصاعداً"
+
+msgid "Thenceforward"
+msgstr "من ذلك الحين فصاعداً"
+
+msgid "Thenceforwards"
+msgstr "من ذلك الحين فصاعداً"
+
+msgid "Theocracy"
+msgstr "الحكومة الدينية"
+
+msgid "Theocrasy"
+msgstr "الإشراك"
+
+msgid "Theocratic"
+msgstr "ثيوقراطي"
+
+msgid "Theocratically"
+msgstr "بشكل ثيوقراطي"
+
+msgid "Theodore"
+msgstr "ثيودور"
+
+msgid "Theodosian"
+msgstr "ثيودوسيّ"
+
+msgid "Theodosius"
+msgstr "ثيودوسيوس"
+
+msgid "Theologian"
+msgstr "العالم الديني"
+
+msgid "Theologians"
+msgstr "علماء الدين"
+
+msgid "Theologic"
+msgstr "ﻻهوتيّ"
+
+msgid "Theological"
+msgstr "لاهوتيّ"
+
+msgid "Theologically"
+msgstr "بشكل لاهوتيّ"
+
+msgid "Theologies"
+msgstr "الأنظمة اللاهوتيّة"
+
+msgid "Theology"
+msgstr "نظام اللاهوت"
+
+msgid "Theorem"
+msgstr "النظرية"
+
+msgid "Theorems"
+msgstr "النظريات"
+
+msgid "Theoretic"
+msgstr "نظري"
+
+msgid "Theoretical"
+msgstr "نظري"
+
+msgid "Theoretically"
+msgstr "نظرياً"
+
+msgid "Theoretician"
+msgstr "الباحث في الجانب النّظري"
+
+msgid "Theoreticly"
+msgstr "بشكل نظري"
+
+msgid "Theoretics"
+msgstr "نظريات"
+
+msgid "Theories"
+msgstr "النظريات"
+
+msgid "Theorist"
+msgstr "العالم النظري"
+
+msgid "Theorists"
+msgstr "العلماء النظريون"
+
+msgid "Theorization"
+msgstr "وضع النظريات"
+
+msgid "Theorize"
+msgstr "فسّر"
+
+msgid "Theorized"
+msgstr "مفسّر"
+
+msgid "Theorizer"
+msgstr "واضع النظرية"
+
+msgid "Theorizes"
+msgstr "ينظّر"
+
+msgid "Theorizing"
+msgstr "التنظير"
+
+msgid "Theory"
+msgstr "النظرية"
+
+msgid "Theosophic"
+msgstr "تصوّفي"
+
+msgid "Theosophical"
+msgstr "تصوّفي"
+
+msgid "Theosophically"
+msgstr "بشكل تصوّفي"
+
+msgid "Theosophies"
+msgstr "التصوّف"
+
+msgid "Theosophist"
+msgstr "المتصوّف"
+
+msgid "Theosophy"
+msgstr "التصوّف"
+
+msgid "Therapeutic"
+msgstr "علاجّي"
+
+msgid "Therapeutical"
+msgstr "علاجي"
+
+msgid "Therapeutically"
+msgstr "بشكل علاجي"
+
+msgid "Therapeutics"
+msgstr "علم التداوي"
+
+msgid "Therapies"
+msgstr "العلاج"
+
+msgid "Therapist"
+msgstr "المعالج"
+
+msgid "Therapists"
+msgstr "المعالجون"
+
+msgid "Therapy"
+msgstr "العلاج"
+
+msgid "There"
+msgstr "هناك"
+
+msgid "Thereabout"
+msgstr "ما يقرب من ذلك"
+
+msgid "Thereabouts"
+msgstr "ما يقرب من ذلك"
+
+msgid "Thereafter"
+msgstr "فيما بعد"
+
+msgid "Thereat"
+msgstr "بذلك"
+
+msgid "Thereby"
+msgstr "بذلك"
+
+msgid "Therefor"
+msgstr "لذلك"
+
+msgid "Therefore"
+msgstr "لذا"
+
+msgid "Therefrom"
+msgstr "من هناك"
+
+msgid "Therein"
+msgstr "في ذلك المكان"
+
+msgid "Thereinafter"
+msgstr "في الجزء التالي"
+
+msgid "Thereof"
+msgstr "من ذلك"
+
+msgid "Thereon"
+msgstr "على ذلك"
+
+msgid "Theresa"
+msgstr "تيريسا"
+
+msgid "Thereto"
+msgstr "على"
+
+msgid "Theretofore"
+msgstr "حتى ذلك الحين"
+
+msgid "Thereunder"
+msgstr "تحت ذلك"
+
+msgid "Thereupon"
+msgstr "عقب ذلك"
+
+msgid "Therewith"
+msgstr "مع ذلك"
+
+msgid "Thermal"
+msgstr "التيار الدافئ"
+
+msgid "Thermally"
+msgstr "حراريا"
+
+msgid "Thermals"
+msgstr "التيارات الدافئة"
+
+msgid "Thermic"
+msgstr "حراري"
+
+msgid "Thermionic"
+msgstr "الثّرميونيّ"
+
+msgid "Thermionics"
+msgstr "الثرميونيات"
+
+msgid "Thermistor"
+msgstr "الثَّرْمِستور"
+
+msgid "Thermistors"
+msgstr "الثَّرْمِستورات"
+
+msgid "Thermo"
+msgstr "كهربائي حراري"
+
+msgid "Thermocouple"
+msgstr "المزدوجة الحرارية"
+
+msgid "Thermocouples"
+msgstr "المزدوجات الحرارية"
+
+msgid "Thermodynamic"
+msgstr "ديناميكي حراريّ"
+
+msgid "Thermodynamically"
+msgstr "بشكل ديناميكي حراري"
+
+msgid "Thermodynamics"
+msgstr "الديناميكا الحرارية"
+
+msgid "Thermoelastic"
+msgstr "مطّاطي حراري"
+
+msgid "Thermoelectric"
+msgstr "كهربائي حراري"
+
+msgid "Thermoformed"
+msgstr "شُكّل بالحرارة والضغط"
+
+msgid "Thermoforming"
+msgstr "التّشكيل بالحرارة والضغط"
+
+msgid "Thermogravimetric"
+msgstr "مقياس الثقل النوعي الحراري"
+
+msgid "Thermometer"
+msgstr "ميزان الحرارة"
+
+msgid "Thermometers"
+msgstr "ميزان الحرارة"
+
+msgid "Thermometric"
+msgstr "قياس حراريّ"
+
+msgid "Thermometrical"
+msgstr "قياس حراريّ"
+
+msgid "Thermometrically"
+msgstr "بشكل يقيس الحرارة"
+
+msgid "Thermometry"
+msgstr "قياس الحرارة"
+
+msgid "Thermonuclear"
+msgstr "نووي حراري"
+
+msgid "Thermopile"
+msgstr "عمود الحرارة"
+
+msgid "Thermoplastic"
+msgstr "لَدْن بالحرارة"
+
+msgid "Thermoplastics"
+msgstr "لوادن الحرارة"
+
+msgid "Thermos"
+msgstr "الترمس"
+
+msgid "Thermoses"
+msgstr "الترمس"
+
+msgid "Thermosetting"
+msgstr "صلدٌ بالحرارة"
+
+msgid "Thermosflask"
+msgstr "الترمس"
+
+msgid "Thermostable"
+msgstr "ثابت بالحرارة"
+
+msgid "Thermostat"
+msgstr "منظم الحرارة"
+
+msgid "Thermostated"
+msgstr "منظّم بالثرموستات"
+
+msgid "Thermostatic"
+msgstr "ثرموستاتي"
+
+msgid "Thermostatically"
+msgstr "حراريا"
+
+msgid "Thermostatics"
+msgstr "ثرموستاتيات"
+
+msgid "Thermostats"
+msgstr "منظمات الحرارة"
+
+msgid "Thesauri"
+msgstr "قواميس المعاني"
+
+msgid "Thesaurus"
+msgstr "قاموس المعاني المرادفة"
+
+msgid "These"
+msgstr "هذه"
+
+msgid "Theses"
+msgstr "الإطروحات كما أطروحات الدّراسات العليا"
+
+msgid "Theseus"
+msgstr "ثيزيوس - بطل و ملك أثينا. الأساطير اليونانيّة"
+
+msgid "Thesis"
+msgstr "الأطروحة - كما أطروحات الدّراسات العليا"
+
+msgid "Thespian"
+msgstr "ممثّل مسرحي"
+
+msgid "Thespians"
+msgstr "ممثّلون مسرحيّون"
+
+msgid "Theta"
+msgstr "ثيتا - الحرف الثامن في الأبجدية اليونانية"
+
+msgid "Thetis"
+msgstr "ثيتيس - إحدى ال50 حوريّة الماء. الأساطير اليونانيّة"
+
+msgid "Thews"
+msgstr "عضلات"
+
+msgid "They"
+msgstr "هم"
+
+msgid "Thiamin"
+msgstr "الثّيامين"
+
+msgid "Thiamine"
+msgstr "الثّيامين"
+
+msgid "Thick"
+msgstr "سميك"
+
+msgid "Thick-film"
+msgstr "الفلم السميك"
+
+msgid "Thicken"
+msgstr "إثخن"
+
+msgid "Thickened"
+msgstr "ثخن"
+
+msgid "Thickener"
+msgstr "مُثخن"
+
+msgid "Thickeners"
+msgstr "مُثخنات"
+
+msgid "Thickening"
+msgstr "التثخّن"
+
+msgid "Thickens"
+msgstr "يثخن"
+
+msgid "Thicker"
+msgstr "أثخن"
+
+msgid "Thickest"
+msgstr "أثخن"
+
+msgid "Thicket"
+msgstr "الأجمة"
+
+msgid "Thicketed"
+msgstr "مؤجم"
+
+msgid "Thickets"
+msgstr "الأجمات"
+
+msgid "Thickhead"
+msgstr "غبيّ"
+
+msgid "Thickheaded"
+msgstr "غبيّ"
+
+msgid "Thickish"
+msgstr "مائل إلى السُّمكة"
+
+msgid "Thickly"
+msgstr "بشكل كثيف"
+
+msgid "Thickness"
+msgstr "السّماكة"
+
+msgid "Thicknesses"
+msgstr "السّماكات"
+
+msgid "Thickset"
+msgstr "ضخم الجثة"
+
+msgid "Thief"
+msgstr "اللصّ"
+
+msgid "Thiensville"
+msgstr "ثينزفيل"
+
+msgid "Thieve"
+msgstr "إسرق"
+
+msgid "Thieved"
+msgstr "مسروق"
+
+msgid "Thievery"
+msgstr "اللصوصية"
+
+msgid "Thieves"
+msgstr "اللصوص"
+
+msgid "Thieving"
+msgstr "السرقة"
+
+msgid "Thievish"
+msgstr "لصوصي"
+
+msgid "Thievishly"
+msgstr "بشكل لصوصي"
+
+msgid "Thievishness"
+msgstr "اللّصوصيّة"
+
+msgid "Thigh"
+msgstr "الفخذ"
+
+msgid "Thighbone"
+msgstr "عظم الفخذ"
+
+msgid "Thighbones"
+msgstr "عظم الفخذ"
+
+msgid "Thighed"
+msgstr "مفخذ"
+
+msgid "Thighs"
+msgstr "الأفخاذ"
+
+msgid "Thimble"
+msgstr "الكشتبان"
+
+msgid "Thimbles"
+msgstr "الكشتبانات"
+
+msgid "Thimbu"
+msgstr "ثيمبو"
+
+msgid "Thin"
+msgstr "رقيق"
+
+msgid "Thine"
+msgstr "ذين"
+
+msgid "Thiner"
+msgstr "أرقّ"
+
+msgid "Thinest"
+msgstr "أرقّ"
+
+msgid "Thing"
+msgstr "الشيء"
+
+msgid "Thingamajig"
+msgstr "مجهول الإسم"
+
+msgid "Thingamajigs"
+msgstr "مجهولوا الإسم"
+
+msgid "Thingness"
+msgstr "الواقعيّة"
+
+msgid "Things"
+msgstr "الأشياء"
+
+msgid "Think"
+msgstr "إعتقد"
+
+msgid "Thinkable"
+msgstr "قابل للتحقيق"
+
+msgid "Thinkableness"
+msgstr "قابلية التحقيق"
+
+msgid "Thinkably"
+msgstr "بشكل قابل للتحقيق"
+
+msgid "Thinker"
+msgstr "المفكّر"
+
+msgid "Thinkers"
+msgstr "المفكّرون"
+
+msgid "Thinking"
+msgstr "التفكير"
+
+msgid "Thinkingly"
+msgstr "بشكل مفكّر"
+
+msgid "Thinkingness"
+msgstr "التفكّر"
+
+msgid "Thinks"
+msgstr "يعتقد"
+
+msgid "Thinly"
+msgstr "بشكل رقيق"
+
+msgid "Thinned"
+msgstr "مخفّف"
+
+msgid "Thinner"
+msgstr "أنحف"
+
+msgid "Thinners"
+msgstr "ذينيرس"
+
+msgid "Thinness"
+msgstr "النحافة"
+
+msgid "Thinnest"
+msgstr "أنحف"
+
+msgid "Thinning"
+msgstr "التخفيف"
+
+msgid "Thinnish"
+msgstr "ذو نحافة"
+
+msgid "Thins"
+msgstr "يخفّف"
+
+msgid "Thiocyanate"
+msgstr "ملح حامض الثيونيك"
+
+msgid "Thiouracil"
+msgstr "ثوراسل - مركب كيميائي"
+
+msgid "Third"
+msgstr "الثلث"
+
+msgid "Thirdly"
+msgstr "ثالثا"
+
+msgid "Thirds"
+msgstr "الأثلاث"
+
+msgid "Thirst"
+msgstr "العطش"
+
+msgid "Thirsted"
+msgstr "عطش"
+
+msgid "Thirster"
+msgstr "متعطّش"
+
+msgid "Thirstier"
+msgstr "أشدّ عطشا"
+
+msgid "Thirstiest"
+msgstr "الأشدّ عطشا"
+
+msgid "Thirstily"
+msgstr "بشكل عطشان"
+
+msgid "Thirstiness"
+msgstr "العطش"
+
+msgid "Thirsting"
+msgstr "التّعطّش"
+
+msgid "Thirsts"
+msgstr "العطش"
+
+msgid "Thirsty"
+msgstr "عطشان"
+
+msgid "Thirteen"
+msgstr "ثلاثة عشر"
+
+msgid "Thirteens"
+msgstr "في الثالثة عشرة"
+
+msgid "Thirteenth"
+msgstr "الثالث عشر"
+
+msgid "Thirties"
+msgstr "الثلاثينات"
+
+msgid "Thirtieth"
+msgstr "ثلاثون"
+
+msgid "Thirty"
+msgstr "ثلاثون"
+
+msgid "This"
+msgstr "هذا"
+
+msgid "Thistle"
+msgstr "الشوك"
+
+msgid "Thistledown"
+msgstr "زغب الشوك"
+
+msgid "Thistles"
+msgstr "الأشواك"
+
+msgid "Thistly"
+msgstr "ذيسلي"
+
+msgid "Thither"
+msgstr "إلى هناك"
+
+msgid "Thithertho"
+msgstr "حتى ذلك الحين"
+
+msgid "Tho"
+msgstr "مع ذلك"
+
+msgid "Thole"
+msgstr "يتحمّل"
+
+msgid "Thomas"
+msgstr "توماس"
+
+msgid "Thomistic"
+msgstr "تومانيّ"
+
+msgid "Thompson"
+msgstr "توبمسن"
+
+msgid "Thomson"
+msgstr "تومسن"
+
+msgid "Thong"
+msgstr "سَيْر جلدي"
+
+msgid "Thonged"
+msgstr "ارتدى سيْراً جلدياً"
+
+msgid "Thongs"
+msgstr "سيور جلدية"
+
+msgid "Thor"
+msgstr "ثور"
+
+msgid "Thoracic"
+msgstr "صدري"
+
+msgid "Thorax"
+msgstr "الصدر"
+
+msgid "Thoraxes"
+msgstr "الصدور"
+
+msgid "Thoreau"
+msgstr "ثورو"
+
+msgid "Thoriate"
+msgstr "الثّوريات"
+
+msgid "Thoriated"
+msgstr "الضحكة الهستيرية"
+
+msgid "Thorium"
+msgstr "الثوريوم"
+
+msgid "Thorn"
+msgstr "الشوكة"
+
+msgid "Thornburg"
+msgstr "ثورنبيرغ"
+
+msgid "Thornier"
+msgstr "أكثر تعقيدا"
+
+msgid "Thorniest"
+msgstr "أكثر تعقيدا"
+
+msgid "Thornily"
+msgstr "بمشاكل"
+
+msgid "Thorniness"
+msgstr "الإشاكة"
+
+msgid "Thornless"
+msgstr "عديم الشّوك"
+
+msgid "Thorns"
+msgstr "الأشواك"
+
+msgid "Thornton"
+msgstr "ثورنتن"
+
+msgid "Thorny"
+msgstr "شائك"
+
+msgid "Thorough"
+msgstr "شامل"
+
+msgid "Thoroughbred"
+msgstr "أصيل"
+
+msgid "Thoroughbreds"
+msgstr "الأصيلون"
+
+msgid "Thoroughfare"
+msgstr "الطريق"
+
+msgid "Thoroughfares"
+msgstr "الطرق"
+
+msgid "Thoroughgoing"
+msgstr "أصيل"
+
+msgid "Thoroughly"
+msgstr "كليّا"
+
+msgid "Thoroughness"
+msgstr "الإتقان"
+
+msgid "Thorpe"
+msgstr "ثورب"
+
+msgid "Thorstein"
+msgstr "ثورستاين"
+
+msgid "Those"
+msgstr "أولئك"
+
+msgid "Thou"
+msgstr "أنت"
+
+msgid "Though"
+msgstr "ولو أنّ"
+
+msgid "Thought"
+msgstr "الفكر"
+
+msgid "Thoughtful"
+msgstr "مدروس"
+
+msgid "Thoughtfully"
+msgstr "بشكل مدروس"
+
+msgid "Thoughtfulness"
+msgstr "المراعاة"
+
+msgid "Thoughtless"
+msgstr "طائش"
+
+msgid "Thoughtlessly"
+msgstr "بشكل طائش"
+
+msgid "Thoughtlessness"
+msgstr "الطّيش"
+
+msgid "Thoughts"
+msgstr "الأفكار"
+
+msgid "Thousand"
+msgstr "ألف"
+
+msgid "Thousandfold"
+msgstr "ألف ضعف"
+
+msgid "Thousands"
+msgstr "الآلاف"
+
+msgid "Thousandth"
+msgstr "الألف"
+
+msgid "Thousandths"
+msgstr "الألف"
+
+msgid "Thrall"
+msgstr "العبد"
+
+msgid "Thralldom"
+msgstr "العبودية"
+
+msgid "Thralls"
+msgstr "العبيد"
+
+msgid "Thrash"
+msgstr "التهيّج"
+
+msgid "Thrashed"
+msgstr "مجلود"
+
+msgid "Thrasher"
+msgstr "الدرّاسة"
+
+msgid "Thrashers"
+msgstr "الدرّاسات"
+
+msgid "Thrashes"
+msgstr "يجلد"
+
+msgid "Thrashing"
+msgstr "الضربة"
+
+msgid "Thrashings"
+msgstr "الضربات"
+
+msgid "Thread"
+msgstr "الخيط"
+
+msgid "Threadbare"
+msgstr "رثّ"
+
+msgid "Threadbarely"
+msgstr "بشكل رثّ"
+
+msgid "Threadbareness"
+msgstr "الرّثاثة"
+
+msgid "Threaded"
+msgstr "مخيّط"
+
+msgid "Threader"
+msgstr "الإبرة"
+
+msgid "Threadier"
+msgstr "خيطي"
+
+msgid "Threadiest"
+msgstr "خيطي"
+
+msgid "Threading"
+msgstr "التخييط"
+
+msgid "Threads"
+msgstr "الخيوط"
+
+msgid "Thready"
+msgstr "خيطي"
+
+msgid "Threat"
+msgstr "التهديد"
+
+msgid "Threaten"
+msgstr "هدّد"
+
+msgid "Threatened"
+msgstr "مهدّد"
+
+msgid "Threatener"
+msgstr "مُهدّد"
+
+msgid "Threatening"
+msgstr "التهديد"
+
+msgid "Threateningly"
+msgstr "بتهديد"
+
+msgid "Threatens"
+msgstr "يهدّد"
+
+msgid "Threats"
+msgstr "التهديدات"
+
+msgid "Three"
+msgstr "ثلاثة"
+
+msgid "Three-phase"
+msgstr "المرحلة ثلاثة"
+
+msgid "Three-pin"
+msgstr "الدبّوس ثلاثة"
+
+msgid "Threefold"
+msgstr "ثلاثة أضعاف"
+
+msgid "Threes"
+msgstr "الثلاثات"
+
+msgid "Threescore"
+msgstr "ستّون"
+
+msgid "Threesome"
+msgstr "الثّلاثيّة"
+
+msgid "Threonine"
+msgstr "ثريونين"
+
+msgid "Thresh"
+msgstr "إدرس"
+
+msgid "Threshed"
+msgstr "مدروس"
+
+msgid "Thresher"
+msgstr "الدرّاسة"
+
+msgid "Threshers"
+msgstr "الدرّاسات"
+
+msgid "Threshes"
+msgstr "يدرس"
+
+msgid "Threshhold"
+msgstr "عتبة"
+
+msgid "Threshing"
+msgstr "الدراسة"
+
+msgid "Threshold"
+msgstr "العتبة"
+
+msgid "Thresholds"
+msgstr "العتبات"
+
+msgid "Threw"
+msgstr "رمى"
+
+msgid "Thrice"
+msgstr "ثلاث مرات"
+
+msgid "Thrift"
+msgstr "التوفير"
+
+msgid "Thriftier"
+msgstr "أكثر إقتصادا"
+
+msgid "Thriftiest"
+msgstr "مقتصد"
+
+msgid "Thriftily"
+msgstr "بشكل مقتصد"
+
+msgid "Thriftiness"
+msgstr "الاقتصاد"
+
+msgid "Thriftlessly"
+msgstr "بإسراف"
+
+msgid "Thrifts"
+msgstr "التوفير"
+
+msgid "Thrifty"
+msgstr "مقتصد"
+
+msgid "Thrill"
+msgstr "الإثارة"
+
+msgid "Thrilled"
+msgstr "مبتهج"
+
+msgid "Thriller"
+msgstr "القصة المثيرة"
+
+msgid "Thrillers"
+msgstr "القصص المثيرة"
+
+msgid "Thrilling"
+msgstr "الإثارة"
+
+msgid "Thrillingly"
+msgstr "بشكل مثير"
+
+msgid "Thrills"
+msgstr "الإثارات"
+
+msgid "Thrips"
+msgstr "التِّربْسة"
+
+msgid "Thrive"
+msgstr "إزدهر"
+
+msgid "Thrived"
+msgstr "مزدهر"
+
+msgid "Thriven"
+msgstr "مزدهر"
+
+msgid "Thriver"
+msgstr "مزدهر"
+
+msgid "Thrives"
+msgstr "يزدهر"
+
+msgid "Thriving"
+msgstr "الإزدهار"
+
+msgid "Thrivingly"
+msgstr "بشكل مزدهر"
+
+msgid "Throat"
+msgstr "الحنجرة"
+
+msgid "Throated"
+msgstr "ذو حنجرة"
+
+msgid "Throatier"
+msgstr "حنجري"
+
+msgid "Throatiest"
+msgstr "حنجري"
+
+msgid "Throatily"
+msgstr "يصدر من الحلق"
+
+msgid "Throatiness"
+msgstr "الحلقية"
+
+msgid "Throating"
+msgstr "يصدر من الحلق"
+
+msgid "Throats"
+msgstr "الحناجر"
+
+msgid "Throaty"
+msgstr "حنجري"
+
+msgid "Throb"
+msgstr "الدقة"
+
+msgid "Throbbed"
+msgstr "خافق"
+
+msgid "Throbber"
+msgstr "نابض"
+
+msgid "Throbbing"
+msgstr "الخفقان"
+
+msgid "Throbs"
+msgstr "الدقات"
+
+msgid "Throe"
+msgstr "الألم"
+
+msgid "Throes"
+msgstr "الآلام"
+
+msgid "Thrombi"
+msgstr "جلطات"
+
+msgid "Thrombose"
+msgstr "يتخثّر"
+
+msgid "Thromboses"
+msgstr "التخثّرات"
+
+msgid "Thrombosis"
+msgstr "التخثّر"
+
+msgid "Thrombotic"
+msgstr "تخثّري"
+
+msgid "Thrombus"
+msgstr "جلطة"
+
+msgid "Throne"
+msgstr "العرش"
+
+#, Name
+msgid "Throneberry"
+msgstr "ثرونبري"
+
+msgid "Throned"
+msgstr "اعترش"
+
+msgid "Thrones"
+msgstr "العروش"
+
+msgid "Throng"
+msgstr "الحشد"
+
+msgid "Thronged"
+msgstr "متحشّد"
+
+msgid "Thronging"
+msgstr "التحشّد"
+
+msgid "Throngs"
+msgstr "الحشود"
+
+msgid "Throning"
+msgstr "الإعتراش"
+
+msgid "Throstle"
+msgstr "السمنة"
+
+msgid "Throstles"
+msgstr "السمنات"
+
+msgid "Throttle"
+msgstr "الصمام الخانق"
+
+msgid "Throttled"
+msgstr "مخنوق"
+
+msgid "Throttler"
+msgstr "خانِق"
+
+msgid "Throttles"
+msgstr "الصمامات الخانقة"
+
+msgid "Throttling"
+msgstr "الخنق"
+
+msgid "Through"
+msgstr "خلال"
+
+msgid "Through-connection"
+msgstr "خلال الإتّصال"
+
+msgid "Throughly"
+msgstr "تماما"
+
+msgid "Throughout"
+msgstr "في كافة أنحاء"
+
+msgid "Throughput"
+msgstr "الطاقة الإنتاجية"
+
+msgid "Throve"
+msgstr "إزدهر"
+
+msgid "Throw"
+msgstr "الرمية"
+
+msgid "Throw-off"
+msgstr "إرم"
+
+msgid "Throwaway"
+msgstr "النشرة"
+
+msgid "Throwback"
+msgstr "الإرتداد"
+
+msgid "Throwbacks"
+msgstr "الإرتداد"
+
+msgid "Thrower"
+msgstr "الرامي"
+
+msgid "Throwers"
+msgstr "الرماة"
+
+msgid "Throwing"
+msgstr "الرمي"
+
+msgid "Thrown"
+msgstr "مرمي"
+
+msgid "Throws"
+msgstr "الرميات"
+
+msgid "Thru"
+msgstr "خلال"
+
+msgid "Thrum"
+msgstr "الطنطنة"
+
+msgid "Thrummed"
+msgstr "منقور"
+
+msgid "Thrumming"
+msgstr "النقر"
+
+msgid "Thrums"
+msgstr "الطنطنة"
+
+msgid "Thrush"
+msgstr "الدجّ"
+
+msgid "Thrushes"
+msgstr "الدجّ"
+
+msgid "Thrust"
+msgstr "الدفع"
+
+msgid "Thruster"
+msgstr "الصاروخ"
+
+msgid "Thrusters"
+msgstr "الصواريخ"
+
+msgid "Thrusting"
+msgstr "التّهجّم"
+
+msgid "Thrustings"
+msgstr "التهجّمات"
+
+msgid "Thrusts"
+msgstr "الدفعات"
+
+msgid "Thruway"
+msgstr "طريق عريض"
+
+msgid "Thruways"
+msgstr "طرق عريضة"
+
+msgid "Thu"
+msgstr "الخميس"
+
+msgid "Thuban"
+msgstr "النجم القطبي"
+
+msgid "Thud"
+msgstr "الهدّة"
+
+msgid "Thudded"
+msgstr "مرتطم"
+
+msgid "Thudding"
+msgstr "الإرتطام"
+
+msgid "Thuds"
+msgstr "الهدّات"
+
+msgid "Thug"
+msgstr "السّفّاح"
+
+msgid "Thuggee"
+msgstr "جريمة السّفّاح"
+
+msgid "Thugs"
+msgstr "السّفّاحون"
+
+msgid "Thule"
+msgstr "أقصى الشّمال"
+
+msgid "Thulium"
+msgstr "الثُّليوم"
+
+msgid "Thumb"
+msgstr "الإبهام"
+
+msgid "Thumbed"
+msgstr "قلّب الصفحات"
+
+msgid "Thumbing"
+msgstr "تقليب الصّفحات"
+
+msgid "Thumbnail"
+msgstr "ظفر الإبهام"
+
+msgid "Thumbnails"
+msgstr "أظافر الإبهام"
+
+msgid "Thumbs"
+msgstr "أصابع الإبهام"
+
+msgid "Thumbscrew"
+msgstr "القلاووظ الإبهامي"
+
+msgid "Thumbscrews"
+msgstr "القلاويظ الإبهامية"
+
+msgid "Thumbtack"
+msgstr "المُسيْمير الإبهامي"
+
+msgid "Thumbtacked"
+msgstr "ثبّت بمُسيمير إبهاميّ"
+
+msgid "Thumbtacking"
+msgstr "التثبيت بمُسيمير إبهاميّ"
+
+msgid "Thumbtacks"
+msgstr "يثبّت بمُسيمير إبهاميّ"
+
+msgid "Thump"
+msgstr "يجلد"
+
+msgid "Thumped"
+msgstr "جلد"
+
+msgid "Thumper"
+msgstr "ضارب"
+
+msgid "Thumpers"
+msgstr "ضاربون"
+
+msgid "Thumping"
+msgstr "الجلد"
+
+msgid "Thumps"
+msgstr "الجلدات"
+
+msgid "Thunder"
+msgstr "الرعد"
+
+msgid "Thunder-storm"
+msgstr "الزوبعة الرعدية"
+
+msgid "Thunderbird"
+msgstr "طائر الرّعد"
+
+msgid "Thunderbolt"
+msgstr "الصاعقة"
+
+msgid "Thunderbolts"
+msgstr "الصواعق"
+
+msgid "Thunderclap"
+msgstr "قصف الرعد"
+
+msgid "Thunderclaps"
+msgstr "قصف الرعد"
+
+msgid "Thundercloud"
+msgstr "السّحابة الرعّادة"
+
+msgid "Thunderclouds"
+msgstr "السحابات الرعّادة"
+
+msgid "Thundered"
+msgstr "رعد"
+
+msgid "Thunderer"
+msgstr "راعد"
+
+msgid "Thundering"
+msgstr "الرعد"
+
+msgid "Thunderingly"
+msgstr "بشكل راعد"
+
+msgid "Thunderous"
+msgstr "مدوّي"
+
+msgid "Thunderously"
+msgstr "بشكل مدوّي"
+
+msgid "Thunders"
+msgstr "الرعد"
+
+msgid "Thundershower"
+msgstr "الوابل الرّعدي"
+
+msgid "Thundershowers"
+msgstr "الوابل الرّعدي"
+
+msgid "Thunderstorm"
+msgstr "الزوبعة الرعدية"
+
+msgid "Thunderstorms"
+msgstr "الزوابع الرعدية"
+
+msgid "Thunderstruck"
+msgstr "مصعوق"
+
+msgid "Thunk"
+msgstr "صوت هائل"
+
+msgid "Thurber"
+msgstr "ثوربر"
+
+msgid "Thurman"
+msgstr "ثرمان"
+
+msgid "Thursday"
+msgstr "الخميس"
+
+msgid "Thursdays"
+msgstr "أيام الخميس"
+
+msgid "Thus"
+msgstr "هكذا"
+
+msgid "Thusly"
+msgstr "هكذا"
+
+msgid "Thwack"
+msgstr "الضربة"
+
+msgid "Thwart"
+msgstr "مقعد المجذف"
+
+msgid "Thwarted"
+msgstr "فاشل"
+
+msgid "Thwarter"
+msgstr "مُحبط"
+
+msgid "Thwarting"
+msgstr "الإحباط"
+
+msgid "Thwartly"
+msgstr "بشكل مُحبط"
+
+msgid "Thwarts"
+msgstr "مقاعد المجذفين"
+
+msgid "Thy"
+msgstr "خاصّتك"
+
+msgid "Thyme"
+msgstr "الزعتر"
+
+msgid "Thymes"
+msgstr "الزعتر"
+
+msgid "Thymine"
+msgstr "ثايمين"
+
+msgid "Thymus"
+msgstr "الغدّة الصّعترية"
+
+msgid "Thymuses"
+msgstr "الغدد الصّعترية"
+
+msgid "Thyratron"
+msgstr "الثايراترون"
+
+msgid "Thyristor"
+msgstr "الثّايرستور"
+
+msgid "Thyroglobulin"
+msgstr "ثايروجلوبولين"
+
+msgid "Thyroid"
+msgstr "الغدّة الدرقّية"
+
+msgid "Thyroidal"
+msgstr "متعلق بالغدة الدرقية"
+
+msgid "Thyroids"
+msgstr "الغدد الدرقية"
+
+msgid "Thyronine"
+msgstr "ثيرونين"
+
+msgid "Thyrotoxic"
+msgstr "متعلق بفرط نشاط الغدة الدرقية"
+
+msgid "Thyrotrophic"
+msgstr "متعلّق بالثيروتروبين"
+
+msgid "Thyrotrophin"
+msgstr "ثيروتروبين"
+
+msgid "Thyrotropic"
+msgstr "متعلق بالثيروتروبين"
+
+msgid "Thyrotropin"
+msgstr "هرمون الثيروتروبين"
+
+msgid "Thyroxine"
+msgstr "هرمون الغدة الدرقية"
+
+msgid "Thyself"
+msgstr "نفسُك"
+
+msgid "Ti"
+msgstr "تي"
+
+msgid "Tiara"
+msgstr "التاج"
+
+#, river
+msgid "Tiber"
+msgstr "تايبر"
+
+msgid "Tibet"
+msgstr "التبت"
+
+msgid "Tibetan"
+msgstr "تيبتي"
+
+msgid "Tibia"
+msgstr "عظم القصبة"
+
+msgid "Tibial"
+msgstr "قصبي"
+
+msgid "Tibias"
+msgstr "عظم القصبة"
+
+#, name
+msgid "Tiburon"
+msgstr "تيبورون"
+
+msgid "Tic"
+msgstr "التشنج اللاإرادي"
+
+msgid "Tick"
+msgstr "اللحظة"
+
+msgid "Ticked"
+msgstr "مدقوق"
+
+msgid "Ticker"
+msgstr "المؤشّر"
+
+msgid "Tickers"
+msgstr "المؤشّرات"
+
+msgid "Ticket"
+msgstr "التذكرة"
+
+msgid "Ticketed"
+msgstr "زوّد بتذكرة"
+
+msgid "Ticketing"
+msgstr "صرف التذاكر"
+
+msgid "Tickets"
+msgstr "التذاكر"
+
+msgid "Ticking"
+msgstr "الدقّ"
+
+msgid "Tickle"
+msgstr "الدغدغة"
+
+msgid "Tickled"
+msgstr "مدغدغ"
+
+msgid "Tickler"
+msgstr "المشكلة"
+
+msgid "Ticklers"
+msgstr "المشاكل"
+
+msgid "Tickles"
+msgstr "الدغدغة"
+
+msgid "Tickling"
+msgstr "الدغدغة"
+
+msgid "Ticklish"
+msgstr "حسّاس"
+
+msgid "Ticklishly"
+msgstr "بشكل حسّاس"
+
+msgid "Ticklishness"
+msgstr "الحساسية"
+
+msgid "Ticks"
+msgstr "اللحظات"
+
+#, name
+msgid "Ticonderoga"
+msgstr "تيكونديروجا"
+
+msgid "Tics"
+msgstr "التشنجات اللاإرادية"
+
+msgid "Tid"
+msgstr "تيد"
+
+msgid "Tidal"
+msgstr "مدّي"
+
+msgid "Tidally"
+msgstr "بشكل مدّي"
+
+msgid "Tidbit"
+msgstr "الحكاية"
+
+msgid "Tidbits"
+msgstr "الحكايات"
+
+msgid "Tide"
+msgstr "المدّ"
+
+msgid "Tided"
+msgstr "تقلب"
+
+msgid "Tideland"
+msgstr "أرض المد"
+
+msgid "Tidelands"
+msgstr "أرضي المد"
+
+msgid "Tides"
+msgstr "المدّ"
+
+msgid "Tidewater"
+msgstr "مياه المد"
+
+msgid "Tidied"
+msgstr "مرتّب"
+
+msgid "Tidier"
+msgstr "أرتب"
+
+msgid "Tidies"
+msgstr "يرتّب"
+
+msgid "Tidiest"
+msgstr "أكثر ترتيبا"
+
+msgid "Tidily"
+msgstr "بشكل مرتّب"
+
+msgid "Tidiness"
+msgstr "الترتيب"
+
+msgid "Tiding"
+msgstr "تيدنج"
+
+msgid "Tidings"
+msgstr "الأخبار"
+
+msgid "Tidy"
+msgstr "مرتّب"
+
+msgid "Tidying"
+msgstr "الترتيب"
+
+msgid "Tie"
+msgstr "الربطة"
+
+msgid "Tieck"
+msgstr "تيك"
+
+msgid "Tied"
+msgstr "مربوط"
+
+msgid "Tieing"
+msgstr "رَبْط"
+
+#, name
+msgid "Tientsin"
+msgstr "تاينسْتِن"
+
+msgid "Tier"
+msgstr "الصفّ"
+
+msgid "Tiered"
+msgstr "مقسّم"
+
+msgid "Tiers"
+msgstr "الصفوف"
+
+msgid "Ties"
+msgstr "الروابط"
+
+msgid "Tiff"
+msgstr "المشاجرة"
+
+msgid "Tiffany"
+msgstr "تيفاني"
+
+msgid "Tiffin"
+msgstr "الغداء"
+
+msgid "Tiffins"
+msgstr "الغداء"
+
+msgid "Tiffs"
+msgstr "المشاجرات"
+
+msgid "Tift"
+msgstr "الغضب"
+
+msgid "Tiger"
+msgstr "النمر"
+
+msgid "Tigerishly"
+msgstr "بشكل نمري"
+
+msgid "Tigerishness"
+msgstr "النمورة"
+
+msgid "Tigers"
+msgstr "النمور"
+
+msgid "Tight"
+msgstr "الشدّة"
+
+msgid "Tight-fitting"
+msgstr "ضيّق"
+
+msgid "Tighten"
+msgstr "شدّ"
+
+msgid "Tightened"
+msgstr "مشدّد"
+
+msgid "Tightener"
+msgstr "مُشدِّد"
+
+msgid "Tightening"
+msgstr "التضييق"
+
+msgid "Tightenings"
+msgstr "التضييق"
+
+msgid "Tightens"
+msgstr "يشدّ"
+
+msgid "Tighter"
+msgstr "أشدّ"
+
+msgid "Tightest"
+msgstr "أشدّ"
+
+msgid "Tightfisted"
+msgstr "مغلول اليد"
+
+msgid "Tightly"
+msgstr "بإحكام"
+
+msgid "Tightness"
+msgstr "الشدّة"
+
+msgid "Tightrope"
+msgstr "حبل البهلوان"
+
+msgid "Tightropes"
+msgstr "حبال البهلوان"
+
+msgid "Tights"
+msgstr "الجوارب"
+
+msgid "Tightwad"
+msgstr "البخيل"
+
+msgid "Tightwads"
+msgstr "البخلاء"
+
+msgid "Tigress"
+msgstr "النمرة"
+
+msgid "Tigresses"
+msgstr "النمرات"
+
+msgid "Tigrinya"
+msgstr "تيجرينيا - لغة ساميّة منطوقة في إريتريا"
+
+msgid "Tigris"
+msgstr "دجلة"
+
+msgid "Tijuana"
+msgstr "تيجوانا"
+
+msgid "Til"
+msgstr "سمسم"
+
+msgid "Tilde"
+msgstr "التِّلدة"
+
+msgid "Tildes"
+msgstr "علامات التِّلدة"
+
+msgid "Tile"
+msgstr "البلاطة"
+
+msgid "Tiled"
+msgstr "بلّط"
+
+msgid "Tiler"
+msgstr "مبلّط"
+
+msgid "Tilers"
+msgstr "مبلّطون"
+
+msgid "Tiles"
+msgstr "البلاط"
+
+msgid "Tiling"
+msgstr "التبليط"
+
+msgid "Till"
+msgstr "حتى"
+
+msgid "Tillable"
+msgstr "صالح للفلاحة"
+
+msgid "Tillage"
+msgstr "فلاحة"
+
+msgid "Tilled"
+msgstr "محروث"
+
+msgid "Tiller"
+msgstr "الفلّاح"
+
+msgid "Tillered"
+msgstr "مفلوح"
+
+msgid "Tillering"
+msgstr "الفلاحة"
+
+msgid "Tillers"
+msgstr "الفلّاحون"
+
+msgid "Tillich"
+msgstr "تلّيك"
+
+msgid "Tillie"
+msgstr "تيلي"
+
+msgid "Tilling"
+msgstr "الحراثة"
+
+msgid "Tills"
+msgstr "أدراج النقود"
+
+msgid "Tilt"
+msgstr "الميل"
+
+msgid "Tilted"
+msgstr "مميل"
+
+msgid "Tilter"
+msgstr "مميل"
+
+msgid "Tilth"
+msgstr "الحرث"
+
+msgid "Tilting"
+msgstr "الإمالة"
+
+msgid "Tilts"
+msgstr "الميول"
+
+msgid "Tim"
+msgstr "تيم"
+
+msgid "Timbal"
+msgstr "طبلة"
+
+msgid "Timber"
+msgstr "الخشب"
+
+msgid "Timbered"
+msgstr "خشبي"
+
+msgid "Timbering"
+msgstr "أخشاب"
+
+msgid "Timberland"
+msgstr "مَشْجرة"
+
+msgid "Timberlands"
+msgstr "مَشاجِر"
+
+msgid "Timberline"
+msgstr "النّطاق الشجري"
+
+msgid "Timberlines"
+msgstr "الأنطقة الشجرية"
+
+msgid "Timbers"
+msgstr "الأخشاب"
+
+msgid "Timbre"
+msgstr "طابع الصوت"
+
+msgid "Timbrel"
+msgstr "الدّف"
+
+msgid "Timbrels"
+msgstr "الدّفوف"
+
+msgid "Timbres"
+msgstr "طباع الصوت"
+
+msgid "Time"
+msgstr "الوقت"
+
+msgid "Time-consuming"
+msgstr "مضيع للوقت"
+
+msgid "Time-critical"
+msgstr "حساس بالزمن"
+
+msgid "Time-out"
+msgstr "فترة الإستراحة"
+
+msgid "Time-shared"
+msgstr "مشترك وقت"
+
+msgid "Time-sharing"
+msgstr "الإشتراك بالوقت"
+
+msgid "Time-table"
+msgstr "جدول المواعيد"
+
+msgid "Time-tested"
+msgstr "مجرّب وقت"
+
+msgid "Timed"
+msgstr "موقوت"
+
+msgid "Timekeeper"
+msgstr "أداة ضبط الوقت"
+
+msgid "Timekeepers"
+msgstr "أدوات ضبط الوقت"
+
+msgid "Timeless"
+msgstr "خالد"
+
+msgid "Timelessly"
+msgstr "بخلود"
+
+msgid "Timelessness"
+msgstr "الخلود"
+
+msgid "Timelier"
+msgstr "أكثر اننضباطاً"
+
+msgid "Timeliest"
+msgstr "الأكثر انضباطاً"
+
+msgid "Timeliness"
+msgstr "الانضباط"
+
+msgid "Timely"
+msgstr "الانضباط"
+
+msgid "Timeout"
+msgstr "الخروج"
+
+msgid "Timeouts"
+msgstr "الخروج"
+
+msgid "Timepiece"
+msgstr "الساعة"
+
+msgid "Timepieces"
+msgstr "الساعات"
+
+msgid "Timer"
+msgstr "الموقّت"
+
+msgid "TimerInterval"
+msgstr "زمن الموقت"
+
+msgid "Timers"
+msgstr "الموقّتات"
+
+msgid "Times"
+msgstr "الأوقات"
+
+msgid "Timesaving"
+msgstr "موفّر للوقت"
+
+msgid "Timeserver"
+msgstr "مستغل الوقت"
+
+msgid "Timeservers"
+msgstr "مستغلّوا الوقت"
+
+msgid "Timeserving"
+msgstr "استغلال الوقت"
+
+msgid "Timeshare"
+msgstr "الإشتراك بالوقت"
+
+msgid "Timesharing"
+msgstr "الإشتراك بالوقت"
+
+msgid "Timestamping"
+msgstr "ختم الوقت"
+
+msgid "Timetable"
+msgstr "جدول المواعيد"
+
+msgid "Timetabled"
+msgstr "مُجدوَل المواعيد"
+
+msgid "Timetables"
+msgstr "جداول المواعيد"
+
+msgid "Timetabling"
+msgstr "جدولة المواعيد"
+
+msgid "Timeworn"
+msgstr "قديم"
+
+msgid "Timex"
+msgstr "تيميكس"
+
+msgid "Timezone"
+msgstr "منطقة التوقيت"
+
+msgid "Timid"
+msgstr "خجول"
+
+msgid "Timider"
+msgstr "خجول"
+
+msgid "Timidest"
+msgstr "خجول"
+
+msgid "Timidity"
+msgstr "الخجل"
+
+msgid "Timidly"
+msgstr "بشكل خجول"
+
+msgid "Timidness"
+msgstr "الخجل"
+
+msgid "Timing"
+msgstr "التوقيت"
+
+msgid "Timings"
+msgstr "التوقيت"
+
+msgid "Timmy"
+msgstr "تيمي"
+
+msgid "Timon"
+msgstr "تيمون"
+
+msgid "Timorous"
+msgstr "مرعوب"
+
+msgid "Timorously"
+msgstr "بشكل مرعوب"
+
+msgid "Timorousness"
+msgstr "الرّعبة"
+
+msgid "Timothy"
+msgstr "تيموثي"
+
+msgid "Timpani"
+msgstr "الطبول"
+
+msgid "Timpanist"
+msgstr "طبّال"
+
+msgid "Timpanists"
+msgstr "طبّالون"
+
+msgid "Timpano"
+msgstr "الطبل"
+
+msgid "Tims"
+msgstr "تيمس"
+
+msgid "Tin"
+msgstr "العلبة"
+
+msgid "Tin-solder"
+msgstr "اللحيم من الصّفيح"
+
+msgid "Tina"
+msgstr "تينا"
+
+msgid "Tinamou"
+msgstr "طائر التينامو"
+
+msgid "Tincture"
+msgstr "الصبغة"
+
+msgid "Tinctured"
+msgstr "مصبوغ"
+
+msgid "Tinctures"
+msgstr "الصبغات"
+
+msgid "Tincturing"
+msgstr "الصباغة"
+
+msgid "Tinder"
+msgstr "الصوفان"
+
+msgid "Tinderbox"
+msgstr "علبة القداح"
+
+msgid "Tinderboxes"
+msgstr "علب القداح"
+
+msgid "Tinders"
+msgstr "الصوفان"
+
+msgid "Tine"
+msgstr "سنّ الشوكة"
+
+msgid "Tines"
+msgstr "أسنان الشوكة"
+
+msgid "Tinfoil"
+msgstr "رقائق المعدن"
+
+msgid "Ting"
+msgstr "الرنين"
+
+msgid "Tinge"
+msgstr "الصبغة"
+
+msgid "Tinged"
+msgstr "مخلوط"
+
+msgid "Tinges"
+msgstr "الصبغات"
+
+msgid "Tinging"
+msgstr "التلوين"
+
+msgid "Tingle"
+msgstr "توخّز"
+
+msgid "Tingled"
+msgstr "متوخّز"
+
+msgid "Tingles"
+msgstr "يتوخّز"
+
+msgid "Tingling"
+msgstr "التوخّز"
+
+msgid "Tinglingly"
+msgstr "بشكل توخّزي"
+
+msgid "Tingly"
+msgstr "الوخز"
+
+msgid "Tings"
+msgstr "الرنين"
+
+msgid "Tinier"
+msgstr "أصغر"
+
+msgid "Tiniest"
+msgstr "أشدّ صغرا"
+
+msgid "Tinily"
+msgstr "بمنتهى الصغر"
+
+msgid "Tininess"
+msgstr "الصّغر"
+
+msgid "Tinker"
+msgstr "المصلّح"
+
+msgid "Tinkered"
+msgstr "مصلّح"
+
+msgid "Tinkerer"
+msgstr "مصلّح غير خبير"
+
+msgid "Tinkering"
+msgstr "التصليح"
+
+msgid "Tinkers"
+msgstr "المصلّحون"
+
+msgid "Tinkle"
+msgstr "الرنين"
+
+msgid "Tinkled"
+msgstr "مرنون"
+
+msgid "Tinkles"
+msgstr "الطنين"
+
+msgid "Tinkling"
+msgstr "الرنين"
+
+msgid "Tinklings"
+msgstr "الرنين"
+
+msgid "Tinned"
+msgstr "معلّب"
+
+msgid "Tinner"
+msgstr "معلّب"
+
+msgid "Tinnier"
+msgstr "صفيحي"
+
+msgid "Tinniest"
+msgstr "صفيحي"
+
+msgid "Tinnily"
+msgstr "بشكل صفيحي"
+
+msgid "Tinniness"
+msgstr "النّحافة"
+
+msgid "Tinning"
+msgstr "التعليب"
+
+msgid "Tinny"
+msgstr "صفيحي"
+
+msgid "Tinplate"
+msgstr "لوحة الصفيح"
+
+msgid "Tinplates"
+msgstr "لوحات الصفيح"
+
+msgid "Tins"
+msgstr "العلب"
+
+msgid "Tinsel"
+msgstr "الزينة"
+
+msgid "Tinseled"
+msgstr "مزيّن"
+
+msgid "Tinseling"
+msgstr "التزيين"
+
+msgid "Tinselly"
+msgstr "مزيّن"
+
+msgid "Tinsels"
+msgstr "الزينة"
+
+msgid "Tinseltown"
+msgstr "تنسلتاون"
+
+msgid "Tinsmith"
+msgstr "السمكري"
+
+msgid "Tinsmiths"
+msgstr "السمكريون"
+
+msgid "Tint"
+msgstr "الصبغة"
+
+msgid "Tinted"
+msgstr "ملوّن"
+
+msgid "Tinter"
+msgstr "صابغ الشعر"
+
+msgid "Tinting"
+msgstr "الصبغ"
+
+msgid "Tintinnabulary"
+msgstr "رنّان"
+
+msgid "Tintinnabulation"
+msgstr "الرنين"
+
+msgid "Tints"
+msgstr "الصبغات"
+
+msgid "Tintype"
+msgstr "صورة على لوحة معدنية"
+
+msgid "Tinware"
+msgstr "مقال محفور على لوح معدني"
+
+msgid "Tiny"
+msgstr "صغير جدا"
+
+#, name
+msgid "Tioga"
+msgstr "تيوجا"
+
+msgid "Tip"
+msgstr "القمّة"
+
+msgid "Tipcart"
+msgstr "العربة القلّابة"
+
+msgid "Tipoff"
+msgstr "يفشي السّرّ"
+
+#, river name
+msgid "Tippecanoe"
+msgstr "تبّيكانو"
+
+msgid "Tipped"
+msgstr "مرشّح"
+
+msgid "Tipper"
+msgstr "العربة القلابة"
+
+msgid "Tipperary"
+msgstr "تبيراري"
+
+msgid "Tippers"
+msgstr "القلابات"
+
+msgid "Tippet"
+msgstr "اللفاع"
+
+msgid "Tippets"
+msgstr "اللفاعات"
+
+msgid "Tippier"
+msgstr "مبقشش"
+
+msgid "Tipping"
+msgstr "البقشيش"
+
+msgid "Tipple"
+msgstr "الخمر"
+
+msgid "Tippled"
+msgstr "مدمن"
+
+msgid "Tippler"
+msgstr "المدمن"
+
+msgid "Tipplers"
+msgstr "المدمنون"
+
+msgid "Tipples"
+msgstr "الخمور"
+
+msgid "Tippling"
+msgstr "الإدمان"
+
+msgid "Tippy"
+msgstr "راشي"
+
+msgid "Tips"
+msgstr "النصائح"
+
+msgid "Tipsier"
+msgstr "منتشي"
+
+msgid "Tipsiest"
+msgstr "منتشي"
+
+msgid "Tipsily"
+msgstr "بانتشاء"
+
+msgid "Tipsiness"
+msgstr "الأنتشاء"
+
+msgid "Tipsy"
+msgstr "منتشي"
+
+msgid "Tiptoe"
+msgstr "طرف إصبع القدم"
+
+msgid "Tiptoed"
+msgstr "مشى برفق"
+
+msgid "Tiptoeing"
+msgstr "المشي برفق"
+
+msgid "Tiptoes"
+msgstr "أطراف أصابع القدم"
+
+msgid "Tiptop"
+msgstr "قمّة القمّة"
+
+msgid "Tirade"
+msgstr "الشتيمة"
+
+msgid "Tirades"
+msgstr "الشتائم"
+
+msgid "Tirana"
+msgstr "تيرانا"
+
+msgid "Tire"
+msgstr "العجلة"
+
+msgid "Tired"
+msgstr "متعب"
+
+msgid "Tiredly"
+msgstr "بشكل متعب"
+
+msgid "Tiredness"
+msgstr "التعب"
+
+msgid "Tireing"
+msgstr "تيرينج"
+
+msgid "Tireless"
+msgstr "لايتعب"
+
+msgid "Tirelessly"
+msgstr "بلا كلل"
+
+msgid "Tirelessness"
+msgstr "الدّأب"
+
+msgid "Tires"
+msgstr "العجلات"
+
+msgid "Tiresome"
+msgstr "متعب"
+
+msgid "Tiresomely"
+msgstr "بشكل متعب"
+
+msgid "Tiresomeness"
+msgstr "الإنهاك"
+
+msgid "Tiring"
+msgstr "الإتعاب"
+
+msgid "Tissue"
+msgstr "النسيج"
+
+msgid "Tissued"
+msgstr "ينسج"
+
+msgid "Tissues"
+msgstr "الأنسجة"
+
+msgid "Tissuing"
+msgstr "التنسيج"
+
+msgid "Tit"
+msgstr "الحلمة"
+
+msgid "Titan"
+msgstr "جبّار"
+
+msgid "Titanate"
+msgstr "ملح التيتان"
+
+msgid "Titanic"
+msgstr "جبّار"
+
+msgid "Titanite"
+msgstr "التّيتانيت"
+
+msgid "Titanium"
+msgstr "التيتانيوم"
+
+msgid "Titans"
+msgstr "جبابرة"
+
+msgid "Titbit"
+msgstr "الطرفة"
+
+msgid "Titbits"
+msgstr "الطرفات"
+
+msgid "Titer"
+msgstr "العيار الحجمي"
+
+msgid "Titers"
+msgstr "العيارات الحجمية"
+
+msgid "Tithe"
+msgstr "العشر"
+
+msgid "Tithed"
+msgstr "قدم العشر"
+
+msgid "Tither"
+msgstr "مقدّم العشر"
+
+msgid "Tithes"
+msgstr "الأعشار"
+
+msgid "Tithing"
+msgstr "العشارية"
+
+msgid "Titian"
+msgstr "برتقالي بني"
+
+msgid "Titillate"
+msgstr "دغدغ"
+
+msgid "Titillated"
+msgstr "ملاعب"
+
+msgid "Titillates"
+msgstr "يلاعب"
+
+msgid "Titillating"
+msgstr "الدغدغة"
+
+msgid "Titillatingly"
+msgstr "بشكل مداعب"
+
+msgid "Titillation"
+msgstr "الدغدغة"
+
+msgid "Titillative"
+msgstr "مدغدغ"
+
+msgid "Titivate"
+msgstr "زيّن"
+
+msgid "Titivated"
+msgstr "مزيّن"
+
+msgid "Titivates"
+msgstr "يزيّن"
+
+msgid "Titivating"
+msgstr "التزيين"
+
+msgid "Titivation"
+msgstr "التأنق"
+
+msgid "Titivations"
+msgstr "التأنق"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Title-only"
+msgstr "العنوان فقط"
+
+msgid "Titled"
+msgstr "ملقّب"
+
+msgid "Titleholder"
+msgstr "حامل اللقب"
+
+msgid "Titleholders"
+msgstr "حامل اللقب"
+
+msgid "Titles"
+msgstr "العناوين"
+
+msgid "Titling"
+msgstr "العنونة"
+
+msgid "Titmice"
+msgstr "طيور القرقف"
+
+msgid "Titmouse"
+msgstr "القرقف"
+
+msgid "Tito"
+msgstr "تيتو"
+
+msgid "Titrate"
+msgstr "عاير"
+
+msgid "Titrated"
+msgstr "معاير"
+
+msgid "Titrates"
+msgstr "يعاير"
+
+msgid "Titrating"
+msgstr "المعايرة"
+
+msgid "Titration"
+msgstr "المعايرة"
+
+msgid "Tits"
+msgstr "الثدي"
+
+msgid "Titter"
+msgstr "الضحكة المكتومة"
+
+msgid "Tittered"
+msgstr "ضاحك"
+
+msgid "Tittering"
+msgstr "الضحك"
+
+msgid "Titteringly"
+msgstr "بشكل ضاحك"
+
+msgid "Titters"
+msgstr "الضحكات المكتومة"
+
+msgid "Tittle"
+msgstr "الذرة"
+
+msgid "Tittles"
+msgstr "الذرات"
+
+msgid "Titular"
+msgstr "فخري"
+
+msgid "Titularly"
+msgstr "فخرياً"
+
+msgid "Titus"
+msgstr "تيتوس"
+
+msgid "Tizzies"
+msgstr "اهتياجات"
+
+msgid "Tizzy"
+msgstr "اهتياج"
+
+msgid "TN"
+msgstr "تينيسي"
+
+msgid "TNT"
+msgstr "ثالث نترات التولوين: متفجر شديد"
+
+msgid "To"
+msgstr "إلى"
+
+msgid "Toad"
+msgstr "العُلجوم"
+
+#, name - plant
+msgid "Toadflax"
+msgstr "تودفلاكس"
+
+msgid "Toadied"
+msgstr "تملّق"
+
+msgid "Toadies"
+msgstr "المتملقون"
+
+msgid "Toads"
+msgstr "صغار الضفادع"
+
+msgid "Toadstool"
+msgstr "الفطر"
+
+msgid "Toadstools"
+msgstr "الفطر"
+
+msgid "Toady"
+msgstr "المتملق"
+
+msgid "Toadying"
+msgstr "التملّق"
+
+msgid "Toadyism"
+msgstr "التملّقية"
+
+msgid "Toast"
+msgstr "النخب"
+
+msgid "Toasted"
+msgstr "محمّص"
+
+msgid "Toaster"
+msgstr "المحمّصة"
+
+msgid "Toasters"
+msgstr "المحامص"
+
+msgid "Toastier"
+msgstr "أكثر دفءً"
+
+msgid "Toasting"
+msgstr "شرب نخب"
+
+msgid "Toastmaster"
+msgstr "رئيس المأدبة"
+
+msgid "Toastmasters"
+msgstr "رؤساء المأدبة"
+
+msgid "Toasts"
+msgstr "الخبز المحمّص"
+
+msgid "Toasty"
+msgstr "دافء بشكل ممتع"
+
+msgid "Tobacco"
+msgstr "التبغ"
+
+msgid "Tobacconist"
+msgstr "بائع السجائر"
+
+msgid "Tobacconists"
+msgstr "باعة السجائر"
+
+msgid "Tobaccos"
+msgstr "التبوغ"
+
+#, name
+msgid "Tobago"
+msgstr "توباغو"
+
+msgid "Toboggan"
+msgstr "المزلقة"
+
+msgid "Tobogganed"
+msgstr "متزلّج"
+
+msgid "Tobogganing"
+msgstr "التزلّج"
+
+msgid "Toboggans"
+msgstr "المزلقات"
+
+msgid "Toby"
+msgstr "توبي"
+
+msgid "Toccata"
+msgstr "التوكاتا"
+
+msgid "Tocsin"
+msgstr "ناقوس الخطر"
+
+msgid "Tocsins"
+msgstr "نواقيس الخطر"
+
+msgid "Today"
+msgstr "اليوم"
+
+msgid "Todd"
+msgstr "تود"
+
+msgid "Toddies"
+msgstr "الخمور"
+
+msgid "Toddle"
+msgstr "تخطّ"
+
+msgid "Toddled"
+msgstr "متخطّى"
+
+msgid "Toddler"
+msgstr "الطفل"
+
+msgid "Toddlers"
+msgstr "الأطفال"
+
+msgid "Toddles"
+msgstr "يتخطّى"
+
+msgid "Toddling"
+msgstr "التخطّي"
+
+msgid "Toddy"
+msgstr "الخمر"
+
+msgid "Toe"
+msgstr "إصبع القدم"
+
+msgid "Toed"
+msgstr "مسّ باصبع القدم"
+
+msgid "TOEFL"
+msgstr "امتحان الانجليزية كلغة أجنبيّة"
+
+msgid "Toehold"
+msgstr "موطئ القدم"
+
+msgid "Toeholds"
+msgstr "مواطئ الأقدام"
+
+msgid "Toenail"
+msgstr "ظفر إصبع القدم"
+
+msgid "Toenails"
+msgstr "أظافر أصابع الأقدام"
+
+msgid "Toes"
+msgstr "أصابع القدم"
+
+msgid "Toffee"
+msgstr "الحلوى"
+
+msgid "Toffees"
+msgstr "الحلويات"
+
+msgid "Toffies"
+msgstr "الحلويات"
+
+msgid "Toffy"
+msgstr "الحلوى"
+
+msgid "Tofu"
+msgstr "التوفو"
+
+msgid "Tog"
+msgstr "تهندم"
+
+msgid "Together"
+msgstr "سوية"
+
+msgid "Togetherness"
+msgstr "التآزر"
+
+msgid "Togging"
+msgstr "التهندم"
+
+msgid "Toggle"
+msgstr "المسمار"
+
+msgid "Toggled"
+msgstr "مثبّت"
+
+msgid "Toggles"
+msgstr "المسامير"
+
+msgid "Toggling"
+msgstr "التثبيت"
+
+msgid "Togo"
+msgstr "توغو"
+
+msgid "Togs"
+msgstr "الملابس"
+
+msgid "Toil"
+msgstr "الكدح"
+
+msgid "Toiled"
+msgstr "كادح"
+
+msgid "Toiler"
+msgstr "الكادح"
+
+msgid "Toilet"
+msgstr "المرحاض"
+
+msgid "Toiletries"
+msgstr "أدوات النظافة"
+
+msgid "Toiletry"
+msgstr "أدوات الزينة"
+
+msgid "Toilets"
+msgstr "المراحيض"
+
+msgid "Toiling"
+msgstr "الكدح"
+
+msgid "Toils"
+msgstr "الشراك"
+
+msgid "Toilsome"
+msgstr "متعِب"
+
+msgid "Toilsomely"
+msgstr "بشكل متعِب"
+
+msgid "Toilsomeness"
+msgstr "يتطلب مجهوداً"
+
+msgid "Tokamak"
+msgstr "توكاماك"
+
+msgid "Toke"
+msgstr "دخّن"
+
+msgid "Token"
+msgstr "الرمز"
+
+msgid "Tokens"
+msgstr "الرموز"
+
+msgid "Tokes"
+msgstr "يدخّن"
+
+msgid "Tokyo"
+msgstr "طوكيو"
+
+#, name
+msgid "Toland"
+msgstr "تولاند"
+
+msgid "Told"
+msgstr "مخبر"
+
+msgid "Toledo"
+msgstr "توليدو"
+
+msgid "Tolerability"
+msgstr "إمكانية الاحتمال"
+
+msgid "Tolerable"
+msgstr "محتمل"
+
+msgid "Tolerableness"
+msgstr "الاحتماليّة"
+
+msgid "Tolerably"
+msgstr "بشكل محتمل"
+
+msgid "Tolerance"
+msgstr "التحمّل"
+
+msgid "Tolerances"
+msgstr "التسامح"
+
+msgid "Tolerant"
+msgstr "متسامح"
+
+msgid "Tolerantly"
+msgstr "بتسامح"
+
+msgid "Tolerate"
+msgstr "تحمّل"
+
+msgid "Tolerated"
+msgstr "متحمّل"
+
+msgid "Tolerates"
+msgstr "يتحمّل"
+
+msgid "Tolerating"
+msgstr "التحمّل"
+
+msgid "Toleration"
+msgstr "الإحتمال"
+
+msgid "Tolerative"
+msgstr "احتمالي"
+
+msgid "Toll"
+msgstr "عدد الخسائر"
+
+msgid "Tollable"
+msgstr "معرّض لدفع الجزية"
+
+msgid "Tollage"
+msgstr "دفع الجزية"
+
+msgid "Tollbooth"
+msgstr "مقرّ محصل الضرائب"
+
+msgid "Tollbooths"
+msgstr "مقرّات محصلي الضرائب"
+
+msgid "Tolled"
+msgstr "مقروع"
+
+msgid "Tolley"
+msgstr "تولي"
+
+msgid "Tollgate"
+msgstr "بوابة الخروج"
+
+msgid "Tollgates"
+msgstr "بوابات الخروج"
+
+msgid "Tollhouse"
+msgstr "بيت الجابي"
+
+msgid "Tolling"
+msgstr "القرع"
+
+msgid "Tolls"
+msgstr "الضرائب"
+
+msgid "Tolstoy"
+msgstr "تولستوي"
+
+msgid "Toluene"
+msgstr "تولوين"
+
+msgid "Tom"
+msgstr "توم"
+
+#, name
+msgid "Toma"
+msgstr "توما"
+
+msgid "Tomahawk"
+msgstr "التوماهوك"
+
+msgid "Tomahawks"
+msgstr "التوماهوك"
+
+msgid "Tomato"
+msgstr "الطماطة"
+
+msgid "Tomatoes"
+msgstr "الطماطم"
+
+msgid "Tomb"
+msgstr "القبر"
+
+msgid "Tombac"
+msgstr "التُّمبك"
+
+#, river
+msgid "Tombigbee"
+msgstr "تومبجبي"
+
+msgid "Tomboy"
+msgstr "الفتاة المسترجلة"
+
+msgid "Tomboys"
+msgstr "الفتيات المسترجلات"
+
+msgid "Tombs"
+msgstr "القبور"
+
+msgid "Tombstone"
+msgstr "شاهدة القبر"
+
+msgid "Tombstones"
+msgstr "شواهد القبور"
+
+msgid "Tomcat"
+msgstr "القطّ"
+
+msgid "Tomcats"
+msgstr "القطط"
+
+msgid "Tome"
+msgstr "المجلّد"
+
+msgid "Tomes"
+msgstr "المجلدات"
+
+msgid "Tomfool"
+msgstr "أحمق"
+
+msgid "Tomfooleries"
+msgstr "التصرفات الصبيانية"
+
+msgid "Tomfoolery"
+msgstr "التصرف الصبياني"
+
+msgid "Tomfools"
+msgstr "حمقى"
+
+#, Name
+msgid "Tomlinson"
+msgstr "توملينسون"
+
+msgid "Tommie"
+msgstr "تومي"
+
+msgid "Tommy"
+msgstr "تومي"
+
+msgid "Tomograph"
+msgstr "رسم سطحي"
+
+msgid "Tomography"
+msgstr "الرّسم السّطحي"
+
+msgid "Tomorrow"
+msgstr "غدا"
+
+msgid "Tompkins"
+msgstr "تومبكينس"
+
+msgid "Toms"
+msgstr "تومز"
+
+msgid "Tomtit"
+msgstr "القرقف الأزرق"
+
+msgid "Tomtits"
+msgstr "طيور القرقف الزرق"
+
+msgid "Tomtom"
+msgstr "الطبل"
+
+msgid "Ton"
+msgstr "الطنّ"
+
+msgid "Tonal"
+msgstr "نغمّي"
+
+msgid "Tonalities"
+msgstr "النّغميّة"
+
+msgid "Tonality"
+msgstr "تناسق الأنغام"
+
+msgid "Tonally"
+msgstr "بشكل نغمّي"
+
+msgid "Tone"
+msgstr "النغمة"
+
+msgid "Toned"
+msgstr "منغّم"
+
+msgid "Toneless"
+msgstr "بلا نغمة"
+
+msgid "Tonelessly"
+msgstr "بشكل عديم النغمة"
+
+msgid "Tonelessness"
+msgstr "انعدام النغمة"
+
+msgid "Toner"
+msgstr "الحبر"
+
+msgid "Tones"
+msgstr "النغمات"
+
+msgid "Tong"
+msgstr "تونج"
+
+msgid "Tonga"
+msgstr "لغة التونجا"
+
+msgid "Tonger"
+msgstr "مُلتقِط"
+
+msgid "Tongs"
+msgstr "الملاقط"
+
+msgid "Tongue"
+msgstr "اللسان"
+
+msgid "Tongued"
+msgstr "ملسّن"
+
+msgid "Tongues"
+msgstr "الألسنة"
+
+msgid "Tonguing"
+msgstr "اللعق باللسان"
+
+msgid "Toni"
+msgstr "توني"
+
+msgid "Tonic"
+msgstr "المقوّي"
+
+msgid "Tonicity"
+msgstr "صحّة"
+
+msgid "Tonics"
+msgstr "المقوّيات"
+
+msgid "Tonier"
+msgstr "أكثر تناغماً"
+
+msgid "Toniest"
+msgstr "الأكثر تناغماً"
+
+msgid "Tonight"
+msgstr "اللّيلة"
+
+msgid "Toning"
+msgstr "التنغيم"
+
+msgid "Tonk"
+msgstr "يتنقّل بسرعة، يضاجع"
+
+msgid "Tonks"
+msgstr "تونكس"
+
+msgid "Tonnage"
+msgstr "الحمولة"
+
+msgid "Tonnages"
+msgstr "الحمولات"
+
+msgid "Tons"
+msgstr "الأطنان"
+
+msgid "Tonsil"
+msgstr "لوزة الحلق"
+
+msgid "Tonsilitis"
+msgstr "التهاب اللوزتين"
+
+msgid "Tonsillar"
+msgstr "لوزيّ"
+
+msgid "Tonsillectomies"
+msgstr "عمليات استئصال اللوزتين"
+
+msgid "Tonsillectomy"
+msgstr "إستئصال اللوزتين"
+
+msgid "Tonsillitis"
+msgstr "إلتهاب اللوزتين"
+
+msgid "Tonsils"
+msgstr "لوز الحلق"
+
+msgid "Tonsure"
+msgstr "حلاقة الشعر"
+
+msgid "Tonsures"
+msgstr "حلاقات الشعر"
+
+msgid "Tony"
+msgstr "توني"
+
+msgid "Too"
+msgstr "أيضا"
+
+msgid "Toodle"
+msgstr "تودل"
+
+msgid "Took"
+msgstr "أخذ"
+
+msgid "Tool"
+msgstr "الأداة"
+
+msgid "Toolbar"
+msgstr "شريط الأدوات"
+
+msgid "Toolbars"
+msgstr "أشرطة الأدوات"
+
+msgid "Toolbox"
+msgstr "صندوق العدّة"
+
+msgid "Toolboxes"
+msgstr "صناديق العدة"
+
+msgid "Tooled"
+msgstr "مزخرف"
+
+msgid "Tooler"
+msgstr "الإزميل"
+
+msgid "Toolers"
+msgstr "الأزاميل"
+
+msgid "Tooling"
+msgstr "تولنج"
+
+msgid "Toolkit"
+msgstr "صندوق العدّة"
+
+msgid "Toolkits"
+msgstr "صناديق العدة"
+
+msgid "Toolmake"
+msgstr "تولماك"
+
+msgid "Toolmaker"
+msgstr "صانع الآلات"
+
+msgid "Toolmakers"
+msgstr "صانعو الآلات"
+
+msgid "Toolmaking"
+msgstr "صنع الآلات"
+
+msgid "Tools"
+msgstr "الأدوات"
+
+msgid "Toolsmith"
+msgstr "المبرمج"
+
+msgid "Toomey"
+msgstr "تومي"
+
+msgid "Toot"
+msgstr "التزمير"
+
+msgid "Tooted"
+msgstr "مزمّر"
+
+msgid "Tooter"
+msgstr "زمّار"
+
+msgid "Tooth"
+msgstr "السنّ"
+
+msgid "Tooth-brush"
+msgstr "فرشاة الأسنان"
+
+msgid "Toothache"
+msgstr "وجع الأسنان"
+
+msgid "Toothaches"
+msgstr "أوجاع الأسنان"
+
+msgid "Toothbrush"
+msgstr "فرشاة الأسنان"
+
+msgid "Toothbrushes"
+msgstr "فرش الأسنان"
+
+msgid "Toothbrushing"
+msgstr "تنظيف الأسنان"
+
+msgid "Toothed"
+msgstr "مسنّن"
+
+msgid "Toothier"
+msgstr "مسنّن"
+
+msgid "Toothily"
+msgstr "بشكل بارز الأسنان"
+
+msgid "Toothing"
+msgstr "يسنّن"
+
+msgid "Toothless"
+msgstr "بلا أسنان"
+
+msgid "Toothlessly"
+msgstr "بشكل بلا أسنان"
+
+msgid "Toothpaste"
+msgstr "معجون الأسنان"
+
+msgid "Toothpastes"
+msgstr "معاجين الأسنان"
+
+msgid "Toothpick"
+msgstr "المسواك"
+
+msgid "Toothpicks"
+msgstr "المسواك"
+
+msgid "Tooths"
+msgstr "السنّ"
+
+msgid "Toothsomely"
+msgstr "بشكل لذيذ"
+
+msgid "Toothy"
+msgstr "مسنّن"
+
+msgid "Tooting"
+msgstr "التزمير"
+
+msgid "Tootle"
+msgstr "يصفر باستمرار"
+
+msgid "Tootled"
+msgstr "صفر باستمرار"
+
+msgid "Tootler"
+msgstr "صافر"
+
+msgid "Tootling"
+msgstr "تصفير مستمر"
+
+msgid "Toots"
+msgstr "تصافير"
+
+msgid "Tootsie"
+msgstr "تصافير"
+
+msgid "Tootsies"
+msgstr "أصابع الأقدام"
+
+msgid "Tootsy"
+msgstr "أصبع القدم"
+
+msgid "Top"
+msgstr "القمّة"
+
+msgid "Top-border"
+msgstr "الحدود العليا"
+
+msgid "Top-Left"
+msgstr "الجهة العليا اليسرى"
+
+msgid "Top-right"
+msgstr "الجهة العليا اليمنى"
+
+msgid "Topaz"
+msgstr "الزبرجد"
+
+msgid "Topazes"
+msgstr "أحجار الزبرجد"
+
+msgid "Topcoat"
+msgstr "المعطف الخفيف"
+
+msgid "Topcoats"
+msgstr "المعاطف الخفيفة"
+
+msgid "Tope"
+msgstr "إسكر"
+
+msgid "Toped"
+msgstr "ساكر"
+
+msgid "Topeka"
+msgstr "توبيكا"
+
+msgid "Toper"
+msgstr "السكّير"
+
+msgid "Topers"
+msgstr "السكّير"
+
+msgid "Topes"
+msgstr "يسكر"
+
+msgid "Topflight"
+msgstr "أعلى طبقة"
+
+msgid "Topgallant"
+msgstr "الشراع الأعلى"
+
+msgid "Topic"
+msgstr "الموضوع"
+
+msgid "Topical"
+msgstr "موضوعي"
+
+msgid "Topically"
+msgstr "بشكل موضوعي"
+
+msgid "Topics"
+msgstr "المواضيع"
+
+msgid "Toping"
+msgstr "السكر"
+
+msgid "Topknot"
+msgstr "القُنزُعَة"
+
+msgid "Topknots"
+msgstr "القُنْزُعات"
+
+msgid "Topless"
+msgstr "عاري الصدر"
+
+msgid "Topline"
+msgstr "ذائع الصّيت"
+
+msgid "Topmast"
+msgstr "السارية العليا"
+
+msgid "Topmasts"
+msgstr "السواري العليا"
+
+msgid "Topmost"
+msgstr "أعلى"
+
+msgid "Topnotch"
+msgstr "ممتاز"
+
+msgid "Topnotcher"
+msgstr "ممتاز"
+
+msgid "Topocentric"
+msgstr "مُقاس من سطح الأرض"
+
+msgid "Topographer"
+msgstr "الطوبوغرافي"
+
+msgid "Topographers"
+msgstr "الطوبوغرافيون"
+
+msgid "Topographic"
+msgstr "طوبوغرافيّ"
+
+msgid "Topographical"
+msgstr "طوبوغرافيّ"
+
+msgid "Topographically"
+msgstr "بشكل طوبوغرافيّ"
+
+msgid "Topographies"
+msgstr "علوم الطوبوغرافيا"
+
+msgid "Topography"
+msgstr "علم الطوبوغرافيا"
+
+msgid "Topological"
+msgstr "طوبولوجي"
+
+msgid "Topologically"
+msgstr "بشكل طوبولوجي"
+
+msgid "Topologies"
+msgstr "علوم الهندسة اللاكمية"
+
+msgid "Topologist"
+msgstr "عالم الهندسة اللاكمية"
+
+msgid "Topologists"
+msgstr "علماء الهندسة اللاكمية"
+
+msgid "Topology"
+msgstr "الهندسة اللاكمية"
+
+msgid "Topped"
+msgstr "متجاوز"
+
+msgid "Topper"
+msgstr "القبعة العالية"
+
+msgid "Toppers"
+msgstr "القبعات العالية"
+
+msgid "Topping"
+msgstr "الطبقة"
+
+msgid "Toppings"
+msgstr "الطبقة"
+
+msgid "Topple"
+msgstr "أسقط"
+
+msgid "Toppled"
+msgstr "مسقط"
+
+msgid "Topples"
+msgstr "يسقط"
+
+msgid "Toppling"
+msgstr "الإسقاط"
+
+msgid "Tops"
+msgstr "القمم"
+
+msgid "Topsail"
+msgstr "الشراع العلوي"
+
+msgid "Topside"
+msgstr "ظهر المركب"
+
+msgid "Topsides"
+msgstr "ظهر المركب"
+
+msgid "Topsoil"
+msgstr "التربة الفوقيّة"
+
+msgid "Topsy"
+msgstr "أمَة"
+
+msgid "Topsyturvy"
+msgstr "رأساً على عقب"
+
+msgid "Toque"
+msgstr "القبعة"
+
+msgid "Toques"
+msgstr "القبعات"
+
+msgid "Tor"
+msgstr "الربوة"
+
+msgid "Torah"
+msgstr "التوراة"
+
+msgid "Torch"
+msgstr "المصباح"
+
+msgid "Torchbearer"
+msgstr "حامل الشعلة"
+
+msgid "Torchbearers"
+msgstr "حاملوا المشاعل"
+
+msgid "Torches"
+msgstr "المصابيح"
+
+msgid "Torchlight"
+msgstr "ضوء المصباح"
+
+msgid "Torchlights"
+msgstr "أضواء المصابيح"
+
+msgid "Tore"
+msgstr "مزّق"
+
+msgid "Toreador"
+msgstr "مصارع الثيران"
+
+msgid "Toreadors"
+msgstr "مصارعو الثيران"
+
+msgid "Torero"
+msgstr "مصارع الثيران"
+
+msgid "Tori"
+msgstr "نتوءات مستديرة"
+
+msgid "Tories"
+msgstr "المحافظون"
+
+msgid "Torment"
+msgstr "العذاب"
+
+msgid "Tormented"
+msgstr "معذّب"
+
+msgid "Tormenter"
+msgstr "المعذّب"
+
+msgid "Tormenters"
+msgstr "المعذّبون"
+
+msgid "Tormenting"
+msgstr "التعذيب"
+
+msgid "Tormentor"
+msgstr "المعذّب"
+
+msgid "Tormentors"
+msgstr "المعذّبون"
+
+msgid "Torments"
+msgstr "العذاب"
+
+msgid "Torn"
+msgstr "ممزّق"
+
+msgid "Tornado"
+msgstr "الإعصار"
+
+msgid "Tornadoes"
+msgstr "الأعاصير"
+
+msgid "Tornados"
+msgstr "الأعاصير"
+
+msgid "Toroid"
+msgstr "حلَقي"
+
+msgid "Toroidal"
+msgstr "ملفّ حلقي"
+
+msgid "Toroidally"
+msgstr "ملف حلَقي"
+
+msgid "Toroids"
+msgstr "ملفات حلَقية"
+
+msgid "Toronto"
+msgstr "تورنتو"
+
+msgid "Torpedo"
+msgstr "الطوربيد"
+
+msgid "Torpedoed"
+msgstr "منسوف"
+
+msgid "Torpedoes"
+msgstr "الطوربيدات"
+
+msgid "Torpedoing"
+msgstr "النسف"
+
+msgid "Torpedos"
+msgstr "الطوربيد"
+
+msgid "Torpid"
+msgstr "خدران"
+
+msgid "Torpidity"
+msgstr "الخدر"
+
+msgid "Torpidly"
+msgstr "بخدر"
+
+msgid "Torpor"
+msgstr "السبات"
+
+msgid "Torque"
+msgstr "طوْق معدني للعنق"
+
+msgid "Torquemada"
+msgstr "توركيمادا"
+
+msgid "Torquer"
+msgstr "لاوي"
+
+msgid "Torquers"
+msgstr "لاوون"
+
+msgid "Torques"
+msgstr "أطواق معدنية للعنق"
+
+msgid "Torquing"
+msgstr "اللّي"
+
+msgid "Torr"
+msgstr "وحدة ضغط"
+
+msgid "Torrance"
+msgstr "تورانس"
+
+msgid "Torrence"
+msgstr "تورنس"
+
+msgid "Torrent"
+msgstr "السيل"
+
+msgid "Torrential"
+msgstr "غزير"
+
+msgid "Torrentially"
+msgstr "بشكل غزير"
+
+msgid "Torrents"
+msgstr "السيول"
+
+msgid "Torrid"
+msgstr "متّقد"
+
+msgid "Torridity"
+msgstr "إتّقاد"
+
+msgid "Torridly"
+msgstr "بشكل متّقد"
+
+msgid "Torridness"
+msgstr "الإتّقاد"
+
+msgid "Torsion"
+msgstr "الإلتواء"
+
+msgid "Torsional"
+msgstr "إلتوائيّ"
+
+msgid "Torsionally"
+msgstr "بشكل إلتوائيّ"
+
+msgid "Torsions"
+msgstr "الإلتواءات"
+
+msgid "Torso"
+msgstr "الجذع"
+
+msgid "Torsos"
+msgstr "الجذوع"
+
+msgid "Tort"
+msgstr "الجنحة"
+
+msgid "Torten"
+msgstr "تورتين"
+
+msgid "Tortoise"
+msgstr "السلحفاة"
+
+msgid "Tortoises"
+msgstr "السلاحف"
+
+msgid "Tortoiseshell"
+msgstr "عظم ظهر السّلحفاة"
+
+msgid "Torts"
+msgstr "الجنح"
+
+msgid "Tortuous"
+msgstr "ملتوي"
+
+msgid "Tortuously"
+msgstr "بشكل ملتوي"
+
+msgid "Tortuousness"
+msgstr "الإلتواء"
+
+msgid "Torture"
+msgstr "التعذيب"
+
+msgid "Tortured"
+msgstr "معذّب"
+
+msgid "Torturer"
+msgstr "المعذّب"
+
+msgid "Torturers"
+msgstr "المعذّبون"
+
+msgid "Tortures"
+msgstr "التعذيب"
+
+msgid "Torturing"
+msgstr "التعذيب"
+
+msgid "Torus"
+msgstr "نتوء مستدير"
+
+msgid "Toruses"
+msgstr "توروسيس"
+
+msgid "Tory"
+msgstr "المحافظ"
+
+msgid "Tosca"
+msgstr "توسكا"
+
+msgid "Toscanini"
+msgstr "توسكانيني"
+
+msgid "Toshiba"
+msgstr "توشيبا"
+
+msgid "Toss"
+msgstr "إقذف"
+
+msgid "Tossed"
+msgstr "قذف"
+
+msgid "Tosser"
+msgstr "قاذف"
+
+msgid "Tosses"
+msgstr "قذفات"
+
+msgid "Tossing"
+msgstr "القذف"
+
+msgid "Tossup"
+msgstr "مسالة حظ"
+
+msgid "Tot"
+msgstr "الطفل"
+
+msgid "Total"
+msgstr "المجموع"
+
+msgid "Totaled"
+msgstr "مجموع"
+
+msgid "Totaler"
+msgstr "كليّ"
+
+msgid "Totaling"
+msgstr "الجمع"
+
+msgid "Totalistic"
+msgstr "إستبدادي"
+
+msgid "Totalitarian"
+msgstr "إستبدادي"
+
+msgid "Totalitarianism"
+msgstr "حكم الحزب الواحد"
+
+msgid "Totalitarianisms"
+msgstr "حكم الحزب الواحد"
+
+msgid "Totalities"
+msgstr "المجموعيّات"
+
+msgid "Totality"
+msgstr "المجموع"
+
+msgid "Totalize"
+msgstr "أجمل"
+
+msgid "Totalized"
+msgstr "مجمل"
+
+msgid "Totalizer"
+msgstr "الآلة الحاسبة"
+
+msgid "Totalizers"
+msgstr "الآلات الحاسبة"
+
+msgid "Totalizes"
+msgstr "يجمل"
+
+msgid "Totalizing"
+msgstr "الإجمال"
+
+msgid "Totalling"
+msgstr "ما مجموعه"
+
+msgid "Totally"
+msgstr "كليا"
+
+msgid "Totals"
+msgstr "المجاميع"
+
+msgid "Tote"
+msgstr "حاسبة المراهنات"
+
+msgid "Toted"
+msgstr "محمول"
+
+msgid "Totem"
+msgstr "الطوطم"
+
+#, reach
+msgid "Totemic"
+msgstr "وثني"
+
+msgid "Totems"
+msgstr "الطواطم"
+
+msgid "Toter"
+msgstr "الحمّال - من يعمل كحمّال"
+
+msgid "Totes"
+msgstr "حاسبات المراهنات"
+
+msgid "Toting"
+msgstr "الحمل"
+
+msgid "Toto"
+msgstr "توتو"
+
+msgid "Tots"
+msgstr "الأطفال"
+
+msgid "Totted"
+msgstr "مجموع"
+
+msgid "Totter"
+msgstr " ترنّح"
+
+msgid "Tottered"
+msgstr "مترنّح"
+
+msgid "Tottering"
+msgstr "الترنّح"
+
+msgid "Totteringly"
+msgstr "بترنّح"
+
+msgid "Totters"
+msgstr "يترنّح"
+
+msgid "Tottery"
+msgstr "متقلّب"
+
+msgid "Touch"
+msgstr "اللمس"
+
+msgid "Touch-screen"
+msgstr "شاشة لمس"
+
+msgid "Touch-type"
+msgstr "إطبع لمسا"
+
+msgid "Touchable"
+msgstr "ملموس"
+
+msgid "Touchdown"
+msgstr "الهبوط"
+
+msgid "Touchdowns"
+msgstr "الهبوط"
+
+msgid "Touched"
+msgstr "ممسوس"
+
+msgid "Toucher"
+msgstr "الملامس"
+
+msgid "Touches"
+msgstr "اللمسات"
+
+msgid "Touchier"
+msgstr "أشدّ حساسية"
+
+msgid "Touchiest"
+msgstr "أشدّ حساسية"
+
+msgid "Touchily"
+msgstr "بشكل سريع الإنفعال"
+
+msgid "Touchiness"
+msgstr "الحساسية"
+
+msgid "Touching"
+msgstr "اللمس"
+
+msgid "Touchingly"
+msgstr "بشكل محزن"
+
+msgid "Touchstone"
+msgstr "المحكّ"
+
+msgid "Touchstones"
+msgstr "المحكّ"
+
+msgid "Touchy"
+msgstr "حسّاس"
+
+msgid "Tough"
+msgstr "قاسي"
+
+msgid "Toughen"
+msgstr "صلّب"
+
+msgid "Toughened"
+msgstr "مصلّب"
+
+msgid "Toughening"
+msgstr "التصلّب"
+
+msgid "Toughens"
+msgstr "يصلّب"
+
+msgid "Tougher"
+msgstr "أقسى"
+
+msgid "Toughest"
+msgstr "أقسى"
+
+msgid "Toughing"
+msgstr "التّجلّد، التصلّب"
+
+msgid "Toughly"
+msgstr "بشكل قاسي"
+
+msgid "Toughness"
+msgstr "الصلابة"
+
+msgid "Toughs"
+msgstr "القساة"
+
+msgid "Toulouse"
+msgstr " تولوز"
+
+msgid "Toupee"
+msgstr "الشعر المستعار"
+
+msgid "Toupees"
+msgstr "الشعر المستعار"
+
+msgid "Tour"
+msgstr "الجولة"
+
+msgid "Toured"
+msgstr "تجوّل فيه"
+
+msgid "Tourer"
+msgstr "السيارة السياحيّة"
+
+msgid "Touring"
+msgstr "السياحة"
+
+msgid "Tourism"
+msgstr "السياحة"
+
+msgid "Tourist"
+msgstr "السائح"
+
+msgid "Tourists"
+msgstr "السيّاح"
+
+msgid "Tournament"
+msgstr "البطولة"
+
+msgid "Tournaments"
+msgstr "البطولات"
+
+msgid "Tourney"
+msgstr "شارك"
+
+msgid "Tourneyed"
+msgstr "مشارك"
+
+msgid "Tourneying"
+msgstr "المشاركة"
+
+msgid "Tourneys"
+msgstr "يشارك"
+
+msgid "Tours"
+msgstr "الجولات"
+
+msgid "Tousle"
+msgstr "شعّث"
+
+msgid "Tousled"
+msgstr "أشعث الشعر"
+
+msgid "Tousles"
+msgstr "يشعّث"
+
+msgid "Tousling"
+msgstr "التشعيث"
+
+msgid "Tout"
+msgstr "المرابح"
+
+msgid "Touted"
+msgstr "مرغوب"
+
+msgid "Touter"
+msgstr "تاجر السّوق السّوداء "
+
+msgid "Touting"
+msgstr "البيع"
+
+msgid "Touts"
+msgstr "المرابحون"
+
+msgid "Tow"
+msgstr "السحب"
+
+msgid "Toward"
+msgstr "نحو"
+
+msgid "Towardliness"
+msgstr "المرونة"
+
+msgid "Towardly"
+msgstr "واعد، مبشّر بالخير "
+
+msgid "Towards"
+msgstr "نحو"
+
+msgid "Towboat"
+msgstr "زورق السّحب"
+
+msgid "Towboats"
+msgstr "زوارق السّحب"
+
+msgid "Towed"
+msgstr "مسحوب"
+
+msgid "Towel"
+msgstr "المنشفة"
+
+msgid "Toweled"
+msgstr "مسح بالفوطة"
+
+msgid "Toweling"
+msgstr "المسح بالفوطة"
+
+msgid "Towelled"
+msgstr "نشّف"
+
+msgid "Towelling"
+msgstr "المناشف"
+
+msgid "Towels"
+msgstr "المناشف"
+
+msgid "Tower"
+msgstr "البرج"
+
+msgid "Towered"
+msgstr "علا، بان عالياً"
+
+msgid "Towering"
+msgstr "شاهق"
+
+msgid "Toweringly"
+msgstr "بشكل شاهق"
+
+msgid "Towers"
+msgstr "الأبراج"
+
+msgid "Towhead"
+msgstr "الشعر الفاتح"
+
+msgid "Towheaded"
+msgstr "فاتح الشّعر"
+
+msgid "Towhee"
+msgstr "التّوهي - عصافير أمريكيّة"
+
+msgid "Towing"
+msgstr "السحب"
+
+msgid "Towline"
+msgstr "حبل الشد"
+
+msgid "Towlines"
+msgstr "حبال الشدّ"
+
+msgid "Town"
+msgstr "البلدة"
+
+msgid "Town-hall"
+msgstr "دار البلدية"
+
+msgid "Towner"
+msgstr "ساكن المدينة"
+
+msgid "Townhouse"
+msgstr "المنزل"
+
+msgid "Townley"
+msgstr "تاونلي"
+
+msgid "Towns"
+msgstr "البلدات"
+
+msgid "Townscape"
+msgstr "منظر المدينة"
+
+msgid "Townscapes"
+msgstr "مناظر المدينة"
+
+msgid "Townsend"
+msgstr " تاونسند - مصلح إجتماعي من الولايات المتّحدة"
+
+msgid "Townsfolk"
+msgstr "سكان المدينة"
+
+msgid "Township"
+msgstr "القسم الإداري"
+
+msgid "Townships"
+msgstr "الأقسام الإدارية"
+
+msgid "Townsman"
+msgstr "قاطن المدينة"
+
+msgid "Townsmen"
+msgstr "قاطنو المدينة"
+
+msgid "Townspeople"
+msgstr "سكان المدينة"
+
+msgid "Towpath"
+msgstr "ممشى او الطّريق المتّبع المحاذي للماء لجر القوارب"
+
+msgid "Towpaths"
+msgstr "الطّرق المتّبعة المحاذية للماء لجر القوارب"
+
+msgid "Towrope"
+msgstr "حبل السّحب"
+
+msgid "Towropes"
+msgstr "حبال السّحب"
+
+msgid "Tows"
+msgstr "يسحب"
+
+msgid "Towsley"
+msgstr " تاوسلي"
+
+msgid "Toxic"
+msgstr "سامّ"
+
+msgid "Toxical"
+msgstr "متعلق بالسّم"
+
+msgid "Toxically"
+msgstr " بطريقة سامّة"
+
+msgid "Toxicities"
+msgstr "السّمّيّة"
+
+msgid "Toxicity"
+msgstr "السّمّيّة"
+
+msgid "Toxicological"
+msgstr "متعلّق بعلم السّموم"
+
+msgid "Toxicologically"
+msgstr "بشكل يتعلّق بعلم السّموم"
+
+msgid "Toxicologies"
+msgstr "علوم السّموم"
+
+msgid "Toxicologist"
+msgstr "عالم السّموم"
+
+msgid "Toxicologists"
+msgstr "علماء السّموم"
+
+msgid "Toxicology"
+msgstr "علم السموم"
+
+msgid "Toxin"
+msgstr "السمّ"
+
+msgid "Toxins"
+msgstr "السموم"
+
+msgid "Toy"
+msgstr "اللعبة"
+
+msgid "Toyed"
+msgstr "غازل، لعب"
+
+msgid "Toyer"
+msgstr "العابث"
+
+msgid "Toying"
+msgstr "اللعب"
+
+msgid "Toynbee"
+msgstr " توينبي - مؤرّخ و معلّم بريطاني"
+
+msgid "Toyota"
+msgstr "تويوتا"
+
+msgid "Toys"
+msgstr "اللعب"
+
+msgid "Trace"
+msgstr "الأثر"
+
+msgid "Traceable"
+msgstr "قابل للتقصّي"
+
+msgid "Traceableness"
+msgstr "القابلية لإقتفاء الأثر"
+
+msgid "Traced"
+msgstr "متتبّع"
+
+msgid "Traceless"
+msgstr "بلا أثر، بلا دالّة"
+
+msgid "Tracer"
+msgstr "الراسم"
+
+msgid "Traceried"
+msgstr "مزخرف"
+
+msgid "Tracers"
+msgstr "الراسمات"
+
+msgid "Tracery"
+msgstr "الزخرفة"
+
+msgid "Traces"
+msgstr "الآثار"
+
+msgid "Trachea"
+msgstr "القصبة الهوائية"
+
+msgid "Tracheae"
+msgstr "القصبات الهوائية"
+
+msgid "Tracheotomies"
+msgstr "عمليّات ثقب القصبة الهوائية"
+
+msgid "Tracheotomy"
+msgstr "عمليّة ثقب القصبة الهوائية"
+
+msgid "Trachoma"
+msgstr "التراخوما"
+
+msgid "Tracing"
+msgstr "الإقتفاء"
+
+msgid "Tracings"
+msgstr "الإقتفاء"
+
+msgid "Track"
+msgstr "المسار"
+
+msgid "Trackable"
+msgstr "ممكن إقتفاء أثره"
+
+msgid "Trackage"
+msgstr "شبكة الخطوط الحديدية"
+
+msgid "Tracked"
+msgstr "متعقّب"
+
+msgid "Tracker"
+msgstr "المقتفي"
+
+msgid "Trackers"
+msgstr "المقتفون"
+
+msgid "Tracking"
+msgstr "التتبع"
+
+msgid "Trackless"
+msgstr "بلا أثر"
+
+msgid "Tracknumber"
+msgstr "رقم المسار"
+
+msgid "Tracks"
+msgstr "المسارات"
+
+msgid "Tract"
+msgstr "المنطقة"
+
+msgid "Tractability"
+msgstr "قابلية الإستطراق"
+
+msgid "Tractable"
+msgstr "سلس"
+
+msgid "Tractableness"
+msgstr "سهولة إقتفاء الأثر"
+
+msgid "Tractably"
+msgstr "بشكل سلس"
+
+msgid "Traction"
+msgstr "الجرّ"
+
+msgid "Tractions"
+msgstr "الجرّ"
+
+msgid "Tractive"
+msgstr "جذبيّ"
+
+msgid "Tractor"
+msgstr "الجرّار"
+
+msgid "Tractors"
+msgstr "الجرّارات"
+
+msgid "Tracts"
+msgstr "المناطق"
+
+msgid "Tracy"
+msgstr "تريسي"
+
+msgid "Trade"
+msgstr "التجارة"
+
+msgid "Trade-mark"
+msgstr "العلامة التجارية"
+
+msgid "Trade-union"
+msgstr "إتحاد العمال"
+
+msgid "Trade-unionism"
+msgstr "النقابية"
+
+msgid "Traded"
+msgstr "متاجر"
+
+msgid "Trademark"
+msgstr "العلامة التجارية"
+
+msgid "Trademarked"
+msgstr "وضع علامة تجاريّة"
+
+msgid "Trademarks"
+msgstr "العلامات التجارية"
+
+msgid "Tradeoff"
+msgstr "المبادلة"
+
+msgid "Tradeoffs"
+msgstr "المبادلات"
+
+msgid "Trader"
+msgstr "التاجر"
+
+msgid "Traders"
+msgstr "التجّار"
+
+msgid "Trades"
+msgstr "التجارة"
+
+msgid "Tradesman"
+msgstr "التاجر"
+
+msgid "Tradesmen"
+msgstr "التجار"
+
+msgid "Trading"
+msgstr "التجارة"
+
+msgid "Tradition"
+msgstr "التقليد"
+
+msgid "Traditional"
+msgstr "تقليدي"
+
+msgid "Traditionalism"
+msgstr "التقليدية"
+
+msgid "Traditionalistic"
+msgstr "التقليدي"
+
+msgid "Traditionalists"
+msgstr "التقليديون"
+
+msgid "Traditionalized"
+msgstr "جعل تقليديًّا"
+
+msgid "Traditionally"
+msgstr "تقليديا"
+
+msgid "Traditions"
+msgstr "التقاليد"
+
+msgid "Traduced"
+msgstr "مشوّه سمعة"
+
+msgid "Traducement"
+msgstr "الخدش النّاجم عن إتهامات زائفة"
+
+msgid "Traffic"
+msgstr "المرور"
+
+msgid "Traffic-lights"
+msgstr "إشارات المرور"
+
+msgid "Trafficked"
+msgstr "هرّب"
+
+msgid "Trafficker"
+msgstr "المهرّب"
+
+msgid "Traffickers"
+msgstr "المهرّبون"
+
+msgid "Trafficking"
+msgstr "التهريب"
+
+msgid "Traffics"
+msgstr "يهرّب"
+
+msgid "Trag"
+msgstr "تراج"
+
+msgid "Tragedian"
+msgstr "الفنان التراجيدي"
+
+msgid "Tragedians"
+msgstr "الفنانون التراجيديون"
+
+msgid "Tragedies"
+msgstr "المآسي"
+
+msgid "Tragedy"
+msgstr "المأساة"
+
+msgid "Tragic"
+msgstr "مأساوي"
+
+msgid "Tragical"
+msgstr "مأساوي"
+
+msgid "Tragically"
+msgstr "بشكل مأساوي"
+
+msgid "Tragicly"
+msgstr "بشكل مأساوي"
+
+msgid "Tragicomedies"
+msgstr "الكوميديا التّراجيديّة"
+
+msgid "Tragicomedy"
+msgstr "الكوميديا التّراجيديّة"
+
+msgid "Tragicomic"
+msgstr "مأسويّ هزلي"
+
+msgid "Tragicomical"
+msgstr "كوميديّ تراجيدي"
+
+msgid "Tragicomically"
+msgstr " بطريقة تراجيدية كوميديّة"
+
+msgid "Trail"
+msgstr "الأثر"
+
+msgid "Trailblaze"
+msgstr "يصبح رائداً"
+
+msgid "Trailblazer"
+msgstr "الرّائد"
+
+msgid "Trailblazers"
+msgstr "الرّوّاد"
+
+msgid "Trailed"
+msgstr "تخلّف عنه"
+
+msgid "Trailer"
+msgstr "المقطورة"
+
+msgid "Trailers"
+msgstr "المقطورات"
+
+msgid "Trailhead"
+msgstr "بداية القافلة"
+
+msgid "Trailing"
+msgstr "التخلّف عن، السّحب"
+
+msgid "Trails"
+msgstr "الآثار"
+
+msgid "Trailside"
+msgstr "المنطقة المحاذية للقافلة"
+
+msgid "Train"
+msgstr "القطار"
+
+msgid "Trainable"
+msgstr "قابل للتّدريب"
+
+msgid "Trained"
+msgstr "متدرب"
+
+msgid "Trainee"
+msgstr "المتدرب"
+
+msgid "Trainees"
+msgstr "المتدربون"
+
+msgid "Traineeships"
+msgstr "التدريب"
+
+msgid "Trainer"
+msgstr "المدرّب"
+
+msgid "Trainers"
+msgstr "المدربون"
+
+msgid "Training"
+msgstr "التدريب"
+
+msgid "Trainings"
+msgstr "التدريب"
+
+msgid "Trainman"
+msgstr "عامل القطار"
+
+msgid "Trainmen"
+msgstr "عمّال القطار"
+
+msgid "Trains"
+msgstr "القطارات"
+
+msgid "Traipse"
+msgstr "تمشّ"
+
+msgid "Traipsed"
+msgstr "متمشّى"
+
+msgid "Traipses"
+msgstr "يتمشّى"
+
+msgid "Traipsing"
+msgstr "التمشّي"
+
+msgid "Trait"
+msgstr "الميزة"
+
+msgid "Traitor"
+msgstr "الخائن"
+
+msgid "Traitorous"
+msgstr "خائن"
+
+msgid "Traitorously"
+msgstr "بشكل خائن"
+
+msgid "Traitors"
+msgstr "الخونة"
+
+msgid "Traitress"
+msgstr "الخائنة"
+
+msgid "Traitresses"
+msgstr "الخائنات"
+
+msgid "Traits"
+msgstr "الميزات"
+
+msgid "Trajectories"
+msgstr "المسارات"
+
+msgid "Trajectory"
+msgstr "المسار"
+
+msgid "Tram"
+msgstr "الترام"
+
+msgid "Trammel"
+msgstr "القيد"
+
+msgid "Trammeling"
+msgstr "التقييد بهدف التدريب"
+
+msgid "Trammels"
+msgstr "القيود"
+
+msgid "Tramp"
+msgstr "الصعلوك"
+
+msgid "Tramped"
+msgstr "مداس"
+
+msgid "Tramper"
+msgstr "المسافر على الأقدام"
+
+msgid "Tramping"
+msgstr "الملاحة غير المنتظمة"
+
+msgid "Trample"
+msgstr "دس"
+
+msgid "Trampled"
+msgstr "مداس"
+
+msgid "Trampler"
+msgstr "المهشّم"
+
+msgid "Tramples"
+msgstr "يدوس"
+
+msgid "Trampling"
+msgstr "الدوس"
+
+msgid "Trampoline"
+msgstr "الترامبولين"
+
+msgid "Trampolines"
+msgstr "الترامبولين"
+
+msgid "Tramps"
+msgstr "الصعاليك"
+
+msgid "Trams"
+msgstr "الترام"
+
+msgid "Tramway"
+msgstr "الترام"
+
+msgid "Tramways"
+msgstr "سيارات الترام"
+
+msgid "Trance"
+msgstr "الغيبوبة"
+
+msgid "Trances"
+msgstr "الغيبوبة"
+
+msgid "Trancing"
+msgstr "الدّخول، الغيبوبة"
+
+msgid "Tranquil"
+msgstr "هادئ"
+
+msgid "Tranquility"
+msgstr "الهدوء"
+
+msgid "Tranquilize"
+msgstr "يهدّئ"
+
+msgid "Tranquilized"
+msgstr "هدّأ"
+
+msgid "Tranquilizer"
+msgstr "المسكّن"
+
+msgid "Tranquilizers"
+msgstr "المسكّنات"
+
+msgid "Tranquilizes"
+msgstr "يهدّئ"
+
+msgid "Tranquilizing"
+msgstr "التّهدئة"
+
+msgid "Tranquilizingly"
+msgstr "بصورة مهدّئة"
+
+msgid "Tranquillity"
+msgstr "الهدوء"
+
+msgid "Tranquillized"
+msgstr "مهدّأ"
+
+msgid "Tranquilly"
+msgstr "بشكل هادئ"
+
+msgid "Tranquilness"
+msgstr "السّكينة"
+
+msgid "Transact"
+msgstr "أتمم"
+
+msgid "Transacted"
+msgstr "متمّ"
+
+msgid "Transacting"
+msgstr "الإتمام"
+
+msgid "Transaction"
+msgstr "الصفقة"
+
+msgid "Transaction-driven"
+msgstr "الصفقة قادت"
+
+msgid "Transactions"
+msgstr "الصفقات"
+
+msgid "Transacts"
+msgstr "يتمّ"
+
+msgid "Transalpine"
+msgstr "خاص بجبال الألب"
+
+msgid "Transaminase"
+msgstr "ترانسامينيس - نوع من الأنزيمات"
+
+msgid "Transatlantic"
+msgstr "عبر الأطلسي"
+
+msgid "Transborder"
+msgstr "خارج الحدود"
+
+msgid "Transceiver"
+msgstr "جهاز الإرسال والاستقبال"
+
+msgid "Transceivers"
+msgstr "أجهزة الإرسال والاستقبال"
+
+msgid "Transcend"
+msgstr "تجاوز"
+
+msgid "Transcended"
+msgstr "متجاوز"
+
+msgid "Transcendence"
+msgstr "التفوّق"
+
+msgid "Transcendences"
+msgstr "التفوّق"
+
+msgid "Transcendency"
+msgstr "التفوّق"
+
+msgid "Transcendent"
+msgstr "متعال"
+
+msgid "Transcendental"
+msgstr "متسام"
+
+msgid "Transcendentalism"
+msgstr "الفلسفة المتعالية"
+
+msgid "Transcendentalist"
+msgstr "مؤمن بالفلسفة المتعالية"
+
+msgid "Transcendentally"
+msgstr "بشكل متسام"
+
+msgid "Transcendently"
+msgstr "بشكل متعال"
+
+msgid "Transcending"
+msgstr "التجاوز"
+
+msgid "Transcends"
+msgstr "يتجاوز"
+
+msgid "Transcode"
+msgstr "النّظام المبكّر لـ كمبيوتر فيرت"
+
+msgid "Transcoder"
+msgstr "محوّل إلكتروني لإشارات الفيديو"
+
+msgid "Transconductance"
+msgstr "النسبة بين تغير التيار الخارج وفرق الجهد الداخل"
+
+msgid "Transcontinental"
+msgstr "عبر القارات"
+
+msgid "Transcribe"
+msgstr "إكتب"
+
+msgid "Transcribed"
+msgstr "كتب"
+
+msgid "Transcriber"
+msgstr "الناسخ"
+
+msgid "Transcribers"
+msgstr "الناسخات"
+
+msgid "Transcribes"
+msgstr "يكتب"
+
+msgid "Transcribing"
+msgstr "الكتابة"
+
+msgid "Transcript"
+msgstr "النسخة"
+
+msgid "Transcription"
+msgstr "النسخة"
+
+msgid "Transcriptions"
+msgstr "النسخ"
+
+msgid "Transcripts"
+msgstr "النسخ"
+
+msgid "Transcultural"
+msgstr "يشمل جميع الثقافات في العالم"
+
+msgid "Transducer"
+msgstr "المحوّل"
+
+msgid "Transducers"
+msgstr "المحوّلات"
+
+msgid "Transduction"
+msgstr "التحويل"
+
+msgid "Transect"
+msgstr "إقطع"
+
+msgid "Transected"
+msgstr "مقطوع"
+
+msgid "Transecting"
+msgstr "القطع"
+
+msgid "Transects"
+msgstr "يقطع"
+
+msgid "Transept"
+msgstr "جناح الكنيسة"
+
+msgid "Transepts"
+msgstr "أجنحة الكنيسة"
+
+msgid "Transfer"
+msgstr "النقل"
+
+msgid "Transferability"
+msgstr "قابلية التحويل"
+
+msgid "Transferable"
+msgstr "قابل للتحويل"
+
+msgid "Transferal"
+msgstr "النّقل"
+
+msgid "Transferals"
+msgstr "النّقل"
+
+msgid "Transferee"
+msgstr "المحول اليه"
+
+msgid "Transference"
+msgstr "الإنتقال"
+
+msgid "Transferences"
+msgstr "التحوّل"
+
+msgid "Transferor"
+msgstr "المحول"
+
+msgid "Transferors"
+msgstr "المحولون"
+
+msgid "Transferral"
+msgstr "النّقل"
+
+msgid "Transferred"
+msgstr "محوّل"
+
+msgid "Transferrer"
+msgstr "المحوّل"
+
+msgid "Transferrers"
+msgstr "المحولون"
+
+msgid "Transferring"
+msgstr "التحويل"
+
+msgid "Transfers"
+msgstr "الإنتقالات"
+
+msgid "Transfiguration"
+msgstr "تبدل الهيئة"
+
+msgid "Transfigurations"
+msgstr "تبدل الهيئة"
+
+msgid "Transfigure"
+msgstr "غيّر"
+
+msgid "Transfigured"
+msgstr "مغيّر"
+
+msgid "Transfigures"
+msgstr "يغيّر"
+
+msgid "Transfiguring"
+msgstr "التغيير"
+
+msgid "Transfinite"
+msgstr "ما وراء المحدود"
+
+msgid "Transfix"
+msgstr "إطعن"
+
+msgid "Transfixed"
+msgstr "مطعون"
+
+msgid "Transfixes"
+msgstr "يطعن"
+
+msgid "Transfixing"
+msgstr "الطعن"
+
+msgid "Transform"
+msgstr "تحوّل"
+
+msgid "Transformable"
+msgstr "قابل للتحويل"
+
+msgid "Transformation"
+msgstr "التحويل"
+
+msgid "Transformational"
+msgstr "تحويلي"
+
+msgid "Transformations"
+msgstr "التحويلات"
+
+msgid "Transformative"
+msgstr "تحويلي"
+
+msgid "Transformed"
+msgstr "تحوّل"
+
+msgid "Transformer"
+msgstr "المحوّل"
+
+msgid "Transformers"
+msgstr "المحولات"
+
+msgid "Transforming"
+msgstr "التحوّل"
+
+msgid "Transforms"
+msgstr "يتحوّل"
+
+msgid "Transfusable"
+msgstr "يمكن نقله"
+
+msgid "Transfuse"
+msgstr "إنقل"
+
+msgid "Transfused"
+msgstr "منقول"
+
+msgid "Transfuses"
+msgstr "ينقل"
+
+msgid "Transfusing"
+msgstr "النقل"
+
+msgid "Transfusion"
+msgstr "النقل"
+
+msgid "Transfusions"
+msgstr "عمليات النقل"
+
+msgid "Transgress"
+msgstr "إنتهك"
+
+msgid "Transgressed"
+msgstr "منتهك"
+
+msgid "Transgresses"
+msgstr "ينتهك"
+
+msgid "Transgressing"
+msgstr "الإنتهاك"
+
+msgid "Transgression"
+msgstr "التجاوز"
+
+msgid "Transgressions"
+msgstr "التجاوزات"
+
+msgid "Transgressive"
+msgstr "عدواني"
+
+msgid "Transgressor"
+msgstr "المتجاوز"
+
+msgid "Transgressors"
+msgstr "المتجاوزون"
+
+msgid "Transience"
+msgstr "التنقّل"
+
+msgid "Transiency"
+msgstr "التنقّل"
+
+msgid "Transient"
+msgstr "عابر"
+
+msgid "Transiently"
+msgstr "بشكل عابر"
+
+msgid "Transients"
+msgstr "العابرو السبيل"
+
+msgid "Transistor"
+msgstr "الترنزستور"
+
+msgid "Transistorize"
+msgstr "يزوّد بترانزستور"
+
+msgid "Transistorized"
+msgstr "زوّد بترانزستور"
+
+msgid "Transistorizes"
+msgstr "يزوّد بترانزستور"
+
+msgid "Transistorizing"
+msgstr "التزويد بترانزستور"
+
+msgid "Transistors"
+msgstr "الترنزستورات"
+
+msgid "Transit"
+msgstr "العبور"
+
+msgid "Transition"
+msgstr "الإنتقال"
+
+msgid "Transitional"
+msgstr "إنتقالي"
+
+msgid "Transitionally"
+msgstr "أثناء الإنتقال"
+
+msgid "Transitions"
+msgstr "الإنتقالات"
+
+msgid "Transitive"
+msgstr "متعدي"
+
+msgid "Transitively"
+msgstr "بشكل متعدي"
+
+msgid "Transitivity"
+msgstr "التّعدّديّة"
+
+msgid "Transitorily"
+msgstr "مؤقّتًا"
+
+msgid "Transitoriness"
+msgstr "الزّوال"
+
+msgid "Transitory"
+msgstr "عابر"
+
+msgid "Transits"
+msgstr "عربات النقل"
+
+msgid "Translatability"
+msgstr "القدرة على الترجمة"
+
+msgid "Translatable"
+msgstr "قابل للترجمة"
+
+msgid "Translate"
+msgstr "ترجم"
+
+msgid "Translated"
+msgstr "مترجم"
+
+msgid "Translates"
+msgstr "يترجم"
+
+msgid "Translating"
+msgstr "الترجمة"
+
+msgid "Translation"
+msgstr "الترجمة"
+
+msgid "Translational"
+msgstr "متعلق بالحركة المنتظمة"
+
+msgid "Translations"
+msgstr "الترجمات"
+
+msgid "Translative"
+msgstr "نقْلي"
+
+msgid "Translator"
+msgstr "المترجم"
+
+msgid "Translatorcredits"
+msgstr "تكريم للمترجمين"
+
+msgid "Translators"
+msgstr "المترجمون"
+
+msgid "Transliterate"
+msgstr "ترجم صوتيا"
+
+msgid "Transliterated"
+msgstr "مترجم صوتيا"
+
+msgid "Transliterates"
+msgstr "يترجم صوتيا"
+
+msgid "Transliterating"
+msgstr "ترجمة صوتيا"
+
+msgid "Transliteration"
+msgstr "الترجمة الصوتية"
+
+msgid "Translucence"
+msgstr "شبه الشفافية"
+
+msgid "Translucency"
+msgstr "شبه الشفافية"
+
+msgid "Translucent"
+msgstr "نصف شفاف"
+
+msgid "Translucently"
+msgstr "بشكل نصف شفاف"
+
+msgid "Transmigrate"
+msgstr "هاجر"
+
+msgid "Transmigrated"
+msgstr "مهاجر"
+
+msgid "Transmigrates"
+msgstr "يهاجر"
+
+msgid "Transmigrating"
+msgstr "الهجرة"
+
+msgid "Transmigration"
+msgstr "الإنتقال"
+
+msgid "Transmigrations"
+msgstr "الإنتقالات"
+
+msgid "Transmigratory"
+msgstr "الإنتقال من حالة الى اخرى"
+
+msgid "Transmissibility"
+msgstr "قابليّة الإرسال"
+
+msgid "Transmissible"
+msgstr "قابل للإرسال"
+
+msgid "Transmission"
+msgstr "الإرسال"
+
+msgid "Transmissions"
+msgstr "الإرسال"
+
+msgid "Transmissive"
+msgstr "قابل للنّقل"
+
+msgid "Transmit"
+msgstr "النقل"
+
+msgid "Transmits"
+msgstr "يرسل"
+
+msgid "Transmittable"
+msgstr "قابل للإنتقال"
+
+msgid "Transmittal"
+msgstr "الإرسال"
+
+msgid "Transmittance"
+msgstr "النّقل"
+
+msgid "Transmitted"
+msgstr "مرسل"
+
+msgid "Transmitter"
+msgstr "المرسل"
+
+msgid "Transmitters"
+msgstr "المرسلات"
+
+msgid "Transmitting"
+msgstr "الإرسال"
+
+msgid "Transmogrification"
+msgstr "التّحويل"
+
+msgid "Transmogrify"
+msgstr "غيّر الصورة القبيحة له"
+
+msgid "Transmutable"
+msgstr "قابل للتّحويل"
+
+msgid "Transmutably"
+msgstr "بصورة تحوّلية"
+
+msgid "Transmutation"
+msgstr "التحويل"
+
+msgid "Transmutations"
+msgstr "التحويلات"
+
+msgid "Transmute"
+msgstr "حوّل"
+
+msgid "Transmuted"
+msgstr "محوّل"
+
+msgid "Transmutes"
+msgstr "يحوّل"
+
+msgid "Transmuting"
+msgstr "التحويل"
+
+msgid "Transnational"
+msgstr "عالمي"
+
+msgid "Transoceanic"
+msgstr "عبر المحيط"
+
+msgid "Transom"
+msgstr "العارضة"
+
+msgid "Transoms"
+msgstr "العوارض"
+
+msgid "Transonic"
+msgstr "أسرع من الصّوت"
+
+msgid "Transpacific"
+msgstr "عبر المحيط الهادي"
+
+msgid "Transparence"
+msgstr "الشفافية"
+
+msgid "Transparencies"
+msgstr "الشفافيات"
+
+msgid "Transparency"
+msgstr "الشفافية"
+
+msgid "Transparent"
+msgstr "شفّاف"
+
+msgid "Transparently"
+msgstr "بشكل شفّاف"
+
+msgid "Transparentness"
+msgstr "الشّفافيّة"
+
+msgid "Transpiration"
+msgstr "التعرّق"
+
+msgid "Transpirations"
+msgstr "التعرّق"
+
+msgid "Transpire"
+msgstr "إرشح"
+
+msgid "Transpired"
+msgstr "مرشوح"
+
+msgid "Transpires"
+msgstr "يرشح"
+
+msgid "Transpiring"
+msgstr "الرشح"
+
+msgid "Transplant"
+msgstr "الزرع"
+
+msgid "Transplantable"
+msgstr "قابل للزّرع"
+
+msgid "Transplantation"
+msgstr "الزرع"
+
+msgid "Transplantations"
+msgstr "الزرع"
+
+msgid "Transplanted"
+msgstr "مزروع"
+
+msgid "Transplanter"
+msgstr "ناقل الزروعات من مكان الى اخر"
+
+msgid "Transplanting"
+msgstr "الزراعة"
+
+msgid "Transplants"
+msgstr "يزرع"
+
+msgid "Transport"
+msgstr "النقل"
+
+msgid "Transportability"
+msgstr "قابليّة النّقل"
+
+msgid "Transportable"
+msgstr "قابل للنقل"
+
+msgid "Transportation"
+msgstr "النقل"
+
+msgid "Transportations"
+msgstr "النقل"
+
+msgid "Transported"
+msgstr "منقول"
+
+msgid "Transporter"
+msgstr "متعهد النقل"
+
+msgid "Transporters"
+msgstr "متعهدو النقل"
+
+msgid "Transporting"
+msgstr "النقل"
+
+msgid "Transports"
+msgstr "النقل"
+
+msgid "Transposable"
+msgstr "قابل للتّبادل"
+
+msgid "Transpose"
+msgstr "إنقل"
+
+msgid "Transposed"
+msgstr "منقول"
+
+msgid "Transposes"
+msgstr "ينقل"
+
+msgid "Transposing"
+msgstr "النقل"
+
+msgid "Transposition"
+msgstr "إبدال الموضع"
+
+msgid "Transpositions"
+msgstr "التبديلات"
+
+msgid "Transsexual"
+msgstr "المتخنّث"
+
+msgid "Transsexualism"
+msgstr "تغيير الجنس"
+
+msgid "Transsexuals"
+msgstr "المتخنّثون"
+
+msgid "Transship"
+msgstr "ترانسهيب"
+
+msgid "Transshipment"
+msgstr "النقل"
+
+msgid "Transshipped"
+msgstr "نقل"
+
+msgid "Transshipping"
+msgstr "النّقل"
+
+msgid "Transships"
+msgstr "ينقل"
+
+msgid "Transsonic"
+msgstr "أسرع من الصّوت"
+
+msgid "Transubstantiate"
+msgstr "حوّل"
+
+msgid "Transubstantiated"
+msgstr "محوّل"
+
+msgid "Transubstantiates"
+msgstr "يحوّل"
+
+msgid "Transubstantiating"
+msgstr "التحويل"
+
+msgid "Transversal"
+msgstr "متقاطع"
+
+msgid "Transversally"
+msgstr "بشكل معترض - بالعرض"
+
+msgid "Transverse"
+msgstr "مستعرض"
+
+msgid "Transversely"
+msgstr "بشكل مستعرض"
+
+msgid "Transverses"
+msgstr "العوارض"
+
+msgid "Transvestism"
+msgstr "التشبّه بالجنس الآخر"
+
+msgid "Transvestite"
+msgstr "المتخنّث"
+
+msgid "Transvestites"
+msgstr "المتخنّثون"
+
+msgid "Transvestitism"
+msgstr "التشبّه بالجنس الآخر"
+
+msgid "Transylvania"
+msgstr "ترانسيلفانيا"
+
+msgid "Trap"
+msgstr "الفخّ"
+
+msgid "Trapdoor"
+msgstr "الباب"
+
+msgid "Trapdoors"
+msgstr "الأبواب"
+
+msgid "Trapeze"
+msgstr "الإرجوحة"
+
+msgid "Trapezes"
+msgstr "الأراجيح"
+
+msgid "Trapezium"
+msgstr "شبه المنحرف"
+
+msgid "Trapezoid"
+msgstr "المعيّن المنحرف"
+
+msgid "Trapezoidal"
+msgstr "رباعي"
+
+msgid "Trapezoids"
+msgstr "المعيّنات المنحرفة"
+
+msgid "Trapped"
+msgstr "محصور"
+
+msgid "Trapper"
+msgstr "الصيّاد"
+
+msgid "Trappers"
+msgstr "الصيّادون"
+
+msgid "Trapping"
+msgstr "الحصر"
+
+msgid "Trappings"
+msgstr "البهارج"
+
+msgid "Traps"
+msgstr "الفخاخ"
+
+msgid "Trash"
+msgstr "النفايات"
+
+msgid "Trashed"
+msgstr "محطّم"
+
+# Pesron
+msgid "Trasher"
+msgstr "الموسّخ"
+
+msgid "Trashes"
+msgstr "النفايات"
+
+msgid "Trashier"
+msgstr "أتفه"
+
+msgid "Trashiest"
+msgstr "أتفه"
+
+msgid "Trashiness"
+msgstr "التّفاهة"
+
+msgid "Trashing"
+msgstr "التحطيم"
+
+msgid "Trashy"
+msgstr "تافه"
+
+msgid "Trastevere"
+msgstr "عصر النّهضة"
+
+msgid "Trauma"
+msgstr "الصدمة"
+
+msgid "Traumas"
+msgstr "الصدمات"
+
+msgid "Traumatic"
+msgstr "مؤلم"
+
+msgid "Traumatically"
+msgstr "بصدمة"
+
+msgid "Travail"
+msgstr "العناء"
+
+msgid "Travailed"
+msgstr "معانى"
+
+msgid "Travailing"
+msgstr "المعاناة"
+
+msgid "Travails"
+msgstr "الأعمال الشاقة"
+
+msgid "Travel"
+msgstr "السفر"
+
+msgid "Traveled"
+msgstr "مسافر"
+
+msgid "Traveler"
+msgstr "المسافر"
+
+msgid "Travelers"
+msgstr "المسافرون"
+
+msgid "Traveling"
+msgstr "السفر"
+
+msgid "Travelings"
+msgstr "السفر"
+
+msgid "Travelled"
+msgstr "مسافر"
+
+msgid "Traveller"
+msgstr "المسافر"
+
+msgid "Travellers"
+msgstr "المسافرون"
+
+msgid "Travelling"
+msgstr "السفر"
+
+msgid "Travelog"
+msgstr "الفيلم عن السّفر"
+
+msgid "Travelogs"
+msgstr "الأفلام عن السّفر"
+
+msgid "Travelogue"
+msgstr "قصة الرحلة"
+
+msgid "Travelogues"
+msgstr "قصص الرحلات"
+
+msgid "Travels"
+msgstr "السفرات"
+
+msgid "Travers"
+msgstr "ترافرز"
+
+msgid "Traversable"
+msgstr "يمكن السفر اليه او عبره"
+
+msgid "Traversal"
+msgstr "السفر عبر.."
+
+msgid "Traverse"
+msgstr "العارضة"
+
+msgid "Traversed"
+msgstr "معبور"
+
+msgid "Traverser"
+msgstr "العابر"
+
+msgid "Traverses"
+msgstr "العوارض"
+
+msgid "Traversing"
+msgstr "العبور"
+
+msgid "Travertine"
+msgstr "ترسبات مياه العيون والأنهار"
+
+msgid "Travestied"
+msgstr "مستسخف"
+
+msgid "Travesties"
+msgstr "التحريفات"
+
+msgid "Travesty"
+msgstr "التحريف"
+
+msgid "Travestying"
+msgstr "الإستسخاف"
+
+msgid "Travis"
+msgstr "ترافس"
+
+msgid "Trawl"
+msgstr "شبكة الصيد"
+
+msgid "Trawler"
+msgstr "سفينة الصيد"
+
+msgid "Trawlers"
+msgstr "سفن الصيد"
+
+msgid "Trawls"
+msgstr "شباك الصيد"
+
+msgid "Tray"
+msgstr "الصينية"
+
+msgid "Trays"
+msgstr "الصواني"
+
+msgid "TraySwitch"
+msgstr "تغيير الدرج"
+
+msgid "Treacheries"
+msgstr "الخيانة"
+
+msgid "Treacherous"
+msgstr "غادر"
+
+msgid "Treacherously"
+msgstr "غدرا"
+
+msgid "Treacherousness"
+msgstr "الخيانة"
+
+msgid "Treachery"
+msgstr "الخيانة"
+
+msgid "Treacle"
+msgstr "الدبس"
+
+msgid "Treacly"
+msgstr "معسول"
+
+msgid "Tread"
+msgstr "الخطوة"
+
+msgid "Treaded"
+msgstr "لامس بقدمه"
+
+msgid "Treader"
+msgstr "الملامس بقدمه"
+
+msgid "Treading"
+msgstr "الدوس"
+
+msgid "Treadle"
+msgstr "الدوّاسة"
+
+msgid "Treadled"
+msgstr "محرّك"
+
+msgid "Treadles"
+msgstr "الدوّاسات"
+
+msgid "Treadling"
+msgstr "التحريك"
+
+msgid "Treadmill"
+msgstr "المطحنة"
+
+msgid "Treadmills"
+msgstr "المطاحن"
+
+msgid "Treads"
+msgstr "الخطوات"
+
+msgid "Treadwell"
+msgstr "تريدويل"
+
+msgid "Treason"
+msgstr "الخيانة"
+
+msgid "Treasonable"
+msgstr "خياني"
+
+msgid "Treasonably"
+msgstr "بشكل خياني"
+
+msgid "Treasonous"
+msgstr "خائن"
+
+msgid "Treasonously"
+msgstr "بصورة خائنة"
+
+msgid "Treasons"
+msgstr "الخيانات"
+
+msgid "Treasurable"
+msgstr "نفيس"
+
+msgid "Treasure"
+msgstr "الكنز"
+
+msgid "Treasured"
+msgstr "عزيز"
+
+msgid "Treasurer"
+msgstr "أمين الصندوق"
+
+msgid "Treasurers"
+msgstr "أمناء الصندوق"
+
+msgid "Treasures"
+msgstr "الكنوز"
+
+msgid "Treasuries"
+msgstr "الخزانات"
+
+msgid "Treasuring"
+msgstr "الإدّخار"
+
+msgid "Treasury"
+msgstr "الخزانة"
+
+msgid "Treat"
+msgstr "المتعة"
+
+msgid "Treated"
+msgstr "معالج"
+
+msgid "Treater"
+msgstr "المفاوض"
+
+msgid "Treaties"
+msgstr "المعاهدات"
+
+msgid "Treating"
+msgstr "المعالجة"
+
+msgid "Treatise"
+msgstr "الإطروحة"
+
+msgid "Treatises"
+msgstr "الإطروحات"
+
+msgid "Treatment"
+msgstr "المعالجة"
+
+msgid "Treatments"
+msgstr "المعالجة"
+
+msgid "Treats"
+msgstr "المتع"
+
+msgid "Treaty"
+msgstr "المعاهدة"
+
+msgid "Treble"
+msgstr "ثلاث أضعاف"
+
+msgid "Trebled"
+msgstr "مضاعف ثلاث مرات"
+
+msgid "Trebles"
+msgstr "يضاعف ثلاث مرات"
+
+msgid "Trebling"
+msgstr "مضاعفة ثلاث مرات"
+
+msgid "Trebly"
+msgstr "بثلاث أضعاف"
+
+msgid "Tree"
+msgstr "الشجرة"
+
+msgid "Treed"
+msgstr "مشجّر"
+
+msgid "Treelike"
+msgstr "كما الشجرة"
+
+msgid "Trees"
+msgstr "الأشجار"
+
+msgid "Treetop"
+msgstr "رأس الشجرة"
+
+msgid "Treetops"
+msgstr "رؤوس الأشجار"
+
+msgid "Trefoil"
+msgstr "البرسيم"
+
+msgid "Trefoils"
+msgstr "الزينة"
+
+msgid "Trek"
+msgstr "الرحلة"
+
+msgid "Trekked"
+msgstr "مرتحل"
+
+msgid "Trekking"
+msgstr "الإرتحال"
+
+msgid "Treks"
+msgstr "الرحلات"
+
+msgid "Trellis"
+msgstr "التعريشة"
+
+msgid "Trellised"
+msgstr "متشابك"
+
+msgid "Trellises"
+msgstr "التعريشات"
+
+msgid "Tremble"
+msgstr "إرتجف"
+
+msgid "Trembled"
+msgstr "مرتجف"
+
+msgid "Trembler"
+msgstr "المرتجف"
+
+msgid "Trembles"
+msgstr "يرتجف"
+
+msgid "Trembling"
+msgstr "الإرتجاف"
+
+msgid "Tremblingly"
+msgstr "بشكل مرتجف"
+
+msgid "Trembly"
+msgstr "مرتجف"
+
+msgid "Tremendous"
+msgstr "كبير"
+
+msgid "Tremendously"
+msgstr "بشكل هائل"
+
+msgid "Tremendousness"
+msgstr "العظمة"
+
+msgid "Tremor"
+msgstr "الهزّة"
+
+msgid "Tremors"
+msgstr "الهزّات"
+
+msgid "Tremulous"
+msgstr "مرتجف"
+
+msgid "Tremulously"
+msgstr "بشكل مرتجف"
+
+msgid "Tremulousness"
+msgstr "الارتعاش، الخوف"
+
+msgid "Trench"
+msgstr "الخندق"
+
+msgid "Trenchant"
+msgstr "حادّ"
+
+msgid "Trenchantly"
+msgstr "بشكل حادّ"
+
+msgid "Trenched"
+msgstr "متخندق"
+
+msgid "Trencher"
+msgstr "الصّينيّة"
+
+msgid "Trencherman"
+msgstr "الأكول"
+
+msgid "Trenchermen"
+msgstr "الأكولون"
+
+msgid "Trenchers"
+msgstr "الصّواني"
+
+msgid "Trenches"
+msgstr "الخنادق"
+
+msgid "Trenching"
+msgstr "التخندق"
+
+msgid "Trend"
+msgstr "الإتجاه"
+
+msgid "Trend-setting"
+msgstr "مكان إتجاه"
+
+msgid "Trended"
+msgstr "مميل"
+
+msgid "Trendier"
+msgstr "أكثر عصريّة"
+
+msgid "Trendiest"
+msgstr "أكثر عصريّة"
+
+msgid "Trendiness"
+msgstr "مسايرة الموضة"
+
+msgid "Trending"
+msgstr "الإمالة"
+
+msgid "Trends"
+msgstr "الإتّجاهات"
+
+msgid "Trendy"
+msgstr "عصري"
+
+msgid "Trenton"
+msgstr "ترينتن"
+
+msgid "Trepanned"
+msgstr "مغشوش"
+
+msgid "Trepans"
+msgstr "المثاقب المنشارية"
+
+msgid "Trepidation"
+msgstr "الهلع"
+
+msgid "Trepidations"
+msgstr "الهلع"
+
+msgid "Trespass"
+msgstr "الخطيئة"
+
+msgid "Trespassed"
+msgstr "متجاوز"
+
+msgid "Trespasser"
+msgstr "المتجاوز"
+
+msgid "Trespassers"
+msgstr "المتجاوزن"
+
+msgid "Trespasses"
+msgstr "التجاوزات"
+
+msgid "Trespassing"
+msgstr "التجاوز"
+
+msgid "Tress"
+msgstr "الخصلة"
+
+msgid "Tressed"
+msgstr "مجدول"
+
+msgid "Tresses"
+msgstr "الخصلات"
+
+msgid "Trestle"
+msgstr "الحامل"
+
+msgid "Trestles"
+msgstr "الحوامل"
+
+msgid "Trevelyan"
+msgstr "تريفيليان - مؤرّخ إنجليزيّ"
+
+msgid "Tri-state"
+msgstr "ثلاثي الحالة"
+
+msgid "Triable"
+msgstr "عرضة للمحاكمة"
+
+msgid "Triableness"
+msgstr "التعرّض للمسائلة القانونية"
+
+msgid "Triac"
+msgstr "صمّام تحكّم كهربائي"
+
+msgid "Triad"
+msgstr "مجموعة من ثلاثة"
+
+msgid "Triadic"
+msgstr "ثلاثيّ"
+
+msgid "Triads"
+msgstr "مجموعات من ثلاثة"
+
+msgid "Triage"
+msgstr "الحَجْرْ - كما الحجر الصّحي"
+
+msgid "Trial"
+msgstr "التجربة"
+
+msgid "Trial-and-error"
+msgstr "التجربة والخطأ"
+
+msgid "Trials"
+msgstr "التجارب"
+
+msgid "Triamcinolone"
+msgstr "مضاد للإلتهابات"
+
+msgid "Triangle"
+msgstr "المثلث"
+
+msgid "Triangles"
+msgstr "المثلثات"
+
+msgid "Triangular"
+msgstr "مثلثي"
+
+msgid "Triangularly"
+msgstr "بشكل مثلثي"
+
+msgid "Triangulate"
+msgstr "ثلّث"
+
+msgid "Triangulated"
+msgstr "مثلّث"
+
+msgid "Triangulation"
+msgstr "حساب وتحديد الاتّجاه"
+
+msgid "Triangulum"
+msgstr "ترايانجلم - مجموعة نجوم شماليّة صغيرة"
+
+msgid "Trianon"
+msgstr "فيلّا جميلة صغيرة"
+
+msgid "Triassic"
+msgstr "خاص بالعصر التّرياسي"
+
+msgid "Triatomic"
+msgstr "ثلاثيّ الذّرّات"
+
+msgid "Tribal"
+msgstr "عشائري"
+
+msgid "Tribalism"
+msgstr "القبليّة"
+
+msgid "Tribalisms"
+msgstr "القبليّة"
+
+msgid "Tribally"
+msgstr "بشكل عشائري"
+
+msgid "Tribe"
+msgstr "القبيلة"
+
+msgid "Tribes"
+msgstr "القبائل"
+
+msgid "Tribesman"
+msgstr "رجل القبيلة"
+
+msgid "Tribesmen"
+msgstr "رجال القبيلة"
+
+msgid "Tribulate"
+msgstr "يمتحن"
+
+msgid "Tribulation"
+msgstr "المحنة"
+
+msgid "Tribulations"
+msgstr "المحن"
+
+msgid "Tribunal"
+msgstr "المحكمة"
+
+msgid "Tribunals"
+msgstr "المحاكم"
+
+msgid "Tribune"
+msgstr "منبر الخطابة"
+
+msgid "Tribunes"
+msgstr "منصات الخطابة"
+
+msgid "Tributaries"
+msgstr "الروافد"
+
+msgid "Tributary"
+msgstr "الرافد"
+
+msgid "Tribute"
+msgstr "التقدير"
+
+msgid "Tributes"
+msgstr "التقديرات"
+
+msgid "Tributing"
+msgstr "يُثني على.."
+
+msgid "Trice"
+msgstr "اللحظة"
+
+msgid "Triceps"
+msgstr "ثلاثيّة الرّؤوس"
+
+msgid "Tricepses"
+msgstr "ثلاثيّو الرّؤوس"
+
+msgid "Triceratops"
+msgstr "ترايسيراتوبس - أحد الديناصورات"
+
+msgid "Trichinella"
+msgstr "تريكينيلا - دودة خيطيّة طفيلية"
+
+msgid "Trichinosis"
+msgstr "تريكينوسيس - مرض بسبب أكل اللّحم الغير مطهو جيّدًا"
+
+msgid "Trichloroacetic"
+msgstr "حمض التريكلوروسيتيك"
+
+msgid "Trichloroethane"
+msgstr "تريكلورويثان - سائل متطاير"
+
+msgid "Trichotomy"
+msgstr "الانقسام الثّلاثيّ"
+
+msgid "Trichromatic"
+msgstr "ثلاثيّ الألوان"
+
+msgid "Trichrome"
+msgstr "ثلاثيّ الألوان"
+
+msgid "Trick"
+msgstr "الخدعة"
+
+msgid "Tricked"
+msgstr "مخدوع"
+
+msgid "Tricker"
+msgstr "تريكير"
+
+msgid "Trickeries"
+msgstr "الخدع"
+
+msgid "Trickery"
+msgstr "الخداع"
+
+msgid "Trickier"
+msgstr "أصعب"
+
+msgid "Trickiest"
+msgstr "أصعب"
+
+msgid "Trickiness"
+msgstr "الصّعوبة"
+
+msgid "Tricking"
+msgstr "الخدع"
+
+msgid "Trickle"
+msgstr "الوشل"
+
+msgid "Trickled"
+msgstr "متقطّر"
+
+msgid "Trickles"
+msgstr "يتقطّر"
+
+msgid "Trickling"
+msgstr "التقطّر"
+
+msgid "Tricks"
+msgstr "الخدع"
+
+msgid "Trickster"
+msgstr "المحتال"
+
+msgid "Tricksters"
+msgstr "المحتالون"
+
+msgid "Tricky"
+msgstr "صعب"
+
+msgid "Tricolor"
+msgstr "ثلاثي الألوان"
+
+msgid "Tricolored"
+msgstr "ذو ثلاثة ألوان"
+
+msgid "Tricolors"
+msgstr "الأعلام ثلاثية الألوان"
+
+msgid "Tricolour"
+msgstr "ثلاثي الألوان"
+
+msgid "Tricot"
+msgstr "الحياكة"
+
+msgid "Tricots"
+msgstr "الحياكة"
+
+msgid "Tricycle"
+msgstr "الدرّاجة الثلاثية"
+
+msgid "Tricycles"
+msgstr "الدرّاجات الثلاثية"
+
+msgid "Trident"
+msgstr "الرمح الثلاثي"
+
+msgid "Tridents"
+msgstr "الرماح الثلاثية"
+
+msgid "Tridiagonal"
+msgstr "تردياجونال"
+
+msgid "Tried"
+msgstr "مجرّب"
+
+msgid "Triennial"
+msgstr "واقع كلّ ثلاث سنوات"
+
+msgid "Triennially"
+msgstr "كلّ ثلاث سنوات"
+
+msgid "Trier"
+msgstr "المحاول"
+
+msgid "Triers"
+msgstr "المحاولون"
+
+msgid "Tries"
+msgstr "المحاولات"
+
+msgid "Trifle"
+msgstr "كعكة الفاكهة"
+
+msgid "Trifled"
+msgstr "عابث"
+
+msgid "Trifler"
+msgstr "العابث"
+
+msgid "Trifles"
+msgstr "كعكات الفاكهة"
+
+msgid "Trifling"
+msgstr "العبث"
+
+msgid "Trifluoride"
+msgstr "الفلوريد الذي يحتوي على ثلاثة ذرّات من الفلور"
+
+msgid "Trifoliate"
+msgstr "ثلاثيّ الأوراق"
+
+msgid "Trig"
+msgstr "أوقف"
+
+msgid "Trigamous"
+msgstr "بثلاث أنواع من الأزهار"
+
+msgid "Trigged"
+msgstr "رتّب"
+
+msgid "Trigger"
+msgstr "الزناد"
+
+msgid "Triggered"
+msgstr "مسبّب"
+
+msgid "Triggering"
+msgstr "التسبّب"
+
+msgid "Triggers"
+msgstr "النوابض"
+
+msgid "Trigging"
+msgstr "الترتيب"
+
+msgid "Trigonal"
+msgstr "بثلاث زوايا"
+
+msgid "Trigonally"
+msgstr "ثلاثي التّماثل"
+
+msgid "Trigonometric"
+msgstr "مثلثي"
+
+msgid "Trigonometrical"
+msgstr "مثلثي"
+
+msgid "Trigonometrically"
+msgstr "بشكل مثلثي"
+
+msgid "Trigonometry"
+msgstr "علم المثلثات"
+
+msgid "Trigram"
+msgstr "شكل ذو ثلاث خطوط متوازية"
+
+msgid "Trigrams"
+msgstr "أشكال ذات ثلاث خطوط متوازية"
+
+msgid "Trigs"
+msgstr "ينزلق"
+
+msgid "Trihedral"
+msgstr "ثلاثيّ السّطوح"
+
+msgid "Trilateral"
+msgstr "ثلاثي الأضلاع"
+
+msgid "Trilaterally"
+msgstr "ثلاثيا"
+
+msgid "Trilingual"
+msgstr "ثلاثي اللغة"
+
+msgid "Trill"
+msgstr "التسجيع"
+
+msgid "Trilled"
+msgstr "مردّد"
+
+msgid "Triller"
+msgstr "المكرّر"
+
+msgid "Trilling"
+msgstr "الترديد"
+
+msgid "Trillion"
+msgstr "تريليون"
+
+msgid "Trillions"
+msgstr "تريليونات"
+
+msgid "Trillionth"
+msgstr "واحد من الترليون"
+
+msgid "Trills"
+msgstr "التغريد"
+
+msgid "Trilobite"
+msgstr "تريلوبيت - حيوان مفصلي منقرض"
+
+msgid "Trilogies"
+msgstr "الثلاثيات"
+
+msgid "Trilogy"
+msgstr "الثلاثية"
+
+msgid "Trim"
+msgstr "الحالة"
+
+msgid "Trim-pot"
+msgstr "القدر المرتّب"
+
+msgid "Trimble"
+msgstr "تريمبل - سياسي من أيرلندا الشّماليّة"
+
+msgid "Trimer"
+msgstr "أرتب"
+
+msgid "Trimester"
+msgstr "الثلث"
+
+msgid "Trimesters"
+msgstr "الأثلاث"
+
+msgid "Trimly"
+msgstr "بشكل مرتّب"
+
+msgid "Trimmed"
+msgstr "مشذّب"
+
+msgid "Trimmer"
+msgstr "المتقلب"
+
+msgid "Trimmest"
+msgstr "الأكثر تهذيباً"
+
+msgid "Trimming"
+msgstr "التشذيب"
+
+msgid "Trimmings"
+msgstr "الزركشة"
+
+msgid "Trimness"
+msgstr "التّزيين"
+
+msgid "Trims"
+msgstr "الحالات"
+
+msgid "Trinidad"
+msgstr "ترنيداد"
+
+msgid "Trinitarian"
+msgstr "مؤمن بالثّالوث"
+
+msgid "Trinitarianism"
+msgstr "الثالوثية"
+
+msgid "Trinitarians"
+msgstr "المؤمنون بالثّالوث"
+
+msgid "Trinitrotoluene"
+msgstr "ثالث نتريت التولوين"
+
+msgid "Trinity"
+msgstr "الثالوث"
+
+msgid "Trinket"
+msgstr "الحلية الرخيصة"
+
+msgid "Trinketer"
+msgstr "تاجر الحلي"
+
+msgid "Trinkets"
+msgstr "الحلي الرخيصة"
+
+msgid "Trinomial"
+msgstr "ثلاثيّ الحدود"
+
+msgid "Trinomials"
+msgstr "ثلاثيّ الحدود"
+
+msgid "Trio"
+msgstr "الثلاثي"
+
+msgid "Triode"
+msgstr "الصمام الثلاثي"
+
+msgid "Triodes"
+msgstr "الصمامات الثلاثية"
+
+msgid "Trios"
+msgstr "الثلاثيون"
+
+msgid "Trioxide"
+msgstr "أكسيد بثلاث ذرّات"
+
+msgid "Trip"
+msgstr "السفرة"
+
+msgid "Trip-Hop"
+msgstr "قفزة رحلة"
+
+msgid "Tripartite"
+msgstr "ثلاثي"
+
+msgid "Tripartition"
+msgstr "الانقسام الثّلاثيّ"
+
+msgid "Tripe"
+msgstr "تريب"
+
+msgid "Triphosphopyridine"
+msgstr "البيريداين بثلاثة مجموعات فوسفور"
+
+msgid "Triple"
+msgstr "ثلاث أضعاف"
+
+msgid "Tripled"
+msgstr "متضاعف ثلاث مرات"
+
+msgid "Triples"
+msgstr "يتضاعف ثلاث مرات"
+
+msgid "Triplet"
+msgstr "أحد توأم ثلاثة"
+
+msgid "Triplets"
+msgstr "توأم ثلاثة"
+
+msgid "Triplett"
+msgstr "تريبليت"
+
+msgid "Triplex"
+msgstr "ثلاثي"
+
+msgid "Triplicate"
+msgstr "من ثلاث نسخ"
+
+msgid "Triplicated"
+msgstr "مثلّث"
+
+msgid "Triplicates"
+msgstr "يثلّث"
+
+msgid "Triplicating"
+msgstr "التثليث"
+
+msgid "Triplication"
+msgstr "مضاعفة ثلاث المرّات"
+
+msgid "Tripling"
+msgstr "تضاعف ثلاث مرات"
+
+msgid "Triply"
+msgstr "بشكل رحلة"
+
+msgid "Tripod"
+msgstr "الحامل الثلاثي"
+
+msgid "Tripodal"
+msgstr "ثلاثيّ القوائم"
+
+msgid "Tripods"
+msgstr "الحاملات الثلاثية"
+
+msgid "Tripoli"
+msgstr "طرابلس"
+
+msgid "Tripolyphosphate"
+msgstr "ترايبوليفوسفيت"
+
+msgid "Tripped"
+msgstr "متعثّر"
+
+msgid "Tripper"
+msgstr "المتنزه"
+
+msgid "Trippers"
+msgstr "المتنزهون"
+
+msgid "Trippet"
+msgstr "عمود الكامة"
+
+msgid "Tripping"
+msgstr "التعثّر"
+
+msgid "Trippingly"
+msgstr "على نحو خفيف سلس"
+
+msgid "Trips"
+msgstr "السفرات"
+
+msgid "Triptych"
+msgstr "لوح ثلاثي"
+
+msgid "Triptychs"
+msgstr "ألواح ثلاثيّة"
+
+msgid "Trireme"
+msgstr "السّفينة"
+
+msgid "Triremes"
+msgstr "السّفن"
+
+msgid "Trisect"
+msgstr "ثلّث"
+
+msgid "Trisected"
+msgstr "مثلّث"
+
+msgid "Trisecting"
+msgstr "التثليث"
+
+msgid "Trisection"
+msgstr "مقطع ثلاثي، ثلاث مقاطع"
+
+msgid "Trisects"
+msgstr "يثلّث"
+
+msgid "Trisodium"
+msgstr "الاحتواء على ثلاثة ذرّات صوديوم"
+
+msgid "Tristan"
+msgstr " تريستان - ابن أخ مارك الملك . أساطير العصور الوسطى"
+
+msgid "Tristate"
+msgstr "خاصّ بثلاث ولايات "
+
+msgid "Trisyllabic"
+msgstr "ثلاثيّ المقاطع"
+
+msgid "Trisyllable"
+msgstr "كلمة ثلاثيّة المقاطع "
+
+msgid "Trite"
+msgstr "تافه"
+
+msgid "Tritely"
+msgstr "بشكل تافه"
+
+msgid "Triteness"
+msgstr "الابتذال "
+
+msgid "Triter"
+msgstr "تافه"
+
+msgid "Tritest"
+msgstr "تافه"
+
+msgid "Tritium"
+msgstr "التريتيوم - نظير مشع"
+
+msgid "Triton"
+msgstr "التريتون"
+
+msgid "Triturate"
+msgstr "إطحن"
+
+msgid "Triturated"
+msgstr "مطحون"
+
+msgid "Triturates"
+msgstr "يطحن"
+
+msgid "Triturating"
+msgstr "الطحن"
+
+msgid "Triumph"
+msgstr "الإنتصار"
+
+msgid "Triumphal"
+msgstr "منتصر"
+
+msgid "Triumphant"
+msgstr "منتصر"
+
+msgid "Triumphantly"
+msgstr "بانتصار"
+
+msgid "Triumphed"
+msgstr "منتصر"
+
+msgid "Triumphing"
+msgstr "الإنتصار"
+
+msgid "Triumphs"
+msgstr "الإنتصارات"
+
+msgid "Triumvir"
+msgstr "عضو الحكومة الثّلاثيّة"
+
+msgid "Triumvirate"
+msgstr "حكومة الثلاثة"
+
+msgid "Triumvirates"
+msgstr "حكومات الثلاثة"
+
+msgid "Triumvirs"
+msgstr "أعضاء الحكومة الثّلاثيّة "
+
+msgid "Triune"
+msgstr "ثالوثي "
+
+msgid "Trivalent"
+msgstr "ثلاثيّ التّكافؤ "
+
+msgid "Trivet"
+msgstr "الركيزة"
+
+msgid "Trivets"
+msgstr "الركائز"
+
+msgid "Trivia"
+msgstr "التوافه"
+
+msgid "Trivial"
+msgstr "بديهي"
+
+msgid "Trivialities"
+msgstr "التّفاهات"
+
+msgid "Triviality"
+msgstr "التفاهة"
+
+msgid "Trivialize"
+msgstr "بسّط"
+
+msgid "Trivialized"
+msgstr "بسّط"
+
+msgid "Trivializes"
+msgstr "يبسّط"
+
+msgid "Trivializing"
+msgstr "التبسيط"
+
+msgid "Trivially"
+msgstr "بشكل مسلّي"
+
+msgid "Trivium"
+msgstr " الفنون الثّلاثة"
+
+msgid "Trochaic"
+msgstr "متعلق بالـ التّفاعيل"
+
+msgid "Troche"
+msgstr "القرص"
+
+msgid "Trochee"
+msgstr "التّفعيلة"
+
+msgid "Trod"
+msgstr "ديس"
+
+msgid "Trodden"
+msgstr "مداس"
+
+msgid "Troff"
+msgstr "برنامج ترتيب النّصوص"
+
+msgid "Troffer"
+msgstr "علّاقة للمصابيح السقفية"
+
+msgid "Troglodyte"
+msgstr "ساكن الكهوف"
+
+msgid "Troglodytes"
+msgstr "سكنة الكهوف"
+
+msgid "Troglodytic"
+msgstr "متعلق بإنسان الكهوف"
+
+msgid "Troika"
+msgstr "الزحّافة"
+
+msgid "Troikas"
+msgstr "الزحّافات"
+
+msgid "Trojan"
+msgstr "طروادة"
+
+msgid "Troll"
+msgstr "رسالة المضايقة"
+
+msgid "Trolled"
+msgstr "مضايق"
+
+msgid "Trolley"
+msgstr "العربة"
+
+msgid "Trolleyed"
+msgstr "نقل بالشاحنة"
+
+msgid "Trolleys"
+msgstr "العربات"
+
+msgid "Trollies"
+msgstr "شاحنات"
+
+msgid "Trolling"
+msgstr "التصيّد"
+
+msgid "Trollop"
+msgstr "الباغية"
+
+msgid "Trollops"
+msgstr "الباغيات"
+
+msgid "Trolls"
+msgstr "المتصيّدون"
+
+msgid "Trolly"
+msgstr "شاحنة"
+
+msgid "Trombone"
+msgstr "الترومبون"
+
+msgid "Trombones"
+msgstr "الترومبون"
+
+msgid "Trombonist"
+msgstr "عازف الترومبون"
+
+msgid "Trombonists"
+msgstr "عازفو الترومبون"
+
+msgid "Trompe"
+msgstr " البوق"
+
+msgid "Troop"
+msgstr "القوّات"
+
+msgid "Trooped"
+msgstr "متحشّد"
+
+msgid "Trooper"
+msgstr "عضو الفرقة"
+
+msgid "Troopers"
+msgstr "أعضاء الفرقة"
+
+msgid "Trooping"
+msgstr "التحشّد"
+
+msgid "Troops"
+msgstr "القوّات"
+
+msgid "Troopship"
+msgstr "باخرة نقل الجنود"
+
+msgid "Troopships"
+msgstr "بواخر نقل الجنود"
+
+msgid "Trope"
+msgstr "المجاز"
+
+msgid "Tropes"
+msgstr "الإستعارة"
+
+msgid "Trophic"
+msgstr "غذائي"
+
+msgid "Trophied"
+msgstr "زيّن بالجوائز"
+
+msgid "Trophies"
+msgstr "الجوائز"
+
+msgid "Trophy"
+msgstr "الكأس"
+
+msgid "Tropic"
+msgstr "المدار"
+
+msgid "Tropical"
+msgstr "إستوائي"
+
+msgid "Tropically"
+msgstr "بشكل إستوائي"
+
+msgid "Tropics"
+msgstr "المدارات"
+
+msgid "Tropism"
+msgstr "تفاعل الأجسام مع المؤثرات الخارجية"
+
+msgid "Tropocollagen"
+msgstr "العنصر الجزيئيّ لألياف كولاجين"
+
+msgid "Tropopause"
+msgstr "المنطقة التي تأتي قبل  الجزء الأعلى للغلاف الجوّيّ"
+
+msgid "Troposphere"
+msgstr "الجزء الأدنى من الغلاف الجوي"
+
+msgid "Tropospheric"
+msgstr "متعلق بالجزء الأدنى من الغلاف الجوي"
+
+msgid "Trot"
+msgstr "الهرولة"
+
+msgid "Troth"
+msgstr "الخطبة"
+
+msgid "Trots"
+msgstr "الهرولة"
+
+msgid "Trotsky"
+msgstr "تروتسكاي"
+
+msgid "Trotted"
+msgstr "مخبوب"
+
+msgid "Trotter"
+msgstr "الكوارع"
+
+msgid "Trotters"
+msgstr "الكوارع"
+
+msgid "Trotting"
+msgstr "الخبّ"
+
+msgid "Troubador"
+msgstr "الشاعر المتجول"
+
+msgid "Troubadour"
+msgstr "الشاعر المتجول"
+
+msgid "Troubadours"
+msgstr "الشعراء المتجولون"
+
+msgid "Trouble"
+msgstr "المشكلة"
+
+msgid "Trouble-shooting"
+msgstr "حلّ المشاكل"
+
+msgid "Troubled"
+msgstr "قلق"
+
+msgid "Troublemaker"
+msgstr "مثير الشغب"
+
+msgid "Troublemakers"
+msgstr "مثيرو الشغب"
+
+msgid "Troubler"
+msgstr "مثير المشاكل"
+
+msgid "Troubles"
+msgstr "المشاكل"
+
+msgid "Troubleshoot"
+msgstr "يحل المشكلة"
+
+msgid "Troubleshooter"
+msgstr "حلال المشاكل"
+
+msgid "Troubleshooters"
+msgstr "حلالو المشاكل"
+
+msgid "Troubleshooting"
+msgstr "حلّ المشاكل"
+
+msgid "Troubleshoots"
+msgstr "يحلّ المشكلة"
+
+msgid "Troublesome"
+msgstr "مزعج"
+
+msgid "Troublesomely"
+msgstr "بشكل مزعج"
+
+msgid "Troublesomeness"
+msgstr "الإزعاج"
+
+msgid "Troubling"
+msgstr "الإزعاج"
+
+msgid "Trough"
+msgstr "المنخفض"
+
+msgid "Troughs"
+msgstr "المنخفضات"
+
+msgid "Trounce"
+msgstr "إضرب"
+
+msgid "Trounced"
+msgstr "مضروب"
+
+msgid "Trounces"
+msgstr "يضرب"
+
+msgid "Trouncing"
+msgstr "الضرب"
+
+msgid "Troupe"
+msgstr "الفرقة"
+
+msgid "Trouper"
+msgstr "عضو الفرقة"
+
+msgid "Troupes"
+msgstr "الفرق"
+
+msgid "Trouping"
+msgstr "التمثيل مع فرقة مسرحية"
+
+msgid "Trouser"
+msgstr "بنطلون"
+
+msgid "Trousered"
+msgstr "لابس بنطلون"
+
+msgid "Trousers"
+msgstr "البنطلون"
+
+msgid "Trousseau"
+msgstr "جهاز العروس"
+
+msgid "Trousseaus"
+msgstr "أجهزة العرسان"
+
+msgid "Trousseaux"
+msgstr "ملبوسات العروسة"
+
+msgid "Trout"
+msgstr "التراوت"
+
+msgid "Troutman"
+msgstr " تروتمان"
+
+msgid "Trouts"
+msgstr "التراوت"
+
+msgid "Trove"
+msgstr "الكنز الدفين"
+
+msgid "Troves"
+msgstr "الكنوز الدفينة"
+
+msgid "Trowel"
+msgstr "إملج"
+
+msgid "Troweled"
+msgstr "مملوج"
+
+msgid "Troweler"
+msgstr "الجارف بالجاروف"
+
+msgid "Troweling"
+msgstr "الملج"
+
+msgid "Trowels"
+msgstr "يملج"
+
+msgid "Troy"
+msgstr "تروي"
+
+msgid "Truancy"
+msgstr "التغيّب"
+
+msgid "Truant"
+msgstr "المتغيّب"
+
+msgid "Truantly"
+msgstr "بشكل متغيّب"
+
+msgid "Truants"
+msgstr "المتغيبون"
+
+msgid "Truce"
+msgstr "الهدنة"
+
+msgid "Truces"
+msgstr "الهدنات"
+
+msgid "Trucing"
+msgstr "يتهادن - من الهدنة"
+
+msgid "Truck"
+msgstr "الشاحنة"
+
+msgid "Truckage"
+msgstr "نفقة الشحن"
+
+msgid "Trucked"
+msgstr "مقايض"
+
+msgid "Truckee"
+msgstr "تروكي - نهر في شرقيّ كاليفورنيا"
+
+msgid "Trucker"
+msgstr "سائق الشاحنة"
+
+msgid "Truckers"
+msgstr "سواق الشاحنات"
+
+msgid "Trucking"
+msgstr "النقل بالشاحنات"
+
+msgid "Truckle"
+msgstr "الخضوع"
+
+msgid "Truckled"
+msgstr "خاضع"
+
+msgid "Truckler"
+msgstr "الخاضع"
+
+msgid "Truckles"
+msgstr "يخضع"
+
+msgid "Trucks"
+msgstr "الشاحنات"
+
+msgid "Truculence"
+msgstr "المشاكسة"
+
+msgid "Truculency"
+msgstr "الوحشيّة"
+
+msgid "Truculent"
+msgstr "مشاكس"
+
+msgid "Truculently"
+msgstr "بشكل مشاكس"
+
+msgid "Trudeau"
+msgstr "ترودو"
+
+msgid "Trudge"
+msgstr "التثاقل"
+
+msgid "Trudged"
+msgstr "ممشي"
+
+msgid "Trudger"
+msgstr "المُنهك"
+
+msgid "Trudges"
+msgstr "يمشي"
+
+msgid "Trudging"
+msgstr "المشي"
+
+msgid "Trudy"
+msgstr "ترودي"
+
+msgid "True"
+msgstr "صحيح"
+
+msgid "Trued"
+msgstr "ضبط"
+
+msgid "Truelove"
+msgstr "الحبيب"
+
+msgid "Trueness"
+msgstr "الصدق"
+
+msgid "Truer"
+msgstr "أكثر صحّة"
+
+msgid "Trues"
+msgstr "تروس"
+
+msgid "Truest"
+msgstr "أكثر صحّة"
+
+msgid "TrueType"
+msgstr "التروتايب"
+
+msgid "Truffle"
+msgstr "الكمأ"
+
+msgid "Truffles"
+msgstr "الكمأ"
+
+msgid "Truing"
+msgstr "التضبيط"
+
+msgid "Truism"
+msgstr "البديهية"
+
+msgid "Truisms"
+msgstr "البديهية"
+
+msgid "Trujillo"
+msgstr "تريجيلو - مدينة شمال غربي بيرو"
+
+msgid "Truly"
+msgstr "حقا"
+
+msgid "Truman"
+msgstr "ترومان"
+
+msgid "Trumbull"
+msgstr "ترمبل - شاعر أمريكي"
+
+msgid "Trump"
+msgstr "البوق"
+
+msgid "Trumped"
+msgstr "فاز بلعب الورقة الرابحة"
+
+msgid "Trumpery"
+msgstr "التفاهة"
+
+msgid "Trumpet"
+msgstr "البوق"
+
+msgid "Trumpeted"
+msgstr "صرخ"
+
+msgid "Trumpeter"
+msgstr "عازف البوق"
+
+msgid "Trumpeters"
+msgstr "عازفو البوق"
+
+msgid "Trumpeting"
+msgstr "الصراخ"
+
+msgid "Trumpets"
+msgstr "الأبواق"
+
+msgid "Trumping"
+msgstr "فوز بلعب الورقة الرابحة"
+
+msgid "Trumps"
+msgstr "التبويق"
+
+msgid "Truncate"
+msgstr "إقطع"
+
+msgid "Truncated"
+msgstr "مقطوع"
+
+msgid "Truncates"
+msgstr "يقطع"
+
+msgid "Truncating"
+msgstr "القطع"
+
+msgid "Truncation"
+msgstr "التّقصير"
+
+msgid "Truncheon"
+msgstr "العصا"
+
+msgid "Truncheons"
+msgstr "العصي"
+
+msgid "Trundle"
+msgstr "التدحرج"
+
+msgid "Trundled"
+msgstr "مدحرج"
+
+msgid "Trundler"
+msgstr "المُدحْرج"
+
+msgid "Trundles"
+msgstr "يدحرج"
+
+msgid "Trundling"
+msgstr "التدحرج"
+
+msgid "Trunk"
+msgstr "الصندوق"
+
+msgid "Trunked"
+msgstr "مزود بجذع"
+
+msgid "Trunking"
+msgstr "وضع الكيبل في مجراه"
+
+msgid "Trunks"
+msgstr "الصناديق"
+
+msgid "Trunnion"
+msgstr "مرتكز الدوران"
+
+msgid "Truss"
+msgstr "الجملون"
+
+msgid "Trussed"
+msgstr "مربوط"
+
+msgid "Trusser"
+msgstr "المقوّي، المؤازر"
+
+msgid "Trusses"
+msgstr "الجملونات"
+
+msgid "Trussing"
+msgstr "الربط"
+
+msgid "Trust"
+msgstr "الثقة"
+
+msgid "Trusted"
+msgstr "مؤتمن"
+
+msgid "Trustee"
+msgstr "الوصي"
+
+msgid "Trusteed"
+msgstr "أوصي، وضع تحت وصاية وصيْ"
+
+msgid "Trustees"
+msgstr "الأوصياء"
+
+msgid "Trusteeship"
+msgstr "الوصاية"
+
+msgid "Trusteeships"
+msgstr "الوصاية"
+
+msgid "Truster"
+msgstr "المؤازر"
+
+msgid "Trustful"
+msgstr "واثق"
+
+msgid "Trustfully"
+msgstr "بشكل واثق"
+
+msgid "Trustfulness"
+msgstr "الثّقة"
+
+msgid "Trustier"
+msgstr "وفي"
+
+msgid "Trusties"
+msgstr "أهل الثّقة"
+
+msgid "Trustiest"
+msgstr "وفي"
+
+msgid "Trustily"
+msgstr "بوفاء"
+
+msgid "Trustiness"
+msgstr "الثّقة"
+
+msgid "Trusting"
+msgstr "الإئتمان"
+
+msgid "Trustingly"
+msgstr "بشكل وثوق"
+
+msgid "Trusts"
+msgstr "الثقة"
+
+msgid "Trustworthily"
+msgstr "بأهلية للثقة"
+
+msgid "Trustworthiness"
+msgstr "الجدارة بالثقة"
+
+msgid "Trustworthinesses"
+msgstr "الجدارة بالثقة"
+
+msgid "Trustworthy"
+msgstr "جدير بالثقة"
+
+msgid "Trusty"
+msgstr "وفي"
+
+msgid "Truth"
+msgstr "الحقيقة"
+
+msgid "Truth-table"
+msgstr "منضدة حقيقة"
+
+msgid "Truthes"
+msgstr "الحقيقة"
+
+msgid "Truthful"
+msgstr "صادق"
+
+msgid "Truthfully"
+msgstr "بصدق"
+
+msgid "Truthfulness"
+msgstr "الصّدق"
+
+msgid "Truths"
+msgstr "الحقائق"
+
+msgid "TRW"
+msgstr "شركه تي ار دبليو"
+
+msgid "Try"
+msgstr "المحاولة"
+
+msgid "Trying"
+msgstr "المحاولة"
+
+msgid "Tryingly"
+msgstr "بصعوبة"
+
+msgid "Tryout"
+msgstr "الإختبار"
+
+msgid "Tryouts"
+msgstr "الإختبارات"
+
+msgid "Trypsin"
+msgstr "التربسين - أنزيم"
+
+msgid "Tryst"
+msgstr "الموعد"
+
+msgid "Trysts"
+msgstr "المواعيد"
+
+msgid "Tsar"
+msgstr "القيصر"
+
+msgid "Tsarina"
+msgstr "زوجة القيصر "
+
+msgid "Tsarism"
+msgstr "القيصريّة"
+
+msgid "Tsarist"
+msgstr "القيصريّ"
+
+msgid "Tsars"
+msgstr "القياصرة"
+
+msgid "Tsetse"
+msgstr "ذبابة النوم"
+
+msgid "Tsonga"
+msgstr "لغة التسونجا"
+
+msgid "Tsunami"
+msgstr "موجة البحر الهائلة"
+
+msgid "Tsunematsu"
+msgstr "تسنيماتسو"
+
+msgid "TTL"
+msgstr "وقت إبقاء الاتصال"
+
+msgid "TTY"
+msgstr "الكتابة البعيدة"
+
+msgid "Tswana"
+msgstr "اللهجة التسوانيّة"
+
+msgid "Ttys"
+msgstr "أتكلّم معك قريبًا "
+
+msgid "Tu"
+msgstr "يوم الثلاثاء"
+
+msgid "Tuatara"
+msgstr "تيوتارا - أحد الزّواحف الليلية"
+
+msgid "Tub"
+msgstr "الحوض"
+
+msgid "Tuba"
+msgstr "البوق"
+
+msgid "Tubas"
+msgstr "الأبواق"
+
+msgid "Tubbier"
+msgstr "أكثر بدانة"
+
+msgid "Tubbiest"
+msgstr "أكثر بدانة"
+
+msgid "Tubby"
+msgstr "بدين"
+
+msgid "Tube"
+msgstr "الإنبوب"
+
+msgid "Tubed"
+msgstr "توبيد"
+
+msgid "Tubeless"
+msgstr "الإطار الذي لايحتاج إطار داخلي لحفظ الهواء"
+
+msgid "Tuber"
+msgstr "الدرنة النباتية"
+
+msgid "Tubercle"
+msgstr "الدرنة"
+
+msgid "Tubercles"
+msgstr "الدرنات"
+
+msgid "Tubercular"
+msgstr "درني"
+
+msgid "Tuberculin"
+msgstr "السّلّين - سائل معقّم"
+
+msgid "Tuberculosis"
+msgstr "السلّ"
+
+msgid "Tuberculous"
+msgstr "مسلول"
+
+msgid "Tuberose"
+msgstr "تيوبروز - أعشاب مكسيكية"
+
+msgid "Tuberous"
+msgstr "درني"
+
+msgid "Tubers"
+msgstr "الدرنات النباتية"
+
+msgid "Tubes"
+msgstr "الأنابيب"
+
+msgid "Tubing"
+msgstr "الأنابيب"
+
+msgid "Tubs"
+msgstr "الأحواض"
+
+msgid "Tubular"
+msgstr "أنبوبي"
+
+msgid "Tubularly"
+msgstr "بشكل أنبوبي"
+
+msgid "Tubule"
+msgstr "الأنبوب الصّغير"
+
+msgid "Tubules"
+msgstr "الأنابيب الصّغيرة"
+
+msgid "Tuck"
+msgstr "الثنية"
+
+msgid "Tucked"
+msgstr "مدسوس"
+
+msgid "Tucker"
+msgstr "الملابس الصدريّة"
+
+msgid "Tuckered"
+msgstr "أرهق"
+
+msgid "Tuckering"
+msgstr "يرهق"
+
+msgid "Tucking"
+msgstr "الدسّ"
+
+msgid "Tucks"
+msgstr "الثنيات"
+
+msgid "Tucson"
+msgstr "توسون"
+
+msgid "Tudor"
+msgstr " تيودور - راقص و مصمّم رقصات أمريكي بريطاني المولد"
+
+msgid "Tue"
+msgstr "الثّلاثاء"
+
+msgid "Tuesday"
+msgstr "الثّلاثاء"
+
+msgid "Tuesdays"
+msgstr "أيام الثّلاثاء"
+
+msgid "Tufa"
+msgstr "الحجر المسامّي"
+
+msgid "Tuff"
+msgstr "حجر بركاني"
+
+msgid "Tuffs"
+msgstr "أحجار بركانية"
+
+msgid "Tuft"
+msgstr "الخصلة"
+
+msgid "Tufted"
+msgstr "تجمّع في خصلة"
+
+msgid "Tufter"
+msgstr "القائم على عمل الخُصل"
+
+msgid "Tufts"
+msgstr "تافتس"
+
+msgid "Tug"
+msgstr "الشدّة"
+
+msgid "Tugboat"
+msgstr "زورق السّحب"
+
+msgid "Tugboats"
+msgstr "زوارق السّحب"
+
+msgid "Tugged"
+msgstr "مجرور"
+
+msgid "Tugging"
+msgstr "الجرّ"
+
+msgid "Tugs"
+msgstr "الشدّة"
+
+msgid "Tuition"
+msgstr "مصاريف او تكاليف التعليم"
+
+msgid "Tuitional"
+msgstr "تعليمي"
+
+msgid "Tuitions"
+msgstr "التعليم"
+
+msgid "Tulane"
+msgstr "تولان"
+
+msgid "Tularemia"
+msgstr "حمّى الأرانب"
+
+msgid "Tulip"
+msgstr "الزنبق"
+
+msgid "Tulips"
+msgstr "الزنبق"
+
+msgid "Tulipwood"
+msgstr "خشب التوليب"
+
+msgid "Tulle"
+msgstr "النسيج الحريري"
+
+msgid "Tulles"
+msgstr "الأنسجة الحريرية"
+
+msgid "Tulsa"
+msgstr "تولسا"
+
+msgid "Tum"
+msgstr "المعدة"
+
+msgid "Tumble"
+msgstr "السقطة"
+
+msgid "Tumbled"
+msgstr "هبط"
+
+msgid "Tumbledown"
+msgstr "متداعي"
+
+msgid "Tumbler"
+msgstr "البهلوان"
+
+msgid "Tumblers"
+msgstr "البهلوانات"
+
+msgid "Tumbles"
+msgstr "السقوط"
+
+msgid "Tumbling"
+msgstr "الهبوط"
+
+msgid "Tumbrel"
+msgstr "العربة"
+
+msgid "Tumbrels"
+msgstr "العربات"
+
+msgid "Tumescence"
+msgstr "التورّم"
+
+msgid "Tumescences"
+msgstr "الأورام"
+
+msgid "Tumescent"
+msgstr "متورّم"
+
+msgid "Tumid"
+msgstr "وارم، متورّم"
+
+msgid "Tumidity"
+msgstr "التورّم"
+
+msgid "Tumidly"
+msgstr "بتورّم"
+
+msgid "Tummies"
+msgstr "البطون"
+
+msgid "Tummy"
+msgstr "البطن"
+
+msgid "Tumor"
+msgstr "الورم"
+
+msgid "Tumored"
+msgstr "متورّم"
+
+msgid "Tumorous"
+msgstr "ورميّ"
+
+msgid "Tumors"
+msgstr "الأورام"
+
+msgid "Tumour"
+msgstr "الورم"
+
+msgid "Tumours"
+msgstr "الأورام"
+
+msgid "Tumult"
+msgstr "الإضطرابات"
+
+msgid "Tumults"
+msgstr "الضوضاء"
+
+msgid "Tumultuous"
+msgstr "صاخب"
+
+msgid "Tumultuously"
+msgstr "بصخب"
+
+msgid "Tumultuousness"
+msgstr "الاضطراب"
+
+msgid "Tun"
+msgstr "البرميل"
+
+msgid "Tuna"
+msgstr "سمك التونا"
+
+msgid "Tunable"
+msgstr "يمكن تقسيمه وتضبيطه"
+
+msgid "Tunableness"
+msgstr "القابلية للتقسيم والتّضبيط"
+
+msgid "Tunas"
+msgstr "أسماك التونة"
+
+msgid "Tundra"
+msgstr "التندرا"
+
+msgid "Tundras"
+msgstr "التندرا"
+
+msgid "Tune"
+msgstr "اللحن"
+
+msgid "Tuneable"
+msgstr "يمكن تقسيمه وتضبيطه"
+
+msgid "Tuned"
+msgstr "منغّم"
+
+msgid "Tuneful"
+msgstr "رخيم"
+
+msgid "Tunefully"
+msgstr "بنغم"
+
+msgid "Tunefulness"
+msgstr "العذوبة الموسيقية"
+
+msgid "Tuneless"
+msgstr "بلا نغمة"
+
+msgid "Tunelessly"
+msgstr "بلا نغمة"
+
+msgid "Tunelessness"
+msgstr "النقص في اللّحن"
+
+msgid "Tuner"
+msgstr "مقسّم الآلة الموسيقية، المضبّط، المُستقبِل"
+
+msgid "Tuners"
+msgstr "مقسّمو الآلة الموسيقية، المضبّطون، المُستقبِلون"
+
+msgid "Tunes"
+msgstr "الألحان"
+
+msgid "Tung"
+msgstr "تونغ - شجرة صينيّة "
+
+msgid "Tungstate"
+msgstr "تنجستيت - ملح حامض التنجستيك"
+
+msgid "Tungsten"
+msgstr "التنجستن"
+
+msgid "Tunic"
+msgstr "السترة"
+
+msgid "Tunics"
+msgstr "الستر"
+
+msgid "Tuning"
+msgstr "التضبيط"
+
+msgid "Tunings"
+msgstr "التضبيط"
+
+msgid "Tunis"
+msgstr "تونس"
+
+msgid "Tunisia"
+msgstr "تونس"
+
+msgid "Tunisian"
+msgstr "التونسي"
+
+msgid "Tunnel"
+msgstr "النفق"
+
+msgid "Tunneled"
+msgstr "محفور نفق"
+
+msgid "Tunneler"
+msgstr "عامل النّفق"
+
+msgid "Tunnelers"
+msgstr "عمّال النّفق"
+
+msgid "Tunneling"
+msgstr "حفر نفق"
+
+msgid "Tunnelled"
+msgstr "محفور نفق"
+
+msgid "Tunnelling"
+msgstr "حفر نفق"
+
+msgid "Tunnels"
+msgstr "الأنفاق"
+
+msgid "Tunny"
+msgstr "سمك التونا"
+
+msgid "Tuns"
+msgstr "البراميل"
+
+msgid "Tupelo"
+msgstr "توبيلّو - بلدة في شمال شرق ميسيسبي"
+
+msgid "Tuple"
+msgstr "مجموعة"
+
+msgid "Turban"
+msgstr "العمامة"
+
+msgid "Turbaned"
+msgstr "معمّم"
+
+msgid "Turbans"
+msgstr "العمائم"
+
+msgid "Turbid"
+msgstr "عكر"
+
+msgid "Turbidity"
+msgstr "العكرة"
+
+msgid "Turbidly"
+msgstr "بشكل عكر"
+
+msgid "Turbidness"
+msgstr "التّعكّر"
+
+msgid "Turbinate"
+msgstr "القرين"
+
+msgid "Turbinated"
+msgstr "بشكل المخروط المقاوب"
+
+msgid "Turbinates"
+msgstr "القرائن"
+
+msgid "Turbine"
+msgstr "التوربين"
+
+msgid "Turbines"
+msgstr "التوربينات"
+
+msgid "Turbo"
+msgstr "نفّاث"
+
+msgid "Turbo-jet"
+msgstr "الطائرة النفّاثة"
+
+msgid "Turbocharger"
+msgstr "الشّاحن التّربينيّ"
+
+msgid "Turbofan"
+msgstr "المحرّك التّربيني المروحيّ"
+
+msgid "Turbojet"
+msgstr "تربيني"
+
+msgid "Turbojets"
+msgstr "المحرّكات النّفّاثة"
+
+msgid "Turboprop"
+msgstr "المحرّك المروحيّ التّربينيّ"
+
+msgid "Turboprops"
+msgstr "المحرّكات المروحية التّربينيّة"
+
+msgid "Turbot"
+msgstr "سمك الترس"
+
+msgid "Turbots"
+msgstr "أسماك الترس"
+
+msgid "Turbulence"
+msgstr "الصخب"
+
+msgid "Turbulences"
+msgstr "الإضطرابات"
+
+msgid "Turbulency"
+msgstr "المطبّ الهوائيّ"
+
+msgid "Turbulent"
+msgstr "عاصف"
+
+msgid "Turbulently"
+msgstr "بشكل عاصف"
+
+msgid "Tureen"
+msgstr "وعاء الشوربة"
+
+msgid "Tureens"
+msgstr "أوعية الشوربة"
+
+msgid "Turf"
+msgstr "العشب"
+
+msgid "Turfs"
+msgstr "السباقات"
+
+msgid "Turfy"
+msgstr "عشبيّ"
+
+msgid "Turgid"
+msgstr "منتفخ"
+
+msgid "Turgidity"
+msgstr "الفخامة"
+
+msgid "Turgidly"
+msgstr "بشكل منتفخ"
+
+msgid "Turgidness"
+msgstr "الفخامة"
+
+msgid "Turin"
+msgstr "تورين"
+
+msgid "Turing"
+msgstr "تورينج - عالم رياضيّات إنجليزيّ"
+
+msgid "Turk"
+msgstr "التركي"
+
+msgid "Turkey"
+msgstr "تركيا"
+
+msgid "Turkeys"
+msgstr "الديك الرومي"
+
+msgid "Turkish"
+msgstr "تركي"
+
+msgid "Turkmenistan"
+msgstr "توركمنستان"
+
+msgid "Turks"
+msgstr "الأتراك"
+
+msgid "Turmeric"
+msgstr "الكركم"
+
+msgid "Turmerics"
+msgstr "الكركم"
+
+msgid "Turmoil"
+msgstr "الإضطراب"
+
+msgid "Turmoils"
+msgstr "الإضطرابات"
+
+msgid "Turn"
+msgstr "الدور"
+
+msgid "Turn-key"
+msgstr "جاهز"
+
+msgid "Turn-off"
+msgstr "المنعطف"
+
+msgid "Turn-on"
+msgstr "مثير جنسيا"
+
+msgid "Turn-over"
+msgstr "إنقلب"
+
+msgid "Turn-switch"
+msgstr "مفتاح دور"
+
+msgid "Turnable"
+msgstr "تيرنابل"
+
+msgid "Turnabout"
+msgstr "الإرتداد"
+
+msgid "Turnaround"
+msgstr "الوقت الكامل"
+
+msgid "Turnarounds"
+msgstr "الوقت الكامل"
+
+msgid "Turnbuckle"
+msgstr "قطعة معدنية تقوم بعملية إحكام وشدّ"
+
+msgid "Turnbuckles"
+msgstr "قطع معدنية تقوم بعملية إحكام وشدّ"
+
+msgid "Turncoat"
+msgstr "الإنتهازي"
+
+msgid "Turncoats"
+msgstr "الإنتهازيون"
+
+msgid "Turndown"
+msgstr "الهبوط"
+
+msgid "Turned"
+msgstr "مقلوب"
+
+msgid "Turner"
+msgstr "عامل المخرطة"
+
+msgid "Turners"
+msgstr "عمال المخرطة"
+
+msgid "Turnery"
+msgstr "الخِراطة"
+
+msgid "Turning"
+msgstr "المنعطف"
+
+msgid "Turnings"
+msgstr "المنعطفات"
+
+msgid "Turnip"
+msgstr "اللفت"
+
+msgid "Turnips"
+msgstr "اللفت"
+
+msgid "Turnkey"
+msgstr "السجّان"
+
+msgid "Turnkeys"
+msgstr "السجّانون"
+
+msgid "Turnoff"
+msgstr "نافر جنسيا"
+
+msgid "Turnout"
+msgstr "الإقبال"
+
+msgid "Turnouts"
+msgstr "الإقبال"
+
+msgid "Turnover"
+msgstr "التقلب"
+
+msgid "Turnovers"
+msgstr "المبيعات"
+
+msgid "Turnpike"
+msgstr "البوابة"
+
+msgid "Turnpikes"
+msgstr "البوابات"
+
+msgid "Turns"
+msgstr "الأدوار"
+
+msgid "Turnstile"
+msgstr "الباب الدوّار"
+
+msgid "Turnstiles"
+msgstr "الأبواب الدوّارة"
+
+msgid "Turnstone"
+msgstr "تيرنستون - طائر بحري"
+
+msgid "Turntable"
+msgstr "القرص الدوّار"
+
+msgid "Turntables"
+msgstr "الأقراص الدوّارة"
+
+msgid "Turpentine"
+msgstr "التربنتين"
+
+msgid "Turpitude"
+msgstr "الدناءة"
+
+msgid "Turpitudes"
+msgstr "السفالات"
+
+msgid "Turquoise"
+msgstr "الفيروز"
+
+msgid "Turquoises"
+msgstr "أحجار الفيروز"
+
+msgid "Turret"
+msgstr "البرج"
+
+msgid "Turreted"
+msgstr "ذو أبراج"
+
+msgid "Turrets"
+msgstr "الأبراج"
+
+msgid "Turtle"
+msgstr "السلحفاة"
+
+msgid "Turtleback"
+msgstr "الظّهر الأحدب"
+
+msgid "Turtlebacks"
+msgstr "الظّهور الحدباء"
+
+msgid "Turtleneck"
+msgstr "الياقة المدوّرة"
+
+msgid "Turtles"
+msgstr "السلاحف"
+
+msgid "Turtling"
+msgstr "صيد السلاحف"
+
+msgid "Tuscaloosa"
+msgstr "توسكالوسا - بلدة جامعية في غرب وسط ألاباما"
+
+msgid "Tuscan"
+msgstr "توسكان"
+
+msgid "Tuscany"
+msgstr "تسكانيا"
+
+msgid "Tuscarora"
+msgstr "توسكارورا - شعب أمريكيّ أصليّ"
+
+msgid "Tusk"
+msgstr "الناب"
+
+msgid "Tuskegee"
+msgstr "توسكيجي"
+
+msgid "Tusker"
+msgstr "الفيل"
+
+msgid "Tuskers"
+msgstr "الفيلة"
+
+msgid "Tusks"
+msgstr "الأنياب"
+
+msgid "Tussle"
+msgstr "الشجار"
+
+msgid "Tussled"
+msgstr "متنازع"
+
+msgid "Tussles"
+msgstr "المشاجرات"
+
+msgid "Tussling"
+msgstr "التنازع"
+
+msgid "Tussock"
+msgstr "حزمة الأعشاب"
+
+msgid "Tussocks"
+msgstr "حزم الأعشاب"
+
+msgid "Tut"
+msgstr "الإمتعاض"
+
+msgid "Tutankhamun"
+msgstr "الفرعون توت عنخ آمون"
+
+msgid "Tutelage"
+msgstr "الرعاية"
+
+msgid "Tutelages"
+msgstr "الرعاية"
+
+msgid "Tutelary"
+msgstr "وصي"
+
+msgid "Tutor"
+msgstr "المعلم"
+
+msgid "Tutored"
+msgstr "درّس"
+
+msgid "Tutorial"
+msgstr "البحث"
+
+msgid "Tutorials"
+msgstr "البحوث"
+
+msgid "Tutoring"
+msgstr "الإشراف"
+
+msgid "Tutors"
+msgstr "المعلمون"
+
+msgid "Tuttle"
+msgstr "تاتل"
+
+msgid "Tutu"
+msgstr "تنّورة قصيرة"
+
+msgid "Tutus"
+msgstr "تنّورات قصيرات"
+
+msgid "Tuvalu"
+msgstr "توفالو"
+
+msgid "Tuxedo"
+msgstr "البدلة الرسميّة"
+
+msgid "Tuxedoed"
+msgstr "مرتدٍ بدلة تكسيدو"
+
+msgid "Tuxedos"
+msgstr "البدلات الرسمية"
+
+msgid "TV"
+msgstr "التلفزيون"
+
+msgid "TVA"
+msgstr "مضخّم متغيّر الوقت"
+
+msgid "TWA"
+msgstr "خطوط ترانس وورلد الجويّة"
+
+msgid "Twaddle"
+msgstr "الهراء"
+
+msgid "Twaddled"
+msgstr "مدردش"
+
+msgid "Twaddler"
+msgstr "توادلر"
+
+msgid "Twaddles"
+msgstr "الهراء"
+
+msgid "Twaddling"
+msgstr "الدردشة"
+
+msgid "Twain"
+msgstr "تواين"
+
+msgid "Twang"
+msgstr "الرنّة"
+
+msgid "Twanged"
+msgstr "مرنون"
+
+msgid "Twanging"
+msgstr "الرنين"
+
+msgid "Twangs"
+msgstr "الرنّات"
+
+msgid "Tweak"
+msgstr "القرص"
+
+msgid "Tweaked"
+msgstr "لفّ"
+
+msgid "Tweaker"
+msgstr "مدمن المخدرات"
+
+msgid "Tweaking"
+msgstr "اللفّ"
+
+msgid "Tweaks"
+msgstr "القرص"
+
+msgid "Tweed"
+msgstr "التويد"
+
+msgid "Tweedier"
+msgstr "أكثر خشونة"
+
+msgid "Tweediness"
+msgstr "الخشونة"
+
+msgid "Tweeds"
+msgstr "التويد"
+
+msgid "Tweedy"
+msgstr "خشن"
+
+msgid "Tweeter"
+msgstr "مكبّر الصّوت"
+
+msgid "Tweeters"
+msgstr "مكبّرات الصّوت"
+
+msgid "Tweeze"
+msgstr "ينتف الرّيش"
+
+msgid "Tweezed"
+msgstr "نتف الرّيش"
+
+msgid "Tweezer"
+msgstr "النّتّاف او أداة النّتف"
+
+msgid "Tweezers"
+msgstr "الملقط"
+
+msgid "Tweezes"
+msgstr "ينتف الرّيش"
+
+msgid "Tweezing"
+msgstr "نتف الرّيش"
+
+msgid "Twelfth"
+msgstr "ثاني عشر"
+
+msgid "Twelfths"
+msgstr "ثانيات العشر"
+
+msgid "Twelve"
+msgstr "إثنا عشر"
+
+msgid "Twelvefold"
+msgstr "مضاعف إثناعشر ضعف"
+
+msgid "Twelves"
+msgstr "الإثنا عشر"
+
+msgid "Twenties"
+msgstr "العشرينات"
+
+msgid "Twentieth"
+msgstr "الجزء من العشرين"
+
+msgid "Twenty"
+msgstr "عشرون"
+
+msgid "Twentyfold"
+msgstr "مضاعف عشرين ضعف"
+
+msgid "Twerp"
+msgstr "الغبيّ"
+
+msgid "Twerps"
+msgstr "الأغبياء"
+
+msgid "Twi"
+msgstr "لغة الـ توي"
+
+msgid "Twice"
+msgstr "مرّتين"
+
+msgid "Twiddle"
+msgstr "در"
+
+msgid "Twiddled"
+msgstr "مدار"
+
+msgid "Twiddles"
+msgstr "يدور"
+
+msgid "Twiddling"
+msgstr "الإدارة"
+
+msgid "Twig"
+msgstr "الغصين"
+
+msgid "Twigged"
+msgstr "مفهوم"
+
+msgid "Twigging"
+msgstr "الفهم"
+
+msgid "Twigs"
+msgstr "الأغصان"
+
+msgid "Twilight"
+msgstr "الشفق"
+
+msgid "Twilights"
+msgstr "الشفق"
+
+msgid "Twill"
+msgstr "حك"
+
+msgid "Twilled"
+msgstr "محيك"
+
+msgid "Twilling"
+msgstr "الحياكة"
+
+msgid "Twin"
+msgstr "التوأم"
+
+msgid "Twine"
+msgstr "البرمة"
+
+msgid "Twined"
+msgstr "ملفوف"
+
+msgid "Twiner"
+msgstr "الملتف، المتلازم"
+
+msgid "Twines"
+msgstr "البرم"
+
+msgid "Twinge"
+msgstr "الوخز"
+
+msgid "Twinged"
+msgstr "موخوز"
+
+msgid "Twinges"
+msgstr "الوخز"
+
+msgid "Twinging"
+msgstr "الوخز"
+
+msgid "Twining"
+msgstr "التوأمة"
+
+msgid "Twinkle"
+msgstr "الوميض"
+
+msgid "Twinkled"
+msgstr "متلألأ"
+
+msgid "Twinkler"
+msgstr "المتلألىء"
+
+msgid "Twinkles"
+msgstr "اللمعة"
+
+msgid "Twinkling"
+msgstr "التلألئ"
+
+msgid "Twinning"
+msgstr "ولادة توأمين"
+
+msgid "Twins"
+msgstr "التوائم"
+
+msgid "Twirl"
+msgstr "الدوّارة"
+
+msgid "Twirled"
+msgstr "مدوّر"
+
+msgid "Twirler"
+msgstr "الملتف، الذي يتحرك بحركة دائرية"
+
+msgid "Twirling"
+msgstr "التدوير"
+
+msgid "Twirlingly"
+msgstr "بمتعة وفرح"
+
+msgid "Twirls"
+msgstr "الدوّارات"
+
+msgid "Twirly"
+msgstr "دائريّ"
+
+msgid "Twist"
+msgstr "الليّة"
+
+msgid "Twistable"
+msgstr "قابل للفّ"
+
+msgid "Twisted"
+msgstr "ملتوي"
+
+msgid "Twister"
+msgstr "الإعصار"
+
+msgid "Twisters"
+msgstr "الأعاصير"
+
+msgid "Twisting"
+msgstr "اللفّ"
+
+msgid "Twists"
+msgstr "اللفّات"
+
+msgid "Twisty"
+msgstr "ملتوي"
+
+msgid "Twit"
+msgstr "الأحمق"
+
+msgid "Twitch"
+msgstr "الإختلاجة"
+
+msgid "Twitched"
+msgstr "موخوز"
+
+msgid "Twitcher"
+msgstr "المنتفض فجأة"
+
+msgid "Twitches"
+msgstr "الإختلاجة"
+
+msgid "Twitching"
+msgstr "الوخز"
+
+msgid "Twitchy"
+msgstr "مضطرب"
+
+msgid "Twite"
+msgstr "تويت"
+
+msgid "Twits"
+msgstr "الحمقى"
+
+msgid "Twitted"
+msgstr "ملام"
+
+msgid "Twitter"
+msgstr "التغريد"
+
+msgid "Twittered"
+msgstr "مزقزق"
+
+msgid "Twitterer"
+msgstr "المغرّد"
+
+msgid "Twittering"
+msgstr "الزقزقة"
+
+msgid "Twitters"
+msgstr "التغاريد"
+
+msgid "Twitting"
+msgstr "اللوم"
+
+msgid "Two"
+msgstr "إثنان"
+
+msgid "Two-condition"
+msgstr "شرطين"
+
+msgid "Two-core"
+msgstr "صميمين"
+
+msgid "Two-digit"
+msgstr "رقمين"
+
+msgid "Two-dimensional"
+msgstr "ثنائي الأبعاد"
+
+msgid "Two-level"
+msgstr "مستو"
+
+msgid "Two-part"
+msgstr "جزئين"
+
+msgid "Two-party"
+msgstr "حزبين"
+
+msgid "Two-phase"
+msgstr "مرحلتين"
+
+msgid "Two-port"
+msgstr "مينائين"
+
+msgid "Two-sided"
+msgstr "ذو وجهين"
+
+msgid "Two-stage"
+msgstr "مرحلتين"
+
+msgid "Two-state"
+msgstr "دولتين"
+
+msgid "Two-step"
+msgstr "خطوتين"
+
+msgid "Two-story"
+msgstr "ذو طابقين"
+
+msgid "Two-stroke"
+msgstr "ضربتين"
+
+msgid "Two-tone"
+msgstr "نغمتين"
+
+msgid "Two-valued"
+msgstr "المقيّمين"
+
+msgid "Two-way"
+msgstr "مزدوج"
+
+msgid "Two-wire"
+msgstr "سلكين"
+
+msgid "Twofold"
+msgstr "ضعفين"
+
+msgid "Twombly"
+msgstr "توومبلي"
+
+msgid "Twos"
+msgstr "الإثنينات"
+
+msgid "Twoseater"
+msgstr "ذو مقعدين"
+
+msgid "Twosome"
+msgstr "الثنائي"
+
+msgid "Twosomes"
+msgstr "الثنائيون"
+
+msgid "TWX"
+msgstr "شركة تايم وورنر"
+
+msgid "TX"
+msgstr "تكساس"
+
+msgid "Txt"
+msgstr "النّصّ"
+
+msgid "Tyburn"
+msgstr "تيبرن - مكان سابق للإعدام العامّ في لندن"
+
+msgid "Tycoon"
+msgstr "التاجر"
+
+msgid "Tycoons"
+msgstr "التجّار"
+
+msgid "Tying"
+msgstr "الربط"
+
+msgid "Tyke"
+msgstr "الوضيع"
+
+msgid "Tykes"
+msgstr "الحقراء"
+
+msgid "Tyle"
+msgstr "تيل"
+
+msgid "Tyler"
+msgstr "تيلر"
+
+msgid "Tympanic"
+msgstr "طبلاني"
+
+msgid "Tympanist"
+msgstr "الطّبّال"
+
+msgid "Tympanists"
+msgstr "الطّبّالون"
+
+msgid "Tympanum"
+msgstr "طبلة الأذن"
+
+msgid "Tympanums"
+msgstr "طبلة الأذن"
+
+msgid "Tyndall"
+msgstr "تيندول - فيزيائيّ بريطانيّ"
+
+msgid "Typ"
+msgstr "الطّبّاع"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "Type-wheel"
+msgstr "عجلة من نوع"
+
+msgid "Typeahead"
+msgstr "حفظ الأحرف في الذاكرة قبل عرضها على الشاشة"
+
+msgid "Typed"
+msgstr "مطبوع"
+
+msgid "Typeface"
+msgstr "الخطّ"
+
+msgid "Typefaces"
+msgstr "الخطوط"
+
+msgid "Typer"
+msgstr "من نوع"
+
+msgid "Types"
+msgstr "الأنواع"
+
+msgid "Typescript"
+msgstr "النّسخة المطبوعة"
+
+msgid "Typescripts"
+msgstr "النّسخ المطبوعة"
+
+msgid "Typeset"
+msgstr "يعدّ للطّباعة"
+
+msgid "Typesets"
+msgstr "يعدّ للطّباعة"
+
+msgid "Typesetter"
+msgstr "الطّبّاع"
+
+msgid "Typesetting"
+msgstr "صفّ الحروف"
+
+msgid "Typewrite"
+msgstr "إطبع"
+
+msgid "Typewriter"
+msgstr "الآلة الكاتبة"
+
+msgid "Typewriters"
+msgstr "الآلات الكاتبة"
+
+msgid "Typewrites"
+msgstr "يطبع"
+
+msgid "Typewriting"
+msgstr "الطباعة"
+
+msgid "Typewritten"
+msgstr "مطبوع"
+
+msgid "Typhoid"
+msgstr "التيفوئيد"
+
+msgid "Typhoidal"
+msgstr "متعلق بمرض التيفويد"
+
+msgid "Typhon"
+msgstr "تيفون - وحش بـ 100 رأس . الأساطير اليونانيّة"
+
+msgid "Typhoon"
+msgstr "الإعصار"
+
+msgid "Typhoons"
+msgstr "الأعاصير"
+
+msgid "Typhus"
+msgstr "التيفوس"
+
+msgid "Typic"
+msgstr "مِثال او نموذج"
+
+msgid "Typical"
+msgstr "مثالي"
+
+msgid "Typicality"
+msgstr "المماثلة"
+
+msgid "Typically"
+msgstr "نموذجيا"
+
+msgid "Typicalness"
+msgstr "المماثلة"
+
+msgid "Typification"
+msgstr "عرض المثال او النموذج"
+
+msgid "Typified"
+msgstr "ممثّل"
+
+msgid "Typifies"
+msgstr "يمثّل"
+
+msgid "Typify"
+msgstr "مثّل"
+
+msgid "Typifying"
+msgstr "التمثيل"
+
+msgid "Typing"
+msgstr "الطباعة"
+
+msgid "Typist"
+msgstr "كاتب الطابعة"
+
+msgid "Typists"
+msgstr "كاتبو الطابعة"
+
+msgid "Typo"
+msgstr "الخطأ المطبعي"
+
+msgid "Typographer"
+msgstr "الطبّاع"
+
+msgid "Typographers"
+msgstr "الطبّاعون"
+
+msgid "Typographic"
+msgstr "مطبعيّ"
+
+msgid "Typographical"
+msgstr "طباعي"
+
+msgid "Typographically"
+msgstr "بشكل طباعي"
+
+msgid "Typography"
+msgstr "الطباعة"
+
+msgid "Typological"
+msgstr "رمزيّ"
+
+msgid "Typologically"
+msgstr "رمزياً"
+
+msgid "Typologies"
+msgstr "دراسات الرّموز"
+
+msgid "Typology"
+msgstr "دراسة الرّموز"
+
+msgid "Typos"
+msgstr "الأخطاء المطبعية"
+
+msgid "Tyrannic"
+msgstr "طغياني"
+
+msgid "Tyrannical"
+msgstr "إستبدادي"
+
+msgid "Tyrannically"
+msgstr "بشكل إستبدادي"
+
+msgid "Tyrannicalness"
+msgstr "الدكتاتورية"
+
+msgid "Tyrannicide"
+msgstr "قتل الطّاغية"
+
+msgid "Tyrannies"
+msgstr "الإستبداد"
+
+msgid "Tyrannize"
+msgstr "إستبدّ"
+
+msgid "Tyrannized"
+msgstr "مستبدّ"
+
+msgid "Tyrannizer"
+msgstr "الطّاغية"
+
+msgid "Tyrannizes"
+msgstr "يستبدّ"
+
+msgid "Tyrannizing"
+msgstr "الإستبداد"
+
+msgid "Tyrannizingly"
+msgstr "بصورة مضطهدة"
+
+msgid "Tyrannosaurus"
+msgstr "الدّيناصور"
+
+msgid "Tyrannous"
+msgstr "إستبدادي"
+
+msgid "Tyrannously"
+msgstr "بشكل إستبدادي"
+
+msgid "Tyranny"
+msgstr "الإستبداد"
+
+msgid "Tyrant"
+msgstr "المستبدّ"
+
+msgid "Tyrants"
+msgstr "المستبدون"
+
+msgid "Tyre"
+msgstr "صور"
+
+msgid "Tyro"
+msgstr "المبتدئ"
+
+msgid "Tyrolean"
+msgstr "قبّعة"
+
+msgid "Tyrolese"
+msgstr "متعلق بمقاطعة الـ تيرول"
+
+msgid "Tyrosine"
+msgstr "التيروسين - حامض أمينيّ"
+
+msgid "Tyson"
+msgstr "تايسن"
+
+msgid "Tzar"
+msgstr "القيصر"
+
+msgid "Tzars"
+msgstr "القياصرة"
+
+msgid "Tux"
+msgstr "بدلة التكسيدو الرجاليّة"
+
+msgid "Truckload"
+msgstr "كمّيّة كبيرة من الممكن أن تحمل في شاحنة"
+
+msgid "Truckloads"
+msgstr "كمّيّة كبيرة من الممكن أن تحمل في شاحنات"
+
+msgid "Tragacanth"
+msgstr "مُضْغة تستعمل في أعمال الصيدلة وفي صبغ الأقمشة"
+
+msgid "Thingy"
+msgstr "شيء صغير الحجم وعادة يكون إسمه منسيْ"
+

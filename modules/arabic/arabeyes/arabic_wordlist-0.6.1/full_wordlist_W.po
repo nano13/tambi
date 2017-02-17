@@ -1,0 +1,8674 @@
+# translation of full_wordlist_W.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_W.po,v 1.21 2003/11/02 19:23:15 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'W'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ossama M. Khayat <okhayat@yahoo.com>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_W\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2003-11-02 22:22+0300\n"
+
+msgid "W"
+msgstr "دبليو - الحرف الثالث والعشرون في اللغة الإنجليزية"
+
+msgid "W3"
+msgstr "إختصار لـ الشبكة العالمية لمتصفّحات الويب"
+
+msgid "W3c"
+msgstr "مجموعة الشبكة العالمية لمتصفّحات الويب"
+
+msgid "WA"
+msgstr "ولاية واشنطن الأمريكية"
+
+msgid "Waag"
+msgstr "قرد شرق إفريقيّ"
+
+msgid "Waahoo"
+msgstr "الغابة المحترقة"
+
+msgid "Waals"
+msgstr "والس"
+
+msgid "Waban"
+msgstr "مدينة وابان"
+
+msgid "Wabash"
+msgstr "واباش"
+
+msgid "Wabbit"
+msgstr "مُرْهَق"
+
+msgid "Wabble"
+msgstr "ترنّح"
+
+msgid "WAC"
+msgstr "عضوة في فيلق النّساء"
+
+msgid "Wack"
+msgstr "الصديق"
+
+msgid "Wacke"
+msgstr "سخيف"
+
+msgid "Wackier"
+msgstr "أسخف"
+
+msgid "Wackiest"
+msgstr "الأسخف"
+
+msgid "Wackily"
+msgstr "بسخف"
+
+msgid "Wackiness"
+msgstr "السخافة"
+
+msgid "Wacko"
+msgstr "مخبول"
+
+msgid "Wackos"
+msgstr "مخابيل"
+
+msgid "Wacky"
+msgstr "سخيف"
+
+#, City
+msgid "Waco"
+msgstr "واكو"
+
+msgid "Wad"
+msgstr "الحشوة"
+
+msgid "Wadd"
+msgstr "خليط من عدّة أكسيدات مع الماء"
+
+msgid "Wadded"
+msgstr "محشو"
+
+msgid "Waddell"
+msgstr "مدينة واديل"
+
+msgid "Waddie"
+msgstr "سلاح خشبي يستخدم من قبل المواطنين الأصليين في استراليا"
+
+msgid "Waddied"
+msgstr "عصا ثقيلة، يضرب بعصا ثقيلة "
+
+msgid "Waddies"
+msgstr "عصي ثقيلة، سرّاق الماشية"
+
+msgid "Wadding"
+msgstr "الحشوة"
+
+msgid "Waddings"
+msgstr "الحشوات"
+
+msgid "Waddle"
+msgstr "يتمايل"
+
+msgid "Waddled"
+msgstr "تمايل"
+
+msgid "Waddler"
+msgstr "متمايل"
+
+msgid "Waddles"
+msgstr "التمايلات"
+
+msgid "Waddling"
+msgstr "التمايل"
+
+msgid "Waddy"
+msgstr "حرامي الماشية"
+
+msgid "Wade"
+msgstr "خض"
+
+msgid "Waded"
+msgstr "مخاض"
+
+msgid "Wader"
+msgstr "الخوّاض"
+
+msgid "Waders"
+msgstr "الخوّاضون"
+
+msgid "Wades"
+msgstr "يخوض"
+
+msgid "Wadi"
+msgstr "وادي"
+
+msgid "Wadies"
+msgstr "الأودية"
+
+msgid "Wading"
+msgstr "الخوض"
+
+msgid "Wadmeal"
+msgstr "ثياب رثّة وخشنة"
+
+msgid "Wadmel"
+msgstr "ثياب رثّة وخشنة"
+
+msgid "Wads"
+msgstr "الحشوات"
+
+msgid "Wadset"
+msgstr " نوع من التّعهّد أو الرهن"
+
+msgid "Wadsworth"
+msgstr "وادز ورث"
+
+msgid "Wady"
+msgstr "الوادي"
+
+msgid "Wae"
+msgstr "الموجة"
+
+msgid "Waeg"
+msgstr "طائر النّورس "
+
+msgid "Wafer"
+msgstr "البسكويت الرقيق"
+
+msgid "Wafered"
+msgstr "مرقّق"
+
+msgid "Wafering"
+msgstr "الرّق"
+
+msgid "Wafers"
+msgstr "بسكويتات الويفر"
+
+msgid "Waffle"
+msgstr "الهراء"
+
+msgid "Waffled"
+msgstr "مهذور"
+
+msgid "Waffles"
+msgstr "بسكويتات الوفل"
+
+msgid "Waffling"
+msgstr "الهراء"
+
+msgid "Waft"
+msgstr "النسمة"
+
+msgid "Wafted"
+msgstr "مهبوب"
+
+msgid "Wafter"
+msgstr "المُنبعث"
+
+msgid "Wafting"
+msgstr "الهبوب"
+
+msgid "Wafts"
+msgstr "النسمات"
+
+msgid "Wafture"
+msgstr "التلويح باليد"
+
+msgid "Wag"
+msgstr "المهرّج"
+
+msgid "Wage"
+msgstr "الأجر"
+
+msgid "Wage-earner"
+msgstr "الأجير"
+
+msgid "Wage-price"
+msgstr "سعر أجر"
+
+msgid "Waged"
+msgstr "مشنون"
+
+msgid "Wagel"
+msgstr "صغار طائر النّورس ذو الظهر الأسود"
+
+msgid "Wager"
+msgstr "الرهان"
+
+msgid "Wagered"
+msgstr "مراهن"
+
+msgid "Wagerer"
+msgstr "الآجر"
+
+msgid "Wagering"
+msgstr "المراهنة"
+
+msgid "Wagers"
+msgstr "الرهان"
+
+msgid "Wages"
+msgstr "الأجور"
+
+msgid "Wages-earner"
+msgstr "أجير"
+
+msgid "Wagged"
+msgstr "مهزوز"
+
+msgid "Waggel"
+msgstr "صغار طائر النّورس ذو الظهر الأسود"
+
+msgid "Waggery"
+msgstr "المزحة"
+
+msgid "Wagging"
+msgstr "الهزّ"
+
+msgid "Waggish"
+msgstr "هزلي"
+
+msgid "Waggishly"
+msgstr "بشكل هزلي"
+
+msgid "Waggishness"
+msgstr "الهزل"
+
+msgid "Waggle"
+msgstr "هزّ"
+
+msgid "Waggled"
+msgstr "مهزوز"
+
+msgid "Waggles"
+msgstr "يهزّ"
+
+msgid "Waggling"
+msgstr "الهزّ"
+
+msgid "Waggly"
+msgstr "بهزّ"
+
+msgid "Waggon"
+msgstr "العربة"
+
+msgid "Waggoner"
+msgstr "سائق العربة"
+
+msgid "Waggoners"
+msgstr "سائقوا العربات"
+
+msgid "Waggons"
+msgstr "العربات"
+
+msgid "Waging"
+msgstr "الشنّ"
+
+#, Name
+msgid "Wagner"
+msgstr "واجنر"
+
+msgid "Wagnerian"
+msgstr "مرتبط بريتشارد واجنر"
+
+msgid "Wagon"
+msgstr "العربة"
+
+msgid "Wagoneer"
+msgstr "مرتبط بريتشارد واجنر"
+
+msgid "Wagoner"
+msgstr "سائق العربة"
+
+msgid "Wagoners"
+msgstr "سائقوا العربات"
+
+msgid "Wagoning"
+msgstr "التّنقّل بالحنطور"
+
+msgid "Wagons"
+msgstr "العربات"
+
+msgid "Wagonwright"
+msgstr " صانع الحنطور"
+
+msgid "Wags"
+msgstr "المهرجون"
+
+msgid "Wagtail"
+msgstr "الذعرة"
+
+msgid "Wagtails"
+msgstr "الذعرات"
+
+msgid "Wah"
+msgstr "الباندا"
+
+msgid "Wahaby"
+msgstr "الوهّابي، من يتبع محمد بن عبدالوهاب"
+
+#, Name
+msgid "Wahl"
+msgstr "وال"
+
+msgid "Wahoo"
+msgstr "شجيرة الواهو"
+
+msgid "Wahvey"
+msgstr "الله"
+
+msgid "Waid"
+msgstr "سحق"
+
+msgid "Waif"
+msgstr "الشارد"
+
+msgid "Waifs"
+msgstr "الشوارد"
+
+msgid "Waift"
+msgstr "المتشرّد"
+
+msgid "Wail"
+msgstr "نُح"
+
+msgid "Wailed"
+msgstr "ناحَ"
+
+msgid "Wailer"
+msgstr "نائح"
+
+msgid "Wailful"
+msgstr "نائح"
+
+msgid "Wailfully"
+msgstr "بنواح"
+
+msgid "Wailing"
+msgstr "النواح"
+
+msgid "Wailingly"
+msgstr "بطريقة نواحيّة"
+
+msgid "Wails"
+msgstr "العويل"
+
+msgid "Wain"
+msgstr "عربة مزرعة"
+
+msgid "Wains"
+msgstr "عربات مزرعة"
+
+msgid "Wainscot"
+msgstr "كسوة خشبية"
+
+msgid "Wainscoted"
+msgstr "مكسُوّ بالخشب"
+
+msgid "Wainscoting"
+msgstr "الكساء بالخشب"
+
+msgid "Wainscots"
+msgstr "كسوات خشبية"
+
+msgid "Wainscotting"
+msgstr "ألواح خشبيّة لتغطية جدران الغرفة"
+
+msgid "Wainwright"
+msgstr "صانع العربة"
+
+msgid "Wais"
+msgstr "خادم لجلب المعلومات"
+
+msgid "Waist"
+msgstr "الخصر"
+
+msgid "Waistband"
+msgstr "حزام"
+
+msgid "Waistbands"
+msgstr "أحزمة"
+
+msgid "Waistcoat"
+msgstr "الصدرية"
+
+msgid "Waistcoated"
+msgstr "مغطى بصدرية"
+
+msgid "Waistcoats"
+msgstr "الصدريات"
+
+msgid "Waisted"
+msgstr "مُخصّر"
+
+msgid "Waister"
+msgstr "مخصِّر"
+
+msgid "Waistline"
+msgstr "حدّ الخصر"
+
+msgid "Waistlines"
+msgstr "حد الخصر"
+
+msgid "Waists"
+msgstr "الخصور"
+
+msgid "Wait"
+msgstr "إنتظرْ"
+
+#, Name
+msgid "Waite"
+msgstr "وايت"
+
+msgid "Waited"
+msgstr "انتظرَ"
+
+msgid "Waiter"
+msgstr "النادل"
+
+msgid "Waiters"
+msgstr "النوادل"
+
+msgid "Waiting"
+msgstr "الإنتظار"
+
+msgid "Waitress"
+msgstr "النادلة"
+
+msgid "Waitresses"
+msgstr "النادلات"
+
+msgid "Waits"
+msgstr "ينتظر"
+
+msgid "Waive"
+msgstr "إترك"
+
+msgid "Waived"
+msgstr "متروك"
+
+msgid "Waiver"
+msgstr "التنازل"
+
+msgid "Waivers"
+msgstr "التنازلات"
+
+msgid "Waives"
+msgstr "يترك"
+
+msgid "Waiving"
+msgstr "الترك"
+
+msgid "Wake"
+msgstr "الصحوة"
+
+msgid "Wake-up"
+msgstr "إستيقظ"
+
+msgid "Waked"
+msgstr "إستيقظ"
+
+msgid "Wakefield"
+msgstr "ويكفيلد"
+
+msgid "Wakeful"
+msgstr "متأرّق"
+
+msgid "Wakefully"
+msgstr "بشكل متأرّق"
+
+msgid "Wakefulness"
+msgstr "إنعدام النوم"
+
+msgid "Wakeless"
+msgstr "النّوم العميق"
+
+msgid "Waken"
+msgstr "أيقظ"
+
+msgid "Wakened"
+msgstr "موقظ"
+
+msgid "Wakener"
+msgstr "موقظ"
+
+msgid "Wakening"
+msgstr "الإيقاظ"
+
+msgid "Wakens"
+msgstr "يوقظ"
+
+msgid "Waker"
+msgstr "المستيقض"
+
+msgid "Wakes"
+msgstr "الصحوة"
+
+msgid "Waketime"
+msgstr "الإفاقة، اليقضة"
+
+#, American-English
+msgid "Wakeup"
+msgstr "تنبيه الإيقاظ"
+
+msgid "Wakf"
+msgstr "الوقف من العقار"
+
+msgid "Waking"
+msgstr "الإستيقاظ"
+
+msgid "Wakita"
+msgstr "مدينة واكيتا"
+
+#, Name
+msgid "Walbridge"
+msgstr "والبردج"
+
+#, Name
+msgid "Walcott"
+msgstr "والْكوتّ"
+
+msgid "Wald"
+msgstr "أحراش، غابة"
+
+msgid "Walden"
+msgstr "والدن"
+
+msgid "Waldenses"
+msgstr "فرقة من فرق المسيحية"
+
+msgid "Waldensian"
+msgstr "والدينسيان"
+
+msgid "Waldmeister"
+msgstr "ورق شجر معطر يستخدم لتطييب النّبيذ"
+
+msgid "Waldo"
+msgstr "والدو"
+
+msgid "Waldorf"
+msgstr "والدورف"
+
+msgid "Waldron"
+msgstr "والدرون"
+
+msgid "Wale"
+msgstr "علامة"
+
+msgid "Waled"
+msgstr "مُعلَّم"
+
+#, Name
+msgid "Waler"
+msgstr "وايلر"
+
+msgid "Wales"
+msgstr "علامات"
+
+msgid "Walford"
+msgstr "والفورد"
+
+msgid "Walgreen"
+msgstr "والجرين"
+
+msgid "Walhalla"
+msgstr "مكان تجمع الأبطال القتلى خلال المعركة في حياة البرزخ"
+
+msgid "Waling"
+msgstr "تحديد"
+
+msgid "Walk"
+msgstr "المشي"
+
+msgid "Walk-on"
+msgstr "يلعب دوراً صغيراً في المسرحيّة"
+
+msgid "Walk-up"
+msgstr "عمارة بلا مصعد كهربائي"
+
+msgid "Walkable"
+msgstr "ممكن السّير عليه"
+
+msgid "Walkabout"
+msgstr "رحلة على الأقدام"
+
+msgid "Walkaway"
+msgstr "الفوز اليسير"
+
+msgid "Walked"
+msgstr "ممشي"
+
+msgid "Walker"
+msgstr "الماشي"
+
+msgid "Walkers"
+msgstr "المشاة"
+
+msgid "Walkie-talkie"
+msgstr "راديو ﻻسلكي"
+
+msgid "Walkie-talkies"
+msgstr "راديوهات ﻻسلكية"
+
+msgid "Walking"
+msgstr "المشي"
+
+msgid "Walkon"
+msgstr "يلعب دوراً صغيراً في المسرحيّة"
+
+msgid "Walkout"
+msgstr "الإنسحاب"
+
+msgid "Walkouts"
+msgstr "عمليات الخروج"
+
+msgid "Walkover"
+msgstr "يسير"
+
+msgid "Walks"
+msgstr "المشي"
+
+msgid "Walkthrough"
+msgstr "تجول خﻻل"
+
+msgid "Walkway"
+msgstr "مسار"
+
+msgid "Walkways"
+msgstr "مسارات"
+
+msgid "Wall"
+msgstr "الحائط"
+
+msgid "Wall-eye"
+msgstr "سمكة الوول آي"
+
+msgid "Wall-eyed"
+msgstr "بعين ذات لون رمادي"
+
+msgid "Wall-to-wall"
+msgstr "كامل"
+
+msgid "Walla"
+msgstr "المسؤول"
+
+msgid "Wallabee"
+msgstr "الكنغر"
+
+msgid "Wallabies"
+msgstr "الكنيغرات"
+
+msgid "Wallaby"
+msgstr "الكنيغر"
+
+msgid "Wallace"
+msgstr "والاس"
+
+msgid "Wallachian"
+msgstr "متعلق بـ والاشين - إقليم تاريخي في جنوب شرق رومانيا"
+
+msgid "Wallack"
+msgstr "متعلق بـ والاشين - إقليم تاريخي في جنوب شرق رومانيا"
+
+msgid "Wallah"
+msgstr "المسؤول"
+
+msgid "Wallaroo"
+msgstr "الكنغر"
+
+msgid "Wallboard"
+msgstr "ورق الحائط"
+
+msgid "Walled"
+msgstr "محاط"
+
+msgid "Wallenstein"
+msgstr "والينشتاين"
+
+msgid "Waller"
+msgstr "والر"
+
+msgid "Wallet"
+msgstr "المحفظة"
+
+msgid "Wallets"
+msgstr "المحافظ"
+
+msgid "Walleye"
+msgstr "العين رماديّة فاتحة اللون"
+
+msgid "Walleyed"
+msgstr "ذو عين رمادية فاتحة اللون"
+
+msgid "Walleyes"
+msgstr "عيون رمادية فاتحة اللون"
+
+msgid "Wallflower"
+msgstr "المنثور"
+
+msgid "Wallflowers"
+msgstr "المنثور"
+
+msgid "Wallies"
+msgstr "سخفاء"
+
+msgid "Walling"
+msgstr "التّحويط"
+
+#, Name
+msgid "Wallis"
+msgstr "واليس"
+
+msgid "Wallon"
+msgstr "الوالون"
+
+msgid "Walloon"
+msgstr "والوون - من أحد اللهجات الفرنسية"
+
+msgid "Walloons"
+msgstr "القوميّة الرّومانية التي تقطن بعض أجزاء بلجيكا"
+
+msgid "Wallop"
+msgstr "الصفعة"
+
+msgid "Walloped"
+msgstr "صفع"
+
+msgid "Walloper"
+msgstr "شديد الصفعة"
+
+msgid "Walloping"
+msgstr "الأزيز"
+
+msgid "Wallops"
+msgstr "الصفعات"
+
+msgid "Wallow"
+msgstr "التمرّغ"
+
+msgid "Wallowed"
+msgstr "متمرّغ"
+
+msgid "Wallower"
+msgstr "متمرّغ"
+
+msgid "Wallowers"
+msgstr "متمرّغون"
+
+msgid "Wallowing"
+msgstr "التمرّغ"
+
+msgid "Wallows"
+msgstr "يتمرّغ"
+
+msgid "Wallpaper"
+msgstr "ورق الجدران"
+
+msgid "Wallpapered"
+msgstr "مغطّى بورق الجدران"
+
+msgid "Wallpapering"
+msgstr "التغطية بورق الجدران"
+
+msgid "Wallpapers"
+msgstr "أوراق الجدران"
+
+msgid "Walls"
+msgstr "الحوائط"
+
+msgid "Wally"
+msgstr "والي"
+
+msgid "Walm"
+msgstr "يتفاقم، يتدحرج، يتدفّق"
+
+msgid "Walnut"
+msgstr "الجوزة"
+
+msgid "Walnuts"
+msgstr "الجوز"
+
+msgid "Walpole"
+msgstr "والبول"
+
+msgid "Walpurgis"
+msgstr "والبروجيس - مبشّر إنجليزي"
+
+msgid "Walrus"
+msgstr "الفظّ"
+
+msgid "Walruses"
+msgstr "حيوانات الفظّ"
+
+msgid "Walsh"
+msgstr "والش"
+
+msgid "Walt"
+msgstr "والت"
+
+msgid "Walter"
+msgstr "والتر"
+
+#, Name, City
+msgid "Walters"
+msgstr "والترز"
+
+msgid "Waltham"
+msgstr "والتايم"
+
+msgid "Walton"
+msgstr "والتن"
+
+msgid "Waltz"
+msgstr "الفالز"
+
+msgid "Waltzed"
+msgstr "راقص الفالز"
+
+msgid "Waltzer"
+msgstr "راقص الفالز"
+
+msgid "Waltzes"
+msgstr "رقصات الفالز"
+
+msgid "Waltzing"
+msgstr "رقص الفالز"
+
+msgid "Walum"
+msgstr "مدينة والم"
+
+msgid "Walworth"
+msgstr "والورث"
+
+msgid "Waly"
+msgstr "تستخدم للتعبير عن الحزن"
+
+msgid "Walzed"
+msgstr "رقص الفالز"
+
+msgid "Wamac"
+msgstr "مدينة واماك"
+
+msgid "Wamble"
+msgstr "ترنّح"
+
+msgid "Wamic"
+msgstr "مدينة واميك"
+
+msgid "Wammel"
+msgstr "ترنّح"
+
+msgid "Wamp"
+msgstr "نوع من البط"
+
+msgid "Wampum"
+msgstr "خرز الزّينة كنقود من قبل الهنود الحمر"
+
+msgid "Wan"
+msgstr "الشبكة الواسعة النطاق"
+
+msgid "Wana"
+msgstr "مدينة وانا"
+
+msgid "Wand"
+msgstr "الصولجان"
+
+msgid "Wanda"
+msgstr "مدينة واندا"
+
+msgid "Wandala"
+msgstr "لغة الواندالا المستخدمة في الكاميرون"
+
+msgid "Wander"
+msgstr "تجوّل"
+
+msgid "Wandered"
+msgstr "متجوّل"
+
+msgid "Wanderer"
+msgstr "الهيّام"
+
+msgid "Wanderers"
+msgstr "الهيّامون"
+
+msgid "Wandering"
+msgstr "التجوّل"
+
+msgid "Wanderings"
+msgstr "الرحلات"
+
+msgid "Wanderlust"
+msgstr "حبّ السفر"
+
+msgid "Wanders"
+msgstr "يتجوّل"
+
+msgid "Wando"
+msgstr "مدينة واندو"
+
+msgid "Wands"
+msgstr "الصولجانات"
+
+msgid "Wane"
+msgstr "التناقص"
+
+msgid "Waned"
+msgstr "متضاءل"
+
+msgid "Wanes"
+msgstr "التناقص"
+
+msgid "Waney"
+msgstr "حافّة وعرة أو حادّة على لوحة"
+
+msgid "Wang"
+msgstr "وانج"
+
+msgid "Wangan"
+msgstr "قارب"
+
+msgid "Wanger"
+msgstr "المخدّة"
+
+msgid "Wangle"
+msgstr "الإحتيال"
+
+msgid "Wangled"
+msgstr "مغشوش"
+
+msgid "Wangler"
+msgstr "مكّار"
+
+msgid "Wanglers"
+msgstr "مكّارون"
+
+msgid "Wangles"
+msgstr "المكْر"
+
+msgid "Wangling"
+msgstr "المكْر"
+
+msgid "Wango"
+msgstr "البووميرانج"
+
+msgid "Wangun"
+msgstr "قارب، صندوق عدّة، بيت صغير"
+
+msgid "Waning"
+msgstr "التضاءل"
+
+msgid "Wank"
+msgstr "العادة السّرّيّة، الإستمناء باليد"
+
+#, Name
+msgid "Wankel"
+msgstr "وانكل"
+
+msgid "Wankle"
+msgstr "غير مستقر، لايمكن الإعتماد عليه"
+
+msgid "Wanly"
+msgstr "بشكل شاحب"
+
+msgid "Wann"
+msgstr "مدينة وان"
+
+msgid "Wannabe"
+msgstr "شخص يتوق ان يصبح شخص اخر، المتمنّي"
+
+msgid "Wannabee"
+msgstr "شخص يتوق ان يصبح شخص اخر، المتمنّي"
+
+msgid "Wanned"
+msgstr "شحب لونه"
+
+msgid "Wanness"
+msgstr "الشّحب"
+
+msgid "Wannish"
+msgstr "شاحب نوعاً ما"
+
+#, Name
+msgid "Wansley"
+msgstr "وانسلي"
+
+msgid "Want"
+msgstr "الحاجة"
+
+msgid "Wantage"
+msgstr "النّقص"
+
+msgid "Wanted"
+msgstr "مطلوب"
+
+msgid "Wanter"
+msgstr "المحتاج"
+
+msgid "Wanting"
+msgstr "الطلب"
+
+msgid "Wanton"
+msgstr "الخليع"
+
+msgid "Wantoned"
+msgstr "تكلّم او تصرّف بلا سبب او مبرر، عبث، إستهتر"
+
+msgid "Wantoner"
+msgstr "عشوائي"
+
+msgid "Wantoning"
+msgstr "الخﻻعة"
+
+msgid "Wantonly"
+msgstr "بعشوائية"
+
+msgid "Wantonness"
+msgstr "العشوائية"
+
+msgid "Wantons"
+msgstr "الخليعون"
+
+msgid "Wants"
+msgstr "الحاجات"
+
+msgid "Wanty"
+msgstr "رباط مصنوع من الجلد"
+
+msgid "Wany"
+msgstr "ضَعُفَ"
+
+msgid "Wap"
+msgstr "الضّربة، ضرب"
+
+#, Name
+msgid "Wapato"
+msgstr "واباتو"
+
+msgid "Wapentake"
+msgstr "تقسيم تاريخيّ لبعض المقاطعات "
+
+msgid "Wapiti"
+msgstr "الغزال الأمريكي الشمالي"
+
+msgid "Wapitis"
+msgstr "الغزﻻن الأمريكية الشمالية"
+
+msgid "Wapper"
+msgstr "الطّعم"
+
+msgid "Wapping"
+msgstr "العويل، الصّياح"
+
+#, native american people
+msgid "Wappinger"
+msgstr "فرد من الوابنجر"
+
+msgid "War"
+msgstr "الحرب"
+
+msgid "War-torn"
+msgstr "مدمّر بفعل الحرب"
+
+msgid "Waratah"
+msgstr "شجيرة الواراتاه "
+
+msgid "Warba"
+msgstr "مدينة واربا"
+
+msgid "Warble"
+msgstr "التغريد"
+
+msgid "Warbled"
+msgstr "مغرّد"
+
+msgid "Warbler"
+msgstr "الطائر المغرّد"
+
+msgid "Warblers"
+msgstr "الطيور المغرّدة"
+
+msgid "Warbles"
+msgstr "يغرّد"
+
+msgid "Warblet"
+msgstr "ورم يظهر على ظهر الماشية"
+
+msgid "Warbling"
+msgstr "التغريد"
+
+msgid "Ward"
+msgstr "الردهة"
+
+msgid "Ward-heeler"
+msgstr "الشّخص النشيط في سياسات الحزب"
+
+msgid "Warded"
+msgstr "متفادى"
+
+msgid "Warden"
+msgstr "المراقب"
+
+msgid "Wardens"
+msgstr "المراقبون"
+
+msgid "Wardenship"
+msgstr "القيادة"
+
+msgid "Warder"
+msgstr "الحارس"
+
+msgid "Warders"
+msgstr "الحرّاس"
+
+msgid "Warding"
+msgstr "التفادي"
+
+msgid "Wardrobe"
+msgstr "الخزانة"
+
+msgid "Wardrobes"
+msgstr "الخزانات"
+
+msgid "Wardroom"
+msgstr "غرفة الاستراحة"
+
+msgid "Wardrooms"
+msgstr "غرف الاستراحة"
+
+msgid "Wards"
+msgstr "الردهات"
+
+msgid "Wardship"
+msgstr "غرفة المسئول"
+
+msgid "Wardships"
+msgstr "غرف المسئولين"
+
+msgid "Ware"
+msgstr "السلعة"
+
+msgid "Wared"
+msgstr "حذِر"
+
+msgid "Warehouse"
+msgstr "المخزن"
+
+msgid "Warehoused"
+msgstr "خزّن"
+
+msgid "Warehouseman"
+msgstr "أمين المخزن"
+
+msgid "Warehousemen"
+msgstr "أمناء المخازن"
+
+msgid "Warehouser"
+msgstr "أمين المخزن"
+
+msgid "Warehouses"
+msgstr "المخازن"
+
+msgid "Warehousing"
+msgstr "التخزين"
+
+msgid "Warely"
+msgstr "بحذر"
+
+msgid "Wares"
+msgstr "السلع"
+
+msgid "Warez"
+msgstr "برامج كومبيوتر تُتداول بصورة غير قانونية"
+
+msgid "Warfare"
+msgstr "الحرب"
+
+msgid "Warfarer"
+msgstr "رجل عسكريّ، جنديّ، محارب"
+
+msgid "Warfares"
+msgstr "الحروب"
+
+msgid "Warfarin"
+msgstr "الورفرين - مركّب شفّاف عديم اللّون يُسْتَخْدَم كسمّ للفأر"
+
+#, Name
+msgid "Warfield"
+msgstr "وارفيلد"
+
+msgid "Warhead"
+msgstr "الرأس الحربي"
+
+msgid "Warheads"
+msgstr "الرؤوس الحربية"
+
+msgid "Warhorse"
+msgstr "الحصان الذي يستخدم في المعركة"
+
+msgid "Warier"
+msgstr "أشدّ حذرا"
+
+msgid "Wariest"
+msgstr "أشدّ حذرا"
+
+msgid "Warily"
+msgstr "بحذر"
+
+msgid "Warine"
+msgstr "قرد جنوب أمريكيّ"
+
+msgid "Wariness"
+msgstr "مستوى الحذر"
+
+#, Name
+msgid "Waring"
+msgstr "وارنج"
+
+msgid "Warison"
+msgstr "الاستعداد، الحماية، التّموين"
+
+msgid "Warji"
+msgstr "لغة الوارجي"
+
+msgid "Wark"
+msgstr "العمل"
+
+msgid "Warless"
+msgstr "بلا حروب"
+
+msgid "Warlike"
+msgstr "محارب"
+
+msgid "Warlikely"
+msgstr "بشكل محارب"
+
+msgid "Warlock"
+msgstr "الساحر"
+
+msgid "Warlocks"
+msgstr "السحرة"
+
+msgid "Warlord"
+msgstr "سيد الحرب"
+
+msgid "Warlords"
+msgstr "أسياد الحرب"
+
+msgid "Warly"
+msgstr "محارب، مقاتل"
+
+msgid "Warm"
+msgstr "دافئ"
+
+msgid "Warm-blooded"
+msgstr "ذو الدم الحار"
+
+msgid "Warm-up"
+msgstr "الإحماء"
+
+msgid "Warmed"
+msgstr "مدفّأ"
+
+msgid "Warmer"
+msgstr "أدفأ"
+
+msgid "Warmest"
+msgstr "أدفأ"
+
+msgid "Warmful"
+msgstr "دافيء"
+
+msgid "Warmhearted"
+msgstr "حنون"
+
+msgid "Warmheartedly"
+msgstr "بشكل حنون"
+
+msgid "Warmheartedness"
+msgstr "الحنيّة"
+
+msgid "Warming"
+msgstr "التدفئة"
+
+msgid "Warminster"
+msgstr "مدينة وارمينستر"
+
+msgid "Warmish"
+msgstr "دافئ"
+
+msgid "Warmly"
+msgstr "بدفء"
+
+msgid "Warmness"
+msgstr "الدفء"
+
+msgid "Warmonger"
+msgstr "مشعل الحرب"
+
+msgid "Warmongering"
+msgstr "حربي"
+
+msgid "Warmongers"
+msgstr "مشعلو الحرب"
+
+msgid "Warms"
+msgstr "يدفّئ"
+
+msgid "Warmth"
+msgstr "الدفء"
+
+msgid "Warmup"
+msgstr "الإحماء"
+
+msgid "Warn"
+msgstr "حذّر"
+
+msgid "Warne"
+msgstr "مدينة وارن"
+
+msgid "Warned"
+msgstr "محذّر"
+
+msgid "Warner"
+msgstr "المنذر"
+
+msgid "Warning"
+msgstr "التحذير"
+
+msgid "Warningly"
+msgstr "بتحذير"
+
+msgid "Warnings"
+msgstr "التحذيرات"
+
+#, Name
+msgid "Warnock"
+msgstr "وارنُك"
+
+msgid "Warns"
+msgstr "يحذّر"
+
+msgid "Warp"
+msgstr "الإعوجاج"
+
+msgid "Warpath"
+msgstr "طريق الحرب"
+
+msgid "Warpaths"
+msgstr "طرق الحرب"
+
+msgid "Warped"
+msgstr "مشوّه"
+
+msgid "Warper"
+msgstr "مشوّه"
+
+msgid "Warping"
+msgstr "التشويه"
+
+msgid "Warplane"
+msgstr "الطائرة الحربية"
+
+msgid "Warplanes"
+msgstr "الطائرات الحربية"
+
+msgid "Warps"
+msgstr "الإعوجاج"
+
+msgid "Warrant"
+msgstr "التفويض"
+
+msgid "Warrantable"
+msgstr "مكفول"
+
+msgid "Warrantableness"
+msgstr "الكفالة"
+
+msgid "Warranted"
+msgstr "مبرّر"
+
+msgid "Warrantee"
+msgstr "المكفول"
+
+msgid "Warranter"
+msgstr "الكافل"
+
+msgid "Warranties"
+msgstr "الضمانات"
+
+msgid "Warranting"
+msgstr "الضمان"
+
+msgid "Warrantor"
+msgstr "الكفيل"
+
+msgid "Warrantors"
+msgstr "الضمنة"
+
+msgid "Warrants"
+msgstr "التفويضات"
+
+msgid "Warranty"
+msgstr "الضمان"
+
+msgid "Warray"
+msgstr "يحارب، يقاتل"
+
+msgid "Warre"
+msgstr "أسوأ من"
+
+msgid "Warred"
+msgstr "تحارب"
+
+msgid "Warren"
+msgstr "الجحر"
+
+msgid "Warrener"
+msgstr "محافظ الجحر"
+
+msgid "Warreners"
+msgstr "محافظوا الجحور"
+
+msgid "Warrens"
+msgstr "الجحور"
+
+msgid "Warrie"
+msgstr "يلعن، يدين"
+
+msgid "Warrigal"
+msgstr "الحصان البرّيّ الأستراليّ"
+
+msgid "Warrin"
+msgstr "الببغاء الأسترالي"
+
+msgid "Warring"
+msgstr "التحارب"
+
+msgid "Warrior"
+msgstr "المحارب"
+
+msgid "Warrioress"
+msgstr "المحاربة، المقاتلة"
+
+msgid "Warriors"
+msgstr "المحاربون"
+
+msgid "Warry"
+msgstr "يلعن، يدين"
+
+msgid "Wars"
+msgstr "الحروب"
+
+msgid "Warsaw"
+msgstr "وارشو"
+
+msgid "Warship"
+msgstr "السفينة الحربية"
+
+msgid "Warships"
+msgstr "السفن الحربية"
+
+msgid "Wart"
+msgstr "البثرة"
+
+msgid "Wartburg"
+msgstr "وارتبرج - سيارة كانت تصنع في ألمانيا الشرقية"
+
+msgid "Warted"
+msgstr "مبثور"
+
+msgid "Warthog"
+msgstr "الخنزير"
+
+msgid "Warthogs"
+msgstr "الخنازير"
+
+msgid "Wartier"
+msgstr "المليء بالبثور"
+
+msgid "Wartiest"
+msgstr "الأكثر بثوراً"
+
+msgid "Wartime"
+msgstr "وقت الحرب"
+
+msgid "Wartimes"
+msgstr "أوقات حرب"
+
+msgid "Warts"
+msgstr "البثور"
+
+msgid "Warty"
+msgstr "مليء بالبثور"
+
+#, Name
+msgid "Warwick"
+msgstr "واروِكْ"
+
+msgid "Wary"
+msgstr "حذر"
+
+msgid "Warye"
+msgstr "يلعن، يدين"
+
+msgid "Was"
+msgstr "كان"
+
+msgid "Wasatch"
+msgstr "مقاطعة واساتش"
+
+msgid "Wasco"
+msgstr "مدينة واسكو"
+
+msgid "Wash"
+msgstr "الغسل"
+
+msgid "Wash-out"
+msgstr "إغسل"
+
+msgid "Washable"
+msgstr "قابل للغسل"
+
+msgid "Washables"
+msgstr "الملابس القابلة للغسيل"
+
+msgid "Washbasin"
+msgstr "الحوض الغسيل"
+
+msgid "Washboard"
+msgstr "لوح الغسيل"
+
+msgid "Washboards"
+msgstr "ألواح الغسيل"
+
+msgid "Washbowl"
+msgstr "حوض الغسيل"
+
+msgid "Washbowls"
+msgstr "أحواض الغسيل"
+
+#, Name
+msgid "Washburn"
+msgstr "واشبورن"
+
+msgid "Washcloth"
+msgstr "منشفة الوجه"
+
+msgid "Washcloths"
+msgstr "مناشف الوجه"
+
+msgid "Washed"
+msgstr "مغسول"
+
+msgid "Washer"
+msgstr "الغسّالة"
+
+msgid "Washerman"
+msgstr "مشغّل الغسّالة"
+
+msgid "Washers"
+msgstr "الغسّالات"
+
+msgid "Washerwoman"
+msgstr "مشغّلة الغسّالة"
+
+msgid "Washes"
+msgstr "الغسلات"
+
+#, Laundery
+msgid "Washhouse"
+msgstr "المصبغة"
+
+#, Launderies
+msgid "Washhouses"
+msgstr "المصابغ"
+
+msgid "Washier"
+msgstr "واهن"
+
+msgid "Washiest"
+msgstr "واهن"
+
+msgid "Washily"
+msgstr "بشكل واهن"
+
+msgid "Washiness"
+msgstr "الوهن"
+
+msgid "Washing"
+msgstr "الغسل"
+
+msgid "Washings"
+msgstr "الغسيل"
+
+msgid "Washington"
+msgstr "واشنطن"
+
+#, Name
+msgid "Washoe"
+msgstr "واشو"
+
+msgid "Washout"
+msgstr "الفشل"
+
+msgid "Washouts"
+msgstr "الفشل"
+
+msgid "Washrag"
+msgstr "الفشل"
+
+msgid "Washrags"
+msgstr "فُوَطْ التغسيل"
+
+msgid "Washroom"
+msgstr "حمّام عامّ"
+
+msgid "Washrooms"
+msgstr "حمّامات عامّة"
+
+msgid "Washtub"
+msgstr "طبق الغسيل"
+
+msgid "Washtubs"
+msgstr "أطباق الغسيل"
+
+msgid "Washy"
+msgstr "واهن"
+
+msgid "Wasp"
+msgstr "الزنبور"
+
+msgid "Waspish"
+msgstr "لاذع"
+
+msgid "Waspishly"
+msgstr "بشكل لاذع"
+
+msgid "Waspishness"
+msgstr "شبه الزنبور"
+
+msgid "Wasps"
+msgstr "الزنابير"
+
+msgid "Waspy"
+msgstr "متعلق بـ بروتستانتيّ أبيض من أصل أنجلوساكسوني"
+
+msgid "Wassail"
+msgstr "أبهج"
+
+msgid "Wassails"
+msgstr "يبهج"
+
+msgid "Wasserman"
+msgstr "واسّرمان"
+
+#, Old English
+msgid "Wast"
+msgstr "كان"
+
+msgid "Wasta"
+msgstr "مدينة واستا"
+
+msgid "Wastage"
+msgstr "الخسارة"
+
+msgid "Wastages"
+msgstr "الخسائر"
+
+msgid "Waste"
+msgstr "النفاية"
+
+msgid "Wastebasket"
+msgstr "سلة المهملات"
+
+msgid "Wastebaskets"
+msgstr "سلال المهملات"
+
+msgid "Wasted"
+msgstr "ضائع"
+
+msgid "Wasteful"
+msgstr "مبذّر"
+
+msgid "Wastefully"
+msgstr "بشكل مبذّر"
+
+msgid "Wastefulness"
+msgstr "التّبذير"
+
+msgid "Wastel"
+msgstr "نوع من الخبز او الكعك"
+
+msgid "Wasteland"
+msgstr "الأرض المقفرّة"
+
+msgid "Wastelands"
+msgstr "الأراضي المقفرّة"
+
+msgid "Wastepaper"
+msgstr "المهملات"
+
+msgid "Wastepapers"
+msgstr "المهملات"
+
+msgid "Waster"
+msgstr "المبذّر"
+
+msgid "Wasters"
+msgstr "المبذّرون"
+
+msgid "Wastes"
+msgstr "النفايات"
+
+msgid "Wastewater"
+msgstr "المياه القذرة"
+
+msgid "Wasting"
+msgstr "الإهدار"
+
+msgid "Wastingly"
+msgstr "بشكل مسبب للهزال"
+
+msgid "Wastor"
+msgstr "المبذّر، اللصّ"
+
+msgid "Wastour"
+msgstr "اللصّ"
+
+msgid "Wastrel"
+msgstr "المبذّر"
+
+msgid "Wastrels"
+msgstr "المبذرون"
+
+#, Name
+msgid "Watanabe"
+msgstr "واتاناب"
+
+msgid "Watauga"
+msgstr "مدينة وتوجا"
+
+msgid "Watch"
+msgstr "الساعة"
+
+msgid "Watchband"
+msgstr "مربط الساعة"
+
+msgid "Watchdog"
+msgstr "لجنة الرقابة"
+
+msgid "Watchdogs"
+msgstr "لجان الرقابة"
+
+msgid "Watched"
+msgstr "مراقب"
+
+msgid "Watcher"
+msgstr "المراقب"
+
+msgid "Watchers"
+msgstr "المراقبون"
+
+msgid "Watches"
+msgstr "الساعات"
+
+msgid "Watchful"
+msgstr "يقظ"
+
+msgid "Watchfully"
+msgstr "بحذر"
+
+msgid "Watchfulness"
+msgstr "التيقّظ"
+
+msgid "Watchglass"
+msgstr "صحن صغير"
+
+msgid "Watching"
+msgstr "المراقبة"
+
+msgid "Watchings"
+msgstr "المراقبات"
+
+msgid "Watchmaker"
+msgstr "الساعاتي"
+
+msgid "Watchmakers"
+msgstr "الساعاتيون"
+
+msgid "Watchmaking"
+msgstr "صناعة السّاعات"
+
+msgid "Watchman"
+msgstr "المراقب"
+
+msgid "Watchmen"
+msgstr "المراقبون"
+
+msgid "Watchtower"
+msgstr "برج المراقبة"
+
+msgid "Watchtowers"
+msgstr "أبراج المراقبة"
+
+msgid "Watchung"
+msgstr "مدينة وتشنج"
+
+msgid "Watchword"
+msgstr "الشعار"
+
+msgid "Watchwords"
+msgstr "الشعارات"
+
+msgid "Water"
+msgstr "الماء"
+
+msgid "Water-closet"
+msgstr "المرحاض"
+
+msgid "Water-cooled"
+msgstr "مبرّد بالماء"
+
+msgid "Water-cooling"
+msgstr "تبريد بالماء"
+
+msgid "Water-mark"
+msgstr "علامة ماء"
+
+msgid "Water-proof"
+msgstr "لا يتأثّر بالماء"
+
+msgid "Water-rate"
+msgstr "المبلغ المستحق لاستهلاك الماء"
+
+msgid "Water-repellent"
+msgstr "معيق اختراق الماء"
+
+msgid "Water-skiing"
+msgstr "التزحلق على الماء"
+
+msgid "Waterage"
+msgstr "المبلغ المستحق لنقل البضائع عن طريق الماء"
+
+msgid "Waterbed"
+msgstr "واتربيد"
+
+msgid "Waterbeds"
+msgstr "واتربيدس"
+
+msgid "Waterborne"
+msgstr "محمول على الماء"
+
+msgid "Waterbuck"
+msgstr "ظبي الماء"
+
+#, Name
+msgid "Waterbury"
+msgstr "واتربيري"
+
+msgid "Watercolor"
+msgstr "اللون مائي"
+
+msgid "Watercolored"
+msgstr "ملوّن بألوان مائية"
+
+msgid "Watercoloring"
+msgstr "التلوين بالألوان المائية"
+
+msgid "Watercolorist"
+msgstr "رسام بالألوان المائية"
+
+msgid "Watercolorists"
+msgstr "رساموا الألوان المائية"
+
+msgid "Watercolors"
+msgstr "الألوان المائية"
+
+msgid "Watercolour"
+msgstr "صبغة تذوب في الماء"
+
+msgid "Watercolous"
+msgstr "الصّبغة القابلة للذّوبان في الماء"
+
+msgid "Watercourse"
+msgstr "مجرى الماء"
+
+msgid "Watercourses"
+msgstr "مجاري المياه"
+
+msgid "Watercraft"
+msgstr "مركبة مائيّة "
+
+msgid "Watercrafts"
+msgstr "مركبات مرئية"
+
+msgid "Watercress"
+msgstr "الجرجير"
+
+msgid "Watercresses"
+msgstr "الجرجير"
+
+msgid "Watered"
+msgstr "مسقي"
+
+msgid "Waterer"
+msgstr "السّاقي"
+
+msgid "Waterfall"
+msgstr "الشلال"
+
+msgid "Waterfalls"
+msgstr "الشلالات"
+
+msgid "Waterflow"
+msgstr "مدينة واتيرفلو"
+
+msgid "Waterford"
+msgstr "وترفورد - ميناء في جنوب أيرلندا"
+
+msgid "Waterfowl"
+msgstr "الطائر المائي"
+
+msgid "Waterfowls"
+msgstr "الطيور المائية"
+
+msgid "Waterfront"
+msgstr "الواجهة المائية"
+
+msgid "Waterfronts"
+msgstr "الواجهات المائية"
+
+#, Name
+msgid "Watergate"
+msgstr "واترجايت"
+
+#, Name
+msgid "Waterhouse"
+msgstr "واترهاوس"
+
+msgid "Waterie"
+msgstr "طائر صغير بذنب طويل"
+
+msgid "Waterier"
+msgstr "مائي"
+
+msgid "Wateriest"
+msgstr "مائي"
+
+msgid "Wateriness"
+msgstr "السّيولة، المائية"
+
+msgid "Watering"
+msgstr "السقاية"
+
+msgid "Waterings"
+msgstr "السقايات"
+
+msgid "Waterish"
+msgstr "يشبه الماء"
+
+msgid "Waterline"
+msgstr "خط الماء"
+
+msgid "Waterlines"
+msgstr "خطوط الماء"
+
+msgid "Waterlogged"
+msgstr "مشبّع بالرّطوبة"
+
+msgid "Waterloo"
+msgstr "واترلو"
+
+msgid "Waterman"
+msgstr "الملاح"
+
+msgid "Watermark"
+msgstr "العلامة المائية"
+
+msgid "Watermarking"
+msgstr "التحديد بالماء"
+
+msgid "WatermarkOverlay"
+msgstr "علامة مائيةطلاء"
+
+msgid "Watermarks"
+msgstr "العلامات المائية"
+
+msgid "Watermelon"
+msgstr "الرقي"
+
+msgid "Watermelons"
+msgstr "البطيخ"
+
+msgid "Watermen"
+msgstr "الملاحون"
+
+msgid "Waterpower"
+msgstr "الدفع المائي"
+
+msgid "Waterproof"
+msgstr "مقاوم للماء"
+
+msgid "Waterproofed"
+msgstr "ﻻ يسمح بمرور الماء"
+
+msgid "Waterproofer"
+msgstr "ضدّ الماء"
+
+msgid "Waterproofing"
+msgstr "مقاومة الماء"
+
+msgid "Waterproofness"
+msgstr "مقاومة الماء"
+
+msgid "Waterproofs"
+msgstr "مقاومات الماء"
+
+msgid "Waters"
+msgstr "المياه"
+
+msgid "Waterscape"
+msgstr "منظر البحر"
+
+msgid "Watershed"
+msgstr "الحدّ الفاصل"
+
+msgid "Watersheds"
+msgstr "الحدود الفاصلة"
+
+msgid "Waterside"
+msgstr "الضّفّة"
+
+msgid "Waterskiing"
+msgstr "التزحلق على الماء"
+
+msgid "Waterskin"
+msgstr "وعاء جلدي لحفظ الماء"
+
+msgid "Waterspout"
+msgstr "خرطوم المياه"
+
+msgid "Waterspouts"
+msgstr "خراطيم المياه"
+
+msgid "Watertight"
+msgstr "مانع للماء"
+
+msgid "Watertightly"
+msgstr "بشكل مانع للماء"
+
+msgid "Watertightness"
+msgstr "مانعيّة الماء"
+
+#, Name
+msgid "Watertown"
+msgstr "واترتاون"
+
+msgid "Waterville"
+msgstr "مدينة ووترفيل"
+
+msgid "Waterway"
+msgstr "الممر المائي"
+
+msgid "Waterways"
+msgstr "الممرات المائية"
+
+msgid "Waterweed"
+msgstr "نبات مائيّ كثير الحشائش"
+
+msgid "Waterwheel"
+msgstr "العجلة التي تدور جرّاء حركة  الماء"
+
+msgid "Waterworks"
+msgstr "المحطة المائيّة"
+
+msgid "Watery"
+msgstr "مائي"
+
+msgid "Watkins"
+msgstr "واتكينس"
+
+msgid "Wats"
+msgstr "خدمة الهاتف للمناطق المترامية الأطراف"
+
+msgid "Watson"
+msgstr "واتسون"
+
+msgid "Watt"
+msgstr "الواط"
+
+msgid "Watt-hour"
+msgstr "وحدة طاقة"
+
+msgid "Wattage"
+msgstr "القوّة الكهربائية"
+
+msgid "Wattenberg"
+msgstr "واتينبيرج"
+
+msgid "Watterson"
+msgstr "واتيرسون"
+
+msgid "Wattle"
+msgstr "السياج"
+
+msgid "Wattled"
+msgstr "ضافر"
+
+msgid "Wattles"
+msgstr "الأسيجة"
+
+msgid "Wattling"
+msgstr "الضفر"
+
+msgid "Watts"
+msgstr "واتس"
+
+#, City
+msgid "Waukesha"
+msgstr "واوكيشا"
+
+msgid "Waul"
+msgstr "يصرخ بصوت حاد"
+
+msgid "Waunakee"
+msgstr "مدينة ووناكي"
+
+#, Name
+msgid "Waupaca"
+msgstr "واوباكا"
+
+#, Name
+msgid "Waupun"
+msgstr "واوبنّ"
+
+msgid "Waur"
+msgstr "أسوأ من"
+
+msgid "Wausa"
+msgstr "مدينة ووسا"
+
+msgid "Wausau"
+msgstr "واوسو"
+
+msgid "Wauwatosa"
+msgstr "واوواتوسا"
+
+msgid "Wav"
+msgstr "قاعدة متّفق عليها لحفظ النّصوص الصّوتية"
+
+msgid "Wave"
+msgstr "الموجة"
+
+msgid "Wave-guide"
+msgstr "موصّل أنبوبي معدني لنقل الموجات الكهرومغناطيسية"
+
+msgid "Waved"
+msgstr "ملوّح"
+
+msgid "Waveform"
+msgstr "شكل الموجة"
+
+msgid "Waveforms"
+msgstr "أشكال الموجات"
+
+#, Physics
+msgid "Wavefront"
+msgstr "واجهة الموجة"
+
+msgid "Waveguide"
+msgstr "الدليل الموجي"
+
+#, City
+msgid "Waveland"
+msgstr "وايفلاند"
+
+msgid "Wavelength"
+msgstr "طول الموجة"
+
+msgid "Wavelengths"
+msgstr "أطوال الموجة"
+
+msgid "Waveless"
+msgstr "ساكن"
+
+msgid "Wavelet"
+msgstr "مُويْجَة"
+
+msgid "Wavelike"
+msgstr "موجيّ"
+
+msgid "Wavenumber"
+msgstr "متّجه مموج موجّه عبر محور"
+
+msgid "Waver"
+msgstr "تردّد"
+
+msgid "Wavered"
+msgstr "متردّد"
+
+msgid "Waverer"
+msgstr "المتردّد"
+
+msgid "Wavering"
+msgstr "التردّد"
+
+msgid "Waveringly"
+msgstr "بشكل متردّد"
+
+msgid "Wavers"
+msgstr "يتردّد"
+
+msgid "Waves"
+msgstr "الموجات"
+
+msgid "Waveson"
+msgstr "حمولة الباخرة الطّافية على السّطح بعد غرق الباخرة"
+
+msgid "Wavey"
+msgstr "الإوزّة الجليديّة"
+
+msgid "Wavier"
+msgstr "أكثر تموّجا"
+
+msgid "Waviest"
+msgstr "أكثر تموّجا"
+
+msgid "Wavily"
+msgstr "بشكل متموّج"
+
+msgid "Waviness"
+msgstr "التموّج"
+
+msgid "Waving"
+msgstr "الإلغاء"
+
+msgid "Wavy"
+msgstr "متموّج"
+
+msgid "Waw"
+msgstr "واو - الحرف السّادس للأبجدية العبريّة"
+
+msgid "Wawe"
+msgstr "الموجة"
+
+msgid "Wawl"
+msgstr "يصدر صوتاً حادّاً وعالياً"
+
+msgid "Wax"
+msgstr "الشمع"
+
+msgid "Waxberry"
+msgstr "شجرة الواكس بيري"
+
+msgid "Waxbill"
+msgstr "عصفور أفريقيّ صغير"
+
+msgid "Waxbird"
+msgstr "طائر الواكسبيرد"
+
+msgid "Waxed"
+msgstr "مصبح"
+
+msgid "Waxen"
+msgstr "شمعي"
+
+msgid "Waxer"
+msgstr "المُشمّع"
+
+msgid "Waxers"
+msgstr "المُشمّعون"
+
+msgid "Waxes"
+msgstr "الشموع"
+
+msgid "Waxier"
+msgstr "شمعي"
+
+msgid "Waxiest"
+msgstr "شمعي"
+
+msgid "Waxiness"
+msgstr "التشمّع"
+
+msgid "Waxing"
+msgstr "الصبح"
+
+msgid "Waxwing"
+msgstr "طائر الواكسوينج"
+
+msgid "Waxwork"
+msgstr "تمثال شمعي"
+
+msgid "Waxworks"
+msgstr "تماثيل شمعيّة"
+
+msgid "Waxy"
+msgstr "شمعي"
+
+msgid "Way"
+msgstr "الطريق"
+
+msgid "Way-out"
+msgstr "غير عاديّ، غريب"
+
+msgid "Wayan"
+msgstr "مدينة ويان"
+
+msgid "Waybill"
+msgstr "قائمة الشحن"
+
+msgid "Waybills"
+msgstr "قوائم الشحن"
+
+msgid "Wayed"
+msgstr "مروّض"
+
+msgid "Wayfare"
+msgstr "يسافر، السّفر"
+
+msgid "Wayfarer"
+msgstr "المسافر"
+
+msgid "Wayfarers"
+msgstr "المسافرون"
+
+msgid "Wayfaring"
+msgstr "جوّال"
+
+msgid "Wayghtes"
+msgstr "الانتظار، التأخير، الإيقاف"
+
+msgid "Waylaid"
+msgstr "كمن"
+
+msgid "Wayland"
+msgstr "ويلاند - ملك الأقزام. الأساطير الأوروبيّة"
+
+msgid "Waylay"
+msgstr "إكمن"
+
+msgid "Waylaying"
+msgstr "الكمين"
+
+msgid "Waylays"
+msgstr "يكمن"
+
+msgid "Waymark"
+msgstr "علامة في الطّريق للإرشاد في السّفر"
+
+msgid "Waymart"
+msgstr "مدينة ويمارت"
+
+msgid "Wayment"
+msgstr "الحزن، الرّثاء"
+
+msgid "Wayne"
+msgstr "وين"
+
+msgid "Waynesboro"
+msgstr "وينزبورو"
+
+msgid "Ways"
+msgstr "الطرق"
+
+msgid "Wayside"
+msgstr "جانب الطريق"
+
+msgid "Waysides"
+msgstr "جوانب الطريق"
+
+msgid "Wayward"
+msgstr "منفلت"
+
+msgid "Waywardly"
+msgstr "بشكل منفلت"
+
+msgid "Waywardness"
+msgstr "الشّذوذ"
+
+msgid "Waywardnesses"
+msgstr "الشّذوذ"
+
+msgid "Wayworn"
+msgstr "مرهق من جرّاء السّفر"
+
+msgid "Wazoo"
+msgstr "فتحة الشّرج"
+
+msgid "Wb"
+msgstr "الوحدة الدّوليّة للفيض المغناطيسيّ"
+
+msgid "Wc"
+msgstr "دورة المياه"
+
+msgid "WChan"
+msgstr "قناة"
+
+msgid "Wd"
+msgstr "خشب، جناح في المستشفى، كلمة"
+
+msgid "We"
+msgstr "نحن"
+
+msgid "Weak"
+msgstr "ضعيف"
+
+msgid "Weak-kneed"
+msgstr "مسلوب الإرادة"
+
+msgid "Weaken"
+msgstr "أضعف"
+
+msgid "Weakened"
+msgstr "ضعيف"
+
+msgid "Weakener"
+msgstr "مُضعِف"
+
+msgid "Weakening"
+msgstr "الإضعاف"
+
+msgid "Weakens"
+msgstr "يضعف"
+
+msgid "Weaker"
+msgstr "أضعف"
+
+msgid "Weakest"
+msgstr "الأضعف"
+
+msgid "Weaklier"
+msgstr "بشكل أضعف"
+
+msgid "Weakliest"
+msgstr "بالشكل الأضعف"
+
+msgid "Weakliness"
+msgstr "على النحو الضعيف"
+
+msgid "Weakling"
+msgstr "الضعيف"
+
+msgid "Weaklings"
+msgstr "الضعفاء"
+
+msgid "Weakly"
+msgstr "بضعف"
+
+msgid "Weakness"
+msgstr "الضعف"
+
+msgid "Weaknesses"
+msgstr "الضعف"
+
+msgid "Weal"
+msgstr "الرخاء"
+
+msgid "Weald"
+msgstr "منطقة الرّيف"
+
+msgid "Weals"
+msgstr "الجلد"
+
+msgid "Wealth"
+msgstr "الثروة"
+
+msgid "Wealthier"
+msgstr "أغنى"
+
+msgid "Wealthiest"
+msgstr "الأغنى"
+
+msgid "Wealthily"
+msgstr "بغنى"
+
+msgid "Wealthiness"
+msgstr "الغنى"
+
+msgid "Wealths"
+msgstr "الثروات"
+
+msgid "Wealthy"
+msgstr "ثري"
+
+msgid "Wean"
+msgstr "إفطم"
+
+msgid "Weaned"
+msgstr "مفطوم"
+
+msgid "Weaner"
+msgstr "مُفطِم"
+
+msgid "Weaning"
+msgstr "الفطم"
+
+msgid "Weanling"
+msgstr "الطفل الفطيم"
+
+msgid "Weans"
+msgstr "يفطم"
+
+msgid "Weapon"
+msgstr "السلاح"
+
+msgid "Weaponed"
+msgstr "مسلّح"
+
+msgid "Weaponless"
+msgstr "أعزل"
+
+msgid "Weaponries"
+msgstr "التسليح"
+
+msgid "Weaponry"
+msgstr "الأسلحة"
+
+msgid "Weapons"
+msgstr "الأسلحة"
+
+msgid "Wear"
+msgstr "الملابس"
+
+msgid "Wearability"
+msgstr "صلاحيّة اللبس"
+
+msgid "Wearable"
+msgstr "صالح للبس"
+
+msgid "Wearer"
+msgstr "اللابس"
+
+msgid "Wearied"
+msgstr "منهك"
+
+msgid "Wearier"
+msgstr "أكثر تعبا"
+
+msgid "Wearies"
+msgstr "ينهك"
+
+msgid "Weariest"
+msgstr "أكثر تعبا"
+
+msgid "Wearily"
+msgstr "بشكل متعب"
+
+msgid "Weariness"
+msgstr "التعب"
+
+msgid "Wearinesses"
+msgstr "التعب"
+
+msgid "Wearing"
+msgstr "اللبس"
+
+msgid "Wearingly"
+msgstr "بشكل متعب"
+
+msgid "Wearish"
+msgstr "بلا طعم، مرفوض"
+
+msgid "Wearisome"
+msgstr "مرهق"
+
+msgid "Wearisomely"
+msgstr "بشكل مرهق"
+
+msgid "Wearisomeness"
+msgstr "الإرهاق"
+
+msgid "Wears"
+msgstr "الملابس"
+
+msgid "Weary"
+msgstr "مرهق"
+
+msgid "Wearying"
+msgstr "متعب"
+
+msgid "Weasand"
+msgstr "الحنجرة"
+
+msgid "Weasel"
+msgstr "إبن عرس"
+
+msgid "Weaseled"
+msgstr "مراوغ"
+
+msgid "Weaseling"
+msgstr "مراوغة"
+
+msgid "Weasels"
+msgstr "حيوانات ابن عرس"
+
+msgid "Weaser"
+msgstr "ويسير - ضرب من البط الغواص"
+
+msgid "Weasiness"
+msgstr "الشّغف الجسديّ"
+
+msgid "Weasy"
+msgstr "مال إلى الشّغف الجسديّ، النّهم"
+
+msgid "Weather"
+msgstr "الطقس"
+
+msgid "Weather-bound"
+msgstr "مغلق بسبب رداءة الجو"
+
+msgid "Weatherbeaten"
+msgstr "خشن"
+
+msgid "Weatherboarding"
+msgstr "لوح طويل ورفيع"
+
+msgid "Weatherby"
+msgstr "مدينة ويثيربي"
+
+msgid "Weathercock"
+msgstr "الدّوّارة"
+
+msgid "Weathercocks"
+msgstr "الدّوّارات"
+
+msgid "Weathered"
+msgstr "متجاوز"
+
+#, Name
+msgid "Weatherford"
+msgstr "وثرفورد"
+
+msgid "Weathergaw"
+msgstr "قوس قزح صغير"
+
+msgid "Weatherglass"
+msgstr "جهاز بسيط لقياس الضّغط الجوّي"
+
+msgid "Weathering"
+msgstr "التجاوز"
+
+msgid "Weatherly"
+msgstr "مماشي للرياح"
+
+msgid "Weatherman"
+msgstr "خبير الأرصاد الجوية"
+
+msgid "Weathermen"
+msgstr "خبراء الأرصاد الجوية"
+
+msgid "Weatherproof"
+msgstr "مقاوم للطقس"
+
+msgid "Weatherproofed"
+msgstr "معدّ لمقاومة الطقس"
+
+msgid "Weatherproofing"
+msgstr "مقاومة الطقس"
+
+msgid "Weatherproofness"
+msgstr "مقاومة الطقس"
+
+msgid "Weatherproofs"
+msgstr "مقاومة الطقس"
+
+msgid "Weathers"
+msgstr "تقلبات الثروة"
+
+msgid "Weatherstrip"
+msgstr "السّير الوقائي"
+
+msgid "Weatherstripping"
+msgstr "السّير الوقائي"
+
+msgid "Weathervane"
+msgstr "أداة ميكانيكيّة لتحديد إتّجاه الرّيح"
+
+msgid "Weave"
+msgstr "الحياكة"
+
+msgid "Weaved"
+msgstr "نسج"
+
+msgid "Weaver"
+msgstr "الحائك"
+
+msgid "Weaverbird"
+msgstr "طائر ويفيربيرد"
+
+msgid "Weavers"
+msgstr "الحياك"
+
+msgid "Weaves"
+msgstr "الحياكة"
+
+msgid "Weaving"
+msgstr "النسج"
+
+msgid "Weazen"
+msgstr "نحيل"
+
+msgid "Weazin"
+msgstr "نحيل"
+
+msgid "Web"
+msgstr "شبكة"
+
+msgid "Web browser"
+msgstr "برنامج لعرض و رؤية صفحات على الإنترنت"
+
+#, Name
+msgid "Webb"
+msgstr "وبّ"
+
+msgid "Webbed"
+msgstr "غشائي"
+
+#, Name
+msgid "Webber"
+msgstr "وبّر"
+
+msgid "Webbing"
+msgstr "شريط التنجيد"
+
+msgid "Webbings"
+msgstr "أشرطة التنجيد"
+
+msgid "Webby"
+msgstr "متشابك مثل بيت العنكبوت"
+
+msgid "Webcasting"
+msgstr "البث الإذاعي او التلفزيوني على الإنترنت"
+
+msgid "Webcrawler"
+msgstr "ويبكرولر - أحد أنظمة البحث على الإنترنت"
+
+msgid "Weber"
+msgstr "وِبر"
+
+msgid "Webfoot"
+msgstr "الرِّجل المشبكة"
+
+msgid "Weblike"
+msgstr "يشبه بيت العنكبوت"
+
+msgid "Webmaster"
+msgstr "الشّخص المسؤول عن نظام الويب"
+
+msgid "Webmistress"
+msgstr "المرأة المسؤولة عن نظام الويب"
+
+msgid "Webpage"
+msgstr "صفحة الويب"
+
+msgid "Webs"
+msgstr "الشبكات"
+
+msgid "Webster"
+msgstr "ويبستر"
+
+msgid "Websters"
+msgstr "نسّاجو القماش"
+
+msgid "Websterville"
+msgstr "ويبسترفيل"
+
+msgid "Webworm"
+msgstr "يرقات الفراشة"
+
+msgid "WECo"
+msgstr "الشّركة الكهربائيّة الغربيّة"
+
+msgid "Wed"
+msgstr "الأربعاء"
+
+msgid "Wedded"
+msgstr "متمسّك"
+
+msgid "Wedding"
+msgstr "الزفاف"
+
+msgid "Weddings"
+msgstr "حفلات الزفاف"
+
+msgid "Weder"
+msgstr "الجوّ، الطّقس"
+
+msgid "Wedge"
+msgstr "الوتدّ"
+
+msgid "Wedged"
+msgstr "وتد"
+
+msgid "Wedgefield"
+msgstr "مدينة ويدجفيلد"
+
+msgid "Wedges"
+msgstr "الأوتاد"
+
+msgid "Wedgie"
+msgstr "حذاء ذو كعب كما الإسفين او الوتد"
+
+msgid "Wedgies"
+msgstr "أحذية ذات كعب كما الإسفين او الوتد"
+
+msgid "Wedging"
+msgstr "التوتيد"
+
+msgid "Wedgy"
+msgstr "مثل الإسفين او الوتد"
+
+msgid "Wedlock"
+msgstr "الزواج"
+
+msgid "Wedlocks"
+msgstr "الزيجات"
+
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+msgid "Wednesdays"
+msgstr "أيام الأربعاء"
+
+msgid "Weds"
+msgstr "يتزوّج"
+
+msgid "Wee"
+msgstr "صغير جدا"
+
+msgid "Weeble"
+msgstr "تستخدم كتعبير عن الإحباط"
+
+msgid "Weed"
+msgstr "العشب الضار"
+
+msgid "Weeded"
+msgstr "مزال الأعشاب"
+
+msgid "Weeder"
+msgstr "مزيل الأعشاب"
+
+msgid "Weedier"
+msgstr "أكثر عشبا"
+
+msgid "Weediest"
+msgstr "الأكثر عشبا"
+
+msgid "Weedily"
+msgstr "بأعشاب"
+
+msgid "Weediness"
+msgstr "كمية الأعشاب في مكان ما"
+
+msgid "Weeding"
+msgstr "إزالة أعشاب"
+
+msgid "Weeds"
+msgstr "الأعشاب الضارة"
+
+msgid "Weedy"
+msgstr "ملئ بالأعشاب"
+
+msgid "Week"
+msgstr "الإسبوع"
+
+msgid "Week-end"
+msgstr "عطلة نهاية الأسبوع"
+
+msgid "Weekday"
+msgstr "يوم العمل"
+
+msgid "Weekdays"
+msgstr "أيام العمل"
+
+msgid "Weekend"
+msgstr "عطلة نهاية الأسبوع"
+
+msgid "Weekender"
+msgstr "زائر عطلة نهاية الأسبوع"
+
+msgid "Weekenders"
+msgstr "زوّار عطلة نهاية الأسبوع"
+
+msgid "Weekends"
+msgstr "عطل نهاية الأسبوع"
+
+msgid "Weeklies"
+msgstr "النشرات الأسبوعية"
+
+msgid "Weekly"
+msgstr "أسبوعي"
+
+msgid "Weeknight"
+msgstr "ليلة أي يوم من أيّام الأسبوع باستثناء ليالي أيّام نهاية الأسبوع"
+
+msgid "Weeks"
+msgstr "الأسابيع"
+
+msgid "Weel"
+msgstr "مصيدة للسمك"
+
+msgid "Weems"
+msgstr "ويمز - قسّيس و كاتب أمريكي"
+
+msgid "Ween"
+msgstr "إعتقد"
+
+msgid "Weenie"
+msgstr "النّقانق"
+
+msgid "Weenix"
+msgstr "المصطلح الازدرائيّ لنظام التشغيل يونيكس"
+
+msgid "Weens"
+msgstr "يعتقد"
+
+msgid "Weeny"
+msgstr "صغير جدّاً"
+
+msgid "Weep"
+msgstr "إبك"
+
+msgid "Weeper"
+msgstr "باكي"
+
+msgid "Weepers"
+msgstr "باكون"
+
+msgid "Weeping"
+msgstr "البكاء"
+
+msgid "Weeps"
+msgstr "يبكي"
+
+msgid "Weepy"
+msgstr "سريع البكاء"
+
+msgid "Weesel"
+msgstr "حيوان العرسة"
+
+msgid "Weet"
+msgstr "يعرف، يعلم"
+
+msgid "Weever"
+msgstr "سمكة الويفير"
+
+msgid "Weevil"
+msgstr "السوسة"
+
+msgid "Weevils"
+msgstr "السوس"
+
+msgid "Weevily"
+msgstr "متسوّس"
+
+msgid "Weewee"
+msgstr "يتبوّل، البول"
+
+msgid "Weezel"
+msgstr "حيوان العرسة"
+
+msgid "Weft"
+msgstr "اللّحمة"
+
+msgid "Weftage"
+msgstr "الملمس"
+
+msgid "Wefts"
+msgstr "اللّحمات"
+
+msgid "Wegotism"
+msgstr "الاستعمال الزّائد للضّمير نحن"
+
+#, Name
+msgid "Wehr"
+msgstr "وير"
+
+msgid "Wehrgelt"
+msgstr "الدّية - مال يدفع مقابل نفس مزهوقة"
+
+msgid "Wehrwolf"
+msgstr "إنسان تحوّل الى ذئب"
+
+#, Name
+msgid "Wei"
+msgstr "وييْ"
+
+msgid "Weider"
+msgstr "وييْدر"
+
+msgid "Weidman"
+msgstr "ويدمان"
+
+msgid "Weigela"
+msgstr "شجرة الوجيلة"
+
+msgid "Weigh"
+msgstr "زن"
+
+msgid "Weighable"
+msgstr "قابل للوزن"
+
+msgid "Weighed"
+msgstr "موزون"
+
+msgid "Weigher"
+msgstr "وازن"
+
+msgid "Weighers"
+msgstr "وازنون"
+
+msgid "Weighing"
+msgstr "الوزن"
+
+msgid "Weighings"
+msgstr "الوزن"
+
+msgid "Weighs"
+msgstr "يزن"
+
+msgid "Weight"
+msgstr "الوزن"
+
+msgid "Weighted"
+msgstr "مرجّح"
+
+msgid "Weightier"
+msgstr "أثقل"
+
+msgid "Weightiest"
+msgstr "أثقل"
+
+msgid "Weightily"
+msgstr "بشكل ثقيل"
+
+msgid "Weightiness"
+msgstr "الثِّقَلْ"
+
+msgid "Weighting"
+msgstr "العلاوة"
+
+msgid "Weightings"
+msgstr "القيم"
+
+msgid "Weightless"
+msgstr "عديم الوزن"
+
+msgid "Weightlessly"
+msgstr "بانعدام الوزن"
+
+msgid "Weightlessness"
+msgstr "إنعدام الوزن"
+
+msgid "Weightlifting"
+msgstr "رفع الأثقال"
+
+msgid "Weights"
+msgstr "الأوزان"
+
+msgid "Weighty"
+msgstr "ثقيل"
+
+msgid "Weimar"
+msgstr "مدينة ويمار"
+
+msgid "Weimaraner"
+msgstr "الوايمري - نوع من كلاب الصّيد"
+
+msgid "Weinberg"
+msgstr "وينبيرج"
+
+msgid "Weiner"
+msgstr "وينير"
+
+msgid "Weinstein"
+msgstr "وينشتاين"
+
+msgid "Weir"
+msgstr "السدّ"
+
+msgid "Weird"
+msgstr "غربة"
+
+msgid "Weirder"
+msgstr "أغرب"
+
+msgid "Weirdest"
+msgstr "أغرب"
+
+msgid "Weirdie"
+msgstr "غريب الأطوار"
+
+msgid "Weirdly"
+msgstr "بغرابة"
+
+msgid "Weirdness"
+msgstr "الغرابة"
+
+msgid "Weirdnesses"
+msgstr "الغرابة"
+
+msgid "Weirdo"
+msgstr "الشاذّ"
+
+msgid "Weirdos"
+msgstr "الشاذّ"
+
+msgid "Weirdy"
+msgstr "غريب الأطوار"
+
+msgid "Weirs"
+msgstr "السدود"
+
+msgid "Weism"
+msgstr "الاستعمال الزّائد للضّمير نحن"
+
+msgid "Weiss"
+msgstr "ويس"
+
+msgid "Weissman"
+msgstr "ويسمان"
+
+msgid "Weissmuller"
+msgstr "ويسمولير"
+
+msgid "Weive"
+msgstr "ترك، تخلّى"
+
+msgid "Weka"
+msgstr "طائر الويكا"
+
+msgid "Wekau"
+msgstr "ويكاو - نوع من أنواع البوم"
+
+msgid "Welby"
+msgstr "مدينة ويلبي"
+
+msgid "Welch"
+msgstr "تهرّب من السداد"
+
+msgid "Welcher"
+msgstr "المتهرّب من السداد"
+
+msgid "Welches"
+msgstr "يتهرّب من السّداد"
+
+msgid "Welchman"
+msgstr "مواطن أو ساكن ويلز"
+
+msgid "Welcome"
+msgstr "مرحّب"
+
+msgid "Welcomed"
+msgstr "مرحّب به"
+
+msgid "Welcomely"
+msgstr "بترحاب"
+
+msgid "Welcomeness"
+msgstr "التّرحاب"
+
+msgid "Welcomer"
+msgstr "مُرحِّب"
+
+msgid "Welcomes"
+msgstr "يرحّب ب"
+
+msgid "Welcoming"
+msgstr "الترحيب"
+
+msgid "Weld"
+msgstr "اللحام"
+
+msgid "Weldable"
+msgstr "قابل للِّحام"
+
+msgid "Welded"
+msgstr "ملحوم"
+
+msgid "Welder"
+msgstr "اللحِّام"
+
+msgid "Welders"
+msgstr "اللّحّامون"
+
+msgid "Welding"
+msgstr "اللحيم"
+
+msgid "Weldings"
+msgstr "اللحيم"
+
+msgid "Weldment"
+msgstr "أجزاء ملحومة مع بعضها البعض"
+
+#, Name
+msgid "Weldon"
+msgstr "ويلدون"
+
+msgid "Welds"
+msgstr "يلحم"
+
+msgid "Wele"
+msgstr "الرّخاء، السّعادة، الرّاحة"
+
+msgid "Welfare"
+msgstr "الرفاهية"
+
+msgid "Welfares"
+msgstr "الرفاهية"
+
+msgid "Welfarist"
+msgstr "التّعلّق بالرّفاهية"
+
+msgid "Welk"
+msgstr "يذبل، يضمحل"
+
+msgid "Welked"
+msgstr "ذبل، إضمحلّ"
+
+msgid "Welkin"
+msgstr "السماء"
+
+msgid "Welking"
+msgstr "الإضمحلال، الذّبول"
+
+msgid "Welkins"
+msgstr "السماوات"
+
+msgid "Well"
+msgstr "حسنا"
+
+msgid "Well-adjusted"
+msgstr "متكيّف، خالي من الاضطراب السّيكولوجيّ"
+
+msgid "Well-appointed"
+msgstr "مجهّز تجهيز كامل"
+
+msgid "Well-balanced"
+msgstr "متّزن، ذو عقل سويّ"
+
+msgid "Well-being"
+msgstr "الإزدهار، السّعادة، وفرة الصّحة"
+
+msgid "Well-defined"
+msgstr "معرّف بصورة واضحة"
+
+msgid "Well-educated"
+msgstr "ذو تأهيل تعليمي عالي"
+
+msgid "Well-formed"
+msgstr "متّفق مع قواعد اللغة"
+
+msgid "Well-founded"
+msgstr "على أساس صحيح"
+
+msgid "Well-groomed"
+msgstr "مهندم"
+
+msgid "Well-heeled"
+msgstr "غنيّ بشكل معتدل"
+
+msgid "Well-known"
+msgstr "مشهور"
+
+msgid "Well-mannered"
+msgstr "ذو تربية صالحة، ذو أخلاق حميدة"
+
+msgid "Well-nigh"
+msgstr "العمل الغير مُنجز بالكامل"
+
+msgid "Well-off"
+msgstr "غنيّ بشكل معتدل"
+
+msgid "Well-read"
+msgstr "مطّلع من جرّاء القراءة"
+
+msgid "Well-rounded"
+msgstr "ذو خبرات جمّة، شامل"
+
+msgid "Well-situated"
+msgstr "غنيّ بشكل معتدل"
+
+msgid "Well-spring"
+msgstr "مصدر مخزون متواصل"
+
+msgid "Well-to-do"
+msgstr "غنيّ بشكل معتدل"
+
+msgid "Well-worn"
+msgstr "متكرر، مستعمل بشكل كبير"
+
+msgid "Well-written"
+msgstr "مطّلع على الأدب"
+
+msgid "Wellbeing"
+msgstr "العافية"
+
+msgid "Welled"
+msgstr "متدفّق"
+
+msgid "Weller"
+msgstr "بشكل جيد"
+
+#, Name
+msgid "Welles"
+msgstr "وِلِيسْ"
+
+#, Name
+msgid "Wellesley"
+msgstr "وِلِيسلي"
+
+msgid "Wellfare"
+msgstr "الصِّحة"
+
+msgid "Wellhead"
+msgstr "بناء فوق البئر"
+
+msgid "Welling"
+msgstr "التدفّق"
+
+msgid "Wellington"
+msgstr "ولينغتون"
+
+msgid "Wellingtons"
+msgstr "نوع من الأحذية الطويلة للرّجال"
+
+#, Name
+msgid "Wellman"
+msgstr "ولْمان"
+
+msgid "Wellness"
+msgstr "الصحّة"
+
+msgid "Wells"
+msgstr "آبار"
+
+msgid "Wellspring"
+msgstr "المنبع"
+
+msgid "Wellsprings"
+msgstr "المنابع"
+
+msgid "Wellsville"
+msgstr "ويلسفيل"
+
+msgid "Wellwisher"
+msgstr "المتمنّي الخير للآخرين"
+
+msgid "Wels"
+msgstr "ولز - قرموط أوربّيّ كبير"
+
+msgid "Welsh"
+msgstr "تهرّب من السداد"
+
+msgid "Welshed"
+msgstr "تهرّب من السداد"
+
+msgid "Welsher"
+msgstr "متهرّب من السّداد"
+
+msgid "Welshes"
+msgstr "يتهرّب من السّداد"
+
+msgid "Welshing"
+msgstr "التهرّب من السّداد"
+
+msgid "Welshman"
+msgstr "المواطن أو ساكن ويلز"
+
+msgid "Welt"
+msgstr "الكدْمة"
+
+msgid "Weltanschauung"
+msgstr "النظرة العامّة للعالم او المجتمع"
+
+msgid "Weltanschauungen"
+msgstr "النظرات العامّة للعالم او المجتمع"
+
+msgid "Welted"
+msgstr "مجلود"
+
+msgid "Welter"
+msgstr "الفوضى"
+
+msgid "Weltered"
+msgstr "متقلّب"
+
+msgid "Weltering"
+msgstr "التقلّب"
+
+msgid "Welters"
+msgstr "الفوضى"
+
+msgid "Welterweight"
+msgstr "الملاكم الذي لا يزن أكثر من 147 رطل"
+
+msgid "Welts"
+msgstr "الكدمات"
+
+msgid "Weltschmertz"
+msgstr "التّشاؤم العاطفيّ"
+
+msgid "Weltschmerz"
+msgstr "الحزن و التّفكير في شرور العالم"
+
+msgid "Welty"
+msgstr "ويلتاي - كاتب من الولايات المتّحدة عن الحياة الجنوبيّة الريفيّة"
+
+msgid "Wem"
+msgstr "البطن، الرّحم"
+
+msgid "Wen"
+msgstr "دمّل"
+
+msgid "Wen-ti"
+msgstr "إله الأدب الصّينيّ"
+
+msgid "Wench"
+msgstr "الفتاة"
+
+msgid "Wencher"
+msgstr "مسوّق العاهرات"
+
+msgid "Wenches"
+msgstr "الفتيات"
+
+msgid "Wenching"
+msgstr "مضاجعة إمرأة صغيرة بالسّن"
+
+msgid "Wend"
+msgstr "إذهب"
+
+msgid "Wended"
+msgstr "ذاهب"
+
+msgid "Wendel"
+msgstr "مدينة ويندل "
+
+#, Name
+msgid "Wendell"
+msgstr "ونْدل"
+
+msgid "Wendic"
+msgstr "لغة الوينديك"
+
+msgid "Wending"
+msgstr "الذهاب"
+
+msgid "Wendish"
+msgstr "لغة الوينديش"
+
+msgid "Wends"
+msgstr "يذهب"
+
+msgid "Wendy"
+msgstr "ويندي"
+
+msgid "Wene"
+msgstr "يفكّر، يقترح"
+
+msgid "Wennish"
+msgstr "يشبه الدّمّل"
+
+msgid "Wenny"
+msgstr "يشبه الدّمّل"
+
+msgid "Went"
+msgstr "ذهب"
+
+msgid "Wentletrap"
+msgstr "نوع من الحلزونات البحريّة"
+
+msgid "Wentworth"
+msgstr "وِنْتْ وورث"
+
+msgid "Wepen"
+msgstr "السّلاح"
+
+msgid "Wept"
+msgstr "بكى"
+
+#, City
+msgid "Werden"
+msgstr "فيردن"
+
+msgid "Were"
+msgstr "كان"
+
+msgid "Weregelt"
+msgstr "الدّيّة"
+
+msgid "Weregild"
+msgstr "الدّيّة"
+
+msgid "Werewolf"
+msgstr "المذؤوب"
+
+msgid "Werewolves"
+msgstr "المذؤوبون"
+
+msgid "Werk"
+msgstr "العمل، الشّغل"
+
+msgid "Werke"
+msgstr "العمل، الشّغل"
+
+#, Name
+msgid "Werner"
+msgstr "ويرنر"
+
+msgid "Werre"
+msgstr "الحرب"
+
+msgid "Werst"
+msgstr "مقياس روسيّ للطّول ويتكوّن من 3,500 قدم"
+
+#, Name
+msgid "Wert"
+msgstr "ويرت"
+
+#, Name
+msgid "Werther"
+msgstr "ويرتر"
+
+msgid "Wesand"
+msgstr "الحنجرة"
+
+msgid "Wesil"
+msgstr "الحنجرة"
+
+#, Name
+msgid "Wesley"
+msgstr "وِزْلي"
+
+msgid "Wesleyan"
+msgstr "الوِزْليّ"
+
+msgid "Wesleyanism"
+msgstr "العقيدة الكنسيّة لـ جون ويزلي"
+
+msgid "Wesson"
+msgstr "ويسون"
+
+msgid "West"
+msgstr "الغرب"
+
+msgid "West-central"
+msgstr "الغرب الأوسط - يشمل ولاية كولورادو، نيفادا، و يوتاهّ"
+
+msgid "Westboro"
+msgstr "مدينة ويستبورو"
+
+msgid "Westborough"
+msgstr "مدينة ويستبورو"
+
+msgid "Westbound"
+msgstr "متجّه غربا"
+
+msgid "Westbrook"
+msgstr "وسْتبرُوك"
+
+#, Name
+msgid "Westchester"
+msgstr "وِستشِسْتر"
+
+msgid "Westcliffe"
+msgstr "مدينة ويستكليف"
+
+msgid "Wester"
+msgstr "يغرّب"
+
+msgid "Westered"
+msgstr "غرّب"
+
+msgid "Westering"
+msgstr "تغريب"
+
+msgid "Westerlies"
+msgstr "الغربيون"
+
+msgid "Westerly"
+msgstr "باتجاه الغرب"
+
+msgid "Western"
+msgstr "غربي"
+
+msgid "Westerner"
+msgstr "الغربي"
+
+msgid "Westerners"
+msgstr "الغربيون"
+
+msgid "Westernization"
+msgstr "استيعاب الثّقافة الغربيّة"
+
+msgid "Westernize"
+msgstr "غرّب"
+
+msgid "Westernized"
+msgstr "غربي"
+
+msgid "Westernizes"
+msgstr "يغرّب"
+
+msgid "Westernizing"
+msgstr "التغرّب"
+
+msgid "Westernmost"
+msgstr "أقصى الغرب"
+
+msgid "Westerns"
+msgstr "أفلام الغرب"
+
+#, Name
+msgid "Westfield"
+msgstr "وسْتفيلد"
+
+msgid "Westhampton"
+msgstr "ويستايمبتون"
+
+msgid "Westing"
+msgstr "الذهاب بإتجاه الغرب"
+
+msgid "Westinghouse"
+msgstr "ويستينغوس"
+
+msgid "Westland"
+msgstr "مدينة ويستلاند"
+
+msgid "Westling"
+msgstr "الغربي"
+
+msgid "Westminster"
+msgstr "ويست مينستر"
+
+msgid "Westmore"
+msgstr "ويسمور"
+
+msgid "Weston"
+msgstr "ويستن"
+
+msgid "Westphalia"
+msgstr "ويستفاليا"
+
+msgid "Westport"
+msgstr "ويستبورت"
+
+msgid "Westside"
+msgstr "الجانب الغربي من المدينة"
+
+msgid "Westward"
+msgstr "غربي"
+
+msgid "Westwards"
+msgstr "غربا"
+
+msgid "Westwood"
+msgstr "ويستوود"
+
+msgid "Westworth"
+msgstr "مدينة ويستوورث"
+
+msgid "Westy"
+msgstr "مصاب بدوار"
+
+msgid "Wet"
+msgstr "رطب"
+
+msgid "Wet nurse"
+msgstr "المُرضعة، المرأة التي تقوم برضاعة أطفال ليسو بأطفالها"
+
+msgid "Wetback"
+msgstr "مصطلح بغيض لشخص من أصل مكسيكيّ"
+
+msgid "Wether"
+msgstr "الكبش المخصيّ"
+
+msgid "Wethers"
+msgstr "الكِباش المخصيّة"
+
+msgid "Wetland"
+msgstr "الهور"
+
+msgid "Wetlands"
+msgstr "الأهوار"
+
+msgid "Wetly"
+msgstr "بشكل رطب"
+
+msgid "Wetmore"
+msgstr "مدينة ويتمور"
+
+msgid "Wetness"
+msgstr "البلل"
+
+msgid "Wetonka"
+msgstr "مدينة ويتونكا"
+
+msgid "Wets"
+msgstr "الأمطار"
+
+#, Wood Energy Technology Training
+msgid "Wett"
+msgstr "منظمة التدريب على تقنية طاقة الخشب"
+
+msgid "Wetted"
+msgstr "مبلّل"
+
+msgid "Wetter"
+msgstr "أكثر بللا"
+
+msgid "Wettest"
+msgstr "أكثر بللا"
+
+msgid "Wetting"
+msgstr "الرطوبة"
+
+msgid "Wettish"
+msgstr "نوعًا ما مبلّل، رطب"
+
+msgid "Wetware"
+msgstr "الجهاز العصبي"
+
+msgid "Wever"
+msgstr "مدينة ويفر"
+
+msgid "Wevil"
+msgstr "نوع من الخنافس، السّوسة"
+
+msgid "Wex"
+msgstr "يكبر، ينمو"
+
+msgid "Wey"
+msgstr "الطّريق"
+
+msgid "Weyerhaeuser"
+msgstr "شركة وييرهايسر"
+
+msgid "Weyerhauser"
+msgstr "وييِرهاوزر"
+
+msgid "Weymouth"
+msgstr "مدينة وايموث"
+
+msgid "Weyve"
+msgstr "يتخلّى عن"
+
+msgid "WFF"
+msgstr "صيغة مشكّلة جيّدًا"
+
+msgid "Whack"
+msgstr "إضرب"
+
+msgid "Whacked"
+msgstr "مضروب"
+
+msgid "Whacker"
+msgstr "الضّارب"
+
+msgid "Whackers"
+msgstr "الضّاروب"
+
+msgid "Whacking"
+msgstr "الضرب"
+
+msgid "Whacks"
+msgstr "يضرب"
+
+msgid "Whala"
+msgstr "يترك آثار ضرب، يجلد"
+
+msgid "Whale"
+msgstr "الحوت"
+
+msgid "Whaleboat"
+msgstr "قارب النجاة"
+
+msgid "Whaleboats"
+msgstr "قوارب النجاة"
+
+msgid "Whalebone"
+msgstr "عظمة الحوت"
+
+msgid "Whalebones"
+msgstr "عظام الحوت"
+
+msgid "Whaled"
+msgstr "مصيد حيتان"
+
+msgid "Whalen"
+msgstr "والن"
+
+msgid "Whaler"
+msgstr "سفينة صيد الحيتان"
+
+msgid "Whalers"
+msgstr "سفن صيد الحيتان"
+
+msgid "Whales"
+msgstr "الحيتان"
+
+msgid "Whaling"
+msgstr "صيد حيتان"
+
+msgid "Wham"
+msgstr "إضرب"
+
+msgid "Whammel"
+msgstr "ينقلب، يلتف"
+
+msgid "Whammies"
+msgstr "الضربات"
+
+msgid "Whamming"
+msgstr "الضرب"
+
+msgid "Whammy"
+msgstr "الضربة"
+
+msgid "Whams"
+msgstr "يضرب"
+
+msgid "Whang"
+msgstr "ضربة سوط، يضرب بالسّوط، العضو الذّكري"
+
+msgid "Whangdoodle"
+msgstr "كائن حي خرافي"
+
+msgid "Whap"
+msgstr "يضرب بشدّة"
+
+msgid "Wharf"
+msgstr "رصيف المرفأ"
+
+msgid "Wharfage"
+msgstr "رسوم الرصيف"
+
+msgid "Wharfinger"
+msgstr "مالك او مدير رصيف المرفأ"
+
+msgid "Wharfs"
+msgstr "أرصفة الميناء"
+
+msgid "Wharp"
+msgstr "رمل ناعم"
+
+msgid "Wharton"
+msgstr "وارتون - كاتب أمريكيّ"
+
+msgid "Wharves"
+msgstr "أرصفة الميناء"
+
+msgid "What"
+msgstr "أي"
+
+msgid "Whatchamacallit"
+msgstr "ما يُسمّى"
+
+msgid "Whatchamacallits"
+msgstr "ما يُسمّى"
+
+msgid "Whatever"
+msgstr "مهما"
+
+msgid "Whatley"
+msgstr "واتلي"
+
+msgid "Whatnot"
+msgstr "الخزانة"
+
+msgid "Whatso"
+msgstr "أي شيء، أيّ كان"
+
+msgid "Whatsoever"
+msgstr "مطلقا"
+
+msgid "Whaup"
+msgstr "الكروان"
+
+msgid "Wheal"
+msgstr "البثرة"
+
+msgid "Wheals"
+msgstr "البثرات"
+
+msgid "Wheat"
+msgstr "الحنطة"
+
+msgid "Wheatear"
+msgstr "طائر الويتر"
+
+msgid "Wheaten"
+msgstr "قمحي"
+
+#, Name
+msgid "Wheatland"
+msgstr "ويتﻻند"
+
+msgid "Wheatley"
+msgstr "هويتلي - شاعر أمريكيّ إفريقيّ المولد"
+
+#, Name
+msgid "Wheaton"
+msgstr "ويتون"
+
+#, Name
+msgid "Wheatstone"
+msgstr "ويتستون"
+
+msgid "Whee"
+msgstr "تعبير عن قمّة السعادة"
+
+msgid "Wheedle"
+msgstr "تملّق"
+
+msgid "Wheedled"
+msgstr "متملّق"
+
+msgid "Wheedles"
+msgstr "يتملّق"
+
+msgid "Wheedling"
+msgstr "التملّق"
+
+msgid "Wheedlingly"
+msgstr "بشكل متملّق"
+
+msgid "Wheel"
+msgstr "العجلة"
+
+msgid "Wheel-barrow"
+msgstr "رابية عجلة"
+
+msgid "Wheelbarrow"
+msgstr "عربة اليدّ"
+
+msgid "Wheelbarrows"
+msgstr "عربات اليدّ"
+
+msgid "Wheelbase"
+msgstr "المسافة بين مركر الإطار الأمامي والمحور الخلفي للسيارة"
+
+msgid "Wheelchair"
+msgstr "كرسي المعوّقين"
+
+msgid "Wheelchairs"
+msgstr "كراسي المعوّقين"
+
+msgid "Wheeled"
+msgstr "ذو عجلات"
+
+msgid "Wheeler"
+msgstr "النّاقل"
+
+msgid "Wheelers"
+msgstr "النّاقلون"
+
+msgid "Wheelhouse"
+msgstr "غرفة القيادة"
+
+msgid "Wheelhouses"
+msgstr "غرف القيادة"
+
+msgid "Wheelie"
+msgstr "حركة بهلوانية بالدراجة"
+
+msgid "Wheeling"
+msgstr "الدوران حول المحور"
+
+#, Name
+msgid "Wheelock"
+msgstr "ويلك"
+
+msgid "Wheels"
+msgstr "العجلات"
+
+msgid "Wheelwork"
+msgstr "عمل المسنّنات"
+
+msgid "Wheelwright"
+msgstr "من يقوم بصناعة وإنتاج الإطارات الخشبيّة"
+
+msgid "Wheen"
+msgstr "كميّة كبيرة، عدد كبير"
+
+msgid "Wheeze"
+msgstr "الأزيز"
+
+msgid "Wheezed"
+msgstr "متنفّس"
+
+msgid "Wheezes"
+msgstr "الأفكار"
+
+msgid "Wheezier"
+msgstr "أكثر أزيزاً"
+
+msgid "Wheezily"
+msgstr "بأزيز"
+
+msgid "Wheeziness"
+msgstr "الأزيز"
+
+msgid "Wheezing"
+msgstr "التنفّس"
+
+msgid "Wheezy"
+msgstr "ذو أزيز"
+
+msgid "Wheft"
+msgstr "قطعة من القماش توضع في أعلى سارية القارب لتبيّن إتّجاه الرّيح"
+
+#, Name
+msgid "Whelan"
+msgstr "ويلان"
+
+msgid "Whelk"
+msgstr "الحلزون البحري"
+
+msgid "Whelks"
+msgstr "الحلزونات البحرية"
+
+#, Name
+msgid "Wheller"
+msgstr "ويلّر"
+
+msgid "Whelm"
+msgstr "غطّ"
+
+msgid "Whelmed"
+msgstr "مغطّى"
+
+msgid "Whelming"
+msgstr "التغطية"
+
+msgid "Whelms"
+msgstr "يغطّي"
+
+msgid "Whelp"
+msgstr "الجرو"
+
+msgid "Whelped"
+msgstr "منجب"
+
+msgid "Whelping"
+msgstr "الإنجاب"
+
+msgid "Whelps"
+msgstr "الجراء"
+
+msgid "When"
+msgstr "متى"
+
+msgid "Whence"
+msgstr "من حيث"
+
+msgid "Whenceforth"
+msgstr "من أين، من أي مكان"
+
+msgid "Whencesoever"
+msgstr "من أين، من أي مكان"
+
+msgid "Whencever"
+msgstr "كلّما"
+
+msgid "Whenever"
+msgstr "حينما"
+
+msgid "Whennes"
+msgstr "من أين، من أي مكان"
+
+msgid "Whensoever"
+msgstr "كلما"
+
+msgid "Where"
+msgstr "أين"
+
+msgid "Whereabout"
+msgstr "المكان"
+
+msgid "Whereabouts"
+msgstr "المكان"
+
+msgid "Whereas"
+msgstr "بينما"
+
+msgid "Whereat"
+msgstr "حيث"
+
+msgid "Whereby"
+msgstr "حيث"
+
+msgid "Whereever"
+msgstr "أينما"
+
+msgid "Wherefor"
+msgstr "لأي سبب؟"
+
+msgid "Wherefore"
+msgstr "ولهذا السبب"
+
+msgid "Wherefores"
+msgstr "الأسباب"
+
+msgid "Wherefrom"
+msgstr "من أينما"
+
+msgid "Wherein"
+msgstr "عن طريق"
+
+msgid "Whereof"
+msgstr "عمّا"
+
+msgid "Whereon"
+msgstr "حيث"
+
+msgid "Whereso"
+msgstr "أينما"
+
+msgid "Wheresoever"
+msgstr "أينما"
+
+msgid "Whereto"
+msgstr "إلى أين"
+
+msgid "Whereunto"
+msgstr "إلى أين؟"
+
+msgid "Whereupon"
+msgstr "عند ذلك"
+
+msgid "Wherever"
+msgstr "حيثما"
+
+msgid "Wherewith"
+msgstr "بماذا"
+
+msgid "Wherewithal"
+msgstr "الأسباب"
+
+msgid "Wherewithals"
+msgstr "الأسباب"
+
+msgid "Wherret"
+msgstr "يسرع, يقلق, يداعب"
+
+msgid "Wherries"
+msgstr "القوارب"
+
+msgid "Wherry"
+msgstr "القارب"
+
+msgid "Whet"
+msgstr "إشحذ"
+
+msgid "Whether"
+msgstr "سواء"
+
+msgid "Whets"
+msgstr "يشحذ"
+
+msgid "Whetstone"
+msgstr "المشحذ"
+
+msgid "Whetstones"
+msgstr "المشاحذ"
+
+msgid "Whetted"
+msgstr "مشحوذ"
+
+msgid "Whetter"
+msgstr "من يقوم على جعل الطّرف حاد"
+
+msgid "Whetting"
+msgstr "الشحذ"
+
+msgid "Whew"
+msgstr "يا للعجب"
+
+msgid "Whey"
+msgstr "مصل الحليب"
+
+msgid "Wheys"
+msgstr "مصل الحليب"
+
+msgid "Which"
+msgstr "أيّ"
+
+msgid "Whichever"
+msgstr "أيّ"
+
+msgid "Whichsoever"
+msgstr "أيّاً كان"
+
+msgid "Whick"
+msgstr "مدينة ويك"
+
+msgid "Whicker"
+msgstr "صهيل الحصان"
+
+msgid "Whidah"
+msgstr "طائر الوهيداه"
+
+msgid "Whider"
+msgstr "حيث، الى أين"
+
+msgid "Whiff"
+msgstr "النفحة"
+
+msgid "Whiffed"
+msgstr "منفوخ"
+
+msgid "Whiffet"
+msgstr "سيجار صغير او نفخة"
+
+msgid "Whiffing"
+msgstr "النفخ"
+
+msgid "Whiffle"
+msgstr "تقلّب"
+
+msgid "Whiffled"
+msgstr "متقلّب"
+
+msgid "Whiffler"
+msgstr "المتردّد"
+
+msgid "Whiffles"
+msgstr "يتقلّب"
+
+msgid "Whiffling"
+msgstr "التقلّب"
+
+msgid "Whiffs"
+msgstr "النسمات"
+
+msgid "Whig"
+msgstr "اليمينيّ"
+
+msgid "Whigs"
+msgstr "اليمينيّون"
+
+msgid "While"
+msgstr "بينما"
+
+msgid "Whiled"
+msgstr "أمضى"
+
+msgid "Whiles"
+msgstr "البرهة"
+
+msgid "Whiling"
+msgstr "يُمضي"
+
+msgid "Whilk"
+msgstr "نوع من الرّخويّات"
+
+msgid "Whilom"
+msgstr "سابقاً، في الماضي"
+
+msgid "Whilst"
+msgstr "بينما"
+
+msgid "Whim"
+msgstr "النزوة"
+
+msgid "Whimbreal"
+msgstr "ويميربيل - نوع من أنواع الكروان"
+
+msgid "Whimbrel"
+msgstr "ويميربيل - نوع من أنواع الكروان"
+
+msgid "Whimling"
+msgstr "شخص طفولي التّصرّف، الطّفل"
+
+msgid "Whimmy"
+msgstr "ممتلئ بالنّزوات، غريب"
+
+msgid "Whimper"
+msgstr "التذمّر"
+
+msgid "Whimpered"
+msgstr "ناشج"
+
+msgid "Whimpering"
+msgstr "النشيج"
+
+msgid "Whimperingly"
+msgstr "بنشيج"
+
+msgid "Whimpers"
+msgstr "ينشج"
+
+msgid "Whims"
+msgstr "النزوات"
+
+msgid "Whimsey"
+msgstr "الغرابة"
+
+msgid "Whimseys"
+msgstr "الغرابات"
+
+msgid "Whimsic"
+msgstr "غريب"
+
+msgid "Whimsical"
+msgstr "غريب الأطوار"
+
+msgid "Whimsicality"
+msgstr "التصور الغريب"
+
+msgid "Whimsically"
+msgstr "بشكل غريب الأطوار"
+
+msgid "Whimsicalness"
+msgstr "غرابة الأطوار"
+
+msgid "Whimsies"
+msgstr "النزوات"
+
+msgid "Whimsy"
+msgstr "النزوة"
+
+msgid "Whin"
+msgstr "شجرة الوين"
+
+msgid "Whine"
+msgstr "الأنين"
+
+msgid "Whined"
+msgstr "مأنون"
+
+msgid "Whiner"
+msgstr "المتذمّر"
+
+msgid "Whines"
+msgstr "يئنّ"
+
+msgid "Whiney"
+msgstr "كثير الشّكوى"
+
+msgid "Whinge"
+msgstr "التّذمّر"
+
+msgid "Whinger"
+msgstr "السيف"
+
+msgid "Whining"
+msgstr "الأنين"
+
+msgid "Whiningly"
+msgstr "بمتذمّر"
+
+msgid "Whinner"
+msgstr "من يقوم بالصّهيل"
+
+msgid "Whinnied"
+msgstr "مصهول"
+
+msgid "Whinnies"
+msgstr "يصهل"
+
+msgid "Whinny"
+msgstr "الصهيل"
+
+msgid "Whinnying"
+msgstr "الصهيل"
+
+msgid "Whinstone"
+msgstr "الصخرة الصلبة"
+
+msgid "Whiny"
+msgstr "متذمّر"
+
+msgid "Whip"
+msgstr "السوط"
+
+msgid "Whip-poor-will"
+msgstr "طائر ليلي آكل للحشرات"
+
+msgid "Whipcord"
+msgstr "الحبل"
+
+msgid "Whipcords"
+msgstr "الحبال"
+
+msgid "Whiplash"
+msgstr "الإصابة"
+
+#, Name
+msgid "Whippany"
+msgstr "ويبّاني"
+
+msgid "Whipped"
+msgstr "مخفوق"
+
+msgid "Whipper"
+msgstr "الجلّاد"
+
+msgid "Whippers"
+msgstr "الجلّادون"
+
+msgid "Whippersnapper"
+msgstr "الصغير"
+
+msgid "Whippet"
+msgstr "الكلب السلوقي"
+
+msgid "Whippets"
+msgstr "الكلاب السلوقية"
+
+msgid "Whipping"
+msgstr "السيط"
+
+msgid "Whippings"
+msgstr "الجَلْد"
+
+#, Name
+msgid "Whipple"
+msgstr "ويبل"
+
+msgid "Whippoorwill"
+msgstr "طائر ليلي آكل للحشرات"
+
+msgid "Whippowil"
+msgstr "طائر ليلي آكل للحشرات"
+
+msgid "Whippy"
+msgstr "جاهز للإرتداد"
+
+msgid "Whips"
+msgstr "السياط"
+
+msgid "Whipsaw"
+msgstr "منشار ثنائي"
+
+msgid "Whipsawed"
+msgstr "قص بمنشار ثنائي"
+
+msgid "Whipsaws"
+msgstr "مناشير ثنائية"
+
+msgid "Whipster"
+msgstr "رجل صغير"
+
+msgid "Whipstitch"
+msgstr "نوع من غرز الخياطة"
+
+msgid "Whipstock"
+msgstr "مقبض السّوط"
+
+msgid "Whir"
+msgstr "الطنين"
+
+msgid "Whiring"
+msgstr "طنين"
+
+msgid "Whirl"
+msgstr "الدوران"
+
+msgid "Whirled"
+msgstr "ملتفّ"
+
+msgid "Whirler"
+msgstr "الدّائر"
+
+msgid "Whirlies"
+msgstr "الغثيان"
+
+msgid "Whirligig"
+msgstr "الدوامة"
+
+msgid "Whirling"
+msgstr "الإلتفاف"
+
+msgid "Whirlpool"
+msgstr "الدوّامة"
+
+msgid "Whirlpools"
+msgstr "الدوامات"
+
+msgid "Whirls"
+msgstr "الدوران"
+
+msgid "Whirlwind"
+msgstr "الزوبعة"
+
+msgid "Whirlwinds"
+msgstr "الزوابع"
+
+msgid "Whirly"
+msgstr "الغثيان"
+
+msgid "Whirlybird"
+msgstr "الهليكوبتر"
+
+msgid "Whirlybirds"
+msgstr "الهليكوبترات"
+
+msgid "Whirr"
+msgstr "الطنين"
+
+msgid "Whirred"
+msgstr "مطنون"
+
+msgid "Whirring"
+msgstr "الطنين"
+
+msgid "Whirrs"
+msgstr "يطنّ"
+
+msgid "Whirry"
+msgstr "طنّان، أزّاز"
+
+msgid "Whirs"
+msgstr "يطنّ"
+
+msgid "Whish"
+msgstr "إنطلق"
+
+msgid "Whisk"
+msgstr "المخفقة"
+
+msgid "Whisked"
+msgstr "خافق"
+
+msgid "Whisker"
+msgstr "الشارب"
+
+msgid "Whiskered"
+msgstr "مشورب"
+
+msgid "Whiskers"
+msgstr "الشعر"
+
+msgid "Whisket"
+msgstr "السّلة المصنوعة من القش"
+
+msgid "Whiskey"
+msgstr "الويسكي"
+
+msgid "Whiskeys"
+msgstr "الويسكي"
+
+msgid "Whiskies"
+msgstr "الويسكي"
+
+msgid "Whisking"
+msgstr "الخفقان"
+
+msgid "Whisks"
+msgstr "المخفقات"
+
+msgid "Whisky"
+msgstr "الويسكي"
+
+msgid "Whisp"
+msgstr "سرب من الطّيور البحريّة"
+
+msgid "Whisper"
+msgstr "الهمس"
+
+msgid "Whispered"
+msgstr "مهموس"
+
+msgid "Whisperer"
+msgstr "الهامس"
+
+msgid "Whisperers"
+msgstr "الهامسون"
+
+msgid "Whispering"
+msgstr "الهمس"
+
+msgid "Whisperingly"
+msgstr "بهمْس"
+
+msgid "Whispers"
+msgstr "الهمسات"
+
+msgid "Whispery"
+msgstr "همْسيّ"
+
+msgid "Whist"
+msgstr "الهويست"
+
+msgid "Whistle"
+msgstr "الصافرة"
+
+msgid "Whistleable"
+msgstr "قادر على التصفير"
+
+msgid "Whistled"
+msgstr "مصفور"
+
+msgid "Whistler"
+msgstr "الصافرة"
+
+msgid "Whistlers"
+msgstr "الصافرات"
+
+msgid "Whistles"
+msgstr "الصافرات"
+
+msgid "Whistlestop"
+msgstr "الحملة الإنتخابيّة"
+
+msgid "Whistling"
+msgstr "الصفير"
+
+msgid "Whit"
+msgstr "الذرّة"
+
+#, Name
+msgid "Whitaker"
+msgstr "ويتاكر"
+
+#, Name
+msgid "Whitcomb"
+msgstr "وِتْكومب"
+
+msgid "White"
+msgstr "الأبيض"
+
+msgid "White-collar"
+msgstr "ذو ياقة بيضاء"
+
+msgid "White-foot"
+msgstr "حصان ذو أرجل بيضاء"
+
+msgid "White-livered"
+msgstr "جبان"
+
+msgid "White-out"
+msgstr "سائل أبيض لإخفاء الأخطاء الإملائية"
+
+msgid "White-water"
+msgstr "رغوة الماء، مرض يصيب الأغنام، مدينة ويت واتر"
+
+msgid "Whitebeam"
+msgstr "شجرة الويتبيم"
+
+msgid "Whitebeard"
+msgstr "رجل طاعن بالسن"
+
+msgid "Whitebelly"
+msgstr "ويت بيلي - نوع من البط"
+
+msgid "Whiteboy"
+msgstr "المزارع الأيرلنديّ المتمرّد"
+
+msgid "Whitecap"
+msgstr "الموجة ذات القمة البيضاء"
+
+msgid "Whitecaps"
+msgstr "الموجات ذات القمة البيضاء"
+
+msgid "Whited"
+msgstr "مُبيَّضْ"
+
+msgid "Whiteface"
+msgstr "المهرّج"
+
+msgid "Whitefish"
+msgstr "السّمك الأبيض"
+
+msgid "Whitehall"
+msgstr "الوايتهول"
+
+msgid "Whitehead"
+msgstr "بقعة الجلد البيضاء"
+
+#, City
+msgid "Whitehorse"
+msgstr "وايتهورس"
+
+msgid "Whitehouse"
+msgstr "مدينة ويت هاوس"
+
+msgid "Whiteley"
+msgstr "وايتلي"
+
+msgid "Whitely"
+msgstr "بشكل أبيض"
+
+msgid "Whiten"
+msgstr "بيّض"
+
+msgid "Whitened"
+msgstr "مبيّض"
+
+msgid "Whitener"
+msgstr "مبيّض"
+
+msgid "Whiteners"
+msgstr "مبيّضون"
+
+msgid "Whiteness"
+msgstr "البياض"
+
+msgid "Whitening"
+msgstr "التبييض"
+
+msgid "Whitens"
+msgstr "يبيّض"
+
+msgid "Whiteout"
+msgstr "سائل أبيض لإخفاء الأخطاء الإملائية"
+
+msgid "Whiter"
+msgstr "أنصع بياضا"
+
+msgid "Whites"
+msgstr "البيض"
+
+msgid "Whitespace"
+msgstr "مسافة بيضاء"
+
+msgid "Whitest"
+msgstr "أنصع بياضا"
+
+msgid "Whitetail"
+msgstr "الغزال ذو الذيل الأبيض"
+
+msgid "Whitethorn"
+msgstr "شجيرة شائكة اوروبية آسيوية"
+
+msgid "Whitethorns"
+msgstr "شجيرة شائكة اوروبية آسيوية"
+
+msgid "Whitethroat"
+msgstr "ويت ثروت - طائر صغير ذو عنق أبيض"
+
+msgid "Whitewash"
+msgstr "الطلاء الأبيض"
+
+msgid "Whitewashed"
+msgstr "مطلي بالأبيض"
+
+msgid "Whitewasher"
+msgstr "دهّان اللون الأبيض"
+
+msgid "Whitewashes"
+msgstr "يغطّي"
+
+msgid "Whitewashing"
+msgstr "التغطية"
+
+msgid "Whitewater"
+msgstr "وباء الخراف"
+
+msgid "Whiteweed"
+msgstr "ويت وييد - نوع من الأعشاب"
+
+msgid "Whitewood"
+msgstr "ويت وود - نوع من الأخشاب"
+
+msgid "Whitey"
+msgstr "ضارب للبياض"
+
+#, Name
+msgid "Whitfield"
+msgstr "وِتْفيلد"
+
+msgid "Whither"
+msgstr "إلى أين"
+
+msgid "Whithersoever"
+msgstr "الى أي مكان"
+
+msgid "Whiting"
+msgstr "طعام سمك"
+
+msgid "Whitings"
+msgstr "طعام سمك"
+
+msgid "Whitish"
+msgstr "ضارب إلى البياض"
+
+msgid "Whitishly"
+msgstr "بشكل ضارب إلى البياض"
+
+msgid "Whitlash"
+msgstr "مدينة ويتلاش"
+
+#, Name
+msgid "Whitlock"
+msgstr "ويتلوك"
+
+msgid "Whitlow"
+msgstr "الداحس"
+
+msgid "Whitlows"
+msgstr "الداحس"
+
+#, Name
+msgid "Whitman"
+msgstr "ويتمان"
+
+msgid "Whitney"
+msgstr "ويتني"
+
+msgid "Whitsett"
+msgstr "مدينة ويتسيت"
+
+msgid "Whitsun"
+msgstr "إجازة مسيحيّة"
+
+msgid "Whitsunday"
+msgstr "وايتسنداي"
+
+msgid "Whitsuntide"
+msgstr "إسبوع العنصرة"
+
+msgid "Whitt"
+msgstr "مدينة ويت"
+
+msgid "Whittaker"
+msgstr "ويتّاكر"
+
+msgid "Whittier"
+msgstr "ويتّير"
+
+msgid "Whittle"
+msgstr "إنجر"
+
+msgid "Whittled"
+msgstr "منجور"
+
+msgid "Whittler"
+msgstr "نجّار"
+
+msgid "Whittles"
+msgstr "ينجر"
+
+msgid "Whittling"
+msgstr "النجارة"
+
+msgid "Whittlings"
+msgstr "نِشارة"
+
+msgid "Whitwall"
+msgstr "نقّار الخشب الأخضر - نوع من الطّيور"
+
+msgid "Whitwell"
+msgstr "مدينة ويتويل"
+
+msgid "Whiz"
+msgstr "الأزيز"
+
+msgid "Whiz-kid"
+msgstr "الذي تتقدّم حياته المهنية بسرعة"
+
+msgid "Whizbang"
+msgstr "بوضوح مؤثّر، سريع جدًّا و زاخر، ناجح"
+
+msgid "Whizz"
+msgstr "الأزيز"
+
+msgid "Whizz-kid"
+msgstr "الذي تتقدّم حياته المهنية بسرعة"
+
+msgid "Whizzbang"
+msgstr "بوضوح مؤثّر، سريع جدًّا و زاخر، ناجح"
+
+msgid "Whizzed"
+msgstr "مأزوز"
+
+msgid "Whizzes"
+msgstr "أزات"
+
+msgid "Whizzing"
+msgstr "الأزيز"
+
+msgid "Whizzy"
+msgstr "غنيّ بالمواصفات، معروض بصورة ممتازة"
+
+msgid "Who"
+msgstr "من"
+
+msgid "Whoa"
+msgstr "قف"
+
+msgid "Whodunit"
+msgstr "رواية جريمة"
+
+msgid "Whodunits"
+msgstr "روايات جريمة"
+
+msgid "Whoever"
+msgstr "من"
+
+msgid "Whois"
+msgstr "الهوإز"
+
+msgid "Whole"
+msgstr "كلّ"
+
+msgid "Whole-hearted"
+msgstr "متحمّس تمامًا"
+
+msgid "Whole-heartedly"
+msgstr "بحماس تام"
+
+msgid "Whole-numbered"
+msgstr "معدود كلّ"
+
+msgid "Whole-souled"
+msgstr "باخلاص تام"
+
+msgid "Wholehearted"
+msgstr "متحمّس"
+
+msgid "Wholeheartedly"
+msgstr "بإخلاص"
+
+msgid "Wholeheartedness"
+msgstr "إخلاص"
+
+msgid "Wholemeal"
+msgstr "طحين الاسمر"
+
+msgid "Wholeness"
+msgstr "الكمال"
+
+msgid "Wholes"
+msgstr "الكلّ"
+
+msgid "Wholesale"
+msgstr "البيع بالجملة"
+
+msgid "Wholesaled"
+msgstr "بيع بالجملة"
+
+msgid "Wholesaler"
+msgstr "تاجر الجملة"
+
+msgid "Wholesalers"
+msgstr "تجّار الجملة"
+
+msgid "Wholesales"
+msgstr "المبيعات بالجملة"
+
+msgid "Wholesaling"
+msgstr "البيع بالجملة"
+
+msgid "Wholesome"
+msgstr "نافع"
+
+msgid "Wholesomely"
+msgstr "نفعياً"
+
+msgid "Wholesomeness"
+msgstr "النّفع"
+
+msgid "Wholly"
+msgstr "كلية"
+
+msgid "Whom"
+msgstr "من"
+
+msgid "Whomever"
+msgstr "من"
+
+msgid "Whomp"
+msgstr "يضرب بشدّة"
+
+msgid "Whomsoever"
+msgstr "من"
+
+msgid "Whoobub"
+msgstr "صوت مزعج ومرتفع، فوضى، الشّغب"
+
+msgid "Whoop"
+msgstr "صِحْ"
+
+msgid "Whooped"
+msgstr "صاح"
+
+msgid "Whoopee"
+msgstr "صاخب"
+
+msgid "Whooper"
+msgstr "صائح"
+
+msgid "Whooping"
+msgstr "الصيحة"
+
+msgid "Whooping cough"
+msgstr "مرض الغشاء المخاطي التنفسي"
+
+msgid "Whoops"
+msgstr "يصيح"
+
+msgid "Whoosh"
+msgstr "إزّ"
+
+msgid "Whop"
+msgstr "إضرب"
+
+msgid "Whopper"
+msgstr "الهائل"
+
+msgid "Whoppers"
+msgstr "الهائل"
+
+msgid "Whopping"
+msgstr "الضرب"
+
+msgid "Whore"
+msgstr "العاهرة"
+
+msgid "Whored"
+msgstr "مزني"
+
+msgid "Whoredom"
+msgstr "الدّعارة، البغاء"
+
+msgid "Whorehouse"
+msgstr "بيت الدّعارة والبغاء"
+
+msgid "Whoremaster"
+msgstr "القوّاد، مرتاد بيوت الدّعارة بغيّة الزّنى، الزّاني"
+
+msgid "Whoremonger"
+msgstr "القوّاد، مرتاد بيوت الدّعارة بغيّة الزّنى، الزّاني"
+
+msgid "Whores"
+msgstr "العاهرات"
+
+msgid "Whoreson"
+msgstr "إبن الزّنى"
+
+msgid "Whoring"
+msgstr "الزنى"
+
+msgid "Whorish"
+msgstr "كما بائعة الهوى من عادات وتصرّفات، غير عفيفة"
+
+msgid "Whorl"
+msgstr "جدلة"
+
+msgid "Whorled"
+msgstr "مجدّل"
+
+msgid "Whorls"
+msgstr "جدﻻت"
+
+msgid "Whorlywort"
+msgstr "وورليوورت - عشب معمّر طويل"
+
+msgid "Whort"
+msgstr "التّوت"
+
+msgid "Whortleberry"
+msgstr "التّوت"
+
+msgid "Whose"
+msgstr "الذي"
+
+msgid "Whoso"
+msgstr "أي كان"
+
+msgid "Whoso-ever"
+msgstr "أي شخص، غير مهم من يكون"
+
+msgid "Whosoever"
+msgstr "أي كان"
+
+msgid "Whot"
+msgstr "ساخن"
+
+msgid "Whup"
+msgstr "إهزم"
+
+msgid "Whur"
+msgstr "يزمجر، صوت الجسم المسرع خلال الهواء"
+
+msgid "Why"
+msgstr "لماذا"
+
+msgid "WI"
+msgstr "ويسكونسن"
+
+msgid "Wibble"
+msgstr "الثرثرة"
+
+msgid "Wiborg"
+msgstr "مدينة ويبورج"
+
+#, Language, City
+msgid "Wichita"
+msgstr "وتْشيتا"
+
+msgid "Wick"
+msgstr "الفتيلة"
+
+msgid "Wicke"
+msgstr "الشرير"
+
+msgid "Wicked"
+msgstr "شرّير"
+
+msgid "Wickedly"
+msgstr "بطريقة شرّيرة"
+
+msgid "Wickedness"
+msgstr "الشرّ"
+
+msgid "Wickednesses"
+msgstr "الشرّ"
+
+msgid "Wicker"
+msgstr "الغصن"
+
+msgid "Wickered"
+msgstr "مصنوع من، أمّن بـ، غطّى بـ"
+
+msgid "Wickerwork"
+msgstr "مجدول"
+
+msgid "Wickes"
+msgstr "مدينة ويكز"
+
+msgid "Wicket"
+msgstr "النصيبة"
+
+msgid "Wickets"
+msgstr "النصيبة"
+
+msgid "Wicking"
+msgstr "فتْل"
+
+msgid "Wicks"
+msgstr "الفتائل"
+
+msgid "Wickup"
+msgstr "شجرة الويكب"
+
+msgid "Wicopy"
+msgstr "شجرة ويكوبي"
+
+msgid "Wide"
+msgstr "عريض"
+
+msgid "Wide-awake"
+msgstr "يقظ تمامًا و منتبه"
+
+msgid "Wide-ranging"
+msgstr "يتعامل مع أمور كثيرة، يتعلّق بشريحة عريضة من النّاس"
+
+msgid "Wideband"
+msgstr "الموجة العريضة"
+
+msgid "Widely"
+msgstr "على نحو واسع"
+
+msgid "Wideman"
+msgstr "مدينة ويديمان"
+
+msgid "Widen"
+msgstr "توسّع"
+
+msgid "Widened"
+msgstr "متوسّع"
+
+msgid "Widener"
+msgstr "موسِّع"
+
+msgid "Wideness"
+msgstr "السّعة"
+
+msgid "Widening"
+msgstr "التوسيع"
+
+msgid "Widens"
+msgstr "يتوسّع"
+
+msgid "Wider"
+msgstr "أوسع"
+
+msgid "Widescreen"
+msgstr "فيلم ذو نافذة عرض عريضة"
+
+msgid "Widespread"
+msgstr "واسع الإنتشار"
+
+msgid "Widest"
+msgstr "أوسع"
+
+msgid "Widgeon"
+msgstr "البطّ الصافر"
+
+msgid "Widget"
+msgstr "القطعة"
+
+msgid "Widgets"
+msgstr "القطع"
+
+msgid "Widish"
+msgstr "عريض بشكل معتدل"
+
+msgid "Widow"
+msgstr "الأرملة"
+
+msgid "Widowed"
+msgstr "مترمّل"
+
+msgid "Widower"
+msgstr "الأرمل"
+
+msgid "Widowers"
+msgstr "الأرامل"
+
+msgid "Widowhood"
+msgstr "الترمّل"
+
+msgid "Widowhoods"
+msgstr "الترمّل"
+
+msgid "Widowman"
+msgstr "الرّجل ذو الزوجة الميّتة"
+
+msgid "Widows"
+msgstr "الأرامل"
+
+msgid "Width"
+msgstr "العرض"
+
+msgid "Widths"
+msgstr "الأعراض"
+
+msgid "Widthwise"
+msgstr "على عرض"
+
+msgid "Wieland"
+msgstr "ويلاند"
+
+msgid "Wield"
+msgstr "إقبض"
+
+msgid "Wielded"
+msgstr "قبض"
+
+msgid "Wielder"
+msgstr "قابض"
+
+msgid "Wielding"
+msgstr "قبْض"
+
+msgid "Wields"
+msgstr "يقْبضْ"
+
+msgid "Wieldy"
+msgstr "سهل التّعامل معه او إدارته، طيّع"
+
+#, Name
+msgid "Wiener"
+msgstr "وينر"
+
+msgid "Wieners"
+msgstr "النّقانق"
+
+msgid "Wienerwurst"
+msgstr "النّقانق"
+
+msgid "Wier"
+msgstr "حظْرة"
+
+msgid "Wiery"
+msgstr "المبلل، الرّطب"
+
+msgid "Wife"
+msgstr "الزوجة"
+
+msgid "Wifeliness"
+msgstr "الزوجيّة"
+
+msgid "Wifely"
+msgstr "زوجي"
+
+msgid "Wig"
+msgstr "الباروكة"
+
+msgid "Wigan"
+msgstr "نوع لقماش قطن"
+
+msgid "Wigeon"
+msgstr "نوع من البط"
+
+msgid "Wigg"
+msgstr "نوع من الخبز"
+
+msgid "Wigged"
+msgstr "مرتدياً باروكة"
+
+msgid "Wiggery"
+msgstr "الباروكة أو الباروكات، الشّعر المستعار"
+
+msgid "Wigging"
+msgstr "التأنيب"
+
+#, Name
+msgid "Wiggins"
+msgstr "ويجنجز"
+
+msgid "Wiggle"
+msgstr "تلوّ"
+
+msgid "Wiggled"
+msgstr "متلوّى"
+
+msgid "Wiggler"
+msgstr "المتمايل"
+
+msgid "Wiggles"
+msgstr "يتلوّى"
+
+msgid "Wiggling"
+msgstr "التلوّي"
+
+msgid "Wiggly"
+msgstr "بتلوّ"
+
+msgid "Wigher"
+msgstr "يصهل كما الحصان"
+
+msgid "Wight"
+msgstr "كائن حيّ، مخلوق، شجاع، جزيرة في القنال الإنجليزي"
+
+#, Name
+msgid "Wightman"
+msgstr "وايتمان"
+
+msgid "Wights"
+msgstr "الأشخاص"
+
+msgid "Wigmaker"
+msgstr "صانع الباروكة"
+
+msgid "Wigs"
+msgstr "الباروكات"
+
+msgid "Wigwag"
+msgstr "لوّح"
+
+msgid "Wigwam"
+msgstr "الخيمة"
+
+msgid "Wike"
+msgstr "البيت، المسكن"
+
+msgid "Wikiup"
+msgstr "كوخ"
+
+msgid "Wikke"
+msgstr "شرّير"
+
+msgid "Wilber"
+msgstr "مدينة ويلبر"
+
+msgid "Wilbur"
+msgstr "ويلبر"
+
+msgid "Wilcox"
+msgstr "ويلكوكس"
+
+msgid "Wild"
+msgstr "البرية"
+
+msgid "Wild-eyed"
+msgstr "غاضب، غير واقعي"
+
+msgid "Wildcard"
+msgstr "شامل القيمة"
+
+msgid "Wildcards"
+msgstr "شاملة القيمة"
+
+msgid "Wildcat"
+msgstr "القطّ الوحشي"
+
+msgid "Wildcats"
+msgstr "القطط الوحشية"
+
+msgid "Wildcatter"
+msgstr "المنقِّب"
+
+msgid "Wildcatting"
+msgstr "التنقيب"
+
+msgid "Wildebeest"
+msgstr "الظّبي الإفريقيّ"
+
+msgid "Wilder"
+msgstr "أكثر وحشيّة"
+
+msgid "Wilderness"
+msgstr "البريّة"
+
+msgid "Wildernesses"
+msgstr "البريّة"
+
+msgid "Wildest"
+msgstr "الأكثر وحشية"
+
+msgid "Wildfire"
+msgstr "الحريق الهائل"
+
+msgid "Wildfires"
+msgstr "الحرائق الهائلة"
+
+msgid "Wildflower"
+msgstr "الزّهرة البرّية"
+
+msgid "Wilding"
+msgstr "الاغتصاب الوحشيّ"
+
+msgid "Wildlife"
+msgstr "الحياة البريّة"
+
+msgid "Wildling"
+msgstr "البرّي"
+
+msgid "Wildlings"
+msgstr "البرّيّات"
+
+msgid "Wildly"
+msgstr "بعنف"
+
+msgid "Wildness"
+msgstr "الوحشيّة"
+
+msgid "Wildomar"
+msgstr "مدينة ويلدومار"
+
+msgid "Wildrose"
+msgstr "مدينة ويلدروز"
+
+msgid "Wile"
+msgstr "انصب"
+
+msgid "Wiled"
+msgstr "نصب"
+
+msgid "Wiles"
+msgstr "الحيل"
+
+#, Name
+msgid "Wiley"
+msgstr "وايلي"
+
+msgid "Wilfred"
+msgstr "ولفريد"
+
+msgid "Wilful"
+msgstr "عنيد"
+
+msgid "Wilfully"
+msgstr "بشكل عنيد"
+
+msgid "Wilfulness"
+msgstr "العناد"
+
+msgid "Wilhelm"
+msgstr "ويلهيلم"
+
+msgid "Wilhelmina"
+msgstr "ويلهيلمينا"
+
+msgid "Wilier"
+msgstr "أكثر مكرا"
+
+msgid "Wilily"
+msgstr "بشكل مكّار"
+
+msgid "Wiliness"
+msgstr "الاحتيال"
+
+msgid "Wiling"
+msgstr "يحتال"
+
+msgid "Wilk"
+msgstr "نوع من القواقع البحريّة"
+
+#, Name
+msgid "Wilkes"
+msgstr "وايلكس"
+
+msgid "Wilkesboro"
+msgstr "مدينة ويلكيسبورو"
+
+#, Name
+msgid "Wilkie"
+msgstr "وِلْكي"
+
+msgid "Wilkins"
+msgstr "ويلكينس"
+
+msgid "Wilkinson"
+msgstr "ويلكنسن"
+
+msgid "Will"
+msgstr "سوف"
+
+msgid "Willa"
+msgstr "ويلا"
+
+msgid "Willamette"
+msgstr "ويلاميت"
+
+msgid "Willard"
+msgstr "ويلارد"
+
+msgid "Willcox"
+msgstr "ويلكوكس"
+
+msgid "Willed"
+msgstr "عزم"
+
+msgid "Willem"
+msgstr "ويليم"
+
+msgid "Willer"
+msgstr "عازم"
+
+msgid "Willet"
+msgstr "طائر الوليت البحري"
+
+msgid "Willful"
+msgstr "عنيد"
+
+msgid "Willfully"
+msgstr "بشكل عنيد"
+
+msgid "Willfulness"
+msgstr "العِنْد"
+
+msgid "William"
+msgstr "وليام"
+
+msgid "Williams"
+msgstr "وليامز"
+
+msgid "Williamsburg"
+msgstr "ويليامسبيرغ"
+
+msgid "Williamson"
+msgstr "ويليامسون"
+
+msgid "Willie"
+msgstr "ويلي"
+
+msgid "Willies"
+msgstr "الإرتياع"
+
+msgid "Willing"
+msgstr "راغب"
+
+msgid "Willingly"
+msgstr "بشكل راغب"
+
+msgid "Willingness"
+msgstr "الرغبة"
+
+msgid "Willis"
+msgstr "ويليس"
+
+msgid "Willisson"
+msgstr "ويليسسون"
+
+msgid "Willits"
+msgstr "مدينة ويليتس"
+
+msgid "Williwaw"
+msgstr "الدّوّامة الهوائيّة"
+
+msgid "Willoughby"
+msgstr "ويلوغبي"
+
+msgid "Willow"
+msgstr "الصفصاف"
+
+msgid "Willower"
+msgstr "الصفصاف"
+
+msgid "Willows"
+msgstr "الصفصاف"
+
+msgid "Willowy"
+msgstr "مرن"
+
+msgid "Willpower"
+msgstr "قوّة الإرادة"
+
+msgid "Wills"
+msgstr "الإرادات"
+
+msgid "Willshire"
+msgstr "مدينة ويلشاير"
+
+msgid "Willy"
+msgstr "ويلي"
+
+msgid "Willy-nilly"
+msgstr "بلا اختيارات، بصورة عشوائيّة"
+
+msgid "Willying"
+msgstr "عمليّة تنظيف الخشب او القطن"
+
+msgid "Wilma"
+msgstr "ويلما"
+
+msgid "Wilmer"
+msgstr "ويلمر"
+
+msgid "Wilmette"
+msgstr "ويلميت"
+
+msgid "Wilmington"
+msgstr "ويلمنجتون"
+
+msgid "Wilsall"
+msgstr "مدينة ويلسال"
+
+msgid "Wilshire"
+msgstr "ويلشاير"
+
+msgid "Wilsie"
+msgstr "مدينة ويلسي"
+
+msgid "Wilson"
+msgstr "ويلسون"
+
+#, Name
+msgid "Wilsonian"
+msgstr "ويلسونيّ"
+
+msgid "Wilt"
+msgstr "الذبول"
+
+msgid "Wilted"
+msgstr "ذابل"
+
+msgid "Wilting"
+msgstr "الذبول"
+
+msgid "Wilton"
+msgstr "السّجادة"
+
+msgid "Wilts"
+msgstr "يذبل"
+
+msgid "Wilwe"
+msgstr "ماكينة نسيج"
+
+msgid "Wily"
+msgstr "مكّار"
+
+msgid "Wimble"
+msgstr "أضجر"
+
+msgid "Wimbledon"
+msgstr "ويمبلدون - ضاحية من ضواحي لندن"
+
+msgid "Wimbling"
+msgstr "الحفر"
+
+msgid "Wimp"
+msgstr "المخنّث"
+
+msgid "Wimpish"
+msgstr "ضعيف و عديم الجدوى"
+
+msgid "Wimple"
+msgstr "الخمار"
+
+msgid "Wimpled"
+msgstr "لبست الخمار"
+
+msgid "Wimps"
+msgstr "المخنّثون"
+
+msgid "Wimpy"
+msgstr "جبان"
+
+msgid "Win"
+msgstr "الفوز"
+
+msgid "Win32s"
+msgstr "توسعة من قبل ميكروسوفت لتشغيل البرامج المعدّة لـ 32 بت"
+
+msgid "Winburne"
+msgstr "مدينة وينبرن"
+
+msgid "Wince"
+msgstr "إجفل"
+
+msgid "Winced"
+msgstr "جافل"
+
+msgid "Wincer"
+msgstr "المتألّم"
+
+msgid "Winces"
+msgstr "يجفل"
+
+msgid "Wincey"
+msgstr "قماش يتكوّن من الكتّان والصّوف"
+
+msgid "Winceyette"
+msgstr "قماش قطني"
+
+msgid "Winch"
+msgstr "الرافعة"
+
+msgid "Winched"
+msgstr "رفع"
+
+#, Name
+msgid "Winchell"
+msgstr "وِنْتشل"
+
+msgid "Wincher"
+msgstr "الرافعة"
+
+msgid "Winches"
+msgstr "الرافعات"
+
+msgid "Winchester"
+msgstr "وينتشيستر"
+
+msgid "Winching"
+msgstr "رفْع"
+
+msgid "Wincing"
+msgstr "الجفل"
+
+msgid "Wind"
+msgstr "الريح"
+
+msgid "Wind-rode"
+msgstr "مسيّرة بالرّيح"
+
+msgid "Wind-up"
+msgstr "الإنهاء، النّتيجة"
+
+msgid "Windage"
+msgstr "انحراف القذيفة بفعل الهواء"
+
+msgid "Windbag"
+msgstr "الثرثار"
+
+msgid "Windbags"
+msgstr "الثرثارون"
+
+msgid "Windblown"
+msgstr "هبّ  الرّيح عليهم"
+
+msgid "Windbound"
+msgstr "غير قادر على الإبحار حيث الريح تهب في الإتجاه المعاكس"
+
+msgid "Windbreak"
+msgstr "حاجز الريح"
+
+msgid "Windbreaker"
+msgstr "معطف ثقيل"
+
+msgid "Windbreaks"
+msgstr "حواجز الريح"
+
+msgid "Windcheater"
+msgstr "معطف ثقيل"
+
+msgid "Windcheaters"
+msgstr "معاطف ثقيلة"
+
+msgid "Winded"
+msgstr "تجشّأ"
+
+msgid "Windemere"
+msgstr "مدينة وينديمير"
+
+msgid "Winder"
+msgstr "اللّفّاف"
+
+msgid "Windermere"
+msgstr "بحيرة ومدينة وينديرمير"
+
+msgid "Winders"
+msgstr "اللّفّافات"
+
+msgid "Windfall"
+msgstr "الربح المفاجئ"
+
+msgid "Windflower"
+msgstr "نبات الـ ويندفلور"
+
+msgid "Windhover"
+msgstr "نوع من الصّقور"
+
+msgid "Windier"
+msgstr "أشدّ ريحا"
+
+msgid "Windiest"
+msgstr "الأكثر عصفاً"
+
+msgid "Windily"
+msgstr "بشكل شديد الريح"
+
+msgid "Windiness"
+msgstr "العصف"
+
+msgid "Winding"
+msgstr "اللفّ"
+
+msgid "Winding-sheet"
+msgstr "الكفن"
+
+msgid "Windings"
+msgstr "اللفّات"
+
+msgid "Windjammer"
+msgstr "سفينة شراعيّة كبيرة"
+
+msgid "Windlass"
+msgstr "الرافعة"
+
+msgid "Windlasses"
+msgstr "الرافعات"
+
+msgid "Windle"
+msgstr "بكرة، ونش"
+
+msgid "Windless"
+msgstr "ساكن"
+
+msgid "Windlessly"
+msgstr "بشكل ساكن"
+
+msgid "Windlessness"
+msgstr "السّكون"
+
+msgid "Windmill"
+msgstr "الطاحونة"
+
+msgid "Windmilling"
+msgstr "الدّوران كالطاحونة"
+
+msgid "Windmills"
+msgstr "الطواحين"
+
+msgid "Windom"
+msgstr "مدينة ويندوم"
+
+msgid "Window"
+msgstr "النافذة"
+
+msgid "Window-dressing"
+msgstr "تزيين النوافذ"
+
+msgid "Windowed"
+msgstr "ذو نوافذ"
+
+msgid "Windowing"
+msgstr "وضع النوافذ"
+
+msgid "Windowless"
+msgstr "بلا نوافذ"
+
+msgid "Windowlist"
+msgstr "قائمة النوافذ"
+
+msgid "Windowpane"
+msgstr "زجاج النافذة"
+
+msgid "Windowpanes"
+msgstr "زجاج النافذة"
+
+msgid "Windows"
+msgstr "النوافذ"
+
+msgid "Windowsill"
+msgstr "حافّة النافذة"
+
+msgid "Windpipe"
+msgstr "القصبة الهوائية"
+
+msgid "Windpipes"
+msgstr "القصبات الهوائية"
+
+msgid "Windrow"
+msgstr "الكومة من شيء ما"
+
+msgid "Winds"
+msgstr "الرياح"
+
+msgid "Windscreen"
+msgstr "الزجاجة الأمامية"
+
+msgid "Windscreens"
+msgstr "الزجاجات الأمامية"
+
+msgid "Windshield"
+msgstr "الزجاجة الأمامية"
+
+msgid "Windsock"
+msgstr "قماش مخروطي الشكل مثبّت على عمود ليدل على إتّجاه الرّيح"
+
+#, Name
+msgid "Windsor"
+msgstr "ويندسر"
+
+msgid "Windstorm"
+msgstr "عاصفة هوائيّة"
+
+msgid "Windsurf"
+msgstr "إركب الرياح"
+
+msgid "Windswept"
+msgstr "مكشوف للرّياح، معرّض للريح"
+
+msgid "Windup"
+msgstr "انتهى"
+
+msgid "Windward"
+msgstr "بمواجه الريح"
+
+msgid "Windwardly"
+msgstr "بشكل بمواجه الريح"
+
+msgid "Windy"
+msgstr "عاصف"
+
+msgid "Wine"
+msgstr "النبيذ"
+
+msgid "Winebibbing"
+msgstr "شُرْب كميّات كبيرة من الخمرة"
+
+msgid "Wined"
+msgstr "احتسى النبيذ"
+
+msgid "Wineglass"
+msgstr "كأس النّبيذ"
+
+msgid "Winegrower"
+msgstr "زارع الخمر"
+
+msgid "Winegrowers"
+msgstr "زُرّاع الخمر"
+
+msgid "Winemaker"
+msgstr "صانع النّبيذ"
+
+msgid "Winemaking"
+msgstr "صناعة النّبيذ"
+
+msgid "Winepress"
+msgstr "عصّارة النبيذ"
+
+#, Name
+msgid "Winer"
+msgstr "وايْنَرْ"
+
+msgid "Winery"
+msgstr "محل صنع النبيذ"
+
+msgid "Wines"
+msgstr "النبيذ"
+
+msgid "Winesap"
+msgstr "التّفّاحة"
+
+msgid "Wineskin"
+msgstr "وعاء النبيذ"
+
+msgid "Winey"
+msgstr "خمري المذاق"
+
+msgid "Winfall"
+msgstr "مدينة وينفول"
+
+#, Name
+msgid "Winfield"
+msgstr "وِنفيلد"
+
+msgid "Wing"
+msgstr "الجناح"
+
+msgid "Wing-footed"
+msgstr "بأرجل مطوّرة لتصبح أجنحة"
+
+msgid "Wingate"
+msgstr "مدينة وينجيت"
+
+msgid "Wingback"
+msgstr "ﻻعب جناح خلفي"
+
+msgid "Winged"
+msgstr "مجنّح"
+
+msgid "Winger"
+msgstr "ﻻعب جناح"
+
+msgid "Wingers"
+msgstr "لاعبو الأجنحة"
+
+msgid "Wingfish"
+msgstr "سمكة الـ وينجفيش"
+
+msgid "Winging"
+msgstr "الطيران"
+
+msgid "Wingless"
+msgstr "بلا أجنحة"
+
+msgid "Winglet"
+msgstr "جناح صغير"
+
+msgid "Wingman"
+msgstr "طيّار الجناح"
+
+msgid "Wingmen"
+msgstr "طيّاروا الجناح"
+
+msgid "Wingnut"
+msgstr "شجرة وينجنت"
+
+msgid "Wingo"
+msgstr "مدينة وينجو"
+
+msgid "Wings"
+msgstr "الأجنحة"
+
+msgid "Wingspan"
+msgstr "طول الجناح"
+
+msgid "Wingspans"
+msgstr "أطوال الأجنحة"
+
+msgid "Wingtip"
+msgstr "قمّة الجناح"
+
+msgid "Wingy"
+msgstr "بأجنحة"
+
+#, Name
+msgid "Winifred"
+msgstr "وينيفرد"
+
+msgid "Wining"
+msgstr "احتساء النبيذ"
+
+msgid "Wink"
+msgstr "الغمزة"
+
+msgid "Winked"
+msgstr "غمز"
+
+msgid "Winker"
+msgstr "غامز"
+
+msgid "Winkey"
+msgstr "وينكي"
+
+msgid "Winking"
+msgstr "الرمش"
+
+msgid "Winkle"
+msgstr "القوقع"
+
+msgid "Winkled"
+msgstr "مخرج"
+
+msgid "Winkles"
+msgstr "القواقع"
+
+msgid "Winkling"
+msgstr "الإخراج"
+
+msgid "Winks"
+msgstr "الغمزات"
+
+msgid "Winless"
+msgstr "بدون فوز"
+
+msgid "Winn"
+msgstr "مدينة وين"
+
+#, Name
+msgid "Winnebago"
+msgstr "وِنّيباغو"
+
+msgid "Winnemucca"
+msgstr "مدينة وينيموكا"
+
+msgid "Winner"
+msgstr "الفائز"
+
+msgid "Winners"
+msgstr "الفائزون"
+
+msgid "Winnetka"
+msgstr "ويننيتكا"
+
+msgid "Winnett"
+msgstr "مدينة وينيت"
+
+msgid "Winnie"
+msgstr "ويني"
+
+msgid "Winning"
+msgstr "الفوز"
+
+msgid "Winningly"
+msgstr "بنصر"
+
+msgid "Winnings"
+msgstr "الأرباح"
+
+msgid "Winnipeg"
+msgstr "ويننيبيج"
+
+msgid "Winnipesaukee"
+msgstr "ويننيبيسوكي"
+
+msgid "Winnow"
+msgstr "ذرّ"
+
+msgid "Winnowed"
+msgstr "فرّق القش عن الحبوب"
+
+msgid "Winnower"
+msgstr "المغربل"
+
+msgid "Winnowing"
+msgstr "عملية تفريق القش عن الحبوب"
+
+#, Slang
+msgid "Wino"
+msgstr "مدمن الخمر"
+
+#, Name
+msgid "Winograd"
+msgstr "وينوجراد"
+
+msgid "Winona"
+msgstr "مدينة وينونا"
+
+msgid "Winooski"
+msgstr "وينوسكي"
+
+#, Slang
+msgid "Winos"
+msgstr "مدمنوا الخمر"
+
+msgid "Winrow"
+msgstr "الكومة"
+
+msgid "Wins"
+msgstr "الإنتصارات"
+
+msgid "Winsborough"
+msgstr "وينسبوروغ"
+
+#, Name
+msgid "Winsett"
+msgstr "وينست"
+
+msgid "Winskin"
+msgstr "وينسكين"
+
+#, Name
+msgid "Winslow"
+msgstr "وِنسلو"
+
+msgid "Winsock"
+msgstr "مواصفات من قبل شركة ميكروسوفت لكيفيّة الرّبط ببرامج الشّبكات"
+
+msgid "Winsome"
+msgstr "جذّاب"
+
+msgid "Winsomely"
+msgstr "بشكل جذّاب"
+
+msgid "Winsomeness"
+msgstr "الجاذبيّة"
+
+msgid "Winston"
+msgstr "وينستن"
+
+msgid "Winter"
+msgstr "الشتاء"
+
+msgid "Wintered"
+msgstr "أمضى الشتاء"
+
+msgid "Winterer"
+msgstr "شتائي"
+
+msgid "Wintergreen"
+msgstr "فاكهة حمراء حارّة مثل التّوت"
+
+msgid "Wintering"
+msgstr "إمضاء الشتاء"
+
+msgid "Winterize"
+msgstr "الإستعداد للشتاء"
+
+msgid "Winterly"
+msgstr "بشكل شتائي"
+
+msgid "Winters"
+msgstr "فصول الشتاء"
+
+msgid "Wintertide"
+msgstr "وقت الشتاء"
+
+msgid "Wintertime"
+msgstr "وقت الشتاء"
+
+msgid "Wintery"
+msgstr "متعلق بالشّتاء"
+
+msgid "Winthrop"
+msgstr "وِنْثروب"
+
+msgid "Wintrier"
+msgstr "شتوي"
+
+msgid "Wintrily"
+msgstr "الشّتويّة"
+
+msgid "Wintriness"
+msgstr "البرودة"
+
+msgid "Wintry"
+msgstr "شتوي"
+
+msgid "Winy"
+msgstr "نبيذيّ"
+
+msgid "Winze"
+msgstr "الممر، المعبر"
+
+msgid "Winzip"
+msgstr "برنامج لضغط الملفّات"
+
+msgid "Wipe"
+msgstr "المسحة"
+
+msgid "Wiped"
+msgstr "ممسوح"
+
+msgid "Wiper"
+msgstr "ممسحة"
+
+msgid "Wipers"
+msgstr "ممسحات"
+
+msgid "Wipes"
+msgstr "المسحات"
+
+msgid "Wiping"
+msgstr "المحو"
+
+msgid "Wirble"
+msgstr "يدور، يلتف"
+
+msgid "Wirbled"
+msgstr "إستدار، إلتفّ"
+
+msgid "Wirbling"
+msgstr "الإستدارة، الدّوران"
+
+msgid "Wire"
+msgstr "السلك"
+
+msgid "Wire-wound"
+msgstr "جرح سلك"
+
+msgid "Wire-wrap"
+msgstr "لفّة سلك"
+
+msgid "Wired"
+msgstr "مثير"
+
+msgid "Wired-or"
+msgstr "المثير أو"
+
+msgid "Wiredrawn"
+msgstr "مسلّك"
+
+msgid "Wireframe"
+msgstr "الإطار السلكي"
+
+msgid "Wirehair"
+msgstr "الشعر الكثيف - صفة للكلاب والقطط"
+
+msgid "Wireless"
+msgstr "اللاسلكي"
+
+msgid "Wireman"
+msgstr "عامل الأسلاك"
+
+msgid "Wiremen"
+msgstr "عاملوا الأسﻻك"
+
+msgid "Wirepuller"
+msgstr "المراوغ في سبيل تحقيق هدف"
+
+msgid "Wirer"
+msgstr "مركّب الأسلاك"
+
+msgid "Wires"
+msgstr "الأسلاك"
+
+msgid "Wiretap"
+msgstr "التصنّت على الهاتف"
+
+msgid "Wiretapper"
+msgstr "المتنصّت على الهاتف"
+
+msgid "Wiretapping"
+msgstr "التصنّت على الهاتف"
+
+msgid "Wiretaps"
+msgstr "عمليات التصنّت على الهاتف"
+
+msgid "Wireworm"
+msgstr "يرقة تشبه الدّودة"
+
+msgid "Wirier"
+msgstr "سلكي"
+
+msgid "Wirily"
+msgstr "بشكل سلكي"
+
+msgid "Wiriness"
+msgstr "السّلكيّة"
+
+msgid "Wiring"
+msgstr "تمديد الأسلاك"
+
+msgid "Wirings"
+msgstr "تمديد الأسلاك"
+
+msgid "Wirt"
+msgstr "مدينة ويرت"
+
+msgid "Wiry"
+msgstr "سلكي"
+
+msgid "Wis"
+msgstr "ولاية ويسكونسين الأمريكيّة"
+
+msgid "Wisconsin"
+msgstr "ويسكونسن"
+
+msgid "Wisdom"
+msgstr "الحكمة"
+
+msgid "Wisdoms"
+msgstr "الحكم"
+
+msgid "Wise"
+msgstr "حكيم"
+
+msgid "Wiseacre"
+msgstr "المغرور"
+
+msgid "Wiseacres"
+msgstr "المغرورون"
+
+msgid "Wisecrack"
+msgstr "الردّ اللبق"
+
+msgid "Wisecracked"
+msgstr "ردّ بلباقة"
+
+msgid "Wisecracker"
+msgstr "اللّبق"
+
+msgid "Wised"
+msgstr "ويسيد"
+
+msgid "Wiseling"
+msgstr "المغرور، من يتظاهر بأنّه حكيم"
+
+msgid "Wisely"
+msgstr "بحكمة"
+
+msgid "Wiseman"
+msgstr "مدينة وايزمان"
+
+msgid "Wiseness"
+msgstr "الحكمة"
+
+msgid "Wisenheimer"
+msgstr "ويسينهيمير"
+
+msgid "Wisent"
+msgstr "البيسون الأوربّيّ - حيوان ثديي يشبه الثّور"
+
+msgid "Wiser"
+msgstr "أعقل"
+
+msgid "Wisest"
+msgstr "الأعقل"
+
+msgid "Wish"
+msgstr "الأمنية"
+
+msgid "Wishbone"
+msgstr "عظم الترقوة"
+
+msgid "Wished"
+msgstr "متمنّى"
+
+msgid "Wisher"
+msgstr "راغب"
+
+msgid "Wishers"
+msgstr "راغبون"
+
+msgid "Wishes"
+msgstr "الرغبات"
+
+msgid "Wishful"
+msgstr "توّاق"
+
+msgid "Wishfully"
+msgstr "برغبة"
+
+msgid "Wishfulness"
+msgstr "التّوْق"
+
+msgid "Wishing"
+msgstr "التمنّي"
+
+msgid "Wishlist"
+msgstr "ما تتمناه"
+
+msgid "Wishon"
+msgstr "مدينة ويشون"
+
+msgid "Wishy-washy"
+msgstr "ضعيف الإرادة، ضعيف"
+
+msgid "Wising"
+msgstr "العلم"
+
+msgid "Wisket"
+msgstr "السّلة المصنوعة من القش"
+
+msgid "Wisner"
+msgstr "مدينة ويسنر"
+
+msgid "Wisp"
+msgstr "الخصلة"
+
+msgid "Wisps"
+msgstr "الخصلات"
+
+msgid "Wispy"
+msgstr "ناعم"
+
+msgid "Wisse"
+msgstr "يظهر، يعلّم، يخبر"
+
+msgid "Wist"
+msgstr "فطن، عرف"
+
+msgid "Wistaria"
+msgstr "ويستاريا - شجرة كروم"
+
+msgid "Wister"
+msgstr "ويستير - كاتب من الولايات المتّحدة"
+
+msgid "Wisteria"
+msgstr "الويستيريا - شجرة كروم"
+
+msgid "Wistful"
+msgstr "حزين"
+
+msgid "Wistfully"
+msgstr "بحزن"
+
+msgid "Wistfulness"
+msgstr "الأسى"
+
+msgid "Wistly"
+msgstr "بانتباه، بملاحظة"
+
+msgid "Wit"
+msgstr "الذكاء"
+
+msgid "Witan"
+msgstr "مجلس الأنجلو ساكسون في إنجلترا"
+
+msgid "Witch"
+msgstr "الساحرة"
+
+msgid "Witch-hazel"
+msgstr "شجرة الويتشهازل"
+
+msgid "Witch-hunt"
+msgstr "حملة ضد المعارضين، اضطهاد السّاحرات"
+
+msgid "Witchcraft"
+msgstr "السحر"
+
+msgid "Witchcrafts"
+msgstr "السحر"
+
+msgid "Witched"
+msgstr "إمرأة ساحرة"
+
+msgid "Witcheries"
+msgstr "السحر"
+
+msgid "Witchery"
+msgstr "السحر"
+
+msgid "Witches"
+msgstr "الساحرات"
+
+msgid "Witchhazel"
+msgstr "شجرة الويتشهازل"
+
+msgid "Witchhunt"
+msgstr "حملة ضد المعارضين، اضطهاد السّاحرات"
+
+msgid "Witching"
+msgstr "ساحر"
+
+msgid "Wite"
+msgstr "يلوم، يحمّل المسؤوليّة"
+
+msgid "Witenagemote"
+msgstr "مجلس الحكماء او المجلس الوطني في إنجاترا الأنجلو سكسونيّة"
+
+msgid "Witful"
+msgstr "ذكيّ، متّزن"
+
+msgid "With"
+msgstr "مع"
+
+msgid "Withal"
+msgstr "أيضا"
+
+msgid "Withdraw"
+msgstr "إنسحب"
+
+msgid "Withdrawal"
+msgstr "الإنسحاب"
+
+msgid "Withdrawals"
+msgstr "عمليات الإنسحاب"
+
+msgid "Withdrawer"
+msgstr "المنسحب"
+
+msgid "Withdrawing"
+msgstr "الإنسحاب"
+
+msgid "Withdrawment"
+msgstr "الإنسحاب"
+
+msgid "Withdrawn"
+msgstr "مسحوب"
+
+msgid "Withdrawnness"
+msgstr "الجفاء"
+
+msgid "Withdraws"
+msgstr "ينسحب"
+
+msgid "Withdrew"
+msgstr "إنسحب"
+
+msgid "Withe"
+msgstr "حبل مجدّل"
+
+msgid "Withed"
+msgstr "مربوط بأغصان الشجر"
+
+msgid "Wither"
+msgstr "إذبل"
+
+msgid "Withered"
+msgstr "ذابل"
+
+msgid "Withering"
+msgstr "الذبول"
+
+msgid "Witheringly"
+msgstr "بازدراء"
+
+msgid "Withers"
+msgstr "الكاهل"
+
+msgid "Withersoever"
+msgstr "الى اي مكان"
+
+#, Name
+msgid "Witherspoon"
+msgstr "وِثرسبون"
+
+msgid "Withheld"
+msgstr "محجوب"
+
+msgid "Withhold"
+msgstr "إحجب"
+
+msgid "Withholder"
+msgstr "ممتنع"
+
+msgid "Withholders"
+msgstr "ممتنعون"
+
+msgid "Withholding"
+msgstr "الحجب"
+
+msgid "Withholdings"
+msgstr "الضرائب المقتطعة"
+
+msgid "Withholds"
+msgstr "يحجب"
+
+msgid "Within"
+msgstr "ضمن"
+
+msgid "Withing"
+msgstr "يربط باغصان الشّجر، الرّبط باغصان الشّجر"
+
+msgid "Without"
+msgstr "بدون"
+
+msgid "Withouten"
+msgstr "بدون، من غير"
+
+msgid "Withstand"
+msgstr "قاوم"
+
+msgid "Withstanding"
+msgstr "المقاومة"
+
+msgid "Withstands"
+msgstr "يقاوم"
+
+msgid "Withstood"
+msgstr "قووم"
+
+msgid "Withy"
+msgstr "الغصن الرفيع"
+
+msgid "Witless"
+msgstr "غبيّ"
+
+msgid "Witlessly"
+msgstr "بشكل غبيّ"
+
+msgid "Witling"
+msgstr "شخص ذو فطنة بسيطة"
+
+msgid "Witloof"
+msgstr "ويتلوف - نوع من الأعشاب"
+
+msgid "Witness"
+msgstr "الشاهد"
+
+msgid "Witnessed"
+msgstr "شاهد"
+
+msgid "Witnesser"
+msgstr "الشاهد"
+
+msgid "Witnesses"
+msgstr "الشهود"
+
+msgid "Witnessing"
+msgstr "الشهادة"
+
+msgid "Wits"
+msgstr "الذكاء"
+
+#, Name
+msgid "Witt"
+msgstr "وِتّْ"
+
+msgid "Witted"
+msgstr "معلوم"
+
+msgid "Witten"
+msgstr "مدينة ويتين"
+
+#, Name
+msgid "Witter"
+msgstr "وِتَر"
+
+msgid "Wittgenstein"
+msgstr "فيتجنشتاين - فيلسوف بريطانيّ مولود في النّمسا"
+
+msgid "Witticism"
+msgstr "النكتة"
+
+msgid "Witticisms"
+msgstr "النكات"
+
+msgid "Wittier"
+msgstr "أذكى"
+
+msgid "Wittiest"
+msgstr "الأذكى"
+
+msgid "Wittily"
+msgstr "بشكل ذكي"
+
+msgid "Wittiness"
+msgstr "الدعابة"
+
+msgid "Witting"
+msgstr "العلم"
+
+msgid "Wittingly"
+msgstr "عمدا"
+
+msgid "Wittol"
+msgstr "الدّيّوث، الرّجل الذي يعرف خيانة زوجته ويغضّ الطّرف"
+
+msgid "Witts"
+msgstr "الحديد الخالي من الشّوائب الأرضيّة"
+
+msgid "Witty"
+msgstr "ذكي"
+
+msgid "Wive"
+msgstr "تزوّج"
+
+msgid "Wived"
+msgstr "تزوّج، إقترن بامرأة كزوجة"
+
+msgid "Wiver"
+msgstr "حيوان خرافي ذو أجنحة ورأس تنّين"
+
+msgid "Wivern"
+msgstr "التنّين النافث للهب المتعلّق بالقرون الوسطى"
+
+msgid "Wives"
+msgstr "الزوجات"
+
+msgid "Wiving"
+msgstr "الزواج"
+
+msgid "Wiz"
+msgstr "الحذق"
+
+msgid "Wizard"
+msgstr "الساحر"
+
+msgid "Wizardly"
+msgstr "بشكل سحري"
+
+msgid "Wizardries"
+msgstr "الإبداع"
+
+msgid "Wizardry"
+msgstr "السحر"
+
+msgid "Wizards"
+msgstr "السحرة"
+
+msgid "Wizen"
+msgstr "إذبل"
+
+msgid "Wizened"
+msgstr "هرم"
+
+msgid "Wizenedly"
+msgstr "بشكل هرم"
+
+msgid "Wmf"
+msgstr "صيغة ملف جرافيكي من قبل ميكروسوفت"
+
+msgid "Wnw"
+msgstr "بين الغرب والشّمال الغربي"
+
+msgid "Wo"
+msgstr "إختصار لـ ضابط الصّف في الجيش او بدون"
+
+msgid "Woad"
+msgstr "النيلج"
+
+msgid "Woaded"
+msgstr "ملطّخ، مصبوغ"
+
+msgid "Woads"
+msgstr "النيلج"
+
+msgid "Wobble"
+msgstr "التذبذب"
+
+msgid "Wobbled"
+msgstr "متحلحل"
+
+msgid "Wobbler"
+msgstr "المتذبذب"
+
+msgid "Wobbles"
+msgstr "التذبذب"
+
+msgid "Wobblier"
+msgstr "متقلّب"
+
+msgid "Wobbliness"
+msgstr "التذبذب"
+
+msgid "Wobbling"
+msgstr "التحلحل"
+
+msgid "Wobbly"
+msgstr "متقلّب"
+
+msgid "Woburn"
+msgstr "مدينة وبرن"
+
+msgid "Wodan"
+msgstr "وودان - الإله الأكبر. أساطير إسكندنافيّة"
+
+msgid "Wode"
+msgstr "خشب"
+
+msgid "Woden"
+msgstr "ودين- الإله الأكبر. أساطير إسكندنافيّة"
+
+msgid "Woe"
+msgstr "المشكلة"
+
+msgid "Woe-begone"
+msgstr "استحوذ بالمصيبة، منغمس في الحزن"
+
+msgid "Woebegone"
+msgstr "مكتئب"
+
+msgid "Woebegoneness"
+msgstr "الاكتئاب"
+
+msgid "Woeful"
+msgstr "مكتئب"
+
+msgid "Woefully"
+msgstr "بحزن"
+
+msgid "Woefulness"
+msgstr "الأسى"
+
+msgid "Woes"
+msgstr "المشاكل"
+
+msgid "Woesome"
+msgstr "محزن"
+
+msgid "Woful"
+msgstr "محزن، رديء"
+
+#, Chinese frying pan
+msgid "Wok"
+msgstr "مقلاة"
+
+msgid "Woke"
+msgstr "إستيقظ"
+
+msgid "Woken"
+msgstr "مستيقظ"
+
+#, Chinese frying pan
+msgid "Woks"
+msgstr "مقالي"
+
+msgid "Wolcott"
+msgstr "وُلْكُتْ"
+
+msgid "Wold"
+msgstr "القفر"
+
+msgid "Wolds"
+msgstr "القفار"
+
+msgid "Wolf"
+msgstr "الذّئب"
+
+msgid "Wolfbane"
+msgstr "ولفبان - شجرة سامّة"
+
+#, Name
+msgid "Wolfe"
+msgstr "وُلْفْ"
+
+msgid "Wolfed"
+msgstr "ملتهم"
+
+msgid "Wolfer"
+msgstr "صيّاد الذئاب"
+
+msgid "Wolff"
+msgstr "ولف"
+
+msgid "Wolfgang"
+msgstr "ولفجانج"
+
+msgid "Wolfhound"
+msgstr "نوع من الكلاب ضخم جدّاً"
+
+msgid "Wolfing"
+msgstr "الإلتهام"
+
+msgid "Wolfish"
+msgstr "مستذئب"
+
+msgid "Wolfishly"
+msgstr "بشكل وحشي"
+
+msgid "Wolfishness"
+msgstr "التعلق بالذئب وصفاته"
+
+msgid "Wolfkin"
+msgstr "ذئب صغير"
+
+msgid "Wolflike"
+msgstr "يشبه الذّئب"
+
+msgid "Wolfram"
+msgstr "عنصر التّنجستين"
+
+msgid "Wolframite"
+msgstr "خامة التّنجستين"
+
+msgid "Wolframium"
+msgstr "الإسم العلمي لعنصر التّنجستين"
+
+msgid "Wolfsbane"
+msgstr "وولفسبين - نبات سام"
+
+msgid "Wolle"
+msgstr "الصّوف"
+
+msgid "Wolof"
+msgstr "لغة الـ وولوف الغرب أفريقيّة"
+
+msgid "Wolsey"
+msgstr "ولسي - أسقف و سياسيّ إنجليزي"
+
+msgid "Wolverene"
+msgstr "النّهم، ذو خصائص ذئبيّة"
+
+msgid "Wolverine"
+msgstr "ولفيرين - حيوان ثديي مفترس من فصيلة العرس"
+
+msgid "Wolverines"
+msgstr "حيوانات الولفيرين"
+
+#, Name
+msgid "Wolverton"
+msgstr "ولفرتون"
+
+msgid "Wolves"
+msgstr "الذئاب"
+
+msgid "Woman"
+msgstr "الإمرأة"
+
+msgid "Womanhood"
+msgstr "الأنوثة"
+
+msgid "Womaniser"
+msgstr "الرّجل الذي يحبّ نساء كثيرات و يقيم علاقات جنسيّة قصيرة بهن"
+
+msgid "Womanish"
+msgstr "أنثوي"
+
+msgid "Womanishly"
+msgstr "بشكل أنثوي"
+
+msgid "Womanize"
+msgstr "عاشر النساء"
+
+msgid "Womanized"
+msgstr "معاشر النساء"
+
+msgid "Womanizer"
+msgstr "زير النساء"
+
+msgid "Womanizers"
+msgstr "زير النساء"
+
+msgid "Womanizes"
+msgstr "يعاشر النساء"
+
+msgid "Womanizing"
+msgstr "معاشرة النساء"
+
+msgid "Womankind"
+msgstr "النساء"
+
+msgid "Womanlike"
+msgstr "أنثوي"
+
+msgid "Womanlikely"
+msgstr "بشكل أنثوي"
+
+msgid "Womanliness"
+msgstr "الأنثويّة"
+
+msgid "Womanly"
+msgstr "أنثوي"
+
+msgid "Womb"
+msgstr "الرحم"
+
+#, Australian animal
+msgid "Wombat"
+msgstr "وُمباتْ"
+
+msgid "Wombed"
+msgstr "معلّق بالرّحم"
+
+msgid "Wombs"
+msgstr "الأرحام"
+
+msgid "Womby"
+msgstr "واسع، فسيح"
+
+msgid "Women"
+msgstr "النّساء"
+
+msgid "Womenfolk"
+msgstr "النّساء"
+
+msgid "Womens Bay"
+msgstr "مدينة في آلاسكا"
+
+msgid "Won"
+msgstr "فاز"
+
+msgid "Wonder"
+msgstr "تساءل"
+
+msgid "Wondered"
+msgstr "تساءل"
+
+msgid "Wonderer"
+msgstr "متسائل"
+
+msgid "Wonderful"
+msgstr "رائع"
+
+msgid "Wonderfully"
+msgstr "بشكل رائع"
+
+msgid "Wonderfulness"
+msgstr "الرّوعة"
+
+msgid "Wondering"
+msgstr "التّساؤل"
+
+msgid "Wonderingly"
+msgstr "بتعجّب"
+
+msgid "Wonderland"
+msgstr "الأرض العجائب"
+
+msgid "Wonderlands"
+msgstr "الأماكن الجميلة"
+
+msgid "Wonderly"
+msgstr "بشكل رائع،بأسلوب رائع "
+
+msgid "Wonderment"
+msgstr "العجب"
+
+msgid "Wonderous"
+msgstr "بشكل غير معتاد، رائع أو غير عاديّ"
+
+msgid "Wonders"
+msgstr "المعجزات"
+
+msgid "Wondrous"
+msgstr "خارق للعادة"
+
+msgid "Wondrously"
+msgstr "بأسلوب رائع"
+
+msgid "Wondrousness"
+msgstr "إلى حدّ الرّوعة"
+
+msgid "Wone"
+msgstr "العادة، الاستخدام"
+
+msgid "Wong"
+msgstr "ونج"
+
+msgid "Wonger"
+msgstr "المخدّة، الوسادة"
+
+msgid "Wonk"
+msgstr "الطّالب الذي يدرس بإفراط"
+
+msgid "Wonky"
+msgstr "غير جدير بالثّقة في الاستخدام"
+
+msgid "Wont"
+msgstr "متعوّد"
+
+msgid "Wonted"
+msgstr "معتاد"
+
+msgid "Wontedly"
+msgstr "عادةً"
+
+msgid "Wontedness"
+msgstr "الاعتياد"
+
+msgid "Wonting"
+msgstr "الاعتياد"
+
+msgid "Wonton"
+msgstr "فطيرة باللّحم"
+
+msgid "Wonts"
+msgstr "يعتاد"
+
+msgid "Woo"
+msgstr "يسعى للنيل، يداعب المرأة"
+
+msgid "Wood"
+msgstr "الخشب"
+
+msgid "Woodard"
+msgstr "وودأرد"
+
+#, Name
+msgid "Woodberry"
+msgstr "وودبيري"
+
+msgid "Woodbind"
+msgstr "زهر العسل"
+
+msgid "Woodbine"
+msgstr "زهر العسل"
+
+msgid "Woodbines"
+msgstr "زهر العسل"
+
+msgid "Woodblock"
+msgstr "الخشبة"
+
+msgid "Woodblocks"
+msgstr "الخشب"
+
+msgid "Woodborer"
+msgstr "أيّ من الحشرات المتنوّعة أو اليرقات أو الرّخويّات التي تنخر الخشب"
+
+msgid "Woodbury"
+msgstr "وودبري"
+
+msgid "Woodcarver"
+msgstr "حفّار الخشب"
+
+msgid "Woodcarving"
+msgstr "النّحت على الخشب"
+
+msgid "Woodchopper"
+msgstr "الحطّاب"
+
+msgid "Woodchoppers"
+msgstr "الحطّابون"
+
+msgid "Woodchuck"
+msgstr "الفأر الجبليّ"
+
+msgid "Woodchucks"
+msgstr "الفئران الجبليّة"
+
+msgid "Woodcock"
+msgstr "الدّجاجة"
+
+msgid "Woodcocks"
+msgstr "الدّجاج"
+
+msgid "Woodcraft"
+msgstr "البراعة"
+
+msgid "Woodcut"
+msgstr "الصّورة"
+
+msgid "Woodcuts"
+msgstr "الصّور"
+
+msgid "Woodcutter"
+msgstr "الحطّاب"
+
+msgid "Woodcutters"
+msgstr "الحطّابون"
+
+msgid "Wooded"
+msgstr "مشجّر"
+
+msgid "Wooden"
+msgstr "خشبيّ"
+
+msgid "Woodenly"
+msgstr "بطريقة جامدة"
+
+msgid "Woodenness"
+msgstr "التّخشّب"
+
+msgid "Woodgrain"
+msgstr "خامة الخشب"
+
+msgid "Woodgraining"
+msgstr "تغيير كخامة الخشب"
+
+msgid "Woodier"
+msgstr "أكثر تخشّبًا"
+
+msgid "Woodiest"
+msgstr "الأكثر تخشّبًا"
+
+msgid "Woodiness"
+msgstr "الخشبيّة"
+
+msgid "Wooding"
+msgstr "التغطية بالخشب"
+
+msgid "Woodland"
+msgstr "الغابة"
+
+msgid "Woodlander"
+msgstr "الجوّال"
+
+msgid "Woodlands"
+msgstr "الغابات"
+
+#, Name
+msgid "Woodlawn"
+msgstr "وودﻻون"
+
+msgid "Woodlet"
+msgstr "غابة صغيرة"
+
+msgid "Woodlot"
+msgstr "غابة محميّة"
+
+msgid "Woodman"
+msgstr "الحطّاب"
+
+msgid "Woodmen"
+msgstr "الحطّابون"
+
+msgid "Woodpeck"
+msgstr "انقر الخشب"
+
+msgid "Woodpecker"
+msgstr "نقّار الخشب"
+
+msgid "Woodpeckers"
+msgstr "نقّارات الخشب"
+
+msgid "Woodpile"
+msgstr "الحطب"
+
+msgid "Woodpiles"
+msgstr "الحطب"
+
+msgid "Woodrat"
+msgstr "وودرات - نوع من القوارض"
+
+#, Name
+msgid "Woodrow"
+msgstr "وودرو"
+
+msgid "Woodruff"
+msgstr "الجويسئة العطرية"
+
+msgid "Woodruffs"
+msgstr "الجويسئة العطرية"
+
+msgid "Woods"
+msgstr "الخشب"
+
+msgid "Woodscrew"
+msgstr "لولب للخشب"
+
+msgid "Woodshed"
+msgstr "مخزن الحطب"
+
+msgid "Woodsheds"
+msgstr "مخازن الحطب"
+
+msgid "Woodsia"
+msgstr "نبات الودسيا"
+
+#, Name
+msgid "Woodside"
+msgstr "وودسايد"
+
+msgid "Woodsman"
+msgstr "الحطّاب"
+
+msgid "Woodsmen"
+msgstr "الحطّابون"
+
+msgid "Woodstock"
+msgstr "مدينة وودستوك - معروفة بمهرجان موسيقى الروك في عام 1969"
+
+msgid "Woodstone"
+msgstr "نوع من الأحجار"
+
+msgid "Woodsy"
+msgstr "يشبه الخشب، بمواصفات الخشب"
+
+#, Name
+msgid "Woodward"
+msgstr "وودوورد"
+
+msgid "Woodwind"
+msgstr "آلات النّفخ"
+
+msgid "Woodwinds"
+msgstr "آلات النّفخ"
+
+msgid "Woodwork"
+msgstr "أشغال الخشب"
+
+msgid "Woodworker"
+msgstr "النّجّار"
+
+msgid "Woodworking"
+msgstr "النّجارة"
+
+msgid "Woodworm"
+msgstr "الدّودة أو يرقة الحشرة التي تقوم على إختراق الخشب"
+
+msgid "Woody"
+msgstr "خشبيّ"
+
+#, Name
+msgid "Woodyard"
+msgstr "ووديارد"
+
+msgid "Wooed"
+msgstr "سعى لكسب"
+
+msgid "Wooer"
+msgstr "المتودّد"
+
+msgid "Woof"
+msgstr "النّسيج"
+
+msgid "Woofed"
+msgstr "نبح"
+
+msgid "Woofer"
+msgstr "مكبّر الصّوت"
+
+msgid "Woofers"
+msgstr "مكبّرات الصّوت"
+
+msgid "Woofing"
+msgstr "النّسيج"
+
+msgid "Woofs"
+msgstr "النّسيج"
+
+msgid "Woofy"
+msgstr "كثيف"
+
+msgid "Wooing"
+msgstr "سعي لكسب"
+
+msgid "Wool"
+msgstr "الصّوف"
+
+msgid "Wool-gathering"
+msgstr "شرود الذّهن"
+
+msgid "Wooled"
+msgstr "ذو صوف"
+
+msgid "Woolen"
+msgstr "صوفيّ"
+
+msgid "Woolens"
+msgstr "المنسوجات الصّوفيّة"
+
+msgid "Woolgather"
+msgstr "اسرح"
+
+msgid "Woolgatherer"
+msgstr "الشّارد"
+
+msgid "Woolgathering"
+msgstr "شرود الذّهن"
+
+msgid "Woollen"
+msgstr "صوفيّ"
+
+msgid "Woollier"
+msgstr "أكثر صوفيّ"
+
+msgid "Woollies"
+msgstr "الثّياب الصّوفيّة"
+
+msgid "Woolliest"
+msgstr "الأكثر صوفيّ"
+
+msgid "Woolliness"
+msgstr "الصوفيّة"
+
+msgid "Woolly"
+msgstr "ثوب صوفيّ"
+
+msgid "Woolpack"
+msgstr "كيس من الصّوف ويزن 240 رطل"
+
+msgid "Wools"
+msgstr "الصّوف"
+
+msgid "Woolsack"
+msgstr "المقعد، كيس مملوء بالصّوف"
+
+msgid "Woolsey"
+msgstr "مدينة وولزي"
+
+msgid "Woolworth"
+msgstr "وولوورث"
+
+msgid "Wooly"
+msgstr "صوفيّ"
+
+msgid "Woon"
+msgstr "المسكن، السّكن، المنزل"
+
+#, City
+msgid "Woonsocket"
+msgstr "وونسوكت"
+
+msgid "Woorali"
+msgstr "نوع من السّموم النّباتيّة"
+
+msgid "Woorari"
+msgstr "نوع من السّموم النّباتيّة"
+
+msgid "Woos"
+msgstr "يسعى لكسب"
+
+msgid "Wooster"
+msgstr "ووستر"
+
+msgid "Woosy"
+msgstr "طينيّ، مبلل، رطب"
+
+msgid "Woozily"
+msgstr "بدُوار"
+
+msgid "Woozy"
+msgstr "مصاب بدوار"
+
+msgid "Wop"
+msgstr "الأجنبيّ"
+
+msgid "Wops"
+msgstr "الأجانب"
+
+#, Name
+msgid "Worcester"
+msgstr "وورسستر"
+
+msgid "Worcestershire"
+msgstr "ورسيستيرشاير"
+
+msgid "Word"
+msgstr "الكلمة"
+
+msgid "Word-of-mouth"
+msgstr "عُرف او انتشر عن طريق التداول في الأحاديث"
+
+msgid "Word-oriented"
+msgstr "موجّه بالكلمة"
+
+msgid "Word-painting"
+msgstr "الوصف الدّقيق او الحي"
+
+msgid "Wordbook"
+msgstr "القاموس، معجم المفردات"
+
+msgid "Wordbooks"
+msgstr "القواميس"
+
+msgid "Worded"
+msgstr "محدّد"
+
+msgid "Worden"
+msgstr "مدينة وردين"
+
+msgid "Wordier"
+msgstr "أكثر إسهابًا"
+
+msgid "Wordiest"
+msgstr "الأكثر إسهابًا"
+
+msgid "Wordily"
+msgstr "بشكل رنّان"
+
+msgid "Wordiness"
+msgstr "الإسهاب"
+
+msgid "Wording"
+msgstr "الصّيغة"
+
+msgid "Wordings"
+msgstr "الصّيغ"
+
+msgid "Wordless"
+msgstr "صامت"
+
+msgid "Wordlessly"
+msgstr "بدون كلام"
+
+msgid "Wordlessness"
+msgstr "الصّمت"
+
+msgid "Wordnet"
+msgstr "وردنيت - علامة تجارية لمعجم مفردات"
+
+msgid "Wordplay"
+msgstr "التّورية"
+
+msgid "Wordprocessor"
+msgstr "معالج النّصوص"
+
+msgid "Words"
+msgstr "الكلمات"
+
+msgid "Wordsmith"
+msgstr "كاتب من الطّراز الأول"
+
+#, Name
+msgid "Wordsworth"
+msgstr "ووردزورث"
+
+msgid "Wordwrap"
+msgstr "رجوع الى السطر"
+
+msgid "Wordy"
+msgstr "مسهب"
+
+msgid "Wore"
+msgstr "دام"
+
+msgid "Work"
+msgstr "العمل"
+
+msgid "Work-around"
+msgstr "طريقة سهلة ومختصرة عن الطريقة المألوفة في إنجاز العمل"
+
+msgid "Work-in"
+msgstr "الاعتصام في مكان العمل مع الإستمرار في العمل"
+
+msgid "Workable"
+msgstr "عمليّ"
+
+msgid "Workableness"
+msgstr "إمكانيّة التّشغيل"
+
+msgid "Workably"
+msgstr "بشكل قابل للتّشغيل"
+
+msgid "Workaday"
+msgstr "عاديّ"
+
+msgid "Workaround"
+msgstr "حلّ"
+
+msgid "Workbench"
+msgstr "طاولة العمل"
+
+msgid "Workbenches"
+msgstr "طاولات العمل"
+
+msgid "Workbook"
+msgstr "الدّفتر"
+
+msgid "Workbooks"
+msgstr "الدّفاتر"
+
+msgid "Workday"
+msgstr "ساعات العمل"
+
+msgid "Workdays"
+msgstr "ساعات العمل"
+
+msgid "Workdir"
+msgstr "دليل العمل"
+
+msgid "Worked"
+msgstr "عمل"
+
+msgid "Worker"
+msgstr "العامل"
+
+msgid "Workers"
+msgstr "العمّال"
+
+msgid "Workfellow"
+msgstr "زميل العمل"
+
+msgid "Workflow"
+msgstr "طريقة سير العمل"
+
+msgid "Workforce"
+msgstr "قوى العاملة"
+
+msgid "Workgroup"
+msgstr "مجموعة العمل"
+
+msgid "Workhorse"
+msgstr "العامل"
+
+msgid "Workhorses"
+msgstr "العمّال"
+
+msgid "Workhouse"
+msgstr "الإصلاحيّة"
+
+msgid "Workhouses"
+msgstr "الإصلاحيّات"
+
+msgid "Working"
+msgstr "العمل"
+
+msgid "Working day"
+msgstr "يوم عمل"
+
+msgid "Working-class"
+msgstr "الحرفيين اليدويين وعمال المصانع"
+
+msgid "Workingman"
+msgstr "العامل"
+
+msgid "Workingmen"
+msgstr "العمّال"
+
+msgid "Workings"
+msgstr "طرق العمل"
+
+msgid "Workload"
+msgstr "حجم العمل"
+
+msgid "Workloads"
+msgstr "أحجام العمل"
+
+msgid "Workman"
+msgstr "العامل"
+
+msgid "Workmanlike"
+msgstr "بارع"
+
+msgid "Workmanly"
+msgstr "ببراعة"
+
+msgid "Workmanship"
+msgstr "الإتقان"
+
+msgid "Workmen"
+msgstr "العمّال"
+
+msgid "Workout"
+msgstr "التّدريب"
+
+msgid "Workouts"
+msgstr "التّدريبات"
+
+msgid "Workpiece"
+msgstr "قطعة تصنيع"
+
+msgid "Workplace"
+msgstr "مقرّ العمل"
+
+msgid "Workplaces"
+msgstr "مقارّ العمل"
+
+msgid "Workroom"
+msgstr "حجرة العمل"
+
+msgid "Workrooms"
+msgstr "حجرات العمل"
+
+msgid "Works"
+msgstr "يعمل"
+
+msgid "Worksheet"
+msgstr "ورقة العمل"
+
+msgid "Worksheets"
+msgstr "ورق العمل"
+
+msgid "Workship"
+msgstr "الإتقان في العمل"
+
+msgid "Workshop"
+msgstr "الورشة"
+
+msgid "Workshops"
+msgstr "الورش"
+
+msgid "Workshy"
+msgstr "غير مستعد للعمل، الكسول"
+
+msgid "Workspace"
+msgstr "مساحة عمل"
+
+msgid "Workspaces"
+msgstr "مساحات العمل"
+
+msgid "Workstation"
+msgstr "محيط العمل"
+
+msgid "Workstations"
+msgstr "محيطات العمل"
+
+msgid "Worktable"
+msgstr "المنضدة"
+
+msgid "Worktables"
+msgstr "المناضد"
+
+msgid "Workweek"
+msgstr "أسبوع من العمل"
+
+msgid "Workwise"
+msgstr "بصورة عمليّة"
+
+msgid "World"
+msgstr "العالم"
+
+msgid "World-wide"
+msgstr "عالميًّا"
+
+msgid "Worldfamous"
+msgstr "مشهور"
+
+msgid "Worldlier"
+msgstr "أكثر دنيويّة"
+
+msgid "Worldliest"
+msgstr "الأكثر دنيويّة"
+
+msgid "Worldliness"
+msgstr "المادّيّة"
+
+msgid "Worldling"
+msgstr "الدّنيويّ"
+
+msgid "Worldlings"
+msgstr "الدّنيويّون"
+
+msgid "Worldly"
+msgstr "دنيويّ"
+
+msgid "Worlds"
+msgstr "العوالم"
+
+msgid "Worldshaking"
+msgstr "مزلزل"
+
+msgid "Worldwide"
+msgstr "في كلّ أنحاء العالم"
+
+msgid "Worley"
+msgstr "مدينة ورلي"
+
+msgid "Worm"
+msgstr "الدّودة"
+
+msgid "Wormcast"
+msgstr "الركام الرّملي الذي تخلّفه الدّودة بعد حفرها للجحر"
+
+msgid "Wormed"
+msgstr "تحرّك كالدّيدان"
+
+msgid "Wormer"
+msgstr "ورمر"
+
+msgid "Wormhole"
+msgstr "الثّقب"
+
+msgid "Wormholes"
+msgstr "الثّقوب"
+
+msgid "Wormier"
+msgstr "أكثر الدّيدان"
+
+msgid "Wormil"
+msgstr "يرقة تعيش تحت جلد الحيوانات البلدية"
+
+msgid "Worminess"
+msgstr "الدّوديّة"
+
+msgid "Worming"
+msgstr "تحرّك كالدّيدان"
+
+msgid "Worms"
+msgstr "الدّيدان"
+
+msgid "Wormwood"
+msgstr "الشّيح"
+
+msgid "Wormwoods"
+msgstr "المرارة"
+
+msgid "Wormy"
+msgstr "كثير الدّيدان"
+
+msgid "Worn"
+msgstr "دام"
+
+msgid "Worn-out"
+msgstr "لُبِس حتّى لم يعد مفيد، مهتريء"
+
+msgid "Worried"
+msgstr "قلق"
+
+msgid "Worriedly"
+msgstr "بقلق"
+
+msgid "Worrier"
+msgstr "القلق"
+
+msgid "Worriers"
+msgstr "القلقون"
+
+msgid "Worries"
+msgstr "القلق"
+
+msgid "Worriment"
+msgstr "القلق"
+
+msgid "Worrisome"
+msgstr "مقلق"
+
+msgid "Worrisomely"
+msgstr "بقلق"
+
+msgid "Worrisomeness"
+msgstr "الإقلاق"
+
+msgid "Worrit"
+msgstr "القلق، يقلق"
+
+msgid "Worry"
+msgstr "القلق"
+
+msgid "Worrying"
+msgstr "القلق"
+
+msgid "Worryingly"
+msgstr "بشكل مقلق"
+
+msgid "Worrywart"
+msgstr "الشخص الذي يقلق بإفراط و بدون سبب"
+
+msgid "Worse"
+msgstr "الأسوأ"
+
+msgid "Worsen"
+msgstr "سؤت"
+
+msgid "Worsened"
+msgstr "ساء"
+
+msgid "Worsening"
+msgstr "السّوء"
+
+msgid "Worsens"
+msgstr "يسوء"
+
+msgid "Worser"
+msgstr "ورسر"
+
+msgid "Worship"
+msgstr "العبادة"
+
+msgid "Worshiped"
+msgstr "عبد"
+
+msgid "Worshiper"
+msgstr "العابد"
+
+msgid "Worshipers"
+msgstr "العبدة"
+
+msgid "Worshipful"
+msgstr "مبجّل"
+
+msgid "Worshipfully"
+msgstr "على نحو مبجّل"
+
+msgid "Worshipfulness"
+msgstr "التّبجيل"
+
+msgid "Worshiping"
+msgstr "العبادة"
+
+msgid "Worshipped"
+msgstr "أحبّ، بجّل، أخلص، عبد"
+
+msgid "Worshipper"
+msgstr "ألمُحبّ، المُبجّل، ألمُخلص، العابد"
+
+msgid "Worshippers"
+msgstr "المتعبّدون"
+
+msgid "Worships"
+msgstr "الفخامة"
+
+msgid "Worst"
+msgstr "الأسوأ"
+
+msgid "Worst-case"
+msgstr "أسوأ صندوق"
+
+msgid "Worsted"
+msgstr "النّسيج الصّوفيّ"
+
+msgid "Wort"
+msgstr "سائل محلّا يستعمل في صناعة البيرة"
+
+msgid "Worth"
+msgstr "القيمة"
+
+msgid "Worthful"
+msgstr "ذو قيمة أو ميزة"
+
+msgid "Worthier"
+msgstr "أجدر"
+
+msgid "Worthies"
+msgstr "المهمّون"
+
+msgid "Worthiest"
+msgstr "الأجدر"
+
+msgid "Worthily"
+msgstr "عن استحقاق"
+
+msgid "Worthiness"
+msgstr "الجدارة"
+
+msgid "Worthing"
+msgstr "ورذينج"
+
+#, Name
+msgid "Worthington"
+msgstr "وورثنجتن"
+
+msgid "Worthless"
+msgstr "عديم القيمة"
+
+msgid "Worthlessly"
+msgstr "بلا فائدة"
+
+msgid "Worthlessness"
+msgstr "التّفاهة"
+
+msgid "Worths"
+msgstr "يساوي"
+
+msgid "Worthwhile"
+msgstr "مفيد"
+
+msgid "Worthwhileness"
+msgstr "الفائدة"
+
+msgid "Worthy"
+msgstr "المهمّ"
+
+msgid "Worton"
+msgstr "مدينة ورتون"
+
+#, Name
+msgid "Wotan"
+msgstr "وُتانْ"
+
+msgid "Woul"
+msgstr "يعوي، عوا"
+
+msgid "Would"
+msgstr "هل"
+
+msgid "Would-be"
+msgstr "مدّعي"
+
+msgid "Wouldest"
+msgstr "المفرد الثّاني الماضي من سوف"
+
+msgid "Wound"
+msgstr "الجرح"
+
+msgid "Wounded"
+msgstr "مصاب"
+
+msgid "Wounder"
+msgstr "من يتسبّب بالجروح"
+
+msgid "Wounding"
+msgstr "الجرح"
+
+msgid "Wounds"
+msgstr "الجروح"
+
+msgid "Wove"
+msgstr "نسج"
+
+msgid "Woven"
+msgstr "نسج"
+
+msgid "Wow"
+msgstr "النّجاح"
+
+msgid "Wowe"
+msgstr "يسعى للنيل، يداعب المرأة"
+
+msgid "Wowf"
+msgstr "غير مرتّب أو متقلّب في التّفكير، مختلّ"
+
+msgid "Wps"
+msgstr "كلمة في الثانية"
+
+msgid "Wrack"
+msgstr "الحطام"
+
+msgid "Wracked"
+msgstr "دمّر"
+
+msgid "Wracking"
+msgstr "التّدمير"
+
+msgid "Wraith"
+msgstr "الشّبح"
+
+msgid "Wraithlike"
+msgstr "خالي من أي شيء ملموس"
+
+msgid "Wraiths"
+msgstr "الأشباح"
+
+msgid "Wram"
+msgstr "ويندو رام، ذاكرة النّافذة العشوائيّة"
+
+msgid "Wrangle"
+msgstr "المجادلة"
+
+msgid "Wrangled"
+msgstr "تشاجر"
+
+msgid "Wrangler"
+msgstr "راعي البقر"
+
+msgid "Wranglers"
+msgstr "رعاة البقر"
+
+msgid "Wrangles"
+msgstr "المجادلات"
+
+msgid "Wrangling"
+msgstr "التّشاجر"
+
+msgid "Wrap"
+msgstr "لفّ"
+
+msgid "Wraparound"
+msgstr "ملفوف"
+
+msgid "Wrapped"
+msgstr "لفّ"
+
+msgid "Wrapper"
+msgstr "الغلاف"
+
+msgid "Wrappers"
+msgstr "الأغلفة"
+
+msgid "Wrapping"
+msgstr "الغلاف"
+
+msgid "Wrappings"
+msgstr "الأغلفة"
+
+msgid "Wraps"
+msgstr "الأغطية"
+
+msgid "Wrapt"
+msgstr "غطّى، لفّ، لوى"
+
+msgid "Wrapup"
+msgstr "التّقرير"
+
+msgid "Wrasse"
+msgstr "سمك الراس ذو الشّفاة البارزة"
+
+msgid "Wrastle"
+msgstr "يصارع"
+
+msgid "Wrath"
+msgstr "الغضب"
+
+msgid "Wrathful"
+msgstr "مغتاظ"
+
+msgid "Wrathfully"
+msgstr "بغضب"
+
+msgid "Wrathfulness"
+msgstr "الغضب"
+
+msgid "Wrathy"
+msgstr "غاضب جدّاً"
+
+msgid "Wray"
+msgstr "يكشف، يعلن"
+
+msgid "Wrb"
+msgstr "سمسار طلب الويب"
+
+msgid "Wreak"
+msgstr "صبّ"
+
+msgid "Wreaked"
+msgstr "صبّ"
+
+msgid "Wreaking"
+msgstr "الصّبّ"
+
+msgid "Wreaks"
+msgstr "يصبّ"
+
+msgid "Wreath"
+msgstr "الإكليل"
+
+msgid "Wreathe"
+msgstr "لفّ"
+
+msgid "Wreathed"
+msgstr "لفّ"
+
+msgid "Wreathen"
+msgstr "ملفوف، ملتف حول"
+
+msgid "Wreathes"
+msgstr "يلفّ"
+
+msgid "Wreathing"
+msgstr "اللّفّ"
+
+msgid "Wreaths"
+msgstr "الأكاليل"
+
+msgid "Wreathy"
+msgstr "ملفوف، منعطف، لولبي"
+
+msgid "Wreck"
+msgstr "الحطام"
+
+msgid "Wreckage"
+msgstr "الحطام"
+
+msgid "Wrecked"
+msgstr "سكران"
+
+msgid "Wrecker"
+msgstr "هادم المباني"
+
+msgid "Wreckers"
+msgstr "هادمون المباني"
+
+msgid "Wrecking"
+msgstr "القضاء"
+
+msgid "Wrecks"
+msgstr "الحطام"
+
+msgid "Wren"
+msgstr "النمنمة"
+
+msgid "Wrench"
+msgstr "مصدر الحزن"
+
+msgid "Wrenched"
+msgstr "انتزع"
+
+msgid "Wrenches"
+msgstr "الشّدّات"
+
+msgid "Wrenching"
+msgstr "الانتزاع"
+
+msgid "Wrenchingly"
+msgstr "بدرجة مؤلمة"
+
+msgid "Wrens"
+msgstr "النمنمة"
+
+msgid "Wrest"
+msgstr "انتزع"
+
+msgid "Wrested"
+msgstr "انتزع"
+
+msgid "Wrester"
+msgstr "مُنتزع"
+
+msgid "Wresting"
+msgstr "الانتزاع"
+
+msgid "Wrestle"
+msgstr "تصارع"
+
+msgid "Wrestled"
+msgstr "تصارع"
+
+msgid "Wrestler"
+msgstr "المصارع"
+
+msgid "Wrestlers"
+msgstr "المصارعون"
+
+msgid "Wrestles"
+msgstr "يتصارع"
+
+msgid "Wrestling"
+msgstr "المصارعة"
+
+msgid "Wrests"
+msgstr "ينتزع"
+
+msgid "Wretch"
+msgstr "البائس"
+
+msgid "Wretched"
+msgstr "بائس"
+
+msgid "Wretchedly"
+msgstr "بشكل يدعو للأسى"
+
+msgid "Wretchedness"
+msgstr "التّعاسة"
+
+msgid "Wretches"
+msgstr "البؤساء"
+
+msgid "Wrick"
+msgstr "تشنّج العضل المؤلم"
+
+msgid "Wried"
+msgstr "مطوي، ملتف"
+
+msgid "Wrier"
+msgstr "أكثر التواءً"
+
+msgid "Wriest"
+msgstr "الأكثر التواءً"
+
+msgid "Wrig"
+msgstr "يلوي، يلف"
+
+msgid "Wriggle"
+msgstr "التواء"
+
+msgid "Wriggled"
+msgstr "تلوّى"
+
+msgid "Wriggler"
+msgstr "اليرقة"
+
+msgid "Wrigglers"
+msgstr "اليرقات"
+
+msgid "Wriggles"
+msgstr "التواءات"
+
+msgid "Wriggling"
+msgstr "التّلوّي"
+
+msgid "Wriggly"
+msgstr "ملتوي"
+
+msgid "Wright"
+msgstr "الصّانع"
+
+msgid "Wrigley"
+msgstr "ريجلي"
+
+msgid "Wring"
+msgstr "العصر"
+
+msgid "Wringer"
+msgstr "العصّارة"
+
+msgid "Wringers"
+msgstr "العصّارات"
+
+msgid "Wringing"
+msgstr "العصر"
+
+msgid "Wrings"
+msgstr "العصر"
+
+msgid "Wrinkle"
+msgstr "التّجعيد"
+
+msgid "Wrinkled"
+msgstr "تجعّد"
+
+msgid "Wrinkles"
+msgstr "التّجعيدات"
+
+msgid "Wrinkling"
+msgstr "التّجعّد"
+
+msgid "Wrinkly"
+msgstr "العجوز"
+
+msgid "Wrist"
+msgstr "المعصم"
+
+msgid "Wristband"
+msgstr "الإسورة"
+
+msgid "Wristbands"
+msgstr "الأساور"
+
+msgid "Wristlet"
+msgstr "السّوار - ما يلبس حول المعصم من زينة"
+
+msgid "Wrists"
+msgstr "المعاصم"
+
+msgid "Wristwatch"
+msgstr "السّاعة"
+
+msgid "Wristwatches"
+msgstr "ساعات اليد"
+
+msgid "Writ"
+msgstr "الوثيقة"
+
+msgid "Writability"
+msgstr "القدرة على الكتابة"
+
+msgid "Writable"
+msgstr "مناسب للكتابة"
+
+msgid "Write"
+msgstr "اكتب"
+
+msgid "Write-down"
+msgstr "التّخفيض من قيمة السّلعة"
+
+msgid "Write-enable"
+msgstr "اكتب يمكّن"
+
+msgid "Write-off"
+msgstr "دين لايمكن تحصيله"
+
+msgid "Write-only"
+msgstr "اكتب فقط"
+
+msgid "Write-protect"
+msgstr "اكتب يحمي"
+
+msgid "Write-protected"
+msgstr "اكتب محميّ"
+
+msgid "Write-read"
+msgstr "اكتب القراءة"
+
+msgid "Writeable"
+msgstr "قابل للكتابة"
+
+msgid "Writer"
+msgstr "الكاتب"
+
+msgid "Writers"
+msgstr "الكتّاب"
+
+msgid "Writes"
+msgstr "يكتب"
+
+msgid "Writeup"
+msgstr "التّقرير"
+
+msgid "Writhe"
+msgstr "تلوّ"
+
+msgid "Writhed"
+msgstr "تلوّى"
+
+msgid "Writhes"
+msgstr "يتلوّى"
+
+msgid "Writhing"
+msgstr "التّلوّي"
+
+msgid "Writing"
+msgstr "المكتوب"
+
+msgid "Writing-reading"
+msgstr "الكتابة - القراءة"
+
+msgid "Writings"
+msgstr "المؤلّفات"
+
+msgid "Writs"
+msgstr "الوثائق"
+
+msgid "Written"
+msgstr "كتب"
+
+msgid "Wrong"
+msgstr "الخطأ"
+
+msgid "Wrong-doing"
+msgstr "الإثم، التصرّف المشين"
+
+msgid "Wrongdoer"
+msgstr "الآثم"
+
+msgid "Wrongdoers"
+msgstr "الآثمون"
+
+msgid "Wrongdoing"
+msgstr "الإثم"
+
+msgid "Wrongdoings"
+msgstr "الآثام"
+
+msgid "Wronged"
+msgstr "ظلم"
+
+msgid "Wronger"
+msgstr "خطأ"
+
+msgid "Wrongest"
+msgstr "الخطأ"
+
+msgid "Wrongful"
+msgstr "ظالم"
+
+msgid "Wrongfully"
+msgstr "بصورة غير شرعيّة"
+
+msgid "Wrongfulness"
+msgstr "الضّلال"
+
+msgid "Wronging"
+msgstr "الظّلم"
+
+msgid "Wrongly"
+msgstr "بطريقة خاطئة"
+
+msgid "Wrongness"
+msgstr "الخطأ"
+
+msgid "Wrongous"
+msgstr "بطريق الخطأ"
+
+msgid "Wrongs"
+msgstr "الأخطاء"
+
+msgid "Wronskian"
+msgstr "رونسكايان"
+
+msgid "Wrote"
+msgstr "كتب"
+
+msgid "Wroth"
+msgstr "ثائربشدّة واستنكاريّ"
+
+msgid "Wrought"
+msgstr "مصنوع"
+
+msgid "Wroughtiron"
+msgstr "الحديد المطاوع"
+
+msgid "Wrt"
+msgstr "فيما يخصّ، بخصوص"
+
+msgid "Wrung"
+msgstr "عصر"
+
+msgid "Wry"
+msgstr "ممتعض"
+
+msgid "Wryly"
+msgstr "بامتعاض"
+
+msgid "Wryneck"
+msgstr "اللواء"
+
+msgid "Wrynecks"
+msgstr "اللواء"
+
+msgid "Wryness"
+msgstr "الالتواء"
+
+msgid "Wsw"
+msgstr "بين الغرب والجنوب الغربي"
+
+msgid "Wu"
+msgstr "وو - لهجة صينيّة"
+
+msgid "Wuhan"
+msgstr "ووهان"
+
+msgid "Wulfenite"
+msgstr "عنصر الولفنيت"
+
+msgid "Wumpus"
+msgstr "وومبس - لعبة من ألعاب الكمبيوتر"
+
+msgid "WV"
+msgstr "فرجينيا الغربيه"
+
+msgid "WWW"
+msgstr "الشبكة العالميّة"
+
+msgid "Wwww"
+msgstr "أول محرّك بحث في العالم. أنتجته جامعة كولورادو عام 1994"
+
+msgid "WY"
+msgstr "وايومينج"
+
+msgid "Wyandot"
+msgstr "قبيلة وياندوت الهندية التي قطنت ولاية أوهايو"
+
+msgid "Wyandotte"
+msgstr "الوايندوتية"
+
+msgid "Wyatt"
+msgstr "ويات"
+
+msgid "Wyd"
+msgstr "عريض، واسع"
+
+msgid "Wye"
+msgstr "الحرف الإنجليزي واي"
+
+msgid "Wyes"
+msgstr "الحروف الإنجليزية واي"
+
+msgid "Wyeth"
+msgstr "وِيِثْ"
+
+msgid "Wylie"
+msgstr "ويلي"
+
+msgid "Wyman"
+msgstr "ويمان"
+
+msgid "Wynd"
+msgstr "حارة ضيّقة أو زقاق"
+
+msgid "Wyner"
+msgstr "وينر"
+
+msgid "Wynn"
+msgstr "وين"
+
+msgid "Wynne"
+msgstr "مدينة وين"
+
+msgid "Wynot"
+msgstr "مدينة وينوت"
+
+msgid "Wyoming"
+msgstr "وايومينج"
+
+msgid "Wype"
+msgstr "طائر الوايب"
+
+msgid "Wysiayg"
+msgstr "الذي تراه هو كل ما يمكنك الحصول عليه"
+
+msgid "Wysiwyg"
+msgstr "عندما تقوم بعمليّة الطّباعة فإنّك ستحصل على الذي تراه على الشّاشة"
+
+msgid "Wythe"
+msgstr "غصن الشّجرة"
+
+msgid "Wyvern"
+msgstr "تنّين نافث للّهب"
+

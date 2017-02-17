@@ -1,0 +1,14297 @@
+# translation of full_wordlist_B.po to
+# translation of full_wordlist_B.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_B.po,v 1.37 2004/03/13 09:00:34 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'B'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ossama M. Khayat <okhayat@yahoo.com>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+# Moustafa Mounir Elqabbany <elqabbany@sunnipath.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_B\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"PO-Revision-Date: 2004-03-13 11:59+0300\n"
+
+msgid "B"
+msgstr "بي - الحرف الثاني في اللغة الإنجليزية"
+
+msgid "Baaed"
+msgstr "ثغا :: مأمأ"
+
+msgid "Babbitt"
+msgstr "السبيكة من معدن بابت"
+
+msgid "Babbitted"
+msgstr "غطّى بمعدن البابيته"
+
+msgid "Babbitting"
+msgstr "التغطية بمعدن البابيت"
+
+msgid "Babbitts"
+msgstr "السبيكة من معدن بابت"
+
+msgid "Babble"
+msgstr "الضّجيج :: ثرثر :: يثرثر :: هذر :: يهذر :: غمغم :: يغمغم :: باح :: يبوح"
+
+msgid "Babbled"
+msgstr "هذى"
+
+msgid "Babbler"
+msgstr "الثّرثار"
+
+msgid "Babblers"
+msgstr "الثّرثارون"
+
+msgid "Babbles"
+msgstr "الضّجيج"
+
+msgid "Babbling"
+msgstr "الهذيان"
+
+msgid "Babcock"
+msgstr "بابكوك"
+
+msgid "Babe"
+msgstr "الطّفل"
+
+msgid "Babel"
+msgstr "الضّجيج"
+
+msgid "Babes"
+msgstr "الأطفال"
+
+msgid "Babied"
+msgstr "عومل باهتمام كبيره"
+
+msgid "Babies"
+msgstr "الأطفال"
+
+msgid "Baboon"
+msgstr "البابون"
+
+msgid "Baboonish"
+msgstr "تقريبا بابون"
+
+msgid "Baboons"
+msgstr "البابون"
+
+msgid "Baby"
+msgstr "الطّفل"
+
+msgid "Babyhood"
+msgstr "الطّفولة"
+
+msgid "Babying"
+msgstr "المعاملة باهتمام كبير"
+
+msgid "Babyish"
+msgstr "طفوليّ"
+
+msgid "Babyishly"
+msgstr "بشكل طفولي"
+
+msgid "Babylon"
+msgstr "بابل"
+
+msgid "Babylonian"
+msgstr "بابليّ"
+
+msgid "Babylonians"
+msgstr "البابليون"
+
+msgid "Babysat"
+msgstr "رعى"
+
+msgid "Babysit"
+msgstr "ارع"
+
+msgid "Babysits"
+msgstr "يرعى"
+
+msgid "Babysitter"
+msgstr "الحاضنة"
+
+msgid "Babysitters"
+msgstr "الحاضنات"
+
+msgid "Babysitting"
+msgstr "مجالسة الأطفال"
+
+msgid "Baccalaureate"
+msgstr "البكالوريوس"
+
+msgid "Baccarat"
+msgstr "القمار"
+
+msgid "Bacchanals"
+msgstr "الحفلات الماجنة"
+
+msgid "Bacchus"
+msgstr "باخوس"
+
+msgid "Bach"
+msgstr "باخ"
+
+msgid "Bachelor"
+msgstr "الأعزب"
+
+msgid "Bachelorhood"
+msgstr "العزوبية"
+
+msgid "Bachelors"
+msgstr "العزّاب"
+
+msgid "Bachelorship"
+msgstr "العزوبية"
+
+msgid "Bacillary"
+msgstr "عصوي"
+
+msgid "Bacilli"
+msgstr "البكتيريا"
+
+msgid "Bacillus"
+msgstr "البكتيريا"
+
+msgid "Back"
+msgstr "الظّهر"
+
+msgid "Back-door"
+msgstr "مستتر"
+
+msgid "Back-end"
+msgstr "النّهاية الخلفيّة"
+
+msgid "Back-space"
+msgstr "زرّ لإعادة الكتابة"
+
+msgid "Back-spacing"
+msgstr "الحذف"
+
+msgid "Back-to-normal"
+msgstr "إلى الخلف إلى عاديّ"
+
+msgid "Backache"
+msgstr "ألم بالظّهر"
+
+msgid "Backaches"
+msgstr "آلام بالظّهر"
+
+msgid "Backarrow"
+msgstr "سهم الرجوع"
+
+msgid "Backbencher"
+msgstr "عضو البرلمان"
+
+msgid "Backbenchers"
+msgstr "أعضاء البرلمان"
+
+msgid "Backbite"
+msgstr "اغتب"
+
+msgid "Backbiters"
+msgstr "المغتابون"
+
+msgid "Backbites"
+msgstr "يغتاب"
+
+msgid "Backboard"
+msgstr "اللّوح الخلفيّ"
+
+msgid "Backbone"
+msgstr "العمود الفقريّ"
+
+msgid "Backbones"
+msgstr "الأعمدة الفقريّة"
+
+msgid "Backbreaking"
+msgstr "مرهق"
+
+msgid "Backchaining"
+msgstr "السلسلة المرجعية"
+
+msgid "Backdate"
+msgstr "قدّم"
+
+msgid "Backdoor"
+msgstr "مستتر"
+
+msgid "Backdown"
+msgstr "التراجع"
+
+msgid "Backdowns"
+msgstr "التراجعات"
+
+msgid "Backdrop"
+msgstr "الخلفيّة"
+
+msgid "Backdrops"
+msgstr "الخلفيّات"
+
+msgid "Backed"
+msgstr "رجع"
+
+msgid "Backend"
+msgstr "الخلفية"
+
+msgid "Backer"
+msgstr "المؤيّد"
+
+msgid "Backers"
+msgstr "المؤيّدون"
+
+msgid "Backfield"
+msgstr "لاعبو الخلف"
+
+msgid "Backfill"
+msgstr "أعد ملئ"
+
+msgid "Backfilled"
+msgstr "أعيد ملئ"
+
+msgid "Backfilling"
+msgstr "إعادة ملئ"
+
+msgid "Backfills"
+msgstr "يعيد ملئ"
+
+msgid "Backfire"
+msgstr "جئ بنتيجة عكسيّة"
+
+msgid "Backfired"
+msgstr "جاء بنتيجة عكسيّة"
+
+msgid "Backfires"
+msgstr "يجيء بنتيجة عكسيّة"
+
+msgid "Backfiring"
+msgstr "مجيء بنتيجة عكسيّة"
+
+msgid "Backgammon"
+msgstr "الطّاولة"
+
+msgid "Backgd"
+msgstr "الخلفيّة"
+
+msgid "Background"
+msgstr "الخلفيّة"
+
+msgid "Backgrounds"
+msgstr "الخلفيّات"
+
+msgid "Backhand"
+msgstr "الضّربة الخلفيّة"
+
+msgid "Backhanded"
+msgstr "بظهر اليد"
+
+msgid "Backhandedly"
+msgstr "بظهر اليد"
+
+msgid "Backhander"
+msgstr "اللّكمة"
+
+msgid "Backhands"
+msgstr "الضّربات الخلفيّة"
+
+msgid "Backing"
+msgstr "المساندة"
+
+msgid "Backings"
+msgstr "البطانات"
+
+msgid "Backlash"
+msgstr "الثّورة"
+
+msgid "Backlasher"
+msgstr "ثائر"
+
+msgid "Backlashes"
+msgstr "الثّورات"
+
+msgid "Backlink"
+msgstr "وصلة عودة"
+
+msgid "Backlock"
+msgstr "القفل الخلفي"
+
+msgid "Backlog"
+msgstr "التّلّ"
+
+msgid "Backlogs"
+msgstr "الأعمال المتأخّرة المتراكمة"
+
+msgid "Backorder"
+msgstr "الأمر المؤجّل"
+
+msgid "Backout"
+msgstr "إلغاء تعديلات العمليّات المخفقة"
+
+msgid "Backpack"
+msgstr "حقيبة الظّهر"
+
+msgid "Backpacker"
+msgstr "الرّحّال"
+
+msgid "Backpackers"
+msgstr "الرّحّل"
+
+msgid "Backpacks"
+msgstr "حقائب الظّهر"
+
+msgid "Backpipes"
+msgstr "مواسير خلفية"
+
+msgid "Backplane"
+msgstr "لوحة الكترونية معزّزة"
+
+msgid "Backplanes"
+msgstr "لوحات الكترونية معزّزة"
+
+msgid "Backplate"
+msgstr "لوح حامي للظهر"
+
+msgid "Backplates"
+msgstr "ألواح حامية للظهر"
+
+msgid "Backs"
+msgstr "الظّهور"
+
+msgid "Backscatter"
+msgstr "رذاذ مرتد"
+
+msgid "Backscattered"
+msgstr "ارتد مبعثراً"
+
+msgid "Backscattering"
+msgstr "ارتداد مبعثر"
+
+msgid "Backscatters"
+msgstr "بعثرة مرتدة"
+
+msgid "Backside"
+msgstr "المؤخّرة"
+
+msgid "Backsides"
+msgstr "المؤخّرات"
+
+msgid "Backslash"
+msgstr "الشّرطة"
+
+msgid "Backslashed"
+msgstr "محدد بشرطة"
+
+msgid "Backslashes"
+msgstr "الشّرط"
+
+msgid "Backslashing"
+msgstr "تحديد بشرطة"
+
+msgid "Backslid"
+msgstr "تردّى"
+
+msgid "Backslidden"
+msgstr "تردّى"
+
+msgid "Backslide"
+msgstr "يتردّى"
+
+msgid "Backslider"
+msgstr "المنحرف"
+
+msgid "Backsliders"
+msgstr "المنحرفون"
+
+msgid "Backslides"
+msgstr "يتردّى"
+
+msgid "Backsliding"
+msgstr "التّردّي"
+
+msgid "Backspace"
+msgstr "زرّ لإعادة الكتابة"
+
+msgid "Backspaced"
+msgstr "حذف"
+
+msgid "Backspaces"
+msgstr "أزرار لإعادة الكتابة"
+
+msgid "Backspacing"
+msgstr "الحذف"
+
+msgid "Backstabber"
+msgstr "طاعن الظهر"
+
+msgid "Backstabbing"
+msgstr "الطعن بالظهر"
+
+msgid "Backstage"
+msgstr "من وراء الكواليس"
+
+msgid "Backstairs"
+msgstr "أدراج خلفية"
+
+msgid "Backstitch"
+msgstr "خيّط من الخلف"
+
+msgid "Backstitched"
+msgstr "خيّط من الخلف"
+
+msgid "Backstitches"
+msgstr "يخيّط من الخلف"
+
+msgid "Backstitching"
+msgstr "تخييط من الخلف"
+
+msgid "Backstop"
+msgstr "المصدّ"
+
+msgid "Backstops"
+msgstr "المصدّات"
+
+msgid "Backstroke"
+msgstr "سباحة الظّهر"
+
+msgid "Backstrokes"
+msgstr "سباحات الظّهر"
+
+msgid "Backstroking"
+msgstr "سباحة على الظّهر"
+
+msgid "Backtalk"
+msgstr "الجدل"
+
+msgid "Backtrace"
+msgstr "تتبع"
+
+msgid "Backtrack"
+msgstr "تراجع"
+
+msgid "Backtracked"
+msgstr "تراجع"
+
+msgid "Backtracker"
+msgstr "متعقّب"
+
+msgid "Backtrackers"
+msgstr "متعقّبون"
+
+msgid "Backtracking"
+msgstr "التّراجع"
+
+msgid "Backtracks"
+msgstr "يتراجع"
+
+msgid "Backup"
+msgstr "المساعد"
+
+msgid "Backups"
+msgstr "المساعدون"
+
+msgid "Backward"
+msgstr "إلى الخلف"
+
+msgid "Backwardly"
+msgstr "بشكل متخلّف"
+
+msgid "Backwardness"
+msgstr "التّراجع"
+
+msgid "Backwardnesses"
+msgstr "التخلفات"
+
+msgid "Backwards"
+msgstr "إلى الخلف"
+
+msgid "Backwash"
+msgstr "جرف خلفي"
+
+msgid "Backwater"
+msgstr "المعزل"
+
+msgid "Backwaters"
+msgstr "المعزلات"
+
+msgid "Backwood"
+msgstr "المنطقة النائية"
+
+msgid "Backwoods"
+msgstr "المعزل"
+
+msgid "Backwoodsman"
+msgstr "المنعزل"
+
+msgid "Backwoodsmen"
+msgstr "المنعزلون"
+
+msgid "Backyard"
+msgstr "الفناء"
+
+msgid "Backyards"
+msgstr "الأفنية"
+
+msgid "Bacon"
+msgstr "لحم الخنزير"
+
+msgid "Baconer"
+msgstr "الخنزير"
+
+msgid "Bacteria"
+msgstr "البكتيريا"
+
+msgid "Bacterial"
+msgstr "جرثومي"
+
+msgid "Bacterially"
+msgstr "على نحو بكتيريّ"
+
+msgid "Bactericidal"
+msgstr "مبيد للجراثيم"
+
+msgid "Bactericide"
+msgstr "مبيد الجراثيم"
+
+msgid "Bactericides"
+msgstr "مبيدات الجراثيم"
+
+msgid "Bacteriological"
+msgstr "بكتيريّ"
+
+msgid "Bacteriologically"
+msgstr "بشكل بكتريولوجي"
+
+msgid "Bacteriologist"
+msgstr "عالم البكتيريا"
+
+msgid "Bacteriologists"
+msgstr "علماء البكتيريا"
+
+msgid "Bacteriology"
+msgstr "علم البكتيريا"
+
+msgid "Bacterium"
+msgstr "الجرثوم"
+
+msgid "Bacteriums"
+msgstr "البكتيريا"
+
+msgid "Bactrian"
+msgstr "جرثومي"
+
+msgid "Bad"
+msgstr "سيّئ"
+
+msgid "Bade"
+msgstr "زايد"
+
+msgid "Baden"
+msgstr "بادن"
+
+msgid "Badge"
+msgstr "الشّارة"
+
+msgid "Badged"
+msgstr "أشّر"
+
+msgid "Badger"
+msgstr "البادجر"
+
+msgid "Badgered"
+msgstr "ألحّ"
+
+msgid "Badgering"
+msgstr "الإلحاح"
+
+msgid "Badgers"
+msgstr "البادجر"
+
+msgid "Badges"
+msgstr "الشّارات"
+
+msgid "Badging"
+msgstr "التأشير"
+
+msgid "Badinage"
+msgstr "المزاح"
+
+msgid "Badinaged"
+msgstr "مازح"
+
+msgid "Badinages"
+msgstr "المزاح"
+
+msgid "Badinaging"
+msgstr "ممازحة"
+
+msgid "Badland"
+msgstr "الأرض الوعرة"
+
+msgid "Badlands"
+msgstr "الأراضي الوعرة"
+
+msgid "Badly"
+msgstr "على نحو رديء"
+
+msgid "Badman"
+msgstr "خارج على القانون"
+
+msgid "Badmen"
+msgstr "خارجون على القانون"
+
+msgid "Badminton"
+msgstr "تنس الرّيشة"
+
+msgid "Badmintons"
+msgstr "الرّيشة"
+
+msgid "Badmouth"
+msgstr "انتقد"
+
+msgid "Badmouthed"
+msgstr "شتم"
+
+msgid "Badmouthing"
+msgstr "الشتم"
+
+msgid "Badmouths"
+msgstr "يشتم"
+
+msgid "Badness"
+msgstr "السّوء"
+
+msgid "Bads"
+msgstr "مساوئ"
+
+msgid "Baffin"
+msgstr "بفّن"
+
+msgid "Baffle"
+msgstr "الحاجز"
+
+msgid "Baffled"
+msgstr "حيّر"
+
+msgid "Bafflement"
+msgstr "الإرباك"
+
+msgid "Baffler"
+msgstr "المحيّر"
+
+msgid "Bafflers"
+msgstr "المحيّرون"
+
+msgid "Baffles"
+msgstr "الحواجز"
+
+msgid "Baffling"
+msgstr "التّحيير"
+
+msgid "Bafflingly"
+msgstr "بحيرة"
+
+msgid "Bag"
+msgstr "الحقيبة"
+
+msgid "Bagatelle"
+msgstr "البلياردو"
+
+msgid "Bagatelles"
+msgstr "البلياردو"
+
+msgid "Bagel"
+msgstr "الخبز"
+
+msgid "Bagels"
+msgstr "الخبز"
+
+msgid "Bagful"
+msgstr "المقدار"
+
+msgid "Bagfuls"
+msgstr "مقادير"
+
+msgid "Baggage"
+msgstr "الأمتعة"
+
+msgid "Baggagecar"
+msgstr "عربة الحقائب"
+
+msgid "Baggageman"
+msgstr "حمّال الأمتعة"
+
+msgid "Baggagemen"
+msgstr "حمّالو الأمتعة"
+
+msgid "Bagged"
+msgstr "تدلّى"
+
+msgid "Bagger"
+msgstr "معدّ الأمتعة"
+
+msgid "Baggers"
+msgstr "معدّوا الأمتعة"
+
+msgid "Baggier"
+msgstr "أكثر فضفضة"
+
+msgid "Baggies"
+msgstr "فضفاضات"
+
+msgid "Baggily"
+msgstr "بفضفضة"
+
+msgid "Bagginess"
+msgstr "التهدل"
+
+msgid "Bagging"
+msgstr "التّدلّي"
+
+msgid "Baggy"
+msgstr "فضفاض"
+
+msgid "Baghdad"
+msgstr "بغداد"
+
+msgid "Bagley"
+msgstr "باجلي"
+
+msgid "Bagpipe"
+msgstr "مزماري"
+
+msgid "Bagpiper"
+msgstr "مزماري"
+
+msgid "Bagpipers"
+msgstr "الزمّارون"
+
+msgid "Bagpipes"
+msgstr "مزمار القربة"
+
+msgid "Bags"
+msgstr "الحقائب"
+
+msgid "Baguette"
+msgstr "الرّغيف الفرنسيّ"
+
+msgid "Bah"
+msgstr "هراء"
+
+msgid "Bahama"
+msgstr "باهاما"
+
+msgid "Bahamas"
+msgstr "الباهاما"
+
+msgid "Bahrain"
+msgstr "البحرين"
+
+msgid "Bahrein"
+msgstr "البحرين"
+
+msgid "Bail"
+msgstr "الكفالة"
+
+msgid "Bailable"
+msgstr "ممكن إطلاق سراح بكفالة"
+
+msgid "Bailed"
+msgstr "أطلق سراح بضمان"
+
+msgid "Bailer"
+msgstr "المنزحة"
+
+msgid "Bailers"
+msgstr "المنزحة"
+
+msgid "Bailey"
+msgstr "الفناء"
+
+msgid "Baileys"
+msgstr "الأسوار"
+
+msgid "Bailiff"
+msgstr "المأمور"
+
+msgid "Bailiffs"
+msgstr "المأمورون"
+
+msgid "Bailing"
+msgstr "إطلاق سراح بضمان"
+
+msgid "Bailiwick"
+msgstr "دائرة النّفوذ"
+
+msgid "Bailly"
+msgstr "بايلي"
+
+msgid "Bailout"
+msgstr "الإنزال"
+
+msgid "Bails"
+msgstr "الكفالات"
+
+msgid "Bailsman"
+msgstr "الضّامن"
+
+msgid "Bailsmen"
+msgstr "الضّامنون"
+
+msgid "Bainite"
+msgstr "بينايت"
+
+msgid "Baird"
+msgstr "بيرد"
+
+msgid "Bait"
+msgstr "الطّعم"
+
+msgid "Baited"
+msgstr "اصطاد"
+
+msgid "Baiter"
+msgstr "المطعم"
+
+msgid "Baiting"
+msgstr "الاصطياد"
+
+msgid "Baits"
+msgstr "الطّعوم"
+
+msgid "Baize"
+msgstr "الجوخ"
+
+msgid "Bak"
+msgstr "باك"
+
+msgid "Bake"
+msgstr "اخبز"
+
+msgid "Baked"
+msgstr "خبز"
+
+msgid "Bakelite"
+msgstr "الباكليت"
+
+msgid "Baker"
+msgstr "الخبّاز"
+
+msgid "Bakeries"
+msgstr "المخابز"
+
+msgid "Bakers"
+msgstr "الخبّازون"
+
+msgid "Bakersfield"
+msgstr "بيكرسفيلد"
+
+msgid "Bakery"
+msgstr "المخبز"
+
+msgid "Bakes"
+msgstr "يخبز"
+
+msgid "Bakhtiari"
+msgstr "بختياري"
+
+msgid "Baking"
+msgstr "الخبز"
+
+msgid "Bakings"
+msgstr "المعجنات"
+
+msgid "Baklava"
+msgstr "البقلاوة"
+
+msgid "Baku"
+msgstr "باكو"
+
+msgid "Balalaika"
+msgstr "الآلة الوتريّة"
+
+msgid "Balalaikas"
+msgstr "الآلات الوتريّة"
+
+msgid "Balance"
+msgstr "التّوازن"
+
+msgid "Balanced"
+msgstr "حفظ توازن"
+
+msgid "Balancer"
+msgstr "الموازن"
+
+msgid "Balancers"
+msgstr "الموازنون"
+
+msgid "Balances"
+msgstr "الموازين"
+
+msgid "Balancing"
+msgstr "حفظ توازن"
+
+msgid "Balboa"
+msgstr "بلبووة"
+
+msgid "Balconied"
+msgstr "ذو بلكونة"
+
+msgid "Balconies"
+msgstr "البلكونات"
+
+msgid "Balcony"
+msgstr "البلكونة"
+
+msgid "Bald"
+msgstr "أصلع"
+
+msgid "Balder"
+msgstr "أكثر صلعًا"
+
+msgid "Balderdash"
+msgstr "اللّغو"
+
+msgid "Baldest"
+msgstr "الأكثر صلعًا"
+
+msgid "Baldhead"
+msgstr "ذو الرأس الأصلع"
+
+msgid "Baldheaded"
+msgstr "باندفاع"
+
+msgid "Baldheads"
+msgstr "ذووا الرؤوس الصلعاء"
+
+msgid "Balding"
+msgstr "أصلع"
+
+msgid "Baldly"
+msgstr "بقسوة"
+
+msgid "Baldness"
+msgstr "الصّلع"
+
+msgid "Baldpate"
+msgstr "ذو الرأس الأصلع"
+
+msgid "Baldwin"
+msgstr "بالدوين"
+
+msgid "Baldy"
+msgstr "أصلع"
+
+msgid "Bale"
+msgstr "الحزمة"
+
+msgid "Baled"
+msgstr "ربط"
+
+msgid "Baleen"
+msgstr "البلين"
+
+msgid "Baleful"
+msgstr "حاقد"
+
+msgid "Balefully"
+msgstr "بحقد"
+
+msgid "Balefulness"
+msgstr "الهلاك"
+
+msgid "Baler"
+msgstr "رزمة مربوطة"
+
+msgid "Balers"
+msgstr "صنّاع الرّزم"
+
+msgid "Bales"
+msgstr "رزم مربوطة"
+
+msgid "Balfour"
+msgstr "بالفور"
+
+msgid "Bali"
+msgstr "بالي"
+
+msgid "Balinese"
+msgstr "لغة البالينيز"
+
+msgid "Baling"
+msgstr "الرّبط"
+
+msgid "Balk"
+msgstr "العارضة"
+
+msgid "Balkan"
+msgstr "بلقانيّ"
+
+msgid "Balkanization"
+msgstr "تقسيم"
+
+msgid "Balkanizations"
+msgstr "البلقنة"
+
+msgid "Balkanize"
+msgstr "قسّم"
+
+msgid "Balkanized"
+msgstr "قسّم"
+
+msgid "Balkanizing"
+msgstr "التّقسيم"
+
+msgid "Balkans"
+msgstr "دول البلقان"
+
+msgid "Balked"
+msgstr "تقاعس"
+
+msgid "Balker"
+msgstr "بالكر"
+
+msgid "Balkier"
+msgstr "أعند"
+
+msgid "Balkiness"
+msgstr "الحران"
+
+msgid "Balking"
+msgstr "التّقاعس"
+
+msgid "Balks"
+msgstr "العارضات"
+
+msgid "Balky"
+msgstr "عنيد"
+
+msgid "Ball"
+msgstr "الكرة"
+
+msgid "Ballad"
+msgstr "القصّة"
+
+msgid "Balladeer"
+msgstr "المنشد"
+
+msgid "Balladeers"
+msgstr "المنشدون"
+
+msgid "Balladries"
+msgstr "أغاني شعبية"
+
+msgid "Balladry"
+msgstr "الأغنية الشعبية"
+
+msgid "Ballads"
+msgstr "القصص"
+
+msgid "Ballard"
+msgstr "بالارد"
+
+msgid "Ballast"
+msgstr "الثّقل"
+
+msgid "Ballasted"
+msgstr "زوّد بالأثقال"
+
+msgid "Ballasting"
+msgstr "تزويد بالأثقال"
+
+msgid "Ballasts"
+msgstr "الأثقال"
+
+msgid "Balled"
+msgstr "تكوّر"
+
+msgid "Baller"
+msgstr "بالر"
+
+msgid "Ballerina"
+msgstr "راقصة الباليه"
+
+msgid "Ballerinas"
+msgstr "راقصات الباليه"
+
+msgid "Ballet"
+msgstr "الباليه"
+
+msgid "Balletic"
+msgstr "ملائم للباليه"
+
+msgid "Balletomane"
+msgstr "مولع بالباليه"
+
+msgid "Ballets"
+msgstr "الباليه"
+
+msgid "Balling"
+msgstr "التكوّر"
+
+msgid "Ballistic"
+msgstr "قذائفي"
+
+msgid "Ballistically"
+msgstr "قذائفيا"
+
+msgid "Ballistics"
+msgstr "علم القذائف"
+
+msgid "Balloon"
+msgstr "المنطاد"
+
+msgid "Ballooned"
+msgstr "انتفخ"
+
+msgid "Ballooner"
+msgstr "رائد المنطاد"
+
+msgid "Ballooners"
+msgstr "رواد المنطاد"
+
+msgid "Ballooning"
+msgstr "ركوب المنطاد"
+
+msgid "Balloonist"
+msgstr "راكب المنطاد"
+
+msgid "Balloonists"
+msgstr "راكبوا المنطاد"
+
+msgid "Balloons"
+msgstr "المناطيد"
+
+msgid "Ballot"
+msgstr "الاقتراع"
+
+msgid "Balloted"
+msgstr "اقترع"
+
+msgid "Balloter"
+msgstr "مقترع"
+
+msgid "Balloting"
+msgstr "الاقتراع"
+
+msgid "Ballots"
+msgstr "الاقتراعات"
+
+msgid "Ballplayer"
+msgstr "اللّاعب"
+
+msgid "Ballplayers"
+msgstr "اللّاعبون"
+
+msgid "Ballpoint-pen"
+msgstr "قلم الحبر"
+
+msgid "Ballroom"
+msgstr "قاعة الرّقص"
+
+msgid "Ballrooms"
+msgstr "قاعات الرّقص"
+
+msgid "Balls"
+msgstr "الكرات"
+
+msgid "Ballyhoo"
+msgstr "الضّجّة"
+
+msgid "Balm"
+msgstr "المسكّن"
+
+msgid "Balmier"
+msgstr "أكثر إنعاشًا"
+
+msgid "Balmiest"
+msgstr "الأكثر إنعاشًا"
+
+msgid "Balmily"
+msgstr "بشكل بلسمي"
+
+msgid "Balminess"
+msgstr "الاعتدال"
+
+msgid "Balms"
+msgstr "المسكّنات"
+
+msgid "Balmy"
+msgstr "منعش"
+
+msgid "Baloney"
+msgstr "الهراء"
+
+msgid "Balsa"
+msgstr "البلسا"
+
+msgid "Balsam"
+msgstr "البلسم"
+
+msgid "Balsams"
+msgstr "الدّهانات"
+
+msgid "Baltic"
+msgstr "بلطيقي"
+
+msgid "Baltimore"
+msgstr "بالتيمور"
+
+msgid "Baltimorean"
+msgstr "بالتيموري"
+
+msgid "Baluster"
+msgstr "الدّرابزين"
+
+msgid "Balusters"
+msgstr "الدّرابزينات"
+
+msgid "Balustrade"
+msgstr "الدّرابزين"
+
+msgid "Balustrades"
+msgstr "الدّرابزينات"
+
+msgid "Balzac"
+msgstr "بالزاك"
+
+msgid "Bam"
+msgstr "بام"
+
+msgid "Bamako"
+msgstr "باماكو"
+
+msgid "Bamberger"
+msgstr "بامبيرجر"
+
+msgid "Bambi"
+msgstr "بامباي"
+
+msgid "Bamboo"
+msgstr "الخيزران"
+
+msgid "Bamboos"
+msgstr "الخيزران"
+
+msgid "Bamboozle"
+msgstr "اخدع"
+
+msgid "Bamboozled"
+msgstr "خدع"
+
+msgid "Bamboozlement"
+msgstr "الخداع"
+
+msgid "Bamboozles"
+msgstr "يخدع"
+
+msgid "Bamboozling"
+msgstr "الخدعة"
+
+msgid "Ban"
+msgstr "الحظر"
+
+msgid "Banach"
+msgstr "بَنَكْ"
+
+msgid "Banal"
+msgstr "عاديّ"
+
+msgid "Banalities"
+msgstr "التّفاهات"
+
+msgid "Banality"
+msgstr "التّفاهة"
+
+msgid "Banally"
+msgstr "بطريقة عاديّة"
+
+msgid "Banana"
+msgstr "الموزة"
+
+msgid "Bananas"
+msgstr "الموز"
+
+msgid "Banbury"
+msgstr "بانبري"
+
+msgid "Bancroft"
+msgstr "بانكروفت"
+
+msgid "Band"
+msgstr "الفرقة"
+
+msgid "Bandage"
+msgstr "الضّمادة"
+
+msgid "Bandaged"
+msgstr "ضمّد"
+
+msgid "Bandager"
+msgstr "مضمّد"
+
+msgid "Bandages"
+msgstr "الضّمادات"
+
+msgid "Bandaging"
+msgstr "التّضميد"
+
+msgid "Bandaid"
+msgstr "البلاستر"
+
+msgid "Bandanna"
+msgstr "المنديل"
+
+msgid "Bandbox"
+msgstr "الصّندوق"
+
+msgid "Bandboxes"
+msgstr "الصّناديق"
+
+msgid "Bandeau"
+msgstr "العصابة"
+
+msgid "Bandeaux"
+msgstr "بانديكس"
+
+msgid "Banded"
+msgstr "طوّق"
+
+msgid "Bander"
+msgstr "مرافق"
+
+msgid "Bandgap"
+msgstr "فرق الطاقة"
+
+msgid "Bandied"
+msgstr "تقاذف"
+
+msgid "Bandies"
+msgstr "يتقاذف"
+
+msgid "Banding"
+msgstr "التّطويق"
+
+msgid "Bandit"
+msgstr "قاطع الطّريق"
+
+msgid "Bandits"
+msgstr "قطّاع الطّريق"
+
+msgid "Bandmaster"
+msgstr "المايسترو"
+
+msgid "Bandoleers"
+msgstr "أحزمة الرّصاص"
+
+msgid "Bandpass"
+msgstr "ممرّ الموجة"
+
+msgid "Bandpassfilter"
+msgstr "مصفاة ممرّ الموجة"
+
+msgid "Bands"
+msgstr "الفرق"
+
+msgid "Bandstand"
+msgstr "المسرح"
+
+msgid "Bandstands"
+msgstr "المسارح"
+
+msgid "Bandwagon"
+msgstr "العربة"
+
+msgid "Bandwagons"
+msgstr "العربات"
+
+msgid "Bandwidth"
+msgstr "عرض الموجة"
+
+msgid "Bandwidths"
+msgstr "عرض الموجات"
+
+msgid "Bandy"
+msgstr "متقوّس"
+
+msgid "Bandying"
+msgstr "التّقاذف"
+
+msgid "Bane"
+msgstr "مصدر أذى"
+
+msgid "Baneberry"
+msgstr "التوت السّام"
+
+msgid "Baneful"
+msgstr "مفجع"
+
+msgid "Banefully"
+msgstr "بشكل مفجع"
+
+msgid "Banes"
+msgstr "مصادر الأذى"
+
+msgid "Bang"
+msgstr "الدّويّ"
+
+msgid "Bang-bang"
+msgstr "دويّ الدّويّ"
+
+msgid "Banged"
+msgstr "أحدث ضجيجًا"
+
+msgid "Banger"
+msgstr "السّجقّ"
+
+msgid "Bangers"
+msgstr "السّجقّ"
+
+msgid "Banging"
+msgstr "إحداث ضجيجًا"
+
+msgid "Bangkok"
+msgstr "بانكوك"
+
+msgid "Bangladesh"
+msgstr "بنجلاديش"
+
+msgid "Bangle"
+msgstr "الإسورة"
+
+msgid "Bangles"
+msgstr "الأساور"
+
+msgid "Bangor"
+msgstr "بانجور"
+
+msgid "Bangs"
+msgstr "الدّويّ"
+
+msgid "Bangui"
+msgstr "بانجوي"
+
+msgid "Baning"
+msgstr "إصدار الأذى"
+
+msgid "Banish"
+msgstr "إنفِ"
+
+msgid "Banished"
+msgstr "نُفِي"
+
+msgid "Banisher"
+msgstr "ثافي"
+
+msgid "Banishes"
+msgstr "ينفي"
+
+msgid "Banishing"
+msgstr "النّفي"
+
+msgid "Banishment"
+msgstr "النّفي"
+
+msgid "Banishments"
+msgstr "النّفي"
+
+msgid "Banister"
+msgstr "الدّرابزين"
+
+msgid "Banisters"
+msgstr "الدّرابزينات"
+
+msgid "Banjo"
+msgstr "البانجو"
+
+msgid "Banjos"
+msgstr "البانجو"
+
+msgid "Bank"
+msgstr "البنك"
+
+msgid "Bankbook"
+msgstr "دفتر الحساب"
+
+msgid "Bankbooks"
+msgstr "دفاتر الرّصيد"
+
+msgid "Banked"
+msgstr "أودع مالاً"
+
+msgid "Banker"
+msgstr "المصرفيّ"
+
+msgid "Bankers"
+msgstr "المصرفيّون"
+
+msgid "Banking"
+msgstr "البنوك"
+
+msgid "Banknotes"
+msgstr "البنكنوت"
+
+msgid "Bankroll"
+msgstr "التّمويل"
+
+msgid "Bankrolled"
+msgstr "موّل"
+
+msgid "Bankrolling"
+msgstr "التّمويل"
+
+msgid "Bankrolls"
+msgstr "التّمويلات"
+
+msgid "Bankrupt"
+msgstr "المفلس"
+
+msgid "Bankruptcies"
+msgstr "الإفلاس"
+
+msgid "Bankruptcy"
+msgstr "الإفلاس"
+
+msgid "Bankrupted"
+msgstr "أفقر"
+
+msgid "Bankrupting"
+msgstr "الإفقار"
+
+msgid "Bankruptly"
+msgstr "بشكل مفلس"
+
+msgid "Bankrupts"
+msgstr "المفلسون"
+
+msgid "Banks"
+msgstr "البنوك"
+
+msgid "Banned"
+msgstr "حظر"
+
+msgid "Banner"
+msgstr "الرّاية"
+
+msgid "Banners"
+msgstr "الرّايات"
+
+msgid "Banning"
+msgstr "الحظر"
+
+msgid "Banns"
+msgstr "الإعلان"
+
+msgid "Banquet"
+msgstr "الوليمة"
+
+msgid "Banqueted"
+msgstr "أوْلم"
+
+msgid "Banqueter"
+msgstr "المضيّف"
+
+msgid "Banqueters"
+msgstr "المضيّفون"
+
+msgid "Banqueting"
+msgstr "استمتاع بالطّعام"
+
+msgid "Banquetings"
+msgstr "اقامة الولائم"
+
+msgid "Banquets"
+msgstr "الولائم"
+
+msgid "Bans"
+msgstr "الحظر"
+
+msgid "Banshee"
+msgstr "الشّؤم"
+
+msgid "Banshees"
+msgstr "الشّؤم"
+
+msgid "Bantam"
+msgstr "البنطم"
+
+msgid "Bantams"
+msgstr "البنطم"
+
+msgid "Banter"
+msgstr "المزاح"
+
+msgid "Bantered"
+msgstr "مزح"
+
+msgid "Banterer"
+msgstr "ممازح"
+
+msgid "Banterers"
+msgstr "ممازحون"
+
+msgid "Bantering"
+msgstr "المزح"
+
+msgid "Banteringly"
+msgstr "بمزاح"
+
+msgid "Banters"
+msgstr "المزاح"
+
+msgid "Bantu"
+msgstr "البانتو"
+
+msgid "Bantus"
+msgstr "البانتو"
+
+msgid "Baobab"
+msgstr "الشّجر الاستوائيّ"
+
+msgid "Baobabs"
+msgstr "الشّجر الاستوائيّ"
+
+msgid "Baptiser"
+msgstr "المعمِّد"
+
+msgid "Baptism"
+msgstr "التّعميد"
+
+msgid "Baptismal"
+msgstr "خاصّ بالتّعميد"
+
+msgid "Baptismally"
+msgstr "بمعمودية"
+
+msgid "Baptisms"
+msgstr "التّعميد"
+
+msgid "Baptist"
+msgstr "المعمّد"
+
+msgid "Baptiste"
+msgstr "بابتست"
+
+msgid "Baptisteries"
+msgstr "مياه التّعميد"
+
+msgid "Baptistery"
+msgstr "ماء التّعميد"
+
+msgid "Baptistries"
+msgstr "مياه التّعميد"
+
+msgid "Baptistry"
+msgstr "ماء التّعميد"
+
+msgid "Baptists"
+msgstr "المعمّدون"
+
+msgid "Baptize"
+msgstr "اعمد"
+
+msgid "Baptized"
+msgstr "عمّد"
+
+msgid "Baptizer"
+msgstr "المعمِّد"
+
+msgid "Baptizers"
+msgstr "المعمِّدون"
+
+msgid "Baptizes"
+msgstr "يعمّد"
+
+msgid "Baptizing"
+msgstr "التّعميد"
+
+msgid "Bar"
+msgstr "البار"
+
+msgid "Bar-graph"
+msgstr "رسم بيانيّ خطّيّ"
+
+msgid "Barb"
+msgstr "الطّرف"
+
+msgid "Barbados"
+msgstr "باربادوس"
+
+msgid "Barbara"
+msgstr "باربارا"
+
+msgid "Barbarian"
+msgstr "الهمجيّ"
+
+msgid "Barbarianism"
+msgstr "الهمجيّة"
+
+msgid "Barbarianly"
+msgstr "بشكل بربري"
+
+msgid "Barbarians"
+msgstr "الهمجيّون"
+
+msgid "Barbaric"
+msgstr "متوحّش"
+
+msgid "Barbarically"
+msgstr "بطريقة بربريّة"
+
+msgid "Barbarism"
+msgstr "البربريّة"
+
+msgid "Barbarities"
+msgstr "الوحشيّ"
+
+msgid "Barbarity"
+msgstr "الوحشيّة"
+
+msgid "Barbarize"
+msgstr "اجعل متوحّشًا"
+
+msgid "Barbarized"
+msgstr "جعل متوحّشًا"
+
+msgid "Barbarizes"
+msgstr "يجعل متوحّشًا"
+
+msgid "Barbarous"
+msgstr "متوحّش"
+
+msgid "Barbarously"
+msgstr "بصورة متوحّشة"
+
+msgid "Barbarousness"
+msgstr "فظاعة الوحشيّة"
+
+msgid "Barbecue"
+msgstr "الشّوّاية"
+
+msgid "Barbecued"
+msgstr "شوى"
+
+msgid "Barbecuer"
+msgstr "الشوّاية"
+
+msgid "Barbecues"
+msgstr "الشّوّايات"
+
+msgid "Barbecuing"
+msgstr "الشوي"
+
+msgid "Barbed"
+msgstr "شائك"
+
+msgid "Barbedness"
+msgstr "حِدّة"
+
+msgid "Barbell"
+msgstr "الحديد"
+
+msgid "Barbells"
+msgstr "الحدائد"
+
+msgid "Barber"
+msgstr "الحلاّق"
+
+msgid "Barbered"
+msgstr "حلق"
+
+msgid "Barbering"
+msgstr "الحلق"
+
+msgid "Barberry"
+msgstr "الباربِريْس"
+
+msgid "Barbers"
+msgstr "الحلاّقون"
+
+msgid "Barbershop"
+msgstr "الغناء"
+
+msgid "Barbershops"
+msgstr "الغناء"
+
+msgid "Barbital"
+msgstr "مهدّئ منوّم"
+
+msgid "Barbiturate"
+msgstr "المهدّئ"
+
+msgid "Barbiturates"
+msgstr "المهدّئات"
+
+msgid "Barbour"
+msgstr "باربر"
+
+msgid "Barbs"
+msgstr "الأطراف"
+
+msgid "Barbudo"
+msgstr "سمك أبو ذقن"
+
+msgid "Barbwire"
+msgstr "سلك شائك"
+
+msgid "Barbwires"
+msgstr "الأسلاك الشائكة"
+
+msgid "Barcelona"
+msgstr "برشلونة"
+
+msgid "Barclay"
+msgstr "باركلاي"
+
+msgid "Barcode"
+msgstr "شفرة التّعرّف"
+
+msgid "Bard"
+msgstr "الشّاعر"
+
+msgid "Bardic"
+msgstr "متعلق بالشعر"
+
+msgid "Bards"
+msgstr "الشّعراء"
+
+msgid "Bare"
+msgstr "عاري"
+
+msgid "Bare-footed"
+msgstr "حافي"
+
+msgid "Bare-headed"
+msgstr "مكشوف الرّأس"
+
+msgid "Bareback"
+msgstr "بدون سرج"
+
+msgid "Barebacked"
+msgstr "بدون سرج"
+
+msgid "Bared"
+msgstr "كشف"
+
+msgid "Barefaced"
+msgstr "متبجّح"
+
+msgid "Barefacedly"
+msgstr "بتبجّح"
+
+msgid "Barefacedness"
+msgstr "الوقاحة"
+
+msgid "Barefacednesses"
+msgstr "الوقاحات"
+
+msgid "Barefoot"
+msgstr "حافي"
+
+msgid "Barefooted"
+msgstr "حافي"
+
+msgid "Barehanded"
+msgstr "على نحو أعزل"
+
+msgid "Barely"
+msgstr "بالكاد"
+
+msgid "Baren"
+msgstr "وَلَدَتْ"
+
+msgid "Bareness"
+msgstr "الخلوّ"
+
+msgid "Barer"
+msgstr "أكثر عريًا"
+
+msgid "Bares"
+msgstr "يكشف"
+
+msgid "Barest"
+msgstr "الأكثر عريًا"
+
+msgid "Barflies"
+msgstr "أزيار الحانات"
+
+msgid "Barfly"
+msgstr "زير الحانات"
+
+msgid "Bargain"
+msgstr "البيعة الرّابحة"
+
+msgid "Bargained"
+msgstr "ساوم"
+
+msgid "Bargainer"
+msgstr "المساوم"
+
+msgid "Bargainers"
+msgstr "المساومون"
+
+msgid "Bargaining"
+msgstr "التّفاوض"
+
+msgid "Bargains"
+msgstr "البيعات الرّابحة"
+
+msgid "Barge"
+msgstr "العبّارة"
+
+msgid "Barged"
+msgstr "تخبّط"
+
+msgid "Bargemen"
+msgstr "الملّاحون"
+
+msgid "Barges"
+msgstr "العبّارات"
+
+msgid "Barging"
+msgstr "التّخبّط"
+
+msgid "BarGraph"
+msgstr "رسم بيانيّ خطّيّ"
+
+msgid "Baring"
+msgstr "الكشف"
+
+msgid "Baritone"
+msgstr "الباريتون"
+
+msgid "Baritones"
+msgstr "الباريتون"
+
+msgid "Barium"
+msgstr "الباريوم"
+
+msgid "Bark"
+msgstr "النّباح"
+
+msgid "Barked"
+msgstr "نبح"
+
+msgid "Barkeep"
+msgstr "الجرسون"
+
+msgid "Barkeeper"
+msgstr "الجرسون"
+
+msgid "Barker"
+msgstr "المنادي"
+
+msgid "Barkers"
+msgstr "المنادون"
+
+msgid "Barking"
+msgstr "النّبح"
+
+msgid "Barks"
+msgstr "النّباح"
+
+msgid "Barley"
+msgstr "الشّعير"
+
+msgid "Barlow"
+msgstr "بارلو"
+
+msgid "Barmaid"
+msgstr "النّادلة"
+
+msgid "Barmaids"
+msgstr "النّادلات"
+
+msgid "Barn"
+msgstr "الشّونة"
+
+msgid "Barnabas"
+msgstr "بارناباس"
+
+msgid "Barnacle"
+msgstr "الإوزّة"
+
+msgid "Barnacled"
+msgstr "دَبِقْ"
+
+msgid "Barnacles"
+msgstr "الإوزّ"
+
+msgid "Barnard"
+msgstr "بارنأرد"
+
+msgid "Barnes"
+msgstr "بارنيز"
+
+msgid "Barnet"
+msgstr "بارنيت"
+
+msgid "Barnett"
+msgstr "بارنيت"
+
+msgid "Barney"
+msgstr "الجدال"
+
+msgid "Barnful"
+msgstr "ملء الشونة"
+
+msgid "Barnhard"
+msgstr "بارنهأرد"
+
+msgid "Barns"
+msgstr "الشّون"
+
+msgid "Barnstable"
+msgstr "بارنستابل"
+
+msgid "Barnstorm"
+msgstr "أخطب متنقّلاً"
+
+msgid "Barnstormed"
+msgstr "خطب متنقّلاً"
+
+msgid "Barnstormer"
+msgstr "المتنقّل"
+
+msgid "Barnstormers"
+msgstr "المتنقّلون"
+
+msgid "Barnstorming"
+msgstr "خطابة متنقّلاً"
+
+msgid "Barnstorms"
+msgstr "يخطب متنقّلاً"
+
+msgid "Barnyard"
+msgstr "الفناء"
+
+msgid "Barnyards"
+msgstr "الأفنية"
+
+msgid "Barometer"
+msgstr "البارومتر"
+
+msgid "Barometers"
+msgstr "البارومترات"
+
+msgid "Barometric"
+msgstr "بارومتريّ"
+
+msgid "Barometrical"
+msgstr "محراري"
+
+msgid "Barometrically"
+msgstr "باستخدام البارومتر"
+
+msgid "Baron"
+msgstr "البارون"
+
+msgid "Baroness"
+msgstr "البارونة"
+
+msgid "Baronesses"
+msgstr "البارونات"
+
+msgid "Baronet"
+msgstr "البارونيت"
+
+msgid "Baronial"
+msgstr "بارونيّ"
+
+msgid "Baronies"
+msgstr "منازل البارون"
+
+msgid "Barons"
+msgstr "البارونات"
+
+msgid "Barony"
+msgstr "منزلة البارون"
+
+msgid "Baroque"
+msgstr "التّكلّف"
+
+msgid "Baroquely"
+msgstr "بتكلّف"
+
+msgid "Baroqueness"
+msgstr "التّكلّف"
+
+msgid "Barr"
+msgstr "بر"
+
+msgid "Barrack"
+msgstr "اهتف"
+
+msgid "Barracked"
+msgstr "هتف"
+
+msgid "Barracker"
+msgstr "هاتف الفريق"
+
+msgid "Barracking"
+msgstr "إسكان في ثكنات"
+
+msgid "Barracks"
+msgstr "الثّكنة"
+
+msgid "Barracuda"
+msgstr "البركودة"
+
+msgid "Barracudas"
+msgstr "البركودة"
+
+msgid "Barrage"
+msgstr "السّدّ"
+
+msgid "Barraged"
+msgstr "حجز"
+
+msgid "Barrages"
+msgstr "السّدود"
+
+msgid "Barraging"
+msgstr "الحجز"
+
+msgid "Barratries"
+msgstr "الإهمال"
+
+msgid "Barratry"
+msgstr "الإهمال"
+
+msgid "Barre"
+msgstr "بار"
+
+msgid "Barred"
+msgstr "ذات قضبان"
+
+msgid "Barrel"
+msgstr "البرميل"
+
+msgid "Barreled"
+msgstr "مستدقّ الطّرفين"
+
+msgid "Barreling"
+msgstr "إنطلاق بسرعة"
+
+msgid "Barrelled"
+msgstr "أسرع"
+
+msgid "Barrelling"
+msgstr "الإسراع"
+
+msgid "Barrels"
+msgstr "البراميل"
+
+msgid "Barren"
+msgstr "قاحل"
+
+msgid "Barrenly"
+msgstr "بطريقة غير مقبولة"
+
+msgid "Barrenness"
+msgstr "القحل"
+
+msgid "Barrens"
+msgstr "عقيم (جمع)"
+
+msgid "Barrett"
+msgstr "باريت"
+
+msgid "Barrette"
+msgstr "المشبك"
+
+msgid "Barrettes"
+msgstr "المشابك"
+
+msgid "Barricade"
+msgstr "المتراس"
+
+msgid "Barricaded"
+msgstr "حصّن"
+
+msgid "Barricades"
+msgstr "المتاريس"
+
+msgid "Barricading"
+msgstr "التّحصين"
+
+msgid "Barricided"
+msgstr "باري سيديد"
+
+msgid "Barrier"
+msgstr "الحاجز"
+
+msgid "Barriers"
+msgstr "الحواجز"
+
+msgid "Barring"
+msgstr "السّدّ"
+
+msgid "Barringer"
+msgstr "بارنجر"
+
+msgid "Barrington"
+msgstr "بارنجتون"
+
+msgid "Barrister"
+msgstr "المحامٍ"
+
+msgid "Barristers"
+msgstr "المحامونً"
+
+msgid "Barron"
+msgstr "بارون"
+
+msgid "Barroom"
+msgstr "البار"
+
+msgid "Barrooms"
+msgstr "البارات"
+
+msgid "Barrow"
+msgstr "عربة اليد"
+
+msgid "Barrows"
+msgstr "عربات اليد"
+
+msgid "Barry"
+msgstr "باري"
+
+msgid "Barrymore"
+msgstr "باريمور"
+
+msgid "Bars"
+msgstr "البارات"
+
+msgid "Barstool"
+msgstr "مقعد للبارْ"
+
+msgid "Barstools"
+msgstr "مقاعد للبارْ"
+
+msgid "Barstow"
+msgstr "بارستو"
+
+msgid "Bart"
+msgstr "البارونيت"
+
+msgid "Bartend"
+msgstr "اسق"
+
+msgid "Bartender"
+msgstr "النادل"
+
+msgid "Bartenders"
+msgstr "النوادل"
+
+msgid "Barter"
+msgstr "المقايضة"
+
+msgid "Bartered"
+msgstr "قايض"
+
+msgid "Barterer"
+msgstr "المقايض"
+
+msgid "Barterers"
+msgstr "المقايضون"
+
+msgid "Bartering"
+msgstr "المقايضة"
+
+msgid "Barters"
+msgstr "المقايضات"
+
+msgid "Barth"
+msgstr "بارث"
+
+msgid "Bartholomew"
+msgstr "بارثولومو"
+
+msgid "Bartlett"
+msgstr "بارتليت"
+
+msgid "Bartok"
+msgstr "بارتوك"
+
+msgid "Barton"
+msgstr "بارتون"
+
+msgid "Barycentric"
+msgstr "مركّز على الجاذبية"
+
+msgid "Bas"
+msgstr "باس"
+
+msgid "Basal"
+msgstr "أساسيّ"
+
+msgid "Basally"
+msgstr "باسالي"
+
+msgid "Basalt"
+msgstr "البازلت"
+
+msgid "Basaltic"
+msgstr "بازلتي"
+
+msgid "Bascom"
+msgstr "باسكوم"
+
+msgid "Base"
+msgstr "القاعدة"
+
+msgid "Base-N"
+msgstr "رقم أساسي"
+
+msgid "Baseball"
+msgstr "البيسبول"
+
+msgid "Baseballs"
+msgstr "البيسبول"
+
+msgid "Baseband"
+msgstr "أحادي الرسالة"
+
+msgid "Baseboard"
+msgstr "اللّوح"
+
+msgid "Baseboards"
+msgstr "الألواح"
+
+msgid "Based"
+msgstr "أسّس"
+
+msgid "Basel"
+msgstr "باسل"
+
+msgid "Baseless"
+msgstr "بلا أساس"
+
+msgid "Baselessness"
+msgstr "اللاّأساس"
+
+msgid "Baseline"
+msgstr "الأساس"
+
+msgid "Baselines"
+msgstr "الأسس"
+
+msgid "Basely"
+msgstr "بدناءة"
+
+msgid "Baseman"
+msgstr "الباسيمان"
+
+msgid "Basemen"
+msgstr "الباسيمين"
+
+msgid "Basement"
+msgstr "البدروم"
+
+msgid "Basements"
+msgstr "البدرومات"
+
+msgid "Baseness"
+msgstr "الخسّة"
+
+msgid "Baseplate"
+msgstr "اللّوح الأساس"
+
+msgid "Basepoint"
+msgstr "نقطة القاعدة"
+
+msgid "Baser"
+msgstr "أساسي"
+
+msgid "Bases"
+msgstr "القاعدات"
+
+msgid "Basest"
+msgstr "أساسي"
+
+msgid "Bash"
+msgstr "اللّكمة"
+
+msgid "Bashaw"
+msgstr "الباشا"
+
+msgid "Bashed"
+msgstr "ضرب"
+
+msgid "Basher"
+msgstr "البلطجيّ"
+
+msgid "Bashers"
+msgstr "البلطجيون"
+
+msgid "Bashes"
+msgstr "اللّكمات"
+
+msgid "Bashful"
+msgstr "خجول"
+
+msgid "Bashfully"
+msgstr "بخجل"
+
+msgid "Bashfulness"
+msgstr "الخجل"
+
+msgid "Bashing"
+msgstr "الضّرب"
+
+msgid "Basic"
+msgstr "أساسيّ"
+
+msgid "Basically"
+msgstr "أساسًا"
+
+msgid "Basics"
+msgstr "الأسس"
+
+msgid "Basidiomycetes"
+msgstr "الدعاميات"
+
+msgid "Basie"
+msgstr "باسي"
+
+msgid "Basil"
+msgstr "الرّيحان"
+
+msgid "Basilar"
+msgstr "باسيلار"
+
+msgid "Basilica"
+msgstr "كاتدرائية"
+
+msgid "Basilicas"
+msgstr "البازيليكا"
+
+msgid "Basilisk"
+msgstr "البازيليسق"
+
+msgid "Basils"
+msgstr "الرّياحين"
+
+msgid "Basin"
+msgstr "الحوض"
+
+msgid "Basined"
+msgstr "حوضيّ"
+
+msgid "Basing"
+msgstr "التّأسيس"
+
+msgid "Basins"
+msgstr "الأحواض"
+
+msgid "Basis"
+msgstr "الأساس"
+
+msgid "Bask"
+msgstr "تمتّع"
+
+msgid "Basked"
+msgstr "تمتّع"
+
+msgid "Basket"
+msgstr "السّلّة"
+
+msgid "Basketball"
+msgstr "كرة السّلّة"
+
+msgid "Basketballs"
+msgstr "كرات السّلّة"
+
+msgid "Basketry"
+msgstr "السّلّات"
+
+msgid "Baskets"
+msgstr "السّلّات"
+
+msgid "Basketwork"
+msgstr "السّلّات"
+
+msgid "Basking"
+msgstr "التّمتّع"
+
+msgid "Basks"
+msgstr "يتمتّع"
+
+msgid "Basophilic"
+msgstr "مستقعد"
+
+msgid "Basque"
+msgstr "القميص"
+
+msgid "Bass"
+msgstr "الباس"
+
+msgid "Basses"
+msgstr "الباس"
+
+msgid "Basset"
+msgstr "الباست"
+
+msgid "Bassets"
+msgstr "الباست"
+
+msgid "Bassett"
+msgstr "باسيت"
+
+msgid "Bassi"
+msgstr "باسي"
+
+msgid "Bassinet"
+msgstr "السّرير"
+
+msgid "Bassinets"
+msgstr "الأسرّة"
+
+msgid "Basso"
+msgstr "الباص"
+
+msgid "Bassoon"
+msgstr "الباسوون"
+
+msgid "Bassoons"
+msgstr "الباسوون"
+
+msgid "Basswood"
+msgstr "الزيزفون أميركي"
+
+msgid "Bast"
+msgstr "اللّحاء"
+
+msgid "Bastard"
+msgstr "النّذل"
+
+msgid "Bastardization"
+msgstr "الإفساد"
+
+msgid "Bastardize"
+msgstr "حطّ"
+
+msgid "Bastardized"
+msgstr "حطّ"
+
+msgid "Bastardizes"
+msgstr "يحطّ"
+
+msgid "Bastardizing"
+msgstr "الحطّ"
+
+msgid "Bastardly"
+msgstr "غير شرعيّ"
+
+msgid "Bastards"
+msgstr "الأنذال"
+
+msgid "Baste"
+msgstr "غطّ بالحساء"
+
+msgid "Basted"
+msgstr "غطّى بالحساء"
+
+msgid "Baster"
+msgstr "حائك"
+
+msgid "Bastes"
+msgstr "الألحية"
+
+msgid "Bastilles"
+msgstr "باستيليز"
+
+msgid "Bastinado"
+msgstr "ضربة العصا"
+
+msgid "Bastinadoes"
+msgstr "ضربات العصا"
+
+msgid "Basting"
+msgstr "تغطية بالحساء"
+
+msgid "Bastion"
+msgstr "المعقل"
+
+msgid "Bastioned"
+msgstr "محصّن"
+
+msgid "Bastions"
+msgstr "المعاقل"
+
+msgid "Bat"
+msgstr "الخفّاش"
+
+msgid "Batavia"
+msgstr "باتافيا"
+
+msgid "Batch"
+msgstr "الدّفعة"
+
+msgid "Batch-fabricated"
+msgstr "مختلق بالدّفعة"
+
+msgid "Batched"
+msgstr "مدفوع"
+
+msgid "Batchelder"
+msgstr "باتشلدر"
+
+msgid "Batcher"
+msgstr "دافع"
+
+msgid "Batches"
+msgstr "الدّفعات"
+
+msgid "Batching"
+msgstr "دفْع"
+
+msgid "Bate"
+msgstr "اهدأ"
+
+msgid "Bateau"
+msgstr "قارب"
+
+msgid "Bateaux"
+msgstr "قوارب"
+
+msgid "Bated"
+msgstr "هدأ"
+
+msgid "Bateman"
+msgstr "باتيمان"
+
+msgid "Bater"
+msgstr "باتر"
+
+msgid "Bates"
+msgstr "يهدأ"
+
+msgid "Bath"
+msgstr "الحمّام"
+
+msgid "Bathe"
+msgstr "الاستحمام"
+
+msgid "Bathed"
+msgstr "استحمّ"
+
+msgid "Bather"
+msgstr "السّبّاح"
+
+msgid "Bathers"
+msgstr "السّبّاحون"
+
+msgid "Bathes"
+msgstr "الاستحمام"
+
+msgid "Bathhouse"
+msgstr "الحمّام"
+
+msgid "Bathhouses"
+msgstr "الحمّامات"
+
+msgid "Bathing"
+msgstr "الاستحمام"
+
+msgid "Bathos"
+msgstr "الإسفاف"
+
+msgid "Bathrobe"
+msgstr "البشكير"
+
+msgid "Bathrobes"
+msgstr "البشاكير"
+
+msgid "Bathroom"
+msgstr "الحمّام"
+
+msgid "Bathrooms"
+msgstr "الحمّامات"
+
+msgid "Baths"
+msgstr "الحمّامات"
+
+msgid "Bathtub"
+msgstr "البانيو"
+
+msgid "Bathtubs"
+msgstr "البانيو"
+
+msgid "Bathurst"
+msgstr "باثرست"
+
+msgid "Bathysphere"
+msgstr "الغوّاصة"
+
+msgid "Batik"
+msgstr "طباعة المنسوجات"
+
+msgid "Bating"
+msgstr "الذّعر"
+
+msgid "Batista"
+msgstr "باتيستا"
+
+msgid "Batiste"
+msgstr "القماش القطنيّ"
+
+msgid "Batistes"
+msgstr "القماش القطنيّ"
+
+msgid "Baton"
+msgstr "العصا"
+
+msgid "Batons"
+msgstr "العصيّ"
+
+msgid "Bator"
+msgstr "باتُر"
+
+msgid "Bats"
+msgstr "الخفافيش"
+
+msgid "Batsman"
+msgstr "الضّارب"
+
+msgid "Batt"
+msgstr "باتّ"
+
+msgid "Battalion"
+msgstr "الكتيبة"
+
+msgid "Battalions"
+msgstr "الكتائب"
+
+msgid "Batted"
+msgstr "ضرب"
+
+msgid "Batten"
+msgstr "الوصلة"
+
+msgid "Battened"
+msgstr "تزايد"
+
+msgid "Battening"
+msgstr "التّزايد"
+
+msgid "Battens"
+msgstr "الوصلات"
+
+msgid "Batter"
+msgstr "الخليط"
+
+msgid "Battered"
+msgstr "حطّم"
+
+msgid "Batteries"
+msgstr "البطّاريّات"
+
+msgid "Battering"
+msgstr "الطّرق"
+
+msgid "Batters"
+msgstr "الأخلاط"
+
+msgid "Battery"
+msgstr "البطّاريّة"
+
+msgid "Battery-operated"
+msgstr "مشغّل بالبطّاريّة"
+
+msgid "Battier"
+msgstr "أكثر جنونًا"
+
+msgid "Battiest"
+msgstr "الأكثر جنونًا"
+
+msgid "Battiness"
+msgstr "الجنون"
+
+msgid "Batting"
+msgstr "الضّرب"
+
+msgid "Battle"
+msgstr "المعركة"
+
+msgid "Battled"
+msgstr "حارب"
+
+msgid "Battlefield"
+msgstr "ميدان القتال"
+
+msgid "Battlefields"
+msgstr "ميادين القتال"
+
+msgid "Battlefront"
+msgstr "جبهة القتال"
+
+msgid "Battlefronts"
+msgstr "جبهات القتال"
+
+msgid "Battleground"
+msgstr "ساحة القتال"
+
+msgid "Battlegrounds"
+msgstr "ساحات القتال"
+
+msgid "Battlement"
+msgstr "برج محصّن"
+
+msgid "Battlemented"
+msgstr "محصّن"
+
+msgid "Battlements"
+msgstr "أبراج محصّنة"
+
+msgid "Battler"
+msgstr "المقاتل"
+
+msgid "Battlers"
+msgstr "المقاتلون"
+
+msgid "Battles"
+msgstr "المعارك"
+
+msgid "Battleship"
+msgstr "سفينة حربية"
+
+msgid "Battleships"
+msgstr "سفن حربية"
+
+msgid "Battling"
+msgstr "المحاربة"
+
+msgid "Battue"
+msgstr "إثارة الطّرائد"
+
+msgid "Batwing"
+msgstr "شبيه بجناح الخفّاش"
+
+msgid "Batwings"
+msgstr "على شاكلة جناح الخفاش"
+
+msgid "Bauble"
+msgstr "الحليّ"
+
+msgid "Baubles"
+msgstr "الحليّ"
+
+msgid "Baud"
+msgstr "الباود"
+
+msgid "Baudelaire"
+msgstr "بودلاير"
+
+msgid "Baudrate"
+msgstr "معدّل البثّ بالثانية"
+
+msgid "Bauds"
+msgstr "اشارة بالثانية"
+
+msgid "Bauer"
+msgstr "باور"
+
+msgid "Bauhaus"
+msgstr "بوهوس"
+
+msgid "Bausch"
+msgstr "بوستش"
+
+msgid "BAuthorb"
+msgstr "مؤلف"
+
+msgid "Bauxite"
+msgstr "البوكسيت"
+
+msgid "Bavaria"
+msgstr "بافاريا"
+
+msgid "Bavarian"
+msgstr "بافاري"
+
+msgid "Bawd"
+msgstr "القوّاد"
+
+msgid "Bawdier"
+msgstr "أكثر بذاءة"
+
+msgid "Bawdiest"
+msgstr "الأكثر بذاءة"
+
+msgid "Bawdiness"
+msgstr "الجرأة"
+
+msgid "Bawds"
+msgstr "القوّادون"
+
+msgid "Bawdy"
+msgstr "بذيء"
+
+msgid "Bawl"
+msgstr "صح"
+
+msgid "Bawled"
+msgstr "صاح"
+
+msgid "Bawler"
+msgstr "صائح"
+
+msgid "Bawlers"
+msgstr "صائحون"
+
+msgid "Bawling"
+msgstr "الصّياح"
+
+msgid "Bawls"
+msgstr "يصيح"
+
+msgid "Baxter"
+msgstr "باكستر"
+
+msgid "Bay"
+msgstr "الخليج"
+
+msgid "Bay-mounted"
+msgstr "متصاعد بالخليج"
+
+msgid "Bayberries"
+msgstr "الميريقة"
+
+msgid "Bayberry"
+msgstr "الميريقة"
+
+msgid "Bayed"
+msgstr "نبح"
+
+msgid "Bayesian"
+msgstr "النظريّة الافتراضية"
+
+msgid "Baying"
+msgstr "النّبح"
+
+msgid "Baylor"
+msgstr "بيلور"
+
+msgid "Bayly"
+msgstr "بيلي"
+
+msgid "Bayonet"
+msgstr "الحربة"
+
+msgid "Bayoneted"
+msgstr "مطعون"
+
+msgid "Bayoneting"
+msgstr "الطّعن"
+
+msgid "Bayonets"
+msgstr "الحراب"
+
+msgid "Bayonne"
+msgstr "بايون"
+
+msgid "Bayou"
+msgstr "الجدول"
+
+msgid "Bayous"
+msgstr "الجداول"
+
+msgid "Bayport"
+msgstr "بيبورت"
+
+msgid "Bayreuth"
+msgstr "بايروث"
+
+msgid "Bays"
+msgstr "الخلجان"
+
+msgid "Bazaar"
+msgstr "البازار"
+
+msgid "Bazaars"
+msgstr "البازارات"
+
+msgid "Bazooka"
+msgstr "البازوكة"
+
+msgid "BBS"
+msgstr "ب ب س"
+
+msgid "BCC"
+msgstr "نسخة مطابقة إلى"
+
+msgid "BCD"
+msgstr "أرقام عشرية بشكل رقمي"
+
+msgid "BCopyrightb"
+msgstr "حقوق النشر"
+
+msgid "Be"
+msgstr "كن"
+
+msgid "Beach"
+msgstr "الشّاطئ"
+
+msgid "Beachcomb"
+msgstr "بيتشكوم"
+
+msgid "Beachcomber"
+msgstr "البائع المتجوّل"
+
+msgid "Beached"
+msgstr "أرسى"
+
+msgid "Beaches"
+msgstr "الشّواطئ"
+
+msgid "Beachhead"
+msgstr "المربط"
+
+msgid "Beachheads"
+msgstr "المرابط"
+
+msgid "Beaching"
+msgstr "الإرساء"
+
+msgid "Beacon"
+msgstr "الفنار"
+
+msgid "Beaconed"
+msgstr "أرشد"
+
+msgid "Beaconing"
+msgstr "الإرشاد"
+
+msgid "Beacons"
+msgstr "الفنارات"
+
+msgid "Bead"
+msgstr "الخرزة"
+
+msgid "Beaded"
+msgstr "مطرّز"
+
+msgid "Beading"
+msgstr "الدّيكور"
+
+msgid "Beadle"
+msgstr "الشّمّاس"
+
+msgid "Beadles"
+msgstr "الشّمامسة"
+
+msgid "Beads"
+msgstr "الخرز"
+
+msgid "Beadsman"
+msgstr "المصلّي المستأجر"
+
+msgid "Beady"
+msgstr "كالخرز"
+
+msgid "Beagle"
+msgstr "البيجل"
+
+msgid "Beagles"
+msgstr "البيجل"
+
+msgid "Beak"
+msgstr "المنقار"
+
+msgid "Beaked"
+msgstr "ذو منقار"
+
+msgid "Beaker"
+msgstr "الكوب"
+
+msgid "Beakers"
+msgstr "الأكواب"
+
+msgid "Beaks"
+msgstr "المناقير"
+
+msgid "Beam"
+msgstr "الشّعاع"
+
+msgid "Beamed"
+msgstr "ابتسم"
+
+msgid "Beamer"
+msgstr "متعاطي المخدرات"
+
+msgid "Beamers"
+msgstr "متعاطوا المخدرات"
+
+msgid "Beaming"
+msgstr "الابتسام"
+
+msgid "Beams"
+msgstr "الشّعاع"
+
+msgid "Beamy"
+msgstr "مشعّ"
+
+msgid "Bean"
+msgstr "الفول"
+
+msgid "Beanbag"
+msgstr "كيس القماش"
+
+msgid "Beanbags"
+msgstr "أكياس القماش"
+
+msgid "Beaned"
+msgstr "ضرب على الرّأسه"
+
+msgid "Beaner"
+msgstr "ضرب مؤذية"
+
+msgid "Beaners"
+msgstr "ضربات مؤذية"
+
+msgid "Beaning"
+msgstr "الضرب على الرّأس"
+
+msgid "Beans"
+msgstr "الفول"
+
+msgid "Bear"
+msgstr "الدّبّ"
+
+msgid "Bearable"
+msgstr "محتمل"
+
+msgid "Bearably"
+msgstr "باحتمال"
+
+msgid "Bearberry"
+msgstr "عنب الدّبّ"
+
+msgid "Beard"
+msgstr "اللحية"
+
+msgid "Bearded"
+msgstr "ملتحي"
+
+msgid "Beardedness"
+msgstr "نمو شعر الوجه"
+
+msgid "Beardless"
+msgstr "بدون لحية"
+
+msgid "Beards"
+msgstr "اللّحى"
+
+msgid "Beardsley"
+msgstr "بيردزلي"
+
+msgid "Bearer"
+msgstr "الشّيّال"
+
+msgid "Bearers"
+msgstr "الشّيّالون"
+
+msgid "Bearing"
+msgstr "الطّريقة"
+
+msgid "Bearings"
+msgstr "الاتّجاهات"
+
+msgid "Bearish"
+msgstr "فظّ"
+
+msgid "Bearishly"
+msgstr "بجفاء"
+
+msgid "Bearishness"
+msgstr "الوقاحة"
+
+msgid "Bears"
+msgstr "الدّببة"
+
+msgid "Bearskin"
+msgstr "الفرو"
+
+msgid "Beast"
+msgstr "الحيوان"
+
+msgid "Beastie"
+msgstr "حيوان صغير"
+
+msgid "Beasties"
+msgstr "حيوانات صغيرة"
+
+msgid "Beastings"
+msgstr "اللبأ"
+
+msgid "Beastlier"
+msgstr "الكره"
+
+msgid "Beastliest"
+msgstr "الأكثر كرهًا"
+
+msgid "Beastliness"
+msgstr "السّوء"
+
+msgid "Beastly"
+msgstr "بفظاعة"
+
+msgid "Beasts"
+msgstr "الحيوانات"
+
+msgid "Beat"
+msgstr "الدّقّة"
+
+msgid "Beatable"
+msgstr "مغلوب"
+
+msgid "Beatback"
+msgstr "يصدّ"
+
+msgid "Beaten"
+msgstr "ضرب"
+
+msgid "Beater"
+msgstr "المضرب"
+
+msgid "Beaters"
+msgstr "المضارب"
+
+msgid "Beatific"
+msgstr "مبهج"
+
+msgid "Beatifically"
+msgstr "بابتهاج"
+
+msgid "Beatification"
+msgstr "التّقديس"
+
+msgid "Beatifications"
+msgstr "الإبتهاج"
+
+msgid "Beatified"
+msgstr "أبّن"
+
+msgid "Beatifies"
+msgstr "يؤبّن"
+
+msgid "Beatify"
+msgstr "أبّنت"
+
+msgid "Beatifying"
+msgstr "التّأبين"
+
+msgid "Beating"
+msgstr "الضّرب"
+
+msgid "Beatings"
+msgstr "الضّرب"
+
+msgid "Beatitude"
+msgstr "الطّوبى"
+
+msgid "Beatitudes"
+msgstr "الطّوبى"
+
+msgid "Beatnik"
+msgstr "الشّاذّ"
+
+msgid "Beatniks"
+msgstr "الشّواذّ"
+
+msgid "Beatrice"
+msgstr "بياتريس"
+
+msgid "Beats"
+msgstr "الدّقّات"
+
+msgid "Beau"
+msgstr "الصّديق"
+
+msgid "Beauchamp"
+msgstr "بوتشامب"
+
+msgid "Beaujolais"
+msgstr "نبيذ بوجلاي"
+
+msgid "Beaumont"
+msgstr "بيماونت"
+
+msgid "Beauregard"
+msgstr "بيوريجارد"
+
+msgid "Beaus"
+msgstr "الأصدقاء"
+
+msgid "Beauteous"
+msgstr "جميل"
+
+msgid "Beauteously"
+msgstr "بصورة جميلة"
+
+msgid "Beauteousness"
+msgstr "جودة الجاذبية"
+
+msgid "Beautician"
+msgstr "خبير التّجميل"
+
+msgid "Beauticians"
+msgstr "خبراء التّجميل"
+
+msgid "Beauties"
+msgstr "الجمال"
+
+msgid "Beautification"
+msgstr "التّجميل"
+
+msgid "Beautifications"
+msgstr "التّجميل"
+
+msgid "Beautified"
+msgstr "جمّل"
+
+msgid "Beautifier"
+msgstr "المجمّل"
+
+msgid "Beautifiers"
+msgstr "المجمّل"
+
+msgid "Beautifies"
+msgstr "يجمّل"
+
+msgid "Beautiful"
+msgstr "جميل"
+
+msgid "Beautifully"
+msgstr "بشكل جميل"
+
+msgid "Beautifulness"
+msgstr "الجمال"
+
+msgid "Beautify"
+msgstr "جمّل"
+
+msgid "Beautifying"
+msgstr "التّجميل"
+
+msgid "Beauty"
+msgstr "الجمال"
+
+msgid "Beaux"
+msgstr "بيكس"
+
+msgid "Beaver"
+msgstr "القندس"
+
+msgid "Beaverboard"
+msgstr "خشب خفيف مضغوط"
+
+msgid "Beaverette"
+msgstr "فرو الأرنب المصبوغ للنسج"
+
+msgid "Beavers"
+msgstr "القنادس"
+
+msgid "Beaverton"
+msgstr "بيفيرتون"
+
+msgid "Bebob"
+msgstr "بيبوب"
+
+msgid "Bebop"
+msgstr "البيبوب"
+
+msgid "Becalm"
+msgstr "أوقف"
+
+msgid "Becalmed"
+msgstr "ساكن"
+
+msgid "Becalming"
+msgstr "الإيقاف"
+
+msgid "Becalms"
+msgstr "يوقف"
+
+msgid "Became"
+msgstr "أصبح"
+
+msgid "Because"
+msgstr "لأنّ"
+
+msgid "Bechtel"
+msgstr "بكتل"
+
+msgid "Beck"
+msgstr "الجدول"
+
+msgid "Becker"
+msgstr "بيكر"
+
+msgid "Becket"
+msgstr "المثبّتة"
+
+msgid "Beckman"
+msgstr "بيكمان"
+
+msgid "Beckon"
+msgstr "أشر"
+
+msgid "Beckoned"
+msgstr "أشار"
+
+msgid "Beckoning"
+msgstr "الإشارة"
+
+msgid "Beckons"
+msgstr "يشير"
+
+msgid "Becky"
+msgstr "بيكي"
+
+msgid "Becloud"
+msgstr "احجب"
+
+msgid "Beclouded"
+msgstr "حجب"
+
+msgid "Beclouding"
+msgstr "الحجب"
+
+msgid "Beclouds"
+msgstr "يحجب"
+
+msgid "Become"
+msgstr "اصبح"
+
+msgid "Becomes"
+msgstr "يصبح"
+
+msgid "Becoming"
+msgstr "ملائم"
+
+msgid "Becomingly"
+msgstr "على نحو ملائم"
+
+msgid "Becomingness"
+msgstr "الملائمة"
+
+msgid "Bed"
+msgstr "السّرير"
+
+msgid "Bedaub"
+msgstr "لطّخ"
+
+msgid "Bedaubed"
+msgstr "لطّخ"
+
+msgid "Bedaubing"
+msgstr "التّلطيخ"
+
+msgid "Bedaubs"
+msgstr "يلطّخ"
+
+msgid "Bedazzle"
+msgstr "أبهر"
+
+msgid "Bedazzled"
+msgstr "بهر"
+
+msgid "Bedazzlement"
+msgstr "الإبهار"
+
+msgid "Bedazzles"
+msgstr "يبهر"
+
+msgid "Bedazzling"
+msgstr "الإبهار"
+
+msgid "Bedbug"
+msgstr "البقّة"
+
+msgid "Bedbugs"
+msgstr "البقّ"
+
+msgid "Bedclothes"
+msgstr "فرش السّرير"
+
+msgid "Bedded"
+msgstr "متطبق"
+
+msgid "Bedder"
+msgstr "نبتة بدر"
+
+msgid "Bedders"
+msgstr "نباتات بدر"
+
+msgid "Bedding"
+msgstr "غطاء السّرير"
+
+msgid "Bedecked"
+msgstr "زيّن"
+
+msgid "Bedecks"
+msgstr "يزيّن"
+
+msgid "Bedevil"
+msgstr "عرقل"
+
+msgid "Bedeviled"
+msgstr "عرقل"
+
+msgid "Bedeviling"
+msgstr "العرقلة"
+
+msgid "Bedevilled"
+msgstr "عرقل"
+
+msgid "Bedevilling"
+msgstr "الإفساد"
+
+msgid "Bedevilment"
+msgstr "الإفساد"
+
+msgid "Bedevils"
+msgstr "يعرقل"
+
+msgid "Bedfast"
+msgstr "طريح الفراش"
+
+msgid "Bedfellow"
+msgstr "المرافق"
+
+msgid "Bedfellows"
+msgstr "المرافقون"
+
+msgid "Bedford"
+msgstr "بيدفورد"
+
+msgid "Bedim"
+msgstr "اعتم"
+
+msgid "Bedimmed"
+msgstr "عتّم"
+
+msgid "Bedimming"
+msgstr "التّعتيم"
+
+msgid "Bedlam"
+msgstr "الفوضى"
+
+msgid "Bedlams"
+msgstr "مستشفيات المجانين"
+
+msgid "Bedmate"
+msgstr "شريك الفراش"
+
+msgid "Bedmates"
+msgstr "شركاء الفراش"
+
+msgid "Bedouins"
+msgstr "البدو"
+
+msgid "Bedpan"
+msgstr "وعاء للتّبوّل بالفراش"
+
+msgid "Bedpans"
+msgstr "أوعية للتّبوّل بالفراش"
+
+msgid "Bedplate"
+msgstr "اللّوح"
+
+msgid "Bedpost"
+msgstr "العمود"
+
+msgid "Bedposts"
+msgstr "الأعمدة"
+
+msgid "Bedraggle"
+msgstr "وسّخ"
+
+msgid "Bedraggled"
+msgstr "رثّ"
+
+msgid "Bedrid"
+msgstr "مريض"
+
+msgid "Bedridden"
+msgstr "طريح الفراش"
+
+msgid "Bedriddenly"
+msgstr "بشكل طريح الفراش"
+
+msgid "Bedridly"
+msgstr "بشكل مريض"
+
+msgid "Bedrock"
+msgstr "الأساس"
+
+msgid "Bedroom"
+msgstr "غرفة النّوم"
+
+msgid "Bedroomed"
+msgstr "غرفة مخصصة للنوم"
+
+msgid "Bedrooms"
+msgstr "غرف النّوم"
+
+msgid "Beds"
+msgstr "الأسرّة"
+
+msgid "Bedside"
+msgstr "السّرير"
+
+msgid "Bedsore"
+msgstr "القرحة"
+
+msgid "Bedsores"
+msgstr "القرح"
+
+msgid "Bedspread"
+msgstr "المفرش"
+
+msgid "Bedspreads"
+msgstr "المفارش"
+
+msgid "Bedspring"
+msgstr "الزّنبرك"
+
+msgid "Bedsprings"
+msgstr "الزّنبرك"
+
+msgid "Bedstead"
+msgstr "الإطار"
+
+msgid "Bedsteads"
+msgstr "الإطارات"
+
+msgid "Bedstraw"
+msgstr "القشّ"
+
+msgid "Bedtime"
+msgstr "وقت النّوم"
+
+msgid "Bedtimes"
+msgstr "أوقات النّوم"
+
+msgid "Bee"
+msgstr "النّحلة"
+
+msgid "Beebe"
+msgstr "بيب"
+
+msgid "Beebread"
+msgstr "خبز النّحل"
+
+msgid "Beech"
+msgstr "الزّان"
+
+msgid "Beecham"
+msgstr "بيتشام"
+
+msgid "Beechen"
+msgstr "من خشب الزّان"
+
+msgid "Beecher"
+msgstr "بيتشير"
+
+msgid "Beeches"
+msgstr "الزّان"
+
+msgid "Beechwood"
+msgstr "بيتشوود"
+
+msgid "Beef"
+msgstr "اللّحم"
+
+msgid "Beefed"
+msgstr "اشتكى"
+
+msgid "Beefier"
+msgstr "أضخم"
+
+msgid "Beefiest"
+msgstr "الأضخم"
+
+msgid "Beefily"
+msgstr "بقوة"
+
+msgid "Beefing"
+msgstr "الشّكوى"
+
+msgid "Beefs"
+msgstr "الشّكاوى"
+
+msgid "Beefsteak"
+msgstr "اللّحم"
+
+msgid "Beefy"
+msgstr "ضخم"
+
+msgid "Beehive"
+msgstr "خليّة النّحل"
+
+msgid "Beehives"
+msgstr "خلايا النّحل"
+
+msgid "Beekeeper"
+msgstr "النّحّال"
+
+msgid "Beekeepers"
+msgstr "النّحّالون"
+
+msgid "Beekeeping"
+msgstr "تربية النحل"
+
+msgid "Beeline"
+msgstr "الخطّ المباشر"
+
+msgid "Beelines"
+msgstr "الخطوط المباشرة"
+
+msgid "Beelzebub"
+msgstr "رئيس الشّياطين"
+
+msgid "Been"
+msgstr "هل"
+
+msgid "Beep"
+msgstr "الصّفّارة"
+
+msgid "Beeped"
+msgstr "صفّر"
+
+msgid "Beeper"
+msgstr "البادجر"
+
+msgid "Beeping"
+msgstr "التّصفير"
+
+msgid "Beeps"
+msgstr "الصّفافير"
+
+msgid "Beer"
+msgstr "البيرة"
+
+msgid "Beers"
+msgstr "كؤوس البيرة"
+
+msgid "Bees"
+msgstr "النّحل"
+
+msgid "Beeswax"
+msgstr "الشّمع"
+
+msgid "Beet"
+msgstr "البنجر"
+
+msgid "Beethoven"
+msgstr "بيتهوفن"
+
+msgid "Beetle"
+msgstr "الخنفسة"
+
+msgid "Beetled"
+msgstr "فرّ"
+
+msgid "Beetles"
+msgstr "الخنفسات"
+
+msgid "Beetling"
+msgstr "الفرار"
+
+msgid "Beets"
+msgstr "البنجر"
+
+msgid "Befall"
+msgstr "صب"
+
+msgid "Befalled"
+msgstr "بيفاليد"
+
+msgid "Befallen"
+msgstr "أصاب"
+
+msgid "Befalling"
+msgstr "الإصابة"
+
+msgid "Befalls"
+msgstr "يصيب"
+
+msgid "Befell"
+msgstr "أصاب"
+
+msgid "Befit"
+msgstr "ناسب"
+
+msgid "Befits"
+msgstr "يناسب"
+
+msgid "Befitted"
+msgstr "ناسب"
+
+msgid "Befitting"
+msgstr "المناسبة"
+
+msgid "Befittingly"
+msgstr "بشكل ملائم"
+
+msgid "Befog"
+msgstr "لفّ بالضّباب"
+
+msgid "Befogged"
+msgstr "لفّ بالضّباب"
+
+msgid "Befogging"
+msgstr "لفّ بالضّباب"
+
+msgid "Befogs"
+msgstr "يلفّ بالضّباب"
+
+msgid "Before"
+msgstr "فيما مضى"
+
+msgid "Before-image"
+msgstr "قبل الصّورة"
+
+msgid "Beforehand"
+msgstr "مسبقًا"
+
+msgid "Befoul"
+msgstr "لوّث"
+
+msgid "Befouled"
+msgstr "لوّث"
+
+msgid "Befouling"
+msgstr "التّلويث"
+
+msgid "Befouls"
+msgstr "يلوّث"
+
+msgid "Befriedigend"
+msgstr "بيفريديجيند"
+
+msgid "Befriend"
+msgstr "صادق"
+
+msgid "Befriended"
+msgstr "صادق"
+
+msgid "Befriending"
+msgstr "المصادقة"
+
+msgid "Befriends"
+msgstr "يصادق"
+
+msgid "Befuddle"
+msgstr "أربك"
+
+msgid "Befuddled"
+msgstr "أربك"
+
+msgid "Befuddlement"
+msgstr "الخبل"
+
+msgid "Befuddles"
+msgstr "يربك"
+
+msgid "Befuddling"
+msgstr "الإرباك"
+
+msgid "Beg"
+msgstr "تسوّل"
+
+msgid "Began"
+msgstr "بدأ"
+
+msgid "Beget"
+msgstr "أنجب"
+
+msgid "Begets"
+msgstr "ينجب"
+
+msgid "Begetter"
+msgstr "المنجب"
+
+msgid "Begetters"
+msgstr "المنجبون"
+
+msgid "Begetting"
+msgstr "الإنجاب"
+
+msgid "Beggar"
+msgstr "الشّحّاذ"
+
+msgid "Beggared"
+msgstr "فاق"
+
+msgid "Beggaring"
+msgstr "التّفوّق"
+
+msgid "Beggarliness"
+msgstr "القلّة"
+
+msgid "Beggarly"
+msgstr "هزيل"
+
+msgid "Beggars"
+msgstr "الشّحّاذون"
+
+msgid "Beggary"
+msgstr "الفقر"
+
+msgid "Begged"
+msgstr "تسوّل"
+
+msgid "Begging"
+msgstr "التّسوّل"
+
+msgid "Begin"
+msgstr "ابدأ"
+
+msgid "Beginner"
+msgstr "المبتدئ"
+
+msgid "Beginners"
+msgstr "المبتدئون"
+
+msgid "Beginning"
+msgstr "البداية"
+
+msgid "Beginnings"
+msgstr "البدايات"
+
+msgid "Begins"
+msgstr "يبدأ"
+
+msgid "Begone"
+msgstr "انصرف"
+
+msgid "Begonia"
+msgstr "البغونية"
+
+msgid "Begot"
+msgstr "أنجب"
+
+msgid "Begotten"
+msgstr "أنجب"
+
+msgid "Begrime"
+msgstr "وسّخ"
+
+msgid "Begrimed"
+msgstr "وسّخ"
+
+msgid "Begrudge"
+msgstr "استكثر"
+
+msgid "Begrudged"
+msgstr "استكثر"
+
+msgid "Begrudger"
+msgstr "حسود"
+
+msgid "Begrudges"
+msgstr "يستكثر"
+
+msgid "Begrudging"
+msgstr "الاستكثار"
+
+msgid "Begrudgingly"
+msgstr "بطريقة حاسدة"
+
+msgid "Begs"
+msgstr "يتسوّل"
+
+msgid "Beguile"
+msgstr "اخدع"
+
+msgid "Beguiled"
+msgstr "خدع"
+
+msgid "Beguilements"
+msgstr "الخداع"
+
+msgid "Beguiler"
+msgstr "المخادع"
+
+msgid "Beguiles"
+msgstr "يخدع"
+
+msgid "Beguiling"
+msgstr "الخدعة"
+
+msgid "Beguilingly"
+msgstr "بشكل خادع"
+
+msgid "Begun"
+msgstr "بدأ"
+
+msgid "Behalf"
+msgstr "المصلحة"
+
+msgid "Behave"
+msgstr "تصرّف"
+
+msgid "Behaved"
+msgstr "تصرّف"
+
+msgid "Behaver"
+msgstr "متصرّف"
+
+msgid "Behaves"
+msgstr "يتصرّف"
+
+msgid "Behaving"
+msgstr "التّصرّف"
+
+msgid "Behavior"
+msgstr "السّلوك"
+
+msgid "Behavioral"
+msgstr "سلوكيّ"
+
+msgid "Behaviorally"
+msgstr "سلوكيًّا"
+
+msgid "Behaviorism"
+msgstr "السّلوكيّة"
+
+msgid "Behaviorisms"
+msgstr "السّلوكيّات"
+
+msgid "Behavioristic"
+msgstr "متعلّق بالسّلوكيّات"
+
+msgid "Behavioristics"
+msgstr "متعلّق بالسلوك"
+
+msgid "Behaviors"
+msgstr "السّلوك"
+
+msgid "Behaviour"
+msgstr "السّلوك"
+
+msgid "Behaviourisms"
+msgstr "السلوكية"
+
+msgid "Behaviourist"
+msgstr "السّلوكيّ"
+
+msgid "Behaviourists"
+msgstr "السّلوكيّ"
+
+msgid "Behead"
+msgstr "اقطع رأس"
+
+msgid "Beheaded"
+msgstr "قطع رأس"
+
+msgid "Beheading"
+msgstr "قطع رأس"
+
+msgid "Beheads"
+msgstr "يقطع رأس"
+
+msgid "Beheld"
+msgstr "رأى"
+
+msgid "Behemoth"
+msgstr "الحمولة"
+
+msgid "Behemoths"
+msgstr "الحمولات"
+
+msgid "Behest"
+msgstr "أمر :: طلب : الأمر :: الطّلب"
+
+msgid "Behests"
+msgstr "الوصايا"
+
+msgid "Behind"
+msgstr "إلى الخلف"
+
+msgid "Behinds"
+msgstr "المؤخرة"
+
+msgid "Behold"
+msgstr "انظر"
+
+msgid "Beholden"
+msgstr "مدين"
+
+msgid "Beholder"
+msgstr "النّاظر"
+
+msgid "Beholders"
+msgstr "النّظّار"
+
+msgid "Beholding"
+msgstr "الرّؤية"
+
+msgid "Beholds"
+msgstr "يرى"
+
+msgid "Behoove"
+msgstr "اقتضيت"
+
+msgid "Behooved"
+msgstr "اقتضى"
+
+msgid "Behooves"
+msgstr "المصالح"
+
+msgid "Behooving"
+msgstr "الاقتضاء"
+
+msgid "Beige"
+msgstr "البيج"
+
+msgid "Beijing"
+msgstr "بكين"
+
+msgid "Being"
+msgstr "الكائن"
+
+msgid "Beings"
+msgstr "الكائنات"
+
+msgid "Beirut"
+msgstr "بيروت"
+
+msgid "Bel"
+msgstr "البل"
+
+msgid "Bela"
+msgstr "بلا"
+
+msgid "Belabor"
+msgstr "استفض"
+
+msgid "Belabored"
+msgstr "استفاض"
+
+msgid "Belaboring"
+msgstr "الاستفاضة"
+
+msgid "Belabors"
+msgstr "يستفيض"
+
+msgid "Belarus"
+msgstr "روسيا البيضاء"
+
+msgid "Belarusian"
+msgstr "بالاروسي"
+
+msgid "Belate"
+msgstr "يؤخّر"
+
+msgid "Belated"
+msgstr "متأخّر"
+
+msgid "Belatedly"
+msgstr "متأخّرًا"
+
+msgid "Belatedness"
+msgstr "التّأخير"
+
+msgid "Belatednesses"
+msgstr "التأخّر"
+
+msgid "Belay"
+msgstr "ربّط حبل"
+
+msgid "Belayed"
+msgstr "ربّط حبل"
+
+msgid "Belaying"
+msgstr "تربيط حبل"
+
+msgid "Belays"
+msgstr "يربّط حبل"
+
+msgid "Belch"
+msgstr "التّجشّؤ"
+
+msgid "Belched"
+msgstr "تجشّأ"
+
+msgid "Belches"
+msgstr "التّجشّؤ"
+
+msgid "Belching"
+msgstr "التّجشّؤ"
+
+msgid "Belchs"
+msgstr "التدفق"
+
+msgid "Beldam"
+msgstr "عجوز"
+
+msgid "Beldams"
+msgstr "عجائز"
+
+msgid "Beleaguer"
+msgstr "حاصر"
+
+msgid "Beleaguered"
+msgstr "حاصر"
+
+msgid "Beleaguering"
+msgstr "الحصار"
+
+msgid "Beleaguers"
+msgstr "يحاصر"
+
+msgid "Beleidigung"
+msgstr "يهين"
+
+msgid "Belfast"
+msgstr "بلفاست"
+
+msgid "Belfries"
+msgstr "الأبراج"
+
+msgid "Belfry"
+msgstr "البرج"
+
+msgid "Belgian"
+msgstr "البلجيكيّ"
+
+msgid "Belgians"
+msgstr "البلجيكيّون"
+
+msgid "Belgium"
+msgstr "بلجيكا"
+
+msgid "Belgrade"
+msgstr "بلغراد"
+
+msgid "Belie"
+msgstr "أخف"
+
+msgid "Belied"
+msgstr "أخفى"
+
+msgid "Belief"
+msgstr "الإيمان"
+
+msgid "Beliefs"
+msgstr "المعتقدات"
+
+msgid "Belier"
+msgstr "ناقض"
+
+msgid "Beliers"
+msgstr "نواقض"
+
+msgid "Belies"
+msgstr "يخفي"
+
+msgid "Believability"
+msgstr "المصداقيّة"
+
+msgid "Believable"
+msgstr "قابل للتّصديق"
+
+msgid "Believably"
+msgstr "على نحو يصدّق"
+
+msgid "Believe"
+msgstr "صدّق"
+
+msgid "Believed"
+msgstr "صدّق"
+
+msgid "Believer"
+msgstr "المؤمن"
+
+msgid "Believers"
+msgstr "المؤمنون"
+
+msgid "Believes"
+msgstr "يصدّق"
+
+msgid "Believing"
+msgstr "التّصديق"
+
+msgid "Belittle"
+msgstr "استهن"
+
+msgid "Belittled"
+msgstr "استهان"
+
+msgid "Belittlement"
+msgstr "الاستخفاف"
+
+msgid "Belittler"
+msgstr "مستهين"
+
+msgid "Belittles"
+msgstr "يستهين"
+
+msgid "Belittling"
+msgstr "الاستهانة"
+
+msgid "Belize"
+msgstr "بيليز"
+
+msgid "Bell"
+msgstr "الجرس"
+
+msgid "Bella"
+msgstr "بيلا"
+
+msgid "Belladonna"
+msgstr "البيلادونا"
+
+msgid "Bellamy"
+msgstr "بيلامي"
+
+msgid "Bellatrix"
+msgstr "بيلاتريكس"
+
+msgid "Bellboy"
+msgstr "الفرّاش"
+
+msgid "Bellboys"
+msgstr "الفرّاشون"
+
+msgid "Belle"
+msgstr "الحسناء"
+
+msgid "Belles"
+msgstr "الحسناوات"
+
+msgid "Belleville"
+msgstr "بيليفيل"
+
+msgid "Bellflower"
+msgstr "زهرة الجرس"
+
+msgid "Bellhop"
+msgstr "الفرّاش"
+
+msgid "Bellhops"
+msgstr "الفرّاشون"
+
+msgid "Bellicose"
+msgstr "عدوانيّ"
+
+msgid "Bellicosely"
+msgstr "بشكل عدواني"
+
+msgid "Bellicoseness"
+msgstr "عدوانيّة"
+
+msgid "Bellicosities"
+msgstr "العدوانيّ"
+
+msgid "Bellicosity"
+msgstr "العدوانيّة"
+
+msgid "Bellied"
+msgstr "ذو بطن"
+
+msgid "Bellies"
+msgstr "البطون"
+
+msgid "Belligerence"
+msgstr "العدوانيّة"
+
+msgid "Belligerencies"
+msgstr "العدوانيّ"
+
+msgid "Belligerency"
+msgstr "العدوانيّة"
+
+msgid "Belligerent"
+msgstr "عدوانيّ"
+
+msgid "Belligerently"
+msgstr "على نحو قتاليّ"
+
+msgid "Belligerents"
+msgstr "المحاربون"
+
+msgid "Bellingham"
+msgstr "بيلينجهام"
+
+msgid "Bellini"
+msgstr "بيليني"
+
+msgid "Bellman"
+msgstr "المنادي"
+
+msgid "Bellmen"
+msgstr "المنادون"
+
+msgid "Bellow"
+msgstr "الخوار"
+
+msgid "Bellowed"
+msgstr "خار"
+
+msgid "Bellowing"
+msgstr "الخوار"
+
+msgid "Bellows"
+msgstr "الخوار"
+
+msgid "Bells"
+msgstr "الأجراس"
+
+msgid "Bellum"
+msgstr "جميل"
+
+msgid "Bellwether"
+msgstr "الكرّاز"
+
+msgid "Bellwethers"
+msgstr "الكرّاز"
+
+msgid "Bellwood"
+msgstr "بيلوود"
+
+msgid "Belly"
+msgstr "البطن"
+
+msgid "Bellyache"
+msgstr "المغص"
+
+msgid "Bellyacher"
+msgstr "ممغوص"
+
+msgid "Bellyaching"
+msgstr "التوجّع"
+
+msgid "Bellybutton"
+msgstr "السّرّة"
+
+msgid "Bellybuttons"
+msgstr "السّرر"
+
+msgid "Bellyful"
+msgstr "المقدار الكبير"
+
+msgid "Bellyfull"
+msgstr "كعكة كبيرة محلّاة"
+
+msgid "Bellying"
+msgstr "النفخ"
+
+msgid "Belmont"
+msgstr "بلمنت"
+
+msgid "Beloit"
+msgstr "بِلُيْتْ"
+
+msgid "Belong"
+msgstr "خصّ"
+
+msgid "Belonged"
+msgstr "خصّ"
+
+msgid "Belonging"
+msgstr "الخصوص"
+
+msgid "Belongingness"
+msgstr "الطمأنينة"
+
+msgid "Belongings"
+msgstr "المتعلّقات"
+
+msgid "Belongs"
+msgstr "يخصّ"
+
+msgid "Belove"
+msgstr "أحب"
+
+msgid "Beloved"
+msgstr "محبوب"
+
+msgid "Below"
+msgstr "إلى أسفل"
+
+msgid "Belshazzar"
+msgstr "بلشزار"
+
+msgid "Belt"
+msgstr "الحزام"
+
+msgid "Belted"
+msgstr "مربوط"
+
+msgid "Belting"
+msgstr "مادّة لصنع السّيور"
+
+msgid "Belton"
+msgstr "بيلتون"
+
+msgid "Belts"
+msgstr "الأحزمة"
+
+msgid "Beltsville"
+msgstr "بيلتسفيل"
+
+msgid "Belushi"
+msgstr "بيلشي"
+
+msgid "Belvedere"
+msgstr "بلفيدير"
+
+msgid "Belvidere"
+msgstr "بيلفيدير"
+
+msgid "Bely"
+msgstr "بيلي"
+
+msgid "Belying"
+msgstr "الكذب"
+
+msgid "BEMA"
+msgstr "المقدس"
+
+msgid "Beman"
+msgstr "بيمان"
+
+msgid "Bemoan"
+msgstr "تحسّر"
+
+msgid "Bemoaned"
+msgstr "تحسّر"
+
+msgid "Bemoaning"
+msgstr "التّحسّر"
+
+msgid "Bemoans"
+msgstr "يتحسّر"
+
+msgid "Bemuse"
+msgstr "أذهل"
+
+msgid "Bemused"
+msgstr "مندهش"
+
+msgid "Bemusedly"
+msgstr "في حيرة"
+
+msgid "Ben"
+msgstr "المرتفع"
+
+msgid "Bench"
+msgstr "المقعد"
+
+msgid "Benched"
+msgstr "طرد"
+
+msgid "Bencher"
+msgstr "عضو هيئة المحكمة"
+
+msgid "Benches"
+msgstr "المقاعد"
+
+msgid "Benching"
+msgstr "الطّرد"
+
+msgid "Benchmark"
+msgstr "المعيار"
+
+msgid "Benchmark-Tests"
+msgstr "اختبارات المعيار"
+
+msgid "Benchmarking"
+msgstr "قياس المعايير"
+
+msgid "Benchmarks"
+msgstr "علامات خاصّة بأعمال المساحة"
+
+msgid "Bend"
+msgstr "انحن"
+
+msgid "Bendable"
+msgstr "قابل للانحناء"
+
+msgid "Bended"
+msgstr "محنيّ"
+
+msgid "Bender"
+msgstr "الشّاذّ"
+
+msgid "Benders"
+msgstr "الشّواذّ"
+
+msgid "Bending"
+msgstr "الانحناء"
+
+msgid "Bendix"
+msgstr "بنديكس"
+
+msgid "Bends"
+msgstr "المنحنيات"
+
+msgid "Beneath"
+msgstr "أسفل"
+
+msgid "Benedict"
+msgstr "حديث الزّواج"
+
+msgid "Benedictine"
+msgstr "البينديكتين"
+
+msgid "Benedictines"
+msgstr "البينديكتين"
+
+msgid "Benediction"
+msgstr "الدّعاء"
+
+msgid "Benedictions"
+msgstr "الأدعية"
+
+msgid "Benedictive"
+msgstr "دُعائيّ"
+
+msgid "Benedictory"
+msgstr "مبارك"
+
+msgid "Benedikt"
+msgstr "بنيديكت"
+
+msgid "Benefaction"
+msgstr "الإحسان"
+
+msgid "Benefactions"
+msgstr "التّبرّعات"
+
+msgid "Benefactor"
+msgstr "المتبرّع"
+
+msgid "Benefactors"
+msgstr "المتبرّعون"
+
+msgid "Benefice"
+msgstr "المنصب"
+
+msgid "Beneficence"
+msgstr "الإحسان"
+
+msgid "Beneficences"
+msgstr "الإحسان"
+
+msgid "Beneficent"
+msgstr "متصدّق"
+
+msgid "Beneficently"
+msgstr "بإحسان"
+
+msgid "Benefices"
+msgstr "المناصب"
+
+msgid "Beneficial"
+msgstr "مفيد"
+
+msgid "Beneficially"
+msgstr "بشكل مجدي"
+
+msgid "Beneficialness"
+msgstr "الاستفادة"
+
+msgid "Beneficiaries"
+msgstr "المستفيدون"
+
+msgid "Beneficiary"
+msgstr "المستفيد"
+
+msgid "Benefit"
+msgstr "الفائدة"
+
+msgid "Benefited"
+msgstr "مستفاد"
+
+msgid "Benefiter"
+msgstr "مُفيد"
+
+msgid "Benefiters"
+msgstr "مفيدون"
+
+msgid "Benefiting"
+msgstr "الإفادة"
+
+msgid "Benefits"
+msgstr "الفائدات"
+
+msgid "Benelux"
+msgstr "بينيلَكس"
+
+msgid "Benevolence"
+msgstr "الكرم"
+
+msgid "Benevolent"
+msgstr "خيريّ"
+
+msgid "Benevolently"
+msgstr "بإحسان"
+
+msgid "Benevolentness"
+msgstr "العطاء"
+
+msgid "Bengal"
+msgstr "بينجال"
+
+msgid "Bengali"
+msgstr "البنغاليّ"
+
+msgid "Benight"
+msgstr "يضلل"
+
+msgid "Benighted"
+msgstr "مضلَّل"
+
+msgid "Benightedly"
+msgstr "بتضليل"
+
+msgid "Benightedness"
+msgstr "حلول اللّيل"
+
+msgid "Benign"
+msgstr "لطيف"
+
+msgid "Benignantly"
+msgstr "بشكل حليم"
+
+msgid "Benignly"
+msgstr "برقّة"
+
+msgid "Benin"
+msgstr "بنين"
+
+msgid "Benjamin"
+msgstr "بنيامين"
+
+msgid "Bennett"
+msgstr "بينيت"
+
+msgid "Bennington"
+msgstr "بينينجتون"
+
+msgid "Benny"
+msgstr "بيني"
+
+msgid "Benson"
+msgstr "بينسون"
+
+msgid "Bent"
+msgstr "انحنى"
+
+msgid "Bentham"
+msgstr "بينثام"
+
+msgid "Benthic"
+msgstr "قعر مائيّ"
+
+msgid "Bentley"
+msgstr "بينتلي"
+
+msgid "Benton"
+msgstr "بينتون"
+
+msgid "Bents"
+msgstr "الميول"
+
+msgid "Benumb"
+msgstr "خدّر"
+
+msgid "Benz"
+msgstr "بينز"
+
+msgid "Benzedrine"
+msgstr "البنزيدرين"
+
+msgid "Benzene"
+msgstr "البنزين"
+
+msgid "Benzin"
+msgstr "بنزين"
+
+msgid "Benzine"
+msgstr "البنزين"
+
+msgid "Beograd"
+msgstr "بيوجراد"
+
+msgid "Beowulf"
+msgstr "بياولف"
+
+msgid "Beplaster"
+msgstr "يغطّي بضماد"
+
+msgid "Bequeath"
+msgstr "ورّث"
+
+msgid "Bequeathed"
+msgstr "ورّث"
+
+msgid "Bequeathing"
+msgstr "التّوريث"
+
+msgid "Bequeathment"
+msgstr "توريث"
+
+msgid "Bequeaths"
+msgstr "يورّث"
+
+msgid "Bequest"
+msgstr "التّركة"
+
+msgid "Bequests"
+msgstr "التّركات"
+
+msgid "Berate"
+msgstr "وبّخ"
+
+msgid "Berated"
+msgstr "وبّخ"
+
+msgid "Berates"
+msgstr "يوبّخ"
+
+msgid "Berating"
+msgstr "التّوبيخ"
+
+msgid "Berea"
+msgstr "ذو وزن"
+
+msgid "Bereave"
+msgstr "احرم"
+
+msgid "Bereaved"
+msgstr "مفجوع"
+
+msgid "Bereavement"
+msgstr "الحرمان"
+
+msgid "Bereavements"
+msgstr "الحرمان"
+
+msgid "Bereaves"
+msgstr "يحرم"
+
+msgid "Bereaving"
+msgstr "الحرمان"
+
+msgid "Bereft"
+msgstr "بائس"
+
+msgid "Berenices"
+msgstr "بيرينيسيس"
+
+msgid "Beresford"
+msgstr "بيريسفورد"
+
+msgid "Beret"
+msgstr "البيريه"
+
+msgid "Berets"
+msgstr "البيريهات"
+
+msgid "Berg"
+msgstr "الجبل الجليديّ"
+
+msgid "Bergamot"
+msgstr "الشجرة برغموت"
+
+msgid "Bergen"
+msgstr "برجِن"
+
+msgid "Berger"
+msgstr "بيرجر"
+
+msgid "Bergland"
+msgstr "برجﻻند"
+
+msgid "Berglund"
+msgstr "برجﻻند"
+
+msgid "Bergman"
+msgstr "بيرجمان"
+
+msgid "Bergs"
+msgstr "الجبال الجليديّة"
+
+msgid "Bergson"
+msgstr "بيرجيسون"
+
+msgid "Bergsten"
+msgstr "بيرجستين"
+
+msgid "Bergstrom"
+msgstr "بيرجستروم"
+
+msgid "Beribboned"
+msgstr "مزيّن"
+
+msgid "Beriberi"
+msgstr "البري بري"
+
+msgid "Beringer"
+msgstr "برنجر"
+
+msgid "Berkeley"
+msgstr "بيركيلي"
+
+msgid "Berkelium"
+msgstr "البركيليوم"
+
+msgid "Berkowitz"
+msgstr "بيركاويتز"
+
+msgid "Berkshire"
+msgstr "بيركشاير"
+
+msgid "Berkshires"
+msgstr "بيركشايرز"
+
+msgid "Berlin"
+msgstr "برلين"
+
+msgid "Berliner"
+msgstr "برليني"
+
+msgid "Berliners"
+msgstr "برلينيّون"
+
+msgid "Berlioz"
+msgstr "بيرليوز"
+
+msgid "Berlitz"
+msgstr "بيرليتز"
+
+msgid "Berman"
+msgstr "بيرمان"
+
+msgid "Bermuda"
+msgstr "برمودا"
+
+msgid "Bern"
+msgstr "برن"
+
+msgid "Bernadine"
+msgstr "بيرناداين"
+
+msgid "Bernard"
+msgstr "برنار"
+
+msgid "Bernardine"
+msgstr "بيرنارداين"
+
+msgid "Bernardino"
+msgstr "بيرناردينو"
+
+msgid "Bernardo"
+msgstr "برناردو"
+
+msgid "Berne"
+msgstr "برن"
+
+msgid "Bernet"
+msgstr "بيرنيت"
+
+msgid "Bernhard"
+msgstr "بيرنهأرد"
+
+msgid "Bernice"
+msgstr "بيرنيس"
+
+msgid "Bernie"
+msgstr "بيرني"
+
+msgid "Berniece"
+msgstr "بيرنيس"
+
+msgid "Bernini"
+msgstr "بيرنيني"
+
+msgid "Bernoulli"
+msgstr "بيرنولي"
+
+msgid "Bernstein"
+msgstr "بيرنشتاين"
+
+msgid "Berra"
+msgstr "بيرا"
+
+msgid "Berried"
+msgstr "منتج ثمر علّيق"
+
+msgid "Berries"
+msgstr "التّوت"
+
+msgid "Berry"
+msgstr "التّوت"
+
+msgid "Berrying"
+msgstr "جمع التوت"
+
+msgid "Berserk"
+msgstr "هائج"
+
+msgid "Berserker"
+msgstr "هائج"
+
+msgid "Bert"
+msgstr "بيرت"
+
+msgid "Berth"
+msgstr "المرسى"
+
+msgid "Bertha"
+msgstr "البرثيّة"
+
+msgid "Berthed"
+msgstr "رسا"
+
+msgid "Berthing"
+msgstr "الرّسو"
+
+msgid "Berths"
+msgstr "المراسي"
+
+msgid "Bertie"
+msgstr "بيرتي"
+
+msgid "Bertram"
+msgstr "بيرترام"
+
+msgid "Bertrand"
+msgstr "برتراند"
+
+msgid "Berwick"
+msgstr "بيرويك"
+
+msgid "Beryl"
+msgstr "البريل"
+
+msgid "Beryllium"
+msgstr "البيريليوم"
+
+msgid "Bes"
+msgstr "بيز"
+
+msgid "Beseech"
+msgstr "التمس"
+
+msgid "Beseeched"
+msgstr "التمس"
+
+msgid "Beseeches"
+msgstr "يلتمس"
+
+msgid "Beseeching"
+msgstr "التماس"
+
+msgid "Beseechingly"
+msgstr "بتوسّل"
+
+msgid "Beseem"
+msgstr "ناسب"
+
+msgid "Beseems"
+msgstr "يناسب"
+
+msgid "Beset"
+msgstr "حاصر"
+
+msgid "Besets"
+msgstr "يحاصر"
+
+msgid "Besetting"
+msgstr "الحصار"
+
+msgid "Beside"
+msgstr "بجانب"
+
+msgid "Besides"
+msgstr "بالإضافة إلى ذلك"
+
+msgid "Besiege"
+msgstr "حاصر"
+
+msgid "Besieged"
+msgstr "حاصر"
+
+msgid "Besiegement"
+msgstr "حِصار"
+
+msgid "Besieger"
+msgstr "المحاصر"
+
+msgid "Besiegers"
+msgstr "المحاصرون"
+
+msgid "Besieges"
+msgstr "يحاصر"
+
+msgid "Besieging"
+msgstr "الحصار"
+
+msgid "Besmear"
+msgstr "لطّخ"
+
+msgid "Besmeared"
+msgstr "لطّخ"
+
+msgid "Besmearing"
+msgstr "التّلطيخ"
+
+msgid "Besmears"
+msgstr "يلطّخ"
+
+msgid "Besmirch"
+msgstr "لطّخ"
+
+msgid "Besmirched"
+msgstr "لطّخ"
+
+msgid "Besmirches"
+msgstr "يلطّخ"
+
+msgid "Besmirching"
+msgstr "التّلطيخ"
+
+msgid "Besom"
+msgstr "المكنسة"
+
+msgid "Besoms"
+msgstr "المكانس"
+
+msgid "Besot"
+msgstr "أسكر"
+
+msgid "Besots"
+msgstr "يسكر"
+
+msgid "Besotted"
+msgstr "سكران"
+
+msgid "Besotting"
+msgstr "الإسكار"
+
+msgid "Besought"
+msgstr "التمس"
+
+msgid "Bespatter"
+msgstr "لوّث"
+
+msgid "Bespattered"
+msgstr "لوّث"
+
+msgid "Bespatters"
+msgstr "يلوّث"
+
+msgid "Bespeak"
+msgstr "دلّ"
+
+msgid "Bespeaking"
+msgstr "الدّلالة"
+
+msgid "Bespeaks"
+msgstr "يدلّ"
+
+msgid "Bespectacled"
+msgstr "مرتدي نظّارات"
+
+msgid "Bespoke"
+msgstr "مفصّل"
+
+msgid "Bespoken"
+msgstr "دلّ"
+
+msgid "Bess"
+msgstr "باس"
+
+msgid "Bessel"
+msgstr "بسِل"
+
+msgid "Bessemer"
+msgstr "بيسمر"
+
+msgid "Bessie"
+msgstr "بيسي"
+
+msgid "Best"
+msgstr "الأفضل"
+
+msgid "Bested"
+msgstr "راسخ"
+
+msgid "Bester"
+msgstr "أفضل"
+
+msgid "Bestial"
+msgstr "وحشيّ"
+
+msgid "Bestialities"
+msgstr "البهيميّات"
+
+msgid "Bestiality"
+msgstr "البهيميّة"
+
+msgid "Bestially"
+msgstr "بأسلوب حيوانيّ"
+
+msgid "Besting"
+msgstr "تقديم الأفضل"
+
+msgid "Bestir"
+msgstr "حثّ"
+
+msgid "Bestirred"
+msgstr "حثّ"
+
+msgid "Bestirring"
+msgstr "الحثّ"
+
+msgid "Bestirs"
+msgstr "يحثّ"
+
+msgid "Bestow"
+msgstr "امنح"
+
+msgid "Bestowal"
+msgstr "العطاء"
+
+msgid "Bestowals"
+msgstr "الأعطيّة"
+
+msgid "Bestowed"
+msgstr "منح"
+
+msgid "Bestower"
+msgstr "معطي"
+
+msgid "Bestowers"
+msgstr "معطون"
+
+msgid "Bestowing"
+msgstr "المنح"
+
+msgid "Bestowment"
+msgstr "عطاء"
+
+msgid "Bestowments"
+msgstr "عطاءات"
+
+msgid "Bestows"
+msgstr "يمنح"
+
+msgid "Bestrew"
+msgstr "غطّ"
+
+msgid "Bestrewed"
+msgstr "غطّى"
+
+msgid "Bestrewing"
+msgstr "التّغطية"
+
+msgid "Bestrews"
+msgstr "يغطّي"
+
+msgid "Bestride"
+msgstr "اعتل"
+
+msgid "Bestrides"
+msgstr "يعتلي"
+
+msgid "Bestriding"
+msgstr "الاعتلاء"
+
+msgid "Bestrode"
+msgstr "اعتلى"
+
+msgid "Bests"
+msgstr "بيستس"
+
+msgid "Bestseller"
+msgstr "كتاب أكثر رواجًا"
+
+msgid "Bestsellers"
+msgstr "أعلى الكتب مبيعًا"
+
+msgid "Bestselling"
+msgstr "ذائع"
+
+msgid "Bestubbled"
+msgstr "خفيف اللحية"
+
+msgid "Bet"
+msgstr "راهن"
+
+msgid "Beta"
+msgstr "البيتا"
+
+msgid "Betake"
+msgstr "اذهب"
+
+msgid "Betaken"
+msgstr "ذهب"
+
+msgid "Betaking"
+msgstr "الذّهاب"
+
+msgid "Betas"
+msgstr "الجيّدات"
+
+msgid "Betatest"
+msgstr "اختبار نسخة تجريبية"
+
+msgid "Betatron"
+msgstr "البيتاترون"
+
+msgid "Betel"
+msgstr "البيتل"
+
+msgid "Betelgeuse"
+msgstr "منكب الجوزاء"
+
+msgid "Betes"
+msgstr "بيتيز"
+
+msgid "Beth"
+msgstr "بيث"
+
+msgid "Bethel"
+msgstr "المكان المقدّس"
+
+msgid "Bethesda"
+msgstr "باثزدا"
+
+msgid "Bethink"
+msgstr "ذكّر"
+
+msgid "Bethinking"
+msgstr "التفكير"
+
+msgid "Bethinks"
+msgstr "يذكّر"
+
+msgid "Bethlehem"
+msgstr "بيت لحم"
+
+msgid "Bethought"
+msgstr "ذكّر"
+
+msgid "Betide"
+msgstr "وقعت"
+
+msgid "Betimes"
+msgstr "مبكّرًا"
+
+msgid "Betoken"
+msgstr "دلّ"
+
+msgid "Betokened"
+msgstr "دلّ"
+
+msgid "Betokening"
+msgstr "الدّلالة"
+
+msgid "Betony"
+msgstr "بيتوني - زهرة"
+
+msgid "Betook"
+msgstr "ذهب"
+
+msgid "Betray"
+msgstr "خن"
+
+msgid "Betrayal"
+msgstr "الخيانة"
+
+msgid "Betrayals"
+msgstr "الخيانات"
+
+msgid "Betrayed"
+msgstr "خان"
+
+msgid "Betrayer"
+msgstr "الخائن"
+
+msgid "Betrayers"
+msgstr "الخونة"
+
+msgid "Betraying"
+msgstr "الخيانة"
+
+msgid "Betrays"
+msgstr "يخون"
+
+msgid "Betroth"
+msgstr "اخطب"
+
+msgid "Betrothal"
+msgstr "الخطبة"
+
+msgid "Betrothals"
+msgstr "الخطبات"
+
+msgid "Betrothed"
+msgstr "خطب"
+
+msgid "Betrothing"
+msgstr "الخطبة"
+
+msgid "Betrothment"
+msgstr "الخِطبة"
+
+msgid "Betrothments"
+msgstr "الخِطبات"
+
+msgid "Betroths"
+msgstr "يخطب"
+
+msgid "Bets"
+msgstr "الرّهانات"
+
+msgid "Betsey"
+msgstr "بيتسي"
+
+msgid "Betsy"
+msgstr "بيتسي"
+
+msgid "Bett"
+msgstr "بيت"
+
+msgid "Bette"
+msgstr "بات"
+
+msgid "Betted"
+msgstr "راهن"
+
+msgid "Better"
+msgstr "أفضل"
+
+msgid "Bettered"
+msgstr "حسّن"
+
+msgid "Bettering"
+msgstr "التّحسين"
+
+msgid "Betterment"
+msgstr "التّحسين"
+
+msgid "Betterments"
+msgstr "التّحسينات"
+
+msgid "Betters"
+msgstr "الأفضل"
+
+msgid "Betties"
+msgstr "بتيز"
+
+msgid "Betting"
+msgstr "الرّهان"
+
+msgid "Bettor"
+msgstr "المراهن"
+
+msgid "Bettors"
+msgstr "المراهنون"
+
+msgid "Betty"
+msgstr "بيتي"
+
+msgid "Between"
+msgstr "بينهما"
+
+msgid "Betweenness"
+msgstr "البينيّة"
+
+msgid "Betwixt"
+msgstr "بين"
+
+msgid "Bevel"
+msgstr "الحافّة"
+
+msgid "Beveled"
+msgstr "مشطوف"
+
+msgid "Beveling"
+msgstr "الميلا"
+
+msgid "Bevelled"
+msgstr "مشطوف"
+
+msgid "Bevelling"
+msgstr "الميل"
+
+msgid "Bevels"
+msgstr "الحافّات"
+
+msgid "Beverage"
+msgstr "المشروب"
+
+msgid "Beverages"
+msgstr "المشروبات"
+
+msgid "Beverly"
+msgstr "بيفرلي"
+
+msgid "Bevies"
+msgstr "المجموعات"
+
+msgid "Bevy"
+msgstr "المجموعة"
+
+msgid "Bewail"
+msgstr "اندب"
+
+msgid "Bewailed"
+msgstr "ندب"
+
+msgid "Bewailing"
+msgstr "النّدب"
+
+msgid "Bewails"
+msgstr "يندب"
+
+msgid "Beware"
+msgstr "احترس"
+
+msgid "Bewares"
+msgstr "يحترس"
+
+msgid "Bewhisker"
+msgstr "شارب"
+
+msgid "Bewhiskered"
+msgstr "ذو شارب"
+
+msgid "Bewilder"
+msgstr "حيّر"
+
+msgid "Bewildered"
+msgstr "حيّر"
+
+msgid "Bewilderedly"
+msgstr "في حيرة"
+
+msgid "Bewilderedness"
+msgstr "الحيرة"
+
+msgid "Bewildering"
+msgstr "التّحيير"
+
+msgid "Bewilderingly"
+msgstr "بطريقة مذهلة"
+
+msgid "Bewilderment"
+msgstr "الارتباك"
+
+msgid "Bewilders"
+msgstr "يحيّر"
+
+msgid "Bewitch"
+msgstr "اسحر"
+
+msgid "Bewitched"
+msgstr "سحر"
+
+msgid "Bewitches"
+msgstr "يسحر"
+
+msgid "Bewitching"
+msgstr "ساحر"
+
+msgid "Bewitchingly"
+msgstr "بطريقة ساحرة"
+
+msgid "Bewitchment"
+msgstr "الفتنة"
+
+msgid "Bewitchments"
+msgstr "الأسحار"
+
+msgid "Bey"
+msgstr "البك"
+
+msgid "Beyond"
+msgstr "بعيدًا"
+
+msgid "Bezel"
+msgstr "الحافّة"
+
+msgid "Bezier"
+msgstr "بيزيير"
+
+msgid "Bhutan"
+msgstr "بوتان"
+
+msgid "Bi-processor"
+msgstr "معالج ثنائي"
+
+msgid "Bialystok"
+msgstr "بياليستوك"
+
+msgid "Bianco"
+msgstr "بيانكو"
+
+msgid "Biannual"
+msgstr "نصف سنويّ"
+
+msgid "Bias"
+msgstr "التّحيّز"
+
+msgid "Biased"
+msgstr "متحيّز"
+
+msgid "Biases"
+msgstr "التّحيّزات"
+
+msgid "Biasing"
+msgstr "التّأثير"
+
+msgid "Biasness"
+msgstr "التّحيّز"
+
+msgid "Biassed"
+msgstr "متحيّز"
+
+msgid "Biassing"
+msgstr "التحيّز"
+
+msgid "Biaxial"
+msgstr "ذو محورين"
+
+msgid "Biaxially"
+msgstr "ثنائية المحور"
+
+msgid "Bib"
+msgstr "المريلة"
+
+msgid "Bibb"
+msgstr "بِبْ"
+
+msgid "Bibbed"
+msgstr "ذا مريلة"
+
+msgid "Bibbing"
+msgstr "الشرب"
+
+msgid "Bible"
+msgstr "الإنجيل"
+
+msgid "Bibles"
+msgstr "الأناجيل"
+
+msgid "Biblical"
+msgstr "إنجيليّ"
+
+msgid "Biblically"
+msgstr "وفقًا للإنجيل"
+
+msgid "Bibliographer"
+msgstr "المراجع"
+
+msgid "Bibliographic"
+msgstr "ببليوغرافي"
+
+msgid "Bibliographical"
+msgstr "ببليوغرافي"
+
+msgid "Bibliographically"
+msgstr "بشكل ببليوغرافي"
+
+msgid "Bibliographies"
+msgstr "الفهارس"
+
+msgid "Bibliography"
+msgstr "الفهرس"
+
+msgid "Bibliomaniac"
+msgstr "مجنون الكتب"
+
+msgid "Bibliophile"
+msgstr "القارئ"
+
+msgid "Bibliophiles"
+msgstr "القرّاء"
+
+msgid "Bibs"
+msgstr "المرايل"
+
+msgid "Bibulous"
+msgstr "مدمن خمر"
+
+msgid "Bibulously"
+msgstr "بشكل سكّير"
+
+msgid "Bibulousness"
+msgstr "الولع السُّكْر"
+
+msgid "Bicameral"
+msgstr "ذو مجلسين تشريعيّين"
+
+msgid "Bicarbonate"
+msgstr "ثاني الكربونات"
+
+msgid "Bicentennial"
+msgstr "مرور مائتي عام"
+
+msgid "Bicep"
+msgstr "نموذج أولي لمحاكاة المفهوم المتكامل لساحة المعركة"
+
+msgid "Biceps"
+msgstr "العضلة"
+
+msgid "Bichromate"
+msgstr "الثاني كرومات"
+
+msgid "Bichromated"
+msgstr "معالج بالثاني كرومات"
+
+msgid "Bichrome"
+msgstr "ثنائي اللّون"
+
+msgid "Bicker"
+msgstr "تشاحن"
+
+msgid "Bickered"
+msgstr "تشاحن"
+
+msgid "Bickerer"
+msgstr "مُشاحن"
+
+msgid "Bickering"
+msgstr "التّشاحن"
+
+msgid "Bickers"
+msgstr "يتشاحن"
+
+msgid "Biconcave"
+msgstr "مقعّر الوجهين"
+
+msgid "Biconvex"
+msgstr "محدّب الوجهين"
+
+msgid "Bicycle"
+msgstr "الدّرّاجة"
+
+msgid "Bicycled"
+msgstr "ركب دراجة"
+
+msgid "Bicycler"
+msgstr "راكب الدراجة"
+
+msgid "Bicyclers"
+msgstr "راكبوا الدراجات"
+
+msgid "Bicycles"
+msgstr "الدّرّاجات"
+
+msgid "Bicycling"
+msgstr "ركوب بالدرجات الهوائية"
+
+msgid "Bicyclist"
+msgstr "سائق الدّرّاجة"
+
+msgid "Bid"
+msgstr "العرض"
+
+msgid "Biddable"
+msgstr "انقياديّ"
+
+msgid "Bidden"
+msgstr "زايد"
+
+msgid "Bidder"
+msgstr "المزايد"
+
+msgid "Bidders"
+msgstr "المزايدون"
+
+msgid "Biddies"
+msgstr "الدّجاج"
+
+msgid "Bidding"
+msgstr "المزايدة"
+
+msgid "Biddle"
+msgstr "بيدل"
+
+msgid "Biddy"
+msgstr "الدّجاجة"
+
+msgid "Bide"
+msgstr "انتظر"
+
+msgid "Bided"
+msgstr "انتظر"
+
+msgid "Bider"
+msgstr "مُنتظر"
+
+msgid "Bides"
+msgstr "ينتظر"
+
+msgid "Biding"
+msgstr "الانتظار"
+
+msgid "Bidirectional"
+msgstr "ثنائيّ الاتّجاه"
+
+msgid "Bids"
+msgstr "العروض"
+
+msgid "Bien"
+msgstr "بين"
+
+msgid "Biennial"
+msgstr "يحدث كلّ عامين"
+
+msgid "Biennially"
+msgstr "كلّ عامين"
+
+msgid "Biennium"
+msgstr "فترة السّنتين"
+
+msgid "Bienville"
+msgstr "بينفيل"
+
+msgid "Bier"
+msgstr "النّعش"
+
+msgid "Bierce"
+msgstr "بيرس"
+
+msgid "Biers"
+msgstr "النّعوش"
+
+msgid "Bifilar"
+msgstr "ثنائيّ السّلك"
+
+msgid "Bifocal"
+msgstr "ثنائيّ البؤرة"
+
+msgid "Bifocals"
+msgstr "النّظّارة"
+
+msgid "Bifurcate"
+msgstr "انقسم"
+
+msgid "Bifurcated"
+msgstr "انقسم"
+
+msgid "Bifurcately"
+msgstr "بانقسام"
+
+msgid "Bifurcates"
+msgstr "ينقسم"
+
+msgid "Bifurcating"
+msgstr "الانقسام"
+
+msgid "Bifurcation"
+msgstr "التّشعّب"
+
+msgid "Bifurcations"
+msgstr "التّشعّبات"
+
+msgid "Big"
+msgstr "كبير"
+
+msgid "Bigamist"
+msgstr "متزوّج بالاثنين"
+
+msgid "Bigamists"
+msgstr "متزوّجون بالاثنين"
+
+msgid "Bigamous"
+msgstr "متزوّج بامرأتين"
+
+msgid "Bigamously"
+msgstr "خاصّ بالزّواج بامرأتين"
+
+msgid "Bigamy"
+msgstr "الجمع بين زوجين"
+
+msgid "Bigelow"
+msgstr "بجلو"
+
+msgid "Bigger"
+msgstr "أكبر"
+
+msgid "Biggest"
+msgstr "الأكبر"
+
+msgid "Biggs"
+msgstr "بجز"
+
+msgid "Bight"
+msgstr "الخليج"
+
+msgid "Bights"
+msgstr "الخلجان"
+
+msgid "Bigly"
+msgstr "بشكل كبير"
+
+msgid "Bigness"
+msgstr "الكبر"
+
+msgid "Bignesses"
+msgstr "الكبر"
+
+msgid "Bigot"
+msgstr "المتعصّب"
+
+msgid "Bigoted"
+msgstr "متعصّب"
+
+msgid "Bigotedly"
+msgstr "بشكل متزمّت"
+
+msgid "Bigotry"
+msgstr "التّعصّب"
+
+msgid "Bigots"
+msgstr "المتعصّبون"
+
+msgid "Bigwig"
+msgstr "الشّخصٌ الهامّ"
+
+msgid "Bijouterie"
+msgstr "الجواهر"
+
+msgid "Bike"
+msgstr "الدّرّاجة"
+
+msgid "Biked"
+msgstr "ركب دراجة"
+
+msgid "Biker"
+msgstr "السّائق"
+
+msgid "Bikers"
+msgstr "السّائقون"
+
+msgid "Bikes"
+msgstr "الدّرّاجات"
+
+msgid "Bikeway"
+msgstr "طريق الدراجة"
+
+msgid "Biking"
+msgstr "ركوب الدراجات الهوائية"
+
+msgid "Bikini"
+msgstr "البيكيني"
+
+msgid "Bikinied"
+msgstr "مرتدية البيكيني"
+
+msgid "Bikinis"
+msgstr "البيكينيات"
+
+msgid "Bikrider"
+msgstr "راكب الدرّاجة"
+
+msgid "Bilabial"
+msgstr "الحرف الشّفهيّ"
+
+msgid "Bilateral"
+msgstr "ثنائيّ"
+
+msgid "Bilaterally"
+msgstr "على مستوى ثنائيّ"
+
+msgid "Bilateralness"
+msgstr "الثُّنائيّة"
+
+msgid "Bilayer"
+msgstr "طبقة ثنائيّة"
+
+msgid "Bilayers"
+msgstr "طبقات ثنائيّة"
+
+msgid "Bilberries"
+msgstr "التّوت"
+
+msgid "Bilberry"
+msgstr "التوت"
+
+msgid "Bilbo"
+msgstr "القيد"
+
+msgid "Bile"
+msgstr "الصّفراء"
+
+msgid "Bilge"
+msgstr "القلب"
+
+msgid "Bilged"
+msgstr "منفوخ"
+
+msgid "Bilges"
+msgstr "القلب"
+
+msgid "Bilging"
+msgstr "النفخ"
+
+msgid "Bilharziasis"
+msgstr "البلهارزيا"
+
+msgid "Bilinear"
+msgstr "ثنائيّ"
+
+msgid "Bilingual"
+msgstr "مجيد اللّغتين"
+
+msgid "Bilingualism"
+msgstr "ثنائيّة اللغة"
+
+msgid "Bilingually"
+msgstr "بشكل ثنائي اللغة"
+
+msgid "Bilinguals"
+msgstr "ثنائيات اللغة"
+
+msgid "Bilious"
+msgstr "مريض بالصفراء"
+
+msgid "Biliously"
+msgstr "بشكل صفراوي"
+
+msgid "Biliousness"
+msgstr "الصّفراء"
+
+msgid "Biliousnesses"
+msgstr "الصفراوية"
+
+msgid "Bilk"
+msgstr "اخدع"
+
+msgid "Bilked"
+msgstr "خدع"
+
+msgid "Bilker"
+msgstr "مخادع"
+
+msgid "Bilkers"
+msgstr "مخادعون"
+
+msgid "Bilking"
+msgstr "الخدعة"
+
+msgid "Bilks"
+msgstr "يخدع"
+
+msgid "Bill"
+msgstr "الفاتورة"
+
+msgid "Billable"
+msgstr "بيلابل"
+
+msgid "Billboard"
+msgstr "اللّوحة"
+
+msgid "Billboards"
+msgstr "اللّوحات"
+
+msgid "Billed"
+msgstr "أعلن"
+
+msgid "Biller"
+msgstr "معدّ الفواتير"
+
+msgid "Billers"
+msgstr "معدّون الفواتير"
+
+msgid "Billet"
+msgstr "المنزل"
+
+msgid "Billeted"
+msgstr "أسكن"
+
+msgid "Billeting"
+msgstr "الإسكان"
+
+msgid "Billets"
+msgstr "المنازل"
+
+msgid "Billfold"
+msgstr "المحفظة"
+
+msgid "Billfolds"
+msgstr "المحافظ"
+
+msgid "Billiard"
+msgstr "البلياردو"
+
+msgid "Billiards"
+msgstr "البلياردو"
+
+msgid "Billie"
+msgstr "بيلي"
+
+msgid "Billies"
+msgstr "الزملاء"
+
+msgid "Billing"
+msgstr "التّرتيب"
+
+msgid "Billings"
+msgstr "التّرتيب"
+
+msgid "Billion"
+msgstr "بليون"
+
+msgid "Billionaire"
+msgstr "البليونير"
+
+msgid "Billionaires"
+msgstr "البليونير"
+
+msgid "Billions"
+msgstr "البلايين"
+
+msgid "Billionth"
+msgstr "بليون"
+
+msgid "Billow"
+msgstr "الموجة"
+
+msgid "Billowed"
+msgstr "انتفخ"
+
+msgid "Billowing"
+msgstr "الانتفاخ"
+
+msgid "Billows"
+msgstr "الموجات"
+
+msgid "Billowy"
+msgstr "متموّج"
+
+msgid "Bills"
+msgstr "الفواتير"
+
+msgid "Billy"
+msgstr "الإناء"
+
+msgid "Billygoat"
+msgstr "الجدي"
+
+msgid "Billygoats"
+msgstr "الجديان"
+
+msgid "Biltmore"
+msgstr "بيلتمور"
+
+msgid "Bimetallic"
+msgstr "متعلّق بنظام المعدنين"
+
+msgid "Bimetallism"
+msgstr "استخدام المعدنين"
+
+msgid "Bimini"
+msgstr "بيميني"
+
+msgid "Bimodal"
+msgstr "ثنائيّ الصّيغة"
+
+msgid "Bimolecular"
+msgstr "ثنائيّ الجزيء"
+
+msgid "Bimolecularly"
+msgstr "بثنائيّة الجزء"
+
+msgid "Bimonthlies"
+msgstr "مجلّات نصف شهريّة"
+
+msgid "Bimonthly"
+msgstr "مجلّة نصف شهريّة"
+
+msgid "Bin"
+msgstr "الصّندوق"
+
+msgid "Bin Laden"
+msgstr "أسامة بن لادن ، مولود 10 مارس, 1957"
+
+msgid "Binaries"
+msgstr "ثنائيّات"
+
+msgid "Binary"
+msgstr "ثنائيّ"
+
+msgid "Binary-coded"
+msgstr "ثنائيّ استهزأ"
+
+msgid "Binary-to-decimal"
+msgstr "ثنائيّ إلى الرّقم العشريّ"
+
+msgid "Binaural"
+msgstr "بكلتا الأذنين"
+
+msgid "Binaurally"
+msgstr "بالأذنين معًا"
+
+msgid "Bind"
+msgstr "المشكلة"
+
+msgid "Binder"
+msgstr "الملفّ"
+
+msgid "Binderies"
+msgstr "ورش التّجليد"
+
+msgid "Binders"
+msgstr "الملفّات"
+
+msgid "Bindery"
+msgstr "ورشة التّجليد"
+
+msgid "Binding"
+msgstr "الغلاف"
+
+msgid "Bindingly"
+msgstr "بشكل ملزم"
+
+msgid "Bindingness"
+msgstr "الإلتزام"
+
+msgid "Bindings"
+msgstr "الأغلفة"
+
+msgid "Bindle"
+msgstr "لفّة بطّانية"
+
+msgid "Binds"
+msgstr "المشكلات"
+
+msgid "Bindweed"
+msgstr "اللّبلاب"
+
+msgid "Bing"
+msgstr "بنج"
+
+msgid "Binge"
+msgstr "الانغماس"
+
+msgid "Bingen"
+msgstr "بنجين"
+
+msgid "Binges"
+msgstr "الانغماس"
+
+msgid "Bingham"
+msgstr "بينجهام"
+
+msgid "Binghamton"
+msgstr "بينجمتن"
+
+msgid "Bingle"
+msgstr "ضربة موفّقة"
+
+msgid "Bingo"
+msgstr "البنغو"
+
+msgid "Bingos"
+msgstr "البنغو"
+
+msgid "Binocular"
+msgstr "عينيّ"
+
+msgid "Binocularly"
+msgstr "بشكل ذو عينين"
+
+msgid "Binoculars"
+msgstr "النّظّارة المعظّمة"
+
+msgid "Binomial"
+msgstr "معادلة ذات حدّين"
+
+msgid "Binomially"
+msgstr "بشكل ذو حدين"
+
+msgid "Binomials"
+msgstr "معادلات ذات حدّين"
+
+msgid "Bins"
+msgstr "الصّناديق"
+
+msgid "Binuclear"
+msgstr "ثنائيّ النّواة"
+
+msgid "Biochemical"
+msgstr "كيميائيّ حيويّ"
+
+msgid "Biochemically"
+msgstr "كيمياويا حيويا"
+
+msgid "Biochemist"
+msgstr "خبير كيمياء حيويّة"
+
+msgid "Biochemistry"
+msgstr "الكيمياء الحيويّة"
+
+msgid "Biochemists"
+msgstr "خبراء كيمياء حيويّة"
+
+msgid "Biodegradable"
+msgstr "هشّ"
+
+msgid "Biofeedback"
+msgstr "بيوفيدباك"
+
+msgid "Biograph"
+msgstr "آلة عرض صور متحرّكة"
+
+msgid "Biographer"
+msgstr "كاتب السّيرة"
+
+msgid "Biographers"
+msgstr "كتاتيب السّيرة"
+
+msgid "Biographic"
+msgstr "متعلّق بسيرة ذاتيّة"
+
+msgid "Biographical"
+msgstr "متعلّق بسيرة ذاتيّة"
+
+msgid "Biographically"
+msgstr "من ناحية متعلّقة بالسّيرة"
+
+msgid "Biographies"
+msgstr "السّير"
+
+msgid "Biography"
+msgstr "السّيرة"
+
+msgid "Biologic"
+msgstr "بيولوجيّ"
+
+msgid "Biological"
+msgstr "بيولوجيّ"
+
+msgid "Biologically"
+msgstr "بيولوجيًّا"
+
+msgid "Biologicals"
+msgstr "بيولوجيات"
+
+msgid "Biologist"
+msgstr "العالم البيولوجيّ"
+
+msgid "Biologists"
+msgstr "العلماء البيولوجيّون"
+
+msgid "Biology"
+msgstr "علم الأحياء"
+
+msgid "Biomass"
+msgstr "الكتلة الحيويّة"
+
+msgid "Biomedical"
+msgstr "متعلّق بالطّبّ الأحيائيّ"
+
+msgid "Biomedicine"
+msgstr "الطّبّ الأحيائيّ"
+
+msgid "Biometric"
+msgstr "إحصاء بيولوجي"
+
+msgid "Biometrics"
+msgstr "إحصائيّات بيولوجيّة"
+
+msgid "Biometry"
+msgstr "قياس الحياة"
+
+msgid "Biomolecule"
+msgstr "جزيء حيوي"
+
+msgid "Biomolecules"
+msgstr "جزيئات حيويّة"
+
+msgid "Bionics"
+msgstr "البيولوجية الالكترونية"
+
+msgid "Biophysic"
+msgstr "فيزياء بيولوجية"
+
+msgid "Biophysical"
+msgstr "فيزيولوجي"
+
+msgid "Biophysically"
+msgstr "بطريقة فيزيولوجية"
+
+msgid "Biophysicist"
+msgstr "عالم فيزيولوجي"
+
+msgid "Biophysicists"
+msgstr "علماء فيزيولوجيون"
+
+msgid "Biophysics"
+msgstr "فيزيولوجيا"
+
+msgid "Biopsies"
+msgstr "التّحليلات"
+
+msgid "Biopsy"
+msgstr "التّحليل"
+
+msgid "Bios"
+msgstr "السّير"
+
+msgid "Bioscience"
+msgstr "علم الأحياء"
+
+msgid "Biosciences"
+msgstr "علوم الأحياء"
+
+msgid "Biosphere"
+msgstr "المحيط الحيويّ"
+
+msgid "Biospheres"
+msgstr "المحيطات الحيويّة"
+
+msgid "Biostatistics"
+msgstr "الإحصاءات الأحيائية"
+
+msgid "Biota"
+msgstr "كائنات المنطقة"
+
+msgid "Biotic"
+msgstr "حيويّ"
+
+msgid "Biotite"
+msgstr "البيوتايت"
+
+msgid "Bipartisan"
+msgstr "مكوّن من الحزبين"
+
+msgid "Bipartite"
+msgstr "ثنائيّ"
+
+msgid "Bipartitely"
+msgstr "بشكل ذو قسمين"
+
+msgid "Bipartition"
+msgstr "جزء ثنائي"
+
+msgid "Biped"
+msgstr "بالقدمين"
+
+msgid "Bipedal"
+msgstr "ذو قدمين"
+
+msgid "Bipeds"
+msgstr "بالقدمين"
+
+msgid "Biplane"
+msgstr "الطّائرة"
+
+msgid "Biplanes"
+msgstr "الطّائرات"
+
+msgid "Bipolar"
+msgstr "ثنائيّ القطب"
+
+msgid "Biracial"
+msgstr "ثنائيّ العرق"
+
+msgid "Birch"
+msgstr "البيرش"
+
+msgid "Birchen"
+msgstr "مصنوع من شجرة البيرش"
+
+msgid "Bircher"
+msgstr "بيرشر"
+
+msgid "Birches"
+msgstr "البيرش"
+
+msgid "Bird"
+msgstr "الطّائر"
+
+msgid "Birdbath"
+msgstr "الحوض"
+
+msgid "Birdbaths"
+msgstr "الأحواض"
+
+msgid "Birdbrain"
+msgstr "الأبله"
+
+msgid "Birdcall"
+msgstr "صياح الطير"
+
+msgid "Birdcalls"
+msgstr "صياح الطير"
+
+msgid "Birder"
+msgstr "صائد الطّير"
+
+msgid "Birdie"
+msgstr "الطّائر"
+
+msgid "Birdied"
+msgstr "ضرب"
+
+msgid "Birdies"
+msgstr "الطّيور"
+
+msgid "Birdlike"
+msgstr "على هيئة طير"
+
+msgid "Birds"
+msgstr "الطّيور"
+
+msgid "Birdseed"
+msgstr "الحبّ"
+
+msgid "BirdsEyeView"
+msgstr "عرض عين الطائر"
+
+msgid "Birdwatch"
+msgstr "دراسة الطيور"
+
+msgid "Birefringence"
+msgstr "الإنكسار الثنائي للضوء"
+
+msgid "Birefringent"
+msgstr "متعلق بانكسار الضوء ثنائياً"
+
+msgid "Birgit"
+msgstr "برجيت"
+
+msgid "Birmingham"
+msgstr "بيرمينجهام"
+
+msgid "Biro"
+msgstr "قلم الحبر"
+
+msgid "Birth"
+msgstr "الميلاد"
+
+msgid "Birthcontrol"
+msgstr "تحديد النّسل"
+
+msgid "Birthday"
+msgstr "عيد الميلاد"
+
+msgid "Birthdays"
+msgstr "أعياد الميلاد"
+
+msgid "Birthed"
+msgstr "بيرثيد"
+
+msgid "Birthing"
+msgstr "الولادة"
+
+msgid "Birthmark"
+msgstr "الشّامة"
+
+msgid "Birthplace"
+msgstr "مسقط الرّأس"
+
+msgid "Birthplaces"
+msgstr "مساقط الرّأس"
+
+msgid "Birthrate"
+msgstr "معدّل المواليد"
+
+msgid "Birthrates"
+msgstr "معدّلات المواليد"
+
+msgid "Birthright"
+msgstr "الحقّ الطّبيعيّ"
+
+msgid "Birthrights"
+msgstr "الحقوق الطّبيعيّة"
+
+msgid "Births"
+msgstr "الميلاد"
+
+msgid "Birthstone"
+msgstr "جوهرة المولد"
+
+msgid "Biscayne"
+msgstr "بيسكين"
+
+msgid "Biscuit"
+msgstr "البسكويت"
+
+msgid "Biscuits"
+msgstr "البسكويتات"
+
+msgid "Bisect"
+msgstr "اشطر"
+
+msgid "Bisected"
+msgstr "شطر"
+
+msgid "Bisecting"
+msgstr "الشّطر"
+
+msgid "Bisection"
+msgstr "التّنصيف"
+
+msgid "Bisections"
+msgstr "التّنصيف"
+
+msgid "Bisector"
+msgstr "المنصّف"
+
+msgid "Bisectors"
+msgstr "المنصّفات"
+
+msgid "Bisects"
+msgstr "يشطر"
+
+msgid "Biserial"
+msgstr "مزدوج التسلسل"
+
+msgid "Bisexual"
+msgstr "المخنّث"
+
+msgid "Bisexualism"
+msgstr "ازدواجية الجنس"
+
+msgid "Bisexuality"
+msgstr "الازدواجيّة"
+
+msgid "Bisexually"
+msgstr "على نحو شاذّ"
+
+msgid "Bisexuals"
+msgstr "المخنّثون"
+
+msgid "Bishop"
+msgstr "الأسقف"
+
+msgid "Bishopric"
+msgstr "الأسقفيّة"
+
+msgid "Bishoprics"
+msgstr "الأسقفيّات"
+
+msgid "Bishops"
+msgstr "الأساقفة"
+
+msgid "Bismarck"
+msgstr "بيزمارك"
+
+msgid "Bismark"
+msgstr "بيسمارك"
+
+msgid "Bismuth"
+msgstr "البزموت"
+
+msgid "Bison"
+msgstr "البيسون"
+
+msgid "Bisons"
+msgstr "البيسون"
+
+msgid "Bisque"
+msgstr "الحساء"
+
+msgid "Bisques"
+msgstr "الحساء"
+
+msgid "Biss"
+msgstr "بِسْ"
+
+msgid "Bissau"
+msgstr "بيساو"
+
+msgid "Bistable"
+msgstr "ثنائيّ وضع الاستقرار"
+
+msgid "Bistate"
+msgstr "ثنائيّ الحالة"
+
+msgid "Bisyllabic"
+msgstr "ثنائيّ المقطع"
+
+msgid "Bit"
+msgstr "القطعة"
+
+msgid "Bit-bender"
+msgstr "شاذّ القطعة"
+
+msgid "Bit-cell"
+msgstr "خليّة القطعة"
+
+msgid "Bit-parallel"
+msgstr "مقارنة القطعة"
+
+msgid "Bit-slice"
+msgstr "شريحة القطعة"
+
+msgid "Bitable"
+msgstr "قابل للقطع"
+
+msgid "Bitblt"
+msgstr "دمج الصور"
+
+msgid "Bitch"
+msgstr "الكلبة"
+
+msgid "Bitched"
+msgstr "شكا"
+
+msgid "Bitches"
+msgstr "الكلبات"
+
+msgid "Bitchiness"
+msgstr "الحقد"
+
+msgid "Bitching"
+msgstr "الشّكوى"
+
+msgid "Bitchy"
+msgstr "كثير الهزل"
+
+msgid "Bitdepth"
+msgstr "عمق البت"
+
+msgid "Bite"
+msgstr "العضّة"
+
+msgid "Biter"
+msgstr "العاضّ"
+
+msgid "Biters"
+msgstr "العاضّون"
+
+msgid "Bites"
+msgstr "العضّات"
+
+msgid "Biting"
+msgstr "العضّ"
+
+msgid "Bitingly"
+msgstr "بشكل قاسي"
+
+msgid "Bitmap"
+msgstr "الصّورة"
+
+msgid "Bitmaps"
+msgstr "الصّور"
+
+msgid "Bitnet"
+msgstr "البتنت"
+
+msgid "Bitrate"
+msgstr "معدل البت"
+
+msgid "Bits"
+msgstr "القطع"
+
+msgid "Bitser"
+msgstr "كلب"
+
+msgid "Bitt"
+msgstr "المربط"
+
+msgid "Bitten"
+msgstr "عضّ"
+
+msgid "Bitter"
+msgstr "ﻻذع"
+
+msgid "Bitterer"
+msgstr "أكثر لذعاً"
+
+msgid "Bitterest"
+msgstr "الأكثر لذعاً"
+
+msgid "Bitterly"
+msgstr "بشدّة"
+
+msgid "Bittern"
+msgstr "البيترن"
+
+msgid "Bitterness"
+msgstr "اللذاعة"
+
+msgid "Bitternut"
+msgstr "بِتَرْنَتْ"
+
+msgid "Bitterroot"
+msgstr "بِتَر روت"
+
+msgid "Bitters"
+msgstr "البيرة"
+
+msgid "Bittersweet"
+msgstr "حلو ومر"
+
+msgid "Bittersweetly"
+msgstr "بشكل حلو مرّ"
+
+msgid "Bittersweetness"
+msgstr "حﻻوة مرّة"
+
+msgid "Bitumen"
+msgstr "القار"
+
+msgid "Bituminous"
+msgstr "متعلّق بالقار"
+
+msgid "Bitwise"
+msgstr "المعالجة عن طريق أصغر جزء من المعلومة"
+
+msgid "Bivalence"
+msgstr "ثنائيّة التّكافؤ"
+
+msgid "Bivalent"
+msgstr "ثنائيّ التّكافؤ"
+
+msgid "Bivalve"
+msgstr "البيفالف"
+
+msgid "Bivalved"
+msgstr "ثنائي الصمام"
+
+msgid "Bivalves"
+msgstr "حيوان رخوي مثل المحّارة"
+
+msgid "Bivariate"
+msgstr "يحتوي عاى متغيرين"
+
+msgid "Bivouac"
+msgstr "المعسكر"
+
+msgid "Bivouacked"
+msgstr "عسكر في العراء"
+
+msgid "Bivouacking"
+msgstr "عسكرة في العراء"
+
+msgid "Bivouacs"
+msgstr "المعسكرات"
+
+msgid "Biweeklies"
+msgstr "مجلّات نصف شهريّة"
+
+msgid "Biweekly"
+msgstr "مجلّة نصف شهريّة"
+
+msgid "Biyearly"
+msgstr "حادث كلّ عامين"
+
+msgid "Biz"
+msgstr "العمل"
+
+msgid "Bizarre"
+msgstr "غريب"
+
+msgid "Bizarrely"
+msgstr "بشكل غريب"
+
+msgid "Bizarreness"
+msgstr "الغرابة"
+
+msgid "Bizet"
+msgstr "الجانب العلوي من اﻷلماسة"
+
+msgid "Blab"
+msgstr "أفش السّرّ"
+
+msgid "Blabbed"
+msgstr "أفشى السّرّ"
+
+msgid "Blabbermouth"
+msgstr "الثّرثار"
+
+msgid "Blabbermouths"
+msgstr "الثّرثارون"
+
+msgid "Blabbers"
+msgstr "يثرثر"
+
+msgid "Blabbing"
+msgstr "إفشاء السّرّ"
+
+msgid "Blabs"
+msgstr "يفشي السّرّ"
+
+msgid "Black"
+msgstr "الأسود"
+
+msgid "Blackball"
+msgstr "صوّت"
+
+msgid "Blackballed"
+msgstr "صوّت"
+
+msgid "Blackballing"
+msgstr "التّصويت"
+
+msgid "Blackballs"
+msgstr "يصوّت"
+
+msgid "Blackberries"
+msgstr "العليق"
+
+msgid "Blackberry"
+msgstr "العليق"
+
+msgid "Blackbird"
+msgstr "البلاكبيرد"
+
+msgid "Blackbirder"
+msgstr "سفينة نقل العبيد"
+
+msgid "Blackbirds"
+msgstr "البلاكبيرد"
+
+msgid "Blackboard"
+msgstr "السّبّورة"
+
+msgid "Blackboards"
+msgstr "السّبّورات"
+
+msgid "Blackbodies"
+msgstr "الأجسام السّوداء"
+
+msgid "Blackbody"
+msgstr "جسم قادر على امتصاص اﻷشعاع الكهرومغناطيسي"
+
+msgid "Blackburn"
+msgstr "بلاك بيرن - نوع من الطيور"
+
+msgid "Blacked"
+msgstr "قاطع"
+
+msgid "Blacken"
+msgstr "اسودت"
+
+msgid "Blackened"
+msgstr "اسودّ"
+
+msgid "Blackener"
+msgstr "المسود ، المفحم"
+
+msgid "Blackening"
+msgstr "الاسوداد"
+
+msgid "Blackens"
+msgstr "يسودّ"
+
+msgid "Blacker"
+msgstr "أكثر سوادًا"
+
+msgid "Blackest"
+msgstr "الأكثر سوادًا"
+
+msgid "Blackface"
+msgstr "نوع من المكياج"
+
+msgid "Blackfeet"
+msgstr "قبيلة من الهنود الحمر"
+
+msgid "Blackhead"
+msgstr "البثرة"
+
+msgid "Blackheads"
+msgstr "البثور"
+
+msgid "Blacking"
+msgstr "الدّهان الأسود"
+
+msgid "Blackish"
+msgstr "ضارب إلى السّواد"
+
+msgid "Blackjack"
+msgstr "العوّامة"
+
+msgid "Blackjacks"
+msgstr "العوّامات"
+
+msgid "Blacklist"
+msgstr "القائمة السّوداء"
+
+msgid "Blacklisted"
+msgstr "أدرج في القائمة السّوداء"
+
+msgid "Blacklister"
+msgstr "واضع اللائحة السوداء"
+
+msgid "Blacklisting"
+msgstr "إدراج في القائمة السّوداء"
+
+msgid "Blacklists"
+msgstr "القائمات السّوداءة"
+
+msgid "Blackly"
+msgstr "بغضب"
+
+msgid "Blackmail"
+msgstr "الابتزاز"
+
+msgid "Blackmailed"
+msgstr "ابتزّ"
+
+msgid "Blackmailer"
+msgstr "المبتزّ"
+
+msgid "Blackmailers"
+msgstr "المبتزّون"
+
+msgid "Blackmailing"
+msgstr "الابتزاز"
+
+msgid "Blackmails"
+msgstr "الابتزازات"
+
+msgid "Blackman"
+msgstr "بلاكمان"
+
+msgid "Blackmer"
+msgstr "بلاكمِر"
+
+msgid "Blackness"
+msgstr "السّواد"
+
+msgid "BlackOnly"
+msgstr "أسود فقط"
+
+msgid "Blackout"
+msgstr "الانقطاع"
+
+msgid "Blackouts"
+msgstr "الانقطاع"
+
+msgid "Blacks"
+msgstr "السّود"
+
+msgid "Blacksmith"
+msgstr "الحدّاد"
+
+msgid "Blacksmithing"
+msgstr "الحدادة"
+
+msgid "Blacksmiths"
+msgstr "الحدّادون"
+
+msgid "Blackstone"
+msgstr "بلاكسْتون"
+
+msgid "Blacktop"
+msgstr "الأسفلت"
+
+msgid "Blacktops"
+msgstr "الأسفلت"
+
+msgid "Blackwell"
+msgstr "بلاكْوِلْ"
+
+msgid "Blackwood"
+msgstr "بلاكوود"
+
+msgid "Bladder"
+msgstr "المثانة"
+
+msgid "Bladdernut"
+msgstr "الشجيرة العنقودية"
+
+msgid "Bladders"
+msgstr "المثائن"
+
+msgid "Bladderwort"
+msgstr "بلاديرورت - نبات"
+
+msgid "Blade"
+msgstr "الشّفرة"
+
+msgid "Bladed"
+msgstr "يحتوي على شفرة"
+
+msgid "Blades"
+msgstr "الشّفرات"
+
+msgid "Blahs"
+msgstr "اللّغو"
+
+msgid "Blaine"
+msgstr "بلين"
+
+msgid "Blair"
+msgstr "بلير"
+
+msgid "Blake"
+msgstr "بليك"
+
+msgid "Blakey"
+msgstr "بلاكي"
+
+msgid "Blamable"
+msgstr "ملام"
+
+msgid "Blamably"
+msgstr "مستحق للوم"
+
+msgid "Blame"
+msgstr "لم"
+
+msgid "Blamed"
+msgstr "لام"
+
+msgid "Blameful"
+msgstr "مستحقّ للّوم"
+
+msgid "Blamefully"
+msgstr "مخطىء"
+
+msgid "Blameless"
+msgstr "بريء"
+
+msgid "Blamelessly"
+msgstr "بشكل خالٍ من الإثم"
+
+msgid "Blamelessness"
+msgstr "البراءة"
+
+msgid "Blamer"
+msgstr "اللّائم"
+
+msgid "Blamers"
+msgstr "اللّائمون"
+
+msgid "Blames"
+msgstr "اللّوم"
+
+msgid "Blameworthiness"
+msgstr "استحقاق اللّوم"
+
+msgid "Blameworthy"
+msgstr "مستحقّ للّوم"
+
+msgid "Blaming"
+msgstr "اللّوم"
+
+msgid "Blanc"
+msgstr "مسحوق تجميلي أبيض"
+
+msgid "Blanch"
+msgstr "ابيضت"
+
+msgid "Blanchard"
+msgstr "بلانتْشارد"
+
+msgid "Blanche"
+msgstr "بلانتش"
+
+msgid "Blanched"
+msgstr "متبيّض"
+
+msgid "Blancher"
+msgstr "أبيض"
+
+msgid "Blanches"
+msgstr "يبيضّ"
+
+msgid "Blanching"
+msgstr "الابيضاض"
+
+msgid "Bland"
+msgstr "رقيق"
+
+msgid "Blander"
+msgstr "أرقّ"
+
+msgid "Blandest"
+msgstr "الأرقّ"
+
+msgid "Blandish"
+msgstr "تملّق"
+
+msgid "Blandisher"
+msgstr "المتملق"
+
+msgid "Blandishment"
+msgstr "التّملّق"
+
+msgid "Blandishments"
+msgstr "النّفاق"
+
+msgid "Blandly"
+msgstr "بشكل رقيق"
+
+msgid "Blandness"
+msgstr "التّقليديّة"
+
+msgid "Blank"
+msgstr "الفراغ"
+
+msgid "Blanked"
+msgstr "مسح"
+
+msgid "Blanker"
+msgstr "أكثر فتورًا"
+
+msgid "Blankest"
+msgstr "الأكثر فتورًا"
+
+msgid "Blanket"
+msgstr "البطّانيّة"
+
+msgid "Blanketed"
+msgstr "غطّى"
+
+msgid "Blanketer"
+msgstr "عام"
+
+msgid "Blanketing"
+msgstr "التّغطية"
+
+msgid "Blankets"
+msgstr "البطّانيّات"
+
+msgid "Blanking"
+msgstr "المسح"
+
+msgid "Blankly"
+msgstr "بلا اهتمام"
+
+msgid "Blankness"
+msgstr "التّبلّد"
+
+msgid "Blanknesses"
+msgstr "الفراغ"
+
+msgid "Blanks"
+msgstr "الفراغات"
+
+msgid "Blanton"
+msgstr "بلانتون"
+
+msgid "Blare"
+msgstr "الضّجيج"
+
+msgid "Blared"
+msgstr "نعر"
+
+msgid "Blares"
+msgstr "الضّجيج"
+
+msgid "Blaring"
+msgstr "النّعر"
+
+msgid "Blarney"
+msgstr "النّفاق"
+
+msgid "Blase"
+msgstr "متضجّر"
+
+msgid "Blaspheme"
+msgstr "سبّ"
+
+msgid "Blasphemed"
+msgstr "سبّ"
+
+msgid "Blasphemer"
+msgstr "اللّاعن"
+
+msgid "Blasphemers"
+msgstr "اللّاعنون"
+
+msgid "Blasphemes"
+msgstr "يسبّ"
+
+msgid "Blasphemies"
+msgstr "السّبّ"
+
+msgid "Blaspheming"
+msgstr "السّبّ"
+
+msgid "Blasphemous"
+msgstr "كفري"
+
+msgid "Blasphemously"
+msgstr "بطريقة كفريّة"
+
+msgid "Blasphemousness"
+msgstr "الكفريّة"
+
+msgid "Blasphemy"
+msgstr "السّبّ"
+
+msgid "Blast"
+msgstr "الانفجار"
+
+msgid "Blasted"
+msgstr "مزعج"
+
+msgid "Blaster"
+msgstr "النّاسف"
+
+msgid "Blasters"
+msgstr "النّاسفون"
+
+msgid "Blasthole"
+msgstr "بلاسثول"
+
+msgid "Blasting"
+msgstr "النّسف"
+
+msgid "Blastoff"
+msgstr "الانطلاق"
+
+msgid "Blasts"
+msgstr "الانفجارات"
+
+msgid "Blastula"
+msgstr "مرحلة من مراحل تطور البويضة"
+
+msgid "Blat"
+msgstr "اثغ"
+
+msgid "Blatancy"
+msgstr "الوضوح"
+
+msgid "Blatant"
+msgstr "سافر"
+
+msgid "Blatantly"
+msgstr "بشكل سافر"
+
+msgid "Blather"
+msgstr "الثّرثار"
+
+msgid "Blathered"
+msgstr "هذى"
+
+msgid "Blatherer"
+msgstr "المتكلم بحماقة"
+
+msgid "Blathering"
+msgstr "الهذيان"
+
+msgid "Blathers"
+msgstr "الثّرثارون"
+
+msgid "Blatting"
+msgstr "الثّغاء"
+
+msgid "Blatz"
+msgstr "بلاتز"
+
+msgid "Blaze"
+msgstr "اللّهب"
+
+msgid "Blazed"
+msgstr "توهّج"
+
+msgid "Blazer"
+msgstr "السّترة"
+
+msgid "Blazers"
+msgstr "الحلل"
+
+msgid "Blazes"
+msgstr "اللّهب"
+
+msgid "Blazing"
+msgstr "التّوهّج"
+
+msgid "Blazingly"
+msgstr "بتوهّج"
+
+msgid "Blazon"
+msgstr "الوسام"
+
+msgid "Blazoned"
+msgstr "زركش"
+
+msgid "Blazoner"
+msgstr "المعلن"
+
+msgid "Blazoning"
+msgstr "الزّركشة"
+
+msgid "Blazonries"
+msgstr "شعارات النبالة"
+
+msgid "Blazonry"
+msgstr "شعار النّبالة"
+
+msgid "Blazons"
+msgstr "الأوسمة"
+
+msgid "Bldg"
+msgstr "بلدج"
+
+msgid "Bleach"
+msgstr "المبيضّ"
+
+msgid "Bleached"
+msgstr "ابيضّ"
+
+msgid "Bleacher"
+msgstr "المبيضّ"
+
+msgid "Bleachers"
+msgstr "المدرّجات"
+
+msgid "Bleaches"
+msgstr "المبيضّات"
+
+msgid "Bleaching"
+msgstr "الابيضاض"
+
+msgid "Bleak"
+msgstr "كئيب"
+
+msgid "Bleaker"
+msgstr "أكثر كآبة"
+
+msgid "Bleakly"
+msgstr "بشكل كئيب"
+
+msgid "Bleakness"
+msgstr "الكئابة"
+
+msgid "Blear"
+msgstr "أدمع"
+
+msgid "Blearily"
+msgstr "بشكل أعمش"
+
+msgid "Bleariness"
+msgstr "ضعف الرّؤية"
+
+msgid "Blearly"
+msgstr "بشكل مشوّش"
+
+msgid "Bleary"
+msgstr "أعمش"
+
+msgid "Bleat"
+msgstr "الثّغاء"
+
+msgid "Bleated"
+msgstr "ثغا"
+
+msgid "Bleater"
+msgstr "النلطق كما الماعز (تقليد الماعز)"
+
+msgid "Bleating"
+msgstr "الثّغاء"
+
+msgid "Bleats"
+msgstr "الثّغاء"
+
+msgid "Bleb"
+msgstr "البثرة"
+
+msgid "Blebs"
+msgstr "الفقاعات"
+
+msgid "Bled"
+msgstr "نزف"
+
+msgid "Bleed"
+msgstr "انزف"
+
+msgid "Bleeder"
+msgstr "ثقيل الظّلّ"
+
+msgid "Bleeders"
+msgstr "ثقيلون الظّلّ"
+
+msgid "Bleeding"
+msgstr "النّزيف"
+
+msgid "Bleedings"
+msgstr "النّزيف"
+
+msgid "Bleeds"
+msgstr "ينزف"
+
+msgid "Bleeker"
+msgstr "بْليكَرْ"
+
+msgid "Bleeps"
+msgstr "الرّنين"
+
+msgid "Blemish"
+msgstr "العيب"
+
+msgid "Blemished"
+msgstr "شوّه"
+
+msgid "Blemishes"
+msgstr "العيوب"
+
+msgid "Blemishing"
+msgstr "التّشويه"
+
+msgid "Blench"
+msgstr "انتفض"
+
+msgid "Blenched"
+msgstr "انتفض"
+
+msgid "Blenching"
+msgstr "الانتفاض"
+
+msgid "Blend"
+msgstr "الخليط"
+
+msgid "Blended"
+msgstr "ممزوج"
+
+msgid "Blender"
+msgstr "الخلّاط"
+
+msgid "Blenders"
+msgstr "الخلّاطات"
+
+msgid "Blending"
+msgstr "الانسجام"
+
+msgid "Blends"
+msgstr "الأخلاط"
+
+msgid "Blenheim"
+msgstr "بلينهيم"
+
+msgid "Blent"
+msgstr "انسجم"
+
+msgid "Bless"
+msgstr "بارك"
+
+msgid "Blessed"
+msgstr "ميمون"
+
+msgid "Blessedly"
+msgstr "لحسن الحظّ"
+
+msgid "Blessedness"
+msgstr "النّعيم"
+
+msgid "Blesses"
+msgstr "يبارك"
+
+msgid "Blessing"
+msgstr "النّعمة"
+
+msgid "Blessings"
+msgstr "النّعم"
+
+msgid "Blest"
+msgstr "المبارك"
+
+msgid "Blew"
+msgstr "هبّ"
+
+msgid "Blight"
+msgstr "الجفاف"
+
+msgid "Blighted"
+msgstr "أفسد"
+
+msgid "Blighter"
+msgstr "الرّجل"
+
+msgid "Blighting"
+msgstr "الإفساد"
+
+msgid "Blights"
+msgstr "الجفاف"
+
+msgid "Blimp"
+msgstr "المنطاد"
+
+msgid "Blimps"
+msgstr "المناطيد"
+
+msgid "Blind"
+msgstr "الشّيش"
+
+msgid "Blinded"
+msgstr "أعمى"
+
+msgid "Blinder"
+msgstr "الأداء الجيّد"
+
+msgid "Blinders"
+msgstr "الغمامة"
+
+msgid "Blindfold"
+msgstr "الغمامة"
+
+msgid "Blindfolded"
+msgstr "معصوبًا"
+
+msgid "Blindfolding"
+msgstr "التّغمية"
+
+msgid "Blindfolds"
+msgstr "الغمائم"
+
+msgid "Blinding"
+msgstr "مضيء"
+
+msgid "Blindingly"
+msgstr "جدًّا"
+
+msgid "Blindly"
+msgstr "على نحو أعمى"
+
+msgid "Blindness"
+msgstr "العمى"
+
+msgid "Blindnesses"
+msgstr "نقاط العمى"
+
+msgid "Blinds"
+msgstr "الشّيش"
+
+msgid "Blindside"
+msgstr "اصدم"
+
+msgid "Blindsided"
+msgstr "مصدوم"
+
+msgid "Blindsides"
+msgstr "يصدم"
+
+msgid "Blindsiding"
+msgstr "الصّدم"
+
+msgid "Blindworm"
+msgstr "العِظاية العمياء"
+
+msgid "Blink"
+msgstr "الطّرفة"
+
+msgid "Blinked"
+msgstr "رمش"
+
+msgid "Blinker"
+msgstr "الضّوء الوامض"
+
+msgid "Blinkered"
+msgstr "ضيّق الأفق"
+
+msgid "Blinkering"
+msgstr "وضع الغمامة (للفرس)"
+
+msgid "Blinkers"
+msgstr "الغمائم"
+
+msgid "Blinking"
+msgstr "الرّمش"
+
+msgid "Blinks"
+msgstr "الطّرفات"
+
+msgid "Blinn"
+msgstr "بلين"
+
+msgid "Blip"
+msgstr "الإشارة"
+
+msgid "Blips"
+msgstr "الإشارات"
+
+msgid "Bliss"
+msgstr "النّعيم"
+
+msgid "Blissful"
+msgstr "سعيد"
+
+msgid "Blissfully"
+msgstr "بسعادة"
+
+msgid "Blissfulness"
+msgstr "السّعادة"
+
+msgid "Blissfulnesses"
+msgstr "النعيم"
+
+msgid "Blister"
+msgstr "البثرة"
+
+msgid "Blistered"
+msgstr "تقرّح"
+
+msgid "Blistering"
+msgstr "التّقرّح"
+
+msgid "Blisteringly"
+msgstr "بشكل قاسي"
+
+msgid "Blisters"
+msgstr "البثور"
+
+msgid "Blithe"
+msgstr "مرح"
+
+msgid "Blithely"
+msgstr "بابتهاج"
+
+msgid "Blither"
+msgstr "اهذ"
+
+msgid "Blithering"
+msgstr "الهذيان"
+
+msgid "Blithesome"
+msgstr "مرح"
+
+msgid "Blithesomeness"
+msgstr "السعادة"
+
+msgid "Blithest"
+msgstr "الأكثر مرحًا"
+
+msgid "Blitz"
+msgstr "الغارة"
+
+msgid "Blitzed"
+msgstr "مرهق"
+
+msgid "Blitzes"
+msgstr "الغارات"
+
+msgid "Blitzing"
+msgstr "المهاجمة"
+
+msgid "Blitzkrieg"
+msgstr "الهجوم"
+
+msgid "Blizzard"
+msgstr "العاصفة الثّلجيّة"
+
+msgid "Blizzards"
+msgstr "العاصفات الثّلجيّة"
+
+msgid "BLK"
+msgstr "قسم"
+
+msgid "Bloat"
+msgstr "انفخ"
+
+msgid "Bloated"
+msgstr "منتفخ"
+
+msgid "Bloater"
+msgstr "الرّنجة"
+
+msgid "Bloaters"
+msgstr "الرّنجة"
+
+msgid "Bloating"
+msgstr "النّفخ"
+
+msgid "Bloats"
+msgstr "ينفخ"
+
+msgid "Blob"
+msgstr "النّقطة"
+
+msgid "Blobs"
+msgstr "النّقط"
+
+msgid "Bloc"
+msgstr "الكتلة"
+
+msgid "Bloch"
+msgstr "بلوك"
+
+msgid "Block"
+msgstr "الكتلة"
+
+msgid "Blockade"
+msgstr "الحصار"
+
+msgid "Blockaded"
+msgstr "حاصر"
+
+msgid "Blockader"
+msgstr "بلوكادر"
+
+msgid "Blockades"
+msgstr "الحصارات"
+
+msgid "Blockading"
+msgstr "الحصار"
+
+msgid "Blockage"
+msgstr "السّدّ"
+
+msgid "Blockages"
+msgstr "السّدود"
+
+msgid "Blockbuster"
+msgstr "القنبلة"
+
+msgid "Blockbusters"
+msgstr "القنابل"
+
+msgid "Blocked"
+msgstr "سدّ"
+
+msgid "Blocker"
+msgstr "بلوكير"
+
+msgid "Blockers"
+msgstr "الحاجزون"
+
+msgid "Blockhead"
+msgstr "المتخلّف"
+
+msgid "Blockheads"
+msgstr "المتخلّفون"
+
+msgid "Blockhouse"
+msgstr "الحصن"
+
+msgid "Blockhouses"
+msgstr "الحصون"
+
+msgid "Blockier"
+msgstr "أكثر حماقة"
+
+msgid "Blocking"
+msgstr "السّدّ"
+
+msgid "Blockletters"
+msgstr "الحروف المصهورة"
+
+msgid "Blocks"
+msgstr "الكتل"
+
+msgid "Blocky"
+msgstr "ممتلئ الجسم"
+
+msgid "Blocs"
+msgstr "الكتل"
+
+msgid "Bloke"
+msgstr "الرّجل"
+
+msgid "Blokes"
+msgstr "الرّجال"
+
+msgid "Blomberg"
+msgstr "بلومبيرج"
+
+msgid "Blomquist"
+msgstr "بلومكويست"
+
+msgid "Blond"
+msgstr "أشقر"
+
+msgid "Blonde"
+msgstr "الشّقراء"
+
+msgid "Blondes"
+msgstr "الشّقراوات"
+
+msgid "Blondest"
+msgstr "الأكثر شقرة"
+
+msgid "Blonds"
+msgstr "الشقراوات"
+
+msgid "Blood"
+msgstr "الدّم"
+
+msgid "Bloodbath"
+msgstr "المذبحة"
+
+msgid "Bloodcurdling"
+msgstr "مروّع"
+
+msgid "Blooded"
+msgstr "ذو دم"
+
+msgid "Bloodhound"
+msgstr "الكلب البوليسي"
+
+msgid "Bloodhounds"
+msgstr "الكلاب البوليسية"
+
+msgid "Bloodied"
+msgstr "مدمّى"
+
+msgid "Bloodier"
+msgstr "أكثر نزفًا"
+
+msgid "Bloodiest"
+msgstr "الأكثر نزفًا"
+
+msgid "Bloodily"
+msgstr "بصورة دامية"
+
+msgid "Bloodiness"
+msgstr "النّزيف الدّمويّ"
+
+msgid "Bloodless"
+msgstr "سلميّ"
+
+msgid "Bloodlessly"
+msgstr "سلميًّا"
+
+msgid "Bloodlessness"
+msgstr "عدم إراقة دماء"
+
+msgid "Bloodletting"
+msgstr "المذبحة"
+
+msgid "Bloodline"
+msgstr "السّلالة"
+
+msgid "Bloodroot"
+msgstr "الدّمويّة"
+
+msgid "Bloods"
+msgstr "الدّماء"
+
+msgid "Bloodshed"
+msgstr "إراقة الدّماء"
+
+msgid "Bloodshot"
+msgstr "محتقن بالدّم"
+
+msgid "Bloodstain"
+msgstr "بقعة الدّم"
+
+msgid "Bloodstained"
+msgstr "ملطّخ بالدّم"
+
+msgid "Bloodstains"
+msgstr "بقع الدّم"
+
+msgid "Bloodstone"
+msgstr "حجر الدّم"
+
+msgid "Bloodstream"
+msgstr "تيّار الدّم"
+
+msgid "Bloodthirstily"
+msgstr "بشكل وحشيّ"
+
+msgid "Bloodthirstiness"
+msgstr "الدّمويّة"
+
+msgid "Bloodthirsty"
+msgstr "سفّاح"
+
+msgid "Bloody"
+msgstr "جدًّا"
+
+msgid "Bloodying"
+msgstr "الإدماء"
+
+msgid "Bloom"
+msgstr "الزّهرة"
+
+msgid "Bloomed"
+msgstr "تفتّح"
+
+msgid "Bloomer"
+msgstr "البنطلون"
+
+msgid "Bloomers"
+msgstr "البنطلونات"
+
+msgid "Bloomfield"
+msgstr "بلومفيلد"
+
+msgid "Blooming"
+msgstr "التّفتّح"
+
+msgid "Bloomingly"
+msgstr "بشكل مزهر"
+
+msgid "Bloomington"
+msgstr "بلومنغتن"
+
+msgid "Blooms"
+msgstr "الزّهور"
+
+msgid "Bloopers"
+msgstr "الغلطات"
+
+msgid "Blossom"
+msgstr "الزّهرة"
+
+msgid "Blossomed"
+msgstr "أزهر"
+
+msgid "Blossoming"
+msgstr "الإزهار"
+
+msgid "Blossoms"
+msgstr "الزّهور"
+
+msgid "Blot"
+msgstr "البقعة"
+
+msgid "Blotch"
+msgstr "لطّخ"
+
+msgid "Blotched"
+msgstr "مبقّع"
+
+msgid "Blotchiness"
+msgstr "التّلطّخ"
+
+msgid "Blotching"
+msgstr "التّلطيخ"
+
+msgid "Blotchy"
+msgstr "ذو شامة"
+
+msgid "Blots"
+msgstr "البقع"
+
+msgid "Blotted"
+msgstr "نشّف"
+
+msgid "Blotter"
+msgstr "النشافة"
+
+msgid "Blotters"
+msgstr "النشافة"
+
+msgid "Blotting"
+msgstr "التّنشيف"
+
+msgid "Blouse"
+msgstr "البلوزة"
+
+msgid "Blouses"
+msgstr "البلوزات"
+
+msgid "Blousing"
+msgstr "التّدلّي"
+
+msgid "Blow"
+msgstr "إنفخ"
+
+msgid "Blowback"
+msgstr "الهروب الرجعي للبارود الغير محترق بعد طلقة"
+
+msgid "Blowed"
+msgstr "نفخ"
+
+msgid "Blower"
+msgstr "المنفاخ"
+
+msgid "Blowers"
+msgstr "المنافيخ"
+
+msgid "Blowfish"
+msgstr "السّمكة المنتفخة"
+
+msgid "Blowflies"
+msgstr "الذّباب"
+
+msgid "Blowfly"
+msgstr "الذّبابة"
+
+msgid "Blowhole"
+msgstr "الثّقب الجليديّ"
+
+msgid "Blowing"
+msgstr "الهبوب"
+
+msgid "Blowjob"
+msgstr "الإثارة الجنسية عن طريق الفم، اللسان، الخ"
+
+msgid "Blown"
+msgstr "هبّ"
+
+msgid "Blowout"
+msgstr "الانفجار"
+
+msgid "Blowpipe"
+msgstr "المنفاخ"
+
+msgid "Blows"
+msgstr "الضّربات"
+
+msgid "Blowtorch"
+msgstr "موقد اللّحام"
+
+msgid "Blowtorches"
+msgstr "مواقد اللّحام"
+
+msgid "Blowup"
+msgstr "الصّورة المكبّرة"
+
+msgid "Blowups"
+msgstr "بلاوبس"
+
+msgid "Blowzier"
+msgstr "غير مهندم"
+
+msgid "Blowziest"
+msgstr "الغير مهندم"
+
+msgid "Blubber"
+msgstr "الدّهن"
+
+msgid "Blubbered"
+msgstr "انتحب"
+
+msgid "Blubbering"
+msgstr "الانتحاب"
+
+msgid "Blubbers"
+msgstr "الدّهون"
+
+msgid "Bludgeon"
+msgstr "العصا"
+
+msgid "Bludgeoned"
+msgstr "ضرب"
+
+msgid "Bludgeoning"
+msgstr "الضّرب"
+
+msgid "Bludgeons"
+msgstr "العصيّ"
+
+msgid "Blue"
+msgstr "أزرق"
+
+msgid "Blueback"
+msgstr "نوع من أسماك السالمون. يوجد في ألاسكا"
+
+msgid "Blueberries"
+msgstr "العنب البرّيّ"
+
+msgid "Blueberry"
+msgstr "العنب البرّيّ"
+
+msgid "Bluebill"
+msgstr "نوع من أنواع البط"
+
+msgid "Bluebird"
+msgstr "البلوبيرد"
+
+msgid "Bluebirds"
+msgstr "البلوبيرد"
+
+msgid "Bluebonnet"
+msgstr "القنطريون عنبري"
+
+msgid "Bluebonnets"
+msgstr "القنطريون عنبري"
+
+msgid "Bluebook"
+msgstr "التّقرير الرّسميّ"
+
+msgid "Blued"
+msgstr "ازرقّ"
+
+msgid "Bluefish"
+msgstr "سمك شره كبير"
+
+msgid "Bluegill"
+msgstr "نوع من أنواع سمكة الشمس"
+
+msgid "Bluegrass"
+msgstr "البلو جراس"
+
+msgid "Bluejacket"
+msgstr "الجنديّ البحريّ"
+
+msgid "Bluely"
+msgstr "بشكل أزرق"
+
+msgid "Blueness"
+msgstr "الزّرقة"
+
+msgid "Blueprint"
+msgstr "الخطّة"
+
+msgid "Blueprinted"
+msgstr "خطّط"
+
+msgid "Blueprinting"
+msgstr "التّخطيط"
+
+msgid "Blueprints"
+msgstr "الخطط"
+
+msgid "Bluer"
+msgstr "أكثر زرقة"
+
+msgid "Blues"
+msgstr "البلووز"
+
+msgid "Bluest"
+msgstr "الأكثر زرقة"
+
+msgid "Bluestocking"
+msgstr "المثقّفة"
+
+msgid "Bluet"
+msgstr "الهصطونيّة"
+
+msgid "Bluey"
+msgstr "مزرق"
+
+msgid "Bluff"
+msgstr "النّصب"
+
+msgid "Bluffed"
+msgstr "تحايل"
+
+msgid "Bluffer"
+msgstr "أكثر صراحة"
+
+msgid "Bluffing"
+msgstr "التّحايل"
+
+msgid "Bluffly"
+msgstr "بتلقائيّة"
+
+msgid "Bluffness"
+msgstr "التّهريج"
+
+msgid "Bluffs"
+msgstr "النّصبات"
+
+msgid "Bluing"
+msgstr "الصّبغة الزّرقاء"
+
+msgid "Bluish"
+msgstr "مزرقّ"
+
+msgid "Bluishness"
+msgstr "أزرق تقريبا"
+
+msgid "Blum"
+msgstr "بلم"
+
+msgid "Blumenthal"
+msgstr "بلمينثال"
+
+msgid "Blunder"
+msgstr "الخطأ"
+
+msgid "Blunderbuss"
+msgstr "البندقيّة"
+
+msgid "Blundered"
+msgstr "تخبّط"
+
+msgid "Blunderer"
+msgstr "المتخبّط"
+
+msgid "Blundering"
+msgstr "التّخبّط"
+
+msgid "Blunderingly"
+msgstr "بتخبط"
+
+msgid "Blunders"
+msgstr "الأخطاء"
+
+msgid "Blunt"
+msgstr "غير حادّ"
+
+msgid "Blunted"
+msgstr "كسر حدّ"
+
+msgid "Blunter"
+msgstr "غير حادّ"
+
+msgid "Bluntest"
+msgstr "الغير حادّ"
+
+msgid "Blunting"
+msgstr "كسر حدّ"
+
+msgid "Bluntly"
+msgstr "بوضوح"
+
+msgid "Bluntness"
+msgstr "عدم الحدّة"
+
+msgid "Blunts"
+msgstr "يكسر حدّ"
+
+msgid "Blur"
+msgstr "الضّبابيّة"
+
+msgid "Blurb"
+msgstr "المقدّمة"
+
+msgid "Blurred"
+msgstr "انطمس"
+
+msgid "Blurredly"
+msgstr "بشكل مشوّش"
+
+msgid "Blurrier"
+msgstr "أكثر تشوّشًا"
+
+msgid "Blurriness"
+msgstr "التشويش"
+
+msgid "Blurring"
+msgstr "الانطماس"
+
+msgid "Blurringly"
+msgstr "بشكل مُبهِم"
+
+msgid "Blurry"
+msgstr "مشوّش"
+
+msgid "Blurs"
+msgstr "الضّباب"
+
+msgid "Blurt"
+msgstr "القول المفاجئ"
+
+msgid "Blurted"
+msgstr "قال مندفعًا"
+
+msgid "Blurter"
+msgstr "بلرتر"
+
+msgid "Blurting"
+msgstr "قول مندفعًا"
+
+msgid "Blurts"
+msgstr "الأقوال المفاجئة"
+
+msgid "Blush"
+msgstr "الحمرة"
+
+msgid "Blushed"
+msgstr "احمرّ خجلاً"
+
+msgid "Blusher"
+msgstr "أحمر الخدود"
+
+msgid "Blushes"
+msgstr "الحمرة"
+
+msgid "Blushing"
+msgstr "احمرار خجلاً"
+
+msgid "Blushingly"
+msgstr "بخجل"
+
+msgid "Bluster"
+msgstr "التّهديد"
+
+msgid "Blustered"
+msgstr "تبجّح"
+
+msgid "Blusterer"
+msgstr "المتبجّح"
+
+msgid "Blusterers"
+msgstr "المتبجّحات"
+
+msgid "Blustering"
+msgstr "التّبجّح"
+
+msgid "Blusteringly"
+msgstr "بشكل عاصف"
+
+msgid "Blusterous"
+msgstr "عاصف"
+
+msgid "Blusterously"
+msgstr "بشكل عاصف"
+
+msgid "Blusters"
+msgstr "التّهديدات"
+
+msgid "Blustery"
+msgstr "عاصف"
+
+msgid "Bluten"
+msgstr "ينزف"
+
+msgid "Blutwurst"
+msgstr "بلتوورست"
+
+msgid "Blvd"
+msgstr "الجادة"
+
+msgid "Blythe"
+msgstr "بليث"
+
+msgid "BMW"
+msgstr "بي إم دبليو"
+
+msgid "Boa"
+msgstr "البواء"
+
+msgid "Boar"
+msgstr "الخنزير"
+
+msgid "Board"
+msgstr "اللّوحة"
+
+msgid "Boarded"
+msgstr "ركب"
+
+msgid "Boarder"
+msgstr "التّلميذ المقيم"
+
+msgid "Boarders"
+msgstr "التّلاميذ المقيمون"
+
+msgid "Boarding"
+msgstr "الرّكوب"
+
+msgid "Boarding-house"
+msgstr "اللّوكاندة"
+
+msgid "Boardinghouse"
+msgstr "اللّوكاندة"
+
+msgid "Boardinghouses"
+msgstr "البنسيونات"
+
+msgid "Boardings"
+msgstr "الإيواء"
+
+msgid "Boardroom"
+msgstr "قاعة الاجتماع"
+
+msgid "Boards"
+msgstr "اللّوحات"
+
+msgid "Boardwalk"
+msgstr "الممرّ"
+
+msgid "Boardwalks"
+msgstr "الممرّات"
+
+msgid "Boars"
+msgstr "الخنازير"
+
+msgid "Boas"
+msgstr "البواء"
+
+msgid "Boast"
+msgstr "المفخرة"
+
+msgid "Boasted"
+msgstr "تفاخر"
+
+msgid "Boaster"
+msgstr "المتفاخر"
+
+msgid "Boasters"
+msgstr "المتفاخرون"
+
+msgid "Boastful"
+msgstr "متفاخر"
+
+msgid "Boastfully"
+msgstr "بتفاخر"
+
+msgid "Boastfulness"
+msgstr "التّفاخر"
+
+msgid "Boasting"
+msgstr "التّفاخر"
+
+msgid "Boasts"
+msgstr "المفاخر"
+
+msgid "Boat"
+msgstr "القارب"
+
+msgid "Boated"
+msgstr "سافر بالباخرة"
+
+msgid "Boater"
+msgstr "الطّاقيّة"
+
+msgid "Boaters"
+msgstr "الطّواقي"
+
+msgid "Boathouse"
+msgstr "المرفأ"
+
+msgid "Boathouses"
+msgstr "المرافئ"
+
+msgid "Boating"
+msgstr "ركوب الزّوارق"
+
+msgid "Boatload"
+msgstr "حمولة السفينة"
+
+msgid "Boatloads"
+msgstr "حمولة السفينة"
+
+msgid "Boatman"
+msgstr "المراكبيّ"
+
+msgid "Boatmen"
+msgstr "المراكبة"
+
+msgid "Boats"
+msgstr "القوارب"
+
+msgid "Boatswain"
+msgstr "رئيس البحّارة"
+
+msgid "Boatswains"
+msgstr "رؤساء البحّارة"
+
+msgid "Boatyard"
+msgstr "ساحة بناء المراكب"
+
+msgid "Boatyards"
+msgstr "ساحات بناء المراكب"
+
+msgid "Bob"
+msgstr "البوب"
+
+msgid "Bobbed"
+msgstr "تمايل"
+
+msgid "Bobbie"
+msgstr "بوبي"
+
+msgid "Bobbies"
+msgstr "الشّرطيّون"
+
+msgid "Bobbin"
+msgstr "البكرة"
+
+msgid "Bobbing"
+msgstr "التّمايل"
+
+msgid "Bobbins"
+msgstr "البكر"
+
+msgid "Bobble"
+msgstr "الكرة"
+
+msgid "Bobbled"
+msgstr "أسقط"
+
+msgid "Bobbles"
+msgstr "الكرات"
+
+msgid "Bobbling"
+msgstr "الإسقاط"
+
+msgid "Bobby"
+msgstr "الشّرطيّ"
+
+msgid "Bobcat"
+msgstr "البوبكات"
+
+msgid "Bobolink"
+msgstr "طائر أمريكيّ مغرّد"
+
+msgid "Bobolinks"
+msgstr "طيور أمريكيّ مغرّد"
+
+msgid "Bobrow"
+msgstr "بوبرو"
+
+msgid "Bobs"
+msgstr "البوب"
+
+msgid "Bobsled"
+msgstr "الزّلّاقة"
+
+msgid "Bobsledding"
+msgstr "تزحلق على الجليد"
+
+msgid "Bobtail"
+msgstr "قصير الذّيل"
+
+msgid "Bobwhite"
+msgstr "السماني"
+
+msgid "Bobwhites"
+msgstr "السماني"
+
+msgid "Boca"
+msgstr "بوكا"
+
+msgid "Bock"
+msgstr "كأس البيرا"
+
+msgid "Bockwurst"
+msgstr "بوكوورست"
+
+msgid "Bode"
+msgstr "أنبئ"
+
+msgid "Boded"
+msgstr "أنبأ"
+
+msgid "Bodenheim"
+msgstr "بودينهييم"
+
+msgid "Bodes"
+msgstr "الرّجال"
+
+msgid "Bodhisattva"
+msgstr "بوديساتفا"
+
+msgid "Bodice"
+msgstr "الصّدر"
+
+msgid "Bodied"
+msgstr "ذو جسم"
+
+msgid "Bodies"
+msgstr "الأجسام"
+
+msgid "Bodiless"
+msgstr "غير مادّيّ"
+
+msgid "Bodily"
+msgstr "بالكامل"
+
+msgid "Boding"
+msgstr "الإنباء"
+
+msgid "Bodleian"
+msgstr "بودليايان"
+
+msgid "Body"
+msgstr "الجسم"
+
+msgid "Bodybuilder"
+msgstr "لاعب كمال أجسام"
+
+msgid "Bodybuilders"
+msgstr "لاعبون كمال أجسام"
+
+msgid "Bodybuilding"
+msgstr "كمال الأجسام"
+
+msgid "Bodyguard"
+msgstr "الحارس"
+
+msgid "Bodyguards"
+msgstr "الحرّاس"
+
+msgid "Bodying"
+msgstr "الإعطاء شكلا"
+
+msgid "Boeing"
+msgstr "بوينج"
+
+msgid "Boeotia"
+msgstr "منطقة في اليونان القديمة"
+
+msgid "Boeotian"
+msgstr "مواطن بويوتيا (مدينة يونانية)"
+
+msgid "Boer"
+msgstr "البويري"
+
+msgid "Bog"
+msgstr "المستنقع"
+
+msgid "Bogart"
+msgstr "بوجارت"
+
+msgid "Bogartian"
+msgstr "تعلّق ب همفري بوجارت"
+
+msgid "Bogey"
+msgstr "الغول"
+
+msgid "Bogeyed"
+msgstr "مهموم"
+
+msgid "Bogeying"
+msgstr "الهم"
+
+msgid "Bogeymen"
+msgstr "الغيلان"
+
+msgid "Bogeys"
+msgstr "الهموم"
+
+msgid "Bogged"
+msgstr "تعثّر"
+
+msgid "Boggier"
+msgstr "أكثر وحلاً"
+
+msgid "Boggiest"
+msgstr "الأكثر وحلاً"
+
+msgid "Bogging"
+msgstr "التّعثّر"
+
+msgid "Boggle"
+msgstr "تحيّر"
+
+msgid "Boggled"
+msgstr "تحيّر"
+
+msgid "Boggles"
+msgstr "يتحيّر"
+
+msgid "Boggling"
+msgstr "التّحيّر"
+
+msgid "Boggy"
+msgstr "موحل"
+
+msgid "Bogie"
+msgstr "التّصويب"
+
+msgid "Bogies"
+msgstr "الغيلان"
+
+msgid "Bogota"
+msgstr "بوجوتا"
+
+msgid "Bogs"
+msgstr "المستنقعات"
+
+msgid "Bogus"
+msgstr "زائف"
+
+msgid "Bogy"
+msgstr "الغول"
+
+msgid "Boheme"
+msgstr "بوهيم"
+
+msgid "Bohemia"
+msgstr "بوهيميا"
+
+msgid "Bohemian"
+msgstr "البوهيميّ"
+
+msgid "Bohr"
+msgstr "بوهر"
+
+msgid "Boil"
+msgstr "اغل"
+
+msgid "Boiled"
+msgstr "غلى"
+
+msgid "Boiler"
+msgstr "الغلّاية"
+
+msgid "Boilermaker"
+msgstr "الصانع غلاّيات"
+
+msgid "Boilermakers"
+msgstr "الصانع غلاّيات"
+
+msgid "Boilerplate"
+msgstr "بويليربليت"
+
+msgid "Boilers"
+msgstr "الغلّايات"
+
+msgid "Boiling"
+msgstr "الغليان"
+
+msgid "Boils"
+msgstr "الغليان"
+
+msgid "Boise"
+msgstr "بويزي - عاصمة ولاية أيداهو"
+
+msgid "Boisterous"
+msgstr "مزعج"
+
+msgid "Boisterously"
+msgstr "بصخب"
+
+msgid "Boisterousness"
+msgstr "الإزعاج"
+
+msgid "Boisterousnesses"
+msgstr "الصخب"
+
+msgid "Boking"
+msgstr "التقيّأ"
+
+msgid "Bold"
+msgstr "اجترئ"
+
+msgid "BoldComment"
+msgstr "ملاحظة عريضة"
+
+msgid "Bolder"
+msgstr "أجرأ"
+
+msgid "Boldest"
+msgstr "الأجرأ"
+
+msgid "Boldface"
+msgstr "الخطّ الكبير"
+
+msgid "Boldfaced"
+msgstr "بأحرف كبيرة"
+
+msgid "Boldfaces"
+msgstr "بولدفاسيس"
+
+msgid "Boldfacing"
+msgstr "طبع بحروف ثخينة"
+
+msgid "Boldly"
+msgstr "بجرأة"
+
+msgid "Boldness"
+msgstr "الجرأة"
+
+msgid "Boldnesses"
+msgstr "الصراحة"
+
+msgid "Bole"
+msgstr "الجذع"
+
+msgid "Boles"
+msgstr "الجذوع"
+
+msgid "Boletus"
+msgstr "البوليطس"
+
+msgid "Boletuses"
+msgstr "البوليطس"
+
+msgid "Bolivar"
+msgstr "بوليفار"
+
+msgid "Bolivia"
+msgstr "بوليفيا"
+
+msgid "Boll"
+msgstr "الكيس"
+
+msgid "Bolo"
+msgstr "السّكّين"
+
+msgid "Bologna"
+msgstr "بولونيا"
+
+msgid "Bolometer"
+msgstr "البولومتر"
+
+msgid "Bolometers"
+msgstr "البولومترات"
+
+msgid "Bolos"
+msgstr "السّكاكين"
+
+msgid "Bolshevik"
+msgstr "البلشفيّ"
+
+msgid "Bolsheviks"
+msgstr "البلشفيّون"
+
+msgid "Bolshevism"
+msgstr "البلشفيّة"
+
+msgid "Bolshevist"
+msgstr "البلشفيّ"
+
+msgid "Bolshevistic"
+msgstr "تعلّق بالبلشفية"
+
+msgid "Bolshoi"
+msgstr "بولشوي"
+
+msgid "Bolster"
+msgstr "الوسادة"
+
+msgid "Bolstered"
+msgstr "دعّم"
+
+msgid "Bolsterer"
+msgstr "مساند، مؤيد"
+
+msgid "Bolstering"
+msgstr "التّدعيم"
+
+msgid "Bolsters"
+msgstr "الوسائد"
+
+msgid "Bolt"
+msgstr "التّرباس"
+
+msgid "Bolted"
+msgstr "اندفع"
+
+msgid "Bolter"
+msgstr "ماكنة لفصل النخالة من الطحين، المنخل"
+
+msgid "Bolting"
+msgstr "الاندفاع"
+
+msgid "Bolton"
+msgstr "بولتون"
+
+msgid "Bolts"
+msgstr "التّرابيس"
+
+msgid "Boltzmann"
+msgstr "بولتزمان"
+
+msgid "Bolus"
+msgstr "القرص"
+
+msgid "Boluses"
+msgstr "الأقراص"
+
+msgid "Bomb"
+msgstr "القنبلة"
+
+msgid "Bombard"
+msgstr "اقصف"
+
+msgid "Bombarded"
+msgstr "قصف"
+
+msgid "Bombardier"
+msgstr "الجنديّ"
+
+msgid "Bombarding"
+msgstr "القصف"
+
+msgid "Bombardment"
+msgstr "القذف"
+
+msgid "Bombardments"
+msgstr "القذف"
+
+msgid "Bombards"
+msgstr "يقصف"
+
+msgid "Bombast"
+msgstr "كلام منمّق"
+
+msgid "Bombaster"
+msgstr "ذو كلام منمّق طنّان"
+
+msgid "Bombastic"
+msgstr "منمّق"
+
+msgid "Bombastically"
+msgstr "بشكل منمّق"
+
+msgid "Bombasts"
+msgstr "بومباستس"
+
+msgid "Bombay"
+msgstr "بومباي"
+
+msgid "Bombed"
+msgstr "قصف"
+
+msgid "Bomber"
+msgstr "منفذ العملية"
+
+msgid "Bombers"
+msgstr "القاذفات"
+
+msgid "Bombing"
+msgstr "القصف"
+
+msgid "Bombings"
+msgstr "القصف"
+
+msgid "Bombproof"
+msgstr "محصّن ضدّ القنابل"
+
+msgid "Bombs"
+msgstr "القنابل"
+
+msgid "Bon"
+msgstr "بون"
+
+msgid "Bona"
+msgstr "جيّد"
+
+msgid "Bonanza"
+msgstr "الصّفقة"
+
+msgid "Bonanzas"
+msgstr "الصّفقات"
+
+msgid "Bonaparte"
+msgstr "بونابارت"
+
+msgid "Bonaventure"
+msgstr "بونافنتشر"
+
+msgid "Bond"
+msgstr "السّند"
+
+msgid "Bondage"
+msgstr "التّعذيب"
+
+msgid "Bonded"
+msgstr "التصق"
+
+msgid "Bonder"
+msgstr "الذي يضع السلع تحت الايداع أو في مستودع مضمون"
+
+msgid "Bondholder"
+msgstr "حامل السّند"
+
+msgid "Bonding"
+msgstr "العلاقة"
+
+msgid "Bonds"
+msgstr "السّندات"
+
+msgid "Bondsman"
+msgstr "الضّامن"
+
+msgid "Bondsmen"
+msgstr "الضّامنون"
+
+msgid "Bone"
+msgstr "العظمة"
+
+msgid "Boned"
+msgstr "صلب"
+
+msgid "Bonelazy"
+msgstr "كسول"
+
+msgid "Boneless"
+msgstr "بلا عظام"
+
+msgid "Bonemeal"
+msgstr "السّماد"
+
+msgid "Boner"
+msgstr "الخطأ"
+
+msgid "Boners"
+msgstr "الأخطاء"
+
+msgid "Bones"
+msgstr "العظام"
+
+msgid "Bonfire"
+msgstr "النّار"
+
+msgid "Bonfires"
+msgstr "النّيران"
+
+msgid "Bong"
+msgstr "الرّنين"
+
+msgid "Bongo"
+msgstr "الطّبلة"
+
+msgid "Bonham"
+msgstr "بونهام"
+
+msgid "Bonhomie"
+msgstr "الألفة"
+
+msgid "Bonier"
+msgstr "أكثر هزالاً"
+
+msgid "Boniface"
+msgstr "المالك"
+
+msgid "Boning"
+msgstr "قطعة العاج"
+
+msgid "Bonito"
+msgstr "البينيت"
+
+msgid "Bonjour"
+msgstr "صباح الخير"
+
+msgid "Bonk"
+msgstr "يضرب، يتصل جنسيا"
+
+msgid "Bonn"
+msgstr "بون"
+
+msgid "Bonnet"
+msgstr "الغطاء"
+
+msgid "Bonneted"
+msgstr "انحنى"
+
+msgid "Bonnets"
+msgstr "الأغطية"
+
+msgid "Bonneville"
+msgstr "بونفيل"
+
+msgid "Bonnie"
+msgstr "بوني"
+
+msgid "Bonnier"
+msgstr "أجمل"
+
+msgid "Bonnily"
+msgstr "بصورة جميلة"
+
+msgid "Bonniness"
+msgstr "أن تكون جميل أو جميلة"
+
+msgid "Bonny"
+msgstr "جميل"
+
+msgid "Bontempo"
+msgstr "بونتمبو"
+
+msgid "Bonus"
+msgstr "المكافأة"
+
+msgid "Bonuses"
+msgstr "المكافآت"
+
+msgid "Bony"
+msgstr "هزيل"
+
+msgid "Bonze"
+msgstr "الرّاهب"
+
+msgid "Boo"
+msgstr "البوو"
+
+msgid "Boob"
+msgstr "الخطأ"
+
+msgid "Boobed"
+msgstr "ارتكب حماقة"
+
+msgid "Boobies"
+msgstr "المغفّلون"
+
+msgid "Booboo"
+msgstr "الخطأ"
+
+msgid "Boobs"
+msgstr "الثّدي"
+
+msgid "Booby"
+msgstr "المغفّل"
+
+msgid "Booed"
+msgstr "صاح مزدريًا"
+
+msgid "Boogie"
+msgstr "الرّقصة"
+
+msgid "Boohoo"
+msgstr "بوهو"
+
+msgid "Boohooed"
+msgstr "بكى"
+
+msgid "Booing"
+msgstr "صياح مزدريًا"
+
+msgid "Book"
+msgstr "الكتاب"
+
+msgid "Bookbinder"
+msgstr "المجلّد"
+
+msgid "Bookbinderies"
+msgstr "أماكن تجليد الكتب"
+
+msgid "Bookbinders"
+msgstr "المجلّدون"
+
+msgid "Bookbindery"
+msgstr "تجليد الكتاب"
+
+msgid "Bookbinding"
+msgstr "التّجليد"
+
+msgid "Bookcase"
+msgstr "خزانة الكتب"
+
+msgid "Bookcases"
+msgstr "خزائن الكتب"
+
+msgid "Booked"
+msgstr "حجز"
+
+msgid "Bookend"
+msgstr "المسند"
+
+msgid "Bookends"
+msgstr "المساند"
+
+msgid "Booker"
+msgstr "بوكير"
+
+msgid "Bookie"
+msgstr "المراهن"
+
+msgid "Bookies"
+msgstr "المراهنون"
+
+msgid "Booking"
+msgstr "الحجز"
+
+msgid "Bookings"
+msgstr "الحجوزات"
+
+msgid "Bookish"
+msgstr "نظريّ"
+
+msgid "Bookishly"
+msgstr "نظريًّا"
+
+msgid "Bookishness"
+msgstr "اهتمام بالأفكار النّظريّة"
+
+msgid "Bookkeeper"
+msgstr "كاتب الحسابات"
+
+msgid "Bookkeepers"
+msgstr "كتبة الحسابات"
+
+msgid "Bookkeeping"
+msgstr "المحاسبة"
+
+msgid "Booklet"
+msgstr "الكتيّب"
+
+msgid "Booklets"
+msgstr "الكتيّبات"
+
+msgid "Bookmaker"
+msgstr "المراهن"
+
+msgid "Bookmaking"
+msgstr "صناعة الكتب"
+
+msgid "Bookman"
+msgstr "العالم"
+
+msgid "Bookmark"
+msgstr "المؤشّر، العلامة، عنوان موقع مفضّل على الإنترنت"
+
+msgid "Bookmarks"
+msgstr "الشّرائط"
+
+msgid "Bookmobile"
+msgstr "المكتبة المتنقّلة"
+
+msgid "Bookplate"
+msgstr "الكارت"
+
+msgid "Bookplates"
+msgstr "الكروت"
+
+msgid "Books"
+msgstr "الكتب"
+
+msgid "Bookseller"
+msgstr "بائع الكتب"
+
+msgid "Booksellers"
+msgstr "باعة الكتب"
+
+msgid "Bookshelf"
+msgstr "الرّفّ"
+
+msgid "Bookshelves"
+msgstr "الرّفوف"
+
+msgid "Bookshop"
+msgstr "المكتبة"
+
+msgid "Bookshops"
+msgstr "المكتبات"
+
+msgid "Bookstall"
+msgstr "الكشك"
+
+msgid "Bookstore"
+msgstr "المكتبة"
+
+msgid "Bookstores"
+msgstr "المكتبات"
+
+msgid "Bookworm"
+msgstr "المثقّف"
+
+msgid "Bookworms"
+msgstr "المثقّفون"
+
+msgid "Booky"
+msgstr "مثقّف"
+
+msgid "Boolean"
+msgstr "منطقي"
+
+msgid "Booleans"
+msgstr "منطقيات"
+
+msgid "Boom"
+msgstr "الانتعاش"
+
+msgid "Boomed"
+msgstr "دوّى"
+
+msgid "Boomer"
+msgstr "العامل"
+
+msgid "Boomerang"
+msgstr "الحلقة"
+
+msgid "Boomeranged"
+msgstr "انقلب"
+
+msgid "Boomeranging"
+msgstr "بوميرانجينج"
+
+msgid "Boomerangs"
+msgstr "الحلقات"
+
+msgid "Booming"
+msgstr "الدّويّ"
+
+msgid "Booms"
+msgstr "الانفجارات"
+
+msgid "Boomtown"
+msgstr "المدينة المزدهرة"
+
+msgid "Boomtowns"
+msgstr "المدن المزدهرة"
+
+msgid "Boon"
+msgstr "النّعمة"
+
+msgid "Boondocks"
+msgstr "الأماكن النّائية"
+
+msgid "Boondoggle"
+msgstr "يقوم بعمل تافه"
+
+msgid "Boone"
+msgstr "بون"
+
+msgid "Boonly"
+msgstr "بشكل مرح"
+
+msgid "Boons"
+msgstr "النّعم"
+
+msgid "Boor"
+msgstr "الوقح"
+
+msgid "Boorish"
+msgstr "فظّ"
+
+msgid "Boorishly"
+msgstr "بصورة فظّة"
+
+msgid "Boorishness"
+msgstr "الفظاظة"
+
+msgid "Boors"
+msgstr "الوقحون"
+
+msgid "Boos"
+msgstr "البوو"
+
+msgid "Boost"
+msgstr "الدّافع"
+
+msgid "Boosted"
+msgstr "زاد"
+
+msgid "Booster"
+msgstr "الجرعة المنشّطة"
+
+msgid "Boosterism"
+msgstr "نصْرة التحمّس"
+
+msgid "Boosting"
+msgstr "الزّيادة"
+
+msgid "Boosts"
+msgstr "الدّفعات"
+
+msgid "Boot"
+msgstr "الحذاء"
+
+msgid "Boot loader"
+msgstr "مُحمّل نظام التشغيل"
+
+msgid "Boot-Image"
+msgstr "صورة الحذاء"
+
+msgid "Bootable"
+msgstr "قابل للتّشغيل"
+
+msgid "Bootblack"
+msgstr "ماسح الأحذية"
+
+msgid "Bootblacks"
+msgstr "ماسحون الأحذية"
+
+msgid "Booted"
+msgstr "مرتدي حذاء"
+
+msgid "Bootes"
+msgstr "بوتيس - برج شمالي (فلك)"
+
+msgid "Booth"
+msgstr "الكشك"
+
+msgid "Boothes"
+msgstr "الكشك"
+
+msgid "Booths"
+msgstr "الأكشاك"
+
+msgid "Booties"
+msgstr "الجوارب"
+
+msgid "Booting"
+msgstr "الرّكل"
+
+msgid "Bootjacks"
+msgstr "خالعات الأحذية"
+
+msgid "Bootlace"
+msgstr "الرّباط"
+
+msgid "Bootle"
+msgstr "بوتل"
+
+msgid "Bootleg"
+msgstr "روّج خمور"
+
+msgid "Bootlegged"
+msgstr "روّج خمور"
+
+msgid "Bootlegger"
+msgstr "مروّج الخمور"
+
+msgid "Bootleggers"
+msgstr "مروّجون الخمور"
+
+msgid "Bootlegging"
+msgstr "الغشّ"
+
+msgid "Bootlegs"
+msgstr "يروّج خمور"
+
+msgid "Bootless"
+msgstr "غير مجدي"
+
+msgid "Bootlick"
+msgstr "تملّق"
+
+msgid "Bootlicked"
+msgstr "تملّق"
+
+msgid "Bootlicker"
+msgstr "المنافق"
+
+msgid "Bootlicking"
+msgstr "التّملّق"
+
+msgid "Bootlicks"
+msgstr "يتملّق"
+
+msgid "Boots"
+msgstr "الأحذية"
+
+msgid "Bootstrap"
+msgstr "ألبس الحذاء"
+
+msgid "Bootstrapped"
+msgstr "ألبس الحذاء"
+
+msgid "Bootstrapping"
+msgstr "إلباس الحذاء"
+
+msgid "Bootstraps"
+msgstr "يلبس الحذاء"
+
+msgid "Booty"
+msgstr "الغنيمة"
+
+msgid "Booze"
+msgstr "البوظة"
+
+msgid "Boozed"
+msgstr "أسرف في الشّراب"
+
+msgid "Boozer"
+msgstr "البار"
+
+msgid "Boozes"
+msgstr "البوظة"
+
+msgid "Boozily"
+msgstr "ثملاً"
+
+msgid "Boozing"
+msgstr "إسراف في الشّراب"
+
+msgid "Boozy"
+msgstr "ثمل"
+
+msgid "Bop"
+msgstr "البوب"
+
+msgid "Bopping"
+msgstr "الرّقص"
+
+msgid "Boracic"
+msgstr "يحتوي على البورون"
+
+msgid "Borate"
+msgstr "البورات"
+
+msgid "Borated"
+msgstr "معالج بالبورات"
+
+msgid "Borates"
+msgstr "البورات"
+
+msgid "Borax"
+msgstr "البوركس"
+
+msgid "Bord"
+msgstr "بورد"
+
+msgid "Bordeaux"
+msgstr "البوردو"
+
+msgid "Bordello"
+msgstr "بيت الدّعارة"
+
+msgid "Bordellos"
+msgstr "بيوت الدّعارة"
+
+msgid "Borden"
+msgstr "بوردين"
+
+msgid "Border"
+msgstr "الحدود"
+
+msgid "Border-only"
+msgstr "الحدود فقط"
+
+msgid "Border-punched"
+msgstr "ملكوم بالحدود"
+
+msgid "Bordered"
+msgstr "حدّ"
+
+msgid "Borderer"
+msgstr "مقيم على الحدود"
+
+msgid "Bordering"
+msgstr "الحداد"
+
+msgid "Borderland"
+msgstr "منطقة الحدود"
+
+msgid "Borderlands"
+msgstr "مناطق الحدود"
+
+msgid "Borderless"
+msgstr "بلا حدود"
+
+msgid "Borderline"
+msgstr "الحدّ"
+
+msgid "Borders"
+msgstr "الحدود"
+
+msgid "Borderzone"
+msgstr "المنطقة الفاصلة"
+
+msgid "Bore"
+msgstr "اثقب"
+
+msgid "Borealis"
+msgstr "شماليّ"
+
+msgid "Boreas"
+msgstr "الريح الشمالية"
+
+msgid "Bored"
+msgstr "ثقب"
+
+msgid "Boredom"
+msgstr "الملل"
+
+msgid "Boredoms"
+msgstr "السأم"
+
+msgid "Borehole"
+msgstr "الحفرة"
+
+msgid "Borer"
+msgstr "الحفّار"
+
+msgid "Borers"
+msgstr "الحفّارون"
+
+msgid "Bores"
+msgstr "المملّون"
+
+msgid "Borg"
+msgstr "بورج"
+
+msgid "Boric"
+msgstr "بوريك"
+
+msgid "Boring"
+msgstr "الثّقب"
+
+msgid "Boringly"
+msgstr "على نحو مملّ"
+
+msgid "Boringness"
+msgstr "البلادة المتطرّفة"
+
+msgid "Boris"
+msgstr "بوريس"
+
+msgid "Borland"
+msgstr "بورلاند"
+
+msgid "Born"
+msgstr "مولود"
+
+msgid "Borne"
+msgstr "الكنبة"
+
+msgid "Borneo"
+msgstr "بورنيو"
+
+msgid "Borns"
+msgstr "بورنز"
+
+msgid "Boron"
+msgstr "العنصر غير المعدنيّ"
+
+msgid "Borosilicate"
+msgstr "ملح بورونية وحوامض سيليسك"
+
+msgid "Borough"
+msgstr "الإقليم"
+
+msgid "Boroughs"
+msgstr "الأقاليم"
+
+msgid "Borrow"
+msgstr "استعر"
+
+msgid "Borrowed"
+msgstr "استعار"
+
+msgid "Borrower"
+msgstr "المقترض"
+
+msgid "Borrowers"
+msgstr "المقترضون"
+
+msgid "Borrowing"
+msgstr "المقتبس"
+
+msgid "Borrowings"
+msgstr "المقتبسات"
+
+msgid "Borrows"
+msgstr "يستعير"
+
+msgid "Bort"
+msgstr "البورت"
+
+msgid "Bosch"
+msgstr "شركة المانية"
+
+msgid "Bose"
+msgstr "شركة أمريكية في مجال الصوتيات"
+
+msgid "Bosom"
+msgstr "الصّدر"
+
+msgid "Bosomed"
+msgstr "خفيّ"
+
+msgid "Bosoms"
+msgstr "الصّدور"
+
+msgid "Boson"
+msgstr "بوسون"
+
+msgid "Boss"
+msgstr "الرّئيس"
+
+msgid "Bossed"
+msgstr "متحكّم"
+
+msgid "Bosses"
+msgstr "الرّؤساء"
+
+msgid "Bossier"
+msgstr "أكثر تسلّطًا"
+
+msgid "Bossily"
+msgstr "بتسلّط"
+
+msgid "Bossiness"
+msgstr "التّدخّل"
+
+msgid "Bossing"
+msgstr "الحلية"
+
+msgid "Bossy"
+msgstr "متسلّط"
+
+msgid "Boston"
+msgstr "بوسطن"
+
+msgid "Bostonian"
+msgstr "بوستوني"
+
+msgid "Bostonians"
+msgstr "بوستونيّون"
+
+msgid "Bosun"
+msgstr "رئيس البحّارة"
+
+msgid "Boswell"
+msgstr "مترجم الأصدقاء"
+
+msgid "Botanic"
+msgstr "متعلّق بعلم النّبات"
+
+msgid "Botanical"
+msgstr "نباتيّ"
+
+msgid "Botanically"
+msgstr "نباتيًّا"
+
+msgid "Botanies"
+msgstr "بوتانيس"
+
+msgid "Botanist"
+msgstr "عالم النّبات"
+
+msgid "Botanists"
+msgstr "علماء النّبات"
+
+msgid "Botanize"
+msgstr "ادرس النّباتات"
+
+msgid "Botanized"
+msgstr "مدروس النباتات"
+
+msgid "Botanizes"
+msgstr "يدرس النباتات"
+
+msgid "Botanizing"
+msgstr "دراسة النباتات"
+
+msgid "Botany"
+msgstr "علم النّبات :: الحياة النباتية"
+
+msgid "Botch"
+msgstr "العمل الرّديء"
+
+msgid "Botched"
+msgstr "أفسد"
+
+msgid "Botcher"
+msgstr "المفسد"
+
+msgid "Botchers"
+msgstr "المفسدون"
+
+msgid "Botchery"
+msgstr "صناعة غير متقنة"
+
+msgid "Botches"
+msgstr "الأعمال الرّديئة"
+
+msgid "Botching"
+msgstr "الإفساد"
+
+msgid "Botchy"
+msgstr "غير متقن"
+
+msgid "Botfly"
+msgstr "النبر"
+
+msgid "Both"
+msgstr "كلاهما"
+
+msgid "Both-way"
+msgstr "كلاهما طريقة"
+
+msgid "Bother"
+msgstr "تضايق"
+
+msgid "Bothered"
+msgstr "تضايق"
+
+msgid "Bothering"
+msgstr "التّضايق"
+
+msgid "Bothers"
+msgstr "المشكلات"
+
+msgid "Bothersome"
+msgstr "مزعج"
+
+msgid "Botswana"
+msgstr "بوتسوانا"
+
+msgid "Bottle"
+msgstr "الزّجاجة"
+
+msgid "Bottled"
+msgstr "معبّأ"
+
+msgid "Bottleneck"
+msgstr "الطّريق الضّيّق"
+
+msgid "Bottlenecks"
+msgstr "الطّرق الضّيّقة"
+
+msgid "Bottler"
+msgstr "الذي يعبّئ الأشربة"
+
+msgid "Bottles"
+msgstr "الزّجاجات"
+
+msgid "Bottling"
+msgstr "المشروب المعلّب"
+
+msgid "Bottom"
+msgstr "القاع"
+
+msgid "Bottom-left"
+msgstr "متروك بالقاع"
+
+msgid "Bottom-Right"
+msgstr "الحقّ السّفليّ"
+
+msgid "Bottom-up"
+msgstr "عمليّ"
+
+msgid "Bottomed"
+msgstr "ذو قاعدة"
+
+msgid "Bottomer"
+msgstr "سفلي"
+
+msgid "Bottoming"
+msgstr "الكبس"
+
+msgid "Bottomless"
+msgstr "عميق"
+
+msgid "Bottomlessly"
+msgstr "بشكل عميق"
+
+msgid "Bottomlessness"
+msgstr "بدون حدود، بلا قاع"
+
+msgid "Bottommost"
+msgstr "أقصى"
+
+msgid "Bottoms"
+msgstr "القيعان"
+
+msgid "Botulin"
+msgstr "بوتيلين - سمّ جرثومي فعّال"
+
+msgid "Botulinus"
+msgstr "بكتيريا \"أناروبيك\"  المنتجة لسم بوتيليناّ"
+
+msgid "Botulism"
+msgstr "التّسمّم"
+
+msgid "Boucher"
+msgstr "بوشير"
+
+msgid "Bouffant"
+msgstr "منتفخ"
+
+msgid "Bough"
+msgstr "الفرع"
+
+msgid "Boughed"
+msgstr "بوجهيد"
+
+msgid "Boughs"
+msgstr "الفروع"
+
+msgid "Bought"
+msgstr "اشترى"
+
+msgid "Boughten"
+msgstr "مشترى"
+
+msgid "Bouillon"
+msgstr "الحساء"
+
+msgid "Boulder"
+msgstr "الصّخرة"
+
+msgid "Bouldered"
+msgstr "غزير  بالصخور أو الأحجار"
+
+msgid "Boulders"
+msgstr "الصّخور"
+
+msgid "Boule"
+msgstr "المادة تدخل في الجواهر التخليقية"
+
+msgid "Boulevard"
+msgstr "الشّارع"
+
+msgid "Boulevards"
+msgstr "الشّوارع"
+
+msgid "Bounce"
+msgstr "تنطّط"
+
+msgid "Bounce-free"
+msgstr "تنطّط مجّانًا"
+
+msgid "Bounced"
+msgstr "تنطّط"
+
+msgid "Bouncer"
+msgstr "الحارس"
+
+msgid "Bouncers"
+msgstr "الحرّاس"
+
+msgid "Bounces"
+msgstr "القفزات"
+
+msgid "Bouncier"
+msgstr "نطاط"
+
+msgid "Bouncing"
+msgstr "التّنطّط"
+
+msgid "Bouncingly"
+msgstr "بحماس"
+
+msgid "Bouncy"
+msgstr "نطاط"
+
+msgid "Bound"
+msgstr "القفزة"
+
+msgid "Boundaries"
+msgstr "الحدود"
+
+msgid "Boundary"
+msgstr "الحدّ"
+
+msgid "Bounded"
+msgstr "تنطّط"
+
+msgid "Bounden"
+msgstr "ملزم"
+
+msgid "Bounder"
+msgstr "النّذل"
+
+msgid "Bounders"
+msgstr "الأنذال"
+
+msgid "Bounding"
+msgstr "التّنطّط"
+
+msgid "Boundless"
+msgstr "لا حدّ له"
+
+msgid "Boundlessly"
+msgstr "بلا حدود"
+
+msgid "Boundlessness"
+msgstr "الكبر"
+
+msgid "Bounds"
+msgstr "القفزات"
+
+msgid "Bounteous"
+msgstr "كريم"
+
+msgid "Bounteously"
+msgstr "بكرم"
+
+msgid "Bounteousness"
+msgstr "الكرم"
+
+msgid "Bountied"
+msgstr "إِثَابَة، مُجَازَاة، مُكَافَأَة"
+
+msgid "Bounties"
+msgstr "المكافآت"
+
+msgid "Bountiful"
+msgstr "كريم"
+
+msgid "Bountifully"
+msgstr "بوفرة"
+
+msgid "Bountifulness"
+msgstr "الجود"
+
+msgid "Bounty"
+msgstr "المكافأة"
+
+msgid "Bouquet"
+msgstr "الباقة"
+
+msgid "Bouquets"
+msgstr "الباقات"
+
+msgid "Bourbaki"
+msgstr "بورباكي"
+
+msgid "Bourbon"
+msgstr "البوربون"
+
+msgid "Bourbons"
+msgstr "البوربون"
+
+msgid "Bourgeois"
+msgstr "البورجوازيّ"
+
+msgid "Bourgeoises"
+msgstr "البورجوازيّون"
+
+msgid "Bourgeoisie"
+msgstr "البرجوازيّة"
+
+msgid "Bourn"
+msgstr "الغدير"
+
+msgid "Bourne"
+msgstr "الغدير"
+
+msgid "Boustrophedon"
+msgstr "البطرفة"
+
+msgid "Bout"
+msgstr "الوعكة"
+
+msgid "Boutique"
+msgstr "البوتيك"
+
+msgid "Boutiques"
+msgstr "البوتيكات"
+
+msgid "Bouts"
+msgstr "الوعكات"
+
+msgid "Bouvier"
+msgstr "بوفيير"
+
+msgid "Bovine"
+msgstr "بقريّ"
+
+msgid "Bovinely"
+msgstr "بشكل بليد"
+
+msgid "Bow"
+msgstr "الانحناءة"
+
+msgid "Bowbell"
+msgstr "الإمرأة السريعة الحساسية، الطفل المدلّل"
+
+msgid "Bowditch"
+msgstr "بوديتش - عالم رياضيات وفلكي أمريكي"
+
+msgid "Bowdlerize"
+msgstr "نقّح"
+
+msgid "Bowdlerized"
+msgstr "نقّح"
+
+msgid "Bowdlerizer"
+msgstr "منقّح"
+
+msgid "Bowdlerizes"
+msgstr "ينقّح"
+
+msgid "Bowdlerizing"
+msgstr "التّنقيح"
+
+msgid "Bowdoin"
+msgstr "باودوين"
+
+msgid "Bowed"
+msgstr "انحنى"
+
+msgid "Bowel"
+msgstr "الأمعاء"
+
+msgid "Bowels"
+msgstr "الأمعاء"
+
+msgid "Bowen"
+msgstr "باوين"
+
+msgid "Bower"
+msgstr "المظلّة"
+
+msgid "Bowers"
+msgstr "المظلّات"
+
+msgid "Bowery"
+msgstr "معرّش"
+
+msgid "Bowes"
+msgstr "بوويس"
+
+msgid "Bowfin"
+msgstr "البوفن"
+
+msgid "Bowie"
+msgstr "باوي"
+
+msgid "Bowing"
+msgstr "العزف"
+
+msgid "Bowl"
+msgstr "السّلطانيّة"
+
+msgid "Bowled"
+msgstr "رمى"
+
+msgid "Bowler"
+msgstr "الرّامي"
+
+msgid "Bowlers"
+msgstr "الرّماة"
+
+msgid "Bowline"
+msgstr "العقدة"
+
+msgid "Bowlines"
+msgstr "العقد"
+
+msgid "Bowling"
+msgstr "البولنج"
+
+msgid "Bowls"
+msgstr "السّلطانيّات"
+
+msgid "Bowman"
+msgstr "الرّامٍ"
+
+msgid "Bowmen"
+msgstr "الرّماة"
+
+msgid "Bows"
+msgstr "الانحناء"
+
+msgid "Bowser"
+msgstr "العربة"
+
+msgid "Bowstring"
+msgstr "الوتر"
+
+msgid "Bowstrings"
+msgstr "الأوتار"
+
+msgid "Box"
+msgstr "الصّندوق"
+
+msgid "Boxcar"
+msgstr "عربة النّقل"
+
+msgid "Boxcars"
+msgstr "عربات النّقل"
+
+msgid "Boxed"
+msgstr "تلاكم"
+
+msgid "Boxer"
+msgstr "الملاكم"
+
+msgid "Boxers"
+msgstr "الملاكمون"
+
+msgid "Boxes"
+msgstr "الصّناديق"
+
+msgid "Boxier"
+msgstr "مربّعي الشّكل"
+
+msgid "Boxing"
+msgstr "الملاكمة"
+
+msgid "Boxroom"
+msgstr "المخزن"
+
+msgid "Boxwood"
+msgstr "البقس"
+
+msgid "Boxy"
+msgstr "يشبه الصندوق"
+
+msgid "Boy"
+msgstr "الولد"
+
+msgid "Boyar"
+msgstr "من ينتمي الى الطبقة اﻷرستقراطية في روسيا"
+
+msgid "Boyce"
+msgstr "بويس"
+
+msgid "Boycott"
+msgstr "المقاطعة"
+
+msgid "Boycotted"
+msgstr "قاطع"
+
+msgid "Boycotter"
+msgstr "المقاطع (من مقاطعة)"
+
+msgid "Boycotting"
+msgstr "المقاطعة"
+
+msgid "Boycotts"
+msgstr "المقاطعة"
+
+msgid "Boyd"
+msgstr "بويد"
+
+msgid "Boyer"
+msgstr "بوير"
+
+msgid "Boyfriend"
+msgstr "الصّديق"
+
+msgid "Boyfriends"
+msgstr "الأصدقاء"
+
+msgid "Boyhood"
+msgstr "فترة الصّبا"
+
+msgid "Boyish"
+msgstr "صبيانيّ"
+
+msgid "Boyishly"
+msgstr "بطريقة صبيانيّة"
+
+msgid "Boyishness"
+msgstr "الصّبيانيّة"
+
+msgid "Boyle"
+msgstr "بويل"
+
+msgid "Boylston"
+msgstr "بويلستون"
+
+msgid "Boys"
+msgstr "الأولاد"
+
+msgid "Boysenberries"
+msgstr " هجين بين العليق وتوت العليق (فاكهة)"
+
+msgid "Boysenberry"
+msgstr "هجين بين العليق وتوت العليق (فاكهة)"
+
+msgid "BP"
+msgstr "شركة البترول البريطانية"
+
+msgid "Bpi"
+msgstr "بي بي آي - مقياس لكثافة المعلومات على وسط التخزين"
+
+msgid "Bra"
+msgstr "حمّالة الصّدر"
+
+msgid "Brac"
+msgstr "براك"
+
+msgid "Brace"
+msgstr "الدّعامة"
+
+msgid "Braced"
+msgstr "أعدّ"
+
+msgid "Bracelet"
+msgstr "الإسورة"
+
+msgid "Bracelets"
+msgstr "الأساور"
+
+msgid "Bracer"
+msgstr "المثبّت"
+
+msgid "Bracers"
+msgstr "الدّاعم"
+
+msgid "Braces"
+msgstr "الحمّالات"
+
+msgid "Brachia"
+msgstr "أذرعة - الجزء بين الكتف و الكوع (جمع)"
+
+msgid "Brachium"
+msgstr "العضد"
+
+msgid "Bracing"
+msgstr "منعش"
+
+msgid "Bracken"
+msgstr "السرخس"
+
+msgid "Bracket"
+msgstr "القوس"
+
+msgid "Bracketed"
+msgstr "وضع بين أقواس"
+
+msgid "Bracketing"
+msgstr "وضع بين أقواس"
+
+msgid "Brackets"
+msgstr "الأقواس"
+
+msgid "Brackish"
+msgstr "مملّح"
+
+msgid "Brackishness"
+msgstr "عدم النّقاء"
+
+msgid "Bract"
+msgstr "الورقة"
+
+msgid "Brad"
+msgstr "المشبك"
+
+msgid "Bradbury"
+msgstr "برادبري"
+
+msgid "Bradford"
+msgstr "برادفورد"
+
+msgid "Bradley"
+msgstr "برادلي"
+
+msgid "Brads"
+msgstr "المشابك"
+
+msgid "Bradshaw"
+msgstr "برادشو"
+
+msgid "Brady"
+msgstr "برادي"
+
+msgid "Brae"
+msgstr "المنحدر"
+
+msgid "Braes"
+msgstr "المنحدرات"
+
+msgid "Brag"
+msgstr "تفاخر"
+
+msgid "Bragg"
+msgstr "براج"
+
+msgid "Braggadocio"
+msgstr "الاستعراض"
+
+msgid "Braggart"
+msgstr "المتفاخر"
+
+msgid "Braggarts"
+msgstr "المتفاخرون"
+
+msgid "Bragged"
+msgstr "تفاخر"
+
+msgid "Bragger"
+msgstr "المتفاخر"
+
+msgid "Bragging"
+msgstr "التّفاخر"
+
+msgid "Brags"
+msgstr "يتفاخر"
+
+msgid "Brahmaputra"
+msgstr "براهمابوترا - نهر يصب في خليج البنغال"
+
+msgid "Brahms"
+msgstr "براهمس - ملحن الألماني، موسيقى براهمس"
+
+msgid "Brahmsian"
+msgstr "متعلق بابراهامز"
+
+msgid "Braid"
+msgstr "الشّريط"
+
+msgid "Braided"
+msgstr "مزيّن"
+
+msgid "Braider"
+msgstr "مجدّل"
+
+msgid "Braiding"
+msgstr "التّضفير"
+
+msgid "Braids"
+msgstr "الضّفائر"
+
+msgid "Braille"
+msgstr "طريقة بريل"
+
+msgid "Brain"
+msgstr "المخّ"
+
+msgid "Brainard"
+msgstr "براينارد"
+
+msgid "Brainchild"
+msgstr "الفكرة"
+
+msgid "Brainchildren"
+msgstr "البنات الأفكار"
+
+msgid "Brained"
+msgstr "ذو دماغ"
+
+msgid "Brainier"
+msgstr "أذكى"
+
+msgid "Braininess"
+msgstr "الذّكاء"
+
+msgid "Braining"
+msgstr "القتل عن طريق تهشيم الماغ، يفهم"
+
+msgid "Brainless"
+msgstr "غبيّ"
+
+msgid "Brains"
+msgstr "الأمخاخ"
+
+msgid "Brainstorm"
+msgstr "الفكرة الرّائعة"
+
+msgid "Brainstormer"
+msgstr "ذو فكرة رائعة"
+
+msgid "Brainstorming"
+msgstr "النّقاش"
+
+msgid "Brainstorms"
+msgstr "الأفكار الرّائعة"
+
+msgid "Braintrust"
+msgstr "هيئة الخبراء"
+
+msgid "Brainwash"
+msgstr "اغسل مخّ"
+
+msgid "Brainwashed"
+msgstr "غسل مخّ"
+
+msgid "Brainwasher"
+msgstr "غاسل الدماغ"
+
+msgid "Brainwashes"
+msgstr "يغسل مخّ"
+
+msgid "Brainwashing"
+msgstr "غسيل المخّ"
+
+msgid "Brainwave"
+msgstr "الفكرة الرّائعة"
+
+msgid "Brainy"
+msgstr "ذكيّ"
+
+msgid "Braise"
+msgstr "سوّ"
+
+msgid "Braised"
+msgstr "سوّى"
+
+msgid "Braises"
+msgstr "يسوّي"
+
+msgid "Braising"
+msgstr "التّسوية"
+
+msgid "Brake"
+msgstr "الفرامل"
+
+msgid "Braked"
+msgstr "فرمل"
+
+msgid "Brakeman"
+msgstr "المسؤول عن الفرامل"
+
+msgid "Brakemen"
+msgstr "الرجال المسؤولين عن الفرامل"
+
+msgid "Brakes"
+msgstr "الفرامل"
+
+msgid "Braking"
+msgstr "الفرملة"
+
+msgid "Bramble"
+msgstr "العليق"
+
+msgid "Brambles"
+msgstr "العليق"
+
+msgid "Brambling"
+msgstr "الشّرشور جبليّ"
+
+msgid "Brambly"
+msgstr "علّيقي"
+
+msgid "Bran"
+msgstr "النّخالة"
+
+msgid "Branch"
+msgstr "الفرع"
+
+msgid "Branched"
+msgstr "تشعّب"
+
+msgid "Branches"
+msgstr "الفروع"
+
+msgid "Branching"
+msgstr "التّشعّب"
+
+msgid "Branchings"
+msgstr "برانتشينجز"
+
+msgid "Branchville"
+msgstr "برانتشفيل"
+
+msgid "Brand"
+msgstr "نوع"
+
+msgid "Brand-new"
+msgstr "جديد"
+
+msgid "Branded"
+msgstr "أصليّ"
+
+msgid "Brandeis"
+msgstr "براندايس"
+
+msgid "Brandel"
+msgstr "براندل"
+
+msgid "Brandenburg"
+msgstr "براندينبرج"
+
+msgid "Brander"
+msgstr "براندر"
+
+msgid "Brandied"
+msgstr "ممزوج بالبراندي"
+
+msgid "Brandies"
+msgstr "كؤوس الخمر"
+
+msgid "Branding"
+msgstr "الوسم"
+
+msgid "Brandish"
+msgstr "لوّح"
+
+msgid "Brandished"
+msgstr "لوّح"
+
+msgid "Brandishes"
+msgstr "يلوّح"
+
+msgid "Brandishing"
+msgstr "التّلويح"
+
+msgid "Brandon"
+msgstr "براندون"
+
+msgid "Brands"
+msgstr "أنواع"
+
+msgid "Brandt"
+msgstr "براندْتْ"
+
+msgid "Brandy"
+msgstr "الخمر"
+
+msgid "Brandying"
+msgstr "الخلط مع البراندي"
+
+msgid "Brandywine"
+msgstr "براندي واين"
+
+msgid "Braniff"
+msgstr "برانيف"
+
+msgid "Brannon"
+msgstr "برانون"
+
+msgid "Brans"
+msgstr "النّخالة"
+
+msgid "Brant"
+msgstr "البرنتيّة"
+
+msgid "Bras"
+msgstr "حمّالات الصّدر"
+
+msgid "Brash"
+msgstr "وقح"
+
+msgid "Brashly"
+msgstr "بوقاحة"
+
+msgid "Brashness"
+msgstr "الجرأة"
+
+msgid "Brasilia"
+msgstr "برازيليّا"
+
+msgid "Brass"
+msgstr "النّحاس الأصفر"
+
+msgid "Brassed"
+msgstr "براسيد"
+
+msgid "Brasses"
+msgstr "النّحاس الصّفراء"
+
+msgid "Brassier"
+msgstr "أكثر نحاسيًّا"
+
+msgid "Brassiere"
+msgstr "حمّالة الصّدر"
+
+msgid "Brassieres"
+msgstr "حمّالات الصّدر"
+
+msgid "Brassily"
+msgstr "بوقاحة"
+
+msgid "Brassiness"
+msgstr "جَسَارَة،  سَفَاهَة"
+
+msgid "Brassy"
+msgstr "نحاسيّ"
+
+msgid "Brat"
+msgstr "الطّفل"
+
+msgid "Brats"
+msgstr "الأطفال"
+
+msgid "Bratty"
+msgstr "مزعج"
+
+msgid "Bratwurst"
+msgstr "براتوورست"
+
+msgid "Braun"
+msgstr "براون"
+
+msgid "Bravado"
+msgstr "الاستعراض"
+
+msgid "Brave"
+msgstr "الشّجعان"
+
+msgid "Braved"
+msgstr "واجه"
+
+msgid "Bravely"
+msgstr "بشجاعة"
+
+msgid "Braveness"
+msgstr "أَشْوَس، مِغْوار، شَدِيدُ البَأْس"
+
+msgid "Braver"
+msgstr "أشجع"
+
+msgid "Bravery"
+msgstr "الشّجاعة"
+
+msgid "Braves"
+msgstr "الشّجعان"
+
+msgid "Bravest"
+msgstr "الأشجع"
+
+msgid "Braving"
+msgstr "المواجهة"
+
+msgid "Bravo"
+msgstr "أحسنت"
+
+msgid "Bravoed"
+msgstr "شجّع"
+
+msgid "Bravoing"
+msgstr "اِسْتَحْسَنَ، حَسَنًا ( فَعَلْتَ )"
+
+msgid "Bravos"
+msgstr "البرافو"
+
+msgid "Bravura"
+msgstr "الاستعراض"
+
+msgid "Bravuras"
+msgstr "الاستعراضات"
+
+msgid "Brawl"
+msgstr "المشاجرة"
+
+msgid "Brawled"
+msgstr "تشاجر"
+
+msgid "Brawler"
+msgstr "المشاكس"
+
+msgid "Brawlers"
+msgstr "المشاكسون"
+
+msgid "Brawling"
+msgstr "التّشاجر"
+
+msgid "Brawls"
+msgstr "المشاجرات"
+
+msgid "Brawn"
+msgstr "العضلات"
+
+msgid "Brawniness"
+msgstr "القوّة العضليّة"
+
+msgid "Brawny"
+msgstr "قويّ"
+
+msgid "Bray"
+msgstr "النّهيق"
+
+msgid "Brayed"
+msgstr "نهق"
+
+msgid "Brayer"
+msgstr "المدحاة يدوية"
+
+msgid "Braying"
+msgstr "النّهيق"
+
+msgid "Brays"
+msgstr "النّهيق"
+
+msgid "Braze"
+msgstr "اصنع من النّحاس"
+
+msgid "Brazed"
+msgstr "صنع من النّحاس"
+
+msgid "Brazen"
+msgstr "وقح"
+
+msgid "Brazened"
+msgstr "تطاول، بلا استحياء"
+
+msgid "Brazening"
+msgstr "التطاول، بلا استحياء"
+
+msgid "Brazenly"
+msgstr "بتبجّح"
+
+msgid "Brazenness"
+msgstr "الوقاحة"
+
+msgid "Brazer"
+msgstr "الصانع من النحاس"
+
+msgid "Brazes"
+msgstr "يصنع من النّحاس"
+
+msgid "Brazier"
+msgstr "المبخرة"
+
+msgid "Braziers"
+msgstr "المباخر"
+
+msgid "Brazil"
+msgstr "البرازيل"
+
+msgid "Brazilian"
+msgstr "البرازيليّ"
+
+msgid "Brazing"
+msgstr "صنع من النّحاس"
+
+msgid "Brazzaville"
+msgstr "برازافيل"
+
+msgid "Breach"
+msgstr "المخالفة"
+
+msgid "Breached"
+msgstr "خرق"
+
+msgid "Breacher"
+msgstr "المتعد، الخارق للمعاهدة"
+
+msgid "Breachers"
+msgstr "المتعدون، الناقضون للمعاهدة"
+
+msgid "Breaches"
+msgstr "الخروق"
+
+msgid "Breaching"
+msgstr "الخرق"
+
+msgid "Bread"
+msgstr "الخبز"
+
+msgid "Breadbasket"
+msgstr "سلّة الخبز"
+
+msgid "Breadbaskets"
+msgstr "سلّات الخبز"
+
+msgid "Breadboard"
+msgstr "اللّوح"
+
+msgid "Breadboards"
+msgstr "الألواح"
+
+msgid "Breaded"
+msgstr "مغطّى بالخبز"
+
+msgid "Breadfruit"
+msgstr "البريدفروت"
+
+msgid "Breadfruits"
+msgstr "البريدفروت"
+
+msgid "Breading"
+msgstr "بريدينج"
+
+msgid "Breadroot"
+msgstr "بريدروت"
+
+msgid "Breads"
+msgstr "الخبز"
+
+msgid "Breadstuffs"
+msgstr "الطّحين"
+
+msgid "Breadth"
+msgstr "العرض"
+
+msgid "Breadths"
+msgstr "العرض"
+
+msgid "Breadwinner"
+msgstr "العائل"
+
+msgid "Breadwinners"
+msgstr "العائلون"
+
+msgid "Break"
+msgstr "الرّاحة"
+
+msgid "Break-down"
+msgstr "الانهيار"
+
+msgid "Breakable"
+msgstr "هشّ"
+
+msgid "Breakables"
+msgstr "الأشياء القابلة للكسر"
+
+msgid "Breakage"
+msgstr "التّالف"
+
+msgid "Breakages"
+msgstr "التّالفات"
+
+msgid "Breakaway"
+msgstr "الانفصال"
+
+msgid "Breakdown"
+msgstr "الانهيار"
+
+msgid "Breakdowns"
+msgstr "الانهيارات"
+
+msgid "Breaker"
+msgstr "الموجة"
+
+msgid "Breakers"
+msgstr "الموجات"
+
+msgid "Breakfast"
+msgstr "الإفطار"
+
+msgid "Breakfasted"
+msgstr "فطر"
+
+msgid "Breakfaster"
+msgstr "المُفطر"
+
+msgid "Breakfasting"
+msgstr "الفطر"
+
+msgid "Breakfasts"
+msgstr "الإفطار"
+
+msgid "Breaking"
+msgstr "الانكسار"
+
+msgid "Breakings"
+msgstr "الكسر"
+
+msgid "Breakneck"
+msgstr "خطير"
+
+msgid "Breakoff"
+msgstr "انقطع"
+
+msgid "Breakpoint"
+msgstr "نقطة التوقّف"
+
+msgid "Breakpoints"
+msgstr "نقاط التوقّف"
+
+msgid "Breaks"
+msgstr "الرّاحة"
+
+msgid "Breakthrough"
+msgstr "الاختراق"
+
+msgid "Breakthroughes"
+msgstr "الإختراق"
+
+msgid "Breakthroughs"
+msgstr "الاختراقات"
+
+msgid "Breakup"
+msgstr "الانتهاء"
+
+msgid "Breakups"
+msgstr "الانتهاء"
+
+msgid "Breakwater"
+msgstr "الحاجز"
+
+msgid "Breakwaters"
+msgstr "الحواجز"
+
+msgid "Bream"
+msgstr "سمك الأبراميس"
+
+msgid "Breast"
+msgstr "الصّدر"
+
+msgid "Breastbone"
+msgstr "عظمة الصّدر"
+
+msgid "Breastbones"
+msgstr "عظام الصّدر"
+
+msgid "Breasted"
+msgstr "اعتلى"
+
+msgid "Breastfed"
+msgstr "رضّع من الصّدر"
+
+msgid "Breastfeed"
+msgstr "أرضع"
+
+msgid "Breastfeeding"
+msgstr "الرضاعة من الصّدر"
+
+msgid "Breasting"
+msgstr "الاعتلاء"
+
+msgid "Breastplate"
+msgstr "الدّرع"
+
+msgid "Breasts"
+msgstr "الصّدور"
+
+msgid "Breaststroke"
+msgstr "سباحة الصّدر"
+
+msgid "Breastwork"
+msgstr "المتراس"
+
+msgid "Breastworks"
+msgstr "المتاريس"
+
+msgid "Breath"
+msgstr "النّفس"
+
+msgid "Breathable"
+msgstr "صالح للتّنفّس"
+
+msgid "Breathe"
+msgstr "تنفّس"
+
+msgid "Breathed"
+msgstr "تنفّس"
+
+msgid "Breather"
+msgstr "الاستراحة"
+
+msgid "Breathers"
+msgstr "الاستراحات"
+
+msgid "Breathes"
+msgstr "يتنفّس"
+
+msgid "Breathier"
+msgstr "أكثر لهاثًا"
+
+msgid "Breathing"
+msgstr "التّنفّس"
+
+msgid "Breathings"
+msgstr "التنفّس"
+
+msgid "Breathless"
+msgstr "لاهث"
+
+msgid "Breathlessly"
+msgstr "بتلهّف"
+
+msgid "Breathlessness"
+msgstr "انقطاع النّفس"
+
+msgid "Breaths"
+msgstr "الأنفاس"
+
+msgid "Breathtaking"
+msgstr "مثير"
+
+msgid "Breathtakingly"
+msgstr "بشكل مذهل"
+
+msgid "Breathy"
+msgstr "لاهث"
+
+msgid "Breccia"
+msgstr "البريشة"
+
+msgid "Bred"
+msgstr "تكاثر"
+
+msgid "Breech"
+msgstr "الكعب"
+
+msgid "Breeches"
+msgstr "الكعوب"
+
+msgid "Breeching"
+msgstr "الطّوق"
+
+msgid "Breed"
+msgstr "تكاثر"
+
+msgid "Breeder"
+msgstr "المربّي"
+
+msgid "Breeders"
+msgstr "المربّون"
+
+msgid "Breeding"
+msgstr "التّناسل"
+
+msgid "Breedings"
+msgstr "التربية"
+
+msgid "Breeds"
+msgstr "السّلالات"
+
+msgid "Breeze"
+msgstr "النّسيم"
+
+msgid "Breezed"
+msgstr "مرق"
+
+msgid "Breezes"
+msgstr "النّسائم"
+
+msgid "Breezier"
+msgstr "أكثر عصفًا"
+
+msgid "Breezily"
+msgstr "بمرح"
+
+msgid "Breeziness"
+msgstr "المرح"
+
+msgid "Breezing"
+msgstr "المروق"
+
+msgid "Breezy"
+msgstr "عاصف"
+
+msgid "Brei"
+msgstr "كتلة ليّنة"
+
+msgid "Bremen"
+msgstr "بريمين - أسم مدينة يرد في أقطار متعددة"
+
+msgid "Bremsstrahlung"
+msgstr "بريمستراهلنج"
+
+msgid "Brenda"
+msgstr "بريندا"
+
+msgid "Brendan"
+msgstr "بريندان"
+
+msgid "Brennan"
+msgstr "برينان"
+
+msgid "Brenner"
+msgstr "برينر"
+
+msgid "Brent"
+msgstr "البرنتيّة"
+
+msgid "Bresenham"
+msgstr "بريسينهام"
+
+msgid "Brest"
+msgstr "الصّدر"
+
+msgid "Brethren"
+msgstr "الإخوة"
+
+msgid "Breton"
+msgstr "البريتاني"
+
+msgid "Brett"
+msgstr "بريت"
+
+msgid "Breve"
+msgstr "النّغمة الطّويلة"
+
+msgid "Breves"
+msgstr "النّغمات الطّويلة"
+
+msgid "Brevet"
+msgstr "التّرقية"
+
+msgid "Breveted"
+msgstr "مرفّع"
+
+msgid "Breveting"
+msgstr "الترفيع"
+
+msgid "Brevets"
+msgstr "التّرقيات"
+
+msgid "Breviary"
+msgstr "كتاب الأدعية"
+
+msgid "Brevity"
+msgstr "الاختصار"
+
+msgid "Brew"
+msgstr "المشروب"
+
+msgid "Brewed"
+msgstr "بدأ"
+
+msgid "Brewer"
+msgstr "منتج الخمر"
+
+msgid "Breweries"
+msgstr "مصانع البيرة"
+
+msgid "Brewers"
+msgstr "منتجون الخمر"
+
+msgid "Brewery"
+msgstr "مصنع البيرة"
+
+msgid "Brewing"
+msgstr "البدء"
+
+msgid "Brews"
+msgstr "المشروبات"
+
+msgid "Brewster"
+msgstr "بروستر"
+
+msgid "Brian"
+msgstr "برايان"
+
+msgid "Briar"
+msgstr "الورد البرّيّ"
+
+msgid "Briars"
+msgstr "الورد البرّيّ"
+
+msgid "Bribe"
+msgstr "الرّشوة"
+
+msgid "Bribed"
+msgstr "رشا"
+
+msgid "Briber"
+msgstr "الرّاشي"
+
+msgid "Briberies"
+msgstr "الرّشاوي"
+
+msgid "Bribers"
+msgstr "الرّاشون"
+
+msgid "Bribery"
+msgstr "الرّشوة"
+
+msgid "Bribes"
+msgstr "الرّشاوي"
+
+msgid "Bribing"
+msgstr "الرّشو"
+
+msgid "Bric"
+msgstr "بريك"
+
+msgid "Brice"
+msgstr "بريس"
+
+msgid "Brick"
+msgstr "الطّوبة"
+
+msgid "Brickbat"
+msgstr "الطّوبة"
+
+msgid "Bricked"
+msgstr "مطوّب"
+
+msgid "Bricker"
+msgstr "من الطابوق"
+
+msgid "Bricking"
+msgstr "البناء"
+
+msgid "Brickkiln"
+msgstr "الأتون"
+
+msgid "Bricklayer"
+msgstr "البنّاء"
+
+msgid "Bricklayers"
+msgstr "البنّاءون"
+
+msgid "Bricklaying"
+msgstr "البناء"
+
+msgid "Bricks"
+msgstr "الطّوب"
+
+msgid "Brickworks"
+msgstr "أعمال البناء"
+
+msgid "Brickyard"
+msgstr "مصنع الطّوب"
+
+msgid "Bridal"
+msgstr "خاصّ بالزّفاف"
+
+msgid "Bride"
+msgstr "العروسة"
+
+msgid "Bridegroom"
+msgstr "العريس"
+
+msgid "Bridegrooms"
+msgstr "العرسان"
+
+msgid "Brides"
+msgstr "العروسات"
+
+msgid "Bridesmaid"
+msgstr "وصيفة الشّرف"
+
+msgid "Bridesmaids"
+msgstr "وصيفات الشّرف"
+
+msgid "Bridewell"
+msgstr "الإصلاحيّة"
+
+msgid "Bridge"
+msgstr "الكوبري"
+
+msgid "Bridgeable"
+msgstr "صالح لبناء جسر"
+
+msgid "Bridged"
+msgstr "بنى جسرًا"
+
+msgid "Bridgehead"
+msgstr "نقطة الانطلاق"
+
+msgid "Bridgeheads"
+msgstr "نقط الانطلاق"
+
+msgid "Bridgeport"
+msgstr "بريدجبورت"
+
+msgid "Bridges"
+msgstr "الكباري"
+
+msgid "Bridget"
+msgstr "بريدجيت"
+
+msgid "Bridgetown"
+msgstr "بريدجتاون"
+
+msgid "Bridgewater"
+msgstr "بريدج ووتر"
+
+msgid "Bridgework"
+msgstr "الجسور"
+
+msgid "Bridging"
+msgstr "بناء جسرًا"
+
+msgid "Bridle"
+msgstr "اللّجام"
+
+msgid "Bridled"
+msgstr "أشاح"
+
+msgid "Bridles"
+msgstr "الألجمة"
+
+msgid "Bridling"
+msgstr "الإشاحة"
+
+msgid "Brief"
+msgstr "الاختصاص"
+
+msgid "Briefcase"
+msgstr "الحقيبة"
+
+msgid "Briefcases"
+msgstr "الحقائب"
+
+msgid "Briefed"
+msgstr "أطلع"
+
+msgid "Briefer"
+msgstr "أقصر"
+
+msgid "Briefest"
+msgstr "الأقصر"
+
+msgid "Briefing"
+msgstr "الاجتماع"
+
+msgid "Briefings"
+msgstr "الاجتماعات"
+
+msgid "Briefly"
+msgstr "باختصار"
+
+msgid "Briefness"
+msgstr "القصر"
+
+msgid "Briefs"
+msgstr "الاختصاصات"
+
+msgid "Brien"
+msgstr "برين"
+
+msgid "Brier"
+msgstr "الورد البرّيّ"
+
+msgid "Briers"
+msgstr "الورد البرّيّ"
+
+msgid "Brig"
+msgstr "المركب"
+
+msgid "Brigade"
+msgstr "اللّواء"
+
+msgid "Brigaded"
+msgstr " تكوين  لِوَاء أو سرية"
+
+msgid "Brigades"
+msgstr "اللّواءات"
+
+msgid "Brigadier"
+msgstr "عميد"
+
+msgid "Brigadiers"
+msgstr "الأميرالاى"
+
+msgid "Brigading"
+msgstr "يكون سَرِيَّة أو لواء"
+
+msgid "Brigadoon"
+msgstr "مكان خياليّ"
+
+msgid "Brigand"
+msgstr "قاطع الطّريق"
+
+msgid "Brigands"
+msgstr "قطّاع الطّريق"
+
+msgid "Brigantine"
+msgstr "المركّب الشّراعيّ"
+
+msgid "Briggs"
+msgstr "بريجس"
+
+msgid "Brigham"
+msgstr "بريجهام"
+
+msgid "Bright"
+msgstr "مضيء"
+
+msgid "Brighten"
+msgstr "أضئ"
+
+msgid "Brightened"
+msgstr "أضاء"
+
+msgid "Brightener"
+msgstr "مُنير"
+
+msgid "Brightening"
+msgstr "الإضاءة"
+
+msgid "Brightens"
+msgstr "يضيء"
+
+msgid "Brighter"
+msgstr "أكثر إضاءة"
+
+msgid "Brightest"
+msgstr "الأكثر إضاءة"
+
+msgid "Brightly"
+msgstr "ببهاء"
+
+msgid "Brightness"
+msgstr "الإشراق"
+
+msgid "Brightnesses"
+msgstr "السطوع"
+
+msgid "Brighton"
+msgstr "بريتون"
+
+msgid "Brights"
+msgstr "الكشّافات"
+
+msgid "Brigs"
+msgstr "المراكب"
+
+msgid "Brillant"
+msgstr "لامع"
+
+msgid "Brilliance"
+msgstr "الذّكاء"
+
+msgid "Brilliancy"
+msgstr "الذّكاء"
+
+msgid "Brilliant"
+msgstr "لامع"
+
+msgid "Brillianter"
+msgstr "رائع"
+
+msgid "Brilliantest"
+msgstr "رائع"
+
+msgid "Brilliantly"
+msgstr "بتألّق"
+
+msgid "Brilliantness"
+msgstr "بَرِيق، سَنَاء، عَظَمَة"
+
+msgid "Brim"
+msgstr "الحافّة"
+
+msgid "Brimful"
+msgstr "ممتلئ"
+
+msgid "Brimmed"
+msgstr "امتلأ"
+
+msgid "Brimming"
+msgstr "الامتلاء"
+
+msgid "Brims"
+msgstr "الحافّات"
+
+msgid "Brimstone"
+msgstr "الكبريت"
+
+msgid "Brindisi"
+msgstr "ميناء في ايطاليا. معقل الصليبيين ابان العصور الوسطى"
+
+msgid "Brindle"
+msgstr "الرّماديّ الدّاكن"
+
+msgid "Brindled"
+msgstr "رماديّ مخطّط"
+
+msgid "Brine"
+msgstr "الماء المالح"
+
+msgid "Briner"
+msgstr "ناقع بالماء مالح"
+
+msgid "Brines"
+msgstr "المحاليل الملحية"
+
+msgid "Bring"
+msgstr "أحضر"
+
+msgid "Bringer"
+msgstr "أَتَى بِـ،  جاءَ بـِ"
+
+msgid "Bringing"
+msgstr "الإحضار"
+
+msgid "Brings"
+msgstr "يحضر"
+
+msgid "Brinier"
+msgstr "أكثر ملوحة"
+
+msgid "Brininess"
+msgstr "الملوحة"
+
+msgid "Brining"
+msgstr "يشبع  بالمحلول الملحي"
+
+msgid "Brink"
+msgstr "الحافّة"
+
+msgid "Brinkley"
+msgstr "برينكلي"
+
+msgid "Brinkmanship"
+msgstr "الدّعاية"
+
+msgid "Brinks"
+msgstr "الحافّات"
+
+msgid "Briny"
+msgstr "مالح"
+
+msgid "Briquette"
+msgstr "قالب فحم حجريّ"
+
+msgid "Briquettes"
+msgstr "قوالب فحم حجريّ"
+
+msgid "Brisbane"
+msgstr "بريسبين"
+
+msgid "Brisk"
+msgstr "نشيط"
+
+msgid "Brisker"
+msgstr "أنشط"
+
+msgid "Briskest"
+msgstr "الأنشط"
+
+msgid "Briskly"
+msgstr "بنشاط"
+
+msgid "Briskness"
+msgstr "النّشاط"
+
+msgid "Bristle"
+msgstr "الشّعر الخشن"
+
+msgid "Bristled"
+msgstr "وقف"
+
+msgid "Bristles"
+msgstr "الشّعر الخشن"
+
+msgid "Bristlier"
+msgstr "أكثر خشونة"
+
+msgid "Bristliness"
+msgstr "حالة الشعر الخشن"
+
+msgid "Bristling"
+msgstr "الوقوف"
+
+msgid "Bristly"
+msgstr "خشن"
+
+msgid "Bristol"
+msgstr "بريستول"
+
+msgid "Bristols"
+msgstr "الثّدي"
+
+msgid "Britain"
+msgstr "بريطانيا"
+
+msgid "Britannic"
+msgstr "بريطانيّ"
+
+msgid "Britannica"
+msgstr "بريتانيكا"
+
+msgid "Britches"
+msgstr "البنطلون"
+
+msgid "British"
+msgstr "بريطانيّ"
+
+msgid "Britisher"
+msgstr "البريطانيّ"
+
+msgid "Britishly"
+msgstr "بشكل بريطاني"
+
+msgid "Briton"
+msgstr "البريطانيّ"
+
+msgid "Britons"
+msgstr "البريطانيّون"
+
+msgid "BritPop"
+msgstr "بوب بريطاني"
+
+msgid "Brittany"
+msgstr "بريتاني"
+
+msgid "Britten"
+msgstr "بريتين"
+
+msgid "Brittle"
+msgstr "هشّ"
+
+msgid "Brittlely"
+msgstr "بهشاشة"
+
+msgid "Brittleness"
+msgstr "الهشاشة"
+
+msgid "Brittler"
+msgstr "هشّ"
+
+msgid "Brittlest"
+msgstr "هشّ"
+
+msgid "Broach"
+msgstr "اطرح"
+
+msgid "Broached"
+msgstr "طرح"
+
+msgid "Broacher"
+msgstr "الذي يطرح، الذي ينطق"
+
+msgid "Broaches"
+msgstr "يطرح"
+
+msgid "Broaching"
+msgstr "الطّرح"
+
+msgid "Broad"
+msgstr "المرأة"
+
+msgid "Broadband"
+msgstr "البثّ المكثّف"
+
+msgid "Broadcast"
+msgstr "البرنامج"
+
+msgid "Broadcasted"
+msgstr "أذاع"
+
+msgid "Broadcaster"
+msgstr "المذيع"
+
+msgid "Broadcasters"
+msgstr "المذيعون"
+
+msgid "Broadcasting"
+msgstr "البثّ"
+
+msgid "Broadcastings"
+msgstr "البثّ"
+
+msgid "Broadcasts"
+msgstr "البرامج"
+
+msgid "Broaden"
+msgstr "اتسع"
+
+msgid "Broadened"
+msgstr "اتّسع"
+
+msgid "Broadener"
+msgstr "مُوسّع"
+
+msgid "Broadening"
+msgstr "الاتّساع"
+
+msgid "Broadens"
+msgstr "يتّسع"
+
+msgid "Broader"
+msgstr "أوسع"
+
+msgid "Broadest"
+msgstr "الأوسع"
+
+msgid "Broadloom"
+msgstr "منسوج على نول عريض"
+
+msgid "Broadly"
+msgstr "بوجه عامّ"
+
+msgid "Broadness"
+msgstr "الاتّساع"
+
+msgid "Broads"
+msgstr "النّساء"
+
+msgid "Broadside"
+msgstr "النّقد"
+
+msgid "Broadsides"
+msgstr "النّقد"
+
+msgid "Broadway"
+msgstr "برودواي"
+
+msgid "Brocade"
+msgstr "القطيفة"
+
+msgid "Brocaded"
+msgstr "مطرّز"
+
+msgid "Broccoli"
+msgstr "القرنبيط"
+
+msgid "Brochure"
+msgstr "الكتيّب"
+
+msgid "Brochures"
+msgstr "الكتيّبات"
+
+msgid "Brock"
+msgstr "بروك"
+
+msgid "Brockle"
+msgstr "بروكل"
+
+msgid "Broglie"
+msgstr "بروجلي"
+
+msgid "Broider"
+msgstr "طرّز"
+
+msgid "Broiders"
+msgstr "يطرّز"
+
+msgid "Broil"
+msgstr "اشو"
+
+msgid "Broiled"
+msgstr "شوى"
+
+msgid "Broiler"
+msgstr "الشّوّاية"
+
+msgid "Broilers"
+msgstr "الشّوّايات"
+
+msgid "Broiling"
+msgstr "حارق"
+
+msgid "Broils"
+msgstr "يشوي"
+
+msgid "Broke"
+msgstr "انكسر"
+
+msgid "Broken"
+msgstr "انكسر"
+
+msgid "Brokenhearted"
+msgstr "يائس"
+
+msgid "Brokenly"
+msgstr "بشكل متكسّر"
+
+msgid "Brokenness"
+msgstr "حالة الكسر"
+
+msgid "Broker"
+msgstr "السّمسار"
+
+msgid "Brokerage"
+msgstr "السّمسرة"
+
+msgid "Brokerages"
+msgstr "السّمسرات"
+
+msgid "Brokers"
+msgstr "السّماسرة"
+
+msgid "Bromfield"
+msgstr "برومفيلد"
+
+msgid "Bromide"
+msgstr "المهدّئ"
+
+msgid "Bromides"
+msgstr "المهدّئات"
+
+msgid "Bromine"
+msgstr "البروم"
+
+msgid "Bromley"
+msgstr "بروملي"
+
+msgid "Bronc"
+msgstr "الفرس"
+
+msgid "Bronchi"
+msgstr "القصبات"
+
+msgid "Bronchial"
+msgstr "شعبيّ"
+
+msgid "Bronchiolar"
+msgstr "له علاقة بالقصيبات"
+
+msgid "Bronchiole"
+msgstr "القصيبة"
+
+msgid "Bronchioles"
+msgstr "القصيبات"
+
+msgid "Bronchiolitis"
+msgstr "إلتهاب القصيبات"
+
+msgid "Bronchitis"
+msgstr "التهاب الرّئويّ"
+
+msgid "Bronchus"
+msgstr "الشّعبة"
+
+msgid "Bronco"
+msgstr "البرونكو"
+
+msgid "Broncos"
+msgstr "البرونكو"
+
+msgid "Brontosaurus"
+msgstr "الدّيناصور"
+
+msgid "Bronx"
+msgstr "برونكس"
+
+msgid "Bronze"
+msgstr "البرونز"
+
+msgid "Bronzed"
+msgstr "برونزيّ البشرة"
+
+msgid "Bronzer"
+msgstr "برونزيّ"
+
+msgid "Bronzes"
+msgstr "البرونز"
+
+msgid "Bronzing"
+msgstr "البرنزة"
+
+msgid "Bronzy"
+msgstr "برونزي"
+
+msgid "Brooch"
+msgstr "دبّوس الزّينة"
+
+msgid "Brooches"
+msgstr "دبابيس الزّينة"
+
+msgid "Brood"
+msgstr "العائلة"
+
+msgid "Brooded"
+msgstr "فكّر"
+
+msgid "Brooder"
+msgstr "الحظيرة"
+
+msgid "Brooders"
+msgstr "الحظائر"
+
+msgid "Broodiness"
+msgstr "الحضن"
+
+msgid "Brooding"
+msgstr "التّفكير"
+
+msgid "Broodingly"
+msgstr "بشكل مهيب"
+
+msgid "Broods"
+msgstr "العائلات"
+
+msgid "Broody"
+msgstr "متأمّل"
+
+msgid "Brook"
+msgstr "الجدول"
+
+msgid "Brookdale"
+msgstr "بروكديل"
+
+msgid "Brooke"
+msgstr "بروك"
+
+msgid "Brooked"
+msgstr "تحمّل"
+
+msgid "Brookfield"
+msgstr "بروكفيلد"
+
+msgid "Brookhaven"
+msgstr "بروخافين"
+
+msgid "Brookline"
+msgstr "بروكلاين"
+
+msgid "Brooklyn"
+msgstr "بروكلين"
+
+msgid "Brookmont"
+msgstr "بروكماونت"
+
+msgid "Brooks"
+msgstr "الجداول"
+
+msgid "Brookside"
+msgstr "بروكسايد"
+
+msgid "Broom"
+msgstr "المقشّة"
+
+msgid "Broomcorn"
+msgstr "الذّرة"
+
+msgid "Broomed"
+msgstr "مكنوس (من الكنس بمكنسة) "
+
+msgid "Brooming"
+msgstr "يكنس"
+
+msgid "Brooms"
+msgstr "المقشّات"
+
+msgid "Broomstick"
+msgstr "العصا"
+
+msgid "Broomsticks"
+msgstr "العصيّ"
+
+msgid "Broth"
+msgstr "الحساء"
+
+msgid "Brothel"
+msgstr "بيت الدّعارة"
+
+msgid "Brothels"
+msgstr "بيوت الدّعارة"
+
+msgid "Brother"
+msgstr "الأخ"
+
+msgid "Brotherhood"
+msgstr "الأخوّة"
+
+msgid "Brotherhoods"
+msgstr "الجمعيّات"
+
+msgid "Brotherliness"
+msgstr "الأخوّة"
+
+msgid "Brotherly"
+msgstr "أخويّ"
+
+msgid "Brothers"
+msgstr "الإخوة"
+
+msgid "Broths"
+msgstr "الحساء"
+
+msgid "Brought"
+msgstr "أحضر"
+
+msgid "Brouhaha"
+msgstr "الضّجيج"
+
+msgid "Brow"
+msgstr "الحاجب"
+
+msgid "Browbeat"
+msgstr "اكره"
+
+msgid "Browbeaten"
+msgstr "أكره"
+
+msgid "Browbeating"
+msgstr "الإكراه"
+
+msgid "Browbeats"
+msgstr "يكره"
+
+msgid "Brown"
+msgstr "احمر"
+
+msgid "Browne"
+msgstr "براون"
+
+msgid "Browned"
+msgstr "احمرّ"
+
+msgid "Brownell"
+msgstr "براونيل"
+
+msgid "Browner"
+msgstr "أكثر بنّيًّا"
+
+msgid "Brownest"
+msgstr "الأكثر بنّيًّا"
+
+msgid "Brownian"
+msgstr "متعلق بروبرت براون"
+
+msgid "Brownie"
+msgstr "الكعكة"
+
+msgid "Brownies"
+msgstr "الكعك"
+
+msgid "Browning"
+msgstr "الاحمرار"
+
+msgid "Brownish"
+msgstr "ضارب إلى السّمرة"
+
+msgid "Brownness"
+msgstr "اِسْمِرار سُمْرَة"
+
+msgid "Browns"
+msgstr "يحمرّ"
+
+msgid "Brows"
+msgstr "الحواجب"
+
+msgid "Browse"
+msgstr "تصفّح"
+
+msgid "Browsed"
+msgstr "تصفّح"
+
+msgid "Browser"
+msgstr "المتصفّح، المستعرض"
+
+msgid "Browsers"
+msgstr "المتصفّحات"
+
+msgid "Browses"
+msgstr "يتصفّح"
+
+msgid "Browsing"
+msgstr "التّصفّح"
+
+msgid "Bruce"
+msgstr "برس"
+
+msgid "Brucellosis"
+msgstr "الحمّى المتموّجة"
+
+msgid "Bruckner"
+msgstr "برَكْنَر"
+
+msgid "Bruegel"
+msgstr "بريجل"
+
+msgid "Bruise"
+msgstr "الكدمة"
+
+msgid "Bruised"
+msgstr "انجرح"
+
+msgid "Bruiser"
+msgstr "الضّخم"
+
+msgid "Bruisers"
+msgstr "الضّخام"
+
+msgid "Bruises"
+msgstr "الكدمات"
+
+msgid "Bruising"
+msgstr "الكدمة"
+
+msgid "Bruit"
+msgstr "الإشاعة"
+
+msgid "Bruiting"
+msgstr "النّشر"
+
+msgid "Brunch"
+msgstr "الغداء"
+
+msgid "Brunches"
+msgstr "الغداء"
+
+msgid "Brunei"
+msgstr "بروناي"
+
+msgid "Brunette"
+msgstr "المرأة"
+
+msgid "Brunettes"
+msgstr "النّساء"
+
+msgid "Brunhilde"
+msgstr "برانهيلد"
+
+msgid "Bruno"
+msgstr "برونو"
+
+msgid "Brunswick"
+msgstr "برنسويك"
+
+msgid "Brunt"
+msgstr "الوطأة"
+
+msgid "Brush"
+msgstr "الفرشة"
+
+msgid "Brushed"
+msgstr "ناعم"
+
+msgid "Brusher"
+msgstr "المفرش بالفرشاة"
+
+msgid "Brushes"
+msgstr "الفرش"
+
+msgid "Brushier"
+msgstr "كَثِيث"
+
+msgid "Brushing"
+msgstr "التّنظيف"
+
+msgid "Brushlike"
+msgstr "يشبه الفرشاة"
+
+msgid "Brushwood"
+msgstr "العيدان"
+
+msgid "Brushwork"
+msgstr "الرّسم"
+
+msgid "Brushy"
+msgstr "كثيف"
+
+msgid "Brusque"
+msgstr "فظّ"
+
+msgid "Brusquely"
+msgstr "بصورة فظّة"
+
+msgid "Brusqueness"
+msgstr "الجفاء"
+
+msgid "Brussels"
+msgstr "بروكسل"
+
+msgid "Brutal"
+msgstr "وحشيّ"
+
+msgid "Brutalities"
+msgstr "الوحشيّ"
+
+msgid "Brutality"
+msgstr "الوحشيّة"
+
+msgid "Brutalization"
+msgstr "النّزع الإنسانيّة"
+
+msgid "Brutalizations"
+msgstr "برتاليزاشنس"
+
+msgid "Brutalize"
+msgstr "اجعل بهيميًّا"
+
+msgid "Brutalized"
+msgstr "جعل بهيميًّا"
+
+msgid "Brutalizes"
+msgstr "يجعل بهيميًّا"
+
+msgid "Brutalizing"
+msgstr "جعل بهيميًّا"
+
+msgid "Brutally"
+msgstr "بوحشيّة"
+
+msgid "Brute"
+msgstr "المتوحّش"
+
+msgid "Brutes"
+msgstr "المتوحّشون"
+
+msgid "Brutish"
+msgstr "غير عقلانيّ"
+
+msgid "Brutishly"
+msgstr "بصورة وحشيّة"
+
+msgid "Brutishness"
+msgstr "الوحشيّة"
+
+msgid "Bruxelles"
+msgstr "بروكسيل"
+
+msgid "Bryan"
+msgstr "بريان"
+
+msgid "Bryant"
+msgstr "بريانت"
+
+msgid "Bryce"
+msgstr "بريس"
+
+msgid "Bryn"
+msgstr "برين"
+
+msgid "Bryophyta"
+msgstr "النبات الطحلبي"
+
+msgid "Bryophyte"
+msgstr "النّبات الطّحلبيّ"
+
+msgid "Bryozoa"
+msgstr "كائنات حية بحرية"
+
+msgid "BS"
+msgstr "بكالوريوس علوم"
+
+msgid "BSD"
+msgstr "بي إس دي"
+
+msgid "BSTJ"
+msgstr "الصحيفة الفنية لأنظمة بيل"
+
+msgid "BTL"
+msgstr "زجاجة"
+
+msgid "BTU"
+msgstr "بي تي يو - وحدة حرارية"
+
+msgid "BTW"
+msgstr "راجع للشغل"
+
+msgid "Bub"
+msgstr "الرّجل"
+
+msgid "Bubble"
+msgstr "الفقّاعة"
+
+msgid "Bubbled"
+msgstr "أخرج فقّاعات"
+
+msgid "Bubbler"
+msgstr "النّبع الفوّار"
+
+msgid "Bubbles"
+msgstr "الفقاقيع"
+
+msgid "Bubblier"
+msgstr "مليء بالفقّاعات"
+
+msgid "Bubbling"
+msgstr "إخراج فقّاعات"
+
+msgid "Bubbly"
+msgstr "الشامبانيا"
+
+msgid "Bubo"
+msgstr "الدبل"
+
+msgid "Bubonic"
+msgstr "متعلّق بورم غدّة لنفاويّة"
+
+msgid "Buccaneer"
+msgstr "القرصان"
+
+msgid "Buccaneers"
+msgstr "القراصنة"
+
+msgid "Buchanan"
+msgstr "بتشانان"
+
+msgid "Bucharest"
+msgstr "بوخارست"
+
+msgid "Buchenwald"
+msgstr "بتشينوالد"
+
+msgid "Buchwald"
+msgstr "بتشوالد"
+
+msgid "Buck"
+msgstr "الدّولار"
+
+msgid "Buckaroo"
+msgstr "راعي البقر"
+
+msgid "Buckaroos"
+msgstr "رعاة البقر"
+
+msgid "Buckboard"
+msgstr "الحنطور"
+
+msgid "Buckboards"
+msgstr "الحناطير"
+
+msgid "Bucked"
+msgstr "قفز"
+
+msgid "Bucker"
+msgstr "بكر"
+
+msgid "Bucket"
+msgstr "الجردل"
+
+msgid "Bucketed"
+msgstr "بكيتيد"
+
+msgid "Bucketful"
+msgstr "ملء الدّلو"
+
+msgid "Bucketfull"
+msgstr "بكيتفل"
+
+msgid "Bucketfuls"
+msgstr "ملء الدّلو"
+
+msgid "Bucketing"
+msgstr "المضاربة"
+
+msgid "Buckets"
+msgstr "الجرادل"
+
+msgid "Buckeye"
+msgstr "بك آي - أسم يطلق على مجموعة من اﻷشجار اﻷمريكية"
+
+msgid "Buckhorn"
+msgstr "قرن ذكر الحيوان"
+
+msgid "Bucking"
+msgstr "القفز"
+
+msgid "Buckle"
+msgstr "الإبزيم"
+
+msgid "Buckled"
+msgstr "التوى"
+
+msgid "Buckler"
+msgstr "التّرس"
+
+msgid "Bucklers"
+msgstr "التّروس"
+
+msgid "Buckles"
+msgstr "الأبازيم"
+
+msgid "Buckley"
+msgstr "بكلي"
+
+msgid "Buckling"
+msgstr "التواء"
+
+msgid "Bucknell"
+msgstr "بَكْنِلْ"
+
+msgid "Bucks"
+msgstr "الدّولارات"
+
+msgid "Buckshot"
+msgstr "الرّصاص"
+
+msgid "Buckskin"
+msgstr "الجلد"
+
+msgid "Buckskins"
+msgstr "الجلود"
+
+msgid "Buckthorn"
+msgstr "النّبق"
+
+msgid "Buckwheat"
+msgstr "القمح"
+
+msgid "Buckwheats"
+msgstr "القمح"
+
+msgid "Bucky"
+msgstr "بوكي"
+
+msgid "Bucolic"
+msgstr "ريفيّ"
+
+msgid "Bucolically"
+msgstr "بطريقة ريفيّة"
+
+msgid "Bud"
+msgstr "البرعم"
+
+msgid "Budapest"
+msgstr "بودابست"
+
+msgid "Budd"
+msgstr "بد"
+
+msgid "Budded"
+msgstr "أزهر"
+
+msgid "Buddha"
+msgstr "بوذا"
+
+msgid "Buddhism"
+msgstr "البوذيّة"
+
+msgid "Buddhist"
+msgstr "البوذيّ"
+
+msgid "Buddhists"
+msgstr "البوذيّون"
+
+msgid "Buddies"
+msgstr "الأصدقاء"
+
+msgid "Budding"
+msgstr "الإزهار"
+
+msgid "Buddy"
+msgstr "الصّديق"
+
+msgid "Budge"
+msgstr "تزحزح"
+
+msgid "Budged"
+msgstr "تزحزح"
+
+msgid "Budgerigar"
+msgstr "الببّغاء"
+
+msgid "Budges"
+msgstr "يتزحزح"
+
+msgid "Budget"
+msgstr "الميزانيّة"
+
+msgid "Budgetary"
+msgstr "متعلّق بالميزانيّة"
+
+msgid "Budgeted"
+msgstr "وضع ميزانيّة"
+
+msgid "Budgeter"
+msgstr "معدّ الميزانيّة"
+
+msgid "Budgeters"
+msgstr "معدّون الميزانيّة"
+
+msgid "Budgeting"
+msgstr "وضع ميزانيّة"
+
+msgid "Budgets"
+msgstr "الميزانيّات"
+
+msgid "Budgie"
+msgstr "الببّغاء"
+
+msgid "Budgies"
+msgstr "الببّغاء"
+
+msgid "Budging"
+msgstr "التّزحزح"
+
+msgid "Buds"
+msgstr "البراعم"
+
+msgid "Budweiser"
+msgstr "بدويايزر"
+
+msgid "Buehring"
+msgstr "بويرنج"
+
+msgid "Buena"
+msgstr "بْوينا"
+
+msgid "Buff"
+msgstr "الهاوي"
+
+msgid "Buffalo"
+msgstr "الجاموسة"
+
+msgid "Buffaloes"
+msgstr "الجاموسات"
+
+msgid "Buffalos"
+msgstr "الجاموسات"
+
+msgid "Buffed"
+msgstr "لمّع"
+
+msgid "Buffer"
+msgstr "الواقٍ"
+
+msgid "Buffer-bar"
+msgstr "بار الدّولة المحايدة"
+
+msgid "Buffered"
+msgstr "خفّف"
+
+msgid "Buffering"
+msgstr "التّخفيف"
+
+msgid "Buffers"
+msgstr "الواقونً"
+
+msgid "Buffet"
+msgstr "البوفيه"
+
+msgid "Buffeted"
+msgstr "لطم"
+
+msgid "Buffeting"
+msgstr "اللّطم"
+
+msgid "Buffetings"
+msgstr "الصراع"
+
+msgid "Buffets"
+msgstr "البوفيهات"
+
+msgid "Buffing"
+msgstr "التّلميع"
+
+msgid "Bufflehead"
+msgstr "الزغباء الرأس"
+
+msgid "Buffoon"
+msgstr "المهرّج"
+
+msgid "Buffooneries"
+msgstr "التهريج"
+
+msgid "Buffoonery"
+msgstr "التّهريج"
+
+msgid "Buffoons"
+msgstr "المهرّجون"
+
+msgid "Buffs"
+msgstr "الهواة"
+
+msgid "Bug"
+msgstr "البقّة"
+
+msgid "Bugaboo"
+msgstr "الشّيء المخيف"
+
+msgid "Bugatti"
+msgstr "بجاتي"
+
+msgid "Bugbear"
+msgstr "الهمّ"
+
+msgid "Bugbears"
+msgstr "الهموم"
+
+msgid "Bugeyed"
+msgstr "جاحظ"
+
+msgid "Bugged"
+msgstr "ضايق"
+
+msgid "Bugger"
+msgstr "التّافه"
+
+msgid "Buggered"
+msgstr "متعب"
+
+msgid "Buggering"
+msgstr "اللواط"
+
+msgid "Buggers"
+msgstr "التّافهون"
+
+msgid "Buggery"
+msgstr "اللواط"
+
+msgid "Buggier"
+msgstr "كثير الأخطاء"
+
+msgid "Buggies"
+msgstr "العربات"
+
+msgid "Bugginess"
+msgstr "حالة اﻷمتلاء بالبق"
+
+msgid "Bugging"
+msgstr "المضايقة"
+
+msgid "Buggy"
+msgstr "العربة"
+
+msgid "Bugle"
+msgstr "البوق"
+
+msgid "Bugled"
+msgstr "مبوّق"
+
+msgid "Bugler"
+msgstr "عازف البوق"
+
+msgid "Buglers"
+msgstr "عازفون البوق"
+
+msgid "Bugles"
+msgstr "الأبواق"
+
+msgid "Bugling"
+msgstr "التبوّق"
+
+msgid "Bugs"
+msgstr "البقّ"
+
+msgid "Buick"
+msgstr "بيوك"
+
+msgid "Build"
+msgstr "ابن"
+
+msgid "Build-host"
+msgstr "ابن المضيف"
+
+msgid "Build-time"
+msgstr "ابن الوقت"
+
+msgid "Builded"
+msgstr "بنى (العمارة، البنيان)"
+
+msgid "Builder"
+msgstr "البنّاء"
+
+msgid "Builders"
+msgstr "البنّاءون"
+
+msgid "Building"
+msgstr "المبنى"
+
+msgid "Buildings"
+msgstr "المباني"
+
+msgid "Builds"
+msgstr "البنى"
+
+msgid "Buildup"
+msgstr "التّعزيز"
+
+msgid "Buildups"
+msgstr "التّعزيزات"
+
+msgid "Built"
+msgstr "بنى"
+
+msgid "Built-in"
+msgstr "مدمج"
+
+msgid "Built-up"
+msgstr "مكتظّ بالمباني"
+
+msgid "Builtin"
+msgstr "مدمج"
+
+msgid "Bujumbura"
+msgstr "بوجمبورا"
+
+msgid "Bulb"
+msgstr "اللّمبة"
+
+msgid "Bulbed"
+msgstr "يحتوي على مصباح"
+
+msgid "Bulblet"
+msgstr "مصباح صغير"
+
+msgid "Bulbous"
+msgstr "منتفخ"
+
+msgid "Bulbs"
+msgstr "اللّمبات"
+
+msgid "Bulgaria"
+msgstr "بلغاريا"
+
+msgid "Bulgarian"
+msgstr "البلغاريّ"
+
+msgid "Bulge"
+msgstr "الانتفاخ"
+
+msgid "Bulged"
+msgstr "انتفخ"
+
+msgid "Bulges"
+msgstr "الانتفاخات"
+
+msgid "Bulging"
+msgstr "الانتفاخ"
+
+msgid "Bulgy"
+msgstr "منتفخ"
+
+msgid "Bulk"
+msgstr "المعظم"
+
+msgid "Bulked"
+msgstr "متضخّم"
+
+msgid "Bulkhead"
+msgstr "الحاجز"
+
+msgid "Bulkheads"
+msgstr "الحواجز"
+
+msgid "Bulkier"
+msgstr "أضخم"
+
+msgid "Bulkiest"
+msgstr "الأضخم"
+
+msgid "Bulkily"
+msgstr "بضخامة"
+
+msgid "Bulkiness"
+msgstr "الضّخامة"
+
+msgid "Bulks"
+msgstr "المعظم"
+
+msgid "Bulky"
+msgstr "ضخم"
+
+msgid "Bull"
+msgstr "الثّور"
+
+msgid "Bulldog"
+msgstr "البلدغ"
+
+msgid "Bulldogs"
+msgstr "البلدغ"
+
+msgid "Bulldoze"
+msgstr "اهدم"
+
+msgid "Bulldozed"
+msgstr "هدم"
+
+msgid "Bulldozer"
+msgstr "البلدوزر"
+
+msgid "Bulldozers"
+msgstr "البلدوزرات"
+
+msgid "Bulldozes"
+msgstr "يهدم"
+
+msgid "Bulldozing"
+msgstr "الهدم"
+
+msgid "Bulled"
+msgstr "شقّ"
+
+msgid "Bullet"
+msgstr "الرّصاصة"
+
+msgid "Bulletin"
+msgstr "النّشرة"
+
+msgid "Bulletins"
+msgstr "النّشرات"
+
+msgid "Bulletproof"
+msgstr "ضدّ الرّصاص"
+
+msgid "Bulletproofed"
+msgstr "جعل مضادًّا للرّصاص"
+
+msgid "Bulletproofing"
+msgstr "جعل مضادًّا للرّصاص"
+
+msgid "Bulletproofs"
+msgstr "يجعل مضادًّا للرّصاص"
+
+msgid "Bullets"
+msgstr "الرّصاص"
+
+msgid "BulletsNumbers"
+msgstr "بليتسنمبيرز"
+
+msgid "Bullfight"
+msgstr "مصارعة الثّيران"
+
+msgid "Bullfighter"
+msgstr "مصارع الثّيران"
+
+msgid "Bullfighting"
+msgstr "مصارعة الثّيران"
+
+msgid "Bullfights"
+msgstr "مصارعات الثّيران"
+
+msgid "Bullfinch"
+msgstr "البولفينش"
+
+msgid "Bullfrog"
+msgstr "الضّفدع"
+
+msgid "Bullfrogs"
+msgstr "الضّفادع"
+
+msgid "Bullhead"
+msgstr "السمك البلهد"
+
+msgid "Bullheaded"
+msgstr "عنيد"
+
+msgid "Bullheadedly"
+msgstr "بعناد"
+
+msgid "Bullheadedness"
+msgstr "العناد"
+
+msgid "Bullheads"
+msgstr "السمك البلهد"
+
+msgid "Bullied"
+msgstr "أرهب"
+
+msgid "Bullies"
+msgstr "الفتوّات"
+
+msgid "Bulling"
+msgstr "الشّقّ"
+
+msgid "Bullion"
+msgstr "السّبائك"
+
+msgid "Bullions"
+msgstr "السبائك"
+
+msgid "Bullish"
+msgstr "متفائل"
+
+msgid "Bullishly"
+msgstr "باطمئنان"
+
+msgid "Bullishness"
+msgstr "الاطمئنان"
+
+msgid "Bullnecked"
+msgstr "غليظ الرّقبة"
+
+msgid "Bullock"
+msgstr "العجل"
+
+msgid "Bullocks"
+msgstr "العجول"
+
+msgid "Bullring"
+msgstr "الحلبة"
+
+msgid "Bullrings"
+msgstr "الحلبات"
+
+msgid "Bulls"
+msgstr "الثّيران"
+
+msgid "Bullseye"
+msgstr "نقطة الهدف"
+
+msgid "Bullshit"
+msgstr "الهراء"
+
+msgid "Bullwhip"
+msgstr "السّوط"
+
+msgid "Bullwhips"
+msgstr "السياط الكبيرة"
+
+msgid "Bully"
+msgstr "الفتوّة"
+
+msgid "Bullyboy"
+msgstr "العنيف"
+
+msgid "Bullyboys"
+msgstr "البلطجيّون"
+
+msgid "Bullying"
+msgstr "الإرهاب"
+
+msgid "Bulrush"
+msgstr "عشب البرك"
+
+msgid "Bulrushes"
+msgstr "عشب البرك"
+
+msgid "Bulwark"
+msgstr "الواقٍ"
+
+msgid "Bulwarks"
+msgstr "الواقياتٌ"
+
+msgid "Bum"
+msgstr "المتشرّد"
+
+msgid "Bumble"
+msgstr "تلعثم"
+
+msgid "Bumblebee"
+msgstr "النّحلة"
+
+msgid "Bumblebees"
+msgstr "النّحل"
+
+msgid "Bumbled"
+msgstr "تلعثم"
+
+msgid "Bumbledom"
+msgstr "التلعثم"
+
+msgid "Bumbler"
+msgstr "المتردّد"
+
+msgid "Bumblers"
+msgstr "المتردّدون"
+
+msgid "Bumbles"
+msgstr "يتلعثم"
+
+msgid "Bumbling"
+msgstr "التّلعثم"
+
+msgid "Bumblingly"
+msgstr "بشكل طنّان"
+
+msgid "Bummed"
+msgstr "طلب"
+
+msgid "Bummer"
+msgstr "المشكلة"
+
+msgid "Bummers"
+msgstr "المشكلات"
+
+msgid "Bumming"
+msgstr "الطّلب"
+
+msgid "Bump"
+msgstr "اهتززت"
+
+msgid "Bumped"
+msgstr "اهتزّ"
+
+msgid "Bumper"
+msgstr "ممتصّ الصّدمة"
+
+msgid "Bumpers"
+msgstr "ممتصّات الصّدمة"
+
+msgid "Bumpier"
+msgstr "أكثر وعورة"
+
+msgid "Bumpily"
+msgstr "بشكل وعر"
+
+msgid "Bumpiness"
+msgstr "الوعورة"
+
+msgid "Bumping"
+msgstr "الاهتزاز"
+
+msgid "Bumpkin"
+msgstr "المتخلّف"
+
+msgid "Bumpkins"
+msgstr "المتخلّفون"
+
+msgid "Bumps"
+msgstr "لكدمات"
+
+msgid "Bumptious"
+msgstr "مغرور"
+
+msgid "Bumptiously"
+msgstr "بغرور"
+
+msgid "Bumptiousness"
+msgstr "الغرور"
+
+msgid "Bumpy"
+msgstr "وعر"
+
+msgid "Bums"
+msgstr "المتشرّدون"
+
+msgid "Bun"
+msgstr "الكعكة"
+
+msgid "Bunch"
+msgstr "المجموعة"
+
+msgid "Bunched"
+msgstr "اجتمع"
+
+msgid "Bunches"
+msgstr "المجموعات"
+
+msgid "Bunching"
+msgstr "الاجتماع"
+
+msgid "Bundestag"
+msgstr "بنديستاج"
+
+msgid "Bundle"
+msgstr "الحزمة"
+
+msgid "Bundled"
+msgstr "أسرع"
+
+msgid "Bundles"
+msgstr "الحزم"
+
+msgid "Bundling"
+msgstr "الإسراع"
+
+msgid "Bundy"
+msgstr "بندي"
+
+msgid "Bungalow"
+msgstr "المنزل"
+
+msgid "Bungalows"
+msgstr "المنازل"
+
+msgid "Bungle"
+msgstr "الفشل"
+
+msgid "Bungled"
+msgstr "أفسد"
+
+msgid "Bungler"
+msgstr "الغبيّ"
+
+msgid "Bunglers"
+msgstr "الأغبياء"
+
+msgid "Bungles"
+msgstr "الفشل"
+
+msgid "Bungling"
+msgstr "الفشل"
+
+msgid "Bunglingly"
+msgstr "بشكل مفسد"
+
+msgid "Bunion"
+msgstr "الورم"
+
+msgid "Bunions"
+msgstr "الأورام"
+
+msgid "Bunk"
+msgstr "السّرير"
+
+msgid "Bunked"
+msgstr "نام"
+
+msgid "Bunker"
+msgstr "مستودع الفحم"
+
+msgid "Bunkered"
+msgstr "زوّد بوقود"
+
+msgid "Bunkering"
+msgstr "بنكيرينج"
+
+msgid "Bunkers"
+msgstr "مستودعات الفحم"
+
+msgid "Bunkhouse"
+msgstr "الاستراحة"
+
+msgid "Bunkhouses"
+msgstr "الاستراحات"
+
+msgid "Bunking"
+msgstr "النّوم"
+
+msgid "Bunkmate"
+msgstr "مُشاطر مكان النوم"
+
+msgid "Bunkmates"
+msgstr "مشاطروا مكان النوم"
+
+msgid "Bunks"
+msgstr "الأسرّة"
+
+msgid "Bunnies"
+msgstr "الأرانب"
+
+msgid "Bunny"
+msgstr "الأرنب"
+
+msgid "Buns"
+msgstr "الكعك"
+
+msgid "Bunsen"
+msgstr "بنسن"
+
+msgid "Bunt"
+msgstr "الضّربة"
+
+msgid "Bunted"
+msgstr "ألقى"
+
+msgid "Bunter"
+msgstr "متعلق بالعصر الترياسي"
+
+msgid "Bunting"
+msgstr "الرّايات"
+
+msgid "Bunts"
+msgstr "الضّربات"
+
+msgid "Bunyan"
+msgstr "بَنْيان"
+
+msgid "Buoy"
+msgstr "العوّامة"
+
+msgid "Buoyancy"
+msgstr "الطّفو"
+
+msgid "Buoyant"
+msgstr "متفائل"
+
+msgid "Buoyantly"
+msgstr "بانشراح"
+
+msgid "Buoyed"
+msgstr "ساند"
+
+msgid "Buoying"
+msgstr "المساندة"
+
+msgid "Buoys"
+msgstr "العوّامات"
+
+msgid "Bur"
+msgstr "الأزيز"
+
+msgid "Burbank"
+msgstr "بربانك"
+
+msgid "Burble"
+msgstr "التّمتمة"
+
+msgid "Burbled"
+msgstr "هذى"
+
+msgid "Burbler"
+msgstr "متمتم"
+
+msgid "Burbles"
+msgstr "يهذي"
+
+msgid "Burbling"
+msgstr "البقبقة"
+
+msgid "Burch"
+msgstr "بورتش"
+
+msgid "Burden"
+msgstr "المسئوليّة"
+
+msgid "Burdened"
+msgstr "أرهق"
+
+msgid "Burdening"
+msgstr "الإرهاق"
+
+msgid "Burdens"
+msgstr "المسئوليّات"
+
+msgid "Burdensome"
+msgstr "ثقيل"
+
+msgid "Burdensomely"
+msgstr "على نحو مرهق"
+
+msgid "Burdensomeness"
+msgstr "الفداحة"
+
+msgid "Burdock"
+msgstr "الأرقطيون"
+
+msgid "Bure"
+msgstr "نهر البر"
+
+msgid "Bureau"
+msgstr "المكتب"
+
+msgid "Bureaucracies"
+msgstr "البيروقراطيّون"
+
+msgid "Bureaucracy"
+msgstr "البيروقراطيّة"
+
+msgid "Bureaucrat"
+msgstr "البيروقراطيّ"
+
+msgid "Bureaucratic"
+msgstr "بيروقراطيّ"
+
+msgid "Bureaucratically"
+msgstr "بطريقة بيروقراطيّة"
+
+msgid "Bureaucratization"
+msgstr "البيروقراطيّة"
+
+msgid "Bureaucratizations"
+msgstr "البرقطة"
+
+msgid "Bureaucratize"
+msgstr "اجعل بيروقراطيًّا"
+
+msgid "Bureaucratized"
+msgstr "جعل بيروقراطيًّا"
+
+msgid "Bureaucratizes"
+msgstr "يجعل بيروقراطيًّا"
+
+msgid "Bureaucratizing"
+msgstr "جعل بيروقراطيًّا"
+
+msgid "Bureaucrats"
+msgstr "البيروقراطيّون"
+
+msgid "Bureaus"
+msgstr "المكاتب"
+
+msgid "Buret"
+msgstr "الإنبوبة القياس"
+
+msgid "Burette"
+msgstr "الإنبوبة القياس"
+
+msgid "Burettes"
+msgstr "أنابيب القياس"
+
+msgid "Burg"
+msgstr "المدينة"
+
+msgid "Burgee"
+msgstr "العلم"
+
+msgid "Burgees"
+msgstr "الأعلام"
+
+msgid "Burgeon"
+msgstr "نموت"
+
+msgid "Burgeoned"
+msgstr "نما"
+
+msgid "Burgeoning"
+msgstr "النّماء"
+
+msgid "Burgeons"
+msgstr "ينمو"
+
+msgid "Burger"
+msgstr "اللّحم"
+
+msgid "Burgers"
+msgstr "اللّحوم"
+
+msgid "Burgess"
+msgstr "المواطن"
+
+msgid "Burgesses"
+msgstr "المواطنون"
+
+msgid "Burgher"
+msgstr "السّاكن"
+
+msgid "Burghers"
+msgstr "السّكّان"
+
+msgid "Burglar"
+msgstr "اللّصّ"
+
+msgid "Burglaries"
+msgstr "السّطو"
+
+msgid "Burglarize"
+msgstr "اسط"
+
+msgid "Burglarized"
+msgstr "سطا"
+
+msgid "Burglarizes"
+msgstr "يسطو"
+
+msgid "Burglarizing"
+msgstr "السّطو"
+
+msgid "Burglarproof"
+msgstr "ضمان ضدّ السرقة"
+
+msgid "Burglars"
+msgstr "اللّصوص"
+
+msgid "Burglary"
+msgstr "السّطو"
+
+msgid "Burgle"
+msgstr "اسط"
+
+msgid "Burgled"
+msgstr "سطا"
+
+msgid "Burgles"
+msgstr "يسطو"
+
+msgid "Burgling"
+msgstr "السّطو"
+
+msgid "Burgs"
+msgstr "المدن"
+
+msgid "Burgundian"
+msgstr "برغنديّ"
+
+msgid "Burgundies"
+msgstr "الخمور الفرنسيّة"
+
+msgid "Burgundy"
+msgstr "الخمر الفرنسيّ"
+
+msgid "Burial"
+msgstr "الدّفن"
+
+msgid "Burials"
+msgstr "الدّفن"
+
+msgid "Buried"
+msgstr "دفن"
+
+msgid "Burier"
+msgstr "الدّافن"
+
+msgid "Buries"
+msgstr "يدفن"
+
+msgid "Burke"
+msgstr "اخنق"
+
+msgid "Burl"
+msgstr "العقدة"
+
+msgid "Burlap"
+msgstr "الخيش"
+
+msgid "Burlaps"
+msgstr "الخيش"
+
+msgid "Burled"
+msgstr "عمل عقدة في الثياب"
+
+msgid "Burler"
+msgstr "الذي يعقد الثياب (عمل عقدة)"
+
+msgid "Burlesque"
+msgstr "السّخرية"
+
+msgid "Burlesqued"
+msgstr "سخر"
+
+msgid "Burlesquely"
+msgstr "بشكل هزلي"
+
+msgid "Burlesquer"
+msgstr "هزلي"
+
+msgid "Burlesques"
+msgstr "السّخريات"
+
+msgid "Burlesquing"
+msgstr "السّخرية"
+
+msgid "Burley"
+msgstr "البرلي"
+
+msgid "Burlier"
+msgstr "أقوى"
+
+msgid "Burliest"
+msgstr "الأقوى"
+
+msgid "Burliness"
+msgstr "القوّة"
+
+msgid "Burlingame"
+msgstr "بورلنجام"
+
+msgid "Burlington"
+msgstr "بيرلينجتون -  المدينة الأكبر في ولاية فيرمونت اﻷمريكية"
+
+msgid "Burls"
+msgstr "العقد"
+
+msgid "Burly"
+msgstr "قويّ"
+
+msgid "Burma"
+msgstr "بورما"
+
+msgid "Burmese"
+msgstr "البورميّ"
+
+msgid "Burn"
+msgstr "الحرق"
+
+msgid "Burn-in"
+msgstr "احترق بالدّاخل"
+
+msgid "Burn-out"
+msgstr "التّوقّف"
+
+msgid "Burned"
+msgstr "احترق"
+
+msgid "Burner"
+msgstr "الشّعلة"
+
+msgid "Burners"
+msgstr "الشّعلات"
+
+msgid "Burnes"
+msgstr "برنيز"
+
+msgid "Burnett"
+msgstr "برنيت"
+
+msgid "Burnham"
+msgstr "برنهام"
+
+msgid "Burning"
+msgstr "الاحتراق"
+
+msgid "Burningly"
+msgstr "بشكل محترق"
+
+msgid "Burnings"
+msgstr "الإحتراق"
+
+msgid "Burnish"
+msgstr "اصقل"
+
+msgid "Burnished"
+msgstr "ملمّع"
+
+msgid "Burnisher"
+msgstr "الملمّع"
+
+msgid "Burnishers"
+msgstr "الملمّعون"
+
+msgid "Burnishes"
+msgstr "يصقل"
+
+msgid "Burnishing"
+msgstr "الصّقل"
+
+msgid "Burnout"
+msgstr "التّوقّف"
+
+msgid "Burnouts"
+msgstr "التّوقّف"
+
+msgid "Burns"
+msgstr "الحروق"
+
+msgid "Burnside"
+msgstr "الزوالف (شعر الوجه عند الرجل)"
+
+msgid "Burnsides"
+msgstr "الزوالف (شعر الوجه عند الرجل)"
+
+msgid "Burnt"
+msgstr "احترق"
+
+msgid "Burntly"
+msgstr "بشكل محترق"
+
+msgid "Burp"
+msgstr "التّجشّؤ"
+
+msgid "Burped"
+msgstr "تجشّأ"
+
+msgid "Burping"
+msgstr "التّجشّؤ"
+
+msgid "Burps"
+msgstr "التّجشّؤ"
+
+msgid "Burr"
+msgstr "الأزيز"
+
+msgid "Burred"
+msgstr "أحدث طنينًا"
+
+msgid "Burrer"
+msgstr "الطنّان"
+
+msgid "Burro"
+msgstr "الجحش"
+
+msgid "Burros"
+msgstr "الجحشات"
+
+msgid "Burroughs"
+msgstr "بروجهس"
+
+msgid "Burrow"
+msgstr "الجحر"
+
+msgid "Burrowed"
+msgstr "اخترق"
+
+msgid "Burrower"
+msgstr "المستعير"
+
+msgid "Burrowing"
+msgstr "الاختراق"
+
+msgid "Burrows"
+msgstr "الجحور"
+
+msgid "Burrs"
+msgstr "الأزيز"
+
+msgid "Burs"
+msgstr "الأزيز"
+
+msgid "Bursa"
+msgstr "الكيس"
+
+msgid "Bursar"
+msgstr "أمين الصّندوق"
+
+msgid "Bursars"
+msgstr "أمناء الصّندوق"
+
+msgid "Bursary"
+msgstr "المنحة"
+
+msgid "Bursas"
+msgstr "الأكياس"
+
+msgid "Bursitis"
+msgstr "التهاب كيسي"
+
+msgid "Burst"
+msgstr "الانفجار"
+
+msgid "Bursted"
+msgstr "انفجر"
+
+msgid "Burster"
+msgstr "المفجر"
+
+msgid "Bursting"
+msgstr "الانفجار"
+
+msgid "Burstings"
+msgstr "برستينجز"
+
+msgid "Bursts"
+msgstr "الانفجارات"
+
+msgid "Bursty"
+msgstr "متقطّع"
+
+msgid "Burt"
+msgstr "برت"
+
+msgid "Burton"
+msgstr "برتون"
+
+msgid "Burtt"
+msgstr "برت"
+
+msgid "Burundi"
+msgstr "بوروندي"
+
+msgid "Bury"
+msgstr "ادفن"
+
+msgid "Burying"
+msgstr "الدّفن"
+
+msgid "Burys"
+msgstr "بريس"
+
+msgid "Bus"
+msgstr "الحافلة"
+
+msgid "Busbar"
+msgstr "بسبار"
+
+msgid "Busboy"
+msgstr "العامل"
+
+msgid "Busboys"
+msgstr "العمّال"
+
+msgid "Busch"
+msgstr "بوش"
+
+msgid "Bused"
+msgstr "بسيد"
+
+msgid "Buses"
+msgstr "الحافلات"
+
+msgid "Bush"
+msgstr "بوش"
+
+msgid "Bushed"
+msgstr "مرهق"
+
+msgid "Bushel"
+msgstr "البوشل"
+
+msgid "Busheled"
+msgstr "قام بعمل رديىء"
+
+msgid "Busheling"
+msgstr "القيام بعمل رديىء"
+
+msgid "Bushels"
+msgstr "البوشل"
+
+msgid "Bushes"
+msgstr "الشّجيرات"
+
+msgid "Bushier"
+msgstr "أكثر كثافة"
+
+msgid "Bushiest"
+msgstr "الأكثر كثافة"
+
+msgid "Bushily"
+msgstr "بشكل كثيف"
+
+msgid "Bushiness"
+msgstr "الكثافة"
+
+msgid "Bushing"
+msgstr "البطانة"
+
+msgid "Bushings"
+msgstr "البطانات"
+
+msgid "Bushmaster"
+msgstr "الثّعبان"
+
+msgid "Bushnell"
+msgstr "بُشْنِل"
+
+msgid "Bushwhack"
+msgstr "عش في الأدغال"
+
+msgid "Bushwhacked"
+msgstr "عاش في الأدغال"
+
+msgid "Bushwhacker"
+msgstr "المهاجم"
+
+msgid "Bushwhackers"
+msgstr "المهاجمون"
+
+msgid "Bushwhacking"
+msgstr "عيشة في الأدغال"
+
+msgid "Bushwhacks"
+msgstr "يعيش في الأدغال"
+
+msgid "Bushy"
+msgstr "كثيف"
+
+msgid "Busied"
+msgstr "شغل"
+
+msgid "Busier"
+msgstr "أكثر انشغالاً"
+
+msgid "Busies"
+msgstr "يشغل"
+
+msgid "Busiest"
+msgstr "الأكثر انشغالاً"
+
+msgid "Busily"
+msgstr "منشغلاً"
+
+msgid "Business"
+msgstr "التّجارة"
+
+msgid "Businesses"
+msgstr "الأعمال"
+
+msgid "Businesslike"
+msgstr "عمليّ"
+
+msgid "Businessman"
+msgstr "رجل الأعمال"
+
+msgid "Businessmen"
+msgstr "رجال الأعمال"
+
+msgid "Businesswoman"
+msgstr "سيّدة الأعمال"
+
+msgid "Busing"
+msgstr "مجموعة الحانات"
+
+msgid "Buskin"
+msgstr "الحذاء"
+
+msgid "Buss"
+msgstr "الحافلات"
+
+msgid "Busse"
+msgstr "بوسّيه"
+
+msgid "Bussed"
+msgstr "قبّل"
+
+msgid "Bussen"
+msgstr "بُسِّن"
+
+msgid "Busses"
+msgstr "يقبّل"
+
+msgid "Bussing"
+msgstr "التّقبيل"
+
+msgid "Bust"
+msgstr "التّمثال"
+
+msgid "Bustard"
+msgstr "دجاجة البرّ"
+
+msgid "Bustards"
+msgstr "دجاج البرّ"
+
+msgid "Busted"
+msgstr "كسر"
+
+msgid "Buster"
+msgstr "المغفّل"
+
+msgid "Busting"
+msgstr "الكسر"
+
+msgid "Bustle"
+msgstr "الضّجيج"
+
+msgid "Bustled"
+msgstr "تخبّط"
+
+msgid "Bustles"
+msgstr "الحمّالات"
+
+msgid "Bustling"
+msgstr "التّخبّط"
+
+msgid "Bustlingly"
+msgstr "بشكل نشط"
+
+msgid "Busts"
+msgstr "التّماثيل"
+
+msgid "Busy"
+msgstr "مشغول"
+
+msgid "Busybodies"
+msgstr "الفضول"
+
+msgid "Busybody"
+msgstr "الفضوليّ"
+
+msgid "Busying"
+msgstr "الشّغل"
+
+msgid "Busyness"
+msgstr "الانشغال"
+
+msgid "But"
+msgstr "لكنّ"
+
+msgid "Butadiene"
+msgstr "البيوتاديين"
+
+msgid "Butane"
+msgstr "البيوتان"
+
+msgid "Butch"
+msgstr "المترجّلة"
+
+msgid "Butcher"
+msgstr "الجزّار"
+
+msgid "Butchered"
+msgstr "ذبح"
+
+msgid "Butcherer"
+msgstr "الجزار"
+
+msgid "Butcheries"
+msgstr "المذابح"
+
+msgid "Butchering"
+msgstr "الذّبح"
+
+msgid "Butcherly"
+msgstr "دمويّ"
+
+msgid "Butchers"
+msgstr "الجزّارون"
+
+msgid "Butchery"
+msgstr "المذبحة"
+
+msgid "Butene"
+msgstr "بوتين - هيدروكربون الأيسومري (صناعة المطاط)"
+
+msgid "Buteo"
+msgstr "بوتيو - نوع من الصقور"
+
+msgid "Butler"
+msgstr "رئيس الخدم"
+
+msgid "Butlers"
+msgstr "رؤساء الخدم"
+
+msgid "Butt"
+msgstr "الهدف"
+
+msgid "Butte"
+msgstr "التّلّ"
+
+msgid "Butted"
+msgstr "نطح"
+
+msgid "Butter"
+msgstr "الزّبدة"
+
+msgid "Butterball"
+msgstr "البدين"
+
+msgid "Buttercup"
+msgstr "رجل الغراب"
+
+msgid "Buttered"
+msgstr "دهن بالزّبد"
+
+msgid "Butterfat"
+msgstr "الدّسم"
+
+msgid "Butterfield"
+msgstr "بَتَرْفيلد"
+
+msgid "Butterflies"
+msgstr "الفراشات"
+
+msgid "Butterfly"
+msgstr "الفراشة"
+
+msgid "Buttering"
+msgstr "دهن بالزّبد"
+
+msgid "Buttermilk"
+msgstr "اللّبن"
+
+msgid "Butternut"
+msgstr "الجوز"
+
+msgid "Butters"
+msgstr "يدهن بالزّبد"
+
+msgid "Butterscotch"
+msgstr "الحلوى"
+
+msgid "Buttery"
+msgstr "محتوي على زبدة"
+
+msgid "Buttes"
+msgstr "التّلال"
+
+msgid "Butting"
+msgstr "النّطح"
+
+msgid "Buttock"
+msgstr "الأرداف"
+
+msgid "Buttocks"
+msgstr "الأرداف"
+
+msgid "Button"
+msgstr "الزّرّ"
+
+msgid "Buttoned"
+msgstr "زرّر"
+
+msgid "Buttoner"
+msgstr "بتونر"
+
+msgid "Buttonhole"
+msgstr "العروة"
+
+msgid "Buttonholer"
+msgstr "المُكْرِه"
+
+msgid "Buttonholes"
+msgstr "العرّاوي"
+
+msgid "Buttoning"
+msgstr "التّزرير"
+
+msgid "Buttons"
+msgstr "الأزرار"
+
+msgid "Buttonweed"
+msgstr "بوتونويد - نوع من النباتات"
+
+msgid "Buttress"
+msgstr "الدّعامة"
+
+msgid "Buttressed"
+msgstr "دعّم"
+
+msgid "Buttresses"
+msgstr "الدّعائم"
+
+msgid "Buttressing"
+msgstr "التّدعيم"
+
+msgid "Buttrick"
+msgstr "بَتْرِك"
+
+msgid "Butts"
+msgstr "الأهداف"
+
+msgid "Butyl"
+msgstr "بوتيل - مركب كيميائي"
+
+msgid "Butyraceous"
+msgstr "زبدي"
+
+msgid "Butyrate"
+msgstr "الزبدات"
+
+msgid "Butyric"
+msgstr "زبدي"
+
+msgid "Buxom"
+msgstr "ناهدة"
+
+msgid "Buxomly"
+msgstr "بشكل سمين"
+
+msgid "Buxomness"
+msgstr "الطاعة"
+
+msgid "Buxtehude"
+msgstr "بَكْسْتيهودِه"
+
+msgid "Buxton"
+msgstr "بكستون"
+
+msgid "Buy"
+msgstr "اشتر"
+
+msgid "Buyable"
+msgstr "قابل للشراء"
+
+msgid "Buyer"
+msgstr "المشتري"
+
+msgid "Buyers"
+msgstr "المشترون"
+
+msgid "Buying"
+msgstr "الشّراء"
+
+msgid "Buys"
+msgstr "يشتري"
+
+msgid "Buzz"
+msgstr "الطّنين"
+
+msgid "Buzzard"
+msgstr "الصّقر"
+
+msgid "Buzzards"
+msgstr "الصّقور"
+
+msgid "Buzzed"
+msgstr "أزّ"
+
+msgid "Buzzer"
+msgstr "الطّنّان"
+
+msgid "Buzzes"
+msgstr "الطّنين"
+
+msgid "Buzzing"
+msgstr "الأزّ"
+
+msgid "Buzzsaw"
+msgstr "المنشار"
+
+msgid "Buzzword"
+msgstr "التّعبير الطّنّان"
+
+msgid "Buzzwords"
+msgstr "التّعبيرات الطّنّانة"
+
+msgid "Buzzy"
+msgstr "طنّان"
+
+msgid "Bwd"
+msgstr "تراجع"
+
+msgid "By"
+msgstr "ب"
+
+msgid "By-law"
+msgstr "القانون المحلّيّ"
+
+msgid "By-product"
+msgstr "النّتيجة الثّانويّة"
+
+msgid "Bye"
+msgstr "وقفة التّأهّب"
+
+msgid "Byers"
+msgstr "بايِرْز"
+
+msgid "Byes"
+msgstr "وقفات التّأهّب"
+
+msgid "Bygone"
+msgstr "مهجور"
+
+msgid "Bygones"
+msgstr "مهجورات"
+
+msgid "Bylaw"
+msgstr "القانون المحلّيّ"
+
+msgid "Bylaws"
+msgstr "القوانين المحلّيّة"
+
+msgid "Byline"
+msgstr "الخطّ الثّانويّ"
+
+msgid "Byliner"
+msgstr "كاتب المقالة"
+
+msgid "Bylines"
+msgstr "الخطوط الثانوية"
+
+msgid "Bypass"
+msgstr "الشّارع الجانبيّ"
+
+msgid "Bypassed"
+msgstr "تجاوز"
+
+msgid "Bypasses"
+msgstr "الشّوارع الجانبيّة"
+
+msgid "Bypassing"
+msgstr "التّجاوز"
+
+msgid "Bypath"
+msgstr "الطّريق الجانبيّ"
+
+msgid "Bypaths"
+msgstr "الطّرق الجانبيّة"
+
+msgid "Byproduct"
+msgstr "النّتيجة الثّانويّة"
+
+msgid "Byproducts"
+msgstr "النواتج العرضية"
+
+msgid "Byrd"
+msgstr "بيرد"
+
+msgid "Byre"
+msgstr "الزّريبة"
+
+msgid "Byrne"
+msgstr "بايرن"
+
+msgid "Byroad"
+msgstr "الشّارع الجانبيّ"
+
+msgid "Byron"
+msgstr "بايرون"
+
+msgid "Byronic"
+msgstr "بايروني"
+
+msgid "Bystander"
+msgstr "المتفرّج"
+
+msgid "Bystanders"
+msgstr "المتفرّجون"
+
+msgid "Byte"
+msgstr "البايت"
+
+msgid "Bytes"
+msgstr "البايت"
+
+msgid "Byway"
+msgstr "الشّارع الجانبيّ"
+
+msgid "Byways"
+msgstr "الشّوارع الجانبيّة"
+
+msgid "Byword"
+msgstr "المثل"
+
+msgid "Bywords"
+msgstr "الأمثلة"
+
+msgid "Byzantine"
+msgstr "بيزنطي"
+
+msgid "Byzantium"
+msgstr "بيزنطة"
+
+msgid "Blog"
+msgstr "المفكّرة :: الكحول :: سجلّ خادم الويب"
+
+msgid "Bastille"
+msgstr "سجن الباستيل الفرنسي"
+

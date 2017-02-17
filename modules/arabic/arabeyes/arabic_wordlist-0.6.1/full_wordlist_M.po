@@ -1,0 +1,14073 @@
+# translation of full_wordlist_M.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_M.po,v 1.34 2004/02/23 14:47:49 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'M'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Munzir Taha Obeid <munzirtaha@newhorizons.com.sa>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_M\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"PO-Revision-Date: 2004-02-23 17:44+0300\n"
+
+msgid "M"
+msgstr "الحرف الثالث عشر في اللغة الإنجليزية"
+
+msgid "Ma"
+msgstr "أمّ"
+
+msgid "Mabel"
+msgstr "مايبيل"
+
+msgid "Mac"
+msgstr "الماك"
+
+msgid "Macabre"
+msgstr "بشع"
+
+msgid "Macabrely"
+msgstr "بشكل بشع"
+
+msgid "Macadamize"
+msgstr "إرصف"
+
+msgid "Macadamizes"
+msgstr "يرصف"
+
+msgid "Macadamizing"
+msgstr "الرصف"
+
+msgid "Macaque"
+msgstr "المكَّاك: قرد آسيويّ"
+
+msgid "Macaroni"
+msgstr "معكرونة"
+
+msgid "Macaroon"
+msgstr "المعكرون: حلوى من بياض البيض وسكّر ولوز"
+
+msgid "Macaroons"
+msgstr "الحلويات"
+
+msgid "MacArthur"
+msgstr "ماكآرثر"
+
+msgid "Macassar"
+msgstr "الاسم القديم لمدينة  Ujung Pandang بإندونيسيا"
+
+msgid "Macau"
+msgstr "ماكو"
+
+msgid "Macaulay"
+msgstr "ماكولاي"
+
+msgid "Macbeth"
+msgstr "ماكبيث"
+
+msgid "MacDonald"
+msgstr "ماكدونالد"
+
+msgid "MacDougall"
+msgstr "ماكدوجال"
+
+msgid "MacDraw"
+msgstr "ماكدراو"
+
+msgid "Mace"
+msgstr "الصولجان"
+
+msgid "Maced"
+msgstr "ماسيد"
+
+msgid "Macedon"
+msgstr "مملكة إغريقية قديمة"
+
+msgid "Macedonia"
+msgstr "مقدونيا"
+
+msgid "Macedonian"
+msgstr "المقدوني"
+
+msgid "Macer"
+msgstr "حامل الصولجان "
+
+msgid "Macerate"
+msgstr "نقّع"
+
+msgid "Macerated"
+msgstr "منقّع"
+
+msgid "Macerates"
+msgstr "ينقّع"
+
+msgid "Macerating"
+msgstr "تنقيع"
+
+msgid "Maceration"
+msgstr "ذبول"
+
+msgid "Maces"
+msgstr "الصولجانات"
+
+msgid "MacGregor"
+msgstr "ماكجريجور"
+
+msgid "Mach"
+msgstr "الماخي"
+
+msgid "Machete"
+msgstr "المنجل"
+
+msgid "Machiavelli"
+msgstr "ميكافيللي"
+
+msgid "Machiavellians"
+msgstr "المنسوبين الى ميكافيللي"
+
+msgid "Machinable"
+msgstr "مفهوم من قبل ألالة"
+
+msgid "Machinate"
+msgstr "تآمر"
+
+msgid "Machinated"
+msgstr "متآمر"
+
+msgid "Machinates"
+msgstr "يتآمر"
+
+msgid "Machinating"
+msgstr "التآمر"
+
+msgid "Machination"
+msgstr "المكيدة"
+
+msgid "Machinations"
+msgstr "مكائد"
+
+msgid "Machinator"
+msgstr "مدبر المكائد"
+
+msgid "Machine"
+msgstr "آلة"
+
+msgid "Machine-aided"
+msgstr "بمساعدة الآلة"
+
+msgid "Machine-building"
+msgstr "بناء الآلة"
+
+msgid "Machine-code"
+msgstr "لغة الآلة"
+
+msgid "Machine-data"
+msgstr "بيانات الآلة"
+
+msgid "Machine-date"
+msgstr "تأريخ الآلة"
+
+msgid "Machine-dependant"
+msgstr "تابع الآلة"
+
+msgid "Machine-dependent"
+msgstr "معتمد على الآلة"
+
+msgid "Machine-drive"
+msgstr "دافع ماكنة"
+
+msgid "Machine-gun"
+msgstr "الرشاشة"
+
+msgid "Machine-independent"
+msgstr "ماكنة مستقلة"
+
+msgid "Machine-oriented"
+msgstr "موجه ماكنة"
+
+msgid "Machine-tool"
+msgstr "الآلة المكنية"
+
+msgid "Machined"
+msgstr "يدار من قبل آلة"
+
+msgid "Machinelike"
+msgstr "كالآلة"
+
+msgid "Machineries"
+msgstr "المكائن"
+
+msgid "Machinery"
+msgstr "المكائن"
+
+msgid "Machines"
+msgstr "المكائن"
+
+msgid "Machining"
+msgstr "استعمال مخرطة أو آلة"
+
+msgid "Machinist"
+msgstr "مشغّل الماكنة"
+
+msgid "Machinists"
+msgstr "مشغلو الماكنة"
+
+msgid "Machismo"
+msgstr "المغالاة بالعضلات"
+
+msgid "Macho"
+msgstr "مفتول العضلات"
+
+msgid "Macing"
+msgstr "المهاجمة بسائل الميس"
+
+msgid "Macintosh"
+msgstr "الماكنتوش"
+
+msgid "Mack"
+msgstr "المشمّع"
+
+msgid "MacKenzie"
+msgstr "ماكينزي"
+
+msgid "Mackerel"
+msgstr "الإسقمري"
+
+msgid "Mackerels"
+msgstr "سمك الأسقمري"
+
+msgid "Mackey"
+msgstr "ماكي"
+
+msgid "Mackinac"
+msgstr "اسم مضيق"
+
+msgid "Mackinaw"
+msgstr "القارب الماكيناويّ"
+
+msgid "Mackintosh"
+msgstr "Mackintosh"
+
+msgid "Mackintoshs"
+msgstr "Mackintoshs"
+
+msgid "MacMillan"
+msgstr "ماكميلان"
+
+msgid "Macon"
+msgstr "ماكون - مدينة في وسط ولاية جورجيا"
+
+msgid "MacPaint"
+msgstr "ماكبينت"
+
+msgid "Macrame"
+msgstr "الرباط الخشن"
+
+msgid "Macro"
+msgstr "ماكرو"
+
+msgid "Macro-instruction"
+msgstr "الأمر الكبير"
+
+msgid "Macroassembler"
+msgstr "المجمع الكبير"
+
+msgid "Macrobiotic"
+msgstr "نباتي"
+
+msgid "Macrobiotics"
+msgstr "نباتي"
+
+msgid "Macrocosmic"
+msgstr "كوني"
+
+msgid "Macrodynamic"
+msgstr "ديناميكا الأجسام الكبيرة"
+
+msgid "Macroeconomics"
+msgstr "الإقتصاد الكلّي"
+
+msgid "Macromolecular"
+msgstr "ضخم الجزيئات"
+
+msgid "Macromolecule"
+msgstr "جزيء ضخم"
+
+msgid "Macromolecules"
+msgstr "جزيئات ضخمة"
+
+msgid "Macron"
+msgstr "علامة المد"
+
+msgid "Macrons"
+msgstr "علامات المدّ"
+
+msgid "Macrophage"
+msgstr "خلية ضخمة مسؤولة عن التنظيف"
+
+msgid "Macroprocessor"
+msgstr "المعالج الكبير"
+
+msgid "Macros"
+msgstr "مختصرات"
+
+msgid "Macroscopic"
+msgstr "عياني"
+
+msgid "Macroscopically"
+msgstr "واضحا للعين"
+
+msgid "Macrostructure"
+msgstr "بنية ترى بالعين المجردة"
+
+msgid "Maculate"
+msgstr "ملوّث"
+
+msgid "Maculates"
+msgstr "يلطّخ"
+
+msgid "Maculation"
+msgstr "تلوث"
+
+msgid "Mad"
+msgstr "مجنون"
+
+msgid "Mad-doctor"
+msgstr "الطبيب المجنون"
+
+msgid "Madagascar"
+msgstr "مدغشقر"
+
+msgid "Madam"
+msgstr "السيدة"
+
+msgid "Madame"
+msgstr "السيدة"
+
+msgid "Madames"
+msgstr "السيدة"
+
+msgid "Madams"
+msgstr "السيدات"
+
+msgid "Madcab"
+msgstr "مادكاب"
+
+msgid "Madcap"
+msgstr "مجنون"
+
+msgid "Madcaps"
+msgstr "الطائشون"
+
+msgid "Madden"
+msgstr "خبّل"
+
+msgid "Maddend"
+msgstr "ماديند"
+
+msgid "Maddened"
+msgstr "مخبّل"
+
+msgid "Maddening"
+msgstr "التخبيل"
+
+msgid "Maddeningly"
+msgstr "بجنون"
+
+msgid "Maddens"
+msgstr "يخبّل"
+
+msgid "Madder"
+msgstr "الفوّة"
+
+msgid "Maddest"
+msgstr "أكثر جنونا"
+
+msgid "Madding"
+msgstr "مسعور"
+
+msgid "Maddox"
+msgstr "مادوكس"
+
+msgid "Made"
+msgstr "جعل"
+
+msgid "Made-a-call-on"
+msgstr "إتّصل على"
+
+msgid "Made-a-diagnosis"
+msgstr "جعل تشخيصا"
+
+msgid "Made-a-forced-landing"
+msgstr "قيم بإنزال إجباري"
+
+msgid "Made-a-mistake"
+msgstr "إرتكب خطأ"
+
+msgid "Made-a-note-of"
+msgstr "كتبت ملاحظة"
+
+msgid "Made-a-parting"
+msgstr "جعل فراق"
+
+msgid "Made-a-slip"
+msgstr "إرتكب خطأ"
+
+msgid "Made-a-will"
+msgstr "جعلت رغبة"
+
+msgid "Made-amends-for"
+msgstr "الإرضاء الصنع لـ"
+
+msgid "Made-believe"
+msgstr "تخيّل"
+
+msgid "Made-clear"
+msgstr "أوضح"
+
+msgid "Made-desolate"
+msgstr "المقفر الصنع"
+
+msgid "Made-desolated"
+msgstr "جعل مقفرا"
+
+msgid "Made-difficult"
+msgstr "جعل صعب"
+
+msgid "Made-enemies-of"
+msgstr "الأعداء الصنع"
+
+msgid "Made-equal"
+msgstr "النظير الصنع"
+
+msgid "Made-excuses"
+msgstr "الأعذار الصنع"
+
+msgid "Made-flourishes"
+msgstr "الصنع يزدهر"
+
+msgid "Made-friends"
+msgstr "الأصدقاء الصنع"
+
+msgid "Made-fun"
+msgstr "المرح الصنع"
+
+msgid "Made-headway"
+msgstr "التقدّم الصنع"
+
+msgid "Made-insecure"
+msgstr "جعل غير آمن"
+
+msgid "Made-known"
+msgstr "أعلن"
+
+msgid "Made-music"
+msgstr "الموسيقى الصنع"
+
+msgid "Made-noise"
+msgstr "الضوضاء الصنع"
+
+msgid "Made-off"
+msgstr "هرب"
+
+msgid "Made-out"
+msgstr "قيم به"
+
+msgid "Made-pregnant"
+msgstr "جعل حبلى"
+
+msgid "Made-progress"
+msgstr "التقدّم الصنع"
+
+msgid "Made-propaganda-for"
+msgstr "الدعاية الصنع لـ"
+
+msgid "Made-smaller"
+msgstr "جعل أصغر"
+
+msgid "Made-stupid"
+msgstr "جعل غبي"
+
+msgid "Made-sure"
+msgstr "تأكّد"
+
+msgid "Made-up-for"
+msgstr "أعلى الصنع لـ"
+
+msgid "Made-worse"
+msgstr "جعل أسوأ"
+
+msgid "Made-young-again"
+msgstr "جعل صغير ثانية"
+
+msgid "Madeira"
+msgstr "الماديرا: ضرب من الخمرة منسوب إلى جزر ماديرا (على ساحل أفريقة الشمالي الغربي)"
+
+msgid "Madeleine"
+msgstr "مادلين"
+
+msgid "Madeline"
+msgstr "مادلين"
+
+msgid "Mademoiselle"
+msgstr "آنسة"
+
+msgid "Mademoiselles"
+msgstr "الآنسات"
+
+msgid "Mader"
+msgstr "مجنون"
+
+msgid "Madest"
+msgstr "مجنون"
+
+msgid "Madge"
+msgstr "مايج"
+
+msgid "Madhouse"
+msgstr "مستشفى المجانين"
+
+msgid "Madhouses"
+msgstr "مستشفيات المجانين"
+
+msgid "Madison"
+msgstr "ماديسن"
+
+msgid "Madly"
+msgstr "بجنون"
+
+msgid "Madman"
+msgstr "المجنون"
+
+msgid "Madmen"
+msgstr "المجانين"
+
+msgid "Madness"
+msgstr "الجنون"
+
+msgid "Madonna"
+msgstr "سيدة"
+
+msgid "Madonnas"
+msgstr "سيدات"
+
+msgid "Madras"
+msgstr "المدراس: قماش قطني للملابس أو السّجف"
+
+msgid "Madrid"
+msgstr "مدريد"
+
+msgid "Madrigal"
+msgstr "قصيدة قصيرة، غزلية عادة"
+
+msgid "Madrigaling"
+msgstr "يتغزّل"
+
+msgid "Madrigals"
+msgstr "قصائد قصيرة، غزلية عادة"
+
+msgid "Madsen"
+msgstr "اسم علم"
+
+msgid "Madwoman"
+msgstr "المجنونة"
+
+msgid "Mae"
+msgstr "ماي"
+
+msgid "Maelstrom"
+msgstr "الدوامة"
+
+msgid "Maestro"
+msgstr "الموسيقار"
+
+msgid "Maffick"
+msgstr "إصخب"
+
+msgid "Mafia"
+msgstr "المافيا"
+
+msgid "MAG"
+msgstr "مجلة"
+
+msgid "Magamp"
+msgstr "ماجامب"
+
+msgid "Magazine"
+msgstr "المجلة"
+
+msgid "Magazined"
+msgstr "حفظ للاستعمال اللاحق"
+
+msgid "Magazines"
+msgstr "المجلات"
+
+msgid "Magazining"
+msgstr "الحفظ للاستعمال اللاحق"
+
+msgid "Magdalene"
+msgstr "مريم المجدلية"
+
+msgid "Magenta"
+msgstr "قرمزي"
+
+msgid "Maggie"
+msgstr "ماجي"
+
+msgid "Maggot"
+msgstr "يرقة"
+
+msgid "Maggots"
+msgstr "يرقات"
+
+msgid "Maggoty"
+msgstr "كثير اليرقات"
+
+msgid "Magi"
+msgstr "المجوس"
+
+msgid "Magic"
+msgstr "سحر"
+
+msgid "Magic-flute"
+msgstr "الناي السحري"
+
+msgid "Magic-hood"
+msgstr "القلنسوة السحرية"
+
+msgid "Magic-potion"
+msgstr "الجرعة السحرية"
+
+msgid "Magical"
+msgstr "سحري"
+
+msgid "Magically"
+msgstr "بطريقة سحرية"
+
+msgid "Magician"
+msgstr "الساحر"
+
+msgid "Magicians"
+msgstr "السحرة"
+
+msgid "Magicly"
+msgstr "بشكل سحري"
+
+msgid "Magics"
+msgstr "السحر"
+
+msgid "Magill"
+msgstr "ماجيل"
+
+msgid "Magisterial"
+msgstr "قضائي"
+
+msgid "Magisterially"
+msgstr "بشكل قضائي"
+
+msgid "Magistracies"
+msgstr "قضاة الصلح"
+
+msgid "Magistracy"
+msgstr "الحاكمية"
+
+msgid "Magistrate"
+msgstr "القاضي"
+
+msgid "Magistrates"
+msgstr "القضاة"
+
+msgid "Magma"
+msgstr "الحمم البركانية الذائبة"
+
+msgid "Magna"
+msgstr "ماجنا"
+
+msgid "Magnanimity"
+msgstr "الشهامة"
+
+msgid "Magnanimous"
+msgstr "شهم"
+
+msgid "Magnanimously"
+msgstr "بشكل شهم"
+
+msgid "Magnanimousness"
+msgstr "شهامة"
+
+msgid "Magnate"
+msgstr "القطب"
+
+msgid "Magnates"
+msgstr "الأقطاب"
+
+msgid "Magnesia"
+msgstr "أكسيد المغنيسيوم"
+
+msgid "Magnesite"
+msgstr "كربونات المغنسيوم"
+
+msgid "Magnesium"
+msgstr "المغنيسيوم"
+
+msgid "Magnesiums"
+msgstr "المغنيسيوم"
+
+msgid "Magnet"
+msgstr "مغناطيس"
+
+msgid "Magnetic"
+msgstr "مغناطيسي"
+
+msgid "Magnetic-triped"
+msgstr "triped المغناطيسي"
+
+msgid "Magnetical"
+msgstr "مغناطيسي"
+
+msgid "Magnetically"
+msgstr "مغناطيسيا"
+
+msgid "Magneticly"
+msgstr "بشكل مغناطيسي"
+
+msgid "Magnetics"
+msgstr "مغناطيسي"
+
+msgid "Magnetism"
+msgstr "مغناطيسية"
+
+msgid "Magnetisms"
+msgstr "مغناطيسية"
+
+msgid "Magnetite"
+msgstr "أكسيد الحديد الأسود"
+
+msgid "Magnetizable"
+msgstr "قابل للمغنطة"
+
+msgid "Magnetization"
+msgstr "مغنطة"
+
+msgid "Magnetizations"
+msgstr "مغنطة"
+
+msgid "Magnetize"
+msgstr "مغنط"
+
+msgid "Magnetized"
+msgstr "ممغنط"
+
+msgid "Magnetizer"
+msgstr "ممغنط"
+
+msgid "Magnetizes"
+msgstr "يمغنط"
+
+msgid "Magnetizing"
+msgstr "التمغنط"
+
+msgid "Magneto"
+msgstr "المولد المغناطيسي"
+
+msgid "Magneto-optical"
+msgstr "مغناطيسي بصري"
+
+msgid "Magneto-resistance"
+msgstr "مقاوَمة مولد مغناطيسي"
+
+msgid "Magneto-resistive"
+msgstr "مولد مغناطيسي مقاوم"
+
+msgid "Magneto-resistor"
+msgstr "مقاوِمة مولد مغناطيسي"
+
+msgid "Magnetometer"
+msgstr "مقياس شدة المجالات المغناطيسية"
+
+msgid "Magnetos"
+msgstr "مولدات مغناطيسية"
+
+msgid "Magnetron"
+msgstr "صمام مفرغ"
+
+msgid "Magnets"
+msgstr "مغناطيسات"
+
+msgid "Magnification"
+msgstr "تكبير"
+
+msgid "Magnifications"
+msgstr "تكبير"
+
+msgid "Magnificence"
+msgstr "روعة"
+
+msgid "Magnificent"
+msgstr "رائع"
+
+msgid "Magnificently"
+msgstr "بشكل رائع"
+
+msgid "Magnifico"
+msgstr "شخصية بارزة"
+
+msgid "Magnified"
+msgstr "مكبّر"
+
+msgid "Magnifier"
+msgstr "مكبّر"
+
+msgid "Magnifiers"
+msgstr "مكبّرات"
+
+msgid "Magnifies"
+msgstr "يكبّر"
+
+msgid "Magnify"
+msgstr "كبّر"
+
+msgid "Magnifying"
+msgstr "تكبير"
+
+msgid "Magnifying-glass"
+msgstr "عدسة مكبّرة"
+
+msgid "Magniloquence"
+msgstr "تفاخر"
+
+msgid "Magniloquent"
+msgstr "ذو أسلوب طنّان"
+
+msgid "Magniloquently"
+msgstr "بشكل ذو أسلوب طنّان"
+
+msgid "Magnitude"
+msgstr "مقدار"
+
+msgid "Magnitudes"
+msgstr "مقادير"
+
+msgid "Magnolia"
+msgstr "ماغنوليا"
+
+msgid "Magnolias"
+msgstr "ماغنوليا"
+
+msgid "Magnum"
+msgstr "زجاجة خمر ضخمة"
+
+msgid "Magnums"
+msgstr "قناني"
+
+msgid "Magnuson"
+msgstr "اسم علم"
+
+msgid "Magog"
+msgstr "ماجوج"
+
+msgid "Magpie"
+msgstr "العقعق"
+
+msgid "Magpies"
+msgstr "طيور العقعق"
+
+msgid "Magruder"
+msgstr "اسم علم"
+
+msgid "Maguire"
+msgstr "اسم علم"
+
+msgid "Mahayana"
+msgstr "مهايانية: شعبة من البوذية تقول بوجود الله"
+
+msgid "Mahayanist"
+msgstr "مهاياني"
+
+msgid "Mahler"
+msgstr "ماهلير"
+
+msgid "Mahogany"
+msgstr "الماهوغوني"
+
+msgid "Mahoney"
+msgstr "ماهوني"
+
+msgid "Maid"
+msgstr "الجارية"
+
+msgid "Maid-of-honour"
+msgstr "الوصيفة"
+
+msgid "Maiden"
+msgstr "عذراء"
+
+msgid "Maiden-name"
+msgstr "اسم أسرة المرأة قبل الزّواج"
+
+msgid "Maiden-speech"
+msgstr "خطاب البكر"
+
+msgid "Maiden-trip"
+msgstr "سفرة البكر"
+
+msgid "Maiden-voyage"
+msgstr "الرحلة الأولى"
+
+msgid "Maidenhair"
+msgstr "كزبرة البئر"
+
+msgid "Maidenhead"
+msgstr "غشاء البكارة"
+
+msgid "Maidenhood"
+msgstr "بكارة"
+
+msgid "Maidenliness"
+msgstr "حياء"
+
+msgid "Maidenly"
+msgstr "عذري"
+
+msgid "Maidens"
+msgstr "عوانس"
+
+msgid "Maids"
+msgstr "جواري"
+
+msgid "Maidservant"
+msgstr "خادمة"
+
+msgid "Maier"
+msgstr "مير (اسم علم)"
+
+msgid "Mail"
+msgstr "بريد"
+
+msgid "Mail-Copies-To"
+msgstr "ينسخ البريد إلى"
+
+msgid "Mail-order"
+msgstr "طلب بالبريد"
+
+msgid "Mail-order-business"
+msgstr "عمل طلب بالبريد"
+
+msgid "Mail-order-house"
+msgstr "منزل طلب بالبريد"
+
+msgid "Mailable"
+msgstr "ممكن إرساله بالبريد"
+
+msgid "Mailably"
+msgstr "بالإمكان إرساله بالبريد"
+
+msgid "Mailbag"
+msgstr "حقيبة البريد"
+
+msgid "Mailbox"
+msgstr "صندوق البريد"
+
+msgid "Mailboxes"
+msgstr "صناديق البريد"
+
+msgid "Mailcheck"
+msgstr "فحص البريد"
+
+msgid "Maildir"
+msgstr "دليل البريد"
+
+msgid "Mailed"
+msgstr "مرسل"
+
+msgid "Mailer"
+msgstr "الظرف البريدي"
+
+msgid "Mailers"
+msgstr "الظروف البريدية"
+
+msgid "Mailgram"
+msgstr "ميلجرام - ماركة تجارية للبرقية البريدية"
+
+msgid "Mailing"
+msgstr "الإرسال"
+
+msgid "Mailings"
+msgstr "الرسائل"
+
+msgid "Mailman"
+msgstr "ساعي البريد"
+
+msgid "Mailmen"
+msgstr "سعاة البريد"
+
+msgid "MailMerge"
+msgstr "دمج الرسائل"
+
+msgid "Mails"
+msgstr "البريد"
+
+msgid "Maim"
+msgstr "يشوّه"
+
+msgid "Maimed"
+msgstr "مشوّه"
+
+msgid "Maimedness"
+msgstr "تشوه"
+
+msgid "Maimer"
+msgstr "مشوّه"
+
+msgid "Maimers"
+msgstr "مشوّهون"
+
+msgid "Maiming"
+msgstr "تشوّه"
+
+msgid "Maims"
+msgstr "يعوّق"
+
+msgid "Main"
+msgstr "رئيسي"
+
+msgid "Main-clause"
+msgstr "بند الرئيسي"
+
+msgid "Main-entrance"
+msgstr "مدخل رئيسي"
+
+msgid "Main-feature"
+msgstr "الميزّة الرئيسية"
+
+msgid "Main-negotiation"
+msgstr "المفاوضات الرئيسية"
+
+msgid "Main-road"
+msgstr "الطريق الرئيسي"
+
+msgid "Main-roads"
+msgstr "الطرق الرئيسية"
+
+msgid "Main-station"
+msgstr "المحطة الرئيسية"
+
+msgid "Main-subject"
+msgstr "الموضوع الرئيسي"
+
+msgid "Main-thing"
+msgstr "الشيء الرئيسي"
+
+msgid "Maine"
+msgstr "مين"
+
+msgid "Mainframe"
+msgstr "حاسبة إلكترونية كبيرة"
+
+msgid "Mainframes"
+msgstr "الحاسبات الكبرى"
+
+msgid "Maink"
+msgstr "مينك"
+
+msgid "Mainland"
+msgstr "الجزيرة"
+
+msgid "Mainlander"
+msgstr "المقيم"
+
+msgid "Mainlanders"
+msgstr "المقيمون"
+
+msgid "Mainline"
+msgstr "رئيسي"
+
+msgid "Mainlined"
+msgstr "حَقَنَ"
+
+msgid "Mainliner"
+msgstr "رئيسي"
+
+msgid "Mainlines"
+msgstr "يحقن"
+
+msgid "Mainlining"
+msgstr "الحقن"
+
+msgid "Mainly"
+msgstr "بشكل رئيسي"
+
+msgid "Mains"
+msgstr "مأخذ رئيسي"
+
+msgid "Mainsail"
+msgstr "شراع رئيسي"
+
+msgid "Mainspring"
+msgstr "النابض الرئيسي"
+
+msgid "Mainsprings"
+msgstr "النوابض الرئيسية"
+
+msgid "Mainstay"
+msgstr "الركن الأساسي"
+
+msgid "Mainstays"
+msgstr "الأركان الأساسية"
+
+msgid "Mainstream"
+msgstr "الإتجاه العام"
+
+msgid "Maintain"
+msgstr "أبق"
+
+msgid "Maintainability"
+msgstr "قابلية الصيانة"
+
+msgid "Maintainable"
+msgstr "قابل للدعم"
+
+msgid "Maintained"
+msgstr "مبقى"
+
+msgid "Maintainer"
+msgstr "مشرف"
+
+msgid "Maintainers"
+msgstr "مشرفون"
+
+msgid "Maintaining"
+msgstr "الإبقاء"
+
+msgid "Maintains"
+msgstr "يبقي"
+
+msgid "Maintenance"
+msgstr "الصيانة"
+
+msgid "Maintenance-free"
+msgstr "خالي من صيانة"
+
+msgid "Maintenances"
+msgstr "الصيانة"
+
+msgid "Maitre"
+msgstr "الجرسون"
+
+msgid "Maize"
+msgstr "الذرة الصفراء"
+
+msgid "Majestic"
+msgstr "مهيب"
+
+msgid "Majestic-dignities"
+msgstr "الكرامات المهيبة"
+
+msgid "Majestic-dignity"
+msgstr "الكرامة المهيبة"
+
+msgid "Majestical"
+msgstr "ملوكي"
+
+msgid "Majestically"
+msgstr "بشكل مهيب"
+
+msgid "Majesticly"
+msgstr "بشكل مهيب"
+
+msgid "Majesties"
+msgstr "فخامة"
+
+msgid "Majesty"
+msgstr "فخامة"
+
+msgid "Major"
+msgstr "رئيسي"
+
+msgid "Majored"
+msgstr "تخصّص"
+
+msgid "Majoring"
+msgstr "تخصّص"
+
+msgid "Majorities"
+msgstr "الأغلبيات"
+
+msgid "Majority"
+msgstr "الأغلبية"
+
+msgid "Majority-of-votes"
+msgstr "أغلبية الأصوات"
+
+msgid "MajorMinor"
+msgstr "كبرىصغرى"
+
+msgid "Majors"
+msgstr "بالغون"
+
+msgid "Makable"
+msgstr "يمكن تحقيقه"
+
+msgid "Make"
+msgstr "صنع"
+
+msgid "Make love"
+msgstr "يشارك بالملاطفة الغراميّة، يجامع"
+
+msgid "Make-a-diagnosis"
+msgstr "صنع تشخيص"
+
+msgid "Make-a-mistake"
+msgstr "صنع خطأ"
+
+msgid "Make-a-note-of"
+msgstr "صنع ملاحظة"
+
+msgid "Make-a-parting"
+msgstr "صنع فراق"
+
+msgid "Make-a-present"
+msgstr "صنع هدية"
+
+msgid "Make-a-slip"
+msgstr "صنع زلّة"
+
+msgid "Make-a-will"
+msgstr "صنع رغبة"
+
+msgid "Make-believe"
+msgstr "ادّعاء"
+
+msgid "Make-clear"
+msgstr "أوضح"
+
+msgid "Make-desolate"
+msgstr "جعل مقفر"
+
+msgid "Make-difficult"
+msgstr "اجعل صعب"
+
+msgid "Make-enemies-of"
+msgstr "صنع أعداء"
+
+msgid "Make-equal"
+msgstr "صنع نظير"
+
+msgid "Make-excuses"
+msgstr "صنع أعذارا"
+
+msgid "Make-fell-ashamed"
+msgstr "سقط خجلانا"
+
+msgid "Make-flourishes"
+msgstr "ازدهر"
+
+msgid "Make-friends"
+msgstr "صنع أصدقاء"
+
+msgid "Make-fun"
+msgstr "مرح"
+
+msgid "Make-headway"
+msgstr "تقدّم"
+
+msgid "Make-insecure"
+msgstr "جعله غير آمن"
+
+msgid "Make-music"
+msgstr "صنع موسيقى"
+
+msgid "Make-noise"
+msgstr "صنع ضوضاء"
+
+msgid "Make-off"
+msgstr "هروب"
+
+msgid "Make-out"
+msgstr "قم به"
+
+msgid "Make-possible"
+msgstr "محتمل"
+
+msgid "Make-pregnant"
+msgstr "جعلها حبلى"
+
+msgid "Make-progress"
+msgstr "تقدّم"
+
+msgid "Make-propaganda-for"
+msgstr "دعاية لـ"
+
+msgid "Make-smaller"
+msgstr "جعله أصغر"
+
+msgid "Make-stupid"
+msgstr "جعله غبي"
+
+msgid "Make-sure"
+msgstr "تأكّد"
+
+msgid "Make-time"
+msgstr "حدد وقتا"
+
+msgid "Make-up"
+msgstr "تركيب"
+
+msgid "Make-up-artist"
+msgstr "إجعل أعلى الفنان"
+
+msgid "Make-up-for"
+msgstr "إجعل أعلى لـ"
+
+msgid "Make-worse"
+msgstr "إجعل أسوأ"
+
+msgid "Make-young-again"
+msgstr "إجعل صغير ثانية"
+
+msgid "Makefile"
+msgstr "Makefile"
+
+msgid "Makefiles"
+msgstr "Makefiles"
+
+msgid "Maker"
+msgstr "الصانع"
+
+msgid "Makers"
+msgstr "الصنّاع"
+
+msgid "Makes"
+msgstr "الطرازات"
+
+msgid "Makes-a-diagnosis"
+msgstr "يجعل تشخيصا"
+
+msgid "Makes-a-mistake"
+msgstr "يرتكب خطأ"
+
+msgid "Makes-a-parting"
+msgstr "يجعل فراق"
+
+msgid "Makes-amends-for"
+msgstr "إرضاء طرازات لـ"
+
+msgid "Makes-clear"
+msgstr "طرازات واضحة"
+
+msgid "Makes-difficult"
+msgstr "طرازات صعبة"
+
+msgid "Makes-enemies-of"
+msgstr "أعداء طرازات"
+
+msgid "Makes-flourishes"
+msgstr "الطرازات تزدهر"
+
+msgid "Makes-fun"
+msgstr "مرح طرازات"
+
+msgid "Makes-insecure"
+msgstr "طرازات غير آمنة"
+
+msgid "Makes-music"
+msgstr "موسيقى طرازات"
+
+msgid "Makes-noise"
+msgstr "ضوضاء طرازات"
+
+msgid "Makes-pregnant"
+msgstr "طرازات حبلى"
+
+msgid "Makes-propaganda-for"
+msgstr "دعاية طرازات لـ"
+
+msgid "Makes-smaller"
+msgstr "طرازات أصغر"
+
+msgid "Makes-stupid"
+msgstr "طرازات غبية"
+
+msgid "Makes-sure"
+msgstr "طرازات متأكّدة"
+
+msgid "Makes-worse"
+msgstr "طرازات أسوأ"
+
+msgid "Makes-young-again"
+msgstr "طرازات صغيرة ثانية"
+
+msgid "Makeshift"
+msgstr "البديل المؤقت"
+
+msgid "Makeshifts"
+msgstr "البدلاء المؤقتون"
+
+msgid "Makeup"
+msgstr "التركيب"
+
+msgid "Makeups"
+msgstr "التركيب"
+
+msgid "Making"
+msgstr "الجعل"
+
+msgid "Making-a-call-on"
+msgstr "يتّصل على"
+
+msgid "Making-a-mistake"
+msgstr "يرتكب خطأ"
+
+msgid "Making-a-parting"
+msgstr "يجعل فراق"
+
+msgid "Making-a-slip"
+msgstr "يرتكب خطأ"
+
+msgid "Making-a-will"
+msgstr "تجعل رغبة"
+
+msgid "Making-amends-for"
+msgstr "إرضاء صنع لـ"
+
+msgid "Making-believe"
+msgstr "التخيّل"
+
+msgid "Making-clear"
+msgstr "الإيضاح"
+
+msgid "Making-desolated"
+msgstr "يجعل مقفرا"
+
+msgid "Making-difficult"
+msgstr "يجعل صعب"
+
+msgid "Making-enemies-of"
+msgstr "أعداء صنع"
+
+msgid "Making-equal"
+msgstr "نظير صنع"
+
+msgid "Making-excuses"
+msgstr "أعذار صنع"
+
+msgid "Making-flourishes"
+msgstr "صنع يزدهر"
+
+msgid "Making-friends"
+msgstr "أصدقاء صنع"
+
+msgid "Making-fun"
+msgstr "مرح صنع"
+
+msgid "Making-insecure"
+msgstr "يجعل غير آمن"
+
+msgid "Making-known"
+msgstr "الإعلان"
+
+msgid "Making-music"
+msgstr "موسيقى صنع"
+
+msgid "Making-noise"
+msgstr "ضوضاء صنع"
+
+msgid "Making-off"
+msgstr "الهروب"
+
+msgid "Making-out"
+msgstr "القيام"
+
+msgid "Making-pregnant"
+msgstr "يجعل حبلى"
+
+msgid "Making-smaller"
+msgstr "يجعل أصغر"
+
+msgid "Making-stupid"
+msgstr "يجعل غبي"
+
+msgid "Making-sure"
+msgstr "التأكيد"
+
+msgid "Making-up-for"
+msgstr "أعلى صنع لـ"
+
+msgid "Making-worse"
+msgstr "يجعل أسوأ"
+
+msgid "Making-young-again"
+msgstr "يجعل صغير ثانية"
+
+msgid "Makings"
+msgstr "المتطلبات"
+
+msgid "Malabar"
+msgstr "قطاع في غرب الهند"
+
+msgid "Maladapt"
+msgstr "يسيء التهيؤ"
+
+msgid "Maladapted"
+msgstr "سيء التهيؤ"
+
+msgid "Maladaptive"
+msgstr "غير مهايئ"
+
+msgid "Maladies"
+msgstr "أمراض"
+
+msgid "Maladjust"
+msgstr "يسيء التوافق"
+
+msgid "Maladjusted"
+msgstr "سيء التوافق"
+
+msgid "Maladjustive"
+msgstr "غير متوافق"
+
+msgid "Maladjustment"
+msgstr "سوء التوافق"
+
+msgid "Maladjustments"
+msgstr "انحرافات"
+
+msgid "Maladministration"
+msgstr "سوء الإدارة"
+
+msgid "Maladroit"
+msgstr "أخرق"
+
+msgid "Maladroitly"
+msgstr "بشكل أخرق"
+
+msgid "Maladroitness"
+msgstr "خُرْق"
+
+msgid "Malady"
+msgstr "داء"
+
+msgid "Malagasy"
+msgstr "مدغشقريّ"
+
+msgid "Malaise"
+msgstr "توعّك"
+
+msgid "Malamud"
+msgstr "مالامود - كاتب أمريكي"
+
+msgid "Malaprop"
+msgstr "مسيء استعمال الألفاظ"
+
+msgid "Malapropism"
+msgstr "إساءة استعمال الألفاظ"
+
+msgid "Malapropisms"
+msgstr "إساءة استعمال الألفاظ"
+
+msgid "Malaria"
+msgstr "الملاريا"
+
+msgid "Malarial"
+msgstr "ملاريا"
+
+msgid "Malarian"
+msgstr "ملاريا"
+
+msgid "Malarias"
+msgstr "ملاريا"
+
+msgid "Malarious"
+msgstr "ملاريا"
+
+msgid "Malawi"
+msgstr "ملاوي"
+
+msgid "Malay"
+msgstr "ملاييّ"
+
+msgid "Malayalam"
+msgstr "لغة المالايالام"
+
+msgid "Malaysia"
+msgstr "ماليزيا"
+
+msgid "Malaysian"
+msgstr "الماليزي"
+
+msgid "Malcolm"
+msgstr "مالكولم"
+
+msgid "Malcontent"
+msgstr "متذمر"
+
+msgid "Malcontented"
+msgstr "متذمر"
+
+msgid "Malcontentedly"
+msgstr "بشكل متذمر"
+
+msgid "Malcontentedness"
+msgstr "تذمّر"
+
+msgid "Malcontently"
+msgstr "بشكل متذمر"
+
+msgid "Malcontents"
+msgstr "المتذمرون"
+
+msgid "Malden"
+msgstr "أسم مدينة متكرر في عدة ولايات أمريكية"
+
+msgid "Maldive Islands"
+msgstr "مجموعة جزر في المحيط الهندي"
+
+msgid "Maldives"
+msgstr "مالديفز"
+
+msgid "Male"
+msgstr "ذكر"
+
+msgid "Male-cat"
+msgstr "قطّة ذكر"
+
+msgid "Male-nurse"
+msgstr "ممرّض"
+
+msgid "Maledict"
+msgstr "يسب"
+
+msgid "Malediction"
+msgstr "مسبّة"
+
+msgid "Maledictions"
+msgstr "مسبّات"
+
+msgid "Malefactor"
+msgstr "شرير"
+
+msgid "Malefactors"
+msgstr "أشرار"
+
+msgid "Maleficent"
+msgstr "خبيث"
+
+msgid "Maleness"
+msgstr "ذكورة"
+
+msgid "Males"
+msgstr "ذكور"
+
+msgid "Malevolence"
+msgstr "حقد"
+
+msgid "Malevolences"
+msgstr "أحقاد"
+
+msgid "Malevolencies"
+msgstr "أحقاد"
+
+msgid "Malevolent"
+msgstr "حقود"
+
+msgid "Malevolently"
+msgstr "بشكل حقود"
+
+msgid "Malfeasance"
+msgstr "ارتكاب عمل محظور"
+
+msgid "Malfeasant"
+msgstr "مرتكب عمل محظور"
+
+msgid "Malformation"
+msgstr "تشوّه"
+
+msgid "Malformations"
+msgstr "تشوّهات"
+
+msgid "Malformed"
+msgstr "مشوّه"
+
+msgid "Malfunction"
+msgstr "عطل"
+
+msgid "Malfunctioned"
+msgstr "متعطّل"
+
+msgid "Malfunctioning"
+msgstr "تعطيل"
+
+msgid "Malfunctions"
+msgstr "يتعطّل"
+
+msgid "Mali"
+msgstr "مالي"
+
+msgid "Malibu"
+msgstr "ماليبو"
+
+msgid "Malice"
+msgstr "حقد"
+
+msgid "Malices"
+msgstr "أحقاد"
+
+msgid "Malicious"
+msgstr "خبيث"
+
+msgid "Malicious-joy"
+msgstr "بهجة خبيثة"
+
+msgid "Malicious-tongue"
+msgstr "لسان خبيث"
+
+msgid "Maliciously"
+msgstr "بشكل خبيث"
+
+msgid "Maliciousness"
+msgstr "خبث"
+
+msgid "Malign"
+msgstr "مؤذي"
+
+msgid "Malignancies"
+msgstr "خباثة"
+
+msgid "Malignancy"
+msgstr "خبث"
+
+msgid "Malignant"
+msgstr "خبيث"
+
+msgid "Malignantly"
+msgstr "بشكل خبيث"
+
+msgid "Maligned"
+msgstr "مطعون ب"
+
+msgid "Maligning"
+msgstr "طعن"
+
+msgid "Malignities"
+msgstr "خباثة"
+
+msgid "Malignity"
+msgstr "خباثة"
+
+msgid "Malignly"
+msgstr "بشكل مؤذي"
+
+msgid "Maligns"
+msgstr "يطعن به"
+
+msgid "Malinger"
+msgstr "تمارض"
+
+msgid "Malingered"
+msgstr "متمارض"
+
+msgid "Malingerer"
+msgstr "متمارض"
+
+msgid "Malingering"
+msgstr "تمارض"
+
+msgid "Malingers"
+msgstr "يتمارض"
+
+msgid "Mall"
+msgstr "مركز التسوّق"
+
+msgid "Mallard"
+msgstr "البطّ البري"
+
+msgid "Mallards"
+msgstr "البطّ البري"
+
+msgid "Malleabilities"
+msgstr "قابليات التطريق"
+
+msgid "Malleability"
+msgstr "قابلية التطريق"
+
+msgid "Malleable"
+msgstr "طيّع"
+
+msgid "Malleableness"
+msgstr "قابلية الطرق"
+
+msgid "Malleably"
+msgstr "مطواع"
+
+msgid "Mallet"
+msgstr "مطرقة"
+
+msgid "Mallets"
+msgstr "مطارق"
+
+msgid "Mallory"
+msgstr "مالوري"
+
+msgid "Mallow"
+msgstr "الخبازي"
+
+msgid "Malls"
+msgstr "مركز التسوّق"
+
+msgid "Malnourished"
+msgstr "سيئ التغذية"
+
+msgid "Malnutrition"
+msgstr "سوء التغذية"
+
+msgid "Malocclusion"
+msgstr "عدم تناغم سنين متقابلين"
+
+msgid "Malodorous"
+msgstr "نتن"
+
+msgid "Malodorously"
+msgstr "بشكل نتن"
+
+msgid "Malodorousness"
+msgstr "نتانة"
+
+msgid "Malodoruosly"
+msgstr "بشكل منتن"
+
+msgid "Malone"
+msgstr "مالون"
+
+msgid "Maloney"
+msgstr "اسم علم"
+
+msgid "Malposed"
+msgstr "في المكان الخطأ"
+
+msgid "Malpractice"
+msgstr "سوء التصرف"
+
+msgid "Malpractices"
+msgstr "سوء التصرف"
+
+msgid "Malraux"
+msgstr "روائي فرنسي"
+
+msgid "Malt"
+msgstr "الشعير"
+
+msgid "Malt-mill"
+msgstr "طاحونة شعير"
+
+msgid "Malta"
+msgstr "مالطا"
+
+msgid "Malted"
+msgstr "مملّت"
+
+msgid "Maltese"
+msgstr "مالطيّ"
+
+msgid "Malthusian"
+msgstr "مالثوسيّ"
+
+msgid "Malting"
+msgstr "المعالجة بالشعير"
+
+msgid "Malton"
+msgstr "اسم علم"
+
+msgid "Maltose"
+msgstr "سكر الشعير"
+
+msgid "Maltreat"
+msgstr "يعامل بخشونة"
+
+msgid "Maltreated"
+msgstr "مُعامَل بخشونة"
+
+msgid "Maltreating"
+msgstr "إساءة معاملة"
+
+msgid "Maltreatment"
+msgstr "قسوة"
+
+msgid "Maltreats"
+msgstr "يعامل بخشونة"
+
+msgid "Malts"
+msgstr "الشعير"
+
+msgid "Malty"
+msgstr "يحتوي على الشعير"
+
+msgid "Mama"
+msgstr "الأمّ"
+
+msgid "Mambo"
+msgstr "مامبو"
+
+msgid "Mambos"
+msgstr "رقصات سريعة"
+
+msgid "Mamma"
+msgstr "الأمّ"
+
+msgid "Mammal"
+msgstr "الثدييّ"
+
+msgid "Mammalian"
+msgstr "ثدييّ"
+
+msgid "Mammals"
+msgstr "الثدييات"
+
+msgid "Mammary"
+msgstr "ثديي"
+
+msgid "Mammas"
+msgstr "الأمهات"
+
+msgid "Mammoth"
+msgstr "الماموث"
+
+msgid "Mammothly"
+msgstr "بشكل عظيم"
+
+msgid "Man"
+msgstr "الرجل"
+
+msgid "Man-hour"
+msgstr "ساعة العمل"
+
+msgid "Man-machine"
+msgstr "ماكنة البشر"
+
+msgid "Man-month"
+msgstr "شهر البشر"
+
+msgid "Man-power"
+msgstr "قوّة البشر"
+
+msgid "Man-servant"
+msgstr "خادم البشر"
+
+msgid "Man-year"
+msgstr "سنة البشر"
+
+msgid "Mana"
+msgstr "قوى الطبيعة مجسدة"
+
+msgid "Manacle"
+msgstr "غلّ"
+
+msgid "Manacled"
+msgstr "مقيّد"
+
+msgid "Manage"
+msgstr "أدر"
+
+msgid "Manage-with"
+msgstr "أدر مع"
+
+msgid "Manageability"
+msgstr "سهولة القيادة"
+
+msgid "Manageable"
+msgstr "سهل الانقياد"
+
+msgid "Manageableness"
+msgstr "سهولة القيادة"
+
+msgid "Manageably"
+msgstr "مقود بسهولة"
+
+msgid "Managed"
+msgstr "مدار"
+
+msgid "Managed-with"
+msgstr "أدير مع"
+
+msgid "Management"
+msgstr "الإدارة"
+
+msgid "Management-consultant"
+msgstr "المستشار الإداري"
+
+msgid "Managements"
+msgstr "الإدارات"
+
+msgid "Manager"
+msgstr "مدير"
+
+msgid "Manageress"
+msgstr "مديرة"
+
+msgid "Managerial"
+msgstr "إداري"
+
+msgid "Managerial-economics"
+msgstr "الإقتصاد الإداري"
+
+msgid "Managerially"
+msgstr "إداريا"
+
+msgid "Managers"
+msgstr "المدراء"
+
+msgid "Manages"
+msgstr "يدير"
+
+msgid "Managing"
+msgstr "إدارة"
+
+msgid "Managing-committee"
+msgstr "اللجنة المديرة"
+
+msgid "Managing-director"
+msgstr "مدير الإدارة"
+
+msgid "Managing-with"
+msgstr "مدير مع"
+
+msgid "Managua"
+msgstr "عاصمة نيكاراجوا"
+
+msgid "Manama"
+msgstr "المنامه"
+
+msgid "Manatee"
+msgstr "ماناتي"
+
+msgid "Manchester"
+msgstr "مانشستر"
+
+msgid "Manciple"
+msgstr "متعهد المؤن"
+
+msgid "Mandamus"
+msgstr "أمر قضائي"
+
+msgid "Mandamused"
+msgstr "أصدر أمراً قضائياً"
+
+msgid "Mandamuses"
+msgstr "أوامر قضائية"
+
+msgid "Mandamusing"
+msgstr "إصدار أمر قضائي"
+
+msgid "Mandarin"
+msgstr "الأفندي"
+
+msgid "Mandarins"
+msgstr "الأفندية"
+
+msgid "Mandate"
+msgstr "الإنتداب"
+
+msgid "Mandated"
+msgstr "تحت الإنتداب"
+
+msgid "Mandates"
+msgstr "التفويضات"
+
+msgid "Mandating"
+msgstr "التخويل"
+
+msgid "Mandatories"
+msgstr "منتدبون"
+
+msgid "Mandatory"
+msgstr "إلزامي"
+
+msgid "Mandatory-sign"
+msgstr "إشارة إلزامية"
+
+msgid "Mandelbrot"
+msgstr "ماندلبروت"
+
+msgid "Mandible"
+msgstr "فكّ"
+
+msgid "Mandolin"
+msgstr "عود"
+
+msgid "Mandolins"
+msgstr "آلات عود"
+
+msgid "Mandrake"
+msgstr "Mandrake"
+
+msgid "Mandrakes"
+msgstr "اللفّاحات"
+
+msgid "MandrakeSoft"
+msgstr "MandrakeSoft"
+
+msgid "Mandrel"
+msgstr "مغزل"
+
+msgid "Mandrill"
+msgstr "قرد ضخم"
+
+msgid "Mane"
+msgstr "عرف الأسد أو الفرس"
+
+msgid "Maned"
+msgstr "لديه عرف (عرف الأسد، عرف الديك)"
+
+msgid "Manege"
+msgstr "مدرسة تعليم الفروسية"
+
+msgid "Manes"
+msgstr "أعراف الأسد"
+
+msgid "Maneuver"
+msgstr "مناورة"
+
+msgid "Maneuverability"
+msgstr "سهولة المناورة"
+
+msgid "Maneuverable"
+msgstr "سهل المناورة"
+
+msgid "Maneuvered"
+msgstr "ناور"
+
+msgid "Maneuverer"
+msgstr "مناوِر"
+
+msgid "Maneuvering"
+msgstr "مناورة"
+
+msgid "Maneuvers"
+msgstr "مناورات"
+
+msgid "Manfred"
+msgstr "مدينة في داكوتا الشمالية"
+
+msgid "Manful"
+msgstr "شجاع"
+
+msgid "Manfully"
+msgstr "بشكل شجاع"
+
+msgid "Manfulness"
+msgstr "شجاعة"
+
+msgid "Manganese"
+msgstr "منغنيز"
+
+msgid "Mange"
+msgstr "الجرب"
+
+msgid "Mangel"
+msgstr "شوندر الماشية"
+
+msgid "Manger"
+msgstr "المعلف"
+
+msgid "Mangers"
+msgstr "المعالف"
+
+msgid "Manges"
+msgstr "الجراب"
+
+msgid "Mangier"
+msgstr "أجرب"
+
+msgid "Mangiest"
+msgstr "أجرب"
+
+msgid "Mangily"
+msgstr "بجرب"
+
+msgid "Mangle"
+msgstr "يعصر بالضغط"
+
+msgid "Mangled"
+msgstr "مشوّه"
+
+msgid "Mangler"
+msgstr "معصرة بالضغط"
+
+msgid "Mangles"
+msgstr "معاصر بالضغط"
+
+msgid "Mangling"
+msgstr "تشويه"
+
+msgid "Mango"
+msgstr "المانجا"
+
+msgid "Mangroves"
+msgstr "قرامات"
+
+msgid "Mangy"
+msgstr "أجرب"
+
+msgid "Manhandle"
+msgstr "يحرّك بالقوة البدنية"
+
+msgid "Manhandled"
+msgstr "حرّك بالقوة البدنية"
+
+msgid "Manhandles"
+msgstr "يحرّك بالقوة البدنية"
+
+msgid "Manhandling"
+msgstr "تحريك بالقوة البدنية"
+
+msgid "Manhattan"
+msgstr "كوكتيل مانهاتان"
+
+msgid "Manhole"
+msgstr "فتحة الدخول"
+
+msgid "Manholes"
+msgstr "فتحات المجاري"
+
+msgid "Manhood"
+msgstr "الرجولة"
+
+msgid "Manhours"
+msgstr "العمل الساعي"
+
+msgid "Manhunt"
+msgstr "مطاردة منظمة"
+
+msgid "Mania"
+msgstr "هوس"
+
+msgid "Maniac"
+msgstr "معتوه"
+
+msgid "Maniacal"
+msgstr "جنوني"
+
+msgid "Maniacally"
+msgstr "بشكل جنوني"
+
+msgid "Maniacs"
+msgstr "المجانين"
+
+msgid "Manias"
+msgstr "الهوس"
+
+msgid "Manic"
+msgstr "هوسي"
+
+msgid "Manicure"
+msgstr "تجميل الأظافر"
+
+msgid "Manicured"
+msgstr "مشذّب"
+
+msgid "Manicures"
+msgstr "عمليات تجميل الأظافر"
+
+msgid "Manicuring"
+msgstr "التجميل"
+
+msgid "Manicurist"
+msgstr "مدرّم الأظافر"
+
+msgid "Manicurists"
+msgstr "مدرّمات الأظافر"
+
+msgid "Manifest"
+msgstr "قائمة الشحن"
+
+msgid "Manifestation"
+msgstr "التوضيح"
+
+msgid "Manifestations"
+msgstr "التوضيحات"
+
+msgid "Manifested"
+msgstr "مظهر"
+
+msgid "Manifesting"
+msgstr "الإظهار"
+
+msgid "Manifestly"
+msgstr "بشكل ظاهر"
+
+msgid "Manifestness"
+msgstr "ظهور"
+
+msgid "Manifesto"
+msgstr "البيان العام"
+
+msgid "Manifests"
+msgstr "قوائم الشحن"
+
+msgid "Manifold"
+msgstr "الأنبوب المتفرع"
+
+msgid "Manifold-writer"
+msgstr "الكاتب المنوّع"
+
+msgid "Manifolder"
+msgstr "منوّع"
+
+msgid "Manifoldly"
+msgstr "بشكل منوّع"
+
+msgid "Manifoldness"
+msgstr "تنوّع"
+
+msgid "Manifolds"
+msgstr "الأنابيب المتفرعة"
+
+msgid "Manikin"
+msgstr "القزم"
+
+msgid "Manikins"
+msgstr "الأقزام"
+
+msgid "Manila"
+msgstr "مانيلا"
+
+msgid "Manipulability"
+msgstr "القدرة على التعامل مع الشيء باليد"
+
+msgid "Manipulable"
+msgstr "يسمح للظروف المحيطه بتعديله أوتحويره"
+
+msgid "Manipulatable"
+msgstr "يقبل  التدخل بهدف التغيير"
+
+msgid "Manipulate"
+msgstr "عالج"
+
+msgid "Manipulated"
+msgstr "معالج"
+
+msgid "Manipulates"
+msgstr "يعالج"
+
+msgid "Manipulating"
+msgstr "المعالجة"
+
+msgid "Manipulation"
+msgstr "التلاعب"
+
+msgid "Manipulations"
+msgstr "التلاعب"
+
+msgid "Manipulative"
+msgstr "مناور"
+
+msgid "Manipulatively"
+msgstr "بشكل مناور"
+
+msgid "Manipulativeness"
+msgstr "دويّ"
+
+msgid "Manipulator"
+msgstr "المعالج"
+
+msgid "Manipulators"
+msgstr "المعالجون"
+
+msgid "Manipulatory"
+msgstr "مناور"
+
+msgid "Manitoba"
+msgstr "مانيتوبا"
+
+msgid "Manitowoc"
+msgstr "مانيتووك"
+
+msgid "Mankind"
+msgstr "البشرية"
+
+msgid "Mankowski"
+msgstr "مانكوسكي"
+
+msgid "Manley"
+msgstr "قرية في ولاية نيبراسكا"
+
+msgid "Manlier"
+msgstr "أكثر رجولة"
+
+msgid "Manliest"
+msgstr "أكثر رجولة"
+
+msgid "Manlike"
+msgstr "رجولي"
+
+msgid "Manliness"
+msgstr "الرجولة"
+
+msgid "Manly"
+msgstr "رجوليّ"
+
+msgid "Mann"
+msgstr "مان"
+
+msgid "Manna"
+msgstr "المنّ"
+
+msgid "Manned"
+msgstr "بشري"
+
+msgid "Mannequin"
+msgstr "المعرضة"
+
+msgid "Mannequins"
+msgstr "العارضات"
+
+msgid "Manner"
+msgstr "الإسلوب"
+
+msgid "Manner-of-speaking"
+msgstr "إسلوب كلام"
+
+msgid "Mannered"
+msgstr "متكلّف"
+
+msgid "Mannerism"
+msgstr "التكلّف"
+
+msgid "Mannerisms"
+msgstr "التكلّف"
+
+msgid "Mannerless"
+msgstr "بلا آداب"
+
+msgid "Mannerliness"
+msgstr "تهذيب"
+
+msgid "Mannerly"
+msgstr "مهذّب"
+
+msgid "Manners"
+msgstr "الأساليب"
+
+msgid "Manning"
+msgstr "التجهيز بالرجال"
+
+msgid "Mannish"
+msgstr "مسترجلة"
+
+msgid "Mannishly"
+msgstr "بشكل مسترجلة"
+
+msgid "Manoeuvre"
+msgstr "المناورة"
+
+msgid "Manoeuvred"
+msgstr "ناور"
+
+msgid "Manometer"
+msgstr "المانومتر"
+
+msgid "Manometers"
+msgstr "المانومترات"
+
+msgid "Manor"
+msgstr "الضيعة الإقطاعية"
+
+msgid "Manor-house"
+msgstr "القصر"
+
+msgid "Manorial"
+msgstr "إقطاعي"
+
+msgid "Manors"
+msgstr "الضيع الإقطاعية"
+
+msgid "Manpower"
+msgstr "القوة البشرية"
+
+msgid "Manque"
+msgstr "فاشل"
+
+msgid "Mans"
+msgstr "يدور"
+
+msgid "Mansard"
+msgstr "السقف"
+
+msgid "Manse"
+msgstr "منزل القسّ"
+
+msgid "Manservant"
+msgstr "الخادم"
+
+msgid "Mansfield"
+msgstr "مانسفيلد"
+
+msgid "Mansion"
+msgstr "القصر"
+
+msgid "Mansions"
+msgstr "القصور"
+
+msgid "Manslaughter"
+msgstr "القتل الغير المتعمّد"
+
+msgid "Manslayer"
+msgstr "القاتل"
+
+msgid "Manta"
+msgstr "مانتا"
+
+msgid "Mantel"
+msgstr "رف الموقد"
+
+msgid "Mantelpiece"
+msgstr "رف المستوقد"
+
+msgid "Mantels"
+msgstr "رفوف المواقد"
+
+msgid "Mantic"
+msgstr "تكهّني"
+
+msgid "Mantis"
+msgstr "فرس النّبي"
+
+msgid "Mantissa"
+msgstr "الجزء العشري"
+
+msgid "Mantissas"
+msgstr "الأجزاء العشرية"
+
+msgid "Mantle"
+msgstr "العباءة"
+
+msgid "Mantled"
+msgstr "مغطّى"
+
+msgid "Mantlepiece"
+msgstr "رف موقد"
+
+msgid "Mantles"
+msgstr "العبي"
+
+msgid "Mantling"
+msgstr "التغطية"
+
+msgid "Mantrap"
+msgstr "الشرك"
+
+msgid "Manual"
+msgstr "الدليل"
+
+msgid "Manual-labour"
+msgstr "العمل اليدوي"
+
+msgid "Manual-labourer"
+msgstr "العامل اليدوي"
+
+msgid "Manual-skill"
+msgstr "المهارة اليدوية"
+
+msgid "ManualFeed"
+msgstr "تلقيم يدوي"
+
+msgid "Manually"
+msgstr "يدويا"
+
+msgid "Manuals"
+msgstr "الأدلّة"
+
+msgid "Manuel"
+msgstr "مانويل"
+
+msgid "Manufactory"
+msgstr "المصنع"
+
+msgid "Manufacture"
+msgstr "الصناعة"
+
+msgid "Manufactured"
+msgstr "مصنّع"
+
+msgid "Manufacturer"
+msgstr "المنتج"
+
+msgid "Manufacturers"
+msgstr "المنتجون"
+
+msgid "Manufactures"
+msgstr "الصناعات"
+
+msgid "Manufacturing"
+msgstr "التصنيع"
+
+msgid "Manufacturing-defective"
+msgstr "تصنيع معيوب"
+
+msgid "Manufacturing-method"
+msgstr "تصنيع الطريقة"
+
+msgid "Manufacturing-plant"
+msgstr "المؤسسة الصناعية"
+
+msgid "Manumission"
+msgstr "تحرير العبيد"
+
+msgid "Manumit"
+msgstr "أعتق"
+
+msgid "Manumitted"
+msgstr "معتق"
+
+msgid "Manumitting"
+msgstr "الإعتاق"
+
+msgid "Manure"
+msgstr "السماد"
+
+msgid "Manured"
+msgstr "مسمّد"
+
+msgid "Manurer"
+msgstr "سماد"
+
+msgid "Manurers"
+msgstr "أسمدة"
+
+msgid "Manures"
+msgstr "الأسمدة"
+
+msgid "Manuring"
+msgstr "التسميد"
+
+msgid "Manuscript"
+msgstr "المخطوطة"
+
+msgid "Manuscripts"
+msgstr "المخطوطات"
+
+msgid "Manville"
+msgstr "أسم لمدينة أمريكية في عدة ولايات أمريكية"
+
+msgid "Many"
+msgstr "الكثير"
+
+msgid "Many-sided"
+msgstr "متعدد الجوانب"
+
+msgid "Many-sidedness"
+msgstr "تعدّد الجوانب"
+
+msgid "Many-times"
+msgstr "العديد من الأوقات"
+
+msgid "Many-voiced"
+msgstr "جهوري الكثير"
+
+msgid "Manzanita"
+msgstr "مانزانيتا"
+
+msgid "Mao"
+msgstr "ماو"
+
+msgid "Maori"
+msgstr "ماوري"
+
+msgid "Map"
+msgstr "الخريطة"
+
+msgid "Map-case"
+msgstr "حالة خريطة"
+
+msgid "Map-stand"
+msgstr "جناح خريطة"
+
+msgid "Maple"
+msgstr "القيقب"
+
+msgid "Maplecrest"
+msgstr "مدينة أمريكية في ولاية نيو يورك"
+
+msgid "Maples"
+msgstr "القيقب"
+
+msgid "Maplewood"
+msgstr "خشب القيقب (الأسفندان)"
+
+msgid "Mappable"
+msgstr "يمكن رسم خريطة له"
+
+msgid "Mapped"
+msgstr "مخطّط"
+
+msgid "Mapper"
+msgstr "المخطّط"
+
+msgid "Mappers"
+msgstr "المخطّطون"
+
+msgid "Mapping"
+msgstr "التخطيط"
+
+msgid "Mappings"
+msgstr "التخطيط"
+
+msgid "Maps"
+msgstr "الخرائط"
+
+msgid "Mar"
+msgstr "مارس/آذار"
+
+msgid "Marathon"
+msgstr "الماراثون"
+
+msgid "Marathons"
+msgstr "الماراثونات"
+
+msgid "Maraud"
+msgstr "إغز"
+
+msgid "Marauded"
+msgstr "مغزو"
+
+msgid "Marauder"
+msgstr "اللصّ"
+
+msgid "Marauders"
+msgstr "اللصوص"
+
+msgid "Marauds"
+msgstr "يغزو"
+
+msgid "Marble"
+msgstr "الرخام"
+
+msgid "Marbled"
+msgstr "رخامي"
+
+msgid "Marbleized"
+msgstr "مرخّم"
+
+msgid "Marbleizing"
+msgstr "الترخيم"
+
+msgid "Marbler"
+msgstr "عامل الرخام"
+
+msgid "Marbles"
+msgstr "الرخامات"
+
+msgid "Marbling"
+msgstr "الترخيم"
+
+msgid "Marbly"
+msgstr "شبيه بالرخام"
+
+msgid "Marc"
+msgstr "مارك"
+
+msgid "Marceau"
+msgstr "مهرج فرنسي"
+
+msgid "Marcel"
+msgstr "مارسيل"
+
+msgid "Marcello"
+msgstr "مارسيلو"
+
+msgid "March"
+msgstr "مارس/آذار"
+
+msgid "March-out"
+msgstr "اخرج"
+
+msgid "March-past"
+msgstr "استعراض"
+
+msgid "Marched"
+msgstr "زاحف"
+
+msgid "Marched-in"
+msgstr "زحف في"
+
+msgid "Marched-off"
+msgstr "زاحف قبالة"
+
+msgid "Marched-out"
+msgstr "خرج"
+
+msgid "Marched-past"
+msgstr "سير أمام"
+
+msgid "Marched-through"
+msgstr "زحف خلال"
+
+msgid "Marcher"
+msgstr "متظاهر"
+
+msgid "Marches"
+msgstr "مواكب"
+
+msgid "Marching"
+msgstr "زحف"
+
+msgid "Marching-in"
+msgstr "زحف في"
+
+msgid "Marching-off"
+msgstr "زحف قبالة"
+
+msgid "Marching-out"
+msgstr "خروج"
+
+msgid "Marching-through"
+msgstr "زحف خلال"
+
+msgid "Marcia"
+msgstr "مارسيا"
+
+msgid "Marco"
+msgstr "ماركو"
+
+msgid "Marcotte"
+msgstr "ماركوت"
+
+msgid "Marcus"
+msgstr "ماركوس"
+
+msgid "Marcy"
+msgstr "مارسي"
+
+msgid "Mardi"
+msgstr "ماردي"
+
+msgid "Mardis"
+msgstr "مارديس"
+
+msgid "Mare"
+msgstr "فرس"
+
+msgid "Mared"
+msgstr "مفسد"
+
+msgid "Mares"
+msgstr "حصن"
+
+msgid "Margaret"
+msgstr "مارجريت"
+
+msgid "Margarine"
+msgstr "زبد النباتي"
+
+msgid "Margery"
+msgstr "مارجيري"
+
+msgid "Margin"
+msgstr "هامش"
+
+msgid "Marginal"
+msgstr "هامشي"
+
+msgid "Marginal-problem"
+msgstr "مشكلة هامشية"
+
+msgid "Marginalia"
+msgstr "تلويحات"
+
+msgid "Marginality"
+msgstr "تهميش"
+
+msgid "Marginally"
+msgstr "بشكل هامشي"
+
+msgid "Marginals"
+msgstr "الربح البسيط"
+
+msgid "Margined"
+msgstr "مزود بهامش"
+
+msgid "Margining"
+msgstr "التّهميش"
+
+msgid "Margins"
+msgstr "الهوامش"
+
+msgid "Margo"
+msgstr "مارجو"
+
+msgid "Marguerite"
+msgstr "زهر اللؤلؤ"
+
+msgid "Maria"
+msgstr "ماريا"
+
+msgid "Marian"
+msgstr "مريميّ"
+
+msgid "Marianne"
+msgstr "ماريان"
+
+msgid "Marie"
+msgstr "ماري"
+
+msgid "Marietta"
+msgstr "ماريتا"
+
+msgid "Marigold"
+msgstr "الزهرة المخملية"
+
+msgid "Marigolds"
+msgstr "الزهور المخملية"
+
+msgid "Marijuana"
+msgstr "مارجوانا: عشبة مخدّرة"
+
+msgid "Marilyn"
+msgstr "مارلين"
+
+msgid "Marimba"
+msgstr "ماريمبا"
+
+msgid "Marin"
+msgstr "مارين"
+
+msgid "Marina"
+msgstr "حوض لرسو السفن أو إصلاحها"
+
+msgid "Marinade"
+msgstr "نقّع"
+
+msgid "Marinaded"
+msgstr "منقّع"
+
+msgid "Marinades"
+msgstr "ينقّع"
+
+msgid "Marinas"
+msgstr "أحواض لرسو السفن أو إصلاحها"
+
+msgid "Marinate"
+msgstr "نقّع"
+
+msgid "Marinated"
+msgstr "منقّع"
+
+msgid "Marinates"
+msgstr "ينقّع"
+
+msgid "Marinating"
+msgstr "التنقيع"
+
+msgid "Marine"
+msgstr "جندي البحرية"
+
+msgid "Marine-animal"
+msgstr "الحيوان البحري"
+
+msgid "Mariner"
+msgstr "الملاح"
+
+msgid "Marines"
+msgstr "جنود البحرية"
+
+msgid "Maring"
+msgstr "الإفساد"
+
+msgid "Marino"
+msgstr "مارينو"
+
+msgid "Mario"
+msgstr "ماريو"
+
+msgid "Marion"
+msgstr "ماريون"
+
+msgid "Marionette"
+msgstr "الدمية المتحركة"
+
+msgid "Marionettes"
+msgstr "الدمى المتحركة"
+
+msgid "Marital"
+msgstr "زوجي"
+
+msgid "Marital-status"
+msgstr "المنزلة الزوجية"
+
+msgid "Maritally"
+msgstr "بشكل زوجي"
+
+msgid "Maritime"
+msgstr "بحري"
+
+msgid "Maritime-nation"
+msgstr "الأمة البحرية"
+
+msgid "Maritime-trade"
+msgstr "التجارة البحرية"
+
+msgid "Maritime-traffic"
+msgstr "المرور البحري"
+
+msgid "Maritimer"
+msgstr "بحري"
+
+msgid "Marjoram"
+msgstr "السّمسق (نبات عطري)"
+
+msgid "Marjorie"
+msgstr "اسم علم مؤنث"
+
+msgid "Marjory"
+msgstr "اسم علم مؤنث"
+
+msgid "Mark"
+msgstr "مارك"
+
+msgid "Mark-of-reference"
+msgstr "علامة مرجعية"
+
+msgid "Mark-off"
+msgstr "يفصل (شيئاً عن آخر) بحد أو خط"
+
+msgid "Markable"
+msgstr "صالح للوسم"
+
+msgid "Marked"
+msgstr "ملحوظ"
+
+msgid "Marked-off"
+msgstr "الملحوظ قبالة"
+
+msgid "Markedly"
+msgstr "لدرجة كبيرة"
+
+msgid "Marker"
+msgstr "العلامة"
+
+msgid "Markers"
+msgstr "العلامات"
+
+msgid "Market"
+msgstr "السوق"
+
+msgid "Market-analyses"
+msgstr "تحليلات سوق"
+
+msgid "Market-analysis"
+msgstr "تحليل سوق"
+
+msgid "Market-conditions"
+msgstr "شروط سوق"
+
+msgid "Market-economies"
+msgstr "إقتصاديات سوق"
+
+msgid "Market-economy"
+msgstr "إقتصاد السوق"
+
+msgid "Market-garden"
+msgstr "حديقة البيع خضروات"
+
+msgid "Market-place"
+msgstr "السوق"
+
+msgid "Market-price"
+msgstr "سعر السوق"
+
+msgid "Market-report"
+msgstr "تقرير سوق"
+
+msgid "Market-researcher"
+msgstr "باحث سوق"
+
+msgid "Market-value"
+msgstr "سعر السوق"
+
+msgid "Marketability"
+msgstr "التسويق"
+
+msgid "Marketable"
+msgstr "رائج"
+
+msgid "Marketed"
+msgstr "مسوّق"
+
+msgid "Marketeer"
+msgstr "البائع"
+
+msgid "Marketeers"
+msgstr "الباعة"
+
+msgid "Marketer"
+msgstr "المسوّق"
+
+msgid "Marketing"
+msgstr "التسويق"
+
+msgid "Marketing-corporation"
+msgstr "الشركة التسويقية"
+
+msgid "Marketings"
+msgstr "المبيعات"
+
+msgid "Marketplace"
+msgstr "السوق"
+
+msgid "Marketplaces"
+msgstr "الاسواق"
+
+msgid "Markets"
+msgstr "أسواق"
+
+msgid "Markham"
+msgstr "اسم لمدينة أمريكية في ولايات متعددة"
+
+msgid "Marking"
+msgstr "تأشير"
+
+msgid "Marking-ink"
+msgstr "تأشير الحبر"
+
+msgid "Marking-off"
+msgstr "تأشير قبالة"
+
+msgid "Markings"
+msgstr "علامات"
+
+msgid "Markov"
+msgstr "ماركوف - رياضي روسي"
+
+msgid "Markovian"
+msgstr "ينسب الى العملية الماركوفية (رياضيات)"
+
+msgid "Markovitz"
+msgstr "اسم علم"
+
+msgid "Marks"
+msgstr "علامات"
+
+msgid "Marksman"
+msgstr "رامي"
+
+msgid "Marksmanship"
+msgstr "مهارة الرمي"
+
+msgid "Marksmen"
+msgstr "رماة"
+
+msgid "Markup"
+msgstr "ترميز"
+
+msgid "Marl"
+msgstr "التراب الكلسي"
+
+msgid "Marlboro"
+msgstr "مارلبورو"
+
+msgid "Marlborough"
+msgstr "مارلبورو"
+
+msgid "Marlene"
+msgstr "مارلين"
+
+msgid "Marlin"
+msgstr "مارلن"
+
+msgid "Marlowe"
+msgstr "مارلو"
+
+msgid "Marmalade"
+msgstr "مربى البرتقال"
+
+msgid "Marmalades"
+msgstr "مربى البرتقال"
+
+msgid "Marmoreal"
+msgstr "رخامي"
+
+msgid "Marmot"
+msgstr "الغرير"
+
+msgid "Marmots"
+msgstr "الغرير"
+
+msgid "Maroon"
+msgstr "المفرقعات"
+
+msgid "Marooned"
+msgstr "منقطع"
+
+msgid "Marooning"
+msgstr "الهجر"
+
+msgid "Maroons"
+msgstr "المفرقعات"
+
+msgid "Marplot"
+msgstr "الفضولي"
+
+msgid "Marque"
+msgstr "نوع"
+
+msgid "Marquee"
+msgstr "الخيمة"
+
+msgid "Marquees"
+msgstr "الخيمات"
+
+msgid "Marquess"
+msgstr "المركيز: نبيل من نبلاء أوروبة واليابان"
+
+msgid "Marquesses"
+msgstr "نبلاء من أوروبة واليابان"
+
+# Perrson
+msgid "Marquette"
+msgstr "ماركيه"
+
+msgid "Marquis"
+msgstr "المركيزة: زوجة المركيز"
+
+msgid "Marquises"
+msgstr "المركيزات"
+
+msgid "Marred"
+msgstr "مفسد"
+
+msgid "Marriage"
+msgstr "زواج"
+
+msgid "Marriage-bed"
+msgstr "سرير زواج"
+
+msgid "Marriage-bureau"
+msgstr "مكتب زواج"
+
+msgid "Marriage-ceremonies"
+msgstr "مراسيم زواج"
+
+msgid "Marriage-ceremony"
+msgstr "مراسم زواج"
+
+msgid "Marriage-certificate"
+msgstr "شهادة زواج"
+
+msgid "Marriage-contract"
+msgstr "عقد الزواج"
+
+msgid "Marriage-guidance-counsellor"
+msgstr "مستشار توجيه زواج"
+
+msgid "Marriage-impostor"
+msgstr "منتحل زواج"
+
+msgid "Marriage-law"
+msgstr "قانون زواج"
+
+msgid "Marriage-of-convenience"
+msgstr "زواج الراحة"
+
+msgid "Marriage-portion"
+msgstr "جزء زواج"
+
+msgid "Marriage-sermon"
+msgstr "خطبة زواج"
+
+msgid "Marriage-tie"
+msgstr "ربطة زواج"
+
+msgid "Marriageable"
+msgstr "صالحة للزواج"
+
+msgid "Marriageableness"
+msgstr "أهلية للزواج"
+
+msgid "Marriages"
+msgstr "الزيجات"
+
+msgid "Married"
+msgstr "متزوّج"
+
+msgid "Married-couple"
+msgstr "الزوج والزوجة"
+
+msgid "Married-life"
+msgstr "الحياة المتزوّجة"
+
+msgid "Marries"
+msgstr "يتزوّج"
+
+msgid "Marrietta"
+msgstr "ماريتا"
+
+msgid "Marring"
+msgstr "الإفساد"
+
+msgid "Marriott"
+msgstr "ماريوت"
+
+msgid "Marrow"
+msgstr "نخاع"
+
+msgid "Marrowbone"
+msgstr "العظم النخاعي"
+
+msgid "Marrowbones"
+msgstr "العظام النخاعية"
+
+msgid "Marrows"
+msgstr "نخاعات"
+
+msgid "Marrowy"
+msgstr "نخاعيّ"
+
+msgid "Marry"
+msgstr "تزوّج"
+
+msgid "Marry-in"
+msgstr "تزوّج في"
+
+msgid "Marrying"
+msgstr "الزواج"
+
+msgid "Mars"
+msgstr "المريخ"
+
+msgid "Marseilles"
+msgstr "مارسيليس"
+
+msgid "Marsh"
+msgstr "المستنقع"
+
+msgid "Marsh fever"
+msgstr "ملاريا"
+
+msgid "Marsh-bird"
+msgstr "طير مستنقع"
+
+msgid "Marsha"
+msgstr "مارشا"
+
+msgid "Marshal"
+msgstr "المشير"
+
+msgid "Marshaled"
+msgstr "صفّ"
+
+msgid "Marshaler"
+msgstr "منظّم"
+
+msgid "Marshalers"
+msgstr "منظّمون"
+
+msgid "Marshaling"
+msgstr "تنظيم"
+
+msgid "Marshall"
+msgstr "مارشال - رتبة عسكرية"
+
+msgid "Marshalled"
+msgstr "منظّم"
+
+msgid "Marshalling"
+msgstr "التنظيم"
+
+msgid "Marshalling-airfield"
+msgstr "تنظيم المطار"
+
+msgid "Marshalling-area"
+msgstr "تنظيم المنطقة"
+
+msgid "Marshalling-yard"
+msgstr "محطة الفرز"
+
+msgid "Marshals"
+msgstr "المشيرون"
+
+msgid "Marshes"
+msgstr "المستنقعات"
+
+msgid "Marshier"
+msgstr "مستنقعي"
+
+msgid "Marshiest"
+msgstr "مستنقعي"
+
+msgid "Marshland"
+msgstr "الهور"
+
+msgid "Marshlands"
+msgstr "الأهوار"
+
+msgid "Marshmallow"
+msgstr "الخطميّ: عشب من الفصيلة الخبّازيّة"
+
+msgid "Marshmallows"
+msgstr "أعشاب من الفصيلة الخبّازيّة"
+
+msgid "Marshy"
+msgstr "مستنقعي"
+
+msgid "Marshy-ground"
+msgstr "الأرض المستنقعية"
+
+msgid "Marsupial"
+msgstr "جرابي"
+
+msgid "Marsupials"
+msgstr "الجرابيون"
+
+msgid "Mart"
+msgstr "السوق"
+
+msgid "Marten"
+msgstr "السمّور"
+
+msgid "Martens"
+msgstr "حيوانات السمور"
+
+msgid "Martensite"
+msgstr "محلول جامد من الكربون في الفولاذ الصّلد"
+
+msgid "Martha"
+msgstr "مارثا"
+
+msgid "Martial"
+msgstr "عسكري"
+
+msgid "Martial-law"
+msgstr "الحكم العرفي"
+
+msgid "Martially"
+msgstr "بشكل عسكري"
+
+msgid "Martian"
+msgstr "مريخي"
+
+msgid "Martians"
+msgstr "المريخيون"
+
+msgid "Martin"
+msgstr "مارتن"
+
+msgid "Martinez"
+msgstr "مارتينيز"
+
+msgid "Martingale"
+msgstr "مارتينجال"
+
+msgid "Martini"
+msgstr "المارتيني"
+
+msgid "Martinique"
+msgstr "مارتينيكوي"
+
+msgid "Martinis"
+msgstr "المارتيني"
+
+msgid "Martinson"
+msgstr "مارتينسون"
+
+msgid "Marts"
+msgstr "الأسواق"
+
+msgid "Marty"
+msgstr "مارتي"
+
+msgid "Martyr"
+msgstr "الشهيد"
+
+msgid "Martyrdom"
+msgstr "الإستشهاد"
+
+msgid "Martyred"
+msgstr "شهيد"
+
+msgid "Martyring"
+msgstr "الإستشهاد"
+
+msgid "Martyrs"
+msgstr "الشهداء"
+
+msgid "Marvel"
+msgstr "الأعجوبة"
+
+msgid "Marveled"
+msgstr "متعجّب"
+
+msgid "Marveling"
+msgstr "التعجّب"
+
+msgid "Marvelled"
+msgstr "متعجّب"
+
+msgid "Marvelling"
+msgstr "التعجّب"
+
+msgid "Marvellous"
+msgstr "رائع"
+
+msgid "Marvellously"
+msgstr "بشكل رائع"
+
+msgid "Marvelous"
+msgstr "رائع"
+
+msgid "Marvelously"
+msgstr "بشكل رائع"
+
+msgid "Marvelousness"
+msgstr "روعة"
+
+msgid "Marvels"
+msgstr "الأعاجيب"
+
+msgid "Marvin"
+msgstr "مارفن"
+
+msgid "Marx"
+msgstr "ماركس"
+
+msgid "Marxism"
+msgstr "الماركسية"
+
+msgid "Marxisms"
+msgstr "الماركسية"
+
+msgid "Marxist"
+msgstr "الماركسي"
+
+msgid "Mary"
+msgstr "ماري"
+
+msgid "Maryland"
+msgstr "ميريلاند"
+
+msgid "Marylander"
+msgstr "من سكان ميريلاند"
+
+msgid "Mascara"
+msgstr "مجمّل الرموش"
+
+msgid "Mascaras"
+msgstr "مجمّلات الرموش"
+
+msgid "Mascot"
+msgstr "جالب الحظ: شخص أو حيوان أو شيء يُظَنُّ أنّه يجلب الحظ السعيد"
+
+msgid "Mascots"
+msgstr "جالبو الحظ"
+
+msgid "Masculine"
+msgstr "مذكر"
+
+msgid "Masculinely"
+msgstr "بشكل مذكر"
+
+msgid "Masculineness"
+msgstr "فحولة"
+
+msgid "Masculinity"
+msgstr "ذكورة"
+
+msgid "Maser"
+msgstr "المازر: أداة لتضخيم النبضات الكهربائية بابتعاث الإشعاعات وحَفْزها"
+
+msgid "Maseru"
+msgstr "ماسيرو - عاصمة ليسوتو"
+
+msgid "Mash"
+msgstr "الهريس: مزيح من حنطة ونخالة وماء حار (يقدَّم طعاماً للماشية)"
+
+msgid "Mashed"
+msgstr "هرس"
+
+msgid "Mashed-potatoes"
+msgstr "بطاطا مهروسة"
+
+msgid "Masher"
+msgstr "هرّاسة"
+
+msgid "Mashers"
+msgstr "هرّاسات"
+
+msgid "Mashes"
+msgstr "الهرائس"
+
+msgid "Mashing"
+msgstr "يهرس"
+
+msgid "Mashings"
+msgstr "يهرس"
+
+msgid "Mashs"
+msgstr "الهريسة"
+
+msgid "Mask"
+msgstr "قناع"
+
+msgid "Mask-oriented"
+msgstr "موجه قناع"
+
+msgid "Mask-programmed"
+msgstr "مبرمج قناع"
+
+msgid "Maskable"
+msgstr "قابل لأن يكون مقنّعا"
+
+msgid "Masked"
+msgstr "مقنّع"
+
+msgid "Masked-ball"
+msgstr "الحفلة التنكريّة"
+
+msgid "Masker"
+msgstr "المقنَّع"
+
+msgid "Masking"
+msgstr "الإخفاء"
+
+msgid "Maskings"
+msgstr "إخفاء بعض المشاهد في المسرحية"
+
+msgid "Masks"
+msgstr "أقنعة"
+
+msgid "Masochism"
+msgstr "الماسوشيّة"
+
+msgid "Masochist"
+msgstr "المستألم"
+
+msgid "Masochistic"
+msgstr "ماسوشيّ"
+
+msgid "Masochistically"
+msgstr "سادي، التلذذ بالألم"
+
+msgid "Masochists"
+msgstr "المستألمون"
+
+msgid "Mason"
+msgstr "بنّاء"
+
+msgid "Masoned"
+msgstr "بنى"
+
+msgid "Masonic"
+msgstr "ماسونيّ"
+
+msgid "Masoning"
+msgstr "يبني أو يمارس الماسونية"
+
+msgid "Masonite"
+msgstr "ألواح مصنوعة من ألوح الخشب المضغوطة"
+
+msgid "Masonries"
+msgstr "مباني"
+
+msgid "Masonry"
+msgstr "مبنى"
+
+msgid "Masons"
+msgstr "الماسونيون"
+
+msgid "Masque"
+msgstr "التمثيلية"
+
+msgid "Masquer"
+msgstr "مقنَّع"
+
+msgid "Masquerade"
+msgstr "تنكّر"
+
+msgid "Masqueraded"
+msgstr "متنكّر"
+
+msgid "Masquerader"
+msgstr "ألمتخفي"
+
+msgid "Masquerades"
+msgstr "التنكّر"
+
+msgid "Masquerading"
+msgstr "التنكّر"
+
+msgid "Masquers"
+msgstr "مقنَّعون"
+
+msgid "Masques"
+msgstr "تمثيليات"
+
+msgid "Mass"
+msgstr "كتلة"
+
+msgid "Mass-dismissals"
+msgstr "حالات الطرد الجماعية"
+
+msgid "Mass-production"
+msgstr "الانتاج الشامل"
+
+msgid "Mass-together"
+msgstr "تحشّد سوية"
+
+msgid "Massachusetts"
+msgstr "ماسوشوستس"
+
+msgid "Massacre"
+msgstr "المذبحة"
+
+msgid "Massacred"
+msgstr "مذبوح"
+
+msgid "Massacrer"
+msgstr "القائم بعمل المذبحة"
+
+msgid "Massacres"
+msgstr "مذابح"
+
+msgid "Massacring"
+msgstr "ذبح"
+
+msgid "Massage"
+msgstr "تدليك"
+
+msgid "Massaged"
+msgstr "مدلّك"
+
+msgid "Massager"
+msgstr "مدلّك"
+
+msgid "Massages"
+msgstr "تدليك"
+
+msgid "Massaging"
+msgstr "تدليك"
+
+msgid "Massed"
+msgstr "متجمّع"
+
+msgid "Massed-together"
+msgstr "المتجمّع سوية"
+
+msgid "Masses"
+msgstr "جماهير"
+
+msgid "Masseur"
+msgstr "مدلّك"
+
+msgid "Massey"
+msgstr "ماسي - مدينة في ولاية ميريلاند اﻷمريكية"
+
+msgid "Massier"
+msgstr "أضخم"
+
+msgid "Massiest"
+msgstr "أضخم"
+
+msgid "Massif"
+msgstr "كتلة صخرية"
+
+msgid "Massifs"
+msgstr "كتل صخرية"
+
+msgid "Massiness"
+msgstr "الكتلة"
+
+msgid "Massing"
+msgstr "التحشّد"
+
+msgid "Massing-together"
+msgstr "تحشّد سوية"
+
+msgid "Massinger"
+msgstr "ماسينجر - كاتب مسرحيّ إنجليزيّ"
+
+msgid "Massive"
+msgstr "هائل"
+
+msgid "Massively"
+msgstr "بشكل هائل"
+
+msgid "Massiveness"
+msgstr "الضخامة"
+
+msgid "Massless"
+msgstr "معدوم الكتلة"
+
+msgid "Massproduced"
+msgstr "منتج على نطاق واسع"
+
+msgid "Massproduced-article"
+msgstr "مقال منتج بالجملة"
+
+msgid "Massy"
+msgstr "ضخم"
+
+msgid "Mast"
+msgstr "سارية"
+
+msgid "Mastectomies"
+msgstr "عمليات إزالة الثدي"
+
+msgid "Mastectomy"
+msgstr "إزالة الثدي"
+
+msgid "Masted"
+msgstr "زوّد بسارية"
+
+msgid "Master"
+msgstr "السيّد"
+
+msgid "Master-builder"
+msgstr "أستاذ البناء"
+
+msgid "Master-tailor"
+msgstr "خيّاط بارع"
+
+msgid "Mastered"
+msgstr "متقن"
+
+msgid "Masterful"
+msgstr "بارع"
+
+msgid "Masterfully"
+msgstr "بمهارة"
+
+msgid "Masterfulness"
+msgstr "براعة"
+
+msgid "Masteries"
+msgstr "السيادة"
+
+msgid "Mastering"
+msgstr "الإتقان"
+
+msgid "Masterliness"
+msgstr "القدرة على السيطرة بحكمة"
+
+msgid "Masterly"
+msgstr "بمهارة"
+
+msgid "Masterly-achievement"
+msgstr "الإنجاز المتقن"
+
+msgid "Mastermind"
+msgstr "العقل الموجّه"
+
+msgid "Masterminded"
+msgstr "منظّم"
+
+msgid "Masterminding"
+msgstr "التنظيم"
+
+msgid "Masterminds"
+msgstr "العقول الموجّهة"
+
+msgid "Masterpiece"
+msgstr "التحفة"
+
+msgid "Masterpieces"
+msgstr "القطع النادرة"
+
+msgid "Masters"
+msgstr "السادة"
+
+msgid "Mastership"
+msgstr "السيادة"
+
+msgid "Masterships"
+msgstr "السيادة"
+
+msgid "Masterwork"
+msgstr "العمل النادر"
+
+msgid "Mastery"
+msgstr "الإجادة"
+
+msgid "Masthead"
+msgstr "الاسم"
+
+msgid "Mastic"
+msgstr "ماستيك"
+
+msgid "Masticable"
+msgstr "قابل للمضغ"
+
+msgid "Masticate"
+msgstr "إمضغ"
+
+msgid "Masticated"
+msgstr "ممضوغ"
+
+msgid "Masticates"
+msgstr "يمضغ"
+
+msgid "Masticating"
+msgstr "المضغ"
+
+msgid "Mastication"
+msgstr "مضغ"
+
+msgid "Masticator"
+msgstr "ماضغ"
+
+msgid "Mastiff"
+msgstr "كلب الدرواس"
+
+msgid "Mastiffs"
+msgstr "كلاب الدرواس"
+
+msgid "Mastodon"
+msgstr "الصناجة"
+
+msgid "Mastodons"
+msgstr "الصناجات"
+
+msgid "Masts"
+msgstr "سواري"
+
+msgid "Masturbate"
+msgstr "يستمني"
+
+msgid "Masturbated"
+msgstr "استمنى"
+
+msgid "Masturbates"
+msgstr "يستمني"
+
+msgid "Masturbating"
+msgstr "استمناء"
+
+msgid "Masturbation"
+msgstr "استمناء"
+
+msgid "Masturbations"
+msgstr "استمناء"
+
+msgid "Masturbatory"
+msgstr "ذو علاقة بالأستمناء"
+
+msgid "Mat"
+msgstr "حصير"
+
+msgid "Match"
+msgstr "مباراة"
+
+msgid "Match-box"
+msgstr "علبة الثقاب"
+
+msgid "Matchable"
+msgstr "مناظر"
+
+msgid "Matchbook"
+msgstr "دفتر الثّقاب"
+
+msgid "Matchbox"
+msgstr "علبة الثقاب"
+
+msgid "Matchboxes"
+msgstr "علب الثقاب"
+
+msgid "Matched"
+msgstr "متناظر"
+
+msgid "Matcher"
+msgstr "المنظر - زواج أو مباراة"
+
+msgid "Matches"
+msgstr "مباريات"
+
+msgid "Matching"
+msgstr "مواءمة"
+
+msgid "Matchings"
+msgstr "مواءمات"
+
+msgid "Matchless"
+msgstr "منقطع النظير"
+
+msgid "Matchlessly"
+msgstr "بشكل منقطع النظير"
+
+msgid "Matchmake"
+msgstr "يصنع عيدان الثّقاب"
+
+msgid "Matchmaker"
+msgstr "صانع عيدان الثّقاب"
+
+msgid "Matchmakers"
+msgstr "صانعو عيدان الثقاب"
+
+msgid "Matchmaking"
+msgstr "صناعة عيدان الثّقاب"
+
+msgid "Mate"
+msgstr "الصاحب"
+
+msgid "Mated"
+msgstr "مزاوج"
+
+msgid "Mateo"
+msgstr "ماتيو"
+
+msgid "Mater"
+msgstr "الأمّ"
+
+msgid "Material"
+msgstr "المادّة"
+
+msgid "Material-damage"
+msgstr "الضرر المادي"
+
+msgid "Materialism"
+msgstr "المادية"
+
+msgid "Materialistic"
+msgstr "مادي"
+
+msgid "Materialistically"
+msgstr "بمادية"
+
+msgid "Materialists"
+msgstr "مادّيون"
+
+msgid "Materialization"
+msgstr "تجسّد"
+
+msgid "Materialize"
+msgstr "تحقّق"
+
+msgid "Materialized"
+msgstr "متحقّق"
+
+msgid "Materializer"
+msgstr "مجسّد"
+
+msgid "Materializers"
+msgstr "مجسّدون"
+
+msgid "Materializes"
+msgstr "يتحقّق"
+
+msgid "Materializing"
+msgstr "تحقيق"
+
+msgid "Materially"
+msgstr "ماديا"
+
+msgid "Materialness"
+msgstr "حسي"
+
+msgid "Materials"
+msgstr "المواد"
+
+msgid "Materiel"
+msgstr "المعدّات والتجهيزات العسكرية"
+
+msgid "Maternal"
+msgstr "أمومي"
+
+msgid "Maternalistic"
+msgstr "عرض الغرائز الأمومية"
+
+msgid "Maternally"
+msgstr "بشكل أمومي"
+
+msgid "Maternities"
+msgstr "الأمومة"
+
+msgid "Maternity"
+msgstr "الأمومة"
+
+msgid "Mates"
+msgstr "الأصحاب"
+
+msgid "Math"
+msgstr "الرياضيات"
+
+msgid "Mathematic"
+msgstr "رياضي"
+
+msgid "Mathematical"
+msgstr "رياضي"
+
+msgid "Mathematically"
+msgstr "رياضيا"
+
+msgid "Mathematician"
+msgstr "عالم الرياضيات"
+
+msgid "Mathematicians"
+msgstr "علماء الرياضيات"
+
+msgid "Mathematics"
+msgstr "الرياضيات"
+
+msgid "Mathews"
+msgstr "ماثيوز"
+
+msgid "Mathewson"
+msgstr "ماثيوسون"
+
+msgid "Mathias"
+msgstr "ماثياس"
+
+msgid "Mathieu"
+msgstr "ماذييو"
+
+msgid "Matilda"
+msgstr "ماتيلدا"
+
+msgid "Matinal"
+msgstr "ماتينال"
+
+msgid "Matinee"
+msgstr "الحفلة النهارية"
+
+msgid "Matinees"
+msgstr "الحفلات النهارية"
+
+msgid "Mating"
+msgstr "تزاوج"
+
+msgid "Matins"
+msgstr "صلوات الفجر"
+
+msgid "Matisse"
+msgstr "ماتيسي - فنّان فرنسيّ"
+
+msgid "Matriarch"
+msgstr "رئيسة الأسرة"
+
+msgid "Matriarchal"
+msgstr "أمومي"
+
+msgid "Matriarchy"
+msgstr "النظام الأمومي"
+
+msgid "Matrices"
+msgstr "مصفوفات"
+
+msgid "Matricidal"
+msgstr "مختص بقتل الأم"
+
+msgid "Matricide"
+msgstr "قتل الأم"
+
+msgid "Matriculate"
+msgstr "يقبل طالباً في كلية أو جامعة أو جماعة بعد امتحان عادةً"
+
+msgid "Matriculated"
+msgstr "مقبول"
+
+msgid "Matriculates"
+msgstr "يقبل"
+
+msgid "Matriculating"
+msgstr "قبول في جامعة إلخ"
+
+msgid "Matriculation"
+msgstr "قبول في جامعة إلخ"
+
+msgid "Matriculations"
+msgstr "امتحانات القبول بجامعة إلخ"
+
+msgid "Matrimonial"
+msgstr "زواجي"
+
+msgid "Matrimonially"
+msgstr "بشكل زواجي"
+
+msgid "Matrimonies"
+msgstr "زيجات"
+
+msgid "Matrimony"
+msgstr "زواج"
+
+msgid "Matrix"
+msgstr "مصفوفة: جدول مقسّم إلى خلايا أو خانات"
+
+msgid "Matrixes"
+msgstr "مصفوفات"
+
+msgid "Matron"
+msgstr "الرئيسة (في منظمة نسوية)"
+
+msgid "Matronly"
+msgstr "رزين"
+
+msgid "Matrons"
+msgstr "رئيسات"
+
+msgid "Mats"
+msgstr "حُصُر"
+
+msgid "Matson"
+msgstr "ماتسون"
+
+msgid "Matsumoto"
+msgstr "ماتسوموتو"
+
+msgid "Matt"
+msgstr "مات"
+
+msgid "Matte"
+msgstr "خليط من نحاس ورصاص ونيكل"
+
+msgid "Matted"
+msgstr "مغطّى"
+
+msgid "Matter"
+msgstr "أمر"
+
+msgid "Mattered"
+msgstr "مهموم"
+
+msgid "Mattering"
+msgstr "همّ"
+
+msgid "Matters"
+msgstr "أمور"
+
+msgid "Matthew"
+msgstr "ماثيو"
+
+msgid "Matthews"
+msgstr "ماتيوس"
+
+msgid "Mattie"
+msgstr "ماتي"
+
+msgid "Matting"
+msgstr "حصيرة"
+
+msgid "Mattock"
+msgstr "مِعْوَل"
+
+msgid "Mattocks"
+msgstr "مَعَاوِل"
+
+msgid "Mattress"
+msgstr "مفرش"
+
+msgid "Mattresses"
+msgstr "مفارش"
+
+msgid "Mattson"
+msgstr "ماتسون"
+
+msgid "Maturate"
+msgstr "ينضج"
+
+msgid "Maturated"
+msgstr "ناضج"
+
+msgid "Maturates"
+msgstr "ينضج"
+
+msgid "Maturating"
+msgstr "نضوج"
+
+msgid "Maturation"
+msgstr "نضوج"
+
+msgid "Maturational"
+msgstr "مختص بالنضوج"
+
+msgid "Maturations"
+msgstr "نضوج"
+
+msgid "Maturative"
+msgstr "نضج"
+
+msgid "Mature"
+msgstr "بالغ"
+
+msgid "Matured"
+msgstr "ناضج"
+
+msgid "Maturely"
+msgstr "بشكل بالغ"
+
+msgid "Matureness"
+msgstr "النضج"
+
+msgid "Maturer"
+msgstr "بالغ"
+
+msgid "Matures"
+msgstr "ينضج"
+
+msgid "Maturing"
+msgstr "النضوج"
+
+msgid "Maturities"
+msgstr "استحقاقات ديون"
+
+msgid "Maturity"
+msgstr "النضج"
+
+msgid "Matutinal"
+msgstr "صباحي"
+
+msgid "Matzo"
+msgstr "خبز فطير (يأكله اليهود في عيد فصحهم)"
+
+msgid "Maude"
+msgstr "مود"
+
+msgid "Maudlin"
+msgstr "عاطفي"
+
+msgid "Maudlinly"
+msgstr "بشكل عاطفي"
+
+msgid "Maul"
+msgstr "إضرب"
+
+msgid "Mauled"
+msgstr "مضروب"
+
+msgid "Mauler"
+msgstr "المطرقة"
+
+msgid "Maulers"
+msgstr "يد قوية"
+
+msgid "Mauling"
+msgstr "الضرب"
+
+msgid "Mauls"
+msgstr "يضرب"
+
+msgid "Maunder"
+msgstr "إهذ"
+
+msgid "Maureen"
+msgstr "مورين"
+
+msgid "Maurice"
+msgstr "موريس"
+
+msgid "Mauricio"
+msgstr "موريسيو"
+
+msgid "Maurine"
+msgstr "مورين"
+
+msgid "Mauritania"
+msgstr "موريتانيا"
+
+msgid "Mauritius"
+msgstr "موريشيوس"
+
+msgid "Mausoleum"
+msgstr "الضريح"
+
+msgid "Mausoleums"
+msgstr "الأضرحة"
+
+msgid "Mauve"
+msgstr "البنفسجي"
+
+msgid "Maven"
+msgstr "مخضرم"
+
+msgid "Maverick"
+msgstr "السياسي المستفرد"
+
+msgid "Mavericks"
+msgstr "السياسيون المستفردون"
+
+msgid "Mavis"
+msgstr "السمنة المطربة"
+
+msgid "Maw"
+msgstr "الحوصلة"
+
+msgid "Mawkish"
+msgstr "مقزّز"
+
+msgid "Mawkishly"
+msgstr "بصورة مثيرة للغثيان"
+
+msgid "Mawkishness"
+msgstr "تقزّز"
+
+msgid "Mawr"
+msgstr "مار"
+
+msgid "Maws"
+msgstr "الحوصلات"
+
+msgid "Max"
+msgstr "ماكس"
+
+msgid "Maxilla"
+msgstr "الفك الأعلى"
+
+msgid "Maxillary"
+msgstr "ماكسيلاري"
+
+msgid "Maxim"
+msgstr "حِكْمَة أو مثل سائر"
+
+msgid "Maxima"
+msgstr "الحدود العليا"
+
+msgid "Maximal"
+msgstr "أعلى"
+
+msgid "Maximally"
+msgstr "بالحد الأعلى"
+
+msgid "Maximilian"
+msgstr "عماة ذهبية"
+
+msgid "Maximization"
+msgstr "تحقيق الحدّ الأقصى"
+
+msgid "Maximizations"
+msgstr "تحقيق الحدّ الأقصى"
+
+msgid "Maximize"
+msgstr "حقّق الحد الأقصى منه"
+
+msgid "Maximized"
+msgstr "حقّق الحد الأقصى منه"
+
+msgid "Maximizer"
+msgstr "المكبّر إلى الحدّ الأقصى"
+
+msgid "Maximizers"
+msgstr "المكبّرون إلى الحدّ الأقصى"
+
+msgid "Maximizes"
+msgstr "يحقّق الحد الأقصى منه"
+
+msgid "Maximizing"
+msgstr "تحقيق الحدّ أقصى"
+
+msgid "Maxims"
+msgstr "حِكَم أو أمثال سائرة"
+
+msgid "Maximum"
+msgstr "الحدّ الأعلى"
+
+msgid "Maximumly"
+msgstr "بشكل أقصى"
+
+msgid "Maximums"
+msgstr "الحدّ الأعلى"
+
+msgid "Maxine"
+msgstr "ماكسين"
+
+msgid "Maxtor"
+msgstr "ماكستور"
+
+msgid "Maxwell"
+msgstr "ماكسويل"
+
+msgid "May"
+msgstr "مايو"
+
+msgid "Maya"
+msgstr "المايا: شعب يقطن هندوراس البريطانية وغواتيمالا الشمالية إلخ"
+
+msgid "Mayans"
+msgstr "مجموعة لغات ينطق بها في أمريكا الوسطى والمكسيك"
+
+msgid "Mayapple"
+msgstr "عشب شمال أمريكي ذو ثمر بيضي الشكل"
+
+msgid "Maybe"
+msgstr "ربّما"
+
+msgid "Mayer"
+msgstr "ماير"
+
+msgid "Mayest"
+msgstr "الأكثر قابلية"
+
+msgid "Mayfair"
+msgstr "مايفير - منطقة ألأناقة في لندن"
+
+msgid "Mayflies"
+msgstr "ذباب مايو"
+
+msgid "Mayflower"
+msgstr "زهرة مايو"
+
+msgid "Mayflowers"
+msgstr "زهور مايو"
+
+msgid "Mayfly"
+msgstr "ذبابة مايو"
+
+msgid "Mayhap"
+msgstr "ربّما"
+
+msgid "Mayhem"
+msgstr "أذى أو ضرر متعمّد"
+
+msgid "Maying"
+msgstr "الاحتفال بعيد أول مايو"
+
+msgid "Maynard"
+msgstr "ماينارد"
+
+msgid "Mayo"
+msgstr "ميونيز"
+
+msgid "Mayonnaise"
+msgstr "المَيُونيز: صلصة كثيقة من صفار البيض المخفوق والخلّ والزيت والتوابل إلخ"
+
+msgid "Mayor"
+msgstr "رئيس البلدية"
+
+msgid "Mayoral"
+msgstr "بلدي"
+
+msgid "Mayors"
+msgstr "رؤساء البلدية"
+
+msgid "Mayorship"
+msgstr "رئاسة البلدية"
+
+msgid "Maypole"
+msgstr "الناغط"
+
+msgid "Maypoles"
+msgstr "الناغطون"
+
+msgid "Mays"
+msgstr "زهور الزعرور"
+
+msgid "Mayst"
+msgstr "مايست"
+
+msgid "Mazda"
+msgstr "مازدا - ماركة تجاريّة للسّيارات"
+
+msgid "Maze"
+msgstr "المتاهة"
+
+msgid "Mazed"
+msgstr "محيّر"
+
+msgid "Mazedness"
+msgstr "ألحيره"
+
+msgid "Mazer"
+msgstr "طاس كبير كان يصنع من خشب"
+
+msgid "Mazes"
+msgstr "المتاهات"
+
+msgid "Mazily"
+msgstr "بشكل محيّر"
+
+msgid "Mazing"
+msgstr "الحيرة"
+
+msgid "Mazurka"
+msgstr "المازوركا"
+
+msgid "Mazy"
+msgstr "محيّر"
+
+msgid "MB"
+msgstr "ميغابايت"
+
+msgid "MBA"
+msgstr "ماجستير ادارة أعمال"
+
+msgid "Mbabane"
+msgstr "عاصمة سوازيلاند"
+
+msgid "MBR"
+msgstr "سجل التشغيل الأساسي"
+
+msgid "Mbyte"
+msgstr "ميجابايت"
+
+msgid "Mbytes"
+msgstr "ميجابايت"
+
+msgid "McAdams"
+msgstr "مكأدامس"
+
+msgid "McAllister"
+msgstr "مكاليستر"
+
+msgid "McBride"
+msgstr "مسبرد"
+
+msgid "McCabe"
+msgstr "مكاب"
+
+msgid "McCall"
+msgstr "مكال"
+
+msgid "McCallum"
+msgstr "مكالوم"
+
+msgid "McCann"
+msgstr "مكان"
+
+msgid "McCarthy"
+msgstr "مكارثي"
+
+msgid "McCarty"
+msgstr "مكارتي"
+
+msgid "McCauley"
+msgstr "مكولي"
+
+msgid "McClain"
+msgstr "مكلين"
+
+msgid "McClellan"
+msgstr "مكليلان"
+
+msgid "McClure"
+msgstr "مكلور"
+
+msgid "McCluskey"
+msgstr "مكلوسكي"
+
+msgid "McConnel"
+msgstr "مكونيل"
+
+msgid "McConnell"
+msgstr "مكونيل"
+
+msgid "McCormick"
+msgstr "مكورميك"
+
+msgid "McCoy"
+msgstr "مكوي"
+
+msgid "McCracken"
+msgstr "مكراكين"
+
+msgid "McCullough"
+msgstr "مكولوغ"
+
+msgid "McDaniel"
+msgstr "مكدانيل"
+
+msgid "McDermott"
+msgstr "مكدرموت"
+
+msgid "McDonald"
+msgstr "ماكدونالد"
+
+msgid "McDonnell"
+msgstr "مكدونيل"
+
+msgid "McDougall"
+msgstr "مكدوجال"
+
+msgid "McDowell"
+msgstr "مكدويل"
+
+msgid "McElhaney"
+msgstr "مسيلهاني"
+
+msgid "McElroy"
+msgstr "مسيلروي"
+
+msgid "McFadden"
+msgstr "مكفادين"
+
+msgid "McFarland"
+msgstr "مكفارلاند"
+
+msgid "McGee"
+msgstr "مكجي"
+
+msgid "McGill"
+msgstr "مكجيل"
+
+msgid "McGinnis"
+msgstr "ماجينيز"
+
+msgid "McGovern"
+msgstr "مكغوفيرن"
+
+msgid "McGowan"
+msgstr "مكغووان"
+
+msgid "McGrath"
+msgstr "مكجراث"
+
+msgid "McGraw"
+msgstr "مكجراو"
+
+msgid "McGregor"
+msgstr "مكجريجور"
+
+msgid "McGuire"
+msgstr "مكغواير"
+
+msgid "McHugh"
+msgstr "متشوغ"
+
+msgid "McIntosh"
+msgstr "مسينتوش"
+
+msgid "McIntyre"
+msgstr "مسينتير"
+
+msgid "McKay"
+msgstr "مكاي"
+
+msgid "McKee"
+msgstr "مكي"
+
+msgid "McKenna"
+msgstr "ماكينا"
+
+msgid "McKenzie"
+msgstr "ماكنزي"
+
+msgid "McKeon"
+msgstr "مكيون"
+
+msgid "McKesson"
+msgstr "مكيسون"
+
+msgid "McKinley"
+msgstr "مكينلي"
+
+msgid "McKinney"
+msgstr "مكينني"
+
+msgid "McKnight"
+msgstr "مكنايت"
+
+msgid "McLanahan"
+msgstr "مكلاناهان"
+
+msgid "McLaughlin"
+msgstr "مكلوغلن"
+
+msgid "McLean"
+msgstr "ماكلين"
+
+msgid "McLeod"
+msgstr "مكليود"
+
+msgid "McMahon"
+msgstr "مكماهون"
+
+msgid "McMartin"
+msgstr "مكمارتين"
+
+msgid "McMillan"
+msgstr "مكميلان"
+
+msgid "McMullen"
+msgstr "مكمولين"
+
+msgid "McNally"
+msgstr "مسنالي"
+
+msgid "McNaughton"
+msgstr "مسناوجهتون"
+
+msgid "McNeil"
+msgstr "مسنيل"
+
+msgid "McNulty"
+msgstr "مسنولتي"
+
+msgid "McPherson"
+msgstr "مكفرسون"
+
+msgid "MD"
+msgstr "دكتور في الطب"
+
+msgid "MDI"
+msgstr "واجهة المستندات المتعددة"
+
+msgid "MDT"
+msgstr "التوقيت النهاري الجبلي (الولايات المتحدة)"
+
+msgid "Me"
+msgstr "ني"
+
+msgid "Mead"
+msgstr "شراب مخمّر يعد من عسل ومَلت وخميرة"
+
+msgid "Meadow"
+msgstr "المرج"
+
+msgid "Meadowland"
+msgstr "ميدولاند"
+
+msgid "Meadowlark"
+msgstr "ميدولارك"
+
+msgid "Meadows"
+msgstr "المروج"
+
+msgid "Meadowsweet"
+msgstr "إكليلية المروج"
+
+msgid "Meadowy"
+msgstr "ميدوي"
+
+msgid "Meads"
+msgstr "أشربة العسل"
+
+msgid "Meager"
+msgstr "ضئيل"
+
+msgid "Meagerly"
+msgstr "بشكل ضئيل"
+
+msgid "Meagerness"
+msgstr "ضآلة"
+
+msgid "Meal"
+msgstr "وجبة الطعام"
+
+msgid "Mealier"
+msgstr "متفتّت"
+
+msgid "Mealies"
+msgstr "أكواز ذرة"
+
+msgid "Mealiest"
+msgstr "أشحب"
+
+msgid "Mealiness"
+msgstr "طحيني"
+
+msgid "Meals"
+msgstr "وجبات الطعام"
+
+msgid "Mealtime"
+msgstr "وقت الطعام"
+
+msgid "Mealy"
+msgstr "متفتّت"
+
+msgid "Mean"
+msgstr "المتوسط"
+
+msgid "Meander"
+msgstr "التعرج"
+
+msgid "Meandered"
+msgstr "متعرّج"
+
+msgid "Meandering"
+msgstr "التعرّج"
+
+msgid "Meanderings"
+msgstr "أحاديث ممطوطة"
+
+msgid "Meanders"
+msgstr "تعرجات"
+
+msgid "Meaner"
+msgstr "أكثر بخلا"
+
+msgid "Meanest"
+msgstr "أكثر بخلا"
+
+msgid "Meaning"
+msgstr "المعنى"
+
+msgid "Meaningful"
+msgstr "ذو مغزى"
+
+msgid "Meaningfully"
+msgstr "بشكل ذو مغزى"
+
+msgid "Meaningfulness"
+msgstr "المعنى"
+
+msgid "Meaningless"
+msgstr "بلا معنى"
+
+msgid "Meaninglessly"
+msgstr "بشكل بلا معنى"
+
+msgid "Meaninglessness"
+msgstr "خلو من المعنى"
+
+msgid "Meanings"
+msgstr "المعاني"
+
+msgid "Meanly"
+msgstr "باحتقار"
+
+msgid "Meanness"
+msgstr "الحقارة"
+
+msgid "Means"
+msgstr "يعني"
+
+msgid "Meant"
+msgstr "عنى"
+
+msgid "Meantime"
+msgstr "في أثناء ذلك"
+
+msgid "Meanwhile"
+msgstr "في هذه الأثناء"
+
+msgid "Measle"
+msgstr "حصبة"
+
+msgid "Measled"
+msgstr "متحصّب"
+
+msgid "Measles"
+msgstr "الحصبة"
+
+msgid "Measlier"
+msgstr "تافه"
+
+msgid "Measliest"
+msgstr "تافه"
+
+msgid "Measliness"
+msgstr "الصّغر"
+
+msgid "Measly"
+msgstr "تافه"
+
+msgid "Measurability"
+msgstr "القياس"
+
+msgid "Measurable"
+msgstr "قابل للقياس"
+
+msgid "Measurably"
+msgstr "بشكل محسوس"
+
+msgid "Measure"
+msgstr "الإجراء"
+
+msgid "Measured"
+msgstr "مدروس"
+
+msgid "Measuredly"
+msgstr "بشكل مدروس"
+
+msgid "Measuredness"
+msgstr "دراسة"
+
+msgid "Measurement"
+msgstr "المقياس"
+
+msgid "Measurements"
+msgstr "المقاييس"
+
+msgid "Measurer"
+msgstr "كيال"
+
+msgid "Measures"
+msgstr "اجراءات"
+
+msgid "Measuring"
+msgstr "قياس"
+
+msgid "Measurings"
+msgstr "قياس"
+
+msgid "Meat"
+msgstr "لحم"
+
+msgid "Meatball"
+msgstr "ميتبال"
+
+msgid "Meatier"
+msgstr "أكثر لحما"
+
+msgid "Meatiest"
+msgstr "أكثر لحما"
+
+msgid "Meatiness"
+msgstr "كثرة اللحم"
+
+msgid "Meatless"
+msgstr "بلا لحم"
+
+msgid "Meats"
+msgstr "اللحوم"
+
+msgid "Meaty"
+msgstr "لحمي"
+
+msgid "Mecca"
+msgstr "مكة المكرمة"
+
+msgid "Mechanic"
+msgstr "الميكانيكي"
+
+msgid "Mechanical"
+msgstr "ميكانيكي"
+
+msgid "Mechanically"
+msgstr "ميكانيكيا"
+
+msgid "Mechanicals"
+msgstr "ميكانيكي"
+
+msgid "Mechanician"
+msgstr "ميكانيكي"
+
+msgid "Mechanicians"
+msgstr "ميكانيكيون"
+
+msgid "Mechanics"
+msgstr "ميكانيكا"
+
+msgid "Mechanism"
+msgstr "آلية"
+
+msgid "Mechanisms"
+msgstr "آليات"
+
+msgid "Mechanist"
+msgstr "عامل اختصاصي آلات"
+
+msgid "Mechanistic"
+msgstr "ميكانيكي"
+
+msgid "Mechanistically"
+msgstr "ميكانيكي"
+
+msgid "Mechanists"
+msgstr "عمال مختصون بالآلات"
+
+msgid "Mechanization"
+msgstr "المكننة"
+
+msgid "Mechanizations"
+msgstr "المكننة"
+
+msgid "Mechanize"
+msgstr "يمكنن"
+
+msgid "Mechanized"
+msgstr "مجهَّز بالمعدات الميكانيكية"
+
+msgid "Mechanizer"
+msgstr "مُجهِّز بالمعدات الميكانيكية"
+
+msgid "Mechanizers"
+msgstr "مجهِّزوا المعدات الميكانيكية"
+
+msgid "Mechanizes"
+msgstr "يمكنن"
+
+msgid "Mechanizing"
+msgstr "المكننة"
+
+msgid "Meconium"
+msgstr "العِقْي: مادة داكنة تخرج من بطن المولود بُعَيْدَ ولادته"
+
+msgid "Mecum"
+msgstr "ميكم"
+
+msgid "Med"
+msgstr "متوسط"
+
+msgid "Medal"
+msgstr "الوسام"
+
+msgid "Medaled"
+msgstr "أعطي ميدالية"
+
+msgid "Medaling"
+msgstr "اعطاء ميدالية"
+
+msgid "Medallion"
+msgstr "النوط"
+
+msgid "Medallions"
+msgstr "الأنواط"
+
+msgid "Medals"
+msgstr "الأوسمة"
+
+msgid "Meddle"
+msgstr "تدخّل"
+
+msgid "Meddled"
+msgstr "متدخّل"
+
+msgid "Meddler"
+msgstr "متطفّل"
+
+msgid "Meddles"
+msgstr "يتدخّل"
+
+msgid "Meddlesome"
+msgstr "متطفّل"
+
+msgid "Meddlesomely"
+msgstr "بشكل متطفّل"
+
+msgid "Meddlesomeness"
+msgstr "تطفّل"
+
+msgid "Meddling"
+msgstr "تدخّل"
+
+msgid "Medea"
+msgstr "ميديا - أميرة و ساحرة . الأساطير اليونانيّة"
+
+msgid "Medfield"
+msgstr "ميدفيلد"
+
+msgid "Medford"
+msgstr "ميدفورد"
+
+msgid "Media"
+msgstr "أجهزة الإعلام"
+
+msgid "Mediaeval"
+msgstr "من العصور الوسطى"
+
+msgid "Mediaevally"
+msgstr "بشكل من العصور الوسطى"
+
+msgid "Medial"
+msgstr "متوسط"
+
+msgid "Medially"
+msgstr "بشكل إعلامي"
+
+msgid "Median"
+msgstr "متوسط"
+
+msgid "Medianly"
+msgstr "بشكل متوسط"
+
+msgid "Medians"
+msgstr "المتوسطات"
+
+msgid "Medias"
+msgstr "الأوساط"
+
+msgid "Mediate"
+msgstr "توسّط"
+
+msgid "Mediated"
+msgstr "متوسّط"
+
+msgid "Mediately"
+msgstr "بتوسّط"
+
+msgid "Mediateness"
+msgstr "توسّط"
+
+msgid "Mediates"
+msgstr "يتوسّط"
+
+msgid "Mediating"
+msgstr "توسّط"
+
+msgid "Mediation"
+msgstr "وساطة"
+
+msgid "Mediations"
+msgstr "وساطات"
+
+msgid "Mediative"
+msgstr "توسطي"
+
+msgid "Mediator"
+msgstr "وسيط"
+
+msgid "Mediators"
+msgstr "وسطاء"
+
+msgid "MediaType"
+msgstr "نوع الوسيط"
+
+msgid "Medic"
+msgstr "الطبيب"
+
+msgid "Medicaid"
+msgstr "مساعدة طبية"
+
+msgid "Medical"
+msgstr "طبي"
+
+msgid "Medically"
+msgstr "طبيا"
+
+msgid "Medicament"
+msgstr "دواء"
+
+msgid "Medicare"
+msgstr "رعاية طبية"
+
+msgid "Medicate"
+msgstr "عالج"
+
+msgid "Medicated"
+msgstr "معالج"
+
+msgid "Medicates"
+msgstr "يعالج"
+
+msgid "Medicating"
+msgstr "معالجة"
+
+msgid "Medication"
+msgstr "دواء"
+
+msgid "Medications"
+msgstr "أدوية"
+
+msgid "Medicative"
+msgstr "طبّي"
+
+msgid "Medici"
+msgstr "ميديسي"
+
+msgid "Medicinal"
+msgstr "طبي"
+
+msgid "Medicinally"
+msgstr "بشكل طبي"
+
+msgid "Medicine"
+msgstr "طبّ"
+
+msgid "Medicines"
+msgstr "أدوية"
+
+msgid "Medicis"
+msgstr "من عائلة ميديسي الإيطالية"
+
+msgid "Medico"
+msgstr "طبيب"
+
+msgid "Medicos"
+msgstr "أطباء"
+
+msgid "Medics"
+msgstr "أطباء"
+
+msgid "Medieval"
+msgstr "من القرون الوسطى"
+
+msgid "Medievalism"
+msgstr "الإخلاص لمؤسسات القرون الوسطى وفنونها وأعرافها"
+
+msgid "Medievalist"
+msgstr "معجب بتاريخ القرون الوسطى وثقافتها"
+
+msgid "Medievalists"
+msgstr "معجبون بتاريخ القرون الوسطى وثقافتها"
+
+msgid "Medievally"
+msgstr "بشكل من القرون الوسطى"
+
+msgid "Mediocre"
+msgstr "متوسّط"
+
+msgid "Mediocrities"
+msgstr "توسّطات"
+
+msgid "Mediocrity"
+msgstr "توسّط"
+
+msgid "Meditate"
+msgstr "تأمّل"
+
+msgid "Meditated"
+msgstr "متأمّل"
+
+msgid "Meditates"
+msgstr "يتأمّل"
+
+msgid "Meditating"
+msgstr "تأمّل"
+
+msgid "Meditation"
+msgstr "تأمل"
+
+msgid "Meditations"
+msgstr "تأملات"
+
+msgid "Meditative"
+msgstr "متأمّل"
+
+msgid "Meditatively"
+msgstr "بشكل متأمّل"
+
+msgid "Meditativeness"
+msgstr "تأمّل"
+
+msgid "Mediterranean"
+msgstr "البحر الأبيض المتوسط"
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Mediumistic"
+msgstr "روحانيّ"
+
+msgid "Mediums"
+msgstr "متوسطات"
+
+msgid "Medlar"
+msgstr "فاكهة المشملة"
+
+msgid "Medley"
+msgstr "مزيج"
+
+msgid "Medleys"
+msgstr "مزائج"
+
+msgid "Medly"
+msgstr "يخلط"
+
+msgid "Medulla"
+msgstr "النخاع"
+
+msgid "Medusa"
+msgstr "قنديل البحر"
+
+msgid "Meed"
+msgstr "الجائزة"
+
+msgid "Meek"
+msgstr "وديع"
+
+msgid "Meeker"
+msgstr "أحلم"
+
+msgid "Meekest"
+msgstr "أكثر وداعة"
+
+msgid "Meekly"
+msgstr "بشكل وديع"
+
+msgid "Meekness"
+msgstr "حلم"
+
+msgid "Meet"
+msgstr "إجتمع"
+
+msgid "Meeter"
+msgstr "ميتر"
+
+msgid "Meeting"
+msgstr "الإجتماع"
+
+msgid "Meeting house"
+msgstr "مصلّى (عند البروتوستانت خاصة)"
+
+msgid "Meetings"
+msgstr "اجتماعات"
+
+msgid "Meetly"
+msgstr "مناسب، ملائم"
+
+msgid "Meets"
+msgstr "الإجتماعات"
+
+msgid "Meg"
+msgstr "ميج"
+
+msgid "Mega"
+msgstr "هائل"
+
+msgid "Megabit"
+msgstr "مليون رقم ثنائي"
+
+msgid "Megabits"
+msgstr "مليون رقم ثنائي"
+
+msgid "Megabyte"
+msgstr "الميغابايت"
+
+msgid "Megabytes"
+msgstr "الميغابايتات"
+
+msgid "Megacycle"
+msgstr "مليون دورة في الثانية"
+
+msgid "Megahertz"
+msgstr "مليون هرتز في الثانية"
+
+msgid "Megalomania"
+msgstr "جنون العظمة"
+
+msgid "Megalomaniac"
+msgstr "مصاب بجنون العظمة"
+
+msgid "Megalopolis"
+msgstr "مدينة ضخمة"
+
+msgid "Megalopolises"
+msgstr "مدن ضخمة"
+
+msgid "Megaphone"
+msgstr "مكبّر الصوت"
+
+msgid "Megaton"
+msgstr "مليون طنّ"
+
+msgid "Megatons"
+msgstr "مليون طنّ"
+
+msgid "Megavolt"
+msgstr "مليون فولت"
+
+msgid "Megawatt"
+msgstr "ميجاواط"
+
+msgid "Megaword"
+msgstr "مليون كلمة"
+
+msgid "Megawords"
+msgstr "مليون كلمة"
+
+msgid "Megohm"
+msgstr "مليون أوم"
+
+msgid "Megohms"
+msgstr "مليون أوم"
+
+msgid "Meier"
+msgstr "مير"
+
+msgid "Meiosis"
+msgstr "انقسام منصّف"
+
+msgid "Meister"
+msgstr "ميستر"
+
+msgid "Meistersinger"
+msgstr "الموسيقار الكبير"
+
+msgid "Mekong"
+msgstr "ميكونج"
+
+msgid "Mel"
+msgstr "ميل"
+
+msgid "Melamine"
+msgstr "ميلامين"
+
+msgid "Melancholia"
+msgstr "الكآبة"
+
+msgid "Melancholiac"
+msgstr "مصاب بالسوداء"
+
+msgid "Melancholic"
+msgstr "سوداوي"
+
+msgid "Melancholically"
+msgstr "بكئابة"
+
+msgid "Melancholiness"
+msgstr "السوداء"
+
+msgid "Melancholy"
+msgstr "كآبة"
+
+msgid "Melanesia"
+msgstr "جزر ميلانيزيا"
+
+msgid "Melanesian"
+msgstr "ميلانيزيّ"
+
+msgid "Melange"
+msgstr "خليط"
+
+msgid "Melanie"
+msgstr "ميلاني"
+
+msgid "Melanin"
+msgstr "ميلانين"
+
+msgid "Melanoma"
+msgstr "الورم الملاني"
+
+msgid "Melbourne"
+msgstr "ميلبورن"
+
+msgid "Melcher"
+msgstr "ميلتشر"
+
+msgid "Meld"
+msgstr "إخلط"
+
+msgid "Melded"
+msgstr "مخلوط"
+
+msgid "Melding"
+msgstr "الخلط"
+
+msgid "Melds"
+msgstr "يخلط"
+
+msgid "Melee"
+msgstr "المعركة"
+
+msgid "Melinda"
+msgstr "مليندا"
+
+msgid "Meliorate"
+msgstr "حسّن"
+
+msgid "Meliorated"
+msgstr "محسّن"
+
+msgid "Meliorates"
+msgstr "يحسّن"
+
+msgid "Meliorating"
+msgstr "التحسين"
+
+msgid "Melioration"
+msgstr "تحسّن"
+
+msgid "Meliorations"
+msgstr "تحسينات"
+
+msgid "Meliorative"
+msgstr "ينزع إلى التحسّن"
+
+msgid "Melissa"
+msgstr "ميليسا"
+
+msgid "Mell"
+msgstr "يمزج"
+
+msgid "Mellifluous"
+msgstr "سلس"
+
+msgid "Mellifluously"
+msgstr "بشكل سلس"
+
+msgid "Mellifluousness"
+msgstr "سلاسة"
+
+msgid "Mellon"
+msgstr "ميلون - مموّل أمريكيّ و مسئول عامّ"
+
+msgid "Mellow"
+msgstr "ناضج"
+
+msgid "Mellowed"
+msgstr "معتّق"
+
+msgid "Mellower"
+msgstr "أنضج"
+
+msgid "Mellowest"
+msgstr "أنضج"
+
+msgid "Mellowing"
+msgstr "الليونة"
+
+msgid "Mellowly"
+msgstr "بشكل ناضج"
+
+msgid "Mellowness"
+msgstr "اللطافة"
+
+msgid "Mellows"
+msgstr "يلين"
+
+msgid "Melodic"
+msgstr "لحني"
+
+msgid "Melodically"
+msgstr "فيما يتعلق بالنغم"
+
+msgid "Melodies"
+msgstr "الأنغام"
+
+msgid "Melodious"
+msgstr "رخيم"
+
+msgid "Melodiously"
+msgstr "بشكل رخيم"
+
+msgid "Melodiousness"
+msgstr "لحن"
+
+msgid "Melodrama"
+msgstr "ميلودراما"
+
+msgid "Melodramas"
+msgstr "ميلودراما"
+
+msgid "Melodramatic"
+msgstr "ميلودراميّ"
+
+msgid "Melodramatically"
+msgstr "بصورة ميلودراميّة"
+
+msgid "Melodramatics"
+msgstr "سلوك ميلودراميّ (مثير)"
+
+msgid "Melodramatist"
+msgstr "المشارك بالعمل المسرحي المثير"
+
+msgid "Melody"
+msgstr "النغم"
+
+msgid "Melon"
+msgstr "البطيخ"
+
+msgid "Melons"
+msgstr "البطيخ"
+
+msgid "Melpomene"
+msgstr "ربة المأساة عند الإغريق"
+
+msgid "Melt"
+msgstr "ذب"
+
+msgid "Meltable"
+msgstr "قابل للانصهار"
+
+msgid "Meltdown"
+msgstr "الإنهيار"
+
+msgid "Melted"
+msgstr "ذاب"
+
+msgid "Melter"
+msgstr "المتسبب بعملية الذوبان"
+
+msgid "Melting"
+msgstr "الذوبان"
+
+msgid "Meltingly"
+msgstr "بحلاوة"
+
+msgid "Melts"
+msgstr "يذوب"
+
+msgid "Meltwater"
+msgstr "الماء الذائب من جليد أو ثلج"
+
+msgid "Melville"
+msgstr "ميلفيل"
+
+msgid "Melvin"
+msgstr "ميلفن"
+
+msgid "Member"
+msgstr "العضو"
+
+msgid "Membered"
+msgstr "إمتلاك الأطراف"
+
+msgid "Members"
+msgstr "الأعضاء"
+
+msgid "Membership"
+msgstr "العضوية"
+
+msgid "Memberships"
+msgstr "العضويات"
+
+msgid "Membrane"
+msgstr "الغشاء"
+
+msgid "Membraned"
+msgstr "مغطى بغشاء"
+
+msgid "Membranes"
+msgstr "الأغشية"
+
+msgid "Membranous"
+msgstr "غشائي"
+
+msgid "Memento"
+msgstr "تذكار"
+
+msgid "Mementoes"
+msgstr "تذكارات"
+
+msgid "Mementos"
+msgstr "تذكارات"
+
+msgid "Memo"
+msgstr "مذكرة"
+
+msgid "Memoir"
+msgstr "مذكرات"
+
+msgid "Memoirs"
+msgstr "مذكرات"
+
+msgid "Memorabilia"
+msgstr "المخلفّات التذكارية"
+
+msgid "Memorability"
+msgstr "بروز"
+
+msgid "Memorable"
+msgstr "بارز"
+
+msgid "Memorableness"
+msgstr "بروز"
+
+msgid "Memorably"
+msgstr "بشكل بارز"
+
+msgid "Memoranda"
+msgstr "المذكّرات"
+
+msgid "Memorandum"
+msgstr "المذكّرة"
+
+msgid "Memorandums"
+msgstr "المذكّرات"
+
+msgid "Memorial"
+msgstr "الحفل التأبيني"
+
+msgid "Memorialized"
+msgstr "مقدّم مذكرة"
+
+msgid "Memorially"
+msgstr "بشكل تذكاري"
+
+msgid "Memorials"
+msgstr "حفلات تذكارية"
+
+msgid "Memories"
+msgstr "ذكريات"
+
+msgid "Memorization"
+msgstr "استظهار"
+
+msgid "Memorizations"
+msgstr "استظهار"
+
+msgid "Memorize"
+msgstr "استظهر"
+
+msgid "Memorized"
+msgstr "مستظهر"
+
+msgid "Memorizer"
+msgstr "حافظ عن ظهر قلب"
+
+msgid "Memorizers"
+msgstr "حفّاظ عن ظهر قلب"
+
+msgid "Memorizes"
+msgstr "يستظهر"
+
+msgid "Memorizing"
+msgstr "الإستظهار"
+
+msgid "Memory"
+msgstr "الذاكرة"
+
+msgid "MemorySwapping"
+msgstr "الذاكرةالتبديل"
+
+msgid "Memos"
+msgstr "المذكرات"
+
+msgid "Memphis"
+msgstr "ميمفيس"
+
+msgid "Men"
+msgstr "الرجال"
+
+msgid "Menace"
+msgstr "الخطر"
+
+msgid "Menaced"
+msgstr "مهدّد"
+
+msgid "Menaces"
+msgstr "المخاطر"
+
+msgid "Menacing"
+msgstr "التهديد"
+
+msgid "Menacingly"
+msgstr "بشكل مهدّد"
+
+msgid "Menage"
+msgstr "تدبير المنزل"
+
+msgid "Menagerie"
+msgstr "حديقة الحيوان"
+
+msgid "Menageries"
+msgstr "حدائق الحيوان"
+
+msgid "Menages"
+msgstr "تدابير المنزل"
+
+msgid "Menarche"
+msgstr "الحدوث الأول للحيض في إمرأة"
+
+msgid "Menarches"
+msgstr "الحدوث الأول للحيض عند النساء"
+
+msgid "Mencken"
+msgstr "مينكين - محرّر و ناقد أمريكيّ"
+
+msgid "Mend"
+msgstr "الإصلاح"
+
+msgid "Mendacious"
+msgstr "كذّاب"
+
+msgid "Mendaciously"
+msgstr "بشكل كذّاب"
+
+msgid "Mendaciousness"
+msgstr "كثرة الكذب"
+
+msgid "Mendacity"
+msgstr "كذب"
+
+msgid "Mended"
+msgstr "مصلّح"
+
+msgid "Mendel"
+msgstr "ميندل"
+
+msgid "Mendelevium"
+msgstr "عنصر إشعاعيّ النشاط ينتج صناعيّاً"
+
+msgid "Mendelian"
+msgstr "متعلق بقانون مندل"
+
+msgid "Mendelssohn"
+msgstr "ملحن رومانسي ألماني"
+
+msgid "Mender"
+msgstr "مصلح"
+
+msgid "Mendicancy"
+msgstr "تسوّل"
+
+msgid "Mendicant"
+msgstr "متسوّل"
+
+msgid "Mending"
+msgstr "إصلاح"
+
+msgid "Mendoza"
+msgstr "ميندوزا"
+
+msgid "Mends"
+msgstr "إصلاحات"
+
+msgid "Menelaus"
+msgstr "مينيلوس - ملك سبارتا (الأساطير الإغريقية)"
+
+msgid "Menfolk"
+msgstr "جماعة من الرجال"
+
+msgid "Menfolks"
+msgstr "جماعات من الرجال"
+
+msgid "Menhaden"
+msgstr "سمك من جنس الرَّنكة"
+
+msgid "Menial"
+msgstr "الخادم"
+
+msgid "Menially"
+msgstr "بشكل حقير"
+
+msgid "Menials"
+msgstr "الخدم"
+
+msgid "Meningeal"
+msgstr "سحائي"
+
+msgid "Meningitis"
+msgstr "إلتهاب السحايا"
+
+msgid "Meniscus"
+msgstr "السطح المحدب"
+
+msgid "Menlo"
+msgstr "مينلو"
+
+msgid "Mennonite"
+msgstr "مينونيت - جماعة مسيحية من هولندا"
+
+msgid "Mennonites"
+msgstr "أعضاء كنيسة معارضون للعنف"
+
+msgid "Menominee"
+msgstr "من ينتمي الى الجماعة المنقرضة التي تسمى (الجونكويان)"
+
+msgid "Menopause"
+msgstr "سن اليأس"
+
+msgid "Mens"
+msgstr "الرجال"
+
+msgid "Mensch"
+msgstr "مينش"
+
+msgid "Mensed"
+msgstr "شرّف"
+
+msgid "Menses"
+msgstr "الحيض"
+
+msgid "Mensing"
+msgstr "التشريف"
+
+msgid "Menstrual"
+msgstr "حيضيّ"
+
+msgid "Menstruate"
+msgstr "تحيض"
+
+msgid "Menstruated"
+msgstr "محاض"
+
+msgid "Menstruates"
+msgstr "تحيض"
+
+msgid "Menstruating"
+msgstr "حيض"
+
+msgid "Menstruation"
+msgstr "حيض"
+
+msgid "Menstruations"
+msgstr "حيض"
+
+msgid "Mensurability"
+msgstr "قابلية القياس"
+
+msgid "Mensurable"
+msgstr "قابل للقياس"
+
+msgid "Mensurableness"
+msgstr "القابلية للقياس"
+
+msgid "Mensural"
+msgstr "قياسيّ"
+
+msgid "Mensuration"
+msgstr "قياس"
+
+msgid "Mensurations"
+msgstr "قياسات"
+
+msgid "Mental"
+msgstr "عقلي"
+
+msgid "Mentalities"
+msgstr "عقليّات"
+
+msgid "Mentality"
+msgstr "عقلية"
+
+msgid "Mentally"
+msgstr "عقليا"
+
+msgid "Menthol"
+msgstr "المنثول"
+
+msgid "Mention"
+msgstr "إشارة عابرة"
+
+msgid "Mentionable"
+msgstr "مذكور"
+
+msgid "Mentioned"
+msgstr "مذكور"
+
+msgid "Mentioner"
+msgstr "مذكّر"
+
+msgid "Mentioners"
+msgstr "مذكّرون"
+
+msgid "Mentioning"
+msgstr "الذكر"
+
+msgid "Mentions"
+msgstr "الإشارات"
+
+msgid "Mentor"
+msgstr "المعلّم"
+
+msgid "Mentors"
+msgstr "المعلّمون"
+
+msgid "Menu"
+msgstr "القائمة"
+
+msgid "Menue"
+msgstr "مينو"
+
+msgid "Menus"
+msgstr "القوائم"
+
+msgid "Menzies"
+msgstr "مينسيه - سياسيّ أستراليّ"
+
+msgid "Meowing"
+msgstr "تموء"
+
+msgid "Mephistopheles"
+msgstr "أحد الشياطين السبعة الرئيسيين (في أساطير القرون الوسطى)"
+
+msgid "Mephitic"
+msgstr "نتن"
+
+msgid "Mer"
+msgstr "خط التصنيف"
+
+msgid "Mercantile"
+msgstr "تجاري"
+
+msgid "Mercantilism"
+msgstr "المذهب التجاري"
+
+msgid "Mercantilist"
+msgstr "الإقتصادي السياسي"
+
+msgid "Mercantilistic"
+msgstr "إقتصادي سياسي"
+
+msgid "Mercator"
+msgstr "مركاتوريّ"
+
+msgid "Mercedes"
+msgstr "مرسيدس"
+
+msgid "Mercenaries"
+msgstr "مرتزقة"
+
+msgid "Mercenarily"
+msgstr "بشكل جشع"
+
+msgid "Mercenariness"
+msgstr "الارتزاق"
+
+msgid "Mercenary"
+msgstr "مرتزق"
+
+msgid "Mercer"
+msgstr "بزّاز: تاجر الأقمشة وبخاصة الحريريّة"
+
+msgid "Mercerize"
+msgstr "يمتّن القطن المغزول ويصقله ويجعله أكثر تقبّلاً للأصباغ بمعالجته بالصودا الكاوية"
+
+msgid "Mercerized"
+msgstr "القطن المغزول المصقول ليكون أكثر تقبّلاً للأصباغ بمعالجته بالصودا الكاوية"
+
+msgid "Mercerizes"
+msgstr "يمتّن القطن المغزول ويصقله ويجعله أكثر تقبّلاً للأصباغ بمعالجته بالصودا الكاوية"
+
+msgid "Mercerizing"
+msgstr "يمتّن القطن المغزول ويصقله ويجعله أكثر تقبّلاً للأصباغ بمعالجته بالصودا الكاوية"
+
+msgid "Mercers"
+msgstr "بزّازون: تجار الأقمشة وبخاصة الحريرية"
+
+msgid "Merchandise"
+msgstr "بضائع"
+
+msgid "Merchandised"
+msgstr "تاجر"
+
+msgid "Merchandiser"
+msgstr "التاجر"
+
+msgid "Merchandises"
+msgstr "يتاجر"
+
+msgid "Merchandising"
+msgstr "متاجرة"
+
+msgid "Merchant"
+msgstr "تاجر"
+
+msgid "Merchantability"
+msgstr "صلاحية العرض في السوق"
+
+msgid "Merchantable"
+msgstr "صالح للعرض في السوق"
+
+msgid "Merchantman"
+msgstr "سفينة تجارية"
+
+msgid "Merchants"
+msgstr "تجار"
+
+msgid "Mercies"
+msgstr "رحمة"
+
+msgid "Merciful"
+msgstr "رحيم"
+
+msgid "Mercifully"
+msgstr "برحمة"
+
+msgid "Mercifulness"
+msgstr "الرحمة"
+
+msgid "Merciless"
+msgstr "قاسي"
+
+msgid "Mercilessly"
+msgstr "بشكل قاسي"
+
+msgid "Mercilessness"
+msgstr "قسوة"
+
+msgid "Merck"
+msgstr "ميرك"
+
+msgid "Mercurial"
+msgstr "زئبقي"
+
+msgid "Mercurially"
+msgstr "بشكل زئبقي"
+
+msgid "Mercurialness"
+msgstr "تقلب المزاج"
+
+msgid "Mercuric"
+msgstr "زئبقي"
+
+msgid "Mercuries"
+msgstr "نباتات أوروبية سامة"
+
+msgid "Mercury"
+msgstr "الزئبق"
+
+msgid "Mercy"
+msgstr "الرحمة"
+
+msgid "Mere"
+msgstr "البحيرة"
+
+msgid "Meredith"
+msgstr "ميريديث"
+
+msgid "Merely"
+msgstr "فقط"
+
+msgid "Merengue"
+msgstr "ميرينجو"
+
+msgid "Merest"
+msgstr "أصغر"
+
+msgid "Meretricious"
+msgstr "مبهرج"
+
+msgid "Meretriciously"
+msgstr "تبهرجا"
+
+msgid "Meretriciousness"
+msgstr "بهرجة"
+
+msgid "Merganser"
+msgstr "ضرب من البط الغواص"
+
+msgid "Merge"
+msgstr "إدمج"
+
+msgid "Merged"
+msgstr "مدموج"
+
+msgid "Mergeing"
+msgstr "دمج"
+
+msgid "Merger"
+msgstr "الإندماج"
+
+msgid "Mergers"
+msgstr "الإندماج"
+
+msgid "Merges"
+msgstr "يدمج"
+
+msgid "Merging"
+msgstr "الدمج"
+
+msgid "Meridian"
+msgstr "خط الطول"
+
+msgid "Meridians"
+msgstr "خطوط الطول"
+
+msgid "Meridiem"
+msgstr "فترة الظّهر"
+
+msgid "Meridional"
+msgstr "جنوبي"
+
+msgid "Meringue"
+msgstr "الحلوى"
+
+msgid "Meringues"
+msgstr "الحلويات"
+
+msgid "Merit"
+msgstr "الإستحقاق"
+
+msgid "Merited"
+msgstr "مستحقّ"
+
+msgid "Meriting"
+msgstr "الإستحقاق"
+
+msgid "Meritless"
+msgstr "بلا جودة"
+
+msgid "Meritocracies"
+msgstr "الأنظمة التي يعتمد تقدمها على المقدرة والعطاء الفردي"
+
+msgid "Meritocracy"
+msgstr "النظام الذي يعتمد تقدمه على المقدرة والعطاء الفردي"
+
+msgid "Meritocratic"
+msgstr "متعلق بالنظام الذي يعتمد تقدمه على المقدرة والعطاء الفردي"
+
+msgid "Meritorious"
+msgstr "جدير بالتقدير"
+
+msgid "Meritoriously"
+msgstr "بشكل جدير بالتقدير"
+
+msgid "Meritoriousness"
+msgstr "الجودة"
+
+msgid "Merits"
+msgstr "الإستحقاقات"
+
+msgid "Meriwether"
+msgstr "ميريويذر"
+
+msgid "Merkin"
+msgstr "ممسحة لتنظيف المدفع"
+
+msgid "Merle"
+msgstr "ميرل"
+
+msgid "Merlin"
+msgstr "صقر صغير"
+
+msgid "Merlins"
+msgstr "صقور صغيرة"
+
+msgid "Mermaid"
+msgstr "حورية البحر"
+
+msgid "Mermaids"
+msgstr "حوريات البحر"
+
+msgid "Merman"
+msgstr "غرانق الماء: مخلوق بحري خرافي له جسد رجل وذيل سمكة"
+
+msgid "Mermen"
+msgstr "مخلوقات بحرية خرافية لها جسد رجل وذيل سمكة"
+
+msgid "Merriam"
+msgstr "ميريام"
+
+msgid "Merrick"
+msgstr "ميريك"
+
+msgid "Merrier"
+msgstr "أكثر مرحا"
+
+msgid "Merriest"
+msgstr "أكثر مرحا"
+
+msgid "Merrill"
+msgstr "ميريل"
+
+msgid "Merrily"
+msgstr "بشكل مرح"
+
+msgid "Merrimac"
+msgstr "ميرريماك"
+
+msgid "Merrimack"
+msgstr "ميرريماك"
+
+msgid "Merriment"
+msgstr "فرح"
+
+msgid "Merriments"
+msgstr "أفراح"
+
+msgid "Merriness"
+msgstr "فرحة"
+
+msgid "Merritt"
+msgstr "ميريت"
+
+msgid "Merry"
+msgstr "مرح"
+
+msgid "Merrymake"
+msgstr "يلهو"
+
+msgid "Merrymaking"
+msgstr "لهو صاخب"
+
+msgid "Mervin"
+msgstr "ميرفن"
+
+msgid "Mesa"
+msgstr "هضبة مستوية السطج متحدّرة الجوانب"
+
+msgid "Mescal"
+msgstr "ضرب من الصبّار"
+
+msgid "Mescaline"
+msgstr "عقار الهلوسة"
+
+msgid "Mesenteric"
+msgstr "مساريقي"
+
+msgid "Mesentery"
+msgstr "مساريق"
+
+msgid "Mesh"
+msgstr "شبكة"
+
+msgid "Meshed"
+msgstr "متشبّك"
+
+msgid "Meshes"
+msgstr "شبكات"
+
+msgid "Meshing"
+msgstr "تشبّك"
+
+msgid "Meshwork"
+msgstr "شبكة"
+
+msgid "Mesmeric"
+msgstr "فاتن"
+
+msgid "Mesmerists"
+msgstr "منومون مغناطيسيون"
+
+msgid "Mesmerize"
+msgstr "فتن"
+
+msgid "Mesmerized"
+msgstr "فتن"
+
+msgid "Mesmerizes"
+msgstr "يفتن"
+
+msgid "Mesmerizing"
+msgstr "يفتن"
+
+msgid "Mesoderm"
+msgstr "الطبقة الجرثومية الوسطى (من جنين)"
+
+msgid "Meson"
+msgstr "الميزون: دقيقة ذات كتلة وسط بين البروتون والإلكترون"
+
+msgid "Mesopotamia"
+msgstr "بلاد ما بين النهرين"
+
+msgid "Mesozoic"
+msgstr "خاص بالدهر الوسيط"
+
+msgid "Mesquite"
+msgstr "المسكيت: نبات شائك"
+
+msgid "Mess"
+msgstr "الفوضى"
+
+msgid "Message"
+msgstr "الرسالة"
+
+msgid "Message-Id"
+msgstr "هوية رسالة"
+
+msgid "Message-IDs"
+msgstr "هويات رسالة"
+
+msgid "Messaged"
+msgstr "بعث برسالة"
+
+msgid "Messages"
+msgstr "رسائل"
+
+msgid "Messaging"
+msgstr "إرسال الرسائل"
+
+msgid "Messed"
+msgstr "عابث"
+
+msgid "Messenger"
+msgstr "رسول"
+
+msgid "Messengers"
+msgstr "رسل"
+
+msgid "Messes"
+msgstr "مطاعم"
+
+msgid "Messiah"
+msgstr "المسيح المنتظر"
+
+msgid "Messiahs"
+msgstr "المسيح المنتظر"
+
+msgid "Messianic"
+msgstr "يهودي مسيحي"
+
+msgid "Messier"
+msgstr "أكثر لخبطة"
+
+msgid "Messiest"
+msgstr "أكثر لخبطة"
+
+msgid "Messieurs"
+msgstr "السادة"
+
+msgid "Messily"
+msgstr "على نحو متسم بالفوضى أو الاختلاط أو القذارة"
+
+msgid "Messiness"
+msgstr "لخبطة"
+
+msgid "Messinesses"
+msgstr "لخبطة"
+
+msgid "Messing"
+msgstr "عبث"
+
+msgid "Messrs"
+msgstr "السادة"
+
+msgid "Messy"
+msgstr "ملخبط"
+
+msgid "Met"
+msgstr "اجتمع"
+
+msgid "Meta"
+msgstr "بادئة معناها أعلى"
+
+msgid "Metabole"
+msgstr "التغيير"
+
+msgid "Metabolic"
+msgstr "أيضي"
+
+msgid "Metabolically"
+msgstr "بشكل أيضي"
+
+msgid "Metabolism"
+msgstr "الأيض"
+
+msgid "Metabolisms"
+msgstr "العمليات الأيضية"
+
+msgid "Metabolite"
+msgstr "الأيضة: مادة ناشئة عن الأيض"
+
+msgid "Metabolites"
+msgstr "ناتج أو محصلة عمليّة التّمثيل الغذائيّ"
+
+msgid "Metabolize"
+msgstr "أيّض"
+
+msgid "Metabolized"
+msgstr "مؤيّض"
+
+msgid "Metabolizes"
+msgstr "يؤيّض"
+
+msgid "Metabolizing"
+msgstr "التأييض"
+
+msgid "Metal"
+msgstr "المعدن"
+
+msgid "Metalanguage"
+msgstr "اللغة التي تستخدم في تعريف لغة اخرى"
+
+msgid "Metalanguages"
+msgstr "اللغات التي تستخدم في تعريف لغات اخرى"
+
+msgid "Metaled"
+msgstr "كسى بالمعدن"
+
+msgid "Metaling"
+msgstr "إكساء بالمعدن"
+
+msgid "Metall"
+msgstr "معدن"
+
+msgid "Metalled"
+msgstr "كسى بالمعدن"
+
+msgid "Metallic"
+msgstr "معدني"
+
+msgid "Metallically"
+msgstr "بشكل معدني"
+
+msgid "Metalliferous"
+msgstr "معدني"
+
+msgid "Metalling"
+msgstr "إكساء بالمعدن"
+
+msgid "Metallization"
+msgstr "التعدين"
+
+msgid "Metallize"
+msgstr "يعدّن"
+
+msgid "Metallography"
+msgstr "دراسة المعادن، وبخاصة مجهريّاً"
+
+msgid "Metalloid"
+msgstr "معدني"
+
+msgid "Metallurgic"
+msgstr "متعلق بعلوم التعدين"
+
+msgid "Metallurgical"
+msgstr "معادني"
+
+msgid "Metallurgically"
+msgstr "بشكل معادني"
+
+msgid "Metallurgist"
+msgstr "عالم المعادن"
+
+msgid "Metallurgists"
+msgstr "علماء المعادن"
+
+msgid "Metallurgy"
+msgstr "علم المعادن"
+
+msgid "Metally"
+msgstr "بشكل معدني"
+
+msgid "Metals"
+msgstr "معادن"
+
+msgid "Metalsmith"
+msgstr "الحدّاد"
+
+msgid "Metalwork"
+msgstr "أعمال الديكور الحديدية"
+
+msgid "Metalworker"
+msgstr "عامل الديكورات الحديدية"
+
+msgid "Metalworking"
+msgstr "أشغال معدنية"
+
+msgid "Metalworkings"
+msgstr "أشغال معدنية"
+
+msgid "Metamathematical"
+msgstr "متعلق بالرياضيات المنطقية"
+
+msgid "Metamorphic"
+msgstr "مسخي"
+
+msgid "Metamorphism"
+msgstr "تحوّل (الصخور)"
+
+msgid "Metamorphose"
+msgstr "يحوّل (بينة الصخر)"
+
+msgid "Metamorphosed"
+msgstr "حوّل (بينة الصخر)"
+
+msgid "Metamorphoses"
+msgstr "تحويلات"
+
+msgid "Metamorphosing"
+msgstr "تحويل"
+
+msgid "Metamorphosis"
+msgstr "التحوّل"
+
+msgid "Metamorphous"
+msgstr "تحوّلي"
+
+msgid "Metaphor"
+msgstr "استعارة"
+
+msgid "Metaphoric"
+msgstr "مَسْخِيّ"
+
+msgid "Metaphorical"
+msgstr "مجازيّ"
+
+msgid "Metaphorically"
+msgstr "مجازيا"
+
+msgid "Metaphors"
+msgstr "استعارة"
+
+msgid "Metaphosphate"
+msgstr "الميتافوسفايت"
+
+msgid "Metaphysic"
+msgstr "غيبي"
+
+msgid "Metaphysical"
+msgstr "غيبي"
+
+msgid "Metaphysically"
+msgstr "بشكل غيبي"
+
+msgid "Metaphysician"
+msgstr "الماورائي"
+
+msgid "Metaphysics"
+msgstr "الميتافيزيقيا"
+
+msgid "Metastases"
+msgstr "الانبثاث: انتقال \"علة\" الداء أو العامل المسبّب له من مقرّه الأساسي إلى جزء آخر من الجسم (كما في السرطان)"
+
+msgid "Metastasis"
+msgstr "الإنبثاث: انتقال \"علة\" الداء أو العامل المسبب له من مقرّه الأساسي إلى جزء آخر من الجسم (كما في السرطان)"
+
+msgid "Metatheme"
+msgstr "تيمة للتيمات"
+
+msgid "Metcalf"
+msgstr "ميتاكاف"
+
+msgid "Mete"
+msgstr "خصّص"
+
+msgid "Meted"
+msgstr "مخصّص"
+
+msgid "Meteor"
+msgstr "نيزك"
+
+msgid "Meteoric"
+msgstr "نيزكي"
+
+msgid "Meteorically"
+msgstr "بسرعة فائقة كما النيزك"
+
+msgid "Meteorite"
+msgstr "الحجر النيزكي: شهاب يبلغ سطح الأرض من غير أن يتبدّد تبدّدا كاملاً"
+
+msgid "Meteorites"
+msgstr "نيازك"
+
+msgid "Meteoritic"
+msgstr "نيزكي"
+
+msgid "Meteoritics"
+msgstr "علم الشهب أو النيازك"
+
+msgid "Meteoroid"
+msgstr "النيزك الدائر (حول الشمس)"
+
+msgid "Meteoroids"
+msgstr "النيازك الدائرة (حول الشمس)"
+
+msgid "Meteorologic"
+msgstr "إرصادي"
+
+msgid "Meteorological"
+msgstr "أرصاديّ"
+
+msgid "Meteorologically"
+msgstr "بالإرصاد الجوي"
+
+msgid "Meteorologist"
+msgstr "الأرصادي"
+
+msgid "Meteorology"
+msgstr "علم الأرصاد الجوية"
+
+msgid "Meteors"
+msgstr "نيازك"
+
+msgid "Meter"
+msgstr "متر"
+
+msgid "Metered"
+msgstr "مقاس"
+
+msgid "Metering"
+msgstr "قياس"
+
+msgid "Meters"
+msgstr "أمتار"
+
+msgid "Metes"
+msgstr "يخصّص"
+
+msgid "Methacrylate"
+msgstr "الميثاكريليت: ملح حمض الميثاكريليك"
+
+msgid "Methadone"
+msgstr "الميثادون: عقار مخدّر"
+
+msgid "Methane"
+msgstr "الميثان"
+
+msgid "Methanol"
+msgstr "ميثانول"
+
+msgid "Methinks"
+msgstr "يبدو لي"
+
+msgid "Methionine"
+msgstr "الميثيونين: حامض أمينيّ يوجد في بعض البروتينات كزلال البيض والخميرة"
+
+msgid "Method"
+msgstr "الطريقة"
+
+msgid "Methodic"
+msgstr "منهجي"
+
+msgid "Methodical"
+msgstr "منهجي"
+
+msgid "Methodically"
+msgstr "بشكل منهجي"
+
+msgid "Methodicalness"
+msgstr "منهجيّة"
+
+msgid "Methodicly"
+msgstr "بشكل منهجي"
+
+msgid "Methodism"
+msgstr "المنهاجية"
+
+msgid "Methodist"
+msgstr "الميثودي"
+
+msgid "Methodists"
+msgstr "الميثوديون"
+
+msgid "Methodological"
+msgstr "منهجيّ"
+
+msgid "Methodologically"
+msgstr "استنادًا إلى علم المنهج"
+
+msgid "Methodologies"
+msgstr "المنهجيات"
+
+msgid "Methodologists"
+msgstr "أشخاص شديدو التمسك بالمذهب أو الطريقة"
+
+msgid "Methodology"
+msgstr "علم المنهج"
+
+msgid "Methods"
+msgstr "الطرق"
+
+msgid "Methuen"
+msgstr "ميتهين - بلدة في شمال شرق ولاية ماساتشوسيتس"
+
+msgid "Methuselah"
+msgstr "ميتهسيلاه - بطريرك إنجيليّ يقال أنه قد عاش 969 سنةً"
+
+msgid "Methuselahs"
+msgstr "رجال طاعنون بالسن"
+
+msgid "Methyl"
+msgstr "الميثيل"
+
+msgid "Methylated"
+msgstr "مميثل"
+
+msgid "Methylene"
+msgstr "الميثيلين: جذر هيدروكربوني ثنائيّ التكافؤ مشتقّ من الميثان"
+
+msgid "Meticulous"
+msgstr "دقيق"
+
+msgid "Meticulously"
+msgstr "بدقة شديدة"
+
+msgid "Meticulousness"
+msgstr "الوسوسة"
+
+msgid "Metier"
+msgstr "الحرفة"
+
+msgid "Meting"
+msgstr "التخصيص"
+
+msgid "Metre"
+msgstr "المتر"
+
+msgid "Metres"
+msgstr "الأمتار"
+
+msgid "Metric"
+msgstr "متري"
+
+msgid "Metrical"
+msgstr "متري"
+
+msgid "Metrically"
+msgstr "بشكل متري"
+
+msgid "Metrics"
+msgstr "ميتريس"
+
+msgid "Metro"
+msgstr "المترو: قطار كهربائي تحت الأرض"
+
+msgid "Metronome"
+msgstr "المِسْرَع"
+
+msgid "Metronomes"
+msgstr "المسرعات"
+
+msgid "Metronomic"
+msgstr "متعلق ببندول الإيقاع"
+
+msgid "Metronomically"
+msgstr "بتناغم مع بندول الإيقاع"
+
+msgid "Metropolis"
+msgstr "العاصمة"
+
+msgid "Metropolitan"
+msgstr "حضري"
+
+msgid "Metropolitans"
+msgstr "حضريون"
+
+msgid "Metros"
+msgstr "قطارات كهربائية تحت الأرض"
+
+msgid "Mets"
+msgstr "ميتس"
+
+msgid "Mettle"
+msgstr "قوّة الشخصية"
+
+msgid "Mettled"
+msgstr "نشط"
+
+msgid "Mettles"
+msgstr "قوّة الشخصية"
+
+msgid "Mettlesome"
+msgstr "نشط"
+
+msgid "Metzler"
+msgstr "ميتزلر"
+
+msgid "Mew"
+msgstr "النورس"
+
+msgid "Mewed"
+msgstr "مميئ"
+
+msgid "Mewing"
+msgstr "الموء"
+
+msgid "Mewl"
+msgstr "إبك"
+
+msgid "Mewled"
+msgstr "مبكي"
+
+msgid "Mewling"
+msgstr "البكاء"
+
+msgid "Mewls"
+msgstr "يبكي"
+
+msgid "Mews"
+msgstr "مجموعة الإسطبلات"
+
+msgid "Mexican"
+msgstr "المكسيكي"
+
+msgid "Mexicans"
+msgstr "المكسيكيون"
+
+msgid "Mexico"
+msgstr "المكسيك"
+
+msgid "Meyer"
+msgstr "مير"
+
+msgid "Meyers"
+msgstr "مييرس"
+
+msgid "Mezzanine"
+msgstr "الطابق الثانوي"
+
+msgid "Mezzo"
+msgstr "متوسّط"
+
+msgid "Mezzos"
+msgstr "الأصوات المعتدلة"
+
+msgid "Mfm"
+msgstr "تشكيل التّردّد المعدّل"
+
+msgid "MHz"
+msgstr "ميغاهيرتز"
+
+msgid "Mi"
+msgstr "بادئة معناها أقل أو أصغر"
+
+msgid "Miami"
+msgstr "ميامي"
+
+msgid "Miaow"
+msgstr "المواء"
+
+msgid "Miaowed"
+msgstr "ماء"
+
+msgid "Miaowing"
+msgstr "الموء"
+
+msgid "Miaows"
+msgstr "المواء"
+
+msgid "Miasma"
+msgstr "بخار العفن"
+
+msgid "Miasmal"
+msgstr "وبائي"
+
+msgid "Miasmic"
+msgstr "وبائي"
+
+msgid "Mica"
+msgstr "حجر البلق"
+
+msgid "Mice"
+msgstr "الفئران"
+
+msgid "Michael"
+msgstr "مايكل"
+
+msgid "Michaelangelo"
+msgstr "ميكلانجيلو"
+
+# This doesn't make sense and
+# should be deleted.
+msgid "Michaels"
+msgstr "مايكلز"
+
+msgid "Michaelson"
+msgstr "ميكلسون"
+
+msgid "Michel"
+msgstr "ميتشل"
+
+msgid "Michelangelo"
+msgstr "ميتشيلانجيلو"
+
+msgid "Michele"
+msgstr "ميشيل"
+
+msgid "Michelin"
+msgstr "ميتشيلن"
+
+msgid "Michelson"
+msgstr "ميتشيلسون"
+
+msgid "Michigan"
+msgstr "مشيغان"
+
+msgid "Mick"
+msgstr "ميك"
+
+msgid "Mickelson"
+msgstr "ميكيلسون"
+
+msgid "Mickey"
+msgstr "ميكي"
+
+msgid "Mickie"
+msgstr "ميكي"
+
+msgid "Micky"
+msgstr "الميكي"
+
+msgid "Micro"
+msgstr "دقيق"
+
+msgid "Microamp"
+msgstr "واحد من المليون أمبير"
+
+msgid "Microanalysis"
+msgstr "التحليل الكيميائي لكمية ضئيلة جداً من المادة "
+
+msgid "Microanalytic"
+msgstr "متعلق بالتحليل الكيميائي لكمية ضئيلة جداً من المادة"
+
+msgid "Microbe"
+msgstr "جرثومة"
+
+msgid "Microbial"
+msgstr "جرثومي"
+
+msgid "Microbic"
+msgstr "جرثومي"
+
+msgid "Microbicidal"
+msgstr "متعلق بمزيل الميكروبات"
+
+msgid "Microbicide"
+msgstr "مبيد الجراثيم"
+
+msgid "Microbiological"
+msgstr "مجهري"
+
+msgid "Microbiologically"
+msgstr "مجهريا"
+
+msgid "Microbiologist"
+msgstr "عالم الأحياء الدقيقة"
+
+msgid "Microbiology"
+msgstr "علم الأحياء الدقيقة"
+
+msgid "Microchemistry"
+msgstr "الكيمياء التي تتعامل مع كمّيّات الموادّ الدّقيقة"
+
+msgid "Microchip"
+msgstr "رقاقة"
+
+msgid "Microcircuit"
+msgstr "دائرة كهربائية دقيقة"
+
+msgid "Microcircuits"
+msgstr "دوائر كهربائية دقيقة"
+
+msgid "Microcode"
+msgstr "التّقنية المستعملة لتنفيذ مجموعة تعليمات وحدة المعالجة"
+
+msgid "Microcomputer"
+msgstr "الحاسبة الصغرى"
+
+msgid "Microcomputers"
+msgstr "الحاسبات الصغرى"
+
+msgid "Microcosm"
+msgstr "العالم الصغير"
+
+msgid "Microcosmic"
+msgstr "المصغّر"
+
+msgid "Microcosmical"
+msgstr "متعلق بـ العالم الصّغير"
+
+msgid "Microcosms"
+msgstr "العالم الصغير"
+
+msgid "Microeconomic"
+msgstr "متعلّق بالأقتصاديات الصغّيرة"
+
+msgid "Microeconomics"
+msgstr "الأقتصاديات الصغّيرة"
+
+msgid "Microelectronics"
+msgstr "علم الألكترونيات الدقيقة"
+
+msgid "Microfiche"
+msgstr "الميكروفيش"
+
+msgid "Microfilm"
+msgstr "الميكروفيلم: فيلم يحمل صوراً فوتوغرافية مصغَّرة عن صفحات كتاب الخ"
+
+msgid "Microfilmed"
+msgstr "أخذ مايكروفيلم عن"
+
+msgid "Microfilmer"
+msgstr "عامل الميكروفيلم"
+
+msgid "Microfilming"
+msgstr "يصوِّر على مايكروفيلم"
+
+msgid "Microfilms"
+msgstr "الميكروفلم"
+
+msgid "Microform"
+msgstr "صور مصغّرة"
+
+msgid "Microfossils"
+msgstr "الأحافير الدقيقة"
+
+msgid "Microgram"
+msgstr "الميكروغرام: جزء من مليون من الغرام"
+
+msgid "Micrography"
+msgstr "التجهير: الفحص بالمجهر"
+
+msgid "Microinstruction"
+msgstr "تعليمة دقيقة"
+
+msgid "Microinstructions"
+msgstr "تعليمات دقيقة"
+
+msgid "Microjoule"
+msgstr "ميكروجول: جزء من مليون من الجول"
+
+msgid "Micrometeorites"
+msgstr "جزيء صغير للغبار الفضائي"
+
+msgid "Micrometeoritic"
+msgstr "متعلق بالجزيء الصغير للغبار الفضائي"
+
+msgid "Micrometer"
+msgstr "الميكرومتر"
+
+msgid "Micrometers"
+msgstr "الميكرومترات"
+
+msgid "Micromotion"
+msgstr "حركة قصيرة المدى"
+
+msgid "Micron"
+msgstr "الميكرون"
+
+msgid "Micronesia"
+msgstr "ماكرونيزيا"
+
+msgid "Micronesian"
+msgstr "الماكروني"
+
+msgid "Micronesians"
+msgstr "الماكرونيون"
+
+msgid "Microns"
+msgstr "الميكرونات"
+
+msgid "Microorganism"
+msgstr "الكائن الحي المجهري"
+
+msgid "Microorganisms"
+msgstr "الكائنات الحيّة المجهرية"
+
+msgid "Microphone"
+msgstr "مكبّر الصوت"
+
+msgid "Microphones"
+msgstr "مكبّرات الصوت"
+
+msgid "Microphoning"
+msgstr "تحويل الموجات الصّوتيّة موجات كهربائيّة"
+
+msgid "Microphotograph"
+msgstr "الصورة المجهرية: صورة صغيرة جدّاً"
+
+msgid "Microphotographic"
+msgstr "متعلق بالصور التي تتطلب مجهر لرؤيتها"
+
+msgid "Microphotography"
+msgstr "التصوير الميكروفيلمي"
+
+msgid "Microprocessor"
+msgstr "معالج دقيق"
+
+msgid "Microprocessors"
+msgstr "معالجات دقيقة"
+
+msgid "Microprogram"
+msgstr "برنامج صغير"
+
+msgid "Microprogramming"
+msgstr "تجزيء التحكم بالكومبيوتر الى خطوات صغيرة"
+
+msgid "Micros"
+msgstr "صغار جداً"
+
+msgid "Microscope"
+msgstr "المجهر"
+
+msgid "Microscopes"
+msgstr "المجاهر"
+
+msgid "Microscopic"
+msgstr "مجهري"
+
+msgid "Microscopical"
+msgstr "مجهري: بالغ الصغر"
+
+msgid "Microscopically"
+msgstr "مجهري"
+
+msgid "Microscopy"
+msgstr "استعمال المجهر"
+
+msgid "Microsecond"
+msgstr "جزء من مليون من الثانية"
+
+msgid "Microseconds"
+msgstr "جزء من مليون من الثانية"
+
+msgid "Microsoft"
+msgstr "مايكروسوفت"
+
+msgid "Microsomal"
+msgstr "متعلق بـ الجزيء الصغير في سيتوبلازم خليّة"
+
+msgid "Microvolt"
+msgstr "جزء من مليون من الفولت"
+
+msgid "Microvolts"
+msgstr "جزء من مليون من الفولت"
+
+msgid "Microwave"
+msgstr "المايكرويف"
+
+msgid "Microwaves"
+msgstr "المايكرويف"
+
+msgid "Mid"
+msgstr "وسط"
+
+msgid "Midair"
+msgstr "جوي"
+
+msgid "Midas"
+msgstr "ميداس - الملك الأسطوريّ لفريجيا"
+
+msgid "Midband"
+msgstr "التردد الأوسط بين مجموعة ترددات"
+
+msgid "Midday"
+msgstr "منتصف النهار"
+
+msgid "Middays"
+msgstr "منتصف الأيام"
+
+msgid "Middies"
+msgstr "الضباط البحريون"
+
+msgid "Middle"
+msgstr "المنتصف"
+
+msgid "Middlebury"
+msgstr "مددلبري"
+
+msgid "Middled"
+msgstr "يضع في الوسط"
+
+msgid "Middleman"
+msgstr "السمسار"
+
+msgid "Middlemen"
+msgstr "السماسرة"
+
+msgid "Middler"
+msgstr "متوسّط"
+
+msgid "Middles"
+msgstr "المنتصفات"
+
+msgid "Middlesex"
+msgstr "ميدلسيكس"
+
+msgid "Middleton"
+msgstr "مددلتون"
+
+msgid "Middletown"
+msgstr "مددلتاون"
+
+msgid "Middleweight"
+msgstr "الوزن المتوسط"
+
+msgid "Middleweights"
+msgstr "أشخاص من الوزن المتوسط (لا يزيد على ١٦٠ باوند)"
+
+msgid "Middling"
+msgstr "متوسط"
+
+msgid "Middlingly"
+msgstr "بشكل متوسط"
+
+msgid "Middlings"
+msgstr "سلع متوسطة (حجماً أو جودةً)"
+
+msgid "Middy"
+msgstr "الضابط البحري"
+
+msgid "Mideast"
+msgstr "الشرق الأوسط"
+
+msgid "Midge"
+msgstr "البرغشة"
+
+msgid "Midges"
+msgstr "البراغيش"
+
+msgid "Midget"
+msgstr "القزم"
+
+msgid "Midgets"
+msgstr "الأقزام"
+
+msgid "Midi"
+msgstr "الميدي"
+
+msgid "Midland"
+msgstr "وسط البلاد"
+
+msgid "Midlander"
+msgstr "أوسطي"
+
+msgid "Midlands"
+msgstr "وسط البلاد"
+
+msgid "Midlife"
+msgstr "منتصف العمر"
+
+msgid "Midmorn"
+msgstr "مدمورن"
+
+msgid "Midmorning"
+msgstr "منتصف النهار"
+
+msgid "Midmost"
+msgstr "أوسط"
+
+msgid "Midnight"
+msgstr "منتصف الليل"
+
+msgid "Midnightly"
+msgstr "في منتصف الليل"
+
+msgid "Midnights"
+msgstr "منتصف الليالي"
+
+msgid "Midpoint"
+msgstr "المنتصف"
+
+msgid "Midpoints"
+msgstr "نقاط المنتصف"
+
+msgid "Midrange"
+msgstr "المدى المتوسّط"
+
+msgid "Midriff"
+msgstr "البطن"
+
+msgid "Midriffs"
+msgstr "البطون"
+
+msgid "Midsection"
+msgstr "القسم الوسطي"
+
+msgid "Midship"
+msgstr "وسط السفينة"
+
+msgid "Midshipman"
+msgstr "الضابط البحري"
+
+msgid "Midshipmen"
+msgstr "الضباط البحريون"
+
+msgid "Midships"
+msgstr "في وسط السفينة أو نحو وسطها"
+
+msgid "Midst"
+msgstr "وسط"
+
+msgid "Midstream"
+msgstr "وسط المجرى"
+
+msgid "Midsts"
+msgstr "الأوساط"
+
+msgid "Midsummer"
+msgstr "منتصف الصيف"
+
+msgid "Midterm"
+msgstr "إختبار منتصف الفترة"
+
+msgid "Midterms"
+msgstr "إختبارات منتصف الفترة"
+
+msgid "Midtone"
+msgstr "نغمة متوسطة"
+
+msgid "Midway"
+msgstr "في منتصف الطريق"
+
+msgid "Midways"
+msgstr "أجنحة الملاهي: جانب من معرض الخ مخصص لضروب التسلية البريئة"
+
+msgid "Midweek"
+msgstr "منتصف الأسبوع"
+
+msgid "Midweekly"
+msgstr "في منتصف الأسبوع"
+
+msgid "Midwest"
+msgstr "وسط الغرب"
+
+msgid "Midwestern"
+msgstr "وسط غرب"
+
+msgid "Midwesterner"
+msgstr "مواطن شمال منتصف الولايات المتحدة"
+
+msgid "Midwesterners"
+msgstr "مواطنو شمال منتصف الولايات المتحدة"
+
+msgid "Midwife"
+msgstr "قابلة"
+
+msgid "Midwifed"
+msgstr "وضعت بمساعدة القابلة"
+
+msgid "Midwifery"
+msgstr "التوليد"
+
+msgid "Midwifes"
+msgstr "القابلة"
+
+msgid "Midwifing"
+msgstr "الوضع بمساعدة القابلة"
+
+msgid "Midwinter"
+msgstr "منتصف الشتاء"
+
+msgid "Midwives"
+msgstr "قابلات"
+
+msgid "Midyear"
+msgstr "منتصف السنة"
+
+msgid "Mied"
+msgstr "ميد"
+
+msgid "Mien"
+msgstr "هيئة"
+
+msgid "Miens"
+msgstr "الهيئات"
+
+msgid "Mies"
+msgstr "ميس"
+
+msgid "Miff"
+msgstr "أزعج"
+
+msgid "Miffed"
+msgstr "منزعج"
+
+msgid "Miffing"
+msgstr "الإزعاج"
+
+msgid "Miffs"
+msgstr "يزعج"
+
+msgid "Mig"
+msgstr "الميج"
+
+msgid "Might"
+msgstr "قد"
+
+msgid "Mightier"
+msgstr "أكثر هولا"
+
+msgid "Mightiest"
+msgstr "أقدر"
+
+msgid "Mightily"
+msgstr "بقوّة"
+
+msgid "Mightiness"
+msgstr "الهول"
+
+msgid "Mights"
+msgstr "القدرات"
+
+msgid "Mighty"
+msgstr "هائل"
+
+msgid "Mignon"
+msgstr "مغنون"
+
+msgid "Migraine"
+msgstr "داء الشقيقة"
+
+msgid "Migraines"
+msgstr "أمراض الشقيقة"
+
+msgid "Migrant"
+msgstr "المهاجر"
+
+msgid "Migrants"
+msgstr "المهاجرون"
+
+msgid "Migrate"
+msgstr "هاجر"
+
+msgid "Migrated"
+msgstr "مهاجر"
+
+msgid "Migrates"
+msgstr "يهاجر"
+
+msgid "Migrating"
+msgstr "هجرة"
+
+msgid "Migration"
+msgstr "هجرة"
+
+msgid "Migrational"
+msgstr "اندفاع"
+
+msgid "Migrations"
+msgstr "هجرات"
+
+msgid "Migratories"
+msgstr "مهاجرون"
+
+msgid "Migratory"
+msgstr "مهاجر"
+
+msgid "MIGs"
+msgstr "طائرات الميج"
+
+msgid "Miguel"
+msgstr "ميجيل"
+
+msgid "Mike"
+msgstr "مايك"
+
+msgid "Mikes"
+msgstr "الميكروفونات"
+
+msgid "Mikhail"
+msgstr "ميخائيل"
+
+msgid "Mikoyan"
+msgstr "ميكويان - مصمم الطائرة الروسية الميج"
+
+msgid "Mil"
+msgstr "عسكري"
+
+msgid "Mila"
+msgstr "ميلا"
+
+msgid "Milage"
+msgstr "المسافة بالأميال"
+
+msgid "Milages"
+msgstr "المسافة بالأميال"
+
+msgid "Milan"
+msgstr "ميلان"
+
+msgid "Milch"
+msgstr "حلوب"
+
+msgid "Mild"
+msgstr "معتدل"
+
+msgid "Milden"
+msgstr "خفّف"
+
+msgid "Milder"
+msgstr "أكثر إعتدالا"
+
+msgid "Mildest"
+msgstr "أكثر إعتدالا"
+
+msgid "Mildew"
+msgstr "العفن الفطري"
+
+msgid "Mildewed"
+msgstr "متعفّن"
+
+msgid "Mildewing"
+msgstr "يتعفّن"
+
+msgid "Mildews"
+msgstr "العفن الفطري"
+
+msgid "Mildewy"
+msgstr "متعفّن"
+
+msgid "Mildly"
+msgstr "بشكل معتدل"
+
+msgid "Mildness"
+msgstr "خفّة"
+
+msgid "Mildred"
+msgstr "ميلدريد"
+
+msgid "Mile"
+msgstr "الميل"
+
+msgid "Mileage"
+msgstr "المسافة بالأميال"
+
+msgid "Mileages"
+msgstr "المسافات بالأميال"
+
+msgid "Miler"
+msgstr "ميلير"
+
+msgid "Miles"
+msgstr "أميال"
+
+msgid "Milestone"
+msgstr "المعلم"
+
+msgid "Milestones"
+msgstr "المعالم"
+
+msgid "Milieu"
+msgstr "البيئة"
+
+msgid "Milieus"
+msgstr "البيئات"
+
+msgid "Militancy"
+msgstr "القتال"
+
+msgid "Militant"
+msgstr "مناضل"
+
+msgid "Militantly"
+msgstr "بروح فدائية"
+
+msgid "Militantness"
+msgstr "النضاليّة"
+
+msgid "Militants"
+msgstr "مناضلون"
+
+msgid "Militaries"
+msgstr "الجيوش"
+
+msgid "Militarily"
+msgstr "عسكريا"
+
+msgid "Militarism"
+msgstr "العسكرية"
+
+msgid "Militarisms"
+msgstr "العسكرية"
+
+msgid "Militarist"
+msgstr "خبير عسكري"
+
+msgid "Militaristic"
+msgstr "مشرب بالروح الحربية"
+
+msgid "Militaristically"
+msgstr "بدعم للعسكرية"
+
+msgid "Militarization"
+msgstr "العسكرة"
+
+msgid "Militarize"
+msgstr "عسكر"
+
+msgid "Militarized"
+msgstr "معسكر"
+
+msgid "Militarizes"
+msgstr "يعسكر"
+
+msgid "Militarizing"
+msgstr "العسكرة"
+
+msgid "Military"
+msgstr "الجيش"
+
+msgid "Militate"
+msgstr "ناهض"
+
+msgid "Militated"
+msgstr "مناهض"
+
+msgid "Militates"
+msgstr "يناهض"
+
+msgid "Militating"
+msgstr "المناهضة"
+
+msgid "Militia"
+msgstr "المقاومة الشعبية"
+
+msgid "Militiamen"
+msgstr "جنود الجيش الشعبي"
+
+msgid "Militias"
+msgstr "الجيوش الشعبية"
+
+msgid "Milk"
+msgstr "الحليب"
+
+msgid "Milked"
+msgstr "محلوب"
+
+msgid "Milker"
+msgstr "الحالب"
+
+msgid "Milkers"
+msgstr "الحالبون"
+
+msgid "Milkier"
+msgstr "حليبي"
+
+msgid "Milkiest"
+msgstr "حليبي"
+
+msgid "Milkiness"
+msgstr "الحليبية"
+
+msgid "Milking"
+msgstr "الحلب"
+
+msgid "Milkmaid"
+msgstr "الحلابة"
+
+msgid "Milkmaids"
+msgstr "الحلابات"
+
+msgid "Milkman"
+msgstr "بائع الحليب"
+
+msgid "Milkmen"
+msgstr "باعة الحليب"
+
+msgid "Milks"
+msgstr "يحلب"
+
+msgid "Milksop"
+msgstr "المخنث"
+
+msgid "Milksops"
+msgstr "المخنثون"
+
+msgid "Milkweed"
+msgstr "حشيشة اللبن (نبات)"
+
+msgid "Milky"
+msgstr "حليبي"
+
+msgid "Mill"
+msgstr "الطاحونة"
+
+msgid "Millard"
+msgstr "ميلارد"
+
+msgid "Mille"
+msgstr "ميل"
+
+msgid "Milled"
+msgstr "مطحون"
+
+msgid "Millenarian"
+msgstr "ألفي: متعلق بألف سنة"
+
+msgid "Millenarianism"
+msgstr "الإيمان بالعصر الألفي السعيد"
+
+msgid "Millenia"
+msgstr "قرون من الزّمن"
+
+msgid "Millennia"
+msgstr "الألفيات"
+
+msgid "Millennialism"
+msgstr "الإيمان بالعصر الألفيّ"
+
+msgid "Millennium"
+msgstr "الألفية"
+
+msgid "Millepede"
+msgstr "أم أربعة وأربعين"
+
+msgid "Millepedes"
+msgstr "أمهات أربعة وأربعين"
+
+msgid "Miller"
+msgstr "طحّان"
+
+msgid "Millers"
+msgstr "طحّانون"
+
+msgid "Milles"
+msgstr "ميليس"
+
+msgid "Millet"
+msgstr "الدخن"
+
+msgid "Milliamp"
+msgstr "جزء من ألف جزء من الأمبير"
+
+msgid "Milliampere"
+msgstr "جزء من ألف جزء من الأمبير"
+
+msgid "Milliamperes"
+msgstr "جزء من ألف جزء من الأمبير"
+
+msgid "Milliard"
+msgstr "المليار"
+
+msgid "Millidegree"
+msgstr "جزء من ألف جزء من الدرجة"
+
+msgid "Millidegrees"
+msgstr "جزء من ألف جزء من الدرجة"
+
+msgid "Millie"
+msgstr "ميلي"
+
+msgid "Milligram"
+msgstr "الملليغرام"
+
+msgid "Milligrams"
+msgstr "الملليغرامات"
+
+msgid "Millijoule"
+msgstr "جزء من ألف جزء من الجول"
+
+msgid "Millijoules"
+msgstr "جزء من ألف جزء من الجول"
+
+msgid "Millikan"
+msgstr "ميليكان"
+
+msgid "Milliliter"
+msgstr "الملليلتر"
+
+msgid "Milliliters"
+msgstr "الملليلترات"
+
+msgid "Millimeter"
+msgstr "الملليمتر"
+
+msgid "Millimeters"
+msgstr "المليمترات"
+
+msgid "Millimetre"
+msgstr "الملليمتر"
+
+msgid "Milliner"
+msgstr "بائع قبعات النساء"
+
+msgid "Millineries"
+msgstr "متاجر قبعات النساء"
+
+msgid "Milliners"
+msgstr "باعة قبعات النساء"
+
+msgid "Millinery"
+msgstr "صناعة قبعات النساء"
+
+msgid "Milling"
+msgstr "الطحن"
+
+msgid "Million"
+msgstr "مليون"
+
+msgid "Millionaire"
+msgstr "المليونير"
+
+msgid "Millionaires"
+msgstr "المليونيرات"
+
+msgid "Millioned"
+msgstr "مضروب في الملايين"
+
+msgid "Millions"
+msgstr "الملايين"
+
+msgid "Millionth"
+msgstr "مليون"
+
+msgid "Millipede"
+msgstr "أم أربعة وأربعين"
+
+msgid "Millipedes"
+msgstr "أمهات أربعة وأربعين"
+
+msgid "Millisecond"
+msgstr "جزء من الألف من الثانية"
+
+msgid "Milliseconds"
+msgstr "جزء من ألف جزء من الثانية"
+
+msgid "Millisecs"
+msgstr "جزء من ألف جزء من الثانية"
+
+msgid "Millivolt"
+msgstr "جزء من ألف جزء من الفولت"
+
+msgid "Millivoltmeter"
+msgstr "مقياس مُدرَّج بالميليفولت"
+
+msgid "Millivoltmeters"
+msgstr "أجهزة قياس مُدرَّجة بالميليفولت"
+
+msgid "Millivolts"
+msgstr "جزء من ألف جزء من الفولت"
+
+msgid "Milliwatt"
+msgstr "جزء من ألف جزء من الواط"
+
+msgid "Milliwatts"
+msgstr "جزء من ألف جزء من الواط"
+
+msgid "Millpond"
+msgstr "بركة الطاحون"
+
+msgid "Mills"
+msgstr "طواحين"
+
+msgid "Millstone"
+msgstr "حجر الرحّى"
+
+msgid "Millstones"
+msgstr "أحجار الرحّى"
+
+msgid "Millwright"
+msgstr "مركب الطواحين"
+
+msgid "Millwrights"
+msgstr "مركبو الطواحين"
+
+msgid "Milord"
+msgstr "الميلورد"
+
+msgid "Milquetoast"
+msgstr "الجبان"
+
+msgid "Milquetoasts"
+msgstr "الجبناء"
+
+msgid "Milt"
+msgstr "لقّح"
+
+msgid "Milton"
+msgstr "ميلتن"
+
+msgid "Miltonic"
+msgstr "ملتونيّ: ذو علاقة بالشاعر الإنكليزي ملتون أو بشعره أو مميِّز لهما"
+
+msgid "Milwaukee"
+msgstr "ميلووكي"
+
+msgid "MIMD"
+msgstr "عمليات مختلفة على بيانات مختلفة (Multiple Instruction Multiple Data)"
+
+msgid "Mime"
+msgstr "التمثيلية الصامتة"
+
+msgid "Mime-Type"
+msgstr "من نوع تمثيلية صامتة"
+
+msgid "Mimed"
+msgstr "مقلّد"
+
+msgid "Mimeograph"
+msgstr "الناسخة"
+
+msgid "Mimeographed"
+msgstr "نسخ"
+
+msgid "Mimeographes"
+msgstr "ناسخات"
+
+msgid "Mimeographing"
+msgstr "نسخ"
+
+msgid "Mimeographs"
+msgstr "ناسخات"
+
+msgid "Mimer"
+msgstr "مهرِّج"
+
+msgid "Mimes"
+msgstr "تمثيليات صامتة"
+
+msgid "Mimesis"
+msgstr "تقليد"
+
+msgid "Mimetic"
+msgstr "متسّم بالتقليد والمحاكاة"
+
+msgid "Mimetically"
+msgstr "بطريقة ساخرة (من طريق التقليد والمحاكاة)"
+
+msgid "Mimetypes"
+msgstr "أنواع الملفات"
+
+msgid "Mimi"
+msgstr "ميمي"
+
+msgid "Mimic"
+msgstr "مقلّد"
+
+msgid "Mimicked"
+msgstr "حاكى أو قلّد للتسلية"
+
+msgid "Mimicking"
+msgstr "يقلّد"
+
+msgid "Mimicries"
+msgstr "التقاليد"
+
+msgid "Mimicry"
+msgstr "محاكاة"
+
+msgid "Mimics"
+msgstr "المقلدون"
+
+msgid "Miming"
+msgstr "التقليد"
+
+msgid "Min"
+msgstr "دقيقة"
+
+msgid "Minaret"
+msgstr "المئذنة"
+
+msgid "Mince"
+msgstr "اللحم المفروم"
+
+msgid "Minced"
+msgstr "مثروم"
+
+msgid "Mincemeat"
+msgstr "اللحم مفروم"
+
+msgid "Mincer"
+msgstr "المفرمة"
+
+msgid "Mincers"
+msgstr "المفارم"
+
+msgid "Minces"
+msgstr "اللحوم المفرومة"
+
+msgid "Mincing"
+msgstr "الثرم"
+
+msgid "Mincingly"
+msgstr "بشكل متكلف"
+
+msgid "Mind"
+msgstr "عقل"
+
+msgid "Mindanao"
+msgstr "جزيرة جنوب الفلبين"
+
+msgid "Minded"
+msgstr "متدبّر"
+
+msgid "Mindedness"
+msgstr "ذو عقل"
+
+msgid "Minder"
+msgstr "الحارس"
+
+msgid "Minders"
+msgstr "الحرّاس"
+
+msgid "Mindful"
+msgstr "حريص"
+
+msgid "Mindfully"
+msgstr "بانتباه"
+
+msgid "Mindfulness"
+msgstr "يقظة"
+
+msgid "Minding"
+msgstr "التدبير"
+
+msgid "Mindless"
+msgstr "طائش"
+
+msgid "Mindlessly"
+msgstr "بغفلة"
+
+msgid "Mindlessness"
+msgstr "غفلة"
+
+msgid "Minds"
+msgstr "العقول"
+
+msgid "Mine"
+msgstr "اللغم"
+
+msgid "Mined"
+msgstr "منقّب"
+
+msgid "Minefield"
+msgstr "حقل الألغام"
+
+msgid "Miner"
+msgstr "عامل المنجم"
+
+msgid "Mineral"
+msgstr "المعدن"
+
+msgid "Mineralize"
+msgstr "معدن"
+
+msgid "Mineralized"
+msgstr "ممعدن"
+
+msgid "Mineralizes"
+msgstr "يمعدن"
+
+msgid "Mineralizing"
+msgstr "التمعدن"
+
+msgid "Minerally"
+msgstr "بشكل معدني"
+
+msgid "Mineralogical"
+msgstr "متعلق بعلم المعادن"
+
+msgid "Mineralogically"
+msgstr "متعلق بعلم المعادن"
+
+msgid "Mineralogies"
+msgstr "علوم المعادن"
+
+msgid "Mineralogist"
+msgstr "متخصص بالمعادن"
+
+msgid "Mineralogists"
+msgstr "متخصصون بالمعادن"
+
+msgid "Mineralogy"
+msgstr "علم المعادن"
+
+msgid "Minerals"
+msgstr "المعادن"
+
+msgid "Miners"
+msgstr "عمّال المناجم"
+
+msgid "Minerva"
+msgstr "إلاهة الحكمة عند الرومان"
+
+msgid "Mines"
+msgstr "ألغام"
+
+msgid "Minestrone"
+msgstr "الشوربة"
+
+msgid "Minesweeper"
+msgstr "كاسحة الألغام"
+
+msgid "Minesweepers"
+msgstr "كاسحات الألغام"
+
+msgid "Ming"
+msgstr "مينج"
+
+msgid "Mingle"
+msgstr "إخلط"
+
+msgid "Mingled"
+msgstr "مخلوط"
+
+msgid "Mingles"
+msgstr "يخلط"
+
+msgid "Mingling"
+msgstr "الخلط"
+
+msgid "Mini"
+msgstr "الثوب القصير"
+
+msgid "Mini-Commander"
+msgstr "القائد الصغير"
+
+msgid "Mini-cruiser"
+msgstr "الطرّاد الصغير"
+
+msgid "Miniature"
+msgstr "المصغر"
+
+msgid "Miniatures"
+msgstr "المصغرون"
+
+msgid "Miniaturization"
+msgstr "التصغير"
+
+msgid "Miniaturizations"
+msgstr "التصغير"
+
+msgid "Miniaturize"
+msgstr "صغّر"
+
+msgid "Miniaturized"
+msgstr "مصغّر"
+
+msgid "Miniaturizes"
+msgstr "يصغّر"
+
+msgid "Miniaturizing"
+msgstr "التصغير"
+
+msgid "Minibike"
+msgstr "دراجة صغيرة"
+
+msgid "Minicartridge"
+msgstr "مخزن رصاص صغير"
+
+msgid "Minicomputer"
+msgstr "الحاسبة المتوسّطة"
+
+msgid "Minicomputers"
+msgstr "الحاسبات المتوسّطة"
+
+msgid "Minidress"
+msgstr "الثوب القصير"
+
+msgid "Minidresses"
+msgstr "الثياب القصيرة"
+
+msgid "Minified"
+msgstr "مصغّر"
+
+msgid "Minifies"
+msgstr "يصغّر"
+
+msgid "Minify"
+msgstr "صغّر"
+
+msgid "Minifying"
+msgstr "التصغير"
+
+msgid "Minim"
+msgstr "القطرة"
+
+msgid "Minima"
+msgstr "الحدود الدنيا"
+
+msgid "Minimal"
+msgstr "أقل ما يمكن"
+
+msgid "Minimalist"
+msgstr "الإصلاحي"
+
+msgid "Minimalists"
+msgstr "الإصلاحيون"
+
+msgid "Minimally"
+msgstr "بالحد الأدنى"
+
+msgid "Minimax"
+msgstr "مينيماكس"
+
+msgid "Minimization"
+msgstr "تحقيق الحدّ الأدنى"
+
+msgid "Minimizations"
+msgstr "تحقيق الحدّ الأدنى"
+
+msgid "Minimize"
+msgstr "قلّل"
+
+msgid "Minimized"
+msgstr "مقلّل"
+
+msgid "Minimizer"
+msgstr "شراع صغير"
+
+msgid "Minimizers"
+msgstr "أشرعة صغيرة"
+
+msgid "Minimizes"
+msgstr "يقلّل"
+
+msgid "Minimizing"
+msgstr "التقليل"
+
+msgid "Minimum"
+msgstr "الحدّ الأدنى"
+
+msgid "Minimums"
+msgstr "الحدود الدنيا"
+
+msgid "Mining"
+msgstr "التعدين"
+
+msgid "Minion"
+msgstr "التابع"
+
+msgid "Minions"
+msgstr "التوابع"
+
+msgid "Minis"
+msgstr "الثياب القصيرة"
+
+msgid "Miniscule"
+msgstr "الحرف الصغير"
+
+msgid "Miniskirt"
+msgstr "الفستان القصير"
+
+msgid "Minister"
+msgstr "الوزير"
+
+msgid "Ministered"
+msgstr "خدم"
+
+msgid "Ministerial"
+msgstr "وزاري"
+
+msgid "Ministerially"
+msgstr "وزاريا"
+
+msgid "Ministering"
+msgstr "يخدم"
+
+msgid "Ministers"
+msgstr "الوزراء"
+
+msgid "Ministrant"
+msgstr "خادم"
+
+msgid "Ministrants"
+msgstr "خدم"
+
+msgid "Ministration"
+msgstr "الخدمة"
+
+msgid "Ministrations"
+msgstr "الخدمات"
+
+msgid "Ministries"
+msgstr "وزارات"
+
+msgid "Ministry"
+msgstr "وزارة"
+
+msgid "Miniver"
+msgstr "فرو أبيض"
+
+msgid "Minix"
+msgstr "مينيكس"
+
+msgid "Mink"
+msgstr "ثعلب الماء"
+
+msgid "Minks"
+msgstr "ثعالب الماء"
+
+msgid "Minneapolis"
+msgstr "ميننيبوليس"
+
+msgid "Minnesota"
+msgstr "مينيسوتا"
+
+msgid "Minnie"
+msgstr "ميني"
+
+msgid "Minnow"
+msgstr "البلمة"
+
+msgid "Minnows"
+msgstr "البلم"
+
+msgid "Minoan"
+msgstr "ذو علاقة بحضارة جزيرة اقريطش"
+
+msgid "Minor"
+msgstr "قاصر"
+
+msgid "Minored"
+msgstr "قاصر"
+
+msgid "Minoring"
+msgstr "التخصص التشعيبي"
+
+msgid "Minorities"
+msgstr "الأقلّيات"
+
+msgid "Minority"
+msgstr "الأقلية"
+
+msgid "Minors"
+msgstr "قاصرون"
+
+msgid "Minos"
+msgstr "مينوس"
+
+msgid "Minot"
+msgstr "مينوت"
+
+msgid "Minsk"
+msgstr "منسك"
+
+msgid "Minsky"
+msgstr "مينسكاي"
+
+msgid "Minster"
+msgstr "الكاتدرائية"
+
+msgid "Minsters"
+msgstr "الكاتدرائيات"
+
+msgid "Minstrel"
+msgstr "المنشد"
+
+msgid "Minstrels"
+msgstr "المنشدون"
+
+msgid "Minstrelsy"
+msgstr "الأشعار الشعبية"
+
+msgid "Mint"
+msgstr "النعناع"
+
+msgid "Mintage"
+msgstr "سكّ العملة "
+
+msgid "Mintages"
+msgstr "سك العملات"
+
+msgid "Minted"
+msgstr "مسكوك"
+
+msgid "Minter"
+msgstr "المخترع، صانع العملة المعدنية"
+
+msgid "Minting"
+msgstr "سكّ النقود"
+
+msgid "Mints"
+msgstr "النعناع"
+
+msgid "Minuend"
+msgstr "المطروح منه"
+
+msgid "Minuends"
+msgstr "المطروح منهم"
+
+msgid "Minuet"
+msgstr "رقصة كلاسيكية"
+
+msgid "Minuets"
+msgstr "رقصات كلاسيكية"
+
+msgid "Minus"
+msgstr "ناقص"
+
+msgid "Minuscule"
+msgstr "حرف صغير"
+
+msgid "Minuses"
+msgstr "النواقص"
+
+msgid "Minute"
+msgstr "دقيق"
+
+msgid "Minuted"
+msgstr "مدوّن"
+
+msgid "Minutely"
+msgstr "بدقة"
+
+msgid "Minuteman"
+msgstr "المواطن الذي يحتاج لدقيقة فقط ليكون مستعداً للقتال"
+
+msgid "Minutemen"
+msgstr "المواطنون الذي يحتاج لدقيقة فقط ليكون مستعداً للقتال"
+
+msgid "Minuteness"
+msgstr "متسم بالاهتمام البالغ بالتفاصيل"
+
+msgid "Minuter"
+msgstr "أدقّ"
+
+msgid "Minutes"
+msgstr "الدقائق"
+
+msgid "Minutest"
+msgstr "أدقّ"
+
+msgid "Minutiae"
+msgstr "التفاصيل"
+
+msgid "Minuting"
+msgstr "التدوين"
+
+msgid "Minx"
+msgstr "المينكس"
+
+msgid "Miocene"
+msgstr "متعلق بالعصر الثلثي الأوسط"
+
+msgid "Mira"
+msgstr "مستنقع "
+
+msgid "Miracle"
+msgstr "المعجزة"
+
+msgid "Miracles"
+msgstr "المعجزات"
+
+msgid "Miraculous"
+msgstr "أعجوبي"
+
+msgid "Miraculously"
+msgstr "بشكل أعجوبي"
+
+msgid "Miraculousness"
+msgstr "صفة عجيبة"
+
+msgid "Mirage"
+msgstr "السراب"
+
+msgid "Miraged"
+msgstr "سراب"
+
+msgid "Mirages"
+msgstr "طائرات الميراج"
+
+msgid "Miraging"
+msgstr "يتوهم"
+
+msgid "Miranda"
+msgstr "ميراندا"
+
+msgid "Mire"
+msgstr "الطين"
+
+msgid "Mired"
+msgstr "متوحّل"
+
+msgid "Mires"
+msgstr "الأطيان"
+
+msgid "Miriam"
+msgstr "ميريام"
+
+msgid "Mirier"
+msgstr "مرايا"
+
+msgid "Miriest"
+msgstr "الأكثر طيناً"
+
+msgid "Miring"
+msgstr "التوحّل"
+
+msgid "Mirror"
+msgstr "مرآة"
+
+msgid "Mirrored"
+msgstr "انعكس"
+
+msgid "Mirroring"
+msgstr "الإنعكاس"
+
+msgid "Mirrors"
+msgstr "المرايا"
+
+msgid "Mirth"
+msgstr "مرح"
+
+msgid "Mirthfully"
+msgstr "بشكل مرح"
+
+msgid "Mirthless"
+msgstr "مرح قليل"
+
+msgid "Mirthlessly"
+msgstr "بحزن"
+
+msgid "Mirthlessness"
+msgstr "الكآبة"
+
+msgid "Mirths"
+msgstr "الأفراح"
+
+msgid "Miry"
+msgstr "موحل"
+
+msgid "Misadventure"
+msgstr "قضاء وقدر"
+
+msgid "Misadventures"
+msgstr "العوارض"
+
+msgid "Misalign"
+msgstr "اصطفّ خطأ"
+
+msgid "Misaligned"
+msgstr "مصطفّ خطأ"
+
+msgid "Misaligning"
+msgstr "اصطفاف خطأ"
+
+msgid "Misalignment"
+msgstr "اصطفاف خطأ"
+
+msgid "Misaligns"
+msgstr "يصطفّ خطأ"
+
+msgid "Misanthrope"
+msgstr "عدو الإنسان"
+
+msgid "Misanthropes"
+msgstr "أعداء الإنسان"
+
+msgid "Misanthropic"
+msgstr "كاره للبشر"
+
+msgid "Misanthropically"
+msgstr "مبغضًا للبشر"
+
+msgid "Misanthropist"
+msgstr "مبغض للبشر"
+
+msgid "Misanthropists"
+msgstr "مبغضون للبشر"
+
+msgid "Misanthropy"
+msgstr "بغض الجنس البشري"
+
+msgid "Misapplication"
+msgstr "سوء الإستعمال"
+
+msgid "Misapplied"
+msgstr "مساء استعمال"
+
+msgid "Misapplier"
+msgstr "ميسابلير"
+
+msgid "Misapplies"
+msgstr "يسيئ استعمال"
+
+msgid "Misapply"
+msgstr "أسيئ استعمال"
+
+msgid "Misapplying"
+msgstr "إساءة استعمال"
+
+msgid "Misapprehended"
+msgstr "مساء فهم"
+
+msgid "Misapprehending"
+msgstr "اساءة فهم"
+
+msgid "Misapprehends"
+msgstr "يسيء الفهم"
+
+msgid "Misapprehension"
+msgstr "إساءة الفهم"
+
+msgid "Misapprhend"
+msgstr "يسيء الفهم"
+
+msgid "Misappropriate"
+msgstr "اختلس"
+
+msgid "Misappropriated"
+msgstr "مختلس"
+
+msgid "Misappropriates"
+msgstr "يختلس"
+
+msgid "Misappropriating"
+msgstr "اختلاس"
+
+msgid "Misappropriation"
+msgstr "الاختلاس"
+
+msgid "Misbegotten"
+msgstr "نغل"
+
+msgid "Misbehave"
+msgstr "يسيء تصرف"
+
+msgid "Misbehaved"
+msgstr "مساء تصرف"
+
+msgid "Misbehaver"
+msgstr "يسيء التصرف"
+
+msgid "Misbehaves"
+msgstr "يسيئ تصرف"
+
+msgid "Misbehaving"
+msgstr "اساءة تصرف"
+
+msgid "Misbehavior"
+msgstr "سوء السلوك"
+
+msgid "Misbehaviors"
+msgstr "سوء السلوك"
+
+msgid "Misbelief"
+msgstr "رأي خاطئ"
+
+msgid "Misbeliever"
+msgstr "الكافر"
+
+msgid "Misbrand"
+msgstr "يخطئ"
+
+msgid "Misbranded"
+msgstr "أخطأ في وضع العلامة التجارية"
+
+msgid "Misbranding"
+msgstr "يخطئ في وضع العلامة التجارية"
+
+msgid "Misbrands"
+msgstr "يخطئ"
+
+msgid "Misc"
+msgstr "متفرقات"
+
+msgid "Miscalculate"
+msgstr "أخطأ حساب"
+
+msgid "Miscalculated"
+msgstr "أخطئ حساب"
+
+msgid "Miscalculates"
+msgstr "يخطئ حساب"
+
+msgid "Miscalculating"
+msgstr "خطأ حساب"
+
+msgid "Miscalculation"
+msgstr "الخطأ في التّقدير"
+
+msgid "Miscalculations"
+msgstr "الأخطاء في التّقدير"
+
+msgid "Miscall"
+msgstr "أهن"
+
+msgid "Miscalled"
+msgstr "مهان"
+
+msgid "Miscalling"
+msgstr "الإهانة"
+
+msgid "Miscalls"
+msgstr "يهين"
+
+msgid "Miscarriage"
+msgstr "الفشل"
+
+msgid "Miscarriages"
+msgstr "الاخفاقات"
+
+msgid "Miscarried"
+msgstr "مجهض"
+
+msgid "Miscarries"
+msgstr "يجهض"
+
+msgid "Miscarry"
+msgstr "أجهض"
+
+msgid "Miscarrying"
+msgstr "الإجهاض"
+
+msgid "Miscast"
+msgstr "ميسكاست"
+
+msgid "Miscasting"
+msgstr "الخطأ في جمع"
+
+msgid "Miscasts"
+msgstr "ميسكاستس"
+
+msgid "Miscegenation"
+msgstr "تمازج الأجناس"
+
+msgid "Miscegenations"
+msgstr "تمازج الأجناس"
+
+msgid "Miscellaneous"
+msgstr "متنوع"
+
+msgid "Miscellaneously"
+msgstr "بشكل متنوع"
+
+msgid "Miscellaneousness"
+msgstr "حالة متنوعة"
+
+msgid "Miscellanies"
+msgstr "المزيج"
+
+msgid "Miscellany"
+msgstr "مزيج"
+
+msgid "Mischance"
+msgstr "سوء الحظّ"
+
+msgid "Mischief"
+msgstr "الإيذاء"
+
+msgid "Mischievous"
+msgstr "مؤذي"
+
+msgid "Mischievously"
+msgstr "بشكل مؤذي"
+
+msgid "Mischievousness"
+msgstr "وضع مؤذ"
+
+msgid "Miscibility"
+msgstr "القابلية للخلط"
+
+msgid "Miscible"
+msgstr "قابل للاختلاط"
+
+msgid "Misclassification"
+msgstr "سوء فهم"
+
+msgid "Misclassified"
+msgstr "أساء تقسيم"
+
+msgid "Misclassifying"
+msgstr "إساءة تقسيم"
+
+msgid "Miscode"
+msgstr "أخطأ التشفير"
+
+msgid "Miscommunicate"
+msgstr "التخاطب الخاطيء او الغير واضح"
+
+msgid "Miscommunication"
+msgstr "سوء الإتّصالات"
+
+msgid "Misconceive"
+msgstr "أسئ فهم"
+
+msgid "Misconceived"
+msgstr "مساء فهم"
+
+msgid "Misconceives"
+msgstr "يسيئ فهم"
+
+msgid "Misconceiving"
+msgstr "إساءة فهم"
+
+msgid "Misconception"
+msgstr "الوهم"
+
+msgid "Misconceptions"
+msgstr "الأوهام"
+
+msgid "Misconduct"
+msgstr "سوء التصرف"
+
+msgid "Misconstruction"
+msgstr "سوء الفهم"
+
+msgid "Misconstructions"
+msgstr "سوء الفهم"
+
+msgid "Misconstrue"
+msgstr "أسئ فهم"
+
+msgid "Misconstrued"
+msgstr "مساء فهم"
+
+msgid "Misconstrues"
+msgstr "يسيئ فهم"
+
+msgid "Misconstruing"
+msgstr "إساءة فهم"
+
+msgid "Miscount"
+msgstr "الخطأ في العدّ"
+
+msgid "Miscounted"
+msgstr "مخطأ تقدير"
+
+msgid "Miscounting"
+msgstr "خطأ تقدير"
+
+msgid "Miscounts"
+msgstr "الأخطاء في العدّ"
+
+msgid "Miscreant"
+msgstr "الفاجر"
+
+msgid "Miscreants"
+msgstr "الفاجرون"
+
+msgid "Miscue"
+msgstr "أخطأ"
+
+msgid "Miscues"
+msgstr "يخطئ"
+
+msgid "Misdate"
+msgstr "أخطأ تأريخ"
+
+msgid "Misdated"
+msgstr "مخطأ تأريخ"
+
+msgid "Misdates"
+msgstr "يخطئ تأريخ"
+
+msgid "Misdating"
+msgstr "خطأ تأريخ"
+
+msgid "Misdeed"
+msgstr "الإثم"
+
+msgid "Misdeeds"
+msgstr "الآثام"
+
+msgid "Misdemeanant"
+msgstr "المتهم بجنحة"
+
+msgid "Misdemeanants"
+msgstr "المتهم بجنحات"
+
+msgid "Misdemeanor"
+msgstr "الجنحة"
+
+msgid "Misdemeanors"
+msgstr "الجنحة"
+
+msgid "Misdirect"
+msgstr "ضلّل"
+
+msgid "Misdirected"
+msgstr "مضلّل"
+
+msgid "Misdirecting"
+msgstr "التضليل"
+
+msgid "Misdirection"
+msgstr "التضليل"
+
+msgid "Misdirector"
+msgstr "التوجيه الخاطيء"
+
+msgid "Misdirects"
+msgstr "يضلّل"
+
+msgid "Misdoing"
+msgstr "الخطأ"
+
+msgid "Misentry"
+msgstr "معلومة خاطئة"
+
+msgid "Miser"
+msgstr "البخيل"
+
+msgid "Miserable"
+msgstr "بائس"
+
+msgid "Miserableness"
+msgstr "بؤس"
+
+msgid "Miserably"
+msgstr "مثيرا للشفقة"
+
+msgid "Miseries"
+msgstr "التعاسات"
+
+msgid "Miserliness"
+msgstr "بخل"
+
+msgid "Miserly"
+msgstr "بخيل"
+
+msgid "Misers"
+msgstr "بخلاء"
+
+msgid "Misery"
+msgstr "تعاسة"
+
+msgid "Misfeature"
+msgstr "السّمة المريضة"
+
+msgid "Misfile"
+msgstr "أخطأ في حفظ"
+
+msgid "Misfiled"
+msgstr "مخطأ في حفظ"
+
+msgid "Misfiles"
+msgstr "يخطئ في حفظ"
+
+msgid "Misfiling"
+msgstr "خطأ في حفظ"
+
+msgid "Misfire"
+msgstr "خلل الإشعال"
+
+msgid "Misfired"
+msgstr "اختل (السلاح الناريّ)"
+
+msgid "Misfires"
+msgstr "إخفاقات"
+
+msgid "Misfiring"
+msgstr "إخفاق"
+
+msgid "Misfit"
+msgstr "عدم الملائمة"
+
+msgid "Misfits"
+msgstr "عدم الملائمة"
+
+msgid "Misfortune"
+msgstr "سوء الحظ"
+
+msgid "Misfortunes"
+msgstr "سوء الحظ"
+
+msgid "Misgauge"
+msgstr "يقيس شيئ ما بصورة غير صحيحة"
+
+msgid "Misgauged"
+msgstr "قاس شيئ ما بصورة غير صحيحة"
+
+msgid "Misgauges"
+msgstr "يقيس شيئ ما بصورة غير صحيحة"
+
+msgid "Misgauging"
+msgstr "قياس شيئ ما بصورة غير صحيحة"
+
+msgid "Misgiving"
+msgstr "التخوّف"
+
+msgid "Misgivings"
+msgstr "التخوف"
+
+msgid "Misgovern"
+msgstr "أسئ إدارة"
+
+msgid "Misgoverned"
+msgstr "مساء إدارة"
+
+msgid "Misgoverning"
+msgstr "إساءة إدارة"
+
+msgid "Misgovernment"
+msgstr "إساءة الحكم"
+
+msgid "Misgoverns"
+msgstr "يسيئ إدارة"
+
+msgid "Misguidance"
+msgstr "التضليل"
+
+msgid "Misguide"
+msgstr "ضلّل"
+
+msgid "Misguided"
+msgstr "خاطئ"
+
+msgid "Misguidedly"
+msgstr "بطريقة مضلّلة"
+
+msgid "Misguidedness"
+msgstr "التظليل"
+
+msgid "Misguider"
+msgstr "المضلِل"
+
+msgid "Misguides"
+msgstr "يضلّل"
+
+msgid "Misguiding"
+msgstr "التضليل"
+
+msgid "Mishandle"
+msgstr "أسئ استعماله"
+
+msgid "Mishandled"
+msgstr "أساء استعماله"
+
+msgid "Mishandling"
+msgstr "الإساءة استعمال"
+
+msgid "Mishap"
+msgstr "الحادثة"
+
+msgid "Mishaps"
+msgstr "الحوادث"
+
+msgid "Mishmash"
+msgstr "الخليط الغير متجانس"
+
+msgid "Misidentification"
+msgstr "خطأ التّعرّف"
+
+msgid "Misidentified"
+msgstr "أخطأ في التعرف"
+
+msgid "Misidentifies"
+msgstr "يخطئ التّعرّف"
+
+msgid "Misidentify"
+msgstr "يخطيء التّعرّف"
+
+msgid "Misidentifying"
+msgstr "خطأ التّعرّف"
+
+msgid "Misinform"
+msgstr "ضلّل"
+
+msgid "Misinformation"
+msgstr "التضليل"
+
+msgid "Misinformed"
+msgstr "مضلّل"
+
+msgid "Misinforming"
+msgstr "التضليل"
+
+msgid "Misinforms"
+msgstr "يضلّل"
+
+msgid "Misinterpret"
+msgstr "أسئ فهم"
+
+msgid "Misinterpretation"
+msgstr "سوء الفهم"
+
+msgid "Misinterpretations"
+msgstr "سوء الفهم"
+
+msgid "Misinterpreted"
+msgstr "مساء فهم"
+
+msgid "Misinterpreter"
+msgstr "مسيء الفهم"
+
+msgid "Misinterpreters"
+msgstr "مسيؤو الفهم"
+
+msgid "Misinterpreting"
+msgstr "إساءة فهم"
+
+msgid "Misinterprets"
+msgstr "يسيئ فهم"
+
+msgid "Misjudge"
+msgstr "أسئ تقدير"
+
+msgid "Misjudged"
+msgstr "مساء تقدير"
+
+msgid "Misjudgement"
+msgstr "الحكم السيء"
+
+msgid "Misjudgements"
+msgstr "الأحكام السيئة"
+
+msgid "Misjudges"
+msgstr "يسيئ تقدير"
+
+msgid "Misjudging"
+msgstr "إساءة تقدير"
+
+msgid "Misjudgment"
+msgstr "إساءة التقدير"
+
+msgid "Misjudgments"
+msgstr "حالات إساءة التقدير"
+
+msgid "Mislaid"
+msgstr "مفقود"
+
+msgid "Mislay"
+msgstr "إفقد"
+
+msgid "Mislaying"
+msgstr "الفقد"
+
+msgid "Mislays"
+msgstr "يفقد"
+
+msgid "Mislead"
+msgstr "ضلّل"
+
+msgid "Misleader"
+msgstr "المضلّل"
+
+msgid "Misleading"
+msgstr "التضليل"
+
+msgid "Misleadingly"
+msgstr "بشكل مضلّل"
+
+msgid "Misleads"
+msgstr "يضلّل"
+
+msgid "Misled"
+msgstr "ضلّل"
+
+msgid "Mismanage"
+msgstr "أسئ إدارة"
+
+msgid "Mismanaged"
+msgstr "مساء إدارة"
+
+msgid "Mismanagement"
+msgstr "سوء الإدارة"
+
+msgid "Mismanages"
+msgstr "يسيئ إدارة"
+
+msgid "Mismanaging"
+msgstr "إساءة إدارة"
+
+msgid "Mismatch"
+msgstr "اللخبطة"
+
+msgid "Mismatched"
+msgstr "مساء ملائمة"
+
+msgid "Mismatches"
+msgstr "يسيئ ملائمة"
+
+msgid "Mismatching"
+msgstr "إساءة ملائمة"
+
+msgid "Misname"
+msgstr "أسئ تسمية"
+
+msgid "Misnamed"
+msgstr "مساء تسمية"
+
+msgid "Misnames"
+msgstr "يسيئ تسمية"
+
+msgid "Misnaming"
+msgstr "إساءة تسمية"
+
+msgid "Misnomer"
+msgstr "الخطأ في التسمية"
+
+msgid "Misnomered"
+msgstr "سُمِّيَ باسم غير صحيح"
+
+msgid "Misogamist"
+msgstr "كاره الزواج"
+
+msgid "Misogynist"
+msgstr "كاره النساء"
+
+msgid "Misogynists"
+msgstr "كارهو النساء"
+
+msgid "Misogynous"
+msgstr "كاره نساء"
+
+msgid "Misogyny"
+msgstr "كره النساء"
+
+msgid "Misperceive"
+msgstr "أسئ فهم"
+
+msgid "Misperceived"
+msgstr "أساء فهم"
+
+msgid "Misperceives"
+msgstr "يسيئ فهم"
+
+msgid "Misplace"
+msgstr "أخطأ في وضع"
+
+msgid "Misplaced"
+msgstr "في غير مكانها"
+
+msgid "Misplacement"
+msgstr "سوء الوضع"
+
+msgid "Misplaces"
+msgstr "يخطئ في وضع"
+
+msgid "Misplacing"
+msgstr "خطأ في وضع"
+
+msgid "Misplay"
+msgstr "يخطئ في اللعب"
+
+msgid "Misplayed"
+msgstr "أخطأ في اللعب"
+
+msgid "Misplaying"
+msgstr "خطأ في اللعب"
+
+msgid "Misplays"
+msgstr "أخطأ في اللعب"
+
+msgid "Misprint"
+msgstr "خطأ مطبعي"
+
+msgid "Misprinted"
+msgstr "أخطأ في الطبع"
+
+msgid "Misprinting"
+msgstr "خطأ  في الطباعة"
+
+msgid "Misprints"
+msgstr "الأخطاء المطبعية"
+
+msgid "Mispronounce"
+msgstr "أخطأ تلفّظ"
+
+msgid "Mispronounced"
+msgstr "مخطأ تلفّظ"
+
+msgid "Mispronounces"
+msgstr "يخطئ تلفّظ"
+
+msgid "Mispronouncing"
+msgstr "خطأ تلفّظ"
+
+msgid "Mispronunciation"
+msgstr "الخطأ اللفظي"
+
+msgid "Misquotation"
+msgstr "الخطأ في الإقتباس"
+
+msgid "Misquote"
+msgstr "أسئ إقتباس"
+
+msgid "Misquoted"
+msgstr "مساء إقتباس"
+
+msgid "Misquotes"
+msgstr "يسيئ إقتباس"
+
+msgid "Misquoting"
+msgstr "إساءة إقتباس"
+
+msgid "Misread"
+msgstr "أسئ قراءة"
+
+msgid "Misreader"
+msgstr "ميسريدر"
+
+msgid "Misreading"
+msgstr "إساءة قراءة"
+
+msgid "Misreads"
+msgstr "يسيئ قراءة"
+
+msgid "Misrelated"
+msgstr "مساء ربط"
+
+msgid "Misreporting"
+msgstr "خطأ في رواية"
+
+msgid "Misrepresent"
+msgstr "أسئ تمثيل"
+
+msgid "Misrepresentation"
+msgstr "التّحوير في عرض الأمور"
+
+msgid "Misrepresentations"
+msgstr "التّحوير في عرض الأمور"
+
+msgid "Misrepresentative"
+msgstr "تمويهي"
+
+msgid "Misrepresented"
+msgstr "مساء تمثيل"
+
+msgid "Misrepresenter"
+msgstr "المحوّر في عرض الأمور"
+
+msgid "Misrepresenting"
+msgstr "إساءة تمثيل"
+
+msgid "Misrepresents"
+msgstr "يسيئ تمثيل"
+
+msgid "Misroute"
+msgstr "اخطأ توجيه"
+
+msgid "Misrule"
+msgstr "سوء الحكم"
+
+msgid "Misruled"
+msgstr "مساء حكم"
+
+msgid "Misrules"
+msgstr "سوء الأحكام"
+
+msgid "Misruling"
+msgstr "إساءة حكم"
+
+msgid "Miss"
+msgstr "الرمية الخاطئة"
+
+msgid "Missal"
+msgstr "كتاب القدّاس"
+
+msgid "Missed"
+msgstr "مفتقد"
+
+msgid "Missend"
+msgstr "يخطئ في الإرسال"
+
+msgid "Missent"
+msgstr "أخطأ في الإرسال"
+
+msgid "Misses"
+msgstr "الأخطاء"
+
+msgid "Misshaped"
+msgstr "شوّه"
+
+msgid "Misshapen"
+msgstr "ممسوخ"
+
+msgid "Misshapenly"
+msgstr "بشكل ممسوخ"
+
+msgid "Misshapenness"
+msgstr "التشوّه"
+
+msgid "Misshapes"
+msgstr "يشوّه"
+
+msgid "Misshaping"
+msgstr "التشويه"
+
+msgid "Missile"
+msgstr "الصاروخ"
+
+msgid "Missiles"
+msgstr "الصواريخ"
+
+msgid "Missing"
+msgstr "الفقدان"
+
+msgid "Mission"
+msgstr "المهمّة"
+
+msgid "Missionaries"
+msgstr "المبشّرون"
+
+msgid "Missionary"
+msgstr "المبشّر"
+
+msgid "Missioned"
+msgstr "كلّف بمهمة"
+
+msgid "Missioner"
+msgstr "مبشّر"
+
+msgid "Missioning"
+msgstr "التكليف بمهمة"
+
+msgid "Missions"
+msgstr "المهمات"
+
+msgid "Mississippi"
+msgstr "نهر المسيسيبي"
+
+msgid "Mississippian"
+msgstr "متعلق بولاية ميسيسبي أو بهر المسيسيبي"
+
+msgid "Mississippians"
+msgstr "المواطنون من ميسيسبي"
+
+msgid "Missive"
+msgstr "الخطاب"
+
+msgid "Missives"
+msgstr "الخطابات"
+
+msgid "Missoula"
+msgstr "ميسسولا"
+
+msgid "Missouri"
+msgstr "ميسسوري"
+
+msgid "Misspell"
+msgstr "أخطأ تهجئة"
+
+msgid "Misspelled"
+msgstr "مخطأ تهجئة"
+
+msgid "Misspelling"
+msgstr "خطا في التهجئة"
+
+msgid "Misspellings"
+msgstr "أخطاء في التهجئة"
+
+msgid "Misspells"
+msgstr "يخطئ تهجئة"
+
+msgid "Misspelt"
+msgstr "أخطأ في الهجاء"
+
+msgid "Misspend"
+msgstr "بذّر"
+
+msgid "Misspending"
+msgstr "التبذير"
+
+msgid "Misspends"
+msgstr "يبذّر"
+
+msgid "Misspent"
+msgstr "مبذّر"
+
+msgid "Misstate"
+msgstr "أسئ تعبير"
+
+msgid "Misstated"
+msgstr "مساء تعبير"
+
+msgid "Misstatement"
+msgstr "بيان كاذب"
+
+msgid "Misstatements"
+msgstr "بيانات كاذبة"
+
+msgid "Misstates"
+msgstr "يسيئ تعبير"
+
+msgid "Misstating"
+msgstr "إساءة تعبير"
+
+msgid "Misstep"
+msgstr "العثرة"
+
+msgid "Missy"
+msgstr "ميسي"
+
+msgid "Mist"
+msgstr "السحب"
+
+msgid "Mistakable"
+msgstr "عرضة للخطأ"
+
+msgid "Mistakably"
+msgstr "بشكل خاطيء"
+
+msgid "Mistake"
+msgstr "خطأ"
+
+msgid "Mistaken"
+msgstr "مخطئ"
+
+msgid "Mistakenly"
+msgstr "بشكل خاطئ"
+
+msgid "Mistaker"
+msgstr "المخطئ"
+
+msgid "Mistakes"
+msgstr "الأخطاء"
+
+msgid "Mistaking"
+msgstr "الخطأ في"
+
+msgid "Mistakingly"
+msgstr "بطريقة خاطئة"
+
+msgid "Misted"
+msgstr "مغشّى"
+
+msgid "Mister"
+msgstr "السيد"
+
+msgid "Misters"
+msgstr "السادة"
+
+msgid "Mistier"
+msgstr "ضبابي"
+
+msgid "Mistiest"
+msgstr "ضبابي"
+
+msgid "Mistily"
+msgstr "ضبابيا"
+
+msgid "Mistiness"
+msgstr "الضبابية"
+
+msgid "Misting"
+msgstr "التغشية"
+
+msgid "Mistletoe"
+msgstr "الهدال"
+
+msgid "Mistletoes"
+msgstr "الهدالات"
+
+msgid "Mistook"
+msgstr "أخطأ فيه"
+
+msgid "Mistranslation"
+msgstr "إساءة الترجمة"
+
+msgid "Mistranslations"
+msgstr "إساءة الترجمة"
+
+msgid "Mistreat"
+msgstr "أسئ معاملة"
+
+msgid "Mistreated"
+msgstr "مساء معاملة"
+
+msgid "Mistreating"
+msgstr "إساءة معاملة"
+
+msgid "Mistreats"
+msgstr "يسيئ معاملة"
+
+msgid "Mistress"
+msgstr "العشيقة"
+
+msgid "Mistresses"
+msgstr "العشيقات"
+
+msgid "Mistrial"
+msgstr "المحاكمة الباطلة"
+
+msgid "Mistrust"
+msgstr "سوء الظنّ"
+
+msgid "Mistrusted"
+msgstr "مشكوك في"
+
+msgid "Mistruster"
+msgstr "عديم الثقة"
+
+msgid "Mistrustful"
+msgstr "مرتاب"
+
+msgid "Mistrustfully"
+msgstr "بشكل مرتاب"
+
+msgid "Mistrustfulness"
+msgstr "سوء الظنّ"
+
+msgid "Mistrusting"
+msgstr "الشكّ في"
+
+msgid "Mistrustingly"
+msgstr "بانعدام الثقة"
+
+msgid "Mistrusts"
+msgstr "سوء الظنون"
+
+msgid "Mists"
+msgstr "السحب"
+
+msgid "Misty"
+msgstr "ضبابي"
+
+msgid "Mistype"
+msgstr "يكتب بالخطأ"
+
+msgid "Misunderstand"
+msgstr "يسيء الفهم"
+
+msgid "Misunderstander"
+msgstr "مسيء الفهم"
+
+msgid "Misunderstanders"
+msgstr "مسيؤو الفهم"
+
+msgid "Misunderstanding"
+msgstr "سوء الفهم"
+
+msgid "Misunderstandings"
+msgstr "سوء التفاهم"
+
+msgid "Misunderstands"
+msgstr "يسيء فهم"
+
+msgid "Misunderstood"
+msgstr "مساء فهمه"
+
+msgid "Misusage"
+msgstr "استعمال خاطئ"
+
+msgid "Misusages"
+msgstr "إساءات الإستعمال"
+
+msgid "Misuse"
+msgstr "سوء الاستعمال"
+
+msgid "Misused"
+msgstr "اساء الاستعمال"
+
+msgid "Misuser"
+msgstr "مسيء الإستعمال"
+
+msgid "Misuses"
+msgstr "سوء الإستعمال"
+
+msgid "Misusing"
+msgstr "إساءة إستعمال"
+
+msgid "Miswritten"
+msgstr "مساء تعبير"
+
+msgid "MIT"
+msgstr "جامعة ماساتشوستس"
+
+msgid "Mitch"
+msgstr "ميتش"
+
+msgid "Mitchell"
+msgstr "ميتشيل"
+
+msgid "Mite"
+msgstr "العثّة"
+
+msgid "Miter"
+msgstr "القلّوسة"
+
+msgid "Mitered"
+msgstr "متوّج"
+
+msgid "Miterer"
+msgstr "المُتوِّج"
+
+msgid "Mitering"
+msgstr "التتويج"
+
+msgid "Miters"
+msgstr "التيجان"
+
+msgid "Miterwort"
+msgstr "ميتيروورت - نبات"
+
+msgid "Mites"
+msgstr "العثّ"
+
+msgid "Mitigate"
+msgstr "سكّن"
+
+msgid "Mitigated"
+msgstr "مسكّن"
+
+msgid "Mitigates"
+msgstr "يسكّن"
+
+msgid "Mitigating"
+msgstr "التسكين"
+
+msgid "Mitigation"
+msgstr "التخفيف"
+
+msgid "Mitigations"
+msgstr "التخفيف"
+
+msgid "Mitigative"
+msgstr "مخفّف"
+
+msgid "Mitigatory"
+msgstr "مخفّف"
+
+msgid "Mitochondria"
+msgstr "مايتوكوندريا: خلية مولدة للطاقة"
+
+msgid "Mitosis"
+msgstr "انقسام الخلية غير المباشر"
+
+msgid "Mitral"
+msgstr "تاجي"
+
+msgid "Mitre"
+msgstr "القلّوسة"
+
+msgid "Mitt"
+msgstr "القفاز"
+
+msgid "Mitten"
+msgstr "القفّاز"
+
+msgid "Mittens"
+msgstr "القفازات"
+
+msgid "Mitzvahs"
+msgstr "ميتزفاهس - إحدى الوصايا العشر للتشريع اليهوديّ"
+
+msgid "Mix"
+msgstr "المزيج"
+
+msgid "Mixable"
+msgstr "قابل للمزج"
+
+msgid "Mixed"
+msgstr "مختلط"
+
+msgid "Mixer"
+msgstr "الخلاطة"
+
+msgid "Mixer-Elements"
+msgstr "عناصر خلاطة"
+
+msgid "Mixers"
+msgstr "الخلاطات"
+
+msgid "Mixes"
+msgstr "المزج"
+
+msgid "Mixing"
+msgstr "الخلط"
+
+msgid "Mixture"
+msgstr "الخليط"
+
+msgid "Mixtures"
+msgstr "الخلطات"
+
+msgid "Mixup"
+msgstr "شجار"
+
+msgid "Mizar"
+msgstr "الإزار (نجم)"
+
+msgid "Ml"
+msgstr "المليلتر"
+
+msgid "Mm"
+msgstr "المليمتر"
+
+msgid "MM-dd"
+msgstr "ش ش-ي ي"
+
+msgid "MMMM"
+msgstr "ش ش ش ش"
+
+msgid "MN"
+msgstr "مينيسوتا"
+
+msgid "Mnemonic"
+msgstr "متعلق بالذاكرة"
+
+msgid "Mnemonically"
+msgstr "بشكل سهل التّذكّر"
+
+msgid "Mnemonics"
+msgstr "أساليب تقوية الذاكرة"
+
+msgid "Mnemotechnic"
+msgstr "متعلق بتحسين الذاكرة"
+
+msgid "MO"
+msgstr "ميسسوري"
+
+msgid "Moan"
+msgstr "الأنين"
+
+msgid "Moaned"
+msgstr "مشتكى"
+
+msgid "Moaning"
+msgstr "الشكوى"
+
+msgid "Moans"
+msgstr "يشتكي"
+
+msgid "Moat"
+msgstr "الخندق المائي"
+
+msgid "Moats"
+msgstr "الخنادق المائية"
+
+msgid "Mob"
+msgstr "الغوغاء"
+
+msgid "Mobbed"
+msgstr "مهاجم"
+
+msgid "Mobbing"
+msgstr "المهاجمة"
+
+msgid "Mobcap"
+msgstr "قلنسوة نسائية"
+
+msgid "Mobcaps"
+msgstr "قلنسوات نسائية"
+
+msgid "Mobil"
+msgstr "موبيل"
+
+msgid "Mobile"
+msgstr "نقّال"
+
+msgid "Mobiles"
+msgstr "هواتف نقّالة"
+
+msgid "Mobility"
+msgstr "قابلية الحركة"
+
+msgid "Mobilitys"
+msgstr "قابلية الحركة"
+
+msgid "Mobilization"
+msgstr "التعبئة"
+
+msgid "Mobilizations"
+msgstr "التعبئة"
+
+msgid "Mobilize"
+msgstr "عبّئ"
+
+msgid "Mobilized"
+msgstr "معبّأ"
+
+msgid "Mobilizer"
+msgstr "المحرّك"
+
+msgid "Mobilizes"
+msgstr "يعبّئ"
+
+msgid "Mobilizing"
+msgstr "التعبئة"
+
+msgid "Mobs"
+msgstr "الغوغاء"
+
+msgid "Mobster"
+msgstr "الشقي"
+
+msgid "Mobsters"
+msgstr "أفراد العصابات"
+
+msgid "Moccasin"
+msgstr "الخفّ"
+
+msgid "Moccasins"
+msgstr "الأخفاف"
+
+msgid "Mock"
+msgstr "السخرية"
+
+msgid "Mocked"
+msgstr "مخدوع"
+
+msgid "Mocker"
+msgstr "وهمي"
+
+msgid "Mockeries"
+msgstr "المهازل"
+
+msgid "Mockernut"
+msgstr "موكيرنت - نبات"
+
+msgid "Mockers"
+msgstr "المستهزئون"
+
+msgid "Mockery"
+msgstr "المهزلة"
+
+msgid "Mocking"
+msgstr "الهزء"
+
+msgid "Mockingbird"
+msgstr "الطائر المحاكي"
+
+msgid "Mockingly"
+msgstr "بشكل هازئ"
+
+msgid "Mocks"
+msgstr "السخريات"
+
+msgid "Mockup"
+msgstr "نموذج بالحجم الطبيعي"
+
+msgid "Mockups"
+msgstr "نماذج بالأحجام الطبيعية"
+
+msgid "Mod"
+msgstr "وزارة الدفاع"
+
+msgid "Modal"
+msgstr "شكلي"
+
+msgid "Modalities"
+msgstr "القيود"
+
+msgid "Modality"
+msgstr "القيد"
+
+msgid "Modally"
+msgstr "بشكل شكلي"
+
+msgid "Mode"
+msgstr "النمط"
+
+msgid "Model"
+msgstr "النموذج"
+
+msgid "Modeled"
+msgstr "مشكّل"
+
+msgid "Modeler"
+msgstr "صانع التماثيل"
+
+msgid "Modelers"
+msgstr "صناع التماثيل"
+
+msgid "Modeling"
+msgstr "العرض"
+
+msgid "Modelings"
+msgstr "العرض"
+
+msgid "Modelled"
+msgstr "مشكّل"
+
+msgid "Modelling"
+msgstr "العرض"
+
+msgid "Models"
+msgstr "النماذج"
+
+msgid "Modem"
+msgstr "المودم"
+
+msgid "Modems"
+msgstr "المودمات"
+
+msgid "Moderate"
+msgstr "المعتدل"
+
+msgid "Moderated"
+msgstr "مراجع"
+
+msgid "Moderately"
+msgstr "باعتدال"
+
+msgid "Moderateness"
+msgstr "الإعتدال"
+
+msgid "Moderates"
+msgstr "المعتدلون"
+
+msgid "Moderating"
+msgstr "الإعتدال"
+
+msgid "Moderation"
+msgstr "الإعتدال"
+
+msgid "Moderations"
+msgstr "الإعتدال"
+
+msgid "Moderatly"
+msgstr "مودراتلي"
+
+msgid "Moderator"
+msgstr "رئيس الجلسة"
+
+msgid "Moderators"
+msgstr "رؤساء الجلسات"
+
+msgid "Modern"
+msgstr "حديث"
+
+msgid "Moderner"
+msgstr "حديث"
+
+msgid "Modernest"
+msgstr "حديث"
+
+msgid "Modernism"
+msgstr "العصرانية"
+
+msgid "Modernistic"
+msgstr "عصريّ"
+
+msgid "Modernists"
+msgstr "متحررون"
+
+msgid "Modernity"
+msgstr "الحداثة"
+
+msgid "Modernization"
+msgstr "التحديث"
+
+msgid "Modernizations"
+msgstr "التحديث"
+
+msgid "Modernize"
+msgstr "عصرن"
+
+msgid "Modernized"
+msgstr "عصري"
+
+msgid "Modernizer"
+msgstr "المجدّد"
+
+msgid "Modernizers"
+msgstr "المجدّدون"
+
+msgid "Modernizes"
+msgstr "يعصرن"
+
+msgid "Modernizing"
+msgstr "العصرنة"
+
+msgid "Modernly"
+msgstr "بشكل حديث"
+
+msgid "Modernness"
+msgstr "العصريّة"
+
+msgid "Moderns"
+msgstr "أشخاص ذوو آراء عصريّة"
+
+msgid "Modes"
+msgstr "الأنماط"
+
+msgid "Modest"
+msgstr "معتدل"
+
+msgid "Modesties"
+msgstr "القناعة"
+
+msgid "Modestly"
+msgstr "بشكل معتدل"
+
+msgid "Modesto"
+msgstr "موديستو"
+
+msgid "Modesty"
+msgstr "التواضع"
+
+msgid "Modicum"
+msgstr "القليل"
+
+msgid "Modifiability"
+msgstr "تعديل"
+
+msgid "Modifiable"
+msgstr "قابل للتعديل"
+
+msgid "Modification"
+msgstr "تعديل"
+
+msgid "Modifications"
+msgstr "تعديلات"
+
+msgid "Modified"
+msgstr "معدّل"
+
+msgid "Modifier"
+msgstr "المعدّل"
+
+msgid "Modifiers"
+msgstr "معدّلات"
+
+msgid "Modifies"
+msgstr "يعدّل"
+
+msgid "Modify"
+msgstr "عدّل"
+
+msgid "Modifying"
+msgstr "تعديل"
+
+msgid "Modish"
+msgstr "عصري"
+
+msgid "Modishly"
+msgstr "بشكل عصري"
+
+msgid "Modishness"
+msgstr "العصريّة"
+
+msgid "Modiste"
+msgstr "الخياط"
+
+msgid "Mods"
+msgstr "وزارة الدفاع"
+
+msgid "Modular"
+msgstr "جزئيّ"
+
+msgid "Modularity"
+msgstr "الجزئية"
+
+msgid "Modularize"
+msgstr "ينظّم على شكل مركّبات"
+
+msgid "Modularized"
+msgstr "مجزّأ"
+
+msgid "Modularly"
+msgstr "بصورة مجزّأة"
+
+msgid "Modulate"
+msgstr "نظّم"
+
+msgid "Modulated"
+msgstr "منظّم"
+
+msgid "Modulates"
+msgstr "ينظّم"
+
+msgid "Modulating"
+msgstr "التنظيم"
+
+msgid "Modulation"
+msgstr "التحوير"
+
+msgid "Modulations"
+msgstr "التحويرات"
+
+msgid "Modulator"
+msgstr "المغيّر في الموجة الكهرومغناطيسية"
+
+msgid "Modulators"
+msgstr "المغيّرون في الموجة الكهرومغناطيسية"
+
+msgid "Modulatory"
+msgstr "تغييري"
+
+msgid "Module"
+msgstr "الوحدة"
+
+msgid "Modules"
+msgstr "الوحدات"
+
+msgid "Moduli"
+msgstr "المعاملات"
+
+msgid "Modulo"
+msgstr "مودولو"
+
+msgid "Modulus"
+msgstr "المعامل"
+
+msgid "Modus"
+msgstr "مودوس"
+
+msgid "Moe"
+msgstr "مو"
+
+msgid "Moen"
+msgstr "مون"
+
+msgid "Mogadiscio"
+msgstr "موقاديشو - عاصمة الصّومال"
+
+msgid "Mohair"
+msgstr "الموهير"
+
+msgid "Mohammed"
+msgstr "محمد"
+
+msgid "Mohammedan"
+msgstr "محمّدي"
+
+msgid "Mohawk"
+msgstr "الموهوك - شعب أمريكيّ أصليّ"
+
+msgid "Mohr"
+msgstr "موهر"
+
+msgid "Moieties"
+msgstr "الأنصاف"
+
+msgid "Moiety"
+msgstr "النصف"
+
+msgid "Moil"
+msgstr "إكدح"
+
+msgid "Moiled"
+msgstr "كادح"
+
+msgid "Moiling"
+msgstr "الكدح"
+
+msgid "Moils"
+msgstr "يكدح"
+
+msgid "Moines"
+msgstr "موينيس"
+
+msgid "Moire"
+msgstr "حرير المواريه"
+
+msgid "Moiseyev"
+msgstr "مويسييف - راقص و مصمّم رقصات روسي"
+
+msgid "Moist"
+msgstr "رطب"
+
+msgid "Moisten"
+msgstr "بلّل"
+
+msgid "Moistened"
+msgstr "مبلّل"
+
+msgid "Moistener"
+msgstr "المرطّب"
+
+msgid "Moistening"
+msgstr "التبليل"
+
+msgid "Moistens"
+msgstr "يبلّل"
+
+msgid "Moister"
+msgstr "أرطب"
+
+msgid "Moistest"
+msgstr "أرطب"
+
+msgid "Moistly"
+msgstr "برطوبة"
+
+msgid "Moistness"
+msgstr "الرطوبة"
+
+msgid "Moisture"
+msgstr "الرطوبة"
+
+msgid "Moistures"
+msgstr "الرطوبة"
+
+msgid "Moisturize"
+msgstr "رطّب"
+
+msgid "Moisturized"
+msgstr "رطّب"
+
+msgid "Moisturizes"
+msgstr "يرطّب"
+
+msgid "Moisturizing"
+msgstr "الترطيب"
+
+msgid "Moisty"
+msgstr "رطِب"
+
+msgid "Molal"
+msgstr "مولال"
+
+msgid "Molar"
+msgstr "الضرس"
+
+msgid "Molars"
+msgstr "الأضراس"
+
+msgid "Molasses"
+msgstr "الدبس"
+
+msgid "Mold"
+msgstr "القالب"
+
+msgid "Moldable"
+msgstr "قابل للتّشكيل"
+
+msgid "Moldavia"
+msgstr "مولدافيا - جمهوريّة في شرقيّ أوروبّا"
+
+msgid "Moldboard"
+msgstr "الدجر - متعلق بالمحراث"
+
+msgid "Molded"
+msgstr "مصبوب"
+
+msgid "Molder"
+msgstr "المفكِّك"
+
+msgid "Moldered"
+msgstr "متفكّك"
+
+msgid "Moldering"
+msgstr "يصبح عفناً"
+
+msgid "Molders"
+msgstr "المفكِّكون"
+
+msgid "Moldier"
+msgstr "أكثر عفونة"
+
+msgid "Moldiest"
+msgstr "الأكثر عفونة"
+
+msgid "Moldiness"
+msgstr "العفونة"
+
+msgid "Molding"
+msgstr "الصبّ"
+
+msgid "Moldova"
+msgstr "مولدوفيا"
+
+msgid "Molds"
+msgstr "يصبّ"
+
+msgid "Moldy"
+msgstr "معفِّن"
+
+msgid "Mole"
+msgstr "الخلد"
+
+msgid "Molecular"
+msgstr "جزيئي"
+
+msgid "Molecularly"
+msgstr "بشكل جزيئي"
+
+msgid "Molecule"
+msgstr "الجزيئة"
+
+msgid "Molecules"
+msgstr "الجزيئات"
+
+msgid "Molehill"
+msgstr "الكومة الترابية"
+
+msgid "Molehills"
+msgstr "الأكوام الترابية"
+
+msgid "Moles"
+msgstr "حيوانات الخلد"
+
+msgid "Moleskin"
+msgstr "فروة الخلد"
+
+msgid "Molest"
+msgstr "إئذ"
+
+msgid "Molestation"
+msgstr "المعاكسة"
+
+msgid "Molested"
+msgstr "مآذيّ"
+
+msgid "Molester"
+msgstr "المتحرّش"
+
+msgid "Molesters"
+msgstr "المتحرّشون"
+
+msgid "Molesting"
+msgstr "الإيذاء"
+
+msgid "Molests"
+msgstr "يآذي"
+
+msgid "Moliere"
+msgstr "مولير"
+
+msgid "Moline"
+msgstr "مولن"
+
+msgid "Moll"
+msgstr "صديقة رجل العصابة"
+
+msgid "Mollie"
+msgstr "مولي"
+
+msgid "Mollification"
+msgstr "التهدئة"
+
+msgid "Mollified"
+msgstr "مهدوء"
+
+msgid "Mollifies"
+msgstr "يهدأ"
+
+msgid "Mollify"
+msgstr "إهدأ"
+
+msgid "Mollifying"
+msgstr "التهدئة"
+
+msgid "Mollifyingly"
+msgstr "بصورة مهدئة"
+
+msgid "Molls"
+msgstr "العاهرات"
+
+msgid "Mollusc"
+msgstr "الحيوان الرخوي"
+
+msgid "Molluscan"
+msgstr "متعلق بالرخويات"
+
+msgid "Mollusk"
+msgstr "الرّخويّ"
+
+msgid "Mollusks"
+msgstr "الرّخويّات"
+
+msgid "Molly"
+msgstr "مولي"
+
+msgid "Mollycoddle"
+msgstr "المدلل"
+
+msgid "Mollycoddled"
+msgstr "دلّل"
+
+msgid "Mollycoddler"
+msgstr "المدلِّل"
+
+msgid "Mollycoddles"
+msgstr "المدللون"
+
+msgid "Mollycoddling"
+msgstr "التّدليل"
+
+msgid "Moloch"
+msgstr "مولوتش - سحليّة"
+
+msgid "Molotov"
+msgstr "مولوتوف"
+
+msgid "Molt"
+msgstr "طرح الرّيش، الشعر، الصّوف"
+
+msgid "Molted"
+msgstr "فقد الرّيش، الشعر، الصّوف"
+
+msgid "Molten"
+msgstr "مائع"
+
+msgid "Molting"
+msgstr "فقد الرّيش، الشعر، الصّوف"
+
+msgid "Molts"
+msgstr "طرح الرّيش، الشعر، الصّوف"
+
+msgid "Moluccas"
+msgstr "مولوكاس - مجموعة من الجزر في شرقيّ أندونيسيا"
+
+msgid "Molybdate"
+msgstr "موليبديت - ملح لحمض موليبديك"
+
+msgid "Molybdenite"
+msgstr "الموليبدينيت"
+
+msgid "Molybdenum"
+msgstr "الموليبدنم - معدن فضّيّ"
+
+msgid "Mom"
+msgstr "الأمّ"
+
+msgid "Mome"
+msgstr "الأحمق"
+
+msgid "Moment"
+msgstr "اللحظة"
+
+msgid "Momenta"
+msgstr "الزخم"
+
+msgid "Momentarily"
+msgstr "بشكل مؤقت"
+
+msgid "Momentariness"
+msgstr "اللحظية"
+
+msgid "Momentary"
+msgstr "مؤقت"
+
+msgid "Momently"
+msgstr "كلّ لحظة"
+
+msgid "Momentous"
+msgstr "بالغ الأهمية"
+
+msgid "Momentously"
+msgstr "بشكل بالغ الأهمية"
+
+msgid "Momentousness"
+msgstr "الأهمّيّة"
+
+msgid "Moments"
+msgstr "اللحظات"
+
+msgid "Momentum"
+msgstr "الزخم"
+
+msgid "Momentums"
+msgstr "الزخم"
+
+msgid "Momma"
+msgstr "أُم، إمرأة، زوجة"
+
+msgid "Mommies"
+msgstr "الأمّهات"
+
+msgid "Mommy"
+msgstr "الأمّ"
+
+msgid "Moms"
+msgstr "الأمّهات"
+
+msgid "Mon"
+msgstr "الإثنين"
+
+msgid "Mona"
+msgstr "مونا"
+
+msgid "Monaco"
+msgstr "موناكو"
+
+msgid "Monad"
+msgstr "الكائن الدّقيق الأحاديّ الخليّة"
+
+msgid "Monadic"
+msgstr "أحادي"
+
+msgid "Monads"
+msgstr "الكائنات الدّقيقة الأحاديةّ الخليّة"
+
+msgid "Monarch"
+msgstr "الملك"
+
+msgid "Monarchic"
+msgstr "ملكي"
+
+msgid "Monarchies"
+msgstr "الحكومات الملكية"
+
+msgid "Monarchism"
+msgstr "المبادىء الملكية"
+
+msgid "Monarchisms"
+msgstr "المبادىء الملكية"
+
+msgid "Monarchistic"
+msgstr "مونارتشيستيك"
+
+msgid "Monarchists"
+msgstr "أنصار الملكية"
+
+msgid "Monarchs"
+msgstr "الملوك"
+
+msgid "Monarchy"
+msgstr "الحكم الملكي"
+
+msgid "Monasterial"
+msgstr "متعلق بالدّير"
+
+msgid "Monasteries"
+msgstr "الأديرة"
+
+msgid "Monastery"
+msgstr "الدير"
+
+msgid "Monastic"
+msgstr "رهباني"
+
+msgid "Monastical"
+msgstr "رهباني"
+
+msgid "Monastically"
+msgstr "بشكل رهباني"
+
+msgid "Monasticism"
+msgstr "الرهبانية"
+
+msgid "Monaural"
+msgstr "بإذن واحدة"
+
+msgid "Monaurally"
+msgstr "بإذن واحدة"
+
+msgid "Monday"
+msgstr "الإثنين"
+
+msgid "Mondays"
+msgstr "أيام الإثنين"
+
+msgid "Monel"
+msgstr "مونيل"
+
+msgid "Monet"
+msgstr "مونيه"
+
+msgid "Monetarily"
+msgstr "ماليا"
+
+msgid "Monetarism"
+msgstr "ترشيد الإنفاق"
+
+msgid "Monetarist"
+msgstr "نقدي"
+
+msgid "Monetary"
+msgstr "نقدي"
+
+msgid "Monetization"
+msgstr "سكّ النقود"
+
+msgid "Monetize"
+msgstr "نقّد"
+
+msgid "Monetized"
+msgstr "منقّد"
+
+msgid "Monetizes"
+msgstr "ينقّد"
+
+msgid "Monetizing"
+msgstr "التنقيد"
+
+msgid "Money"
+msgstr "المال"
+
+msgid "Moneybag"
+msgstr "شنطة لحفظ النقود"
+
+msgid "Moneychanger"
+msgstr "الصرّاف"
+
+msgid "Moneyed"
+msgstr "غني"
+
+msgid "Moneyer"
+msgstr "ضارب العملة أو الشّخص الذي يتاجر في المال"
+
+msgid "Moneylender"
+msgstr "الدائن"
+
+msgid "Moneylenders"
+msgstr "الدائنون"
+
+msgid "Moneymakers"
+msgstr "ضاربي العملة أو كسّاب المال"
+
+msgid "Moneymaking"
+msgstr "الكسب"
+
+msgid "Moneys"
+msgstr "الفلوس"
+
+msgid "Moneywort"
+msgstr "مونييوورت - نبات متسلّق أوربّي"
+
+msgid "Monfort"
+msgstr "مونفورت"
+
+msgid "Monger"
+msgstr "تاجر"
+
+msgid "Mongering"
+msgstr "البيع أو التأجيج"
+
+msgid "Mongolia"
+msgstr "منغوليا"
+
+msgid "Mongolian"
+msgstr "المنغولي"
+
+msgid "Mongolians"
+msgstr "المنغوليون"
+
+msgid "Mongoloid"
+msgstr "منغولي"
+
+msgid "Mongoose"
+msgstr "النمس"
+
+msgid "Mongooses"
+msgstr "النموس"
+
+msgid "Mongrel"
+msgstr "هجين"
+
+msgid "Mongrels"
+msgstr "النغول"
+
+msgid "Monic"
+msgstr "مونيك"
+
+msgid "Monica"
+msgstr "مونيكا"
+
+msgid "Monies"
+msgstr "الأموال"
+
+msgid "Moniker"
+msgstr "الإسم الشخصيّ أو الإسم المستعار"
+
+msgid "Monition"
+msgstr "إنذار"
+
+msgid "Monitor"
+msgstr "المراقب"
+
+msgid "Monitored"
+msgstr "مراقب"
+
+msgid "Monitoring"
+msgstr "المراقبة"
+
+msgid "Monitors"
+msgstr "المراقبون"
+
+msgid "Monitory"
+msgstr "تحذيري"
+
+msgid "Monk"
+msgstr "الراهب"
+
+msgid "Monkey"
+msgstr "القرد"
+
+msgid "Monkeyed"
+msgstr "لعب"
+
+msgid "Monkeying"
+msgstr "اللعب"
+
+msgid "Monkeys"
+msgstr "القرود"
+
+msgid "Monkeyshine"
+msgstr "المزحة أو الحيلة المضحكة"
+
+msgid "Monkeyshines"
+msgstr "المداعبات أو الحيل المضحكة"
+
+msgid "Monkish"
+msgstr "رهباني"
+
+msgid "Monkishly"
+msgstr "بشكل رهباني"
+
+msgid "Monks"
+msgstr "الرهبان"
+
+msgid "Monmouth"
+msgstr "مونماوث - مدّعي العرش الإنجليزيّ. الابن الغير شرعيّ لتشارلز"
+
+msgid "Mono"
+msgstr "أحادي"
+
+msgid "Mono-Auxiliary"
+msgstr "مساعد أحادي"
+
+msgid "Mono-Channel"
+msgstr "قناة أحادية"
+
+msgid "Mono-InternalSpeaker"
+msgstr "مكبر صوت داخلي أحادي"
+
+msgid "Mono-Jack"
+msgstr "جاك أحادي"
+
+msgid "Mono-Microphone"
+msgstr "مكروفون أحادي"
+
+msgid "Monoceros"
+msgstr "مونوسيروس - مجموعة نجوم قرب الكلب الأكبر و الكلب الأصغر"
+
+msgid "Monochromatic"
+msgstr "أحادي اللون"
+
+msgid "Monochromatically"
+msgstr "بشكل أحاديّ اللّون"
+
+msgid "Monochromaticity"
+msgstr "أُحادية اللون"
+
+msgid "Monochromator"
+msgstr "مونوكروميتور - جهاز لعزل جزء ضيّق لألوان الطيف"
+
+msgid "Monochrome"
+msgstr "أحادي اللون"
+
+msgid "Monochromes"
+msgstr "الصور بلون واحد"
+
+msgid "Monochromic"
+msgstr "أُحادي اللون"
+
+msgid "Monochromical"
+msgstr "أُحادي اللون"
+
+msgid "Monocle"
+msgstr "النظارة المفردة"
+
+msgid "Monocled"
+msgstr "بنظّارة ذات عدسة واحدة"
+
+msgid "Monocles"
+msgstr "النظارات المفردة"
+
+msgid "Monoclinic"
+msgstr "بثلاث محاور"
+
+msgid "Monocotyledon"
+msgstr "أحاديّ الفلقة"
+
+msgid "Monocrystal"
+msgstr "البلّورة المنفردة"
+
+msgid "Monocrystalline"
+msgstr "أحادي البلّورية"
+
+msgid "Monocular"
+msgstr "أحادي العين"
+
+msgid "Monocularly"
+msgstr "بشكل أحادي العين"
+
+msgid "Monogamies"
+msgstr "الزيجات الأحادية"
+
+msgid "Monogamist"
+msgstr "المقترن أو المقترنة بزوج أو زوجة واحدة فقط"
+
+msgid "Monogamous"
+msgstr "أحادي الزواج"
+
+msgid "Monogamously"
+msgstr "بشكل أحادي الزواج"
+
+msgid "Monogamousness"
+msgstr "الإقتران بزوج أو زوجة واحدة فقط"
+
+msgid "Monogamy"
+msgstr "الزواج الأحادي"
+
+msgid "Monogram"
+msgstr "حرف واحد فقط"
+
+msgid "Monogrammed"
+msgstr "موقّع بحروف الإسم"
+
+msgid "Monogramming"
+msgstr "التعليم بالأحرف الأولى"
+
+msgid "Monograph"
+msgstr "الدراسة"
+
+msgid "Monographes"
+msgstr "الدراسة"
+
+msgid "Monographic"
+msgstr "متعلق بالدّراسة المفصّلة"
+
+msgid "Monographs"
+msgstr "الدراسات"
+
+msgid "Monoid"
+msgstr "مونويد"
+
+msgid "Monolingual"
+msgstr "أحاديّ اللّغة"
+
+msgid "Monolingualism"
+msgstr "أُحاديّة اللغة"
+
+msgid "Monolith"
+msgstr "العمود"
+
+msgid "Monolithic"
+msgstr "منليثي"
+
+msgid "Monolithically"
+msgstr "بضخامة"
+
+msgid "Monologist"
+msgstr "فنّان المونولمج"
+
+msgid "Monologists"
+msgstr "فنّانو المونولمج"
+
+msgid "Monologue"
+msgstr "المناجاة"
+
+msgid "Monologues"
+msgstr "المناجاة"
+
+msgid "Monomer"
+msgstr "المونمر - الجزيء الذي يمكن أن يتّحد بالآخرين لتشكيل بوليمر"
+
+msgid "Monomeric"
+msgstr "مركّب بسيط"
+
+msgid "Monomers"
+msgstr "المونمر - الجزيء الذي يمكن أن يتّحد بالآخرين لتشكيل بوليمر"
+
+msgid "Monomial"
+msgstr "أحادي الحد"
+
+msgid "Monongahela"
+msgstr "مونونجاهيلا"
+
+msgid "Mononuclear"
+msgstr "أحادي النواة"
+
+msgid "Mononucleosis"
+msgstr "إرتفاع عدد كريات الدم البيضاء"
+
+msgid "Monophonic"
+msgstr "أحاديّ الصّوت"
+
+msgid "Monophonically"
+msgstr "بصوت أُحادي"
+
+msgid "Monoplane"
+msgstr "الطائرة الأحادية السطح"
+
+msgid "Monopolies"
+msgstr "احتكارات"
+
+msgid "Monopolism"
+msgstr "احتكار"
+
+msgid "Monopolist"
+msgstr "محتكر"
+
+msgid "Monopolistic"
+msgstr "احتكاري"
+
+msgid "Monopolists"
+msgstr "محتكرون"
+
+msgid "Monopolization"
+msgstr "احتكار"
+
+msgid "Monopolizations"
+msgstr "احتكارات"
+
+msgid "Monopolize"
+msgstr "احتكر"
+
+msgid "Monopolized"
+msgstr "محتكر"
+
+msgid "Monopolizer"
+msgstr "المحتكر"
+
+msgid "Monopolizers"
+msgstr "محتكرون"
+
+msgid "Monopolizes"
+msgstr "يحتكر"
+
+msgid "Monopolizing"
+msgstr "احتكار"
+
+msgid "Monopoly"
+msgstr "احتكار"
+
+msgid "Monorail"
+msgstr "السكة المفردة"
+
+msgid "Monoscope"
+msgstr "المجال الأحادي"
+
+msgid "Monostable"
+msgstr "دائرة كهربية ذات حالة واحدة مستقرة"
+
+msgid "Monosyllabic"
+msgstr "أحادي المقطع"
+
+msgid "Monosyllabically"
+msgstr "بشكل مقتضب"
+
+msgid "Monosyllable"
+msgstr "أحاديّ المقطع"
+
+msgid "Monosyllables"
+msgstr "الكلمات الأحادية المقطع"
+
+msgid "Monotheism"
+msgstr "التوحيد"
+
+msgid "Monotheistic"
+msgstr "توحيدي"
+
+msgid "Monotone"
+msgstr "الصوت الرتيب"
+
+msgid "Monotonic"
+msgstr "مفرد النّغمة"
+
+msgid "Monotonically"
+msgstr "بصورة مفردة النّغمة"
+
+msgid "Monotonicity"
+msgstr "الرّتابة في الصّوت"
+
+msgid "Monotonies"
+msgstr "الرتابة"
+
+msgid "Monotonous"
+msgstr "رتيب"
+
+msgid "Monotonously"
+msgstr "بشكل رتيب"
+
+msgid "Monotonousness"
+msgstr "الرّتابة"
+
+msgid "Monotony"
+msgstr "الرتابة"
+
+msgid "Monotreme"
+msgstr "من فصيلة المونوتيرماتا - حيوان ثديي يبيض"
+
+msgid "Monoxide"
+msgstr "أول أوكسيد"
+
+msgid "Monroe"
+msgstr "مونرو"
+
+msgid "Monrovia"
+msgstr "مونروفيا"
+
+msgid "Monsanto"
+msgstr "شركة مونسانتو"
+
+msgid "Monsieur"
+msgstr "السيد"
+
+msgid "Monsoon"
+msgstr "الرياح الموسمية"
+
+msgid "Monsoons"
+msgstr "الرياح الموسمية"
+
+msgid "Monster"
+msgstr "الوحش"
+
+msgid "Monsters"
+msgstr "الوحوش"
+
+msgid "Monstrosities"
+msgstr "المسوخ"
+
+msgid "Monstrosity"
+msgstr "المسخ"
+
+msgid "Monstrous"
+msgstr "بشع"
+
+msgid "Monstrously"
+msgstr "بشكل بشع"
+
+msgid "Monstrousness"
+msgstr "الوحشيّة"
+
+msgid "Mont"
+msgstr "ولاية مونتانا الأمريكية"
+
+msgid "Montage"
+msgstr "التنسيق"
+
+msgid "Montaged"
+msgstr "عملَ المونتاج"
+
+msgid "Montages"
+msgstr "التنسيقات"
+
+msgid "Montaging"
+msgstr "المونتاج"
+
+msgid "Montague"
+msgstr "مونتاج"
+
+msgid "Montaigne"
+msgstr "مونتين - مقاليّ فرنسيّ"
+
+msgid "Montana"
+msgstr "مونتانا"
+
+msgid "Montanan"
+msgstr "المواطن من مونتانا"
+
+msgid "Montclair"
+msgstr "مونتكلير - بلدة في شمال شرق نيو جيرسي"
+
+msgid "Monte"
+msgstr "المنت - لعبة ورق"
+
+msgid "Montenegrin"
+msgstr "المونتنيغري"
+
+msgid "Monterey"
+msgstr "مونتري"
+
+msgid "Monteverdi"
+msgstr "مونتيفيردي"
+
+msgid "Montevideo"
+msgstr "مونتيفديو"
+
+msgid "Montgomery"
+msgstr "مونتغومري"
+
+msgid "Month"
+msgstr "الشهر"
+
+msgid "Monthes"
+msgstr "الشهر"
+
+msgid "Monthlies"
+msgstr "المجلات الشهرية"
+
+msgid "Monthly"
+msgstr "شهريا"
+
+msgid "Months"
+msgstr "الشهور"
+
+msgid "Monticello"
+msgstr "مونتايسلو"
+
+msgid "Montmartre"
+msgstr "مونتمارتر"
+
+msgid "Montpelier"
+msgstr "مونتبيلير"
+
+msgid "Montrachet"
+msgstr "مونتراتشيت"
+
+msgid "Montreal"
+msgstr "مونتريال"
+
+msgid "Montserrat"
+msgstr "مونتسيرات"
+
+msgid "Monty"
+msgstr "مونتي"
+
+msgid "Monument"
+msgstr "النصب"
+
+msgid "Monumental"
+msgstr "تذكاري"
+
+msgid "Monumentality"
+msgstr "الأثريّة"
+
+msgid "Monumentally"
+msgstr "بشكل تذكاري"
+
+msgid "Monuments"
+msgstr "الأنصاب"
+
+msgid "Moo"
+msgstr "اللعبة المشتركة"
+
+msgid "Mooch"
+msgstr "إسرق"
+
+msgid "Mooched"
+msgstr "مسروق"
+
+msgid "Mooches"
+msgstr "يسرق"
+
+msgid "Mooching"
+msgstr "السرقة"
+
+msgid "Mood"
+msgstr "المزاج"
+
+msgid "Moodier"
+msgstr "أكثر مزاجية"
+
+msgid "Moodiest"
+msgstr "أكثر مزاجية"
+
+msgid "Moodily"
+msgstr "مزاجيا"
+
+msgid "Moodiness"
+msgstr "المزاجية"
+
+msgid "Moods"
+msgstr "المزاج"
+
+msgid "Moody"
+msgstr "مزاجي"
+
+msgid "Mooed"
+msgstr "مخار"
+
+msgid "Mooing"
+msgstr "الخور"
+
+msgid "Moon"
+msgstr "القمر"
+
+msgid "Moonbeam"
+msgstr "شعاع القمر"
+
+msgid "Mooned"
+msgstr "هلالي"
+
+msgid "Mooney"
+msgstr "شركة طائرات موني"
+
+msgid "Mooning"
+msgstr "التّجوال"
+
+msgid "Moonlight"
+msgstr "ضوء القمر"
+
+msgid "Moonlighted"
+msgstr "أدّى عملاً إضافيًّا"
+
+msgid "Moonlighter"
+msgstr "صاحب المهنتين"
+
+msgid "Moonlighting"
+msgstr "العمل الإضافيّ"
+
+msgid "Moonlights"
+msgstr "أضواء القمر"
+
+msgid "Moonlit"
+msgstr "مقمر"
+
+msgid "Moons"
+msgstr "الأقمار"
+
+msgid "Moonshine"
+msgstr "ضوء القمر"
+
+msgid "Moonshiner"
+msgstr "بائع الخمر الممنوع"
+
+msgid "Moonstone"
+msgstr "سليكات الألمنيوم"
+
+msgid "Moonstruck"
+msgstr "معتوه"
+
+msgid "Moonwalk"
+msgstr "التمشّي على سطح القمر"
+
+msgid "Moony"
+msgstr "هلالي"
+
+msgid "Moor"
+msgstr "الأرض البور"
+
+msgid "Moorage"
+msgstr "المرسى"
+
+msgid "Moore"
+msgstr "مور"
+
+msgid "Moored"
+msgstr "مربّط"
+
+msgid "Moorhen"
+msgstr "دجاجة الماء"
+
+msgid "Mooring"
+msgstr "التربّط"
+
+msgid "Moorings"
+msgstr "مراسي السفن"
+
+msgid "Moorish"
+msgstr "مغاربي"
+
+msgid "Moorland"
+msgstr "الأرض البرية"
+
+msgid "Moorlands"
+msgstr "الأراضي البرية"
+
+msgid "Moors"
+msgstr "الأراضي البور"
+
+msgid "Moos"
+msgstr "الخوار"
+
+msgid "Moose"
+msgstr "الأيّل"
+
+msgid "Moot"
+msgstr "موضع نقاش"
+
+msgid "Mooted"
+msgstr "مقترح"
+
+msgid "Mop"
+msgstr "الممسحة"
+
+msgid "Mope"
+msgstr "الإكتئاب"
+
+msgid "Moped"
+msgstr "الدراجة"
+
+msgid "Moper"
+msgstr "المكتئب"
+
+msgid "Mopes"
+msgstr "الإكتئاب"
+
+msgid "Moping"
+msgstr "الإكتآب"
+
+msgid "Mopped"
+msgstr "منظّف"
+
+msgid "Moppet"
+msgstr "اللعبة"
+
+msgid "Moppets"
+msgstr "اللعب"
+
+msgid "Mopping"
+msgstr "التنظيف"
+
+msgid "Mops"
+msgstr "المماسح"
+
+msgid "Moraine"
+msgstr "كتلة من الصخور والأحجار"
+
+msgid "Moral"
+msgstr "المغزى"
+
+msgid "Morale"
+msgstr "الروح المعنوية"
+
+msgid "Morales"
+msgstr "الروح المعنوية"
+
+msgid "Moralist"
+msgstr "الفيلسوف الأخلاقي"
+
+msgid "Moralistic"
+msgstr "أخلاقي"
+
+msgid "Moralistically"
+msgstr "بتزمّت"
+
+msgid "Moralists"
+msgstr "الفلاسفة الأخلاقيون"
+
+msgid "Moralities"
+msgstr "المبادىء الأخلاقية"
+
+msgid "Morality"
+msgstr "المبادىء الأخلاقية"
+
+msgid "Moralization"
+msgstr "التفسير الأخلاقي"
+
+msgid "Moralize"
+msgstr "عظ"
+
+msgid "Moralized"
+msgstr "موعوظ"
+
+msgid "Moralizer"
+msgstr "الواعظ"
+
+msgid "Moralizes"
+msgstr "يعظ"
+
+msgid "Moralizing"
+msgstr "الوعظ"
+
+msgid "Morally"
+msgstr "أدبيا"
+
+msgid "Morals"
+msgstr "الأخلاق"
+
+msgid "Moran"
+msgstr "موران"
+
+msgid "Morass"
+msgstr "المستنقع"
+
+msgid "Morasses"
+msgstr "المستنقعات"
+
+msgid "Moratorium"
+msgstr "التأجيل"
+
+msgid "Moratoriums"
+msgstr "التعليقات"
+
+msgid "Moravia"
+msgstr "مورافيا"
+
+msgid "Moravian"
+msgstr "مورافي"
+
+msgid "Moray"
+msgstr "الموراي - ثعبان الماء"
+
+msgid "Morbid"
+msgstr "سقيم"
+
+msgid "Morbidity"
+msgstr "المرضية"
+
+msgid "Morbidly"
+msgstr "بشكل سقيم"
+
+msgid "Morbidness"
+msgstr "المرضيّة"
+
+msgid "Mordancy"
+msgstr "السخرية الجارحة"
+
+msgid "Mordant"
+msgstr "جارح"
+
+msgid "Mordantly"
+msgstr "بشكل جارح"
+
+msgid "More"
+msgstr "أكثر"
+
+msgid "Morehouse"
+msgstr "مورهاوس"
+
+msgid "Morel"
+msgstr "نبات عش الغراب"
+
+msgid "Moreland"
+msgstr "موريلاند"
+
+msgid "Moreover"
+msgstr "علاوة على ذلك"
+
+msgid "Mores"
+msgstr "الأعراف"
+
+msgid "Moresby"
+msgstr "موريسبي"
+
+msgid "Morgan"
+msgstr "مورغان"
+
+msgid "Morgen"
+msgstr "مورغن"
+
+msgid "Morgue"
+msgstr "المشرحة"
+
+msgid "Morgues"
+msgstr "المشارح"
+
+msgid "Moriarty"
+msgstr "موريارتاي"
+
+msgid "Moribund"
+msgstr "محتضر"
+
+msgid "Moribundity"
+msgstr "الاحتضار"
+
+msgid "Moribundly"
+msgstr "بشكل محتضر"
+
+msgid "Morion"
+msgstr "المريون: خوذة معدن ذات عرف"
+
+msgid "Morley"
+msgstr "مورلي"
+
+msgid "Mormon"
+msgstr "المرمون"
+
+msgid "Morn"
+msgstr "الصباح"
+
+msgid "Morning"
+msgstr "صباح"
+
+msgid "Mornings"
+msgstr "أوقات الصّباح"
+
+msgid "Moroccan"
+msgstr "المغربي"
+
+msgid "Morocco"
+msgstr "المغرب"
+
+msgid "Moron"
+msgstr "البليد"
+
+msgid "Moronic"
+msgstr "بليد"
+
+msgid "Moronically"
+msgstr "بغباوة"
+
+msgid "Morons"
+msgstr "البلداء"
+
+msgid "Morose"
+msgstr "كئيب"
+
+msgid "Morosely"
+msgstr "بشكل كئيب"
+
+msgid "Moroseness"
+msgstr "الكآبة"
+
+msgid "Morpheme"
+msgstr "المقطع"
+
+msgid "Morphemic"
+msgstr "مورفيمي"
+
+msgid "Morphia"
+msgstr "المورفين"
+
+msgid "Morphine"
+msgstr "المورفين"
+
+msgid "Morphines"
+msgstr "المورفين"
+
+msgid "Morphologic"
+msgstr "صرفي"
+
+msgid "Morphological"
+msgstr "صرفي"
+
+msgid "Morphologically"
+msgstr "بشكل صرفي"
+
+msgid "Morphology"
+msgstr "علم الصرف"
+
+msgid "Morphophonemic"
+msgstr "شكليّ صوتيّ"
+
+msgid "Morphophonemics"
+msgstr "التباين في اللفظ"
+
+msgid "Morrill"
+msgstr "موريل"
+
+msgid "Morris"
+msgstr "موريس :: رقصة موريس الإنجليزية"
+
+msgid "Morrison"
+msgstr "موريسون"
+
+msgid "Morrissey"
+msgstr "موريسسي"
+
+msgid "Morristown"
+msgstr "موريستاون"
+
+msgid "Morrow"
+msgstr "الغدّ"
+
+msgid "Morse"
+msgstr "مورس"
+
+msgid "Morsel"
+msgstr "اللقمة"
+
+msgid "Morsels"
+msgstr "اللقم"
+
+msgid "Mort"
+msgstr "كمية كبيرة"
+
+msgid "Mortal"
+msgstr "الإنسان"
+
+msgid "Mortalities"
+msgstr "الموت"
+
+msgid "Mortality"
+msgstr "الفناء"
+
+msgid "Mortally"
+msgstr "بشدّة"
+
+msgid "Mortals"
+msgstr "البشر"
+
+msgid "Mortar"
+msgstr "الهاون"
+
+msgid "Mortarboard"
+msgstr "لوح لنقل الإسمنت"
+
+msgid "Mortared"
+msgstr "مملّط"
+
+msgid "Mortaring"
+msgstr "التمليط"
+
+msgid "Mortars"
+msgstr "الهاونات"
+
+msgid "Mortem"
+msgstr "مورتيم"
+
+msgid "Mortgage"
+msgstr "القرض العقاري"
+
+msgid "Mortgaged"
+msgstr "مرهون"
+
+msgid "Mortgagee"
+msgstr "المرتهن"
+
+msgid "Mortgagees"
+msgstr "المرتهنون"
+
+msgid "Mortgager"
+msgstr "المموّل"
+
+msgid "Mortgagers"
+msgstr "المموّلون"
+
+msgid "Mortgages"
+msgstr "القروض العقارية"
+
+msgid "Mortgaging"
+msgstr "الرهن"
+
+msgid "Mortgagor"
+msgstr "مستدين القرض العقاري"
+
+msgid "Mortgagors"
+msgstr "مستدينو القروض العقارية"
+
+msgid "Mortician"
+msgstr "مجهز الجنازات"
+
+msgid "Morticians"
+msgstr "مجهزو الجنازات"
+
+msgid "Mortification"
+msgstr "الإهانة"
+
+msgid "Mortifications"
+msgstr "الإهانات"
+
+msgid "Mortified"
+msgstr "مكبوح"
+
+msgid "Mortifier"
+msgstr "المسبب للحرب، الكابح"
+
+msgid "Mortifies"
+msgstr "يكبح"
+
+msgid "Mortify"
+msgstr "إكبح"
+
+msgid "Mortifying"
+msgstr "الكبح"
+
+msgid "Mortifyingly"
+msgstr "بخزي"
+
+msgid "Mortimer"
+msgstr "مورتيمر - متمرّد ويلزيّ و عشيق زوجة إدوارد الثاني"
+
+msgid "Mortis"
+msgstr "الموت"
+
+msgid "Mortise"
+msgstr "الحفرة"
+
+msgid "Mortised"
+msgstr "محفور"
+
+msgid "Mortises"
+msgstr "الحفر"
+
+msgid "Morton"
+msgstr "مورتن"
+
+msgid "Mortuaries"
+msgstr "مستودعات الجثث"
+
+msgid "Mortuary"
+msgstr "مستودع الجثث"
+
+msgid "Mos"
+msgstr "أوكسيد المعدن الشبه موصّل "
+
+msgid "Mosaic"
+msgstr "الفسيفساء"
+
+msgid "Mosaics"
+msgstr "الفسيفساء"
+
+msgid "Moscone"
+msgstr "موسكون"
+
+msgid "Moscow"
+msgstr "موسكو"
+
+msgid "Mose"
+msgstr "موس"
+
+msgid "Moser"
+msgstr "موسر"
+
+msgid "Moses"
+msgstr "موسى"
+
+msgid "Mosey"
+msgstr "إمش بتثاقل"
+
+msgid "Moseyed"
+msgstr "مشى بتثاقل"
+
+msgid "Moseying"
+msgstr "مشي بتثاقل"
+
+msgid "Moseys"
+msgstr "يمشي بتثاقل"
+
+msgid "Moslem"
+msgstr "مسلم"
+
+msgid "Moslems"
+msgstr "المسلمون"
+
+msgid "Mosque"
+msgstr "المسجد"
+
+msgid "Mosques"
+msgstr "المساجد"
+
+msgid "Mosquito"
+msgstr "البعوضة"
+
+msgid "Mosquitoes"
+msgstr "البعوض"
+
+msgid "Mosquitos"
+msgstr "البعوضة"
+
+msgid "Moss"
+msgstr "الطّحلب"
+
+msgid "Mossberg"
+msgstr "ماركة تجارية لشركة بنادق"
+
+msgid "Mosses"
+msgstr "الأشنات"
+
+msgid "Mossier"
+msgstr "مطحلب"
+
+msgid "Mossiest"
+msgstr "مطحلب"
+
+msgid "Mossy"
+msgstr "مطحلب"
+
+msgid "Most"
+msgstr "أكثر"
+
+msgid "Mostfreq"
+msgstr "المتكررة"
+
+msgid "Mostly"
+msgstr "في الغالب"
+
+msgid "Mot"
+msgstr "الفحص السنوي"
+
+msgid "Mote"
+msgstr "الذرة"
+
+msgid "Motel"
+msgstr "الفندق"
+
+msgid "Motels"
+msgstr "الفنادق"
+
+msgid "Motet"
+msgstr "الترتيل"
+
+msgid "Moth"
+msgstr "العثّ"
+
+msgid "Mothball"
+msgstr "النّفتالين"
+
+msgid "Mothballed"
+msgstr "جمّد، أعفى من الخدمة"
+
+msgid "Mothballing"
+msgstr "التجميد، الإعفاء من الخدمة"
+
+msgid "Mothballs"
+msgstr "النّفتالين"
+
+msgid "Mother"
+msgstr "الأمّ"
+
+msgid "Motherboard"
+msgstr "لوحة الذاكرة"
+
+msgid "Motherboards"
+msgstr "الواح الذاكرة"
+
+msgid "Mothered"
+msgstr "مربّى"
+
+msgid "Motherhood"
+msgstr "الأمومة"
+
+msgid "Mothering"
+msgstr "التربية"
+
+msgid "Motherland"
+msgstr "الوطن"
+
+msgid "Motherless"
+msgstr "بلا أم"
+
+msgid "Motherliness"
+msgstr "الأمومة"
+
+msgid "Motherly"
+msgstr "بحنان"
+
+msgid "Mothers"
+msgstr "الأمهات"
+
+msgid "Mothes"
+msgstr "موثيس"
+
+msgid "Moths"
+msgstr "العثّ"
+
+msgid "Motif"
+msgstr "الموضوع"
+
+msgid "Motifs"
+msgstr "المواضيع"
+
+msgid "Motile"
+msgstr "متحرّك"
+
+msgid "Motion"
+msgstr "الحركة"
+
+msgid "Motional"
+msgstr "متحرك"
+
+msgid "Motioned"
+msgstr "أشير"
+
+msgid "Motioner"
+msgstr "المحرّك"
+
+msgid "Motioning"
+msgstr "الإشارة"
+
+msgid "Motionless"
+msgstr "ساكن"
+
+msgid "Motionlessly"
+msgstr "بشكل ساكن"
+
+msgid "Motionlessness"
+msgstr "إنعدام الحركة"
+
+msgid "Motions"
+msgstr "الحركات"
+
+msgid "Motivate"
+msgstr "حفّز"
+
+msgid "Motivated"
+msgstr "مدفوع"
+
+msgid "Motivates"
+msgstr "يحفّز"
+
+msgid "Motivating"
+msgstr "التحفيز"
+
+msgid "Motivation"
+msgstr "الحافز"
+
+msgid "Motivational"
+msgstr "تحفيزي"
+
+msgid "Motivationally"
+msgstr "بشكل محفّز"
+
+msgid "Motivations"
+msgstr "الحوافز"
+
+msgid "Motivative"
+msgstr "موتيفاتيف"
+
+msgid "Motivator"
+msgstr "المحفّز"
+
+msgid "Motive"
+msgstr "الدافع"
+
+msgid "Motived"
+msgstr "حفّز"
+
+msgid "Motively"
+msgstr "بشكل حافز"
+
+msgid "Motives"
+msgstr "الدوافع"
+
+msgid "Motiving"
+msgstr "التحفيز"
+
+msgid "Motley"
+msgstr "ثوب المهرج"
+
+msgid "Motor"
+msgstr "المحرّك"
+
+msgid "Motorbike"
+msgstr "الدراجة البخارية"
+
+msgid "Motorboat"
+msgstr "قارب بمحرّك"
+
+msgid "Motorcade"
+msgstr "موكب السيارات"
+
+msgid "Motorcar"
+msgstr "سيارة"
+
+msgid "Motorcars"
+msgstr "سيارات"
+
+msgid "Motorcycle"
+msgstr "الدراجة البخارية"
+
+msgid "Motorcycles"
+msgstr "الدراجات البخارية"
+
+msgid "Motorcyclist"
+msgstr "سائق الموتوسيكل"
+
+msgid "Motored"
+msgstr "سافر"
+
+msgid "Motoring"
+msgstr "السياقة"
+
+msgid "Motorist"
+msgstr "السائق"
+
+msgid "Motorists"
+msgstr "السوّاق"
+
+msgid "Motorization"
+msgstr "تزويد بالمحرّك"
+
+msgid "Motorize"
+msgstr "مكنن"
+
+msgid "Motorized"
+msgstr "ذو محرّك"
+
+msgid "Motorizes"
+msgstr "يمكنن"
+
+msgid "Motorizing"
+msgstr "المكننة"
+
+msgid "Motorman"
+msgstr "السّائق"
+
+msgid "Motormen"
+msgstr "السّائقون"
+
+msgid "Motorola"
+msgstr "موتورولا"
+
+msgid "Motors"
+msgstr "المحرّكات"
+
+msgid "Motorway"
+msgstr "الطريق السريع"
+
+msgid "Motorways"
+msgstr "الطرق السريعة"
+
+msgid "Mots"
+msgstr "الفحوص السنوية"
+
+msgid "Mottle"
+msgstr "بقّع"
+
+msgid "Mottled"
+msgstr "مزركش"
+
+msgid "Mottler"
+msgstr "المزخرف"
+
+msgid "Mottles"
+msgstr "يبقّع"
+
+msgid "Mottling"
+msgstr "التبقيع"
+
+msgid "Motto"
+msgstr "الشعار"
+
+msgid "Mottoes"
+msgstr "الشعارات"
+
+msgid "Mottos"
+msgstr "الشعارات"
+
+msgid "Mould"
+msgstr "القالب"
+
+msgid "Moulded"
+msgstr "مقولب"
+
+msgid "Moulder"
+msgstr "فتّت"
+
+msgid "Mouldered"
+msgstr "مفتّت"
+
+msgid "Mouldering"
+msgstr "التفتيت"
+
+msgid "Moulders"
+msgstr "يفتّت"
+
+msgid "Moulding"
+msgstr "الصياغة"
+
+msgid "Moulds"
+msgstr "القوالب"
+
+msgid "Mouldy"
+msgstr "متعفّن"
+
+msgid "Moult"
+msgstr "التبديل"
+
+msgid "Moulted"
+msgstr "مرمي"
+
+msgid "Moulting"
+msgstr "الرمي"
+
+msgid "Moulton"
+msgstr "مولتون"
+
+msgid "Moults"
+msgstr "التبديلات"
+
+msgid "Mound"
+msgstr "التلّ"
+
+msgid "Mounded"
+msgstr "كوّم"
+
+msgid "Mounds"
+msgstr "التلال"
+
+msgid "Mount"
+msgstr "الجبل"
+
+msgid "Mountable"
+msgstr "صالح للركوب"
+
+msgid "Mountain"
+msgstr "الجبل"
+
+msgid "Mountaineer"
+msgstr "متسلق الجبال"
+
+msgid "Mountaineering"
+msgstr "تسلق الجبال"
+
+msgid "Mountaineers"
+msgstr "متسلقو الجبال"
+
+msgid "Mountainous"
+msgstr "جبلي"
+
+msgid "Mountainously"
+msgstr "بشكل جبلي"
+
+msgid "Mountainousness"
+msgstr "مونتينوسنيس"
+
+msgid "Mountains"
+msgstr "الجبال"
+
+msgid "Mountainside"
+msgstr "سفح الجبل"
+
+msgid "Mountainsides"
+msgstr "سفوح الجبال"
+
+msgid "Mountaintop"
+msgstr "قمّة الجبل"
+
+msgid "Mountebank"
+msgstr "النصّاب"
+
+msgid "Mountebanks"
+msgstr "النصّابون"
+
+msgid "Mounted"
+msgstr "صاعد"
+
+msgid "Mounter"
+msgstr "المركِّب، المثبِّت"
+
+msgid "Mounting"
+msgstr "المركّب"
+
+msgid "Mountings"
+msgstr "المركّبات"
+
+msgid "Mounts"
+msgstr "الجبال"
+
+msgid "Mourn"
+msgstr "إندب"
+
+msgid "Mourned"
+msgstr "مندوب"
+
+msgid "Mourner"
+msgstr "النادب"
+
+msgid "Mourners"
+msgstr "النادبون"
+
+msgid "Mournful"
+msgstr "حزين"
+
+msgid "Mournfully"
+msgstr "بشكل حزين"
+
+msgid "Mournfulness"
+msgstr "الحزن"
+
+msgid "Mourning"
+msgstr "الحداد"
+
+msgid "Mourningly"
+msgstr "بحزن"
+
+msgid "Mourns"
+msgstr "يندب"
+
+msgid "Mouse"
+msgstr "الفأر"
+
+msgid "Mouser"
+msgstr "صائد الفئران"
+
+msgid "Mouses"
+msgstr "يصطاد الفئران"
+
+msgid "Mousetrap"
+msgstr "مصيدة الفئران"
+
+msgid "Mousey"
+msgstr "يشبه الفأر"
+
+msgid "Mousie"
+msgstr "تصغير فأر"
+
+msgid "Mousier"
+msgstr "فئراني"
+
+msgid "Mousiest"
+msgstr "فئراني"
+
+msgid "Mousiness"
+msgstr "الهدوء والسّكينة"
+
+msgid "Mousing"
+msgstr "إصطياد الفئران"
+
+msgid "Mousse"
+msgstr "الموس - نوع من الحلوى"
+
+msgid "Moustache"
+msgstr "الشارب"
+
+msgid "Moustached"
+msgstr "مشورب"
+
+msgid "Moustaches"
+msgstr "الشوارب"
+
+msgid "Mousy"
+msgstr "فئراني"
+
+msgid "Mouth"
+msgstr "الفمّ"
+
+msgid "Mouthed"
+msgstr "تكلّم"
+
+msgid "Mouther"
+msgstr "موثر"
+
+msgid "Mouthes"
+msgstr "الفمّ"
+
+msgid "Mouthful"
+msgstr "الفمّ"
+
+msgid "Mouthing"
+msgstr "يتكلّم"
+
+msgid "Mouthpiece"
+msgstr "لسان الحال"
+
+msgid "Mouthpieces"
+msgstr "لسان الحال"
+
+msgid "Mouths"
+msgstr "الأفواه"
+
+msgid "Mouthwash"
+msgstr "غسول الفم"
+
+msgid "Mouton"
+msgstr "جلد الماعز المعالج"
+
+msgid "Movable"
+msgstr "المنقول"
+
+msgid "Movableness"
+msgstr "القابلية للحركة"
+
+msgid "Movably"
+msgstr "بشكل قابل للحركة"
+
+msgid "Move"
+msgstr "التحرّك"
+
+msgid "MoveBy"
+msgstr "حرك بمقدار"
+
+msgid "Moved"
+msgstr "متحرّك"
+
+msgid "Movement"
+msgstr "الحركة"
+
+msgid "Movements"
+msgstr "الحركات"
+
+msgid "Mover"
+msgstr "المحرّك"
+
+msgid "MoveResize"
+msgstr "انقل"
+
+msgid "Movers"
+msgstr "المحرّكون"
+
+msgid "Moves"
+msgstr "الحركات"
+
+msgid "Movie"
+msgstr "الفلم"
+
+msgid "Movies"
+msgstr "الأفلام"
+
+msgid "Moving"
+msgstr "الإنتقال"
+
+msgid "Movingly"
+msgstr "بشكل مؤثّر"
+
+msgid "Movings"
+msgstr "الإنتقال"
+
+msgid "Mow"
+msgstr "قصّ"
+
+msgid "Mowed"
+msgstr "قصّ"
+
+msgid "Mower"
+msgstr "المحشّة"
+
+msgid "Mowers"
+msgstr "المحشّات"
+
+msgid "Mowing"
+msgstr "القصّ"
+
+msgid "Mown"
+msgstr "مقصوص"
+
+msgid "Mows"
+msgstr "يقصّ"
+
+msgid "Moyer"
+msgstr "موير"
+
+msgid "Mozambique"
+msgstr "موزمبيق"
+
+msgid "Mozart"
+msgstr "موزارت"
+
+msgid "MPH"
+msgstr "ميل بالساعة"
+
+msgid "Mozilla"
+msgstr "موزيلا - مجموعة برامج تعمل على الإنترنت وتحتوي على متصفّح وقاريء رسائل الكترونيّة"
+
+msgid "Mr"
+msgstr "السّيد"
+
+msgid "Mrs"
+msgstr "السّيدة"
+
+msgid "Ms"
+msgstr "الآنسة"
+
+msgid "MS-Dos"
+msgstr "مايكروسوفت دوس"
+
+msgid "MSDOS"
+msgstr "مايكروسوفت دوس"
+
+msgid "Msecs"
+msgstr "مثانية"
+
+msgid "Msgid"
+msgstr "النص الأصلي"
+
+msgid "Msgstr"
+msgstr "النص المترجم"
+
+msgid "MST"
+msgstr "توقيت أمريكا الجبلي"
+
+msgid "Mt"
+msgstr "الطّنّ المتريّ، مونتانا، ماثيو، التوقيت الجبلي"
+
+msgid "MTS"
+msgstr "جبال"
+
+msgid "MTV"
+msgstr "قناة تلفزيونية تزعم أنها مخصصة للموسيقى (Music TeleVision)"
+
+msgid "Mu"
+msgstr "مو - الحرف الثّاني عشر للأبجدية اليونانيّة"
+
+msgid "Much"
+msgstr "كثير"
+
+msgid "Muchness"
+msgstr "الكثرة"
+
+msgid "Mucilage"
+msgstr "الصمغ"
+
+msgid "Mucilaginous"
+msgstr "مخاطي"
+
+msgid "Muck"
+msgstr "الوحل"
+
+msgid "Mucked"
+msgstr "ملوّث"
+
+msgid "Mucker"
+msgstr "مصطلح يطلق على العامل الوقح"
+
+msgid "Muckier"
+msgstr "أقذر"
+
+msgid "Muckiest"
+msgstr "أقذر"
+
+msgid "Muckiness"
+msgstr "القذارة"
+
+msgid "Mucking"
+msgstr "التلويث"
+
+msgid "Muckrake"
+msgstr "شهّر"
+
+msgid "Muckrakes"
+msgstr "يشهّر"
+
+msgid "Mucks"
+msgstr "الأوحال"
+
+msgid "Mucky"
+msgstr "قذر"
+
+msgid "Mucosa"
+msgstr "الغشاء المخاطي"
+
+msgid "Mucous"
+msgstr "مخاطي"
+
+msgid "Mucus"
+msgstr "المخاط"
+
+msgid "Mud"
+msgstr "الطين"
+
+msgid "Mudd"
+msgstr "مود"
+
+msgid "Muddied"
+msgstr "عكّر"
+
+msgid "Muddier"
+msgstr "أوحل"
+
+msgid "Muddies"
+msgstr "يعكّر"
+
+msgid "Muddiest"
+msgstr "أوحل"
+
+msgid "Muddily"
+msgstr "بشكل موحل"
+
+msgid "Muddiness"
+msgstr "التّلوّث بالطين"
+
+msgid "Mudding"
+msgstr "التّعكير بالطين"
+
+msgid "Muddle"
+msgstr "الفوضى"
+
+msgid "Muddled"
+msgstr "مخلوط"
+
+msgid "Muddlehead"
+msgstr "الغبي"
+
+msgid "Muddleheaded"
+msgstr "مشوّش"
+
+msgid "Muddleheadedness"
+msgstr "التّشوّش، الغباء"
+
+msgid "Muddler"
+msgstr "الخالط، المكوّن للطين"
+
+msgid "Muddlers"
+msgstr "الخالطون، المكوّنون للطين"
+
+msgid "Muddles"
+msgstr "اللخبطة"
+
+msgid "Muddling"
+msgstr "الخلط"
+
+msgid "Muddy"
+msgstr "موحل"
+
+msgid "Muddying"
+msgstr "التعكير"
+
+msgid "Mudguard"
+msgstr "واقية الطين"
+
+msgid "Mudguards"
+msgstr "واقيات الطين"
+
+msgid "Muds"
+msgstr "الأطيان"
+
+msgid "Mudslinger"
+msgstr "المشهّر"
+
+msgid "Mudslingers"
+msgstr "المشهّرون"
+
+msgid "Mudslinging"
+msgstr "التشهير"
+
+msgid "Mueller"
+msgstr "مويلير"
+
+msgid "Muezzin"
+msgstr "المؤذّن"
+
+msgid "Muff"
+msgstr "إفشل"
+
+msgid "Muffed"
+msgstr "فاشل"
+
+msgid "Muffin"
+msgstr "الكعك"
+
+msgid "Muffing"
+msgstr "الفشل"
+
+msgid "Muffins"
+msgstr "الكعك"
+
+msgid "Muffle"
+msgstr "غطّ"
+
+msgid "Muffled"
+msgstr "مكتوم"
+
+msgid "Muffler"
+msgstr "الخمار"
+
+msgid "Mufflers"
+msgstr "الخمارات"
+
+msgid "Muffles"
+msgstr "يغطّي"
+
+msgid "Muffling"
+msgstr "التغطية"
+
+msgid "Muffs"
+msgstr "يفشل"
+
+msgid "Mug"
+msgstr "القدح"
+
+msgid "Mugged"
+msgstr "مسروق"
+
+msgid "Mugger"
+msgstr "السارق"
+
+msgid "Muggers"
+msgstr "السرّاق"
+
+msgid "Muggier"
+msgstr "رطب حار"
+
+msgid "Muggiest"
+msgstr "رطب حار"
+
+msgid "Mugginess"
+msgstr "الرّطوبة"
+
+msgid "Mugging"
+msgstr "السرقة"
+
+msgid "Muggings"
+msgstr "السرقة"
+
+msgid "Muggy"
+msgstr "رطب حار"
+
+msgid "Mugs"
+msgstr "الأقداح"
+
+msgid "Muhammad"
+msgstr "محمد"
+
+msgid "Muir"
+msgstr "ميور"
+
+msgid "Mujahideen"
+msgstr "المجاهدين"
+
+msgid "Mukden"
+msgstr "موكدين"
+
+msgid "Mulatto"
+msgstr "المولّد"
+
+msgid "Mulattoes"
+msgstr "الخلاسيون"
+
+msgid "Mulattos"
+msgstr "المولّد"
+
+msgid "Mulberries"
+msgstr "التوت"
+
+msgid "Mulberry"
+msgstr "التوتة"
+
+msgid "Mulch"
+msgstr "الجرثومة"
+
+msgid "Mulched"
+msgstr "مغطّى"
+
+msgid "Mulches"
+msgstr "الجراثيم"
+
+msgid "Mulching"
+msgstr "التغطية"
+
+msgid "Mulct"
+msgstr "الغرامة"
+
+msgid "Mulcts"
+msgstr "الغرامات"
+
+msgid "Mule"
+msgstr "البغل"
+
+msgid "Mules"
+msgstr "البغال"
+
+msgid "Muling"
+msgstr "مولنج"
+
+msgid "Mulish"
+msgstr "عنيد"
+
+msgid "Mulishly"
+msgstr "بشكل عنيد"
+
+msgid "Mulishness"
+msgstr "العناد"
+
+msgid "Mull"
+msgstr "فترة التفكير السليم"
+
+msgid "Mullah"
+msgstr "الملا"
+
+msgid "Mulled"
+msgstr "فكّر فيه"
+
+msgid "Mullein"
+msgstr "مولين - نبات"
+
+msgid "Mullen"
+msgstr "مولين"
+
+msgid "Muller"
+msgstr "مولير"
+
+msgid "Mulligan"
+msgstr "موليجان"
+
+msgid "Mulligatawny"
+msgstr "الشوربة"
+
+msgid "Mulling"
+msgstr "التفكير في"
+
+msgid "Mullion"
+msgstr "قسّم"
+
+msgid "Mulls"
+msgstr "يفكّر فيه"
+
+msgid "Multi"
+msgstr "متعدّد"
+
+msgid "Multi-Channel"
+msgstr "متعدّد القناة"
+
+msgid "Multi-Feeder"
+msgstr "متعدّد الطاعم"
+
+msgid "Multi-Key"
+msgstr "متعدّد المفتاح"
+
+msgid "Multi-level"
+msgstr "متعدّد المستوى"
+
+msgid "Multi-programming"
+msgstr "متعدّد البرمجة"
+
+msgid "Multi-story"
+msgstr "متعدد الطوابق"
+
+msgid "Multi-user"
+msgstr "متعدد المستعملين"
+
+msgid "Multibyte"
+msgstr "متعدّد البايت"
+
+msgid "Multicast"
+msgstr "متعدّد ممثلون"
+
+msgid "Multicellular"
+msgstr "متعدّد الخلوي"
+
+msgid "Multichannel"
+msgstr "متعدّد القناة"
+
+msgid "Multicolor"
+msgstr "متعدّد اللون"
+
+msgid "Multicolored"
+msgstr "متعدّد بلون"
+
+msgid "Multicolumn"
+msgstr "متعدّد العمود"
+
+msgid "Multicomponent"
+msgstr "متعدّد المكوّن"
+
+msgid "Multicomputer"
+msgstr "متعدّد الحاسوب"
+
+msgid "Multics"
+msgstr "مالتيكس - نظام تشغيل مشاركة"
+
+msgid "Multidimensional"
+msgstr "متعدّد الأبعاد"
+
+msgid "Multidimensionality"
+msgstr "تعدّد الأبعاد"
+
+msgid "Multidisciplinary"
+msgstr "متعدّد تأديبي"
+
+msgid "Multifaceted"
+msgstr "متعدّد الوجوه"
+
+msgid "Multifarious"
+msgstr "متنوع"
+
+msgid "Multifariously"
+msgstr "بتنوّع"
+
+msgid "Multifariousness"
+msgstr "التّنوّع"
+
+msgid "Multifigure"
+msgstr "متعدّد الرقم"
+
+msgid "Multiform"
+msgstr "متعدّد الشكل"
+
+msgid "Multifrequency"
+msgstr "متعدّد التردد"
+
+msgid "Multifunction"
+msgstr "متعدّد الوظيفة"
+
+msgid "Multifunctional"
+msgstr "متعدّد وظيفي"
+
+msgid "Multifunctioned"
+msgstr "متعدّد مشتغل"
+
+msgid "Multilateral"
+msgstr "متعدد الأطراف"
+
+msgid "Multilaterally"
+msgstr "بشكل متعدد الأطراف"
+
+msgid "Multilayer"
+msgstr "متعدّد الطبقة"
+
+msgid "Multilevel"
+msgstr "مولتيليفيل"
+
+msgid "Multileveled"
+msgstr "متعدّد إستوى"
+
+msgid "Multilingual"
+msgstr "متعدد اللغات"
+
+msgid "Multimedia"
+msgstr "الصوت والصورة"
+
+msgid "Multimegaton"
+msgstr "متعدّد مليون طنّ"
+
+msgid "Multimeter"
+msgstr "متعدّد المتر"
+
+msgid "Multimillionaire"
+msgstr "المليونير الكبير"
+
+msgid "Multinational"
+msgstr "الشركة المتعددة الجنسيات"
+
+msgid "Multinomial"
+msgstr "متعدّد الحدود"
+
+msgid "Multipart"
+msgstr "متعدّد الجزء"
+
+msgid "Multiple"
+msgstr "الضعف"
+
+msgid "Multiples"
+msgstr "الأضعاف"
+
+msgid "Multiplet"
+msgstr "خط طيفي"
+
+msgid "Multiplets"
+msgstr "خطوط طيفية"
+
+msgid "Multiplex"
+msgstr "متعدد الإرسال"
+
+msgid "Multiplexed"
+msgstr "تعدد في الإرسال"
+
+msgid "Multiplexer"
+msgstr "متعدد الإرسال"
+
+msgid "Multiplexers"
+msgstr "الأجهزة التي تمكِّن من إرسال عدة مكالمات في بثٍّ واحد"
+
+msgid "Multiplexes"
+msgstr "يبعث بعدة رسائل في بثٍّ واحد"
+
+msgid "Multiplexing"
+msgstr "إرسال عدة رسائل في بثٍّ واحد"
+
+msgid "Multiplexor"
+msgstr "الجهاز الذي يمكِّن من إرسال عدة مكالمات في بثٍّ واحد"
+
+msgid "Multiplexors"
+msgstr "الأجهزة التي تمكِّن من إرسال عدة مكالمات في بثٍّ واحد"
+
+msgid "Multipliable"
+msgstr "قابل للضرب"
+
+msgid "Multiplicand"
+msgstr "المضروب"
+
+msgid "Multiplicands"
+msgstr "الأعداد المضروبة"
+
+msgid "Multiplicate"
+msgstr "متعدد"
+
+msgid "Multiplication"
+msgstr "الضرب"
+
+msgid "Multiplications"
+msgstr "الضرب"
+
+msgid "Multiplicative"
+msgstr "مكثّر"
+
+msgid "Multiplicatively"
+msgstr "بشكل مكثّر"
+
+msgid "Multiplicity"
+msgstr "التعدّد"
+
+msgid "Multiplied"
+msgstr "مضاعف"
+
+msgid "Multiplier"
+msgstr "المضاعفة"
+
+msgid "Multipliers"
+msgstr "المضاعفات"
+
+msgid "Multiplies"
+msgstr "يضاعف"
+
+msgid "Multiply"
+msgstr "ضاعف"
+
+msgid "Multiplying"
+msgstr "المضاعفة"
+
+msgid "Multipoint"
+msgstr "متعدّد النقطة"
+
+msgid "Multiport"
+msgstr "متعدّد الميناء"
+
+msgid "Multiprocessing"
+msgstr "متعدّد المعالجة"
+
+msgid "Multiprocessor"
+msgstr "متعدّد المعالج"
+
+msgid "Multiprogram"
+msgstr "متعدّد البرنامج"
+
+msgid "Multiprogrammed"
+msgstr "متعدّد مبرمج"
+
+msgid "Multiprogramming"
+msgstr "متعدّد البرمجة"
+
+msgid "Multipurpose"
+msgstr "متعدد الأغراض"
+
+msgid "Multiracial"
+msgstr "متعدد الأعراق"
+
+msgid "Multirow"
+msgstr "متعدّد الصفّ"
+
+msgid "Multisession"
+msgstr "متعدّد الجلسة"
+
+msgid "Multistage"
+msgstr "متعدد المراحل"
+
+msgid "Multistorey"
+msgstr "متعدد الطوابق"
+
+msgid "Multistory"
+msgstr "متعدد الطوابق"
+
+msgid "Multisyllabic"
+msgstr "متعدّد مقطعي"
+
+msgid "Multitasking"
+msgstr "تعدّد المهام"
+
+msgid "Multitude"
+msgstr "التعدد"
+
+msgid "Multitudes"
+msgstr "التعدد"
+
+msgid "Multitudinous"
+msgstr "مزدحم"
+
+msgid "Multitudinously"
+msgstr "بشكل مزدحم"
+
+msgid "Multitudinousness"
+msgstr "الوفرة"
+
+msgid "Multiuser"
+msgstr "متعدد المستخدمين"
+
+msgid "Multivalent"
+msgstr "متعدّد التّكافؤ"
+
+msgid "Multivariate"
+msgstr "أكثر من متغيّر واحد"
+
+msgid "Multiversity"
+msgstr "الجامعة الكبيرة، متعدد الكلّيات"
+
+msgid "Multivibrator"
+msgstr "متعدّد الهزّاز"
+
+msgid "Mum"
+msgstr "أمّ"
+
+msgid "Mumble"
+msgstr "غمغم"
+
+msgid "Mumbled"
+msgstr "مغمغم"
+
+msgid "Mumbler"
+msgstr "المتمتم"
+
+msgid "Mumblers"
+msgstr "المتمتمون"
+
+msgid "Mumbles"
+msgstr "يغمغم"
+
+msgid "Mumbling"
+msgstr "التمتمة"
+
+msgid "Mumblings"
+msgstr "التمتمات"
+
+msgid "Mumford"
+msgstr "مومفورد"
+
+msgid "Mummed"
+msgstr "قام بدور مسرحي"
+
+msgid "Mummery"
+msgstr "التمثيل الصامت"
+
+msgid "Mummies"
+msgstr "أمهات"
+
+msgid "Mummification"
+msgstr "تحنيط"
+
+msgid "Mummifications"
+msgstr "تحنيط"
+
+msgid "Mummified"
+msgstr "محنّط"
+
+msgid "Mummifies"
+msgstr "يحنّط"
+
+msgid "Mummify"
+msgstr "حنّط"
+
+msgid "Mummifying"
+msgstr "تحنيط"
+
+msgid "Mumming"
+msgstr "التمثيل المسرحي"
+
+msgid "Mummy"
+msgstr "أم"
+
+msgid "Mumps"
+msgstr "النكاف"
+
+msgid "Mums"
+msgstr "الأمهات"
+
+msgid "Munch"
+msgstr "إمضغ"
+
+msgid "Munched"
+msgstr "ممضوغ"
+
+msgid "Muncher"
+msgstr "الماضغ بصوتٍ عالٍ"
+
+msgid "Munches"
+msgstr "يمضغ"
+
+msgid "Munchies"
+msgstr "المأكولات الخفيفة"
+
+msgid "Munching"
+msgstr "المضغ"
+
+msgid "Muncie"
+msgstr "منسي"
+
+msgid "Mundane"
+msgstr "دنيوي"
+
+msgid "Mundanely"
+msgstr "بشكل دنيوي"
+
+msgid "Mundaneness"
+msgstr "رتابة"
+
+msgid "Mundt"
+msgstr "مندت"
+
+msgid "Mung"
+msgstr "مونج"
+
+msgid "Munge"
+msgstr "المصطلح الازدرائيّ لـ تحويل المعلومات بشكل ناقص"
+
+msgid "Munger"
+msgstr "مونجر"
+
+msgid "Munging"
+msgstr "التحريف في العنون البريدي الإلكتروني"
+
+msgid "Munich"
+msgstr "ميونخ"
+
+msgid "Municipal"
+msgstr "بلدي"
+
+msgid "Municipalities"
+msgstr "البلديات"
+
+msgid "Municipality"
+msgstr "البلدية"
+
+msgid "Municipalize"
+msgstr "أخضع للبلدية"
+
+msgid "Municipalized"
+msgstr "خاضع للبلدية"
+
+msgid "Municipalizes"
+msgstr "يخضع للبلدية"
+
+msgid "Municipally"
+msgstr "بشكل بلدي"
+
+msgid "Munificence"
+msgstr "السخاء"
+
+msgid "Munificences"
+msgstr "السخاء"
+
+msgid "Munificent"
+msgstr "سخي"
+
+msgid "Munificently"
+msgstr "بشكل سخي"
+
+msgid "Munition"
+msgstr "الذخيرة"
+
+msgid "Munitions"
+msgstr "الذخيرة"
+
+msgid "Munroe"
+msgstr "مونرو"
+
+msgid "Munsey"
+msgstr "مونسي"
+
+msgid "Munson"
+msgstr "مونسون"
+
+msgid "Muon"
+msgstr "مون - عنصر في الجدول الدوري"
+
+msgid "Muong"
+msgstr "موونج"
+
+msgid "Mural"
+msgstr "الجدارية"
+
+msgid "Muralist"
+msgstr "صورة كبيرة جداً"
+
+msgid "Murals"
+msgstr "الجداريات"
+
+msgid "Murder"
+msgstr "القتل"
+
+msgid "Murdered"
+msgstr "مقتول"
+
+msgid "Murderer"
+msgstr "القاتل"
+
+msgid "Murderers"
+msgstr "القتلة"
+
+msgid "Murderess"
+msgstr "القاتلة"
+
+msgid "Murdering"
+msgstr "القتل"
+
+msgid "Murderous"
+msgstr "غادر"
+
+msgid "Murderously"
+msgstr "غدرا"
+
+msgid "Murderousness"
+msgstr "الإجرام"
+
+msgid "Murders"
+msgstr "جرائم القتل"
+
+msgid "Muriatic"
+msgstr "مرياتيك - أحد مكونات ملح البحر"
+
+msgid "Muriel"
+msgstr "موريل"
+
+msgid "Murk"
+msgstr "مرك"
+
+msgid "Murkier"
+msgstr "أكثر ظلاما"
+
+msgid "Murkiest"
+msgstr "أكثر ظلاما"
+
+msgid "Murkily"
+msgstr "بشكل غامض"
+
+msgid "Murkiness"
+msgstr "الظّلمة"
+
+msgid "Murky"
+msgstr "مظلم"
+
+msgid "Murmur"
+msgstr "الدندنة"
+
+msgid "Murmured"
+msgstr "مغمغم"
+
+msgid "Murmurer"
+msgstr "مرمرير"
+
+msgid "Murmuring"
+msgstr "التذمّر"
+
+msgid "Murmurous"
+msgstr "مغمغم"
+
+msgid "Murmurs"
+msgstr "الدندنة"
+
+msgid "Murphy"
+msgstr "ميرفي"
+
+msgid "Murray"
+msgstr "موراي"
+
+msgid "Murre"
+msgstr "المور - طائر بحري"
+
+msgid "Murrow"
+msgstr "مروو - صحفيّ أمريكيّ"
+
+msgid "Muscat"
+msgstr "مسقط"
+
+msgid "Muscle"
+msgstr "العضلة"
+
+msgid "Muscled"
+msgstr "شقّ"
+
+msgid "Muscles"
+msgstr "العضلات"
+
+msgid "Muscling"
+msgstr "الشقّ"
+
+msgid "Muscoid"
+msgstr "يشبه الطّحلب"
+
+msgid "Muscovite"
+msgstr "أحد سكان موسكو"
+
+msgid "Muscovites"
+msgstr "سكان موسكو"
+
+msgid "Muscovy"
+msgstr "مسكوفي - منطقة تاريخيّة في غرب روسيا المركزيّة"
+
+msgid "Muscular"
+msgstr "عضلي"
+
+msgid "Muscularity"
+msgstr "القوّة العضليّة"
+
+msgid "Muscularly"
+msgstr "عضليا"
+
+msgid "Musculature"
+msgstr "الجهاز العضلي"
+
+msgid "Muse"
+msgstr "الإلهام"
+
+msgid "Mused"
+msgstr "مفكّر"
+
+msgid "Muser"
+msgstr "موسير"
+
+msgid "Muses"
+msgstr "يفكّر"
+
+msgid "Museum"
+msgstr "المتحف"
+
+msgid "Museums"
+msgstr "المتاحف"
+
+msgid "Mush"
+msgstr "الهريسة"
+
+msgid "Musher"
+msgstr "سائق زلاجة الكلاب"
+
+msgid "Mushes"
+msgstr "يقود مزلاج تجرّه الكلاب"
+
+msgid "Mushier"
+msgstr "أطرى"
+
+msgid "Mushiest"
+msgstr "الأطرى"
+
+msgid "Mushiness"
+msgstr "العاطفة المتطرّفة"
+
+msgid "Mushroom"
+msgstr "الفطر"
+
+msgid "Mushroomed"
+msgstr "كابر"
+
+msgid "Mushrooming"
+msgstr "الكبر"
+
+msgid "Mushrooms"
+msgstr "الفطر"
+
+msgid "Mushy"
+msgstr "موشي"
+
+msgid "Music"
+msgstr "الموسيقى"
+
+msgid "Musical"
+msgstr "المسرحية الموسيقية"
+
+msgid "Musicale"
+msgstr "الحفلة الموسيقيّة"
+
+msgid "Musicality"
+msgstr "الموسيقيّة"
+
+msgid "Musically"
+msgstr "موسيقيا"
+
+msgid "Musicals"
+msgstr "المسرحيات الموسيقية"
+
+msgid "Musician"
+msgstr "الموسيقار"
+
+msgid "Musicianly"
+msgstr "بشكل أدائي"
+
+msgid "Musicians"
+msgstr "الموسيقيون"
+
+msgid "Musicianship"
+msgstr "الموسيقيّة"
+
+msgid "Musicologists"
+msgstr "المؤرّخون الموسيقيّون"
+
+msgid "Musicology"
+msgstr "دراسةتاريخ الموسيقى"
+
+msgid "Musics"
+msgstr "الموسيقى"
+
+msgid "Musing"
+msgstr "التفكير"
+
+msgid "Musingly"
+msgstr "بتأمّل"
+
+msgid "Musings"
+msgstr "التّأمّلات"
+
+msgid "Musk"
+msgstr "المسك"
+
+msgid "Muskegon"
+msgstr "مسكيجون"
+
+msgid "Muskellunge"
+msgstr "المسكلنج - سمكة كبيرة"
+
+msgid "Musket"
+msgstr "البندقية"
+
+msgid "Musketeer"
+msgstr "الفارس"
+
+msgid "Musketries"
+msgstr "فن إستخدام البنادق"
+
+msgid "Muskets"
+msgstr "البنادق"
+
+msgid "Muskmelon"
+msgstr "الشّمّام"
+
+msgid "Muskox"
+msgstr "مسكوكس - ثور كبير "
+
+msgid "Muskoxen"
+msgstr "مسكوكسين - ثيران كبيرة"
+
+msgid "Muskrat"
+msgstr "فأر المسك"
+
+msgid "Muskrats"
+msgstr "فئران المسك"
+
+msgid "Musks"
+msgstr "المسك"
+
+msgid "Musky"
+msgstr "مسكي"
+
+msgid "Muslim"
+msgstr "المسلم"
+
+msgid "Muslims"
+msgstr "المسلمون"
+
+msgid "Muslin"
+msgstr "الشاش"
+
+msgid "Musquash"
+msgstr "فأر المسك"
+
+msgid "Musquashes"
+msgstr "فئران المسك"
+
+msgid "Muss"
+msgstr "الفوضى"
+
+msgid "Mussed"
+msgstr "مشوّش"
+
+msgid "Mussel"
+msgstr "بلح البحر"
+
+msgid "Mussels"
+msgstr "بلح البحر"
+
+msgid "Musses"
+msgstr "يشوّش"
+
+msgid "Mussiness"
+msgstr "البعثرة"
+
+msgid "Mussing"
+msgstr "التشويش"
+
+msgid "Mussolini"
+msgstr "موسولني"
+
+msgid "Mussorgsky"
+msgstr "موسورجسكاي"
+
+msgid "Mussy"
+msgstr "غير مرتب"
+
+msgid "Must"
+msgstr "يجب أن"
+
+msgid "Mustache"
+msgstr "الشوارب"
+
+msgid "Mustached"
+msgstr "بشارب"
+
+msgid "Mustaches"
+msgstr "الشّوارب"
+
+msgid "Mustachio"
+msgstr "الشّارب"
+
+msgid "Mustachioed"
+msgstr "بشنب"
+
+msgid "Mustachios"
+msgstr "الشّوارب"
+
+msgid "Mustang"
+msgstr "الفرس البري"
+
+msgid "Mustangs"
+msgstr "الحصن البرية"
+
+msgid "Mustard"
+msgstr "الخردل"
+
+msgid "Mustards"
+msgstr "الخردل"
+
+msgid "Muster"
+msgstr "التجمع"
+
+msgid "Mustered"
+msgstr "مجموع"
+
+msgid "Mustering"
+msgstr "الجمع"
+
+msgid "Musters"
+msgstr "التجمعات"
+
+msgid "Mustier"
+msgstr "متعفّن"
+
+msgid "Mustiest"
+msgstr "متعفّن"
+
+msgid "Mustily"
+msgstr "بشكل متعفّن"
+
+msgid "Mustiness"
+msgstr "النّتانة"
+
+msgid "Musts"
+msgstr "الضرورات"
+
+msgid "Musty"
+msgstr "متعفّن"
+
+msgid "Mutability"
+msgstr "قابلية التحول"
+
+msgid "Mutable"
+msgstr "متقلّب"
+
+msgid "Mutableness"
+msgstr "التغيّر"
+
+msgid "Mutably"
+msgstr "بصورة متغيرة"
+
+msgid "Mutagen"
+msgstr "المغيّر"
+
+msgid "Mutant"
+msgstr "المسخ"
+
+msgid "Mutants"
+msgstr "المسوخ"
+
+msgid "Mutate"
+msgstr "تغيّر"
+
+msgid "Mutated"
+msgstr "مبدّل"
+
+msgid "Mutates"
+msgstr "يتغيّر"
+
+msgid "Mutating"
+msgstr "التغيير"
+
+msgid "Mutation"
+msgstr "التغير"
+
+msgid "Mutational"
+msgstr "تغيري"
+
+msgid "Mutationally"
+msgstr "بشكل تغيري"
+
+msgid "Mutations"
+msgstr "التغيرات"
+
+msgid "Mutatis Mutandis"
+msgstr "مع إجراء التغييرات اللازمة"
+
+msgid "Mutative"
+msgstr "متحوّل"
+
+msgid "Mute"
+msgstr "الأخرس"
+
+msgid "Muted"
+msgstr "صامت"
+
+msgid "Mutedly"
+msgstr "بشكل صامت"
+
+msgid "Mutely"
+msgstr "بشكل صامت"
+
+msgid "Muteness"
+msgstr "الخرس"
+
+msgid "Muter"
+msgstr "صامت"
+
+msgid "Mutes"
+msgstr "الخرس"
+
+msgid "Mutest"
+msgstr "صامت"
+
+msgid "Mutilate"
+msgstr "مزّق"
+
+msgid "Mutilated"
+msgstr "مشوّه"
+
+msgid "Mutilates"
+msgstr "يمزّق"
+
+msgid "Mutilating"
+msgstr "التمزيق"
+
+msgid "Mutilation"
+msgstr "التشويه"
+
+msgid "Mutilations"
+msgstr "التشويهات"
+
+msgid "Mutineer"
+msgstr "الثائر"
+
+msgid "Mutineers"
+msgstr "الثوار"
+
+msgid "Muting"
+msgstr "الإسكات"
+
+msgid "Mutinied"
+msgstr "تمرّد"
+
+msgid "Mutinies"
+msgstr "التمردات"
+
+msgid "Mutinous"
+msgstr "متمرّد"
+
+msgid "Mutinously"
+msgstr "بشكل متمرّد"
+
+msgid "Mutiny"
+msgstr "التمرّد"
+
+msgid "Mutinying"
+msgstr "التّمرّد"
+
+msgid "Mutt"
+msgstr "المغفّل"
+
+msgid "Mutter"
+msgstr "تمتم"
+
+msgid "Muttered"
+msgstr "متمتم"
+
+msgid "Mutterer"
+msgstr "المتمتم"
+
+msgid "Mutterers"
+msgstr "المتمتمون"
+
+msgid "Muttering"
+msgstr "التمتمة"
+
+msgid "Mutterings"
+msgstr "التمتمة"
+
+msgid "Mutters"
+msgstr "يتمتم"
+
+msgid "Mutton"
+msgstr "الخروف"
+
+msgid "Muttons"
+msgstr "الخراف"
+
+msgid "Mutts"
+msgstr "المغفلون"
+
+msgid "Mutual"
+msgstr "متبادل"
+
+msgid "Mutuality"
+msgstr "موتواليتي"
+
+msgid "Mutually"
+msgstr "بشكل متبادل"
+
+msgid "Muzak"
+msgstr "ميوزاك - علامة تجارية"
+
+msgid "Muzzle"
+msgstr "الكمامة"
+
+msgid "Muzzled"
+msgstr "مكمّم"
+
+msgid "Muzzler"
+msgstr "المكمِّم"
+
+msgid "Muzzles"
+msgstr "الكمامات"
+
+msgid "Muzzling"
+msgstr "التكميم"
+
+msgid "My"
+msgstr "خاصتي"
+
+msgid "Myanmar"
+msgstr "مينامار"
+
+msgid "Mycenae"
+msgstr "مايكينا - مدينة يونانيّة قديمة"
+
+msgid "Mycenaean"
+msgstr "متعلق بمدينة مايكينا أو من يقطنها "
+
+msgid "Mycobacteria"
+msgstr "مايكوباكتيريا - نوع من أنواع البكتيريا"
+
+msgid "Mycological"
+msgstr "فطري"
+
+msgid "Mycology"
+msgstr "علم الفطريات"
+
+msgid "Myeline"
+msgstr "مايلاين - مادّة دسمة بيضاء"
+
+msgid "Myelitis"
+msgstr "إلتهاب النخاع الشوكي"
+
+msgid "Myeloid"
+msgstr "متعلق بالنخاع الشوكيّ"
+
+msgid "Myers"
+msgstr "مايرز"
+
+msgid "Mylar"
+msgstr "مايلار - علامة تجارية لمادة مصنوعة من البوليستر"
+
+msgid "Mynah"
+msgstr "ميناه"
+
+msgid "Mynheer"
+msgstr "مينهير"
+
+msgid "Myocardial"
+msgstr "متعلّق بعضلة القلب"
+
+msgid "Myocardium"
+msgstr "عضلة القلب"
+
+msgid "Myofibril"
+msgstr "ميوفيبريل"
+
+msgid "Myoglobin"
+msgstr "الميوجلوبين"
+
+msgid "Myope"
+msgstr "مصاب بقصر النّظر"
+
+msgid "Myopia"
+msgstr "قصر النظر"
+
+msgid "Myopic"
+msgstr "قصير النظر"
+
+msgid "Myosin"
+msgstr "ميوسين - بروتين العضلات"
+
+msgid "Myra"
+msgstr "ميرا"
+
+msgid "Myriad"
+msgstr "عدد كبير من"
+
+msgid "Myrmidon"
+msgstr "التابع"
+
+msgid "Myron"
+msgstr "مايرون"
+
+msgid "Myrrh"
+msgstr "نبات المرّ"
+
+msgid "Myrtle"
+msgstr "ميرتل"
+
+msgid "Myrtles"
+msgstr "نباتات الآس"
+
+msgid "Myself"
+msgstr "نفسي"
+
+msgid "Mysteries"
+msgstr "الألغاز"
+
+msgid "Mysterious"
+msgstr "غامض"
+
+msgid "Mysteriously"
+msgstr "بشكل غامض"
+
+msgid "Mysteriousness"
+msgstr "الغرابة"
+
+msgid "Mystery"
+msgstr "اللغز"
+
+msgid "Mystic"
+msgstr "الصوفي"
+
+msgid "Mystical"
+msgstr "باطني"
+
+msgid "Mystically"
+msgstr "بشكل باطني"
+
+msgid "Mysticism"
+msgstr "الروحانية"
+
+msgid "Mysticisms"
+msgstr "الروحانية"
+
+msgid "Mysticly"
+msgstr "بشكل باطني"
+
+msgid "Mystics"
+msgstr "الصوفيون"
+
+msgid "Mystification"
+msgstr "الحيرة"
+
+msgid "Mystified"
+msgstr "محيّر"
+
+msgid "Mystifier"
+msgstr "المحيّر"
+
+msgid "Mystifies"
+msgstr "يحيّر"
+
+msgid "Mystify"
+msgstr "حيّر"
+
+msgid "Mystifying"
+msgstr "الحيرة"
+
+msgid "Mystifyingly"
+msgstr "بغموض"
+
+msgid "Mystique"
+msgstr "الغموض"
+
+msgid "Myth"
+msgstr "الأسطورة"
+
+msgid "Mythes"
+msgstr "الأساطير"
+
+msgid "Mythic"
+msgstr "أسطوري"
+
+msgid "Mythical"
+msgstr "أسطوري"
+
+msgid "Mythically"
+msgstr "بشكل أسطوري"
+
+msgid "Mythographer"
+msgstr "جامع الأساطير"
+
+msgid "Mythographers"
+msgstr "جامعو الأساطير"
+
+msgid "Mythography"
+msgstr "تأريخ وبسط الأساطير"
+
+msgid "Mythologic"
+msgstr "أسطوري"
+
+msgid "Mythological"
+msgstr "أسطوري"
+
+msgid "Mythologically"
+msgstr "بشكل أسطوري"
+
+msgid "Mythologies"
+msgstr "الأساطير"
+
+msgid "Mythology"
+msgstr "علم الأساطير"
+
+msgid "Myths"
+msgstr "الأساطير"
+
+msgid "Mujaheddin"
+msgstr "المجاهدين"
+
+msgid "Mujahedeen"
+msgstr "المجاهدين"
+
+msgid "Mujahidin"
+msgstr "المجاهدين"
+
+msgid "Minims"
+msgstr "نوتة موسيقيّة :: قطرات"
+
+msgid "Metadata"
+msgstr "دليل المعلومات. كما الفهرس في المكتبات العامّة"
+

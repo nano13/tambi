@@ -1,0 +1,6036 @@
+# translation of full_wordlist_O.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_O.po,v 1.13 2004/02/28 10:26:59 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'O'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_O\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"PO-Revision-Date: 2004-02-28 13:23+0300\n"
+
+msgid "O"
+msgstr "أو - الحرف الخامس عشر في اللغة الإنجليزية"
+
+msgid "O-seal"
+msgstr "ألختم المدور"
+
+msgid "OCR"
+msgstr "التّعرّف على الأحرف عن طريق المسح الضّوئي"
+
+msgid "Oaf"
+msgstr "الأحمق"
+
+msgid "Oafish"
+msgstr "أحمق"
+
+msgid "Oafishly"
+msgstr "بوقاحة"
+
+msgid "Oafishness"
+msgstr "بوقاحة"
+
+msgid "Oafs"
+msgstr "الحمقى"
+
+msgid "Oak"
+msgstr "البلوط"
+
+msgid "Oaken"
+msgstr "بلّوطي"
+
+msgid "Oakland"
+msgstr "أوكلند"
+
+msgid "Oakley"
+msgstr "أوكلي"
+
+msgid "Oakmont"
+msgstr "أوكمونت"
+
+msgid "Oaks"
+msgstr "ألبلوط"
+
+msgid "Oakum"
+msgstr "نكيث الأحبال"
+
+msgid "Oakwood"
+msgstr "خشب البلوط"
+
+msgid "Oar"
+msgstr "المجذاف"
+
+msgid "Oared"
+msgstr "مجذوف"
+
+msgid "Oaring"
+msgstr "الجذف"
+
+msgid "Oarlock"
+msgstr "محبس المجداف"
+
+msgid "Oars"
+msgstr "المجاذيف"
+
+msgid "Oarsman"
+msgstr "المجذّف"
+
+msgid "Oarsmen"
+msgstr "المجذّفون"
+
+msgid "Oases"
+msgstr "الواحات"
+
+msgid "Oasis"
+msgstr "الواحة"
+
+msgid "Oat"
+msgstr "الشوفان"
+
+msgid "Oaten"
+msgstr "شوفاني"
+
+msgid "Oater"
+msgstr "فيلم على نمط رعاة البقر"
+
+msgid "Oath"
+msgstr "القسم"
+
+msgid "Oaths"
+msgstr "القسم"
+
+msgid "Oatmeal"
+msgstr "الشوفان المجروش"
+
+msgid "Oats"
+msgstr "الشوفان"
+
+msgid "Obbligato"
+msgstr "اللحن المصاحب"
+
+msgid "Obduracy"
+msgstr "الإصرار"
+
+msgid "Obdurate"
+msgstr "قاسي"
+
+msgid "Obdurately"
+msgstr "بعناد"
+
+msgid "Obdurateness"
+msgstr "القساوه"
+
+msgid "Obedience"
+msgstr "الطاعة"
+
+msgid "Obediences"
+msgstr "الطاعة"
+
+msgid "Obedient"
+msgstr "مطيع"
+
+msgid "Obediently"
+msgstr "بطاعة"
+
+msgid "Obeisance"
+msgstr "السجود"
+
+msgid "Obeisances"
+msgstr "السجود"
+
+msgid "Obeisant"
+msgstr "المطيع"
+
+msgid "Obeisantly"
+msgstr "بانحناء، بطأطأة"
+
+msgid "Obelisk"
+msgstr "المسلّة"
+
+msgid "Obelisks"
+msgstr "المسلات"
+
+msgid "Oberlin"
+msgstr "أوبيرلن"
+
+msgid "Obese"
+msgstr "بدين"
+
+msgid "Obesity"
+msgstr "السمنة"
+
+msgid "Obey"
+msgstr "طع"
+
+msgid "Obeyed"
+msgstr "طعة"
+
+msgid "Obeyer"
+msgstr "مطيع"
+
+msgid "Obeyes"
+msgstr "يطيع"
+
+msgid "Obeying"
+msgstr "الطاعة"
+
+msgid "Obeys"
+msgstr "يطيع"
+
+msgid "Obfuscate"
+msgstr "يشوّش، يجعل الأمر غامض وغير واضح"
+
+msgid "Obfuscated"
+msgstr "مشوّش"
+
+msgid "Obfuscater"
+msgstr "المشوش"
+
+msgid "Obfuscates"
+msgstr "يشوّش"
+
+msgid "Obfuscating"
+msgstr "التشويش"
+
+msgid "Obfuscation"
+msgstr "التشويش"
+
+msgid "Obfuscations"
+msgstr "التشويش"
+
+msgid "Obfuscatory"
+msgstr "إرباكي"
+
+msgid "Obit"
+msgstr "الموت"
+
+msgid "Obiter"
+msgstr "على الطريق"
+
+msgid "Obituaries"
+msgstr "الوفيات"
+
+msgid "Obituary"
+msgstr "النعي"
+
+msgid "Object"
+msgstr "شيئ"
+
+msgid "Object-lesson"
+msgstr "درس الشيئ"
+
+msgid "Objected"
+msgstr "معارض"
+
+msgid "Objectification"
+msgstr "ممثل كشيئ"
+
+msgid "Objectifications"
+msgstr "ممثل كأشيائ"
+
+msgid "Objectified"
+msgstr "جسّم"
+
+msgid "Objectifies"
+msgstr "يجسّم"
+
+msgid "Objectify"
+msgstr "جسّم"
+
+msgid "Objectifying"
+msgstr "المجسّمة"
+
+msgid "Objecting"
+msgstr "المعارضة"
+
+msgid "Objection"
+msgstr "الإعتراض"
+
+msgid "Objectionability"
+msgstr "اعتراضية"
+
+msgid "Objectionable"
+msgstr "مكروه"
+
+msgid "Objectionableness"
+msgstr "المعطرض علية"
+
+msgid "Objectionably"
+msgstr "كريها"
+
+msgid "Objections"
+msgstr "الإعتراضات"
+
+msgid "Objective"
+msgstr "الهدف"
+
+msgid "Objectively"
+msgstr "بموضوعية"
+
+msgid "Objectiveness"
+msgstr "بموضوعي"
+
+msgid "Objectives"
+msgstr "الأهداف"
+
+msgid "Objectivity"
+msgstr "الموضوعية"
+
+msgid "Objector"
+msgstr "المعطرد"
+
+msgid "Objectors"
+msgstr "المعطردون"
+
+msgid "Objects"
+msgstr "الأجسام"
+
+msgid "Objurgated"
+msgstr "موبّخ"
+
+msgid "Objurgation"
+msgstr "توبيخ"
+
+msgid "Oblate"
+msgstr "مفلطح"
+
+msgid "Oblately"
+msgstr "بشكل مفلطح"
+
+msgid "Oblateness"
+msgstr "كونه مفلطح"
+
+msgid "Oblation"
+msgstr "القربان"
+
+msgid "Oblations"
+msgstr "القرابين"
+
+msgid "Obligate"
+msgstr "ملزم"
+
+msgid "Obligated"
+msgstr "ملزم"
+
+msgid "Obligately"
+msgstr "بتسيير"
+
+msgid "Obligates"
+msgstr "يلزم"
+
+msgid "Obligating"
+msgstr "الإلزام"
+
+msgid "Obligation"
+msgstr "الإلتزام"
+
+msgid "Obligational"
+msgstr "بألتزام"
+
+msgid "Obligations"
+msgstr "الإلتزامات"
+
+msgid "Obligatorily"
+msgstr "بإلزام"
+
+msgid "Obligatory"
+msgstr "إلزامي"
+
+msgid "Oblige"
+msgstr "إلتزم"
+
+msgid "Obliged"
+msgstr "إلتزم"
+
+msgid "Obliger"
+msgstr "الملزم"
+
+msgid "Obliges"
+msgstr "يلتزم"
+
+msgid "Obliging"
+msgstr "الإلتزام"
+
+msgid "Obligingly"
+msgstr "بلطف"
+
+msgid "Obligingness"
+msgstr "بلطافة"
+
+msgid "Oblique"
+msgstr "مائل"
+
+msgid "Obliquely"
+msgstr "بإنحراف"
+
+msgid "Obliqueness"
+msgstr "الأنحراف"
+
+msgid "Obliquity"
+msgstr "الإعوجاج"
+
+msgid "Obliterate"
+msgstr "أزل"
+
+msgid "Obliterated"
+msgstr "مزال"
+
+msgid "Obliterates"
+msgstr "يزيل"
+
+msgid "Obliterating"
+msgstr "الإزالة"
+
+msgid "Obliteration"
+msgstr "المحو"
+
+msgid "Obliterations"
+msgstr "المحو"
+
+msgid "Obliterative"
+msgstr "إلغائي"
+
+msgid "Obliteratively"
+msgstr "بشكل إلغائي"
+
+msgid "Oblivion"
+msgstr "النسيان"
+
+msgid "Oblivions"
+msgstr "النسيان"
+
+msgid "Oblivious"
+msgstr "غافل"
+
+msgid "Obliviously"
+msgstr "بنسيان"
+
+msgid "Obliviousness"
+msgstr "النسيان"
+
+msgid "Oblong"
+msgstr "مستطيل"
+
+msgid "Oblongly"
+msgstr "بشكل مستطيل"
+
+msgid "Oblongness"
+msgstr "حالة الاستطالة"
+
+msgid "Oblongs"
+msgstr "المستطيلات"
+
+msgid "Obloquies"
+msgstr "القذف"
+
+msgid "Obloquy"
+msgstr "التنديد"
+
+msgid "Obnoxious"
+msgstr "بغيض"
+
+msgid "Obnoxiously"
+msgstr "بشكل بغيض"
+
+msgid "Obnoxiousness"
+msgstr "ببغاضة"
+
+msgid "Oboe"
+msgstr "المزمار"
+
+msgid "Oboes"
+msgstr "المزامير"
+
+msgid "Oboist"
+msgstr "لاعب المزمار"
+
+msgid "Obscene"
+msgstr "بذيئ"
+
+msgid "Obscenely"
+msgstr "بفحش"
+
+msgid "Obsceneness"
+msgstr "فحاشة"
+
+msgid "Obscenities"
+msgstr "المجون"
+
+msgid "Obscenity"
+msgstr "المجون"
+
+msgid "Obscuration"
+msgstr "غموض"
+
+msgid "Obscure"
+msgstr "غامض"
+
+msgid "Obscured"
+msgstr "محجوب"
+
+msgid "Obscurely"
+msgstr "بغموض"
+
+msgid "Obscureness"
+msgstr "الغموض"
+
+msgid "Obscurer"
+msgstr "الحاجب"
+
+msgid "Obscures"
+msgstr "يحجب"
+
+msgid "Obscurest"
+msgstr "الحجب الكامل"
+
+msgid "Obscuring"
+msgstr "الحجب"
+
+msgid "Obscuringly"
+msgstr "بحجب"
+
+msgid "Obscurities"
+msgstr "الغموض"
+
+msgid "Obscurity"
+msgstr "الغموض"
+
+msgid "Obsequies"
+msgstr "مراسيم تشييع الجنازة"
+
+msgid "Obsequious"
+msgstr "متزلّف"
+
+msgid "Obsequiously"
+msgstr "يتزلّف"
+
+msgid "Obsequiousness"
+msgstr "التزلّف"
+
+msgid "Obsequiousnesses"
+msgstr "التزلّف"
+
+msgid "Obsequy"
+msgstr "أوبسيكوي"
+
+msgid "Observable"
+msgstr "جدير بالملاحظة"
+
+msgid "Observably"
+msgstr "ملحوظا"
+
+msgid "Observance"
+msgstr "المراعاة"
+
+msgid "Observances"
+msgstr "المراعاة"
+
+msgid "Observant"
+msgstr "ملاحظ"
+
+msgid "Observantly"
+msgstr "بملاحظة"
+
+msgid "Observation"
+msgstr "الملاحظة"
+
+msgid "Observational"
+msgstr "ملاحظة"
+
+msgid "Observationally"
+msgstr "شهوديا"
+
+msgid "Observations"
+msgstr "الملاحظات"
+
+msgid "Observatories"
+msgstr "المراصد"
+
+msgid "Observatory"
+msgstr "المرصد"
+
+msgid "Observe"
+msgstr "لاحظ"
+
+msgid "Observed"
+msgstr "لاحظة"
+
+msgid "Observer"
+msgstr "المراقب"
+
+msgid "Observers"
+msgstr "المراقبون"
+
+msgid "Observes"
+msgstr "يلاحظ"
+
+msgid "Observing"
+msgstr "الملاحظة"
+
+msgid "Observingly"
+msgstr "بشكل ملاحظ"
+
+msgid "Obsess"
+msgstr "توجّس"
+
+msgid "Obsessed"
+msgstr "مهوس"
+
+msgid "Obsesses"
+msgstr "يتوجّس"
+
+msgid "Obsessing"
+msgstr "التوجّس"
+
+msgid "Obsessingly"
+msgstr "بتوجس"
+
+msgid "Obsession"
+msgstr "الهوس"
+
+msgid "Obsessions"
+msgstr "الإستحواذ"
+
+msgid "Obsessive"
+msgstr "إستحواذي"
+
+msgid "Obsessively"
+msgstr "بقلق شديد"
+
+msgid "Obsessiveness"
+msgstr "الأستحواذ"
+
+msgid "Obsidian"
+msgstr "حجر السج"
+
+msgid "Obsolescence"
+msgstr "الزوال"
+
+msgid "Obsolescent"
+msgstr "الزائل"
+
+msgid "Obsolescently"
+msgstr "آيلا للإهمال"
+
+msgid "Obsolete"
+msgstr "ملغي"
+
+msgid "Obsoleted"
+msgstr "ملغى"
+
+msgid "Obsoletely"
+msgstr "من طراز قديم"
+
+msgid "Obsoleteness"
+msgstr "الالغاء"
+
+msgid "Obsoletes"
+msgstr "يلغي"
+
+msgid "Obsoleting"
+msgstr "يلغي"
+
+msgid "Obstacle"
+msgstr "العقبة"
+
+msgid "Obstacles"
+msgstr "العقبات"
+
+msgid "Obstetric"
+msgstr "ولادي"
+
+msgid "Obstetrical"
+msgstr "ولادي"
+
+msgid "Obstetrically"
+msgstr "بشكل ولادي"
+
+msgid "Obstetrician"
+msgstr "إخصائي الولادة"
+
+msgid "Obstetricians"
+msgstr "إخصائيو الولادة"
+
+msgid "Obstetrics"
+msgstr "التوليد"
+
+msgid "Obstinacies"
+msgstr "العناد"
+
+msgid "Obstinacy"
+msgstr "العناد"
+
+msgid "Obstinate"
+msgstr "عنيد"
+
+msgid "Obstinately"
+msgstr "بعناد"
+
+msgid "Obstinateness"
+msgstr "العنادة"
+
+msgid "Obstreperous"
+msgstr "عنيد"
+
+msgid "Obstreperously"
+msgstr "بجموح"
+
+msgid "Obstreperousness"
+msgstr "الجموح"
+
+msgid "Obstruct"
+msgstr "عرقل"
+
+msgid "Obstructed"
+msgstr "معرقل"
+
+msgid "Obstructer"
+msgstr "المعرقل"
+
+msgid "Obstructing"
+msgstr "العرقلة"
+
+msgid "Obstruction"
+msgstr "الإعاقة"
+
+msgid "Obstructionism"
+msgstr "العرقلة"
+
+msgid "Obstructionist"
+msgstr "المعرقل"
+
+msgid "Obstructions"
+msgstr "العوائق"
+
+msgid "Obstructive"
+msgstr "معوّق"
+
+msgid "Obstructively"
+msgstr "بإعاقة"
+
+msgid "Obstructiveness"
+msgstr "العرقلة"
+
+msgid "Obstructs"
+msgstr "يعرقل"
+
+msgid "Obstruent"
+msgstr "سبب العرقلة"
+
+msgid "Obtain"
+msgstr "إحصل عليه"
+
+msgid "Obtainable"
+msgstr "قابل للحصول"
+
+msgid "Obtainably"
+msgstr "للحصول"
+
+msgid "Obtained"
+msgstr "مكتسب"
+
+msgid "Obtainer"
+msgstr "الحاصل"
+
+msgid "Obtaining"
+msgstr "الحصول على"
+
+msgid "Obtainment"
+msgstr "الحصول"
+
+msgid "Obtains"
+msgstr "يحصل عليه"
+
+msgid "Obtrude"
+msgstr "إقتحم"
+
+msgid "Obtruded"
+msgstr "مقتحم"
+
+msgid "Obtruder"
+msgstr "المقتحم"
+
+msgid "Obtrudes"
+msgstr "يقتحم"
+
+msgid "Obtruding"
+msgstr "الإقتحام"
+
+msgid "Obtrusion"
+msgstr "الإقحام"
+
+msgid "Obtrusive"
+msgstr "ناتئ"
+
+msgid "Obtrusively"
+msgstr "بتطفل"
+
+msgid "Obtrusiveness"
+msgstr "الأقتحام"
+
+msgid "Obtuse"
+msgstr "بليد"
+
+msgid "Obtusely"
+msgstr "غير حاد"
+
+msgid "Obtuseness"
+msgstr "بغير حدة"
+
+msgid "Obtuser"
+msgstr "بليد"
+
+msgid "Obtusest"
+msgstr "بليد"
+
+msgid "Obverse"
+msgstr "الوجه"
+
+msgid "Obversely"
+msgstr "بشكل مواجه"
+
+msgid "Obviate"
+msgstr "أزل"
+
+msgid "Obviated"
+msgstr "مزال"
+
+msgid "Obviates"
+msgstr "يزيل"
+
+msgid "Obviating"
+msgstr "الإزالة"
+
+msgid "Obviation"
+msgstr "التحاش"
+
+msgid "Obviations"
+msgstr "التحاش"
+
+msgid "Obvious"
+msgstr "واضح"
+
+msgid "Obviously"
+msgstr "من الواضح"
+
+msgid "Obviousness"
+msgstr "الوضوح"
+
+msgid "Ocarina"
+msgstr "الأكرينا - آلة نفخ بلاستيكيّة"
+
+msgid "Occam"
+msgstr "أوكام"
+
+msgid "Occasion"
+msgstr "المناسبة"
+
+msgid "Occasional"
+msgstr "عرضي"
+
+msgid "Occasionally"
+msgstr "من حين لآخر"
+
+msgid "Occasioned"
+msgstr "سبّب"
+
+msgid "Occasioning"
+msgstr "التّسبيب"
+
+msgid "Occasions"
+msgstr "المناسبات"
+
+msgid "Occident"
+msgstr "الغرب"
+
+msgid "Occidental"
+msgstr "غربي"
+
+msgid "Occidentally"
+msgstr "بشكل غربي"
+
+msgid "Occipital"
+msgstr "عظم القفا"
+
+msgid "Occipitally"
+msgstr "بشكل قفوي"
+
+msgid "Occlude"
+msgstr "أغلق"
+
+msgid "Occluded"
+msgstr "مغلق"
+
+msgid "Occludes"
+msgstr "يغلق"
+
+msgid "Occluding"
+msgstr "الإغلاق"
+
+msgid "Occlusion"
+msgstr "الإنسداد"
+
+msgid "Occlusions"
+msgstr "الإنسداد"
+
+msgid "Occlusive"
+msgstr "عائق"
+
+msgid "Occult"
+msgstr "غامض"
+
+msgid "Occultation"
+msgstr "الإختفاء"
+
+msgid "Occulter"
+msgstr "غامض"
+
+msgid "Occultism"
+msgstr "دراسة القوى الخارقة أو الفوق طبيعية"
+
+msgid "Occultist"
+msgstr "المؤمن بالقوى الخارقة"
+
+msgid "Occultly"
+msgstr "بسرية"
+
+msgid "Occupancies"
+msgstr "الأشغال"
+
+msgid "Occupancy"
+msgstr "الشغل"
+
+msgid "Occupant"
+msgstr "الشاغل"
+
+msgid "Occupants"
+msgstr "الشاغلون"
+
+msgid "Occupation"
+msgstr "الإحتلال"
+
+msgid "Occupational"
+msgstr "مهني"
+
+msgid "Occupationally"
+msgstr "مهنيا"
+
+msgid "Occupations"
+msgstr "الوظائف"
+
+msgid "Occupied"
+msgstr "محتل"
+
+msgid "Occupier"
+msgstr "المحتل"
+
+msgid "Occupiers"
+msgstr "المحتلون"
+
+msgid "Occupies"
+msgstr "يحتلّ"
+
+msgid "Occupy"
+msgstr "إحتلّ"
+
+msgid "Occupying"
+msgstr "الإحتلال"
+
+msgid "Occur"
+msgstr "إحدث"
+
+msgid "Occurred"
+msgstr "حادث"
+
+msgid "Occurrence"
+msgstr "الحدوث"
+
+msgid "Occurrences"
+msgstr "الحوادث"
+
+msgid "Occurrent"
+msgstr "حادث"
+
+msgid "Occurring"
+msgstr "الحدث"
+
+msgid "Occurs"
+msgstr "يحدث"
+
+msgid "Ocean"
+msgstr "المحيط"
+
+msgid "Oceania"
+msgstr "المنطقة الأقيانوسية"
+
+msgid "Oceanic"
+msgstr "متعلق بالمحيط"
+
+msgid "Oceanographer"
+msgstr "أخصائي علم المحيطات"
+
+msgid "Oceanographic"
+msgstr "أوقيانوغرافي"
+
+msgid "Oceanographical"
+msgstr "أوقيانوغرافي"
+
+msgid "Oceanographically"
+msgstr "بشكل أوقيانوغرافي"
+
+msgid "Oceanography"
+msgstr "علم المحيطات"
+
+msgid "Oceans"
+msgstr "المحيطات"
+
+msgid "Oceanside"
+msgstr "أوشنسايد"
+
+msgid "Ocelot"
+msgstr "القطّ البرّيّ"
+
+msgid "Ocher"
+msgstr "المغرة - أكاسيد معدنية"
+
+msgid "Ochers"
+msgstr "المغرة - أكاسيد معدنية"
+
+msgid "Oconomowoc"
+msgstr "أوكونوماووك"
+
+msgid "Oct"
+msgstr "أكتوبر/تشرين الأول"
+
+msgid "Octagon"
+msgstr "المثمّن"
+
+msgid "Octagonal"
+msgstr "ثماني الأظلاع"
+
+msgid "Octagonally"
+msgstr "بشكل ثماني الأظلاع"
+
+msgid "Octagons"
+msgstr "المثمّنات"
+
+msgid "Octahedra"
+msgstr "مضلّع بثمانية أسطح"
+
+msgid "Octahedral"
+msgstr "ثماني السطوح"
+
+msgid "Octahedron"
+msgstr "المجسّم الثماني"
+
+msgid "Octal"
+msgstr "ثماني"
+
+msgid "Octane"
+msgstr "الأوكتان"
+
+msgid "Octant"
+msgstr "ثمن محيط الدائرة"
+
+msgid "Octave"
+msgstr "أوكتاف"
+
+msgid "Octaves"
+msgstr "مخفيْ"
+
+msgid "Octavia"
+msgstr "أكتافيا"
+
+msgid "Octennial"
+msgstr "ثماني"
+
+msgid "Octet"
+msgstr "اللحن الثماني"
+
+msgid "Octile"
+msgstr "أوكتيل"
+
+# Math stuff
+msgid "Octillion"
+msgstr "الأقتيليون"
+
+msgid "October"
+msgstr "أكتوبر/تشرين الأول"
+
+msgid "Octobers"
+msgstr "أشهر أكتوبر/تشرين الأول"
+
+msgid "Octogenarian"
+msgstr "الثمانيني"
+
+msgid "Octopi"
+msgstr "الأخطبوطات"
+
+msgid "Octopus"
+msgstr "الأخطبوط"
+
+msgid "Octopuses"
+msgstr "الأخطبوطات"
+
+msgid "Octoroon"
+msgstr "الشخص الذي ثمن أسلافة من الزنوج"
+
+msgid "Ocular"
+msgstr "بصري"
+
+msgid "Ocularly"
+msgstr "بشكل بصري"
+
+msgid "Oculist"
+msgstr "طبيب العيون"
+
+msgid "Od"
+msgstr "أود"
+
+msgid "Odd"
+msgstr "شاذّ"
+
+msgid "Odd-even"
+msgstr "الشاذّ حتى"
+
+msgid "Odd-numbered"
+msgstr "الشاذّ المعدود"
+
+msgid "Oddball"
+msgstr "شاذّ"
+
+msgid "Odder"
+msgstr "شاذّ"
+
+msgid "Oddest"
+msgstr "شاذّ"
+
+msgid "Oddities"
+msgstr "الشذوذ"
+
+msgid "Oddity"
+msgstr "الغرابة"
+
+msgid "Oddly"
+msgstr "بغرابة"
+
+msgid "Oddness"
+msgstr "الغرابة"
+
+msgid "Odds"
+msgstr "الإحتمالات"
+
+msgid "Ode"
+msgstr "القصيدة"
+
+msgid "Oded"
+msgstr "أفرط في جرعة المخدر"
+
+msgid "Oder"
+msgstr "أودر"
+
+msgid "Oderberg"
+msgstr "أودربيرج"
+
+msgid "Odes"
+msgstr "القصائد"
+
+msgid "Odessa"
+msgstr "أوديسا"
+
+msgid "Odin"
+msgstr "الأودين - الإله النورس للحكمة . الأساطير"
+
+msgid "Odious"
+msgstr "مقرف"
+
+msgid "Odiously"
+msgstr "بشكل مقرف"
+
+msgid "Odiousness"
+msgstr "الكُرْه"
+
+msgid "Odium"
+msgstr "الكراهية"
+
+msgid "Odometer"
+msgstr "عدّاد المسافة"
+
+msgid "Odometers"
+msgstr "عدّادات المسافة"
+
+msgid "Odor"
+msgstr "الرائحة"
+
+msgid "Odored"
+msgstr "معطّر"
+
+msgid "Odoriferous"
+msgstr "عطري"
+
+msgid "Odoriferously"
+msgstr "بشكل عطري"
+
+msgid "Odorless"
+msgstr "عديم الرائحة"
+
+msgid "Odorlessly"
+msgstr "بشكل عديم الرائحة"
+
+msgid "Odorlessness"
+msgstr "إنعدام الرائحة"
+
+msgid "Odorous"
+msgstr "معطّر"
+
+msgid "Odorously"
+msgstr "بشكل معطّر"
+
+msgid "Odorousness"
+msgstr "الرائحة المميزة"
+
+msgid "Odors"
+msgstr "الروائح"
+
+msgid "Odour"
+msgstr "الرائحة"
+
+msgid "Odourless"
+msgstr "عديم الرائحة"
+
+msgid "Odours"
+msgstr "الروائح"
+
+msgid "Odysseus"
+msgstr "أوديسيوس"
+
+msgid "Odyssey"
+msgstr "الرحلة الطويلة"
+
+msgid "Oedipal"
+msgstr "أوديبيّ، متعلق بـ  إديبوس"
+
+msgid "Oedipally"
+msgstr "أويديبالي، متعلق بـ  إديبوس"
+
+msgid "Oedipus"
+msgstr "إديبوس - ابن ليس و جوكاستا . الأساطير اليونانيّة"
+
+msgid "OEM"
+msgstr "صانعي القطع الأصلية"
+
+msgid "OEMS"
+msgstr "نظام إدارة دخول الطلبات"
+
+msgid "Oersted"
+msgstr "الإرستد - وحدة شدّة المغناطيسية"
+
+msgid "Of"
+msgstr "من"
+
+msgid "Off"
+msgstr "من"
+
+msgid "Off-grade"
+msgstr "خارج الدرجة"
+
+msgid "Off-line"
+msgstr "غير متّصل"
+
+msgid "Off-state"
+msgstr "خارج رسمي"
+
+msgid "Off-the-shelf"
+msgstr "جاهز"
+
+msgid "Off-time"
+msgstr "خارج مرّة"
+
+msgid "Offal"
+msgstr "أحشاء الذبيحة"
+
+msgid "Offbeat"
+msgstr "شاذّ"
+
+msgid "Offed"
+msgstr "ترك"
+
+msgid "Offenbach"
+msgstr "أوفينباخ - ملحّن فرنسيّ"
+
+msgid "Offence"
+msgstr "المخالفة"
+
+msgid "Offences"
+msgstr "المخالفات"
+
+msgid "Offend"
+msgstr "أهن"
+
+msgid "Offended"
+msgstr "مهان"
+
+msgid "Offender"
+msgstr "الجانح"
+
+msgid "Offenders"
+msgstr "الجانحون"
+
+msgid "Offending"
+msgstr "الإهانة"
+
+msgid "Offends"
+msgstr "يهين"
+
+msgid "Offense"
+msgstr "المخالفة"
+
+msgid "Offenses"
+msgstr "المخالفات"
+
+msgid "Offensive"
+msgstr "الهجوم"
+
+msgid "Offensively"
+msgstr "على نحو عدواني"
+
+msgid "Offensiveness"
+msgstr "الإهانة"
+
+msgid "Offensives"
+msgstr "الهجمات"
+
+msgid "Offer"
+msgstr "العرض"
+
+msgid "Offered"
+msgstr "معروض"
+
+msgid "Offerer"
+msgstr "المقدّم"
+
+msgid "Offering"
+msgstr "العرض"
+
+msgid "Offerings"
+msgstr "العروض"
+
+msgid "Offers"
+msgstr "العروض"
+
+msgid "Offertories"
+msgstr "تبرعات المصلين"
+
+msgid "Offertory"
+msgstr "تبرعات المصلين"
+
+msgid "Offhand"
+msgstr "مرتجلا"
+
+msgid "Offhanded"
+msgstr "إرتجالي"
+
+msgid "Offhandedly"
+msgstr "بشكل إرتجالي"
+
+msgid "Offhandedness"
+msgstr "الإهمال"
+
+msgid "Office"
+msgstr "المكتب"
+
+msgid "Office-hands"
+msgstr "أيدي مكتب"
+
+msgid "Office-hours"
+msgstr "ساعات العمل"
+
+msgid "Officeholder"
+msgstr "المسؤول"
+
+msgid "Officemate"
+msgstr "الزميل"
+
+msgid "Officemates"
+msgstr "الزملاء"
+
+msgid "Officer"
+msgstr "الضابط"
+
+msgid "Officered"
+msgstr "أمدّ بضبّاط"
+
+msgid "Officers"
+msgstr "الضبّاط"
+
+msgid "Offices"
+msgstr "المكاتب"
+
+msgid "Official"
+msgstr "المسؤول"
+
+msgid "Officialdom"
+msgstr "الرسمية"
+
+msgid "Officialese"
+msgstr "لغة الدواوين"
+
+msgid "Officialism"
+msgstr "الرّوتين"
+
+msgid "Officially"
+msgstr "رسميا"
+
+msgid "Officials"
+msgstr "المسؤولون"
+
+msgid "Officiant"
+msgstr "الإمام في الصلاة "
+
+msgid "Officiate"
+msgstr "أدّ"
+
+msgid "Officiated"
+msgstr "مؤدّى"
+
+msgid "Officiates"
+msgstr "يؤدّي"
+
+msgid "Officiating"
+msgstr "الإداء"
+
+msgid "Officiation"
+msgstr "تأدية المهمة"
+
+msgid "Officiations"
+msgstr "تأدية المهام"
+
+msgid "Officious"
+msgstr "فضولي"
+
+msgid "Officiously"
+msgstr "بشكل فضولي"
+
+msgid "Officiousness"
+msgstr "التّسلّط"
+
+msgid "Offing"
+msgstr "عرض البحر"
+
+msgid "Offish"
+msgstr "خارج تقريبا"
+
+msgid "Offishly"
+msgstr "بانعزال"
+
+msgid "Offline"
+msgstr "غير متّصل"
+
+msgid "Offload"
+msgstr "أفرغ"
+
+msgid "Offloaded"
+msgstr "أفرغ"
+
+msgid "Offloading"
+msgstr "الإفراغ"
+
+msgid "Offloads"
+msgstr "يفرغ"
+
+msgid "Offprint"
+msgstr "المقتطف"
+
+msgid "Offramp"
+msgstr "الطريق الفرعي"
+
+msgid "Offs"
+msgstr "أوفس"
+
+msgid "Offsaddle"
+msgstr "يزيل السرج من على الحصان"
+
+msgid "Offset"
+msgstr "التعديل"
+
+msgid "Offsets"
+msgstr "التعديلات"
+
+msgid "Offsetting"
+msgstr "الموازنة"
+
+msgid "Offshoot"
+msgstr "الفرع"
+
+msgid "Offshoots"
+msgstr "الفروع"
+
+msgid "Offshore"
+msgstr "بعيدا عن الشاطئ"
+
+msgid "Offside"
+msgstr "التسلّل"
+
+msgid "Offsides"
+msgstr "حالات التسلّل"
+
+msgid "Offspring"
+msgstr "النسل"
+
+msgid "Offsprings"
+msgstr "الذريات"
+
+msgid "Offstage"
+msgstr "خارج المسرح"
+
+msgid "Offtake"
+msgstr "يأخذ"
+
+msgid "Oft"
+msgstr "غالبا"
+
+msgid "Often"
+msgstr "في أغلب الأحيان"
+
+msgid "Oftener"
+msgstr "بتكرار"
+
+msgid "Oftentimes"
+msgstr "بتكرار"
+
+msgid "Ofttimes"
+msgstr "بتكرار"
+
+msgid "Ogden"
+msgstr "أوجدين"
+
+msgid "Ogive"
+msgstr "العقد القوطي"
+
+msgid "Ogle"
+msgstr "إنظر"
+
+msgid "Ogled"
+msgstr "منظور"
+
+msgid "Ogler"
+msgstr "المحملق"
+
+msgid "Ogles"
+msgstr "ينظر"
+
+msgid "Ogling"
+msgstr "النظر"
+
+msgid "Ogre"
+msgstr "الغول"
+
+msgid "Ogres"
+msgstr "الغولات"
+
+msgid "Ogress"
+msgstr "الغولة"
+
+msgid "Ogresses"
+msgstr "الغولات"
+
+msgid "Oh"
+msgstr "أوه"
+
+msgid "Ohio"
+msgstr "أوهايو"
+
+msgid "Ohm"
+msgstr "الأوم"
+
+msgid "Ohmic"
+msgstr "أومي، متعلق بوحدة قياس المقاومة"
+
+msgid "Ohmmeter"
+msgstr "جهاز قياس المقاومة"
+
+msgid "Ohmmeters"
+msgstr "أجهزة قياس المقاومة"
+
+msgid "Ohms"
+msgstr "الأوم"
+
+msgid "Oil"
+msgstr "النفط"
+
+msgid "Oilcan"
+msgstr "المزيتة"
+
+msgid "Oilcloth"
+msgstr "المشمّع"
+
+msgid "Oiled"
+msgstr "مزيّت"
+
+msgid "Oiler"
+msgstr "المزيّت"
+
+msgid "Oilers"
+msgstr "المزيّتون"
+
+msgid "Oilier"
+msgstr "أكثر زيتا"
+
+msgid "Oiliest"
+msgstr "أكثر زيتا"
+
+msgid "Oilily"
+msgstr "زيتيا"
+
+msgid "Oiliness"
+msgstr "الزّيتيّة"
+
+msgid "Oiling"
+msgstr "التزييت"
+
+msgid "Oilman"
+msgstr "تاجر النفط"
+
+msgid "Oilmen"
+msgstr "تجّار النفط"
+
+msgid "Oils"
+msgstr "الزيوت"
+
+msgid "Oilseed"
+msgstr "الحبة التي يستخرج منها الزّيت"
+
+msgid "Oilseeds"
+msgstr "الحبوب الزّيتيّة"
+
+msgid "Oily"
+msgstr "زيتي"
+
+msgid "Oint"
+msgstr "يدهن"
+
+msgid "Ointment"
+msgstr "المرهم"
+
+msgid "Ointments"
+msgstr "المراهم"
+
+msgid "OK"
+msgstr "الموافقة"
+
+msgid "Okamoto"
+msgstr "أوكاموتو"
+
+msgid "Okay"
+msgstr "الموافقة"
+
+msgid "Okaying"
+msgstr "الموافقة"
+
+msgid "Okays"
+msgstr "الموافقات"
+
+msgid "Okinawa"
+msgstr "أوكيناوا"
+
+msgid "Oklahoma"
+msgstr "أوكلاهوما"
+
+msgid "Oklahoman"
+msgstr "مواطن من أوكلاهوما"
+
+msgid "Olaf"
+msgstr "أولاف"
+
+msgid "Olav"
+msgstr "أولاف"
+
+msgid "Old"
+msgstr "قديم"
+
+msgid "Old-version"
+msgstr "النسخة القديمة"
+
+msgid "Olden"
+msgstr "سابق"
+
+msgid "Oldenburg"
+msgstr "أولدينبيرغ"
+
+msgid "Older"
+msgstr "أقدم"
+
+msgid "Oldest"
+msgstr "أقدم"
+
+msgid "Oldfashioned"
+msgstr "قديم"
+
+msgid "Oldies"
+msgstr "الموضوعات القديمة"
+
+msgid "Oldish"
+msgstr "قديم"
+
+msgid "Oldishly"
+msgstr "بشكل قديم"
+
+msgid "Oldness"
+msgstr "القِدم"
+
+msgid "Oldsmobile"
+msgstr "أولدسموبيل"
+
+msgid "Oldster"
+msgstr "العجوز"
+
+msgid "Oldsters"
+msgstr "العجائز"
+
+msgid "Oldy"
+msgstr "القديم"
+
+msgid "Oleaginous"
+msgstr "زيتي"
+
+msgid "Oleander"
+msgstr "الدفلى"
+
+msgid "Oleanders"
+msgstr "نباتات الدفلى"
+
+msgid "Olefin"
+msgstr "الأولفين - هيدروكربون"
+
+msgid "Oleg"
+msgstr "أوليج"
+
+msgid "Oleomargarine"
+msgstr "السّمن الصّناعيّ"
+
+msgid "Olfactory"
+msgstr "شمّي"
+
+msgid "Olga"
+msgstr "أولجا"
+
+msgid "Oligarchic"
+msgstr "متعلق بحكومة الأقلّية"
+
+msgid "Oligarchs"
+msgstr "أعضاء في حكومة الأقلّيّة"
+
+msgid "Oligarchy"
+msgstr "حكم القلّة"
+
+msgid "Oligoclase"
+msgstr "أوليجوكليس - نوع من الصخور"
+
+msgid "Oligopolistic"
+msgstr "إحتكاري"
+
+msgid "Oligopoly"
+msgstr "إحتكار القلة"
+
+msgid "Olin"
+msgstr "أولن"
+
+msgid "Olio"
+msgstr "يخن اللحم"
+
+msgid "Olios"
+msgstr "يخن اللحم"
+
+msgid "Olive"
+msgstr "الزيتون"
+
+msgid "Oliver"
+msgstr "أوليفير"
+
+msgid "Olivers"
+msgstr "أوليفيرز"
+
+msgid "Olives"
+msgstr "الزيتون"
+
+msgid "Olivetti"
+msgstr "الأوليفيتي"
+
+msgid "Olivia"
+msgstr "أوليفيا"
+
+msgid "Olivine"
+msgstr "الزّبرجد الزّيتونيّ"
+
+msgid "Olsen"
+msgstr "أولسين"
+
+msgid "Olson"
+msgstr "أولسون"
+
+msgid "Olympia"
+msgstr "أولمبيا"
+
+msgid "Olympian"
+msgstr "أوليمبي"
+
+msgid "Olympic"
+msgstr "أوليمبي"
+
+msgid "Olympics"
+msgstr "الألعاب الأولمبيّة"
+
+msgid "Olympus"
+msgstr "أوليمبوس"
+
+msgid "Omaha"
+msgstr "أوماها"
+
+msgid "Oman"
+msgstr "عمان"
+
+msgid "Ombudsman"
+msgstr "المحقّق"
+
+msgid "Ombudsperson"
+msgstr "محقّق شكاوى"
+
+msgid "Omega"
+msgstr "الأوميغا"
+
+msgid "Omegas"
+msgstr "الأوميغا"
+
+msgid "Omelet"
+msgstr "البيض المخفوق المقلي"
+
+msgid "Omelets"
+msgstr "صحون البيض المخفوق المقلي"
+
+msgid "Omen"
+msgstr "الطالع"
+
+msgid "Omens"
+msgstr "الطوالع"
+
+msgid "Omicron"
+msgstr "أوميكرون - الحرف الخامس عشر للأبجدية اليونانيّة"
+
+msgid "Ominous"
+msgstr "مشؤوم"
+
+msgid "Ominously"
+msgstr "بشكل مشؤوم"
+
+msgid "Ominousness"
+msgstr "الخطر، التشاؤم"
+
+msgid "Omissible"
+msgstr "ممكن حذفه"
+
+msgid "Omission"
+msgstr "الحذف"
+
+msgid "Omissions"
+msgstr "الأخطاء"
+
+msgid "Omit"
+msgstr "إحذف"
+
+msgid "Omits"
+msgstr "يحذف"
+
+msgid "Omitted"
+msgstr "محذوف"
+
+msgid "Omitting"
+msgstr "الحذف"
+
+msgid "Omni"
+msgstr "أومني"
+
+msgid "Omnibus"
+msgstr "سلسلة الحلقات"
+
+msgid "Omnipotence"
+msgstr "القدرة الكلية"
+
+msgid "Omnipotences"
+msgstr "القدرات الكلية"
+
+msgid "Omnipotent"
+msgstr "قدير"
+
+msgid "Omnipotently"
+msgstr "بقدرة كلية"
+
+msgid "Omnipresence"
+msgstr "كلية الوجود"
+
+msgid "Omnipresent"
+msgstr "كلي الوجود"
+
+msgid "Omnipresently"
+msgstr "بشكل كلي الوجود"
+
+msgid "Omniscience"
+msgstr "المعرفة"
+
+msgid "Omniscient"
+msgstr "كلي العلم"
+
+msgid "Omnisciently"
+msgstr "بشكل كلي العلم"
+
+msgid "Omnivore"
+msgstr "آكل النبات والحيوان"
+
+msgid "Omnivorous"
+msgstr "ملتهم"
+
+msgid "Omnivorously"
+msgstr "بشكل ملتهم"
+
+msgid "On"
+msgstr "على"
+
+msgid "On-board"
+msgstr "في الداخل"
+
+msgid "On-call"
+msgstr "تحت الطلب"
+
+msgid "On-hand"
+msgstr "متوفّر"
+
+msgid "On-hook"
+msgstr "على الخطّاف"
+
+msgid "On-line"
+msgstr "على الإنترنت"
+
+msgid "On-off"
+msgstr "على قبالة"
+
+msgid "On-state"
+msgstr "على الحالة"
+
+msgid "On-the-fly"
+msgstr "ذبابة على"
+
+msgid "On-the-job"
+msgstr "شغل على"
+
+msgid "On/upon"
+msgstr "على / على"
+
+msgid "Ona"
+msgstr "أونا"
+
+msgid "Onanism"
+msgstr "الجماع الناقص"
+
+msgid "Once"
+msgstr "عندما"
+
+msgid "Oncer"
+msgstr "سابقا"
+
+msgid "Oncology"
+msgstr "علم الأورام"
+
+msgid "Oncoming"
+msgstr "مقبل"
+
+msgid "One"
+msgstr "واحد"
+
+msgid "One-address"
+msgstr "العنوان الأحادي"
+
+msgid "One-board"
+msgstr "لوحة واحدة"
+
+msgid "One-chip"
+msgstr "رقاقة واحدة"
+
+msgid "One-digit"
+msgstr "رقم واحد"
+
+msgid "One-level"
+msgstr "مستوى واحد"
+
+msgid "One-line"
+msgstr "خطّ واحد"
+
+msgid "One-part"
+msgstr "جزء واحد"
+
+msgid "One-pass"
+msgstr "ترخيص واحد"
+
+msgid "One-shot"
+msgstr "طلقة واحدة"
+
+msgid "One-sided"
+msgstr "أحادي الجانب"
+
+msgid "One-state"
+msgstr "حالة واحدة"
+
+msgid "One-step"
+msgstr "خطوة واحدة"
+
+msgid "One-time"
+msgstr "سابق"
+
+msgid "One-way"
+msgstr "أحادي الإتجاه"
+
+msgid "Oneida"
+msgstr "أونيدا - شعب أمريكيّ أصليّ"
+
+msgid "Oneness"
+msgstr "الوحدانية"
+
+msgid "Oner"
+msgstr "على"
+
+msgid "Onerous"
+msgstr "ثقيل"
+
+msgid "Onerously"
+msgstr "بشكل ثقيل"
+
+msgid "Onerousness"
+msgstr "الإرهاق"
+
+msgid "Ones"
+msgstr "تلك"
+
+msgid "Oneself"
+msgstr "نفسه"
+
+msgid "Onetime"
+msgstr "سابق"
+
+msgid "Oneupmanship"
+msgstr "التّحايل"
+
+msgid "Oneway"
+msgstr "ذو اتّجاه واحد"
+
+msgid "Ongoing"
+msgstr "مستمر"
+
+msgid "Onion"
+msgstr "البصل"
+
+msgid "Onions"
+msgstr "البصل"
+
+msgid "Onionskin"
+msgstr "ورق قوي"
+
+msgid "Online"
+msgstr "على الإنترنت"
+
+msgid "Onliness"
+msgstr "الوُحدة"
+
+msgid "Onlooker"
+msgstr "المشاهد"
+
+msgid "Onlookers"
+msgstr "المشاهدون"
+
+msgid "Onlooking"
+msgstr "متفرّج"
+
+msgid "Only"
+msgstr "فقط"
+
+msgid "Only...but"
+msgstr "فقط. . . لكن"
+
+msgid "Onomatopoeia"
+msgstr "المحاكاة الصوتية"
+
+msgid "Onomatopoeic"
+msgstr "متعلّق بالمحاكاة الصّوتيّة"
+
+msgid "Onondaga"
+msgstr "أونونداجا - شعب أمريكيّ أصليّ"
+
+msgid "Onrush"
+msgstr "التدفق"
+
+msgid "Onrushes"
+msgstr "التدفقات"
+
+msgid "Onrushing"
+msgstr "ريع جدّا"
+
+msgid "Onscreen"
+msgstr "على الشّاشة"
+
+msgid "Onset"
+msgstr "البداية"
+
+msgid "Onsets"
+msgstr "الحملات"
+
+msgid "Onslaught"
+msgstr "الهجوم"
+
+msgid "Onslaughts"
+msgstr "الهجمات"
+
+msgid "Ontario"
+msgstr "أونتاريو"
+
+msgid "Onto"
+msgstr "على"
+
+msgid "Ontogeny"
+msgstr "تطوّر الجنين"
+
+msgid "Ontological"
+msgstr "وجودي"
+
+msgid "Ontologically"
+msgstr "وجوديا"
+
+msgid "Ontology"
+msgstr "علم الوجود"
+
+msgid "Onus"
+msgstr "المسؤولية"
+
+msgid "Onward"
+msgstr "فصاعدا"
+
+msgid "Onwards"
+msgstr "إلى الأمام"
+
+msgid "Onyx"
+msgstr "الجزع"
+
+msgid "Oocyte"
+msgstr "وسيت"
+
+msgid "Oodles"
+msgstr "ودلس"
+
+msgid "Oops"
+msgstr "ويحي"
+
+msgid "Ooze"
+msgstr "الرواسب الطينية"
+
+msgid "Oozed"
+msgstr "نزّ"
+
+msgid "Oozes"
+msgstr "الرواسب الطينية"
+
+msgid "Oozily"
+msgstr "بتدفّق"
+
+msgid "Ooziness"
+msgstr "التدفّق"
+
+msgid "Oozing"
+msgstr "النزيز"
+
+msgid "Oozy"
+msgstr "طينيّ"
+
+msgid "Op"
+msgstr "أضف نمط الإدارة"
+
+msgid "Opacities"
+msgstr "إنعدام الشفافية"
+
+msgid "Opacity"
+msgstr "عدم الشفافية"
+
+msgid "Opal"
+msgstr "العقيق"
+
+msgid "Opalescence"
+msgstr "البريق"
+
+msgid "Opalescent"
+msgstr "برّاق"
+
+msgid "Opalescently"
+msgstr "بشكل برّاق"
+
+msgid "Opals"
+msgstr "الكثافات"
+
+msgid "Opaque"
+msgstr "بليد"
+
+msgid "Opaquely"
+msgstr "بشكل بليد"
+
+msgid "Opaqueness"
+msgstr "انعدام الشّفافيّة"
+
+msgid "Opcode"
+msgstr "عملية برمجية"
+
+msgid "OPEC"
+msgstr "الأوبك"
+
+msgid "Opel"
+msgstr "ماركة سيارات تجارية"
+
+msgid "Open"
+msgstr "مفتوح"
+
+msgid "Open-minded"
+msgstr "منفتح"
+
+msgid "Opened"
+msgstr "مفتوح"
+
+msgid "Opener"
+msgstr "الفتّاحة"
+
+msgid "Openers"
+msgstr "الفتّاحات"
+
+msgid "Openest"
+msgstr "مفتوح"
+
+msgid "Openhanded"
+msgstr "سخيْ"
+
+msgid "Opening"
+msgstr "الإفتتاح"
+
+msgid "Openings"
+msgstr "الإفتتاحيات"
+
+msgid "Openly"
+msgstr "بشكل علني"
+
+msgid "Openness"
+msgstr "الإنفتاح"
+
+msgid "OpenOffice"
+msgstr "أوبن أوفيس"
+
+msgid "Opens"
+msgstr "يفتح"
+
+msgid "OpenSource"
+msgstr "مفتوحة المصدر"
+
+msgid "Opera"
+msgstr "الأوبرا"
+
+msgid "Operability"
+msgstr "القابلية للمعالجة الجراحيّة"
+
+msgid "Operable"
+msgstr "عملي"
+
+msgid "Operand"
+msgstr "من يطبّق عليه العملية الرياضية"
+
+msgid "Operands"
+msgstr "من يطبّق عليهم العملية الرياضية"
+
+msgid "Operant"
+msgstr "فعّال"
+
+msgid "Operantly"
+msgstr "بشكل فعّال"
+
+msgid "Operants"
+msgstr "المؤثّرون"
+
+msgid "Operas"
+msgstr "الأوبرات"
+
+msgid "Operate"
+msgstr "إشتغل"
+
+msgid "Operated"
+msgstr "مشتغل"
+
+msgid "Operates"
+msgstr "يشتغل"
+
+msgid "Operatic"
+msgstr "متعلق بالأوبرا"
+
+msgid "Operatically"
+msgstr "بشكل متعلق بالأوبرا"
+
+msgid "Operating"
+msgstr "التشغيل"
+
+msgid "Operatingsystem"
+msgstr "نظام التشغيل"
+
+msgid "Operation"
+msgstr "العملية"
+
+msgid "Operational"
+msgstr "شغّال"
+
+msgid "Operationally"
+msgstr "بشكل شغّال"
+
+msgid "Operations"
+msgstr "العمليات"
+
+msgid "Operative"
+msgstr "المشارك"
+
+msgid "Operatively"
+msgstr "بفعالية"
+
+msgid "Operativeness"
+msgstr "التجسس"
+
+msgid "Operatives"
+msgstr "المشاركون"
+
+msgid "Operator"
+msgstr "المشغل"
+
+msgid "Operators"
+msgstr "المشغلون"
+
+msgid "Operculum"
+msgstr "الغلاف او الغطاء"
+
+msgid "Operetta"
+msgstr "التمثيلية الموسيقية"
+
+msgid "Operon"
+msgstr "جينات متّصلة مع بعضها"
+
+msgid "Ophthalmic"
+msgstr "بصري"
+
+msgid "Ophthalmitis"
+msgstr "إلتهاب العين، الرّمد"
+
+msgid "Ophthalmologist"
+msgstr "طبيب العيون"
+
+msgid "Ophthalmology"
+msgstr "طبّ العيون"
+
+msgid "Ophthalmoscope"
+msgstr "ناظور العيون"
+
+msgid "Opiate"
+msgstr "الدواء المنوم"
+
+msgid "Opiates"
+msgstr "الأدوية المنومة"
+
+msgid "Opine"
+msgstr "إعتقد"
+
+msgid "Opined"
+msgstr "مقال"
+
+msgid "Opines"
+msgstr "يعتقد"
+
+msgid "Opining"
+msgstr "الإعتقاد"
+
+msgid "Opinion"
+msgstr "الرأي"
+
+msgid "Opinionate"
+msgstr "يعاند"
+
+msgid "Opinionated"
+msgstr "عنيد"
+
+msgid "Opinionatedly"
+msgstr "بعناد"
+
+msgid "Opinionatedness"
+msgstr "العناد"
+
+msgid "Opinions"
+msgstr "الآراء"
+
+msgid "Opium"
+msgstr "الأفيون"
+
+msgid "Opossum"
+msgstr "حيوان الأبوسوم"
+
+msgid "Oppenheimer"
+msgstr "أوبينهايمر - فيزيائيّ أمريكيّ"
+
+msgid "Opponent"
+msgstr "المعارض"
+
+msgid "Opponents"
+msgstr "المعارضون"
+
+msgid "Opportune"
+msgstr "مناسب"
+
+msgid "Opportunely"
+msgstr "بملائمة"
+
+msgid "Opportunism"
+msgstr "الإنتهازية"
+
+msgid "Opportunisms"
+msgstr "الإنتهازية"
+
+msgid "Opportunistic"
+msgstr "إنتهازي"
+
+msgid "Opportunistically"
+msgstr "بانتهازية"
+
+msgid "Opportunists"
+msgstr "الإنتهازيون"
+
+msgid "Opportunities"
+msgstr "الفرص"
+
+msgid "Opportunity"
+msgstr "الفرصة"
+
+msgid "Opposable"
+msgstr "قابل للمعارضة"
+
+msgid "Oppose"
+msgstr "عارض"
+
+msgid "Opposed"
+msgstr "معارض"
+
+msgid "Opposer"
+msgstr "الخصم"
+
+msgid "Opposes"
+msgstr "يعارض"
+
+msgid "Opposing"
+msgstr "المعارضة"
+
+msgid "Opposite"
+msgstr "النظير"
+
+msgid "Oppositely"
+msgstr "بشكل معاكس"
+
+msgid "Oppositeness"
+msgstr "التّضادّ"
+
+msgid "Opposites"
+msgstr "النظراء"
+
+msgid "Opposition"
+msgstr "المعارضة"
+
+msgid "Oppositional"
+msgstr "معارض"
+
+msgid "Oppositions"
+msgstr "المعارضات"
+
+msgid "Oppress"
+msgstr "إضطهد"
+
+msgid "Oppressed"
+msgstr "مضطهد"
+
+msgid "Oppresses"
+msgstr "يضطهد"
+
+msgid "Oppressing"
+msgstr "الإضطهاد"
+
+msgid "Oppression"
+msgstr "الظلم"
+
+msgid "Oppressions"
+msgstr "الجور"
+
+msgid "Oppressive"
+msgstr "مستبدّ"
+
+msgid "Oppressively"
+msgstr "بشكل مستبدّ"
+
+msgid "Oppressiveness"
+msgstr "القسوة"
+
+msgid "Oppressor"
+msgstr "المضطهد"
+
+msgid "Oppressors"
+msgstr "المضطهدون"
+
+msgid "Opprobrious"
+msgstr "مخزي"
+
+msgid "Opprobriously"
+msgstr "بشكل مخزي"
+
+msgid "Opprobriousness"
+msgstr "الوقاحة"
+
+msgid "Opprobrium"
+msgstr "العاري"
+
+msgid "Opt"
+msgstr "إختر"
+
+msgid "Optative"
+msgstr "متمنّي"
+
+msgid "Opted"
+msgstr "مختار"
+
+msgid "Opthalmic"
+msgstr "متعلق بالعين"
+
+msgid "Optic"
+msgstr "بصري"
+
+msgid "Optical"
+msgstr "بصري"
+
+msgid "Optically"
+msgstr "بصريا"
+
+msgid "Optician"
+msgstr "فاحص البصر"
+
+msgid "Opticians"
+msgstr "فاحصو البصر"
+
+msgid "Optics"
+msgstr "البصريات"
+
+msgid "Optima"
+msgstr "الأفضل"
+
+msgid "Optimal"
+msgstr "مثالي"
+
+msgid "Optimality"
+msgstr "الأمثلية"
+
+msgid "Optimally"
+msgstr "بشكل مثالي"
+
+msgid "Optimism"
+msgstr "التفاؤل"
+
+msgid "Optimist"
+msgstr "المتفائل"
+
+msgid "Optimistic"
+msgstr "متفائل"
+
+msgid "Optimistically"
+msgstr "بتفائل"
+
+msgid "Optimists"
+msgstr "المتفائلون"
+
+msgid "Optimization"
+msgstr "تحقيق الأمثلية"
+
+msgid "Optimizations"
+msgstr "تحقيق الأمثلية"
+
+msgid "Optimize"
+msgstr "حسّن"
+
+msgid "Optimized"
+msgstr "محسّن"
+
+msgid "Optimizer"
+msgstr "المحسّن"
+
+msgid "Optimizes"
+msgstr "يحسّن"
+
+msgid "Optimizing"
+msgstr "التحسين"
+
+msgid "Optimum"
+msgstr "الأوج"
+
+msgid "Opting"
+msgstr "الإختيار"
+
+msgid "Option"
+msgstr "الخيار"
+
+msgid "Optional"
+msgstr "إختياري"
+
+msgid "Optionality"
+msgstr "الاختياريّة"
+
+msgid "Optionally"
+msgstr "باختيار"
+
+msgid "Options"
+msgstr "الخيارات"
+
+msgid "Optoelectronic"
+msgstr "الكتروضوئي"
+
+msgid "Optometric"
+msgstr "متعلق بإخصائيّ النّظّارات"
+
+msgid "Optometrist"
+msgstr "إخصائيّ النّظّارات"
+
+msgid "Optometrists"
+msgstr "إخصائيّو النّظّارات"
+
+msgid "Optometry"
+msgstr "فحص النظر"
+
+msgid "Opts"
+msgstr "يختار"
+
+msgid "Opulence"
+msgstr "الثراء"
+
+msgid "Opulent"
+msgstr "غني"
+
+msgid "Opulently"
+msgstr "بشكل غني"
+
+msgid "Opus"
+msgstr "التأليف"
+
+msgid "Opuses"
+msgstr "التأليفات"
+
+msgid "OR"
+msgstr "أو"
+
+msgid "Oracle"
+msgstr "العرّاف :: العرّافة :: إسم تجاري لقاعدة بيانات"
+
+msgid "Oracles"
+msgstr "مهتفو الوحي"
+
+msgid "Oracular"
+msgstr "نبوئي"
+
+msgid "Oracularly"
+msgstr "بشكل نبوئي"
+
+msgid "Oral"
+msgstr "شفهي"
+
+msgid "Orally"
+msgstr "بشكل شفهي"
+
+msgid "Orals"
+msgstr "أورالس"
+
+msgid "Orange"
+msgstr "البرتقال"
+
+msgid "Orangeade"
+msgstr "عصير البرتقال"
+
+msgid "Orangeroot"
+msgstr "أورانجيروت - نبات"
+
+msgid "Oranges"
+msgstr "البرتقال"
+
+msgid "Orangutan"
+msgstr "القرد"
+
+msgid "Orate"
+msgstr "إخطب"
+
+msgid "Orated"
+msgstr "مخطوب"
+
+msgid "Orates"
+msgstr "يخطب"
+
+msgid "Orating"
+msgstr "الخطابة"
+
+msgid "Oration"
+msgstr "الخطاب"
+
+msgid "Orations"
+msgstr "الخطب"
+
+msgid "Orator"
+msgstr "الخطيب"
+
+msgid "Oratorical"
+msgstr "خطابي"
+
+msgid "Oratorically"
+msgstr "بشكل خطابي"
+
+msgid "Oratories"
+msgstr "الخطابات"
+
+msgid "Oratorio"
+msgstr "اللحن الديني"
+
+msgid "Oratorios"
+msgstr "الألحان الدينية"
+
+msgid "Orators"
+msgstr "الخطباء"
+
+msgid "Oratory"
+msgstr "الخطابة"
+
+msgid "Orb"
+msgstr "الجرم السماوي"
+
+msgid "Orbicular"
+msgstr "مستدير"
+
+msgid "Orbit"
+msgstr "المدار"
+
+msgid "Orbital"
+msgstr "مداري"
+
+msgid "Orbitally"
+msgstr "بشكل مداري"
+
+msgid "Orbitals"
+msgstr "المداريّون"
+
+msgid "Orbited"
+msgstr "دير حوله"
+
+msgid "Orbiter"
+msgstr "المتتبّع"
+
+msgid "Orbiters"
+msgstr "المتتبّعات"
+
+msgid "Orbiting"
+msgstr "الإدارة حول"
+
+msgid "Orbits"
+msgstr "المدارات"
+
+msgid "Orbs"
+msgstr "الأجرام السماوية"
+
+msgid "Orchard"
+msgstr "البستان"
+
+msgid "Orchards"
+msgstr "البساتين"
+
+msgid "Orchestra"
+msgstr "الأوركسترا"
+
+msgid "Orchestral"
+msgstr "أوركسترالي"
+
+msgid "Orchestrally"
+msgstr "بشكل أوركسترالي"
+
+msgid "Orchestras"
+msgstr "الأوركسترا"
+
+msgid "Orchestrate"
+msgstr "نظّم"
+
+msgid "Orchestrated"
+msgstr "منظّم"
+
+msgid "Orchestrater"
+msgstr "قائد أوركسترا"
+
+msgid "Orchestrates"
+msgstr "ينظّم"
+
+msgid "Orchestrating"
+msgstr "التنظيم"
+
+msgid "Orchestration"
+msgstr "التوزيع الموسيقي"
+
+msgid "Orchestrations"
+msgstr "التوزيعات الموسيقية"
+
+msgid "Orchid"
+msgstr "السحلب"
+
+msgid "Orchids"
+msgstr "السحالب"
+
+msgid "Orchis"
+msgstr "السحلب"
+
+msgid "Ordain"
+msgstr "مر"
+
+msgid "Ordained"
+msgstr "مقدّر"
+
+msgid "Ordainer"
+msgstr "المستثمر أو الآمر"
+
+msgid "Ordaining"
+msgstr "الأمر"
+
+msgid "Ordains"
+msgstr "يأمر"
+
+msgid "Ordeal"
+msgstr "المحنة"
+
+msgid "Ordeals"
+msgstr "المحن"
+
+msgid "Order"
+msgstr "الطلب"
+
+msgid "Ordered"
+msgstr "منظّم"
+
+msgid "Orderer"
+msgstr "المنظّم"
+
+msgid "Ordering"
+msgstr "الطلب"
+
+msgid "Orderless"
+msgstr "معدوم النظام"
+
+msgid "Orderlies"
+msgstr "الممرضون"
+
+msgid "Orderliness"
+msgstr "التّنظيم"
+
+msgid "Orderly"
+msgstr "بنظام"
+
+msgid "Orders"
+msgstr "الطلبات"
+
+msgid "Ordinal"
+msgstr "العدد الترتيبي"
+
+msgid "Ordinance"
+msgstr "النظام"
+
+msgid "Ordinances"
+msgstr "الأنظمة"
+
+msgid "Ordinaries"
+msgstr "المألوف"
+
+msgid "Ordinarily"
+msgstr "بشكل عادي"
+
+msgid "Ordinariness"
+msgstr "العمومية"
+
+msgid "Ordinary"
+msgstr "عادي"
+
+msgid "Ordinate"
+msgstr "الإحداثي العمودي"
+
+msgid "Ordinates"
+msgstr "الإحداثيات العمودية"
+
+msgid "Ordination"
+msgstr "الرسامة"
+
+msgid "Ordinations"
+msgstr "الرسامات"
+
+msgid "Ordnance"
+msgstr "المدفعية"
+
+msgid "Ordnances"
+msgstr "المدفعيات"
+
+msgid "Ordure"
+msgstr "الغائط"
+
+msgid "Ore"
+msgstr "الخام"
+
+msgid "Oregano"
+msgstr "الأوريجانو - عشبّ"
+
+msgid "Oregon"
+msgstr "أوريغون"
+
+msgid "Ores"
+msgstr "الخامات"
+
+msgid "Orestes"
+msgstr "أوريستيز - ابن أجاميمنون و كليتيمنيسترا . الأساطير اليونانيّة"
+
+msgid "Organ"
+msgstr "العضو"
+
+msgid "Organdy"
+msgstr "الأورجانزا - قماش"
+
+msgid "Organic"
+msgstr "عضوي"
+
+msgid "Organically"
+msgstr "طبيعيا"
+
+msgid "Organicly"
+msgstr "بشكل عضوي"
+
+msgid "Organics"
+msgstr "المواد العضوية"
+
+msgid "Organisation"
+msgstr "المنظمة"
+
+msgid "Organisations"
+msgstr "المنظمات"
+
+msgid "Organism"
+msgstr "الكائن الحي"
+
+msgid "Organismic"
+msgstr "أورجانيسميك"
+
+msgid "Organisms"
+msgstr "الكائنات الحية"
+
+msgid "Organist"
+msgstr "عازف الأرغن"
+
+msgid "Organists"
+msgstr "عازفو الأرغن"
+
+msgid "Organizable"
+msgstr "قابل للتنظيم"
+
+msgid "Organization"
+msgstr "المنظمة"
+
+msgid "Organizational"
+msgstr "تنظيمي"
+
+msgid "Organizationally"
+msgstr "بتنظيم"
+
+msgid "Organizations"
+msgstr "المنظمات"
+
+msgid "Organize"
+msgstr "نظّم"
+
+msgid "Organized"
+msgstr "منظّم"
+
+msgid "Organizer"
+msgstr "المنظم"
+
+msgid "Organizers"
+msgstr "المنظمون"
+
+msgid "Organizes"
+msgstr "ينظّم"
+
+msgid "Organizing"
+msgstr "التنظيم"
+
+msgid "Organometallic"
+msgstr "متعلق بالمركب العضوي الذي يحتوي على معدن"
+
+msgid "Organs"
+msgstr "الأعضاء"
+
+msgid "Orgasm"
+msgstr "هزة الجماع"
+
+msgid "Orgasmic"
+msgstr "لذّة الجماع"
+
+msgid "Orgasms"
+msgstr "هزات الجماع"
+
+msgid "Orgiastic"
+msgstr "طقوسي"
+
+msgid "Orgiastically"
+msgstr "بصورة تشبه ممارسة الجنس الجَماعي"
+
+msgid "Orgies"
+msgstr "الطقوس العربيدة"
+
+msgid "Orgy"
+msgstr "الطقوس العربيدة"
+
+msgid "Oriel"
+msgstr "النافذة البارزة"
+
+msgid "Orient"
+msgstr "المشرق"
+
+msgid "Oriental"
+msgstr "شرقي"
+
+msgid "Orientally"
+msgstr "بشكل شرقي"
+
+msgid "Orientals"
+msgstr "الشرقيون"
+
+msgid "Orientate"
+msgstr "وجّه"
+
+msgid "Orientated"
+msgstr "موجّه"
+
+msgid "Orientates"
+msgstr "يوجّه"
+
+msgid "Orientating"
+msgstr "التوجيه"
+
+msgid "Orientation"
+msgstr "التوجيه"
+
+msgid "Orientations"
+msgstr "التوجيهات"
+
+msgid "Oriented"
+msgstr "موجه"
+
+msgid "Orienting"
+msgstr "التوجيه"
+
+msgid "Orients"
+msgstr "يوجّه"
+
+msgid "Orifice"
+msgstr "الفوهة"
+
+msgid "Orifices"
+msgstr "الفوهات"
+
+msgid "Origin"
+msgstr "الأصل"
+
+msgid "Original"
+msgstr "أصلي"
+
+msgid "Originalities"
+msgstr "الأصالات"
+
+msgid "Originality"
+msgstr "الأصالة"
+
+msgid "Originally"
+msgstr "أصلا"
+
+msgid "Originals"
+msgstr "الأصليون"
+
+msgid "Originate"
+msgstr "إنشأ"
+
+msgid "Originated"
+msgstr "منشوء"
+
+msgid "Originates"
+msgstr "ينشأ"
+
+msgid "Originating"
+msgstr "المنشأ"
+
+msgid "Origination"
+msgstr "الإبتكار"
+
+msgid "Originations"
+msgstr "الإبتكارات"
+
+msgid "Originative"
+msgstr "بدئي"
+
+msgid "Originatively"
+msgstr "بشكل بدئي"
+
+msgid "Originator"
+msgstr "المنشئ"
+
+msgid "Originators"
+msgstr "المنشؤون"
+
+msgid "Origins"
+msgstr "الاصول"
+
+msgid "Orinoco"
+msgstr "أورينوكو - نهر في فنزويلا"
+
+msgid "Oriole"
+msgstr "الأوريول - طائر"
+
+msgid "Orioles"
+msgstr "طيور الأوريول"
+
+msgid "Orion"
+msgstr "الجوزاء"
+
+msgid "Orkney"
+msgstr "جزر أوركني"
+
+msgid "Orlando"
+msgstr "أورلندو"
+
+msgid "Orleans"
+msgstr "أورلينس"
+
+msgid "Orly"
+msgstr "أورلي - ضاحية بباريس"
+
+msgid "Ornament"
+msgstr "الحلية"
+
+msgid "Ornamental"
+msgstr "تزييني"
+
+msgid "Ornamentally"
+msgstr "بشكل تزييني"
+
+msgid "Ornamentation"
+msgstr "التزيين"
+
+msgid "Ornamentations"
+msgstr "التزيين"
+
+msgid "Ornamented"
+msgstr "مزيّن"
+
+msgid "Ornamenting"
+msgstr "التزيين"
+
+msgid "Ornaments"
+msgstr "الحلي"
+
+msgid "Ornate"
+msgstr "مزخرف"
+
+msgid "Ornately"
+msgstr "بزخرفة عالية"
+
+msgid "Ornateness"
+msgstr "أورناتينيس"
+
+msgid "Orneriness"
+msgstr "سوء الطّبع"
+
+msgid "Ornery"
+msgstr "مشاكس"
+
+msgid "Ornithologic"
+msgstr "خاصّ بعلم الطّيور"
+
+msgid "Ornithological"
+msgstr "طيوري"
+
+msgid "Ornithologically"
+msgstr "بشكل طيوري"
+
+msgid "Ornithologist"
+msgstr "عالم الطيور"
+
+msgid "Ornithology"
+msgstr "علم الطيور"
+
+msgid "Orographic"
+msgstr "جبليّ"
+
+msgid "Orography"
+msgstr "علم الجبال"
+
+msgid "Orono"
+msgstr "أورونو"
+
+msgid "Orotund"
+msgstr "جهوريّ"
+
+msgid "Orotundity"
+msgstr "الجهورية"
+
+msgid "Orphan"
+msgstr "اليتيم"
+
+msgid "Orphanage"
+msgstr "ملجأ الأيتام"
+
+msgid "Orphanages"
+msgstr "ملاجئ اليتامى"
+
+msgid "Orphaned"
+msgstr "يتّم"
+
+msgid "Orphanhood"
+msgstr "اليتم"
+
+msgid "Orphaning"
+msgstr "التّيتيم"
+
+msgid "Orphans"
+msgstr "الأيتام"
+
+msgid "Orpheus"
+msgstr "أورفيس - شاعر . الأساطير اليونانيّة"
+
+msgid "Orphic"
+msgstr "متعلق بـ أورفيس"
+
+msgid "Orr"
+msgstr "أور - لاعب هوكي كنديّ الأصل"
+
+msgid "Ortega"
+msgstr "أورتيجا"
+
+msgid "Orthicon"
+msgstr "أورثيكون - أحد مكوّنات كاميرا التلفزيون"
+
+msgid "Orthochromatic"
+msgstr "أورثوكروماتي - حسّاس لجميع الألوان عدا الأحمر"
+
+msgid "Orthoclase"
+msgstr "الأورثوكلاز - تشكيلة سليكات الألمنيوم"
+
+msgid "Orthodontic"
+msgstr "متعلق بتقويم الأسنان"
+
+msgid "Orthodontics"
+msgstr "متعلق بتقويم الأسنان"
+
+msgid "Orthodontist"
+msgstr "إخصائيّ تقويم الأسنان"
+
+msgid "Orthodontists"
+msgstr "إخصائيّو تقويم الأسنان"
+
+msgid "Orthodox"
+msgstr "أرثذوكسي"
+
+msgid "Orthodoxes"
+msgstr "الإعتياديون"
+
+msgid "Orthodoxly"
+msgstr "بشكل أرثذوكسي"
+
+msgid "Orthodoxy"
+msgstr "أرثذوكسي"
+
+msgid "Orthogonal"
+msgstr "متعامد"
+
+msgid "Orthogonality"
+msgstr "التعامدية"
+
+msgid "Orthogonally"
+msgstr "بشكل متعامد"
+
+msgid "Orthographic"
+msgstr "إملائي"
+
+msgid "Orthographical"
+msgstr "إملائي"
+
+msgid "Orthographically"
+msgstr "إملائيا"
+
+msgid "Orthographies"
+msgstr "علوم التّهجّي"
+
+msgid "Orthography"
+msgstr "قواعد الإملاء"
+
+msgid "Orthopedic"
+msgstr "تجبيري"
+
+msgid "Orthopedically"
+msgstr "بشكل تجبيري"
+
+msgid "Orthopedics"
+msgstr "جراحة العظام"
+
+msgid "Orthopedist"
+msgstr "إخصائيّ تقويم العظام"
+
+msgid "Orthopedy"
+msgstr "علاج التشوّهات الجسمانية"
+
+msgid "Orthophosphate"
+msgstr "أورثوفوسفيت - ملح حمض الفوسفوريك"
+
+msgid "Orthophosphates"
+msgstr "أورثوفوسفيت - أملاح حمض الفوسفوريك"
+
+msgid "Orville"
+msgstr "أورفيل"
+
+msgid "Orwell"
+msgstr "أورويل"
+
+msgid "Orwellian"
+msgstr "أورويلي"
+
+msgid "OS"
+msgstr "نظام التشغيل"
+
+msgid "Osaka"
+msgstr "أوساكا"
+
+msgid "Osbert"
+msgstr "أوسبيرت"
+
+msgid "Osborn"
+msgstr "أوسبورن"
+
+msgid "Osborne"
+msgstr "أوسبورن"
+
+msgid "Oscar"
+msgstr "أوسكار"
+
+msgid "Oscillate"
+msgstr "تذبذب"
+
+msgid "Oscillated"
+msgstr "متذبذب"
+
+msgid "Oscillates"
+msgstr "يتذبذب"
+
+msgid "Oscillating"
+msgstr "التذبذب"
+
+msgid "Oscillation"
+msgstr "التذبذب"
+
+msgid "Oscillations"
+msgstr "التذبذبات"
+
+msgid "Oscillator"
+msgstr "المذبذب"
+
+msgid "Oscillators"
+msgstr "المذبذبات"
+
+msgid "Oscillatory"
+msgstr "تذبذي"
+
+msgid "Oscillograph"
+msgstr "مسجل الذبذبات"
+
+msgid "Oscilloscope"
+msgstr "راسمة الذبذبات"
+
+msgid "Oscilloscopes"
+msgstr "راسمات الذبذبات"
+
+msgid "Osculant"
+msgstr "لمسي"
+
+msgid "Osculate"
+msgstr "قبّل"
+
+msgid "Osculated"
+msgstr "مقبّل"
+
+msgid "Osculates"
+msgstr "يقبّل"
+
+msgid "Osculating"
+msgstr "التقبيل"
+
+msgid "Osgood"
+msgstr "أوسجوود"
+
+msgid "OSHA"
+msgstr "منظمة الأمان و الصحة"
+
+msgid "Oshkosh"
+msgstr "أوشكوش"
+
+msgid "Osier"
+msgstr "شجرة الصفصاف"
+
+msgid "Osiris"
+msgstr "أوزوريس - الإله المصريّ القديم . الأساطير"
+
+msgid "Oslo"
+msgstr "أوسلو"
+
+msgid "Osmium"
+msgstr "الأزميوم"
+
+msgid "Osmosis"
+msgstr "التنافذ"
+
+msgid "Osmotic"
+msgstr "تنافذي"
+
+msgid "Osprey"
+msgstr "طير الشماط"
+
+msgid "Ospreys"
+msgstr "طيور الشماط"
+
+msgid "Osseous"
+msgstr "عظمي"
+
+msgid "Osseously"
+msgstr "بشكل عظمي"
+
+msgid "Ossification"
+msgstr "التعظّم"
+
+msgid "Ossifications"
+msgstr "التعظّم"
+
+msgid "Ossified"
+msgstr "متحجّر"
+
+msgid "Ossifies"
+msgstr "يعظّم"
+
+msgid "Ossify"
+msgstr "تحجّر"
+
+msgid "Ossifying"
+msgstr "التحجّر"
+
+msgid "Ostensible"
+msgstr "مزعوم"
+
+msgid "Ostensibly"
+msgstr "زعما"
+
+msgid "Ostensive"
+msgstr "زاعم"
+
+msgid "Ostensively"
+msgstr "بشكل زاعم"
+
+msgid "Ostentation"
+msgstr "التفاخر"
+
+msgid "Ostentatious"
+msgstr "متفاخر"
+
+msgid "Ostentatiously"
+msgstr "بشكل متفاخر"
+
+msgid "Ostentatiousness"
+msgstr "الفخامة"
+
+msgid "Osteoblast"
+msgstr "خليّة بناء العظم"
+
+msgid "Osteology"
+msgstr "علم العظام"
+
+msgid "Osteoma"
+msgstr "الورم العظميّ"
+
+msgid "Osteomalacia"
+msgstr "لين العظام"
+
+msgid "Osteopath"
+msgstr "مجبّر العظام"
+
+msgid "Osteopathic"
+msgstr "تقويميّ"
+
+msgid "Osteopaths"
+msgstr "مجبرو العظام"
+
+msgid "Osteopathy"
+msgstr "تجبير العظام"
+
+msgid "Osteoporosis"
+msgstr "نخر العظام"
+
+msgid "Ostern"
+msgstr "أوسترن"
+
+msgid "Ostler"
+msgstr "السايس"
+
+msgid "Ostracism"
+msgstr "المقاطعة"
+
+msgid "Ostracize"
+msgstr "إنبذ"
+
+msgid "Ostracized"
+msgstr "منفي"
+
+msgid "Ostracizes"
+msgstr "ينبذ"
+
+msgid "Ostracizing"
+msgstr "النبذ"
+
+msgid "Ostracod"
+msgstr "أوستراكود - حيوانات قشريّة"
+
+msgid "Ostrander"
+msgstr "أوستراندر"
+
+msgid "Ostrich"
+msgstr "النعامة"
+
+msgid "Ostriches"
+msgstr "النعامات"
+
+msgid "Oswald"
+msgstr "أوزوالد"
+
+msgid "Othello"
+msgstr "عطيل"
+
+msgid "Other"
+msgstr "آخر"
+
+msgid "Otherness"
+msgstr "إختلاف"
+
+msgid "Others"
+msgstr "الآخرون"
+
+msgid "Otherwise"
+msgstr "ما عدا ذلك"
+
+msgid "Otherworld"
+msgstr "العالم الآخر"
+
+msgid "Otherworldliness"
+msgstr "الغيبية"
+
+msgid "Otherworldly"
+msgstr "أخرويّ"
+
+msgid "Otiose"
+msgstr "عقيم"
+
+msgid "Otiosely"
+msgstr "بشكل عقيم"
+
+msgid "Otis"
+msgstr "أوتيس - مخترع المصعد"
+
+msgid "Ott"
+msgstr "إختصار لـ على القمّة"
+
+msgid "Ottawa"
+msgstr "أوتاوا"
+
+msgid "Otter"
+msgstr "كلب الماء"
+
+msgid "Otters"
+msgstr "كلاب الماء"
+
+msgid "Otto"
+msgstr "العطر"
+
+msgid "Ottoman"
+msgstr "عثماني"
+
+msgid "Ouagadougou"
+msgstr "واجادوجو - المدينة الأكبر و عاصمة بوركينا فاسو"
+
+msgid "Oubliette"
+msgstr "الزّنزانة"
+
+msgid "Ouch"
+msgstr "آخ"
+
+msgid "Ought"
+msgstr "Ought"
+
+msgid "Ounce"
+msgstr "الأونس"
+
+msgid "Ounces"
+msgstr "الأونسات"
+
+msgid "Our"
+msgstr "نا"
+
+msgid "Ours"
+msgstr "لنا"
+
+msgid "Ourself"
+msgstr "بنفسي"
+
+msgid "Ourselves"
+msgstr "أنفسنا"
+
+msgid "Oust"
+msgstr "إطرد"
+
+msgid "Ousted"
+msgstr "مطرود"
+
+msgid "Ouster"
+msgstr "الإبعاد"
+
+msgid "Ousting"
+msgstr "الطرد"
+
+msgid "Ousts"
+msgstr "يطرد"
+
+msgid "Out"
+msgstr "خارج"
+
+msgid "Out-bound"
+msgstr "متّجه للخارج"
+
+msgid "Out-of-band"
+msgstr "خارج من الفرقة"
+
+msgid "Out-of-date"
+msgstr "منتهي التأريخ"
+
+msgid "Out-of-work"
+msgstr "خارج من العمل"
+
+msgid "Outage"
+msgstr "الإنقطاع"
+
+msgid "Outages"
+msgstr "عمليات الإنقطاع"
+
+msgid "Outback"
+msgstr "المناطق النائية"
+
+msgid "Outbade"
+msgstr "زويد عليه"
+
+msgid "Outbalance"
+msgstr "فق"
+
+msgid "Outbid"
+msgstr "بزّ"
+
+msgid "Outbidden"
+msgstr "مزايد على"
+
+msgid "Outbidding"
+msgstr "البزّ"
+
+msgid "Outbids"
+msgstr "يبزّ"
+
+msgid "Outboard"
+msgstr "خارجي"
+
+msgid "Outbound"
+msgstr "متوجّه"
+
+msgid "Outbox"
+msgstr "صندوق الصادرات"
+
+msgid "Outbreak"
+msgstr "التفشّي"
+
+msgid "Outbreaks"
+msgstr "حالات التفشّي"
+
+msgid "Outbuilding"
+msgstr "البناء الإضافي"
+
+msgid "Outburst"
+msgstr "الإنفجار"
+
+msgid "Outbursts"
+msgstr "الإنفجارات"
+
+msgid "Outcast"
+msgstr "مرفوض"
+
+msgid "Outcasts"
+msgstr "المنبوذون"
+
+msgid "Outclass"
+msgstr "فق"
+
+msgid "Outclassed"
+msgstr "متخلّف"
+
+msgid "Outclassing"
+msgstr "الإفاقة"
+
+msgid "Outcome"
+msgstr "النتيجة"
+
+msgid "Outcomes"
+msgstr "النتائج"
+
+msgid "Outcries"
+msgstr "الضجّات"
+
+msgid "Outcrop"
+msgstr "التفطر"
+
+msgid "Outcropped"
+msgstr "برز"
+
+msgid "Outcropping"
+msgstr "البروز"
+
+msgid "Outcrops"
+msgstr "التفطر"
+
+msgid "Outcry"
+msgstr "الضجّة"
+
+msgid "Outdated"
+msgstr "قديم"
+
+msgid "Outdatedness"
+msgstr "التّقادم"
+
+msgid "Outdid"
+msgstr "بزّ"
+
+msgid "Outdistanced"
+msgstr "مجتاز"
+
+msgid "Outdistances"
+msgstr "يجتاز"
+
+msgid "Outdistancing"
+msgstr "الإجتياز"
+
+msgid "Outdo"
+msgstr "بزّ"
+
+msgid "Outdoes"
+msgstr "يبزّ"
+
+msgid "Outdoing"
+msgstr "البزّ"
+
+msgid "Outdone"
+msgstr "مبزوز"
+
+msgid "Outdoor"
+msgstr "في الهواء الطلق"
+
+msgid "Outdoors"
+msgstr "النزهات"
+
+msgid "Outdrew"
+msgstr "تفوق على شخص ما في سحب المسدّس"
+
+msgid "Outed"
+msgstr "وتيد"
+
+msgid "Outer"
+msgstr "خارجي"
+
+msgid "Outermost"
+msgstr "أبعد"
+
+msgid "Outface"
+msgstr "تحدّ"
+
+msgid "Outfield"
+msgstr "آخر ملعب البيسبول"
+
+msgid "Outfielder"
+msgstr "لاعب الدّفاع"
+
+msgid "Outfielders"
+msgstr "لاعبو الدّفاع"
+
+msgid "Outfit"
+msgstr "الزيّ"
+
+msgid "Outfits"
+msgstr "الأزياء"
+
+msgid "Outfitted"
+msgstr "جهّز"
+
+msgid "Outfitters"
+msgstr "تجّار الملابس"
+
+msgid "Outfitting"
+msgstr "التجهيز"
+
+msgid "Outflank"
+msgstr "طوّق"
+
+msgid "Outflanked"
+msgstr "مطوّق"
+
+msgid "Outflanking"
+msgstr "التطويق"
+
+msgid "Outflanks"
+msgstr "يطوّق"
+
+msgid "Outflow"
+msgstr "الفيضان"
+
+msgid "Outflows"
+msgstr "الفيضانات"
+
+msgid "Outfought"
+msgstr "هزم"
+
+msgid "Outfox"
+msgstr "يتفوّق بالحيلة"
+
+msgid "Outfoxed"
+msgstr "تفوّق بالحيلة"
+
+msgid "Outfoxes"
+msgstr "يتفوّق بالحيلة"
+
+msgid "Outfoxing"
+msgstr "التفوّق بالحيلة"
+
+msgid "Outgeneraled"
+msgstr "تفوّق بحسن القيادة"
+
+msgid "Outgoing"
+msgstr "النفقات"
+
+msgid "Outgoingness"
+msgstr "الخروج"
+
+msgid "Outgoings"
+msgstr "النفقات"
+
+msgid "Outgrew"
+msgstr "نمى أكثر منه"
+
+msgid "Outgrow"
+msgstr "إنم أكثر منه"
+
+msgid "Outgrowing"
+msgstr "النمو أكثر من"
+
+msgid "Outgrown"
+msgstr "نامي أكثر من"
+
+msgid "Outgrows"
+msgstr "ينمو أكثر منه"
+
+msgid "Outgrowth"
+msgstr "النمو"
+
+msgid "Outgrowths"
+msgstr "النمو"
+
+msgid "Outhouse"
+msgstr "المرحاض الخارجي"
+
+msgid "Outing"
+msgstr "السفرة"
+
+msgid "Outings"
+msgstr "السفرات"
+
+msgid "Outland"
+msgstr "أجنبي"
+
+msgid "Outlander"
+msgstr "أجنبي"
+
+msgid "Outlanders"
+msgstr "الأجانب"
+
+msgid "Outlandish"
+msgstr "غريب"
+
+msgid "Outlandishly"
+msgstr "بشكل غريب"
+
+msgid "Outlandishness"
+msgstr "الغرابة"
+
+msgid "Outlast"
+msgstr "دم أطول منه"
+
+msgid "Outlasted"
+msgstr "مدام أطول من"
+
+msgid "Outlasting"
+msgstr "الديمومة أطول من"
+
+msgid "Outlasts"
+msgstr "يدوم أطول منه"
+
+msgid "Outlaw"
+msgstr "المجرم"
+
+msgid "Outlawed"
+msgstr "غير شرعي"
+
+msgid "Outlawing"
+msgstr "المنع"
+
+msgid "Outlawries"
+msgstr "الخروج عن القانون"
+
+msgid "Outlawry"
+msgstr "حرمان الحقوق"
+
+msgid "Outlaws"
+msgstr "المجرمون"
+
+msgid "Outlay"
+msgstr "النفقة"
+
+msgid "Outlaying"
+msgstr "الوضع"
+
+msgid "Outlays"
+msgstr "النفقات"
+
+msgid "Outlet"
+msgstr "المخرج"
+
+msgid "Outlets"
+msgstr "المخارج"
+
+msgid "Outlier"
+msgstr "من لايسكن في مكان عمله"
+
+msgid "Outliers"
+msgstr "من لايسكنون في مكان عملهم"
+
+msgid "Outline"
+msgstr "الخلاصة"
+
+msgid "Outlined"
+msgstr "ملخّص"
+
+msgid "Outlines"
+msgstr "الخطوط العامّة"
+
+msgid "Outlining"
+msgstr "التلخيص"
+
+msgid "Outlive"
+msgstr "إبق"
+
+msgid "Outlived"
+msgstr "باق"
+
+msgid "Outlives"
+msgstr "يعيش أطول منه"
+
+msgid "Outliving"
+msgstr "البقاء"
+
+msgid "Outlook"
+msgstr "وجهة النظر"
+
+msgid "Outlooks"
+msgstr "وجهات النظر"
+
+msgid "Outlying"
+msgstr "بعيد"
+
+msgid "Outmaneuver"
+msgstr "إهزم"
+
+msgid "Outmaneuvered"
+msgstr "هزم"
+
+msgid "Outmaneuvering"
+msgstr "الهزيمة"
+
+msgid "Outmaneuvers"
+msgstr "يهزم"
+
+msgid "Outmatched"
+msgstr "مهزوم"
+
+msgid "Outmigration"
+msgstr "الهجرة"
+
+msgid "Outmoded"
+msgstr "باطل الإستعمال"
+
+msgid "Outmost"
+msgstr "أبعد"
+
+msgid "Outness"
+msgstr "في الخارج"
+
+msgid "Outnumber"
+msgstr "فق عددا"
+
+msgid "Outnumbered"
+msgstr "مفاق عددا"
+
+msgid "Outnumbering"
+msgstr "إفاقة عددا"
+
+msgid "Outnumbers"
+msgstr "يفيق عددا"
+
+msgid "Outpatient"
+msgstr "المتعالج الخارجي"
+
+msgid "Outpatients"
+msgstr "المتعالجون الخارجيون"
+
+msgid "Outperform"
+msgstr "يتفوّق"
+
+msgid "Outperformed"
+msgstr "تفوّق"
+
+msgid "Outperforming"
+msgstr "التفوّق"
+
+msgid "Outperforms"
+msgstr "يتفوّق"
+
+msgid "Outplay"
+msgstr "إلعب أفضل منه"
+
+msgid "Outplayed"
+msgstr "ملعوب أفضل من"
+
+msgid "Outplaying"
+msgstr "اللعب أفضل من"
+
+msgid "Outplays"
+msgstr "يلعب أفضل منه"
+
+msgid "Outpost"
+msgstr "المخفر الأمامي"
+
+msgid "Outposts"
+msgstr "المخافر الأمامية"
+
+msgid "Outpour"
+msgstr "إنهل"
+
+msgid "Outpouring"
+msgstr "السيل"
+
+msgid "Outpourings"
+msgstr "السيول"
+
+msgid "Output"
+msgstr "الناتج"
+
+msgid "Outputs"
+msgstr "النواتج"
+
+msgid "Outputted"
+msgstr "أنتج"
+
+msgid "Outputting"
+msgstr "الإنتاج"
+
+msgid "Outrage"
+msgstr "الغضب"
+
+msgid "Outraged"
+msgstr "غاضب"
+
+msgid "Outrageous"
+msgstr "شنيع"
+
+msgid "Outrageously"
+msgstr "بشكل شنيع"
+
+msgid "Outrageousness"
+msgstr "الإفراط"
+
+msgid "Outrages"
+msgstr "الإساءة"
+
+msgid "Outraging"
+msgstr "الإغضاب"
+
+msgid "Outran"
+msgstr "إجتز"
+
+msgid "Outrange"
+msgstr "تجاوز بالمدى"
+
+msgid "Outre"
+msgstr "شاذّ"
+
+msgid "Outreach"
+msgstr "فق"
+
+msgid "Outreached"
+msgstr "ممتدّ"
+
+msgid "Outreaches"
+msgstr "يفيق"
+
+msgid "Outreaching"
+msgstr "الإفاقة"
+
+msgid "Outrider"
+msgstr "مرافق الموكب"
+
+msgid "Outrigger"
+msgstr "ذراع الإمتداد"
+
+msgid "Outriggers"
+msgstr "أذرعة الإمتداد"
+
+msgid "Outright"
+msgstr "كليّا"
+
+msgid "Outrightly"
+msgstr "بدون تحفّظ"
+
+msgid "Outrun"
+msgstr "مجتاز"
+
+msgid "Outruns"
+msgstr "يجتاز"
+
+msgid "Outs"
+msgstr "ينكشف"
+
+msgid "Outsell"
+msgstr "بع أكثر منه"
+
+msgid "Outselling"
+msgstr "البيع أكثر من"
+
+msgid "Outset"
+msgstr "البداية"
+
+msgid "Outshine"
+msgstr "تألّق"
+
+msgid "Outshines"
+msgstr "يتألّق"
+
+msgid "Outshining"
+msgstr "التألّق"
+
+msgid "Outshone"
+msgstr "تألّق"
+
+msgid "Outside"
+msgstr "خارج"
+
+msgid "Outsider"
+msgstr "الغريب"
+
+msgid "Outsiderness"
+msgstr "الإقصاء"
+
+msgid "Outsiders"
+msgstr "الغرباء"
+
+msgid "Outsides"
+msgstr "الخارج"
+
+msgid "Outsize"
+msgstr "حجم شاذ"
+
+msgid "Outsized"
+msgstr "شاذّ الحجم"
+
+msgid "Outsizes"
+msgstr "مقاسات كبيرة"
+
+msgid "Outskirts"
+msgstr "الأطراف"
+
+msgid "Outsmart"
+msgstr "إغلب"
+
+msgid "Outsmarted"
+msgstr "مغلوب"
+
+msgid "Outsmarting"
+msgstr "الغلب"
+
+msgid "Outsmarts"
+msgstr "يغلب"
+
+msgid "Outsold"
+msgstr "مبيع أكثر من"
+
+msgid "Outspoken"
+msgstr "صريح"
+
+msgid "Outspokenly"
+msgstr "بصراحة"
+
+msgid "Outspokenness"
+msgstr "الصّراحة"
+
+msgid "Outspread"
+msgstr "مفتوح"
+
+msgid "Outstanding"
+msgstr "البروز"
+
+msgid "Outstandingly"
+msgstr "بشكل رائع"
+
+msgid "Outstation"
+msgstr "المحطة النائية"
+
+msgid "Outstretch"
+msgstr "إمتدّ"
+
+msgid "Outstretched"
+msgstr "ممتد"
+
+msgid "Outstrip"
+msgstr "تجاوز"
+
+msgid "Outstripped"
+msgstr "متجاوز"
+
+msgid "Outstripping"
+msgstr "التجاوز"
+
+msgid "Outstrips"
+msgstr "يتجاوز"
+
+msgid "Outvote"
+msgstr "تجاوز بعدد الأصوات"
+
+msgid "Outvoted"
+msgstr "متجاوز بعدد الأصوات"
+
+msgid "Outvotes"
+msgstr "يتجاوز بعدد الأصوات"
+
+msgid "Outvoting"
+msgstr "تجاوز بعدد الأصوات"
+
+msgid "Outward"
+msgstr "خارجي"
+
+msgid "Outwardly"
+msgstr "ظاهريا"
+
+msgid "Outwardness"
+msgstr "الخارجية"
+
+msgid "Outwards"
+msgstr "إلى الخارج"
+
+msgid "Outwear"
+msgstr "ألبسة التنزّه"
+
+msgid "Outwearing"
+msgstr "الإبلاء"
+
+msgid "Outwears"
+msgstr "يبلي"
+
+msgid "Outweigh"
+msgstr "زن أكثر منه"
+
+msgid "Outweighed"
+msgstr "موزون أكثر من"
+
+msgid "Outweighing"
+msgstr "الوزن أكثر من"
+
+msgid "Outweighs"
+msgstr "يزن أكثر منه"
+
+msgid "Outwit"
+msgstr "إغلب"
+
+msgid "Outwits"
+msgstr "يغلب"
+
+msgid "Outwitted"
+msgstr "تفوّق بالذكاء"
+
+msgid "Outwitting"
+msgstr "التفوّق بالذكاء"
+
+msgid "Outwore"
+msgstr "أبلى"
+
+msgid "Outwork"
+msgstr "المتراس"
+
+msgid "Outworker"
+msgstr "العمل من المنزل بدل العمل في مقر الشركة"
+
+msgid "Outworn"
+msgstr "بالي"
+
+msgid "Ouzel"
+msgstr "طّائر مغرّد أوربّي أسود اللون"
+
+msgid "Ouzo"
+msgstr "وزو"
+
+msgid "Ova"
+msgstr "البيض"
+
+msgid "Oval"
+msgstr "الإهليليج"
+
+msgid "Ovally"
+msgstr "بشكل بيضوي"
+
+msgid "Ovalness"
+msgstr "أوفالنيس"
+
+msgid "Ovals"
+msgstr "الإهليليجات"
+
+msgid "Ovarian"
+msgstr "مبايض"
+
+msgid "Ovaries"
+msgstr "المبايض"
+
+msgid "Ovary"
+msgstr "المبيض"
+
+msgid "Ovate"
+msgstr "بيضوي"
+
+msgid "Ovates"
+msgstr "أوفاتيس"
+
+msgid "Ovation"
+msgstr "الحفاوة"
+
+msgid "Ovations"
+msgstr "الهتافات الإحتفائية"
+
+msgid "Oven"
+msgstr "الفرن"
+
+msgid "Ovenbird"
+msgstr "أوفينبيرد - طائر"
+
+msgid "Ovens"
+msgstr "الأفران"
+
+msgid "Over"
+msgstr "إنتهى"
+
+msgid "Over-all"
+msgstr "كلّي"
+
+msgid "Over-capacity"
+msgstr "القدرة أكثر من اللازم"
+
+msgid "Over-current"
+msgstr "حالي أكثر من اللازم"
+
+msgid "Overabundance"
+msgstr "الوفرة المفرطة"
+
+msgid "Overact"
+msgstr "تصنّع"
+
+msgid "Overacted"
+msgstr "متصنّع"
+
+msgid "Overacting"
+msgstr "التصنّع"
+
+msgid "Overactive"
+msgstr "شديد النشاط"
+
+msgid "Overacts"
+msgstr "يتصنّع"
+
+msgid "Overage"
+msgstr "أوفيراج"
+
+msgid "Overaggressive"
+msgstr "شديد التعسّف"
+
+msgid "Overall"
+msgstr "عموما"
+
+msgid "Overalls"
+msgstr "بدلات العمّال"
+
+msgid "Overambitious"
+msgstr "الطَّموح بإفراط"
+
+msgid "Overanxious"
+msgstr "القلِق بإفراط"
+
+msgid "Overarching"
+msgstr "التقويس"
+
+msgid "Overassessment"
+msgstr "التقييم المفرط"
+
+msgid "Overate"
+msgstr "أتخم"
+
+msgid "Overawe"
+msgstr "خشّع"
+
+msgid "Overawed"
+msgstr "مخشّع"
+
+msgid "Overbalance"
+msgstr "رجّح"
+
+msgid "Overbalanced"
+msgstr "مرجّح"
+
+msgid "Overbalances"
+msgstr "يرجّح"
+
+msgid "Overbear"
+msgstr "إقهر"
+
+msgid "Overbearing"
+msgstr "القهر"
+
+msgid "Overbearingly"
+msgstr "بشكل متعجرف"
+
+msgid "Overbearingness"
+msgstr "الغرور"
+
+msgid "Overbid"
+msgstr "زايد عليه"
+
+msgid "Overbidding"
+msgstr "المزايدة على"
+
+msgid "Overbids"
+msgstr "يزايد عليه"
+
+msgid "Overblown"
+msgstr "منتفخ"
+
+msgid "Overboard"
+msgstr "خارج السفينة"
+
+msgid "Overboil"
+msgstr "يغلي بإفراط"
+
+msgid "Overboiled"
+msgstr "غلى بإفراط"
+
+msgid "Overburden"
+msgstr "أثقل"
+
+msgid "Overburdened"
+msgstr "مثقل"
+
+msgid "Overburdening"
+msgstr "الإثقال"
+
+msgid "Overburdens"
+msgstr "يثقل"
+
+msgid "Overburn"
+msgstr "حرق على الموجود"
+
+msgid "Overcall"
+msgstr "زايد أكثر"
+
+msgid "Overcame"
+msgstr "تغلّب عليه"
+
+msgid "Overcast"
+msgstr "مغيم"
+
+msgid "Overcasting"
+msgstr "التغييم"
+
+msgid "Overcasts"
+msgstr "يغيّم"
+
+msgid "Overcautious"
+msgstr "شديد الحذر"
+
+msgid "Overcharge"
+msgstr "زيادة السعر"
+
+msgid "Overcharged"
+msgstr "مطلوب زيادة"
+
+msgid "Overcharges"
+msgstr "زيادات السعر"
+
+msgid "Overcharging"
+msgstr "طلب زيادة"
+
+msgid "Overcloud"
+msgstr "تلبّد بالغيوم"
+
+msgid "Overclouded"
+msgstr "ملبّد بالغيوم"
+
+msgid "Overclouding"
+msgstr "تلبّد بالغيوم"
+
+msgid "Overclouds"
+msgstr "يتلبّد بالغيوم"
+
+msgid "Overcoat"
+msgstr "المعطف"
+
+msgid "Overcoating"
+msgstr "التغطية بمعطف إضافي"
+
+msgid "Overcoats"
+msgstr "المعاطف"
+
+msgid "Overcome"
+msgstr "تغلّب عليه"
+
+msgid "Overcomer"
+msgstr "المتغلّب"
+
+msgid "Overcomes"
+msgstr "يتغلّب عليه"
+
+msgid "Overcoming"
+msgstr "التغلّب على"
+
+msgid "Overconfidence"
+msgstr "الثقة العالية"
+
+msgid "Overconfident"
+msgstr "شديد الثقة"
+
+msgid "Overconfidently"
+msgstr "بثقة عالية"
+
+msgid "Overconsumption"
+msgstr "الإستهلاك المفرط"
+
+msgid "Overcooked"
+msgstr "مزيد طبخ"
+
+msgid "Overcorrection"
+msgstr "التصحيح بإفراط"
+
+msgid "Overcritical"
+msgstr "بالغ الانتقاد"
+
+msgid "Overcrowd"
+msgstr "إزدحم"
+
+msgid "Overcrowded"
+msgstr "شديد الإزدحام"
+
+msgid "Overcrowding"
+msgstr "الإزدحام"
+
+msgid "Overcrowds"
+msgstr "يزدحم"
+
+msgid "Overcurious"
+msgstr "كثير التطفّل"
+
+msgid "Overcurrent"
+msgstr "تيّار كهربائي عالي"
+
+msgid "Overdependent"
+msgstr "الإعتماد المفرط"
+
+msgid "Overdevelop"
+msgstr "حمّض بإفراط"
+
+msgid "Overdeveloped"
+msgstr "عالي التطور"
+
+msgid "Overdeveloping"
+msgstr "تحميض بإفراط"
+
+msgid "Overdevelopment"
+msgstr "التطوير زيادة عن المطلوب"
+
+msgid "Overdevelops"
+msgstr "يحمّض بإفراط"
+
+msgid "Overdid"
+msgstr "بولغ"
+
+msgid "Overdo"
+msgstr "بالغ"
+
+msgid "Overdoing"
+msgstr "المبالغة"
+
+msgid "Overdone"
+msgstr "معمول زيادة"
+
+msgid "Overdose"
+msgstr "الجرعة الزائدة"
+
+msgid "Overdosed"
+msgstr "أخذ جرعة زائدة"
+
+msgid "Overdoses"
+msgstr "الجرع الزائدة"
+
+msgid "Overdosing"
+msgstr "تناول الجرعة الزائدة"
+
+msgid "Overdraft"
+msgstr "السحب بدون رصيد"
+
+msgid "Overdrafts"
+msgstr "السحب بدون رصيد"
+
+msgid "Overdraw"
+msgstr "زد سحب"
+
+msgid "Overdrawing"
+msgstr "زيادة سحب"
+
+msgid "Overdrawn"
+msgstr "مكشوف"
+
+msgid "Overdraws"
+msgstr "يزيد سحب"
+
+msgid "Overdress"
+msgstr "بالغ في اللبس"
+
+msgid "Overdressed"
+msgstr "مبالغ في اللبس"
+
+msgid "Overdresses"
+msgstr "يبالغ في اللبس"
+
+msgid "Overdressing"
+msgstr "مبالغة في اللبس"
+
+msgid "Overdrew"
+msgstr "زيد سحب"
+
+msgid "Overdrive"
+msgstr "سق زيادة"
+
+msgid "Overdriving"
+msgstr "سياقة زيادة"
+
+msgid "Overdue"
+msgstr "متأخر"
+
+msgid "Overeager"
+msgstr "متحمّس جدا"
+
+msgid "Overeagerly"
+msgstr "بشكل متحمّس جدا"
+
+msgid "Overeagerness"
+msgstr "الإشتياق المفرط"
+
+msgid "Overeat"
+msgstr "أتخم"
+
+msgid "Overeaten"
+msgstr "متخم"
+
+msgid "Overeater"
+msgstr "الملتهم بجشع"
+
+msgid "Overeating"
+msgstr "الإتخام"
+
+msgid "Overeats"
+msgstr "يتخم"
+
+msgid "Overeducated"
+msgstr "التعليم الزائد عن الحاجة"
+
+msgid "Overemphasis"
+msgstr "التشديد المفرط"
+
+msgid "Overemphasize"
+msgstr "زد في تأكيد"
+
+msgid "Overemphasized"
+msgstr "مزيد في تأكيد"
+
+msgid "Overemphasizes"
+msgstr "يزيد في تأكيد"
+
+msgid "Overemphasizing"
+msgstr "زيادة في تأكيد"
+
+msgid "Overestimate"
+msgstr "الزيادة في التقدير"
+
+msgid "Overestimated"
+msgstr "مزيد في تقدير"
+
+msgid "Overestimates"
+msgstr "المبالغات"
+
+msgid "Overestimating"
+msgstr "زيادة في تقدير"
+
+msgid "Overestimation"
+msgstr "إساءة التقدير"
+
+msgid "Overexcited"
+msgstr "مُثار"
+
+msgid "Overexert"
+msgstr "يتعب"
+
+msgid "Overexerted"
+msgstr "أتعب"
+
+msgid "Overexerting"
+msgstr "الإنهاك"
+
+msgid "Overexertion"
+msgstr "الإنهاك"
+
+msgid "Overexerts"
+msgstr "ينهك"
+
+msgid "Overexploitation"
+msgstr "فرط الاستغلال"
+
+msgid "Overexpose"
+msgstr "زد في تعريض"
+
+msgid "Overexposed"
+msgstr "مزيد في تعريض"
+
+msgid "Overexposes"
+msgstr "يزيد في تعريض"
+
+msgid "Overexposing"
+msgstr "زيادة في تعريض"
+
+msgid "Overexposure"
+msgstr "التعرّض الشديد"
+
+msgid "Overexposures"
+msgstr "التعرّض الشديد"
+
+msgid "Overextend"
+msgstr "وسّع أكثر من اللازم"
+
+msgid "Overextended"
+msgstr "واسع أكثر من اللازم"
+
+msgid "Overextending"
+msgstr "توسيع أكثر من اللازم"
+
+msgid "Overextends"
+msgstr "يوسّع أكثر من اللازم"
+
+msgid "Overextension"
+msgstr "التوسّع المفرط"
+
+msgid "Overfall"
+msgstr "سطح مضطرب"
+
+msgid "Overfatigue"
+msgstr "الإنهاك"
+
+msgid "Overfed"
+msgstr "إنتخم"
+
+msgid "Overfeed"
+msgstr "أتخم"
+
+msgid "Overfeeding"
+msgstr "الإتخام"
+
+msgid "Overfeeds"
+msgstr "يتخم"
+
+msgid "Overfill"
+msgstr "إملأ"
+
+msgid "Overfilled"
+msgstr "مملوء"
+
+msgid "Overfilling"
+msgstr "الملئ"
+
+msgid "Overfills"
+msgstr "يملأ"
+
+msgid "Overflew"
+msgstr "طير فوقه"
+
+msgid "Overflies"
+msgstr "يطير فوقه"
+
+msgid "Overflow"
+msgstr "الفيض"
+
+msgid "Overflowed"
+msgstr "مفيض"
+
+msgid "Overflowing"
+msgstr "الفيضان"
+
+msgid "Overflown"
+msgstr "حلّق"
+
+msgid "Overflows"
+msgstr "الفيضانات"
+
+msgid "Overfly"
+msgstr "طر فوقه"
+
+msgid "Overflying"
+msgstr "الطيران فوق"
+
+msgid "Overgenerous"
+msgstr "سخي"
+
+msgid "Overglaze"
+msgstr "الطّلاء الفوقيّ"
+
+msgid "Overgrazing"
+msgstr "الرّعي المفرط"
+
+msgid "Overgrew"
+msgstr "زيد في النمو"
+
+msgid "Overgrow"
+msgstr "زد في النمو"
+
+msgid "Overgrowing"
+msgstr "زيادة في النمو"
+
+msgid "Overgrown"
+msgstr "شديد النمو"
+
+msgid "Overgrows"
+msgstr "يزيد في النمو"
+
+msgid "Overhand"
+msgstr "برفع الذّراع"
+
+msgid "Overhanded"
+msgstr "برفع الذّراع"
+
+msgid "Overhang"
+msgstr "الطنف"
+
+msgid "Overhanging"
+msgstr "التدلّي"
+
+msgid "Overhangs"
+msgstr "يتدلّى"
+
+msgid "Overhappy"
+msgstr "مسرور جدا"
+
+msgid "Overhaste"
+msgstr "السرعة المفرطة"
+
+msgid "Overhasty"
+msgstr "سريع جدا"
+
+msgid "Overhaul"
+msgstr "الإصلاح الشامل"
+
+msgid "Overhauled"
+msgstr "مفحوص بدقة"
+
+msgid "Overhauler"
+msgstr "المصلّح"
+
+msgid "Overhauling"
+msgstr "فحص بدقة"
+
+msgid "Overhauls"
+msgstr "الإصلاحات الشاملة"
+
+msgid "Overhead"
+msgstr "فوق"
+
+msgid "Overheads"
+msgstr "النفقات العامة"
+
+msgid "Overhear"
+msgstr "إسمع"
+
+msgid "Overheard"
+msgstr "سمع"
+
+msgid "Overhearer"
+msgstr "مختلس السمع"
+
+msgid "Overhearing"
+msgstr "السمع"
+
+msgid "Overhears"
+msgstr "يسمع"
+
+msgid "Overheat"
+msgstr "إسخن زيادة"
+
+msgid "Overheated"
+msgstr "ساخن زيادة"
+
+msgid "Overheating"
+msgstr "سخونة زيادة"
+
+msgid "Overheats"
+msgstr "يسخن زيادة"
+
+msgid "Overhung"
+msgstr "متدلّى"
+
+msgid "Overindulged"
+msgstr "مفرط في إمتاع"
+
+msgid "Overindulgence"
+msgstr "الإفراط"
+
+msgid "Overing"
+msgstr "للقفز على"
+
+msgid "Overjoy"
+msgstr "أبهج بشدّة"
+
+msgid "Overjoyed"
+msgstr "مغتبط"
+
+msgid "Overjumps"
+msgstr "يقفز"
+
+msgid "Overkill"
+msgstr "الإسراف"
+
+msgid "Overlaid"
+msgstr "غطّى"
+
+msgid "Overlain"
+msgstr "معتلى"
+
+msgid "Overland"
+msgstr "برا"
+
+msgid "Overlap"
+msgstr "التداخل"
+
+msgid "Overlapped"
+msgstr "متداخل"
+
+msgid "Overlapping"
+msgstr "التداخل"
+
+msgid "Overlaps"
+msgstr "التداخلات"
+
+msgid "Overlay"
+msgstr "الغطاء"
+
+msgid "Overlaying"
+msgstr "التغطية"
+
+msgid "Overlays"
+msgstr "الأغطية"
+
+msgid "Overleaf"
+msgstr "على الصفحة الأخرى"
+
+msgid "Overleap"
+msgstr "إقفز"
+
+msgid "Overleaped"
+msgstr "قافز"
+
+msgid "Overleaping"
+msgstr "القفز"
+
+msgid "Overleaps"
+msgstr "يقفز"
+
+msgid "Overlie"
+msgstr "إعتل"
+
+msgid "Overlies"
+msgstr "يعتلي"
+
+msgid "Overload"
+msgstr "الحمل الزائد"
+
+msgid "Overload-proof"
+msgstr "ضدّ الحمل الزائد"
+
+msgid "Overloaded"
+msgstr "أثقل"
+
+msgid "Overloading"
+msgstr "الإثقال"
+
+msgid "Overloads"
+msgstr "الأحمال الزائدة"
+
+msgid "Overlong"
+msgstr "طويل جدا"
+
+msgid "Overlook"
+msgstr "طلّ عليه"
+
+msgid "Overlooked"
+msgstr "مطلول على"
+
+msgid "Overlooking"
+msgstr "الطلّ على"
+
+msgid "Overlooks"
+msgstr "يطلّ عليه"
+
+msgid "Overlord"
+msgstr "السيّد الأعلى"
+
+msgid "Overlords"
+msgstr "السادة الكبار"
+
+msgid "Overloud"
+msgstr "عالي الصوت"
+
+msgid "Overly"
+msgstr "كثيرا"
+
+msgid "Overlying"
+msgstr "الإعتلاء"
+
+msgid "Overman"
+msgstr "المراقب"
+
+msgid "Overmaster"
+msgstr "يتخطى سُلطة المسؤول"
+
+msgid "Overmastered"
+msgstr "تخطى سُلطة المسؤول"
+
+msgid "Overmastering"
+msgstr "تخطي سُلطة المسؤول"
+
+msgid "Overmasters"
+msgstr "يتخطى سُلطة المسؤول"
+
+msgid "Overmodest"
+msgstr "متواضع جدا"
+
+msgid "Overmuch"
+msgstr "أكثر مما يلزم"
+
+msgid "Overnice"
+msgstr "جميل للغاية"
+
+msgid "Overnight"
+msgstr "ليلا"
+
+msgid "Overnighter"
+msgstr "من يعمل شيء طول الليل"
+
+msgid "Overnighters"
+msgstr "من يعملون شيء طول الليل"
+
+msgid "Overnights"
+msgstr "عبر الليالي"
+
+msgid "Overoptimistic"
+msgstr "شديد التفاؤل"
+
+msgid "Overpaid"
+msgstr "زيد دفع"
+
+msgid "Overpass"
+msgstr "إجتز"
+
+msgid "Overpay"
+msgstr "زد دفع"
+
+msgid "Overpaying"
+msgstr "زيادة دفع"
+
+msgid "Overpayment"
+msgstr "الدّفع أكثر مما هو مطلوب"
+
+msgid "Overpays"
+msgstr "يزيد دفع"
+
+msgid "Overpeopled"
+msgstr "مزحم"
+
+msgid "Overplayed"
+msgstr "مبالغ"
+
+msgid "Overplaying"
+msgstr "المبالغة"
+
+msgid "Overplus"
+msgstr "الفائض"
+
+msgid "Overpopulate"
+msgstr "يكدّس الناس"
+
+msgid "Overpopulated"
+msgstr "مزدحم"
+
+msgid "Overpopulating"
+msgstr "تكديس الناس"
+
+msgid "Overpopulation"
+msgstr "الفائض السكاني"
+
+msgid "Overpopulations"
+msgstr "الفائض السكاني"
+
+msgid "Overpower"
+msgstr "إقهر"
+
+msgid "Overpowered"
+msgstr "مقهور"
+
+msgid "Overpowering"
+msgstr "القهر"
+
+msgid "Overpoweringly"
+msgstr "بقوة جبّارة"
+
+msgid "Overpowers"
+msgstr "يقهر"
+
+msgid "Overpressure"
+msgstr "الضغط المفرط"
+
+msgid "Overprice"
+msgstr "زد سعر"
+
+msgid "Overpriced"
+msgstr "مزيد سعر"
+
+msgid "Overpricing"
+msgstr "زيادة سعر"
+
+msgid "Overprint"
+msgstr "زد طبع"
+
+msgid "Overprinted"
+msgstr "مزيد طبع"
+
+msgid "Overprinting"
+msgstr "زيادة طبع"
+
+msgid "Overprints"
+msgstr "يزيد طبع"
+
+msgid "Overproduce"
+msgstr "زد إنتاج"
+
+msgid "Overproduced"
+msgstr "مزيد إنتاج"
+
+msgid "Overproduces"
+msgstr "يزيد إنتاج"
+
+msgid "Overproducing"
+msgstr "زيادة إنتاج"
+
+msgid "Overproduction"
+msgstr "الإفراط في الإنتاج"
+
+msgid "Overprotection"
+msgstr "الحماية المفرطة"
+
+msgid "Overprotective"
+msgstr "من يقوم بعملية الحماية المفرطة"
+
+msgid "Overqualified"
+msgstr "ذو مؤهّلات تزيد عن المطلوب"
+
+msgid "Overran"
+msgstr "إجتح"
+
+msgid "Overrate"
+msgstr "غال في تقييم"
+
+msgid "Overrated"
+msgstr "مغالى في تقييم"
+
+msgid "Overrates"
+msgstr "يغالي في تقييم"
+
+msgid "Overrating"
+msgstr "مغالاة في تقييم"
+
+msgid "Overreach"
+msgstr "تجاوز"
+
+msgid "Overreached"
+msgstr "متجاوز"
+
+msgid "Overreacher"
+msgstr "ذو اليد الطويلة"
+
+msgid "Overreaches"
+msgstr "يتجاوز"
+
+msgid "Overreaching"
+msgstr "التجاوز"
+
+msgid "Overreact"
+msgstr "ردّ بانفعال"
+
+msgid "Overreacted"
+msgstr "ردّ بانفعال"
+
+msgid "Overreacting"
+msgstr "ردّ بانفعال"
+
+msgid "Overreacts"
+msgstr "يردّ بانفعال"
+
+msgid "Overready"
+msgstr "جاهز تماما"
+
+msgid "Overrepresented"
+msgstr "عرضَ بإفراط"
+
+msgid "Overridden"
+msgstr "متجاوز"
+
+msgid "Override"
+msgstr "تجاوز"
+
+msgid "Overrider"
+msgstr "مانع للإصطدام"
+
+msgid "Overrides"
+msgstr "يتجاوز"
+
+msgid "Overriding"
+msgstr "التجاوز"
+
+msgid "Overripe"
+msgstr "ناضج جدا"
+
+msgid "Overrode"
+msgstr "تجاوز"
+
+msgid "Overrule"
+msgstr "إنقض"
+
+msgid "Overruled"
+msgstr "منقوض"
+
+msgid "Overrules"
+msgstr "ينقض"
+
+msgid "Overruling"
+msgstr "النقض"
+
+msgid "Overrun"
+msgstr "التجاوز"
+
+msgid "Overrunning"
+msgstr "الإجتياح"
+
+msgid "Overruns"
+msgstr "التجاوزات"
+
+msgid "Oversaturate"
+msgstr "يشبّع بإفراط"
+
+msgid "Oversaw"
+msgstr "أشرف عليه"
+
+msgid "Oversea"
+msgstr "أوفيرسي"
+
+msgid "Overseas"
+msgstr "في الخارج"
+
+msgid "Oversee"
+msgstr "أشرف عليه"
+
+msgid "Overseeing"
+msgstr "الإشراف على"
+
+msgid "Overseen"
+msgstr "مشرف على"
+
+msgid "Overseer"
+msgstr "المراقب"
+
+msgid "Overseers"
+msgstr "المراقبون"
+
+msgid "Oversees"
+msgstr "يشرف عليه"
+
+msgid "Oversell"
+msgstr "زد مبيعات"
+
+msgid "Overselling"
+msgstr "زيادة مبيعات"
+
+msgid "Oversells"
+msgstr "يزيد مبيعات"
+
+msgid "Oversensitive"
+msgstr "حسّاس جدا"
+
+msgid "Overshadow"
+msgstr "تغلّب عليه"
+
+msgid "Overshadowed"
+msgstr "تغلّب عليه"
+
+msgid "Overshadowing"
+msgstr "التغلّب على"
+
+msgid "Overshadows"
+msgstr "يتغلّب عليه"
+
+msgid "Overshoe"
+msgstr "الجرموق"
+
+msgid "Overshoes"
+msgstr "الجرموق"
+
+msgid "Overshoot"
+msgstr "أوفيرشوت"
+
+msgid "Overshooting"
+msgstr "الذهاب الى ما وراء الهدف"
+
+msgid "Overshoots"
+msgstr "يذهب الى ما وراء الهدف"
+
+msgid "Overshot"
+msgstr "ذهب الى ما وراء الهدف"
+
+msgid "Oversight"
+msgstr "الإشراف"
+
+msgid "Oversights"
+msgstr "الهفوات"
+
+msgid "Oversimplification"
+msgstr "التبسيط المفرط"
+
+msgid "Oversimplifications"
+msgstr "التبسيطات المفرطة"
+
+msgid "Oversimplified"
+msgstr "مبالغ في تبسيط"
+
+msgid "Oversimplifies"
+msgstr "يبالغ في تبسيط"
+
+msgid "Oversimplify"
+msgstr "بالغ في تبسيط"
+
+msgid "Oversimplifying"
+msgstr "مبالغة في تبسيط"
+
+msgid "Oversize"
+msgstr "كبير جدا"
+
+msgid "Oversized"
+msgstr "كبير جدا"
+
+msgid "Oversizes"
+msgstr "المقاسات الكبيرة"
+
+msgid "Oversleep"
+msgstr "أطل النوم"
+
+msgid "Oversleeping"
+msgstr "إطالة النوم"
+
+msgid "Oversleeps"
+msgstr "يطيل النوم"
+
+msgid "Overslept"
+msgstr "أطيل النوم"
+
+msgid "Oversold"
+msgstr "مزيد مبيعات"
+
+msgid "Overspill"
+msgstr "الطفح"
+
+msgid "Overspray"
+msgstr "صبغ ما وراء المنطقة التي يجب صبغها"
+
+msgid "Overstate"
+msgstr "بالغ"
+
+msgid "Overstated"
+msgstr "مبالغ"
+
+msgid "Overstatement"
+msgstr "المغالاة"
+
+msgid "Overstatements"
+msgstr "المغالاة"
+
+msgid "Overstates"
+msgstr "يبالغ"
+
+msgid "Overstating"
+msgstr "المبالغة"
+
+msgid "Overstay"
+msgstr "أطل"
+
+msgid "Overstayed"
+msgstr "طويل"
+
+msgid "Overstaying"
+msgstr "الإطالة"
+
+msgid "Overstays"
+msgstr "يطيل"
+
+msgid "Overstep"
+msgstr "جاوز"
+
+msgid "Overstepped"
+msgstr "مجاوز"
+
+msgid "Overstepping"
+msgstr "المجاوزة"
+
+msgid "Oversteps"
+msgstr "يجاوز"
+
+msgid "Overstock"
+msgstr "خزّن"
+
+msgid "Overstocked"
+msgstr "مخزّن"
+
+msgid "Overstocking"
+msgstr "التخزين"
+
+msgid "Overstocks"
+msgstr "يخزّن"
+
+msgid "Overstrain"
+msgstr "الإرهاق"
+
+msgid "Overstrained"
+msgstr "مرهق"
+
+msgid "Overstraining"
+msgstr "الإرهاق"
+
+msgid "Overstrains"
+msgstr "الإرهاق"
+
+msgid "Overstress"
+msgstr "يشدد بإفراط"
+
+msgid "Overstretch"
+msgstr "أرهق"
+
+msgid "Overstretched"
+msgstr "مرهق"
+
+msgid "Overstretches"
+msgstr "يرهق"
+
+msgid "Overstretching"
+msgstr "الإرهاق"
+
+msgid "Overstrike"
+msgstr "يضرب ويصوب بعيدا"
+
+msgid "Overstrung"
+msgstr "شديد التوتر"
+
+msgid "Overstuff"
+msgstr "حشّ"
+
+msgid "Overstuffed"
+msgstr "محشّى"
+
+msgid "Overstuffing"
+msgstr "التحشية"
+
+msgid "Overstuffs"
+msgstr "يحشّي"
+
+msgid "Oversubscribe"
+msgstr "يطلب أكثر مما هو معروض"
+
+msgid "Oversubscribed"
+msgstr "طلب أكثر مما هو معروض"
+
+msgid "Oversubscribes"
+msgstr "يطلب أكثر مما هو معروض"
+
+msgid "Oversubscribing"
+msgstr "الطّلب أكثر من المعروض"
+
+msgid "Oversubscription"
+msgstr "الطّلب أكثر من المعروض"
+
+msgid "Oversupplied"
+msgstr "زوّد اكثر من الحاجة"
+
+msgid "Oversupplies"
+msgstr "يزوّد اكثر من الحاجة"
+
+msgid "Oversupply"
+msgstr "التزويد اكثر من الحاجة"
+
+msgid "Oversweet"
+msgstr "محلّى بسكّر أكثر من اللازم"
+
+msgid "Overt"
+msgstr "علني"
+
+msgid "Overtake"
+msgstr "إجتز"
+
+msgid "Overtaken"
+msgstr "مجتاز"
+
+msgid "Overtakes"
+msgstr "يجتاز"
+
+msgid "Overtaking"
+msgstr "الإجتياز"
+
+msgid "Overtax"
+msgstr "أرهق بالضرائب"
+
+msgid "Overtaxed"
+msgstr "مرهق بالضرائب"
+
+msgid "Overtaxes"
+msgstr "يرهق بالضرائب"
+
+msgid "Overtaxing"
+msgstr "إرهاق بالضرائب"
+
+msgid "Overthrew"
+msgstr "أسقط"
+
+msgid "Overthrow"
+msgstr "الإسقاط"
+
+msgid "Overthrowing"
+msgstr "الإسقاط"
+
+msgid "Overthrown"
+msgstr "مسقط"
+
+msgid "Overthrows"
+msgstr "الإنقلابات"
+
+msgid "Overtime"
+msgstr "الوقت الإضافي"
+
+msgid "Overtired"
+msgstr "أوفيرتيريد"
+
+msgid "Overtly"
+msgstr "بشكل علني"
+
+msgid "Overtness"
+msgstr "أوفيرتنيس"
+
+msgid "Overtone"
+msgstr "المعنى الإضافي"
+
+msgid "Overtones"
+msgstr "المعاني الإضافية"
+
+msgid "Overtook"
+msgstr "إجتز"
+
+msgid "Overtopped"
+msgstr "ذهب الى ما وراء القمّة"
+
+msgid "Overtrain"
+msgstr "يتدرب بإفراط"
+
+msgid "Overtrained"
+msgstr "تدرّب بإفراط"
+
+msgid "Overtraining"
+msgstr "التدريب بإفراط"
+
+msgid "Overtrains"
+msgstr "يتدرب بإفراط"
+
+msgid "Overtrump"
+msgstr "يلعب الورق"
+
+msgid "Overtrumped"
+msgstr "لعب الورق"
+
+msgid "Overtrumping"
+msgstr "لعب الورق"
+
+msgid "Overtrumps"
+msgstr "يلعب الورق"
+
+msgid "Overture"
+msgstr "المقدمة"
+
+msgid "Overtures"
+msgstr "المفاتحات"
+
+msgid "Overturn"
+msgstr "إنقلب"
+
+msgid "Overturned"
+msgstr "مقلوب"
+
+msgid "Overturning"
+msgstr "الإنقلاب"
+
+msgid "Overturns"
+msgstr "ينقلب"
+
+msgid "Overuse"
+msgstr "الإفراط في الإستعمال"
+
+msgid "Overused"
+msgstr "مفرط في إستعمال"
+
+msgid "Overuses"
+msgstr "يفرط في إستعمال"
+
+msgid "Overusing"
+msgstr "إفراط في إستعمال"
+
+msgid "Overvalue"
+msgstr "يضع قيمة عالية"
+
+msgid "Overvalued"
+msgstr "عالي السعر"
+
+msgid "Overvalues"
+msgstr "يضع قيمة عالية"
+
+msgid "Overvaluing"
+msgstr "وضْع قيمة عالية"
+
+msgid "Overview"
+msgstr "النظرة العامّة"
+
+msgid "Overviews"
+msgstr "الملاحظات"
+
+msgid "Overvoltage"
+msgstr "الفولت او فرق الجهد المرتفع"
+
+msgid "Overweening"
+msgstr "مغرور"
+
+msgid "Overweight"
+msgstr "زائد الوزن"
+
+msgid "Overwhelm"
+msgstr "إغمر"
+
+msgid "Overwhelmed"
+msgstr "مغمور"
+
+msgid "Overwhelming"
+msgstr "الغمر"
+
+msgid "Overwhelmingly"
+msgstr "بشكل كبير"
+
+msgid "Overwhelms"
+msgstr "يغمر"
+
+msgid "Overwind"
+msgstr "لفّ"
+
+msgid "Overwinding"
+msgstr "اللفّ"
+
+msgid "Overwinds"
+msgstr "يلفّ"
+
+msgid "Overwise"
+msgstr "حكيم جدا"
+
+msgid "Overwork"
+msgstr "الإعياء"
+
+msgid "Overworked"
+msgstr "أجهد"
+
+msgid "Overworking"
+msgstr "الإجهاد"
+
+msgid "Overworks"
+msgstr "الإعياء"
+
+msgid "Overwound"
+msgstr "لفّ"
+
+msgid "Overwrite"
+msgstr "إكتب"
+
+msgid "Overwrites"
+msgstr "ينمّق"
+
+msgid "Overwriting"
+msgstr "الكتابة"
+
+msgid "Overwritten"
+msgstr "منمّق"
+
+msgid "Overwrote"
+msgstr "نمّق"
+
+msgid "Overwrought"
+msgstr "مجهد"
+
+msgid "Overzeal"
+msgstr "أوفيرزيل"
+
+msgid "Overzealous"
+msgstr "متحمّس جدا"
+
+msgid "Overzealously"
+msgstr "بشكل متحمّس جدا"
+
+msgid "Overzealousness"
+msgstr "الإتّقاد"
+
+msgid "Ovid"
+msgstr "أوفيد - شاعر رومانيّ معروف"
+
+msgid "Oviduct"
+msgstr "قناة البيض"
+
+msgid "Oviform"
+msgstr "بيضوي"
+
+msgid "Oviparous"
+msgstr "بيوض"
+
+msgid "Oviparously"
+msgstr "بشكل بيوض"
+
+msgid "Ovoid"
+msgstr "بيضوي"
+
+msgid "Ovoids"
+msgstr "البيضويات"
+
+msgid "Ovulate"
+msgstr "بض"
+
+msgid "Ovulated"
+msgstr "مبيض"
+
+msgid "Ovulates"
+msgstr "يبيض"
+
+msgid "Ovulating"
+msgstr "البيض"
+
+msgid "Ovulation"
+msgstr "التبييض"
+
+msgid "Ovulatory"
+msgstr "تبييضي"
+
+msgid "Ovum"
+msgstr "البيضة"
+
+msgid "Ow"
+msgstr "آه - صوت الألم"
+
+msgid "Owe"
+msgstr "دن"
+
+msgid "Owed"
+msgstr "مدين"
+
+msgid "Owen"
+msgstr "أوين"
+
+msgid "Owens"
+msgstr "أوينز"
+
+msgid "Owes"
+msgstr "يدين"
+
+msgid "Owing"
+msgstr "الدين"
+
+msgid "Owl"
+msgstr "البومة"
+
+msgid "Owler"
+msgstr "ولير"
+
+msgid "Owlet"
+msgstr "البوم الصغير"
+
+msgid "Owlish"
+msgstr "يشبه البوم"
+
+msgid "Owlishly"
+msgstr "كبومة"
+
+msgid "Owlishness"
+msgstr "البومية - يشبه البومة"
+
+msgid "Owls"
+msgstr "البوم"
+
+msgid "Own"
+msgstr "الملك"
+
+msgid "Owned"
+msgstr "مملوك من"
+
+msgid "Owner"
+msgstr "المالك"
+
+msgid "Ownerless"
+msgstr "بلا مالك"
+
+msgid "Owners"
+msgstr "المالكون"
+
+msgid "Ownership"
+msgstr "الملكية"
+
+msgid "Ownerships"
+msgstr "الملكيات"
+
+msgid "Owning"
+msgstr "الإمتلاك"
+
+msgid "Owns"
+msgstr "يمتلك"
+
+msgid "Ox"
+msgstr "الثور"
+
+msgid "Oxalate"
+msgstr "الأكسالات - نوع من الأملاح"
+
+msgid "Oxalic"
+msgstr "أكساليكي"
+
+msgid "Oxcart"
+msgstr "عربة يجرّها ثور"
+
+msgid "Oxen"
+msgstr "الثيران"
+
+msgid "Oxes"
+msgstr "الثيران"
+
+msgid "Oxeye"
+msgstr "الأقحوان"
+
+msgid "Oxford"
+msgstr "أكسفورد"
+
+msgid "Oxidant"
+msgstr "المؤكسد"
+
+msgid "Oxidate"
+msgstr "يؤكسد"
+
+msgid "Oxidation"
+msgstr "الأكسدة"
+
+msgid "Oxidations"
+msgstr "الأكسدة"
+
+msgid "Oxidative"
+msgstr "عنصر مُؤكسد"
+
+msgid "Oxidatively"
+msgstr "بصورة مُؤكسدة"
+
+msgid "Oxide"
+msgstr "الأكسيد"
+
+msgid "Oxides"
+msgstr "الأكسيدات"
+
+msgid "Oxidize"
+msgstr "أكسد"
+
+msgid "Oxidized"
+msgstr "مكسد"
+
+msgid "Oxidizer"
+msgstr "المؤكسد"
+
+msgid "Oxidizers"
+msgstr "المؤكسدون"
+
+msgid "Oxidizes"
+msgstr "يكسد"
+
+msgid "Oxidizing"
+msgstr "الإكساد"
+
+msgid "Oxnard"
+msgstr "أوكسنارد"
+
+msgid "Oxonian"
+msgstr "أكسفوردي"
+
+msgid "Oxtail"
+msgstr "ذيل الثور"
+
+msgid "Oxygen"
+msgstr "الأوكسجين"
+
+msgid "Oxygenate"
+msgstr "يعالج بالأكسجين"
+
+msgid "Oxygenated"
+msgstr "عالج بالأكسجين"
+
+msgid "Oxygenates"
+msgstr "يعالج بالأكسجين"
+
+msgid "Oxygenating"
+msgstr "المعالجة بالأكسجين"
+
+msgid "Oxygenation"
+msgstr "المعالجة بالأكسجين"
+
+msgid "Oxygens"
+msgstr "الأوكسجين"
+
+msgid "Oxymoron"
+msgstr "التّناقض اللّفظيّ"
+
+msgid "Oyster"
+msgstr "المحار"
+
+msgid "Oystering"
+msgstr "التجارة بالنّعّام"
+
+msgid "Oysters"
+msgstr "المحار"
+
+msgid "Oz"
+msgstr "الأونس"
+
+msgid "Ozark"
+msgstr "أوزارك"
+
+msgid "Ozarks"
+msgstr "أوزاركس - بحيرة في ميسوري"
+
+msgid "Ozone"
+msgstr "الأوزون"
+
+msgid "Ozonic"
+msgstr "أوزوني"
+
+msgid "Ozoniferous"
+msgstr "أوزوني"
+
+msgid "Ozonize"
+msgstr "أوزن"
+
+msgid "Ozonized"
+msgstr "موزن"
+
+msgid "Ozonizer"
+msgstr "المعالج بالأوزون"
+
+msgid "Ozonizes"
+msgstr "يوزن"
+
+msgid "Ozonizing"
+msgstr "الموازنة"
+
+msgid "Ozzie"
+msgstr "أوزي"
+
+msgid "Okayed"
+msgstr "وافق على"
+

@@ -1,0 +1,7441 @@
+# translation of full_wordlist_L.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_L.po,v 1.21 2004/02/07 08:17:51 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'L'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_L\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2004-01-31 22:40+0300\n"
+
+msgid "L"
+msgstr "إل - الحرف الثاني عشر في اللغة الإنجليزية"
+
+msgid "La"
+msgstr "مدينة لوس أنجلوس"
+
+msgid "Lab"
+msgstr "المختبر"
+
+msgid "Laban"
+msgstr "أبيض"
+
+msgid "Label"
+msgstr "العلامة"
+
+msgid "Labeled"
+msgstr "إعتبر"
+
+msgid "Labeler"
+msgstr "واضع الطّوابع"
+
+msgid "Labelers"
+msgstr "واضعو الطّوابع"
+
+msgid "Labeling"
+msgstr "التعريف"
+
+msgid "Labelled"
+msgstr "إعتبر"
+
+msgid "Labelling"
+msgstr "التعريف"
+
+msgid "Labels"
+msgstr "العلامات"
+
+msgid "Labia"
+msgstr "الشفاه"
+
+msgid "Labial"
+msgstr "شفوي"
+
+msgid "Labially"
+msgstr "شفويا"
+
+msgid "Labile"
+msgstr "شخص سهل التأقلم"
+
+msgid "Lability"
+msgstr "التغيّر"
+
+msgid "Labiodental"
+msgstr "خاص بالشفة والأسنان"
+
+msgid "Labor"
+msgstr "العمل"
+
+msgid "Laboratories"
+msgstr "المختبرات"
+
+msgid "Laboratory"
+msgstr "المختبر"
+
+msgid "Labored"
+msgstr "معمول"
+
+msgid "Laboredly"
+msgstr "شغليا - من الشغل"
+
+msgid "Laborer"
+msgstr "العامل"
+
+msgid "Laborers"
+msgstr "العمّال"
+
+msgid "Laboring"
+msgstr "العمل"
+
+msgid "Laborious"
+msgstr "مرهق"
+
+msgid "Laboriously"
+msgstr "بشكل مرهق"
+
+msgid "Laboriousness"
+msgstr "الإجهاد"
+
+msgid "Labors"
+msgstr "العمّال"
+
+msgid "Labour"
+msgstr "العمل"
+
+msgid "Labourer"
+msgstr "العامل"
+
+msgid "Labourers"
+msgstr "العمّال"
+
+msgid "Labouring"
+msgstr "العمل"
+
+msgid "Labours"
+msgstr "الأعمال"
+
+msgid "Labrador"
+msgstr "اللبرادور - منطقة في أمريكا على السّاحل الأطلنطيّ"
+
+msgid "Labradorite"
+msgstr "اللابرادوريت - سليكات الألمنيوم"
+
+msgid "Labs"
+msgstr "المختبرات"
+
+msgid "Labyrinth"
+msgstr "المتاهة"
+
+msgid "Labyrinths"
+msgstr "المتاهة"
+
+msgid "Lac"
+msgstr "لاك"
+
+msgid "Lace"
+msgstr "الرباط"
+
+msgid "Laced"
+msgstr "ذو أربطة"
+
+msgid "Lacer"
+msgstr "الرابّط"
+
+msgid "Lacerate"
+msgstr "مزّق"
+
+msgid "Lacerated"
+msgstr "ممزّق"
+
+msgid "Lacerates"
+msgstr "يمزّق"
+
+msgid "Lacerating"
+msgstr "التمزيق"
+
+msgid "Laceration"
+msgstr "التمزيق"
+
+msgid "Lacerations"
+msgstr "التمزيق"
+
+msgid "Lacerative"
+msgstr "تمزّقي"
+
+msgid "Lacerta"
+msgstr "لاسيرتا - مجموعة نجوم في نصف الكرة الشّماليّ"
+
+msgid "Laces"
+msgstr "الأربطة"
+
+msgid "Lacewing"
+msgstr "ليسوينج - طائر"
+
+msgid "Lacey"
+msgstr "متعلق بالخيوط"
+
+msgid "Lachesis"
+msgstr "طول العمر - الأساطير اليونانيّة"
+
+msgid "Lachrymal"
+msgstr "دمعي"
+
+msgid "Lachrymose"
+msgstr "سريع البكاء"
+
+msgid "Lacing"
+msgstr "الكحول"
+
+msgid "Lack"
+msgstr "القلة"
+
+msgid "Lackadaisical"
+msgstr "متكاسل"
+
+msgid "Lackadaisically"
+msgstr "بشكل متكاسل"
+
+msgid "Lackawanna"
+msgstr "لاكوانا"
+
+msgid "Lacked"
+msgstr "مفتقر إلى"
+
+msgid "Lacker"
+msgstr "لاكير"
+
+msgid "Lackey"
+msgstr "الخادم"
+
+msgid "Lackeyed"
+msgstr "عمل كخادم"
+
+msgid "Lackeying"
+msgstr "العمل كخادم"
+
+msgid "Lackeys"
+msgstr "الخدم"
+
+msgid "Lacking"
+msgstr "الإفتقار إلى"
+
+msgid "Lackluster"
+msgstr "باهت"
+
+msgid "Lacks"
+msgstr "النواقص"
+
+msgid "Laconic"
+msgstr "موجز"
+
+msgid "Laconical"
+msgstr "موجز"
+
+msgid "Laconically"
+msgstr "بشكل موجز"
+
+msgid "Lacquer"
+msgstr "الطلاء"
+
+msgid "Lacquered"
+msgstr "طلى"
+
+msgid "Lacquerer"
+msgstr "الدّهّان"
+
+msgid "Lacquerers"
+msgstr "الدّهّانون"
+
+msgid "Lacquering"
+msgstr "الدّهن"
+
+msgid "Lacquers"
+msgstr "الأطلية"
+
+msgid "Lacrosse"
+msgstr "اللاكروس - لعبة"
+
+msgid "Lactate"
+msgstr "لاكتيت - ملح"
+
+msgid "Lactated"
+msgstr "أفرز اللّبن"
+
+msgid "Lactates"
+msgstr "يفرز اللبن"
+
+msgid "Lactating"
+msgstr "إفراز اللبن"
+
+msgid "Lactation"
+msgstr "الإرضاع"
+
+msgid "Lactational"
+msgstr "متعلق بإفراز اللبن"
+
+msgid "Lactic"
+msgstr "لبني"
+
+msgid "Lactose"
+msgstr "اللاكتوز"
+
+msgid "Lacuna"
+msgstr "الفجوة"
+
+msgid "Lacunae"
+msgstr "الفجوات"
+
+msgid "Lacunas"
+msgstr "الفجوات"
+
+msgid "Lacustrine"
+msgstr "بحيريّ"
+
+msgid "Lacy"
+msgstr "مخرّم"
+
+msgid "Lad"
+msgstr "الفتى"
+
+msgid "Ladder"
+msgstr "السلّم"
+
+msgid "Ladders"
+msgstr "السلالم"
+
+msgid "Laddie"
+msgstr "الصبي"
+
+msgid "Laded"
+msgstr "لاديد"
+
+msgid "Laden"
+msgstr "لادن"
+
+msgid "Ladened"
+msgstr "حمّل"
+
+msgid "Ladening"
+msgstr "التحميل"
+
+msgid "Lades"
+msgstr "يحمّل"
+
+msgid "Ladies"
+msgstr "السيدات"
+
+msgid "Lading"
+msgstr "الحمولة"
+
+msgid "Ladle"
+msgstr "المغرفة"
+
+msgid "Ladled"
+msgstr "مغروف"
+
+msgid "Ladles"
+msgstr "المغرفات"
+
+msgid "Ladling"
+msgstr "الغرف"
+
+msgid "Lads"
+msgstr "الفتيان"
+
+msgid "Lady"
+msgstr "السيدة"
+
+msgid "Lady-love"
+msgstr "حبّ سيدة"
+
+msgid "Ladybird"
+msgstr "الدعسوقة"
+
+msgid "Ladybugs"
+msgstr "الخنافس"
+
+msgid "Ladyfern"
+msgstr "لاديفرن"
+
+msgid "Ladylike"
+msgstr "لائق بسيدة"
+
+msgid "Lafayette"
+msgstr "لافايت"
+
+msgid "Lag"
+msgstr "التأخر"
+
+msgid "Lag-end"
+msgstr "طرف التأخر"
+
+msgid "Lager"
+msgstr "بيرة اللاجر"
+
+msgid "Lagers"
+msgstr "بيرة اللاجر"
+
+msgid "Laggard"
+msgstr "المتخاذل"
+
+msgid "Laggardly"
+msgstr "ببطىء"
+
+msgid "Laggardness"
+msgstr "البطىء"
+
+msgid "Laggards"
+msgstr "المتخاذلون"
+
+msgid "Lagged"
+msgstr "متلكّأ"
+
+msgid "Lagging"
+msgstr "العازل"
+
+msgid "Lagoon"
+msgstr "البحيرة"
+
+msgid "Lagoons"
+msgstr "البحيرات"
+
+msgid "Lagos"
+msgstr "لاجوس - أكبر مدينة في نيجيريا"
+
+msgid "Lagrange"
+msgstr "لاغرانج"
+
+msgid "Lags"
+msgstr "التأخر"
+
+msgid "Laguerre"
+msgstr "لاجير - عالم رياضيّات فرنسي"
+
+msgid "Laguna"
+msgstr "لاجونا"
+
+msgid "Lahore"
+msgstr "لاهور"
+
+msgid "Laid"
+msgstr "وضع"
+
+msgid "Laidlaw"
+msgstr "ليدلو"
+
+msgid "Lain"
+msgstr "منام"
+
+msgid "Laing"
+msgstr "لينج"
+
+msgid "Lair"
+msgstr "العرين"
+
+msgid "Laird"
+msgstr "ليرد"
+
+msgid "Lairs"
+msgstr "العرائن"
+
+msgid "Laissez"
+msgstr "ليسيز"
+
+msgid "Laity"
+msgstr "العلماني"
+
+msgid "Lake"
+msgstr "البحيرة"
+
+msgid "Lakehurst"
+msgstr "لاكيهورست"
+
+msgid "Laker"
+msgstr "لاكير"
+
+msgid "Lakes"
+msgstr "البحيرات"
+
+msgid "Lakeside"
+msgstr "لاكيسيد"
+
+msgid "Lakewood"
+msgstr "لاكيوود"
+
+msgid "Laking"
+msgstr "عمليّة ذوبان الهيموجلوبين في بلازما الدّم"
+
+msgid "Lam"
+msgstr "إضرب"
+
+msgid "Lamar"
+msgstr "لامار"
+
+msgid "Lamarck"
+msgstr "لامارك"
+
+msgid "Lamas"
+msgstr "الكهنة"
+
+msgid "Lamb"
+msgstr "الحمل"
+
+msgid "Lambaste"
+msgstr "إنتقد"
+
+msgid "Lambasted"
+msgstr "إنتقد"
+
+msgid "Lambastes"
+msgstr "ينتقد"
+
+msgid "Lambasting"
+msgstr "الإنتقاد"
+
+msgid "Lambda"
+msgstr "لمدا - الحرف الحادي عشر للأبجدية اليونانيّة"
+
+msgid "Lambency"
+msgstr "النّور، الضّياء"
+
+msgid "Lambent"
+msgstr "هفّاف"
+
+msgid "Lambently"
+msgstr "بشكل هفّاف"
+
+msgid "Lamber"
+msgstr "لامبير"
+
+msgid "Lambert"
+msgstr "اللّامبرت - وحدة شدة الضوء"
+
+msgid "Lambkin"
+msgstr "الحمل"
+
+msgid "Lambs"
+msgstr "الحملان"
+
+msgid "Lame"
+msgstr "قماش السحيف"
+
+msgid "Lamed"
+msgstr "لاميد"
+
+msgid "Lamellar"
+msgstr "رقائقي"
+
+msgid "Lamely"
+msgstr "بشكل أعرج"
+
+msgid "Lameness"
+msgstr "الضعف"
+
+msgid "Lament"
+msgstr "الرثاء"
+
+msgid "Lamentable"
+msgstr "محزن"
+
+msgid "Lamentableness"
+msgstr "الرّثاء"
+
+msgid "Lamentably"
+msgstr "حزنا"
+
+msgid "Lamentation"
+msgstr "الرثاء"
+
+msgid "Lamentations"
+msgstr "الرثاء"
+
+msgid "Lamented"
+msgstr "رثى"
+
+msgid "Lamenting"
+msgstr "الرثاء"
+
+msgid "Laments"
+msgstr "الرثاء"
+
+msgid "Lamer"
+msgstr "أعرج"
+
+msgid "Lames"
+msgstr "أقمشة السحيف"
+
+msgid "Lamest"
+msgstr "أعرج"
+
+msgid "Laminar"
+msgstr "رقائقي"
+
+msgid "Laminate"
+msgstr "رقّق"
+
+msgid "Laminated"
+msgstr "مرقّق"
+
+msgid "Laminates"
+msgstr "يرقّق"
+
+msgid "Laminating"
+msgstr "الترقّق"
+
+msgid "Lamination"
+msgstr "التصفيح"
+
+msgid "Laminations"
+msgstr "التصفيح"
+
+msgid "Laming"
+msgstr "يجعله يعرج"
+
+msgid "Lammed"
+msgstr "مضروب"
+
+msgid "Lamming"
+msgstr "الفرار"
+
+msgid "Lamp"
+msgstr "المصباح"
+
+msgid "Lampblack"
+msgstr "السناج"
+
+msgid "Lamper"
+msgstr "لامبير"
+
+msgid "Lamplight"
+msgstr "ضوء المصباح"
+
+msgid "Lamplighter"
+msgstr "شاعل القناديل"
+
+msgid "Lampoon"
+msgstr "الهجاء"
+
+msgid "Lampooned"
+msgstr "مهجو"
+
+msgid "Lampooner"
+msgstr "الهجّاء"
+
+msgid "Lampooning"
+msgstr "الهجو"
+
+msgid "Lampoons"
+msgstr "الهجاء"
+
+msgid "Lamport"
+msgstr "لامبورت"
+
+msgid "Lamppost"
+msgstr "عمود المصباح"
+
+msgid "Lamprey"
+msgstr "الجلكى"
+
+msgid "Lampreys"
+msgstr "أنكليسات البحر"
+
+msgid "Lamps"
+msgstr "المصابيح"
+
+msgid "Lampshade"
+msgstr "مظلّة المصباح"
+
+msgid "Lampshades"
+msgstr "مظللات المصباح"
+
+msgid "Lana"
+msgstr "لانا"
+
+msgid "Lancashire"
+msgstr "لانكاشاير"
+
+msgid "Lancaster"
+msgstr "لانكاستر"
+
+msgid "Lance"
+msgstr "الرمح"
+
+msgid "Lanced"
+msgstr "مطعون"
+
+msgid "Lancer"
+msgstr "الرمّاح"
+
+msgid "Lancers"
+msgstr "الرمّاحون"
+
+msgid "Lances"
+msgstr "الرماح"
+
+msgid "Lancing"
+msgstr "الطعن"
+
+msgid "Land"
+msgstr "الأرض"
+
+msgid "Landau"
+msgstr "العربة"
+
+msgid "Landed"
+msgstr "هابط"
+
+msgid "Lander"
+msgstr "المركبة الفضائيّة"
+
+msgid "Landers"
+msgstr "مراكب الإنزال"
+
+msgid "Landfall"
+msgstr "الوصول إلى اليابسة"
+
+msgid "Landfalls"
+msgstr "الوصول إلى اليابسة"
+
+msgid "Landfill"
+msgstr "موقع الدفن النفايات"
+
+msgid "Landhold"
+msgstr "لاندولد"
+
+msgid "Landholder"
+msgstr "مالك الأراضي"
+
+msgid "Landholders"
+msgstr "مالكو الأراضي"
+
+msgid "Landholding"
+msgstr "ملكيّة الأرض"
+
+msgid "Landholdings"
+msgstr "ملكيّات الأراضي"
+
+msgid "Landing"
+msgstr "الإنزال"
+
+msgid "Landings"
+msgstr "الهبوط"
+
+msgid "Landis"
+msgstr "لانديس - قانونيّ أمريكيّ و عضو لجنة البيسبول"
+
+msgid "Landladies"
+msgstr "صاحبات الملك"
+
+msgid "Landlady"
+msgstr "صاحبة الملك"
+
+msgid "Landless"
+msgstr "بدون أرض"
+
+msgid "Landlocked"
+msgstr "محاط باليابسة"
+
+msgid "Landlord"
+msgstr "صاحب الملك"
+
+msgid "Landlords"
+msgstr "أصحاب الملك"
+
+msgid "Landlubber"
+msgstr "شخص لا يفقه في عالم البحار"
+
+msgid "Landmark"
+msgstr "المعلم"
+
+msgid "Landmarks"
+msgstr "المعالم"
+
+msgid "Landowner"
+msgstr "مالك الأراضي"
+
+msgid "Landowners"
+msgstr "ملاك الأراضي"
+
+msgid "Landownership"
+msgstr "ملكية الأرض"
+
+msgid "Lands"
+msgstr "الأراضي"
+
+msgid "Landscape"
+msgstr "المنظر الطبيعي"
+
+msgid "Landscaped"
+msgstr "مصمّم"
+
+msgid "Landscaper"
+msgstr "المُزارع"
+
+msgid "Landscapes"
+msgstr "المناظر الطبيعية"
+
+msgid "Landscaping"
+msgstr "تصميم المواقع"
+
+msgid "Landscapist"
+msgstr "رسّام المناظر الطبيعية"
+
+msgid "Landslide"
+msgstr "الإنهيار الأرضي"
+
+msgid "Landslides"
+msgstr "الإنهيارات الأرضية"
+
+msgid "Landslip"
+msgstr "الإنهيار الأرضي"
+
+msgid "Landslips"
+msgstr "الإنهيارات الأرضية"
+
+msgid "Landsman"
+msgstr "الفلّاح"
+
+msgid "Landsmen"
+msgstr "الفلّاحون"
+
+msgid "Landward"
+msgstr "باتجاه اليابسة"
+
+msgid "Landwehr"
+msgstr "الجندي الإحتياطي"
+
+msgid "Lane"
+msgstr "الحارة"
+
+msgid "Lanes"
+msgstr "الطرق"
+
+msgid "Lang"
+msgstr "لانج - كاتب و عالم أنثروبولوجيا بريطاني"
+
+msgid "Lange"
+msgstr "لانج - مصوّرة أمريكيةّ"
+
+msgid "Langeland"
+msgstr "جزيرة لانجلاند"
+
+msgid "Langford"
+msgstr "لانجفورد"
+
+msgid "Langley"
+msgstr "لانغلي"
+
+msgid "Langmuir"
+msgstr "لانجميور - عالم كيمياء أمريكيّ"
+
+msgid "Language"
+msgstr "اللغة"
+
+msgid "Languages"
+msgstr "اللغات"
+
+msgid "Languid"
+msgstr "ضعيف"
+
+msgid "Languidly"
+msgstr "بشكل ضعيف"
+
+msgid "Languidness"
+msgstr "الوهن"
+
+msgid "Languish"
+msgstr "إضعف"
+
+msgid "Languished"
+msgstr "ضاعف"
+
+msgid "Languisher"
+msgstr "الموهّن، المضعّف"
+
+msgid "Languishes"
+msgstr "يضعف"
+
+msgid "Languishing"
+msgstr "الضعف"
+
+msgid "Languishingly"
+msgstr "بمعاناة"
+
+msgid "Languor"
+msgstr "الإعياء"
+
+msgid "Languorously"
+msgstr "بشكل ضعيف"
+
+msgid "Languorousness"
+msgstr "الخمول"
+
+msgid "Lank"
+msgstr "نحيف"
+
+msgid "Lanka"
+msgstr "لانكا"
+
+msgid "Lankier"
+msgstr "أشدّ نحافة"
+
+msgid "Lankiest"
+msgstr "أشدّ نحافة"
+
+msgid "Lankiness"
+msgstr "النحافة"
+
+msgid "Lankly"
+msgstr "بشكل نحيف"
+
+msgid "Lankness"
+msgstr "النحافة"
+
+msgid "Lanky"
+msgstr "نحيف"
+
+msgid "Lansing"
+msgstr "لانسينج"
+
+msgid "Lantern"
+msgstr "الفانوس"
+
+msgid "Lanterns"
+msgstr "الفوانيس"
+
+msgid "Lanthanide"
+msgstr "لانثانيد"
+
+msgid "Lanthanum"
+msgstr "لانثانام - معدن نادر"
+
+msgid "Lanyard"
+msgstr "الحبل"
+
+msgid "Lao"
+msgstr "اللاو"
+
+msgid "Laocoon"
+msgstr "لاوكون - قس طراودة قُتل مع أولاده"
+
+msgid "Laos"
+msgstr "لاووس"
+
+msgid "Laotian"
+msgstr "اللاوسي"
+
+msgid "Laotians"
+msgstr "اللاوسيون - جماعة بوذية"
+
+msgid "Lap"
+msgstr "الحضن"
+
+msgid "Lapel"
+msgstr "التلبيب"
+
+msgid "Lapelled"
+msgstr "مزوّد بياقة"
+
+msgid "Lapels"
+msgstr "التلابيب"
+
+msgid "Lapidaries"
+msgstr "الجواهرجيين"
+
+msgid "Lapidary"
+msgstr "جواهري"
+
+msgid "Laplace"
+msgstr "لابلاس"
+
+msgid "Laplacian"
+msgstr "متعلقة بعمليّات لابلاس الرّياضية"
+
+msgid "Lapped"
+msgstr "ملفوف"
+
+msgid "Lappet"
+msgstr "قطعة متدلّية تزيينية توضع على غطاء الرأس"
+
+msgid "Lappets"
+msgstr "قطع متدلّية تزيينية توضع على غطاء الرأس"
+
+msgid "Lapping"
+msgstr "اللفّ"
+
+msgid "Laps"
+msgstr "الأحضان"
+
+msgid "Lapse"
+msgstr "الخطأ"
+
+msgid "Lapsed"
+msgstr "منتكس"
+
+msgid "Lapser"
+msgstr "المُنهار"
+
+msgid "Lapses"
+msgstr "الفترات"
+
+msgid "Lapsing"
+msgstr "الإنتكاس"
+
+msgid "Laptop"
+msgstr "الحاسوب النقال"
+
+msgid "Laptops"
+msgstr "الحاسوبات النقالة"
+
+msgid "Lapwing"
+msgstr "طائر اللابوينج"
+
+msgid "Lapwings"
+msgstr "طيور اللابوينج"
+
+msgid "Laramie"
+msgstr "لارامي - أسم نهر في شمال ولاية كولورادو"
+
+msgid "Larboard"
+msgstr "في الجهة اليسرى"
+
+msgid "Larcenies"
+msgstr "السرقات"
+
+msgid "Larcenous"
+msgstr "لُصُوصِيّ "
+
+msgid "Larcenously"
+msgstr "لُصُوصِيَّة"
+
+msgid "Larceny"
+msgstr "السرقة"
+
+msgid "Larch"
+msgstr "اللاريس"
+
+msgid "Larches"
+msgstr "أشجار اللاريس"
+
+msgid "Lard"
+msgstr "شحم الخنزير"
+
+msgid "Larded"
+msgstr "طبخ بشحم الخنزير"
+
+msgid "Larder"
+msgstr "المخزن"
+
+msgid "Larding"
+msgstr "الحشو بشحم الخنزير"
+
+msgid "Lards"
+msgstr "شحوم الخنزير"
+
+msgid "Lardy"
+msgstr "يحتوي على شحم الخنزير"
+
+msgid "Laredo"
+msgstr "لاريدو"
+
+msgid "Lares"
+msgstr "أحد الأسلاف الميتون الذين يُعتقد أنّهم يحمون العائلة - أساطير يونانية"
+
+msgid "Large"
+msgstr "كبير"
+
+msgid "Large-capacity"
+msgstr "القدرة الكبيرة"
+
+msgid "Large-scale"
+msgstr "واسع النطاق"
+
+msgid "Large-size"
+msgstr "بحجم كبير"
+
+msgid "Largely"
+msgstr "بشكل كبير"
+
+msgid "Largemouth"
+msgstr "لارجموث - سمكة كبيرة سوداء"
+
+msgid "Largeness"
+msgstr "الكبر"
+
+msgid "Larger"
+msgstr "أكبر"
+
+msgid "Largesse"
+msgstr "الهبة"
+
+msgid "Largest"
+msgstr "أكبر"
+
+msgid "Larghetto"
+msgstr "بطيء"
+
+msgid "Largish"
+msgstr "كبير قليلا"
+
+msgid "Lariat"
+msgstr "الوهق"
+
+msgid "Lariats"
+msgstr "الوهق"
+
+msgid "Lark"
+msgstr "القبرة"
+
+msgid "Larker"
+msgstr "صيّاد القبّرة"
+
+msgid "Larkin"
+msgstr "لاركن - شاعر إنجليزي"
+
+msgid "Larks"
+msgstr "القبرات"
+
+msgid "Larkspur"
+msgstr "الدلفيون"
+
+msgid "Larrup"
+msgstr "إضرب"
+
+msgid "Larruped"
+msgstr "مضروب"
+
+msgid "Larruping"
+msgstr "الضرب"
+
+msgid "Larrups"
+msgstr "يضرب"
+
+msgid "Larry"
+msgstr "لاري"
+
+msgid "Lars"
+msgstr "لارس"
+
+msgid "Larsen"
+msgstr "لارسين"
+
+msgid "Larson"
+msgstr "لارسون"
+
+msgid "Larva"
+msgstr "اليرقة"
+
+msgid "Larvae"
+msgstr "اليرقات"
+
+msgid "Larval"
+msgstr "دودي"
+
+msgid "Larvas"
+msgstr "اليرقة"
+
+msgid "Laryngeal"
+msgstr "حنجري "
+
+msgid "Larynges"
+msgstr "الحناجر"
+
+msgid "Laryngitis"
+msgstr "إلتهاب الحنجرة"
+
+msgid "Larynx"
+msgstr "الحنجرة"
+
+msgid "Larynxes"
+msgstr "الحناجر"
+
+msgid "Las"
+msgstr "رِبَاط"
+
+msgid "Lascar"
+msgstr "البحّار"
+
+msgid "Lascivious"
+msgstr "فاسق"
+
+msgid "Lasciviously"
+msgstr "بشكل فاسق"
+
+msgid "Lasciviousness"
+msgstr "المجون، الخلاعة"
+
+msgid "Lase"
+msgstr "يصدر إشعاعات منتظمة مثل الليزر"
+
+msgid "Laser"
+msgstr "الليزر"
+
+msgid "Lasers"
+msgstr "الليزر"
+
+msgid "Lash"
+msgstr "السوط"
+
+msgid "Lashed"
+msgstr "مضروب"
+
+msgid "Lasher"
+msgstr "ضارب الكُرْباج"
+
+msgid "Lashes"
+msgstr "الجلدات"
+
+msgid "Lashing"
+msgstr "الرباط"
+
+msgid "Lashings"
+msgstr "الضرب بالسَّوْط"
+
+msgid "Lasing"
+msgstr "إصدار إشعاعات منتظمة مثل الليزر"
+
+msgid "Lass"
+msgstr "الفتاة"
+
+msgid "Lassen"
+msgstr "لاسين"
+
+msgid "Lasses"
+msgstr "الفتيات"
+
+msgid "Lassitude"
+msgstr "التعب"
+
+msgid "Lasso"
+msgstr "الربقة"
+
+msgid "Lassoed"
+msgstr "إصطاد بالأنشوطة"
+
+msgid "Lassoer"
+msgstr "الصيّاد"
+
+msgid "Last"
+msgstr "آخر مرّة"
+
+msgid "Last-Translator"
+msgstr "المترجم الأخير"
+
+msgid "Laste"
+msgstr "يتحمّل"
+
+msgid "Lasted"
+msgstr "مدام"
+
+msgid "Laster"
+msgstr "المتحمّل"
+
+msgid "Lasting"
+msgstr "الديمومة"
+
+msgid "Lastingly"
+msgstr "بثبات"
+
+msgid "Lastingness"
+msgstr "الديمومة"
+
+msgid "Lastly"
+msgstr "أخيرا"
+
+msgid "Lasts"
+msgstr "النهايات"
+
+msgid "Laszlo"
+msgstr "لازلو"
+
+msgid "Latch"
+msgstr "المزلاج"
+
+msgid "Latched"
+msgstr "مغلق"
+
+msgid "Latches"
+msgstr "المزالج"
+
+msgid "Latching"
+msgstr "الإغلاق"
+
+msgid "Latchkey"
+msgstr "المفتاح"
+
+msgid "Late"
+msgstr "متأخرا"
+
+msgid "Lated"
+msgstr "مُتَخَلِّف"
+
+msgid "Lately"
+msgstr "مؤخرا"
+
+msgid "Latencies"
+msgstr "الإختفاء"
+
+msgid "Latency"
+msgstr "الإختفاء"
+
+msgid "Lateness"
+msgstr "التأخّر"
+
+msgid "Latenesses"
+msgstr "التأخّر"
+
+msgid "Latent"
+msgstr "مستتر"
+
+msgid "Latently"
+msgstr "بشكل مستتر"
+
+msgid "Latents"
+msgstr "المستترون"
+
+msgid "Later"
+msgstr "فيما بعد"
+
+msgid "Latera"
+msgstr "في حالة متقدّمة"
+
+msgid "Lateral"
+msgstr "الفرع"
+
+msgid "Laterally"
+msgstr "بشكل جانبي"
+
+msgid "Laterals"
+msgstr "الفروع"
+
+msgid "Lateran"
+msgstr "كنيسة القدّيس لاتيران"
+
+msgid "Laterite"
+msgstr "لاتيرايت - صخور رملية حمراء اللون"
+
+msgid "Latest"
+msgstr "آخر"
+
+msgid "Latex"
+msgstr "مطّاط"
+
+msgid "Latexes"
+msgstr "الألبان النباتية"
+
+msgid "Lath"
+msgstr "اللوح"
+
+msgid "Lathe"
+msgstr "المخرطة"
+
+msgid "Lather"
+msgstr "الرغوة"
+
+msgid "Lathered"
+msgstr "مرغّى"
+
+msgid "Latherer"
+msgstr "مسبب الرغوة"
+
+msgid "Lathering"
+msgstr "الترغية"
+
+msgid "Lathers"
+msgstr "الرغو"
+
+msgid "Lathery"
+msgstr "رغوي"
+
+msgid "Lathes"
+msgstr "المخارط"
+
+msgid "Lathing"
+msgstr "الخِرَاطَة"
+
+msgid "Lathrop"
+msgstr "لاثروب"
+
+msgid "Laths"
+msgstr "الألواح"
+
+msgid "Latin"
+msgstr "اللغة اللاتينية"
+
+msgid "Latinate"
+msgstr "لاتِينِيّ"
+
+msgid "Latins"
+msgstr "اللغة اللاتينية"
+
+msgid "Latish"
+msgstr "متأخّر"
+
+msgid "Latitude"
+msgstr "خطّ العرض"
+
+msgid "Latitudes"
+msgstr "خطوط العرض"
+
+msgid "Latitudinal"
+msgstr "عرضي"
+
+msgid "Latitudinally"
+msgstr "بشكل عرضي"
+
+msgid "Latitudinarian"
+msgstr "مُتَحَرِّر"
+
+msgid "Latrine"
+msgstr "المرحاض"
+
+msgid "Latrines"
+msgstr "المراحيض"
+
+# Pesron
+msgid "Latrobe"
+msgstr "لاتروب - مهندس أمريكي"
+
+msgid "Latter"
+msgstr "أخير"
+
+msgid "Latterly"
+msgstr "حديثا"
+
+msgid "Lattice"
+msgstr "المشبّك"
+
+msgid "Latticed"
+msgstr "مشبّك"
+
+msgid "Lattices"
+msgstr "المشابك"
+
+msgid "Latticework"
+msgstr "عَرِيش"
+
+msgid "Latticing"
+msgstr "يصنع العريش، صناعة العريش"
+
+msgid "Lattimer"
+msgstr "لاتيمير"
+
+msgid "Latus"
+msgstr "الجزء من الجسم بين الحوض والأضلاع"
+
+msgid "Latvia"
+msgstr "لاتفيا"
+
+msgid "Latvian"
+msgstr "اللاتفي"
+
+msgid "Laud"
+msgstr "إمدح"
+
+msgid "Laudable"
+msgstr "جدير بالإحترام"
+
+msgid "Laudably"
+msgstr "بتبجيل"
+
+msgid "Laudanum"
+msgstr "اللودانوم"
+
+msgid "Laudatory"
+msgstr "إِطْرائِيّ"
+
+msgid "Lauded"
+msgstr "محترم"
+
+msgid "Lauder"
+msgstr "المُمْتَدِح"
+
+msgid "Lauderdale"
+msgstr "لوديرديل"
+
+msgid "Lauding"
+msgstr "المدح"
+
+msgid "Lauds"
+msgstr "يمدح"
+
+msgid "Laue"
+msgstr "معدّات الجيش الخفيفة"
+
+msgid "Laugh"
+msgstr "الضحكة"
+
+msgid "Laughable"
+msgstr "مضحك"
+
+msgid "Laughableness"
+msgstr "الضحك"
+
+msgid "Laughably"
+msgstr "مضحك"
+
+msgid "Laughed"
+msgstr "ضاحك"
+
+msgid "Laugher"
+msgstr "الضاحك"
+
+msgid "Laughers"
+msgstr "الضاحكون"
+
+msgid "Laughing"
+msgstr "الضحك"
+
+msgid "Laughingly"
+msgstr "بشكل ضاحك"
+
+msgid "Laughingstock"
+msgstr "الإضحوكة"
+
+msgid "Laughingstocks"
+msgstr "الإضحوكة"
+
+msgid "Laughlin"
+msgstr "لافلين"
+
+msgid "Laughs"
+msgstr "الضحك"
+
+msgid "Laughter"
+msgstr "الضحك"
+
+msgid "Laughters"
+msgstr "الضحك"
+
+msgid "Launch"
+msgstr "الإنطلاق"
+
+msgid "Launched"
+msgstr "منطلق"
+
+msgid "Launcher"
+msgstr "القاذفة"
+
+msgid "Launchers"
+msgstr "القاذفات"
+
+msgid "Launches"
+msgstr "الإصدارات"
+
+msgid "Launching"
+msgstr "الإنطلاق"
+
+msgid "Launder"
+msgstr "إغسل"
+
+msgid "Laundered"
+msgstr "مغسول"
+
+msgid "Launderer"
+msgstr "المنظّف"
+
+msgid "Laundering"
+msgstr "الغسل"
+
+msgid "Launders"
+msgstr "يغسل"
+
+msgid "Laundress"
+msgstr "الغسّالة"
+
+msgid "Laundresses"
+msgstr "الغسّالات"
+
+msgid "Laundrette"
+msgstr "المغسلة - مكان غسيل الملابس"
+
+msgid "Laundrettes"
+msgstr "المغاسل - أماكن غسيل الملابس"
+
+msgid "Laundries"
+msgstr "المكاوي"
+
+msgid "Laundromat"
+msgstr "مكان غسل الثياب"
+
+msgid "Laundromats"
+msgstr "المغاسل - أماكن غسيل الملابس"
+
+msgid "Laundry"
+msgstr "المكوى"
+
+msgid "Laundrymen"
+msgstr "منظّفو الملابس"
+
+msgid "Laura"
+msgstr "لورا"
+
+msgid "Laureate"
+msgstr "الفائز"
+
+msgid "Laureated"
+msgstr "كرّم بوضع تاج الغار على الرأس"
+
+msgid "Laureates"
+msgstr "الفائزون"
+
+msgid "Laureateship"
+msgstr "مكتب التكريم"
+
+msgid "Laureating"
+msgstr "التكريم بوضع تاج الغار على الرأس"
+
+msgid "Laureation"
+msgstr "التكريم بوضع تاج الغار على الرأس"
+
+msgid "Laurel"
+msgstr "الغار"
+
+msgid "Laureled"
+msgstr "توّج بأوراق الغار"
+
+msgid "Laurels"
+msgstr "نبات الغار"
+
+msgid "Lauren"
+msgstr "لورين"
+
+msgid "Laurence"
+msgstr "لورنس"
+
+msgid "Laurent"
+msgstr "لورنت"
+
+msgid "Laurentian"
+msgstr "متعلق بنهر القدّيس لورانس"
+
+msgid "Laurie"
+msgstr "لوري"
+
+msgid "Lausanne"
+msgstr "لوزان"
+
+msgid "Lava"
+msgstr "الحمم"
+
+msgid "Lavabo"
+msgstr "الاغتسال"
+
+msgid "Lavatories"
+msgstr "المراحيض"
+
+msgid "Lavatory"
+msgstr "المرحاض"
+
+msgid "Lave"
+msgstr "إغتسل"
+
+msgid "Laved"
+msgstr "مغتسل"
+
+msgid "Lavender"
+msgstr "اللافندر"
+
+msgid "Lavendered"
+msgstr "مكسو بنبات اللافيندر"
+
+msgid "Lavendering"
+msgstr "التعطير او التطييب باستخدام نبات اللافيندر"
+
+msgid "Laves"
+msgstr "يغتسل"
+
+msgid "Laving"
+msgstr "الإغتسال"
+
+msgid "Lavish"
+msgstr "مسرف"
+
+msgid "Lavished"
+msgstr "مغدق"
+
+msgid "Lavishing"
+msgstr "الإغداق"
+
+msgid "Lavishly"
+msgstr "بشكل مسرف"
+
+msgid "Lavishness"
+msgstr "البذخ"
+
+msgid "Lavoisier"
+msgstr "لافويسير - صيدليّ فرنسيّ"
+
+msgid "Law"
+msgstr "القانون"
+
+msgid "Lawbreaker"
+msgstr "منتهك القانون"
+
+msgid "Lawbreakers"
+msgstr "منتهكي القانون"
+
+msgid "Lawbreaking"
+msgstr "خرق القانون"
+
+msgid "Lawford"
+msgstr "لوفورد"
+
+msgid "Lawful"
+msgstr "قانوني"
+
+msgid "Lawfully"
+msgstr "بشكل شرعي"
+
+msgid "Lawfulness"
+msgstr "الشرعية"
+
+msgid "Lawgiver"
+msgstr "المشرّع"
+
+msgid "Lawgivers"
+msgstr "المشرّعون"
+
+msgid "Lawgiving"
+msgstr "التشريع"
+
+msgid "Lawless"
+msgstr "فوضوي"
+
+msgid "Lawlessly"
+msgstr "بشكل فوضوي"
+
+msgid "Lawlessness"
+msgstr "الفوضى"
+
+msgid "Lawlessnesses"
+msgstr "الفوضى"
+
+msgid "Lawmaker"
+msgstr "المشرّع"
+
+msgid "Lawmakers"
+msgstr "المشرّعون"
+
+msgid "Lawmaking"
+msgstr "تشريع القوانين"
+
+msgid "Lawman"
+msgstr "الموظف المسؤول عن تنفيذ القانون"
+
+msgid "Lawmen"
+msgstr "الموظفون المسؤولون عن تنفيذ القانون"
+
+msgid "Lawn"
+msgstr "العشب"
+
+msgid "Lawns"
+msgstr "المعاشب"
+
+msgid "Lawrence"
+msgstr "لورانس"
+
+msgid "Lawrenceville"
+msgstr "لورينسيفيل"
+
+msgid "Lawrencium"
+msgstr "اللورنسيوم - عنصر مشعّ"
+
+msgid "Laws"
+msgstr "القوانين"
+
+msgid "Lawson"
+msgstr "لوسون"
+
+msgid "Lawsuit"
+msgstr "الدعوى"
+
+msgid "Lawsuits"
+msgstr "الدعاوي"
+
+msgid "Lawyer"
+msgstr "المحامي"
+
+msgid "Lawyerly"
+msgstr "يصير محامياً"
+
+msgid "Lawyers"
+msgstr "المحامون"
+
+msgid "Lax"
+msgstr "لاكس"
+
+msgid "Laxativ"
+msgstr "لاكساتيف"
+
+msgid "Laxative"
+msgstr "المسهّل"
+
+msgid "Laxatively"
+msgstr "بشكل مسهّل"
+
+msgid "Laxativeness"
+msgstr "التّسهيل"
+
+msgid "Laxatives"
+msgstr "المسهلات"
+
+msgid "Laxity"
+msgstr "التهاون"
+
+msgid "Laxly"
+msgstr "رخوا"
+
+msgid "Laxness"
+msgstr "الإهمال"
+
+msgid "Lay"
+msgstr "عاميّ"
+
+msgid "Layer"
+msgstr "الطبقة"
+
+msgid "Layered"
+msgstr "ذو طبقات"
+
+msgid "Layering"
+msgstr "التصفيف"
+
+msgid "Layers"
+msgstr "الطبقات"
+
+msgid "Layette"
+msgstr "مستلزمات الوليد"
+
+msgid "Laying"
+msgstr "الوضع"
+
+msgid "Layman"
+msgstr "الرجل الغير المتخصّص"
+
+msgid "Laymen"
+msgstr "الرجال الغير المتخصّصين"
+
+msgid "Layoff"
+msgstr "البطالة"
+
+msgid "Layoffs"
+msgstr "حالات البطالة"
+
+msgid "Layout"
+msgstr "التخطيط"
+
+msgid "Layouts"
+msgstr "المخططات"
+
+msgid "Layover"
+msgstr "توقّف قصير إبّان الرّحلة"
+
+msgid "Layperson"
+msgstr "شخص عادي"
+
+msgid "Lays"
+msgstr "الأناشيد"
+
+msgid "Layton"
+msgstr "ليتون"
+
+msgid "Layup"
+msgstr "رمية الكرة"
+
+msgid "Layups"
+msgstr "رميات الكرة"
+
+msgid "Lazar"
+msgstr "الليزر"
+
+msgid "Lazarus"
+msgstr "لازاروس - في العهد الجديد. أخو ماري و مارثا"
+
+msgid "Laze"
+msgstr "تكاسل"
+
+msgid "Lazed"
+msgstr "متكاسل"
+
+msgid "Lazes"
+msgstr "يتكاسل"
+
+msgid "Lazied"
+msgstr "تحرّك ببطىء او كسّل"
+
+msgid "Lazier"
+msgstr "أشدّ كسلا"
+
+msgid "Laziest"
+msgstr "أشدّ كسلا"
+
+msgid "Lazily"
+msgstr "بتكاسل"
+
+msgid "Laziness"
+msgstr "الكسل"
+
+msgid "Lazing"
+msgstr "التكاسل"
+
+msgid "Lazy"
+msgstr "كسلان"
+
+msgid "Lazybones"
+msgstr "الكسول"
+
+msgid "Lazying"
+msgstr "التّحرك ببطىء او الكسل"
+
+msgid "Lb"
+msgstr "الباون"
+
+msgid "Lbs"
+msgstr "الباونات"
+
+msgid "Lea"
+msgstr "لي"
+
+msgid "Leach"
+msgstr "الترشيح"
+
+msgid "Leachate"
+msgstr "ليتشات"
+
+msgid "Leached"
+msgstr "مرشّح"
+
+msgid "Leaches"
+msgstr "الترشيح"
+
+msgid "Leaching"
+msgstr "الترشيح"
+
+msgid "Lead"
+msgstr "التقدّم"
+
+msgid "Leaded"
+msgstr "مرصّص"
+
+msgid "Leaden"
+msgstr "رصاصي"
+
+msgid "Leadenly"
+msgstr "بشكل رصاصي"
+
+msgid "Leadenness"
+msgstr "الرصاصية، الثِّقل"
+
+msgid "Leader"
+msgstr "الزعيم"
+
+msgid "Leaderless"
+msgstr "بلا قائد"
+
+msgid "Leaders"
+msgstr "الزعماء"
+
+msgid "Leadership"
+msgstr "القيادة"
+
+msgid "Leaderships"
+msgstr "القيادات"
+
+msgid "Leading"
+msgstr "القيادة"
+
+msgid "Leading-in"
+msgstr "قيادي في"
+
+msgid "Leadings"
+msgstr "الإطار المصنوع من الرصاص"
+
+msgid "Leadoff"
+msgstr "متقدّم"
+
+msgid "Leads"
+msgstr "الأدلّة"
+
+msgid "Leadsman"
+msgstr "من يحدد عمق البحر على متن السفينة"
+
+msgid "Leadsmen"
+msgstr "محددو عمق البحر على متن السفينة"
+
+msgid "Leaf"
+msgstr "الورقة"
+
+msgid "Leafage"
+msgstr "ورق الشجر"
+
+msgid "Leafed"
+msgstr "مورق"
+
+msgid "Leafhopper"
+msgstr "حشرة نطاطة"
+
+msgid "Leafier"
+msgstr "محاط بالأشجار"
+
+msgid "Leafiest"
+msgstr "محاط بالأشجار"
+
+msgid "Leafing"
+msgstr "الإيراق"
+
+msgid "Leafless"
+msgstr "بلا أوراق"
+
+msgid "Leaflet"
+msgstr "ورقة الإعلان"
+
+msgid "Leaflets"
+msgstr "أوراق الإعلانات"
+
+msgid "Leafs"
+msgstr "الورقة"
+
+msgid "Leafy"
+msgstr "محاط بالأشجار"
+
+msgid "League"
+msgstr "الإتحاد"
+
+msgid "Leagued"
+msgstr "شارك في المنظّمة"
+
+msgid "Leaguer"
+msgstr "العضو"
+
+msgid "Leaguers"
+msgstr "الأعضاء"
+
+msgid "Leagues"
+msgstr "الفرق"
+
+msgid "Leaguing"
+msgstr "التنظيم لمنظّمة"
+
+msgid "Leak"
+msgstr "التسرّب"
+
+msgid "Leakage"
+msgstr "التسرب"
+
+msgid "Leakages"
+msgstr "التسرب"
+
+msgid "Leaked"
+msgstr "مسرّب"
+
+msgid "Leaker"
+msgstr "المسرّب"
+
+msgid "Leakier"
+msgstr "أكثر نضوحا"
+
+msgid "Leakiest"
+msgstr "أكثر نضوحا"
+
+msgid "Leakiness"
+msgstr "التسرّب"
+
+msgid "Leaking"
+msgstr "التسريب"
+
+msgid "Leaks"
+msgstr "التسرّبات"
+
+msgid "Leaky"
+msgstr "ناضح"
+
+msgid "Lean"
+msgstr "اللحم بدون دهن"
+
+msgid "Leander"
+msgstr "ليندر"
+
+msgid "Leaned"
+msgstr "متّكأ"
+
+msgid "Leaner"
+msgstr "أكثر طراوة"
+
+msgid "Leanest"
+msgstr "أكثر طراوة"
+
+msgid "Leaning"
+msgstr "الميل"
+
+msgid "Leanings"
+msgstr "الميول"
+
+msgid "Leanly"
+msgstr "بشكل طري"
+
+msgid "Leanness"
+msgstr "الطراوة"
+
+msgid "Leans"
+msgstr "الميول"
+
+msgid "Leant"
+msgstr "ميل"
+
+msgid "Leap"
+msgstr "القفزة"
+
+msgid "Leap-day"
+msgstr "يوم قفزة"
+
+msgid "Leap-frog"
+msgstr "ضفدع قفزة"
+
+msgid "Leap-year"
+msgstr "سنة الكبيسة"
+
+msgid "Leaped"
+msgstr "قافز"
+
+msgid "Leaper"
+msgstr "القافز"
+
+msgid "Leapfrog"
+msgstr "قفز الضفادع"
+
+msgid "Leapfrogs"
+msgstr "يقفز"
+
+msgid "Leaping"
+msgstr "القفز"
+
+msgid "Leaps"
+msgstr "القفزات"
+
+msgid "Leapt"
+msgstr "قافز"
+
+msgid "Lear"
+msgstr "لير"
+
+msgid "Learn"
+msgstr "تعلّم"
+
+msgid "Learnable"
+msgstr "قابل للتعلّم"
+
+msgid "Learned"
+msgstr "متعلّم"
+
+msgid "Learnedly"
+msgstr "مكتسبا"
+
+msgid "Learnedness"
+msgstr "التعلّم"
+
+msgid "Learner"
+msgstr "المتعلّم"
+
+msgid "Learners"
+msgstr "المتعلّمون"
+
+msgid "Learning"
+msgstr "التعلّم"
+
+msgid "Learnings"
+msgstr "التّعلّم"
+
+msgid "Learns"
+msgstr "يتعلّم"
+
+msgid "Learnt"
+msgstr "تعلّم"
+
+msgid "Leary"
+msgstr "ليري"
+
+msgid "Leasable"
+msgstr "قابل للتأجير"
+
+msgid "Lease"
+msgstr "الإيجار"
+
+msgid "Leased"
+msgstr "مؤجّر"
+
+msgid "Leasehold"
+msgstr "العقار المستأجر"
+
+msgid "Leaseholder"
+msgstr "المستأجر"
+
+msgid "Leases"
+msgstr "عقود الإيجار"
+
+msgid "Leash"
+msgstr "المقود"
+
+msgid "Leashes"
+msgstr "المقاود"
+
+msgid "Leasing"
+msgstr "التأجير"
+
+msgid "Least"
+msgstr "أقلّ"
+
+msgid "Leastwise"
+msgstr "على الأقل"
+
+msgid "Leather"
+msgstr "الجلد"
+
+msgid "Leatherback"
+msgstr "ليذرباك - أكبر سلحفاة بحريّة"
+
+msgid "Leathered"
+msgstr "جَلَدَ"
+
+msgid "Leathering"
+msgstr "الجَلْد"
+
+msgid "Leathern"
+msgstr "جلدي"
+
+msgid "Leatherneck"
+msgstr "جندي من مشاة البحرية الأمريكية"
+
+msgid "Leathers"
+msgstr "الجلود"
+
+msgid "Leatherwork"
+msgstr "الأعمال الجلدية"
+
+msgid "Leathery"
+msgstr "جلدي"
+
+msgid "Leave"
+msgstr "الإجازة"
+
+msgid "Leaved"
+msgstr "أورق"
+
+msgid "Leaven"
+msgstr "الخميرة"
+
+msgid "Leavened"
+msgstr "مخمّر"
+
+msgid "Leavening"
+msgstr "التخفيف"
+
+msgid "Leavenworth"
+msgstr "ليفينورث"
+
+msgid "Leaver"
+msgstr "التارك"
+
+msgid "Leavers"
+msgstr "التاركون"
+
+msgid "Leaves"
+msgstr "الأوراق"
+
+msgid "Leaving"
+msgstr "الترك"
+
+msgid "Leavings"
+msgstr "الفضلات"
+
+msgid "Lebanese"
+msgstr "الّلبناني، الّلبنانيّة"
+
+msgid "Lebanon"
+msgstr "لبنان"
+
+msgid "Lebensraum"
+msgstr "المجال الحيوي"
+
+msgid "Lebesgue"
+msgstr " ليبيسج - عالم رياضيّات فرنسي"
+
+msgid "Lecher"
+msgstr "الفاسق"
+
+msgid "Lecherous"
+msgstr "داعر"
+
+msgid "Lecherously"
+msgstr "بشكل داعر"
+
+msgid "Lecherousness"
+msgstr "الفجور"
+
+msgid "Lechery"
+msgstr "الفجور"
+
+msgid "Lectern"
+msgstr "المنصّة الخطابية"
+
+msgid "Lecterns"
+msgstr "المنصّات الخطابية"
+
+msgid "Lectionary"
+msgstr "الفصول من الإنجيل التي سيتم قرائتها داخل الكنيسة"
+
+msgid "Lecture"
+msgstr "المحاضرة"
+
+msgid "Lectured"
+msgstr "محاضر"
+
+msgid "Lecturer"
+msgstr "المحاضر"
+
+msgid "Lecturers"
+msgstr "المحاضرون"
+
+msgid "Lectures"
+msgstr "المحاضرات"
+
+msgid "Lectureship"
+msgstr "منصب المحاضر"
+
+msgid "Lecturing"
+msgstr "المحاضرة"
+
+msgid "Led"
+msgstr "مقاد"
+
+msgid "Ledge"
+msgstr "الحافة"
+
+msgid "Ledger"
+msgstr "سجل الحسابات"
+
+msgid "Ledger-card"
+msgstr "بطاقة سجل حسابات"
+
+msgid "Ledgers"
+msgstr "سجلات الحسابات"
+
+msgid "Ledges"
+msgstr "الحواف"
+
+msgid "LEDs"
+msgstr "نظام بيانات تطبيق القانون"
+
+msgid "Lee"
+msgstr "لي"
+
+msgid "Leech"
+msgstr "المستنزف"
+
+msgid "Leeched"
+msgstr "ليتشيد"
+
+msgid "Leeches"
+msgstr "المستنزفون"
+
+msgid "Leeching"
+msgstr "الإمتصاص"
+
+msgid "Leeds"
+msgstr "ليدز"
+
+msgid "Leek"
+msgstr "الكرّاث"
+
+msgid "Leeks"
+msgstr "نبات الكرّاث"
+
+msgid "Leer"
+msgstr "الخزرة"
+
+msgid "Leered"
+msgstr "شابق"
+
+msgid "Leerier"
+msgstr "أكثر إرتيابا"
+
+msgid "Leeriest"
+msgstr "أكثر إرتيابا"
+
+msgid "Leeriness"
+msgstr "الحذر"
+
+msgid "Leering"
+msgstr "الشبق"
+
+msgid "Leeringly"
+msgstr "بشكل شابق"
+
+msgid "Leers"
+msgstr "الخزر"
+
+msgid "Leery"
+msgstr "مرتاب"
+
+msgid "Lees"
+msgstr "الثمالة"
+
+msgid "Leeuwenhoek"
+msgstr "ليوينهويك"
+
+msgid "Leeward"
+msgstr "بإتجاه الريح"
+
+msgid "Leeway"
+msgstr "الفسحة"
+
+msgid "Left"
+msgstr "اليسار"
+
+msgid "Left-Auxiliary"
+msgstr "المساعد اليسار"
+
+msgid "Left-Channel"
+msgstr "القناة اليسرى"
+
+msgid "Left-InternalSpeaker"
+msgstr "إنترنالسبيكير اليسار"
+
+msgid "Left-Jack"
+msgstr "جاك اليسار"
+
+msgid "Left-justified"
+msgstr "مبرّر يسار"
+
+msgid "Left-Microphone"
+msgstr "مكبّر الصوت اليسار"
+
+msgid "Lefties"
+msgstr "اليساريّون"
+
+msgid "Leftist"
+msgstr "يساري"
+
+msgid "Leftists"
+msgstr "اليساريون"
+
+msgid "Leftmost"
+msgstr "أقصى اليسار"
+
+msgid "Leftover"
+msgstr "البقية"
+
+msgid "Leftovers"
+msgstr "البقايا"
+
+msgid "Lefts"
+msgstr "اليسار"
+
+msgid "Leftward"
+msgstr "يساري"
+
+msgid "Leftwards"
+msgstr "على اليسار"
+
+msgid "Lefty"
+msgstr "اليساريّ"
+
+msgid "Leg"
+msgstr "الساق"
+
+msgid "Legacies"
+msgstr "الإرث"
+
+msgid "Legacy"
+msgstr "التراث"
+
+msgid "Legal"
+msgstr "قانوني"
+
+msgid "Legalities"
+msgstr "القانونيّة"
+
+msgid "Legality"
+msgstr "المشروعية"
+
+msgid "Legalization"
+msgstr "التشريع"
+
+msgid "Legalizations"
+msgstr "التشريع"
+
+msgid "Legalize"
+msgstr "شرّع"
+
+msgid "Legalized"
+msgstr "مشروع"
+
+msgid "Legalizes"
+msgstr "يشرّع"
+
+msgid "Legalizing"
+msgstr "التشريع"
+
+msgid "Legally"
+msgstr "قانونيا"
+
+msgid "Legate"
+msgstr "المندوب"
+
+msgid "Legated"
+msgstr "ليجاتيد"
+
+msgid "Legatee"
+msgstr "المورّث"
+
+msgid "Legates"
+msgstr "المندوبون"
+
+msgid "Legating"
+msgstr "الإنابة، التمثيل"
+
+msgid "Legation"
+msgstr "المفوّضية"
+
+msgid "Legations"
+msgstr "المفوّضيات"
+
+msgid "Legato"
+msgstr "منبّسط ومتساوي"
+
+msgid "Legend"
+msgstr "الأسطورة"
+
+msgid "Legendary"
+msgstr "أسطوري"
+
+msgid "Legendre"
+msgstr "ليجيندر - عالم رياضيّات فرنسيّ"
+
+msgid "Legends"
+msgstr "الأساطير"
+
+msgid "Legerdemain"
+msgstr "خفة اليد"
+
+msgid "Legged"
+msgstr "ذو أرجل"
+
+msgid "Leggier"
+msgstr "طويل الساقين"
+
+msgid "Legging"
+msgstr "يغطي الرٍّجْل"
+
+msgid "Leggings"
+msgstr "اللباس الداخلي"
+
+msgid "Leggy"
+msgstr "طويل الساقين"
+
+msgid "Leghorn"
+msgstr "القبعة"
+
+msgid "Legibility"
+msgstr "الوضوح"
+
+msgid "Legible"
+msgstr "واضح"
+
+msgid "Legibleness"
+msgstr "مقروء"
+
+msgid "Legibly"
+msgstr "بوضوح"
+
+msgid "Legion"
+msgstr "الجحفل"
+
+msgid "Legionaries"
+msgstr "أعضاء الفيلق"
+
+msgid "Legionary"
+msgstr "عضو الفيلق"
+
+msgid "Legionnaire"
+msgstr "الجندي"
+
+msgid "Legions"
+msgstr "الجحافل"
+
+msgid "Legislate"
+msgstr "شرّع"
+
+msgid "Legislated"
+msgstr "مشرّع"
+
+msgid "Legislates"
+msgstr "يشرّع"
+
+msgid "Legislating"
+msgstr "التشريع"
+
+msgid "Legislation"
+msgstr "التشريع"
+
+msgid "Legislations"
+msgstr "التشريعات"
+
+msgid "Legislative"
+msgstr "تشريعي"
+
+msgid "Legislatively"
+msgstr "تشريعيا"
+
+msgid "Legislator"
+msgstr "المشرّع"
+
+msgid "Legislators"
+msgstr "المشرّعون"
+
+msgid "Legislature"
+msgstr "المجلس التشريعي"
+
+msgid "Legislatures"
+msgstr "السلطات التشريعية"
+
+msgid "Legit"
+msgstr "شرعي"
+
+msgid "Legitimacy"
+msgstr "الشرعية"
+
+msgid "Legitimate"
+msgstr "شرعي"
+
+msgid "Legitimated"
+msgstr "مشرّع"
+
+msgid "Legitimately"
+msgstr "بشكل شرعي"
+
+msgid "Legitimateness"
+msgstr "الشرعية"
+
+msgid "Legitimates"
+msgstr "يشرّع"
+
+msgid "Legitimating"
+msgstr "التشريع"
+
+msgid "Legitimation"
+msgstr " التقنين"
+
+msgid "Legitimization"
+msgstr "التّشريع"
+
+msgid "Legitimize"
+msgstr "شرّع"
+
+msgid "Legitimized"
+msgstr "مشرّع"
+
+msgid "Legitimizer"
+msgstr "المشرّع"
+
+msgid "Legitimizes"
+msgstr "يشرّع"
+
+msgid "Legitimizing"
+msgstr "التشريع"
+
+msgid "Legs"
+msgstr "السيقان"
+
+msgid "Legume"
+msgstr "قرن النبات"
+
+msgid "Legumes"
+msgstr "قرون النبات"
+
+msgid "Leguminous"
+msgstr "بقلي"
+
+msgid "Lehigh"
+msgstr "ليهاي"
+
+msgid "Lehman"
+msgstr " ليمان - مصرفيّ و سياسيّ أمريكيّ"
+
+msgid "Leigh"
+msgstr "لاي"
+
+msgid "Leighton"
+msgstr "لايتن"
+
+msgid "Leila"
+msgstr "ليلى"
+
+msgid "Leiser"
+msgstr "ليايزر"
+
+msgid "Leisure"
+msgstr "الراحة"
+
+msgid "Leisured"
+msgstr "مترف"
+
+msgid "Leisureliness"
+msgstr "الراحة"
+
+msgid "Leisurely"
+msgstr "مترف"
+
+msgid "Leitmotif"
+msgstr "النزعة المتكررة"
+
+msgid "Leitmotiv"
+msgstr "الفكرة المتكررة"
+
+msgid "Leland"
+msgstr "ليلند"
+
+msgid "Lemke"
+msgstr "ليمكي"
+
+msgid "Lemma"
+msgstr "قضيّة تساعد في تسهيل أمور قضية أخرى :: القضيّة المساعدة"
+
+msgid "Lemmas"
+msgstr "قضايّا تساعد في تسهيل أمور قضية أخرى"
+
+msgid "Lemming"
+msgstr "اليرنب القطبي"
+
+msgid "Lemmings"
+msgstr "اليرانب القطبية"
+
+msgid "Lemon"
+msgstr "الليمون"
+
+msgid "Lemon-juice"
+msgstr "عصير الليمون"
+
+msgid "Lemonade"
+msgstr "شراب الليمون"
+
+msgid "Lemons"
+msgstr "الليمون"
+
+msgid "Lemuel"
+msgstr "ليمل - ملك تفرّغ لعبادة اللة"
+
+msgid "Len"
+msgstr "لين"
+
+msgid "Lena"
+msgstr "لينا"
+
+msgid "Lend"
+msgstr "أعر"
+
+msgid "Lender"
+msgstr "الدائن"
+
+msgid "Lenders"
+msgstr "الدائنون"
+
+msgid "Lending"
+msgstr "الإقراض"
+
+msgid "Lends"
+msgstr "يعير"
+
+msgid "Length"
+msgstr "الطول"
+
+msgid "Lengthen"
+msgstr "طوّل"
+
+msgid "Lengthened"
+msgstr "مطوّل"
+
+msgid "Lengthener"
+msgstr "المُمدّد"
+
+msgid "Lengthening"
+msgstr "التطويل"
+
+msgid "Lengthens"
+msgstr "يطوّل"
+
+msgid "Lengthier"
+msgstr "أكثر تطويلا"
+
+msgid "Lengthily"
+msgstr "بشكل مطوّل"
+
+msgid "Lengthiness"
+msgstr "التّطويل"
+
+msgid "Lengths"
+msgstr "الأطوال"
+
+msgid "Lengthwise"
+msgstr "طوليا"
+
+msgid "Lengthy"
+msgstr "طويل"
+
+msgid "Leniency"
+msgstr "التساهل"
+
+msgid "Lenient"
+msgstr "متساهل"
+
+msgid "Leniently"
+msgstr "بتساهل"
+
+msgid "Lenin"
+msgstr "لينين"
+
+msgid "Leningrad"
+msgstr "لينينغراد"
+
+msgid "Leninism"
+msgstr "اللينينية"
+
+msgid "Leninist"
+msgstr "اللينيني"
+
+msgid "Lenitive"
+msgstr "مسكّن"
+
+msgid "Lennox"
+msgstr "لينيكس"
+
+msgid "Lenny"
+msgstr "ليني"
+
+msgid "Lenore"
+msgstr "لينور"
+
+msgid "Lens"
+msgstr "العدسة"
+
+msgid "Lense"
+msgstr "لينس"
+
+msgid "Lensed"
+msgstr "بعدسات"
+
+msgid "Lenser"
+msgstr "لينسير"
+
+msgid "Lenses"
+msgstr "العدسات"
+
+msgid "Lensing"
+msgstr "يصوّر فوتوغرافيا"
+
+msgid "Lent"
+msgstr "الصوم الكبير"
+
+msgid "Lenten"
+msgstr "صومي"
+
+msgid "Lenticular"
+msgstr "عدسي"
+
+msgid "Lentil"
+msgstr "العدس"
+
+msgid "Lentils"
+msgstr "العدس"
+
+msgid "Leo"
+msgstr "ليو"
+
+msgid "Leon"
+msgstr "ليون"
+
+msgid "Leona"
+msgstr "ليونا"
+
+msgid "Leonard"
+msgstr "ليونارد"
+
+msgid "Leonardo"
+msgstr "ليوناردو"
+
+msgid "Leone"
+msgstr "ليون"
+
+msgid "Leonid"
+msgstr "ليوند"
+
+msgid "Leonine"
+msgstr "أسدي"
+
+msgid "Leopard"
+msgstr "النمر"
+
+msgid "Leopards"
+msgstr "النمور"
+
+msgid "Leopold"
+msgstr "ليوبولد"
+
+msgid "Leopoldville"
+msgstr "ليوبولدفيل"
+
+msgid "Leotard"
+msgstr "الملابس اللاصقة للاعبي الجمباز"
+
+msgid "Leper"
+msgstr "المصاب بداء الجذام"
+
+msgid "Lepers"
+msgstr "المصابون بداء الجذام"
+
+msgid "Lepidolite"
+msgstr "اللبيدوليت - معدن من مجموعة الميكا"
+
+msgid "Leprechaun"
+msgstr "الجني"
+
+msgid "Leprosy"
+msgstr "مرض الجذام"
+
+msgid "Leprous"
+msgstr "جذامي"
+
+msgid "Leprously"
+msgstr "بشكل جذامي"
+
+msgid "Lern"
+msgstr "منطقة الإستجابة للطّوارئ المحلّيّة"
+
+msgid "Leroy"
+msgstr "ليروي"
+
+msgid "Lesbian"
+msgstr "السحاقية"
+
+msgid "Lesbians"
+msgstr "السحاقيات"
+
+msgid "Lesion"
+msgstr "الأذى"
+
+msgid "Lesions"
+msgstr "الجروح"
+
+msgid "Leslie"
+msgstr "ليزلي"
+
+msgid "Lesotho"
+msgstr "ليسوتو"
+
+msgid "Less"
+msgstr "أقل"
+
+msgid "Lessee"
+msgstr "المستأجر"
+
+msgid "Lessen"
+msgstr "قلّل"
+
+msgid "Lessened"
+msgstr "مستصغر"
+
+msgid "Lessening"
+msgstr "التقليل"
+
+msgid "Lessens"
+msgstr "يقلّل"
+
+msgid "Lesser"
+msgstr "أقل"
+
+msgid "Lesses"
+msgstr "المستأجرون"
+
+msgid "Lessing"
+msgstr "ليسينج - كاتبة بريطانيّة"
+
+msgid "Lesson"
+msgstr "الدرس"
+
+msgid "Lessoned"
+msgstr "درّس"
+
+msgid "Lessoning"
+msgstr "التدريس"
+
+msgid "Lessons"
+msgstr "الدروس"
+
+msgid "Lessor"
+msgstr "المؤجر"
+
+msgid "Lest"
+msgstr "خشية أن"
+
+msgid "Lester"
+msgstr "ليستر"
+
+msgid "Let"
+msgstr "دع"
+
+msgid "Letdown"
+msgstr "الخذلان"
+
+msgid "Lethal"
+msgstr "قاتل"
+
+msgid "Lethality"
+msgstr "الخطورة"
+
+msgid "Lethally"
+msgstr "بشكل قاتل"
+
+msgid "Lethargic"
+msgstr "خامل"
+
+msgid "Lethargically"
+msgstr "بشكل خامل"
+
+msgid "Lethargies"
+msgstr "الخمول"
+
+msgid "Lethargy"
+msgstr "الخمود"
+
+msgid "Lethe"
+msgstr "نهر النسيان"
+
+msgid "Letitia"
+msgstr "ليتيتيا"
+
+msgid "Lets"
+msgstr "العوائق"
+
+msgid "Letter"
+msgstr "الرسالة"
+
+msgid "Letter-box"
+msgstr "صندوق الرسائل"
+
+msgid "Letter-press"
+msgstr "صحافة رسالة"
+
+msgid "Letter-quality"
+msgstr "نوعية رسالة"
+
+msgid "Lettered"
+msgstr "مغطّى بالحروف"
+
+msgid "Letterer"
+msgstr "نقّاش الحروف"
+
+msgid "Letterhead"
+msgstr "الورقة المعنّونة"
+
+msgid "Letterheads"
+msgstr "الأوراق المعنّونة"
+
+msgid "Lettering"
+msgstr "الترقين"
+
+msgid "Letterings"
+msgstr "الترقين"
+
+msgid "Letterman"
+msgstr "ليتيرمان"
+
+msgid "Lettermen"
+msgstr "ليتيرمين"
+
+msgid "Letterpress"
+msgstr "النصّ"
+
+msgid "Letters"
+msgstr "الرسائل"
+
+msgid "Letting"
+msgstr "التأجير"
+
+msgid "Lettings"
+msgstr "الإيجارات"
+
+msgid "Lettuce"
+msgstr "الخسّ"
+
+msgid "Leucine"
+msgstr "ليسين - حامض أمينيّ أساسيّ"
+
+msgid "Leukemia"
+msgstr "اللوكيميا"
+
+msgid "Leukocyte"
+msgstr "كرة الدّم البيضاء"
+
+msgid "Lev"
+msgstr "ليف"
+
+msgid "Levee"
+msgstr "السدّ"
+
+msgid "Leveed"
+msgstr "بنى سدّ"
+
+msgid "Levees"
+msgstr "السدود"
+
+msgid "Level"
+msgstr "المستوى"
+
+msgid "Leveled"
+msgstr "إستوى"
+
+msgid "Leveler"
+msgstr "مستوي"
+
+msgid "Levelers"
+msgstr "المسوّون، المسطّحون"
+
+msgid "Levelheadedness"
+msgstr "الإتّزان"
+
+msgid "Leveling"
+msgstr "الإستواء"
+
+msgid "Levelled"
+msgstr "إستوى"
+
+msgid "Leveller"
+msgstr "المسوي"
+
+msgid "Levelling"
+msgstr "الإستواء"
+
+msgid "Levelly"
+msgstr "بشكل مستوي"
+
+msgid "Levelness"
+msgstr "الإستواء"
+
+msgid "Levels"
+msgstr "المستويات"
+
+msgid "Lever"
+msgstr "العتلة"
+
+msgid "Leverage"
+msgstr "قوة الرفع"
+
+msgid "Leveraged"
+msgstr "رفع"
+
+msgid "Leverages"
+msgstr "يرفع"
+
+msgid "Leveraging"
+msgstr "الرفع"
+
+msgid "Levered"
+msgstr "أخرج"
+
+msgid "Levering"
+msgstr "الرّفع"
+
+msgid "Levers"
+msgstr "العتلات"
+
+msgid "Levi"
+msgstr "ليفي"
+
+msgid "Levied"
+msgstr "مجموع"
+
+msgid "Levier"
+msgstr "جابي الضرائب"
+
+msgid "Levies"
+msgstr "الرسوم"
+
+msgid "Levin"
+msgstr "البرق"
+
+msgid "Levine"
+msgstr "ليفين - عازف بيانو و مايسترو أمريكيّ"
+
+msgid "Levis"
+msgstr "ليفيس"
+
+msgid "Levitate"
+msgstr "إرفع"
+
+msgid "Levitated"
+msgstr "مرفوع"
+
+msgid "Levitates"
+msgstr "يرفع"
+
+msgid "Levitating"
+msgstr "الرفع"
+
+msgid "Levitation"
+msgstr "الإرتفاع"
+
+msgid "Levitations"
+msgstr "الإرتفاعات"
+
+msgid "Leviticus"
+msgstr "سفر اللاويين"
+
+msgid "Levities"
+msgstr "الهزليات"
+
+msgid "Levitt"
+msgstr "ليفيت"
+
+msgid "Levity"
+msgstr "الهزل"
+
+msgid "Levulose"
+msgstr "السّكّر"
+
+msgid "Levy"
+msgstr "ليفي"
+
+msgid "Levying"
+msgstr "الجمع"
+
+msgid "Lew"
+msgstr "مكان هاديء"
+
+msgid "Lewd"
+msgstr "فاسق"
+
+msgid "Lewder"
+msgstr "فاسق"
+
+msgid "Lewdest"
+msgstr "فاسق"
+
+msgid "Lewdly"
+msgstr "بشكل فاسق"
+
+msgid "Lewdness"
+msgstr "الفجور"
+
+msgid "Lewellyn"
+msgstr "لويلين"
+
+msgid "Lewis"
+msgstr "لويس"
+
+msgid "Lex"
+msgstr "ليكس"
+
+msgid "Lexical"
+msgstr "معجمي"
+
+msgid "Lexically"
+msgstr "بشكل معجمي"
+
+msgid "Lexicographic"
+msgstr "معجمي"
+
+msgid "Lexicographical"
+msgstr "معجمي"
+
+msgid "Lexicographically"
+msgstr "بشكل معجمي"
+
+msgid "Lexicography"
+msgstr "تأليف القواميس"
+
+msgid "Lexicon"
+msgstr "المعجم"
+
+msgid "Lexicons"
+msgstr "المعاجم"
+
+msgid "Lexington"
+msgstr "ليكسنغتن"
+
+msgid "Leyden"
+msgstr "ليدن"
+
+msgid "Liabilities"
+msgstr "المسؤوليات"
+
+msgid "Liability"
+msgstr "المسؤولية"
+
+msgid "Liable"
+msgstr "مسؤول قانونيا"
+
+msgid "Liableness"
+msgstr "التعرّض"
+
+msgid "Liably"
+msgstr "ليابلي"
+
+msgid "Liaison"
+msgstr "الإتصال"
+
+msgid "Liaisons"
+msgstr "الإتصال"
+
+msgid "Liar"
+msgstr "الكذاب"
+
+msgid "Liars"
+msgstr "الكذابون"
+
+msgid "Lib"
+msgstr "ليب"
+
+msgid "Libation"
+msgstr "الإراقة"
+
+msgid "Libations"
+msgstr "الإراقة"
+
+msgid "Libbard"
+msgstr "الفهد"
+
+msgid "Libel"
+msgstr "التشهير"
+
+msgid "Libeled"
+msgstr "شهّر"
+
+msgid "Libeler"
+msgstr "ناشر الفضائح"
+
+msgid "Libellant"
+msgstr "المدّعي"
+
+msgid "Libellist"
+msgstr "المدّعي"
+
+msgid "Libellous"
+msgstr "تشهيري"
+
+msgid "Libellously"
+msgstr "بشكل تشهيري"
+
+msgid "Libelous"
+msgstr "تشهيري"
+
+msgid "Libelously"
+msgstr "بشكل تشهيري"
+
+msgid "Libels"
+msgstr "التشهير"
+
+msgid "Liberace"
+msgstr "ليبيريس - عازف بيانو و ممثّل كوميديّ أمريكيّ"
+
+msgid "Liberal"
+msgstr "التحرري"
+
+msgid "Liberalism"
+msgstr "التحرّريّة"
+
+msgid "Liberality"
+msgstr "التسامح"
+
+msgid "Liberalization"
+msgstr "التحرير"
+
+msgid "Liberalizations"
+msgstr "التحرير"
+
+msgid "Liberalize"
+msgstr "حرّر"
+
+msgid "Liberalized"
+msgstr "محرّر"
+
+msgid "Liberalizer"
+msgstr "المحرّر"
+
+msgid "Liberalizers"
+msgstr "المحرّرون"
+
+msgid "Liberalizes"
+msgstr "يحرّر"
+
+msgid "Liberalizing"
+msgstr "التحرير"
+
+msgid "Liberally"
+msgstr "بشكل تحرّري"
+
+msgid "Liberalness"
+msgstr "التحرر"
+
+msgid "Liberals"
+msgstr "التحرريون"
+
+msgid "Liberate"
+msgstr "حرّر"
+
+msgid "Liberated"
+msgstr "محرّر"
+
+msgid "Liberates"
+msgstr "يحرّر"
+
+msgid "Liberating"
+msgstr "التحرير"
+
+msgid "Liberation"
+msgstr "التحرير"
+
+msgid "Liberations"
+msgstr "التحرير"
+
+msgid "Liberator"
+msgstr "المحرر"
+
+msgid "Liberators"
+msgstr "المحررون"
+
+msgid "Liberia"
+msgstr "ليبريا"
+
+msgid "Libertarian"
+msgstr "التحرري"
+
+msgid "Libertarians"
+msgstr "التحرريون"
+
+msgid "Liberties"
+msgstr "الحريات"
+
+msgid "Libertine"
+msgstr "الخليع"
+
+msgid "Libertines"
+msgstr "الخليعون"
+
+msgid "Libertinism"
+msgstr "الخلاعة"
+
+msgid "Liberty"
+msgstr "الحريّة"
+
+msgid "Libidinal"
+msgstr "شهواني"
+
+msgid "Libidinous"
+msgstr "شهواني"
+
+msgid "Libidinously"
+msgstr "بشكل شهواني"
+
+msgid "Libidinousness"
+msgstr "الشّبق - الشهوة الجنسية المقرونة بالفجور"
+
+msgid "Libido"
+msgstr "الغريزة الجنسية"
+
+msgid "Libra"
+msgstr "الميزان"
+
+msgid "Librarian"
+msgstr "المكتبي"
+
+msgid "Librarians"
+msgstr "المكتبيون"
+
+msgid "Libraried"
+msgstr "ليبراريد"
+
+msgid "Libraries"
+msgstr "المكتبات العامة"
+
+msgid "Library"
+msgstr "المكتبة"
+
+msgid "Librate"
+msgstr "ليبرات"
+
+msgid "Libretti"
+msgstr "نصوص كلمات الأوبرا"
+
+msgid "Librettist"
+msgstr "واضع كلمات الأوبرا"
+
+msgid "Librettists"
+msgstr "واضعو كلمات الأوبرا"
+
+msgid "Libretto"
+msgstr "نص كلمات الأوبرا"
+
+msgid "Librettos"
+msgstr "نص كلمات الأوبرا"
+
+msgid "Libreville"
+msgstr "ليبريفيل - العاصمة وأكبر مدينة في الجابون"
+
+msgid "Libya"
+msgstr "ليبيا"
+
+msgid "Libyan"
+msgstr "الليبي"
+
+msgid "Lice"
+msgstr "القمل"
+
+msgid "Licence"
+msgstr "الرخصة"
+
+msgid "Licenced"
+msgstr "أجيز"
+
+msgid "Licencee"
+msgstr "الحاصل على ترخيص"
+
+msgid "Licences"
+msgstr "الرخص"
+
+msgid "Licencing"
+msgstr "الإجازة"
+
+msgid "Licensable"
+msgstr "قابل للترخيص"
+
+msgid "License"
+msgstr "الرخصة"
+
+msgid "Licensed"
+msgstr "مجاز"
+
+msgid "Licensee"
+msgstr "المرخّص"
+
+msgid "Licensees"
+msgstr "المرخّصون"
+
+msgid "Licenser"
+msgstr "المجيز"
+
+msgid "Licenses"
+msgstr "الرخص"
+
+msgid "Licensing"
+msgstr "الترخيص"
+
+msgid "Licensor"
+msgstr "مانح الترخيص"
+
+msgid "Licentious"
+msgstr "فاجر"
+
+msgid "Licentiously"
+msgstr "بشكل فاجر"
+
+msgid "Licentiousness"
+msgstr "الإباحيّة"
+
+msgid "Lichen"
+msgstr "الأشنة"
+
+msgid "Lichened"
+msgstr "غطّى بالطحالب"
+
+msgid "Lichens"
+msgstr "الأشنات"
+
+msgid "Lichtenstein"
+msgstr "ليتشتينشتاين"
+
+msgid "Lichter"
+msgstr "ليتختر"
+
+msgid "Licit"
+msgstr "مشروع"
+
+msgid "Licitly"
+msgstr "بشكل مشروع"
+
+msgid "Lick"
+msgstr "اللعقة"
+
+msgid "Licked"
+msgstr "ملعوق"
+
+msgid "Licker"
+msgstr "اللاعق"
+
+msgid "Licking"
+msgstr "اللعق"
+
+msgid "Lickings"
+msgstr "اللعق"
+
+msgid "Licks"
+msgstr "اللعقات"
+
+msgid "Licorice"
+msgstr "عرق السوس"
+
+msgid "Lid"
+msgstr "الغطاء"
+
+msgid "Lidded"
+msgstr "بغطاء"
+
+msgid "Lidding"
+msgstr "التغطية"
+
+msgid "Lidless"
+msgstr "بلا غطاء"
+
+msgid "Lido"
+msgstr "البلاج"
+
+msgid "Lids"
+msgstr "الأغطية"
+
+msgid "Lie"
+msgstr "الأكذوبة"
+
+msgid "Lieberman"
+msgstr "ليبرمان"
+
+msgid "Liechtenstein"
+msgstr "ليختننشتاين"
+
+msgid "Lied"
+msgstr "كذب"
+
+msgid "Lieder"
+msgstr "الأغاني الألمانيّة"
+
+msgid "Liege"
+msgstr "الوليّ"
+
+msgid "Lien"
+msgstr "لاين"
+
+msgid "Liens"
+msgstr "حق الحجز على أموال المدين"
+
+msgid "Lier"
+msgstr "الكذّاب"
+
+msgid "Lies"
+msgstr "الأكاذيب"
+
+msgid "Lieu"
+msgstr "بدلاً من"
+
+msgid "Lieut"
+msgstr "ملازم في السلك العسكري"
+
+msgid "Lieutenant"
+msgstr "المساعد"
+
+msgid "Lieutenants"
+msgstr "المساعدون"
+
+msgid "Life"
+msgstr "الحياة"
+
+msgid "Lifebelt"
+msgstr "حزام الأمان"
+
+msgid "Lifeblood"
+msgstr "شريان الحياة"
+
+msgid "Lifeboat"
+msgstr "قارب النجاة"
+
+msgid "Lifeboats"
+msgstr "قوارب النجاة"
+
+msgid "Lifeguard"
+msgstr "حارس الإنقاذ"
+
+msgid "Lifeguards"
+msgstr "حراس الإنقاذ"
+
+msgid "Lifeless"
+msgstr "ميّت"
+
+msgid "Lifelessly"
+msgstr "ميتا"
+
+msgid "Lifelessness"
+msgstr "ليفيليسنيس"
+
+msgid "Lifelike"
+msgstr "حيّ"
+
+msgid "Lifelikeness"
+msgstr "ليفيليكينيس"
+
+msgid "Lifeline"
+msgstr "حبل الحياة"
+
+msgid "Lifelong"
+msgstr "دائم"
+
+msgid "Lifer"
+msgstr "ليفر"
+
+msgid "Lifers"
+msgstr "ليفرس"
+
+msgid "Lifesaver"
+msgstr "المنقذ"
+
+msgid "Lifesaving"
+msgstr "الإنقاذ"
+
+msgid "Lifespan"
+msgstr "فترة الحياة"
+
+msgid "Lifespans"
+msgstr "فترات الحياة"
+
+msgid "Lifestyle"
+msgstr "أسلوب الحياة"
+
+msgid "Lifestyles"
+msgstr "أساليب الحياة"
+
+msgid "Lifetime"
+msgstr "العمر"
+
+msgid "Lifetimes"
+msgstr "الأعمار"
+
+msgid "Lifework"
+msgstr "عمل المهنة الرّئيسيّ"
+
+msgid "LIFO"
+msgstr "الأخير في الخول، الأول في الخروج"
+
+msgid "Lift"
+msgstr "المصعد"
+
+msgid "Liftable"
+msgstr "قابل للرفع"
+
+msgid "Lifted"
+msgstr "مرفوع"
+
+msgid "Lifter"
+msgstr "الرافع"
+
+msgid "Lifters"
+msgstr "الرافعون"
+
+msgid "Lifting"
+msgstr "الرفع"
+
+msgid "Liftoff"
+msgstr "الإقلاع"
+
+msgid "Lifts"
+msgstr "المصاعد"
+
+msgid "Ligament"
+msgstr "الرباط"
+
+msgid "Ligaments"
+msgstr "الأربطة"
+
+msgid "Ligand"
+msgstr "إتّحاد الأيون مع مركّبات أخرى لتشكيل مركّب أكثر تعقيداً"
+
+msgid "Ligands"
+msgstr "إتّحادات الأيونات مع مركّبات أخرى لتشكيل مركّب أكثر تعقيداً"
+
+msgid "Ligate"
+msgstr "يربط"
+
+msgid "Ligated"
+msgstr "ربط"
+
+msgid "Ligates"
+msgstr "يربط"
+
+msgid "Ligating"
+msgstr "الرّبط"
+
+msgid "Ligation"
+msgstr "الرّبط"
+
+msgid "Ligature"
+msgstr "الرباط"
+
+msgid "Ligatured"
+msgstr "مربوط"
+
+msgid "Ligatures"
+msgstr "الأربطة"
+
+msgid "Ligaturing"
+msgstr "الرّبط"
+
+msgid "Ligget"
+msgstr "ليجت"
+
+msgid "Liggett"
+msgstr "ليجت"
+
+msgid "Light"
+msgstr "الضوء"
+
+msgid "Light-emitting"
+msgstr "بعث الضوء"
+
+msgid "Light-sensitive"
+msgstr "أضئ حسّاس"
+
+msgid "Light-wave"
+msgstr "الموجة الخفيفة"
+
+msgid "Lighted"
+msgstr "موقد"
+
+msgid "Lighten"
+msgstr "خفّف"
+
+msgid "Lightened"
+msgstr "خفّف"
+
+msgid "Lightener"
+msgstr "مسلّط الضّوء، منير الطّريق"
+
+msgid "Lightening"
+msgstr "التخفيف"
+
+msgid "Lightens"
+msgstr "يخفّف"
+
+msgid "Lighter"
+msgstr "القداحة"
+
+msgid "Lighters"
+msgstr "القداحات"
+
+msgid "Lightest"
+msgstr "أخفّ"
+
+msgid "Lightface"
+msgstr "الخطّ الرّفيع"
+
+msgid "Lightheaded"
+msgstr "مصاب بدوار"
+
+msgid "Lighthearted"
+msgstr "مَرِحْ"
+
+msgid "Lightheartedly"
+msgstr "بلطافة"
+
+msgid "Lightheartedness"
+msgstr "اللطافة"
+
+msgid "Lighthouse"
+msgstr "الفنار"
+
+msgid "Lighthouses"
+msgstr "الفنارات"
+
+msgid "Lighting"
+msgstr "الإضاءة"
+
+msgid "Lightings"
+msgstr "الإنارات"
+
+msgid "Lightly"
+msgstr "قليلا"
+
+msgid "Lightness"
+msgstr "الخفّة"
+
+msgid "Lightning"
+msgstr "البرق"
+
+msgid "Lightninged"
+msgstr "بَرَقَ - الفعل الماضي لـ يبرق"
+
+msgid "Lightnings"
+msgstr "البرق"
+
+msgid "Lightpen"
+msgstr "القلم الضوئي - للإستعمال مع شاشات الكومبيوتر بدل اللمس"
+
+msgid "Lightpens"
+msgstr "الأقلام الضوئية - للإستعمال مع شاشات الكومبيوتر بدل اللمس"
+
+msgid "Lightproof"
+msgstr "لايسمح بدخول الضّوء"
+
+msgid "Lights"
+msgstr "الأضوية"
+
+msgid "Lightships"
+msgstr "المنارات العائمة"
+
+msgid "Lightweight"
+msgstr "الوزن الخفيف"
+
+msgid "Lightweights"
+msgstr "الأوزان الخفيفة"
+
+msgid "Lignite"
+msgstr "الفحم"
+
+msgid "Lignum"
+msgstr "ليجنوم"
+
+msgid "Likable"
+msgstr "محبوب"
+
+msgid "Like"
+msgstr "مثل"
+
+msgid "Likeable"
+msgstr "محبوب"
+
+msgid "Liked"
+msgstr "محبوب"
+
+msgid "Likelier"
+msgstr "الأكثر احتملا"
+
+msgid "Likeliest"
+msgstr "الأكثر احتملا"
+
+msgid "Likelihood"
+msgstr "الإمكانية"
+
+msgid "Likelihoods"
+msgstr "الإمكانيات"
+
+msgid "Likeliness"
+msgstr "التشابه"
+
+msgid "Likely"
+msgstr "من المحتمل"
+
+msgid "Liken"
+msgstr "شبّه"
+
+msgid "Likened"
+msgstr "مشبّه"
+
+msgid "Likeness"
+msgstr "التشابه"
+
+msgid "Likenesses"
+msgstr "التشابهات"
+
+msgid "Likening"
+msgstr "التشبيه"
+
+msgid "Likens"
+msgstr "يشبّه"
+
+msgid "Liker"
+msgstr "مثل"
+
+msgid "Likes"
+msgstr "الأشباه"
+
+msgid "Likest"
+msgstr "مثل"
+
+msgid "Likewise"
+msgstr "على نفس النمط"
+
+msgid "Liking"
+msgstr "الميل"
+
+msgid "Likings"
+msgstr "الميول"
+
+msgid "Lila"
+msgstr "ليلا"
+
+msgid "Lilac"
+msgstr "النيلج"
+
+msgid "Lilacs"
+msgstr "الألوان الأرجوانية الفاتحة"
+
+msgid "Lilian"
+msgstr "ليليان"
+
+msgid "Lilied"
+msgstr "زنبقي"
+
+msgid "Lilies"
+msgstr "الزنابق"
+
+msgid "Lillian"
+msgstr "ليليان"
+
+msgid "Lillies"
+msgstr "ليليس"
+
+msgid "Lilliputian"
+msgstr "قزم"
+
+msgid "Lilly"
+msgstr "ليلي"
+
+msgid "Lilt"
+msgstr "الهزج"
+
+msgid "Lilted"
+msgstr "مغنّى"
+
+msgid "Lilting"
+msgstr "الغناء"
+
+msgid "Liltingly"
+msgstr "بشكل نغمي"
+
+msgid "Liltingness"
+msgstr "التّغريد، الغناء"
+
+msgid "Lilts"
+msgstr "يغنّي"
+
+msgid "Lily"
+msgstr "الزنبق"
+
+msgid "Lim"
+msgstr "ليم"
+
+msgid "Lima"
+msgstr "ليما"
+
+msgid "Limb"
+msgstr "الطرف"
+
+msgid "Limbed"
+msgstr "ليمبيد"
+
+msgid "Limber"
+msgstr "مقدمة عربة المدفع"
+
+msgid "Limbered"
+msgstr "مرشّق"
+
+msgid "Limbering"
+msgstr "الترشيق"
+
+msgid "Limberly"
+msgstr "بمرونة"
+
+msgid "Limberness"
+msgstr "المرونة"
+
+msgid "Limbers"
+msgstr "مقدمات عربات المدفع"
+
+msgid "Limbic"
+msgstr "جيريّ"
+
+msgid "Limbo"
+msgstr "عالم النسيان"
+
+msgid "Limbos"
+msgstr "عالم النسيان"
+
+msgid "Limbs"
+msgstr "الأطراف"
+
+msgid "Lime"
+msgstr "الكلس"
+
+msgid "Limed"
+msgstr "زوّد بالجير"
+
+msgid "Limekiln"
+msgstr "فرن لحرق الجير"
+
+msgid "Limelight"
+msgstr "الضوء الساطع"
+
+msgid "Limerick"
+msgstr "ليمريك"
+
+msgid "Limericks"
+msgstr "القصائد الفكاهية"
+
+msgid "Limes"
+msgstr "الكلس"
+
+msgid "Limestone"
+msgstr "حجر الكلس"
+
+msgid "Liming"
+msgstr "التزويد بالجير"
+
+msgid "Limit"
+msgstr "الحدّ"
+
+msgid "Limitable"
+msgstr "محدود"
+
+msgid "Limitate"
+msgstr "محدّد"
+
+msgid "Limitation"
+msgstr "التقييد"
+
+msgid "Limitations"
+msgstr "التحديدات"
+
+msgid "Limited"
+msgstr "المحدودة"
+
+msgid "Limitedly"
+msgstr "بمحدودية"
+
+msgid "Limitedness"
+msgstr "المحدودية"
+
+msgid "Limiteds"
+msgstr "المحدودة"
+
+msgid "Limiter"
+msgstr "المُحدّد"
+
+msgid "Limiters"
+msgstr "المُحدّدون"
+
+msgid "Limiting"
+msgstr "التحديد"
+
+msgid "Limitless"
+msgstr "بلا حدود"
+
+msgid "Limitlessly"
+msgstr "دون حدود"
+
+msgid "Limitlessness"
+msgstr "اللاحدوديّة"
+
+msgid "Limits"
+msgstr "الحدود"
+
+msgid "Limousine"
+msgstr "الليموزين"
+
+msgid "Limousines"
+msgstr "سيارات ليموزين"
+
+msgid "Limp"
+msgstr "العرجة"
+
+msgid "Limped"
+msgstr "عارج"
+
+msgid "Limper"
+msgstr "أكثر هزالا"
+
+msgid "Limpet"
+msgstr "البطلينوس"
+
+msgid "Limpid"
+msgstr "شفّاف"
+
+msgid "Limpidly"
+msgstr "بشكل شفّاف"
+
+msgid "Limpidness"
+msgstr "الشفافية"
+
+msgid "Limping"
+msgstr "العرج"
+
+msgid "Limpkin"
+msgstr "ليمكين - طائر أسمر اللون"
+
+msgid "Limply"
+msgstr "بشكل هزيل"
+
+msgid "Limpness"
+msgstr "العرج"
+
+msgid "Limps"
+msgstr "العرجات"
+
+msgid "Limy"
+msgstr "لزج"
+
+msgid "Lin"
+msgstr "لين"
+
+msgid "Lincoln"
+msgstr "لينكولن"
+
+msgid "Lind"
+msgstr "ليند"
+
+msgid "Linda"
+msgstr "ليندا"
+
+msgid "Lindberg"
+msgstr "ليندبيرج"
+
+msgid "Lindbergh"
+msgstr "ليندبيرغ"
+
+msgid "Linden"
+msgstr "ليندن"
+
+msgid "Lindholm"
+msgstr "ليندولم"
+
+msgid "Lindquist"
+msgstr "ليندكويست"
+
+msgid "Lindsay"
+msgstr "ليندساي"
+
+msgid "Lindsey"
+msgstr "ليندساي"
+
+msgid "Lindstrom"
+msgstr "ليندستروم"
+
+msgid "Lindy"
+msgstr "ليندي"
+
+msgid "Line"
+msgstr "الخطّ"
+
+msgid "Line-assembly"
+msgstr "جمعية خطّ"
+
+msgid "Line-at-a-time"
+msgstr "الخطّ في وقت"
+
+msgid "Line-by-line"
+msgstr "خطّ خطّ الثانوي"
+
+msgid "Line-operated"
+msgstr "مشغّل بالخطّ"
+
+msgid "Line-up"
+msgstr "التراصف"
+
+msgid "Lineage"
+msgstr "النسب"
+
+msgid "Lineages"
+msgstr "الأنساب"
+
+msgid "Lineal"
+msgstr "مباشر"
+
+msgid "Lineally"
+msgstr "وراثيا"
+
+msgid "Lineament"
+msgstr "الملامح"
+
+msgid "Lineaments"
+msgstr "الملامح"
+
+msgid "Linear"
+msgstr "خطيّ"
+
+msgid "Linearity"
+msgstr "الخطية"
+
+msgid "Linearize"
+msgstr "يصبح خطّي"
+
+msgid "Linearized"
+msgstr "أصبح خطّي"
+
+msgid "Linearizes"
+msgstr "يظهر الشيء في صورة خطّية"
+
+msgid "Linearizing"
+msgstr "إظهار الشيء في صورة خطّية"
+
+msgid "Linearly"
+msgstr "بشكل خطيّ"
+
+msgid "Linebacker"
+msgstr "الظّهير"
+
+msgid "Linebackers"
+msgstr "الظّهير"
+
+msgid "Lined"
+msgstr "مخطّط"
+
+msgid "LineEnd"
+msgstr "نهايةالسطر"
+
+msgid "Lineman"
+msgstr "العامل"
+
+msgid "Linemen"
+msgstr "العمّال"
+
+msgid "Linen"
+msgstr "قماش الكتّان"
+
+msgid "Linens"
+msgstr "أقمشة الكتّان"
+
+msgid "Lineprinter"
+msgstr "الطّابعة"
+
+msgid "Liner"
+msgstr "باخرة الركّاب"
+
+msgid "Liners"
+msgstr "بواخر الركّاب"
+
+msgid "Lines"
+msgstr "الخطوط"
+
+msgid "Lines-Spacing"
+msgstr "مباعدة الخطوط"
+
+msgid "Linesman"
+msgstr "مراقب الخطوط"
+
+msgid "Lineup"
+msgstr "التراصف"
+
+msgid "Lineups"
+msgstr "الإصطفافات"
+
+msgid "Lingala"
+msgstr "لغة لينغالا المنطوقة في جمهوريّة الكونغو الدّيمقراطيّة"
+
+msgid "Linger"
+msgstr "تباطأ"
+
+msgid "Lingered"
+msgstr "متباطأ"
+
+msgid "Lingerer"
+msgstr "المتسكّع"
+
+msgid "Lingerie"
+msgstr "الملابس الداخلية"
+
+msgid "Lingering"
+msgstr "التباطأ"
+
+msgid "Lingeringly"
+msgstr "بشكل طويل الأمد"
+
+msgid "Lingers"
+msgstr "يتباطأ"
+
+msgid "Lingo"
+msgstr "الرطانة"
+
+msgid "Lingua"
+msgstr "اللّسان"
+
+msgid "Lingual"
+msgstr "لساني"
+
+msgid "Lingually"
+msgstr "بشكل لساني"
+
+msgid "Linguist"
+msgstr "اللغوي"
+
+msgid "Linguistic"
+msgstr "لغوي"
+
+msgid "Linguistical"
+msgstr "لغوي"
+
+msgid "Linguistically"
+msgstr "لغوياّ"
+
+msgid "Linguistics"
+msgstr "علم اللغة"
+
+msgid "Linguists"
+msgstr "اللغويون"
+
+msgid "Liniment"
+msgstr "المرهم"
+
+msgid "Liniments"
+msgstr "المراهم"
+
+msgid "Lining"
+msgstr "البطانة"
+
+msgid "Linings"
+msgstr "البطانات"
+
+msgid "Link"
+msgstr "الوصلة"
+
+msgid "Linkage"
+msgstr "الترابط"
+
+msgid "Linkages"
+msgstr "الترابط"
+
+msgid "Linked"
+msgstr "مرتبط"
+
+msgid "Linker"
+msgstr "الواصل"
+
+msgid "Linking"
+msgstr "الإرتباط"
+
+msgid "Links"
+msgstr "الصلات"
+
+msgid "Linkup"
+msgstr "الإتّصال"
+
+msgid "Linnen"
+msgstr "لينين"
+
+msgid "Linnet"
+msgstr "الزقاقيّة"
+
+msgid "Linoleum"
+msgstr "مشمّع الأرضية"
+
+msgid "Linotype"
+msgstr "الطابعة"
+
+msgid "Linseed"
+msgstr "بذر الكتان"
+
+msgid "Lint"
+msgstr "النسيج الكتاني"
+
+msgid "Lintel"
+msgstr "عتبة الباب"
+
+msgid "Linter"
+msgstr "مزيل الهدب من على الملابس"
+
+msgid "Lints"
+msgstr "الأنسجة الكتانية"
+
+msgid "Linty"
+msgstr "مكسو بالكتان"
+
+msgid "Linus"
+msgstr "لينوس"
+
+msgid "Linux"
+msgstr "لاينكس - نظام التّشغيل المطابق لـ يونكس. ألّفه لينوس تورفالدس"
+
+msgid "Lion"
+msgstr "الأسد"
+
+msgid "Lionel"
+msgstr "ليونيل"
+
+msgid "Lioness"
+msgstr "اللبوة"
+
+msgid "Lionesses"
+msgstr "اللبوات"
+
+msgid "Lionhearted"
+msgstr "جريء"
+
+msgid "Lionize"
+msgstr "إحتف به"
+
+msgid "Lionized"
+msgstr "محتفى ب"
+
+msgid "Lionizer"
+msgstr "المهتم"
+
+msgid "Lionizers"
+msgstr "المهتمّون"
+
+msgid "Lionizes"
+msgstr "يحتفي به"
+
+msgid "Lionizing"
+msgstr "الإحتفاء"
+
+msgid "Lions"
+msgstr "الأسود"
+
+msgid "Lip"
+msgstr "الشفة"
+
+msgid "Lipid"
+msgstr "الدّهن"
+
+msgid "Lipids"
+msgstr "الدّهون"
+
+msgid "Lippincott"
+msgstr "ليببينكوت"
+
+msgid "Lipread"
+msgstr "مقروء شفة"
+
+msgid "Lips"
+msgstr "الشفاه"
+
+msgid "Lipschitz"
+msgstr "ليبشيز"
+
+msgid "Lipscomb"
+msgstr "ليبسكومب"
+
+msgid "Lipstick"
+msgstr "أحمر الشفاه"
+
+msgid "Lipsticks"
+msgstr "محمرات الشفاه"
+
+msgid "Lipton"
+msgstr "ليبتون"
+
+msgid "Liquefaction"
+msgstr "التذويب"
+
+msgid "Liquefied"
+msgstr "مذوّب"
+
+msgid "Liquefier"
+msgstr "المسيّل"
+
+msgid "Liquefiers"
+msgstr "المسيّلون"
+
+msgid "Liquefies"
+msgstr "يذوّب"
+
+msgid "Liquefy"
+msgstr "ذوّب"
+
+msgid "Liquefying"
+msgstr "التذويب"
+
+msgid "Liqueur"
+msgstr "المشروب الكحولي"
+
+msgid "Liquid"
+msgstr "السائل"
+
+msgid "Liquid-crystal"
+msgstr "البلور السائل"
+
+msgid "Liquidate"
+msgstr "صفّ"
+
+msgid "Liquidated"
+msgstr "مصفّى"
+
+msgid "Liquidates"
+msgstr "يصفّي"
+
+msgid "Liquidating"
+msgstr "التصفية"
+
+msgid "Liquidation"
+msgstr "التصفية"
+
+msgid "Liquidations"
+msgstr "التصفيات"
+
+msgid "Liquidity"
+msgstr "السيولة"
+
+msgid "Liquidly"
+msgstr "بشكل سائل"
+
+msgid "Liquidness"
+msgstr "السيولة"
+
+msgid "Liquids"
+msgstr "السوائل"
+
+msgid "Liquor"
+msgstr "المشروب الكحولي"
+
+msgid "Liquored"
+msgstr "مرطّب"
+
+msgid "Liquorice"
+msgstr "عرق السوس"
+
+msgid "Liquoring"
+msgstr "الترطيب"
+
+msgid "Liquors"
+msgstr "المشروبات الكحولية"
+
+msgid "Lisa"
+msgstr "ليسا"
+
+msgid "Lisbon"
+msgstr "ليزبن"
+
+msgid "Lise"
+msgstr "لايز"
+
+msgid "Lisle"
+msgstr "الغزل"
+
+msgid "Lisp"
+msgstr "اللثغة"
+
+msgid "Lisped"
+msgstr "ملثوغ"
+
+msgid "Lisper"
+msgstr "المصاب باللّثغة"
+
+msgid "Lisping"
+msgstr "اللثغ"
+
+msgid "Lisps"
+msgstr "اللثغ"
+
+msgid "Liss"
+msgstr "يطْلق"
+
+msgid "Lissome"
+msgstr "لدن"
+
+msgid "Lissomely"
+msgstr "بشكل لدن"
+
+msgid "List"
+msgstr "القائمة"
+
+msgid "Listed"
+msgstr "أدرج"
+
+msgid "Listen"
+msgstr "إستمع"
+
+msgid "Listened"
+msgstr "مستمع"
+
+msgid "Listener"
+msgstr "المستمع"
+
+msgid "Listeners"
+msgstr "المستمعون"
+
+msgid "Listening"
+msgstr "الإستماع"
+
+msgid "Listens"
+msgstr "يستمع"
+
+msgid "Lister"
+msgstr "المحراث"
+
+msgid "Listers"
+msgstr "المجدولون"
+
+msgid "Listing"
+msgstr "التسجيل"
+
+msgid "Listings"
+msgstr "النتائج"
+
+msgid "Listless"
+msgstr "متواني"
+
+msgid "Listlessly"
+msgstr "بشكل متواني"
+
+msgid "Listlessness"
+msgstr "الخمول"
+
+msgid "Liston"
+msgstr "ليستون - ملاكم امريكي خسر بطولة وزنه الثّقيل العالميّة إلى كاسيس كلاي"
+
+msgid "Lists"
+msgstr "القوائم"
+
+msgid "Lit"
+msgstr "أضاء"
+
+msgid "Litanies"
+msgstr "الإبتهالات"
+
+msgid "Litany"
+msgstr "الدعاء"
+
+msgid "Liter"
+msgstr "اللتر"
+
+msgid "Literacy"
+msgstr "معرفة القراءة والكتابة"
+
+msgid "Literal"
+msgstr "حرفي"
+
+msgid "Literalism"
+msgstr "الحرفيّة"
+
+msgid "Literally"
+msgstr "بشكل حرفي"
+
+msgid "Literalness"
+msgstr "الحرفيّة"
+
+msgid "Literals"
+msgstr "الأخطاء المطبعيّة"
+
+msgid "Literarily"
+msgstr "أدبيا"
+
+msgid "Literariness"
+msgstr "ليترارينيس"
+
+msgid "Literary"
+msgstr "أدبي"
+
+msgid "Literate"
+msgstr "مثقّف"
+
+msgid "Literately"
+msgstr "بشكل مثقّف"
+
+msgid "Literateness"
+msgstr "التّعلّم"
+
+msgid "Literation"
+msgstr "التعبير بالحروف"
+
+msgid "Literature"
+msgstr "الأدب"
+
+msgid "Literatures"
+msgstr "الآداب"
+
+msgid "Liters"
+msgstr "الألتار"
+
+msgid "Lithe"
+msgstr "ليّن"
+
+msgid "Lithely"
+msgstr "بشكل ليّن"
+
+msgid "Litheness"
+msgstr "اللّدانة"
+
+msgid "Lithesome"
+msgstr "ليّن"
+
+msgid "Lithic"
+msgstr "حجري"
+
+msgid "Lithium"
+msgstr "الليثيوم"
+
+msgid "Lithograph"
+msgstr "الطباعة الحجرية"
+
+msgid "Lithographer"
+msgstr "ممارس الطباعة على المعدن"
+
+msgid "Lithographers"
+msgstr "ممارسو الطباعة على المعدن"
+
+msgid "Lithographic"
+msgstr "معدني"
+
+msgid "Lithographically"
+msgstr "بصورة معدنية"
+
+msgid "Lithographies"
+msgstr "الطباعات المعدنية"
+
+msgid "Lithographs"
+msgstr "الطباعة الحجرية"
+
+msgid "Lithography"
+msgstr "الطباعة الحجرية"
+
+msgid "Lithology"
+msgstr "علم الصّخور"
+
+msgid "Lithosphere"
+msgstr "أديم الأرض"
+
+msgid "Lithospheric"
+msgstr "متعلق بالجزء الصلب من الكرة الأرضية"
+
+msgid "Lithuania"
+msgstr "ليتوانيا"
+
+msgid "Lithuanian"
+msgstr "ليتواني"
+
+msgid "Litigant"
+msgstr "المشارع"
+
+msgid "Litigants"
+msgstr "المشارعون"
+
+msgid "Litigate"
+msgstr "قاض"
+
+msgid "Litigated"
+msgstr "مقاضى"
+
+msgid "Litigates"
+msgstr "يقاضي"
+
+msgid "Litigating"
+msgstr "المقاضاة"
+
+msgid "Litigation"
+msgstr "المقاضاة"
+
+msgid "Litigations"
+msgstr "المقاضاة"
+
+msgid "Litigator"
+msgstr "مقيم الدعوى القضائية"
+
+msgid "Litigious"
+msgstr "محبّ للتقاضي"
+
+msgid "Litigiously"
+msgstr "بشكل محبّ للتقاضي"
+
+msgid "Litigiousness"
+msgstr "المشاكسة"
+
+msgid "Litmus"
+msgstr "مادة يمكنها أن تتلوّن باللونين الأزرق أو الأحمر"
+
+msgid "Litre"
+msgstr "اللتر"
+
+msgid "Litres"
+msgstr "الألتار"
+
+msgid "Litter"
+msgstr "الفضلات"
+
+msgid "Litterbug"
+msgstr "من يلقى بالقاذورات في الأماكن العامة"
+
+msgid "Littered"
+msgstr "ملأ"
+
+msgid "Litterer"
+msgstr "رامي الفضلات"
+
+msgid "Littering"
+msgstr "الملئ"
+
+msgid "Litters"
+msgstr "الفضلات"
+
+msgid "Little"
+msgstr "قليلا"
+
+msgid "Littleneck"
+msgstr "ليتلينيك - محّار صغير"
+
+msgid "Littleness"
+msgstr "الصغر"
+
+msgid "Littler"
+msgstr "أصغر من"
+
+msgid "Littlest"
+msgstr "الأصغر"
+
+msgid "Littleton"
+msgstr "ليتلتون - مدينة في شمال ولاية كولورادو"
+
+msgid "Litton"
+msgstr "ليتون"
+
+msgid "Littoral"
+msgstr "ساحلي"
+
+msgid "Liturgic"
+msgstr "طقوسي"
+
+msgid "Liturgical"
+msgstr "طقوسي"
+
+msgid "Liturgically"
+msgstr "بشكل طقوسي"
+
+msgid "Liturgics"
+msgstr "علم الطّقوس"
+
+msgid "Liturgies"
+msgstr "الصلوات"
+
+msgid "Liturgy"
+msgstr "القدّاس"
+
+msgid "Livability"
+msgstr "قابليّة العيش"
+
+msgid "Livable"
+msgstr "صالح للعيش"
+
+msgid "Livableness"
+msgstr "ملائمة العيش"
+
+msgid "Live"
+msgstr "بشكل مباشر"
+
+msgid "Lived"
+msgstr "معيش"
+
+msgid "Livelier"
+msgstr "أكثر نشاطا"
+
+msgid "Liveliest"
+msgstr "أكثر نشاطا"
+
+msgid "Livelihood"
+msgstr "الإعالة"
+
+msgid "Livelily"
+msgstr "بحيوية"
+
+msgid "Liveliness"
+msgstr "الحيوية"
+
+msgid "Livelong"
+msgstr "دائم"
+
+msgid "Lively"
+msgstr "بحيوية"
+
+msgid "Liven"
+msgstr "نشّط"
+
+msgid "Livened"
+msgstr "منشّط"
+
+msgid "Liveness"
+msgstr "الحيويّة"
+
+msgid "Livening"
+msgstr "التنشيط"
+
+msgid "Livens"
+msgstr "ينشّط"
+
+msgid "Liver"
+msgstr "الكبد"
+
+msgid "Liveried"
+msgstr "مرتدي زيّ خاصّ"
+
+msgid "Liveries"
+msgstr "الأزياء"
+
+msgid "Liverish"
+msgstr "مكبود"
+
+msgid "Livermore"
+msgstr "ليفيرمور"
+
+msgid "Liverpool"
+msgstr "ليفربول"
+
+msgid "Liverpudlian"
+msgstr "متعلق بمدينة ليفيربول الإنجليزية"
+
+msgid "Livers"
+msgstr "الأكباد"
+
+msgid "Liverwort"
+msgstr "ليفروورت - نوع من الحشائش"
+
+msgid "Liverwurst"
+msgstr "السجق بالكبدة"
+
+msgid "Livery"
+msgstr "الزيّ"
+
+msgid "Liveryman"
+msgstr "عامل في الإسطبل"
+
+msgid "Liverymen"
+msgstr "عمّال في الإسطبل"
+
+msgid "Lives"
+msgstr "الحياة"
+
+msgid "Livestock"
+msgstr "الماشية"
+
+msgid "Livid"
+msgstr "غاضب"
+
+msgid "Lividity"
+msgstr "تغيُّر لون البشرة"
+
+msgid "Lividly"
+msgstr "بغضب شديد"
+
+msgid "Lividness"
+msgstr "تغيُّر لون البشرة"
+
+msgid "Living"
+msgstr "المعيشة"
+
+msgid "Livingly"
+msgstr "بشكل حيّ"
+
+msgid "Livingness"
+msgstr "الحياة"
+
+msgid "Livings"
+msgstr "الأرزاق"
+
+msgid "Livingston"
+msgstr "ليفينجستون - زعيم ثوريّ أمريكيّ"
+
+msgid "Livre"
+msgstr "ليفير - نهر في جنوب مدينة كوبيك، كندا"
+
+msgid "Liz"
+msgstr "ليز"
+
+msgid "Lizard"
+msgstr "السحلية"
+
+msgid "Lizards"
+msgstr "السحالي"
+
+msgid "Lizzie"
+msgstr "ليزي"
+
+msgid "Lizzy"
+msgstr "ليزي"
+
+msgid "Lloyd"
+msgstr "لويد"
+
+msgid "Lo"
+msgstr "الصغرى"
+
+msgid "Load"
+msgstr "الحمل"
+
+msgid "Loaded"
+msgstr "محمّل"
+
+msgid "Loader"
+msgstr "المحمّل"
+
+msgid "Loaders"
+msgstr "المحمّلون"
+
+msgid "Loading"
+msgstr "التحميل"
+
+msgid "Loadings"
+msgstr "التحميل"
+
+msgid "Loads"
+msgstr "الأحمال"
+
+msgid "Loaf"
+msgstr "الرغيف"
+
+msgid "Loafed"
+msgstr "متسكّع"
+
+msgid "Loafer"
+msgstr "المتسكّع"
+
+msgid "Loafers"
+msgstr "المتسكعون"
+
+msgid "Loafing"
+msgstr "التسكّع"
+
+msgid "Loafs"
+msgstr "الرغيف"
+
+msgid "Loam"
+msgstr "التربة المخصبة"
+
+msgid "Loamy"
+msgstr "يحتوي على الرمل، الفخار، و القش"
+
+msgid "Loan"
+msgstr "القرض"
+
+msgid "Loaned"
+msgstr "مقرض"
+
+msgid "Loaner"
+msgstr "الدائن"
+
+msgid "Loaning"
+msgstr "الإقراض"
+
+msgid "Loans"
+msgstr "القروض"
+
+msgid "Loath"
+msgstr "مشمئز"
+
+msgid "Loathe"
+msgstr "إحتقر"
+
+msgid "Loathed"
+msgstr "محتقر"
+
+msgid "Loather"
+msgstr "مشمئز"
+
+msgid "Loathes"
+msgstr "يحتقر"
+
+msgid "Loathing"
+msgstr "البغض"
+
+msgid "Loathly"
+msgstr "كراهية"
+
+msgid "Loathness"
+msgstr "الإشمئزاز"
+
+msgid "Loathsome"
+msgstr "مقرف"
+
+msgid "Loathsomely"
+msgstr "بشكل مقرف"
+
+msgid "Loathsomeness"
+msgstr "الإشمئزاز"
+
+msgid "Loaves"
+msgstr "الأرغفة"
+
+msgid "Lob"
+msgstr "الضربة المنحنية"
+
+msgid "Lobar"
+msgstr "مفصّص"
+
+msgid "Lobbied"
+msgstr "عمل من أجل كسب"
+
+msgid "Lobbies"
+msgstr "اللوبيات"
+
+msgid "Lobbing"
+msgstr "ضرب ضربة منحنية"
+
+msgid "Lobby"
+msgstr "اللوبي"
+
+msgid "Lobbying"
+msgstr "الكسب"
+
+msgid "Lobbyist"
+msgstr "المدافع"
+
+msgid "Lobe"
+msgstr "شحمة الأذن"
+
+msgid "Lobed"
+msgstr "لوبيد"
+
+msgid "Lobes"
+msgstr "شحمات الاذان"
+
+msgid "Loblolly"
+msgstr "الأرض الطينية"
+
+msgid "Lobo"
+msgstr "الذئب الرمادي"
+
+msgid "Lobotomy"
+msgstr "عملية جراحية على الدماغ"
+
+msgid "Lobscouse"
+msgstr "يخنة يأكلها البحّارة. تتكون من اللحم والخضروات"
+
+msgid "Lobster"
+msgstr "سرطان البحر"
+
+msgid "Lobsters"
+msgstr "سرطانات البحر"
+
+msgid "Lobular"
+msgstr "مفصّص"
+
+msgid "Lobularity"
+msgstr "متعلق بشحمة الإذن"
+
+msgid "Lobularly"
+msgstr "بشكل مفصّص"
+
+msgid "Lobule"
+msgstr "شحمة الإذن"
+
+msgid "Lobules"
+msgstr "شحمات الآذان"
+
+msgid "Local"
+msgstr "محليّ"
+
+msgid "Locale"
+msgstr "الموقع"
+
+msgid "Locales"
+msgstr "المواقع"
+
+msgid "Localism"
+msgstr "النعرة المحلية"
+
+msgid "Localisms"
+msgstr "النعرة المحلية"
+
+msgid "Localities"
+msgstr "النواحي"
+
+msgid "Locality"
+msgstr "الناحية"
+
+msgid "Localization"
+msgstr "الموضعة"
+
+msgid "Localizations"
+msgstr "الموضعة"
+
+msgid "Localize"
+msgstr "موضع"
+
+msgid "Localized"
+msgstr "محلي"
+
+msgid "Localizes"
+msgstr "يموضع"
+
+msgid "Localizing"
+msgstr "الموضعة"
+
+msgid "Locally"
+msgstr "محليا"
+
+msgid "Locals"
+msgstr "الناس المحليون"
+
+msgid "Locate"
+msgstr "حدّد مكان"
+
+msgid "Located"
+msgstr "واقع"
+
+msgid "Locater"
+msgstr "لوكاتر"
+
+msgid "Locates"
+msgstr "يحدّد مكان"
+
+msgid "Locating"
+msgstr "تحديد مكان"
+
+msgid "Location"
+msgstr "الموقع"
+
+msgid "Locational"
+msgstr "متعلق بالموقع"
+
+msgid "Locations"
+msgstr "المواقع"
+
+msgid "Locative"
+msgstr "ظرف المكان"
+
+msgid "Locatives"
+msgstr "ظروف المكان"
+
+msgid "Locator"
+msgstr "معيّن الموقع"
+
+msgid "Locators"
+msgstr "معيّنات المواقع"
+
+msgid "Lochen"
+msgstr "لوتشين"
+
+msgid "Lochs"
+msgstr "البحيرة"
+
+msgid "Loci"
+msgstr "الأمكنة، المواقع"
+
+msgid "Lock"
+msgstr "القفل"
+
+msgid "Lockable"
+msgstr "قابل للإحكام"
+
+msgid "Locke"
+msgstr "لوكي - فيلسوف إنجليزي"
+
+msgid "Locked"
+msgstr "مغلق"
+
+msgid "Locker"
+msgstr "الخزانة"
+
+msgid "Lockers"
+msgstr "الخزائن"
+
+msgid "Locket"
+msgstr "المنجد"
+
+msgid "Lockets"
+msgstr "المناجد"
+
+msgid "Lockhart"
+msgstr "لوكهارت"
+
+msgid "Lockheed"
+msgstr "مؤسسة لوكهيد"
+
+msgid "Locking"
+msgstr "القفل"
+
+msgid "Lockings"
+msgstr "لوكينجز - نوع من الرّقص"
+
+msgid "Locknut"
+msgstr "عقْدة، ربْطة"
+
+msgid "Lockout"
+msgstr "تعليق عمل الموظفين"
+
+msgid "Lockouts"
+msgstr "تعاليق أعمال الموظفين"
+
+msgid "Locks"
+msgstr "الأقفال"
+
+msgid "Locksmith"
+msgstr "صانع الأقفال"
+
+msgid "Locksmithing"
+msgstr "صناعة الأقفال"
+
+msgid "Lockstep"
+msgstr "السير بإيقاع موحّد كما يمشي الجنود"
+
+msgid "Lockup"
+msgstr "الموقف"
+
+msgid "Lockups"
+msgstr "الموقف"
+
+msgid "Lockwood"
+msgstr "لوكوود - أوّل محامية أمريكية"
+
+msgid "Locomote"
+msgstr "يتحرك من مكان الى مكان اخر"
+
+msgid "Locomotion"
+msgstr "التحرك"
+
+msgid "Locomotions"
+msgstr "التحركات"
+
+msgid "Locomotive"
+msgstr "القاطرة"
+
+msgid "Locomotively"
+msgstr "بشكل متحرّك"
+
+msgid "Locomotives"
+msgstr "القاطرات"
+
+msgid "Locomotor"
+msgstr "حركي"
+
+msgid "Locomotory"
+msgstr "متحرّك"
+
+msgid "Locoweed"
+msgstr "لوكويد - نبات"
+
+msgid "Locus"
+msgstr "المكان"
+
+msgid "Locust"
+msgstr "الجرادة"
+
+msgid "Locusts"
+msgstr "الجراد"
+
+msgid "Locution"
+msgstr "التعبير"
+
+msgid "Lode"
+msgstr "العرق"
+
+msgid "Lodestar"
+msgstr "النجم القطبي"
+
+msgid "Lodestone"
+msgstr "مغناطيس"
+
+msgid "Lodestones"
+msgstr "مغناطيسات"
+
+msgid "Lodge"
+msgstr "المنتجع"
+
+msgid "Lodged"
+msgstr "مسكون"
+
+msgid "Lodgement"
+msgstr "المسكن"
+
+msgid "Lodgepole"
+msgstr "لودجبول - شجيرة"
+
+msgid "Lodger"
+msgstr "النزيل"
+
+msgid "Lodgers"
+msgstr "النزلاء"
+
+msgid "Lodges"
+msgstr "المساكن"
+
+msgid "Lodging"
+msgstr "السكن"
+
+msgid "Lodgings"
+msgstr "السكن"
+
+msgid "Lodgment"
+msgstr "المسكن"
+
+msgid "Lodowick"
+msgstr "لودويك"
+
+msgid "Loeb"
+msgstr "لويب - فسيولوجي من الولايات المتّحدة"
+
+msgid "Loess"
+msgstr "الطّمي"
+
+msgid "Loft"
+msgstr "الغرفة العلوية"
+
+msgid "Lofter"
+msgstr "مضرب حديدي"
+
+msgid "Loftier"
+msgstr "أعلى"
+
+msgid "Loftiest"
+msgstr "أعلى"
+
+msgid "Loftily"
+msgstr "بتعال"
+
+msgid "Loftiness"
+msgstr "لوفتينيس"
+
+msgid "Lofts"
+msgstr "الغرف العلوية"
+
+msgid "Lofty"
+msgstr "عالي"
+
+msgid "Log"
+msgstr "السجلّ"
+
+msgid "Log-off"
+msgstr "الانقطاع"
+
+msgid "Log-on"
+msgstr "الإتصال"
+
+msgid "Logan"
+msgstr "لوجان"
+
+msgid "Logarithm"
+msgstr "اللوغاريتم"
+
+msgid "Logarithmic"
+msgstr "لوغاريتمي"
+
+msgid "Logarithmical"
+msgstr "بطريقة لوغاريثمية"
+
+msgid "Logarithmically"
+msgstr "لوغاريثمي"
+
+msgid "Logarithms"
+msgstr "اللوغاريتمات"
+
+msgid "Logbook"
+msgstr "السجّل"
+
+msgid "Loge"
+msgstr "مَقْصُورَة"
+
+msgid "LogFile"
+msgstr "ملف السجل"
+
+msgid "Logged"
+msgstr "مثقل"
+
+msgid "Logger"
+msgstr "المسجّل"
+
+msgid "Loggerhead"
+msgstr "الأبله"
+
+msgid "Loggers"
+msgstr "المسجّلات"
+
+msgid "Logging"
+msgstr "قطع ونقل الأخشاب"
+
+msgid "Logic"
+msgstr "المنطق"
+
+msgid "Logical"
+msgstr "منطقيّ"
+
+msgid "Logicality"
+msgstr "المنطقية"
+
+msgid "Logically"
+msgstr "منطقيا"
+
+msgid "Logicalness"
+msgstr "المنطقية"
+
+msgid "Logician"
+msgstr "المنطقي"
+
+msgid "Logicians"
+msgstr "المنطقيون"
+
+msgid "Logics"
+msgstr "المنطق"
+
+msgid "Login"
+msgstr "الإتّصال"
+
+msgid "Logins"
+msgstr "يتّصل"
+
+msgid "Logion"
+msgstr "حديث لعيسى عليه السلام"
+
+msgid "Logions"
+msgstr "الأقوال المأثورة، الأمثال"
+
+msgid "Logistic"
+msgstr "لوجستيكي"
+
+msgid "Logistical"
+msgstr "لوجستيكي"
+
+msgid "Logistically"
+msgstr "لوجستيكيا"
+
+msgid "Logistics"
+msgstr "التموين"
+
+msgid "Logjam"
+msgstr "العائق"
+
+msgid "Logo"
+msgstr "الشعار"
+
+msgid "Logos"
+msgstr "الشعارات"
+
+msgid "Logout"
+msgstr "الإنقطاع، الخروج"
+
+msgid "Logs"
+msgstr "السجلات"
+
+msgid "Logview"
+msgstr "لوجفيو"
+
+msgid "Loin"
+msgstr "الخاصرة"
+
+msgid "Loincloth"
+msgstr "مِئْزَر"
+
+msgid "Loins"
+msgstr "الخاصرات"
+
+msgid "Loire"
+msgstr "لوير"
+
+msgid "Lois"
+msgstr "لويس"
+
+msgid "Loiter"
+msgstr "تريّث"
+
+msgid "Loitered"
+msgstr "متريّث"
+
+msgid "Loiterer"
+msgstr "مُتَسَكِّع"
+
+msgid "Loitering"
+msgstr "التريّث"
+
+msgid "Loiteringly"
+msgstr "بتواني"
+
+msgid "Loiters"
+msgstr "يتريّث"
+
+msgid "Loke"
+msgstr "طريق او شارع خصوصي"
+
+msgid "Loki"
+msgstr "لوكي - الإله الشّرير. أساطير إسكندنافيّة"
+
+msgid "Lola"
+msgstr "لولا"
+
+msgid "Loll"
+msgstr "تدلّ"
+
+msgid "Lolled"
+msgstr "متدلّى"
+
+msgid "Loller"
+msgstr "لولير"
+
+msgid "Lollies"
+msgstr "المصاصات"
+
+msgid "Lolling"
+msgstr "التدلّي"
+
+msgid "Lollipop"
+msgstr "المصاصة"
+
+msgid "Lolls"
+msgstr "يتدلّى"
+
+msgid "Lolly"
+msgstr "المصاصة"
+
+msgid "Lombard"
+msgstr "لومبارد"
+
+msgid "Lombardy"
+msgstr "لومباردي - مقاطعة في شمال إيطاليا"
+
+msgid "Lome"
+msgstr "لومي - أكبر مدينة في توجو"
+
+msgid "London"
+msgstr "لندن"
+
+msgid "Londonderry"
+msgstr "لندن ديري"
+
+msgid "Londoner"
+msgstr "اللندني"
+
+msgid "Lone"
+msgstr "وحيد"
+
+msgid "Lonelier"
+msgstr "أكثر وحدة"
+
+msgid "Loneliest"
+msgstr "أكثر وحدة"
+
+msgid "Loneliness"
+msgstr "الوحدة"
+
+msgid "Lonely"
+msgstr "وحيد"
+
+msgid "Loneness"
+msgstr "الوحدة"
+
+msgid "Loner"
+msgstr "المنعزل"
+
+msgid "Loners"
+msgstr "المنعزلون"
+
+msgid "Lonesome"
+msgstr "وحيد"
+
+msgid "Lonesomely"
+msgstr "وحيدا"
+
+msgid "Lonesomeness"
+msgstr "الوحدة"
+
+msgid "Long"
+msgstr "لمدة طويلة"
+
+msgid "Long-dated"
+msgstr "طويل الأجل"
+
+msgid "Longdistance"
+msgstr "المسافة البعيدة"
+
+msgid "Longed"
+msgstr "مندفع"
+
+msgid "Longer"
+msgstr "أطول"
+
+msgid "Longest"
+msgstr "أطول"
+
+msgid "Longevity"
+msgstr "طول العمر"
+
+msgid "Longfellow"
+msgstr "لونج فيلو - كاتب أمريكي شهير"
+
+msgid "Longhair"
+msgstr "ذو ذوق رفيع في الموسيقى"
+
+msgid "Longhand"
+msgstr "الكتابة العادية"
+
+msgid "Longhorn"
+msgstr "أي حيوان ذا قرون طويلة"
+
+msgid "Longing"
+msgstr "الشوق"
+
+msgid "Longingly"
+msgstr "بشوق"
+
+msgid "Longings"
+msgstr "الشوق"
+
+msgid "Longish"
+msgstr "طويل بعض الشيء"
+
+msgid "Longitude"
+msgstr "خط الطول"
+
+msgid "Longitudes"
+msgstr "خطوط الطول"
+
+msgid "Longitudinal"
+msgstr "طولي"
+
+msgid "Longitudinally"
+msgstr "طوليا"
+
+msgid "Longly"
+msgstr "طوليا"
+
+msgid "Longness"
+msgstr "الطّول"
+
+msgid "Longs"
+msgstr "لونجس"
+
+msgid "Longshoreman"
+msgstr "الملاح"
+
+msgid "Longshoremen"
+msgstr "الملاحون"
+
+msgid "Longstanding"
+msgstr "طويل المدى"
+
+msgid "Longstreet"
+msgstr "لونج ستريت - جنرال أمريكي"
+
+msgid "Longterm"
+msgstr "المدى البعيد"
+
+msgid "Longtime"
+msgstr "قديم"
+
+msgid "Lonna"
+msgstr "لونا"
+
+msgid "Look"
+msgstr "النظرة"
+
+msgid "Look ahead"
+msgstr "فكّر بالمستقبل، أنظر الى الأمام"
+
+msgid "Look-out"
+msgstr "المراقبة"
+
+msgid "Look-up"
+msgstr "المشاهدة"
+
+msgid "Looked"
+msgstr "منظور"
+
+msgid "Looker"
+msgstr "المتفرّج"
+
+msgid "Lookers"
+msgstr "المتفرّجون"
+
+msgid "Looking"
+msgstr "النظر"
+
+msgid "Looking-glass"
+msgstr "المرآة"
+
+msgid "Lookout"
+msgstr "المراقبة"
+
+msgid "Lookouts"
+msgstr "عمليات المراقبة"
+
+msgid "Looks"
+msgstr "النظرات"
+
+msgid "Lookup"
+msgstr "المشاهدة"
+
+msgid "Lookups"
+msgstr "المشاهدة"
+
+msgid "Loom"
+msgstr "المنوال"
+
+msgid "Loomed"
+msgstr "ملاح"
+
+msgid "Looming"
+msgstr "اللوح"
+
+msgid "Loomis"
+msgstr "لوميس"
+
+msgid "Looms"
+msgstr "المنوالات"
+
+msgid "Loon"
+msgstr "الغوّاص"
+
+msgid "Loonie"
+msgstr "الدّولار الكندي المعدني"
+
+msgid "Loonier"
+msgstr "أكثر جنونا"
+
+msgid "Looniest"
+msgstr "أكثر جنونا"
+
+msgid "Looniness"
+msgstr "الجنون"
+
+msgid "Loony"
+msgstr "مجنون"
+
+msgid "Loop"
+msgstr "الحلقة"
+
+msgid "Loopback"
+msgstr "خط الإرجاع"
+
+msgid "Looped"
+msgstr "مدار"
+
+msgid "Looper"
+msgstr "لوبير"
+
+msgid "Loophole"
+msgstr "المنفذ"
+
+msgid "Loopholed"
+msgstr "به ثغرة"
+
+msgid "Loopholes"
+msgstr "المنافذ"
+
+msgid "Loopie"
+msgstr "مخادع"
+
+msgid "Looping"
+msgstr "الإدارة"
+
+msgid "Loops"
+msgstr "الحلقات"
+
+msgid "Loose"
+msgstr "طليق"
+
+msgid "Loose-leaf"
+msgstr "منزوع الأوراق"
+
+msgid "Loosed"
+msgstr "أطلق"
+
+msgid "Looseleaf"
+msgstr "منزوع الأوراق"
+
+msgid "Loosely"
+msgstr "بشكل طليق"
+
+msgid "Loosen"
+msgstr "حلّ"
+
+msgid "Loosened"
+msgstr "محلول"
+
+msgid "Loosener"
+msgstr "المُرخي"
+
+msgid "Looseness"
+msgstr "الرخاوة"
+
+msgid "Loosening"
+msgstr "التخفيف"
+
+msgid "Loosens"
+msgstr "يحلّ"
+
+msgid "Looser"
+msgstr "أوسع"
+
+msgid "Looses"
+msgstr "يطلق"
+
+msgid "Loosest"
+msgstr "أوسع"
+
+msgid "Loosestrife"
+msgstr "لووس ستريف - نبات"
+
+msgid "Loosing"
+msgstr "الإطلاق"
+
+msgid "Loot"
+msgstr "السلب"
+
+msgid "Looted"
+msgstr "منهوب"
+
+msgid "Looter"
+msgstr "السّارق"
+
+msgid "Looting"
+msgstr "النهب"
+
+msgid "Lootings"
+msgstr "النهب"
+
+msgid "Loots"
+msgstr "السلب"
+
+msgid "Lop"
+msgstr "شذّب"
+
+msgid "Lope"
+msgstr "القفز"
+
+msgid "Loped"
+msgstr "متخطّى"
+
+msgid "Loper"
+msgstr " الحصان النطّاط"
+
+msgid "Lopes"
+msgstr "لوبس"
+
+msgid "Lopez"
+msgstr "لوبيز"
+
+msgid "Loping"
+msgstr "التخطّي"
+
+msgid "Lopped"
+msgstr "مشذّب"
+
+msgid "Lopping"
+msgstr "التشذيب"
+
+msgid "Lops"
+msgstr "يشذّب"
+
+msgid "Lopseed"
+msgstr "لوبسيد - أعشاب"
+
+msgid "Lopsided"
+msgstr "ثقيل الجانب"
+
+msgid "Lopsidedly"
+msgstr "بشكل ثقيل الجانب"
+
+msgid "Lopsidedness"
+msgstr "الإنحراف، الميلان"
+
+msgid "Loquacious"
+msgstr "ثرثار"
+
+msgid "Loquaciously"
+msgstr "بثرثرة"
+
+msgid "Loquaciousness"
+msgstr "الثرثرة"
+
+msgid "Loquacity"
+msgstr "الثرثرة"
+
+msgid "Loquat"
+msgstr "لوكوات - شجرة دائمة الخضرة"
+
+msgid "Lord"
+msgstr "اللورد"
+
+msgid "Lording"
+msgstr "الحكم"
+
+msgid "Lordlier"
+msgstr "مهيب"
+
+msgid "Lordliness"
+msgstr "اللوردية"
+
+msgid "Lordly"
+msgstr "مهيب"
+
+msgid "Lordosis"
+msgstr "إعوجاج غير طبيعي الى الأمام في العمود الفقري"
+
+msgid "Lords"
+msgstr "اللوردات"
+
+msgid "Lordship"
+msgstr "السيادة"
+
+msgid "Lore"
+msgstr "العلم"
+
+msgid "Lorelei"
+msgstr "صفّارة أسطورية ألمانية"
+
+msgid "Loren"
+msgstr "لورين"
+
+msgid "Lorenz"
+msgstr "لورينز"
+
+msgid "Lores"
+msgstr "العلوم"
+
+msgid "Loretta"
+msgstr "لوريتا"
+
+msgid "Lorikeet"
+msgstr "الببغاء الأسترالي"
+
+msgid "Lorinda"
+msgstr "لوريندا"
+
+msgid "Lorraine"
+msgstr "لورين"
+
+msgid "Lorries"
+msgstr "الشاحنات"
+
+msgid "Lorry"
+msgstr "الشاحنة"
+
+msgid "Los"
+msgstr "لوس"
+
+msgid "Losable"
+msgstr "عرضة للضياع"
+
+msgid "Lose"
+msgstr "إفقد"
+
+msgid "Loser"
+msgstr "الخاسر"
+
+msgid "Losers"
+msgstr "الخاسرون"
+
+msgid "Loses"
+msgstr "يفقد"
+
+msgid "Losing"
+msgstr "الخسران"
+
+msgid "Losings"
+msgstr "الخسران"
+
+msgid "Loss"
+msgstr "الخسارة"
+
+msgid "Lossage"
+msgstr "ياللخسارة"
+
+msgid "Losses"
+msgstr "الخسائر"
+
+msgid "Lossless"
+msgstr "بلا خسائر"
+
+msgid "Lossy"
+msgstr "بخسارة"
+
+msgid "Lost"
+msgstr "مفقود"
+
+msgid "Lostness"
+msgstr "الخسارة، الضياع، الهدر"
+
+msgid "Lot"
+msgstr "القطعة"
+
+msgid "Lothario"
+msgstr "الفاتن"
+
+msgid "Lotion"
+msgstr "المستحضر"
+
+msgid "Lotions"
+msgstr "المستحضرات"
+
+msgid "Lots"
+msgstr "القطع"
+
+msgid "Lotte"
+msgstr "لوت"
+
+msgid "Lotteries"
+msgstr "اليانصيبات"
+
+msgid "Lottery"
+msgstr "اليانصيب"
+
+msgid "Lottie"
+msgstr "لوتي"
+
+msgid "Lotus"
+msgstr "اللوتس"
+
+msgid "Lou"
+msgstr "لو"
+
+msgid "Loud"
+msgstr "عالي"
+
+msgid "Louden"
+msgstr "يزيد من شدة الصوت"
+
+msgid "Loudened"
+msgstr "زاد من شدة الصوت"
+
+msgid "Loudening"
+msgstr "زيادة شدّة الصوت"
+
+msgid "Louder"
+msgstr "أعلى"
+
+msgid "Loudest"
+msgstr "أعلى"
+
+msgid "Loudly"
+msgstr "بصوت عالي"
+
+msgid "Loudmouth"
+msgstr "المُتكلّم بصوت عالي"
+
+msgid "Loudmouthed"
+msgstr "تكلّم بصوت عالي"
+
+msgid "Loudness"
+msgstr "الصخابة"
+
+msgid "Loudspeaker"
+msgstr "السمّاعة"
+
+msgid "Loudspeakers"
+msgstr "السمّاعات"
+
+msgid "Louis"
+msgstr "لويس"
+
+msgid "Louisa"
+msgstr "لويزا"
+
+msgid "Louise"
+msgstr "لويز"
+
+msgid "Louisiana"
+msgstr "لويزيانا"
+
+msgid "Louisianan"
+msgstr "لويسيانان"
+
+msgid "Louisville"
+msgstr "لويسفيل"
+
+msgid "Lounge"
+msgstr "غرفة الجلوس"
+
+msgid "Lounged"
+msgstr "متسكّع"
+
+msgid "Lounger"
+msgstr "المتسكّع"
+
+msgid "Loungers"
+msgstr "المتسكّعون"
+
+msgid "Lounges"
+msgstr "غرف الجلوس"
+
+msgid "Lounging"
+msgstr "التسكّع"
+
+msgid "Lounsbury"
+msgstr "لونسبري"
+
+msgid "Lour"
+msgstr "تجهّم"
+
+msgid "Lourdes"
+msgstr "لورد - بلدة في جنوب غرب فرنسا "
+
+msgid "Loured"
+msgstr "متجهّم"
+
+msgid "Louring"
+msgstr "التجهّم"
+
+msgid "Lours"
+msgstr "يتجهّم"
+
+msgid "Louse"
+msgstr "القملة"
+
+msgid "Loused"
+msgstr "لوسيد"
+
+msgid "Louses"
+msgstr "القمل"
+
+msgid "Lousewort"
+msgstr "لاوسوورت - أعشاب"
+
+msgid "Lousier"
+msgstr "أضعف"
+
+msgid "Lousiest"
+msgstr "أضعف"
+
+msgid "Lousily"
+msgstr "بشكل حقير"
+
+msgid "Lousiness"
+msgstr "الإبتذال"
+
+msgid "Lousing"
+msgstr "الفشل"
+
+msgid "Lousy"
+msgstr "رديء"
+
+msgid "Lout"
+msgstr "الشريب"
+
+msgid "Loutish"
+msgstr "جلف"
+
+msgid "Loutishly"
+msgstr "بجلافة"
+
+msgid "Loutishness"
+msgstr "الفظاظة"
+
+msgid "Louver"
+msgstr "الكوّة"
+
+msgid "Louvre"
+msgstr "الكوّة"
+
+msgid "Lovable"
+msgstr "محبوب"
+
+msgid "Lovableness"
+msgstr "المحبوبية"
+
+msgid "Lovably"
+msgstr "بشكل محبّب"
+
+msgid "Love"
+msgstr "الحبّ"
+
+msgid "Lovebird"
+msgstr "طير الحب - ببغاء صغير"
+
+msgid "Lovebirds"
+msgstr "طيور الحب"
+
+msgid "Loved"
+msgstr "محبوب"
+
+msgid "Lovejoy"
+msgstr "لفجوي"
+
+msgid "Lovelace"
+msgstr "لوفيليس - شاعر إنجليزيّ"
+
+msgid "Loveland"
+msgstr "لفلاند - مدينة في شمال كولورادو"
+
+msgid "Loveless"
+msgstr "بلا حبّ"
+
+msgid "Lovelessly"
+msgstr "بصورة خالية من الحب"
+
+msgid "Lovelessness"
+msgstr "حالة إنعدام الحب"
+
+msgid "Lovelier"
+msgstr "أروع"
+
+msgid "Lovelies"
+msgstr "الحسناوات"
+
+msgid "Loveliest"
+msgstr "أروع"
+
+msgid "Loveliness"
+msgstr "الحسن"
+
+msgid "Lovelorn"
+msgstr "ملهوف"
+
+msgid "Lovelornness"
+msgstr "التجرّد من الحب، إنعدام الحب"
+
+msgid "Lovely"
+msgstr "رائع"
+
+msgid "Lover"
+msgstr "الحبيب"
+
+msgid "Lovering"
+msgstr "لافرينج"
+
+msgid "Loverly"
+msgstr "بصورة المحب"
+
+msgid "Lovers"
+msgstr "الأحباء"
+
+msgid "Loves"
+msgstr "يحبّ"
+
+msgid "Lovesick"
+msgstr "ولهان"
+
+msgid "Lovesickness"
+msgstr "تشتت العقل من جرّاء الحب"
+
+msgid "Loving"
+msgstr "المحبّة"
+
+msgid "Lovingly"
+msgstr "بمودّة"
+
+msgid "Lovingness"
+msgstr "الحبّ"
+
+msgid "Low"
+msgstr "المستوى الواطئ"
+
+msgid "Low-charge"
+msgstr "الأجرة المنخفض"
+
+msgid "Low-contrast"
+msgstr "المقارنة المنخفضة"
+
+msgid "Low-cost"
+msgstr "رخيص"
+
+msgid "Low-noise"
+msgstr "الضوضاء المنخفضة"
+
+msgid "Low-order"
+msgstr "واطئ الرتبة"
+
+msgid "Lowboy"
+msgstr "لوبوي"
+
+msgid "Lowbrow"
+msgstr "ضئيل الثقافة"
+
+msgid "Lowdown"
+msgstr "المعلومات الداخلية"
+
+msgid "Lowe"
+msgstr "لاو"
+
+msgid "Lowell"
+msgstr "لويل"
+
+msgid "Lower"
+msgstr "أوطأ"
+
+msgid "Lower-bound"
+msgstr "محصور في أوطأ"
+
+msgid "Lower-case"
+msgstr "صغير"
+
+msgid "Lowercase"
+msgstr "حرف صغير"
+
+msgid "Lowercased"
+msgstr "طبع باستخدام الأحرف الصغيرة"
+
+msgid "Lowercases"
+msgstr "الأحرف الصغيرة"
+
+msgid "Lowercasing"
+msgstr "يحوّل الحروف من كبيرة الى صغيرة"
+
+msgid "Lowered"
+msgstr "إنخفض"
+
+msgid "Lowering"
+msgstr "التخفيض"
+
+msgid "Loweringly"
+msgstr "بشكل مصغِّر"
+
+msgid "Lowerings"
+msgstr "التخفيض"
+
+msgid "Lowermost"
+msgstr "أوطأ"
+
+msgid "Lowers"
+msgstr "ينخفض"
+
+msgid "Lowest"
+msgstr "أوطأ"
+
+msgid "Lowest-order"
+msgstr "الطلب الأوطأ"
+
+msgid "Lowing"
+msgstr "يقلّد صوت البقر"
+
+msgid "Lowland"
+msgstr "السهل"
+
+msgid "Lowlander"
+msgstr "سهلي"
+
+msgid "Lowlanders"
+msgstr "سكّان الأرض المنخفضة"
+
+msgid "Lowlands"
+msgstr "السهول"
+
+msgid "Lowlier"
+msgstr "أكثر تواضعا"
+
+msgid "Lowliest"
+msgstr "أكثر تواضعا"
+
+msgid "Lowlight"
+msgstr "الحدث الغير سار"
+
+msgid "Lowliness"
+msgstr "الوطوء"
+
+msgid "Lowly"
+msgstr "متواضع"
+
+msgid "Lowness"
+msgstr "الإنخفاض"
+
+msgid "Lowry"
+msgstr "لوري - كاتب إنجليزي"
+
+msgid "Lows"
+msgstr "المستويات الواطئة"
+
+msgid "Lox"
+msgstr "السلمون المدخّن"
+
+msgid "Loy"
+msgstr "أداة حفر للأرض الصخرية"
+
+msgid "Loyal"
+msgstr "موالي"
+
+msgid "Loyalist"
+msgstr "الموالي"
+
+msgid "Loyalists"
+msgstr "الموالون"
+
+msgid "Loyally"
+msgstr "باخلاص"
+
+msgid "Loyalness"
+msgstr "الولاء"
+
+msgid "Loyalties"
+msgstr "الولاء"
+
+msgid "Loyalty"
+msgstr "الولاء"
+
+msgid "Loyola"
+msgstr "لويولا"
+
+msgid "Lozenge"
+msgstr "المعيّن"
+
+msgid "Lozenged"
+msgstr "بشكل يشبه المعيّن"
+
+msgid "Lozenges"
+msgstr "المعينات"
+
+msgid "LSI"
+msgstr "التّكامل الواسع النّطاق"
+
+msgid "Ltd"
+msgstr "المحدودة"
+
+msgid "LTV"
+msgstr "المركبة التّكتيكيّة الخفيفة"
+
+msgid "Lubberly"
+msgstr "أخرق"
+
+msgid "Lubbers"
+msgstr "عديمي الخبرة"
+
+msgid "Lubbock"
+msgstr "لوبوك"
+
+msgid "Lubell"
+msgstr "لبيل"
+
+msgid "Lubricant"
+msgstr "زيت التشحيم"
+
+msgid "Lubricants"
+msgstr "زيوت التشحيم"
+
+msgid "Lubricate"
+msgstr "زيّت"
+
+msgid "Lubricated"
+msgstr "مزيّت"
+
+msgid "Lubricates"
+msgstr "يزيّت"
+
+msgid "Lubricating"
+msgstr "التزييت"
+
+msgid "Lubrication"
+msgstr "التشحيم"
+
+msgid "Lubrications"
+msgstr "التشحيم"
+
+msgid "Lubricative"
+msgstr "لزج، دهني الملمس"
+
+msgid "Lubricator"
+msgstr "الداهن"
+
+msgid "Lubricious"
+msgstr "فاسق"
+
+msgid "Lubriciously"
+msgstr "بشكل فاسق"
+
+msgid "Lubricity"
+msgstr "اللزوجة"
+
+msgid "Lucas"
+msgstr "لوكاس"
+
+msgid "Lucency"
+msgstr "الإضاءة"
+
+msgid "Lucent"
+msgstr "لوسينت"
+
+msgid "Lucently"
+msgstr "بلمعان"
+
+msgid "Lucerne"
+msgstr "البرسيم الحجازي"
+
+msgid "Lucia"
+msgstr "لوسيا"
+
+msgid "Lucian"
+msgstr "لوتشيان"
+
+msgid "Lucid"
+msgstr "مشرق"
+
+msgid "Lucida"
+msgstr "لوسدا"
+
+msgid "Lucidity"
+msgstr "الوضوح"
+
+msgid "Lucidly"
+msgstr "بشكل مشرق"
+
+msgid "Lucidness"
+msgstr "السهولة، الوضوح"
+
+msgid "Lucien"
+msgstr "لوسين "
+
+msgid "Lucifer"
+msgstr "الإبليس"
+
+msgid "Lucille"
+msgstr "لوسيل"
+
+msgid "Lucius"
+msgstr "لوتشيوس"
+
+msgid "Luck"
+msgstr "الحظّ"
+
+msgid "Lucked"
+msgstr "حالفه الحظ"
+
+msgid "Luckier"
+msgstr "أسعد حظا"
+
+msgid "Luckiest"
+msgstr "أسعد حظا"
+
+msgid "Luckily"
+msgstr "لحسن الحظ"
+
+msgid "Luckiness"
+msgstr "حُسن الحظ"
+
+msgid "Lucking"
+msgstr "الحظ الجيد"
+
+msgid "Luckless"
+msgstr "سيئ الحظ"
+
+msgid "Lucks"
+msgstr "الحظوظ"
+
+msgid "Lucky"
+msgstr "محظوظ"
+
+msgid "Lucrative"
+msgstr "مربح"
+
+msgid "Lucratively"
+msgstr "بشكل مربح"
+
+msgid "Lucrativeness"
+msgstr "الربحية"
+
+msgid "Lucre"
+msgstr "الربح"
+
+msgid "Lucretia"
+msgstr "لوكريشيا"
+
+msgid "Lucretius"
+msgstr "لوكريتيوس"
+
+msgid "Lucubration"
+msgstr "الدراسة"
+
+msgid "Lucy"
+msgstr "لوسي"
+
+msgid "Luddite"
+msgstr "عضو جماعة محطّمو الآلات خوفا من إحلال الآلة مكان الإنسان العامل"
+
+msgid "Ludicrous"
+msgstr "سخيف"
+
+msgid "Ludicrously"
+msgstr "بسخافة"
+
+msgid "Ludicrousness"
+msgstr "السخافة"
+
+msgid "Ludlow"
+msgstr "لدلو"
+
+msgid "Ludwig"
+msgstr "لودفيج"
+
+msgid "Luff"
+msgstr "در"
+
+msgid "Lufthansa"
+msgstr "اللوفتهانزا"
+
+msgid "Luftwaffe"
+msgstr "لوفتوافا"
+
+msgid "Lug"
+msgstr "العروة"
+
+msgid "Luge"
+msgstr "مزلاجة سباق"
+
+msgid "Luger"
+msgstr "متسابق على الجليد بمزلاجة"
+
+msgid "Luggage"
+msgstr "الأمتعة"
+
+msgid "Lugged"
+msgstr "مسحوب"
+
+msgid "Lugging"
+msgstr "السحب"
+
+msgid "Lugs"
+msgstr "العروات"
+
+msgid "Lugubrious"
+msgstr "جنائزي"
+
+msgid "Lugubriously"
+msgstr "بشكل جنائزي"
+
+msgid "Lugubriousness"
+msgstr "الحزن الشديد"
+
+msgid "Luis"
+msgstr "لويس"
+
+msgid "Luke"
+msgstr "لوك"
+
+msgid "Lukemia"
+msgstr "لوكيميا"
+
+msgid "Lukewarm"
+msgstr "فاتر"
+
+msgid "Lukewarmly"
+msgstr "بفتور"
+
+msgid "Lukewarmness"
+msgstr "الفتور"
+
+msgid "Lull"
+msgstr "فترة الهدوء"
+
+msgid "Lullabied"
+msgstr "غنّى"
+
+msgid "Lullabies"
+msgstr "التهويدات"
+
+msgid "Lullaby"
+msgstr "التهويدة"
+
+msgid "Lullabying"
+msgstr "الغناء"
+
+msgid "Lulled"
+msgstr "مهدّأ"
+
+msgid "Lulling"
+msgstr "التهدئة"
+
+msgid "Lulls"
+msgstr "فترات الهدوء"
+
+msgid "Lulu"
+msgstr "لولو"
+
+msgid "Lumbago"
+msgstr "ألم الظهر"
+
+msgid "Lumbar"
+msgstr "قطني"
+
+msgid "Lumber"
+msgstr "الخشب"
+
+msgid "Lumbered"
+msgstr "متثاقل"
+
+msgid "Lumberer"
+msgstr "الحطّاب"
+
+msgid "Lumbering"
+msgstr "التثاقل"
+
+msgid "Lumberjack"
+msgstr "الحطّاب"
+
+msgid "Lumberman"
+msgstr "الحطّاب"
+
+msgid "Lumbermen"
+msgstr "الحطّابون"
+
+msgid "Lumbers"
+msgstr "الأخشاب"
+
+msgid "Lumberyard"
+msgstr "مكان بيع الخشب"
+
+msgid "Lumen"
+msgstr "التجويف"
+
+msgid "Luminance"
+msgstr "الإضاءة"
+
+msgid "Luminaries"
+msgstr "النجوم"
+
+msgid "Luminary"
+msgstr "النجم"
+
+msgid "Luminesce"
+msgstr "تألّق"
+
+msgid "Luminescence"
+msgstr "لومنيسسينس"
+
+msgid "Luminescent"
+msgstr "مضيئ"
+
+msgid "Luminiferous"
+msgstr "مضيئ"
+
+msgid "Luminosities"
+msgstr "اللمعان"
+
+msgid "Luminosity"
+msgstr "اللمعان"
+
+msgid "Luminous"
+msgstr "مضيئ"
+
+msgid "Luminously"
+msgstr "بشكل مضيئ"
+
+msgid "Luminousness"
+msgstr "اللمعان"
+
+msgid "Lummox"
+msgstr "شخص غبي"
+
+msgid "Lump"
+msgstr "الكتلة"
+
+msgid "Lumped"
+msgstr "مكوّم"
+
+msgid "Lumpen"
+msgstr "بطيء الإستيعاب"
+
+msgid "Lumper"
+msgstr "مناول البضائع في الميناء"
+
+msgid "Lumpier"
+msgstr "أكثر كتلا"
+
+msgid "Lumpiest"
+msgstr "أكثر كتلا"
+
+msgid "Lumpiness"
+msgstr "التجعّد"
+
+msgid "Lumping"
+msgstr "التكويم"
+
+msgid "Lumpish"
+msgstr "بليد"
+
+msgid "Lumpishly"
+msgstr "ببلادة"
+
+msgid "Lumpishness"
+msgstr "البلادة"
+
+msgid "Lumps"
+msgstr "الكتل"
+
+msgid "Lumpur"
+msgstr "لومبور"
+
+msgid "Lumpy"
+msgstr "متكتّل"
+
+msgid "Luna"
+msgstr "لونا - إله القمر"
+
+msgid "Lunacy"
+msgstr "الجنون"
+
+msgid "Lunar"
+msgstr "قمري"
+
+msgid "Lunary"
+msgstr "قمري"
+
+msgid "Lunate"
+msgstr "لانات"
+
+msgid "Lunated"
+msgstr "لاناتيد"
+
+msgid "Lunately"
+msgstr "لاناتيلي"
+
+msgid "Lunatic"
+msgstr "مجنون"
+
+msgid "Lunaticly"
+msgstr "بشكل مجنون"
+
+msgid "Lunatics"
+msgstr "المجانين"
+
+msgid "Lunation"
+msgstr "الشهر القمري"
+
+msgid "Lunch"
+msgstr "الغداء"
+
+msgid "Lunched"
+msgstr "متغدّى"
+
+msgid "Luncheon"
+msgstr "الغداء"
+
+msgid "Luncheons"
+msgstr "الغداء"
+
+msgid "Luncher"
+msgstr "لانتشير"
+
+msgid "Lunches"
+msgstr "الغداء"
+
+msgid "Lunchhour"
+msgstr "لانتشهور"
+
+msgid "Lunching"
+msgstr "التغدّي"
+
+msgid "Lunchroom"
+msgstr "غرفة الطعام"
+
+msgid "Lunchrooms"
+msgstr "غرف الطعام"
+
+msgid "Lunchtime"
+msgstr "وقت الغداء"
+
+msgid "Lund"
+msgstr "لاند"
+
+msgid "Lundberg"
+msgstr "لاندبيرج"
+
+msgid "Lundquist"
+msgstr "لاندكويست"
+
+msgid "Lung"
+msgstr "الرئة"
+
+msgid "Lunge"
+msgstr "الطعنة"
+
+msgid "Lunged"
+msgstr "مندفع"
+
+msgid "Lunger"
+msgstr "لانجير"
+
+msgid "Lunges"
+msgstr "الطعنات"
+
+msgid "Lunging"
+msgstr "الإندفاع"
+
+msgid "Lungs"
+msgstr "الرئتين"
+
+msgid "Lupin"
+msgstr "الترمس"
+
+msgid "Lupine"
+msgstr "نبات الترمس"
+
+msgid "Lupines"
+msgstr "نباتات التّرمس"
+
+msgid "Lupins"
+msgstr "نباتات التّرمس"
+
+msgid "Lura"
+msgstr "لورا"
+
+msgid "Lurch"
+msgstr "الترنّح"
+
+msgid "Lurched"
+msgstr "مترنّح"
+
+msgid "Lurcher"
+msgstr "الجوّاس"
+
+msgid "Lurches"
+msgstr "الترنّح"
+
+msgid "Lurching"
+msgstr "الترنّح"
+
+msgid "Lure"
+msgstr "السحر"
+
+msgid "Lured"
+msgstr "مغرى"
+
+msgid "Lurer"
+msgstr "المستدرِج"
+
+msgid "Lures"
+msgstr "السحر"
+
+msgid "Lurid"
+msgstr "بشع"
+
+msgid "Luridly"
+msgstr "بشحوب"
+
+msgid "Luridness"
+msgstr "الصدمة"
+
+msgid "Luring"
+msgstr "الإغراء"
+
+msgid "Luringly"
+msgstr "باستدراج"
+
+msgid "Lurk"
+msgstr "ترصّد"
+
+msgid "Lurked"
+msgstr "مترصّد"
+
+msgid "Lurker"
+msgstr "لوركير"
+
+msgid "Lurking"
+msgstr "التسنّط"
+
+msgid "Lurks"
+msgstr "يترصّد"
+
+msgid "Lusaka"
+msgstr "لاساكا - عاصمة زامبيا"
+
+msgid "Luscious"
+msgstr "مترف"
+
+msgid "Lusciously"
+msgstr "بشكل مترف"
+
+msgid "Lusciousness"
+msgstr "حلاوة المذاق"
+
+msgid "Luser"
+msgstr "مستخدم الكومبيوتر الغبي "
+
+msgid "Lush"
+msgstr "معشب"
+
+msgid "Lushes"
+msgstr "يسكر"
+
+msgid "Lushly"
+msgstr "بشكل معشب"
+
+msgid "Lushness"
+msgstr "الخضرة"
+
+msgid "Lust"
+msgstr "الرغبة"
+
+msgid "Lusted"
+msgstr "مشتهى"
+
+msgid "Luster"
+msgstr "اللمعان"
+
+msgid "Lustered"
+msgstr "برق - بريق الألماس"
+
+msgid "Lustering"
+msgstr "البريق"
+
+msgid "Lusters"
+msgstr "اللمعان"
+
+msgid "Lustful"
+msgstr "شهواني"
+
+msgid "Lustfully"
+msgstr "بشكل شهواني"
+
+msgid "Lustfulness"
+msgstr "الشهوة"
+
+msgid "Lustier"
+msgstr "أكثر شهوانية"
+
+msgid "Lustiest"
+msgstr "أكثر شهوانية"
+
+msgid "Lustily"
+msgstr "بشهوة"
+
+msgid "Lustiness"
+msgstr "الشهوة"
+
+msgid "Lusting"
+msgstr "الإشتهاء"
+
+msgid "Lustre"
+msgstr "اللمعان"
+
+msgid "Lustres"
+msgstr "اللمعان"
+
+msgid "Lustrous"
+msgstr "لامع"
+
+msgid "Lustrously"
+msgstr "بشكل لامع"
+
+msgid "Lustrousness"
+msgstr "البريق - بريق اﻷلماس"
+
+msgid "Lusts"
+msgstr "الرغبات"
+
+msgid "Lusty"
+msgstr "شهواني"
+
+msgid "Lutanist"
+msgstr "عازف العود"
+
+msgid "Lute"
+msgstr "العود"
+
+msgid "Luted"
+msgstr "مطيّن"
+
+msgid "Lutes"
+msgstr "الأعواد"
+
+msgid "Lutetium"
+msgstr "لوتيتيم - معدن نادر"
+
+msgid "Luther"
+msgstr "لوثر"
+
+msgid "Lutheran"
+msgstr "لوثري"
+
+msgid "Luting"
+msgstr "التطيين"
+
+msgid "Lutz"
+msgstr "لوز"
+
+msgid "Lux"
+msgstr "لاكس"
+
+msgid "Luxate"
+msgstr "إخلع"
+
+msgid "Luxated"
+msgstr "مخلوع"
+
+msgid "Luxates"
+msgstr "يخلع"
+
+msgid "Luxating"
+msgstr "الخلع"
+
+msgid "Luxe"
+msgstr "فخم"
+
+msgid "Luxembourg"
+msgstr "لوكسمبورغ"
+
+msgid "Luxes"
+msgstr "لكس - وحدة قياس شدة الضوء"
+
+msgid "Luxuriance"
+msgstr "الثراء، الوفرة"
+
+msgid "Luxuriancy"
+msgstr "بثراء، بوفرة"
+
+msgid "Luxuriant"
+msgstr "فاخر"
+
+msgid "Luxuriantly"
+msgstr "بشكل مرفّه"
+
+msgid "Luxuriate"
+msgstr "تمتّع"
+
+msgid "Luxuriated"
+msgstr "متمتّع"
+
+msgid "Luxuriates"
+msgstr "يتمتّع"
+
+msgid "Luxuriating"
+msgstr "التمتّع"
+
+msgid "Luxuries"
+msgstr "الرفاهيات"
+
+msgid "Luxurious"
+msgstr "فاخر"
+
+msgid "Luxuriously"
+msgstr "بترف"
+
+msgid "Luxuriousness"
+msgstr "الرفاهية"
+
+msgid "Luxury"
+msgstr "الترف"
+
+msgid "Luzon"
+msgstr "لوزون"
+
+msgid "Lyceum"
+msgstr "صالة حفلات"
+
+msgid "Lyceums"
+msgstr "صالات حفلات"
+
+msgid "Lycopodium"
+msgstr "ليكوبوديوم"
+
+msgid "Lydia"
+msgstr "ليديا"
+
+msgid "Lye"
+msgstr "الغسول"
+
+msgid "Lying"
+msgstr "الكذب"
+
+msgid "Lyingly"
+msgstr "بشكل زائف"
+
+msgid "Lyings"
+msgstr "الكذب"
+
+msgid "Lykes"
+msgstr "ليكيز"
+
+msgid "Lyle"
+msgstr "لايل"
+
+msgid "Lyman"
+msgstr "ليمان"
+
+msgid "Lymph"
+msgstr "اللمف"
+
+msgid "Lymphatic"
+msgstr "ليمفاوي"
+
+msgid "Lymphatics"
+msgstr "ليمفاويين"
+
+msgid "Lymphocyte"
+msgstr "الخلية اللمفية"
+
+msgid "Lymphocytes"
+msgstr "الخلايا اللمفية"
+
+msgid "Lymphoma"
+msgstr "ورم الغدد اللمفاوية"
+
+msgid "Lynch"
+msgstr "أعدم بدون محاكمة"
+
+msgid "Lynchburg"
+msgstr "لنتشبيرغ"
+
+msgid "Lynched"
+msgstr "معدم"
+
+msgid "Lyncher"
+msgstr "منفّذ الإعدام بدون تفويض من المحكمة"
+
+msgid "Lynches"
+msgstr "يعدم"
+
+msgid "Lynching"
+msgstr "القتل"
+
+msgid "Lyndon"
+msgstr "لندون"
+
+msgid "Lynn"
+msgstr "لين"
+
+msgid "Lynx"
+msgstr "الوشق"
+
+msgid "Lynxes"
+msgstr "الوشوق"
+
+msgid "Lyon"
+msgstr "ليون"
+
+msgid "Lyons"
+msgstr "ليون - مدينة في شرق فرنسا"
+
+msgid "Lyra"
+msgstr "ليرا - مجموعة نجوم"
+
+msgid "Lyre"
+msgstr "القيثارة"
+
+msgid "Lyres"
+msgstr "القيثارات"
+
+msgid "Lyric"
+msgstr "القصيدة الغنائية"
+
+msgid "Lyrical"
+msgstr "غنائي"
+
+msgid "Lyrically"
+msgstr "بشكل غنائي"
+
+msgid "Lyricalness"
+msgstr "ليريكالنيس"
+
+msgid "Lyricism"
+msgstr "الإنفعال خلال أداء قطعة فنية"
+
+msgid "Lyricist"
+msgstr "كاتب الأغاني"
+
+msgid "Lyricists"
+msgstr "كتّاب الأغاني"
+
+msgid "Lyricly"
+msgstr "بشكل غنائي"
+
+msgid "Lyrics"
+msgstr "القصائد الغنائية"
+
+msgid "Lyrist"
+msgstr "كاتب الأغاني"
+
+msgid "Lysenko"
+msgstr "ليسينكو"
+
+# LSD
+msgid "Lysergic"
+msgstr "لسيرجيك - مركب عضوي يسبب الهلوسة"
+
+msgid "Lysine"
+msgstr "ليسين - حمض أميني"
+
+msgid "Listserv"
+msgstr "مجمع اوتوماتيكي لتبادل وتوزيع الرّسائل الإلكترونيّة"
+

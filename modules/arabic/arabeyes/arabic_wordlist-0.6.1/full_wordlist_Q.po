@@ -1,0 +1,1253 @@
+# translation of full_wordlist_Q.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_Q.po,v 1.10 2003/12/05 16:24:41 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'Q'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_Q\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2003-12-02 20:29+0300\n"
+
+msgid "Q"
+msgstr "كيو - الحرف السابع عشر في اللغة الإنجليزية"
+
+msgid "QA"
+msgstr "تأكيد الجودة"
+
+msgid "Qat"
+msgstr "القات - أوراق شجر تمضغ وتعمل كعمل المنبّهات"
+
+msgid "Qatar"
+msgstr "قطر"
+
+msgid "QED"
+msgstr "وهو المطلوب"
+
+msgid "Qt"
+msgstr "كيو تي"
+
+msgid "Qua"
+msgstr "فقط"
+
+msgid "Quack"
+msgstr "مشعوذ"
+
+msgid "Quacked"
+msgstr "موقوق"
+
+msgid "Quackeries"
+msgstr "الدجل"
+
+msgid "Quackery"
+msgstr "الدجل"
+
+msgid "Quacking"
+msgstr "الوقوقة"
+
+msgid "Quackish"
+msgstr "دجلي"
+
+msgid "Quacks"
+msgstr "الدجالون"
+
+msgid "Quad"
+msgstr "الساحة"
+
+msgid "Quadrangle"
+msgstr "رباعي الأضلاع"
+
+msgid "Quadrangles"
+msgstr "رباعيات الأضلاع"
+
+msgid "Quadrangular"
+msgstr "رباعي الزوايا"
+
+msgid "Quadrant"
+msgstr "ربع الدائرة"
+
+msgid "Quadrants"
+msgstr "أرباع الدائرة"
+
+msgid "Quadrat"
+msgstr "المساحة من الأرض المخصصة لدراسة النبات والحيوان"
+
+msgid "Quadrate"
+msgstr "مربّع"
+
+msgid "Quadratic"
+msgstr "من الدرجة الثانية"
+
+msgid "Quadratically"
+msgstr "على هيئة معادلة من الدرجة الثانية"
+
+msgid "Quadratics"
+msgstr "المعادلات التّربيعيّة"
+
+msgid "Quadrature"
+msgstr "التربيع"
+
+msgid "Quadratures"
+msgstr "التربيع"
+
+msgid "Quadrennial"
+msgstr "أربع سنوات"
+
+msgid "Quadrennially"
+msgstr "بشكل أربع سنوات"
+
+msgid "Quadric"
+msgstr "من الدرجة الثانية"
+
+msgid "Quadriceps"
+msgstr "عضلات الفخذ"
+
+msgid "Quadrilateral"
+msgstr "الرباعي"
+
+msgid "Quadrilaterals"
+msgstr "رباعيات الأضلاع"
+
+msgid "Quadrille"
+msgstr "الرقصة الرباعية"
+
+msgid "Quadrilles"
+msgstr "الرقص الرباعي"
+
+msgid "Quadrillion"
+msgstr "1,000,000,000,000,000"
+
+msgid "Quadrillions"
+msgstr "1,000,000,000,000,000"
+
+msgid "Quadrillionth"
+msgstr "0.000,000,000,000,001"
+
+msgid "Quadripartite"
+msgstr "رباعي الأطراف"
+
+msgid "Quadripartitely"
+msgstr "بشكل رباعي الأطراف"
+
+msgid "Quadripartition"
+msgstr "التجزئة إلى أربعة"
+
+msgid "Quadriplegic"
+msgstr "مشلول"
+
+msgid "Quadrivium"
+msgstr "الحساب، الموسيقى، الهندسة و علم الفلك"
+
+msgid "Quadruped"
+msgstr "رباعي الأرجل"
+
+msgid "Quadrupedal"
+msgstr "رباعي الأرجل"
+
+msgid "Quadrupeds"
+msgstr "ذوات الأربع"
+
+msgid "Quadruple"
+msgstr "رباعي"
+
+msgid "Quadrupled"
+msgstr "مربّع"
+
+msgid "Quadruples"
+msgstr "يربّع"
+
+msgid "Quadruplet"
+msgstr "أربع توائم"
+
+msgid "Quadruplets"
+msgstr "أربع توائم"
+
+msgid "Quadruplicate"
+msgstr "رباعي النسخ"
+
+msgid "Quadruplicated"
+msgstr "مربّع"
+
+msgid "Quadruplicates"
+msgstr "يربّع"
+
+msgid "Quadruplicating"
+msgstr "التربّع"
+
+msgid "Quadruplication"
+msgstr "المضاعفة أربع مرّات"
+
+msgid "Quadruplications"
+msgstr "المضاعفات أربع مرّات"
+
+msgid "Quadrupling"
+msgstr "التربّع"
+
+msgid "Quadrupole"
+msgstr "رباعي الإستقطاب"
+
+msgid "Quaff"
+msgstr "إكرع"
+
+msgid "Quaffed"
+msgstr "مكروع"
+
+msgid "Quaffer"
+msgstr "شارب السّائل بشراهة"
+
+msgid "Quaffing"
+msgstr "الكرع"
+
+msgid "Quaffs"
+msgstr "يكرع"
+
+msgid "Quagmire"
+msgstr "المستنقع"
+
+msgid "Quagmires"
+msgstr "المستنقعات"
+
+msgid "Quahog"
+msgstr "كواهوج - قوقعة أمريكيّة"
+
+msgid "Quail"
+msgstr "السمن"
+
+msgid "Quails"
+msgstr "يذوى"
+
+msgid "Quaint"
+msgstr "جذاب"
+
+msgid "Quainter"
+msgstr "أكثر جاذبية"
+
+msgid "Quaintest"
+msgstr "أكثر جاذبية"
+
+msgid "Quaintly"
+msgstr "بشكل جذاب"
+
+msgid "Quaintness"
+msgstr "الغرابة"
+
+msgid "Quake"
+msgstr "الزلزال"
+
+msgid "Quaked"
+msgstr "مهتزّ"
+
+msgid "Quaker"
+msgstr "الكويكري"
+
+msgid "Quakeress"
+msgstr "عضوة في جمعية الأصدقاء"
+
+msgid "Quakerism"
+msgstr "شخصية وطباع أعضاء جمعية الأصدقاء"
+
+msgid "Quakers"
+msgstr "الكويكريون"
+
+msgid "Quakes"
+msgstr "الزلازل"
+
+msgid "Quaking"
+msgstr "الإهتزاز"
+
+msgid "Quaky"
+msgstr "مهتز"
+
+msgid "Qualifiable"
+msgstr "قابل للتأهيل"
+
+msgid "Qualification"
+msgstr "المؤهل"
+
+msgid "Qualifications"
+msgstr "المؤهلات"
+
+msgid "Qualified"
+msgstr "مؤهّل"
+
+msgid "Qualifiedly"
+msgstr "بقبول رسمي"
+
+msgid "Qualifier"
+msgstr "المؤهّل"
+
+msgid "Qualifiers"
+msgstr "المؤهّلون"
+
+msgid "Qualifies"
+msgstr "يتأهّل"
+
+msgid "Qualify"
+msgstr "تأهّل"
+
+msgid "Qualifying"
+msgstr "التأهّل"
+
+msgid "Qualitative"
+msgstr "نوعي"
+
+msgid "Qualitatively"
+msgstr "بشكل نوعي"
+
+msgid "Qualities"
+msgstr "النوعيات"
+
+msgid "Quality"
+msgstr "النوعية"
+
+msgid "Qualm"
+msgstr "الهاجس"
+
+msgid "Qualmish"
+msgstr "مغثي"
+
+msgid "Qualmishly"
+msgstr "بشكل مغثي"
+
+msgid "Qualmishness"
+msgstr "الإصابة بالغثيان"
+
+msgid "Qualms"
+msgstr "الهواجس"
+
+msgid "Quandaries"
+msgstr "المشاكل"
+
+msgid "Quandary"
+msgstr "المشكلة"
+
+msgid "Quant"
+msgstr "ضليع في الرياضيات"
+
+msgid "Quanta"
+msgstr "الكميّات"
+
+msgid "Quantico"
+msgstr "كوانتيكو"
+
+msgid "Quantifiable"
+msgstr "قابل للقياس"
+
+msgid "Quantification"
+msgstr "القياس"
+
+msgid "Quantifications"
+msgstr "القياس"
+
+msgid "Quantified"
+msgstr "محدّد"
+
+msgid "Quantifier"
+msgstr "المحدّد للكمية"
+
+msgid "Quantifiers"
+msgstr "محدّدو الكميّة"
+
+msgid "Quantifies"
+msgstr "يحدّد"
+
+msgid "Quantify"
+msgstr "حدّد"
+
+msgid "Quantifying"
+msgstr "التحديد"
+
+msgid "Quantitative"
+msgstr "كمّي"
+
+msgid "Quantitatively"
+msgstr "بشكل كمّي"
+
+msgid "Quantitativeness"
+msgstr "الكمّيّة"
+
+msgid "Quantities"
+msgstr "الكميات"
+
+msgid "Quantity"
+msgstr "الكمية"
+
+msgid "Quantization"
+msgstr "التقسيم الى كمّيّات"
+
+msgid "Quantize"
+msgstr "ثبّت قيمة"
+
+msgid "Quantized"
+msgstr "مثبّت قيمة"
+
+msgid "Quantizer"
+msgstr "المقسّم الى كميات صغيرة"
+
+msgid "Quantizers"
+msgstr "المقسّمون الى كميات صغيرة"
+
+msgid "Quantizes"
+msgstr "يثبّت قيمة"
+
+msgid "Quantizing"
+msgstr "تثبيت قيمة"
+
+msgid "Quantum"
+msgstr "كمّي"
+
+msgid "Quarantine"
+msgstr "المحجر الصحي"
+
+msgid "Quarantined"
+msgstr "محجور"
+
+msgid "Quarantines"
+msgstr "المحاجر الصحية"
+
+msgid "Quarantining"
+msgstr "الحجر"
+
+msgid "Quark"
+msgstr "كوارك"
+
+msgid "Quarrel"
+msgstr "الشجار"
+
+msgid "Quarreled"
+msgstr "تشاجر"
+
+msgid "Quarreler"
+msgstr "المتشاجر"
+
+msgid "Quarreling"
+msgstr "الشّجار"
+
+msgid "Quarrelled"
+msgstr "متشاجر"
+
+msgid "Quarrelling"
+msgstr "التشاجر"
+
+msgid "Quarrels"
+msgstr "النزاعات"
+
+msgid "Quarrelsome"
+msgstr "مشاكس"
+
+msgid "Quarrelsomely"
+msgstr "بشكل مشاكس"
+
+msgid "Quarrelsomeness"
+msgstr "النّزعة للشجار"
+
+msgid "Quarried"
+msgstr "محفور"
+
+msgid "Quarrier"
+msgstr "الحفّار"
+
+msgid "Quarries"
+msgstr "الفرائس"
+
+msgid "Quarry"
+msgstr "مقلع الحجارة"
+
+msgid "Quarrying"
+msgstr "الحفر"
+
+msgid "Quarryman"
+msgstr "عامل المحجر"
+
+msgid "Quarrymen"
+msgstr "عمّال المحجر"
+
+msgid "Quart"
+msgstr "الكوارت"
+
+msgid "Quarter"
+msgstr "الربع"
+
+msgid "Quarter-hour"
+msgstr "ربع ساعات"
+
+msgid "Quarterback"
+msgstr "اللاعب خلف الوسط"
+
+msgid "Quarterbacks"
+msgstr "اللاعبون خلف الوسط"
+
+msgid "Quartered"
+msgstr "مربّع"
+
+msgid "Quarterer"
+msgstr "ربع"
+
+msgid "Quarterfinal"
+msgstr "الربع نهائي"
+
+msgid "Quartering"
+msgstr "التربّع"
+
+msgid "Quarterlies"
+msgstr "المجلات الفصلية"
+
+msgid "Quarterly"
+msgstr "فصليا"
+
+msgid "Quartermaster"
+msgstr "ضابط الإعاشة"
+
+msgid "Quartermasters"
+msgstr "ضباط الإعاشة"
+
+msgid "Quarters"
+msgstr "الأرباع"
+
+msgid "Quartet"
+msgstr "الرباعية"
+
+msgid "Quartets"
+msgstr "الرباعيات"
+
+msgid "Quartette"
+msgstr "الرباعية"
+
+msgid "Quartettes"
+msgstr "الرباعيات"
+
+msgid "Quartic"
+msgstr "من الدرجة الرابعة"
+
+msgid "Quarto"
+msgstr "الصفحة الربعية"
+
+msgid "Quarts"
+msgstr "الكوارتات"
+
+msgid "Quartz"
+msgstr "الكوارتز"
+
+msgid "Quartzite"
+msgstr "الكوارتزيت - صخر متحوّل صلب"
+
+msgid "Quasar"
+msgstr "النجم الفلكي البعيد"
+
+msgid "Quasars"
+msgstr "النجوم الفلكية البعيدة"
+
+msgid "Quash"
+msgstr "أسقط"
+
+msgid "Quashed"
+msgstr "مسقط"
+
+msgid "Quashes"
+msgstr "يسقط"
+
+msgid "Quashing"
+msgstr "الإسقاط"
+
+msgid "Quasi"
+msgstr "شبه"
+
+msgid "Quasimodo"
+msgstr "يوم الأحد الذي يأتي مباشرة بعد عيد الفصح"
+
+msgid "Quasiparticle"
+msgstr "مركّب يتشابه في سلوكه لجزيء واحد"
+
+msgid "Quasiperiodic"
+msgstr "شبه دوري"
+
+msgid "Quaternaries"
+msgstr "العدد أربعة، الترتيب الرابع"
+
+msgid "Quaternary"
+msgstr "رباعي"
+
+msgid "Quatrain"
+msgstr "الرباعية"
+
+msgid "Quaver"
+msgstr "الصوت المتهدج"
+
+msgid "Quavered"
+msgstr "مرتجف"
+
+msgid "Quavering"
+msgstr "الإرتجاف"
+
+msgid "Quaveringly"
+msgstr "بارتعاش"
+
+msgid "Quavers"
+msgstr "الأصوات المتهدجة"
+
+msgid "Quavery"
+msgstr "مرتعش"
+
+msgid "Quay"
+msgstr "رصيف الميناء"
+
+msgid "Quays"
+msgstr "أرصفة الميناء"
+
+msgid "Que"
+msgstr "إختصار إسم مدينة كوبيك الكندية"
+
+msgid "Queasier"
+msgstr "مغثي"
+
+msgid "Queasiest"
+msgstr "مغثي"
+
+msgid "Queasily"
+msgstr "بشكل مضطرب"
+
+msgid "Queasiness"
+msgstr "الغثيان"
+
+msgid "Queasinesses"
+msgstr "الغثيان"
+
+msgid "Queasy"
+msgstr "مغثي"
+
+msgid "Quebec"
+msgstr "كويبيك"
+
+msgid "Queen"
+msgstr "الملكة"
+
+msgid "Queenly"
+msgstr "ملكي"
+
+msgid "Queens"
+msgstr "الملكات"
+
+msgid "Queer"
+msgstr "اللوطي"
+
+msgid "Queerer"
+msgstr "أكثر شذوذا"
+
+msgid "Queerest"
+msgstr "أكثر شذوذا"
+
+msgid "Queerly"
+msgstr "بشكل شاذ"
+
+msgid "Queerness"
+msgstr "الغرابة"
+
+msgid "Queers"
+msgstr "الشواذ"
+
+msgid "Queeze"
+msgstr "كويز - نوع من الطيور، غصن شجرة"
+
+msgid "Quell"
+msgstr "إقمع"
+
+msgid "Quelled"
+msgstr "مقموع"
+
+msgid "Queller"
+msgstr "القامع"
+
+msgid "Quelling"
+msgstr "القمع"
+
+msgid "Quells"
+msgstr "يقمع"
+
+msgid "Quench"
+msgstr "إرو"
+
+msgid "Quenchable"
+msgstr "قابل للإخماد"
+
+msgid "Quenched"
+msgstr "مروي"
+
+msgid "Quencher"
+msgstr "مخمد النار، قامع الشغب، مطفيء الضمأ"
+
+msgid "Quenches"
+msgstr "يروي"
+
+msgid "Quenching"
+msgstr "الرواية"
+
+msgid "Quenchless"
+msgstr "لا يطفأ، لا يقمع"
+
+msgid "Queried"
+msgstr "مسؤول"
+
+msgid "Querier"
+msgstr "سائل السؤال"
+
+msgid "Queries"
+msgstr "الإستفسارات"
+
+msgid "Querulous"
+msgstr "متشكي"
+
+msgid "Querulously"
+msgstr "بتشكي دائم"
+
+msgid "Querulousness"
+msgstr "التشكّي"
+
+msgid "Query"
+msgstr "الإستفسار"
+
+msgid "Query-reply"
+msgstr "إجابة إستفسار"
+
+msgid "Querying"
+msgstr "السؤال"
+
+msgid "Queryingly"
+msgstr "بتساؤل"
+
+msgid "Quest"
+msgstr "المسعى"
+
+msgid "Quested"
+msgstr "مبحوث"
+
+msgid "Quester"
+msgstr "الباحث"
+
+msgid "Questing"
+msgstr "البحث"
+
+msgid "Question"
+msgstr "السؤال"
+
+msgid "Questionability"
+msgstr "الشّك"
+
+msgid "Questionable"
+msgstr "مشكوك فيه"
+
+msgid "Questionableness"
+msgstr "الشّك"
+
+msgid "Questionably"
+msgstr "بتساؤل"
+
+msgid "Questioned"
+msgstr "مشكوك ب"
+
+msgid "Questioner"
+msgstr "المستجوب"
+
+msgid "Questioners"
+msgstr "المستجوبون"
+
+msgid "Questioning"
+msgstr "الإستجواب"
+
+msgid "Questioningly"
+msgstr "بتساؤل"
+
+msgid "Questionings"
+msgstr "الإستجواب"
+
+msgid "Questionless"
+msgstr "مؤكّد"
+
+msgid "Questionnaire"
+msgstr "الإستفتاء"
+
+msgid "Questionnaires"
+msgstr "الإستفتاءات"
+
+msgid "Questions"
+msgstr "الأسئلة"
+
+msgid "Quests"
+msgstr "المساعي"
+
+msgid "Quetzal"
+msgstr "الكوازال"
+
+msgid "Queue"
+msgstr "الطابور"
+
+msgid "Queued"
+msgstr "اصطفّ، مُصْطَفّ"
+
+msgid "Queueing"
+msgstr "تشكيل طابور"
+
+msgid "Queuer"
+msgstr "المصطف في الطابور"
+
+msgid "Queuers"
+msgstr "المصطفون في الطابور"
+
+msgid "Queues"
+msgstr "الطوابير"
+
+msgid "Queuing"
+msgstr "الإنتظار في الصف"
+
+msgid "Quezon"
+msgstr "كويزون - إقليم في الفلبّين"
+
+msgid "Quibble"
+msgstr "المراوغة"
+
+msgid "Quibbled"
+msgstr "مراوغ"
+
+msgid "Quibbler"
+msgstr "المراوغ"
+
+msgid "Quibbles"
+msgstr "المراوغات"
+
+msgid "Quibbling"
+msgstr "المراوغة"
+
+msgid "Quiche"
+msgstr "الكيش - فطيرة"
+
+msgid "Quiches"
+msgstr "فطائر الكيش"
+
+msgid "Quick"
+msgstr "بسرعة"
+
+msgid "Quick-break"
+msgstr "الإستراحة السريعة"
+
+msgid "Quicken"
+msgstr "سرّع"
+
+msgid "Quickened"
+msgstr "مسرّع"
+
+msgid "Quickener"
+msgstr "المسرّع، المحيي، المشوّق"
+
+msgid "Quickening"
+msgstr "التسريع"
+
+msgid "Quickens"
+msgstr "يسرّع"
+
+msgid "Quicker"
+msgstr "أسرع"
+
+msgid "Quickest"
+msgstr "أسرع"
+
+msgid "Quickie"
+msgstr "القصة المختصرة"
+
+msgid "Quickies"
+msgstr "القصص المختصرة"
+
+msgid "Quicklime"
+msgstr "الجير الحيّ"
+
+msgid "Quickly"
+msgstr "بسرعة"
+
+msgid "Quickness"
+msgstr "الفطنة"
+
+msgid "Quicknesses"
+msgstr "الفطنة"
+
+msgid "QuickPrint"
+msgstr "طبع سريع"
+
+msgid "Quicksand"
+msgstr "الرمال المتحركة"
+
+msgid "Quicksands"
+msgstr "الرمال المتحركة"
+
+msgid "Quicksilver"
+msgstr "الزئبق"
+
+msgid "Quickstep"
+msgstr "رقصة الفوكستروت"
+
+msgid "Quicksteps"
+msgstr "رقصات الفوكستروت"
+
+msgid "Quid"
+msgstr "الجنيه"
+
+msgid "Quiesce"
+msgstr "يصمت"
+
+msgid "Quiescence"
+msgstr "السكون"
+
+msgid "Quiescent"
+msgstr "خامد"
+
+msgid "Quiescently"
+msgstr "بشكل خامد"
+
+msgid "Quiet"
+msgstr "الهدوء"
+
+msgid "Quieted"
+msgstr "أسكت"
+
+msgid "Quieten"
+msgstr "هدّئ"
+
+msgid "Quietened"
+msgstr "مهدّأ"
+
+msgid "Quietening"
+msgstr "التهدئة"
+
+msgid "Quietens"
+msgstr "يهدّئ"
+
+msgid "Quieter"
+msgstr "أهدأ"
+
+msgid "Quietest"
+msgstr "أهدأ"
+
+msgid "Quieting"
+msgstr "الإسكات"
+
+msgid "Quietly"
+msgstr "بشكل هادئ"
+
+msgid "Quietness"
+msgstr "الهدوء"
+
+msgid "Quiets"
+msgstr "الهدوء"
+
+msgid "Quietude"
+msgstr "الهدوء"
+
+msgid "Quietus"
+msgstr "الهمود"
+
+msgid "Quill"
+msgstr "الريشة"
+
+msgid "Quilling"
+msgstr "اللفّ"
+
+msgid "Quills"
+msgstr "الريشات"
+
+msgid "Quillwort"
+msgstr "كويلوورت - نبات"
+
+msgid "Quilt"
+msgstr "اللحاف"
+
+msgid "Quilted"
+msgstr "مبطّن"
+
+msgid "Quilter"
+msgstr "صانع اللحاف أو البطانة"
+
+msgid "Quilting"
+msgstr "خياطة اللحف"
+
+msgid "Quilts"
+msgstr "اللحف"
+
+msgid "Quin"
+msgstr "أحد خمس توائم"
+
+msgid "Quince"
+msgstr "السفرجلة"
+
+msgid "Quinces"
+msgstr "السفرجل"
+
+msgid "Quincy"
+msgstr "كوينسي"
+
+msgid "Quinine"
+msgstr "الكينين"
+
+msgid "Quinn"
+msgstr "كوين"
+
+msgid "Quinquennial"
+msgstr "خمس سنوات"
+
+msgid "Quinquennially"
+msgstr "بشكل خمس سنوات"
+
+msgid "Quinsy"
+msgstr "الخناق"
+
+msgid "Quint"
+msgstr "التّوأم من خمس توائم"
+
+msgid "Quintal"
+msgstr "القنطار"
+
+msgid "Quintals"
+msgstr "القناطير"
+
+msgid "Quintessence"
+msgstr "الجوهر"
+
+msgid "Quintessences"
+msgstr "الجواهر"
+
+msgid "Quintessential"
+msgstr "مثالي"
+
+msgid "Quintessentially"
+msgstr "بشكل مثالي"
+
+msgid "Quintet"
+msgstr "الخماسي"
+
+msgid "Quintets"
+msgstr "الخماسيات"
+
+msgid "Quintic"
+msgstr "من الدرجة الخامسة"
+
+msgid "Quintillion"
+msgstr "1,000,000,000,000,000,000"
+
+msgid "Quintillionth"
+msgstr "0.000,000,000,000,000,001"
+
+msgid "Quints"
+msgstr "خمس توائم"
+
+msgid "Quintuple"
+msgstr "خمس أضعاف"
+
+msgid "Quintupled"
+msgstr "مخمّس"
+
+msgid "Quintuples"
+msgstr "يخمّس"
+
+msgid "Quintuplet"
+msgstr "خمس توائم"
+
+msgid "Quintupling"
+msgstr "التخميس"
+
+msgid "Quintus"
+msgstr "كوينتس"
+
+msgid "Quip"
+msgstr "المزحة"
+
+msgid "Quipped"
+msgstr "قيل بطريقة مازحة"
+
+msgid "Quipping"
+msgstr "قول بطريقة مازحة"
+
+msgid "Quips"
+msgstr "المزح"
+
+msgid "Quire"
+msgstr "الملزمة"
+
+msgid "Quirinal"
+msgstr "كويرينال - أحد  التلال السبعة في روما القديمة"
+
+msgid "Quirk"
+msgstr "المراوغة"
+
+msgid "Quirkier"
+msgstr "أكثر إلتواء"
+
+msgid "Quirkiest"
+msgstr "أكثر إلتواء"
+
+msgid "Quirkily"
+msgstr "بشكل غريب"
+
+msgid "Quirkiness"
+msgstr "الغرابة"
+
+msgid "Quirks"
+msgstr "المراوغات"
+
+msgid "Quirky"
+msgstr "ملتوي"
+
+msgid "Quirt"
+msgstr "إجلد"
+
+msgid "Quisling"
+msgstr "الخائن"
+
+msgid "Quit"
+msgstr "متحرر"
+
+msgid "Quite"
+msgstr "تماما"
+
+msgid "Quito"
+msgstr "كويتو"
+
+msgid "Quits"
+msgstr "يترك"
+
+msgid "Quittance"
+msgstr "المخالصة"
+
+msgid "Quittances"
+msgstr "المخالصات"
+
+msgid "Quitted"
+msgstr "متروك"
+
+msgid "Quitter"
+msgstr "الانهزاميّ"
+
+msgid "Quitters"
+msgstr "الانهزاميّون"
+
+msgid "Quitting"
+msgstr "الترك"
+
+msgid "Quiver"
+msgstr "الرعشة"
+
+msgid "Quivered"
+msgstr "مرتجف"
+
+msgid "Quivering"
+msgstr "الإرتجاف"
+
+msgid "Quiveringly"
+msgstr "بارتعاش"
+
+msgid "Quivers"
+msgstr "الرعشات"
+
+msgid "Quixote"
+msgstr "دون كاشيوت - بطل الواية التي تحمل إسمه"
+
+msgid "Quixotic"
+msgstr "خيالي"
+
+msgid "Quixotically"
+msgstr "بشهامة"
+
+msgid "Quiz"
+msgstr "الإختبار"
+
+msgid "Quizzed"
+msgstr "ممتحن"
+
+msgid "Quizzes"
+msgstr "الإختبارات"
+
+msgid "Quizzical"
+msgstr "متسائل"
+
+msgid "Quizzically"
+msgstr "بتساؤل"
+
+msgid "Quizzing"
+msgstr "السؤال"
+
+msgid "Quo"
+msgstr "كو"
+
+msgid "Quod"
+msgstr "السجن"
+
+msgid "Quoit"
+msgstr "الحلقة"
+
+msgid "Quondam"
+msgstr "سابق"
+
+msgid "Quonset"
+msgstr "كوونسيت - ماركة تجارية لأكواخ متنقلة"
+
+msgid "Quorum"
+msgstr "النصاب"
+
+msgid "Quota"
+msgstr "الحصة"
+
+msgid "Quotable"
+msgstr "مقتبس"
+
+msgid "Quotas"
+msgstr "الحصص"
+
+msgid "Quotation"
+msgstr "التقدير"
+
+msgid "Quotations"
+msgstr "التقديرات"
+
+msgid "Quote"
+msgstr "الإقتباس"
+
+msgid "Quoted"
+msgstr "مقتبس"
+
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+msgid "Quoth"
+msgstr "قل"
+
+msgid "Quotidian"
+msgstr "يومي"
+
+msgid "Quotient"
+msgstr "خارج القسمة"
+
+msgid "Quotients"
+msgstr "خوارج القسمة"
+
+msgid "Quoting"
+msgstr "الإقتباس"
+
+msgid "Quran"
+msgstr "القرآن - الكتاب المقدّس عند المسلمين"
+

@@ -1,0 +1,1208 @@
+# translation of full_wordlist_Z.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_Z.po,v 1.12 2004/03/10 22:13:11 khayat Exp $
+# --
+#
+# A complete account of all English words starting with 'Z'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ossama Khayat <okhayat@yahoo.com>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+# Ossama M. Khayat <okhayat@yahoo.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_Z\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ossama M. Khayat <okhayat@yahoo.com>\n"
+"Language-Team: Arabic <support@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2004-03-11 01:09+0300\n"
+
+msgid "Z"
+msgstr "زي - الحرف السادس والعشرون في اللغة الإنجليزية"
+
+msgid "Z80"
+msgstr "أحد المعالجات المشهورة"
+
+msgid "Za"
+msgstr "رمز جنوب أفريقيا في عالم الإنترنت"
+
+msgid "Zaar"
+msgstr "لغة تستعمل في شمال نيجيريا"
+
+msgid "Zabaglione"
+msgstr "الزّابليونيّة (نوع من أنواع الحلويات) "
+
+msgid "Zabulon"
+msgstr "زابيولون - في الإنجيل، ابن يعقوب"
+
+msgid "Zachariah"
+msgstr "زكريا - اسم علم"
+
+msgid "Zachary"
+msgstr "زاكاري"
+
+msgid "Zacher"
+msgstr "نصب تذكاري"
+
+msgid "Zaffar"
+msgstr "اكسيد الكوبالت"
+
+msgid "Zaffer"
+msgstr "الزَّعفر (أكسيد الكوبالت)"
+
+msgid "Zaffre"
+msgstr "الزَّعفر (أكسيد الكوبالت)"
+
+msgid "Zaftig"
+msgstr "ممتلىء :: بدين بعض الشّيء"
+
+msgid "Zag"
+msgstr "شكل متعرّج"
+
+msgid "Zagging"
+msgstr "تعريج"
+
+msgid "Zagreb"
+msgstr "زغرب"
+
+msgid "Zags"
+msgstr "أشكال متعرّجة"
+
+msgid "Zahl"
+msgstr "مدينة زاهل"
+
+msgid "Zaim"
+msgstr "الزّعيم"
+
+msgid "Zain"
+msgstr "الحصان ذو اللون الرّمادي"
+
+msgid "Zair"
+msgstr "قليل"
+
+msgid "Zaire"
+msgstr "زائير"
+
+msgid "Zairean"
+msgstr "مواطن من جمهورية زائير"
+
+msgid "Zaleski"
+msgstr "مدينة زاليسكي"
+
+msgid "Zama"
+msgstr "زاما - مدينة قديمة تقع في شمال تونس"
+
+msgid "Zaman"
+msgstr "شجرة الـ زامان"
+
+msgid "Zambezi"
+msgstr "نهر الـ زامبيزي"
+
+msgid "Zambia"
+msgstr "زامبيا"
+
+msgid "Zambo"
+msgstr "الطفل المهجّن - من أبوان هندي وزنجية"
+
+msgid "Zamia"
+msgstr "نبات الزاميا"
+
+msgid "Zamindar"
+msgstr "مالك الأرض :: مجموعة أراضي"
+
+msgid "Zamindari"
+msgstr "الزَّمنداريّة :: السلطة القضائيّة لمالك الأرض"
+
+msgid "Zamora"
+msgstr "مدينة زامورا"
+
+msgid "Zan"
+msgstr "زان"
+
+msgid "Zander"
+msgstr "سمك الزّندر"
+
+msgid "Zanier"
+msgstr "أكثر إضحاكًا :: أكثر تملّقاً :: أكثر سذاجة"
+
+msgid "Zanies"
+msgstr "المتملّقون :: المتزلّفون :: المهرّجون :: المغفّلون :: السذّج :: المُضحّكون :: الحمْقى :: الهزليّون"
+
+msgid "Zaniest"
+msgstr "الأكثر إضحاكًا :: الأكثر هزلاً :: الأكثر تملّقاً :: الأكثر تزلّفاً :: الأكثر سذاجة :: الأكثر حماقة"
+
+msgid "Zanily"
+msgstr "بشكل مضحك :: بشكل هزليّ :: بشكل تهريجيّ"
+
+msgid "Zaniness"
+msgstr "الإضحاك :: الهرج :: السذاجة :: الهزل :: التملّق"
+
+msgid "Zanoni"
+msgstr "مدينة زانوني"
+
+msgid "Zant"
+msgstr "زانت"
+
+msgid "Zante"
+msgstr "خشب أصفر"
+
+msgid "Zany"
+msgstr "المتملّق :: المتزلّف :: المهرِّج :: المضحِّك :: الأحمق :: المغفّل :: السّاذج :: مُضحك :: هزليّ :: تهريجيّ"
+
+msgid "Zanzibar"
+msgstr "زنزبار"
+
+msgid "Zap"
+msgstr "انطلق"
+
+msgid "Zapata"
+msgstr "زاباتا - ثوريّ مكسيكيّ"
+
+msgid "Zapped"
+msgstr "انطلق"
+
+msgid "Zapping"
+msgstr "الانطلاق"
+
+msgid "Zaps"
+msgstr "ينطلق"
+
+msgid "Zaptiah"
+msgstr "ضابط شرطة"
+
+msgid "Zaptieh"
+msgstr "ضابط شرطة"
+
+msgid "Zarathustra"
+msgstr "زاراثسترا - مؤسس الزّرادشتيّة الفارسية"
+
+msgid "Zaratite"
+msgstr "مركّب الـ زاراتايت"
+
+msgid "Zareba"
+msgstr "الزَّريبة :: الموانع الواقية"
+
+msgid "Zareeba"
+msgstr "الزَّريبة :: الموانع الواقية"
+
+msgid "Zarephath"
+msgstr "مصنع لصهر المعادن"
+
+msgid "Zarf"
+msgstr "ممسكة معدنية لقدح القهوة الساخن"
+
+msgid "Zariba"
+msgstr "الزَّريبة :: الموانع الواقية"
+
+msgid "Zarthe"
+msgstr "سمك الزّارث"
+
+msgid "Zarzuela"
+msgstr "الزّرزُويلة :: أوبرا أسبانيّة هزليّة"
+
+msgid "Zauschneria"
+msgstr "زوسكنيريا - نبات مزهر"
+
+msgid "Zax"
+msgstr "أداة لإصلاح أسقف البيوت"
+
+msgid "Zayat"
+msgstr "حظيرة عامّة"
+
+msgid "Zayin"
+msgstr "زين - الحرف السّابع للأبجدية العبريّة"
+
+msgid "Zazen"
+msgstr "زازن (التأمل البوذي)"
+
+msgid "Zea"
+msgstr "ذرة"
+
+msgid "Zeal"
+msgstr "الحماسة"
+
+msgid "Zealand"
+msgstr "زيلاند"
+
+msgid "Zealant"
+msgstr "المولع :: المتحمّس"
+
+msgid "Zealed"
+msgstr "تحمّس :: متحمّس"
+
+msgid "Zealot"
+msgstr "المتحمّس :: الزّيلوت :: المتعصّب :: الحماسة المفرطة :: تعصُّب"
+
+msgid "Zealotry"
+msgstr "الحماسة المفرطة :: التّعصّب"
+
+msgid "Zealots"
+msgstr "المتحمّسون :: المتعصّبون"
+
+msgid "Zealous"
+msgstr "متحمّس :: حماسيّ"
+
+msgid "Zealously"
+msgstr "بحماسة"
+
+msgid "Zealousness"
+msgstr "حماسة :: تحمّس"
+
+msgid "Zebec"
+msgstr "قارب شراعي"
+
+msgid "Zebedee"
+msgstr "في العهد الجديد، الصّيّاد الذي أصبح أبناءه جيمس و جون تلاميذ يسوع"
+
+msgid "Zebra"
+msgstr "العتابيّ :: حمار الزَّرَد :: الحمار الوحشيّ"
+
+msgid "Zebras"
+msgstr "حُمُر الزَّرَد :: الحُمُر الوحشيّة"
+
+msgid "Zebrine"
+msgstr "متعلق بالحمار الوحشي :: متعلّق بحمار الزَّرَدْ"
+
+msgid "Zebrule"
+msgstr "الهجين بين الحمار الوحشيّ الذّكريّ و الحصان الأنثوي"
+
+msgid "Zebu"
+msgstr "الدّربانيّ: حيوان ثديّ من الفصيلة البقريّة ذي سنام"
+
+msgid "Zebub"
+msgstr "ذبابة ضارّة كبيرة كما ذبابة تسي تسي"
+
+msgid "Zebulon"
+msgstr "زيبيولون - في الإنجيل، ابن يعقوب و ليا"
+
+msgid "Zebulun"
+msgstr "زيبيولون - في الإنجيل، ابن يعقوب و ليا"
+
+msgid "Zebus"
+msgstr "حيوانات الدّربانيّ: حيوانات ثديّة من الفصيلة البقريّة ذات سنام"
+
+msgid "Zechariah"
+msgstr "زكريا"
+
+msgid "Zechin"
+msgstr "قرص زخرفيّ لامع صغير، يخاط على القماش"
+
+msgid "Zed"
+msgstr "الحرف Z"
+
+msgid "Zee"
+msgstr "زي - الحرف السادس والعشرون في اللغة الإنجليزية"
+
+#, reached here
+msgid "Zeeb"
+msgstr "ذئب"
+
+msgid "Zeekoe"
+msgstr "فرس النّهر"
+
+msgid "Zeeman"
+msgstr "زيمان - فيزيائيّ هولنديّ"
+
+msgid "Zeffirelli"
+msgstr "زيفيريلي"
+
+msgid "Zehner"
+msgstr "زيهنر - عملة معدنيّة فضّيّة نمساويّة"
+
+msgid "Zeidae"
+msgstr "سمك الـ زيايدي"
+
+msgid "Zeigler"
+msgstr "مدينة زيجلر"
+
+msgid "Zein"
+msgstr "الزٍين - بروتين يأتى من الحبوب"
+
+msgid "Zeine"
+msgstr "الزٍين - بروتين يأتى من الحبوب"
+
+msgid "Zeism"
+msgstr "استعمال الذّرة الزّائد في الغذاء"
+
+msgid "Zeiss"
+msgstr "زييس"
+
+msgid "Zeitgeist"
+msgstr "روح العصر"
+
+msgid "Zell"
+msgstr "مدينة زيل"
+
+msgid "Zellerbach"
+msgstr "زيليرباتش"
+
+msgid "Zelotes"
+msgstr "متحمّس"
+
+msgid "Zemira"
+msgstr "الأغنية، الكرمة، النّخلة"
+
+msgid "Zemni"
+msgstr "زيمني - فأر الخلد الأعمى"
+
+msgid "Zen"
+msgstr "أحد المذاهب البوذيّة"
+
+msgid "Zena"
+msgstr "مدينة زينا"
+
+msgid "Zenana"
+msgstr "مكان مخصص لتجمّع النساء في المنزل"
+
+msgid "Zend"
+msgstr "لغة فارسية قديمة"
+
+msgid "Zend-avesta"
+msgstr "الكلام المقدّس للديانة الفارسية القديمة"
+
+msgid "Zenda"
+msgstr "مدينة زيندا"
+
+msgid "Zenik"
+msgstr "حيوان ثدييّ من جنوب أفريقيا"
+
+msgid "Zenith"
+msgstr "الأوج"
+
+msgid "Zenithal"
+msgstr "متعلق بالأوج"
+
+msgid "Zeniths"
+msgstr "الأوج"
+
+msgid "Zeno"
+msgstr "زينو - فيلسوف يونانيّ قديم "
+
+msgid "Zeolite"
+msgstr "الزٍيوليت - معدن من المعادن"
+
+msgid "Zeona"
+msgstr "مدينة زيونا"
+
+msgid "Zep"
+msgstr "سندويشة كبيرة"
+
+msgid "Zephaniah"
+msgstr "زيفانياه - نبيّ يهوديّ من القرن السّابع قبل الميلاد"
+
+msgid "Zepho"
+msgstr "المراقب، الملاحظ، برج المراقبة"
+
+msgid "Zephyr"
+msgstr "الرّيح الغربيّة"
+
+msgid "Zephyrhills"
+msgstr "مدينة زيفيرهيلس"
+
+msgid "Zephyrus"
+msgstr "الرياح الغربية"
+
+msgid "Zeppelin"
+msgstr "المنطاد"
+
+msgid "Zepto"
+msgstr "عشرة للأُس 21-"
+
+msgid "Zequin"
+msgstr "قرص زخرفيّ لامع صغير"
+
+msgid "Zer"
+msgstr "التّخبّط"
+
+msgid "Zerda"
+msgstr "الفنك - حيوان صغير إفريقيّ كما الثعلب"
+
+msgid "Zered"
+msgstr "شجيرة الصّفصاف"
+
+msgid "Zero"
+msgstr "الصّفر"
+
+msgid "Zeroed"
+msgstr "صفّر"
+
+msgid "Zeroes"
+msgstr "الأصفار"
+
+msgid "Zerofill"
+msgstr "ملء بالأصفار"
+
+msgid "Zerohour"
+msgstr "ساعة الصّفر"
+
+msgid "Zeroing"
+msgstr "التّصفير"
+
+msgid "Zeroize"
+msgstr "ملء بالأصفار"
+
+msgid "Zeros"
+msgstr "الأصفار"
+
+msgid "Zeroth"
+msgstr "الصفر"
+
+msgid "Zerubbabel"
+msgstr "زيربابل - الشّخصيّة الإنجيليّة المهمّة في كتاب عيزرا"
+
+msgid "Zest"
+msgstr "الحماس"
+
+msgid "Zested"
+msgstr "قطّع، عَصَرَ، طيّب، أعطى نكهة"
+
+msgid "Zestful"
+msgstr "مرح"
+
+msgid "Zestfully"
+msgstr "بمرح"
+
+msgid "Zestfulness"
+msgstr "الإمتاع"
+
+msgid "Zestfulnesses"
+msgstr "ممتع"
+
+msgid "Zestier"
+msgstr "حرّيف"
+
+msgid "Zesting"
+msgstr "يعطى نكهة"
+
+msgid "Zestril"
+msgstr "زيستريل - دواء لتخفيض ضغط الدم"
+
+msgid "Zests"
+msgstr "متع"
+
+msgid "Zesty"
+msgstr "حرّيف"
+
+msgid "Zeta"
+msgstr "الزٍيتا"
+
+msgid "Zetas"
+msgstr "زيتا"
+
+msgid "Zetetic"
+msgstr "شكّاك"
+
+msgid "Zetetics"
+msgstr "فرع من فروع الجبر"
+
+msgid "Zetta"
+msgstr "عشرة للأُس 21"
+
+msgid "Zettabyte"
+msgstr "الف مليون مليون مليون بيت - مختص بعلوم الكمبيوتر"
+
+msgid "Zeugma"
+msgstr "إستخدام الكلمة في موقعين كأن تقول اخذ سليمان كتابه وإجازة من العمل"
+
+msgid "Zeus"
+msgstr "زوس"
+
+msgid "Zeuzera"
+msgstr "زيزيرا - نوع من الفراشات"
+
+msgid "Zia"
+msgstr "الخوف"
+
+msgid "Zibet"
+msgstr "زيبيت - نوع من القطط"
+
+msgid "Zibeth"
+msgstr "زيبيت - نوع من القطط"
+
+msgid "Zidon"
+msgstr "مدينة صيدا اللبنانية، الاصطياد، صيد السّمك، لحم الغزال"
+
+msgid "Ziegfeld"
+msgstr "زيجفيلد"
+
+msgid "Ziegler"
+msgstr "زيجلر"
+
+msgid "Zif"
+msgstr "زيف - الشّهر الثّاني من السنة الكنائسيّة اليهوديّة"
+
+msgid "Zig"
+msgstr "منعرج"
+
+msgid "Zig-zag"
+msgstr "التّعرّج"
+
+msgid "Zigged"
+msgstr "متعرّج"
+
+msgid "Zigging"
+msgstr "تعريج"
+
+msgid "Zigzag"
+msgstr "متعرّج"
+
+msgid "Zigzagged"
+msgstr "تعرّج"
+
+msgid "Zigzaggery"
+msgstr "التّعرّج"
+
+msgid "Zigzagging"
+msgstr "التّعرّج"
+
+msgid "Zigzags"
+msgstr "التّعرّجات"
+
+msgid "Ziklag"
+msgstr "مدينة زيكلاج"
+
+msgid "Zil"
+msgstr "زيل - لغة برمجيّة"
+
+msgid "Zilch"
+msgstr "اللّاشيء"
+
+msgid "Zill"
+msgstr "أجراس موسيقية تستعملها الرّاقصات الشرقيات"
+
+msgid "Zilla"
+msgstr "نبات الـ زيلّا"
+
+msgid "Zillah"
+msgstr "الإقليم"
+
+msgid "Zillion"
+msgstr "العدد الغير معروف والكبير جدًّا"
+
+msgid "Zillions"
+msgstr "الأعداد الغير معروفة والكبيرة جدًّا"
+
+msgid "Zilog"
+msgstr "زيلوج - شركة منتجة لمعالجات مركزية"
+
+msgid "Zim"
+msgstr "مدينة زيم"
+
+msgid "Zimb"
+msgstr "زيم - ذبابة كبيرة وسامة"
+
+msgid "Zimbabwe"
+msgstr "زيمبابوي"
+
+msgid "Zimbabwean"
+msgstr "مواطن من زيمبابواي"
+
+msgid "Zimmerman"
+msgstr "زيميرمان"
+
+msgid "Zin"
+msgstr "زين - مركّب كيميائي"
+
+msgid "Zina"
+msgstr "زينة"
+
+msgid "Zinc"
+msgstr "الزّنك"
+
+msgid "Zinced"
+msgstr "زنكيّ"
+
+msgid "Zinciferous"
+msgstr "يحتوي على مادة الزنك"
+
+msgid "Zincing"
+msgstr "الطﻻء بالزّنك"
+
+msgid "Zincite"
+msgstr "أكسيد الزّنك الأصليّ"
+
+msgid "Zincky"
+msgstr "متعلق بالزنك"
+
+msgid "Zincode"
+msgstr "قطب الأنود او القطب الموجب"
+
+msgid "Zincoid"
+msgstr "متعلق بالزنك او يشبه الزنك"
+
+msgid "Zincous"
+msgstr "متعلق بالزنك او يشبه الزنك"
+
+msgid "Zincs"
+msgstr "الزّنك"
+
+msgid "Zinfandel"
+msgstr "عنب كاليفورنيا"
+
+msgid "Zing"
+msgstr "الحيويّة"
+
+msgid "Zingaro"
+msgstr "الغجري"
+
+msgid "Zinged"
+msgstr "أزّ"
+
+msgid "Zinger"
+msgstr "القفشة"
+
+msgid "Zingiber"
+msgstr "نبات الزّنجبيل"
+
+msgid "Zinging"
+msgstr "الأزّ"
+
+msgid "Zings"
+msgstr "الحيويّ"
+
+msgid "Zink"
+msgstr "عنصر الزّنك"
+
+msgid "Zinky"
+msgstr "متعلق بالزنك او يشبه الزنك"
+
+msgid "Zinnia"
+msgstr "نبات الزينية"
+
+msgid "Zion"
+msgstr "صهيون"
+
+msgid "Zionism"
+msgstr "الصّهيونيّة"
+
+msgid "Zionist"
+msgstr "الصّهيونيّ"
+
+msgid "Zionists"
+msgstr "الصّهاينة"
+
+msgid "Zions"
+msgstr "ألصهيونيون"
+
+msgid "Zior"
+msgstr "مدينة زيور"
+
+msgid "Zip"
+msgstr "الكود البريديّ"
+
+msgid "Zip-code"
+msgstr "الرّمز البريديّ"
+
+msgid "Zipcode"
+msgstr "الرّمز البريديّ"
+
+msgid "Zipped"
+msgstr "فتح سوستة"
+
+msgid "Zipper"
+msgstr "السّوستة"
+
+msgid "Zippered"
+msgstr "انغلق"
+
+msgid "Zipperhead"
+msgstr "ضيّق الأفق"
+
+msgid "Zippers"
+msgstr "السّوستة"
+
+msgid "Zippier"
+msgstr "أنشط"
+
+msgid "Zippiest"
+msgstr "الأنشط"
+
+msgid "Zipping"
+msgstr "فتح سوستة"
+
+msgid "Zippor"
+msgstr "الطّائر، العصفور، التّاج، الصّحراء"
+
+msgid "Zippy"
+msgstr "نشيط"
+
+msgid "Zips"
+msgstr "الكود البريديّة"
+
+msgid "Zircon"
+msgstr "الزركون"
+
+msgid "Zirconate"
+msgstr "الزركونات - ملح حمض زركوني"
+
+msgid "Zirconia"
+msgstr "أكسيد الزّركونيوم - أوكسيد شفّاف أبيض"
+
+msgid "Zirconic"
+msgstr "التّعلّق بـ ،احتواء أو مشابهة الزركونيوم"
+
+msgid "Zirconium"
+msgstr "الزركونيوم"
+
+msgid "Zisel"
+msgstr "حيوان كما السّنجاب"
+
+msgid "Zither"
+msgstr "آلة القانون الموسيقية"
+
+msgid "Zithern"
+msgstr "آلة القانون الموسيقية"
+
+msgid "Zithers"
+msgstr "القوانين"
+
+msgid "Ziti"
+msgstr "نوع من أنواع المكرونة"
+
+msgid "Zittern"
+msgstr "قيثارة من القرن السادس عشر"
+
+msgid "Ziz"
+msgstr "الزّهرة، الفرع، خصلة شعر"
+
+msgid "Zizel"
+msgstr "حيوان كما السّنجاب"
+
+msgid "Zizith"
+msgstr "6133 من الخيوط التي ترمز إلى ال613 وصية في الإنجيل العبريّ"
+
+msgid "Zloty"
+msgstr "الزلوتي"
+
+msgid "Zlotys"
+msgstr "الزلوتي"
+
+msgid "Zn"
+msgstr "عنصر الزّنك"
+
+msgid "Zoa"
+msgstr "الحيوانات"
+
+msgid "Zoan"
+msgstr "الحركة"
+
+msgid "Zoar"
+msgstr "مدينة زور"
+
+msgid "Zobo"
+msgstr "زوبو - نوع من الماشية المحلّيّة في آسيا"
+
+msgid "Zocco"
+msgstr "القاعدة - كما قاعدة الجدار"
+
+msgid "Zoccolo"
+msgstr "القاعدة - كما قاعدة الجدار"
+
+msgid "Zocle"
+msgstr "القاعدة - كما قاعدة الجدار"
+
+msgid "Zodiac"
+msgstr "منطقة البروج"
+
+msgid "Zodiacal"
+msgstr "فلكيّ"
+
+msgid "Zodiacs"
+msgstr "مناطق البروج"
+
+msgid "Zoe"
+msgstr "زوي"
+
+msgid "Zoetrope"
+msgstr "زويتروب - لعبة بصريّة حيث تقوم الأشكال في الدّوران في داخلها"
+
+msgid "Zoftig"
+msgstr "بدين نوعاً ما"
+
+msgid "Zog"
+msgstr "الملك زوج - سياسيّ ألبانيّ"
+
+msgid "Zohar"
+msgstr "كتاب مقدّس يهوديّ"
+
+msgid "Zoic"
+msgstr "متعلق بعالم الحيوان"
+
+msgid "Zoilean"
+msgstr "كما النّاقد زويلس-  ناقد ظالم وحاسد"
+
+msgid "Zoilism"
+msgstr "النّقد المتّذمّر،  الإقلال"
+
+msgid "Zoisite"
+msgstr "الزوسيت - معدن أبيض أو ضارب إلى الرّماديّ"
+
+msgid "Zokor"
+msgstr "زوكور - حيوان قارض"
+
+msgid "Zola"
+msgstr "زولا - روائيّ و ناقد فرنسيّ"
+
+msgid "Zollverein"
+msgstr "إتحاد جمركي"
+
+msgid "Zomba"
+msgstr "زومبا"
+
+msgid "Zombi"
+msgstr "الجثّة التي قد أُعِيدَتْ إلى الحياة بقوّة خارقة للطّبيعة"
+
+msgid "Zombie"
+msgstr "الكسول"
+
+msgid "Zombies"
+msgstr "الكسالى"
+
+msgid "Zona"
+msgstr "منطقة، شريحة، فرقة موسيقية"
+
+msgid "Zonae"
+msgstr "منطقة، شريحة، فرقة موسيقية"
+
+msgid "Zonal"
+msgstr "إقليميّ"
+
+msgid "Zonally"
+msgstr "في حدود منطقة"
+
+msgid "Zonar"
+msgstr "حزام لبسه المسيحيّون واليهود لتمييزهم عن المسلمين"
+
+msgid "Zonary"
+msgstr "التّعلّق بـ أو من طبيعة المنطقة"
+
+msgid "Zonate"
+msgstr "مقسّم عبر خطوط متوازية"
+
+msgid "Zone"
+msgstr "المنطقة"
+
+msgid "Zoned"
+msgstr "مشوّش"
+
+msgid "Zoner"
+msgstr "يحيط بمنطقة"
+
+msgid "Zones"
+msgstr "المناطق"
+
+msgid "Zoning"
+msgstr "التّقسيم"
+
+msgid "Zonnar"
+msgstr "حزام لبسه المسيحيّون واليهود لتمييزهم عن المسلمين"
+
+msgid "Zonular"
+msgstr "منطقة"
+
+msgid "Zonule"
+msgstr "منطقة صغيرة"
+
+msgid "Zonulet"
+msgstr "منطقة صغيرة"
+
+msgid "Zoo"
+msgstr "حديقة الحيوان"
+
+msgid "Zoo-"
+msgstr "كلمة سابقة وتعني التعلق بالحيوانات"
+
+msgid "Zooerastia"
+msgstr "النشاط الجنسي بين الإنسان والحيوان"
+
+msgid "Zooerasty"
+msgstr "النشاط الجنسي بين الإنسان والحيوان"
+
+msgid "Zoogeography"
+msgstr "دراسة التوزيع الجغرافي للحيوانات"
+
+msgid "Zoographer"
+msgstr "المختص في وصف الحيوانات، أشكالهم و عاداتهم"
+
+msgid "Zoography"
+msgstr "وصف الحيوانات، أشكالهم و عاداتهم"
+
+msgid "Zooid"
+msgstr "خليّة حية مستقلّة عن الكائن الحي في داخله"
+
+msgid "Zook"
+msgstr "زوك"
+
+msgid "Zooks"
+msgstr "قسم كاذب"
+
+msgid "Zool"
+msgstr "علم الحيوان"
+
+msgid "Zoolatry"
+msgstr "عبادة الحيوان"
+
+msgid "Zoological"
+msgstr "حيوانيّ"
+
+msgid "Zoologically"
+msgstr "طبقًا لعلم الحيوان"
+
+msgid "Zoologist"
+msgstr "العالم الحيوانيّ"
+
+msgid "Zoologists"
+msgstr "العلماء الحيوانيّون"
+
+msgid "Zoology"
+msgstr "علم الحيوان"
+
+msgid "Zoom"
+msgstr "الأزيز"
+
+msgid "Zoomed"
+msgstr "أسرع"
+
+msgid "Zooming"
+msgstr "الإسراع"
+
+msgid "Zoomorphic"
+msgstr "متعلق بتأليه الحيوان"
+
+msgid "Zoomorphism"
+msgstr "تأليه الحيوان"
+
+msgid "Zooms"
+msgstr "الأزيز"
+
+msgid "Zoon"
+msgstr "الحيوان الناتج عن البيضة المخصّبة"
+
+msgid "Zoonosis"
+msgstr "المرض الحيواني القابل للإنتقال للبشر"
+
+msgid "Zoophagous"
+msgstr "آكل للّحوم"
+
+msgid "Zoophily"
+msgstr "حب الحيوانات"
+
+msgid "Zoophite"
+msgstr "الحيوانات الفقارية التي تشبه النبات"
+
+msgid "Zoophobia"
+msgstr "الخوف من الحيوانات"
+
+msgid "Zoophyte"
+msgstr "الزوفيت"
+
+msgid "Zoophytes"
+msgstr "الزوفيت"
+
+msgid "Zooplankton"
+msgstr "الحيوانات البلانكتونية"
+
+msgid "Zoos"
+msgstr "حدائق الحيوان"
+
+msgid "Zoot"
+msgstr "فاخر"
+
+msgid "Zootic"
+msgstr "مرتّب، منظّم"
+
+msgid "Zootomy"
+msgstr "تشريح الحيوانات"
+
+msgid "Zoozoo"
+msgstr "زووزو - نوع من الحمام"
+
+msgid "Zopl"
+msgstr "زوبل - لغة برمجيّة"
+
+msgid "Zori"
+msgstr "نعال"
+
+msgid "Zoril"
+msgstr "زوريل - حيوان ثدييّ إفريقيّ آكل للّحوم"
+
+msgid "Zorilla"
+msgstr "نوع من الثعالب"
+
+msgid "Zorille"
+msgstr "زوريل - حيوان ثدييّ إفريقيّ آكل للّحوم"
+
+msgid "Zork"
+msgstr "زورك - أحد العاب الكومبيوتر"
+
+msgid "Zorn"
+msgstr "غضب مفرط"
+
+msgid "Zoroaster"
+msgstr "زرادشت"
+
+msgid "Zoroastrian"
+msgstr "زرادشتي"
+
+msgid "Zoroastrianism"
+msgstr "الدّيانة الفارسيّة القديمة"
+
+msgid "Zoroastrians"
+msgstr "زرادشتي"
+
+msgid "Zorobabel"
+msgstr "زوروبابل - حفيد للملك جيهوياتشين"
+
+msgid "Zoster"
+msgstr "الحزام اليوناني القديم"
+
+msgid "Zostera"
+msgstr "نبات الـ زوستيرا"
+
+msgid "Zouave"
+msgstr "جنديّ المشاة الجزائريّ في وحدة جيش فرنسيّة"
+
+msgid "Zounds"
+msgstr "الغضب"
+
+msgid "Zovirax"
+msgstr "زوفيراكس - دواء مضادّ للفيروس"
+
+msgid "Zoysia"
+msgstr "أعشاب الـ زويسيا"
+
+msgid "Zr"
+msgstr "عنصر الزركون"
+
+msgid "Zsh"
+msgstr "مترجم للأوامر في نظام تشغيل يونكس"
+
+msgid "Zu"
+msgstr "العاصفة الشّرّيرة"
+
+msgid "Zubird"
+msgstr "العاصفة الشّرّيرة"
+
+msgid "Zubr"
+msgstr "الثّور"
+
+msgid "Zucchini"
+msgstr "القرع"
+
+msgid "Zucchinis"
+msgstr "القرع"
+
+msgid "Zuche"
+msgstr "جذع الشجرة"
+
+msgid "Zuchetto"
+msgstr "الطّاقيّة التي تغطّي الشّعر"
+
+msgid "Zug"
+msgstr "زوج - عاصمة الإقليم السّويسريّ زوج"
+
+msgid "Zulu"
+msgstr "قوم الـ زولو المتواجدون في جنوب أفريقيا"
+
+msgid "Zulus"
+msgstr "زولو"
+
+msgid "Zum"
+msgstr "حركة وحدة بزيمبابوي"
+
+msgid "Zumbooruk"
+msgstr "مدفع صغير"
+
+msgid "Zuni"
+msgstr "مواطن من غرب المكسيك"
+
+msgid "Zur"
+msgstr "الملك زر"
+
+msgid "Zurich"
+msgstr "زيوريخ"
+
+msgid "Zuse"
+msgstr "زوس - مهندس ألمانيّ"
+
+msgid "Zwieback"
+msgstr "الخبز"
+
+msgid "Zwinglian"
+msgstr "متعلقة بحياة ومذهب السويسري زوينجلي"
+
+msgid "Zygo"
+msgstr "زوج"
+
+msgid "Zygodactyl"
+msgstr "متعلقة بأرجل الطيور"
+
+msgid "Zygomatic"
+msgstr "وجني"
+
+msgid "Zygomorphic"
+msgstr "قابل للإنقسام لنصفين متساويين"
+
+msgid "Zygomycetes"
+msgstr "من أنواع الفطريات"
+
+msgid "Zygomycota"
+msgstr "من أنواع الفطريات"
+
+msgid "Zygophyllum"
+msgstr "شجيرة موسمية"
+
+msgid "Zygosis"
+msgstr "الاقتران"
+
+msgid "Zygote"
+msgstr "الخليّة الملقّحة"
+
+msgid "Zyloprim"
+msgstr "زيلوبريم - دواء لمعالجة الحمضية في الجسم"
+
+msgid "Zymase"
+msgstr "زيماس - مركّب أنزيمي"
+
+msgid "Zyme"
+msgstr "الهياج من يهيج"
+
+msgid "Zymic"
+msgstr "متعلق بالهياج"
+
+msgid "Zymogenic"
+msgstr "مخمّر"
+
+msgid "Zymolysis"
+msgstr "الأنزيميّة - تفتيت المركبّات الى مواد بسيطة"
+
+msgid "Zymosis"
+msgstr "تطوّر وانتشار المرض المعدي"
+
+msgid "Zymotic"
+msgstr "متعلق بـ او مسبب للإلتهاب او التّخمّر"
+
+msgid "Zymurgy"
+msgstr "كيمياء التخمّر"
+
+msgid "Zythem"
+msgstr "نوع لمشروب كحولي قديم"
+
+msgid "Zythum"
+msgstr "نوع لمشروب كحولي قديم"
+

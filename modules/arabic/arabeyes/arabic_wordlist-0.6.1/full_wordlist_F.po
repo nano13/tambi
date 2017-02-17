@@ -1,0 +1,11228 @@
+# translation of full_wordlist_F.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_F.po,v 1.26 2004/03/04 15:33:54 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'F'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_F\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"PO-Revision-Date: 2004-03-04 18:30+0300\n"
+
+msgid "F"
+msgstr "اف - الحرف السادس في اللغة الإنجليزية"
+
+msgid "FAA"
+msgstr "مكتب الطّيران الفدرالي"
+
+msgid "Faber"
+msgstr "فيبر"
+
+msgid "Fabian"
+msgstr "فابي"
+
+msgid "Fable"
+msgstr "الخرافة"
+
+msgid "Fabled"
+msgstr "إسطوري"
+
+msgid "Fabler"
+msgstr "كاتب القصّة الرّمزيّة"
+
+msgid "Fables"
+msgstr "الخرافات"
+
+msgid "Fabling"
+msgstr "التأليف الرمزي"
+
+msgid "Fabric"
+msgstr "النسيج"
+
+msgid "Fabricate"
+msgstr "إصنع"
+
+msgid "Fabricated"
+msgstr "مصطنع"
+
+msgid "Fabricates"
+msgstr "يصنع"
+
+msgid "Fabricating"
+msgstr "الصناعة"
+
+msgid "Fabrication"
+msgstr "التلفيق"
+
+msgid "Fabrications"
+msgstr "الإفتراءات"
+
+msgid "Fabricator"
+msgstr "المفتري"
+
+msgid "Fabrics"
+msgstr "الأنسجة"
+
+msgid "Fabulous"
+msgstr "رائع"
+
+msgid "Fabulously"
+msgstr "بشكل رائع"
+
+msgid "Fabulousness"
+msgstr "الروعة"
+
+msgid "Facade"
+msgstr "الواجهة"
+
+msgid "Facades"
+msgstr "الواجهات"
+
+msgid "Face"
+msgstr "الوجه"
+
+msgid "Faced"
+msgstr "ووجه"
+
+msgid "Faceless"
+msgstr "مجهول"
+
+msgid "Facelessness"
+msgstr "الجهل"
+
+msgid "Faceplate"
+msgstr "غطاء حماية"
+
+msgid "Facer"
+msgstr "الصفعة"
+
+msgid "Faces"
+msgstr "الوجوه"
+
+msgid "Facet"
+msgstr "المظهر"
+
+msgid "Faceted"
+msgstr "منحوت"
+
+msgid "Faceting"
+msgstr "النّحت"
+
+msgid "Facetious"
+msgstr "طريف"
+
+msgid "Facetiously"
+msgstr "بشكل طريف"
+
+msgid "Facetiousness"
+msgstr "الطرافة"
+
+msgid "Facets"
+msgstr "المظاهر"
+
+msgid "Facial"
+msgstr "تجميل الوجه"
+
+msgid "Facially"
+msgstr "وجهيا"
+
+msgid "Facile"
+msgstr "سهل"
+
+msgid "Facilely"
+msgstr "بشكل سهل"
+
+msgid "Facileness"
+msgstr "سهولة الإنجاز"
+
+msgid "Facilitate"
+msgstr "سهّل"
+
+msgid "Facilitated"
+msgstr "مسهّل"
+
+msgid "Facilitates"
+msgstr "يسهّل"
+
+msgid "Facilitating"
+msgstr "التسهيل"
+
+msgid "Facilitation"
+msgstr "التسهيل"
+
+msgid "Facilitative"
+msgstr "تسهيلي"
+
+msgid "Facilitators"
+msgstr "المسهلات"
+
+msgid "Facilitatory"
+msgstr "الوساطة"
+
+msgid "Facilities"
+msgstr "الوسائل"
+
+msgid "Facility"
+msgstr "الوسيلة"
+
+msgid "Facing"
+msgstr "المواجهة"
+
+msgid "Facings"
+msgstr "الأغطية"
+
+msgid "FACSIMILE"
+msgstr "النسخة"
+
+msgid "Facsimiles"
+msgstr "النسخ"
+
+msgid "Fact"
+msgstr "الحقيقة"
+
+msgid "Faction"
+msgstr "الفئة"
+
+msgid "Factional"
+msgstr "فئوي"
+
+msgid "Factionalism"
+msgstr "الفئوية"
+
+msgid "Factions"
+msgstr "الفئات"
+
+msgid "Factious"
+msgstr "فئوي"
+
+msgid "Factiously"
+msgstr "بشكل فئوي"
+
+msgid "Factiousness"
+msgstr "الفئوية"
+
+msgid "Factitiously"
+msgstr "بشكل مصطنع"
+
+msgid "Facto"
+msgstr "فاكتو"
+
+msgid "Factor"
+msgstr "العامل"
+
+msgid "Factored"
+msgstr "محلّل"
+
+msgid "Factorial"
+msgstr "المضروب"
+
+msgid "Factories"
+msgstr "المصانع"
+
+msgid "Factoring"
+msgstr "بيع الديون"
+
+msgid "Factorings"
+msgstr "بيع الديون"
+
+msgid "Factorization"
+msgstr "التحليل للعوامل"
+
+msgid "Factorizations"
+msgstr "التحليل للعوامل"
+
+msgid "Factors"
+msgstr "العوامل"
+
+msgid "Factory"
+msgstr "المصنع"
+
+msgid "Factotum"
+msgstr "الخادم"
+
+msgid "Facts"
+msgstr "الحقائق"
+
+msgid "Factual"
+msgstr "واقعي"
+
+msgid "Factuality"
+msgstr "الحقيقية"
+
+msgid "Factually"
+msgstr "بشكل واقعي"
+
+msgid "Factualness"
+msgstr "الواقعيّة"
+
+msgid "Facultative"
+msgstr "إختياري"
+
+msgid "Faculties"
+msgstr "الكليّات"
+
+msgid "Faculty"
+msgstr "الكليّة"
+
+msgid "Fad"
+msgstr "البدعة"
+
+msgid "Faddists"
+msgstr "الإبتداعيون"
+
+msgid "Fade"
+msgstr "إبهت"
+
+msgid "Faded"
+msgstr "مبهوت"
+
+msgid "Fadedly"
+msgstr "بتضاءل"
+
+msgid "Fadeout"
+msgstr "الاختفاء التّدريجيّ"
+
+msgid "Fader"
+msgstr "ترويسة"
+
+msgid "Faders"
+msgstr "المخفون تدريجياً"
+
+msgid "Fades"
+msgstr "يبهت"
+
+msgid "Fading"
+msgstr "البهت"
+
+msgid "Fadings"
+msgstr "الإبتعاد، التضاؤلات"
+
+msgid "Fads"
+msgstr "البدع"
+
+msgid "Faecal"
+msgstr "برازي"
+
+msgid "Faeces"
+msgstr "الغائط"
+
+msgid "Faerie"
+msgstr "الجن"
+
+msgid "Faery"
+msgstr "الجن"
+
+msgid "Fafnir"
+msgstr "فافنر - تنّين"
+
+msgid "Fag"
+msgstr "الفقير"
+
+msgid "Fagged"
+msgstr "كادح"
+
+msgid "Fagging"
+msgstr "الكدح"
+
+msgid "Faggot"
+msgstr "حزمة الحطب"
+
+msgid "Faggots"
+msgstr "حزم الحطب"
+
+msgid "Fagin"
+msgstr "شخصية اليهودي في رواية \"أوليفر تويست\""
+
+msgid "Fagot"
+msgstr "الحزمة"
+
+msgid "Fagots"
+msgstr "الحزم"
+
+msgid "Fags"
+msgstr "الفقراء"
+
+msgid "Fahey"
+msgstr "فاهي"
+
+msgid "Fahrenheit"
+msgstr "الدرجة الفهرنهايتية"
+
+msgid "Fahrenheits"
+msgstr "الدرجة الفهرنهايتية"
+
+msgid "Fail"
+msgstr "الفشل"
+
+msgid "Failed"
+msgstr "فاشل"
+
+msgid "Failing"
+msgstr "العيب"
+
+msgid "Failingly"
+msgstr "بشكل فاشل"
+
+msgid "Failings"
+msgstr "العيوب"
+
+msgid "Fails"
+msgstr "التقصيرات"
+
+msgid "Failsafe"
+msgstr "الضمان"
+
+msgid "Failure"
+msgstr "الفشل"
+
+msgid "Failure-free"
+msgstr "خالي من فشل"
+
+msgid "Failures"
+msgstr "حالات الفشل"
+
+msgid "Fain"
+msgstr "مسرور"
+
+msgid "Faint"
+msgstr "الإغماء"
+
+msgid "Fainted"
+msgstr "مغيب عن الوعي"
+
+msgid "Fainter"
+msgstr "أضعف"
+
+msgid "Faintest"
+msgstr "أضعف"
+
+msgid "Faintheart"
+msgstr "الجبان"
+
+msgid "Fainthearted"
+msgstr "جبان"
+
+msgid "Faintheartedly"
+msgstr "بجبن"
+
+msgid "Faintheartedness"
+msgstr "الجبن"
+
+msgid "Fainting"
+msgstr "الإغماء"
+
+msgid "Faintly"
+msgstr "بضعف"
+
+msgid "Faintness"
+msgstr "الضعف"
+
+msgid "Faints"
+msgstr "النحيلون"
+
+msgid "Fair"
+msgstr "المعرض"
+
+msgid "Fair-minded"
+msgstr "عادل"
+
+msgid "Fairbanks"
+msgstr "فيربانكس"
+
+msgid "Fairchild"
+msgstr "فيرتشايلد"
+
+msgid "Faire"
+msgstr "فير"
+
+msgid "Faired"
+msgstr "فيريد"
+
+msgid "Fairer"
+msgstr "أعدل"
+
+msgid "Fairest"
+msgstr "أعدل"
+
+msgid "Fairfax"
+msgstr "فيرفاكس"
+
+msgid "Fairfield"
+msgstr "فيرفيلد"
+
+msgid "Fairground"
+msgstr "ساحة الألعاب"
+
+msgid "Fairgrounds"
+msgstr "ساحات الألعاب"
+
+msgid "Fairies"
+msgstr "الجنّيات"
+
+msgid "Fairing"
+msgstr "هديّة"
+
+msgid "Fairish"
+msgstr "تقريبا معرض"
+
+msgid "Fairly"
+msgstr "بانصاف"
+
+msgid "Fairmont"
+msgstr "فيرمونت"
+
+msgid "Fairness"
+msgstr "الإنصاف"
+
+msgid "Fairport"
+msgstr "فيربورت"
+
+msgid "Fairs"
+msgstr "المعارض"
+
+msgid "Fairview"
+msgstr "فيرفيو"
+
+msgid "Fairway"
+msgstr "الممرّ السّالك"
+
+msgid "Fairways"
+msgstr "الممرات السالكة"
+
+msgid "Fairy"
+msgstr "الجنيّة"
+
+msgid "Fairy-tale"
+msgstr "قصّة الحواري"
+
+msgid "Fairyland"
+msgstr "دنيا الخيال"
+
+msgid "Fairylike"
+msgstr "حوري"
+
+msgid "Faith"
+msgstr "الإيمان"
+
+msgid "Faithful"
+msgstr "مخلص"
+
+msgid "Faithfully"
+msgstr "بإخلاص"
+
+msgid "Faithfulness"
+msgstr "الإخلاص"
+
+msgid "Faithfuls"
+msgstr "المؤمنون"
+
+msgid "Faithless"
+msgstr "كافر"
+
+msgid "Faithlessly"
+msgstr "بشكل كافر"
+
+msgid "Faithlessness"
+msgstr "الجحود"
+
+msgid "Faiths"
+msgstr "المعتقدات"
+
+msgid "Fake"
+msgstr "مزيف"
+
+msgid "Faked"
+msgstr "مزيّف"
+
+msgid "Faker"
+msgstr "الملفّق"
+
+msgid "Fakers"
+msgstr "الملفّقون"
+
+msgid "Fakery"
+msgstr "التّزييف"
+
+msgid "Fakes"
+msgstr "المزيّفون"
+
+msgid "Faking"
+msgstr "التزييف"
+
+msgid "Fakir"
+msgstr "الفقير"
+
+msgid "Fakirs"
+msgstr "الفقراء"
+
+msgid "Falafel"
+msgstr "الفلافل"
+
+msgid "Falcon"
+msgstr "الصقر"
+
+msgid "Falconer"
+msgstr "صياد الصقور"
+
+msgid "Falconers"
+msgstr "صيادي الصقور"
+
+msgid "Falconry"
+msgstr "صيد الصقور"
+
+msgid "Falcons"
+msgstr "الصقور"
+
+msgid "Falk"
+msgstr "فالك"
+
+msgid "Fall"
+msgstr "السقوط"
+
+msgid "Fallacies"
+msgstr "المغالطات"
+
+msgid "Fallacious"
+msgstr "باطل"
+
+msgid "Fallaciously"
+msgstr "بشكل باطل"
+
+msgid "Fallaciousness"
+msgstr "التّضليل"
+
+msgid "Fallacy"
+msgstr "المغالطة"
+
+msgid "Fallback"
+msgstr "الإحتياطي"
+
+msgid "Fallen"
+msgstr "ساقط"
+
+msgid "Faller"
+msgstr "الساقط"
+
+msgid "Fallibility"
+msgstr "قابلية الخطأ"
+
+msgid "Fallible"
+msgstr "غير معصوم"
+
+msgid "Fallibleness"
+msgstr "العرضة لإرتكاب الأخطاء"
+
+msgid "Fallibly"
+msgstr "بتعرّض للخطر"
+
+msgid "Falling"
+msgstr "السقوط"
+
+msgid "Falloff"
+msgstr "النّقص"
+
+msgid "Fallout"
+msgstr "النتيجة العرضية"
+
+msgid "Fallouts"
+msgstr "النتائج العرضية"
+
+msgid "Fallow"
+msgstr "الأرض المحروثة"
+
+msgid "Fallowness"
+msgstr "ترك الأرض بعد حرثها"
+
+msgid "Falls"
+msgstr "الإنهيارات"
+
+msgid "Falmouth"
+msgstr "فالماوث"
+
+msgid "False"
+msgstr "خاطئ"
+
+msgid "Falsehood"
+msgstr "البطلان"
+
+msgid "Falsehoods"
+msgstr "البطلان"
+
+msgid "Falsely"
+msgstr "بشكل خاطئ"
+
+msgid "Falseness"
+msgstr "الزور"
+
+msgid "Falser"
+msgstr "خاطئ"
+
+msgid "Falsest"
+msgstr "خاطئ"
+
+msgid "Falsetto"
+msgstr "صوت عالي الطبقة"
+
+msgid "Falsification"
+msgstr "التزييف"
+
+msgid "Falsifications"
+msgstr "التزييف"
+
+msgid "Falsified"
+msgstr "مزيّف"
+
+msgid "Falsifier"
+msgstr "المزيّف"
+
+msgid "Falsifiers"
+msgstr "المزيّفون"
+
+msgid "Falsifies"
+msgstr "يزيّف"
+
+msgid "Falsify"
+msgstr "زيّف"
+
+msgid "Falsifying"
+msgstr "التزييف"
+
+msgid "Falsities"
+msgstr "التزييف"
+
+msgid "Falsity"
+msgstr "الزيف"
+
+msgid "Falstaff"
+msgstr "فالستاف - شخصيّة ماجنة في مسرحيّات شكسبير"
+
+msgid "Falter"
+msgstr "تعثّر"
+
+msgid "Faltered"
+msgstr "تعثّر"
+
+msgid "Falterer"
+msgstr "فالترير"
+
+msgid "Faltering"
+msgstr "التعثّر"
+
+msgid "Falteringly"
+msgstr "بتردّد"
+
+msgid "Falters"
+msgstr "يتعثّر"
+
+msgid "Fame"
+msgstr "الشهرة"
+
+msgid "Famed"
+msgstr "مشهور"
+
+msgid "Fameless"
+msgstr "مغمور"
+
+msgid "Fames"
+msgstr "الشهرةشهرة"
+
+msgid "Familial"
+msgstr "عائلي"
+
+msgid "Familiar"
+msgstr "مألوف"
+
+msgid "Familiarities"
+msgstr "التآلفات"
+
+msgid "Familiarity"
+msgstr "الألفة"
+
+msgid "Familiarization"
+msgstr "التآلف"
+
+msgid "Familiarizations"
+msgstr "التآلف"
+
+msgid "Familiarize"
+msgstr "لف"
+
+msgid "Familiarized"
+msgstr "مألوف"
+
+msgid "Familiarizer"
+msgstr "المعرّف"
+
+msgid "Familiarizes"
+msgstr "يآلف"
+
+msgid "Familiarizing"
+msgstr "المؤالفة"
+
+msgid "Familiarly"
+msgstr "بطريقة حميمة"
+
+msgid "Familiarness"
+msgstr "المعرفة"
+
+msgid "Familiars"
+msgstr "الرّفاق، الأصدقاء"
+
+msgid "Families"
+msgstr "العوائل"
+
+msgid "Familism"
+msgstr "عقيدة المللة \"فاميلي\""
+
+msgid "Familiy"
+msgstr "فاملي"
+
+msgid "Family"
+msgstr "العائلة"
+
+msgid "Famine"
+msgstr "المجاعة"
+
+msgid "Famines"
+msgstr "المجاعات"
+
+msgid "Faming"
+msgstr "فامنج"
+
+msgid "Famish"
+msgstr "جوّع"
+
+msgid "Famished"
+msgstr "مجوّع"
+
+msgid "Famishes"
+msgstr "يجوّع"
+
+msgid "Famishing"
+msgstr "التجويع"
+
+msgid "Famous"
+msgstr "مشهور"
+
+msgid "Famously"
+msgstr "بشكل مشهور"
+
+msgid "Famousness"
+msgstr "الشهرة"
+
+msgid "Fan"
+msgstr "النصير"
+
+msgid "Fan-in"
+msgstr "نصير في"
+
+msgid "Fan-out"
+msgstr "إنفتح"
+
+msgid "Fanatic"
+msgstr "المتعصّب"
+
+msgid "Fanatical"
+msgstr "متعصّب"
+
+msgid "Fanatically"
+msgstr "بتعصب"
+
+msgid "Fanaticalness"
+msgstr "التّعصّب"
+
+msgid "Fanaticism"
+msgstr "التعصّب"
+
+msgid "Fanatics"
+msgstr "المتعصّبون"
+
+msgid "Fancied"
+msgstr "محبّ"
+
+msgid "Fancier"
+msgstr "مربي الحيوانات"
+
+msgid "Fanciers"
+msgstr "مربو الحيوانات"
+
+msgid "Fancies"
+msgstr "يحبّ"
+
+msgid "Fanciest"
+msgstr "أكثر بهرجة"
+
+msgid "Fanciful"
+msgstr "خيالي"
+
+msgid "Fancifully"
+msgstr "وهميا"
+
+msgid "Fancifulness"
+msgstr "الخيال"
+
+msgid "Fanciless"
+msgstr "بلا فخامة"
+
+msgid "Fancily"
+msgstr "بابتكار"
+
+msgid "Fanciness"
+msgstr "الفخامة"
+
+msgid "Fancy"
+msgstr "الهوى"
+
+msgid "Fancying"
+msgstr "المحبّة"
+
+msgid "Fanfare"
+msgstr "الإستعراض الموسيقي العسكري"
+
+msgid "Fanfares"
+msgstr "التبويق"
+
+msgid "Fang"
+msgstr "الناب"
+
+msgid "Fanged"
+msgstr "بمخالب"
+
+msgid "Fangled"
+msgstr "جديد"
+
+msgid "Fangs"
+msgstr "الأنياب"
+
+msgid "Fanned"
+msgstr "مهوّى"
+
+msgid "Fannies"
+msgstr "الأرداف"
+
+msgid "Fanning"
+msgstr "التهوية"
+
+msgid "Fanny"
+msgstr "فاني"
+
+msgid "Fans"
+msgstr "الأنصار"
+
+msgid "Fantasia"
+msgstr "الفنتازيا"
+
+msgid "Fantasias"
+msgstr "الفنتازيا"
+
+msgid "Fantasied"
+msgstr "استغرق في الأحلام"
+
+msgid "Fantasies"
+msgstr "التخيلات"
+
+msgid "Fantasise"
+msgstr "تخيّل"
+
+msgid "Fantasised"
+msgstr "متخيّل"
+
+msgid "Fantasises"
+msgstr "يتخيّل"
+
+msgid "Fantasising"
+msgstr "التخيّل"
+
+msgid "Fantasist"
+msgstr "الحالم"
+
+msgid "Fantasize"
+msgstr "تخيّل"
+
+msgid "Fantasized"
+msgstr "متخيّل"
+
+msgid "Fantasizer"
+msgstr "المتخيّل"
+
+msgid "Fantasizes"
+msgstr "يتخيّل"
+
+msgid "Fantasizing"
+msgstr "التخيّل"
+
+msgid "Fantastic"
+msgstr "رائع"
+
+msgid "Fantastical"
+msgstr "خيالي"
+
+msgid "Fantastically"
+msgstr "بشكل خيالي"
+
+msgid "Fantasticalness"
+msgstr "الخياليةّ"
+
+msgid "Fantasy"
+msgstr "الخيال"
+
+msgid "Fantod"
+msgstr "الحركة بعصبية"
+
+msgid "FAQs"
+msgstr "الأسئلة المكرّرة"
+
+msgid "Far"
+msgstr "بعيدا"
+
+msgid "Farad"
+msgstr "الفاراد"
+
+msgid "Faraday"
+msgstr "فاراداي"
+
+msgid "Farads"
+msgstr "الفارادات"
+
+msgid "Faraway"
+msgstr "بعيد"
+
+msgid "Farber"
+msgstr "فاربر"
+
+msgid "Farce"
+msgstr "المهزلة"
+
+msgid "Farces"
+msgstr "المهازل"
+
+msgid "Farcical"
+msgstr "هزلي"
+
+msgid "Farcically"
+msgstr "بشكل هزلي"
+
+msgid "Farcing"
+msgstr "الحشوة"
+
+msgid "Fare"
+msgstr "الأجرة"
+
+msgid "Fared"
+msgstr "فريد"
+
+msgid "Farer"
+msgstr "فارير"
+
+msgid "Fares"
+msgstr "الأجور"
+
+msgid "Farewell"
+msgstr "الوداع"
+
+msgid "Farewells"
+msgstr "الوداع"
+
+msgid "Farfetched"
+msgstr "متكلّف"
+
+msgid "Farfetchedness"
+msgstr "اللامعقوليّة، الغير منطقيّة"
+
+msgid "Fargo"
+msgstr "فارجو"
+
+msgid "Farina"
+msgstr "فارينا"
+
+msgid "Faring"
+msgstr "العمل"
+
+msgid "Farkas"
+msgstr "فاركاس"
+
+msgid "Farley"
+msgstr "فارلي"
+
+msgid "Farm"
+msgstr "المزرعة"
+
+msgid "Farmed"
+msgstr "فالح"
+
+msgid "Farmer"
+msgstr "المزارع"
+
+msgid "Farmers"
+msgstr "المزارعون"
+
+msgid "Farmhand"
+msgstr "العامل"
+
+msgid "Farmhouse"
+msgstr "البيت الريفي"
+
+msgid "Farmhouses"
+msgstr "البيوت الريفية"
+
+msgid "Farming"
+msgstr "الزراعة"
+
+msgid "Farmings"
+msgstr "الزراعة"
+
+msgid "Farmington"
+msgstr "فارمنجتون"
+
+msgid "Farmland"
+msgstr "الأرض الزراعية"
+
+msgid "Farmlands"
+msgstr "الأراضي الزراعية"
+
+msgid "Farms"
+msgstr "المزارع"
+
+msgid "Farmstead"
+msgstr "المزرعة وتوابعها من مساكن"
+
+msgid "Farmsteads"
+msgstr "المزارع وتوابعها من مساكن"
+
+msgid "Farmworker"
+msgstr "عامل المزرعة"
+
+msgid "Farmworkers"
+msgstr "عمّال المزرعة"
+
+msgid "Farmyard"
+msgstr "الزريبة"
+
+msgid "Farmyards"
+msgstr "الزرائب"
+
+msgid "Farnsworth"
+msgstr "فارنسورث"
+
+msgid "Faro"
+msgstr "فارو"
+
+msgid "Farrago"
+msgstr "الحباشات"
+
+msgid "Farragoes"
+msgstr "الحباشات"
+
+msgid "Farreaching"
+msgstr "ذو نفوذ، متنفّذ"
+
+msgid "Farrell"
+msgstr "فاريل"
+
+msgid "Farrow"
+msgstr "صغير الخنزير"
+
+msgid "Farrowed"
+msgstr "مخنّص"
+
+msgid "Farrowing"
+msgstr "التخنيص"
+
+msgid "Farrows"
+msgstr "صغار الخنزير"
+
+msgid "Farseeing"
+msgstr "بعيد النظر"
+
+msgid "Farsi"
+msgstr "الفارسيّة، شخص من أصل إيرانيّ"
+
+msgid "Farsighted"
+msgstr "بعيد النظر"
+
+msgid "Farsightedly"
+msgstr "ببعد نظر"
+
+msgid "Farsightedness"
+msgstr "الحلم"
+
+msgid "Fart"
+msgstr "إخراج الرّيح"
+
+msgid "Farther"
+msgstr "على نحو إضافي"
+
+msgid "Farthermost"
+msgstr "أبعد"
+
+msgid "Farthest"
+msgstr "أبعد ما يكون"
+
+msgid "Farthing"
+msgstr "ربع البنس"
+
+msgid "Fascia"
+msgstr "فاسيا"
+
+msgid "Fasciae"
+msgstr "فاسيا"
+
+msgid "Fasciated"
+msgstr "مربوط"
+
+msgid "Fascicle"
+msgstr "قسم (من الكتاب)"
+
+msgid "Fascicled"
+msgstr "محزّم بحزمة صغيرة"
+
+msgid "Fascicles"
+msgstr "الحُزَم"
+
+msgid "Fascicular"
+msgstr "متعلّق بالحزمة"
+
+msgid "Fasciculate"
+msgstr "يحزّم"
+
+msgid "Fasciculated"
+msgstr "محزّم"
+
+msgid "Fasciculation"
+msgstr "التحزّم"
+
+msgid "Fasciculations"
+msgstr "التحزّم"
+
+msgid "Fascicule"
+msgstr "حزمة صغيرة"
+
+msgid "Fascicules"
+msgstr "الحزم الصغيرة"
+
+msgid "Fascinate"
+msgstr "إسحر"
+
+msgid "Fascinated"
+msgstr "مسحور"
+
+msgid "Fascinates"
+msgstr "يسحر"
+
+msgid "Fascinating"
+msgstr "السحر"
+
+msgid "Fascinatingly"
+msgstr "بشكل مسحور"
+
+msgid "Fascination"
+msgstr "السحر"
+
+msgid "Fascinations"
+msgstr "السحر"
+
+msgid "Fascism"
+msgstr "الفاشية"
+
+msgid "Fascist"
+msgstr "الفاشي"
+
+msgid "Fascistic"
+msgstr "فاشي"
+
+msgid "Fascistically"
+msgstr "بصورة فاشيّة"
+
+msgid "Fascists"
+msgstr "الفاشيون"
+
+msgid "Fashion"
+msgstr "الأسلوب"
+
+msgid "Fashionable"
+msgstr "عصري"
+
+msgid "Fashionableness"
+msgstr "اﻷناقة"
+
+msgid "Fashionably"
+msgstr "عصريا"
+
+msgid "Fashioned"
+msgstr "مصمّم"
+
+msgid "Fashioner"
+msgstr "المصمم"
+
+msgid "Fashioners"
+msgstr "المصممون"
+
+msgid "Fashioning"
+msgstr "التصميم"
+
+msgid "Fashionmonger"
+msgstr "المرشد في اﻷناقة"
+
+msgid "Fashions"
+msgstr "الأزياء"
+
+msgid "Fast"
+msgstr "يصوم، سريع"
+
+msgid "Fast-Fusion"
+msgstr "الإنشطار السريع"
+
+msgid "Fastback"
+msgstr "سيّارة بسقف منحني حتى مؤخِّرتها"
+
+msgid "Fasted"
+msgstr "صام"
+
+msgid "Fasten"
+msgstr "إربط"
+
+msgid "Fastened"
+msgstr "مربوط"
+
+msgid "Fastener"
+msgstr "السحّابة"
+
+msgid "Fasteners"
+msgstr "السحّابات"
+
+msgid "Fastening"
+msgstr "الربط"
+
+msgid "Fastenings"
+msgstr "الأربطة"
+
+msgid "Fastens"
+msgstr "يربط"
+
+msgid "Faster"
+msgstr "أسرع"
+
+msgid "Fastest"
+msgstr "أسرع"
+
+msgid "Fastidious"
+msgstr "صعب"
+
+msgid "Fastidiously"
+msgstr "على نحو صعب"
+
+msgid "Fastidiousness"
+msgstr "الصعوبة"
+
+msgid "Fasting"
+msgstr "الصوم"
+
+msgid "Fastness"
+msgstr "الثبات"
+
+msgid "Fasts"
+msgstr "يصوم"
+
+msgid "Fat"
+msgstr "الدهن"
+
+msgid "Fatal"
+msgstr "قاتل"
+
+msgid "Fatalism"
+msgstr "الجبرية"
+
+msgid "Fatalist"
+msgstr "الجبري"
+
+msgid "Fatalistic"
+msgstr "جبري"
+
+msgid "Fatalistically"
+msgstr "جبريا"
+
+msgid "Fatalists"
+msgstr "الجبريون"
+
+msgid "Fatalities"
+msgstr "الضحايا"
+
+msgid "Fatality"
+msgstr "الضحيّة"
+
+msgid "Fatally"
+msgstr "حتى الموت"
+
+msgid "Fate"
+msgstr "المصير"
+
+msgid "Fated"
+msgstr "مقدّر"
+
+msgid "Fateful"
+msgstr "حاسم"
+
+msgid "Fatefully"
+msgstr "بشكل كارثي"
+
+msgid "Fatefulness"
+msgstr "الشؤم"
+
+msgid "Fates"
+msgstr "المصير"
+
+msgid "Father"
+msgstr "الأبّ"
+
+msgid "Fathered"
+msgstr "أصبح أبّا له"
+
+msgid "Fatherhood"
+msgstr "الإبوة"
+
+msgid "Fatherhoods"
+msgstr "الإبوة"
+
+msgid "Fathering"
+msgstr "الصبح أبّا لـ"
+
+msgid "Fatherland"
+msgstr "أرض الأجداد"
+
+msgid "Fatherless"
+msgstr "يتيم"
+
+msgid "Fatherliness"
+msgstr "اﻷبوّة"
+
+msgid "Fatherly"
+msgstr "أبوي"
+
+msgid "Fathers"
+msgstr "الآباء"
+
+msgid "Fathersinlaw"
+msgstr "أبو الزوجة أو الزوج"
+
+msgid "Fathom"
+msgstr "القامة"
+
+msgid "Fathomable"
+msgstr "قابل للقياس"
+
+msgid "Fathomed"
+msgstr "مفهوم"
+
+msgid "Fathoming"
+msgstr "الفهم"
+
+msgid "Fathoms"
+msgstr "القامات"
+
+msgid "Fatigue"
+msgstr "الإعياء"
+
+msgid "Fatigue-proof"
+msgstr "ضدّ الإعياء"
+
+msgid "Fatigued"
+msgstr "مرهق"
+
+msgid "Fatigues"
+msgstr "الإعياء"
+
+msgid "Fatiguing"
+msgstr "التعب"
+
+msgid "Fatiguingly"
+msgstr "بشكل متعوب"
+
+msgid "Fatima"
+msgstr "فاطمة"
+
+msgid "Fatless"
+msgstr "بدون شحم"
+
+msgid "Fatly"
+msgstr "بشكل سمين"
+
+msgid "Fatness"
+msgstr "السمنة"
+
+msgid "Fats"
+msgstr "الدهون"
+
+msgid "Fatso"
+msgstr "بدين، سمين"
+
+msgid "Fatstock"
+msgstr "الماشية السّمينة"
+
+msgid "Fatted"
+msgstr "أسمن"
+
+msgid "Fatten"
+msgstr "سمّن"
+
+msgid "Fattened"
+msgstr "مسمّن"
+
+msgid "Fattener"
+msgstr "المسمّن"
+
+msgid "Fatteners"
+msgstr "المسمّنات"
+
+msgid "Fattening"
+msgstr "التسمين"
+
+msgid "Fattens"
+msgstr "يسمّن"
+
+msgid "Fatter"
+msgstr "أسمن"
+
+msgid "Fattest"
+msgstr "أسمن"
+
+msgid "Fattier"
+msgstr "أسمن"
+
+msgid "Fatties"
+msgstr "المملوئين"
+
+msgid "Fattiest"
+msgstr "أسمن"
+
+msgid "Fattily"
+msgstr "ببدانة"
+
+msgid "Fattiness"
+msgstr "السمنة"
+
+msgid "Fatting"
+msgstr "السّمنة"
+
+msgid "Fatty"
+msgstr "سمين"
+
+msgid "Fatuity"
+msgstr "الحماقة"
+
+msgid "Fatuous"
+msgstr "أحمق"
+
+msgid "Fatuously"
+msgstr "بشكل أحمق"
+
+msgid "Fatuousness"
+msgstr "السخافة"
+
+msgid "Faucet"
+msgstr "الحنفية"
+
+msgid "Faucets"
+msgstr "الحنفيات"
+
+msgid "Faulkner"
+msgstr "فولكنر"
+
+msgid "Faulknerian"
+msgstr "الفولكنريون"
+
+msgid "Fault"
+msgstr "العيب"
+
+msgid "Fault-prone"
+msgstr "إنتقد منكفئا"
+
+msgid "Faulted"
+msgstr "إنتقد"
+
+msgid "Faultfinder"
+msgstr "الناقد"
+
+msgid "Faultfinding"
+msgstr "التعييب"
+
+msgid "Faultier"
+msgstr "معيب"
+
+msgid "Faultiest"
+msgstr "معيب"
+
+msgid "Faultily"
+msgstr "بشكل خاطئ"
+
+msgid "Faultiness"
+msgstr "العيب"
+
+msgid "Faulting"
+msgstr "الإنتقاد"
+
+msgid "Faultless"
+msgstr "لا عيب فيه"
+
+msgid "Faultlessly"
+msgstr "بشكل تام"
+
+msgid "Faultlessness"
+msgstr "الكمال"
+
+msgid "Faults"
+msgstr "العيوب"
+
+msgid "Faulty"
+msgstr "معيب"
+
+msgid "Faun"
+msgstr "إله الغابات"
+
+msgid "Fauna"
+msgstr "الحيوانات"
+
+msgid "Fauntleroy"
+msgstr "الولد المهندم و المهذّب"
+
+msgid "Faust"
+msgstr "فوست"
+
+msgid "Faustian"
+msgstr "متعلق ب فاوست"
+
+msgid "Faustus"
+msgstr "فاوست"
+
+msgid "Fauteuil"
+msgstr "الكرسي"
+
+msgid "Favor"
+msgstr "الإحسان"
+
+msgid "Favorability"
+msgstr "الأفضلية"
+
+msgid "Favorable"
+msgstr "مناسب"
+
+msgid "Favorableness"
+msgstr "التفضيل"
+
+msgid "Favorably"
+msgstr "إيجابيا"
+
+msgid "Favored"
+msgstr "مفضّل"
+
+msgid "Favoredly"
+msgstr "بشكل مستحسن"
+
+msgid "Favoredness"
+msgstr "التفضيل"
+
+msgid "Favorer"
+msgstr "المفضّل"
+
+msgid "Favorers"
+msgstr "المفضّلون"
+
+msgid "Favoring"
+msgstr "التفضيل"
+
+msgid "Favoringly"
+msgstr "بشكل مستحسن"
+
+msgid "Favorite"
+msgstr "مفضّل"
+
+msgid "Favorites"
+msgstr "الأشياء المفضّلة"
+
+msgid "Favoritism"
+msgstr "التفضيلية"
+
+msgid "Favoritisms"
+msgstr "التفضيلية"
+
+msgid "Favors"
+msgstr "الحسنات"
+
+msgid "Favour"
+msgstr "الإحسان"
+
+msgid "Favourable"
+msgstr "مناسب"
+
+msgid "Favourably"
+msgstr "إيجابيا"
+
+msgid "Favoured"
+msgstr "مفضّل"
+
+msgid "Favouring"
+msgstr "التفضيل"
+
+msgid "Favourite"
+msgstr "مفضّل"
+
+msgid "Fawkes"
+msgstr "فوكيز"
+
+msgid "Fawn"
+msgstr "الظبي"
+
+msgid "Fawned"
+msgstr "متودّد"
+
+msgid "Fawner"
+msgstr "فاونير"
+
+msgid "Fawning"
+msgstr "التودّد"
+
+msgid "Fawningly"
+msgstr "بتودد"
+
+msgid "Fawns"
+msgstr "الظبيان"
+
+msgid "Fax"
+msgstr "الفاكس"
+
+msgid "Faxes"
+msgstr "الفاكسات"
+
+msgid "Fay"
+msgstr "الجنية"
+
+msgid "Fayette"
+msgstr "فايت"
+
+msgid "Fayetteville"
+msgstr "فايتيفيل"
+
+msgid "Faze"
+msgstr "أزعج"
+
+msgid "Fazed"
+msgstr "منزعج"
+
+msgid "Fazes"
+msgstr "يزعج"
+
+msgid "Fazing"
+msgstr "الإزعاج"
+
+msgid "FBI"
+msgstr "مكتب التحقيقات الفدرالي"
+
+msgid "Fcb"
+msgstr "جزء إدارة الملف"
+
+msgid "FCC"
+msgstr "لجنة الاتّصالات الفدراليّة"
+
+msgid "FDA"
+msgstr "وكالة العقار الفدرالي"
+
+msgid "Fe"
+msgstr "الحديد (كيمياء)"
+
+msgid "Fealty"
+msgstr "الولاء"
+
+msgid "Fear"
+msgstr "الخوف"
+
+msgid "Feared"
+msgstr "مخيف"
+
+msgid "Fearer"
+msgstr "الخائف"
+
+msgid "Fearful"
+msgstr "خائف"
+
+msgid "Fearfully"
+msgstr "بتخوف"
+
+msgid "Fearfulness"
+msgstr "الخوف"
+
+msgid "Fearing"
+msgstr "الخوف"
+
+msgid "Fearless"
+msgstr "جريئ"
+
+msgid "Fearlessly"
+msgstr "بلا خوف"
+
+msgid "Fearlessness"
+msgstr "الشجاعة"
+
+msgid "Fears"
+msgstr "المخاوف"
+
+msgid "Fearsome"
+msgstr "مفزع"
+
+msgid "Fearsomely"
+msgstr "بشكل مفزع"
+
+msgid "Fearsomeness"
+msgstr "الرهبة"
+
+msgid "Feasable"
+msgstr "فيسابل"
+
+msgid "Feasibility"
+msgstr "العملية"
+
+msgid "Feasible"
+msgstr "عملي"
+
+msgid "Feasibleness"
+msgstr "الجدوى"
+
+msgid "Feasibly"
+msgstr "بشكل ممكن"
+
+msgid "Feast"
+msgstr "العيد"
+
+msgid "Feasted"
+msgstr "ممتّع"
+
+msgid "Feaster"
+msgstr "فيستر"
+
+msgid "Feastful"
+msgstr "إحتفالي"
+
+msgid "Feasting"
+msgstr "التمتّع"
+
+msgid "Feasts"
+msgstr "الأعياد"
+
+msgid "Feat"
+msgstr "المفخرة"
+
+msgid "Feather"
+msgstr "الريشة"
+
+msgid "Featherbed"
+msgstr "الفراش الريشي"
+
+msgid "Featherbedded"
+msgstr "كدّس العمّال أكثر من إحتياجات العمل"
+
+msgid "Featherbedding"
+msgstr "البطالة المقنّعة"
+
+msgid "Featherbeds"
+msgstr "الأفرشة الريشية"
+
+msgid "Featherbrain"
+msgstr "الغبي"
+
+msgid "Featherbrained"
+msgstr "الغبي"
+
+msgid "Feathered"
+msgstr "مريّش"
+
+msgid "Feathering"
+msgstr "الترييش"
+
+msgid "Feathers"
+msgstr "الريش"
+
+msgid "Feathertop"
+msgstr "فيثيرتوب - نبات أفريقي"
+
+msgid "Featherweight"
+msgstr "وزن الريشة"
+
+msgid "Feathery"
+msgstr "ريشي"
+
+msgid "Featly"
+msgstr "رشيق"
+
+msgid "Feats"
+msgstr "المفاخر"
+
+msgid "Feature"
+msgstr "الميزّة"
+
+msgid "Featured"
+msgstr "عرض"
+
+msgid "Featureless"
+msgstr "عديم الشكل"
+
+msgid "Features"
+msgstr "الميزّات"
+
+msgid "Featuring"
+msgstr "العرض"
+
+msgid "Feb"
+msgstr "فبراير/شباط"
+
+msgid "Febrile"
+msgstr "حمّي"
+
+msgid "Februaries"
+msgstr "جمع \"فبراير\""
+
+msgid "February"
+msgstr "فبراير/شباط"
+
+msgid "Fecal"
+msgstr "برازي"
+
+msgid "Feces"
+msgstr "الغائط"
+
+msgid "Feckless"
+msgstr "ضعيف"
+
+msgid "Fecklessly"
+msgstr "بشكل ضعيف"
+
+msgid "Fecund"
+msgstr "خصب"
+
+msgid "Fecundability"
+msgstr "القابلية للحمل"
+
+msgid "Fecundated"
+msgstr "ملقّح"
+
+msgid "Fecundates"
+msgstr "يلقّح"
+
+msgid "Fecundity"
+msgstr "الخصب"
+
+msgid "Fecundly"
+msgstr "بشكل خصب"
+
+msgid "Fed"
+msgstr "المصرف الإحتياطي الفدرالي"
+
+msgid "Fedders"
+msgstr "فيديرس"
+
+msgid "Federal"
+msgstr "إتحادي"
+
+msgid "Federalism"
+msgstr "الإتحادية"
+
+msgid "Federalist"
+msgstr "الإتحادي"
+
+msgid "Federalists"
+msgstr "الإتحاديون"
+
+msgid "Federalize"
+msgstr "وحّد"
+
+msgid "Federalized"
+msgstr "موحّد"
+
+msgid "Federalizes"
+msgstr "يوحّد"
+
+msgid "Federalizing"
+msgstr "التوحيد"
+
+msgid "Federally"
+msgstr "بشكل إتحادي"
+
+msgid "Federals"
+msgstr "الفيدراليون"
+
+msgid "Federate"
+msgstr "متّحد"
+
+msgid "Federated"
+msgstr "موحّد"
+
+msgid "Federates"
+msgstr "يوحّد"
+
+msgid "Federating"
+msgstr "التوحيد"
+
+msgid "Federation"
+msgstr "الإتحاد"
+
+msgid "Federations"
+msgstr "الإتحادات"
+
+msgid "Federative"
+msgstr "إتحادي"
+
+msgid "Federatively"
+msgstr "بشكل إتحادي"
+
+msgid "Fedora"
+msgstr "فيدورا (قبّعة صغيرة)"
+
+msgid "Fedoras"
+msgstr "فيدورا (قبّعات صغيرة)"
+
+msgid "Feds"
+msgstr "المحقّقون الإتّحاديون"
+
+msgid "Fee"
+msgstr "الأجر"
+
+msgid "Feeble"
+msgstr "ضعيف"
+
+msgid "Feebleminded"
+msgstr "ضعيف العقل"
+
+msgid "Feeblemindedly"
+msgstr "بضعف في العقل"
+
+msgid "Feeblemindedness"
+msgstr "ضعف العقل"
+
+msgid "Feebleness"
+msgstr "الضعف"
+
+msgid "Feebler"
+msgstr "أضعف"
+
+msgid "Feeblest"
+msgstr "أضعف"
+
+msgid "Feebly"
+msgstr "بضعف"
+
+msgid "Feed"
+msgstr "الغذاء"
+
+msgid "Feedback"
+msgstr "الردّ"
+
+msgid "Feedbacks"
+msgstr "الردود"
+
+msgid "Feeded"
+msgstr "فيديد"
+
+msgid "Feeder"
+msgstr "الطاعم"
+
+msgid "Feeders"
+msgstr "الطاعمون"
+
+msgid "Feeding"
+msgstr "الإطعام"
+
+msgid "Feedings"
+msgstr "الإطعام"
+
+msgid "Feeds"
+msgstr "الأطعمة"
+
+msgid "Feel"
+msgstr "الملمس"
+
+msgid "Feeler"
+msgstr "اللامس"
+
+msgid "Feelers"
+msgstr "اللوامس"
+
+msgid "Feeling"
+msgstr "الشعور"
+
+msgid "Feelingly"
+msgstr "بشكل حسّاس"
+
+msgid "Feelingness"
+msgstr "الإحساس"
+
+msgid "Feelings"
+msgstr "المشاعر"
+
+msgid "Feels"
+msgstr "يشعر"
+
+msgid "Feeney"
+msgstr "فيني"
+
+msgid "Fees"
+msgstr "الأجور"
+
+msgid "Feet"
+msgstr "الأقدام"
+
+msgid "Feign"
+msgstr "إختلق"
+
+msgid "Feigned"
+msgstr "مختلق"
+
+msgid "Feignedly"
+msgstr "بتلفيق"
+
+msgid "Feigner"
+msgstr "الملفّق"
+
+msgid "Feigning"
+msgstr "الإختلاق"
+
+msgid "Feigns"
+msgstr "يختلق"
+
+msgid "Feint"
+msgstr "الخدعة"
+
+msgid "Feinted"
+msgstr "مخدوع"
+
+msgid "Feinting"
+msgstr "الخدع"
+
+msgid "Feints"
+msgstr "الخدع"
+
+msgid "Felder"
+msgstr "فيلدر"
+
+msgid "Feldman"
+msgstr "فيلدمان"
+
+msgid "Feldspar"
+msgstr "الفلسبار"
+
+msgid "Felice"
+msgstr "فيليس"
+
+msgid "Felicia"
+msgstr "فيليسيا"
+
+msgid "Felicitate"
+msgstr "هنّئ"
+
+msgid "Felicitated"
+msgstr "مهنّأ"
+
+msgid "Felicitates"
+msgstr "يهنّئ"
+
+msgid "Felicitating"
+msgstr "التهنئة"
+
+msgid "Felicitation"
+msgstr "التهنئة"
+
+msgid "Felicities"
+msgstr "الهناء"
+
+msgid "Felicitous"
+msgstr "سعيد"
+
+msgid "Felicitously"
+msgstr "بشكل سعيد"
+
+msgid "Felicitousness"
+msgstr "السعادة"
+
+msgid "Felicity"
+msgstr "فيليسيتي"
+
+msgid "Feline"
+msgstr "الماكر"
+
+msgid "Felinely"
+msgstr "بشكل سنوري"
+
+msgid "Felines"
+msgstr "الماكرون"
+
+msgid "Felix"
+msgstr "فيليكس"
+
+msgid "Fell"
+msgstr "أسقط"
+
+msgid "Fella"
+msgstr "فيلا"
+
+msgid "Fellas"
+msgstr "رجال، أولاد"
+
+msgid "Fellatio"
+msgstr "الإثارة الجنسية للعضو الذكري عن طريق الفم"
+
+msgid "Felled"
+msgstr "مسقط"
+
+msgid "Feller"
+msgstr "قاطع الأشجار"
+
+msgid "Fellers"
+msgstr "قاطعو الأشجار"
+
+msgid "Felling"
+msgstr "الإسقاط"
+
+msgid "Fellini"
+msgstr "فيليني"
+
+msgid "Fellness"
+msgstr "القسوة"
+
+msgid "Felloe"
+msgstr "الإطار"
+
+msgid "Fellow"
+msgstr "الشخص"
+
+msgid "Fellowly"
+msgstr "بشكل زميل"
+
+msgid "Fellows"
+msgstr "الأشخاص"
+
+msgid "Fellowship"
+msgstr "الزمالة"
+
+msgid "Fellowships"
+msgstr "الزمالات"
+
+msgid "Fells"
+msgstr "الجلود"
+
+msgid "Felly"
+msgstr "العجلة"
+
+msgid "Felon"
+msgstr "المجرم"
+
+msgid "Felonies"
+msgstr "الجرائم"
+
+msgid "Felonious"
+msgstr "شرّير"
+
+msgid "Feloniously"
+msgstr "بشكل شرّير"
+
+msgid "Feloniousness"
+msgstr "الإجرام"
+
+msgid "Felons"
+msgstr "المجرمون"
+
+msgid "Felony"
+msgstr "الجريمة"
+
+msgid "Felsite"
+msgstr "فيلسيت - نوع من الصّخور"
+
+msgid "Felt"
+msgstr "لبّد"
+
+msgid "Felt-tip"
+msgstr "أحسّ رأسا"
+
+msgid "Felted"
+msgstr "ملبّد"
+
+msgid "Felting"
+msgstr "التلبيد"
+
+msgid "Felts"
+msgstr "اللبّادات"
+
+msgid "Female"
+msgstr "الأنثى"
+
+msgid "Femaleness"
+msgstr "الأنوثة"
+
+msgid "Females"
+msgstr "الإناث"
+
+msgid "Feminine"
+msgstr "المؤنّث"
+
+msgid "Femininely"
+msgstr "أنثويا"
+
+msgid "Feminineness"
+msgstr "الأنوثة"
+
+msgid "Femininity"
+msgstr "الأنوثة"
+
+msgid "Feminism"
+msgstr "مساواة الجنسين"
+
+msgid "Feminist"
+msgstr "المؤمن بمساواة الجنسين"
+
+msgid "Feminists"
+msgstr "المؤمنون بمساواة الجنسين"
+
+msgid "Feminity"
+msgstr "الأنوثة"
+
+msgid "Femme"
+msgstr "إمرأة"
+
+msgid "Femmes"
+msgstr "نساء"
+
+msgid "Femora"
+msgstr "عظام الفخذ"
+
+msgid "Femoral"
+msgstr "فخذي"
+
+msgid "Femur"
+msgstr "عظم الفخذ"
+
+msgid "Femurs"
+msgstr "عظام الفخذ"
+
+msgid "Fen"
+msgstr "الفين"
+
+msgid "Fence"
+msgstr "السياج"
+
+msgid "Fenced"
+msgstr "مسيّج"
+
+msgid "Fencer"
+msgstr "المبارز"
+
+msgid "Fencers"
+msgstr "المبارزون"
+
+msgid "Fences"
+msgstr "الأسيجة"
+
+msgid "Fencing"
+msgstr "المبارزة"
+
+msgid "Fend"
+msgstr "صن"
+
+msgid "Fended"
+msgstr "مصان"
+
+msgid "Fender"
+msgstr "الحاجز"
+
+msgid "Fenders"
+msgstr "الحواجز"
+
+msgid "Fending"
+msgstr "الصيانة"
+
+msgid "Fends"
+msgstr "يصون"
+
+msgid "Fenestration"
+msgstr "التثقّب"
+
+msgid "Fennel"
+msgstr "فينيل (نبات)"
+
+msgid "Fenny"
+msgstr "مستنقعي"
+
+msgid "Fens"
+msgstr "الفينات"
+
+msgid "Fenton"
+msgstr "فينتون"
+
+msgid "Fenugreek"
+msgstr "فينوجريك (نبات)"
+
+msgid "Fenwick"
+msgstr "فينويك"
+
+msgid "Feoff"
+msgstr "قطعة أرض متنازع عليها"
+
+msgid "Feoffee"
+msgstr "المدفوع لة"
+
+msgid "Ferber"
+msgstr "فيربير"
+
+msgid "Ferdinand"
+msgstr "فيردناند"
+
+msgid "Ferdinando"
+msgstr "فردناندو"
+
+msgid "Ferguson"
+msgstr "فيرغسن"
+
+msgid "Fermat"
+msgstr "فرمات"
+
+msgid "Ferment"
+msgstr "الخميرة"
+
+msgid "Fermentability"
+msgstr "التخمّر"
+
+msgid "Fermentable"
+msgstr "قابل للتّخمّر"
+
+msgid "Fermentation"
+msgstr "الإختمار"
+
+msgid "Fermentations"
+msgstr "الإختمار"
+
+msgid "Fermented"
+msgstr "متخمّر"
+
+msgid "Fermenter"
+msgstr "جهاز التخمير"
+
+msgid "Fermenting"
+msgstr "التخمّر"
+
+msgid "Ferments"
+msgstr "الخمائر"
+
+msgid "Fermi"
+msgstr "فرمي"
+
+msgid "Fermion"
+msgstr "فيرميون - أيّ جزيء يخضع لإحصاءات فيرمي-ديراك"
+
+msgid "Fermions"
+msgstr "فيرميون - أيّ جزيء يخضع لإحصاءات فيرمي-ديراك"
+
+msgid "Fermium"
+msgstr "الفيرميوم"
+
+msgid "Fern"
+msgstr "السرخس"
+
+msgid "Fernando"
+msgstr "فرناندو"
+
+msgid "Fernery"
+msgstr "مكان زرع السرخس"
+
+msgid "Ferns"
+msgstr "السراخس"
+
+msgid "Ferny"
+msgstr "محاط بالسرخس"
+
+msgid "Ferocious"
+msgstr "شرس"
+
+msgid "Ferociously"
+msgstr "بشكل شرس"
+
+msgid "Ferociousness"
+msgstr "الشراسة"
+
+msgid "Ferocity"
+msgstr "الشراسة"
+
+msgid "Ferreira"
+msgstr "فيريرا"
+
+msgid "Ferrer"
+msgstr "أبعد من"
+
+msgid "Ferret"
+msgstr "النمس"
+
+msgid "Ferreted"
+msgstr "مطارد"
+
+msgid "Ferreter"
+msgstr "الصّياد بواسطة الفيريت (حيوان)"
+
+msgid "Ferreting"
+msgstr "المطاردة"
+
+msgid "Ferrets"
+msgstr "النموس"
+
+msgid "Ferric"
+msgstr "حديدي"
+
+msgid "Ferried"
+msgstr "معبّر"
+
+msgid "Ferries"
+msgstr "العبّارات"
+
+msgid "Ferris"
+msgstr "فيريس"
+
+msgid "Ferrite"
+msgstr "الفرّيت"
+
+msgid "Ferro"
+msgstr "مركّب يحتوي على الحديد"
+
+msgid "Ferroconcrete"
+msgstr "الإسمنت المسلح"
+
+msgid "Ferroelectric"
+msgstr "متعلّق بالعازل الكهربائيّ الشّفّاف"
+
+msgid "Ferromagnet"
+msgstr "مغناطيس حديدي"
+
+msgid "Ferromagnetic"
+msgstr "المغناطيسية الحديدية"
+
+msgid "Ferromagnetical"
+msgstr "متعلق بالمغناطيس الحديدي"
+
+msgid "Ferromagnetism"
+msgstr "المغناطيسية الحديدية"
+
+msgid "Ferrous"
+msgstr "حديدي"
+
+msgid "Ferruginous"
+msgstr "حديدي"
+
+msgid "Ferrule"
+msgstr "الحلقة"
+
+msgid "Ferruled"
+msgstr "مزوّد بمقبض"
+
+msgid "Ferrules"
+msgstr "الحلقات"
+
+msgid "Ferry"
+msgstr "العبّارة"
+
+msgid "Ferry-boat"
+msgstr "العبّارة"
+
+msgid "Ferry-operator"
+msgstr "مشغل عبّارة"
+
+msgid "Ferrying"
+msgstr "التعبير"
+
+msgid "Ferryman"
+msgstr "مسؤول العبّارة"
+
+msgid "Ferrymen"
+msgstr "مسؤولو العبّارات"
+
+msgid "Fertig"
+msgstr "فرتيج"
+
+msgid "Fertile"
+msgstr "خصب"
+
+msgid "Fertilely"
+msgstr "بشكل خصب"
+
+msgid "Fertileness"
+msgstr "فرتيلينيس"
+
+msgid "Fertilities"
+msgstr "الخصوبة"
+
+msgid "Fertility"
+msgstr "الخصوبة"
+
+msgid "Fertilization"
+msgstr "الإخصاب"
+
+msgid "Fertilizations"
+msgstr "الإخصاب"
+
+msgid "Fertilize"
+msgstr "خصّب"
+
+msgid "Fertilized"
+msgstr "مخصّب"
+
+msgid "Fertilizer"
+msgstr "المخصّب"
+
+msgid "Fertilizers"
+msgstr "المخصّبات"
+
+msgid "Fertilizes"
+msgstr "يخصّب"
+
+msgid "Fertilizing"
+msgstr "التخصيب"
+
+msgid "Fervency"
+msgstr "التوهج"
+
+msgid "Fervent"
+msgstr "حارّ"
+
+msgid "Fervently"
+msgstr "بحماس"
+
+msgid "Ferventness"
+msgstr "التسخين"
+
+msgid "Fervid"
+msgstr "متحمّس"
+
+msgid "Fervidly"
+msgstr "بشكل متحمّس"
+
+msgid "Fervidness"
+msgstr "التأجج"
+
+msgid "Fervor"
+msgstr "التأجّج"
+
+msgid "Fervors"
+msgstr "التأجّج"
+
+msgid "Fervour"
+msgstr "التأجّج"
+
+msgid "Fescue"
+msgstr "العكرش"
+
+msgid "Fess"
+msgstr "فيس"
+
+msgid "Fest"
+msgstr "المهرجان"
+
+msgid "Festally"
+msgstr "بشكل إحتفالي"
+
+msgid "Fester"
+msgstr "القيح"
+
+msgid "Festered"
+msgstr "متقيّح"
+
+msgid "Festering"
+msgstr "التقيّح"
+
+msgid "Festers"
+msgstr "القيح"
+
+msgid "Festival"
+msgstr "المهرجان"
+
+msgid "Festivals"
+msgstr "المهرجانات"
+
+msgid "Festive"
+msgstr "بهيج"
+
+msgid "Festively"
+msgstr "بشكل بهيج"
+
+msgid "Festiveness"
+msgstr "الإحتفال"
+
+msgid "Festivities"
+msgstr "الأعياد"
+
+msgid "Festivity"
+msgstr "العيد"
+
+msgid "Festoon"
+msgstr "الإكليل"
+
+msgid "Festoons"
+msgstr "الأكاليل"
+
+msgid "Fetal"
+msgstr "جنيني"
+
+msgid "Fetch"
+msgstr "إجلب"
+
+msgid "Fetched"
+msgstr "مجلوب"
+
+msgid "Fetcher"
+msgstr "الجالب"
+
+msgid "Fetches"
+msgstr "يجلب"
+
+msgid "Fetching"
+msgstr "الجلب"
+
+msgid "Fetchingly"
+msgstr "بشكل مجلوب"
+
+msgid "Fete"
+msgstr "المهرجان"
+
+msgid "Feted"
+msgstr "مكرم"
+
+msgid "Fetes"
+msgstr "المهرجانات"
+
+msgid "Fetid"
+msgstr "نتن"
+
+msgid "Fetidly"
+msgstr "بشكل نتن"
+
+msgid "Fetidness"
+msgstr "نتن"
+
+msgid "Feting"
+msgstr "الإكرام"
+
+msgid "Fetish"
+msgstr "الوثن"
+
+msgid "Fetishes"
+msgstr "الأوثان"
+
+msgid "Fetishism"
+msgstr "الشهوة الجنسية"
+
+msgid "Fetlock"
+msgstr "نتوء في أسفل رجل الحصان"
+
+msgid "Fetter"
+msgstr "القيد"
+
+msgid "Fettered"
+msgstr "مقيّد"
+
+msgid "Fettering"
+msgstr "التقييد"
+
+msgid "Fetters"
+msgstr "القيود"
+
+msgid "Fettle"
+msgstr "الحالة"
+
+msgid "Fettled"
+msgstr "مصحّح"
+
+msgid "Fettles"
+msgstr "الحالات"
+
+msgid "Fettling"
+msgstr "التصحيح"
+
+msgid "Fetus"
+msgstr "الجنين"
+
+msgid "Fetuses"
+msgstr "الأجنّة"
+
+msgid "Feud"
+msgstr "العداء"
+
+msgid "Feudal"
+msgstr "إقطاعي"
+
+msgid "Feudalism"
+msgstr "الإقطاعية"
+
+msgid "Feudalistic"
+msgstr "إقطاعي"
+
+msgid "Feudally"
+msgstr "بشكل إقطاعي"
+
+msgid "Feudatory"
+msgstr "إقطاعي"
+
+msgid "Feuds"
+msgstr "العداءات"
+
+msgid "Fever"
+msgstr "الحمّى"
+
+msgid "Fevered"
+msgstr "محموم"
+
+msgid "Fevering"
+msgstr "التحمية"
+
+msgid "Feverish"
+msgstr "محموم"
+
+msgid "Feverishly"
+msgstr "بشكل محموم"
+
+msgid "Feverishness"
+msgstr "ارتفاع حرارة الجسم"
+
+msgid "Fevers"
+msgstr "الحمّى"
+
+msgid "Fevery"
+msgstr "محموم"
+
+msgid "Few"
+msgstr "القليل من"
+
+msgid "Fewer"
+msgstr "أقل"
+
+msgid "Fewest"
+msgstr "أقل"
+
+msgid "Fewness"
+msgstr "القلّة"
+
+msgid "Fey"
+msgstr "طفولي"
+
+msgid "Fiance"
+msgstr "الخطيب"
+
+msgid "Fiancee"
+msgstr "الخطيبة"
+
+msgid "Fiancees"
+msgstr "الخطيبات"
+
+msgid "Fiasco"
+msgstr "الفشل التامّ"
+
+msgid "Fiat"
+msgstr "فيات"
+
+msgid "Fiats"
+msgstr "الإجراءات"
+
+msgid "Fib"
+msgstr "الإكذوبة"
+
+msgid "Fibbed"
+msgstr "مضروب"
+
+msgid "Fibber"
+msgstr "الكذاب"
+
+msgid "Fibbing"
+msgstr "الضرب"
+
+msgid "Fiber"
+msgstr "الليف"
+
+msgid "Fiberboard"
+msgstr "اللوح الليفي"
+
+msgid "Fibered"
+msgstr "فيبيريد"
+
+msgid "Fiberglas"
+msgstr "فيبيرجلاس (علامة تجارية)"
+
+msgid "Fiberglass"
+msgstr "الألياف الزجاجية"
+
+msgid "Fibers"
+msgstr "الألياف"
+
+msgid "Fibonacci"
+msgstr "فيبوناكسي"
+
+msgid "Fibre"
+msgstr "الليف"
+
+msgid "Fibres"
+msgstr "الألياف"
+
+msgid "Fibril"
+msgstr "فيبريل"
+
+msgid "Fibrin"
+msgstr "الفايبرين"
+
+msgid "Fibroid"
+msgstr "الورم الليفي"
+
+msgid "Fibrosis"
+msgstr "إلتهاب النسيج الليفي"
+
+msgid "Fibrous"
+msgstr "ليفي"
+
+msgid "Fibrously"
+msgstr "بشكل ليفي"
+
+msgid "Fibrousness"
+msgstr "الليفية"
+
+msgid "Fibs"
+msgstr "الأكاذيب"
+
+msgid "Fibula"
+msgstr "عظم الشظيّة"
+
+msgid "Fiche"
+msgstr "ميكروفيش"
+
+msgid "Fichu"
+msgstr "البنيقة"
+
+msgid "Fickle"
+msgstr "متقلّب"
+
+msgid "Fickleness"
+msgstr "التقلب"
+
+msgid "Fiction"
+msgstr "القصة"
+
+msgid "Fictional"
+msgstr "خيالي"
+
+msgid "Fictionally"
+msgstr "بشكل خيالي"
+
+msgid "Fictions"
+msgstr "القصص"
+
+msgid "Fictitious"
+msgstr "خيالي"
+
+msgid "Fictitiously"
+msgstr "زائفا"
+
+msgid "Fictitiousness"
+msgstr "الإختلاق"
+
+msgid "Fictive"
+msgstr "خيالي"
+
+msgid "Fictively"
+msgstr "بشكل خيالي"
+
+msgid "Fiddle"
+msgstr "الحيلة"
+
+msgid "Fiddled"
+msgstr "مغشوش"
+
+msgid "Fiddler"
+msgstr "عازف الكمان"
+
+msgid "Fiddlers"
+msgstr "عازفو الكمان"
+
+msgid "Fiddles"
+msgstr "الحيل"
+
+msgid "Fiddlestick"
+msgstr "قوس الكمان"
+
+msgid "Fiddlesticks"
+msgstr "أقواس الكمان"
+
+msgid "Fiddling"
+msgstr "الغشّ"
+
+msgid "Fide"
+msgstr "إخلاص"
+
+msgid "Fidel"
+msgstr "فيديل"
+
+msgid "Fidelities"
+msgstr "الوفاء"
+
+msgid "Fidelity"
+msgstr "الإخلاص"
+
+msgid "Fidget"
+msgstr "الململة"
+
+msgid "Fidgeted"
+msgstr "متململ"
+
+msgid "Fidgetiness"
+msgstr "التململ"
+
+msgid "Fidgeting"
+msgstr "التململ"
+
+msgid "Fidgets"
+msgstr "القلق"
+
+msgid "Fidgety"
+msgstr "متململ"
+
+msgid "Fiducial"
+msgstr "واثق"
+
+msgid "Fiducially"
+msgstr "بشكل واثق"
+
+msgid "Fiduciaries"
+msgstr "الوكلاء"
+
+msgid "Fiduciary"
+msgstr "الوكيل"
+
+msgid "Fie"
+msgstr "التعبير عن عدم الرضا"
+
+msgid "Fief"
+msgstr "الإقطاعية"
+
+msgid "Fiefdom"
+msgstr "الإقطاعية"
+
+msgid "Fiefs"
+msgstr "الإقطاعية"
+
+msgid "Field"
+msgstr "الحقل"
+
+msgid "Field-effect"
+msgstr "تأثير حقل"
+
+msgid "Fielded"
+msgstr "أجيب عليه"
+
+msgid "Fielder"
+msgstr "لاعب كرة القاعدة (متلقّي الضربات)"
+
+msgid "Fielders"
+msgstr "لاعبو كرة القاعدة (متلقّو الضربات)"
+
+msgid "Fielding"
+msgstr "لعِب كرة القاعدة (تلقّي الضربات) "
+
+msgid "Fields"
+msgstr "الحقول"
+
+msgid "Fieldstone"
+msgstr "فيلدستون"
+
+msgid "Fieldwork"
+msgstr "العمل الميداني"
+
+msgid "Fieldworker"
+msgstr "الباحث الميدانيّ"
+
+msgid "Fieldworkers"
+msgstr "الباحثون الميدانيون"
+
+msgid "Fiend"
+msgstr "شرير"
+
+msgid "Fiendish"
+msgstr "شرير"
+
+msgid "Fiendishly"
+msgstr "بشكل شرير"
+
+msgid "Fiendishness"
+msgstr "الوحشية"
+
+msgid "Fiends"
+msgstr "الشياطين"
+
+msgid "Fierce"
+msgstr "عنيف"
+
+msgid "Fiercely"
+msgstr "بعنف"
+
+msgid "Fierceness"
+msgstr "الشراسة"
+
+msgid "Fiercer"
+msgstr "أعنف"
+
+msgid "Fiercest"
+msgstr "أعنف"
+
+msgid "Fierier"
+msgstr "ناري"
+
+msgid "Fieriest"
+msgstr "ناري"
+
+msgid "Fierily"
+msgstr "بشكل ناري"
+
+msgid "Fieriness"
+msgstr "حرارة النار"
+
+msgid "Fiery"
+msgstr "ناري"
+
+msgid "Fiesta"
+msgstr "العيد"
+
+msgid "Fife"
+msgstr "فايف"
+
+msgid "Fifes"
+msgstr "الناي"
+
+msgid "FIFO"
+msgstr "الداخل أوّلاً، يخرج أولاً"
+
+msgid "Fifosize"
+msgstr "حجم الطابور"
+
+msgid "Fifteen"
+msgstr "خمسة عشر"
+
+msgid "Fifteens"
+msgstr "خمسة عشر (جمع)"
+
+msgid "Fifteenth"
+msgstr "خامس عشر"
+
+msgid "Fifteenthly"
+msgstr "بشكل خامس عشر"
+
+msgid "Fifteenths"
+msgstr "خامس عشر (جمع)"
+
+msgid "Fifth"
+msgstr "الخمس"
+
+msgid "Fifthly"
+msgstr "خامسا"
+
+msgid "Fifths"
+msgstr "الأخماس"
+
+msgid "Fifties"
+msgstr "الخمسينات"
+
+msgid "Fiftieth"
+msgstr "خمسون"
+
+msgid "Fifty"
+msgstr "خمسون"
+
+msgid "Fiftyfifty"
+msgstr "مناصفة"
+
+msgid "Fig"
+msgstr "التينة"
+
+msgid "Figaro"
+msgstr "فيجارو"
+
+msgid "Fight"
+msgstr "المعركة"
+
+msgid "Fighter"
+msgstr "المقاتل"
+
+msgid "Fighters"
+msgstr "المقاتلون"
+
+msgid "Fighting"
+msgstr "القتال"
+
+msgid "Fightings"
+msgstr "القتال"
+
+msgid "Fights"
+msgstr "القتال"
+
+msgid "Figment"
+msgstr "التلفيق"
+
+msgid "Figments"
+msgstr "التلفيق"
+
+msgid "Figs"
+msgstr "التين"
+
+msgid "Figural"
+msgstr "مجازيّ"
+
+msgid "Figurate"
+msgstr "ذو شكل محدد"
+
+msgid "Figuration"
+msgstr "التشكيل"
+
+msgid "Figurative"
+msgstr "رمزي"
+
+msgid "Figuratively"
+msgstr "مجازيا"
+
+msgid "Figurativeness"
+msgstr "النموذجية"
+
+msgid "Figure"
+msgstr "الرقم"
+
+msgid "Figure skating"
+msgstr "رياضة التزحلق على الجليد"
+
+msgid "Figured"
+msgstr "مصوّر"
+
+msgid "Figurehead"
+msgstr "الرمز"
+
+msgid "Figurer"
+msgstr "خبير في الحساب"
+
+msgid "Figures"
+msgstr "الأرقام"
+
+msgid "Figurine"
+msgstr "التمثال"
+
+msgid "Figurines"
+msgstr "التماثيل"
+
+msgid "Figuring"
+msgstr "الإعتقاد"
+
+msgid "Fiji"
+msgstr "فيجي"
+
+msgid "Filament"
+msgstr "الشعيرة"
+
+msgid "Filamentary"
+msgstr "شعيري"
+
+msgid "Filamentous"
+msgstr "شعيري"
+
+msgid "Filaments"
+msgstr "الشعيرات"
+
+msgid "Filbert"
+msgstr "البندقة"
+
+msgid "Filberts"
+msgstr "البندق"
+
+msgid "Filch"
+msgstr "إسرق"
+
+msgid "Filched"
+msgstr "مسروق"
+
+msgid "Filcher"
+msgstr "لص"
+
+msgid "Filchers"
+msgstr "لصوص"
+
+msgid "Filches"
+msgstr "يسرق"
+
+msgid "Filching"
+msgstr "السرقة"
+
+msgid "File"
+msgstr "الملف"
+
+msgid "File-oriented"
+msgstr "موجه ملف"
+
+msgid "File-size"
+msgstr "بحجم ملف"
+
+msgid "Filed"
+msgstr "محفوظ"
+
+msgid "Filename"
+msgstr "اسم الملف"
+
+msgid "Filenames"
+msgstr "أسماء الملفات"
+
+msgid "FileQuit"
+msgstr "ملفخروج"
+
+msgid "Filer"
+msgstr "منظّم الملفّات"
+
+msgid "Filers"
+msgstr "منظمو الملفات"
+
+msgid "Files"
+msgstr "الملفات"
+
+msgid "Filesystem"
+msgstr "نظام ملفات"
+
+msgid "Filesystems"
+msgstr "أنظمة الملفات"
+
+msgid "Filet"
+msgstr "الشريحة"
+
+msgid "Filets"
+msgstr "الشرائح"
+
+msgid "Filial"
+msgstr "بنوي"
+
+msgid "Filially"
+msgstr "بشكل بنوي"
+
+msgid "Filibuster"
+msgstr "المماطلة السياسية"
+
+msgid "Filibustered"
+msgstr "عطّل"
+
+msgid "Filibusterer"
+msgstr "الثّوريّ"
+
+msgid "Filibustering"
+msgstr "التّعطيل"
+
+msgid "Filibusters"
+msgstr "المماطلات السياسية"
+
+msgid "Filigree"
+msgstr "الصياغة التخريمية"
+
+msgid "Filigreed"
+msgstr "زيّن"
+
+msgid "Filing"
+msgstr "التسجيل"
+
+msgid "Filings"
+msgstr "التسجيلات"
+
+msgid "Filipino"
+msgstr "الفلبيني"
+
+msgid "Filipinos"
+msgstr "الفلبينيون"
+
+msgid "Filippo"
+msgstr "فيليبو"
+
+msgid "Fill"
+msgstr "الملء"
+
+msgid "Fillable"
+msgstr "فيلابل"
+
+msgid "Filled"
+msgstr "مملوء"
+
+msgid "Filler"
+msgstr "الفيلير"
+
+msgid "Fillers"
+msgstr "الحشو"
+
+msgid "Fillet"
+msgstr "الشريحة"
+
+msgid "Filleted"
+msgstr "معصّب"
+
+msgid "Filleting"
+msgstr "التعصيب"
+
+msgid "Fillets"
+msgstr "الشرائح"
+
+msgid "Fillies"
+msgstr "المهرات"
+
+msgid "Filling"
+msgstr "الحشو"
+
+msgid "Fillings"
+msgstr "الحشوات"
+
+msgid "Fillip"
+msgstr "الحافز"
+
+msgid "Fillips"
+msgstr "الحوافز"
+
+msgid "Fillister"
+msgstr "الفرزة"
+
+msgid "Fillmore"
+msgstr "فيلمور"
+
+msgid "Fills"
+msgstr "إملأ"
+
+msgid "Filly"
+msgstr "المهرة"
+
+msgid "Film"
+msgstr "الفلم"
+
+msgid "Film-projector"
+msgstr "عارض فلم"
+
+msgid "Filmdom"
+msgstr "عالم السينما"
+
+msgid "Filmed"
+msgstr "مصوّر"
+
+msgid "Filmgoer"
+msgstr "مرتاد السينما"
+
+msgid "Filmier"
+msgstr "أكثر غشائية"
+
+msgid "Filmiest"
+msgstr "أكثر غشائية"
+
+msgid "Filmily"
+msgstr "غشائيا"
+
+msgid "Filminess"
+msgstr "سينمائي"
+
+msgid "Filming"
+msgstr "التصوير"
+
+msgid "Filmmake"
+msgstr "فيلماك"
+
+msgid "Films"
+msgstr "الأفلام"
+
+msgid "Filmstrip"
+msgstr "مقطع سينمائي"
+
+msgid "Filmstrips"
+msgstr "مقاطع سينمائية"
+
+msgid "Filmy"
+msgstr "غشائي"
+
+msgid "Filter"
+msgstr "المرشح"
+
+msgid "Filter-tip"
+msgstr "المرشح"
+
+msgid "Filtered"
+msgstr "ترشّح"
+
+msgid "Filterer"
+msgstr "المصفّي"
+
+msgid "Filtering"
+msgstr "الترشيح"
+
+msgid "Filters"
+msgstr "المرشحات"
+
+msgid "Filth"
+msgstr "القذارة"
+
+msgid "Filthier"
+msgstr "أقذر"
+
+msgid "Filthiest"
+msgstr "أقذر"
+
+msgid "Filthiness"
+msgstr "القذارة"
+
+msgid "Filthy"
+msgstr "قذر"
+
+msgid "Filtrate"
+msgstr "رشّح"
+
+msgid "Filtrated"
+msgstr "مرشّح"
+
+msgid "Filtrates"
+msgstr "يرشّح"
+
+msgid "Filtrating"
+msgstr "الترشيح"
+
+msgid "Filtration"
+msgstr "الترشيح"
+
+msgid "Filtrations"
+msgstr "الترشيح"
+
+msgid "Fin"
+msgstr "الزعنفة"
+
+msgid "Finagle"
+msgstr "يعمل بالخدعة"
+
+msgid "Finagled"
+msgstr "عمل بالخدعة"
+
+msgid "Finagles"
+msgstr "يدبّر"
+
+msgid "Finagling"
+msgstr "التّدبير"
+
+msgid "Final"
+msgstr "النهائي"
+
+msgid "Finale"
+msgstr "النهاية"
+
+msgid "Finales"
+msgstr "النهايات"
+
+msgid "Finalist"
+msgstr "المشترك في الدّور النّهائي"
+
+msgid "Finalists"
+msgstr "المشتركون في الدّور النّهائي"
+
+msgid "Finality"
+msgstr "النهائية"
+
+msgid "Finalization"
+msgstr "الإتمام"
+
+msgid "Finalize"
+msgstr "أنه"
+
+msgid "Finalized"
+msgstr "منهى"
+
+msgid "Finalizes"
+msgstr "ينهي"
+
+msgid "Finalizing"
+msgstr "الإنهاء"
+
+msgid "Finally"
+msgstr "أخيرا"
+
+msgid "Finals"
+msgstr "النهائيات"
+
+msgid "Finance"
+msgstr "المالية"
+
+msgid "Financed"
+msgstr "مموّل"
+
+msgid "Finances"
+msgstr "التمويلات"
+
+msgid "Financial"
+msgstr "مالي"
+
+msgid "Financially"
+msgstr "ماليا"
+
+msgid "Financier"
+msgstr "الخبير المالي"
+
+msgid "Financiers"
+msgstr "الخبراء الماليون"
+
+msgid "Financing"
+msgstr "التمويل"
+
+msgid "Finch"
+msgstr "فينتش"
+
+msgid "Finches"
+msgstr "طيور البرقش"
+
+msgid "Find"
+msgstr "البحث"
+
+msgid "Findable"
+msgstr "قابل للإيجاد"
+
+msgid "Finder"
+msgstr "المكتشف"
+
+msgid "Finders"
+msgstr "المكتشفون"
+
+msgid "Finding"
+msgstr "الإكتشاف"
+
+msgid "Findings"
+msgstr "النتائج"
+
+msgid "Finds"
+msgstr "الإكتشافات"
+
+msgid "Fine"
+msgstr "الغرامة"
+
+msgid "Fined"
+msgstr "مغرّم"
+
+msgid "Finely"
+msgstr "بشكل رفيع"
+
+msgid "Fineness"
+msgstr "الدقة"
+
+msgid "Finer"
+msgstr "أدق"
+
+msgid "Fineries"
+msgstr "التبرج"
+
+msgid "Finery"
+msgstr "التبرج"
+
+msgid "Fines"
+msgstr "الغرامات"
+
+msgid "Finesse"
+msgstr "البداعة"
+
+msgid "Finessed"
+msgstr "مخدوع"
+
+msgid "Finesses"
+msgstr "البداعة"
+
+msgid "Finessing"
+msgstr "الخدع"
+
+msgid "Finest"
+msgstr "أجود"
+
+msgid "Finger"
+msgstr "الإصبع"
+
+msgid "Fingerboard"
+msgstr "لوحة الأصابع"
+
+msgid "Fingerboards"
+msgstr "لوحات الأصابع"
+
+msgid "Fingered"
+msgstr "ذو أصابع"
+
+msgid "Fingerer"
+msgstr "المشير بالإصبع"
+
+msgid "Fingering"
+msgstr "الإشارة بالإصبع"
+
+msgid "Fingerings"
+msgstr "العزف باستعمال الأصابع"
+
+msgid "Fingernail"
+msgstr "الأظفر"
+
+msgid "Fingernails"
+msgstr "الأظافر"
+
+msgid "Fingerpost"
+msgstr "المؤشر الأصبعي"
+
+msgid "Fingerposts"
+msgstr "المؤشرات الأصبعية"
+
+msgid "Fingerprint"
+msgstr "بصمة الإصبع"
+
+msgid "Fingerprinted"
+msgstr "بصم باصبعه"
+
+msgid "Fingerprinting"
+msgstr "طبع الأصابع"
+
+msgid "Fingerprints"
+msgstr "بصمات الأصابع"
+
+msgid "Fingers"
+msgstr "الأصابع"
+
+msgid "Fingertip"
+msgstr "طرف الإصبع"
+
+msgid "Fingertips"
+msgstr "أطراف الأصابع"
+
+msgid "Finial"
+msgstr "القمّة"
+
+msgid "Finical"
+msgstr "صعب"
+
+msgid "Finically"
+msgstr "بشكل صعب"
+
+msgid "Finickiness"
+msgstr "الإصرار"
+
+msgid "Finicking"
+msgstr "صعب"
+
+msgid "Finicky"
+msgstr "صعب"
+
+msgid "Finikin"
+msgstr "مشغول بكسل"
+
+msgid "Fining"
+msgstr "التغريم"
+
+msgid "Finish"
+msgstr "النهاية"
+
+msgid "Finished"
+msgstr "منتهى"
+
+msgid "Finisher"
+msgstr "المنهي"
+
+msgid "Finishers"
+msgstr "القائمون على الأعمال الختاميّة"
+
+msgid "Finishes"
+msgstr "النهايات"
+
+msgid "Finishing"
+msgstr "الإنتهاء"
+
+msgid "Finite"
+msgstr "محدود"
+
+msgid "Finitely"
+msgstr "بشكل محدود"
+
+msgid "Finiteness"
+msgstr "المحدودية"
+
+msgid "Finitude"
+msgstr "المحدودية"
+
+msgid "Fink"
+msgstr "المخبّر"
+
+msgid "Finland"
+msgstr "فلندا"
+
+msgid "Finley"
+msgstr "فينلاي"
+
+msgid "Finn"
+msgstr "الفنلندي"
+
+msgid "Finned"
+msgstr "مضروب"
+
+msgid "Finnegan"
+msgstr "فيننيجان"
+
+msgid "Finnish"
+msgstr "فلندي"
+
+msgid "Finns"
+msgstr "الفنلنديون"
+
+msgid "Finny"
+msgstr "مزعنف"
+
+msgid "Fins"
+msgstr "الزعانف"
+
+msgid "Fiorello"
+msgstr "فيوريلو"
+
+msgid "Fiori"
+msgstr "فيوري"
+
+msgid "Fir"
+msgstr "التنّوب"
+
+msgid "Fire"
+msgstr "النار"
+
+msgid "Fire department"
+msgstr "إدارة الإطفاء"
+
+msgid "Fire drill"
+msgstr "تدريبات للوقاية من الحريق"
+
+msgid "Fire-proof"
+msgstr "ضدّ الحريق"
+
+msgid "Fire-resistant"
+msgstr "مقاوم للحريق"
+
+msgid "Firearm"
+msgstr "السلاح الناري"
+
+msgid "Firearms"
+msgstr "الأسلحة النارية"
+
+msgid "Fireball"
+msgstr "الكرة النارية"
+
+msgid "Fireballs"
+msgstr "الكرات النارية"
+
+msgid "Fireboat"
+msgstr "قارب الإطفاء"
+
+msgid "Firebreak"
+msgstr "مانع إنتشار الحريق"
+
+msgid "Firebreaks"
+msgstr "موانع إنتشار الحريق"
+
+msgid "Firebug"
+msgstr "مصاب بهوس الإحراق"
+
+msgid "Firebugs"
+msgstr "مشعلو الحريق"
+
+msgid "Firecracker"
+msgstr "الطرقة"
+
+msgid "Firecrackers"
+msgstr "الطرقات"
+
+msgid "Fired"
+msgstr "مطرود"
+
+msgid "Firedamp"
+msgstr "غاز المناجم"
+
+msgid "Firedamps"
+msgstr "غازات المناجم"
+
+msgid "Firedog"
+msgstr "معدن لدعم الخشب في المدفأة الخشبية"
+
+msgid "Firedogs"
+msgstr "معادن لدعم الخشب في المدفأة الخشبية"
+
+msgid "Firedrake"
+msgstr "التّنّين النّاريّ"
+
+msgid "Firedrakes"
+msgstr "التّنّين النّاريّ"
+
+msgid "Firefight"
+msgstr "المعركة بالأسلحة النارية"
+
+msgid "Firefighters"
+msgstr "رجال الإطفاء"
+
+msgid "Firefighting"
+msgstr "مكافحة الحرائق"
+
+msgid "Firefights"
+msgstr "المعارك بالأسلحة النارية"
+
+msgid "Fireflies"
+msgstr "اليراعات"
+
+msgid "Firefly"
+msgstr "اليراع"
+
+msgid "Fireguard"
+msgstr "حاجز النار"
+
+msgid "Fireguards"
+msgstr "حواجز النار"
+
+msgid "Firehouse"
+msgstr "محطّة الإطفاء"
+
+msgid "Firehouses"
+msgstr "محطّات الإطفاء"
+
+msgid "Fireinsurance"
+msgstr "التأمين ضدّ الحريق"
+
+msgid "Fireinsurances"
+msgstr "التأمينات ضدّ الحريق"
+
+msgid "Firelight"
+msgstr "ضوء النار"
+
+msgid "Firelighter"
+msgstr "المُشْعِل"
+
+msgid "Firelighters"
+msgstr "الولّاعات"
+
+msgid "Fireman"
+msgstr "رجل الإطفاء"
+
+msgid "Firemen"
+msgstr "رجال الإطفاء"
+
+msgid "Firenew"
+msgstr "جديد"
+
+msgid "Firepan"
+msgstr "وعاء حمل الفحم"
+
+msgid "Fireplace"
+msgstr "الموقد"
+
+msgid "Fireplaces"
+msgstr "المواقد"
+
+msgid "Fireplug"
+msgstr "حنفيّة الحريق"
+
+msgid "Fireplugs"
+msgstr "حنفيّات الحريق"
+
+msgid "Firepower"
+msgstr "القوّة النارية"
+
+msgid "Fireproof"
+msgstr "ضدّ الحريق"
+
+msgid "Fireproofed"
+msgstr "جُعِل ضدّ الحريق"
+
+msgid "Fireproofing"
+msgstr "جَعَل ضدّ النلر"
+
+msgid "Fireproofs"
+msgstr "يجعل ضدّ الحريق"
+
+msgid "Firer"
+msgstr "موقد النار"
+
+msgid "Fires"
+msgstr "النيران"
+
+msgid "Firescreen"
+msgstr "حاجز النار"
+
+msgid "Firescreens"
+msgstr "حواجز النار"
+
+msgid "Fireside"
+msgstr "الموقد"
+
+msgid "Firestone"
+msgstr "فيرستون"
+
+msgid "Firetrap"
+msgstr "مانع الحريق"
+
+msgid "Firetraps"
+msgstr "موانع الحريق"
+
+msgid "Firewall"
+msgstr "برنامج الحماية"
+
+msgid "Firewater"
+msgstr "مشروب كحولي"
+
+msgid "Firewood"
+msgstr "الحطب"
+
+msgid "Firewoods"
+msgstr "الحطب"
+
+msgid "Firework"
+msgstr "الألعاب النارية"
+
+msgid "Fireworks"
+msgstr "الألعاب النارية"
+
+msgid "Firing"
+msgstr "إطلاق النار"
+
+msgid "Firings"
+msgstr "إطلاق النار"
+
+msgid "Firkin"
+msgstr "ربع البرميل"
+
+msgid "Firkins"
+msgstr "أرباع البرميل"
+
+msgid "Firm"
+msgstr "الشركة"
+
+msgid "Firmament"
+msgstr "السماء"
+
+msgid "Firmaments"
+msgstr "السماوات"
+
+msgid "Firmed"
+msgstr "مُحْكم"
+
+msgid "Firmer"
+msgstr "أقوى"
+
+msgid "Firmest"
+msgstr "أقوى"
+
+msgid "Firming"
+msgstr "الإحكام"
+
+msgid "Firmly"
+msgstr "بحزم"
+
+msgid "Firmness"
+msgstr "الحزم"
+
+msgid "Firms"
+msgstr "الشركات"
+
+msgid "Firmware"
+msgstr "البرنامج الدائم"
+
+msgid "Firmwares"
+msgstr "البرامج الدائمة"
+
+msgid "Firs"
+msgstr "التنّوب"
+
+msgid "First"
+msgstr "أولا"
+
+msgid "First-class"
+msgstr "الدرجة الأولى"
+
+msgid "First-rate"
+msgstr "الدرجة الأولى"
+
+msgid "Firsthand"
+msgstr "من المصدر الأصلي"
+
+msgid "Firstling"
+msgstr "البِكْر"
+
+msgid "Firstlings"
+msgstr "الباكورة"
+
+msgid "Firstly"
+msgstr "أولا"
+
+msgid "Firth"
+msgstr "الخور"
+
+msgid "Firths"
+msgstr "الخوران"
+
+msgid "Fiscal"
+msgstr "مالي"
+
+msgid "Fiscally"
+msgstr "بشكل مالي"
+
+msgid "Fischbein"
+msgstr "فيسكبين"
+
+msgid "Fischer"
+msgstr "فيشير"
+
+msgid "Fish"
+msgstr "السمك"
+
+msgid "Fishbone"
+msgstr "عظم السمكة"
+
+msgid "Fishbones"
+msgstr "علاج إشعاعي"
+
+msgid "Fished"
+msgstr "مصيد"
+
+msgid "Fisher"
+msgstr "فيشر"
+
+msgid "Fisheries"
+msgstr "الثروات السمكية"
+
+msgid "Fisherman"
+msgstr "صيّاد السمك"
+
+msgid "Fishermen"
+msgstr "صيّادو السمك"
+
+msgid "Fishers"
+msgstr "فيشيرز"
+
+msgid "Fishery"
+msgstr "محل الأسماك"
+
+msgid "Fishes"
+msgstr "الأسماك"
+
+msgid "Fishhook"
+msgstr "الخطّاف"
+
+msgid "Fishhooks"
+msgstr "الخطّافات"
+
+msgid "Fishier"
+msgstr "مريب"
+
+msgid "Fishiness"
+msgstr "الريبة"
+
+msgid "Fishing"
+msgstr "صيد السمك"
+
+msgid "Fishkill"
+msgstr "فيشكيل"
+
+msgid "Fishmeal"
+msgstr "فيشميل"
+
+msgid "Fishmonger"
+msgstr "بائع السمك"
+
+msgid "Fishmongers"
+msgstr "باعة السمك"
+
+msgid "Fishnet"
+msgstr "شبكة صيد السمك"
+
+msgid "Fishplate"
+msgstr "ماسكة القضبان"
+
+msgid "Fishplates"
+msgstr "ماسكة القضبان"
+
+msgid "Fishpond"
+msgstr "بركة السمك"
+
+msgid "Fishtail"
+msgstr "ذيل السمكة"
+
+msgid "Fishwives"
+msgstr "بائعات السمك"
+
+msgid "Fishwoman"
+msgstr "بائعة السمك"
+
+msgid "Fishwomen"
+msgstr "بائعات السمك"
+
+msgid "Fishy"
+msgstr "مريب"
+
+msgid "Fisk"
+msgstr "فيسك"
+
+msgid "Fiske"
+msgstr "فيسك - فيلسوف و مؤرّخ أمريكيّ"
+
+msgid "Fissile"
+msgstr "إنشطاري"
+
+msgid "Fissility"
+msgstr "قابليّة الانشطار"
+
+msgid "Fission"
+msgstr "الإنفلاق"
+
+msgid "Fissionability"
+msgstr "فيسشنابيليتي"
+
+msgid "Fissionable"
+msgstr "إنشطاري"
+
+msgid "Fissioned"
+msgstr "إنشطر"
+
+msgid "Fissioning"
+msgstr "الإنشطار"
+
+msgid "Fissions"
+msgstr "الإنفلاقات"
+
+msgid "Fissure"
+msgstr "الشقّ"
+
+msgid "Fissured"
+msgstr "منشقّ"
+
+msgid "Fissures"
+msgstr "الشقوق"
+
+msgid "Fissuring"
+msgstr "الإنشقاق"
+
+msgid "Fist"
+msgstr "القبضة"
+
+msgid "Fisted"
+msgstr "الإطباق في قبضة"
+
+msgid "Fistfight"
+msgstr "ملاكمة بالأيدي"
+
+msgid "Fistfights"
+msgstr "ملاكمات بالأيدي"
+
+msgid "Fistful"
+msgstr "القبضة"
+
+msgid "Fisticuff"
+msgstr "ملاكمة بالأيدي"
+
+msgid "Fisticuffs"
+msgstr "الملاكمة"
+
+msgid "Fists"
+msgstr "القبضات"
+
+msgid "Fistula"
+msgstr "الناسور"
+
+msgid "Fistulas"
+msgstr "النواسير"
+
+msgid "Fit"
+msgstr "النوبة"
+
+msgid "Fitch"
+msgstr "فيتش"
+
+msgid "Fitchburg"
+msgstr "فيتشبيرغ"
+
+msgid "Fitful"
+msgstr "متقطع"
+
+msgid "Fitfully"
+msgstr "بشكل متقطع"
+
+msgid "Fitfulness"
+msgstr "التّقلّب"
+
+msgid "Fitly"
+msgstr "بشكل لائق"
+
+msgid "Fitment"
+msgstr "الإعداد"
+
+msgid "Fitness"
+msgstr "اللياقة"
+
+msgid "Fitnesses"
+msgstr "اللياقات"
+
+msgid "Fits"
+msgstr "النوبات"
+
+msgid "Fitted"
+msgstr "ملائم"
+
+msgid "Fitter"
+msgstr "الميكانيكي"
+
+msgid "Fitters"
+msgstr "الميكانيكيون"
+
+msgid "Fittest"
+msgstr "أصلح"
+
+msgid "Fitting"
+msgstr "التركيب"
+
+msgid "Fittingly"
+msgstr "بشكل ملائم"
+
+msgid "Fittingness"
+msgstr "الملائمة"
+
+msgid "Fittings"
+msgstr "التركيبات"
+
+msgid "Fittness"
+msgstr "فيتنيس"
+
+msgid "Fitzgerald"
+msgstr "فيزجيرالد"
+
+msgid "Fitzpatrick"
+msgstr "فيزباتريك"
+
+msgid "Fitzroy"
+msgstr "فيزروي"
+
+msgid "Five"
+msgstr "خمسة"
+
+msgid "Fivefold"
+msgstr "خمسة أضعاف"
+
+msgid "Fiver"
+msgstr "الخمسة باونات"
+
+msgid "Fives"
+msgstr "الخمسات"
+
+msgid "Fix"
+msgstr "المأزق"
+
+msgid "Fixable"
+msgstr "قابل للتثبيت"
+
+msgid "Fixate"
+msgstr "ثبّت"
+
+msgid "Fixated"
+msgstr "مثبّت"
+
+msgid "Fixates"
+msgstr "يثبّت"
+
+msgid "Fixating"
+msgstr "التثبيت"
+
+msgid "Fixation"
+msgstr "العقد"
+
+msgid "Fixations"
+msgstr "التّعلّقات"
+
+msgid "Fixative"
+msgstr "مثبّت"
+
+msgid "Fixatives"
+msgstr "المثبتات"
+
+msgid "Fixed"
+msgstr "ثابت"
+
+msgid "Fixed-disk"
+msgstr "ثابت القرص"
+
+msgid "Fixed-image"
+msgstr "ثابت الصورة"
+
+msgid "Fixed-point"
+msgstr "النقطة الثابتة"
+
+msgid "Fixedly"
+msgstr "بشكل ثابت"
+
+msgid "Fixedness"
+msgstr "الإصلاح"
+
+msgid "Fixer"
+msgstr "المثبّت"
+
+msgid "Fixers"
+msgstr "المثبّتون"
+
+msgid "Fixes"
+msgstr "المآزق"
+
+msgid "Fixing"
+msgstr "التثبيت"
+
+msgid "Fixings"
+msgstr "المثبّتات"
+
+msgid "Fixity"
+msgstr "الثبات"
+
+msgid "Fixture"
+msgstr "الحاجة"
+
+msgid "Fixtures"
+msgstr "الأثاث"
+
+msgid "Fixup"
+msgstr "إصلاحات"
+
+msgid "Fizeau"
+msgstr "فيزيو - فيزيائيّ فرنسيّ"
+
+msgid "Fizz"
+msgstr "الفوران"
+
+msgid "Fizzed"
+msgstr "مفار"
+
+msgid "Fizzer"
+msgstr "الحدث الفاشل"
+
+msgid "Fizzes"
+msgstr "الأزيز"
+
+msgid "Fizzing"
+msgstr "الفوران"
+
+msgid "Fizzle"
+msgstr "أخفق"
+
+msgid "Fizzled"
+msgstr "مخفق"
+
+msgid "Fizzles"
+msgstr "يخفق"
+
+msgid "Fizzling"
+msgstr "الإخفاق"
+
+msgid "Fizzy"
+msgstr "هسّاس"
+
+msgid "Fjord"
+msgstr "المضيق"
+
+msgid "Fjords"
+msgstr "المضايق"
+
+msgid "FL"
+msgstr "فلوريدا"
+
+msgid "Flab"
+msgstr "فلاب"
+
+msgid "Flabbergast"
+msgstr "إندهش"
+
+msgid "Flabbergasted"
+msgstr "مندهش"
+
+msgid "Flabbergasting"
+msgstr "الإندهاش"
+
+msgid "Flabbergastingly"
+msgstr "بذهول"
+
+msgid "Flabbergasts"
+msgstr "يندهش"
+
+msgid "Flabbier"
+msgstr "أكثر ترهّلا"
+
+msgid "Flabbiest"
+msgstr "أكثر ترهّلا"
+
+msgid "Flabbiness"
+msgstr "الترهل"
+
+msgid "Flabby"
+msgstr "مترهل"
+
+msgid "Flaccid"
+msgstr "مترهل"
+
+msgid "Flaccidity"
+msgstr "التهاون"
+
+msgid "Flaccidly"
+msgstr "بشكل مترهل"
+
+msgid "Flaccidness"
+msgstr "الليونة"
+
+msgid "Flack"
+msgstr "فلاك"
+
+msgid "Flacker"
+msgstr "المتحرك بسرعة"
+
+msgid "Flacon"
+msgstr "القنّينة"
+
+msgid "Flag"
+msgstr "العلم"
+
+msgid "Flagellate"
+msgstr "سوطي"
+
+msgid "Flagellated"
+msgstr "مجلود"
+
+msgid "Flagellates"
+msgstr "يجلد"
+
+msgid "Flagellating"
+msgstr "الجلد"
+
+msgid "Flagellation"
+msgstr "الجلد"
+
+msgid "Flagellations"
+msgstr "الجلد"
+
+msgid "Flageolet"
+msgstr "الناي"
+
+msgid "Flagged"
+msgstr "مأشّر"
+
+msgid "Flagging"
+msgstr "التأشير"
+
+msgid "Flaggingly"
+msgstr "بشكل ضعيف"
+
+msgid "Flaggings"
+msgstr "التأشير"
+
+msgid "Flagitious"
+msgstr "أثيم"
+
+msgid "Flagitiously"
+msgstr "بشكل أثيم"
+
+msgid "Flagler"
+msgstr "فلاجلر"
+
+msgid "Flagman"
+msgstr "حامل الراية"
+
+msgid "Flagmen"
+msgstr "رجال الراية"
+
+msgid "Flagon"
+msgstr "الإبريق"
+
+msgid "Flagons"
+msgstr "الإباريق"
+
+msgid "Flagpole"
+msgstr "سارية العلم"
+
+msgid "Flagpoles"
+msgstr "ساريات العلم"
+
+msgid "Flagrance"
+msgstr "سيّئ جداً"
+
+msgid "Flagrancy"
+msgstr "الشناعة"
+
+msgid "Flagrant"
+msgstr "صارخ"
+
+msgid "Flagrantly"
+msgstr "بشكل صارخ"
+
+msgid "Flags"
+msgstr "الأعلام"
+
+msgid "Flagship"
+msgstr "سفينة القائد"
+
+msgid "Flagships"
+msgstr "سفن القادة"
+
+msgid "Flagstaff"
+msgstr "سارية العلم"
+
+msgid "Flagstaffs"
+msgstr "ساريات العلم"
+
+msgid "Flagstone"
+msgstr "البلاطة"
+
+msgid "Flagstones"
+msgstr "البلاط"
+
+msgid "Flail"
+msgstr "المدراس"
+
+msgid "Flailed"
+msgstr "مضروب"
+
+msgid "Flailing"
+msgstr "الضرب"
+
+msgid "Flails"
+msgstr "المدراسات"
+
+msgid "Flair"
+msgstr "الذوق"
+
+msgid "Flak"
+msgstr "الإنتقاد"
+
+msgid "Flake"
+msgstr "الرقاقة"
+
+msgid "Flaked"
+msgstr "متقشّر"
+
+msgid "Flaker"
+msgstr "فلاكير"
+
+msgid "Flakes"
+msgstr "الرقائق"
+
+msgid "Flakier"
+msgstr "أخفّ"
+
+msgid "Flakiest"
+msgstr "أخفّ"
+
+msgid "Flakiness"
+msgstr "الهشاشة"
+
+msgid "Flaking"
+msgstr "التقشير"
+
+msgid "Flaky"
+msgstr "مقشّر"
+
+msgid "Flam"
+msgstr "الأكذوبة"
+
+msgid "Flambeau"
+msgstr "الشعلة"
+
+msgid "Flambeaus"
+msgstr "الشعلة"
+
+msgid "Flambeaux"
+msgstr "الشعلات"
+
+msgid "Flamboyant"
+msgstr "مبهرج"
+
+msgid "Flamboyantly"
+msgstr "بشكل مبهرج"
+
+msgid "Flame"
+msgstr "اللهب"
+
+msgid "Flamed"
+msgstr "ملتهب"
+
+msgid "Flamen"
+msgstr "فلامين"
+
+msgid "Flameproof"
+msgstr "مضادّ للّهب"
+
+msgid "Flamer"
+msgstr "المشعل"
+
+msgid "Flamers"
+msgstr "المشعلات"
+
+msgid "Flames"
+msgstr "النيران"
+
+msgid "Flamethrower"
+msgstr "قاذف اللهب"
+
+msgid "Flamethrowers"
+msgstr "قاذفات اللهب"
+
+msgid "Flaming"
+msgstr "الغضب"
+
+msgid "Flamingly"
+msgstr "بشكل ملتهب"
+
+msgid "Flamingo"
+msgstr "النحام"
+
+msgid "Flammability"
+msgstr "قابليّة للاشتعال"
+
+msgid "Flammable"
+msgstr "قابل للإشتعال"
+
+msgid "Flan"
+msgstr "الفطيرة"
+
+msgid "Flanagan"
+msgstr "فلانجان"
+
+msgid "Flanders"
+msgstr "فلانديرز"
+
+msgid "Flange"
+msgstr "الحافة"
+
+msgid "Flanged"
+msgstr "مشفّه"
+
+msgid "Flanges"
+msgstr "الحافات"
+
+msgid "Flanging"
+msgstr "التشفيه"
+
+msgid "Flank"
+msgstr "الجناح"
+
+msgid "Flanked"
+msgstr "محاط"
+
+msgid "Flanker"
+msgstr "حامي جناح الجيش"
+
+msgid "Flankers"
+msgstr "حماة جناح الجيش"
+
+msgid "Flanking"
+msgstr "الإحاطة"
+
+msgid "Flanks"
+msgstr "الأجنحة"
+
+msgid "Flannel"
+msgstr "الفانيلا"
+
+msgid "Flannels"
+msgstr "الفانيلات"
+
+msgid "Flans"
+msgstr "الفطائر"
+
+msgid "Flap"
+msgstr "اللوحة"
+
+msgid "Flapdoodle"
+msgstr "الهراء"
+
+msgid "Flapjacks"
+msgstr "الكعك"
+
+msgid "Flapped"
+msgstr "خافق"
+
+msgid "Flapper"
+msgstr "الزعنفة"
+
+msgid "Flappers"
+msgstr "الزعانف"
+
+msgid "Flapping"
+msgstr "الخفقان"
+
+msgid "Flaps"
+msgstr "اللوحات"
+
+msgid "Flare"
+msgstr "الشعلة الضوئية"
+
+msgid "Flared"
+msgstr "متوهّج"
+
+msgid "Flares"
+msgstr "الشعلات الضوئية"
+
+msgid "Flaring"
+msgstr "الإندلاع"
+
+msgid "Flaringly"
+msgstr "بشكل مندلع"
+
+msgid "Flash"
+msgstr "الوميض"
+
+msgid "Flashback"
+msgstr "الإرتجاع"
+
+msgid "Flashbacks"
+msgstr "الإرتجاع"
+
+msgid "Flashbulb"
+msgstr "ضوء الكاميرا"
+
+msgid "Flashbulbs"
+msgstr "أضوية الكاميرات"
+
+msgid "Flashcube"
+msgstr "الفلاش"
+
+msgid "Flashcubes"
+msgstr "الفلاشات"
+
+msgid "Flashed"
+msgstr "مومض"
+
+msgid "Flasher"
+msgstr "الومّاض، المتعرّي"
+
+msgid "Flashers"
+msgstr "الومّاضات، المتعرّون"
+
+msgid "Flashes"
+msgstr "الومضات"
+
+msgid "Flashier"
+msgstr "أكثر بهرجة"
+
+msgid "Flashiest"
+msgstr "أكثر بهرجة"
+
+msgid "Flashily"
+msgstr "بشكل مبهرج"
+
+msgid "Flashiness"
+msgstr "البهرجة"
+
+msgid "Flashing"
+msgstr "اللمعان"
+
+msgid "Flashlight"
+msgstr "المصباح الكاشف"
+
+msgid "Flashlights"
+msgstr "المصابيح الكاشفة"
+
+msgid "Flashover"
+msgstr "ومضة  كهربائيّة"
+
+msgid "Flashovers"
+msgstr "ومضات  كهربائيّة"
+
+msgid "Flashy"
+msgstr "مبهرج"
+
+msgid "Flask"
+msgstr "القارورة"
+
+msgid "Flasks"
+msgstr "القوارير"
+
+msgid "Flat"
+msgstr "الشقّة"
+
+msgid "Flatbed"
+msgstr "الشّاحنة المسطّحة"
+
+msgid "Flatcar"
+msgstr "الشّاحنة المكشوفة"
+
+msgid "Flatcars"
+msgstr "الشّاحنات المكشوفة"
+
+msgid "Flatfoot"
+msgstr "الرجل المسطّحة"
+
+msgid "Flatfoots"
+msgstr "الأرجل المسطّحة"
+
+msgid "Flathead"
+msgstr "فاتهيد - قبيلة هندية"
+
+msgid "Flatiron"
+msgstr "المكواة"
+
+msgid "Flatirons"
+msgstr "المكاوي"
+
+msgid "Flatland"
+msgstr "الأرض المسطّحة"
+
+msgid "Flatlander"
+msgstr "الأرض المسطّحة"
+
+msgid "Flatlands"
+msgstr "الأرض المسطّحة"
+
+msgid "Flatlet"
+msgstr "شقّة صغيرة "
+
+msgid "Flatlets"
+msgstr "شقق صغيرة"
+
+msgid "Flatly"
+msgstr "بشكل قاطع"
+
+msgid "Flatness"
+msgstr "فلاتنيس"
+
+msgid "Flats"
+msgstr "الشقق"
+
+msgid "Flatten"
+msgstr "سطّح"
+
+msgid "Flattened"
+msgstr "مسطّح"
+
+msgid "Flattener"
+msgstr "فلاتينير"
+
+msgid "Flattening"
+msgstr "التسطيح"
+
+msgid "Flattens"
+msgstr "يسطّح"
+
+msgid "Flatter"
+msgstr "الغرور"
+
+msgid "Flattered"
+msgstr "مغرى"
+
+msgid "Flatterer"
+msgstr "المتزلّف"
+
+msgid "Flatterers"
+msgstr "المتزلّفون"
+
+msgid "Flatteries"
+msgstr "التّملّق"
+
+msgid "Flattering"
+msgstr "الإغراء"
+
+msgid "Flatteringly"
+msgstr "بتملّق"
+
+msgid "Flatters"
+msgstr "يغري"
+
+msgid "Flattery"
+msgstr "التملّق"
+
+msgid "Flattest"
+msgstr "أكثر تسطّحا"
+
+msgid "Flattish"
+msgstr "نوعا ما مسطّح"
+
+msgid "Flattop"
+msgstr "الشعر القصير"
+
+msgid "Flattops"
+msgstr "الشعور القصيرة"
+
+msgid "Flatulence"
+msgstr "إنتفاخ البطن"
+
+msgid "Flatulences"
+msgstr "إنتفاخ البطن"
+
+msgid "Flatulencies"
+msgstr "الانتفاخات"
+
+msgid "Flatulency"
+msgstr "الانتفاخ"
+
+msgid "Flatulent"
+msgstr "منتفخ"
+
+msgid "Flatulently"
+msgstr "بشكل منتفخ"
+
+msgid "Flatus"
+msgstr "الغازات"
+
+msgid "Flatware"
+msgstr "مكونات المائدة"
+
+msgid "Flatworm"
+msgstr "الدودة السطحية"
+
+msgid "Flaunt"
+msgstr "المباهاة"
+
+msgid "Flaunted"
+msgstr "متكبّر"
+
+msgid "Flaunting"
+msgstr "التكبّر"
+
+msgid "Flauntingly"
+msgstr "بكبرياء"
+
+msgid "Flaunts"
+msgstr "يتكبّر"
+
+msgid "Flaunty"
+msgstr "فلونتي"
+
+msgid "Flautist"
+msgstr "عازف الفلوت"
+
+msgid "Flavor"
+msgstr "النكهة"
+
+msgid "Flavored"
+msgstr "منكّه"
+
+msgid "Flavorer"
+msgstr "بطعم"
+
+msgid "Flavorful"
+msgstr "لذيذ"
+
+msgid "Flavorfully"
+msgstr "بشكل لذيذ"
+
+msgid "Flavoring"
+msgstr "النكهة"
+
+msgid "Flavorings"
+msgstr "النكهات"
+
+msgid "Flavorless"
+msgstr "بلا طعم"
+
+msgid "Flavors"
+msgstr "النكهات"
+
+msgid "Flavour"
+msgstr "النكهة"
+
+msgid "Flavoured"
+msgstr "منكّه"
+
+msgid "Flavourless"
+msgstr "سيء الطعم"
+
+msgid "Flavours"
+msgstr "النكهات"
+
+msgid "Flaw"
+msgstr "العيب"
+
+msgid "Flawed"
+msgstr "خاطئ"
+
+msgid "Flawing"
+msgstr "الكسر"
+
+msgid "Flawless"
+msgstr "لا عيب فيه"
+
+msgid "Flawlessly"
+msgstr "دون عيب"
+
+msgid "Flawlessness"
+msgstr "السلامة"
+
+msgid "Flaws"
+msgstr "العيوب"
+
+msgid "Flawy"
+msgstr "معيوب"
+
+msgid "Flax"
+msgstr "الكتان"
+
+msgid "Flaxen"
+msgstr "كتّاني"
+
+msgid "Flaxseed"
+msgstr "حبْ الكتّان"
+
+msgid "Flaxy"
+msgstr "كتاني"
+
+msgid "Flay"
+msgstr "إسلخ"
+
+msgid "Flayed"
+msgstr "مسلوخ"
+
+msgid "Flaying"
+msgstr "السلخ"
+
+msgid "Flays"
+msgstr "يسلخ"
+
+msgid "Flea"
+msgstr "البرغوث"
+
+msgid "Fleabane"
+msgstr "فلي بين"
+
+msgid "Fleam"
+msgstr "المشرط"
+
+msgid "Fleams"
+msgstr "المشارط"
+
+msgid "Fleas"
+msgstr "البراغيث"
+
+msgid "Fleawort"
+msgstr "فلي وورت (عشب طبّي)"
+
+msgid "Fleck"
+msgstr "البقعة"
+
+msgid "Flecked"
+msgstr "منقّط"
+
+msgid "Flecker"
+msgstr "يبقّع"
+
+msgid "Fleckered"
+msgstr "مبقّع"
+
+msgid "Fleckers"
+msgstr "البقع"
+
+msgid "Flecking"
+msgstr "التنقيط"
+
+msgid "Fleckless"
+msgstr "نظيف"
+
+msgid "Flecks"
+msgstr "البقع"
+
+msgid "Flection"
+msgstr "الثّني"
+
+msgid "Flectional"
+msgstr "إنثنائي"
+
+msgid "Flections"
+msgstr "إنثناءات"
+
+msgid "Fled"
+msgstr "هرب"
+
+msgid "Fledge"
+msgstr "ريّش"
+
+msgid "Fledged"
+msgstr "مريّش"
+
+msgid "Fledgeless"
+msgstr "بلا ريش"
+
+msgid "Fledgeling"
+msgstr "الفرخ"
+
+msgid "Fledgelings"
+msgstr "الفراخ"
+
+msgid "Fledges"
+msgstr "يريّش"
+
+msgid "Fledging"
+msgstr "الترييش"
+
+msgid "Fledgling"
+msgstr "الفرخ"
+
+msgid "Fledglings"
+msgstr "الفراخ"
+
+msgid "Flee"
+msgstr "إهرب"
+
+msgid "Fleece"
+msgstr "الصوف"
+
+msgid "Fleeced"
+msgstr "مجزوز"
+
+msgid "Fleeces"
+msgstr "الأصواف"
+
+msgid "Fleecier"
+msgstr "ناعم"
+
+msgid "Fleeciest"
+msgstr "ناعم"
+
+msgid "Fleecily"
+msgstr "مغطى بالصوف"
+
+msgid "Fleecing"
+msgstr "الجزّ"
+
+msgid "Fleecy"
+msgstr "ناعم"
+
+msgid "Fleed"
+msgstr "فليد"
+
+msgid "Fleeing"
+msgstr "الهروب"
+
+msgid "Fleer"
+msgstr "السخرية"
+
+msgid "Flees"
+msgstr "يهرب"
+
+msgid "Fleet"
+msgstr "الأسطول"
+
+msgid "Fleetest"
+msgstr "سريع"
+
+msgid "Fleeting"
+msgstr "الإنطلاق"
+
+msgid "Fleetingly"
+msgstr "زائلا"
+
+msgid "Fleetingness"
+msgstr "البقاء القصير"
+
+msgid "Fleetly"
+msgstr "بشكل سريع"
+
+msgid "Fleetness"
+msgstr "السرعة"
+
+msgid "Fleets"
+msgstr "الأساطيل"
+
+msgid "Fleischman"
+msgstr "فليشمان"
+
+msgid "Fleisher"
+msgstr "فليشر"
+
+msgid "Fleming"
+msgstr "الفلاندري"
+
+msgid "Flemings"
+msgstr "الفلمنجيون"
+
+msgid "Flemish"
+msgstr "فلمنكي"
+
+msgid "Flesh"
+msgstr "اللحم"
+
+msgid "Fleshed"
+msgstr "سمين"
+
+msgid "Flesher"
+msgstr "الجزار"
+
+msgid "Fleshes"
+msgstr "اللحوم"
+
+msgid "Fleshier"
+msgstr "سمين"
+
+msgid "Fleshiest"
+msgstr "سمين"
+
+msgid "Fleshiness"
+msgstr "السمنة"
+
+msgid "Fleshing"
+msgstr "التغذية باللحم"
+
+msgid "Fleshings"
+msgstr "بنطلونات بلون اللحم"
+
+msgid "Fleshless"
+msgstr "هزيل"
+
+msgid "Fleshlier"
+msgstr "جسدي"
+
+msgid "Fleshliest"
+msgstr "جسدي"
+
+msgid "Fleshling"
+msgstr "الحسّيّ"
+
+msgid "Fleshly"
+msgstr "جسدي"
+
+msgid "Fleshy"
+msgstr "سمين"
+
+msgid "Fletch"
+msgstr "جهّز بريش"
+
+msgid "Fletched"
+msgstr "مجهّز بريش"
+
+msgid "Fletcher"
+msgstr "صانع السهام"
+
+msgid "Fletches"
+msgstr "يجهّز بريش"
+
+msgid "Fletching"
+msgstr "الرّيش على السهم"
+
+msgid "Fletchings"
+msgstr "الرّيش على السهم"
+
+msgid "Flew"
+msgstr "طار"
+
+msgid "Flews"
+msgstr "الشّفة العليا"
+
+msgid "Flex"
+msgstr "العطف"
+
+msgid "Flexed"
+msgstr "مثني"
+
+msgid "Flexes"
+msgstr "العطف"
+
+msgid "Flexibilities"
+msgstr "المرونة"
+
+msgid "Flexibility"
+msgstr "المرونة"
+
+msgid "Flexible"
+msgstr "مرن"
+
+msgid "Flexibleness"
+msgstr "المرونة"
+
+msgid "Flexibly"
+msgstr "بمرونة"
+
+msgid "Flexile"
+msgstr "مرن"
+
+msgid "Flexilely"
+msgstr "بشكل مرن"
+
+msgid "Flexing"
+msgstr "الثناء"
+
+msgid "Flexion"
+msgstr "الإنحناء"
+
+msgid "Flexional"
+msgstr "مرن"
+
+msgid "Flexions"
+msgstr "الإنحناءات"
+
+msgid "Flexor"
+msgstr "العضلة القابضة"
+
+msgid "Flexors"
+msgstr "العضلات القابضة"
+
+msgid "Flextime"
+msgstr "أوقات العمل المرنة"
+
+msgid "Flexuose"
+msgstr "متعرّج"
+
+msgid "Flexuosity"
+msgstr "التّعرّج"
+
+msgid "Flexuous"
+msgstr "مرن"
+
+msgid "Flexural"
+msgstr "تعرّجي"
+
+msgid "Flexure"
+msgstr "الانثناء"
+
+msgid "Flick"
+msgstr "النقرة"
+
+msgid "Flicked"
+msgstr "حرّك"
+
+msgid "Flicker"
+msgstr "الرجفة"
+
+msgid "Flickered"
+msgstr "مومض"
+
+msgid "Flickering"
+msgstr "الإيماض"
+
+msgid "Flickeringly"
+msgstr "بصورة مضطربة"
+
+msgid "Flickers"
+msgstr "الرجفات"
+
+msgid "Flicking"
+msgstr "التحريك"
+
+msgid "Flicks"
+msgstr "النقر"
+
+msgid "Flier"
+msgstr "الطيّار"
+
+msgid "Fliers"
+msgstr "الطيّارون"
+
+msgid "Flies"
+msgstr "الذباب"
+
+msgid "Flight"
+msgstr "الطيران"
+
+msgid "Flightier"
+msgstr "أكثر طيشا"
+
+msgid "Flightiest"
+msgstr "أكثر طيشا"
+
+msgid "Flightiness"
+msgstr "التقلّب"
+
+msgid "Flightless"
+msgstr "لا يطير"
+
+msgid "Flightlessly"
+msgstr "بشكل لا يطير"
+
+msgid "Flights"
+msgstr "الرحلات"
+
+msgid "Flighty"
+msgstr "طائش"
+
+msgid "Flimsier"
+msgstr "أضعف"
+
+msgid "Flimsies"
+msgstr "رقيق"
+
+msgid "Flimsiest"
+msgstr "أضعف"
+
+msgid "Flimsiness"
+msgstr "الضعف"
+
+msgid "Flimsy"
+msgstr "ضعيف"
+
+msgid "Flinch"
+msgstr "الجفلة"
+
+msgid "Flinched"
+msgstr "جافل"
+
+msgid "Flincher"
+msgstr "المنتفض"
+
+msgid "Flinches"
+msgstr "الجفلات"
+
+msgid "Flinching"
+msgstr "الجفل"
+
+msgid "Flinchingly"
+msgstr "باجفال"
+
+msgid "Fling"
+msgstr "العلاقة المؤقّتة"
+
+msgid "Flinger"
+msgstr "السّاخر"
+
+msgid "Flinging"
+msgstr "الرمي"
+
+msgid "Flings"
+msgstr "العلاقات مؤقّتة"
+
+msgid "Flint"
+msgstr "الصوان"
+
+msgid "Flintier"
+msgstr "متصلّب"
+
+msgid "Flintiest"
+msgstr "متصلّب"
+
+msgid "Flintiness"
+msgstr "القسوة"
+
+msgid "Flintlock"
+msgstr "زر أمان البندقية"
+
+msgid "Flintlocks"
+msgstr "أزرار أمان البندقية"
+
+msgid "Flints"
+msgstr "الصوان"
+
+msgid "Flinty"
+msgstr "متصلّب"
+
+msgid "Flip"
+msgstr "النقرة"
+
+msgid "Flip-flop"
+msgstr "تقلّب"
+
+msgid "Flipflop"
+msgstr "يرجع عن قرار"
+
+msgid "Flippancy"
+msgstr "ذلاقة اللسان"
+
+msgid "Flippant"
+msgstr "ثرثار"
+
+msgid "Flippantly"
+msgstr "بشكل ثرثار"
+
+msgid "Flipped"
+msgstr "مقلّب"
+
+msgid "Flipper"
+msgstr "الزعنفة"
+
+msgid "Flippers"
+msgstr "الزعانف"
+
+msgid "Flipping"
+msgstr "التقليب"
+
+msgid "Flips"
+msgstr "النقر"
+
+msgid "Flipside"
+msgstr "الجانب الثاني"
+
+msgid "Flirt"
+msgstr "اللعوب"
+
+msgid "Flirtation"
+msgstr "المغازلة"
+
+msgid "Flirtations"
+msgstr "المغازلة"
+
+msgid "Flirtatious"
+msgstr "مغازل"
+
+msgid "Flirtatiously"
+msgstr "بشكل مغازل"
+
+msgid "Flirtatiousness"
+msgstr "الخلاعة"
+
+msgid "Flirted"
+msgstr "متغازل"
+
+msgid "Flirter"
+msgstr "فليرتر"
+
+msgid "Flirting"
+msgstr "التغازل"
+
+msgid "Flirtingly"
+msgstr "بمجاملة"
+
+msgid "Flirts"
+msgstr "اللعوبون"
+
+msgid "Flit"
+msgstr "رفرف"
+
+msgid "Flitch"
+msgstr "لحم الخنزير المدخّن"
+
+msgid "Flitches"
+msgstr "لحوم الخنازير المدخّنة"
+
+msgid "Flits"
+msgstr "يرفرف"
+
+msgid "Flitted"
+msgstr "مرفرف"
+
+msgid "Flittered"
+msgstr "مصفّق"
+
+msgid "Flittering"
+msgstr "التصفيق"
+
+msgid "Flitters"
+msgstr "يصفّق"
+
+msgid "Flitting"
+msgstr "الرفرفة"
+
+msgid "Flivver"
+msgstr "سيارة قديمة"
+
+msgid "Flivvers"
+msgstr "سيارات قديمة"
+
+msgid "Flo"
+msgstr "سهم"
+
+msgid "Float"
+msgstr "الطوف"
+
+msgid "Floatable"
+msgstr "قابل للطفو"
+
+msgid "Floatage"
+msgstr "الطّفو"
+
+msgid "Floatages"
+msgstr "الطّفو"
+
+msgid "Floatation"
+msgstr "التعويم"
+
+msgid "Floated"
+msgstr "معام"
+
+msgid "Floater"
+msgstr "العوّام"
+
+msgid "Floaters"
+msgstr "العوّامات"
+
+msgid "Floating"
+msgstr "العوم"
+
+msgid "Floating-point"
+msgstr "النقطة العائمة"
+
+msgid "Floats"
+msgstr "العربات"
+
+msgid "Floc"
+msgstr "الشوائب"
+
+msgid "Flocci"
+msgstr "صوف"
+
+msgid "Floccose"
+msgstr "مخصّل"
+
+msgid "Flocculate"
+msgstr "تلبّد"
+
+msgid "Flocculated"
+msgstr "متلبّد"
+
+msgid "Flocculates"
+msgstr "يتلبّد"
+
+msgid "Flocculating"
+msgstr "التلبّد"
+
+msgid "Flocculation"
+msgstr "الدّمج"
+
+msgid "Flocculent"
+msgstr "صوفي"
+
+msgid "Floccus"
+msgstr "خصلة"
+
+msgid "Flock"
+msgstr "القطيع"
+
+msgid "Flocked"
+msgstr "متجمّع"
+
+msgid "Flocking"
+msgstr "التجمّع"
+
+msgid "Flocks"
+msgstr "القطعان"
+
+msgid "Floe"
+msgstr "الطوف الجليدي"
+
+msgid "Floes"
+msgstr "الطفاوات الجليدية"
+
+msgid "Flog"
+msgstr "إجلد"
+
+msgid "Flogged"
+msgstr "مجلود"
+
+msgid "Flogging"
+msgstr "الجلد"
+
+msgid "Floggings"
+msgstr "الجلد"
+
+msgid "Flogs"
+msgstr "يجلد"
+
+msgid "Flood"
+msgstr "الفيضان"
+
+msgid "Flooded"
+msgstr "مصاب بالفيضان"
+
+msgid "Flooder"
+msgstr "فلودر"
+
+msgid "Floodgate"
+msgstr "البوابة"
+
+msgid "Floodgates"
+msgstr "البوابات"
+
+msgid "Flooding"
+msgstr "الفيضان"
+
+msgid "Floodings"
+msgstr "الفيضانات"
+
+msgid "Floodlight"
+msgstr "الضوء الكاشف"
+
+msgid "Floodlights"
+msgstr "الأضواء الكاشفة"
+
+msgid "Floodlit"
+msgstr "أضاء"
+
+msgid "Floods"
+msgstr "الفيضانات"
+
+msgid "Floodwater"
+msgstr "مياه الفيضان"
+
+msgid "Floodwaters"
+msgstr "مياه الفيضانات"
+
+msgid "Floor"
+msgstr "الأرضية"
+
+msgid "Floorboard"
+msgstr "لوح الأرضية"
+
+msgid "Floorboards"
+msgstr "ألواح الأرضية"
+
+msgid "Floored"
+msgstr "بلّط"
+
+msgid "Floorer"
+msgstr "في الطابق"
+
+msgid "Flooring"
+msgstr "الأرضية"
+
+msgid "Floorings"
+msgstr "الأرضيات"
+
+msgid "Floorless"
+msgstr "بلا أرضية"
+
+msgid "Floors"
+msgstr "الطوابق"
+
+msgid "Floorwalker"
+msgstr "المراقب"
+
+msgid "Floorwalkers"
+msgstr "المراقبون"
+
+msgid "Floozie"
+msgstr "بائعة الهوى"
+
+msgid "Floozies"
+msgstr "بائعات الهوى"
+
+msgid "Floozy"
+msgstr "بائعة الهوى"
+
+msgid "Flop"
+msgstr "الفشل"
+
+msgid "Flophouse"
+msgstr "فندق رديء"
+
+msgid "Flophouses"
+msgstr "فنادق رديئة"
+
+msgid "Flopped"
+msgstr "متخبّط"
+
+msgid "Floppier"
+msgstr "أكثر مرونة"
+
+msgid "Floppies"
+msgstr "فلوبيس"
+
+msgid "Floppiest"
+msgstr "أكثر مرونة"
+
+msgid "Floppily"
+msgstr "بشكل مرن"
+
+msgid "Floppiness"
+msgstr "الخيبة"
+
+msgid "Flopping"
+msgstr "التخبّط"
+
+msgid "Floppy"
+msgstr "مرن"
+
+msgid "Floppy-disk"
+msgstr "القرص المرن"
+
+msgid "Flops"
+msgstr "يتخبّط"
+
+msgid "Flora"
+msgstr "الحياة النّباتيّة"
+
+msgid "Floral"
+msgstr "زهري"
+
+msgid "Florally"
+msgstr "بشكل زهري"
+
+msgid "Floras"
+msgstr "النباتات"
+
+msgid "Florence"
+msgstr "فلورينس"
+
+msgid "Florentine"
+msgstr "فلورنسي (إيطاليا)"
+
+msgid "Florescence"
+msgstr "التنوير"
+
+msgid "Florescences"
+msgstr "التنوير"
+
+msgid "Floret"
+msgstr "الزّهرة الصّغيرة"
+
+msgid "Florets"
+msgstr "الزّهور الصّغيرة"
+
+msgid "Florican"
+msgstr "دجاجة بر هنديّة"
+
+msgid "Floriculture"
+msgstr "تنبيت الأزهار"
+
+msgid "Floricultures"
+msgstr "تنبيت الأزهار"
+
+msgid "Florid"
+msgstr "معقّد"
+
+msgid "Florida"
+msgstr "فلوريدا"
+
+msgid "Floridian"
+msgstr "مواطن فلوريدا"
+
+msgid "Floridians"
+msgstr "مواطنو فلوريدا"
+
+msgid "Floridity"
+msgstr "التورّد"
+
+msgid "Floridly"
+msgstr "بشكل معقّد"
+
+msgid "Floridness"
+msgstr "التورّد"
+
+msgid "Florin"
+msgstr "الفلورين"
+
+msgid "Florist"
+msgstr "بائع الزهور"
+
+msgid "Florists"
+msgstr "باعة الزهور"
+
+msgid "Floss"
+msgstr "الخيط"
+
+msgid "Flossed"
+msgstr "نظّف"
+
+msgid "Flosses"
+msgstr "الخيوط"
+
+msgid "Flossier"
+msgstr "خيطي"
+
+msgid "Flossiest"
+msgstr "خيطي"
+
+msgid "Flossing"
+msgstr "التنظيف"
+
+msgid "Flossy"
+msgstr "خيطي"
+
+msgid "Flotage"
+msgstr "فلوتاج"
+
+msgid "Flotages"
+msgstr "فلوتاجيس"
+
+msgid "Flotation"
+msgstr "التعويم"
+
+msgid "Flotations"
+msgstr "التعويم"
+
+msgid "Flotilla"
+msgstr "الأسطول الصغير"
+
+msgid "Flotillas"
+msgstr "الأساطيل الصغيرة"
+
+msgid "Flotsam"
+msgstr "البقايا الطافية"
+
+msgid "Flounce"
+msgstr "الإنتفاضة"
+
+msgid "Flounced"
+msgstr "منتفض"
+
+msgid "Flounces"
+msgstr "الإنتفاضات"
+
+msgid "Flouncing"
+msgstr "الإنتفاض"
+
+msgid "Flounder"
+msgstr "السمك المفلطح"
+
+msgid "Floundered"
+msgstr "متخبّط"
+
+msgid "Floundering"
+msgstr "التخبّط"
+
+msgid "Flounders"
+msgstr "الأسماك المفلطحة"
+
+msgid "Flour"
+msgstr "الطحين"
+
+msgid "Floured"
+msgstr "مطحون"
+
+msgid "Flourish"
+msgstr "الإزدهار"
+
+msgid "Flourished"
+msgstr "مزدهر"
+
+msgid "Flourisher"
+msgstr "المساعد على الإزدهار"
+
+msgid "Flourishes"
+msgstr "يزدهر"
+
+msgid "Flourishing"
+msgstr "الإزدهار"
+
+msgid "Flourishingly"
+msgstr "بشكل مزدهر"
+
+msgid "Flours"
+msgstr "الطحين"
+
+msgid "Floury"
+msgstr "مزهّر"
+
+msgid "Flout"
+msgstr "الإهانة"
+
+msgid "Flouted"
+msgstr "مخروق"
+
+msgid "Flouter"
+msgstr "المزدري"
+
+msgid "Flouting"
+msgstr "الخرق"
+
+msgid "Flouts"
+msgstr "الإهانات"
+
+msgid "Flow"
+msgstr "التدفّق"
+
+msgid "Flow-rate"
+msgstr "نسبة تدفّق"
+
+msgid "Flowchart"
+msgstr "المخطّط الإنسيابي"
+
+msgid "Flowcharting"
+msgstr "فلوتشارتينج"
+
+msgid "Flowcharts"
+msgstr "المخطّطات الإنسيابية"
+
+msgid "Flowed"
+msgstr "متدفّق"
+
+msgid "Flower"
+msgstr "الزهرة"
+
+msgid "Flowerage"
+msgstr "الأزهار"
+
+msgid "Flowered"
+msgstr "مزهر"
+
+msgid "Flowerer"
+msgstr "المزْهر"
+
+msgid "Flowerily"
+msgstr "بصورة او لون زهري"
+
+msgid "Floweriness"
+msgstr "الزهورية"
+
+msgid "Flowering"
+msgstr "الإزدهار"
+
+msgid "Flowerpot"
+msgstr "الزّهريّة"
+
+msgid "Flowerpots"
+msgstr "الزهريات"
+
+msgid "Flowers"
+msgstr "الزهور"
+
+msgid "Flowery"
+msgstr "وردي"
+
+msgid "Flowing"
+msgstr "التدفّق"
+
+msgid "Flowingly"
+msgstr "بشكل مسترسل"
+
+msgid "Flown"
+msgstr "طائر"
+
+msgid "Flows"
+msgstr "التدفق"
+
+msgid "Flowstone"
+msgstr "التكلّس"
+
+msgid "Floyd"
+msgstr "فلويد"
+
+msgid "Flu"
+msgstr "الإنفلونزا"
+
+msgid "Flub"
+msgstr "يخطيء"
+
+msgid "Flubbed"
+msgstr "أخطأ"
+
+msgid "Flubbing"
+msgstr "الخطأ"
+
+msgid "Flubdub"
+msgstr "الهراء"
+
+msgid "Flubs"
+msgstr "يخطىء"
+
+msgid "Fluctuate"
+msgstr "تقلّب"
+
+msgid "Fluctuated"
+msgstr "متقلّب"
+
+msgid "Fluctuates"
+msgstr "يتقلّب"
+
+msgid "Fluctuating"
+msgstr "التقلّب"
+
+msgid "Fluctuation"
+msgstr "التقلّب"
+
+msgid "Fluctuations"
+msgstr "التقلّبات"
+
+msgid "Flue"
+msgstr "المدخنة"
+
+msgid "Fluency"
+msgstr "الطلاقة"
+
+msgid "Fluent"
+msgstr "طليق"
+
+msgid "Fluently"
+msgstr "بطلاقة"
+
+msgid "Flues"
+msgstr "المداخن"
+
+msgid "Fluff"
+msgstr "الزغب"
+
+msgid "Fluffed"
+msgstr "منفوش"
+
+msgid "Fluffier"
+msgstr "أكثر نفشا"
+
+msgid "Fluffiest"
+msgstr "أكثر نفشا"
+
+msgid "Fluffiness"
+msgstr "النفش"
+
+msgid "Fluffing"
+msgstr "النفش"
+
+msgid "Fluffs"
+msgstr "ينفش"
+
+msgid "Fluffy"
+msgstr "منفوش"
+
+msgid "Fluid"
+msgstr "السائل"
+
+msgid "Fluider"
+msgstr "سائل"
+
+msgid "Fluidest"
+msgstr "سائل"
+
+msgid "Fluidics"
+msgstr "تحكم قائم على الضغط والتدفق"
+
+msgid "Fluidify"
+msgstr "يحوّل الى الحالة السّائلة"
+
+msgid "Fluidities"
+msgstr "السيولة"
+
+msgid "Fluidity"
+msgstr "السيولة"
+
+msgid "Fluidly"
+msgstr "سائلا"
+
+msgid "Fluidness"
+msgstr "السيولة"
+
+msgid "Fluids"
+msgstr "السوائل"
+
+msgid "Fluke"
+msgstr "الحظّ"
+
+msgid "Flukey"
+msgstr "غير مضمون"
+
+msgid "Fluky"
+msgstr "محظوظ"
+
+msgid "Flume"
+msgstr "المجرى"
+
+msgid "Flumes"
+msgstr "المجاري"
+
+msgid "Flummeries"
+msgstr "الهراء"
+
+msgid "Flummery"
+msgstr "الهراء"
+
+msgid "Flummox"
+msgstr "أذهل"
+
+msgid "Flung"
+msgstr "رمى"
+
+msgid "Flunk"
+msgstr "إفشل"
+
+msgid "Flunked"
+msgstr "فاشل"
+
+msgid "Flunker"
+msgstr "المرسّب"
+
+msgid "Flunkey"
+msgstr "الخادم"
+
+msgid "Flunkies"
+msgstr "الإمّعة"
+
+msgid "Flunking"
+msgstr "الفشل"
+
+msgid "Flunks"
+msgstr "يفشل"
+
+msgid "Flunky"
+msgstr "الإمّعة"
+
+msgid "Flunkydom"
+msgstr "عالم الإمّعة"
+
+msgid "Fluoresce"
+msgstr "إستشعّ"
+
+msgid "Fluoresced"
+msgstr "مستشعّ"
+
+msgid "Fluorescein"
+msgstr "فلوريسسيين (كيمياء)"
+
+msgid "Fluorescence"
+msgstr "الإسفار"
+
+msgid "Fluorescent"
+msgstr "الفلوريسنت"
+
+msgid "Fluorescer"
+msgstr "منتج  الفلوريسسيين"
+
+msgid "Fluoresces"
+msgstr "يستشعّ"
+
+msgid "Fluorescing"
+msgstr "الإستشعاع"
+
+msgid "Fluoric"
+msgstr "فلوري"
+
+msgid "Fluoridate"
+msgstr "يعالج بالفلور"
+
+msgid "Fluoridated"
+msgstr "عالج بالفلور"
+
+msgid "Fluoridates"
+msgstr "يعالج بالفلور"
+
+msgid "Fluoridating"
+msgstr "المعالجة بالفلور"
+
+msgid "Fluoridation"
+msgstr "المعالجة بالفلور"
+
+msgid "Fluoridations"
+msgstr "المعالجات بالفلور"
+
+msgid "Fluoride"
+msgstr "الفلوريد"
+
+msgid "Fluorides"
+msgstr "الفلوريد"
+
+msgid "Fluorimetric"
+msgstr "متعلق بمستوى الفلور"
+
+msgid "Fluorine"
+msgstr "الفلورين"
+
+msgid "Fluorines"
+msgstr "الفلورين"
+
+msgid "Fluorite"
+msgstr "الفلوريت"
+
+msgid "Fluorites"
+msgstr "الفلوريت"
+
+msgid "Fluorocarbon"
+msgstr "الفلوروكاربون"
+
+msgid "Fluoroscopic"
+msgstr "جهاز أشعّة"
+
+msgid "Fluoroscopics"
+msgstr "أجهزة أشعّة"
+
+msgid "Fluorspar"
+msgstr "الحجر الفلوري"
+
+msgid "Flurried"
+msgstr "مضطرب"
+
+msgid "Flurries"
+msgstr "الموجات"
+
+msgid "Flurry"
+msgstr "الموجة"
+
+msgid "Flurrying"
+msgstr "الإضطراب"
+
+msgid "Flush"
+msgstr "الإحمرار"
+
+msgid "Flushable"
+msgstr "ممكن التّخلص منه"
+
+msgid "Flushed"
+msgstr "متدفّق"
+
+msgid "Flushes"
+msgstr "الإحمرار"
+
+msgid "Flushing"
+msgstr "التدفّق"
+
+msgid "Flushness"
+msgstr "الوفرة"
+
+msgid "Fluster"
+msgstr "الإضطراب"
+
+msgid "Flustered"
+msgstr "مهيّج"
+
+msgid "Flustering"
+msgstr "التهيّج"
+
+msgid "Flusters"
+msgstr "الإضطرابات"
+
+msgid "Flute"
+msgstr "الناي"
+
+msgid "Fluted"
+msgstr "مزمّر"
+
+msgid "Fluter"
+msgstr "عازف الناي"
+
+msgid "Flutes"
+msgstr "المزامير"
+
+msgid "Fluting"
+msgstr "التزمير"
+
+msgid "Flutist"
+msgstr "المزمّر"
+
+msgid "Flutists"
+msgstr "المزمّرون"
+
+msgid "Flutter"
+msgstr "الإرتجاف"
+
+msgid "Fluttered"
+msgstr "مصفّق"
+
+msgid "Flutterer"
+msgstr "المرفرف"
+
+msgid "Fluttering"
+msgstr "التصفيق"
+
+msgid "Flutteringly"
+msgstr "برفرفة"
+
+msgid "Flutters"
+msgstr "الخفقان"
+
+msgid "Fluvial"
+msgstr "نهري"
+
+msgid "Flux"
+msgstr "الجريان"
+
+msgid "Fluxed"
+msgstr "مذاب"
+
+msgid "Fluxes"
+msgstr "الجريان"
+
+msgid "Fluxion"
+msgstr "الجريان"
+
+msgid "Fluxional"
+msgstr "سائل"
+
+msgid "Fluxionary"
+msgstr "إنسدادي"
+
+msgid "Fluxions"
+msgstr "الجريان"
+
+msgid "Fly"
+msgstr "الذبابة"
+
+msgid "Fly-by-wire"
+msgstr "طر بالسلك"
+
+msgid "Flyable"
+msgstr "ملائم للطّيران"
+
+msgid "Flyaway"
+msgstr "مرفرف"
+
+msgid "Flycatcher"
+msgstr "مصيدة الذباب"
+
+msgid "Flycatchers"
+msgstr "مصائد الذباب"
+
+msgid "Flyer"
+msgstr "الطيّار"
+
+msgid "Flyers"
+msgstr "الطيّارون"
+
+msgid "Flying"
+msgstr "الطيران"
+
+msgid "Flying-spot"
+msgstr "البقعة الطائرة"
+
+msgid "Flyleaf"
+msgstr "الصفحة الفارغة في بداية أو نهاية الكتاب"
+
+msgid "Flyleaves"
+msgstr "الصفحات الفارغة في بداية أو نهاية الكتاب"
+
+msgid "Flynn"
+msgstr "فلن"
+
+msgid "Flypaper"
+msgstr "صائدة الذباب"
+
+msgid "Flytrap"
+msgstr "صائدة الذباب"
+
+msgid "Flytraps"
+msgstr "صائدات الذباب"
+
+msgid "Flyway"
+msgstr "طريق الطيور المهاجرة"
+
+msgid "Flyweight"
+msgstr "وزن الذبابة"
+
+msgid "Flywheel"
+msgstr "الحذّافة"
+
+msgid "Flywheels"
+msgstr "الحذّافات"
+
+msgid "FM"
+msgstr "إف إم - تشكيل التّردّد"
+
+msgid "FMC"
+msgstr "اللّجنة البحريّة الفدراليّة"
+
+msgid "Foal"
+msgstr "المهرة"
+
+msgid "Foaled"
+msgstr "ولد مهرًا"
+
+msgid "Foalfoot"
+msgstr "فولفوت (أعشاب)"
+
+msgid "Foaling"
+msgstr "ولادة المهرة"
+
+msgid "Foals"
+msgstr "المهرات"
+
+msgid "Foam"
+msgstr "الرغوة"
+
+msgid "Foamed"
+msgstr "مرغى"
+
+msgid "Foamer"
+msgstr "رغوي"
+
+msgid "Foamflower"
+msgstr "فومفلاور (نبات)"
+
+msgid "Foamier"
+msgstr "رغوي"
+
+msgid "Foamiest"
+msgstr "رغوي"
+
+msgid "Foamily"
+msgstr "رغوي"
+
+msgid "Foaminess"
+msgstr "الرغوة"
+
+msgid "Foaming"
+msgstr "الإرغاء"
+
+msgid "Foamingly"
+msgstr "برغوة"
+
+msgid "Foams"
+msgstr "الرغو"
+
+msgid "Foamy"
+msgstr "رغوي"
+
+msgid "Fob"
+msgstr "التسليم"
+
+msgid "Fobbed"
+msgstr "مغشوش"
+
+msgid "Fobbing"
+msgstr "الغشّ"
+
+msgid "Fobs"
+msgstr "السلاسل"
+
+msgid "Focal"
+msgstr "بؤري"
+
+msgid "Focal-plane"
+msgstr "الطائرة البؤرية"
+
+msgid "Focally"
+msgstr "بشكل بؤري"
+
+msgid "Foci"
+msgstr "البؤر"
+
+msgid "Focus"
+msgstr "التركيز"
+
+msgid "Focused"
+msgstr "مركّز"
+
+msgid "Focuser"
+msgstr "المصوّر"
+
+msgid "Focuses"
+msgstr "مراكز الإهتمام"
+
+msgid "Focusing"
+msgstr "التركيز"
+
+msgid "Focussed"
+msgstr "مركّز"
+
+msgid "Focussing"
+msgstr "التركيز"
+
+msgid "Fodder"
+msgstr "العلف"
+
+msgid "Foe"
+msgstr "الخصم"
+
+msgid "Foes"
+msgstr "الخصوم"
+
+msgid "Fog"
+msgstr "الضباب"
+
+msgid "Fogarty"
+msgstr "فوجارتاي - مصمّمة أزياء أمريكيّة"
+
+msgid "Fogeis"
+msgstr "فوجيس"
+
+msgid "Fogey"
+msgstr "الشخص الممل"
+
+msgid "Fogeys"
+msgstr "الأشخاص المملون"
+
+msgid "Fogged"
+msgstr "مضبّب"
+
+msgid "Foggier"
+msgstr "أكثر ضبابا"
+
+msgid "Foggiest"
+msgstr "أكثر ضبابا"
+
+msgid "Foggily"
+msgstr "بشكل ضبابي"
+
+msgid "Fogginess"
+msgstr "الضبابية"
+
+msgid "Fogginesses"
+msgstr "الضبابيات"
+
+msgid "Fogging"
+msgstr "التضبيب"
+
+msgid "Foggy"
+msgstr "ضبابي"
+
+msgid "Foghorn"
+msgstr "صافرة الضباب"
+
+msgid "Foghorns"
+msgstr "صافرات الضباب"
+
+msgid "Fogies"
+msgstr "الأشخاص المملون"
+
+msgid "Fogs"
+msgstr "يضبّب"
+
+msgid "Fogy"
+msgstr "الشخص الممل"
+
+msgid "Fogyish"
+msgstr "تقريبا شخص ممل"
+
+msgid "Foible"
+msgstr "النقص"
+
+msgid "Foibles"
+msgstr "النواقص"
+
+msgid "Foil"
+msgstr "ورق القصدير"
+
+msgid "Foiled"
+msgstr "محبط"
+
+msgid "Foiling"
+msgstr "الإحباط"
+
+msgid "Foils"
+msgstr "أوراق القصدير"
+
+msgid "Foist"
+msgstr "دسّ"
+
+msgid "Foisted"
+msgstr "مدسوس"
+
+msgid "Foisting"
+msgstr "الدسّ"
+
+msgid "Foists"
+msgstr "يدسّ"
+
+msgid "Fold"
+msgstr "الطيّة"
+
+msgid "Foldable"
+msgstr "قابل للطوي"
+
+msgid "Folded"
+msgstr "مطوي"
+
+msgid "Folder"
+msgstr "الحافظة، ملف للأوراق"
+
+msgid "FolderFile"
+msgstr "مجلد ملف"
+
+msgid "Folders"
+msgstr "الحافظات"
+
+msgid "Folding"
+msgstr "الطيّ"
+
+msgid "Foldings"
+msgstr "الطيّ"
+
+msgid "Foldout"
+msgstr "الصفحة المطوية"
+
+msgid "Foldouts"
+msgstr "الصفحات المطوية"
+
+msgid "Folds"
+msgstr "الطيّات"
+
+msgid "Foley"
+msgstr "فولي"
+
+msgid "Folge"
+msgstr "فولج"
+
+msgid "Foliaceous"
+msgstr "متعلق بأوراق الشجر"
+
+msgid "Foliage"
+msgstr "الخضرة"
+
+msgid "Foliaged"
+msgstr "مورّق"
+
+msgid "Foliages"
+msgstr "يورّق"
+
+msgid "Foliate"
+msgstr "ورّق"
+
+msgid "Foliated"
+msgstr "مورّق"
+
+msgid "Foliates"
+msgstr "يورّق"
+
+msgid "Foliating"
+msgstr "التوريق"
+
+msgid "Foliation"
+msgstr "نمو أوراق الشجر"
+
+msgid "Foliations"
+msgstr "نمو أوراق الشجر"
+
+msgid "Folio"
+msgstr "الملف"
+
+msgid "Folios"
+msgstr "الملفات"
+
+msgid "Folk"
+msgstr "القوم"
+
+msgid "Folklike"
+msgstr "شعبيّ"
+
+msgid "Folklore"
+msgstr "الفولكلور"
+
+msgid "FolkRock"
+msgstr "فولكروك"
+
+msgid "Folks"
+msgstr "الناس"
+
+msgid "Folksier"
+msgstr "شعبي"
+
+msgid "Folksiest"
+msgstr "شعبي"
+
+msgid "Folksiness"
+msgstr "الودّيّة"
+
+msgid "Folksong"
+msgstr "الأغنية الشعبية"
+
+msgid "Folksongs"
+msgstr "الأغاني الشعبية"
+
+msgid "Folksy"
+msgstr "شعبي"
+
+msgid "Follicle"
+msgstr "المسامّ"
+
+msgid "Follicles"
+msgstr "المسامّ"
+
+msgid "Follicular"
+msgstr "مسامّي"
+
+msgid "Follies"
+msgstr "الحماقات"
+
+msgid "Follow"
+msgstr "إتل"
+
+msgid "Followed"
+msgstr "متلي"
+
+msgid "Follower"
+msgstr "التابع"
+
+msgid "Followers"
+msgstr "الأتباع"
+
+msgid "Following"
+msgstr "المتابعة"
+
+msgid "Followings"
+msgstr "الأتباع"
+
+msgid "Follows"
+msgstr "يتلي"
+
+msgid "Followup"
+msgstr "يتابع"
+
+msgid "Followup-To"
+msgstr "إلى"
+
+msgid "Followups"
+msgstr "المتابعات"
+
+msgid "Folly"
+msgstr "الحماقة"
+
+msgid "Folsom"
+msgstr "فولسوم"
+
+msgid "Fomalhaut"
+msgstr "فم السمكة الكبيرة"
+
+msgid "Foment"
+msgstr "حرّض عليه"
+
+msgid "Fomentation"
+msgstr "التحريض"
+
+msgid "Fomentations"
+msgstr "التحريض"
+
+msgid "Fomented"
+msgstr "حرّض عليه"
+
+msgid "Fomenter"
+msgstr "المحرّض"
+
+msgid "Fomenters"
+msgstr "المحرّضون"
+
+msgid "Fomenting"
+msgstr "التحريض على"
+
+msgid "Foments"
+msgstr "يحرّض عليه"
+
+msgid "Fond"
+msgstr "مولع"
+
+msgid "Fonder"
+msgstr "أكثر ولعا"
+
+msgid "Fondest"
+msgstr "أكثر ولعا"
+
+msgid "Fondle"
+msgstr "لاطف"
+
+msgid "Fondled"
+msgstr "ملاطف"
+
+msgid "Fondler"
+msgstr "الحنون"
+
+msgid "Fondles"
+msgstr "يلاطف"
+
+msgid "Fondling"
+msgstr "الملاطفة"
+
+msgid "Fondlings"
+msgstr "الحنان، العاطفة"
+
+msgid "Fondly"
+msgstr "بتحبّب"
+
+msgid "Fondness"
+msgstr "الولع"
+
+msgid "Fondnesses"
+msgstr "الولع"
+
+msgid "Fonds"
+msgstr "خلفية الصورة"
+
+msgid "Fondue"
+msgstr "الفانديو (طبق الجبن والزبدة)"
+
+msgid "Font"
+msgstr "الخطّ"
+
+msgid "Fontainebleau"
+msgstr "فنتنبلو"
+
+msgid "Fontana"
+msgstr "فونتانا"
+
+msgid "Fonts"
+msgstr "الخطوط"
+
+msgid "Food"
+msgstr "الغذاء"
+
+msgid "Foods"
+msgstr "الأغذية"
+
+msgid "Foodstuff"
+msgstr "المواد الغذائية"
+
+msgid "Foodstuffs"
+msgstr "المواد الغذائية"
+
+msgid "Fool"
+msgstr "الأحمق"
+
+msgid "Fooled"
+msgstr "مخدوع"
+
+msgid "Fooleries"
+msgstr "فوليريس"
+
+msgid "Foolery"
+msgstr "الحماقة"
+
+msgid "Foolhardily"
+msgstr "بتهور"
+
+msgid "Foolhardiness"
+msgstr "التهور"
+
+msgid "Foolhardinesses"
+msgstr "التهور"
+
+msgid "Foolhardy"
+msgstr "متهوّر"
+
+msgid "Fooling"
+msgstr "الخداع"
+
+msgid "Foolish"
+msgstr "أحمق"
+
+msgid "Foolishly"
+msgstr "بحماقة"
+
+msgid "Foolishness"
+msgstr "الغباوة"
+
+msgid "Foolishnesses"
+msgstr "الغباوة"
+
+msgid "Foolproof"
+msgstr "بسيط"
+
+msgid "Fools"
+msgstr "الحمقى"
+
+msgid "Foolscap"
+msgstr "القبعة"
+
+msgid "Foolscaps"
+msgstr "القبعات"
+
+msgid "Foot"
+msgstr "القدم"
+
+msgid "Footage"
+msgstr "الفلم"
+
+msgid "Footages"
+msgstr "الفلم"
+
+msgid "Football"
+msgstr "كرة القدم"
+
+msgid "Footballer"
+msgstr "لاعب كرة القدم"
+
+msgid "Footballers"
+msgstr "لاعبو كرة القدم"
+
+msgid "Footballs"
+msgstr "كور القدم"
+
+msgid "Footbath"
+msgstr "حوض القدم"
+
+msgid "Footboard"
+msgstr "المسند"
+
+msgid "Footboards"
+msgstr "المساند"
+
+msgid "Footboy"
+msgstr "خادم (ولد)"
+
+msgid "Footboys"
+msgstr "خدم (أولاد)"
+
+msgid "Footbridge"
+msgstr "جسر المشاة"
+
+msgid "Footbridges"
+msgstr "جسور المشاة"
+
+msgid "Foote"
+msgstr "فوت"
+
+msgid "Footed"
+msgstr "ذو أقدام"
+
+msgid "Footer"
+msgstr "الهامش"
+
+msgid "Footers"
+msgstr "الهوامش"
+
+msgid "Footfall"
+msgstr "وقع الأقدام"
+
+msgid "Footfalls"
+msgstr "وقع الأقدام"
+
+msgid "Footgear"
+msgstr "حذاء"
+
+msgid "Foothill"
+msgstr "التلّ"
+
+msgid "Foothills"
+msgstr "التلال"
+
+msgid "Foothold"
+msgstr "موطئ القدم"
+
+msgid "Footholds"
+msgstr "مواطئ القدم"
+
+msgid "Footing"
+msgstr "الموطئ"
+
+msgid "Footings"
+msgstr "المواطئ"
+
+msgid "Footles"
+msgstr "يتلهّى"
+
+msgid "Footlights"
+msgstr "صفوف الأضواء في المسرح"
+
+msgid "Footlocker"
+msgstr "خزانة أمتعة شخصية"
+
+msgid "Footlockers"
+msgstr "خزانات أمتعة شخصية"
+
+msgid "Footloose"
+msgstr "طليق"
+
+msgid "Footman"
+msgstr "الخادم"
+
+msgid "Footmen"
+msgstr "الخدم"
+
+msgid "Footnote"
+msgstr "الهامش"
+
+msgid "FootNotes"
+msgstr "الهوامش"
+
+msgid "Footnoting"
+msgstr "فوتنوتينج"
+
+msgid "Footpad"
+msgstr "قاطع الطريق"
+
+msgid "Footpads"
+msgstr "قطاع الطرق"
+
+msgid "Footpath"
+msgstr "الممشى"
+
+msgid "Footpaths"
+msgstr "طرق للمشاة"
+
+msgid "Footprint"
+msgstr "الأثر"
+
+msgid "Footprints"
+msgstr "الآثار"
+
+msgid "Footrace"
+msgstr "سباق على الأقدام"
+
+msgid "Footrest"
+msgstr "إستراحة القدم"
+
+msgid "Footrests"
+msgstr "إستراحة الأقدام"
+
+msgid "Foots"
+msgstr "يمشي على الأقدام"
+
+msgid "Footsore"
+msgstr "موجع الأقدام"
+
+msgid "Footstep"
+msgstr "الخطوة"
+
+msgid "Footsteps"
+msgstr "الخطوات"
+
+msgid "Footstool"
+msgstr "مسند القدمين"
+
+msgid "Footstools"
+msgstr "مساند القدمين"
+
+msgid "Footway"
+msgstr "طريق للمشاة"
+
+msgid "Footways"
+msgstr "طرق للمشاة"
+
+msgid "Footwear"
+msgstr "الأحذية"
+
+msgid "Footwork"
+msgstr "الحركة"
+
+msgid "Foozle"
+msgstr "إعبث"
+
+msgid "Foozled"
+msgstr "عابث"
+
+msgid "Foozles"
+msgstr "يعبث"
+
+msgid "Foozling"
+msgstr "العبث"
+
+msgid "Fop"
+msgstr "المتأنق"
+
+msgid "Foppe"
+msgstr "فوب"
+
+msgid "Fopperies"
+msgstr "الأعمال السخيفة"
+
+msgid "Foppery"
+msgstr "العمل السخيف"
+
+msgid "Foppish"
+msgstr "متأنّق"
+
+msgid "Foppishly"
+msgstr "بشكل متأنّق"
+
+msgid "Foppishness"
+msgstr "التّأنّق"
+
+msgid "Fops"
+msgstr "المتأنقون"
+
+msgid "For"
+msgstr "لـ"
+
+msgid "For-statement"
+msgstr "للبيان"
+
+msgid "Fora"
+msgstr "فورا"
+
+msgid "Forage"
+msgstr "العلف"
+
+msgid "Foraged"
+msgstr "معلوف"
+
+msgid "Forager"
+msgstr "العلّاف"
+
+msgid "Foragers"
+msgstr "العلّافون"
+
+msgid "Forages"
+msgstr "الأعلاف"
+
+msgid "Foraging"
+msgstr "العلف"
+
+msgid "Foray"
+msgstr "الغزوة"
+
+msgid "Forayer"
+msgstr "الغازي"
+
+msgid "Forays"
+msgstr "الغزوات"
+
+msgid "Forbade"
+msgstr "حرّم"
+
+msgid "Forbear"
+msgstr "إمتنع عنه"
+
+msgid "Forbearance"
+msgstr "الإمساك"
+
+msgid "Forbearances"
+msgstr "الإمساك"
+
+msgid "Forbearant"
+msgstr "الإحجام"
+
+msgid "Forbearer"
+msgstr "المسلّف (أﻵباء واﻷجداد)"
+
+msgid "Forbearing"
+msgstr "الإمتناع عن"
+
+msgid "Forbears"
+msgstr "يمتنع عنه"
+
+msgid "Forbes"
+msgstr "فوربز"
+
+msgid "Forbid"
+msgstr "محرّم"
+
+msgid "Forbiddance"
+msgstr "التحريم"
+
+msgid "Forbiddances"
+msgstr "التحريم"
+
+msgid "Forbidden"
+msgstr "محرّم"
+
+msgid "Forbidding"
+msgstr "التحريم"
+
+msgid "Forbiddingly"
+msgstr "بشكل موحش"
+
+msgid "Forbiddingness"
+msgstr "التحريم"
+
+msgid "Forbids"
+msgstr "يحرّم"
+
+msgid "Forbore"
+msgstr "إمتنع عنه"
+
+msgid "Forborne"
+msgstr "ممتنع عن"
+
+msgid "Force"
+msgstr "القوة"
+
+msgid "Force majeure"
+msgstr "الظّرف القهريّ - كالحروب او الكوارث الطّبيعية"
+
+msgid "Forceable"
+msgstr "مفروض"
+
+msgid "Forced"
+msgstr "إجباري"
+
+msgid "Forcedly"
+msgstr "بقسر"
+
+msgid "Forceful"
+msgstr "عنيف"
+
+msgid "Forcefully"
+msgstr "بقوة"
+
+msgid "Forcefulness"
+msgstr "الشدّة"
+
+msgid "Forceps"
+msgstr "المبضع"
+
+msgid "Forcer"
+msgstr "الفارض"
+
+msgid "Forcers"
+msgstr "الفارضون"
+
+msgid "Forces"
+msgstr "القوات"
+
+msgid "Forcible"
+msgstr "قويّ"
+
+msgid "Forcibleness"
+msgstr "الفرض"
+
+msgid "Forcibly"
+msgstr "بالقوّة"
+
+msgid "Forcing"
+msgstr "الإجبار"
+
+msgid "Ford"
+msgstr "فورد"
+
+msgid "Fordable"
+msgstr "ضحل"
+
+msgid "Forded"
+msgstr "عبر"
+
+msgid "Fordham"
+msgstr "فوردام"
+
+msgid "Fording"
+msgstr "العبور"
+
+msgid "Fords"
+msgstr "المعابر"
+
+msgid "Fore"
+msgstr "المقدمة"
+
+msgid "Forearm"
+msgstr "الساعد"
+
+msgid "Forearmed"
+msgstr "معدّ"
+
+msgid "Forearms"
+msgstr "السواعد"
+
+msgid "Forebear"
+msgstr "السلف"
+
+msgid "Forebears"
+msgstr "الأجداد"
+
+msgid "Forebode"
+msgstr "أنذر"
+
+msgid "Foreboded"
+msgstr "منذر"
+
+msgid "Forebodement"
+msgstr "المنع، التّحريم"
+
+msgid "Foreboder"
+msgstr "المتنبّئ"
+
+msgid "Foreboders"
+msgstr "المتنبّؤون"
+
+msgid "Forebodes"
+msgstr "ينذر"
+
+msgid "Foreboding"
+msgstr "نذير الشؤم"
+
+msgid "Forebodingly"
+msgstr "منذرا بالشّر"
+
+msgid "Forebodingness"
+msgstr "العلامات الشرّيرة"
+
+msgid "Forebodings"
+msgstr "نذر الشؤم"
+
+msgid "Forecast"
+msgstr "التوقّع"
+
+msgid "Forecasted"
+msgstr "متوقّع"
+
+msgid "Forecaster"
+msgstr "المتوقّع"
+
+msgid "Forecasters"
+msgstr "المتوقّعون"
+
+msgid "Forecasting"
+msgstr "التنبؤ"
+
+msgid "Forecastle"
+msgstr "قلعة السفينة"
+
+msgid "Forecasts"
+msgstr "التوقّعات"
+
+msgid "Foreclosed"
+msgstr "ممنوع"
+
+msgid "Forecloses"
+msgstr "يمنع"
+
+msgid "Foreclosing"
+msgstr "المنع"
+
+msgid "Foreclosure"
+msgstr "التعويق"
+
+msgid "Foreclosures"
+msgstr "التعويقات"
+
+msgid "Foredeck"
+msgstr "مقدمة السفينة"
+
+msgid "Foredecks"
+msgstr "مقدمات السفن"
+
+msgid "Foredoom"
+msgstr "قدّر"
+
+msgid "Foredoomed"
+msgstr "مقدّر"
+
+msgid "Foredooming"
+msgstr "التقدير"
+
+msgid "Foredooms"
+msgstr "يقدّر"
+
+msgid "Forefather"
+msgstr "السلف"
+
+msgid "Forefathers"
+msgstr "الأسلاف"
+
+msgid "Forefeet"
+msgstr "الأرجل الأمامية"
+
+msgid "Forefinger"
+msgstr "السبّابة"
+
+msgid "Forefingers"
+msgstr "السبّابات"
+
+msgid "Forefoot"
+msgstr "الرجل الأمامية"
+
+msgid "Forefront"
+msgstr "الطليعة"
+
+msgid "Forefronts"
+msgstr "الطلائع"
+
+msgid "Foregather"
+msgstr "إجتمع"
+
+msgid "Foregathered"
+msgstr "مجتمع"
+
+msgid "Foregathering"
+msgstr "الإجتماع"
+
+msgid "Foregathers"
+msgstr "يجتمع"
+
+msgid "Forego"
+msgstr "تخلّ عنه"
+
+msgid "Foregoer"
+msgstr "السلف"
+
+msgid "Foregoes"
+msgstr "يتخلّى عنه"
+
+msgid "Foregoing"
+msgstr "التخلّي عن"
+
+msgid "Foregone"
+msgstr "سابق"
+
+msgid "Foreground"
+msgstr "المقدمة"
+
+msgid "Foregrounds"
+msgstr "المقدمات"
+
+msgid "Forehand"
+msgstr "الضربة"
+
+msgid "Forehandedly"
+msgstr "بوفرة مالية"
+
+msgid "Forehands"
+msgstr "الضربات"
+
+msgid "Forehead"
+msgstr "الجبهة"
+
+msgid "Foreheads"
+msgstr "الجباه"
+
+msgid "Forehold"
+msgstr "الجزء الأمامي من مقبض السفينة"
+
+msgid "Foreign"
+msgstr "أجنبي"
+
+msgid "Foreigner"
+msgstr "الأجنبي"
+
+msgid "Foreigners"
+msgstr "الأجانب"
+
+msgid "Foreignly"
+msgstr "بشكل أجنبي"
+
+msgid "Foreignness"
+msgstr "الإغتراب"
+
+msgid "Forejudge"
+msgstr "إحكم"
+
+msgid "Forejudged"
+msgstr "محكوم"
+
+msgid "Forejudges"
+msgstr "يحكم"
+
+msgid "Forejudging"
+msgstr "الحكم"
+
+msgid "Foreknow"
+msgstr "إحدس"
+
+msgid "Foreknowing"
+msgstr "الحدس"
+
+msgid "Foreknowledge"
+msgstr "المعرفة المسبقة"
+
+msgid "Foreknown"
+msgstr "محدوس"
+
+msgid "Foreknows"
+msgstr "يحدس"
+
+msgid "Foreladies"
+msgstr "رئيسات العمال"
+
+msgid "Forelady"
+msgstr "رئيسة العمّال"
+
+msgid "Foreland"
+msgstr "رأس البرّ"
+
+msgid "Forelands"
+msgstr "رؤوس البرّ"
+
+msgid "Foreleg"
+msgstr "الرجل الأمامية"
+
+msgid "Forelegs"
+msgstr "الأرجل الأمامية"
+
+msgid "Forelock"
+msgstr "الناصية"
+
+msgid "Forelocks"
+msgstr "الناصية"
+
+msgid "Foreman"
+msgstr "فورمان"
+
+msgid "Foremast"
+msgstr "الصاري الأمامي"
+
+msgid "Foremasts"
+msgstr "الصواري الأمامية"
+
+msgid "Foremen"
+msgstr "رؤساء العمال"
+
+msgid "Foremost"
+msgstr "أوّل"
+
+msgid "Forename"
+msgstr "الاسم الاول"
+
+msgid "Forenames"
+msgstr "الأسماء الأولية"
+
+msgid "Forenoon"
+msgstr "الضحى"
+
+msgid "Forenoons"
+msgstr "الضحى"
+
+msgid "Forensic"
+msgstr "عدلي"
+
+msgid "Forensically"
+msgstr "عدليا"
+
+msgid "Forensics"
+msgstr "الأدلة الجنائية"
+
+msgid "Foreordain"
+msgstr "قدّر"
+
+msgid "Foreordained"
+msgstr "مقدّر"
+
+msgid "Foreordaining"
+msgstr "التقدير"
+
+msgid "Foreordains"
+msgstr "يقدّر"
+
+msgid "Foreordination"
+msgstr "موعد مسبق"
+
+msgid "Foreordinations"
+msgstr "مواعيد مسبقة"
+
+msgid "Forepart"
+msgstr "الحقبة الأولى"
+
+msgid "Foreparts"
+msgstr "الحقب الأولى"
+
+msgid "Forepaws"
+msgstr "الأرجل الأمامية"
+
+msgid "Foreplay"
+msgstr "المداعبة"
+
+msgid "Foreplays"
+msgstr "المداعبات"
+
+msgid "Forerun"
+msgstr "تقدّم"
+
+msgid "Forerunner"
+msgstr "المتقدم"
+
+msgid "Forerunners"
+msgstr "المتقدمون"
+
+msgid "Fores"
+msgstr "المقدمات"
+
+msgid "Foresail"
+msgstr "الشراع الأمامي"
+
+msgid "Foresails"
+msgstr "الأشرعة الأمامية"
+
+msgid "Foresaw"
+msgstr "حدس"
+
+msgid "Foresee"
+msgstr "إحدس"
+
+msgid "Foreseeability"
+msgstr "المنظورية"
+
+msgid "Foreseeable"
+msgstr "منظور"
+
+msgid "Foreseeing"
+msgstr "الحدس"
+
+msgid "Foreseen"
+msgstr "محدوس"
+
+msgid "Foreseer"
+msgstr "عالم المستقبل"
+
+msgid "Foresees"
+msgstr "يحدس"
+
+msgid "Foreshadow"
+msgstr "أنذر"
+
+msgid "Foreshadowed"
+msgstr "منذر"
+
+msgid "Foreshadowing"
+msgstr "الإنذار"
+
+msgid "Foreshadows"
+msgstr "ينذر"
+
+msgid "Foreshore"
+msgstr "صدر الشاطئ"
+
+msgid "Foreshorten"
+msgstr "قصّر"
+
+msgid "Foreshortened"
+msgstr "مقصّر"
+
+msgid "Foreshortening"
+msgstr "التقصير"
+
+msgid "Foreshortens"
+msgstr "يقصّر"
+
+msgid "Foresight"
+msgstr "البصيرة"
+
+msgid "Foresighted"
+msgstr "واعي"
+
+msgid "Foresightedly"
+msgstr "بشكل واعي"
+
+msgid "Foresightedness"
+msgstr "الرؤية المستقبلية"
+
+msgid "Foresights"
+msgstr "البصائر"
+
+msgid "Foreskin"
+msgstr "القلفة"
+
+msgid "Foreskins"
+msgstr "القلفات"
+
+msgid "Forest"
+msgstr "الغابة"
+
+msgid "Forestall"
+msgstr "أحبط"
+
+msgid "Forestalled"
+msgstr "محبط"
+
+msgid "Forestaller"
+msgstr "المؤخِّر"
+
+msgid "Forestalling"
+msgstr "الإحباط"
+
+msgid "Forestallment"
+msgstr "التأخير"
+
+msgid "Forestalls"
+msgstr "يحبط"
+
+msgid "Forestay"
+msgstr "الحبل الأمامي"
+
+msgid "Forested"
+msgstr "مشجّر"
+
+msgid "Forester"
+msgstr "حارس الغابة"
+
+msgid "Foresters"
+msgstr "حراس الغابات"
+
+msgid "Forestry"
+msgstr "علم الغابات"
+
+msgid "Forests"
+msgstr "الغابات"
+
+msgid "Foretaste"
+msgstr "الفكرة السابقة"
+
+msgid "Foretastes"
+msgstr "الأفكار السابقة"
+
+msgid "Foretell"
+msgstr "تنبّأ"
+
+msgid "Foreteller"
+msgstr "العرّاف"
+
+msgid "Foretelling"
+msgstr "التنبّأ"
+
+msgid "Foretells"
+msgstr "يتنبّأ"
+
+msgid "Forethought"
+msgstr "التدبر"
+
+msgid "Forethoughts"
+msgstr "التدبر"
+
+msgid "Foretime"
+msgstr "الماضي"
+
+msgid "Foretoken"
+msgstr "إنذار"
+
+msgid "Foretold"
+msgstr "تنبّأ"
+
+msgid "Foretop"
+msgstr "شعر الهامة"
+
+msgid "Forever"
+msgstr "إلى الأبد"
+
+msgid "Foreverness"
+msgstr "الأبدية، الخلود"
+
+msgid "Forewarn"
+msgstr "حذّر"
+
+msgid "Forewarned"
+msgstr "محذّر"
+
+msgid "Forewarning"
+msgstr "التحذير"
+
+msgid "Forewarns"
+msgstr "يحذّر"
+
+msgid "Forewoman"
+msgstr "رئيسة العمال"
+
+msgid "Forewomen"
+msgstr "رئيسات العمال"
+
+msgid "Foreword"
+msgstr "المقدمة"
+
+msgid "Forewords"
+msgstr "المقدمات"
+
+msgid "Foreyard"
+msgstr "الصّاري الأكثر انخفاضاً المساند للشراع"
+
+msgid "Forfeit"
+msgstr "الغرامة"
+
+msgid "Forfeitable"
+msgstr "قابل للإستسلام"
+
+msgid "Forfeited"
+msgstr "خاسر"
+
+msgid "Forfeiter"
+msgstr "المستسلم"
+
+msgid "Forfeiters"
+msgstr "المستسلمون"
+
+msgid "Forfeiting"
+msgstr "الخسارة"
+
+msgid "Forfeits"
+msgstr "الغرامات"
+
+msgid "Forfeiture"
+msgstr "الغرامة"
+
+msgid "Forfeitures"
+msgstr "الغرامات"
+
+msgid "Forfend"
+msgstr "إحم"
+
+msgid "Forfended"
+msgstr "محمي"
+
+msgid "Forfending"
+msgstr "الحماية"
+
+msgid "Forfends"
+msgstr "يحمي"
+
+msgid "Forficate"
+msgstr "يفرّع"
+
+msgid "Forgather"
+msgstr "إجتمع"
+
+msgid "Forgathered"
+msgstr "مجتمع"
+
+msgid "Forgathering"
+msgstr "الإجتماع"
+
+msgid "Forgathers"
+msgstr "يجتمع"
+
+msgid "Forgave"
+msgstr "غفر له"
+
+msgid "Forge"
+msgstr "كور الحداد"
+
+msgid "Forgeable"
+msgstr "قابل للتزوير"
+
+msgid "Forged"
+msgstr "مزوّر"
+
+msgid "Forger"
+msgstr "المزور"
+
+msgid "Forgeries"
+msgstr "التزييف"
+
+msgid "Forgers"
+msgstr "المزوّرون"
+
+msgid "Forgery"
+msgstr "التزييف"
+
+msgid "Forges"
+msgstr "دكاكين الحدادة"
+
+msgid "Forget"
+msgstr "إنس"
+
+msgid "Forgetful"
+msgstr "كثير النسيان"
+
+msgid "Forgetfully"
+msgstr "بشكل كثير النسيان"
+
+msgid "Forgetfulness"
+msgstr "النسيان"
+
+msgid "Forgetfulnesses"
+msgstr "النسيان"
+
+msgid "Forgetive"
+msgstr "مخترع"
+
+msgid "Forgets"
+msgstr "ينسي"
+
+msgid "Forgettable"
+msgstr "معرض للنسيان"
+
+msgid "Forgetting"
+msgstr "النسيان"
+
+msgid "Forging"
+msgstr "الصياغة"
+
+msgid "Forgivable"
+msgstr "قابل للعفو"
+
+msgid "Forgivably"
+msgstr "بعفو"
+
+msgid "Forgive"
+msgstr "إغفر له"
+
+msgid "Forgiven"
+msgstr "مغفور لـ"
+
+msgid "Forgiveness"
+msgstr "المغفرة"
+
+msgid "Forgivenesses"
+msgstr "المغفرة"
+
+msgid "Forgiver"
+msgstr "المسامح"
+
+msgid "Forgives"
+msgstr "يغفر له"
+
+msgid "Forgiving"
+msgstr "الغفران"
+
+msgid "Forgivingly"
+msgstr "بشكل متسامح"
+
+msgid "Forgivingness"
+msgstr "المغفرة"
+
+msgid "Forgo"
+msgstr "تخلّ عنه"
+
+msgid "Forgoer"
+msgstr "الممتنع"
+
+msgid "Forgoes"
+msgstr "يتخلّى عنه"
+
+msgid "Forgoing"
+msgstr "التخلّي عن"
+
+msgid "Forgone"
+msgstr "تخلّى عنه"
+
+msgid "Forgot"
+msgstr "نسى"
+
+msgid "Forgotten"
+msgstr "منسي"
+
+msgid "Forisfamiliation"
+msgstr "الحرمان من الإرث"
+
+msgid "Forjudge"
+msgstr "التسرّع بالحكم"
+
+msgid "Fork"
+msgstr "الشوكة"
+
+msgid "Fork-lift"
+msgstr "الرافعة"
+
+msgid "Forked"
+msgstr "متشعّب"
+
+msgid "Forker"
+msgstr "المفرّق"
+
+msgid "Forking"
+msgstr "التفرّع"
+
+msgid "Forklift"
+msgstr "الرافعة"
+
+msgid "Forks"
+msgstr "فوركس"
+
+msgid "Forlorn"
+msgstr "يائس"
+
+msgid "Forlornly"
+msgstr "بشكل يائس"
+
+msgid "Forlornness"
+msgstr "حزن الفراق"
+
+msgid "Form"
+msgstr "الشكل"
+
+msgid "Formability"
+msgstr "القابلية للتشكيل"
+
+msgid "Formal"
+msgstr "الثوب"
+
+msgid "Formaldehyde"
+msgstr "فورمالديهايد"
+
+msgid "Formalin"
+msgstr "الفورمالين"
+
+msgid "Formalins"
+msgstr "الفورمالين"
+
+msgid "Formalise"
+msgstr "شكّل"
+
+msgid "Formalised"
+msgstr "مشكّل"
+
+msgid "Formalises"
+msgstr "يشكّل"
+
+msgid "Formalising"
+msgstr "التشكيل"
+
+msgid "Formalism"
+msgstr "الشكلية"
+
+msgid "Formalisms"
+msgstr "الشكلية"
+
+msgid "Formalist"
+msgstr "الشكلي"
+
+msgid "Formalistic"
+msgstr "شكلي"
+
+msgid "Formalisticly"
+msgstr "بشكل شكلي"
+
+msgid "Formalists"
+msgstr "الشكليون"
+
+msgid "Formalities"
+msgstr "الشكليات"
+
+msgid "Formality"
+msgstr "الشكلية"
+
+msgid "Formalization"
+msgstr "التشكيل"
+
+msgid "Formalizations"
+msgstr "التشكيلات"
+
+msgid "Formalize"
+msgstr "شكّل"
+
+msgid "Formalized"
+msgstr "مشكّل"
+
+msgid "Formalizer"
+msgstr "الصّائغ، المعبّر"
+
+msgid "Formalizes"
+msgstr "يشكّل"
+
+msgid "Formalizing"
+msgstr "التشكيل"
+
+msgid "Formally"
+msgstr "رسميا"
+
+msgid "Formalness"
+msgstr "الرسمية"
+
+msgid "Formals"
+msgstr "الثياب"
+
+msgid "Formant"
+msgstr "صفة صوت الكلام"
+
+msgid "Formants"
+msgstr "صفات أصوات الكلام"
+
+msgid "Format"
+msgstr "الصيغة"
+
+msgid "Formate"
+msgstr "فورميت"
+
+msgid "Formates"
+msgstr "فورماتيز"
+
+msgid "Formation"
+msgstr "التشكيل"
+
+msgid "Formations"
+msgstr "التشكيلات"
+
+msgid "Formative"
+msgstr "مشكّل"
+
+msgid "Formatively"
+msgstr "بشكل مشكّل"
+
+msgid "Formats"
+msgstr "الصيغ"
+
+msgid "Formatted"
+msgstr "مهيّأ"
+
+msgid "Formatting"
+msgstr "التهيئة"
+
+msgid "Formed"
+msgstr "مشكّل"
+
+msgid "Former"
+msgstr "الأول"
+
+msgid "Formerly"
+msgstr "سابقا"
+
+msgid "Formers"
+msgstr "المشكّلون"
+
+msgid "Formes"
+msgstr "فورمز - برمجيّة لتأليف الموسيقى"
+
+msgid "Formic"
+msgstr "نملي"
+
+msgid "Formica"
+msgstr "الفورميكا"
+
+msgid "Formicary"
+msgstr "بيت النّمل"
+
+msgid "Formicate"
+msgstr "يمشي مثل النمل"
+
+msgid "Formication"
+msgstr "مشي النمل"
+
+msgid "Formidable"
+msgstr "هائل"
+
+msgid "Formidableness"
+msgstr "الهول"
+
+msgid "Formidablenesses"
+msgstr "الهول"
+
+msgid "Formidably"
+msgstr "بشكل لا يقهر"
+
+msgid "Forming"
+msgstr "التشكيل"
+
+msgid "Formless"
+msgstr "بلا شكل"
+
+msgid "Formlessly"
+msgstr "بشكل بلا شكل"
+
+msgid "Formlessness"
+msgstr "بلا شكل محدد"
+
+msgid "Formosa"
+msgstr "فورموسا"
+
+msgid "Formosan"
+msgstr "فورموسان - متعلّق بتايوان"
+
+msgid "Forms"
+msgstr "الأشكال"
+
+msgid "Formula"
+msgstr "الصيغة"
+
+msgid "Formulae"
+msgstr "الصيغ"
+
+msgid "Formulaic"
+msgstr "معادليْ"
+
+msgid "Formularies"
+msgstr "كتاب السّوابق"
+
+msgid "Formulary"
+msgstr "صيغي"
+
+msgid "Formulas"
+msgstr "الصيغ"
+
+msgid "Formulate"
+msgstr "صغ"
+
+msgid "Formulated"
+msgstr "معدّ"
+
+msgid "Formulates"
+msgstr "يصوغ"
+
+msgid "Formulating"
+msgstr "الصياغة"
+
+msgid "Formulation"
+msgstr "الصياغة"
+
+msgid "Formulations"
+msgstr "الصياغات"
+
+msgid "Formulator"
+msgstr "المعادل"
+
+msgid "Formulators"
+msgstr "المعادلون"
+
+msgid "Fornent"
+msgstr "قريب من"
+
+msgid "Fornicate"
+msgstr "إزن"
+
+msgid "Fornication"
+msgstr "الزنا"
+
+msgid "Fornicator"
+msgstr "الزاني"
+
+msgid "Forrader"
+msgstr "متّجه إلى الأمام"
+
+msgid "Forrest"
+msgstr "فورست"
+
+msgid "Forsake"
+msgstr "إترك"
+
+msgid "Forsaken"
+msgstr "متروك"
+
+msgid "Forsakes"
+msgstr "يترك"
+
+msgid "Forsaking"
+msgstr "الترك"
+
+msgid "Forsook"
+msgstr "ترك"
+
+msgid "Forsooth"
+msgstr "حقا"
+
+msgid "Forswear"
+msgstr "تعهّد بنبذه"
+
+msgid "Forswearing"
+msgstr "تعهّد بنبذ"
+
+msgid "Forswears"
+msgstr "يتعهّد بنبذه"
+
+msgid "Forswore"
+msgstr "تعهّد بنبذه"
+
+msgid "Forsworn"
+msgstr "تعهّد بنبذه"
+
+msgid "Forsythe"
+msgstr "فورسيذي"
+
+msgid "Fort"
+msgstr "الحصن"
+
+msgid "Forte"
+msgstr "البراعة"
+
+msgid "Fortes"
+msgstr "البراعات"
+
+msgid "Fortescue"
+msgstr "فورتسكو"
+
+msgid "Forth"
+msgstr "فصاعدا"
+
+msgid "Forthcoming"
+msgstr "قادم"
+
+msgid "Forthright"
+msgstr "مباشر"
+
+msgid "Forthrightly"
+msgstr "بصراحة"
+
+msgid "Forthrightness"
+msgstr "الوضوح"
+
+msgid "Forthwith"
+msgstr "حالا"
+
+msgid "Fortier"
+msgstr "فورتير"
+
+msgid "Forties"
+msgstr "الأربعينات"
+
+msgid "Fortieth"
+msgstr "أربعون"
+
+msgid "Fortieths"
+msgstr "جزء من أربعين"
+
+msgid "Fortifiable"
+msgstr "قابل للتحصين"
+
+msgid "Fortification"
+msgstr "التحصين"
+
+msgid "Fortifications"
+msgstr "التحصينات"
+
+msgid "Fortified"
+msgstr "محصّن"
+
+msgid "Fortifier"
+msgstr "المحصّن"
+
+msgid "Fortifiers"
+msgstr "المحصّنات"
+
+msgid "Fortifies"
+msgstr "يحصّن"
+
+msgid "Fortify"
+msgstr "حصّن"
+
+msgid "Fortifying"
+msgstr "التحصين"
+
+msgid "Fortin"
+msgstr "قلعة صغيرة"
+
+msgid "Fortis"
+msgstr "الشّديد"
+
+msgid "Fortitude"
+msgstr "الثبات"
+
+msgid "Fortnight"
+msgstr "الإسبوعان"
+
+msgid "Fortnightly"
+msgstr "مرة كل إسبوعين"
+
+msgid "Fortran"
+msgstr "فورتران"
+
+msgid "Fortress"
+msgstr "القلعة"
+
+msgid "Fortresses"
+msgstr "القلاع"
+
+msgid "Forts"
+msgstr "الحصون"
+
+msgid "Fortuities"
+msgstr "الصدف"
+
+msgid "Fortuitous"
+msgstr "عرضي"
+
+msgid "Fortuitously"
+msgstr "مصادفة"
+
+msgid "Fortuitousness"
+msgstr "الإتفاق"
+
+msgid "Fortuity"
+msgstr "الصدفة"
+
+msgid "Fortunate"
+msgstr "محظوظ"
+
+msgid "Fortunately"
+msgstr "لحسن الحظ"
+
+msgid "Fortunateness"
+msgstr "حسن الحظ"
+
+msgid "Fortunates"
+msgstr "المحظوظين"
+
+msgid "Fortune"
+msgstr "الثروة"
+
+msgid "Fortuned"
+msgstr "محظوظ"
+
+msgid "Fortunes"
+msgstr "الثروات"
+
+msgid "Fortuneteller"
+msgstr "قارئ البخت"
+
+msgid "Fortunetellers"
+msgstr "قارئو البخت"
+
+msgid "Fortunetelling"
+msgstr "قراءة البخت"
+
+msgid "Fortuning"
+msgstr "الحظ"
+
+msgid "Forty"
+msgstr "أربعون"
+
+msgid "Forum"
+msgstr "المنتدى"
+
+msgid "Forums"
+msgstr "المنتديات"
+
+msgid "Forward"
+msgstr "يعزز :: أمامي :: توّاق :: أرسل :: الأمام"
+
+msgid "Forward-bias"
+msgstr "التحيّز الأمامي"
+
+msgid "Forward-space"
+msgstr "الفضاء الأمامي"
+
+msgid "Forwarded"
+msgstr "مرسل"
+
+msgid "Forwarder"
+msgstr "الشاحن"
+
+msgid "Forwarders"
+msgstr "الشاحنون"
+
+msgid "Forwarding"
+msgstr "الشحن"
+
+msgid "Forwardly"
+msgstr "بشكل إلى الأمام"
+
+msgid "Forwardness"
+msgstr "قُدُماً"
+
+msgid "Forwards"
+msgstr "المهاجمون"
+
+msgid "Forwent"
+msgstr "إمتنع عنه"
+
+msgid "Foss"
+msgstr "فوس"
+
+msgid "Fosse"
+msgstr "الخندق"
+
+msgid "Fosses"
+msgstr "الخنادق"
+
+msgid "Fossick"
+msgstr "نقّب عنه"
+
+msgid "Fossicked"
+msgstr "منقّب عن"
+
+msgid "Fossicking"
+msgstr "التنقيب عن"
+
+msgid "Fossicks"
+msgstr "ينقّب عنه"
+
+msgid "Fossil"
+msgstr "متحجّر"
+
+msgid "Fossiliferous"
+msgstr "متحجّر"
+
+msgid "Fossilization"
+msgstr "التحجر"
+
+msgid "Fossilizations"
+msgstr "التحجر"
+
+msgid "Fossilize"
+msgstr "حجّر"
+
+msgid "Fossilized"
+msgstr "محجّر"
+
+msgid "Fossilizes"
+msgstr "يحجّر"
+
+msgid "Fossilizing"
+msgstr "التحجير"
+
+msgid "Fossils"
+msgstr "المتحجرات"
+
+msgid "Fossorial"
+msgstr "أُحفوري"
+
+msgid "Foster"
+msgstr "تبنّ"
+
+msgid "Fostered"
+msgstr "تبنّى"
+
+msgid "Fosterer"
+msgstr "المربِّي، الراعي"
+
+msgid "Fostering"
+msgstr "التبنّي"
+
+msgid "Fosterling"
+msgstr "طفل التبنّي"
+
+msgid "Fosters"
+msgstr "يتبنّى"
+
+msgid "Fought"
+msgstr "قوتل"
+
+msgid "Foul"
+msgstr "الخطأ"
+
+msgid "Foulard"
+msgstr "الفولار"
+
+msgid "Foulards"
+msgstr "الفولار"
+
+msgid "Fouled"
+msgstr "مفسد"
+
+msgid "Fouler"
+msgstr "أكثر قذارة"
+
+msgid "Foulest"
+msgstr "أكثر قذارة"
+
+msgid "Fouling"
+msgstr "الإفساد"
+
+msgid "Foully"
+msgstr "بشكل كريه"
+
+msgid "Foulmouthed"
+msgstr "بذيء اللسان"
+
+msgid "Foulness"
+msgstr "البذاءة"
+
+msgid "Fouls"
+msgstr "الأخطاء"
+
+msgid "Found"
+msgstr "وجد"
+
+msgid "Foundation"
+msgstr "المؤسسة"
+
+msgid "Foundationer"
+msgstr "المعال من قبل المؤسّسة"
+
+msgid "Foundationers"
+msgstr "المعالون من قبل المؤسّسة"
+
+msgid "Foundations"
+msgstr "المؤسسات"
+
+msgid "Founded"
+msgstr "مؤسس"
+
+msgid "Founder"
+msgstr "المؤسس"
+
+msgid "Foundered"
+msgstr "مخفق"
+
+msgid "Foundering"
+msgstr "الإخفاق"
+
+msgid "Founders"
+msgstr "المؤسسون"
+
+msgid "Founding"
+msgstr "التأسيس"
+
+msgid "Foundings"
+msgstr "التأسيس"
+
+msgid "Foundling"
+msgstr "اللقيط"
+
+msgid "Foundlings"
+msgstr "اللقطاء"
+
+msgid "Foundress"
+msgstr "المرأة المؤسسة"
+
+msgid "Foundries"
+msgstr "المسابك"
+
+msgid "Foundry"
+msgstr "المسبك"
+
+msgid "Founds"
+msgstr "يؤسّس"
+
+msgid "Fount"
+msgstr "الينبوع"
+
+msgid "Fountain"
+msgstr "النافورة"
+
+msgid "Fountainhead"
+msgstr "المنبع"
+
+msgid "Fountainheads"
+msgstr "المنابع"
+
+msgid "Fountains"
+msgstr "النافورات"
+
+msgid "Founts"
+msgstr "الينابيع"
+
+msgid "Four"
+msgstr "أربعة"
+
+msgid "Fourfold"
+msgstr "أربعة أضعاف"
+
+msgid "Fourier"
+msgstr "فوريير"
+
+msgid "Fours"
+msgstr "الأربعات"
+
+msgid "Fourscore"
+msgstr "الثمانون"
+
+msgid "Foursome"
+msgstr "اللعبة الرباعية"
+
+msgid "Foursomes"
+msgstr "الألعاب الرباعية"
+
+msgid "Foursquare"
+msgstr "مربّع"
+
+msgid "Fourteen"
+msgstr "أربعة عشر"
+
+msgid "Fourteenth"
+msgstr "رابع عشر"
+
+msgid "Fourteenthly"
+msgstr "بشكل رابع عشر"
+
+msgid "Fourth"
+msgstr "الربع"
+
+msgid "Fourthly"
+msgstr "رابعا"
+
+msgid "Fourths"
+msgstr "الأرباع"
+
+msgid "Foutain"
+msgstr "فوتين"
+
+msgid "Fovea"
+msgstr "النّقرة"
+
+msgid "Foveae"
+msgstr "النّقر"
+
+msgid "Foveal"
+msgstr "بنقر"
+
+msgid "Foveate"
+msgstr "منقّر"
+
+msgid "Fowl"
+msgstr "الطير"
+
+msgid "Fowler"
+msgstr "مرتكب الخطأ"
+
+msgid "Fowlers"
+msgstr "صيادو الطيور"
+
+msgid "Fowling"
+msgstr "الصيد"
+
+msgid "Fowlings"
+msgstr "الصيد"
+
+msgid "Fowls"
+msgstr "الطيور"
+
+msgid "Fox"
+msgstr "الثّعلب"
+
+msgid "Foxed"
+msgstr "مخدوع"
+
+msgid "Foxes"
+msgstr "الثعالب"
+
+msgid "Foxglove"
+msgstr "كفّ الثعلب"
+
+msgid "Foxgloves"
+msgstr "قفّازات الثّعلب (أعشاب)"
+
+msgid "Foxhall"
+msgstr "فوكسهال"
+
+msgid "Foxhole"
+msgstr "جحر الثعالب"
+
+msgid "Foxholes"
+msgstr "جحور الثعالب"
+
+msgid "Foxhound"
+msgstr "كلب صيد الثعالب"
+
+msgid "Foxhounds"
+msgstr "كلاب صيد الثعالب"
+
+msgid "Foxier"
+msgstr "أشدّ مكرا"
+
+msgid "Foxiest"
+msgstr "أشدّ مكرا"
+
+msgid "Foxiness"
+msgstr "الجاذبية"
+
+msgid "Foxing"
+msgstr "الخدع"
+
+msgid "Foxtail"
+msgstr "ذيل الثعلب"
+
+msgid "Foxtails"
+msgstr "ذيول الثعلب"
+
+msgid "Foxtrot"
+msgstr "الفوكستروت (رقصة)"
+
+msgid "Foxy"
+msgstr "ماكر"
+
+msgid "Foyer"
+msgstr "الإستراحة"
+
+msgid "FPC"
+msgstr "تركيز بروتين السّمك"
+
+msgid "Fracas"
+msgstr "الشجار"
+
+msgid "Fracases"
+msgstr "المشاجرات"
+
+msgid "Fractal"
+msgstr "صورة النمطي هندسي متكرر"
+
+msgid "Fractals"
+msgstr "صور النمطي هندسي متكرر"
+
+msgid "Fraction"
+msgstr "الكسر"
+
+msgid "Fractional"
+msgstr "جزئي"
+
+msgid "Fractionally"
+msgstr "جزئيا"
+
+msgid "Fractionary"
+msgstr "كسري"
+
+msgid "Fractionate"
+msgstr "جزّئ"
+
+msgid "Fractionated"
+msgstr "مجزّأ"
+
+msgid "Fractionation"
+msgstr "التقطير"
+
+msgid "Fractionize"
+msgstr "يجزّيء"
+
+msgid "Fractions"
+msgstr "الكسور"
+
+msgid "Fractious"
+msgstr "عنيد"
+
+msgid "Fractiously"
+msgstr "بشكل عنيد"
+
+msgid "Fractiousness"
+msgstr "المشاكسة"
+
+msgid "Fracture"
+msgstr "الكسر"
+
+msgid "Fractured"
+msgstr "مكسور"
+
+msgid "Fractures"
+msgstr "الكسور"
+
+msgid "Fracturing"
+msgstr "الكسر"
+
+msgid "Fragile"
+msgstr "هشّ"
+
+msgid "Fragilely"
+msgstr "بشكل هشّ"
+
+msgid "Fragileness"
+msgstr "الهشاشة"
+
+msgid "Fragility"
+msgstr "قابلية الكسر"
+
+msgid "Fragment"
+msgstr "الجزء"
+
+msgid "Fragmental"
+msgstr "متجزأ"
+
+msgid "Fragmentarily"
+msgstr "بشكل متجزأ"
+
+msgid "Fragmentariness"
+msgstr "الجزئية"
+
+msgid "Fragmentary"
+msgstr "متجزأ"
+
+msgid "Fragmentation"
+msgstr "التجزؤ"
+
+msgid "Fragmentations"
+msgstr "التجزؤ"
+
+msgid "Fragmented"
+msgstr "ممزّق"
+
+msgid "Fragmenting"
+msgstr "التمزيق"
+
+msgid "Fragments"
+msgstr "الأجزاء"
+
+msgid "Fragrance"
+msgstr "العطر"
+
+msgid "Fragrances"
+msgstr "العطور"
+
+msgid "Fragrancies"
+msgstr "الروائح"
+
+msgid "Fragrancy"
+msgstr "رائحي"
+
+msgid "Fragrant"
+msgstr "معطّر"
+
+msgid "Fragrantly"
+msgstr "بشكل معطّر"
+
+msgid "Frail"
+msgstr "ضعيف"
+
+msgid "Frailer"
+msgstr "أضعف"
+
+msgid "Frailest"
+msgstr "أضعف"
+
+msgid "Frailly"
+msgstr "بشكل ضعيف"
+
+msgid "Frailness"
+msgstr "الضعف"
+
+msgid "Frailties"
+msgstr "الضعف"
+
+msgid "Frailty"
+msgstr "الضعف"
+
+msgid "Fraise"
+msgstr "سلاح دفاعي"
+
+msgid "Fraises"
+msgstr "أسلحة دفاعية"
+
+msgid "Frambesia"
+msgstr "فرامبيسيا (مرض معدي)"
+
+msgid "Frame"
+msgstr "الإطار"
+
+msgid "Frame-work"
+msgstr "الإطار، الهيكل"
+
+msgid "Framed"
+msgstr "مؤطّر"
+
+msgid "FrameFrameset"
+msgstr "إطارمجموعة إطار"
+
+msgid "Framer"
+msgstr "المبروز"
+
+msgid "Framers"
+msgstr "المبروزون"
+
+msgid "Frames"
+msgstr "الإطارات"
+
+msgid "Framework"
+msgstr "الإطار، الهيكل"
+
+msgid "Frameworks"
+msgstr "الهياكل"
+
+msgid "Framing"
+msgstr "التأطير"
+
+msgid "Framings"
+msgstr "البراويز"
+
+msgid "Fran"
+msgstr "فران"
+
+msgid "Franc"
+msgstr "الفرنك"
+
+msgid "Franca"
+msgstr "فرانكا"
+
+msgid "France"
+msgstr "فرنسا"
+
+msgid "Frances"
+msgstr "فرانسيس"
+
+msgid "Francesca"
+msgstr "فرانسيسكا"
+
+msgid "Francesco"
+msgstr "فرانسيسكو"
+
+msgid "Franchise"
+msgstr "الوكالة"
+
+msgid "Franchised"
+msgstr "منح وكالة"
+
+msgid "Franchiser"
+msgstr "صاحب الوكالة"
+
+msgid "Franchises"
+msgstr "الوكالات"
+
+msgid "Franchising"
+msgstr "منح وكالة"
+
+msgid "Francie"
+msgstr "فرانسي"
+
+msgid "Francine"
+msgstr "فرانسين"
+
+msgid "Francis"
+msgstr "فرنسيس"
+
+msgid "Franciscan"
+msgstr "الفرانسيسكاني"
+
+msgid "Franciscans"
+msgstr "الفرانسيسكانيون"
+
+msgid "Francisco"
+msgstr "فرانسيسكو"
+
+msgid "Francium"
+msgstr "الفرنسيوم"
+
+msgid "Franco"
+msgstr "فرانكو"
+
+msgid "Francois"
+msgstr "فرانسوا"
+
+msgid "Francoise"
+msgstr "فرانسيس"
+
+msgid "Francophobe"
+msgstr "مبغض فرنسا"
+
+msgid "Francs"
+msgstr "الفرنكات"
+
+msgid "Franctireur"
+msgstr "فرانكتيرير"
+
+msgid "Frangibility"
+msgstr "القابلية للكسر"
+
+msgid "Frangible"
+msgstr "سهل الكسر"
+
+msgid "Frangipani"
+msgstr "فرانجيباني (شجيرة)"
+
+msgid "Frank"
+msgstr "فرانك"
+
+msgid "Franked"
+msgstr "مدموغ"
+
+msgid "Frankel"
+msgstr "فرانكل"
+
+msgid "Franker"
+msgstr "أكثر صراحة"
+
+msgid "Frankest"
+msgstr "أكثر صراحة"
+
+msgid "Frankford"
+msgstr "فرانكفورد"
+
+msgid "Frankfort"
+msgstr "فرانكفورت"
+
+msgid "Frankfurt"
+msgstr "فرانكفورت"
+
+msgid "Frankfurter"
+msgstr "سجقة فرانكفورتير"
+
+msgid "Frankfurters"
+msgstr "سجق فرانكفورتير"
+
+msgid "Frankie"
+msgstr "فرانكي"
+
+msgid "Frankincense"
+msgstr "اللبان"
+
+msgid "Franking"
+msgstr "الدمغ"
+
+msgid "Franklin"
+msgstr "فرانكلين"
+
+msgid "Franklins"
+msgstr "الفرانكلين"
+
+msgid "Frankly"
+msgstr "بصراحة"
+
+msgid "Frankness"
+msgstr "الصراحة"
+
+msgid "Franks"
+msgstr "بريد خالي من الرسوم"
+
+msgid "Franny"
+msgstr "فراني"
+
+msgid "Frantic"
+msgstr "مسعور"
+
+msgid "Frantically"
+msgstr "بشكل مسعور"
+
+msgid "Franticly"
+msgstr "بشكل مسعور"
+
+msgid "Franticness"
+msgstr "الغضب"
+
+msgid "Franz"
+msgstr "فرانز"
+
+msgid "Frap"
+msgstr "إربط"
+
+msgid "Frapped"
+msgstr "مربوط"
+
+msgid "Frapping"
+msgstr "الربط"
+
+msgid "Fraser"
+msgstr "فريزر"
+
+msgid "Frat"
+msgstr "نادي"
+
+msgid "Fraternal"
+msgstr "أخوي"
+
+msgid "Fraternally"
+msgstr "بشكل أخوي"
+
+msgid "Fraternities"
+msgstr "النوادي"
+
+msgid "Fraternity"
+msgstr "الأخوة"
+
+msgid "Fraternization"
+msgstr "الإخاء"
+
+msgid "Fraternizations"
+msgstr "الإخاء"
+
+msgid "Fraternize"
+msgstr "تآخ"
+
+msgid "Fraternized"
+msgstr "متآخى"
+
+msgid "Fraternizer"
+msgstr "المنتسب للنادي"
+
+msgid "Fraternizers"
+msgstr "المنتسبون للنادي"
+
+msgid "Fraternizes"
+msgstr "يتآخي"
+
+msgid "Fraternizing"
+msgstr "التآخي"
+
+msgid "Frates"
+msgstr "فراتز"
+
+msgid "Fratricidal"
+msgstr "قاتل الأخ"
+
+msgid "Fratricide"
+msgstr "قتل الأخ"
+
+msgid "Fratricides"
+msgstr "قتل الأخ"
+
+msgid "Frau"
+msgstr "فرو"
+
+msgid "Fraud"
+msgstr "الإحتيال"
+
+msgid "Frauds"
+msgstr "الإحتيالات"
+
+msgid "Fraudulence"
+msgstr "الإحتيال"
+
+msgid "Fraudulent"
+msgstr "محتال"
+
+msgid "Fraudulently"
+msgstr "بإحتيال"
+
+msgid "Fraudulentness"
+msgstr "الإحتيال"
+
+msgid "Fraught"
+msgstr "مشحون"
+
+msgid "Fraughted"
+msgstr "شُحِن"
+
+msgid "Fraughting"
+msgstr "الشحن"
+
+msgid "Fraughts"
+msgstr "الشحنات"
+
+msgid "Fray"
+msgstr "المشاجرة"
+
+msgid "Frayed"
+msgstr "منهك"
+
+msgid "Fraying"
+msgstr "الإبلاء"
+
+msgid "Frayne"
+msgstr "فرين"
+
+msgid "Frays"
+msgstr "يبلي"
+
+msgid "Frazier"
+msgstr "فرايزر"
+
+msgid "Frazzle"
+msgstr "أبل"
+
+msgid "Frazzled"
+msgstr "مبلى"
+
+msgid "Frazzles"
+msgstr "يبلي"
+
+msgid "Frazzling"
+msgstr "الإبلاء"
+
+msgid "Freak"
+msgstr "النزوة"
+
+msgid "Freakier"
+msgstr "أكثر فظاعة"
+
+msgid "Freakiest"
+msgstr "أكثر فظاعة"
+
+msgid "Freakiness"
+msgstr "الغرابة"
+
+msgid "Freakish"
+msgstr "فظيع"
+
+msgid "Freakishly"
+msgstr "بشكل فظيع"
+
+msgid "Freakishness"
+msgstr "الغرابة"
+
+msgid "Freaks"
+msgstr "النزوات"
+
+msgid "Freaky"
+msgstr "فظيع"
+
+msgid "Freckle"
+msgstr "النمشة"
+
+msgid "Freckled"
+msgstr "منمّش"
+
+msgid "Freckles"
+msgstr "النمش"
+
+msgid "Freckling"
+msgstr "التنميش"
+
+msgid "Fred"
+msgstr "فريد"
+
+msgid "Freddie"
+msgstr "فريدي"
+
+msgid "Freddy"
+msgstr "فريدي"
+
+msgid "Frederic"
+msgstr "فريدريك"
+
+msgid "Frederick"
+msgstr "فريدريك"
+
+msgid "Fredericks"
+msgstr "فريدريكس"
+
+msgid "Fredericksburg"
+msgstr "فريدريكسبيرغ"
+
+msgid "Frederico"
+msgstr "فريدريكو"
+
+msgid "Fredericton"
+msgstr "فريدريكتون"
+
+msgid "Fredholm"
+msgstr "فريدولم"
+
+msgid "Fredrick"
+msgstr "فريدريك"
+
+msgid "Fredrickson"
+msgstr "فريدريكسون"
+
+msgid "Free"
+msgstr "حرّ"
+
+msgid "Free-lance"
+msgstr "مستقلّ"
+
+msgid "Free-of-ground"
+msgstr "الحرّة للأرض"
+
+msgid "Freebie"
+msgstr "الهدية الترويجية"
+
+msgid "Freeboot"
+msgstr "إسلب"
+
+msgid "Freebooter"
+msgstr "القرصان"
+
+msgid "Freebooters"
+msgstr "القراصنة"
+
+msgid "Freeborn"
+msgstr "حرّ"
+
+msgid "Freed"
+msgstr "محرّر"
+
+msgid "Freedman"
+msgstr "المعتق"
+
+msgid "Freedmen"
+msgstr "المعتقون"
+
+msgid "Freedom"
+msgstr "الحرية"
+
+msgid "Freedoms"
+msgstr "الحريات"
+
+msgid "Freehand"
+msgstr "رسم حر"
+
+msgid "Freehanded"
+msgstr "منفتح"
+
+msgid "Freehandedly"
+msgstr "بشكل منفتح"
+
+msgid "Freehold"
+msgstr "الملك الصرف"
+
+msgid "Freeholder"
+msgstr "المالك الصرف"
+
+msgid "Freeholders"
+msgstr "الملاك الصرف"
+
+msgid "Freeing"
+msgstr "التحرير"
+
+msgid "Freelance"
+msgstr "مستقلّ"
+
+msgid "Freeloader"
+msgstr "المستغّل"
+
+msgid "Freeloaders"
+msgstr "المستغّلون"
+
+msgid "Freely"
+msgstr "بحرية"
+
+msgid "Freeman"
+msgstr "فريمان"
+
+msgid "Freemason"
+msgstr "الماسوني"
+
+msgid "Freemasonic"
+msgstr "ماسوني"
+
+msgid "Freemasonry"
+msgstr "الماسونية"
+
+msgid "Freemasons"
+msgstr "الماسونيون"
+
+msgid "Freemen"
+msgstr "الأحرار"
+
+msgid "Freeness"
+msgstr "الحريّة"
+
+msgid "Freeport"
+msgstr "فريبورت"
+
+msgid "Freer"
+msgstr "أكثر حرية"
+
+msgid "Frees"
+msgstr "يحرّر"
+
+msgid "Freest"
+msgstr "أكثر حرية"
+
+msgid "Freestanding"
+msgstr "طليق"
+
+msgid "Freestone"
+msgstr "صخرة"
+
+msgid "Freestones"
+msgstr "صخور"
+
+msgid "Freestyle"
+msgstr "حرّ"
+
+msgid "Freethinker"
+msgstr "المفكّر الحرّ"
+
+msgid "Freethinkers"
+msgstr "المفكّرون الأحرار"
+
+msgid "Freethinking"
+msgstr "التفكير الحرّ"
+
+msgid "Freethought"
+msgstr "التفكير الحرّ"
+
+msgid "Freetown"
+msgstr "فري تون"
+
+msgid "FreeVerb"
+msgstr "فعل حر"
+
+msgid "Freeware"
+msgstr "البرنامج المجّاني"
+
+msgid "Freeway"
+msgstr "الطريق السريع"
+
+msgid "Freeways"
+msgstr "الطرق السريعة"
+
+msgid "Freewheel"
+msgstr "الحرية"
+
+msgid "Freewheeled"
+msgstr "حُرْ"
+
+msgid "Freewheeler"
+msgstr "الحرّ"
+
+msgid "Freewheelers"
+msgstr "الأحرار"
+
+msgid "Freewheeling"
+msgstr "حرّة"
+
+msgid "Freewheels"
+msgstr "الأحرار"
+
+msgid "Freezable"
+msgstr "قابل للتجميد"
+
+msgid "Freeze"
+msgstr "الإنجماد"
+
+msgid "Freezer"
+msgstr "المجمّدة"
+
+msgid "Freezers"
+msgstr "المجمّدات"
+
+msgid "Freezes"
+msgstr "يتجمّد"
+
+msgid "Freezing"
+msgstr "الإنجماد"
+
+msgid "Freida"
+msgstr "فريدا"
+
+msgid "Freight"
+msgstr "الشحن"
+
+msgid "Freightage"
+msgstr "أجرة النقل"
+
+msgid "Freighted"
+msgstr "مشحون"
+
+msgid "Freighter"
+msgstr "الشاحن"
+
+msgid "Freighters"
+msgstr "الشاحنات"
+
+msgid "Freighting"
+msgstr "الشحن"
+
+msgid "Freights"
+msgstr "الشحن"
+
+msgid "French"
+msgstr "الفرنسيون"
+
+msgid "Frenchman"
+msgstr "الفرنسي"
+
+msgid "Frenchmen"
+msgstr "الفرنسيون"
+
+msgid "Frenetic"
+msgstr "مسعور"
+
+msgid "Frenetically"
+msgstr "بشكل مسعور"
+
+msgid "Frenzied"
+msgstr "مسعور"
+
+msgid "Frenziedly"
+msgstr "بشكل مسعور"
+
+msgid "Frenzies"
+msgstr "الجنون"
+
+msgid "Frenzy"
+msgstr "الهيجان"
+
+msgid "Frenzying"
+msgstr "الجنون"
+
+msgid "Freon"
+msgstr "فريون"
+
+msgid "Frequencies"
+msgstr "الترددات"
+
+msgid "Frequency"
+msgstr "التردد"
+
+msgid "Frequency-independent"
+msgstr "تردد مستقل"
+
+msgid "Frequent"
+msgstr "متكرّر"
+
+msgid "Frequented"
+msgstr "متردّد على"
+
+msgid "Frequenter"
+msgstr "المتردّد"
+
+msgid "Frequenters"
+msgstr "المتردّد"
+
+msgid "Frequenting"
+msgstr "التردّد على"
+
+msgid "Frequently"
+msgstr "كثيرا"
+
+msgid "Frequentness"
+msgstr "التردّد"
+
+msgid "Frequents"
+msgstr "يتردّد عليه"
+
+msgid "Fresco"
+msgstr "التصوير الجصي"
+
+msgid "Frescoed"
+msgstr "رسم"
+
+msgid "Frescoes"
+msgstr "النماذج الجصّية"
+
+msgid "Frescoing"
+msgstr "الرسم"
+
+msgid "Frescos"
+msgstr "النماذج الجصّية"
+
+msgid "Fresh"
+msgstr "جديد"
+
+msgid "Freshen"
+msgstr "أنعش"
+
+msgid "Freshened"
+msgstr "منعش"
+
+msgid "Freshener"
+msgstr "المعطّر"
+
+msgid "Fresheners"
+msgstr "المعطّرات"
+
+msgid "Freshening"
+msgstr "الإنعاش"
+
+msgid "Freshens"
+msgstr "ينعش"
+
+msgid "Fresher"
+msgstr "أعذب"
+
+msgid "Freshers"
+msgstr "المستجدّون على مقاعد الدّراسة"
+
+msgid "Freshest"
+msgstr "أعذب"
+
+msgid "Freshly"
+msgstr "بشكل جديد"
+
+msgid "Freshman"
+msgstr "المبتدئ"
+
+msgid "Freshmen"
+msgstr "المبتدئون"
+
+msgid "Freshness"
+msgstr "الطراوة"
+
+msgid "Freshwater"
+msgstr "الماء العذب"
+
+msgid "Fresnel"
+msgstr "فريسنل"
+
+msgid "Fresno"
+msgstr "فريسنو"
+
+msgid "Fret"
+msgstr "الحنق"
+
+msgid "Fretful"
+msgstr "مشاكس"
+
+msgid "Fretfully"
+msgstr "بشكل مشاكس"
+
+msgid "Fretfulness"
+msgstr "النقاق"
+
+msgid "Frets"
+msgstr "الحنق"
+
+msgid "Fretted"
+msgstr "مقلق"
+
+msgid "Fretting"
+msgstr "القلق"
+
+msgid "Freud"
+msgstr "فرويد"
+
+msgid "Freudian"
+msgstr "فرويدي"
+
+msgid "Frey"
+msgstr "فراي (إلة الخصوبة)"
+
+msgid "Freya"
+msgstr "فريا (إلة الخصوبة)"
+
+msgid "Fri"
+msgstr "الجمعة"
+
+msgid "Friability"
+msgstr "الهشاشة"
+
+msgid "Friable"
+msgstr "هشّ"
+
+msgid "Friableness"
+msgstr "التفتييت"
+
+msgid "Friar"
+msgstr "الراهب"
+
+msgid "Friaries"
+msgstr "الأديرة"
+
+msgid "Friarly"
+msgstr "بدون خبرة"
+
+msgid "Friars"
+msgstr "الرهبان"
+
+msgid "Fricassee"
+msgstr "اللحم المقلي"
+
+msgid "Fricasseed"
+msgstr "حضّر الدجاج"
+
+msgid "Fricasseeing"
+msgstr "تحضير الدجاج"
+
+msgid "Fricassees"
+msgstr "اللحوم المقلية"
+
+msgid "Frication"
+msgstr "المسح"
+
+msgid "Fricative"
+msgstr "إحتكاكي"
+
+msgid "Fricatives"
+msgstr "الإحتكاكيون"
+
+msgid "Frick"
+msgstr "فريك"
+
+msgid "Friction"
+msgstr "الإحتكاك"
+
+msgid "Frictional"
+msgstr "إحتكاكي"
+
+msgid "Frictionally"
+msgstr "بشكل إحتكاكي"
+
+msgid "Frictionless"
+msgstr "عديم الاحتكاك"
+
+msgid "Frictionlessly"
+msgstr "بشكل عديم الاحتكاك"
+
+msgid "Frictions"
+msgstr "الإحتكاك"
+
+msgid "Friday"
+msgstr "الجمعة"
+
+msgid "Fridays"
+msgstr "أيام الجمع"
+
+msgid "Fridge"
+msgstr "الثلاجة"
+
+msgid "Fridges"
+msgstr "الثلاجات"
+
+msgid "Fried"
+msgstr "مقلي"
+
+msgid "Friedman"
+msgstr "فريدمان"
+
+msgid "Friedrich"
+msgstr "فريدريك"
+
+msgid "Friend"
+msgstr "الصديق"
+
+msgid "Friendless"
+msgstr "بلا أصدقاء"
+
+msgid "Friendlessness"
+msgstr "الوُحْدة"
+
+msgid "Friendlier"
+msgstr "أكثر وديّة"
+
+msgid "Friendlies"
+msgstr "اللقاءات الودّية"
+
+msgid "Friendliest"
+msgstr "أكثر وديّة"
+
+msgid "Friendlily"
+msgstr "بشكل ودّي"
+
+msgid "Friendliness"
+msgstr "الودّية"
+
+msgid "Friendly"
+msgstr "ودّي"
+
+msgid "Friends"
+msgstr "الأصدقاء"
+
+msgid "Friendship"
+msgstr "الصداقة"
+
+msgid "Friendships"
+msgstr "الصداقات"
+
+msgid "Frier"
+msgstr "القالي"
+
+msgid "Fries"
+msgstr "يقلّي"
+
+msgid "Frieze"
+msgstr "الإفريز"
+
+msgid "Friezes"
+msgstr "الأفاريز"
+
+msgid "Frigate"
+msgstr "الفرقاطة"
+
+msgid "Frigates"
+msgstr "الفرقاطات"
+
+msgid "Frigga"
+msgstr "فريجا (إله الجنّة)"
+
+msgid "Fright"
+msgstr "الخوف"
+
+msgid "Frighten"
+msgstr "خوّف"
+
+msgid "Frightened"
+msgstr "خائف"
+
+msgid "Frightening"
+msgstr "التخويف"
+
+msgid "Frighteningly"
+msgstr "بشكل مخيف"
+
+msgid "Frightens"
+msgstr "يخوّف"
+
+msgid "Frightful"
+msgstr "مخيف"
+
+msgid "Frightfully"
+msgstr "بشكل مروّع"
+
+msgid "Frightfulness"
+msgstr "الخوف"
+
+msgid "Frights"
+msgstr "الخوف"
+
+msgid "Frigid"
+msgstr "بارد"
+
+msgid "Frigidaire"
+msgstr "فريجيدير"
+
+msgid "Frigidity"
+msgstr "البرودة الجنسية"
+
+msgid "Frigidly"
+msgstr "ببرود جنسي"
+
+msgid "Frigidness"
+msgstr "البرودة"
+
+msgid "Frijol"
+msgstr "شجرة الفول"
+
+msgid "Frijole"
+msgstr "الفول المكسيكيّ. عادةً مجفّف، شجرة الفول"
+
+msgid "Frijoles"
+msgstr "أشجار الفول"
+
+msgid "Frijolillo"
+msgstr "شجرة فريجوليلو. شجرة سامّة للماشية"
+
+msgid "Frill"
+msgstr "الرتوش"
+
+msgid "Frilled"
+msgstr "مزركش"
+
+msgid "Frillier"
+msgstr "مكشكش"
+
+msgid "Frilliest"
+msgstr "مكشكش"
+
+msgid "Frills"
+msgstr "الرتوش"
+
+msgid "Frilly"
+msgstr "مكشكش"
+
+msgid "Fringe"
+msgstr "الجناح"
+
+msgid "Fringed"
+msgstr "مهدّب"
+
+msgid "Fringes"
+msgstr "الحافّات"
+
+msgid "Fringing"
+msgstr "التهديب"
+
+msgid "Frisbee"
+msgstr "الفريسبي"
+
+msgid "Frisk"
+msgstr "المرح"
+
+msgid "Frisked"
+msgstr "طافر"
+
+msgid "Frisker"
+msgstr "المفتّش"
+
+msgid "Friskier"
+msgstr "أكثر مرحا"
+
+msgid "Friskiest"
+msgstr "أكثر مرحا"
+
+msgid "Friskiness"
+msgstr "التفتيش"
+
+msgid "Frisking"
+msgstr "الطفر"
+
+msgid "Frisks"
+msgstr "يطفر"
+
+msgid "Frisky"
+msgstr "مرح"
+
+msgid "Frit"
+msgstr "إطل"
+
+msgid "Fritillary"
+msgstr "حشيشة الحجل"
+
+msgid "Frito"
+msgstr "فريتو"
+
+msgid "Fritter"
+msgstr "الفطيرة"
+
+msgid "Frittered"
+msgstr "مبدّد"
+
+msgid "Frittering"
+msgstr "التبديد"
+
+msgid "Fritters"
+msgstr "الفطائر"
+
+msgid "Fritz"
+msgstr "فريز"
+
+msgid "Frivolities"
+msgstr "الطيش"
+
+msgid "Frivolity"
+msgstr "الطيش"
+
+msgid "Frivolous"
+msgstr "طائش"
+
+msgid "Frivolously"
+msgstr "بشكل طائش"
+
+msgid "Frivolousness"
+msgstr "التّهوّر"
+
+msgid "Frizz"
+msgstr "الشعر المجعد"
+
+msgid "Frizzed"
+msgstr "مقلّى"
+
+msgid "Frizzes"
+msgstr "الشعر المجعد"
+
+msgid "Frizzily"
+msgstr "بقسوة"
+
+msgid "Frizziness"
+msgstr "القسوة"
+
+msgid "Frizzing"
+msgstr "التقلية"
+
+msgid "Frizzle"
+msgstr "قلّ"
+
+msgid "Frizzled"
+msgstr "مقلّى"
+
+msgid "Frizzles"
+msgstr "يقلّي"
+
+msgid "Frizzling"
+msgstr "التقلية"
+
+msgid "Fro"
+msgstr "بعيدا"
+
+msgid "Frock"
+msgstr "الفستان"
+
+msgid "Frocked"
+msgstr "لبست الفستان"
+
+msgid "Frocking"
+msgstr "لبس الفستان"
+
+msgid "Frocks"
+msgstr "الفساتين"
+
+msgid "Frog"
+msgstr "الضفدع"
+
+msgid "Froggy"
+msgstr "غني بالضفادع"
+
+msgid "Frogman"
+msgstr "الضفدع البشري"
+
+msgid "Frogmen"
+msgstr "الضفادع البشرية"
+
+msgid "Frogs"
+msgstr "الضفادع"
+
+msgid "Frolic"
+msgstr "مرح"
+
+msgid "Frolicing"
+msgstr "المرح"
+
+msgid "Frolicked"
+msgstr "مارح"
+
+msgid "Frolicking"
+msgstr "الرّقص فرحًا"
+
+msgid "Frolics"
+msgstr "المرح"
+
+msgid "Frolicsome"
+msgstr "مرح"
+
+msgid "Frolicsomely"
+msgstr "بشكل مرح"
+
+msgid "From"
+msgstr "من"
+
+msgid "Frond"
+msgstr "السعفة"
+
+msgid "Front"
+msgstr "الجبهة"
+
+msgid "Front-end"
+msgstr "الواجهة الأمامية"
+
+msgid "Frontage"
+msgstr "الواجهة"
+
+msgid "Frontages"
+msgstr "الواجهات"
+
+msgid "Frontal"
+msgstr "أمامي"
+
+msgid "Frontally"
+msgstr "أماميا"
+
+msgid "Frontdoor"
+msgstr "الباب الرّئيسيّ"
+
+msgid "Fronted"
+msgstr "واجَهَهُ"
+
+msgid "FrontEnd"
+msgstr "الواجهة الأمامية"
+
+msgid "Frontier"
+msgstr "الحدود"
+
+msgid "Frontiers"
+msgstr "الحدود"
+
+msgid "Frontiersman"
+msgstr "ساكن الحدود"
+
+msgid "Frontiersmen"
+msgstr "سكنة الحدود"
+
+msgid "Fronting"
+msgstr "المواجهة"
+
+msgid "Frontlet"
+msgstr "عصابة رأس"
+
+msgid "Frontlets"
+msgstr "عصابات رأس"
+
+msgid "Fronts"
+msgstr "الجبهات"
+
+msgid "Frost"
+msgstr "فروست"
+
+msgid "Frostbelt"
+msgstr "الجزء الشمالي الشرقي من الولايات المتحدة"
+
+msgid "Frostbite"
+msgstr "عضة الثلج"
+
+msgid "Frostbiting"
+msgstr "لسعة الصقيع"
+
+msgid "Frostbitten"
+msgstr "أكله الثلج"
+
+msgid "Frosted"
+msgstr "متجمّد"
+
+msgid "Frostier"
+msgstr "أكثر تجمّدا"
+
+msgid "Frostiest"
+msgstr "أكثر تجمّدا"
+
+msgid "Frostily"
+msgstr "بشكل متجمّد"
+
+msgid "Frostiness"
+msgstr "الجمود"
+
+msgid "Frosting"
+msgstr "التجميد"
+
+msgid "Frosts"
+msgstr "الصقيع"
+
+msgid "Frosty"
+msgstr "متجمّد"
+
+msgid "Froth"
+msgstr "الزبد"
+
+msgid "Frothed"
+msgstr "مزبد"
+
+msgid "Frothier"
+msgstr "أكثر زبدا"
+
+msgid "Frothiest"
+msgstr "أكثر زبدا"
+
+msgid "Frothiness"
+msgstr "العبث"
+
+msgid "Frothing"
+msgstr "الإزباد"
+
+msgid "Froths"
+msgstr "يزبد"
+
+msgid "Frothy"
+msgstr "مزبّد"
+
+msgid "Frown"
+msgstr "التجّهم"
+
+msgid "Frowned"
+msgstr "معبّس"
+
+msgid "Frowner"
+msgstr "فراونير"
+
+msgid "Frowning"
+msgstr "التعبيس"
+
+msgid "Frowningly"
+msgstr "بعبوس"
+
+msgid "Frowns"
+msgstr "التجّهمات"
+
+msgid "Frowsty"
+msgstr "عفن"
+
+msgid "Frowzier"
+msgstr "أشدّ كرها"
+
+msgid "Frowzy"
+msgstr "كريه"
+
+msgid "Froze"
+msgstr "تجمّد"
+
+msgid "Frozen"
+msgstr "مجمّد"
+
+msgid "Frozenly"
+msgstr "بشكل مجمّد"
+
+msgid "Frozenness"
+msgstr "الصقيع"
+
+msgid "Fructified"
+msgstr "مثمر"
+
+msgid "Fructifies"
+msgstr "يثمر"
+
+msgid "Fructify"
+msgstr "أثمر"
+
+msgid "Fructifying"
+msgstr "الإثمار"
+
+msgid "Fructose"
+msgstr "سكّر الفواكه"
+
+msgid "Fruehauf"
+msgstr "فريهوف"
+
+msgid "Frugal"
+msgstr "مقتصد"
+
+msgid "Frugality"
+msgstr "التدبير"
+
+msgid "Frugally"
+msgstr "بشكل مقتصد"
+
+msgid "Fruit"
+msgstr "الفاكهة"
+
+msgid "Fruitcake"
+msgstr "شخص غريب، الكعك"
+
+msgid "Fruitcakes"
+msgstr "الأشخاص الغرباء، الكعك"
+
+msgid "Fruited"
+msgstr "أثمر"
+
+msgid "Fruiter"
+msgstr "ناقل الثمار"
+
+msgid "Fruiterer"
+msgstr "بائع الفواكه"
+
+msgid "Fruiterers"
+msgstr "باعة الفواكه"
+
+msgid "Fruitful"
+msgstr "مثمر"
+
+msgid "Fruitfully"
+msgstr "بشكل مثمر"
+
+msgid "Fruitfulness"
+msgstr "الإثمار"
+
+msgid "Fruitier"
+msgstr "أطعم"
+
+msgid "Fruitiest"
+msgstr "أطعم"
+
+msgid "Fruition"
+msgstr "الإثمار"
+
+msgid "Fruitions"
+msgstr "الإثمار"
+
+msgid "Fruitless"
+msgstr "غير مثمر"
+
+msgid "Fruitlessly"
+msgstr "بشكل غير مثمر"
+
+msgid "Fruitlessness"
+msgstr "بلا قيمة"
+
+msgid "Fruits"
+msgstr "الثمار"
+
+msgid "Fruity"
+msgstr "بطعم الفواكه"
+
+msgid "Frump"
+msgstr "الحرفوش"
+
+msgid "Frumpier"
+msgstr "أكثر رثاثة"
+
+msgid "Frumpiest"
+msgstr "أكثر رثاثة"
+
+msgid "Frumpy"
+msgstr "رثّ"
+
+msgid "Frustrate"
+msgstr "أحبط"
+
+msgid "Frustrated"
+msgstr "محبط"
+
+msgid "Frustrater"
+msgstr "المحبّط"
+
+msgid "Frustrates"
+msgstr "يحبط"
+
+msgid "Frustrating"
+msgstr "الإحباط"
+
+msgid "Frustratingly"
+msgstr "على نحو مثير للخيبة"
+
+msgid "Frustration"
+msgstr "الإحباط"
+
+msgid "Frustrations"
+msgstr "الإحباط"
+
+msgid "Frustum"
+msgstr "المخروط النّاقص"
+
+msgid "Fry"
+msgstr "صغار السمك"
+
+msgid "Frye"
+msgstr "فري"
+
+msgid "Fryer"
+msgstr "المقلاة"
+
+msgid "Frying"
+msgstr "القلي"
+
+msgid "Ft"
+msgstr "القدم"
+
+msgid "FTC"
+msgstr "لجنة التّجارة الفيدراليّة"
+
+msgid "FTP"
+msgstr "بروتوكول انتقال الملفّ"
+
+msgid "Fuchs"
+msgstr "فيوكس"
+
+msgid "Fuchsia"
+msgstr "الفوشيه"
+
+msgid "Fuchsias"
+msgstr "الفوشيه"
+
+msgid "Fuck"
+msgstr "يمارس الجنس :: ممارسة الجنس بالعامّيّة :: يستغل :: يخدع :: يخون"
+
+msgid "Fucked"
+msgstr "مارس الجنس :: خدع :: إستغلّ :: خان"
+
+msgid "Fucker"
+msgstr "مقيت :: ممارس الجنس"
+
+msgid "Fuckers"
+msgstr "مُقتاء :: ممارسو الجنس"
+
+msgid "Fucking"
+msgstr "ممارسة الجنس :: الخيانة :: الخديعة :: الإستغلال"
+
+msgid "Fucks"
+msgstr "يمارس الجنس مع :: يخدع :: يخون"
+
+msgid "Fuddle"
+msgstr "إثمل"
+
+msgid "Fuddled"
+msgstr "ثامل"
+
+msgid "Fuddles"
+msgstr "يثمل"
+
+msgid "Fuddling"
+msgstr "الثمل"
+
+msgid "Fudge"
+msgstr "الهراء"
+
+msgid "Fudged"
+msgstr "مغشوش"
+
+msgid "Fudges"
+msgstr "الحلويات"
+
+msgid "Fudging"
+msgstr "الغشّ"
+
+msgid "Fuel"
+msgstr "الوقود"
+
+msgid "Fueled"
+msgstr "مثار"
+
+msgid "Fueler"
+msgstr "المزود بالوقود"
+
+msgid "Fuelers"
+msgstr "المزودون بالوقود"
+
+msgid "Fueling"
+msgstr "الإثارة"
+
+msgid "Fuels"
+msgstr "الوقود"
+
+msgid "Fugal"
+msgstr "متسلسل"
+
+msgid "Fugitive"
+msgstr "الهارب"
+
+msgid "Fugitively"
+msgstr "هروبا"
+
+msgid "Fugitiveness"
+msgstr "الهروب"
+
+msgid "Fugitives"
+msgstr "الهاربون"
+
+msgid "Fugue"
+msgstr "فقدان الذاكرة"
+
+msgid "Fugues"
+msgstr "فقدان الذاكرة"
+
+msgid "Fuji"
+msgstr "فوجي"
+
+msgid "Fujitsu"
+msgstr "فوجيتسو"
+
+msgid "Fulbright"
+msgstr "فلبريت"
+
+msgid "Fulcrum"
+msgstr "نقطة الإرتكاز"
+
+msgid "Fulfil"
+msgstr "أنجز"
+
+msgid "Fulfill"
+msgstr "أنجز"
+
+msgid "Fulfilled"
+msgstr "منجز"
+
+msgid "Fulfiller"
+msgstr "المُنجز"
+
+msgid "Fulfilling"
+msgstr "الإنجاز"
+
+msgid "Fulfillment"
+msgstr "الإنجاز"
+
+msgid "Fulfillments"
+msgstr "الإنجازات"
+
+msgid "Fulfills"
+msgstr "ينجز"
+
+msgid "Fulfilments"
+msgstr "الإنجازات"
+
+msgid "Full"
+msgstr "كامل"
+
+msgid "Full-scale"
+msgstr "شامل"
+
+msgid "Full-Screen"
+msgstr "الشاشة الكاملة"
+
+msgid "Full-video"
+msgstr "الفيديو الكامل"
+
+msgid "Fullback"
+msgstr "المدافع"
+
+msgid "FullBlack"
+msgstr "أسود كامل"
+
+msgid "Fullblooded"
+msgstr "متحمّس"
+
+msgid "Fulldress"
+msgstr "كامل الأناقة"
+
+msgid "Fuller"
+msgstr "فولير"
+
+msgid "Fullerton"
+msgstr "فوليرتون"
+
+msgid "Fullest"
+msgstr "أكمل"
+
+msgid "Fulling"
+msgstr "تنظيف وتقليص الملابس"
+
+msgid "Fullness"
+msgstr "الإمتلاء"
+
+msgid "Fully"
+msgstr "بالكامل"
+
+msgid "Fulminate"
+msgstr "إنفجر"
+
+msgid "Fulminated"
+msgstr "منفجر"
+
+msgid "Fulminates"
+msgstr "ينفجر"
+
+msgid "Fulminating"
+msgstr "الإنفجار"
+
+msgid "Fulmination"
+msgstr "الإنفجار"
+
+msgid "Fulminations"
+msgstr "الإنفجارات"
+
+msgid "Fulsome"
+msgstr "مقيت"
+
+msgid "Fulsomely"
+msgstr "بشكل مقيت"
+
+msgid "Fulsomeness"
+msgstr "فولسومينيس"
+
+msgid "Fulton"
+msgstr "فولتن"
+
+msgid "Fulvous"
+msgstr "أصفر مع خليط من الرمادي والبني"
+
+msgid "Fum"
+msgstr "فوم"
+
+msgid "Fumble"
+msgstr "تحسّس"
+
+msgid "Fumbled"
+msgstr "متحسّس"
+
+msgid "Fumbler"
+msgstr "المتخبّط"
+
+msgid "Fumblers"
+msgstr "المتخبّطون"
+
+msgid "Fumbles"
+msgstr "يتحسّس"
+
+msgid "Fumbling"
+msgstr "التحسّس"
+
+msgid "Fumblingly"
+msgstr "بارتباك"
+
+msgid "Fume"
+msgstr "الدخان"
+
+msgid "Fumed"
+msgstr "مدخّن"
+
+msgid "Fumes"
+msgstr "الأدخنة"
+
+msgid "Fumigant"
+msgstr "مطهّر"
+
+msgid "Fumigate"
+msgstr "دخّن"
+
+msgid "Fumigated"
+msgstr "مدخّن"
+
+msgid "Fumigates"
+msgstr "يدخّن"
+
+msgid "Fumigating"
+msgstr "التدخين"
+
+msgid "Fumigation"
+msgstr "التطهير"
+
+msgid "Fumigator"
+msgstr "المطهّر"
+
+msgid "Fumigators"
+msgstr "مبيدو الحشرات"
+
+msgid "Fuming"
+msgstr "التدخين"
+
+msgid "Fun"
+msgstr "المرح"
+
+msgid "Function"
+msgstr "الوظيفة"
+
+msgid "Functional"
+msgstr "وظيفي"
+
+msgid "Functionalism"
+msgstr "المنفعة"
+
+msgid "Functionalist"
+msgstr "نفعي"
+
+msgid "Functionalities"
+msgstr "الوظائف"
+
+msgid "Functionality"
+msgstr "الوظيفة"
+
+msgid "Functionally"
+msgstr "عمليا"
+
+msgid "Functionaries"
+msgstr "الموظفون"
+
+msgid "Functionary"
+msgstr "الموظف"
+
+msgid "Functioned"
+msgstr "مشتغل"
+
+msgid "Functioning"
+msgstr "الإشتغال"
+
+msgid "Functions"
+msgstr "الوظائف"
+
+msgid "Functor"
+msgstr "المنفّذ"
+
+msgid "Functors"
+msgstr "المنفّذون"
+
+msgid "Fund"
+msgstr "الصندوق"
+
+msgid "Fundamental"
+msgstr "أساسي"
+
+msgid "Fundamentalism"
+msgstr "الأصوليّة"
+
+msgid "Fundamentalist"
+msgstr "الأصولي"
+
+msgid "Fundamentalists"
+msgstr "الأصوليون"
+
+msgid "Fundamentally"
+msgstr "أساسا"
+
+msgid "Fundamentals"
+msgstr "الأساسيات"
+
+msgid "Funded"
+msgstr "مموّل"
+
+msgid "Funding"
+msgstr "التمويل"
+
+msgid "Fundraise"
+msgstr "جمع المال"
+
+msgid "Funds"
+msgstr "الأموال"
+
+msgid "Funeral"
+msgstr "الجنازة"
+
+msgid "Funerals"
+msgstr "الجنائز"
+
+msgid "Funereal"
+msgstr "جنائزي"
+
+msgid "Funereally"
+msgstr "بشكل جنائزي"
+
+msgid "Fungal"
+msgstr "فطري"
+
+msgid "Fungi"
+msgstr "الفطر"
+
+msgid "Fungible"
+msgstr "قابل للإستبدال"
+
+msgid "Fungicidal"
+msgstr "قاتل الفطر"
+
+msgid "Fungicidally"
+msgstr "بقتل الفطر"
+
+msgid "Fungicide"
+msgstr "مبيد الفطريات"
+
+msgid "Fungicides"
+msgstr "مبيد الفطريات"
+
+msgid "Fungoid"
+msgstr "فطري"
+
+msgid "Fungous"
+msgstr "فطري"
+
+msgid "Fungus"
+msgstr "الفطر"
+
+msgid "Funguses"
+msgstr "الفطر"
+
+msgid "Funicular"
+msgstr "حبلي"
+
+msgid "Funk"
+msgstr "الرائحة الكريهة"
+
+msgid "Funky"
+msgstr "غير تقليدي"
+
+msgid "Funnel"
+msgstr "القمع"
+
+msgid "Funneled"
+msgstr "قمعي"
+
+msgid "Funneling"
+msgstr "الإرسال"
+
+msgid "Funnels"
+msgstr "القموع"
+
+msgid "Funnier"
+msgstr "أكثر تسلية"
+
+msgid "Funnies"
+msgstr "قارب ضيّق"
+
+msgid "Funniest"
+msgstr "أكثر تسلية"
+
+msgid "Funnily"
+msgstr "بشكل مضحك"
+
+msgid "Funniness"
+msgstr "المرح"
+
+msgid "Funny"
+msgstr "مضحك"
+
+msgid "Funster"
+msgstr "الشخص المحب للأوقات السّعيدة"
+
+msgid "Fur"
+msgstr "الفراء"
+
+msgid "Furan"
+msgstr "فوران"
+
+msgid "Furbish"
+msgstr "جدّد"
+
+msgid "Furbished"
+msgstr "مجدّد"
+
+msgid "Furbisher"
+msgstr "المجدد"
+
+msgid "Furbishes"
+msgstr "يجدّد"
+
+msgid "Furbishing"
+msgstr "التجديد"
+
+msgid "Furies"
+msgstr "الغضب"
+
+msgid "Furioso"
+msgstr "بحيوية، بقوّة"
+
+msgid "Furious"
+msgstr "عنيف"
+
+msgid "Furiouser"
+msgstr "عنيف"
+
+msgid "Furiously"
+msgstr "بشراسة"
+
+msgid "Furiousness"
+msgstr "القوّة"
+
+msgid "Furl"
+msgstr "لفّ"
+
+msgid "Furled"
+msgstr "ملفوف"
+
+msgid "Furling"
+msgstr "اللفّ"
+
+msgid "Furlong"
+msgstr "الفرلنغ"
+
+msgid "Furlongs"
+msgstr "الفرلنغ"
+
+msgid "Furlough"
+msgstr "الإجازة"
+
+msgid "Furloughed"
+msgstr "مجاز"
+
+msgid "Furloughing"
+msgstr "الإجازة"
+
+msgid "Furloughs"
+msgstr "الإجازات"
+
+msgid "Furls"
+msgstr "يلفّ"
+
+msgid "Furman"
+msgstr "فرمان"
+
+msgid "Furnace"
+msgstr "الفرن"
+
+msgid "Furnaces"
+msgstr "الأفران"
+
+msgid "Furness"
+msgstr "فرنيس"
+
+msgid "Furnish"
+msgstr "أثّث"
+
+msgid "Furnished"
+msgstr "مفروش"
+
+msgid "Furnisher"
+msgstr "المزوّد"
+
+msgid "Furnishes"
+msgstr "يؤثّث"
+
+msgid "Furnishing"
+msgstr "التأثيث"
+
+msgid "Furnishings"
+msgstr "الأثاث"
+
+msgid "Furniture"
+msgstr "الأثاث"
+
+msgid "Furor"
+msgstr "الغضب"
+
+msgid "Furore"
+msgstr "الغضب"
+
+msgid "Furors"
+msgstr "الغضب"
+
+msgid "Furrier"
+msgstr "تاجر الفراء"
+
+msgid "Furriers"
+msgstr "تجار الفراء"
+
+msgid "Furring"
+msgstr "التغطية بالفرو"
+
+msgid "Furrow"
+msgstr "الشقّ"
+
+msgid "Furrowed"
+msgstr "مثلّم"
+
+msgid "Furrowing"
+msgstr "التثليم"
+
+msgid "Furrows"
+msgstr "الشقوق"
+
+msgid "Furry"
+msgstr "مغطى بالفرو"
+
+msgid "Furs"
+msgstr "الفراء"
+
+msgid "Further"
+msgstr "أكثر"
+
+msgid "Furtherance"
+msgstr "التعزيز"
+
+msgid "Furtherances"
+msgstr "التعزيز"
+
+msgid "Furthered"
+msgstr "عجّل"
+
+msgid "Furtherer"
+msgstr "أبعد من"
+
+msgid "Furthering"
+msgstr "التعجيل"
+
+msgid "Furthermore"
+msgstr "علاوة على ذلك"
+
+msgid "Furthermost"
+msgstr "أقصى"
+
+msgid "Furthers"
+msgstr "يعجّل"
+
+msgid "Furthest"
+msgstr "أبعد"
+
+msgid "Furtive"
+msgstr "مخفي"
+
+msgid "Furtively"
+msgstr "خلسة"
+
+msgid "Furtiveness"
+msgstr "التخفي"
+
+msgid "Furuncle"
+msgstr "الدمل"
+
+msgid "Fury"
+msgstr "الغضب"
+
+msgid "Furze"
+msgstr "القندول"
+
+msgid "Fusain"
+msgstr "قلم من الفحم"
+
+msgid "Fuscous"
+msgstr "داكن"
+
+msgid "Fuse"
+msgstr "المصهر"
+
+msgid "Fused"
+msgstr "ذو مصهر"
+
+msgid "Fusee"
+msgstr "فوسي"
+
+msgid "Fuselage"
+msgstr "هيكل الطائرة"
+
+msgid "Fuselages"
+msgstr "هياكل الطائرات"
+
+msgid "Fuses"
+msgstr "المصاهر"
+
+msgid "Fusibility"
+msgstr "قابلية الإنصهار"
+
+msgid "Fusible"
+msgstr "قابل للإنصهار"
+
+msgid "Fusibleness"
+msgstr "القابلية للصهر"
+
+msgid "Fusiform"
+msgstr "مغزلي"
+
+msgid "Fusillade"
+msgstr "الوابل"
+
+msgid "Fusillades"
+msgstr "الوابل"
+
+msgid "Fusing"
+msgstr "الدمج"
+
+msgid "Fusion"
+msgstr "الإنشطار"
+
+msgid "Fusions"
+msgstr "عمليات الإنشطار"
+
+msgid "Fuss"
+msgstr "الإهتمام"
+
+msgid "Fussed"
+msgstr "مدلّل"
+
+msgid "Fusser"
+msgstr "المضايق"
+
+msgid "Fusses"
+msgstr "الإهتمامات"
+
+msgid "Fussier"
+msgstr "أكثر صعوبة"
+
+msgid "Fussiest"
+msgstr "أكثر صعوبة"
+
+msgid "Fussily"
+msgstr "بشكل شديد التدقيق"
+
+msgid "Fussiness"
+msgstr "الكلام الفاضي"
+
+msgid "Fussing"
+msgstr "التدليل"
+
+msgid "Fusspot"
+msgstr "توقع الأسوأ"
+
+msgid "Fussy"
+msgstr "صعب"
+
+msgid "Fust"
+msgstr "فوست"
+
+msgid "Fustanella"
+msgstr "تنوّرة قصيرة"
+
+msgid "Fustian"
+msgstr "المبالغة"
+
+msgid "Fustigate"
+msgstr "يضرب"
+
+msgid "Fustigation"
+msgstr "الضرب"
+
+msgid "Fustily"
+msgstr "بقدم، بنتن"
+
+msgid "Fustiness"
+msgstr "القِدم، النتانة"
+
+msgid "Fusty"
+msgstr "عفن"
+
+msgid "Futile"
+msgstr "عقيم"
+
+msgid "Futilely"
+msgstr "بشكل عقيم"
+
+msgid "Futileness"
+msgstr "عدم الفائدة"
+
+msgid "Futility"
+msgstr "العبث"
+
+msgid "Future"
+msgstr "المستقبل"
+
+msgid "Futures"
+msgstr "الأسهم المستقبلية"
+
+msgid "Futurist"
+msgstr "المستقبلي"
+
+msgid "Futuristic"
+msgstr "مستقبلي"
+
+msgid "Futuristically"
+msgstr "مستقبلي"
+
+msgid "Futurists"
+msgstr "المستقبليون"
+
+msgid "Futurity"
+msgstr "المستقبل"
+
+msgid "Futurologist"
+msgstr "العالِم بالمستقبل"
+
+msgid "Futurology"
+msgstr "علم المستقبل"
+
+msgid "Fuze"
+msgstr "المصهر"
+
+msgid "Fuzz"
+msgstr "الزغب"
+
+msgid "Fuzzed"
+msgstr "مضبّب"
+
+msgid "Fuzzes"
+msgstr "فوزيس"
+
+msgid "Fuzzier"
+msgstr "أكثر ضبابية"
+
+msgid "Fuzziest"
+msgstr "أكثر ضبابية"
+
+msgid "Fuzzily"
+msgstr "بشكل مشوّش"
+
+msgid "Fuzziness"
+msgstr "التقريب"
+
+msgid "Fuzzing"
+msgstr "التضبيب"
+
+msgid "Fuzzy"
+msgstr "ضبابي"
+
+msgid "Fwd"
+msgstr "تقدم"
+
+msgid "Fylfot"
+msgstr "الصليب المعقوف"
+
+msgid "Fou"
+msgstr "ثمل او سكران بالمصطلح العامّي الاسكتلندي"
+
+msgid "Fishbowl"
+msgstr "إناء شفّاف لإحتواء الأسماك الحيّة :: حالة إنعدام الخصوصيّة"
+

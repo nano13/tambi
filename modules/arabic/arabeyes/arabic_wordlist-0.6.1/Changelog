@@ -1,0 +1,122 @@
+/************************************************************************
+ * $Id: Changelog,v 1.14 2004/03/08 21:00:24 alrasheedan Exp $
+ *
+ * ------------
+ * Description:
+ * ------------
+ * A Changelog file for the worldlist project.
+ * 
+ * -----------------
+ * Revision Details:    (Updated by Revision Control System)
+ * -----------------
+ *  $Date: 2004/03/08 21:00:24 $
+ *  $Author: alrasheedan $
+ *  $Revision: 1.14 $
+ *  $Source: /home/arabeyes/cvs/translate/wordlist/Changelog,v $
+ *
+ ************************************************************************/
+
+(Mar. 15, 2004) 
+- Version 0.6.1 is released.
+
+(Mar. 8, 2004) 
+- Completed new_words_U.po
+
+(Nov. 3, 2003)
+- Version 0.6 is released.
+
+(Oct. 28, 2003)
+- 2700+ new words have been added to the dictionary.
+
+(Oct. 8, 2003)
+- Last bad_words file was inspected and all bad_words files have been
+  either moved to full_words files or deleted.
+
+(Sep. 6, 2003)
+- Version 0.5 is released
+
+(Sep. 4, 2003)
+- Ahmad Al-Rasheedan introduced 45,000 new words which got formatted 
+  & uploaded by Nadim Shaikli so translators can start on the new batch.
+
+(Sep. 3, 2003)
+- Segregation of words that could not be looked up along with math
+  terms, physics, and medical terms have been grouped in bad_words files.
+  We are left with 26 clean files. Need to go over bad_words again
+  and _delete_ words that can't be looked up and leave out words that
+  either need a doctor or good mathematician.
+
+(Aug 28, 2003)
+- Phase-2 had started. We are to clean the files as follows:
+  1) Unfuzzy the words that are City names or people names.
+  2) Delete the words that don't yield any results from www.onelook.com
+  3) Ahmad Al-Rasheedan is going over the files starting from the
+     letter file Z downward.
+
+(Aug 28, 2003)
+- Letter file T has been completed for round-1 (review to follow).
+  and this should conclude completion of all 26 po files for round-1.
+
+(Aug 26, 2003)
+- Letter file S has been completed for round-1 (review to follow).
+
+(Aug 16, 2003)
+- Letter file R has been completed for round-1 (review to follow).
+
+(Aug 14, 2003)
+- Letter file P has been completed for round-1 (review to follow).
+
+(Aug 12, 2003)
+- Letter file Q has been completed for round-1 (review to follow).
+- The 1000 new terms file of the most common searched words (brought
+  to light by Ahmad Al-R.) is incorporated into the live files.
+
+(Aug 09, 2003)
+- Letter files A --> O & W --> Z have been completed for round-1 
+  (review to follow).
+
+(Aug 08, 2003)
+- Letter files A --> O & X --> Z have been completed for round-1 
+  (review to follow).
+
+(Aug 07, 2003)
+- Letter files A --> N & X --> Z have been completed for round-1 
+  (review to follow).
+
+(Aug 04, 2003)
+- Letter file L has been completed for round-1 (review to follow).
+
+(Aug 02, 2003)
+- Letter files I, J, K have been completed for round-1 (review to follow).
+
+(Jul 30, 2003)
+- Letter file H has been completed for round-1 (review to follow).
+
+(Jul 27, 2003)
+- Letter files A, B, C, D, E, F, G, X, Y & Z have been completed for 
+  round-1 (review to follow).
+
+(Jul 22, 2003)
+- The following thread notes current status and a possible completion date.
+  http://lists.arabeyes.org/archives/doc/2003/July/msg00043.html
+
+(Jul 11, 2003)
+- Ahmad Al-Rasheedan roars in with a pledge and a commitment to assist
+  and does so by starting from letter 'A' and goes down the list.
+
+(Apr 18, 2003)
+- Munzir Obeid joins the team and takes on letter 'M' with the promise 
+  to do more later.
+
+(Apr 03, 2003)
+- The one dictionary file is broken up into separate per latin letter 
+  (A, B, C, etc) files to reduce upload time and minimize conflicts.
+
+(Jan 09, 2003)
+- Ossama Khayat joins in and contributes with his exceptional translations.
+
+(Jul 11, 2002)
+- In a quest to kick-off the dictionary/full_wordlist project Nadim Shaikli 
+  uploads the initial dictionary file, 88,474 terms 
+
+(67,023 done; 21,451 todo) -- [75.8% done; 24.2% left] 

@@ -1,0 +1,1286 @@
+# translation of full_wordlist_Y.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_Y.po,v 1.7 2004/02/11 14:12:37 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'Y'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ossama Khayat <okhayat@yahoo.com>, 2003.
+# Ossama M. Khayat <okhayat@yahoo.com>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_Y\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"PO-Revision-Date: 2004-02-11 17:11+0300\n"
+
+msgid "Y"
+msgstr "واي - الحرف الخامس والعشرون في اللغة الإنجليزية"
+
+msgid "Y-"
+msgstr "بادئة معنى مجهول. أصلاً استخدمت للأفعال، الظّروف، الصّفات، الأسماء و الضّمائر"
+
+msgid "Y-axis"
+msgstr "المحور الصّاديّ، العمودي"
+
+msgid "Y-branch"
+msgstr "الفرع ص"
+
+msgid "Y-coordinate"
+msgstr "المحور الصّادي"
+
+msgid "Y-Factor"
+msgstr "معامل ص"
+
+msgid "Y-Position"
+msgstr "موقع ص"
+
+msgid "Y-Title"
+msgstr "عنوان ص"
+
+msgid "Y2k"
+msgstr "السنة 2000"
+
+msgid "Ya"
+msgstr "البالغ الصّغير"
+
+msgid "Yacare"
+msgstr "ياكير - تمساح جنوب أمريكيّ"
+
+msgid "Yacc"
+msgstr "ياكّ"
+
+msgid "Yacht"
+msgstr "اليخت"
+
+msgid "Yachter"
+msgstr "صاحب اليخت"
+
+msgid "Yachters"
+msgstr "أصحاب اليخت"
+
+msgid "Yachting"
+msgstr "الإبحار باليخت"
+
+msgid "Yachts"
+msgstr "اليخوت"
+
+msgid "Yachtsman"
+msgstr "مالك اليخت"
+
+msgid "Yachtsmen"
+msgstr "ملّاك اليخوت"
+
+msgid "Yachtswoman"
+msgstr "مالكة اليخت"
+
+msgid "Yack"
+msgstr "الثرثرة"
+
+msgid "Yacolt"
+msgstr "مدينة ياكولت"
+
+msgid "Yaffle"
+msgstr "يافل - نقّار الخشب الإنجليزي ذو اللون الأخضر"
+
+msgid "Yager"
+msgstr "ييدجر"
+
+msgid "Yagi"
+msgstr "ياجي - هوائي موجّه"
+
+msgid "Yah"
+msgstr "نعم"
+
+msgid "Yahoo"
+msgstr "متوحّش ذو شكل بشري"
+
+msgid "Yahoos"
+msgstr "متوحّشون ذوي أشكال بشريّة"
+
+msgid "Yahveh"
+msgstr "اسم اللّه بالعبريّة"
+
+msgid "Yahwe"
+msgstr "اسم اللّه بالعبريّة"
+
+msgid "Yahweh"
+msgstr "اسم اللّه بالعبريّة"
+
+msgid "Yak"
+msgstr "الثّور"
+
+msgid "Yakima"
+msgstr "ياكيما"
+
+msgid "Yakin"
+msgstr "ياكين - ظبي آسيويّ كبير"
+
+msgid "Yakked"
+msgstr "ثرثر"
+
+msgid "Yakking"
+msgstr "الثّرثرة"
+
+msgid "Yaks"
+msgstr "الثّيران"
+
+msgid "Yakut"
+msgstr "لغة الـ ياكت"
+
+msgid "Yale"
+msgstr "ييل"
+
+msgid "Yalta"
+msgstr "يالتا"
+
+msgid "Yaltopya"
+msgstr "أثيوبيا"
+
+msgid "Yalu"
+msgstr "نهر اليالو"
+
+msgid "Yam"
+msgstr "النّبات المتسلّق"
+
+msgid "Yama"
+msgstr "ياما - إله عالم الجريمة"
+
+msgid "Yamaha"
+msgstr "ياماها"
+
+msgid "Yamen"
+msgstr "المقر الرئيسي لأحد رسميي الحكومة الصينية"
+
+msgid "Yammer"
+msgstr "ثرثر"
+
+msgid "Yammered"
+msgstr "ثرثر"
+
+msgid "Yammering"
+msgstr "الثّرثرة"
+
+msgid "Yammers"
+msgstr "يثرثر"
+
+msgid "Yamp"
+msgstr "نبات اليامب"
+
+msgid "Yams"
+msgstr "النّباتات المتسلّقة"
+
+msgid "Yancey"
+msgstr "مقاطعة يانسي"
+
+msgid "Yang"
+msgstr "الفحولة"
+
+msgid "Yangon"
+msgstr "يانجون - المدينة الكبيرة و عاصمة ميانمار"
+
+msgid "Yangtze"
+msgstr "نهر اليانجتز"
+
+msgid "Yank"
+msgstr "الأمريكيّ"
+
+msgid "Yanked"
+msgstr "انتزع"
+
+msgid "Yankee"
+msgstr "الأمريكيّ"
+
+msgid "Yankee-doodle"
+msgstr "الأمريكي"
+
+msgid "Yankees"
+msgstr "أمريكيون"
+
+msgid "Yanking"
+msgstr "الانتزاع"
+
+msgid "Yanks"
+msgstr "الأمريكيّون"
+
+msgid "Yankton"
+msgstr "يانكتون"
+
+msgid "Yaounde"
+msgstr "ياوندي"
+
+msgid "Yaourt"
+msgstr "مشروب الياورت التّركي"
+
+msgid "Yap"
+msgstr "النّباح"
+
+msgid "Yapock"
+msgstr "حيوان الأوبوسوم المائيّ الجنوب أمريكيّ"
+
+msgid "Yapon"
+msgstr "نبات اليابون"
+
+msgid "Yapped"
+msgstr "نبح"
+
+msgid "Yapping"
+msgstr "النّبح"
+
+msgid "Yaps"
+msgstr "النّباح"
+
+msgid "Yaqui"
+msgstr "ياكي"
+
+msgid "Yarage"
+msgstr "قوّة التّحرّك في البحر"
+
+msgid "Yard"
+msgstr "السّاحة"
+
+msgid "Yardage"
+msgstr "الحجم"
+
+msgid "Yardarm"
+msgstr "نهاية او طرف الصّارية"
+
+msgid "Yarded"
+msgstr "بالسّاحة"
+
+msgid "Yardie"
+msgstr "ياردي - عضو مجموعة إجراميّة من جامايكيا"
+
+msgid "Yarding"
+msgstr "بالسّاحة"
+
+msgid "Yardman"
+msgstr "البحّار"
+
+msgid "Yardmaster"
+msgstr "النّاظر"
+
+msgid "Yardmasters"
+msgstr "النّظّار"
+
+msgid "Yardmen"
+msgstr "البحّارة"
+
+msgid "Yards"
+msgstr "السّاحات"
+
+msgid "Yardstick"
+msgstr "المعيار"
+
+msgid "Yardsticks"
+msgstr "المعايير"
+
+msgid "Yare"
+msgstr "رشيق، جاهز"
+
+msgid "Yarely"
+msgstr "برشاقة، بجاهزية"
+
+msgid "Yark"
+msgstr "يارك"
+
+msgid "Yarke"
+msgstr "شراب الرّز الكحوليّ اليابانيّ"
+
+msgid "Yarmelke"
+msgstr "طاقيّة يلبسها اليهود المتديّنون"
+
+msgid "Yarmouth"
+msgstr "يارماوْث"
+
+msgid "Yarmulka"
+msgstr "طاقيّة يلبسها اليهود المتديّنون"
+
+msgid "Yarmulke"
+msgstr "القبّعة"
+
+msgid "Yarn"
+msgstr "الخيط"
+
+msgid "Yarned"
+msgstr "مجدّل"
+
+msgid "Yarnen"
+msgstr "يتكوّن من خيوط"
+
+msgid "Yarning"
+msgstr "تجديل"
+
+msgid "Yarns"
+msgstr "الحكايات"
+
+msgid "Yarr"
+msgstr "للزّمجرة أو الزّمجرة كالكلب"
+
+msgid "Yarrow"
+msgstr "اليارو"
+
+#, Plant
+msgid "Yarrows"
+msgstr "اليارو"
+
+msgid "Yashmak"
+msgstr "البرقع، غطاء الوجه النسائي"
+
+msgid "Yataghan"
+msgstr "اليطقان - سكّين تركيّ طويلة بشفرة منحنية"
+
+msgid "Yate"
+msgstr "البوّابة"
+
+#, Name
+msgid "Yates"
+msgstr "ييتس"
+
+msgid "Yaud"
+msgstr "حصان أو فرس عجوز"
+
+msgid "Yaul"
+msgstr "القارب الصّغير"
+
+msgid "Yaup"
+msgstr "يستغيث، يتكلم بصوت عالي"
+
+msgid "Yauper"
+msgstr "المستغيث، المتكلم بصوت عالي"
+
+msgid "Yaupon"
+msgstr "شجيرة اليابون"
+
+msgid "Yautia"
+msgstr "نبات اليوتيا"
+
+msgid "Yaw"
+msgstr "الانحراف"
+
+msgid "Yawd"
+msgstr "حصان أو فرس عجوز"
+
+msgid "Yawed"
+msgstr "انحرف"
+
+msgid "Yawing"
+msgstr "الانحراف"
+
+msgid "Yawl"
+msgstr "القارب"
+
+msgid "Yawls"
+msgstr "القوارب"
+
+msgid "Yawn"
+msgstr "التّثاؤب"
+
+msgid "Yawned"
+msgstr "تثاءب"
+
+msgid "Yawner"
+msgstr "يونر"
+
+msgid "Yawning"
+msgstr "التّثاؤب"
+
+msgid "Yawningly"
+msgstr "بتثاؤب"
+
+msgid "Yawns"
+msgstr "التّثاؤب"
+
+msgid "Yawp"
+msgstr "يستغيث، يتكلم بصوت عالي"
+
+msgid "Yaws"
+msgstr "المرض الجلديّ"
+
+msgid "Yay"
+msgstr "ياي - لغة من اللغات التايلندية"
+
+msgid "Yb"
+msgstr "عنصر الإيتربيوم"
+
+#, Gave a name
+msgid "Yclept"
+msgstr "أسمى"
+
+msgid "Ye"
+msgstr "أنت"
+
+msgid "Yea"
+msgstr "الموافقة"
+
+#, Name
+msgid "Yeager"
+msgstr "ييغر"
+
+msgid "Yeah"
+msgstr "نعم"
+
+msgid "Yean"
+msgstr "تلد، تقوم بعملية الولادة"
+
+msgid "Yeaned"
+msgstr "ولدت، قامت بعملية الولادة"
+
+msgid "Yeaning"
+msgstr "الولادة"
+
+msgid "Yeanling"
+msgstr "الحمل الصّغير"
+
+msgid "Year"
+msgstr "السّنة"
+
+msgid "Year-end"
+msgstr "نهاية العام"
+
+msgid "Year-long"
+msgstr "على مدار السّنة"
+
+msgid "Yeara"
+msgstr "يارا - بلّوط كاليفورنيا السّامّ"
+
+msgid "Yearbook"
+msgstr "الكتاب السّنويّ"
+
+msgid "Yearbooks"
+msgstr "الكتب السّنويّة"
+
+msgid "Yearend"
+msgstr "نهاية العام"
+
+msgid "Yearling"
+msgstr "الحيوان الصّغير"
+
+msgid "Yearlings"
+msgstr "الحيوانات الصّغيرة"
+
+msgid "Yearlong"
+msgstr "سنة"
+
+msgid "Yearly"
+msgstr "سنويًّا"
+
+msgid "Yearn"
+msgstr "اشتق"
+
+msgid "Yearned"
+msgstr "اشتاق"
+
+msgid "Yearner"
+msgstr "المشتاق"
+
+msgid "Yearning"
+msgstr "الشّوق"
+
+msgid "Yearningly"
+msgstr "متمنّيًا"
+
+msgid "Yearnings"
+msgstr "الأشواق"
+
+msgid "Yearns"
+msgstr "يشتاق"
+
+msgid "Years"
+msgstr "السّنوات"
+
+msgid "Yeas"
+msgstr "الموافقة"
+
+msgid "Yeast"
+msgstr "الخميرة"
+
+msgid "Yeastier"
+msgstr "أكثر اختمارًا"
+
+msgid "Yeastiest"
+msgstr "الأكثر اختمارًا"
+
+msgid "Yeastiness"
+msgstr "الاختمار"
+
+msgid "Yeasts"
+msgstr "الخمائر"
+
+msgid "Yeasty"
+msgstr "مخمّر"
+
+msgid "Yeats"
+msgstr "ياتس"
+
+msgid "Yecch"
+msgstr "يكه"
+
+msgid "Yeddo"
+msgstr "يدو - المدينة الكبيرة و عاصمة اليابان. مرادفة لطوكيو"
+
+msgid "Yeel"
+msgstr "ثعبان الماء"
+
+msgid "Yegg"
+msgstr "لصّ"
+
+msgid "Yeggs"
+msgstr "لصوص"
+
+msgid "Yelk"
+msgstr "مح البيضة"
+
+msgid "Yell"
+msgstr "يصيح"
+
+msgid "Yelled"
+msgstr "صاح"
+
+msgid "Yeller"
+msgstr "صائح"
+
+msgid "Yellers"
+msgstr "صائحون"
+
+msgid "Yelling"
+msgstr "الصّياح"
+
+msgid "Yellow"
+msgstr "أصفر"
+
+msgid "Yellow-bellied"
+msgstr "جبان"
+
+msgid "Yellow-dog"
+msgstr "الحقير"
+
+msgid "Yellowbird"
+msgstr "الطّائر الأصفر"
+
+msgid "Yellowed"
+msgstr "اصفرّ"
+
+msgid "Yellower"
+msgstr "أكثر اصفرارًا"
+
+msgid "Yellowest"
+msgstr "الأكثر اصفرارًا"
+
+msgid "Yellowfin"
+msgstr "يلوفين - من أنواع سمك التونا"
+
+msgid "Yellowhammer"
+msgstr "طائر اليلوهامر"
+
+msgid "Yellowing"
+msgstr "الاصفرار"
+
+msgid "Yellowish"
+msgstr "مصفرّ"
+
+#, Town
+msgid "Yellowknife"
+msgstr "يلو نايف"
+
+msgid "Yellowness"
+msgstr "البريق"
+
+msgid "Yellows"
+msgstr "يصفرّ"
+
+#, River
+msgid "Yellowstone"
+msgstr "يلو ستون"
+
+msgid "Yellowtail"
+msgstr "سمكة ذات ذيل أصفر"
+
+msgid "Yells"
+msgstr "الهتافات"
+
+msgid "Yelm"
+msgstr "مدينة يلم"
+
+msgid "Yelp"
+msgstr "الصّرخة"
+
+msgid "Yelped"
+msgstr "صاح"
+
+msgid "Yelper"
+msgstr "الكلب النّابح"
+
+msgid "Yelping"
+msgstr "الصّياح"
+
+msgid "Yelps"
+msgstr "الصّرخات"
+
+msgid "Yeman"
+msgstr "الفلّاح"
+
+msgid "Yemen"
+msgstr "اليمن"
+
+msgid "Yemeni"
+msgstr "اليمنيّ، مواطن من اليمن"
+
+msgid "Yen"
+msgstr "الين"
+
+msgid "Yend"
+msgstr "يقذف"
+
+msgid "Yens"
+msgstr "الينات"
+
+msgid "Yenta"
+msgstr "المرأة النّمّامة"
+
+#, Jewish form
+msgid "Yentl"
+msgstr "لطيف"
+
+msgid "Yeoman"
+msgstr "الفلّاح"
+
+msgid "Yeomanly"
+msgstr "على طريقة اليومن"
+
+msgid "Yeomanry"
+msgstr "ملّاك الأرض"
+
+msgid "Yeomen"
+msgstr "الفلّاحون"
+
+msgid "Yep"
+msgstr "صحيح"
+
+msgid "Yerba"
+msgstr "نبات او أعشاب اليربا"
+
+msgid "Yerk"
+msgstr "الرّفسة المفاجئة"
+
+#, Name
+msgid "Yerkes"
+msgstr "يركس"
+
+msgid "Yerking"
+msgstr "الرّفسة المفاجئة، يرفس"
+
+msgid "Yern"
+msgstr "متشوّق، متلهّف"
+
+msgid "Yerne"
+msgstr "بلهفة، بنشاط، بسرعة"
+
+msgid "Yernut"
+msgstr "الجوز"
+
+msgid "Yes"
+msgstr "نعم"
+
+msgid "Yes-man"
+msgstr "الإمّعة"
+
+msgid "Yeses"
+msgstr "النّعم"
+
+msgid "Yeshiva"
+msgstr "اليشيفا"
+
+msgid "Yeso"
+msgstr "مدينة يسو"
+
+msgid "Yest"
+msgstr "الخميرة"
+
+msgid "Yester"
+msgstr "الأسبق، متعلّق بالأمس"
+
+msgid "Yesterday"
+msgstr "أمس"
+
+msgid "Yesterdays"
+msgstr "الأمس"
+
+msgid "Yestern"
+msgstr "متعلّق بالأمس"
+
+msgid "Yesternight"
+msgstr "ليلة الأمس"
+
+msgid "Yesternoon"
+msgstr "ظهر الأمس"
+
+msgid "Yesteryear"
+msgstr "الماضي"
+
+msgid "Yesteryears"
+msgstr "الماضي"
+
+msgid "Yesty"
+msgstr "مخمّر"
+
+msgid "Yet"
+msgstr "حتّى الآن"
+
+msgid "Yeti"
+msgstr "اليتي - مخلوق من البشر مشعر، كبير يقال انّه عاش في جبال الهيمالايا"
+
+msgid "Yetter"
+msgstr "مدينة يتر"
+
+msgid "Yeve"
+msgstr "يعطي"
+
+msgid "Yeven"
+msgstr "أعطى"
+
+msgid "Yew"
+msgstr "اليو"
+
+msgid "Yews"
+msgstr "اليو"
+
+msgid "Yezo"
+msgstr "يزو - ثاني أكبر جزيرة يابانيّة"
+
+msgid "Yghe"
+msgstr "العين"
+
+msgid "Ygo"
+msgstr "ذهب، راح"
+
+msgid "Yground"
+msgstr "مطحون"
+
+msgid "Yhvh"
+msgstr "يهفه - الله في العبرية"
+
+msgid "Yi"
+msgstr "يي - سلالة كوريّة حاكمة"
+
+msgid "Yid"
+msgstr "يهودي"
+
+msgid "Yiddish"
+msgstr "لغة يهود أوروبّا"
+
+msgid "Yield"
+msgstr "المحصول"
+
+msgid "Yielded"
+msgstr "استسلم"
+
+msgid "Yielder"
+msgstr "المستسلم"
+
+msgid "Yielding"
+msgstr "الاستسلام"
+
+msgid "Yieldingly"
+msgstr "بإستسلام"
+
+msgid "Yieldingness"
+msgstr "التّسليم"
+
+msgid "Yields"
+msgstr "المحاصيل"
+
+msgid "Yift"
+msgstr "هديّة"
+
+msgid "Yigo"
+msgstr "مدينة يجو"
+
+msgid "Yin"
+msgstr "الأنوثة"
+
+msgid "Yip"
+msgstr "انبح"
+
+msgid "Yipped"
+msgstr "نبح"
+
+msgid "Yipping"
+msgstr "النّبح"
+
+msgid "Yips"
+msgstr "ينبح"
+
+msgid "Yive"
+msgstr "يعطي"
+
+msgid "YMCA"
+msgstr "جمعية الشبان المسيحيين"
+
+msgid "Ymel"
+msgstr "بين، خلال"
+
+msgid "Ymir"
+msgstr "يمير - إله عملاق إسكندنافيّ اسطوري"
+
+msgid "Ynow"
+msgstr "يكفي، كافي"
+
+msgid "Yo-yo"
+msgstr "لعبة اليو يو"
+
+msgid "Yob"
+msgstr "رجل وحشيّ و قاسي"
+
+msgid "Yobbo"
+msgstr "رجل وحشيّ و قاسي"
+
+msgid "Yobo"
+msgstr "رجل وحشيّ و قاسي"
+
+msgid "Yode"
+msgstr "ذهب، مشى، استمرّ"
+
+msgid "Yodel"
+msgstr "الأغنية البكائية"
+
+msgid "Yodeled"
+msgstr "تغنّى ببكاء"
+
+msgid "Yodeler"
+msgstr "المغني البكائي"
+
+msgid "Yodelers"
+msgstr "المغنّون البكائيّون"
+
+msgid "Yodeling"
+msgstr "التّغنّي بكائيّاً"
+
+msgid "Yodeller"
+msgstr "المغنّي"
+
+msgid "Yodels"
+msgstr "الأغاني البكائيّة"
+
+#, Name
+msgid "Yoder"
+msgstr "يودر"
+
+msgid "Yodh"
+msgstr "يود - الحرف العاشر للأبجديّة العبريّة"
+
+msgid "Yodle"
+msgstr "يغنّي"
+
+msgid "Yodler"
+msgstr "المغنّي"
+
+msgid "Yoe"
+msgstr "مدينة يو"
+
+msgid "Yoga"
+msgstr "اليوجا"
+
+msgid "Yoghourt"
+msgstr "الزّباديّ"
+
+msgid "Yoghurt"
+msgstr "الزّباديّ"
+
+msgid "Yoghurts"
+msgstr "الزّباديّ"
+
+msgid "Yogi"
+msgstr "المدرّب"
+
+msgid "Yogic"
+msgstr "متعلق برياضة اليوجا"
+
+msgid "Yogurt"
+msgstr "الزّباديّ"
+
+msgid "Yogurts"
+msgstr "الزّباديّ"
+
+msgid "Yoicks"
+msgstr "صرخة تشجيع لكلاب الصّيد"
+
+msgid "Yoke"
+msgstr "يربط :: يجمع :: يستعبد :: يُخضع :: يُعمِل :: يُشغّل :: يرتبط :: يتّصل :: يزدوج :: النِّير :: مِقْرَنْ :: عبودية"
+
+msgid "Yoked"
+msgstr "ربط"
+
+msgid "Yokefellow"
+msgstr "الرّفيق"
+
+msgid "Yokel"
+msgstr "الفلّاح"
+
+msgid "Yokels"
+msgstr "الفلّاحون"
+
+msgid "Yokes"
+msgstr "القضبان الخشبيّة"
+
+msgid "Yokin"
+msgstr "تابع او مؤمن لفلسفة اليوجا"
+
+msgid "Yoking"
+msgstr "الرّبط"
+
+msgid "Yoknapatawpha"
+msgstr "مقاطعة يوكناباتوفا في ولاية ميسيسيبّي"
+
+msgid "Yokohama"
+msgstr "يوكوهاما"
+
+#, North American Indian Language
+msgid "Yokuts"
+msgstr "يوكتْس"
+
+msgid "Yolk"
+msgstr "المحّ"
+
+msgid "Yolks"
+msgstr "الأمحاح"
+
+msgid "Yoll"
+msgstr "يصرخ"
+
+msgid "Yom"
+msgstr "كلمة عبرية وتعني يوم"
+
+msgid "Yon"
+msgstr "أبعد"
+
+msgid "Yona"
+msgstr "مدينة يونا"
+
+msgid "Yond"
+msgstr "هناك"
+
+msgid "Yonder"
+msgstr "هناك"
+
+msgid "Yonker"
+msgstr "رجل صغير في السّن"
+
+#, Name, City
+msgid "Yonkers"
+msgstr "يونكرْس"
+
+msgid "Yore"
+msgstr "الماضي"
+
+#, Name, Computer Language
+msgid "Yorick"
+msgstr "يوريك"
+
+#, Name
+msgid "York"
+msgstr "يورك"
+
+#, Name
+msgid "Yorker"
+msgstr "يوركر"
+
+#, Name
+msgid "Yorks"
+msgstr "يوركس"
+
+msgid "Yorkshire"
+msgstr "يوركشر - مقاطعة سابقة في شماليّ إنجلترا"
+
+msgid "Yorktown"
+msgstr "يوركتاون"
+
+msgid "Yoruba"
+msgstr "اليوروبيّ، لغة اليوروبا"
+
+msgid "Yosemite"
+msgstr "يوسامتي"
+
+#, Name
+msgid "Yost"
+msgstr "يوست"
+
+msgid "Yot"
+msgstr "يوحّد"
+
+msgid "Yote"
+msgstr "يسكب الماء"
+
+msgid "Yottabyte"
+msgstr "يوتابيت - وحدة قياس في عالم الكمبيوتر"
+
+msgid "You"
+msgstr "أنت"
+
+msgid "Youl"
+msgstr "يصرخ"
+
+msgid "Young"
+msgstr "صغير"
+
+msgid "Younger"
+msgstr "أصغر"
+
+msgid "Youngest"
+msgstr "الأصغر"
+
+msgid "Youngish"
+msgstr "صغير"
+
+msgid "Youngling"
+msgstr "الصّغير"
+
+msgid "Younglings"
+msgstr "الصّغار"
+
+msgid "Youngly"
+msgstr "بصِغَرْ"
+
+msgid "Youngness"
+msgstr "الصّغر"
+
+msgid "Youngs"
+msgstr "يونغز"
+
+msgid "Youngster"
+msgstr "الصّغير"
+
+msgid "Youngsters"
+msgstr "الصّغار"
+
+msgid "Youngstown"
+msgstr "يانجز تاون"
+
+msgid "Younker"
+msgstr "رجل صغير في السّن"
+
+msgid "Youpon"
+msgstr "شجيرة اليوبون"
+
+msgid "Your"
+msgstr "ملكك"
+
+msgid "Yours"
+msgstr "ملكك"
+
+msgid "Yourself"
+msgstr "نفسك"
+
+msgid "Yourselves"
+msgstr "أنفسكما"
+
+msgid "Youth"
+msgstr "الشّباب"
+
+msgid "Youthful"
+msgstr "قويّ"
+
+msgid "Youthfully"
+msgstr "بحيويّة"
+
+msgid "Youthfulness"
+msgstr "النّضارة"
+
+msgid "Youthly"
+msgstr "صغير، قويّ"
+
+msgid "Youths"
+msgstr "الشّباب"
+
+msgid "Youze"
+msgstr "حيوان التشيتاه - أسرع حيوان ثديي على الأرض"
+
+#, Name
+msgid "Yow"
+msgstr "يووْ"
+
+msgid "Yowe"
+msgstr "الماعز"
+
+msgid "Yowl"
+msgstr "العواء"
+
+msgid "Yowled"
+msgstr "عوى"
+
+msgid "Yowling"
+msgstr "العواء"
+
+msgid "Yowls"
+msgstr "العواء"
+
+msgid "Yoyo"
+msgstr "لعبة اليويو"
+
+msgid "Yp"
+msgstr "الصّفحات الصفراء - منتج من شركة صن"
+
+msgid "Ypres"
+msgstr "إبرس - معركة في الحرب العالميّة الأولى"
+
+#, City
+msgid "Ypsilanti"
+msgstr "إبسيﻻنتي"
+
+#, Abbreviation
+msgid "Yr"
+msgstr "سنة"
+
+msgid "Yreka"
+msgstr "مدينة يريكا"
+
+msgid "Yren"
+msgstr "الحديد"
+
+#, Abbreviation
+msgid "Yrs"
+msgstr "سنوات"
+
+msgid "Ytterbium"
+msgstr "الإيتربيوم"
+
+msgid "Yttrium"
+msgstr "الإيتريوم"
+
+msgid "Yu"
+msgstr "إختصار يوغسلافيا"
+
+msgid "Yuan"
+msgstr "يوان - الأسرة الإمبرياليّة للصّين من 1279 إلى 1368"
+
+#, Village
+msgid "Yuba"
+msgstr "يوبا"
+
+msgid "Yucatan"
+msgstr "يوكاتان"
+
+msgid "Yucca"
+msgstr "اليوكا"
+
+msgid "Yuck"
+msgstr "يك - للتعبير عن الإشمئزاز"
+
+msgid "Yucky"
+msgstr "مقزز بدرجة كبيرة"
+
+msgid "Yue"
+msgstr "لهجة اليو الصينية"
+
+msgid "Yuen"
+msgstr "يوين"
+
+msgid "Yufts"
+msgstr "جلد الثّور الرّوسي"
+
+msgid "Yug"
+msgstr "إختصار يوغسلافيا، رياضة اليوغا"
+
+msgid "Yuga"
+msgstr "العصر، حقبة من الزّمن"
+
+msgid "Yugoslav"
+msgstr "اليوغسلافيّ"
+
+msgid "Yugoslavia"
+msgstr "يوغسلافيا"
+
+msgid "Yugoslavian"
+msgstr "يوغسلافيّ"
+
+msgid "Yuke"
+msgstr "للتّعبير عن الرّفض أو الاشمئزاز القويّ"
+
+msgid "Yuki"
+msgstr "يوكي"
+
+msgid "Yukon"
+msgstr "يوكون"
+
+msgid "Yulan"
+msgstr "شجرة اليولان"
+
+msgid "Yule"
+msgstr "عيد ميلاد المسيح"
+
+msgid "Yuletide"
+msgstr "عيد الميلاد المسيحي"
+
+msgid "Yuma"
+msgstr "يوما - عضو من الشعب الأصليّ الشمال أمريكيّ"
+
+msgid "Yuman"
+msgstr "لغة اليومان"
+
+msgid "Yummier"
+msgstr "ألذّ"
+
+msgid "Yummiest"
+msgstr "الألذّ"
+
+msgid "Yummy"
+msgstr "لذيذ"
+
+msgid "Yunnan"
+msgstr "يونان - إقليم في جنوب الصّين "
+
+msgid "Yup"
+msgstr "نعم"
+
+msgid "Yupon"
+msgstr "شجرة اليوبون"
+
+msgid "Yuppie"
+msgstr "المترف"
+
+msgid "Yuppies"
+msgstr "المترفون"
+
+msgid "Yuri"
+msgstr "يوري"
+
+msgid "Yutan"
+msgstr "مدينة يوتان"
+
+msgid "Yvel"
+msgstr "شيطاني"
+
+#, Name
+msgid "Yves"
+msgstr "إيفز"
+
+msgid "Yvette"
+msgstr "يفات"
+
+msgid "Ywar"
+msgstr "مدرك، حذر"
+
+msgid "YWCA"
+msgstr "جمعية الفتيات المسيحيات"
+
+msgid "Ywis"
+msgstr "بالتّأكيد، في الأغلب"
+

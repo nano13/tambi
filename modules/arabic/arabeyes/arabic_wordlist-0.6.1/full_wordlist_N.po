@@ -1,0 +1,5105 @@
+# translation of full_wordlist_N.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_N.po,v 1.13 2004/02/13 23:42:11 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'N'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_N\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+"PO-Revision-Date: 2003-09-14 21:41+0300\n"
+
+msgid "N"
+msgstr "أن - الحرف الرابع عشر في اللغة الإنجليزية"
+
+msgid "NA"
+msgstr "غير متوفر"
+
+msgid "NAACP"
+msgstr "الجمعيّة القوميّة لتقدّم النّاس الملوّنين"
+
+msgid "Nab"
+msgstr "اعتقل"
+
+msgid "Nabbed"
+msgstr "اعتقل"
+
+msgid "Nabbing"
+msgstr "الاعتقال"
+
+msgid "Nabisco"
+msgstr "شركه نابيسكو"
+
+msgid "Nabs"
+msgstr "يمسك"
+
+msgid "Nacelle"
+msgstr "هيكل المحرك"
+
+msgid "Nach"
+msgstr "التغيّرات الطّبيعيّة للهواء في السّاعة"
+
+msgid "NaCl"
+msgstr "كلوريد الصوديوم - ملح الطعام"
+
+msgid "Nacre"
+msgstr "الصدف"
+
+msgid "Nacreous"
+msgstr "لؤلؤي"
+
+msgid "Nadia"
+msgstr "نادية"
+
+msgid "NADIM"
+msgstr "نديم"
+
+msgid "Nadine"
+msgstr "نادين"
+
+msgid "Nadir"
+msgstr "نظير السمت"
+
+msgid "Nag"
+msgstr "الفرس"
+
+msgid "Nagasaki"
+msgstr "ناجاساكي"
+
+msgid "Nagged"
+msgstr "منزعج"
+
+msgid "Nagger"
+msgstr "المتذمّر"
+
+msgid "Nagging"
+msgstr "الإزعاج"
+
+msgid "Naggingly"
+msgstr "بإلحاح"
+
+msgid "Nagoya"
+msgstr "ناجويا"
+
+msgid "Nags"
+msgstr "الأفراس"
+
+msgid "Nagy"
+msgstr "ناجي"
+
+msgid "Naiad"
+msgstr "عروس النهر"
+
+msgid "Nail"
+msgstr "المسمار"
+
+msgid "Nailed"
+msgstr "مسمّر"
+
+msgid "Nailer"
+msgstr "نيلير"
+
+msgid "Nailing"
+msgstr "التسمير"
+
+msgid "Nails"
+msgstr "المسامير"
+
+msgid "Nair"
+msgstr "نير"
+
+msgid "Nairobi"
+msgstr "نيروبي"
+
+msgid "Naive"
+msgstr "ساذج"
+
+msgid "Naively"
+msgstr "بسذاجة"
+
+msgid "Naiveness"
+msgstr "سذاجة"
+
+msgid "Naiver"
+msgstr "ساذج"
+
+msgid "Naivete"
+msgstr "البساطة"
+
+msgid "Nakamura"
+msgstr "ناكامرا"
+
+msgid "Nakayama"
+msgstr "ناكاياما"
+
+msgid "Naked"
+msgstr "عاري"
+
+msgid "Nakedly"
+msgstr "بوضوح"
+
+msgid "Nakedness"
+msgstr "التجرّد"
+
+msgid "Namable"
+msgstr "مسمّى"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Nameable"
+msgstr "مسمّى"
+
+msgid "Named"
+msgstr "مسمّى"
+
+msgid "Nameless"
+msgstr "بلا اسم"
+
+msgid "Namelessly"
+msgstr "بشكل بلا اسم"
+
+msgid "Namelessness"
+msgstr "الإبهام"
+
+msgid "NameLocation"
+msgstr "الاسمالموقع"
+
+msgid "Namely"
+msgstr "يعني"
+
+msgid "Nameplate"
+msgstr "اللّوحة"
+
+msgid "Nameplates"
+msgstr "اللّوحات"
+
+msgid "Namer"
+msgstr "المُنادي"
+
+msgid "Namers"
+msgstr "المُنادون"
+
+msgid "Names"
+msgstr "الأسماء"
+
+msgid "Namesake"
+msgstr "نفس الاسم"
+
+msgid "Namesakes"
+msgstr "نفس الاسم"
+
+msgid "Namibia"
+msgstr "ناميبيا"
+
+msgid "Naming"
+msgstr "التسمية"
+
+msgid "Nan"
+msgstr "خبز النّان"
+
+msgid "Nana"
+msgstr "الجدّة "
+
+msgid "Nancy"
+msgstr "نانسي"
+
+msgid "Nanette"
+msgstr "نانيت"
+
+msgid "Nanking"
+msgstr "نانكينج - مدينة في شرقيّ الصّين على نهر يانجتسي"
+
+msgid "Nannies"
+msgstr "مربيات الأطفال"
+
+msgid "Nanny"
+msgstr "مربية الأطفال"
+
+msgid "Nanometer"
+msgstr "النانوميتر"
+
+msgid "Nanook"
+msgstr "نانوك"
+
+msgid "Nanosecond"
+msgstr "النانوسيكند"
+
+msgid "Nanoseconds"
+msgstr "النانوسيكند"
+
+msgid "Nantucket"
+msgstr "نانتوكيت"
+
+msgid "Naomi"
+msgstr "نعومي"
+
+msgid "Nap"
+msgstr "الغفوة"
+
+msgid "Napalm"
+msgstr "النابالم"
+
+msgid "Nape"
+msgstr "القفا"
+
+msgid "Naphtha"
+msgstr "النفط"
+
+msgid "Naphthalene"
+msgstr "النفثالين"
+
+msgid "Napkin"
+msgstr "المنديل"
+
+msgid "Napkins"
+msgstr "المناديل"
+
+msgid "Naples"
+msgstr "مدينة نابولي"
+
+msgid "Napoleon"
+msgstr "نابليون"
+
+msgid "Napoleonic"
+msgstr "نابليوني"
+
+msgid "Napped"
+msgstr "مقيّل"
+
+msgid "Nappies"
+msgstr "الحفّاظات"
+
+msgid "Napping"
+msgstr "التقييل"
+
+msgid "Nappy"
+msgstr "الحفاظة"
+
+msgid "Naps"
+msgstr "الإغفاءات"
+
+msgid "Narbonne"
+msgstr "ناربون - مدينة فرنسا جنوبيّة"
+
+msgid "Narc"
+msgstr "ضابط مكافحة المخدّرات"
+
+msgid "Narcissism"
+msgstr "الإفتتان بالنفس"
+
+msgid "Narcissist"
+msgstr "نرجسي"
+
+msgid "Narcissistic"
+msgstr "نرجسي"
+
+msgid "Narcissistically"
+msgstr "بأنانيّة"
+
+msgid "Narcissists"
+msgstr "النرجسيون"
+
+msgid "Narcissus"
+msgstr "النرجس"
+
+msgid "Narcissuses"
+msgstr "النرجس"
+
+msgid "Narcoses"
+msgstr "حالات فقدان الوعي جرّاء جرعة مخدرة"
+
+msgid "Narcosis"
+msgstr "التخدير"
+
+msgid "Narcotic"
+msgstr "مخدّر"
+
+msgid "Narcotically"
+msgstr "مخدرا"
+
+msgid "Narcotics"
+msgstr "المخدرات"
+
+msgid "Narcotism"
+msgstr "الإدمان على المخدرات"
+
+msgid "Narcotize"
+msgstr "يخدّر"
+
+msgid "Narcotized"
+msgstr "خدّر"
+
+msgid "Narcotizes"
+msgstr "يخدّر"
+
+msgid "Narcotizing"
+msgstr "التخدير"
+
+msgid "Narragansett"
+msgstr "ناراجانسيت - شعب أمريكيّ أصليّ"
+
+msgid "Narrate"
+msgstr "إرو"
+
+msgid "Narrated"
+msgstr "مروي"
+
+msgid "Narrates"
+msgstr "يروي"
+
+msgid "Narrating"
+msgstr "الرواية"
+
+msgid "Narration"
+msgstr "الرواية"
+
+msgid "Narrations"
+msgstr "الروايات"
+
+msgid "Narrative"
+msgstr "القصة"
+
+msgid "Narratively"
+msgstr "قصصيا"
+
+msgid "Narratives"
+msgstr "القصص"
+
+msgid "Narrator"
+msgstr "الراوي"
+
+msgid "Narrators"
+msgstr "الرواة"
+
+msgid "Narrow"
+msgstr "ضيّق"
+
+msgid "Narrow-minded"
+msgstr "ضيّق الأفق"
+
+msgid "Narrowed"
+msgstr "مضيّق"
+
+msgid "Narrower"
+msgstr "أضيق"
+
+msgid "Narrowest"
+msgstr "أضيق"
+
+msgid "Narrowing"
+msgstr "التضييق"
+
+msgid "Narrowly"
+msgstr "بالكاد"
+
+msgid "Narrowness"
+msgstr "القرب"
+
+msgid "Narrownesses"
+msgstr "القرب"
+
+msgid "Narrows"
+msgstr "المضيق"
+
+msgid "Nary"
+msgstr "كثيرًا"
+
+msgid "NASA"
+msgstr "الوكالة الوطنية للفضاء والطيران"
+
+msgid "Nasal"
+msgstr "أنفي"
+
+msgid "Nasality"
+msgstr "متعلق بالأنف"
+
+msgid "Nasalization"
+msgstr "إخراج الأصوات من الأنف"
+
+msgid "Nasalized"
+msgstr "متكلّم من الأنف"
+
+msgid "Nasally"
+msgstr "أنفيا"
+
+msgid "Nasaly"
+msgstr "بشكل أنفي"
+
+msgid "Nascency"
+msgstr "الولادة"
+
+msgid "Nascent"
+msgstr "ناشئ"
+
+msgid "Nash"
+msgstr "ناش"
+
+msgid "Nashua"
+msgstr "ناشوا"
+
+msgid "Nashville"
+msgstr "ناشفيل"
+
+msgid "Nassau"
+msgstr "ناسو"
+
+msgid "Nastier"
+msgstr "أكثر شرّا"
+
+msgid "Nasties"
+msgstr "الأشرار"
+
+msgid "Nastiest"
+msgstr "أكثر شرّا"
+
+msgid "Nastily"
+msgstr "بخبث"
+
+msgid "Nastiness"
+msgstr "السوء"
+
+msgid "Nasturtium"
+msgstr "زهرة السلبوت"
+
+msgid "Nasty"
+msgstr "شرّير"
+
+msgid "Nat"
+msgstr " إختصار لـ أصلي، طبيعي، وطني"
+
+msgid "Natal"
+msgstr "الميلاد"
+
+msgid "Natalie"
+msgstr "ناتالي"
+
+msgid "Natality"
+msgstr "معدل المواليد"
+
+msgid "Natch"
+msgstr "بالطبع"
+
+msgid "Natchez"
+msgstr "ناتشيز - شعب أمريكيّ أصليّ"
+
+msgid "Nate"
+msgstr "نيت"
+
+msgid "Nathan"
+msgstr "ناثان"
+
+msgid "Nathaniel"
+msgstr "ناثانايل"
+
+msgid "Nation"
+msgstr "الأمة"
+
+msgid "National"
+msgstr "المواطن"
+
+msgid "Nationalism"
+msgstr "القومية"
+
+msgid "Nationalisms"
+msgstr "القومية"
+
+msgid "Nationalist"
+msgstr "القومي"
+
+msgid "Nationalistic"
+msgstr "قومي"
+
+msgid "Nationalistically"
+msgstr "بوطنيّة"
+
+msgid "Nationalists"
+msgstr "الوطنيون"
+
+msgid "Nationalities"
+msgstr "الجنسيات"
+
+msgid "Nationality"
+msgstr "الجنسية"
+
+msgid "Nationalization"
+msgstr "التأميم"
+
+msgid "Nationalizations"
+msgstr "التأميم"
+
+msgid "Nationalize"
+msgstr "أمّم"
+
+msgid "Nationalized"
+msgstr "مؤمّم"
+
+msgid "Nationalizer"
+msgstr "المسؤول عن عملية التأميم"
+
+msgid "Nationalizers"
+msgstr "المسؤولون عن عملية التأميم"
+
+msgid "Nationalizes"
+msgstr "يؤمّم"
+
+msgid "Nationalizing"
+msgstr "التأميم"
+
+msgid "Nationally"
+msgstr "قوميا"
+
+msgid "Nationals"
+msgstr "المواطنون"
+
+msgid "Nationhood"
+msgstr "الأمة"
+
+msgid "Nations"
+msgstr "الأمم"
+
+msgid "Nationwide"
+msgstr "على مستوى قوميّ"
+
+msgid "Native"
+msgstr "المواطن"
+
+msgid "Natively"
+msgstr "محلّيا"
+
+msgid "Nativeness"
+msgstr "المواطنة"
+
+msgid "Natives"
+msgstr "المواطنون"
+
+msgid "Nativities"
+msgstr "الميلاد"
+
+msgid "Nativity"
+msgstr "الميلاد"
+
+msgid "NATO"
+msgstr "منظمة حلف شمال الأطلسي"
+
+msgid "Natter"
+msgstr "الثرثرة"
+
+msgid "Nattered"
+msgstr "مثرثر"
+
+msgid "Nattering"
+msgstr "الثرثرة"
+
+msgid "Natters"
+msgstr "الثرثرة"
+
+msgid "Nattier"
+msgstr "أكثر أناقة"
+
+msgid "Nattiest"
+msgstr "أكثر أناقة"
+
+msgid "Nattily"
+msgstr "بأناقة"
+
+msgid "Nattiness"
+msgstr "الأناقة، الترتيب"
+
+msgid "Natty"
+msgstr "أنيق"
+
+msgid "Natural"
+msgstr "طبيعي"
+
+msgid "Naturalism"
+msgstr "الطبيعية"
+
+msgid "Naturalist"
+msgstr "نصير الطبيعة"
+
+msgid "Naturalistic"
+msgstr "طبيعي"
+
+msgid "Naturalists"
+msgstr "أنصار الطبيعة"
+
+msgid "Naturalization"
+msgstr "التجنّس"
+
+msgid "Naturalizations"
+msgstr "التجنّس"
+
+msgid "Naturalize"
+msgstr "طبّع"
+
+msgid "Naturalized"
+msgstr "متجنّس"
+
+msgid "Naturalizes"
+msgstr "يطبّع"
+
+msgid "Naturalizing"
+msgstr "التطبيع"
+
+msgid "Naturally"
+msgstr "طبيعيا"
+
+msgid "Naturalness"
+msgstr "الطّبيعيّة"
+
+msgid "Naturals"
+msgstr "المواد الطبيعية"
+
+msgid "Nature"
+msgstr "الطبيعة"
+
+msgid "Natured"
+msgstr "ذو طبيعة خاصّة"
+
+msgid "Natureds"
+msgstr "ذو طبيعة خاصّة"
+
+msgid "Natures"
+msgstr "الطبيعة"
+
+msgid "Naturopath"
+msgstr "شخص يعالج بالطّبيعة"
+
+msgid "Naught"
+msgstr "تافه"
+
+msgid "Naughtier"
+msgstr "شقي"
+
+msgid "Naughtiest"
+msgstr "شقي"
+
+msgid "Naughtily"
+msgstr "على نحو سيء"
+
+msgid "Naughtiness"
+msgstr "سوء الخلق"
+
+msgid "Naughts"
+msgstr "الأصفار"
+
+msgid "Naughty"
+msgstr "شقي"
+
+msgid "Nauru"
+msgstr "نورو"
+
+msgid "Nausea"
+msgstr "الغثيان"
+
+msgid "Nauseas"
+msgstr "الغثيان"
+
+msgid "Nauseate"
+msgstr "قزّز"
+
+msgid "Nauseated"
+msgstr "مقزّز"
+
+msgid "Nauseates"
+msgstr "يقزّز"
+
+msgid "Nauseating"
+msgstr "التقزيز"
+
+msgid "Nauseatingly"
+msgstr "بشكل مقزّز"
+
+msgid "Nauseous"
+msgstr "مقيئ"
+
+msgid "Nauseously"
+msgstr "بشكل مقيئ"
+
+msgid "Nautical"
+msgstr "ملاحي"
+
+msgid "Nautically"
+msgstr "بشكل ملاحي"
+
+msgid "Nautilus"
+msgstr "نوتيلاس"
+
+msgid "Navaho"
+msgstr "نافاهو"
+
+msgid "Navajo"
+msgstr "نافاجو"
+
+msgid "Naval"
+msgstr "بحري"
+
+msgid "Navally"
+msgstr "بشكل بحري"
+
+msgid "Nave"
+msgstr "ناف"
+
+msgid "Navel"
+msgstr "السرة"
+
+msgid "Navels"
+msgstr "السرات"
+
+msgid "Navies"
+msgstr "القوات البحرية"
+
+msgid "Navigability"
+msgstr "صلاحية الملاحة"
+
+msgid "Navigable"
+msgstr "صالح للملاحة"
+
+msgid "Navigableness"
+msgstr "الصلاحية للملاحة"
+
+msgid "Navigably"
+msgstr "بشكل يقبل الملاحة"
+
+msgid "Navigate"
+msgstr "أبحر"
+
+msgid "Navigated"
+msgstr "مجيل"
+
+msgid "Navigates"
+msgstr "يجول"
+
+msgid "Navigating"
+msgstr "الإبحار"
+
+msgid "Navigation"
+msgstr "الملاحة"
+
+msgid "Navigational"
+msgstr "ملاحي"
+
+msgid "Navigationbar"
+msgstr "شريط التصفح"
+
+msgid "Navigations"
+msgstr "الملاحة"
+
+msgid "Navigator"
+msgstr "الملاح"
+
+msgid "Navigators"
+msgstr "الملاحون"
+
+msgid "Navvy"
+msgstr "الحفّار"
+
+msgid "Navy"
+msgstr "البحرية"
+
+msgid "Nay"
+msgstr "كلا"
+
+msgid "Nays"
+msgstr "الأصوات المعارضة"
+
+msgid "Nazarene"
+msgstr "الناصري"
+
+msgid "Nazareth"
+msgstr "الناصرة"
+
+msgid "Nazi"
+msgstr "النازي"
+
+msgid "Nazis"
+msgstr "النازيون"
+
+msgid "Nazism"
+msgstr "النازية"
+
+msgid "NBC"
+msgstr "شبكة إن بي سي التلفزيونية"
+
+msgid "NBS"
+msgstr "مكتب المقاييس القوميّ"
+
+msgid "NC"
+msgstr "كارولنا الشماليه"
+
+msgid "NCAA"
+msgstr "الرابطة الوطنية لرياضة الجامعات"
+
+msgid "NCAR"
+msgstr "المركز القوميّ للبحث الجوّيّ"
+
+msgid "NCC"
+msgstr "المجلس الوطني الكنسي"
+
+msgid "NCO"
+msgstr "ضابط الصّفّ"
+
+msgid "NCR"
+msgstr "شركه ان سي ار"
+
+msgid "ND"
+msgstr "داكوتا الشمالية"
+
+msgid "Ndjamena"
+msgstr "نجامينا"
+
+msgid "Ne"
+msgstr "عنصر النيون، ولاية نيبراسكا"
+
+msgid "Neal"
+msgstr "نيل"
+
+msgid "Neanderthal"
+msgstr "الإنسان البدائيّ"
+
+msgid "Neanderthals"
+msgstr "البشر البدائيّون"
+
+msgid "Neap"
+msgstr "المدّ المنخفض"
+
+msgid "Neapolitan"
+msgstr "نابولي"
+
+msgid "Near"
+msgstr "قرب"
+
+msgid "Nearby"
+msgstr "في مكان قريب"
+
+msgid "Neared"
+msgstr "مقترب"
+
+msgid "Nearer"
+msgstr "أقرب"
+
+msgid "Nearest"
+msgstr "أقرب"
+
+msgid "Nearing"
+msgstr "الإقتراب"
+
+msgid "Nearly"
+msgstr "تقريبا"
+
+msgid "Nearness"
+msgstr "القرب"
+
+msgid "Nears"
+msgstr "يقترب منه"
+
+msgid "Nearsighted"
+msgstr "قصير النّظر"
+
+msgid "Nearsightedly"
+msgstr "على نحو قصير النّظر"
+
+msgid "Nearsightedness"
+msgstr "قُصر النّظر"
+
+msgid "Neat"
+msgstr "أنيق"
+
+msgid "Neaten"
+msgstr "يرتّب"
+
+msgid "Neatened"
+msgstr "رتّب"
+
+msgid "Neatening"
+msgstr "الترتيب"
+
+msgid "Neatens"
+msgstr "يرتّب"
+
+msgid "Neater"
+msgstr "أكثر أناقة"
+
+msgid "Neatest"
+msgstr "أكثر أناقة"
+
+msgid "Neath"
+msgstr "تحت"
+
+msgid "Neatly"
+msgstr "بعناية"
+
+msgid "Neatness"
+msgstr "الترتيب"
+
+msgid "Neats"
+msgstr "الأبقار"
+
+msgid "Nebraska"
+msgstr "نبراسكا"
+
+msgid "Nebraskan"
+msgstr "مواطن ولاية نيبراسكا"
+
+msgid "Nebula"
+msgstr "السديم"
+
+msgid "Nebulae"
+msgstr "السدم"
+
+msgid "Nebular"
+msgstr "سديمي"
+
+msgid "Nebulosity"
+msgstr "الضبابية، الغموض"
+
+msgid "Nebulous"
+msgstr "ضبابي"
+
+msgid "Nebulously"
+msgstr "بشكل ضبابي"
+
+msgid "Nebulousness"
+msgstr "الضبابية، الغموض"
+
+msgid "Necessaries"
+msgstr "الضرورات"
+
+msgid "Necessarily"
+msgstr "بالضرورة"
+
+msgid "Necessary"
+msgstr "ضروري"
+
+msgid "Necessitate"
+msgstr "إستلزم"
+
+msgid "Necessitated"
+msgstr "مستوجب"
+
+msgid "Necessitates"
+msgstr "يستوجب"
+
+msgid "Necessitating"
+msgstr "الإستوجاب"
+
+msgid "Necessitation"
+msgstr "الإلزام"
+
+msgid "Necessities"
+msgstr "الضرورات"
+
+msgid "Necessity"
+msgstr "الضرورة"
+
+msgid "Neck"
+msgstr "الرقبة"
+
+msgid "Neckband"
+msgstr "شريط حول ياقة الملابس"
+
+msgid "Neckbands"
+msgstr "أشرطة حول ياقة الملابس"
+
+msgid "Necked"
+msgstr "عانق، قبّل"
+
+msgid "Necker"
+msgstr "نيكر - مموّل فرنسيّ"
+
+msgid "Neckerchief"
+msgstr "منديل حول الرقبة"
+
+msgid "Neckerchiefs"
+msgstr "مناديل حول الرقبة"
+
+msgid "Necking"
+msgstr "التّقبيل، المعانقة"
+
+msgid "Necklace"
+msgstr "القلادة"
+
+msgid "Necklaces"
+msgstr "القلائد"
+
+msgid "Necklet"
+msgstr "العقد"
+
+msgid "Neckline"
+msgstr "خطّ العنق"
+
+msgid "Necks"
+msgstr "الرقاب"
+
+msgid "Necktie"
+msgstr "ربطة العنق"
+
+msgid "Neckties"
+msgstr "ربطات العنق"
+
+msgid "Necrologies"
+msgstr "الوفيّات"
+
+msgid "Necrology"
+msgstr "الوفيّات"
+
+msgid "Necromancer"
+msgstr "مستحضر الأرواح"
+
+msgid "Necromancers"
+msgstr "مستحضر الأرواح"
+
+msgid "Necromancy"
+msgstr "إستحضار الأرواح"
+
+msgid "Necromantic"
+msgstr "بشكل سحري"
+
+msgid "Necropsy"
+msgstr "التّشريح"
+
+msgid "Necrosis"
+msgstr "النخر"
+
+msgid "Necrotic"
+msgstr "نخري"
+
+msgid "Nectar"
+msgstr "السلسبيل"
+
+msgid "Nectareous"
+msgstr "رحيقي"
+
+msgid "Nectaries"
+msgstr "غدد الرحيق في الأزهار"
+
+msgid "Nectarine"
+msgstr "الخوخة"
+
+msgid "Nectarous"
+msgstr "رحيقي"
+
+msgid "Nectary"
+msgstr "غدة الرحيق في الأزهار"
+
+msgid "Ned"
+msgstr "نيد"
+
+msgid "Nee"
+msgstr "بنت"
+
+msgid "Need"
+msgstr "الحاجة"
+
+msgid "Needed"
+msgstr "مطلوب"
+
+msgid "Needer"
+msgstr "المحتاج"
+
+msgid "Needful"
+msgstr "ضروري"
+
+msgid "Needfully"
+msgstr "بشكل ضروري"
+
+msgid "Needfulness"
+msgstr "الحاجة، الضرورة"
+
+msgid "Needham"
+msgstr "نيدام"
+
+msgid "Needier"
+msgstr "أكثر حاجة"
+
+msgid "Neediest"
+msgstr "أكثر حاجة"
+
+msgid "Needily"
+msgstr "باحتياج"
+
+msgid "Neediness"
+msgstr "الفقر"
+
+msgid "Needing"
+msgstr "الإحتياج"
+
+msgid "Needle"
+msgstr "الإبرة"
+
+msgid "Needled"
+msgstr "وخز بإبرة"
+
+msgid "Needlepoint"
+msgstr "التطريز بالإبرة"
+
+msgid "Needler"
+msgstr "المشتغل بالإبر أو بياع الإبر"
+
+msgid "Needlers"
+msgstr "المشتغلون بالإبر أو بياعو الإبر"
+
+msgid "Needles"
+msgstr "الإبر"
+
+msgid "Needless"
+msgstr "غير ضروري"
+
+msgid "Needlessly"
+msgstr "بدون أي داع"
+
+msgid "Needlessness"
+msgstr "الإكتفاء"
+
+msgid "Needlewoman"
+msgstr "الخياطة الماهرة"
+
+msgid "Needlework"
+msgstr "التطريز"
+
+msgid "Needleworker"
+msgstr "خياط الملابس"
+
+msgid "Needleworks"
+msgstr "التطاريز"
+
+msgid "Needling"
+msgstr "الوخز بالإبر"
+
+msgid "Needly"
+msgstr "محتاج"
+
+msgid "Needs"
+msgstr "الحاجات"
+
+msgid "Needy"
+msgstr "محتاج"
+
+msgid "Nefarious"
+msgstr "شنيع"
+
+msgid "Nefariously"
+msgstr "بشكل شنيع"
+
+msgid "Nefariousness"
+msgstr "الشّرّ"
+
+msgid "Neff"
+msgstr "نيف"
+
+msgid "Negate"
+msgstr "إنف"
+
+msgid "Negated"
+msgstr "منفي"
+
+msgid "Negater"
+msgstr "النّافي"
+
+msgid "Negates"
+msgstr "ينفي"
+
+msgid "Negating"
+msgstr "النفي"
+
+msgid "Negation"
+msgstr "الإنكار"
+
+msgid "Negations"
+msgstr "الإنكار"
+
+msgid "Negative"
+msgstr "سلبي"
+
+msgid "Negatived"
+msgstr "رفَضَ"
+
+msgid "Negatively"
+msgstr "سلبيا"
+
+msgid "Negativeness"
+msgstr "الرّفض"
+
+msgid "Negatives"
+msgstr "يرفض"
+
+msgid "Negativing"
+msgstr "يرفض"
+
+msgid "Negativism"
+msgstr "السّلبيّة"
+
+msgid "Negativisms"
+msgstr "السلبيّات"
+
+msgid "Negativistic"
+msgstr "سلبي"
+
+msgid "Negativity"
+msgstr "السلبية"
+
+msgid "Negator"
+msgstr "النّاقض"
+
+msgid "Negators"
+msgstr "النّاقضون"
+
+msgid "Negerpunk"
+msgstr "بونك النيجر"
+
+msgid "Neglect"
+msgstr "الإهمال"
+
+msgid "Neglected"
+msgstr "مهمل"
+
+msgid "Neglecter"
+msgstr "الغير مكترث"
+
+msgid "Neglectful"
+msgstr "مهمل"
+
+msgid "Neglectfully"
+msgstr "بشكل مهمل"
+
+msgid "Neglectfulness"
+msgstr "الإهمال"
+
+msgid "Neglecting"
+msgstr "الإهمال"
+
+msgid "Neglects"
+msgstr "الإهمال"
+
+msgid "Negligee"
+msgstr "الجلباب"
+
+msgid "Negligees"
+msgstr "الجلابيب"
+
+msgid "Negligence"
+msgstr "الإهمال"
+
+msgid "Negligences"
+msgstr "الإهمالات"
+
+msgid "Negligent"
+msgstr "مهمل"
+
+msgid "Negligently"
+msgstr "بشكل مهمل"
+
+msgid "Negligibility"
+msgstr "التّفاهة"
+
+msgid "Negligible"
+msgstr "تافه"
+
+msgid "Negligibleness"
+msgstr "التفاهة"
+
+msgid "Negligibly"
+msgstr "على نحو تافه"
+
+msgid "Negotiability"
+msgstr "قابليّة للتّفاوض"
+
+msgid "Negotiable"
+msgstr "قابل للتفاوض"
+
+msgid "Negotiant"
+msgstr "المفاوض"
+
+msgid "Negotiate"
+msgstr "تفاوض"
+
+msgid "Negotiated"
+msgstr "متفاوض"
+
+msgid "Negotiates"
+msgstr "يتفاوض"
+
+msgid "Negotiating"
+msgstr "التفاوض"
+
+msgid "Negotiation"
+msgstr "المفاوضات"
+
+msgid "Negotiations"
+msgstr "المفاوضات"
+
+msgid "Negotiator"
+msgstr "المفاوض"
+
+msgid "Negotiators"
+msgstr "المفاوضون"
+
+msgid "Negress"
+msgstr "الزنجية"
+
+msgid "Negresses"
+msgstr "الزنجيات"
+
+msgid "Negro"
+msgstr "الزنجي"
+
+msgid "Negroes"
+msgstr "الزنوج"
+
+msgid "Negroid"
+msgstr "زنجيّ"
+
+msgid "Nehru"
+msgstr "نيهرو"
+
+msgid "Neigh"
+msgstr "الصهيل"
+
+msgid "Neighbor"
+msgstr "الجار"
+
+msgid "Neighbored"
+msgstr "مجاور"
+
+msgid "Neighborhood"
+msgstr "الحيّ"
+
+msgid "Neighborhoods"
+msgstr "الأحياء"
+
+msgid "Neighboring"
+msgstr "المجاورة"
+
+msgid "Neighborliness"
+msgstr "حسن الجوار"
+
+msgid "Neighborly"
+msgstr "ودّي"
+
+msgid "Neighbors"
+msgstr "الجيران"
+
+msgid "Neighborship"
+msgstr "الجيرة"
+
+msgid "Neighbour"
+msgstr "الجار"
+
+msgid "Neighbourhood"
+msgstr "الحيّ"
+
+msgid "Neighbourhoods"
+msgstr "الأحياء"
+
+msgid "Neighbouring"
+msgstr "المجاورة"
+
+msgid "Neighbourly"
+msgstr "ودّي"
+
+msgid "Neighbours"
+msgstr "الجيران"
+
+msgid "Neighed"
+msgstr "مصهول"
+
+msgid "Neighing"
+msgstr "الصهيل"
+
+msgid "Neighs"
+msgstr "الصهيل"
+
+msgid "Neil"
+msgstr "نيل"
+
+msgid "Neither"
+msgstr "لا"
+
+msgid "Neither...nor"
+msgstr "لا. . . ولا"
+
+msgid "Nell"
+msgstr "نيل"
+
+msgid "Nellie"
+msgstr "نيلي"
+
+msgid "Nelsen"
+msgstr "نيلسين"
+
+msgid "Nelson"
+msgstr "نيلسن"
+
+msgid "Nematic"
+msgstr "ذو محاور متوازية"
+
+msgid "Nematode"
+msgstr "الدّودة الخيطيّة"
+
+msgid "Nematodes"
+msgstr "الدّيدان الخيطيّة"
+
+msgid "Nemesis"
+msgstr "العدو"
+
+msgid "Neoclassic"
+msgstr "تقليدي حديث"
+
+msgid "Neoclassical"
+msgstr "تقليدي حديث"
+
+msgid "Neoconservative"
+msgstr "المحافظ الجديد"
+
+msgid "Neocortex"
+msgstr "المنطقة الخلفيّة لقشرة المخّ"
+
+msgid "Neodymium"
+msgstr "النيوديميوم - نوع من المعادن"
+
+msgid "Neolithic"
+msgstr "متعلق بالعصر الحجري"
+
+msgid "Neologism"
+msgstr "التعبير الجديد"
+
+msgid "Neologisms"
+msgstr "التعابير الجديدة"
+
+msgid "Neology"
+msgstr "التحديثات اللغوية"
+
+msgid "Neomycin"
+msgstr "النيومايسين - مضادّ حيويّ"
+
+msgid "Neon"
+msgstr "النيون"
+
+msgid "Neonatal"
+msgstr "وليدي"
+
+msgid "Neonatally"
+msgstr "بشكل وليدي"
+
+msgid "Neonate"
+msgstr "الرّضيع"
+
+msgid "Neoned"
+msgstr "معالج بغاز النيون"
+
+msgid "Neophyte"
+msgstr "المبتدىء"
+
+msgid "Neophytes"
+msgstr "المبتدئون"
+
+msgid "Neoplasm"
+msgstr "الورم"
+
+msgid "Neoplasms"
+msgstr "الأورام"
+
+msgid "Neoprene"
+msgstr "النيوبرين - مطّاط صناعيّ"
+
+msgid "Nepal"
+msgstr "النيبال"
+
+msgid "Nepali"
+msgstr "مواطن نيبال"
+
+msgid "Nepenthe"
+msgstr "شراب لنسيان المآسي"
+
+msgid "Nephew"
+msgstr "إبن الأخ"
+
+msgid "Nephews"
+msgstr "أبناء الأخ"
+
+msgid "Nephritic"
+msgstr "الإلتهاب الكلوي"
+
+msgid "Nepotism"
+msgstr "محاباة الأقارب"
+
+msgid "Nepotistic"
+msgstr "محسوبيّ"
+
+msgid "Neptune"
+msgstr "نبتون"
+
+msgid "Neptunium"
+msgstr "النيبتنيوم - عنصر مشعّ"
+
+msgid "Nerd"
+msgstr "الطالب الذي يذاكر كثيرا"
+
+msgid "Nereid"
+msgstr "حوريّة الماء، نيريد أحد أقمار نيبتون"
+
+msgid "Nero"
+msgstr "نيرو"
+
+msgid "Nerve"
+msgstr "العصب"
+
+msgid "Nerved"
+msgstr "شجّع"
+
+msgid "Nerveless"
+msgstr "ضعيف"
+
+msgid "Nervelessly"
+msgstr "بشكل ضعيف"
+
+msgid "Nervelessness"
+msgstr "الضّعف"
+
+msgid "Nerves"
+msgstr "الأعصاب"
+
+msgid "Nervier"
+msgstr "متنرفز"
+
+msgid "Nerviest"
+msgstr "متنرفز"
+
+msgid "Nerviness"
+msgstr "العصبيّة، الجرأة"
+
+msgid "Nerving"
+msgstr "التّشجيع"
+
+msgid "Nervous"
+msgstr "عصبي"
+
+msgid "Nervously"
+msgstr "بشكل عصبي"
+
+msgid "Nervousness"
+msgstr "العصبية"
+
+msgid "Nervousnesses"
+msgstr "العصبية"
+
+msgid "Nervy"
+msgstr "متنرفز"
+
+msgid "Ness"
+msgstr "نيس"
+
+msgid "Nest"
+msgstr "العشّ"
+
+msgid "Nested"
+msgstr "متداخل"
+
+msgid "Nester"
+msgstr "نيستر"
+
+msgid "Nesting"
+msgstr "العشعشة"
+
+msgid "Nestle"
+msgstr "نستلة"
+
+msgid "Nestled"
+msgstr "معشعش"
+
+msgid "Nestler"
+msgstr "نيسلير"
+
+msgid "Nestles"
+msgstr "يعشعش"
+
+msgid "Nestling"
+msgstr "الكتكوت"
+
+msgid "Nestlings"
+msgstr "الكتاكيت"
+
+msgid "Nestor"
+msgstr "نيستر"
+
+msgid "Nests"
+msgstr "الأعشاش"
+
+msgid "Net"
+msgstr "الشبكة"
+
+msgid "Nether"
+msgstr "أسفل"
+
+msgid "Netherlands"
+msgstr "هولندا"
+
+msgid "Nethermost"
+msgstr "أسفل"
+
+msgid "Netherworld"
+msgstr "عالم الأموات"
+
+msgid "Netraverse"
+msgstr "نيترافيرس"
+
+msgid "Nets"
+msgstr "الشبكات"
+
+msgid "Netscape"
+msgstr "النيتسكاب"
+
+msgid "Netted"
+msgstr "مصفّى"
+
+msgid "Netting"
+msgstr "الشبكة"
+
+msgid "Nettings"
+msgstr "الشبكات"
+
+msgid "Nettle"
+msgstr "نبات القراص"
+
+msgid "Nettled"
+msgstr "ملدوغ"
+
+msgid "Nettles"
+msgstr "نباتات القراص"
+
+msgid "Nettlesome"
+msgstr "استفزازيّ"
+
+msgid "Nettling"
+msgstr "اللدغ"
+
+msgid "Network"
+msgstr "الشبكة"
+
+msgid "Network-dependent"
+msgstr "معتمد على شبكة"
+
+msgid "Network-independent"
+msgstr "شبّك مستقل"
+
+msgid "Network-oriented"
+msgstr "موجه شبكة"
+
+msgid "Network-service"
+msgstr "خدمة شبكة"
+
+msgid "Networked"
+msgstr "مشبّك"
+
+msgid "Networking"
+msgstr "ربط الشبكات"
+
+msgid "Networks"
+msgstr "الشبكات"
+
+msgid "Neumann"
+msgstr "نيومان"
+
+msgid "Neural"
+msgstr "عصبي"
+
+msgid "Neuralgia"
+msgstr "ألم الأعصاب"
+
+msgid "Neurally"
+msgstr "بشكل عصبي"
+
+msgid "Neurasthenia"
+msgstr "ضعف الأعصاب"
+
+msgid "Neurasthenic"
+msgstr "ضعيف الأعصاب"
+
+msgid "Neuritic"
+msgstr "متعلق بالتهاب الأعصاب"
+
+msgid "Neuritis"
+msgstr "إلتهاب العصب"
+
+msgid "Neuroanatomic"
+msgstr "متعلق بالجهاز العصبي"
+
+msgid "Neuroanatomy"
+msgstr "التشريح المتعلق بالأعصاب"
+
+msgid "Neurobiology"
+msgstr "علم الأعصاب"
+
+msgid "Neurologic"
+msgstr "متعلق بطب الأعصاب"
+
+msgid "Neurological"
+msgstr "عصبي"
+
+msgid "Neurologically"
+msgstr "بشكل عصبي"
+
+msgid "Neurologist"
+msgstr "طبيب الأعصاب"
+
+msgid "Neurologists"
+msgstr "أطباء الأعصاب"
+
+msgid "Neurology"
+msgstr "دراسة الجهاز العصبي"
+
+msgid "Neuromuscular"
+msgstr "عصبي عضلي"
+
+msgid "Neuron"
+msgstr "الخلية العصبية"
+
+msgid "Neuronal"
+msgstr "متعلق بالخلايا العصبية"
+
+msgid "Neurons"
+msgstr "الخلايا العصبية"
+
+msgid "Neuropathology"
+msgstr "دراسة أمراض الأعصاب"
+
+msgid "Neurophysiology"
+msgstr "الفيسيولوجية المتعلقة بالجهاز العصبي"
+
+msgid "Neuropsychiatric"
+msgstr "الطب المتعلق بدراسة الجهاز العصبي والمواصفات النفسية "
+
+msgid "Neuroses"
+msgstr "الإضطرابات العصبية"
+
+msgid "Neurosis"
+msgstr "الإضطراب العصبي"
+
+msgid "Neurotic"
+msgstr "المصاب بمرض عصبي"
+
+msgid "Neurotically"
+msgstr "بشكل عصبيّ"
+
+msgid "Neurotics"
+msgstr "المصابون بمرض عصبي"
+
+msgid "Neuter"
+msgstr "محايد"
+
+msgid "Neutered"
+msgstr "خصّى"
+
+msgid "Neuterer"
+msgstr "محايد"
+
+msgid "Neutering"
+msgstr "التخصية"
+
+msgid "Neuterly"
+msgstr "بشكل محايد"
+
+msgid "Neuters"
+msgstr "يخصي"
+
+msgid "Neutral"
+msgstr "محايد"
+
+msgid "Neutralism"
+msgstr "الحياد"
+
+msgid "Neutralist"
+msgstr "المحايد"
+
+msgid "Neutralistic"
+msgstr "بشكل محايد"
+
+msgid "Neutralists"
+msgstr "المحايدون"
+
+msgid "Neutralities"
+msgstr "الحيود"
+
+msgid "Neutrality"
+msgstr "الحياد"
+
+msgid "Neutralization"
+msgstr "المعادلة"
+
+msgid "Neutralizations"
+msgstr "التعديلات"
+
+msgid "Neutralize"
+msgstr "حيّد"
+
+msgid "Neutralized"
+msgstr "محيّد"
+
+msgid "Neutralizer"
+msgstr "المحيّد"
+
+msgid "Neutralizers"
+msgstr "المحيّدون"
+
+msgid "Neutralizes"
+msgstr "يحيّد"
+
+msgid "Neutralizing"
+msgstr "التحييد"
+
+msgid "Neutrally"
+msgstr "بشكل محايد"
+
+msgid "Neutralness"
+msgstr "الحياد"
+
+msgid "Neutrals"
+msgstr "المحايدون"
+
+msgid "Neutrino"
+msgstr "الجزيئة المحايدة"
+
+msgid "Neutrinos"
+msgstr "الجزيئات المحايدة"
+
+msgid "Neutron"
+msgstr "النيوترون"
+
+msgid "Neutrons"
+msgstr "النيوترون"
+
+msgid "Neva"
+msgstr "نيفا"
+
+msgid "Nevada"
+msgstr "نيفادا"
+
+msgid "Neve"
+msgstr "نيف"
+
+msgid "Never"
+msgstr "أبدا"
+
+msgid "Nevermore"
+msgstr "أبدا"
+
+msgid "Nevertheless"
+msgstr "على الرغم من هذا"
+
+msgid "Nevins"
+msgstr "نيفينز - مؤرّخ أمريكيّ"
+
+msgid "Nevus"
+msgstr "الشامة"
+
+msgid "New"
+msgstr "جديد"
+
+msgid "New-line"
+msgstr "الخطّ الجديد"
+
+msgid "Newark"
+msgstr "نيوارك"
+
+msgid "Newbold"
+msgstr "نيوبولد"
+
+msgid "Newborn"
+msgstr "المولود الجديد"
+
+msgid "Newborns"
+msgstr "المواليد الجدد"
+
+msgid "Newbury"
+msgstr "نيوبري"
+
+msgid "Newburyport"
+msgstr "نيوبريبورت"
+
+msgid "Newcastle"
+msgstr "نيوكاسل"
+
+msgid "Newcomer"
+msgstr "الجديد"
+
+msgid "Newcomers"
+msgstr "القادمون الجدد"
+
+msgid "Newel"
+msgstr "سنّادة أو دعّامة الدّرابزين"
+
+msgid "Newell"
+msgstr "نيويل"
+
+msgid "Newer"
+msgstr "أحدث"
+
+msgid "Newest"
+msgstr "أحدث"
+
+msgid "Newfangled"
+msgstr "مجدّد"
+
+msgid "Newfound"
+msgstr "جديد"
+
+msgid "Newfoundland"
+msgstr "نيوفندلند"
+
+msgid "NewItem"
+msgstr "عنصر جديد"
+
+msgid "Newline"
+msgstr "سطر جديد"
+
+msgid "Newly"
+msgstr "حديثا"
+
+msgid "Newlywed"
+msgstr "المتزوج حديثا"
+
+msgid "Newlyweds"
+msgstr "المتزوجون حديثا"
+
+msgid "Newman"
+msgstr "نيومان"
+
+msgid "Newness"
+msgstr "الحداثة"
+
+msgid "Newport"
+msgstr "نيوبورت"
+
+msgid "News"
+msgstr "الأخبار"
+
+msgid "Newsagent"
+msgstr "البائع صحف"
+
+msgid "Newsboy"
+msgstr "موزع الصحف"
+
+msgid "Newsboys"
+msgstr "موزعو الصحف"
+
+msgid "Newscast"
+msgstr "النشرة الأخبار"
+
+msgid "Newscaster"
+msgstr "المذيع"
+
+msgid "Newscasters"
+msgstr "المذيعون"
+
+msgid "Newscasts"
+msgstr "النشرات الأخبار"
+
+msgid "Newsgroup"
+msgstr "مجموعة الأخبار"
+
+msgid "Newsgroups"
+msgstr "مجموعات الأخبار"
+
+msgid "Newsletter"
+msgstr "نشرة الأخبار"
+
+msgid "Newsletters"
+msgstr "نشرات الأخبار"
+
+msgid "Newsman"
+msgstr "المراسل"
+
+msgid "Newsmen"
+msgstr "المراسلون"
+
+msgid "Newspaper"
+msgstr "الصحيفة"
+
+msgid "Newspaperman"
+msgstr "الصحفي"
+
+msgid "Newspapermen"
+msgstr "الصحفيون"
+
+msgid "Newspapers"
+msgstr "الصحف"
+
+msgid "Newsprint"
+msgstr "ورق الصحف"
+
+msgid "Newsreel"
+msgstr "فلم الأخبار"
+
+msgid "Newsstand"
+msgstr "كشك بيع الصحف"
+
+msgid "NewSubmenu"
+msgstr "قائمة فرعية جديدة"
+
+msgid "Newsweek"
+msgstr "نيوزويك - مجلة أسبوعية"
+
+msgid "Newsweekly"
+msgstr "الصحيفة الإخبارية الاسبوعبة"
+
+msgid "Newswire"
+msgstr "وكالة الأنباء"
+
+msgid "Newswoman"
+msgstr "المراسلة"
+
+msgid "Newswomen"
+msgstr "المراسلات"
+
+msgid "Newsworthiness"
+msgstr "الأهمّيّة الإخباريّة"
+
+msgid "Newsworthy"
+msgstr "جدير بالإخبار"
+
+msgid "Newt"
+msgstr "النيوت - سالاماندير شبه مائي"
+
+msgid "NewTheme"
+msgstr "سمة جديدة"
+
+msgid "Newton"
+msgstr "نيوتن"
+
+msgid "Newtonian"
+msgstr "من أنصار نيوتن"
+
+msgid "Newts"
+msgstr "سمندلات الماء"
+
+msgid "Next"
+msgstr "قادم"
+
+msgid "Nexus"
+msgstr "الرابطة"
+
+msgid "Nexuses"
+msgstr "الرابطة"
+
+msgid "Nez"
+msgstr "نيز"
+
+msgid "NFS"
+msgstr "نظام ملفّ الشّبكة"
+
+msgid "Nguyen"
+msgstr "نجيين"
+
+msgid "NH"
+msgstr "نيو هامبشاير"
+
+msgid "Niacin"
+msgstr "حامض النّيكوتين"
+
+msgid "Niagara"
+msgstr "نياكرا"
+
+msgid "Niamey"
+msgstr "نيامي"
+
+msgid "Nib"
+msgstr "المنقار"
+
+msgid "Nibble"
+msgstr "إقضم"
+
+msgid "Nibbled"
+msgstr "مقضوم"
+
+msgid "Nibbler"
+msgstr "القاضم"
+
+msgid "Nibblers"
+msgstr "القاضمون"
+
+msgid "Nibbles"
+msgstr "يقضم"
+
+msgid "Nibbling"
+msgstr "القضم"
+
+msgid "Nibelung"
+msgstr "نيبيلنج - أحد ملوك برجندايان"
+
+msgid "Nibs"
+msgstr "المناقير"
+
+msgid "Nicaean"
+msgstr "نيكاان"
+
+msgid "Nicaragua"
+msgstr "نيكاراكوا"
+
+msgid "Niccolo"
+msgstr "نيكولو"
+
+msgid "Nice"
+msgstr "جيد"
+
+msgid "Nicely"
+msgstr "بشكل رائع"
+
+msgid "Niceness"
+msgstr "اللّطف"
+
+msgid "Nicer"
+msgstr "ألطف"
+
+msgid "Nicest"
+msgstr "ألطف"
+
+msgid "Niceties"
+msgstr "الدقّة"
+
+msgid "Nicety"
+msgstr "الدقّة"
+
+msgid "Niche"
+msgstr "الكوّة"
+
+msgid "Niches"
+msgstr "الكوّات"
+
+msgid "Niching"
+msgstr "يضع في المكان"
+
+msgid "Nicholas"
+msgstr "نيقولاس"
+
+msgid "Nicholls"
+msgstr "نيكولس"
+
+msgid "Nichols"
+msgstr "نيكولز"
+
+msgid "Nicholson"
+msgstr "نيكلسن"
+
+msgid "Nichrome"
+msgstr "نيتشروم"
+
+msgid "Nicht"
+msgstr "لا"
+
+msgid "Nick"
+msgstr "نيك"
+
+msgid "Nicked"
+msgstr "خدش"
+
+msgid "Nickel"
+msgstr "النيكل"
+
+msgid "Nickeled"
+msgstr "غطّى بالنيكل"
+
+msgid "Nickeling"
+msgstr "يغطّي بالنيكل"
+
+msgid "Nickelodeon"
+msgstr "مسرح بتكلفة دخول زهيدة"
+
+msgid "Nickels"
+msgstr "النيكل"
+
+msgid "Nicker"
+msgstr "إصهل"
+
+msgid "Nickered"
+msgstr "مصهول"
+
+msgid "Nickering"
+msgstr "الصهيل"
+
+msgid "Nicking"
+msgstr "الخدش"
+
+msgid "Nicklaus"
+msgstr "نيكلوس"
+
+msgid "Nickle"
+msgstr "نيكل"
+
+msgid "Nickname"
+msgstr "الكنية"
+
+msgid "Nicknamed"
+msgstr "ملقّب"
+
+msgid "Nicknamer"
+msgstr "مُطلق الإسم الوصفي"
+
+msgid "Nicknames"
+msgstr "الكنيات"
+
+msgid "Nicknaming"
+msgstr "التلقيب"
+
+msgid "Nicks"
+msgstr "الفروض"
+
+msgid "Nicodemus"
+msgstr "نيكوديموس"
+
+msgid "Nicosia"
+msgstr "نيقوسيا"
+
+msgid "Nicotinamide"
+msgstr "نيكوتينامايد - أحد فيتامينات ب"
+
+msgid "Nicotine"
+msgstr "النيكوتين"
+
+msgid "Niece"
+msgstr "أبنة الأخت"
+
+msgid "Nieces"
+msgstr "بنات الأخت"
+
+msgid "Nielsen"
+msgstr "نيلسين"
+
+msgid "Nielson"
+msgstr "نيلسون"
+
+msgid "Nietzsche"
+msgstr "نيزش"
+
+msgid "Niftier"
+msgstr "أكثر أناقة"
+
+msgid "Nifties"
+msgstr "ممتازون"
+
+msgid "Niftiest"
+msgstr "أكثر أناقة"
+
+msgid "Niftily"
+msgstr "بامتياز"
+
+msgid "Nifty"
+msgstr "أنيق"
+
+msgid "Niger"
+msgstr "النيجر"
+
+msgid "Nigeria"
+msgstr "نايجيريا"
+
+msgid "Nigerian"
+msgstr "النايجيري"
+
+msgid "Niggard"
+msgstr "بخيل"
+
+msgid "Niggardliness"
+msgstr "البخل"
+
+msgid "Niggardly"
+msgstr "بخيل"
+
+msgid "Niggards"
+msgstr "البخلاء"
+
+msgid "Nigger"
+msgstr "الزنجي"
+
+msgid "Niggers"
+msgstr "الزنوج"
+
+msgid "Niggle"
+msgstr "سفسف"
+
+msgid "Niggled"
+msgstr "مسفسف"
+
+msgid "Niggler"
+msgstr "نيجلير"
+
+msgid "Niggles"
+msgstr "يسفسف"
+
+msgid "Niggling"
+msgstr "السفسفة"
+
+msgid "Nigglingly"
+msgstr "بازعاج"
+
+msgid "Nigh"
+msgstr "إقترب منه"
+
+msgid "Night"
+msgstr "الليل"
+
+msgid "Night-time"
+msgstr "الليل"
+
+msgid "Nightcap"
+msgstr "طاقية النوم"
+
+msgid "Nightcaps"
+msgstr "طاقيات النوم"
+
+msgid "Nightclothes"
+msgstr "ملابس النّوم"
+
+msgid "Nightclub"
+msgstr "النادي الليلي"
+
+msgid "Nightclubs"
+msgstr "النوادي الليلية"
+
+msgid "Nightdress"
+msgstr "ثوب النوم"
+
+msgid "Nighted"
+msgstr "الظلام"
+
+msgid "Nightfall"
+msgstr "المساء"
+
+msgid "Nightgown"
+msgstr "ثوب النوم"
+
+msgid "Nighthawk"
+msgstr "البومة، محب السهر"
+
+msgid "Nighties"
+msgstr "ثياب النوم"
+
+msgid "Nightingale"
+msgstr "العندليب"
+
+msgid "Nightingales"
+msgstr "العنادل"
+
+msgid "Nightly"
+msgstr "ليليا"
+
+msgid "Nightmare"
+msgstr "الكابوس"
+
+msgid "Nightmares"
+msgstr "الكوابيس"
+
+msgid "Nightmarish"
+msgstr "مرعب"
+
+msgid "Nightmarishly"
+msgstr "بشكل مرعب"
+
+msgid "Nights"
+msgstr "الليالي"
+
+msgid "Nightshade"
+msgstr "نبات الثلثان"
+
+msgid "Nightshades"
+msgstr "نباتات الثلثان"
+
+msgid "Nightshirt"
+msgstr "قميص النوم"
+
+msgid "Nightspot"
+msgstr "النادي الليلي"
+
+msgid "Nightstick"
+msgstr "عصا رجال الشرطة"
+
+msgid "Nighttime"
+msgstr "الليل"
+
+msgid "Nighty"
+msgstr "نايتي"
+
+msgid "NIH"
+msgstr "المعاهد الوطنية للصحة"
+
+msgid "Nihilism"
+msgstr "الإنكارية"
+
+msgid "Nihilisms"
+msgstr "الإنكارية"
+
+msgid "Nihilist"
+msgstr "المنكر"
+
+msgid "Nihilistic"
+msgstr "عدمي"
+
+msgid "Nijinsky"
+msgstr "نيجينسكاي"
+
+msgid "Nikko"
+msgstr "نيكو"
+
+msgid "Nikolai"
+msgstr "نيقولاي"
+
+msgid "Nil"
+msgstr "لا شيئ"
+
+msgid "Nile"
+msgstr "النيل"
+
+msgid "Nilly"
+msgstr "نيلي"
+
+msgid "Nilpotent"
+msgstr "الصّفر مرفوع لأُس معيّن"
+
+msgid "Nilsen"
+msgstr "نيلسين"
+
+msgid "Nilsson"
+msgstr "نيلسون"
+
+msgid "Nimble"
+msgstr "فطن"
+
+msgid "Nimbleness"
+msgstr "الرّشاقة"
+
+msgid "Nimbler"
+msgstr "فطن"
+
+msgid "Nimblest"
+msgstr "فطن"
+
+msgid "Nimbly"
+msgstr "برشاقة"
+
+msgid "Nimbus"
+msgstr "السحاب الممطر"
+
+msgid "Nimbuses"
+msgstr "السحب الممطرة"
+
+msgid "NIMH"
+msgstr "نيكل ميتال هايدريد - تكنولوجيا البطّاريّة"
+
+msgid "Nina"
+msgstr "نينا"
+
+msgid "Nine"
+msgstr "تسعة"
+
+msgid "Nine-track"
+msgstr "المسار تسعة"
+
+msgid "Ninebark"
+msgstr "نينيبارك - شجيرة"
+
+msgid "Ninefold"
+msgstr "تسع أضعاف"
+
+msgid "Ninepins"
+msgstr "لعبة القناني الخشبية"
+
+msgid "Nines"
+msgstr "التسعات"
+
+msgid "Nineteen"
+msgstr "تسعة عشر"
+
+msgid "Nineteenth"
+msgstr "تاسع عشر"
+
+msgid "Nineties"
+msgstr "التسعينيات"
+
+msgid "Ninetieth"
+msgstr "تسعون"
+
+msgid "Ninety"
+msgstr "تسعون"
+
+msgid "Nineveh"
+msgstr "نينيفيه - مدينة المملكة الآشورية قديماً"
+
+msgid "Ninnies"
+msgstr "البلهاء"
+
+msgid "Ninny"
+msgstr "الأبله"
+
+msgid "Ninth"
+msgstr "التسع"
+
+msgid "Ninthly"
+msgstr "تاسعا"
+
+msgid "Ninths"
+msgstr "الأتساع"
+
+msgid "Niobe"
+msgstr "نيوب"
+
+msgid "Niobium"
+msgstr "النيوبيوم - عنصر معدنيّ"
+
+msgid "Nip"
+msgstr "القرصة"
+
+msgid "Nipped"
+msgstr "مقروض"
+
+msgid "Nipper"
+msgstr "القراص"
+
+msgid "Nippier"
+msgstr "فطن"
+
+msgid "Nippiness"
+msgstr "البرودة"
+
+msgid "Nipping"
+msgstr "القرض"
+
+msgid "Nippingly"
+msgstr "نيبينجلي"
+
+msgid "Nipple"
+msgstr "الحلمة"
+
+msgid "Nipples"
+msgstr "الحلمات"
+
+msgid "Nippon"
+msgstr "بلاد اليابان"
+
+msgid "Nippy"
+msgstr "فطن"
+
+msgid "Nips"
+msgstr "القرص"
+
+msgid "Nirvana"
+msgstr "السّكينة"
+
+msgid "Nisei"
+msgstr "نيسي"
+
+msgid "Nit"
+msgstr "الصأبة"
+
+msgid "Nitpick"
+msgstr "تصيّد الأخطاء"
+
+msgid "Nitrate"
+msgstr "النترات"
+
+msgid "Nitrated"
+msgstr "منترت"
+
+msgid "Nitrates"
+msgstr "ينترت"
+
+msgid "Nitrating"
+msgstr "النترتة"
+
+msgid "Nitration"
+msgstr "المعالجة بحمض النيتريك"
+
+msgid "Nitre"
+msgstr "ملح البارود"
+
+msgid "Nitric"
+msgstr "يحتوي على النيتروجين"
+
+msgid "Nitride"
+msgstr "النتريد - يحتوي على النيتروجين"
+
+msgid "Nitriding"
+msgstr "تعريض غاز النيتروجين للمعدن"
+
+msgid "Nitrified"
+msgstr "حوّل إلى نترات"
+
+msgid "Nitrifies"
+msgstr "يحوّل إلى نترات"
+
+msgid "Nitrify"
+msgstr "حوّل إلى نترات"
+
+msgid "Nitrifying"
+msgstr "تحويل إلى نترات"
+
+msgid "Nitrite"
+msgstr "النطرون"
+
+msgid "Nitro-Glycerin"
+msgstr "غليسرين نيترو"
+
+msgid "Nitrogen"
+msgstr "النتروجين"
+
+msgid "Nitrogenous"
+msgstr "نتروجينيّ"
+
+msgid "Nitroglycerin"
+msgstr "النتروجليسرين"
+
+msgid "Nitroglycerine"
+msgstr "النتروجليسرين"
+
+msgid "Nitrous"
+msgstr "نتري"
+
+msgid "Nitty"
+msgstr "بوفرة من بيض الحشرات"
+
+msgid "Nitwit"
+msgstr "الأحمق"
+
+msgid "Niue"
+msgstr "نيو"
+
+msgid "Nix"
+msgstr "لا شيئ"
+
+msgid "Nixed"
+msgstr "رفض"
+
+msgid "Nixes"
+msgstr "يرفض"
+
+msgid "Nixie"
+msgstr "رسالة بعنوان خاطيء"
+
+msgid "Nixies"
+msgstr "رسائل ذات عناوين خاطئة"
+
+msgid "Nixing"
+msgstr "الرفض"
+
+msgid "Nixon"
+msgstr "نيكسون"
+
+msgid "NJ"
+msgstr "نيو جيرسي"
+
+msgid "NM"
+msgstr "نيو مكسيكو"
+
+msgid "NNE"
+msgstr "شمال إلى شمال شرقي"
+
+msgid "NNW"
+msgstr "شمال إلى شمال غربي"
+
+msgid "No"
+msgstr "لا"
+
+msgid "NO-DAEMON"
+msgstr "لا شيطان"
+
+msgid "No-load"
+msgstr "لا حمل"
+
+msgid "No-op"
+msgstr "لاتفعل شيء"
+
+msgid "No-operating"
+msgstr "لا تشغيل"
+
+msgid "No-operation"
+msgstr "لا عملية"
+
+msgid "NOAA"
+msgstr "الادارة القومية للمحيطات والغلاف الجوي"
+
+msgid "Noah"
+msgstr "نوح"
+
+msgid "Nob"
+msgstr "الرأس"
+
+msgid "NoBanding"
+msgstr "لا ربط"
+
+msgid "Nobel"
+msgstr "نوبل"
+
+msgid "Nobelium"
+msgstr "النوبليوم - عنصر مشعّ"
+
+msgid "Nobilities"
+msgstr "الشهامات"
+
+msgid "Nobility"
+msgstr "طبقة النبلاء"
+
+msgid "Noble"
+msgstr "نوبل"
+
+msgid "Nobleman"
+msgstr "النبيل"
+
+msgid "Noblemen"
+msgstr "النبلاء"
+
+msgid "Nobleness"
+msgstr "النبل"
+
+msgid "Nobler"
+msgstr "أكثر نبلا"
+
+msgid "Nobles"
+msgstr "النّبلاء"
+
+msgid "Noblesse"
+msgstr "النبلاء"
+
+msgid "Noblest"
+msgstr "أكثر نبلا"
+
+msgid "Nobly"
+msgstr "بنُبل"
+
+msgid "Nobodies"
+msgstr "لا أحد"
+
+msgid "Nobody"
+msgstr "لا أحد"
+
+msgid "NoColourCorrection"
+msgstr "لا تصحيح للألوان"
+
+msgid "Nocturnal"
+msgstr "ليلي"
+
+msgid "Nocturnally"
+msgstr "بشكل ليلي"
+
+msgid "Nocturne"
+msgstr "الموسيقى الهادئة"
+
+msgid "Nod"
+msgstr "الإيماءة"
+
+msgid "Nodal"
+msgstr "عقدي"
+
+msgid "Nodally"
+msgstr "بشكل عقدي"
+
+msgid "Nodded"
+msgstr "مومأ"
+
+msgid "Noddies"
+msgstr "نوديس"
+
+msgid "Nodding"
+msgstr "الإيماء"
+
+msgid "Node"
+msgstr "العقدة"
+
+msgid "Nodes"
+msgstr "العقد"
+
+msgid "Nodetype"
+msgstr "نوع نقطة التقاطع"
+
+msgid "Nods"
+msgstr "الإيماءات"
+
+msgid "Nodular"
+msgstr "عقدي"
+
+msgid "Nodule"
+msgstr "العجيرة"
+
+msgid "Nodules"
+msgstr "العجيرات"
+
+msgid "Noel"
+msgstr "نويل"
+
+msgid "Noes"
+msgstr "نويس"
+
+msgid "Noetherian"
+msgstr "الحلقة"
+
+msgid "Noggin"
+msgstr "الرأس"
+
+msgid "Nohow"
+msgstr "مستحيل"
+
+msgid "Noir"
+msgstr "أسود، إجرامي"
+
+msgid "Noise"
+msgstr "الضوضاء"
+
+msgid "Noised"
+msgstr "مشاع"
+
+msgid "Noiseless"
+msgstr "بلا ضوضاء"
+
+msgid "Noiselessly"
+msgstr "بشكل بلا ضوضاء"
+
+msgid "Noiselessness"
+msgstr "الصّمت"
+
+msgid "Noisemaker"
+msgstr "محدث الضّوضاء"
+
+msgid "Noisemakers"
+msgstr "محدثو الضّوضاء"
+
+msgid "Noisemaking"
+msgstr "إثارة الصّخب"
+
+msgid "Noises"
+msgstr "الضوضاء"
+
+msgid "Noisier"
+msgstr "أكثر ضوضاء"
+
+msgid "Noisiest"
+msgstr "أكثر ضوضاء"
+
+msgid "Noisily"
+msgstr "بشكل صاخب"
+
+msgid "Noisiness"
+msgstr "الضّوضاء"
+
+msgid "Noising"
+msgstr "الإشاعة"
+
+msgid "Noisome"
+msgstr "سيء للغاية"
+
+msgid "Noisomely"
+msgstr "بشكل سيء للغاية"
+
+msgid "Noisy"
+msgstr "صاخب"
+
+msgid "Nokia"
+msgstr "نوكيا - أحد كبرى شركات الإتصالات في العالم"
+
+msgid "Nolan"
+msgstr "نولان"
+
+msgid "Noll"
+msgstr "القمّة"
+
+msgid "Nomad"
+msgstr "البدوي"
+
+msgid "Nomadic"
+msgstr "بدوي"
+
+msgid "Nomadically"
+msgstr "بطريقة بدويّة"
+
+msgid "Nomenclature"
+msgstr "الأسماء التعريفية"
+
+msgid "Nomenclatures"
+msgstr "الأسماء التعريفية"
+
+msgid "Nominal"
+msgstr "إسمي"
+
+msgid "Nominally"
+msgstr "إسميا"
+
+msgid "Nominate"
+msgstr "رشّح"
+
+msgid "Nominated"
+msgstr "مرشّح"
+
+msgid "Nominates"
+msgstr "يرشّح"
+
+msgid "Nominating"
+msgstr "الترشيح"
+
+msgid "Nomination"
+msgstr "الترشيح"
+
+msgid "Nominations"
+msgstr "الترشيحات"
+
+msgid "Nominative"
+msgstr "حالة الرفع"
+
+msgid "Nominatively"
+msgstr "بشكل إسمي"
+
+msgid "Nominator"
+msgstr "المرشّح"
+
+msgid "Nominators"
+msgstr "المرشّحون"
+
+msgid "Nominee"
+msgstr "المرشّح"
+
+msgid "Nominees"
+msgstr "المرشّحون"
+
+msgid "Nomogram"
+msgstr "التعبير المرئي للعلاقات الرياضيّة"
+
+msgid "Nomograph"
+msgstr "التعبير المرئي للعلاقات الرياضيّة"
+
+msgid "Non"
+msgstr "غير"
+
+msgid "Non-addressable"
+msgstr "غير قابل للعنونة"
+
+msgid "Non-ambiguous"
+msgstr "غير غامض"
+
+msgid "Non-carbon"
+msgstr "غير كاربون"
+
+msgid "Non-clocked"
+msgstr "سجّل غير وقت"
+
+msgid "Non-destructive"
+msgstr "غير تدميري"
+
+msgid "Non-DOS"
+msgstr "غير دوس"
+
+msgid "Non-effective"
+msgstr "غير فعلي"
+
+msgid "Non-erasable"
+msgstr "غير قابل للمسح"
+
+msgid "Non-ferrous"
+msgstr "لا حديدي"
+
+msgid "Non-Free"
+msgstr "غير حرّ"
+
+msgid "Non-glare"
+msgstr "غير وهج"
+
+msgid "Non-impact"
+msgstr "غير تأثير"
+
+msgid "Non-inductive"
+msgstr "غير حثّي"
+
+msgid "Non-linear"
+msgstr "لاخطّي"
+
+msgid "Non-locking"
+msgstr "غير قفل"
+
+msgid "Non-numeric"
+msgstr "غير عددي"
+
+msgid "Non-numerical"
+msgstr "غير عددي"
+
+msgid "Non-permanent"
+msgstr "غير دائم"
+
+msgid "Non-permissible"
+msgstr "غير جائز"
+
+msgid "Non-polarized"
+msgstr "غير مستقطب"
+
+msgid "Non-printing"
+msgstr "غير طباعة"
+
+msgid "Non-productive"
+msgstr "غير منتج"
+
+msgid "Non-profit"
+msgstr "لاربحي"
+
+msgid "Non-recoverable"
+msgstr "غير قابل للإسترداد"
+
+msgid "Non-rectifying"
+msgstr "غير تصحيح"
+
+msgid "Non-recurrent"
+msgstr "غير متكرّر"
+
+msgid "Non-reflecting"
+msgstr "غير عكس"
+
+msgid "Non-resident"
+msgstr "خارجي"
+
+msgid "Non-return"
+msgstr "غير عودة"
+
+msgid "Non-scheduled"
+msgstr "غير محدّد"
+
+msgid "Non-smoking"
+msgstr "غير تدخين"
+
+msgid "Non-smudge"
+msgstr "غير لطخة"
+
+msgid "Non-standard"
+msgstr "غير قياسي"
+
+msgid "Non-stop"
+msgstr "باستمرار"
+
+msgid "Non-switched"
+msgstr "غير منقول"
+
+msgid "Non-system"
+msgstr "غير نظام"
+
+msgid "Non-systematic"
+msgstr "غير منظّم"
+
+msgid "Non-transient"
+msgstr "غير عابر"
+
+msgid "Non-varying"
+msgstr "غير تفاوت"
+
+msgid "Non-volatile"
+msgstr "غير قلق"
+
+msgid "Non-warranty"
+msgstr "غير ضمان"
+
+msgid "Non-zero"
+msgstr "صفر غير"
+
+msgid "Nonacid"
+msgstr "غير حامض"
+
+msgid "Nonaddressable"
+msgstr "غير قابل للعنونة"
+
+msgid "Nonadjacent"
+msgstr "غير مجاور"
+
+msgid "Nonage"
+msgstr "سنّ القصور"
+
+msgid "Nonagenarian"
+msgstr "في العقد العاشر من العمر"
+
+msgid "Nonagricultural"
+msgstr "غير زراعي"
+
+msgid "Nonalcoholic"
+msgstr "لا كحولي"
+
+msgid "NoName"
+msgstr "بدون اسم"
+
+msgid "Nonattached"
+msgstr "غير ملحق"
+
+msgid "Nonattendance"
+msgstr "عدم الحضور"
+
+msgid "Nonattention"
+msgstr "غير إنتباه"
+
+msgid "Nonbeliever"
+msgstr "غير المؤمن"
+
+msgid "Nonblocking"
+msgstr "غير منع"
+
+msgid "Nonbreakable"
+msgstr "غير قابل للكسر"
+
+msgid "Nonbudding"
+msgstr "غير تبرعم"
+
+msgid "Nonbusiness"
+msgstr "غير متعلق بالأعمال التجارية"
+
+msgid "Noncarbohydrate"
+msgstr "غير كربوهيدرات"
+
+msgid "Nonce"
+msgstr "الوقت الحاضر"
+
+msgid "Nonchained"
+msgstr "غير مقيّد"
+
+msgid "Nonchalance"
+msgstr "اللامبالاة"
+
+msgid "Nonchalant"
+msgstr "لا مبالي"
+
+msgid "Nonchalantly"
+msgstr "بدون مبالاة"
+
+msgid "Nonchargeable"
+msgstr "غير قابل للإتهام"
+
+msgid "Noncombatant"
+msgstr "غير قتالي"
+
+msgid "Noncommercial"
+msgstr "غير إعلان تجاري"
+
+msgid "Noncommissioned"
+msgstr "غير مفوّض"
+
+msgid "Noncommittal"
+msgstr "غير واضح"
+
+msgid "Noncommittally"
+msgstr "بالتباس"
+
+msgid "Noncompliance"
+msgstr "عدم الإلتزام"
+
+msgid "Nonconformance"
+msgstr "غير توافق"
+
+msgid "Nonconformist"
+msgstr "المعتزل"
+
+msgid "Nonconformists"
+msgstr "المعتزلة"
+
+msgid "Nonconformities"
+msgstr "لا يطابقون المواصفات"
+
+msgid "Nonconformity"
+msgstr "الإعتزال"
+
+msgid "Nonconservative"
+msgstr "غير محافظ"
+
+msgid "Noncontagious"
+msgstr "غير معدي"
+
+msgid "Noncontentious"
+msgstr "غير جدليّ"
+
+msgid "Noncontiguous"
+msgstr "غير مجاور"
+
+msgid "Noncritical"
+msgstr "غير حرج"
+
+msgid "Noncyclic"
+msgstr "غير دوري"
+
+msgid "Nondecreasing"
+msgstr "غير نقص"
+
+msgid "Nondedicated"
+msgstr "غير مكرّس"
+
+msgid "Nondenominational"
+msgstr "غير طائفي"
+
+msgid "Nondescript"
+msgstr "الشخص العادي"
+
+msgid "Nondescriptly"
+msgstr "بشكل عادي"
+
+msgid "Nondestructively"
+msgstr "غير بشكل هدّام"
+
+msgid "Nondeterminate"
+msgstr "غير مقرّر"
+
+msgid "Nondeterminately"
+msgstr "غير بحسم"
+
+msgid "Nondeterminism"
+msgstr "غير تصميمية"
+
+msgid "Nondeterministic"
+msgstr "غير حتمي"
+
+msgid "Nondisclosure"
+msgstr "غير كشف"
+
+msgid "Nondiscriminatory"
+msgstr "غير مميّز"
+
+msgid "Nondistinctive"
+msgstr "غير مميّز"
+
+msgid "Nondivisible"
+msgstr "غير قابل للقسمة"
+
+msgid "Nondurable"
+msgstr "غير متين"
+
+msgid "None"
+msgstr "لا شيئ"
+
+msgid "Noneconomic"
+msgstr "غير إقتصادي"
+
+msgid "Noneffective"
+msgstr "غير فعلي"
+
+msgid "Nonefficient"
+msgstr "غير كفوء"
+
+msgid "Nonelastic"
+msgstr "غير شريط مطاطي"
+
+msgid "Nonelectric"
+msgstr "غير كهربائي"
+
+msgid "Nonelectronic"
+msgstr "غير إلكتروني"
+
+msgid "Nonemergency"
+msgstr "غير طوارئ"
+
+msgid "Nonempty"
+msgstr "غير فارغ"
+
+msgid "Nonenforceable"
+msgstr "غير إلزامي"
+
+msgid "Nonentities"
+msgstr "التفهاء"
+
+msgid "Nonentity"
+msgstr "التافه"
+
+msgid "Nonequivalence"
+msgstr "غير مكافئة"
+
+msgid "Nonequivalent"
+msgstr "غير مكافئ"
+
+msgid "Nones"
+msgstr "نونيس"
+
+msgid "Nonessential"
+msgstr "غير ضروري"
+
+msgid "Noneternal"
+msgstr "غير أبدي"
+
+msgid "Nonetheless"
+msgstr "مع هذا"
+
+msgid "Nonexcusable"
+msgstr "غير معذور"
+
+msgid "Nonexecutable"
+msgstr "غير قابل للتّنفيذ"
+
+msgid "Nonexistence"
+msgstr "غير وجود"
+
+msgid "Nonexistent"
+msgstr "غير موجود"
+
+msgid "Nonexpressive"
+msgstr "غير معبّر"
+
+msgid "Nonextensible"
+msgstr "غير قابل للإمتداد"
+
+msgid "Nonfat"
+msgstr "غير دهن"
+
+msgid "Nonferrous"
+msgstr "لا حديدي"
+
+msgid "Nonfiction"
+msgstr "لا قصصي"
+
+msgid "Nonfinite"
+msgstr "غير محدود"
+
+msgid "Nonformatted"
+msgstr "غير مهيّأ"
+
+msgid "Nonfunctional"
+msgstr "غير وظيفي"
+
+msgid "Nongeneric"
+msgstr "غير عام"
+
+msgid "Nonglare"
+msgstr "غير وهج"
+
+msgid "Nonglaring"
+msgstr "غير سطع"
+
+msgid "Nonhazardous"
+msgstr "لايشكل خطورة"
+
+msgid "Noninflammable"
+msgstr "غير قابل للاشتعال"
+
+msgid "Noninteracting"
+msgstr "غير تفاعل"
+
+msgid "Noninterference"
+msgstr "عدم التدخّل"
+
+msgid "Nonintuitive"
+msgstr "غير حدسي"
+
+msgid "Noninvolved"
+msgstr "غير ذو علاقة"
+
+msgid "Nonionic"
+msgstr "غير أيوني"
+
+msgid "Nonlethal"
+msgstr "غير قاتل"
+
+msgid "Nonlinear"
+msgstr "لاخطّي"
+
+msgid "Nonlinearities"
+msgstr "إنعدام الرّتابة"
+
+msgid "Nonlinearity"
+msgstr "غير خطية"
+
+msgid "Nonlinearly"
+msgstr "بشكل لاخطّي"
+
+msgid "Nonlinguistic"
+msgstr "غير لغوي"
+
+msgid "Nonliquid"
+msgstr "غير سائل"
+
+msgid "Nonliterary"
+msgstr "غير أدبي"
+
+msgid "Nonlocal"
+msgstr "غير محليّ"
+
+msgid "Nonmagical"
+msgstr "غير سحري"
+
+msgid "Nonmarketable"
+msgstr "غير رائج"
+
+msgid "Nonmember"
+msgstr "غير عضو"
+
+msgid "Nonmetal"
+msgstr "غير معدن"
+
+msgid "Nonmetallic"
+msgstr "غير معدني"
+
+msgid "Nonmetals"
+msgstr "نونميتالس"
+
+msgid "Nonmonetary"
+msgstr "غير نقدي"
+
+msgid "Nonmusical"
+msgstr "غير مسرحية موسيقية"
+
+msgid "Nonnative"
+msgstr "غير مواطن"
+
+msgid "Nonnatural"
+msgstr "غير طبيعي"
+
+msgid "Nonnegative"
+msgstr "غير سلبي"
+
+msgid "Nonnegotiable"
+msgstr "غير قابل للتفاوض"
+
+msgid "Nonnuclear"
+msgstr "لانووي"
+
+msgid "Nonobligatory"
+msgstr "غير إلزامي"
+
+msgid "Nonofficial"
+msgstr "غير رسمي"
+
+msgid "Nonofficially"
+msgstr "بشكل غير رسمي"
+
+msgid "Nonorthodox"
+msgstr "غير أرثذوكسي"
+
+msgid "Nonorthogonal"
+msgstr "غير متعامد"
+
+msgid "Nonpar"
+msgstr "غير معدل"
+
+msgid "Nonparallel"
+msgstr "غير متوازي"
+
+msgid "Nonpareil"
+msgstr "فريد"
+
+msgid "Nonpareils"
+msgstr "الأفذاذ"
+
+msgid "Nonparticipating"
+msgstr "غير مشترك"
+
+msgid "Nonpartisan"
+msgstr "غير تحزّبي"
+
+msgid "Nonpaying"
+msgstr "غير دفع"
+
+msgid "Nonpayment"
+msgstr "غير دفعة"
+
+msgid "Nonperishable"
+msgstr "غير عرضة للتلف"
+
+msgid "Nonperson"
+msgstr "غير شخص"
+
+msgid "Nonpersonal"
+msgstr "غير شخصي"
+
+msgid "Nonperturbing"
+msgstr "غير إقلاق"
+
+msgid "Nonpictorial"
+msgstr "غير مجلة مصوّرة"
+
+msgid "Nonplus"
+msgstr "حيّر"
+
+msgid "Nonplussed"
+msgstr "مشوّش"
+
+msgid "Nonplusses"
+msgstr "الحيرة"
+
+msgid "Nonplussing"
+msgstr "الحيرة"
+
+msgid "Nonpoisonous"
+msgstr "غير سامّ"
+
+msgid "Nonpolitical"
+msgstr "غير سياسي"
+
+msgid "Nonpolitically"
+msgstr "بشكل غير سياسي"
+
+msgid "Nonpolluting"
+msgstr "غير تلويث"
+
+msgid "Nonpractical"
+msgstr "غير عملي"
+
+msgid "Nonprescription"
+msgstr "غير وصفة"
+
+msgid "Nonprinting"
+msgstr "غير طباعة"
+
+msgid "Nonprocedural"
+msgstr "غير إجرائي"
+
+msgid "Nonproductive"
+msgstr "غير منتج"
+
+msgid "Nonprofessional"
+msgstr "غير مهني"
+
+msgid "Nonprofit"
+msgstr "لاربحي"
+
+msgid "Nonprogrammable"
+msgstr "غير قابل للبرمجة"
+
+msgid "Nonprogrammer"
+msgstr "غير مبرمج"
+
+msgid "Nonprogressive"
+msgstr "غير تقدمّي"
+
+msgid "Nonproven"
+msgstr "غير مثبت"
+
+msgid "Nonracial"
+msgstr "غير عرقي"
+
+msgid "Nonrandom"
+msgstr "غير عشوائي"
+
+msgid "Nonreactive"
+msgstr "غير تفاعلي"
+
+msgid "Nonreadable"
+msgstr "غير مقروء"
+
+msgid "Nonreader"
+msgstr "غير قارئ"
+
+msgid "Nonrecoverable"
+msgstr "غير قابل للإسترداد"
+
+msgid "Nonrecurrent"
+msgstr "غير متكرّر"
+
+msgid "Nonrecurring"
+msgstr "غير رجوع"
+
+msgid "Nonreducing"
+msgstr "غير تخفيض"
+
+msgid "Nonrefundable"
+msgstr "غير قابل للإرجاع"
+
+msgid "Nonrelevant"
+msgstr "غير ذو العلاقة"
+
+msgid "Nonrenewable"
+msgstr "غير متجدّد"
+
+msgid "Nonrepresentational"
+msgstr "غير تمثيلي"
+
+msgid "Nonreproductive"
+msgstr "غير منتج"
+
+msgid "Nonreserved"
+msgstr "غير محجوز"
+
+msgid "Nonresident"
+msgstr "خارجي"
+
+msgid "Nonresidential"
+msgstr "غير سكني"
+
+msgid "Nonresistance"
+msgstr "غير المقاوم"
+
+msgid "Nonresistant"
+msgstr "غير مقاوم"
+
+msgid "Nonrespondent"
+msgstr "غير مستجيب"
+
+msgid "Nonresponse"
+msgstr "غير ردّ"
+
+msgid "Nonrestricted"
+msgstr "غير مقّيد"
+
+msgid "Nonrestrictive"
+msgstr "غير تقييدي"
+
+msgid "Nonreturnable"
+msgstr "غير قابل للإرجاع"
+
+msgid "Nonreversible"
+msgstr "غير قابل للعكس"
+
+msgid "Nonrevolutionary"
+msgstr "غير ثوري"
+
+msgid "Nonrigid"
+msgstr "غير متصلّب"
+
+msgid "Nonscheduled"
+msgstr "غير مدرج"
+
+msgid "Nonscientific"
+msgstr "غير علمي"
+
+msgid "Nonselective"
+msgstr "غير إنتقائي"
+
+msgid "Nonsense"
+msgstr "الهراء"
+
+msgid "Nonsensical"
+msgstr "غبي"
+
+msgid "Nonsensically"
+msgstr "بدون معنى"
+
+msgid "Nonsensicalness"
+msgstr "الهراء"
+
+msgid "Nonsensitive"
+msgstr "غير حسّاس"
+
+msgid "Nonsentient"
+msgstr "غير حسّاس"
+
+msgid "Nonsequential"
+msgstr "غير متسلسل"
+
+msgid "Nonserious"
+msgstr "غير جادّ"
+
+msgid "Nonsexual"
+msgstr "لا جنسي"
+
+msgid "Nonsingular"
+msgstr "غير مفرد"
+
+msgid "Nonskid"
+msgstr "ضدّ الإنزلاق"
+
+msgid "Nonsmoker"
+msgstr "غير مدخّن"
+
+msgid "Nonspecialist"
+msgstr "غير إختصاصي"
+
+msgid "Nonspecific"
+msgstr "غير محدّد"
+
+msgid "Nonstandard"
+msgstr "غير قياسي"
+
+msgid "Nonstop"
+msgstr "باستمرار"
+
+msgid "Nonsupervisory"
+msgstr "غير إشرافي"
+
+msgid "Nontaxable"
+msgstr "غير خاضع للضريبة"
+
+msgid "Nontechnical"
+msgstr "غير تقني"
+
+msgid "Nontechnically"
+msgstr "غير تقنيا"
+
+msgid "Nonterminal"
+msgstr "غير محطة طرفية"
+
+msgid "Nonterminating"
+msgstr "غير إنهاء"
+
+msgid "Nontermination"
+msgstr "غير إنهاء"
+
+msgid "Nontoxic"
+msgstr "غير سامّ"
+
+msgid "Nontrivial"
+msgstr "غير بديهي"
+
+msgid "Nontruth"
+msgstr "غير حقيقة"
+
+msgid "Nontypical"
+msgstr "غير مثالي"
+
+msgid "Nonuniform"
+msgstr "غير زيّ رسمي"
+
+msgid "Nonunion"
+msgstr "لانقابي"
+
+msgid "Nonunionist"
+msgstr "غير نقابي"
+
+msgid "Nonunionized"
+msgstr "غير تنظّم"
+
+msgid "Nonuser"
+msgstr "غير مستعمل"
+
+msgid "Nonvariable"
+msgstr "غير متغيّر"
+
+msgid "Nonverbal"
+msgstr "لا شفهي"
+
+msgid "Nonverbally"
+msgstr "بشكل لا شفهي"
+
+msgid "Nonveteran"
+msgstr "غير خبير"
+
+msgid "Nonviable"
+msgstr "غير صالح"
+
+msgid "Nonviolence"
+msgstr "اللاعنف"
+
+msgid "Nonviolent"
+msgstr "سلمي"
+
+msgid "Nonviolently"
+msgstr "بشكل سلمي"
+
+msgid "Nonviscous"
+msgstr "غير لزج"
+
+msgid "Nonvocal"
+msgstr "غير صوتي"
+
+msgid "Nonvolatile"
+msgstr "غير متطاير"
+
+msgid "Nonvoluntary"
+msgstr "غير طوعي"
+
+msgid "Nonvolunteer"
+msgstr "غير متطوّع"
+
+msgid "Nonvoter"
+msgstr "غير ناخب"
+
+msgid "Nonvoting"
+msgstr "غير تصويت"
+
+msgid "Nonwhite"
+msgstr "غير أبيض"
+
+msgid "Nonworker"
+msgstr "غير عامل"
+
+msgid "Nonzero"
+msgstr "صفر غير"
+
+msgid "Noodle"
+msgstr "المعكرونة"
+
+msgid "Noodled"
+msgstr "نودلد"
+
+msgid "Noodles"
+msgstr "المعكرونة"
+
+msgid "Noodling"
+msgstr "نودلنج"
+
+msgid "Nook"
+msgstr "الزواية"
+
+msgid "Nooks"
+msgstr "الزوايا"
+
+msgid "Nooky"
+msgstr "الجماع، الأعضاء التناسلية للمرأة "
+
+msgid "Noon"
+msgstr "الظهر"
+
+msgid "Noonday"
+msgstr "الظهر"
+
+msgid "Nooning"
+msgstr "الراحة وقت الظّهيرة"
+
+msgid "Noons"
+msgstr "الظهر"
+
+msgid "Noontide"
+msgstr "الظهر"
+
+msgid "Noontime"
+msgstr "الظّهيرة"
+
+msgid "Noose"
+msgstr "الأنشوطة"
+
+msgid "Noosed"
+msgstr "مشنوق"
+
+msgid "Nooses"
+msgstr "الإنشوطات"
+
+msgid "Noosing"
+msgstr "الشنق"
+
+msgid "Nope"
+msgstr "لا"
+
+msgid "NoPowerSaving"
+msgstr "لا توفير للطاقة"
+
+msgid "Nor"
+msgstr "ولا"
+
+msgid "Nora"
+msgstr "نورا"
+
+msgid "Noradrenalin"
+msgstr "نورادرينالين"
+
+msgid "Noradrenaline"
+msgstr "نورادرينالاين - هرمون"
+
+msgid "Nordhoff"
+msgstr "نوردوف"
+
+msgid "Nordstrom"
+msgstr "نوردستروم"
+
+msgid "Noreen"
+msgstr "نورين"
+
+msgid "NoReset"
+msgstr "لا اعادة تشغيل"
+
+msgid "Norfolk"
+msgstr "نورفولك"
+
+msgid "NORM"
+msgstr "المعيار"
+
+msgid "Norma"
+msgstr "نورما"
+
+msgid "Normal"
+msgstr "الوضع الطبيعي"
+
+msgid "NormalBlack"
+msgstr "أسود عادي"
+
+msgid "Normalcy"
+msgstr "الحالة الطبيعية"
+
+msgid "Normalities"
+msgstr "الحالات الطبيعية"
+
+msgid "Normality"
+msgstr "الحالة الطبيعية"
+
+msgid "Normalization"
+msgstr "التطبيع"
+
+msgid "Normalizations"
+msgstr "التطبيع"
+
+msgid "Normalize"
+msgstr "طبّع"
+
+msgid "Normalized"
+msgstr "مطبّع"
+
+msgid "Normalizer"
+msgstr "معيد الأمور إلى حالة طبيعية"
+
+msgid "Normalizers"
+msgstr "معيدو الأمور إلى حالة طبيعية"
+
+msgid "Normalizes"
+msgstr "يطبّع"
+
+msgid "Normalizing"
+msgstr "التطبيع"
+
+msgid "Normally"
+msgstr "عادة"
+
+msgid "Normals"
+msgstr "الأوضاع الطبيعية"
+
+msgid "Norman"
+msgstr "نورمان"
+
+msgid "Normandy"
+msgstr "نورماندي"
+
+msgid "Normative"
+msgstr "معياري"
+
+msgid "Normatively"
+msgstr "بمعيار"
+
+msgid "Normativeness"
+msgstr "المعياريةّ"
+
+msgid "Norms"
+msgstr "المعايير"
+
+msgid "Norris"
+msgstr "نوريس"
+
+msgid "Norristown"
+msgstr "نوريستاون"
+
+msgid "Norse"
+msgstr "نرويجي"
+
+msgid "North"
+msgstr "الشمال"
+
+msgid "Northampton"
+msgstr "نورثهامبتون"
+
+msgid "Northbound"
+msgstr "متجه شمالا"
+
+msgid "Northeast"
+msgstr "المنطقة الشمالية الشرقية"
+
+msgid "Northeaster"
+msgstr "شمالي شرقي"
+
+msgid "Northeasterly"
+msgstr "باتجاه الشّمال الشّرقي"
+
+msgid "Northeastern"
+msgstr "شمالي شرقي"
+
+msgid "Northeasters"
+msgstr "عواصف شماليّة شرقيّة قويّة"
+
+msgid "Norther"
+msgstr "الرّياح الشّماليّة"
+
+msgid "Northerly"
+msgstr "باتجاه الشّمال"
+
+msgid "Northern"
+msgstr "شمالي"
+
+msgid "Northerner"
+msgstr "الشمالي"
+
+msgid "Northerners"
+msgstr "الشماليون"
+
+msgid "Northernly"
+msgstr "بشكل شمالي"
+
+msgid "Northernmost"
+msgstr "أقصى الشمال"
+
+msgid "Northers"
+msgstr "الرّياح الشّماليّة"
+
+msgid "Northfield"
+msgstr "نورثفيلد"
+
+msgid "Northing"
+msgstr "الذهاب بإتجاه الشمال"
+
+msgid "Northland"
+msgstr "الأراضي الشماليّة"
+
+msgid "Northrop"
+msgstr "نورثروب - خبير كيمياء حيويّة أمريكيّ"
+
+msgid "Northrup"
+msgstr "نورثرب"
+
+msgid "Norths"
+msgstr "الشمال"
+
+msgid "Northumberland"
+msgstr "نورثمبيرلاند"
+
+msgid "Northward"
+msgstr "شمالا"
+
+msgid "Northwardly"
+msgstr "باتجاه الشّمال"
+
+msgid "Northwards"
+msgstr "شمالا"
+
+msgid "Northwest"
+msgstr "المنطقة الشمالية الغربية"
+
+msgid "Northwester"
+msgstr "شمالي غربي"
+
+msgid "Northwesterly"
+msgstr "باتجاه الشّمال الغربي"
+
+msgid "Northwestern"
+msgstr "شمالي غربي"
+
+msgid "Northwesters"
+msgstr "نورثويسترس"
+
+msgid "Northwestward"
+msgstr "شمال غرب"
+
+msgid "Northwestwards"
+msgstr "باتجاه الشّمال الغربي"
+
+msgid "Norton"
+msgstr "نورتن"
+
+msgid "Norwalk"
+msgstr "نوروالك"
+
+msgid "Norway"
+msgstr "النرويج"
+
+msgid "Norwegian"
+msgstr "النرويجي"
+
+msgid "Norwich"
+msgstr "نورويتش"
+
+msgid "Nose"
+msgstr "الأنف"
+
+msgid "Nosebag"
+msgstr "كيس العلف"
+
+msgid "Nosebleed"
+msgstr "النّزيف الأنفيّ"
+
+msgid "Nosebleeds"
+msgstr "النّزيف الأنفيّ"
+
+msgid "Nosed"
+msgstr "مشتمّ"
+
+msgid "Nosegay"
+msgstr "الإكليل"
+
+msgid "Nosegays"
+msgstr "الأكاليل"
+
+msgid "Nosepiece"
+msgstr "واقي للأنف"
+
+msgid "Noses"
+msgstr "الأنوف"
+
+msgid "Nosier"
+msgstr "أكثر فضولية"
+
+msgid "Nosiest"
+msgstr "أكثر فضولية"
+
+msgid "Nosily"
+msgstr "بتطفّل"
+
+msgid "Nosiness"
+msgstr "الفضول"
+
+msgid "Nosing"
+msgstr "الإشتمام"
+
+msgid "Nostalgia"
+msgstr "الحنين"
+
+msgid "Nostalgic"
+msgstr "حنون"
+
+msgid "Nostalgically"
+msgstr "بحنين"
+
+msgid "Nostradamus"
+msgstr "نوسترادامس - طبيب و منجّم فرنسيّ"
+
+msgid "Nostrand"
+msgstr "نوستراند"
+
+msgid "Nostril"
+msgstr "المنخر"
+
+msgid "Nostrils"
+msgstr "الخياشيم"
+
+msgid "Nostrum"
+msgstr "الدواء المدجّل"
+
+msgid "Nostrums"
+msgstr "الأدوية المدجّلة"
+
+msgid "Nosy"
+msgstr "فضولي"
+
+msgid "Not"
+msgstr "ليس، أداة نفي"
+
+msgid "Not...either"
+msgstr "ليس... أمّا"
+
+msgid "Not...yet"
+msgstr "ليس... رغم ذلك"
+
+msgid "Notability"
+msgstr "الوجيه"
+
+msgid "Notable"
+msgstr "بارز"
+
+msgid "Notableness"
+msgstr "بارز للعيان"
+
+msgid "Notables"
+msgstr "البارزون"
+
+msgid "Notably"
+msgstr "بشكل خاص"
+
+msgid "Notarial"
+msgstr "توثيقي"
+
+msgid "Notaries"
+msgstr "كتّاب العدل"
+
+msgid "Notarization"
+msgstr "التّوثيق"
+
+msgid "Notarize"
+msgstr "صدّق"
+
+msgid "Notarized"
+msgstr "صدّق"
+
+msgid "Notarizes"
+msgstr "يصدّق"
+
+msgid "Notarizing"
+msgstr "التصديق"
+
+msgid "Notary"
+msgstr "كاتب العدل"
+
+msgid "Notate"
+msgstr "يرمّز، يشكّل"
+
+msgid "Notated"
+msgstr "رمّز، شكّل"
+
+msgid "Notates"
+msgstr "يرمّز، يشكّل"
+
+msgid "Notating"
+msgstr "الترميز، التشكيل"
+
+msgid "Notation"
+msgstr "الترقيم"
+
+msgid "Notational"
+msgstr "ترميزي، تشكيلي"
+
+msgid "Notationally"
+msgstr "بصورة ترميزية أو تشكيلية"
+
+msgid "Notations"
+msgstr "الترقيم"
+
+msgid "Notch"
+msgstr "الشقّ"
+
+msgid "Notched"
+msgstr "أحرز"
+
+msgid "Notches"
+msgstr "الشقوق"
+
+msgid "Notching"
+msgstr "الإحراز"
+
+msgid "Note"
+msgstr "الملاحظة"
+
+msgid "Note-book"
+msgstr "كتاب ملاحظة"
+
+msgid "Notebook"
+msgstr "دفتر الملاحظات"
+
+msgid "Notebooks"
+msgstr "دفاتر الملاحظات"
+
+msgid "Noted"
+msgstr "بارز"
+
+msgid "Notedly"
+msgstr "بشكل بارز"
+
+msgid "Notedness"
+msgstr "معروف"
+
+msgid "Notepad"
+msgstr "المحرر"
+
+msgid "Notepads"
+msgstr "دفاتر الملاحظات"
+
+msgid "Notepaper"
+msgstr "ورقة الملاحظات"
+
+msgid "Noter"
+msgstr "نوتر"
+
+msgid "Notes"
+msgstr "الملاحظات"
+
+msgid "Noteworthiest"
+msgstr "بارز"
+
+msgid "Noteworthily"
+msgstr "جدير بالملاحظة"
+
+msgid "Noteworthiness"
+msgstr "الجدارة بالملاحظة"
+
+msgid "Noteworthy"
+msgstr "بارز"
+
+msgid "Nothing"
+msgstr "لا شيء"
+
+msgid "Nothingness"
+msgstr "العدم"
+
+msgid "Nothings"
+msgstr "لا شيء"
+
+msgid "Notice"
+msgstr "الملاحظة"
+
+msgid "Noticeability"
+msgstr "بارز، واضح"
+
+msgid "Noticeable"
+msgstr "ملحوظ"
+
+msgid "Noticeably"
+msgstr "بشكل ملحوظ"
+
+msgid "Noticed"
+msgstr "ملاحظ"
+
+msgid "Notices"
+msgstr "الملاحظات"
+
+msgid "Noticing"
+msgstr "الملاحظة"
+
+msgid "Notifiable"
+msgstr "واجب التبليغ"
+
+msgid "Notification"
+msgstr "التبليغ"
+
+msgid "Notifications"
+msgstr "التبليغات"
+
+msgid "Notified"
+msgstr "شاعر"
+
+msgid "Notifier"
+msgstr "المبلّغ"
+
+msgid "Notifiers"
+msgstr "المبلّغون"
+
+msgid "Notifies"
+msgstr "يشعر"
+
+msgid "Notify"
+msgstr "أشعر"
+
+msgid "Notifying"
+msgstr "الإشعار"
+
+msgid "Noting"
+msgstr "الملاحظة"
+
+msgid "Notion"
+msgstr "الفكرة"
+
+msgid "Notional"
+msgstr "نظري"
+
+msgid "Notions"
+msgstr "الأفكار"
+
+msgid "Notocord"
+msgstr "نوتوكورد"
+
+msgid "Notoriety"
+msgstr "السمعة السيّئة"
+
+msgid "Notorious"
+msgstr "سيئ السمعة"
+
+msgid "Notoriously"
+msgstr "مشهورا"
+
+msgid "Notoriousness"
+msgstr "سوء السّمعة"
+
+msgid "Nottingham"
+msgstr "نوتينغهام"
+
+msgid "Notwithstanding"
+msgstr "على الرغم من"
+
+msgid "Nouakchott"
+msgstr "نواكشوط"
+
+msgid "Nought"
+msgstr "الصفر"
+
+msgid "Noun"
+msgstr "الاسم"
+
+msgid "Nouns"
+msgstr "الأسماء"
+
+msgid "Nourish"
+msgstr "الإنتعاش"
+
+msgid "Nourished"
+msgstr "مغذّى"
+
+msgid "Nourisher"
+msgstr "المغذّي"
+
+msgid "Nourishes"
+msgstr "يغذّي"
+
+msgid "Nourishing"
+msgstr "التغذية"
+
+msgid "Nourishingly"
+msgstr "بشكل مغذّى"
+
+msgid "Nourishment"
+msgstr "الغذاء"
+
+msgid "Nourishments"
+msgstr "التغذية"
+
+msgid "Nouveau"
+msgstr "جديد"
+
+msgid "Nouvelle"
+msgstr "نوفيل"
+
+msgid "Nov"
+msgstr "نوفمبر/تشرين الثّاني"
+
+msgid "Nova"
+msgstr "النّجم"
+
+msgid "Novak"
+msgstr "نوفاك"
+
+msgid "Novas"
+msgstr "النّجوم"
+
+msgid "Novation"
+msgstr "الاستبدال"
+
+msgid "Novel"
+msgstr "الرواية"
+
+msgid "Novelette"
+msgstr "الرواية"
+
+msgid "Novelist"
+msgstr "الروائي"
+
+msgid "Novelists"
+msgstr "الروائيون"
+
+msgid "Novelized"
+msgstr "مقصّص"
+
+msgid "Novella"
+msgstr "الرّواية القصيرة"
+
+msgid "Novelly"
+msgstr "بشكل مبتكر"
+
+msgid "Novels"
+msgstr "الروايات"
+
+msgid "Novelties"
+msgstr "الطرافات"
+
+msgid "Novelty"
+msgstr "الطرافة"
+
+msgid "November"
+msgstr "نوفمبر/تشرين الثّاني"
+
+msgid "Novembers"
+msgstr "أشهر نوفمبر/تشرين الثّاني"
+
+msgid "Novice"
+msgstr "المبتدئ"
+
+msgid "Novices"
+msgstr "المبتدئون"
+
+msgid "Novitiate"
+msgstr "فترة التّدريب"
+
+msgid "Novo"
+msgstr "نوفو"
+
+msgid "Novosibirsk"
+msgstr "نوفوسيبيرسك"
+
+msgid "Now"
+msgstr "الآن"
+
+msgid "Nowaday"
+msgstr "هذه الأيام"
+
+msgid "Nowadays"
+msgstr "في الوقت الحاضر"
+
+msgid "Noway"
+msgstr "نواي"
+
+msgid "Nowhere"
+msgstr "ليس في أي مكان"
+
+msgid "Nowheres"
+msgstr "ولا مكان"
+
+msgid "Nowhither"
+msgstr "بلا إتّجاه"
+
+msgid "Nowise"
+msgstr "ليس بأي شكل"
+
+msgid "Nows"
+msgstr "نوس"
+
+msgid "Noxious"
+msgstr "ضار"
+
+msgid "Noxiously"
+msgstr "بشكل ضار"
+
+msgid "Noxiousness"
+msgstr "الإيذاء"
+
+msgid "Noyes"
+msgstr "نوييز - زعيم دينيّ أمريكيّ"
+
+msgid "Nozzle"
+msgstr "الخرطوم"
+
+msgid "Nozzles"
+msgstr "الخراطيم"
+
+msgid "NRC"
+msgstr "مجلس البحث القوميّ"
+
+msgid "Nroff"
+msgstr "نروف - برنامج تنسيق نصوص"
+
+msgid "NSF"
+msgstr "مؤسّسة العلم القوميّة"
+
+msgid "Nth"
+msgstr "أخير"
+
+msgid "NTIS"
+msgstr "خدمة المعلومات التّقنيّة القوميّة"
+
+msgid "Nu"
+msgstr "نو - الحرف الثّالث عشر للأبجدية اليونانيّة"
+
+msgid "Nuance"
+msgstr "الفرق الدقيق"
+
+msgid "Nuanced"
+msgstr "ملوّن"
+
+msgid "Nuances"
+msgstr "الفروق الدقيقة"
+
+msgid "Nub"
+msgstr "الصميم"
+
+msgid "Nubia"
+msgstr "النّوبة - منطقة صّحراوية و مملكة قديمة"
+
+msgid "Nubian"
+msgstr "النّوبيّ"
+
+msgid "Nubile"
+msgstr "بالغ"
+
+msgid "Nubs"
+msgstr "الألباب"
+
+msgid "Nuclear"
+msgstr "نووي"
+
+msgid "Nucleate"
+msgstr "نووي"
+
+msgid "Nucleated"
+msgstr "متنوّى"
+
+msgid "Nucleation"
+msgstr "الإلتقاء في النواة"
+
+msgid "Nuclei"
+msgstr "النوى"
+
+msgid "Nucleic"
+msgstr "نووي"
+
+msgid "Nucleole"
+msgstr "نواة في داخل نواة"
+
+msgid "Nucleoli"
+msgstr "الأنوية - جمع نواة"
+
+msgid "Nucleolus"
+msgstr "النواة"
+
+msgid "Nucleon"
+msgstr "البروتون أو النيوترون داخل الذرّة"
+
+msgid "Nucleonics"
+msgstr "العلم النّوويّ"
+
+msgid "Nucleons"
+msgstr "النيوترونات او البروتونات"
+
+msgid "Nucleotide"
+msgstr "النكليوتيد"
+
+msgid "Nucleotides"
+msgstr "النكليوتيدات"
+
+msgid "Nucleus"
+msgstr "النواة"
+
+msgid "Nucleuses"
+msgstr "النوى"
+
+msgid "Nuclide"
+msgstr "نوع من الذّرات"
+
+msgid "Nude"
+msgstr "عاري"
+
+msgid "Nudely"
+msgstr "بشكل عاري"
+
+msgid "Nudeness"
+msgstr "التّعرّي"
+
+msgid "Nuder"
+msgstr "عاري"
+
+msgid "Nudes"
+msgstr "العراة"
+
+msgid "Nudest"
+msgstr "عاري"
+
+msgid "Nudge"
+msgstr "الوكزة"
+
+msgid "Nudged"
+msgstr "مدفوع"
+
+msgid "Nudger"
+msgstr "الوخّاز"
+
+msgid "Nudges"
+msgstr "الوكز"
+
+msgid "Nudging"
+msgstr "الدفع"
+
+msgid "Nudism"
+msgstr "العري"
+
+msgid "Nudist"
+msgstr "العاري"
+
+msgid "Nudists"
+msgstr "العراة"
+
+msgid "Nudity"
+msgstr "التعرّي"
+
+msgid "Nugatory"
+msgstr "تافه"
+
+msgid "Nugent"
+msgstr "نجينت"
+
+msgid "Nugget"
+msgstr "الكتلة"
+
+msgid "Nuggets"
+msgstr "الكتل"
+
+msgid "Nui"
+msgstr "الجامعة الوطنية في أيرلندا"
+
+msgid "Nuisance"
+msgstr "مصدر الإزعاج"
+
+msgid "Nuisances"
+msgstr "مصادر الإزعاج"
+
+msgid "Nuke"
+msgstr "السّلاح النّوويّ"
+
+msgid "Null"
+msgstr "ملغي"
+
+msgid "Nulled"
+msgstr "أصبح بلا قيمة"
+
+msgid "Nullification"
+msgstr "الإبطال"
+
+msgid "Nullified"
+msgstr "مبطل"
+
+msgid "Nullifier"
+msgstr "الرّافض، اللاغي"
+
+msgid "Nullifiers"
+msgstr "الرّافضون، اللاغون"
+
+msgid "Nullifies"
+msgstr "يبطل"
+
+msgid "Nullify"
+msgstr "أبطل"
+
+msgid "Nullifying"
+msgstr "الإبطال"
+
+msgid "Nullities"
+msgstr "الباطلون"
+
+msgid "Nullity"
+msgstr "البطلان"
+
+msgid "Nulls"
+msgstr "بلا قيم"
+
+msgid "Numb"
+msgstr "خدران"
+
+msgid "Numbed"
+msgstr "مخدّر"
+
+msgid "Number"
+msgstr "العدد"
+
+msgid "Numbered"
+msgstr "معدود"
+
+msgid "Numberer"
+msgstr "عداد"
+
+msgid "Numbering"
+msgstr "العدّ"
+
+msgid "Numberless"
+msgstr "غير معدود"
+
+msgid "Numbers"
+msgstr "الأعداد"
+
+msgid "Numbing"
+msgstr "التخدير"
+
+msgid "Numbingly"
+msgstr "بتخدير"
+
+msgid "Numbly"
+msgstr "بشكل خدران"
+
+msgid "Numbness"
+msgstr "التّخدّر"
+
+msgid "Numbs"
+msgstr "يخدّر"
+
+msgid "Numerable"
+msgstr "معدود"
+
+msgid "Numeral"
+msgstr "الرقم"
+
+msgid "Numerally"
+msgstr "بشكل رقمي"
+
+msgid "Numerals"
+msgstr "الأرقام"
+
+msgid "Numerate"
+msgstr "جيّد في الحساب"
+
+msgid "Numerated"
+msgstr "محسوب"
+
+msgid "Numerates"
+msgstr "يحسب"
+
+msgid "Numerating"
+msgstr "الحساب"
+
+msgid "Numeration"
+msgstr "العدّ"
+
+msgid "Numerations"
+msgstr "العدّ"
+
+msgid "Numerative"
+msgstr "متعلق بالعد"
+
+msgid "Numerator"
+msgstr "بسط الكسر"
+
+msgid "Numerators"
+msgstr "بسوط الكسر"
+
+msgid "Numeric"
+msgstr "عددي"
+
+msgid "Numerical"
+msgstr "عددي"
+
+msgid "Numerically"
+msgstr "بشكل عددي"
+
+msgid "Numerics"
+msgstr "الأعداد"
+
+msgid "Numerological"
+msgstr "تنجيميّ"
+
+msgid "Numerology"
+msgstr "دراسة الدلالات السحرية للأعداد"
+
+msgid "Numerous"
+msgstr "عديد"
+
+msgid "Numerously"
+msgstr "بكثرة"
+
+msgid "Numerousness"
+msgstr "الكثرة"
+
+msgid "Numinous"
+msgstr "خشوعي"
+
+msgid "Numismatic"
+msgstr "نقودي"
+
+msgid "Numismatically"
+msgstr "متعلق بالعملة"
+
+msgid "Numismatics"
+msgstr "دراسة القطع النقدية والأوسمة"
+
+msgid "Numismatist"
+msgstr "جامع العملات"
+
+msgid "Nummer"
+msgstr "نومير"
+
+msgid "Numskull"
+msgstr "الغبي"
+
+msgid "Nun"
+msgstr "الراهبة"
+
+msgid "Nunneries"
+msgstr "أديرة الراهبات"
+
+msgid "Nunnery"
+msgstr "دير الراهبات"
+
+msgid "Nuns"
+msgstr "الراهبات"
+
+msgid "Nuptial"
+msgstr "الزفاف"
+
+msgid "Nuptially"
+msgstr "بشكل زواجي"
+
+msgid "Nuptials"
+msgstr "الأعراس"
+
+msgid "Nur"
+msgstr "خشب قاسي"
+
+msgid "Nurse"
+msgstr "الممرضة"
+
+msgid "Nursed"
+msgstr "مرعي"
+
+msgid "Nurseling"
+msgstr "الرضيع"
+
+msgid "Nurselings"
+msgstr "الرضّع"
+
+msgid "Nursemaid"
+msgstr "المربية"
+
+msgid "Nursemaids"
+msgstr "المربيات"
+
+msgid "Nurser"
+msgstr "الممرض"
+
+msgid "Nurseries"
+msgstr "رياض الأطفال"
+
+msgid "Nursery"
+msgstr "روضة الأطفال"
+
+msgid "Nurseryman"
+msgstr "صاحب المشتل"
+
+msgid "Nurses"
+msgstr "الممرضات"
+
+msgid "Nursing"
+msgstr "الرعاية"
+
+msgid "Nursling"
+msgstr "الرّضيع"
+
+msgid "Nurslings"
+msgstr "الرّضّع"
+
+msgid "Nurture"
+msgstr "الغذاء"
+
+msgid "Nurtured"
+msgstr "مربّى"
+
+msgid "Nurturer"
+msgstr "الرّاعي"
+
+msgid "Nurtures"
+msgstr "الأغذية"
+
+msgid "Nurturing"
+msgstr "التربية"
+
+msgid "Nut"
+msgstr "البندق"
+
+msgid "Nutate"
+msgstr "أومأ"
+
+msgid "Nutated"
+msgstr "مومأ"
+
+msgid "Nutates"
+msgstr "يأومأ"
+
+msgid "Nutating"
+msgstr "الإيماء"
+
+msgid "Nutation"
+msgstr "الإيماءة"
+
+msgid "Nutcracker"
+msgstr "كسارة البندق"
+
+msgid "Nutcrackers"
+msgstr "كسارات البندق"
+
+msgid "Nuthatch"
+msgstr "نت هاتش - نوع من الطيور"
+
+msgid "Nutmeg"
+msgstr "جوز الطيب"
+
+msgid "Nutmegs"
+msgstr "جوز الطيب"
+
+msgid "Nutria"
+msgstr "الكيب - نوع من القوارض"
+
+msgid "Nutrient"
+msgstr "مغذّي"
+
+msgid "Nutrients"
+msgstr "المواد المغذّية"
+
+msgid "Nutriment"
+msgstr "الغذاء"
+
+msgid "Nutriments"
+msgstr "الأغذية"
+
+msgid "Nutrition"
+msgstr "التغذية"
+
+msgid "Nutritional"
+msgstr "مغذّي"
+
+msgid "Nutritionally"
+msgstr "بشكل مغذّي"
+
+msgid "Nutritionist"
+msgstr "متخصص في التّغذية"
+
+msgid "Nutritionists"
+msgstr "متخصصون في التّغذية"
+
+msgid "Nutritions"
+msgstr "التغذية"
+
+msgid "Nutritious"
+msgstr "مغذّي"
+
+msgid "Nutritiously"
+msgstr "بشكل مغذّي"
+
+msgid "Nutritiousness"
+msgstr "الفائدة الغذائية"
+
+msgid "Nutritive"
+msgstr "مغذّي"
+
+msgid "Nutritively"
+msgstr "بشكل مغذّي"
+
+msgid "Nuts"
+msgstr "البندق"
+
+msgid "Nutshell"
+msgstr "القشر"
+
+msgid "Nutshells"
+msgstr "القشور"
+
+msgid "Nuttier"
+msgstr "أكثر جوزا"
+
+msgid "Nuttiest"
+msgstr "أكثر جوزا"
+
+msgid "Nuttily"
+msgstr "بمسّ من الجنون"
+
+msgid "Nuttiness"
+msgstr "مسّ من الجنون"
+
+msgid "Nutty"
+msgstr "بالبندق"
+
+msgid "Nuzzle"
+msgstr "مرّغ"
+
+msgid "Nuzzled"
+msgstr "ممرّغ"
+
+msgid "Nuzzles"
+msgstr "يمرّغ"
+
+msgid "Nuzzling"
+msgstr "التمريغ"
+
+msgid "NV"
+msgstr "نيفادا"
+
+msgid "NW"
+msgstr "شمال غربي"
+
+msgid "NY"
+msgstr "نيويورك"
+
+msgid "NYC"
+msgstr "مدينة نيويورك"
+
+msgid "Nylon"
+msgstr "النايلون"
+
+msgid "Nylons"
+msgstr "النايلون"
+
+msgid "Nymph"
+msgstr "الحورية"
+
+msgid "Nymphomania"
+msgstr "الشهوة"
+
+msgid "Nymphomaniac"
+msgstr "شبق"
+
+msgid "Nymphomaniacs"
+msgstr "شديدو الشّهوة"
+
+msgid "Nymphs"
+msgstr "الحوريات"
+
+msgid "NYSE"
+msgstr "سوق نيويورك للأوراق المالية"
+
+msgid "NYU"
+msgstr "جامعة نيويورك"
+
+msgid "Namespace"
+msgstr "العالم المجرّد، المجال المجرّد"
+
+msgid "Nits"
+msgstr "الصّؤاب :: القمل الصغير :: بيض القمل"
+

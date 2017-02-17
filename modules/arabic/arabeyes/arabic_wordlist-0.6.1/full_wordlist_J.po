@@ -1,0 +1,2288 @@
+# translation of full_wordlist_J.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_J.po,v 1.10 2004/01/30 16:56:32 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'J'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_J\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2004-01-30 19:55+0300\n"
+
+msgid "J"
+msgstr "جي - الحرف العاشر في اللغة الإنجليزية"
+
+msgid "Jab"
+msgstr "الأبرة"
+
+msgid "Jabbed"
+msgstr "وخز"
+
+msgid "Jabber"
+msgstr "الثرثار"
+
+msgid "Jabbered"
+msgstr "مثرثر"
+
+msgid "Jabbers"
+msgstr "الثرثارون"
+
+msgid "Jabberwocky"
+msgstr "الثرثرة"
+
+msgid "Jabbing"
+msgstr "الوخز"
+
+msgid "Jablonsky"
+msgstr "جابلونسكاي"
+
+msgid "Jabs"
+msgstr "الأبر"
+
+msgid "Jack"
+msgstr "جاك"
+
+msgid "Jack-of-all-trades"
+msgstr "المشتغل في كل الأعمال"
+
+msgid "Jack-pot"
+msgstr "الجائزة"
+
+msgid "Jackal"
+msgstr "الثعلب"
+
+msgid "Jackals"
+msgstr "الثعالب"
+
+msgid "Jackanapes"
+msgstr "الوقح"
+
+msgid "Jackass"
+msgstr "الحمار"
+
+msgid "Jackasses"
+msgstr "الحمير"
+
+msgid "Jackboot"
+msgstr "الجزمة"
+
+msgid "Jackbooted"
+msgstr "عدوانيّ"
+
+msgid "Jackboots"
+msgstr "الجزم"
+
+msgid "Jackdaw"
+msgstr "الغراب"
+
+msgid "Jackdaws"
+msgstr "الغربان"
+
+msgid "Jacked"
+msgstr "جاكيد"
+
+msgid "Jacker"
+msgstr "جاكير"
+
+msgid "Jacket"
+msgstr "السترة"
+
+msgid "Jacketed"
+msgstr "مرتدي جاكت"
+
+msgid "Jackets"
+msgstr "الستر"
+
+msgid "Jackie"
+msgstr "جاكي"
+
+msgid "Jacking"
+msgstr "الاصطياد"
+
+msgid "Jackknife"
+msgstr "المطواة"
+
+msgid "Jackman"
+msgstr "جاكمان"
+
+msgid "Jackpot"
+msgstr "الجائزة الأولى"
+
+msgid "Jackpots"
+msgstr "الجوائز الأولى"
+
+msgid "Jacks"
+msgstr "الرافعات"
+
+msgid "Jackson"
+msgstr "جاكسن"
+
+msgid "Jacksonian"
+msgstr "متعلق بـ أندرو جاكسون"
+
+msgid "Jacksonville"
+msgstr "جاكسونفيل"
+
+msgid "Jacky"
+msgstr "جاكي"
+
+msgid "JACM"
+msgstr "صحيفة جمعيّة الآلات الحاسبة"
+
+msgid "Jacob"
+msgstr "يعقوب"
+
+msgid "Jacobean"
+msgstr "يعقوبي"
+
+msgid "Jacobi"
+msgstr "جاكوبي"
+
+msgid "Jacobian"
+msgstr "التّعلّق بطراز معماريّ و ديكور في وقت جيمس الأوّل"
+
+msgid "Jacobite"
+msgstr "يعقوبي"
+
+msgid "Jacobs"
+msgstr "جاكوبس"
+
+msgid "Jacobsen"
+msgstr "جاكوبسين"
+
+msgid "Jacobson"
+msgstr "جاكوبسون"
+
+msgid "Jacobus"
+msgstr "جاكوبوس"
+
+msgid "Jacoby"
+msgstr "جاكوبي"
+
+msgid "Jacqueline"
+msgstr "جاكلين"
+
+msgid "Jacques"
+msgstr "جاك"
+
+msgid "Jade"
+msgstr "اليشم"
+
+msgid "Jaded"
+msgstr "متعب"
+
+msgid "Jadedly"
+msgstr "بانهاك"
+
+msgid "Jadedness"
+msgstr "التّعب"
+
+msgid "Jades"
+msgstr "الساقطات"
+
+msgid "Jading"
+msgstr "الإتعاب"
+
+msgid "Jaeger"
+msgstr "الكركر"
+
+msgid "Jag"
+msgstr "النتوء"
+
+msgid "Jagged"
+msgstr "متعرج"
+
+msgid "Jaggedly"
+msgstr "بتعرّج"
+
+msgid "Jaggedness"
+msgstr "الخشونة"
+
+msgid "Jaggers"
+msgstr "ييجرز"
+
+msgid "Jagging"
+msgstr "التكسير"
+
+msgid "Jaggy"
+msgstr "جاجي"
+
+msgid "Jags"
+msgstr "النتوءات"
+
+msgid "Jaguar"
+msgstr "الفهد"
+
+msgid "Jaguars"
+msgstr "النمور"
+
+msgid "Jail"
+msgstr "السجن"
+
+msgid "Jailbird"
+msgstr "خرّيج السّجون"
+
+msgid "Jailbirds"
+msgstr "خرّيجو السّجون"
+
+msgid "Jailbreak"
+msgstr "الهروب من السجن"
+
+msgid "Jailed"
+msgstr "مسجون"
+
+msgid "Jailer"
+msgstr "السجّان"
+
+msgid "Jailers"
+msgstr "السجّانون"
+
+msgid "Jailhouse"
+msgstr "السّجن"
+
+msgid "Jailing"
+msgstr "السجن"
+
+msgid "Jails"
+msgstr "السجون"
+
+msgid "Jaime"
+msgstr "جيم"
+
+msgid "Jakarta"
+msgstr "جاكارتا"
+
+msgid "Jake"
+msgstr "جايك"
+
+msgid "Jakes"
+msgstr "المرحاض"
+
+msgid "Jalopies"
+msgstr "السيارات القديمة"
+
+msgid "Jalopy"
+msgstr "السيارة القراضة"
+
+msgid "Jam"
+msgstr "المربّى"
+
+msgid "Jamaica"
+msgstr "جامايكا"
+
+msgid "Jamaican"
+msgstr "الجامايكي"
+
+msgid "Jamb"
+msgstr "العضادة"
+
+msgid "Jamboree"
+msgstr "المهرجان"
+
+msgid "Jambs"
+msgstr "العضائد"
+
+msgid "James"
+msgstr "جيمس"
+
+msgid "Jameson"
+msgstr "جيمسن"
+
+msgid "Jamestown"
+msgstr "جيمستاون"
+
+msgid "Jammed"
+msgstr "مسدود"
+
+msgid "Jammer"
+msgstr "جهاز التّشويش"
+
+msgid "Jamming"
+msgstr "التشويش"
+
+msgid "Jams"
+msgstr "المربات"
+
+msgid "Jan"
+msgstr "يناير/كانون الثّاني"
+
+msgid "Jane"
+msgstr "جين"
+
+msgid "Janeiro"
+msgstr "جانيرو"
+
+msgid "Janesville"
+msgstr "جاينسفيل"
+
+msgid "Janet"
+msgstr "جانيت"
+
+msgid "Jangle"
+msgstr "الخشخشة"
+
+msgid "Jangled"
+msgstr "مخشخش"
+
+msgid "Jangler"
+msgstr "الخشخاشة"
+
+msgid "Jangles"
+msgstr "الخشخشات"
+
+msgid "Jangling"
+msgstr "الخشخشة"
+
+msgid "Janice"
+msgstr "جانيس"
+
+msgid "Janis"
+msgstr "جانيس"
+
+msgid "Janissaries"
+msgstr "الإنكشاريون"
+
+msgid "Janissary"
+msgstr "الإنكشاري"
+
+msgid "Janitor"
+msgstr "البوّاب"
+
+msgid "Janitorial"
+msgstr "متعلق بصيانة المباني"
+
+msgid "Janitors"
+msgstr "البوابون"
+
+msgid "Janos"
+msgstr "يونس"
+
+msgid "Jansen"
+msgstr "جانسين"
+
+msgid "Jansenist"
+msgstr "تابع كورنليوس جانسين"
+
+msgid "Januaries"
+msgstr "أشْهُرْ يناير"
+
+msgid "January"
+msgstr "يناير/كانون الثّاني"
+
+msgid "Janus"
+msgstr "يانوس - أساطير رومانيّة . اله البوّابات و المداخل"
+
+msgid "Japan"
+msgstr "اليابان"
+
+msgid "Japanese"
+msgstr "الياباني"
+
+msgid "Jape"
+msgstr "إخدع"
+
+msgid "Japed"
+msgstr "مخدوع"
+
+msgid "Japing"
+msgstr "السخرية من"
+
+msgid "Jar"
+msgstr "الجرّة"
+
+msgid "Jargon"
+msgstr "المفردة التخصصية"
+
+msgid "Jargons"
+msgstr "المفردات التخصصية"
+
+msgid "Jarred"
+msgstr "متنافر"
+
+msgid "Jarring"
+msgstr "التنافر"
+
+msgid "Jarringly"
+msgstr "بشكل مزعج"
+
+msgid "Jars"
+msgstr "الجرار"
+
+msgid "Jarvin"
+msgstr "جارفين"
+
+msgid "Jasmines"
+msgstr "الياسمين"
+
+msgid "Jason"
+msgstr "جايسون"
+
+msgid "Jasper"
+msgstr "كاسبر"
+
+msgid "Jaspers"
+msgstr "اليشب"
+
+msgid "Jastrow"
+msgstr "جاسترو"
+
+msgid "Jaundice"
+msgstr "اليرقان"
+
+msgid "Jaundiced"
+msgstr "صفراوي"
+
+msgid "Jaundices"
+msgstr "اليرقان"
+
+msgid "Jaundicing"
+msgstr "تصفّر بياض العين أو البشرة"
+
+msgid "Jaunt"
+msgstr "النزهة"
+
+msgid "Jaunted"
+msgstr "مرتحل"
+
+msgid "Jauntier"
+msgstr "متبختر"
+
+msgid "Jauntiest"
+msgstr "متبختر"
+
+msgid "Jauntily"
+msgstr "بتبختر"
+
+msgid "Jauntiness"
+msgstr "المرح"
+
+msgid "Jaunting"
+msgstr "الإرتحال"
+
+msgid "Jaunts"
+msgstr "النزه"
+
+msgid "Jaunty"
+msgstr "متبختر"
+
+msgid "Java"
+msgstr "لغة من لغات برمجة الحاسب الآلي، مدينة جاوا"
+
+msgid "Javanese"
+msgstr "جاوي"
+
+msgid "JavaScript"
+msgstr "جافا سكريبت"
+
+msgid "Javelin"
+msgstr "الرمح"
+
+msgid "Javelins"
+msgstr "الرماح"
+
+msgid "Jaw"
+msgstr "الفكّ"
+
+msgid "Jawbone"
+msgstr "عظم الفكّ"
+
+msgid "Jawbreaker"
+msgstr "الحلوى القاسية"
+
+msgid "Jawed"
+msgstr "تذمّر"
+
+msgid "Jaws"
+msgstr "الفكاك"
+
+msgid "Jawy"
+msgstr "متعلق بالفك"
+
+msgid "Jay"
+msgstr "جاي"
+
+msgid "Jaycee"
+msgstr "جايسي"
+
+msgid "Jaycees"
+msgstr "عضو في غرفة تجاريّة صغيرة"
+
+msgid "Jazz"
+msgstr "الجاز"
+
+msgid "Jazzier"
+msgstr "جازي"
+
+msgid "Jazziest"
+msgstr "الأزهى"
+
+msgid "Jazzily"
+msgstr "بنشاط"
+
+msgid "Jazziness"
+msgstr "الزهوْ"
+
+msgid "Jazzmen"
+msgstr "عازفو موسيقى الجاز"
+
+msgid "Jazzy"
+msgstr "جازي"
+
+msgid "Jealous"
+msgstr "غيور"
+
+msgid "Jealousies"
+msgstr "الغيرة"
+
+msgid "Jealously"
+msgstr "بغيرة"
+
+msgid "Jealousness"
+msgstr "الغيرة"
+
+msgid "Jealousy"
+msgstr "الغيرة"
+
+msgid "Jean"
+msgstr "جين"
+
+msgid "Jeanette"
+msgstr "جينيت"
+
+msgid "Jeanie"
+msgstr "جيني"
+
+msgid "Jeanne"
+msgstr "جين"
+
+msgid "Jeannie"
+msgstr "جيني"
+
+msgid "Jeans"
+msgstr "الجينز"
+
+msgid "Jed"
+msgstr "جد"
+
+msgid "Jeep"
+msgstr "السيارة الجيب"
+
+msgid "Jeepers"
+msgstr "تعبير عن الدّهشة أو الضّيق"
+
+msgid "Jeeps"
+msgstr "سيارات الجيب"
+
+msgid "Jeer"
+msgstr "السخرية"
+
+msgid "Jeered"
+msgstr "مستهزأ"
+
+msgid "Jeerer"
+msgstr "الساخر"
+
+msgid "Jeeringly"
+msgstr "باستهزاء"
+
+msgid "Jeers"
+msgstr "السخريات"
+
+msgid "Jeff"
+msgstr "جيف"
+
+msgid "Jefferson"
+msgstr "جيفيرسن"
+
+msgid "Jeffersonian"
+msgstr "متعلّق بـ توماس جيفرسون"
+
+msgid "Jeffersonians"
+msgstr "متعلّقون بـ توماس جيفرسون"
+
+msgid "Jeffrey"
+msgstr "جيفري"
+
+msgid "Jeffreys"
+msgstr "جيفريز - فلكي بريطاني"
+
+msgid "Jehovah"
+msgstr "اليهوه"
+
+msgid "Jejune"
+msgstr "ضحل"
+
+msgid "Jejunely"
+msgstr "بضحالة"
+
+msgid "Jejuneness"
+msgstr "الضجر"
+
+msgid "Jejunum"
+msgstr "جزء من ألأمعاء الدّقيقة بين الإثنا عشر و اللفيفي"
+
+msgid "Jellied"
+msgstr "أصبح هلاميًّا"
+
+msgid "Jellies"
+msgstr "الهلام"
+
+msgid "Jello"
+msgstr "جيلو"
+
+msgid "Jelly"
+msgstr "الهلام"
+
+msgid "Jellyfish"
+msgstr "قنديل البحر"
+
+msgid "Jellying"
+msgstr "يكون هلاميًّا"
+
+msgid "Jenkins"
+msgstr "جينكنز"
+
+msgid "Jennie"
+msgstr "جيني"
+
+msgid "Jennifer"
+msgstr "جينيفر"
+
+msgid "Jennings"
+msgstr "جينينجس"
+
+msgid "Jenny"
+msgstr "جيني"
+
+msgid "Jensen"
+msgstr "جينسين"
+
+msgid "Jeopard"
+msgstr "يعرّض للخطر"
+
+msgid "Jeopardies"
+msgstr "الأخطار"
+
+msgid "Jeopardize"
+msgstr "عرّض للخطر"
+
+msgid "Jeopardized"
+msgstr "عرّض للخطر"
+
+msgid "Jeopardizes"
+msgstr "يعرّض للخطر"
+
+msgid "Jeopardizing"
+msgstr "تعريض للخطر"
+
+msgid "Jeopardy"
+msgstr "الخطر"
+
+msgid "Jeremiah"
+msgstr "أرميا"
+
+msgid "Jeremy"
+msgstr "جيرمي"
+
+msgid "Jericho"
+msgstr "أريحا"
+
+msgid "Jerk"
+msgstr "الهزّة"
+
+msgid "Jerked"
+msgstr "مرجوج"
+
+msgid "Jerker"
+msgstr "الدّافع أو الساحب بقوة"
+
+msgid "Jerkier"
+msgstr "متقفّز"
+
+msgid "Jerkiest"
+msgstr "متقفّز"
+
+msgid "Jerkily"
+msgstr "بتقفّز"
+
+msgid "Jerkin"
+msgstr "جيركين"
+
+msgid "Jerkiness"
+msgstr "الاهتزاز"
+
+msgid "Jerking"
+msgstr "الرجيج"
+
+msgid "Jerks"
+msgstr "الهزّات"
+
+msgid "Jerky"
+msgstr "متقفّز"
+
+msgid "Jeroboam"
+msgstr "زجاجة الخمر"
+
+msgid "Jerome"
+msgstr "جيروم"
+
+msgid "Jerry"
+msgstr "جيري"
+
+msgid "Jersey"
+msgstr "جيرزي"
+
+msgid "Jerseys"
+msgstr "البلوزات"
+
+msgid "Jerusalem"
+msgstr "القدس"
+
+msgid "Jess"
+msgstr "قيد الباز"
+
+msgid "Jesse"
+msgstr "جيسي"
+
+msgid "Jessica"
+msgstr "جيسيكا"
+
+msgid "Jessie"
+msgstr "جيسي"
+
+msgid "Jessy"
+msgstr "جيسي"
+
+msgid "Jest"
+msgstr "الدعابة"
+
+msgid "Jested"
+msgstr "منكّت"
+
+msgid "Jester"
+msgstr "المهرّج"
+
+msgid "Jesters"
+msgstr "المهرجون"
+
+msgid "Jesting"
+msgstr "التنكيت"
+
+msgid "Jests"
+msgstr "الدعابات"
+
+msgid "Jesuit"
+msgstr "يسوعي"
+
+msgid "Jesuits"
+msgstr "اليسوعيون"
+
+msgid "Jesus"
+msgstr "السيد المسيح"
+
+msgid "Jet"
+msgstr "الطائرة"
+
+msgid "Jetblack"
+msgstr "أسود فاحم"
+
+msgid "Jetliner"
+msgstr "الطائرة النفّاثة"
+
+msgid "Jetliners"
+msgstr "الطائرات النفّاثة"
+
+msgid "Jets"
+msgstr "الطائرات"
+
+msgid "Jetted"
+msgstr "متدفّق"
+
+msgid "Jetties"
+msgstr "أرصفة الموانئ"
+
+msgid "Jetting"
+msgstr "التدفّق"
+
+msgid "Jettison"
+msgstr "إلقاء جزء من حمولة السفينة في البحر"
+
+msgid "Jettisoned"
+msgstr "مرمي"
+
+msgid "Jetty"
+msgstr "رصيف الميناء"
+
+msgid "Jew"
+msgstr "اليهودي"
+
+msgid "Jewel"
+msgstr "الجوهرة"
+
+msgid "Jeweled"
+msgstr "مرصّع بالجواهر"
+
+msgid "Jeweler"
+msgstr "الجواهري"
+
+msgid "Jewelers"
+msgstr "الجواهريون"
+
+msgid "Jeweling"
+msgstr "التزويد بالمجوهرات"
+
+msgid "Jewell"
+msgstr "جيول"
+
+msgid "Jewelled"
+msgstr "مرصّع بالجواهر"
+
+msgid "Jeweller"
+msgstr "صاحب محل المجوهرات"
+
+msgid "Jewellery"
+msgstr "المجوهرات"
+
+msgid "Jewelries"
+msgstr "الحليّ"
+
+msgid "Jewelry"
+msgstr "المجوهرات"
+
+msgid "Jewels"
+msgstr "الجواهر"
+
+msgid "Jewess"
+msgstr "اليهودية"
+
+msgid "Jewett"
+msgstr "جويت"
+
+msgid "Jewish"
+msgstr "يهودي"
+
+msgid "Jewishness"
+msgstr "اليهودية"
+
+msgid "Jews"
+msgstr "اليهود"
+
+msgid "Jezebels"
+msgstr "السّاقطات"
+
+msgid "Jib"
+msgstr "الذراع"
+
+msgid "Jibbing"
+msgstr "التأرجح"
+
+msgid "Jibe"
+msgstr "السخرية"
+
+msgid "Jibed"
+msgstr "ساخر من"
+
+msgid "Jibes"
+msgstr "السخريات"
+
+msgid "Jibing"
+msgstr "السخرية من"
+
+msgid "Jibs"
+msgstr "الأذرع"
+
+msgid "Jiffies"
+msgstr "اللحظات"
+
+msgid "Jiffy"
+msgstr "اللحظة"
+
+msgid "Jig"
+msgstr "الرقصة"
+
+msgid "Jigger"
+msgstr "الأداة"
+
+msgid "Jiggered"
+msgstr "مندهش"
+
+msgid "Jigging"
+msgstr "القفز"
+
+msgid "Jiggle"
+msgstr "هزهز"
+
+msgid "Jiggled"
+msgstr "مهزهز"
+
+msgid "Jiggles"
+msgstr "يهزهز"
+
+msgid "Jiggling"
+msgstr "الهزهزة"
+
+msgid "Jigs"
+msgstr "الرقص"
+
+msgid "Jigsaw"
+msgstr "منشار التخريم"
+
+msgid "Jihad"
+msgstr "المشقّة، الجهاد"
+
+msgid "Jill"
+msgstr "جيل"
+
+msgid "Jilt"
+msgstr "إهجر"
+
+msgid "Jilted"
+msgstr "مهجور"
+
+msgid "Jilter"
+msgstr "المتخلي عن محبوبته"
+
+msgid "Jilting"
+msgstr "الهجر"
+
+msgid "Jilts"
+msgstr "يهجر"
+
+msgid "Jim"
+msgstr "جيم"
+
+msgid "Jimenez"
+msgstr "جيمينيز"
+
+msgid "Jimmie"
+msgstr "جيمي"
+
+msgid "Jimmied"
+msgstr "فتح بعتلة"
+
+msgid "Jimmies"
+msgstr "جيميس"
+
+msgid "Jimmy"
+msgstr "جيمي"
+
+msgid "Jimmying"
+msgstr "الفتح بعتلة"
+
+msgid "Jingle"
+msgstr "الأغنية"
+
+msgid "Jingled"
+msgstr "مجلجل"
+
+msgid "Jingler"
+msgstr "جينجلير"
+
+msgid "Jingles"
+msgstr "الطنطنة"
+
+msgid "Jingling"
+msgstr "الجلجلة"
+
+msgid "Jingly"
+msgstr "جينجلي"
+
+msgid "Jingo"
+msgstr "العصبية القومية"
+
+msgid "Jingoistic"
+msgstr "قومي متطرّف"
+
+msgid "Jinny"
+msgstr "جيني"
+
+msgid "Jinx"
+msgstr "النحس"
+
+msgid "Jinxed"
+msgstr "جلب النحس عليه"
+
+msgid "Jinxes"
+msgstr "جالبو النّحس"
+
+msgid "Jinxing"
+msgstr "الجلب النحس على"
+
+msgid "Jitter"
+msgstr "نرفز"
+
+msgid "Jitterbug"
+msgstr "المولع بالرّقص"
+
+msgid "Jitterbugging"
+msgstr "رقص الجتربغ"
+
+msgid "Jittered"
+msgstr "منرفز"
+
+msgid "Jitteriness"
+msgstr "العصبيّة"
+
+msgid "Jittering"
+msgstr "النرفزة"
+
+msgid "Jitters"
+msgstr "الخوف"
+
+msgid "Jittery"
+msgstr "مذعور"
+
+msgid "Jive"
+msgstr "رقص الجاز"
+
+msgid "Jived"
+msgstr "راقص"
+
+msgid "Jives"
+msgstr "يرقص"
+
+msgid "Jiving"
+msgstr "الرقص"
+
+msgid "Jo"
+msgstr "جو"
+
+msgid "Joan"
+msgstr "جوان"
+
+msgid "Joanna"
+msgstr "جوانا"
+
+msgid "Joanne"
+msgstr "جوان"
+
+msgid "Joannes"
+msgstr "جوانز"
+
+msgid "Joaquin"
+msgstr "جوكين"
+
+msgid "Job"
+msgstr "الشغل"
+
+msgid "Job-oriented"
+msgstr "موجه شغل"
+
+msgid "Job-related"
+msgstr "ذو علاقة بشغل"
+
+msgid "Job-work"
+msgstr "العمل بالمقاولة"
+
+msgid "Jobber"
+msgstr "تاجر الجملة"
+
+msgid "Jobbers"
+msgstr "تجار الجملة"
+
+msgid "Jobbery"
+msgstr "إستغلال الوظيفة"
+
+msgid "Jobbing"
+msgstr "جوبينج"
+
+msgid "Jobholder"
+msgstr "الموظّف"
+
+msgid "Jobholders"
+msgstr "الموظّفون"
+
+msgid "Jobless"
+msgstr "عاطل"
+
+msgid "Joblessness"
+msgstr "البطالة"
+
+msgid "Jobs"
+msgstr "الوظائف"
+
+msgid "Jock"
+msgstr "جوك"
+
+msgid "Jockey"
+msgstr "الفارس"
+
+msgid "Jockeyed"
+msgstr "تسابق"
+
+msgid "Jockeying"
+msgstr "التسابق"
+
+msgid "Jockeys"
+msgstr "الفرسان"
+
+msgid "Jocks"
+msgstr "لاعبو الاسطوانات"
+
+msgid "Jockstrap"
+msgstr "حزام الوقاية"
+
+msgid "Jockstraps"
+msgstr "أحزمة الوقاية"
+
+msgid "Jocose"
+msgstr "مازح"
+
+msgid "Jocosely"
+msgstr "بشكل مازح"
+
+msgid "Jocoseness"
+msgstr "الهزل"
+
+msgid "Jocular"
+msgstr "هزلي"
+
+msgid "Jocularity"
+msgstr "الهزل"
+
+msgid "Jocularly"
+msgstr "محبا للهزل"
+
+msgid "Jocund"
+msgstr "مازح"
+
+msgid "Jocundity"
+msgstr "المزح"
+
+msgid "Jocundly"
+msgstr "بشكل مازح"
+
+msgid "Jodhpurs"
+msgstr "بنطلون الركوب"
+
+msgid "Jodi"
+msgstr "جودي"
+
+msgid "Jody"
+msgstr "جودي"
+
+msgid "Joe"
+msgstr "جو"
+
+msgid "Joel"
+msgstr "يوئيل"
+
+msgid "Joes"
+msgstr "الأحبة"
+
+msgid "Joey"
+msgstr "جوي"
+
+msgid "Jog"
+msgstr "هرول"
+
+msgid "Jogged"
+msgstr "مهرول"
+
+msgid "Jogging"
+msgstr "الهرولة"
+
+msgid "Joggle"
+msgstr "إرتجّ"
+
+msgid "Joggled"
+msgstr "مهزوز"
+
+msgid "Joggler"
+msgstr "من يمشي مشية مهتزّة"
+
+msgid "Joggles"
+msgstr "يرتجّ"
+
+msgid "Joggling"
+msgstr "الهزّ"
+
+msgid "Jogs"
+msgstr "يهرول"
+
+msgid "Johann"
+msgstr "يوهان"
+
+msgid "Johannes"
+msgstr "يوهانز"
+
+msgid "Johannesburg"
+msgstr "جوهانسبيرغ"
+
+msgid "Johansen"
+msgstr "جوهانسين"
+
+msgid "Johanson"
+msgstr "جوهانسون"
+
+msgid "John"
+msgstr "جون"
+
+msgid "Johnnie"
+msgstr "جوني"
+
+msgid "Johnny"
+msgstr "جوني"
+
+msgid "Johns"
+msgstr "جونس"
+
+msgid "Johnsen"
+msgstr "جونسين"
+
+msgid "Johnson"
+msgstr "جونسن"
+
+msgid "Johnston"
+msgstr "جونستون"
+
+msgid "Johnstown"
+msgstr "جونستاون"
+
+msgid "Joice"
+msgstr "جويس"
+
+msgid "Join"
+msgstr "الموصّل"
+
+msgid "Joined"
+msgstr "إنضمّ"
+
+msgid "Joiner"
+msgstr "النجار"
+
+msgid "Joineries"
+msgstr "النّجارة"
+
+msgid "Joiners"
+msgstr "النجارون"
+
+msgid "Joinery"
+msgstr "النجارة"
+
+msgid "Joining"
+msgstr "الإنضمام"
+
+msgid "Joins"
+msgstr "الموصّلات"
+
+msgid "Joint"
+msgstr "المفصل"
+
+msgid "Jointed"
+msgstr "مربوط"
+
+msgid "Jointedly"
+msgstr "بتمفصل"
+
+msgid "Jointer"
+msgstr "مشترك"
+
+msgid "Jointing"
+msgstr "الربط"
+
+msgid "Jointly"
+msgstr "معا"
+
+msgid "Joints"
+msgstr "المفاصل"
+
+msgid "Joist"
+msgstr "العارضة"
+
+msgid "Joke"
+msgstr "النكتة"
+
+msgid "Joked"
+msgstr "منكّت"
+
+msgid "Joker"
+msgstr "النكّات"
+
+msgid "Jokers"
+msgstr "النكّاتون"
+
+msgid "Jokes"
+msgstr "النكات"
+
+msgid "Joking"
+msgstr "التنكيت"
+
+msgid "Jokingly"
+msgstr "بسخرية"
+
+msgid "Joky"
+msgstr "فكاهيّ"
+
+msgid "Joliet"
+msgstr "جوليت"
+
+msgid "Jolla"
+msgstr "جولا"
+
+msgid "Jollied"
+msgstr "شارك بالمزاح الطّيّب"
+
+msgid "Jollier"
+msgstr "مرح"
+
+msgid "Jollies"
+msgstr "جوليس"
+
+msgid "Jolliest"
+msgstr "مرح"
+
+msgid "Jollities"
+msgstr "البهجة"
+
+msgid "Jollity"
+msgstr "البهجة"
+
+msgid "Jolly"
+msgstr "مرح"
+
+msgid "Jollying"
+msgstr "المشاركة بالمزاح الطّيب"
+
+msgid "Jolt"
+msgstr "الهزّة :: الصّدمة :: يصدم"
+
+msgid "Jolted"
+msgstr "مرجوج"
+
+msgid "Jolter"
+msgstr "الصّاعق"
+
+msgid "Jolting"
+msgstr "الرجيج"
+
+msgid "Jolts"
+msgstr "الهزات"
+
+msgid "Jon"
+msgstr "جون"
+
+msgid "Jonas"
+msgstr "يونس"
+
+msgid "Jonathan"
+msgstr "جوناثان"
+
+msgid "Jones"
+msgstr "جونز"
+
+msgid "Joneses"
+msgstr "الجيران، البيوت المجاورة"
+
+msgid "Jonquil"
+msgstr "النرجس"
+
+msgid "Jonquils"
+msgstr "زهور النرجس"
+
+msgid "Joplin"
+msgstr "جوبلين"
+
+msgid "Jordan"
+msgstr "الأردن"
+
+msgid "Jorge"
+msgstr "جورج"
+
+msgid "Jorgensen"
+msgstr "جورجينسين"
+
+msgid "Jorgenson"
+msgstr "جورجينسون"
+
+msgid "Jose"
+msgstr "خوزيه"
+
+msgid "Josef"
+msgstr "جوزيف"
+
+msgid "Joseph"
+msgstr "يوسف"
+
+msgid "Josephine"
+msgstr "جوزيفين"
+
+msgid "Josephson"
+msgstr "جوزيفسون"
+
+msgid "Josephus"
+msgstr "جوزيفوس"
+
+msgid "Josh"
+msgstr "جوش"
+
+msgid "Joshed"
+msgstr "ساخر من"
+
+msgid "Josher"
+msgstr "المازح"
+
+msgid "Joshes"
+msgstr "يسخر منه"
+
+msgid "Joshing"
+msgstr "السخرية من"
+
+msgid "Joshua"
+msgstr "يوشع"
+
+msgid "Josiah"
+msgstr "جوشيا"
+
+msgid "Joss"
+msgstr "جوس"
+
+msgid "Jostle"
+msgstr "الزحمة"
+
+msgid "Jostled"
+msgstr "متدافع"
+
+msgid "Jostles"
+msgstr "يتدافع"
+
+msgid "Jostling"
+msgstr "التدافع"
+
+msgid "Jot"
+msgstr "الذرّة"
+
+msgid "Jots"
+msgstr "الذرّات"
+
+msgid "Jotted"
+msgstr "مخربش"
+
+msgid "Jotting"
+msgstr "الخربشة"
+
+msgid "Joule"
+msgstr "الجول"
+
+msgid "Jounce"
+msgstr "هزّ"
+
+msgid "Jounced"
+msgstr "مهتزّ"
+
+msgid "Jounces"
+msgstr "يهتزّ"
+
+msgid "Jouncing"
+msgstr "الهزّ"
+
+msgid "Journal"
+msgstr "المجلّة"
+
+msgid "Journalese"
+msgstr "لغة الجرائد"
+
+msgid "Journaleses"
+msgstr "لغات الجرائد"
+
+msgid "Journaling"
+msgstr "الصّحافة"
+
+msgid "Journalism"
+msgstr "الصحافة"
+
+msgid "Journalist"
+msgstr "الصحفي"
+
+msgid "Journalistic"
+msgstr "صحفي"
+
+msgid "Journalistically"
+msgstr "صحفيا"
+
+msgid "Journalists"
+msgstr "الصحفيون"
+
+msgid "Journalize"
+msgstr "يدوّن"
+
+msgid "Journalized"
+msgstr "دوّن"
+
+msgid "Journalizer"
+msgstr "المدوّن"
+
+msgid "Journalizers"
+msgstr "المدونون"
+
+msgid "Journalizes"
+msgstr "يدوّن"
+
+msgid "Journalizing"
+msgstr "التدوين"
+
+msgid "Journals"
+msgstr "المجلات"
+
+msgid "Journey"
+msgstr "الرحلة"
+
+msgid "Journeyed"
+msgstr "مسافر"
+
+msgid "Journeying"
+msgstr "السفر"
+
+msgid "Journeyman"
+msgstr "الصانع الماهر"
+
+msgid "Journeymen"
+msgstr "الصنّاع المهرة"
+
+msgid "Journeys"
+msgstr "الرحلات"
+
+msgid "Joust"
+msgstr "المبارزة"
+
+msgid "Jousted"
+msgstr "متبارز"
+
+msgid "Jouster"
+msgstr "المصارع"
+
+msgid "Jousting"
+msgstr "التبارز"
+
+msgid "Jousts"
+msgstr "يتبارز"
+
+msgid "Jovanovich"
+msgstr "جوفانوفيتش"
+
+msgid "Jove"
+msgstr "المشتري"
+
+msgid "Jovial"
+msgstr "بشوش"
+
+msgid "Joviality"
+msgstr "البشاشة"
+
+msgid "Jovially"
+msgstr "بشكل بشوش"
+
+msgid "Jovialness"
+msgstr "الودّ"
+
+msgid "Jovian"
+msgstr "متعلق بكوكب المشتري"
+
+msgid "Jowl"
+msgstr "اللّغد"
+
+msgid "Jowls"
+msgstr "الألغاد"
+
+msgid "Jowly"
+msgstr "بألغاد ثقيلة أو مرتخية"
+
+msgid "Joy"
+msgstr "البهجة"
+
+msgid "Joy-stick"
+msgstr "المقود"
+
+msgid "Joyce"
+msgstr "جويس"
+
+msgid "Joyful"
+msgstr "بهيج"
+
+msgid "Joyfully"
+msgstr "مبتهجا"
+
+msgid "Joyfulness"
+msgstr "الفرح"
+
+msgid "Joyless"
+msgstr "مغموم"
+
+msgid "Joylessly"
+msgstr "باكتئاب"
+
+msgid "Joylessness"
+msgstr "الكآبة"
+
+msgid "Joyous"
+msgstr "سعيد"
+
+msgid "Joyously"
+msgstr "بسعادة"
+
+msgid "Joyousness"
+msgstr "البهجة"
+
+msgid "Joyride"
+msgstr "سياقة المتعة"
+
+msgid "Joyrider"
+msgstr "السائق من أجل المتعة"
+
+msgid "Joyriding"
+msgstr "القيادة من أجل المتعة"
+
+msgid "Joys"
+msgstr "البهجة"
+
+msgid "Joystick"
+msgstr "المقود"
+
+msgid "Joysticks"
+msgstr "المقود"
+
+msgid "JPop"
+msgstr "جي بوب"
+
+msgid "Jr"
+msgstr "الإبن"
+
+msgid "Juan"
+msgstr "خوان"
+
+msgid "Juanita"
+msgstr "خوانيتا"
+
+msgid "Jubal"
+msgstr "جبال - حفيد كين. سفر البداية"
+
+msgid "Jubilance"
+msgstr "الابتهاج"
+
+msgid "Jubilant"
+msgstr "مبتهج"
+
+msgid "Jubilantly"
+msgstr "بابتهاج"
+
+msgid "Jubilate"
+msgstr "إحتفل"
+
+msgid "Jubilated"
+msgstr "مبتهج"
+
+msgid "Jubilates"
+msgstr "يبتهج"
+
+msgid "Jubilating"
+msgstr "الإبتهاج"
+
+msgid "Jubilation"
+msgstr "الإبتهاج"
+
+msgid "Jubilations"
+msgstr "الإبتهاج"
+
+msgid "Jubilee"
+msgstr "اليوبيل"
+
+msgid "Judaism"
+msgstr "اليهودية"
+
+msgid "Judas"
+msgstr "يهوذا"
+
+msgid "Judd"
+msgstr "جود"
+
+msgid "Jude"
+msgstr "جود"
+
+msgid "Judea"
+msgstr "يهودا"
+
+msgid "Judge"
+msgstr "القاضي"
+
+msgid "Judged"
+msgstr "محكوم"
+
+msgid "Judgement"
+msgstr "القرار"
+
+msgid "Judgements"
+msgstr "الأحكام"
+
+msgid "Judger"
+msgstr "القاضي"
+
+msgid "Judges"
+msgstr "القضاة"
+
+msgid "Judgeship"
+msgstr "القضاء"
+
+msgid "Judgeships"
+msgstr "القضاء"
+
+msgid "Judging"
+msgstr "الحكم"
+
+msgid "Judgment"
+msgstr "الحكم"
+
+msgid "Judgmental"
+msgstr "حكمي"
+
+msgid "Judgments"
+msgstr "الأحكام"
+
+msgid "Judicable"
+msgstr "قابل للمحاكمة"
+
+msgid "Judicatory"
+msgstr "قضائيّ"
+
+msgid "Judicature"
+msgstr "حكم القضاء"
+
+msgid "Judicatures"
+msgstr "أحكام القضاء"
+
+msgid "Judicial"
+msgstr "قضائي"
+
+msgid "Judicially"
+msgstr "قضائيا"
+
+msgid "Judiciaries"
+msgstr "سلطات القضائية"
+
+msgid "Judiciary"
+msgstr "سلطة القضائية"
+
+msgid "Judicious"
+msgstr "متعقّل"
+
+msgid "Judiciously"
+msgstr "بتعقّل"
+
+msgid "Judiciousness"
+msgstr "الحُكم الصّواب"
+
+msgid "Judith"
+msgstr "جوديث"
+
+msgid "Judo"
+msgstr "الجودو"
+
+msgid "Judson"
+msgstr "جودسون"
+
+msgid "Judy"
+msgstr "جودي"
+
+msgid "Jug"
+msgstr "الدورق"
+
+msgid "Jugate"
+msgstr "زوجيّ"
+
+msgid "Juggernaut"
+msgstr "الطاغوت"
+
+msgid "Jugging"
+msgstr "الطّبخ في أواني فخارية"
+
+msgid "Juggle"
+msgstr "إقذف"
+
+msgid "Juggled"
+msgstr "مقذوف"
+
+msgid "Juggler"
+msgstr "المشعوذ"
+
+msgid "Juggleries"
+msgstr "الخِدع"
+
+msgid "Jugglers"
+msgstr "المشعوذون"
+
+msgid "Jugglery"
+msgstr "الخديعة"
+
+msgid "Juggles"
+msgstr "يقذف"
+
+msgid "Juggling"
+msgstr "القذف"
+
+msgid "Jugoslavia"
+msgstr "جوجوسلافيا"
+
+msgid "Jugs"
+msgstr "الدوارق"
+
+msgid "Jugular"
+msgstr "الوداجي"
+
+msgid "Juice"
+msgstr "العصير"
+
+msgid "Juiced"
+msgstr "عصَرَ"
+
+msgid "Juicer"
+msgstr "صانع العصير"
+
+msgid "Juicers"
+msgstr "صنّاع العصير"
+
+msgid "Juices"
+msgstr "العصائر"
+
+msgid "Juicier"
+msgstr "أكثر عصيرا"
+
+msgid "Juiciest"
+msgstr "أكثر عصيرا"
+
+msgid "Juicily"
+msgstr "بطريقة ممتعة"
+
+msgid "Juiciness"
+msgstr "العصيرية"
+
+msgid "Juicing"
+msgstr "عصر العصير"
+
+msgid "Juicy"
+msgstr "كثير العصير"
+
+msgid "Juju"
+msgstr "السحر"
+
+msgid "Jujube"
+msgstr "المستحلب - نبات"
+
+msgid "Juke"
+msgstr "الحانة الريفية"
+
+msgid "Jukebox"
+msgstr "الصندوق الموسيقي"
+
+msgid "Jukes"
+msgstr "الحانات الريفية"
+
+msgid "Juking"
+msgstr "الرّقص في الحانة"
+
+msgid "Jul"
+msgstr "يوليو/تموز"
+
+msgid "Julep"
+msgstr "الجلاب"
+
+msgid "Juleps"
+msgstr "الجلاب"
+
+msgid "Jules"
+msgstr "جولز"
+
+msgid "Julia"
+msgstr "جوليا"
+
+msgid "Julian"
+msgstr "جوليان"
+
+msgid "Julie"
+msgstr "جولي"
+
+msgid "Julies"
+msgstr "جوليس"
+
+msgid "Juliet"
+msgstr "جوليت"
+
+msgid "Julio"
+msgstr "جوليو"
+
+msgid "Julius"
+msgstr "جوليوس"
+
+msgid "July"
+msgstr "يوليو/تموز"
+
+msgid "Julys"
+msgstr "أشهر يوليو/تموز"
+
+msgid "Jumble"
+msgstr "الخليط"
+
+msgid "Jumbled"
+msgstr "مخلوط"
+
+msgid "Jumbles"
+msgstr "المزيج"
+
+msgid "Jumbling"
+msgstr "الخلط"
+
+msgid "Jumbo"
+msgstr "طائرة الجمبو"
+
+msgid "Jumbos"
+msgstr "طائرات الجمبو"
+
+msgid "Jump"
+msgstr "القفزة"
+
+msgid "Jumped"
+msgstr "قفز"
+
+msgid "Jumper"
+msgstr "البلوز"
+
+msgid "Jumpers"
+msgstr "البلوزات"
+
+msgid "Jumpier"
+msgstr "قفّاز"
+
+msgid "Jumpiest"
+msgstr "قفّاز"
+
+msgid "Jumpily"
+msgstr "بشكل عصبي"
+
+msgid "Jumpiness"
+msgstr "التّوتّر"
+
+msgid "Jumping"
+msgstr "القفز"
+
+msgid "Jumpings"
+msgstr "القفز"
+
+msgid "Jumps"
+msgstr "القفزات"
+
+msgid "Jumpy"
+msgstr "قفّاز"
+
+msgid "Jun"
+msgstr "يونيو/حزيران"
+
+msgid "Junco"
+msgstr "الجنك - طائر"
+
+msgid "Junction"
+msgstr "المفرق"
+
+msgid "Junctions"
+msgstr "المفارق"
+
+msgid "Juncture"
+msgstr "نقطة الإتصال"
+
+msgid "Junctures"
+msgstr "نقاط الإتصال"
+
+msgid "June"
+msgstr "يونيو/حزيران"
+
+msgid "Juneau"
+msgstr "جانيو"
+
+msgid "Junes"
+msgstr "أشهر يونيو/حزيران"
+
+msgid "Jung"
+msgstr "جانج"
+
+msgid "Jungian"
+msgstr "متعلّق بـ جانج أو نظريّاته للسيكولوجيا"
+
+msgid "Jungle"
+msgstr "الغابة"
+
+msgid "Jungled"
+msgstr "مليئة بالأشجار"
+
+msgid "Jungles"
+msgstr "الغابات"
+
+msgid "Junior"
+msgstr "أصغر"
+
+msgid "Juniors"
+msgstr "الصّغار"
+
+msgid "Juniper"
+msgstr "العرعر - نبات"
+
+msgid "Junk"
+msgstr "الزبالة"
+
+msgid "Junk-shop"
+msgstr "محل بيع الخردوات"
+
+msgid "Junked"
+msgstr "ألغى"
+
+msgid "Junker"
+msgstr "اليونكر - عضو في الطّبقة الأرستقراطيّة من بروسيا"
+
+msgid "Junkerdom"
+msgstr "حياة الأرستقراطية البروسية"
+
+msgid "Junkers"
+msgstr "يونكرز - مصمّم طائرة و صانعها وسميت الطائرة على إسمه"
+
+msgid "Junket"
+msgstr "الحلوى"
+
+msgid "Junketed"
+msgstr "أقام وليمة"
+
+msgid "Junketeer"
+msgstr "ضيف الوليمة"
+
+msgid "Junketeering"
+msgstr "الذهاب الى الوليمة كضيف"
+
+msgid "Junketer"
+msgstr "مقيم الوليمة"
+
+msgid "Junketing"
+msgstr "الإحتفال"
+
+msgid "Junkets"
+msgstr "الحلويات"
+
+msgid "Junkie"
+msgstr "الحشّاش"
+
+msgid "Junkies"
+msgstr "الحشّاشون"
+
+msgid "Junking"
+msgstr "الإلغاء"
+
+msgid "Junks"
+msgstr "السفن الشراعية"
+
+msgid "Junky"
+msgstr "المدمن"
+
+msgid "Juno"
+msgstr "جونو"
+
+msgid "Junta"
+msgstr "الزمرة"
+
+msgid "Junto"
+msgstr "الزمرة"
+
+msgid "Jupiter"
+msgstr "المشتري"
+
+msgid "Jura"
+msgstr "العصر الجوراسي"
+
+msgid "Jurassic"
+msgstr "جوراسيّ"
+
+msgid "Jure"
+msgstr "جور "
+
+msgid "Juridic"
+msgstr "قضائي"
+
+msgid "Juridical"
+msgstr "قضائي"
+
+msgid "Juridically"
+msgstr "بشكل قضائي"
+
+msgid "Juries"
+msgstr "هيئات المحلفين"
+
+msgid "Jurisdiction"
+msgstr "السلطة القضائية"
+
+msgid "Jurisdictional"
+msgstr "قضائيّ"
+
+msgid "Jurisdictionally"
+msgstr "بصورة قضائية"
+
+msgid "Jurisdictions"
+msgstr "السلطات القضائية"
+
+msgid "Jurisprudence"
+msgstr "علم التشريع"
+
+msgid "Jurisprudent"
+msgstr "المحامي"
+
+msgid "Jurisprudential"
+msgstr "فقهي"
+
+msgid "Jurisprudentially"
+msgstr "بشكل فقهي"
+
+msgid "Jurist"
+msgstr "الخبير القانوني"
+
+msgid "Juristic"
+msgstr "فقهي"
+
+msgid "Jurists"
+msgstr "الخبراء القانونيون"
+
+msgid "Juror"
+msgstr "المحلّف"
+
+msgid "Jurors"
+msgstr "المحلّفون"
+
+msgid "Jury"
+msgstr "هيئة المحلفين"
+
+msgid "Juryman"
+msgstr "المحلّف"
+
+msgid "Jurymen"
+msgstr "المحلفون"
+
+msgid "Just"
+msgstr "فقط"
+
+msgid "Juster"
+msgstr "جستر"
+
+msgid "Justice"
+msgstr "القاضي"
+
+msgid "Justices"
+msgstr "القضاة"
+
+msgid "Justiciable"
+msgstr "قابل للفصل"
+
+msgid "Justifiable"
+msgstr "مبرّر"
+
+msgid "Justifiably"
+msgstr "بشكل قابل للتبرير"
+
+msgid "Justification"
+msgstr "التبرير"
+
+msgid "Justifications"
+msgstr "التبريرات"
+
+msgid "Justified"
+msgstr "مبرّر"
+
+msgid "Justifier"
+msgstr "المبرّر"
+
+msgid "Justifiers"
+msgstr "المبرّرات"
+
+msgid "Justifies"
+msgstr "يبرّر"
+
+msgid "Justify"
+msgstr "برّر"
+
+msgid "Justifying"
+msgstr "التبرير"
+
+msgid "Justine"
+msgstr "جستين"
+
+msgid "Justing"
+msgstr "المشاركة بصراع شخصي"
+
+msgid "Justinian"
+msgstr "جستينايان - متّعلّق بمعاهد أو قوانين الرومان"
+
+msgid "Justly"
+msgstr "بعدل"
+
+msgid "Justness"
+msgstr "العدالة"
+
+msgid "Jut"
+msgstr "البروز"
+
+msgid "Jute"
+msgstr "نبات الجوت"
+
+msgid "Jutes"
+msgstr "نباتات الجوت"
+
+msgid "Jutish"
+msgstr "تقريبا بروز"
+
+msgid "Juts"
+msgstr "البروزات"
+
+msgid "Jutted"
+msgstr "برز"
+
+msgid "Jutting"
+msgstr "البروز"
+
+msgid "Juvenile"
+msgstr "الحدث"
+
+msgid "Juvenilely"
+msgstr "بشكل حدث"
+
+msgid "Juvenileness"
+msgstr "الحداثة"
+
+msgid "Juveniles"
+msgstr "الأحداث"
+
+msgid "Juxtapose"
+msgstr "صفّف"
+
+msgid "Juxtaposed"
+msgstr "مصفّف"
+
+msgid "Juxtaposes"
+msgstr "يصفّف"
+
+msgid "Juxtaposing"
+msgstr "التصفيف"
+
+msgid "Juxtaposition"
+msgstr "التراصف"
+

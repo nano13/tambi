@@ -1,0 +1,7442 @@
+# translation of full_wordlist_G.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_G.po,v 1.30 2004/02/13 23:39:44 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'G'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_G\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"PO-Revision-Date: 2004-02-10 23:08+0300\n"
+
+msgid "G"
+msgstr "جي - الحرف السابع في اللغة الإنجليزية"
+
+msgid "GA"
+msgstr "ولاية جورجيا"
+
+msgid "GPS"
+msgstr "نظام تحديد المواقع عالميا"
+
+msgid "Gab"
+msgstr "الثرثرة"
+
+msgid "Gabardine"
+msgstr "الكبردين"
+
+msgid "Gabardines"
+msgstr "الكبردين"
+
+msgid "Gabbed"
+msgstr "تحدث ببطىء"
+
+msgid "Gabber"
+msgstr "المهذار"
+
+msgid "Gabbers"
+msgstr "المهذارون"
+
+msgid "Gabbier"
+msgstr "أكثر ثرثرة"
+
+msgid "Gabbiest"
+msgstr "الأكثر ثرثرة"
+
+msgid "Gabbiness"
+msgstr "الثرثرة"
+
+msgid "Gabbing"
+msgstr "يتكلم ببطىء"
+
+msgid "Gabble"
+msgstr "الثرثرة"
+
+msgid "Gabbled"
+msgstr "مثرثر"
+
+msgid "Gabbler"
+msgstr "الثرثار"
+
+msgid "Gabbles"
+msgstr "الهذرمات"
+
+msgid "Gabbling"
+msgstr "الثرثرة"
+
+msgid "Gabbro"
+msgstr "غابرو"
+
+msgid "Gabby"
+msgstr "غابي"
+
+msgid "Gable"
+msgstr "الجملون"
+
+msgid "Gabled"
+msgstr "جملوني"
+
+msgid "Gabler"
+msgstr "جابلر"
+
+msgid "Gables"
+msgstr "الجملونات"
+
+msgid "Gabon"
+msgstr "غابون"
+
+msgid "Gabriel"
+msgstr "غابريل"
+
+msgid "Gabrielle"
+msgstr "غابريل"
+
+msgid "Gabs"
+msgstr "الثرثرة"
+
+msgid "Gad"
+msgstr "الإزميل"
+
+msgid "Gadded"
+msgstr "مهيم"
+
+msgid "Gadding"
+msgstr "الهيام"
+
+msgid "Gadflies"
+msgstr "ذباب الخيل"
+
+msgid "Gadfly"
+msgstr "ذبابة الخيل"
+
+msgid "Gadget"
+msgstr "الأداة"
+
+msgid "Gadgetry"
+msgstr "الأدوات"
+
+msgid "Gadgets"
+msgstr "الأدوات"
+
+msgid "Gadolinium"
+msgstr "الجادولينيوم"
+
+msgid "Gads"
+msgstr "الأزاميل"
+
+msgid "Gadwall"
+msgstr "جادوال (نوع من البط)"
+
+msgid "Gaelic"
+msgstr "اللغة الغيلية"
+
+msgid "Gaff"
+msgstr "الخطاف الحديدي"
+
+msgid "Gaffe"
+msgstr "الغلطة"
+
+msgid "Gaffer"
+msgstr "المسنّ"
+
+msgid "Gaffes"
+msgstr "الغلطات"
+
+msgid "Gaffs"
+msgstr "الخطافات"
+
+msgid "Gag"
+msgstr "الكمامة"
+
+msgid "Gaga"
+msgstr "أحمق"
+
+msgid "Gage"
+msgstr "المقياس"
+
+msgid "Gaged"
+msgstr "مودع"
+
+msgid "Gager"
+msgstr "الكيّال"
+
+msgid "Gages"
+msgstr "العربونات"
+
+msgid "Gagged"
+msgstr "مسكت"
+
+msgid "Gagging"
+msgstr "الإسكات"
+
+msgid "Gaggle"
+msgstr "القطيع"
+
+msgid "Gaggles"
+msgstr "القطعان"
+
+msgid "Gaging"
+msgstr "الإيداع"
+
+msgid "Gags"
+msgstr "الكمامات"
+
+msgid "Gagwriter"
+msgstr "الكاتب الكوميدي"
+
+msgid "Gaieties"
+msgstr "المسرّات"
+
+msgid "Gaiety"
+msgstr "المرح"
+
+msgid "Gail"
+msgstr "غايل"
+
+msgid "Gaillardia"
+msgstr "نبات النّاعورة"
+
+msgid "Gaily"
+msgstr "بشكل مرح"
+
+msgid "Gain"
+msgstr "المكسب"
+
+msgid "Gained"
+msgstr "مكسوب"
+
+msgid "Gainer"
+msgstr "الرابح"
+
+msgid "Gainers"
+msgstr "الرابحون"
+
+msgid "Gaines"
+msgstr "جاينز"
+
+msgid "Gainesville"
+msgstr "غاينيسفيل"
+
+msgid "Gainful"
+msgstr "مربح"
+
+msgid "Gainfully"
+msgstr "مربحا"
+
+msgid "Gainfulness"
+msgstr "الزيادة"
+
+msgid "Gaining"
+msgstr "الكسب"
+
+msgid "Gainings"
+msgstr "المكاسب"
+
+msgid "Gainly"
+msgstr "مناسب"
+
+msgid "Gains"
+msgstr "المكاسب"
+
+msgid "Gainsaid"
+msgstr "أنكر"
+
+msgid "Gainsay"
+msgstr "التناقض"
+
+msgid "Gainsayer"
+msgstr "الناكر"
+
+msgid "Gainsaying"
+msgstr "النكران"
+
+msgid "Gainsays"
+msgstr "التناقضات"
+
+msgid "Gait"
+msgstr "المشية"
+
+msgid "Gaited"
+msgstr "ذو مشية خاصّة"
+
+msgid "Gaiter"
+msgstr "الجرموق"
+
+msgid "Gaiters"
+msgstr "الجراميق"
+
+msgid "Gaithersburg"
+msgstr "غايثرسبيرغ"
+
+msgid "Gaits"
+msgstr "المشيات"
+
+msgid "Gal"
+msgstr "غال"
+
+msgid "Gala"
+msgstr "الإحتفال"
+
+msgid "Galactic"
+msgstr "مجرّي"
+
+msgid "Galactose"
+msgstr "سكّر اللّبن"
+
+msgid "Galahad"
+msgstr "جالاهاد"
+
+msgid "Galanty"
+msgstr "مسرحيّة الظّلّ"
+
+msgid "Galapagos"
+msgstr "جزر الجالاباجوس"
+
+msgid "Galatea"
+msgstr "قطن معمّر"
+
+msgid "Galatia"
+msgstr "جالاتيا"
+
+msgid "Galaxies"
+msgstr "المجرات"
+
+msgid "Galaxy"
+msgstr "المجرة"
+
+msgid "Galbreath"
+msgstr "جالبريث"
+
+msgid "Gale"
+msgstr "العاصفة"
+
+msgid "Galen"
+msgstr "جالينوس"
+
+msgid "Galena"
+msgstr "غالينا"
+
+msgid "Galenite"
+msgstr "جالينايت (معدن)"
+
+msgid "Gales"
+msgstr "العواصف"
+
+msgid "Galilee"
+msgstr "الجليل"
+
+msgid "Gall"
+msgstr "الصفراء"
+
+msgid "Gallagher"
+msgstr "غالاغير"
+
+msgid "Gallant"
+msgstr "الشهم"
+
+msgid "Gallantly"
+msgstr "بشكل أنيق"
+
+msgid "Gallantry"
+msgstr "الكياسة"
+
+msgid "Gallants"
+msgstr "الشهم"
+
+msgid "Gallberry"
+msgstr "جالبيري (شجرة)"
+
+msgid "Gallbladder"
+msgstr "المرارة"
+
+msgid "Galled"
+msgstr "مبلى"
+
+msgid "Galleried"
+msgstr "عَرَضَ"
+
+msgid "Galleries"
+msgstr "المعارض"
+
+msgid "Gallery"
+msgstr "المعرض"
+
+msgid "Galley"
+msgstr "السفينة"
+
+msgid "Galley-proof"
+msgstr "التجربة اللوحية"
+
+msgid "Galleys"
+msgstr "السفن"
+
+msgid "Galling"
+msgstr "الإبلاء"
+
+msgid "Gallingly"
+msgstr "بإزعاج"
+
+msgid "Gallinule"
+msgstr "السحنون"
+
+msgid "Gallium"
+msgstr "الجاليوم (معدن)"
+
+msgid "Gallivant"
+msgstr "تسكّع"
+
+msgid "Gallivanted"
+msgstr "متسكّع"
+
+msgid "Gallivanting"
+msgstr "التسكّع"
+
+msgid "Gallivants"
+msgstr "يتسكّع"
+
+msgid "Gallon"
+msgstr "الغالون"
+
+msgid "Gallonage"
+msgstr "الكميّة بالجالون"
+
+msgid "Gallons"
+msgstr "الغالونات"
+
+msgid "Gallop"
+msgstr "الركض"
+
+msgid "Galloped"
+msgstr "مجري"
+
+msgid "Galloper"
+msgstr "العدّاء"
+
+msgid "Gallopers"
+msgstr "العدّائون"
+
+msgid "Galloping"
+msgstr "الجري"
+
+msgid "Gallops"
+msgstr "الركض"
+
+msgid "Galloway"
+msgstr "غالواي"
+
+msgid "Gallows"
+msgstr "المشنقة"
+
+msgid "Gallowses"
+msgstr "المشانق"
+
+msgid "Galls"
+msgstr "الصفراوات"
+
+msgid "Gallstone"
+msgstr "الحصوة"
+
+msgid "Gallstones"
+msgstr "الحصاة"
+
+msgid "Gallup"
+msgstr "جالب"
+
+msgid "Gallus"
+msgstr "المشنقة"
+
+msgid "Galois"
+msgstr "جالويس"
+
+msgid "Galore"
+msgstr "الوفرة"
+
+msgid "Galosh"
+msgstr "الكالوش"
+
+msgid "Galoshes"
+msgstr "الكالوشات"
+
+msgid "Gals"
+msgstr "بنات"
+
+msgid "Galt"
+msgstr "جالت"
+
+msgid "Galvanic"
+msgstr "كهربائي"
+
+msgid "Galvanically"
+msgstr "بصدمة كهربائية"
+
+msgid "Galvanism"
+msgstr "العلاج بالكهرباء"
+
+msgid "Galvanization"
+msgstr "الحثّ"
+
+msgid "Galvanizations"
+msgstr "الحثّ"
+
+msgid "Galvanize"
+msgstr "إدفع"
+
+msgid "Galvanized"
+msgstr "دفع"
+
+msgid "Galvanizes"
+msgstr "يدفع"
+
+msgid "Galvanizing"
+msgstr "الدفع"
+
+msgid "Galvanometer"
+msgstr "الجلفانومتر"
+
+msgid "Galvanometers"
+msgstr "الجلفانومترات"
+
+msgid "Galvanometric"
+msgstr "متعلق بجهاز قياس التيّار"
+
+msgid "Galveston"
+msgstr "جالفيستون"
+
+msgid "Galvin"
+msgstr "جالفين"
+
+msgid "Galway"
+msgstr "جالواي"
+
+msgid "Gam"
+msgstr "تحادث"
+
+msgid "Gambia"
+msgstr "غامبيا"
+
+msgid "Gambit"
+msgstr "المناورة"
+
+msgid "Gambits"
+msgstr "المناورات"
+
+msgid "Gamble"
+msgstr "المقامرة"
+
+msgid "Gambled"
+msgstr "مقامر"
+
+msgid "Gambler"
+msgstr "المقامر"
+
+msgid "Gamblers"
+msgstr "المقامرون"
+
+msgid "Gambles"
+msgstr "المقامرات"
+
+msgid "Gambling"
+msgstr "القمار"
+
+msgid "Gambol"
+msgstr "الوثب"
+
+msgid "Gamboled"
+msgstr "موثوب"
+
+msgid "Gamboling"
+msgstr "الوثب"
+
+msgid "Gambols"
+msgstr "الوثبات"
+
+msgid "Game"
+msgstr "اللعبة"
+
+msgid "Gamecock"
+msgstr "ديك المصارعة"
+
+msgid "Gamecocks"
+msgstr "ديوك المصارعة"
+
+msgid "Gamed"
+msgstr "متحادث"
+
+msgid "Gamekeeper"
+msgstr "حارس الطيور"
+
+msgid "Gamekeepers"
+msgstr "حراس الطيور"
+
+msgid "Gamely"
+msgstr "بشجاعة"
+
+msgid "Gameness"
+msgstr "اللعوبية"
+
+msgid "Games"
+msgstr "الألعاب"
+
+msgid "Gamesman"
+msgstr "اللاعب"
+
+msgid "Gamester"
+msgstr "المقامر"
+
+msgid "Gamesters"
+msgstr "المقامرون"
+
+msgid "Gamete"
+msgstr "خلية جرثومية"
+
+msgid "Gametes"
+msgstr "خلايا جرثومية"
+
+msgid "Gamier"
+msgstr "أكثر فساد"
+
+msgid "Gamiest"
+msgstr "الأكثر فساد"
+
+msgid "Gamily"
+msgstr "بشجاعة"
+
+msgid "Gamin"
+msgstr "الصبي المتشرد"
+
+msgid "Gaming"
+msgstr "اللعب"
+
+msgid "Gamma"
+msgstr "الغاما"
+
+msgid "Gamma-correcting"
+msgstr "تصحيح الغاما"
+
+msgid "Gammas"
+msgstr "الغاما"
+
+msgid "Gammer"
+msgstr "غامير"
+
+msgid "Gammon"
+msgstr "فخذ الخنزير"
+
+msgid "Gammons"
+msgstr "أفخاذ الخنزير"
+
+msgid "Gammy"
+msgstr "الشجاع"
+
+msgid "Gamut"
+msgstr "السلسلة"
+
+msgid "Gamuts"
+msgstr "السلاسل"
+
+msgid "Gamy"
+msgstr "شجاع"
+
+msgid "Gander"
+msgstr "الأوزّ"
+
+msgid "Ganders"
+msgstr "الإوزّ"
+
+msgid "Gang"
+msgstr "العصابة"
+
+msgid "Ganger"
+msgstr "رئيس العمال"
+
+msgid "Ganges"
+msgstr "يغطّي"
+
+msgid "Gangland"
+msgstr "عالم الجريمة"
+
+msgid "Ganglier"
+msgstr "أنحف من"
+
+msgid "Gangling"
+msgstr "طويل"
+
+msgid "Ganglion"
+msgstr "العقدة"
+
+msgid "Gangly"
+msgstr "بشكل طويل"
+
+msgid "Gangplank"
+msgstr "الدرج المتحرك"
+
+msgid "Gangplanks"
+msgstr "الدروج المتحركة"
+
+msgid "Gangrene"
+msgstr "الغنغرينا"
+
+msgid "Gangrened"
+msgstr "متعفّن"
+
+msgid "Gangrenes"
+msgstr "يتعفّن"
+
+msgid "Gangrening"
+msgstr "التعفّن"
+
+msgid "Gangrenous"
+msgstr "غرغريني"
+
+msgid "Gangs"
+msgstr "العصابات"
+
+msgid "Gangster"
+msgstr "أحد أفراد العصابة"
+
+msgid "Gangsters"
+msgstr "أفراد العصابات"
+
+msgid "Gangway"
+msgstr "الممر"
+
+msgid "Gangways"
+msgstr "الممرات"
+
+msgid "Gannet"
+msgstr "الأطيش"
+
+msgid "Gannets"
+msgstr "الأطيش"
+
+msgid "Gannett"
+msgstr "جانيت - جغرافيّ و رسّام خرائط أمريكيّ"
+
+msgid "Gantlet"
+msgstr "القفّاز"
+
+msgid "Gantries"
+msgstr "الهياكل المؤقّتة"
+
+msgid "Gantry"
+msgstr "الهيكل المؤقّت"
+
+msgid "Ganymede"
+msgstr "جانيميد (أكبر أقمار المشتري)"
+
+msgid "GAO"
+msgstr "مكتب المحاسبة العمومي"
+
+msgid "Gaol"
+msgstr "السجن"
+
+msgid "Gaoler"
+msgstr "السجّان"
+
+msgid "Gaolers"
+msgstr "السجّانون"
+
+msgid "Gap"
+msgstr "الفجوة"
+
+msgid "Gape"
+msgstr "التثاؤب"
+
+msgid "Gaped"
+msgstr "مفغور"
+
+msgid "Gaper"
+msgstr "المنبهر"
+
+msgid "Gapes"
+msgstr "يفغر"
+
+msgid "Gaping"
+msgstr "الفغر"
+
+msgid "Gapingly"
+msgstr "بانشداه"
+
+msgid "Gaps"
+msgstr "الفجوات"
+
+msgid "Gar"
+msgstr "غار"
+
+msgid "Garage"
+msgstr "المرآب"
+
+msgid "Garaged"
+msgstr "في الكراج"
+
+msgid "Garages"
+msgstr "المرائيب"
+
+msgid "Garaging"
+msgstr "يركن في الكراج"
+
+msgid "Garb"
+msgstr "الزيّ"
+
+msgid "Garbage"
+msgstr "القمامة"
+
+msgid "Garbages"
+msgstr "الزبالة"
+
+msgid "Garbed"
+msgstr "مكسو"
+
+msgid "Garble"
+msgstr "غربل"
+
+msgid "Garbled"
+msgstr "مغربل"
+
+msgid "Garbler"
+msgstr "المغربل"
+
+msgid "Garbles"
+msgstr "يغربل"
+
+msgid "Garbling"
+msgstr "الغربلة"
+
+msgid "Garbs"
+msgstr "الأزياء"
+
+msgid "Garcia"
+msgstr "غارسيا"
+
+msgid "Garcon"
+msgstr "خادم، ولد"
+
+msgid "Garden"
+msgstr "الحديقة"
+
+msgid "Garden-path"
+msgstr "طريق حديقة"
+
+msgid "Gardened"
+msgstr "زرع"
+
+msgid "Gardener"
+msgstr "البستاني"
+
+msgid "Gardeners"
+msgstr "البستانيون"
+
+msgid "Gardenia"
+msgstr "الغردينيا"
+
+msgid "Gardenias"
+msgstr "الغردينيا"
+
+msgid "Gardening"
+msgstr "البستنة"
+
+msgid "Gardens"
+msgstr "الحدائق"
+
+msgid "Gardner"
+msgstr "جاردنر"
+
+msgid "Garfield"
+msgstr "غارفيلد"
+
+msgid "Garfunkel"
+msgstr "غارفانكيل"
+
+msgid "Gargantuan"
+msgstr "هائل"
+
+msgid "Gargle"
+msgstr "الغرغرة"
+
+msgid "Gargled"
+msgstr "مغرغر"
+
+msgid "Gargles"
+msgstr "الغرغرة"
+
+msgid "Gargling"
+msgstr "الغرغرة"
+
+msgid "Gargoyle"
+msgstr "فتحة التّصريف"
+
+msgid "Gargoyled"
+msgstr "صرّف المياه"
+
+msgid "Gargoyles"
+msgstr "الجرغول"
+
+msgid "Garibaldi"
+msgstr "البلوزة"
+
+msgid "Garish"
+msgstr "مبهرج"
+
+msgid "Garishly"
+msgstr "بشكل مبهرج"
+
+msgid "Garishness"
+msgstr "البهرجة"
+
+msgid "Garland"
+msgstr "الطّوق"
+
+msgid "Garlanded"
+msgstr "مكلّل"
+
+msgid "Garlands"
+msgstr "الأكاليل"
+
+msgid "Garlic"
+msgstr "الثوم"
+
+msgid "Garlicky"
+msgstr "ثومي"
+
+msgid "Garlics"
+msgstr "الثوم"
+
+msgid "Garment"
+msgstr "الكساء"
+
+msgid "Garmented"
+msgstr "ملبّس"
+
+msgid "Garmenting"
+msgstr "التلبيس"
+
+msgid "Garments"
+msgstr "الملابس"
+
+msgid "Garner"
+msgstr "كدّس"
+
+msgid "Garnered"
+msgstr "مكدّس"
+
+msgid "Garnering"
+msgstr "التكديس"
+
+msgid "Garners"
+msgstr "يكدّس"
+
+msgid "Garnet"
+msgstr "العقيق"
+
+msgid "Garnets"
+msgstr "العقيق"
+
+msgid "Garnett"
+msgstr "غارنيت"
+
+msgid "Garnish"
+msgstr "الزينة"
+
+msgid "Garnished"
+msgstr "مزيّن"
+
+msgid "Garnishee"
+msgstr "الموجه إليه إنذار"
+
+msgid "Garnishees"
+msgstr "المُنْذَرون"
+
+msgid "Garnishes"
+msgstr "الزينة"
+
+msgid "Garnishing"
+msgstr "التزيين"
+
+msgid "Garnishment"
+msgstr "الزينة"
+
+msgid "Garnishments"
+msgstr "الزينة"
+
+msgid "Garniture"
+msgstr "التّجميل"
+
+msgid "Garnitures"
+msgstr "التّجميل"
+
+msgid "Garret"
+msgstr "الغرفة العليا"
+
+msgid "Garrets"
+msgstr "الغرف العليا"
+
+msgid "Garrett"
+msgstr "غاريت"
+
+msgid "Garrison"
+msgstr "الحامية"
+
+msgid "Garrisoned"
+msgstr "محصّن"
+
+msgid "Garrisoning"
+msgstr "التحصين"
+
+msgid "Garrisons"
+msgstr "الحاميات"
+
+msgid "Garroted"
+msgstr "خنق"
+
+msgid "Garrotes"
+msgstr "يخنق"
+
+msgid "Garroting"
+msgstr "الخنق"
+
+msgid "Garrulity"
+msgstr "الثرثرة"
+
+msgid "Garrulous"
+msgstr "ثرثار"
+
+msgid "Garrulously"
+msgstr "بشكل ثرثار"
+
+msgid "Garrulousness"
+msgstr "الثّرثرة"
+
+msgid "Garry"
+msgstr "غاري"
+
+msgid "Garter"
+msgstr "الرباط"
+
+msgid "Gartered"
+msgstr "مربوط"
+
+msgid "Gartering"
+msgstr "الربط"
+
+msgid "Garters"
+msgstr "الأربطة"
+
+msgid "Garth"
+msgstr "غارث"
+
+msgid "Garvey"
+msgstr "غارفي"
+
+msgid "Gary"
+msgstr "غاري"
+
+msgid "Gas"
+msgstr "الغاز"
+
+msgid "Gas-shielded"
+msgstr "محمي غاز"
+
+msgid "Gas-tight"
+msgstr "مانع لتسرب الغاز"
+
+msgid "Gascony"
+msgstr "جاسكوني"
+
+msgid "Gaseous"
+msgstr "غازي"
+
+msgid "Gaseously"
+msgstr "بشكل غازي"
+
+msgid "Gaseousness"
+msgstr "الغازية"
+
+msgid "Gases"
+msgstr "الغازات"
+
+msgid "Gash"
+msgstr "الجرح البليغ"
+
+msgid "Gashed"
+msgstr "مجروح"
+
+msgid "Gashes"
+msgstr "الجروح البليغة"
+
+msgid "Gashing"
+msgstr "الجرح"
+
+msgid "Gasification"
+msgstr "التحويل إلى الغاز"
+
+msgid "Gasifications"
+msgstr "التحويل إلى الغاز"
+
+msgid "Gasified"
+msgstr "مغزّز"
+
+msgid "Gasifier"
+msgstr "المحول إلى الحالة الغازية"
+
+msgid "Gasifiers"
+msgstr "المحولون إلى الحالة الغازية"
+
+msgid "Gasifies"
+msgstr "يغزّز"
+
+msgid "Gasiform"
+msgstr "غازي"
+
+msgid "Gasify"
+msgstr "غزّز"
+
+msgid "Gasifying"
+msgstr "تحويل إلى غاز"
+
+msgid "Gasket"
+msgstr "الحشية"
+
+msgid "Gaskets"
+msgstr "الحشيات"
+
+msgid "Gaslight"
+msgstr "ضوء الغاز"
+
+msgid "Gaslights"
+msgstr "أضواء الغاز"
+
+msgid "Gasohol"
+msgstr "وقود"
+
+msgid "Gasoline"
+msgstr "الغازولين"
+
+msgid "Gasolines"
+msgstr "الغازولين"
+
+msgid "Gasp"
+msgstr "اللهيث"
+
+msgid "Gasped"
+msgstr "لاهث"
+
+msgid "Gasper"
+msgstr "السيجارة"
+
+msgid "Gaspers"
+msgstr "السجائر"
+
+msgid "Gasping"
+msgstr "اللهث"
+
+msgid "Gaspingly"
+msgstr "بتلهف"
+
+msgid "Gasps"
+msgstr "اللهيث"
+
+msgid "Gassed"
+msgstr "مسمّم بالغاز"
+
+msgid "Gasser"
+msgstr "مطلق الغاز"
+
+msgid "Gassers"
+msgstr "مطلقو الغاز"
+
+msgid "Gassiness"
+msgstr "الغازيّة"
+
+msgid "Gassing"
+msgstr "تسمّم بالغاز"
+
+msgid "Gassy"
+msgstr "غازي"
+
+msgid "Gaston"
+msgstr "جاستون"
+
+msgid "Gastric"
+msgstr "معوي"
+
+msgid "Gastrointestinal"
+msgstr "معوي"
+
+msgid "Gastronome"
+msgstr "خبير الأطعمة"
+
+msgid "Gastronomer"
+msgstr "خبير الأطعمة"
+
+msgid "Gastronomers"
+msgstr "خبراء الأطعمة"
+
+msgid "Gastronomes"
+msgstr "خبراء الأطعمة"
+
+msgid "Gastronomic"
+msgstr "تذوّقي"
+
+msgid "Gastronomical"
+msgstr "تذوّقي"
+
+msgid "Gastronomically"
+msgstr "بشكل تذوّقي"
+
+msgid "Gastronomy"
+msgstr "فن طهي الطعام"
+
+msgid "Gastropod"
+msgstr "بطنيّات الأقدام مثل القوقعة والحلزون"
+
+msgid "Gastropoda"
+msgstr "القواقع و الحلزونات و فصيلتهم"
+
+msgid "Gastroscope"
+msgstr "المنظار الطّبي لفحص المعدة"
+
+msgid "Gastroscopy"
+msgstr "الفحص الطّبي للمعدة بالمنظار"
+
+msgid "Gastrostomy"
+msgstr "عملية جراحية تقوم بإيصال الطّعام الى المعدة عن طريق أنبوب"
+
+msgid "Gastrotomy"
+msgstr "عمليّة جراحيّة تقوم على إحداث فتحة في البطن أو المعدة"
+
+msgid "Gat"
+msgstr "المسدّس"
+
+msgid "Gate"
+msgstr "البوّابة"
+
+msgid "Gatecrasher"
+msgstr "المتطفّل"
+
+msgid "Gated"
+msgstr "ذو أبواب"
+
+msgid "Gatekeeper"
+msgstr "البوّاب"
+
+msgid "Gates"
+msgstr "جايتس"
+
+msgid "Gateway"
+msgstr "البوّابة"
+
+msgid "Gateways"
+msgstr "البوّابة"
+
+msgid "Gather"
+msgstr "تجمّع"
+
+msgid "Gathered"
+msgstr "متجمّع"
+
+msgid "Gatherer"
+msgstr "الجامع"
+
+msgid "Gatherers"
+msgstr "الجوامع"
+
+msgid "Gathering"
+msgstr "الإجتماع"
+
+msgid "Gatherings"
+msgstr "الحشود"
+
+msgid "Gathers"
+msgstr "الشلالة"
+
+msgid "Gating"
+msgstr "المحاصرة"
+
+msgid "Gatlinburg"
+msgstr "جاتلينبرج"
+
+msgid "Gator"
+msgstr "التمساح"
+
+msgid "Gats"
+msgstr "غاتس"
+
+msgid "Gatsby"
+msgstr "غاتسبي"
+
+msgid "Gauche"
+msgstr "أرعن"
+
+msgid "Gauchely"
+msgstr "بشكل أرعن"
+
+msgid "Gaucheness"
+msgstr "الحماقة"
+
+msgid "Gaucherie"
+msgstr "الرعونة"
+
+msgid "Gaudier"
+msgstr "أكثر بهرجة"
+
+msgid "Gaudies"
+msgstr "حفلات العشاء"
+
+msgid "Gaudiest"
+msgstr "أكثر بهرجة"
+
+msgid "Gaudily"
+msgstr "بشكل مبهرج"
+
+msgid "Gaudiness"
+msgstr "البهرجة"
+
+msgid "Gaudy"
+msgstr "حفلة العشاء"
+
+msgid "Gauge"
+msgstr "المقياس"
+
+msgid "Gaugeable"
+msgstr "ممكن قياسه"
+
+msgid "Gauged"
+msgstr "مقيس"
+
+msgid "Gauger"
+msgstr "المعاير"
+
+msgid "Gaugers"
+msgstr "المعايرون"
+
+msgid "Gauges"
+msgstr "المقاييس"
+
+msgid "Gauging"
+msgstr "القياس"
+
+msgid "Gauguin"
+msgstr "جوجون"
+
+msgid "Gaul"
+msgstr "فرنسي"
+
+msgid "Gauleiter"
+msgstr "الزّعيم أو المسئول الرّئيسيّ لمنطقة سياسيّة تحت السّيطرة النّازيّة"
+
+msgid "Gaulle"
+msgstr "غول"
+
+msgid "Gaunt"
+msgstr "نحيف"
+
+msgid "Gauntlet"
+msgstr "القفاز"
+
+msgid "Gauntleted"
+msgstr "بقفّاز"
+
+msgid "Gauntly"
+msgstr "بشكل نحيف"
+
+msgid "Gauntness"
+msgstr "النحافة"
+
+msgid "Gaur"
+msgstr "الثّور"
+
+msgid "Gauss"
+msgstr "الغاوس (وحدة قياس)"
+
+msgid "Gausses"
+msgstr "الغاوس (وحدة قياس)"
+
+msgid "Gaussian"
+msgstr "متعلّق بالغاوس (وحدة قياس)"
+
+msgid "Gauze"
+msgstr "الشاش"
+
+msgid "Gauzes"
+msgstr "الشاش"
+
+msgid "Gauzily"
+msgstr "كما الشّاش"
+
+msgid "Gave"
+msgstr "أعطى"
+
+msgid "Gavel"
+msgstr "المطرقة"
+
+msgid "Gavels"
+msgstr "المطارق"
+
+msgid "Gavin"
+msgstr "غافن"
+
+msgid "Gavotte"
+msgstr "الرقصة الفرنسية"
+
+msgid "Gawk"
+msgstr "حدّق"
+
+msgid "Gawked"
+msgstr "محدّق"
+
+msgid "Gawker"
+msgstr "الأخرق"
+
+msgid "Gawkier"
+msgstr "أخرق"
+
+msgid "Gawkiest"
+msgstr "أخرق"
+
+msgid "Gawkily"
+msgstr "غاوكيلي"
+
+msgid "Gawking"
+msgstr "التحديق"
+
+msgid "Gawks"
+msgstr "يحدّق"
+
+msgid "Gawky"
+msgstr "أخرق"
+
+msgid "Gay"
+msgstr "اللوطي"
+
+msgid "Gayer"
+msgstr "أكثر مرحا"
+
+msgid "Gayest"
+msgstr "أكثر مرحا"
+
+msgid "Gaylor"
+msgstr "جيلور"
+
+msgid "Gaylord"
+msgstr "جيلورد"
+
+msgid "Gayly"
+msgstr "بشكل مرح"
+
+msgid "Gayness"
+msgstr "المرح"
+
+msgid "Gays"
+msgstr "الشواذ"
+
+msgid "Gaze"
+msgstr "النظرة"
+
+msgid "Gazebo"
+msgstr "شرفة المراقبة"
+
+msgid "Gazebos"
+msgstr "شرفات المراقبة"
+
+msgid "Gazed"
+msgstr "محدّق"
+
+msgid "Gazelle"
+msgstr "الغزالة"
+
+msgid "Gazelles"
+msgstr "الغزال"
+
+msgid "Gazer"
+msgstr "الناظر"
+
+msgid "Gazers"
+msgstr "الناظرون"
+
+msgid "Gazes"
+msgstr "النظرات"
+
+msgid "Gazette"
+msgstr "الجريدة الرسمية"
+
+msgid "Gazetted"
+msgstr "معلن"
+
+msgid "Gazetteer"
+msgstr "الفهرس الجغرافي"
+
+msgid "Gazetteers"
+msgstr "الفهارس الجغرافية"
+
+msgid "Gazettes"
+msgstr "الجرائد الرسمية"
+
+msgid "Gazetting"
+msgstr "نشر في الجريدة الرسمية"
+
+msgid "Gazing"
+msgstr "التحديق"
+
+msgid "GB"
+msgstr "بريطانيا"
+
+msgid "GE"
+msgstr "جينيرال إليكتريك"
+
+msgid "Gear"
+msgstr "الترس"
+
+msgid "Gearbox"
+msgstr "صندوق التروس"
+
+msgid "Gearboxs"
+msgstr "علبة المسننات"
+
+msgid "Geared"
+msgstr "مسخّر"
+
+msgid "Gearing"
+msgstr "التسخير"
+
+msgid "Gearings"
+msgstr "التجهيزات"
+
+msgid "Gears"
+msgstr "التروس"
+
+msgid "Gearshift"
+msgstr "ذراع التروس"
+
+msgid "Gearshifts"
+msgstr "أذرع التروس"
+
+msgid "Geary"
+msgstr "جيري"
+
+msgid "Gecko"
+msgstr "أبو بريص"
+
+msgid "Gedanken"
+msgstr "جيدانكين"
+
+msgid "Gee"
+msgstr "جي"
+
+msgid "Geek"
+msgstr "المهوس"
+
+msgid "Geeks"
+msgstr "المهوسون"
+
+msgid "Geese"
+msgstr "الأوز"
+
+msgid "Geest"
+msgstr "رملية، جافّة"
+
+msgid "Geezer"
+msgstr "الرجل"
+
+msgid "Geezers"
+msgstr "الرجال"
+
+msgid "Gegenschein"
+msgstr "جيجينشين"
+
+msgid "Gehrig"
+msgstr "جيهريج"
+
+msgid "Geiger"
+msgstr "مقياس \"جيجر\""
+
+msgid "Geisha"
+msgstr "الراقصة اليابانية"
+
+msgid "Geishas"
+msgstr "الراقصات اليابانيات"
+
+msgid "Gel"
+msgstr "الهلام"
+
+msgid "Gelable"
+msgstr "قابل للتحويل الى الجيلي"
+
+msgid "Gelatin"
+msgstr "الجيلاتين"
+
+msgid "Gelatine"
+msgstr "الجيلاتين"
+
+msgid "Gelatines"
+msgstr "الجيلاتين"
+
+msgid "Gelatinize"
+msgstr "هيلم"
+
+msgid "Gelatinized"
+msgstr "مهيلم"
+
+msgid "Gelatinizes"
+msgstr "يهيلم"
+
+msgid "Gelatinizing"
+msgstr "الهيلمة"
+
+msgid "Gelatinous"
+msgstr "هلامي"
+
+msgid "Gelatinously"
+msgstr "بشكل هلامي"
+
+msgid "Gelatinousness"
+msgstr "الجبلاتينية"
+
+msgid "Geld"
+msgstr "إخص"
+
+msgid "Gelded"
+msgstr "مخصي"
+
+msgid "Gelding"
+msgstr "الحيوان المخصي"
+
+msgid "Geldings"
+msgstr "الحيوانات المخصية"
+
+msgid "Gelds"
+msgstr "يخصي"
+
+msgid "Gelid"
+msgstr "مثلّج"
+
+msgid "Gelidly"
+msgstr "بشكل مثلّج"
+
+msgid "Gelled"
+msgstr "تبلور"
+
+msgid "Gelling"
+msgstr "التّبلور"
+
+msgid "Gels"
+msgstr "الهلام"
+
+msgid "Gem"
+msgstr "الحجر الكريم"
+
+msgid "Geminate"
+msgstr "مزدوج"
+
+msgid "Gemini"
+msgstr "الجوزاء"
+
+msgid "Gemma"
+msgstr "البرعم"
+
+msgid "Gems"
+msgstr "المجوهرات"
+
+msgid "Gemstone"
+msgstr "حجر كريم"
+
+msgid "Gemstones"
+msgstr "الأحجار الكريمة"
+
+msgid "Gendarmes"
+msgstr "الجندرمة"
+
+msgid "Gender"
+msgstr "الجنس"
+
+msgid "Gendered"
+msgstr "جنسي"
+
+msgid "Gendering"
+msgstr "الأنجاب"
+
+msgid "Genderless"
+msgstr "الغير محدد الجنس"
+
+msgid "Genders"
+msgstr "الأجناس"
+
+msgid "Gene"
+msgstr "الجين"
+
+msgid "Genealogical"
+msgstr "نسبي"
+
+msgid "Genealogically"
+msgstr "بشكل نسبي"
+
+msgid "Genealogies"
+msgstr "سلاسل النّسب"
+
+msgid "Genealogist"
+msgstr "الأخصائي بعلم الأنساب"
+
+msgid "Genealogists"
+msgstr "الأخصائيون بعلم الأنساب"
+
+msgid "Genealogy"
+msgstr "علم الأنساب"
+
+msgid "Genera"
+msgstr "الأنواع"
+
+msgid "General"
+msgstr "الجنرال"
+
+msgid "Generalissimo"
+msgstr "القائد العام"
+
+msgid "Generalissimos"
+msgstr "كبار القادة"
+
+msgid "Generalist"
+msgstr "لا اختصاصيّ"
+
+msgid "Generalists"
+msgstr "لا اختصاصيّون"
+
+msgid "Generalities"
+msgstr "العموميات"
+
+msgid "Generality"
+msgstr "العمومية"
+
+msgid "Generalizable"
+msgstr "قابل للتعميم"
+
+msgid "Generalization"
+msgstr "التعميم"
+
+msgid "Generalizations"
+msgstr "التعميم"
+
+msgid "Generalize"
+msgstr "عمّم"
+
+msgid "Generalized"
+msgstr "معمّم"
+
+msgid "Generalizer"
+msgstr "المعمّم"
+
+msgid "Generalizers"
+msgstr "المعمّمون"
+
+msgid "Generalizes"
+msgstr "يعمّم"
+
+msgid "Generalizing"
+msgstr "التعميم"
+
+msgid "Generally"
+msgstr "عموما"
+
+msgid "Generalness"
+msgstr "العمومية"
+
+msgid "Generals"
+msgstr "الجنرالات"
+
+msgid "Generalship"
+msgstr "القيادة"
+
+msgid "Generate"
+msgstr "ولّد"
+
+msgid "Generated"
+msgstr "مولّد"
+
+msgid "Generates"
+msgstr "يولّد"
+
+msgid "Generating"
+msgstr "التوليد"
+
+msgid "Generation"
+msgstr "الجيل"
+
+msgid "Generational"
+msgstr "جيلي"
+
+msgid "Generations"
+msgstr "الأجيال"
+
+msgid "Generative"
+msgstr "منتج"
+
+msgid "Generatively"
+msgstr "بشكل منتج"
+
+msgid "Generator"
+msgstr "المولّد"
+
+msgid "Generators"
+msgstr "المولّدات"
+
+msgid "Generic"
+msgstr "عام"
+
+msgid "Generically"
+msgstr "بشكل عام"
+
+msgid "Genericness"
+msgstr "الشموليّة"
+
+msgid "Generosities"
+msgstr "المكارم"
+
+msgid "Generosity"
+msgstr "الكرم"
+
+msgid "Generous"
+msgstr "كريم"
+
+msgid "Generously"
+msgstr "بسخاء"
+
+msgid "Generousness"
+msgstr "الكرم"
+
+msgid "Genes"
+msgstr "الجينات"
+
+msgid "Genesis"
+msgstr "التكوين"
+
+msgid "Genet"
+msgstr "الرّباح"
+
+msgid "Genetic"
+msgstr "وراثي"
+
+msgid "Genetical"
+msgstr "وراثي"
+
+msgid "Genetically"
+msgstr "وراثيا"
+
+msgid "Geneticist"
+msgstr "الأخصائي بعلم الوراثة"
+
+msgid "Geneticists"
+msgstr "أخصائيو علم الوراثة"
+
+msgid "Genetics"
+msgstr "علم الوراثة"
+
+msgid "Geneva"
+msgstr "جنيف"
+
+msgid "Genevieve"
+msgstr "جينيفيف"
+
+msgid "Genial"
+msgstr "لطيف"
+
+msgid "Genially"
+msgstr "بشكل لطيف"
+
+msgid "Genialness"
+msgstr "اللطيف"
+
+msgid "Genie"
+msgstr "جيني"
+
+msgid "Genies"
+msgstr "الجنّ"
+
+msgid "Genii"
+msgstr "الجان"
+
+msgid "Genital"
+msgstr "أعضاء التناسل"
+
+msgid "Genitalia"
+msgstr "الأعضاء التناسلية"
+
+msgid "Genitals"
+msgstr "الأعضاء التناسلية"
+
+msgid "Genitive"
+msgstr "المضاف إليه"
+
+msgid "Genitives"
+msgstr "المضاف اليهم"
+
+msgid "Genius"
+msgstr "العبقري"
+
+msgid "Geniuses"
+msgstr "العباقرة"
+
+msgid "Genoa"
+msgstr "جنوى"
+
+msgid "Genocide"
+msgstr "الإبادة الجماعية"
+
+msgid "Genocides"
+msgstr "الإبادات الجماعية"
+
+msgid "Genotype"
+msgstr "الطّراز العرقيّ"
+
+msgid "Genotypes"
+msgstr "الطّرز العرقيّة"
+
+msgid "Genre"
+msgstr "النوع"
+
+msgid "Genres"
+msgstr "الأنواع"
+
+msgid "Gent"
+msgstr "السيد"
+
+msgid "Genteel"
+msgstr "نبيل"
+
+msgid "Genteeler"
+msgstr "نبيل"
+
+msgid "Genteelest"
+msgstr "نبيل"
+
+msgid "Genteelly"
+msgstr "بشكل نبيل"
+
+msgid "Genteelness"
+msgstr "الرّقة"
+
+msgid "Gentian"
+msgstr "نبات كف الذئب"
+
+msgid "Gentians"
+msgstr "نبات كف الذئب"
+
+msgid "Gentile"
+msgstr "غير اليهود"
+
+msgid "Gentiles"
+msgstr "الوثنيون"
+
+msgid "Gentility"
+msgstr "الكياسة"
+
+msgid "Gentle"
+msgstr "لطيف"
+
+msgid "Gentled"
+msgstr "هذّب"
+
+msgid "Gentleman"
+msgstr "الرجل المحترم"
+
+msgid "Gentlemanliness"
+msgstr "جينتليمانلنيس"
+
+msgid "Gentlemanly"
+msgstr "نبيل"
+
+msgid "Gentlemen"
+msgstr "السادة المحترمون"
+
+msgid "Gentleness"
+msgstr "اللطافة"
+
+msgid "Gentler"
+msgstr "لطيف"
+
+msgid "Gentlest"
+msgstr "لطيف"
+
+msgid "Gentlewoman"
+msgstr "السيدة"
+
+msgid "Gentlewomen"
+msgstr "السيدات"
+
+msgid "Gentling"
+msgstr "التّهذيب"
+
+msgid "Gently"
+msgstr "بلطف"
+
+msgid "Gentries"
+msgstr "الطبقة الراقية"
+
+msgid "Gentrification"
+msgstr "التّحسين"
+
+msgid "Gentry"
+msgstr "طبقة النبلاء"
+
+msgid "Gents"
+msgstr "الرجال"
+
+msgid "Genuflect"
+msgstr "إركع"
+
+msgid "Genuflected"
+msgstr "راكع"
+
+msgid "Genuflecting"
+msgstr "الركوع"
+
+msgid "Genuflection"
+msgstr "الركوع"
+
+msgid "Genuflections"
+msgstr "الركوع"
+
+msgid "Genuflects"
+msgstr "يركع"
+
+msgid "Genuine"
+msgstr "أصيل"
+
+msgid "Genuinely"
+msgstr "حقّا"
+
+msgid "Genuineness"
+msgstr "الأصالة"
+
+msgid "Genus"
+msgstr "الجنس"
+
+msgid "Geocentric"
+msgstr "من مركز الأرض"
+
+msgid "Geocentrically"
+msgstr "من مركز الأرض"
+
+msgid "Geocentricism"
+msgstr "مركزية الأرض"
+
+msgid "Geochemical"
+msgstr "كيميائيّ أرضيّ"
+
+msgid "Geochemically"
+msgstr "بكيميائية أرضية"
+
+msgid "Geochemistry"
+msgstr "علم كيمياء الأرض"
+
+msgid "Geochronology"
+msgstr "جيولوجية عمر الأرض"
+
+msgid "Geode"
+msgstr "الجيّود (صخور)"
+
+msgid "Geodes"
+msgstr "الجيّود (صخور)"
+
+msgid "Geodesic"
+msgstr "جيوديسي (رياضيات)"
+
+msgid "Geodesy"
+msgstr "علم قياسات الأرض"
+
+msgid "Geodetic"
+msgstr "خاص بقياسات الأرض"
+
+msgid "Geodetical"
+msgstr "جيوديسي (رياضيات)"
+
+msgid "Geoduck"
+msgstr "محّار"
+
+msgid "Geoff"
+msgstr "جيف"
+
+msgid "Geoffrey"
+msgstr "جيفري"
+
+msgid "Geographer"
+msgstr "الجغرافي"
+
+msgid "Geographers"
+msgstr "الجغرافيون"
+
+msgid "Geographic"
+msgstr "جغرافي"
+
+msgid "Geographical"
+msgstr "جغرافي"
+
+msgid "Geographically"
+msgstr "بشكل جغرافي"
+
+msgid "Geographies"
+msgstr "الجغرافيا"
+
+msgid "Geography"
+msgstr "الجغرافية"
+
+msgid "Geologic"
+msgstr "جيولوجي"
+
+msgid "Geological"
+msgstr "جيولوجي"
+
+msgid "Geologically"
+msgstr "بشكل جيولوجي"
+
+msgid "Geologist"
+msgstr "الجيولوجي"
+
+msgid "Geologists"
+msgstr "الجيولوجيون"
+
+msgid "Geology"
+msgstr "علم طبقات الأرض"
+
+msgid "Geometer"
+msgstr "رياضي"
+
+msgid "Geometers"
+msgstr "المتخصصون في علم الهندسة"
+
+msgid "Geometric"
+msgstr "هندسي"
+
+msgid "Geometrical"
+msgstr "هندسي"
+
+msgid "Geometrically"
+msgstr "بشكل هندسي"
+
+msgid "Geometrician"
+msgstr "عالم الهندسة"
+
+msgid "Geometricians"
+msgstr "علماء الهندسة"
+
+msgid "Geometries"
+msgstr "الهندسة"
+
+msgid "Geometry"
+msgstr "الهندسة"
+
+msgid "Geomorphological"
+msgstr "الجيومورفولوجي"
+
+msgid "Geomorphology"
+msgstr "الجيومورفولوجيا"
+
+msgid "Geophysical"
+msgstr "جيوفيزيائي"
+
+msgid "Geophysically"
+msgstr "بشكل جيوفيزيائي"
+
+msgid "Geophysicist"
+msgstr "المتخصّص بالجيوفيزياء"
+
+msgid "Geophysicists"
+msgstr "المتخصّصون بالجيوفيزياء"
+
+msgid "Geophysics"
+msgstr "علم فيزياء الأرض"
+
+msgid "Geopolitical"
+msgstr "جغرافي سياسي"
+
+msgid "Geopolitically"
+msgstr "من الناحية الجغرافية السياسية"
+
+msgid "Geopolitics"
+msgstr "الجغرافية السياسية"
+
+msgid "George"
+msgstr "جورج"
+
+msgid "George Washington"
+msgstr "جورج واشنطن - الرّئيس الأول للولايات المتّحدة"
+
+msgid "Georges"
+msgstr "جورج"
+
+msgid "Georgetown"
+msgstr "جورج تاون"
+
+msgid "Georgia"
+msgstr "جورجيا"
+
+msgid "Georgian"
+msgstr "الجورجي"
+
+msgid "Georgian-academy"
+msgstr "الأكاديمية الجورجية"
+
+msgid "Georgians"
+msgstr "الجورجيون"
+
+msgid "Geosynchronous"
+msgstr "متزامن مع الأرض"
+
+msgid "Geothermal"
+msgstr "حراري أرضي"
+
+msgid "Gerald"
+msgstr "جيرالد"
+
+msgid "Geraldine"
+msgstr "جيرالدين"
+
+msgid "Geranium"
+msgstr "المسك"
+
+msgid "Gerard"
+msgstr "جيرارد"
+
+msgid "Gerber"
+msgstr "جيربير"
+
+msgid "Gerbil"
+msgstr "الجربوع"
+
+msgid "Gerhard"
+msgstr "جيرهارد"
+
+msgid "Gerhardt"
+msgstr "جيرهارد"
+
+msgid "Geriatric"
+msgstr "شيخوخي"
+
+msgid "Geriatrics"
+msgstr "طبّ الشيخوخة"
+
+msgid "Germ"
+msgstr "الجرثومة"
+
+msgid "German"
+msgstr "الألماني"
+
+msgid "Germane"
+msgstr "وثيق الصلة"
+
+msgid "Germania"
+msgstr "جيرمانيا"
+
+msgid "Germanic"
+msgstr "ألماني"
+
+msgid "Germanium"
+msgstr "الجرمانيوم"
+
+msgid "Germanized"
+msgstr "صار ألمانيًّا"
+
+msgid "Germans"
+msgstr "الألمان"
+
+msgid "Germantown"
+msgstr "جيرمانتاون"
+
+msgid "Germany"
+msgstr "ألمانيا"
+
+msgid "Germen"
+msgstr "الألمان"
+
+msgid "Germicidal"
+msgstr "مبيد للجراثيم"
+
+msgid "Germicide"
+msgstr "مبيد للجراثيم"
+
+msgid "Germicides"
+msgstr "مبيدات الجراثيم"
+
+msgid "Germinal"
+msgstr "جرثومي"
+
+msgid "Germinally"
+msgstr "بشكل جرثومي"
+
+msgid "Germinate"
+msgstr "إنم"
+
+msgid "Germinated"
+msgstr "نامي"
+
+msgid "Germinates"
+msgstr "ينمو"
+
+msgid "Germinating"
+msgstr "النمو"
+
+msgid "Germination"
+msgstr "الإستنبات"
+
+msgid "Germinations"
+msgstr "الإستنبات"
+
+msgid "Germinative"
+msgstr "إستنباتي"
+
+msgid "Germinatively"
+msgstr "بشكل إستنباتي"
+
+msgid "Germs"
+msgstr "الجراثيم"
+
+msgid "Gerontological"
+msgstr "متّصل بعلم الشّيخوخة"
+
+msgid "Gerontologist"
+msgstr "الإختصاصي بالشيخوخة"
+
+msgid "Gerontologists"
+msgstr "الإختصاصيون بالشيخوخة"
+
+msgid "Gerontology"
+msgstr "علم الشيخوخة"
+
+msgid "Gerry"
+msgstr "جيري"
+
+msgid "Gerrymander"
+msgstr "غشّ"
+
+msgid "Gerrymandered"
+msgstr "مغشوش"
+
+msgid "Gerrymandering"
+msgstr "الغشّ"
+
+msgid "Gerrymanders"
+msgstr "يغشّ"
+
+msgid "Gershwin"
+msgstr "جرشوين - ملحّن أمريكيّ"
+
+msgid "Gershwins"
+msgstr "جرشوين"
+
+msgid "Gertrude"
+msgstr "جيرترود"
+
+msgid "Gerund"
+msgstr "إسم المصدر"
+
+msgid "Gerundial"
+msgstr "مصدري"
+
+msgid "Gerundive"
+msgstr "صيغة المصدر"
+
+msgid "Gerunds"
+msgstr "أسماء المصدر"
+
+msgid "Gestalt"
+msgstr "الجشطالت"
+
+msgid "Gestalts"
+msgstr "الجشطالت"
+
+msgid "Gestapo"
+msgstr "الجستابو"
+
+msgid "Gestate"
+msgstr "إحمل"
+
+msgid "Gestated"
+msgstr "محمول"
+
+msgid "Gestates"
+msgstr "يحمل"
+
+msgid "Gestating"
+msgstr "الحمل"
+
+msgid "Gestation"
+msgstr "الحمل"
+
+msgid "Gestations"
+msgstr "الحمل"
+
+msgid "Gesticulate"
+msgstr "أومأ"
+
+msgid "Gesticulated"
+msgstr "مومأ"
+
+msgid "Gesticulates"
+msgstr "يأومأ"
+
+msgid "Gesticulating"
+msgstr "الإيماء"
+
+msgid "Gesticulation"
+msgstr "الإيماء"
+
+msgid "Gesticulations"
+msgstr "الإيماءات"
+
+msgid "Gesticulative"
+msgstr "إيمائي"
+
+msgid "Gesticulatively"
+msgstr "بشكل إيمائي"
+
+msgid "Gesture"
+msgstr "البادرة"
+
+msgid "Gestured"
+msgstr "مومأ"
+
+msgid "Gestures"
+msgstr "المبادرات"
+
+msgid "Gesturing"
+msgstr "الإيماء"
+
+msgid "Get"
+msgstr "أصبح"
+
+msgid "Getaway"
+msgstr "المهرب"
+
+msgid "Getaways"
+msgstr "المهارب"
+
+msgid "Gets"
+msgstr "يصبح"
+
+msgid "Getter"
+msgstr "حاصل على"
+
+msgid "Getters"
+msgstr "حاصل على"
+
+msgid "Getting"
+msgstr "يصبح"
+
+msgid "Getty"
+msgstr "جيتي"
+
+msgid "Gettysburg"
+msgstr "جيتيسبيرغ"
+
+msgid "Gew"
+msgstr "جيو"
+
+msgid "Geyser"
+msgstr "السخّان"
+
+msgid "Geysers"
+msgstr "السخّانات"
+
+msgid "Ghana"
+msgstr "غانا"
+
+msgid "Ghastlier"
+msgstr "أشدّ فظاعة"
+
+msgid "Ghastliest"
+msgstr "أشدّ فظاعة"
+
+msgid "Ghastliness"
+msgstr "الفظاعة"
+
+msgid "Ghastly"
+msgstr "فظيع"
+
+msgid "Ghent"
+msgstr "غينت"
+
+msgid "Gherkin"
+msgstr "الخيارة"
+
+msgid "Gherkins"
+msgstr "الخيار"
+
+msgid "Ghetto"
+msgstr "الغيتو"
+
+msgid "Ghettos"
+msgstr "الغيتو"
+
+msgid "Ghost"
+msgstr "الشبح"
+
+msgid "Ghosted"
+msgstr "تحرك بخفّة"
+
+msgid "Ghosting"
+msgstr "الحركة بخفّة"
+
+msgid "Ghostlier"
+msgstr "شبحي"
+
+msgid "Ghostlike"
+msgstr "كما الشبح"
+
+msgid "Ghostliness"
+msgstr "الشبحيّة"
+
+msgid "Ghostly"
+msgstr "شبحي"
+
+msgid "Ghosts"
+msgstr "الأشباح"
+
+msgid "Ghostwriter"
+msgstr "المؤلّف الذي يكتب تحت إسم مستعار"
+
+msgid "Ghoul"
+msgstr "غول"
+
+msgid "Ghoulish"
+msgstr "غولي"
+
+msgid "Ghoulishly"
+msgstr "بشكل غولي"
+
+msgid "Ghoulishness"
+msgstr "الوحشيّة"
+
+msgid "Ghouls"
+msgstr "الغول"
+
+msgid "Giacomo"
+msgstr "جياكومو"
+
+msgid "Giant"
+msgstr "العملاق"
+
+msgid "Giantess"
+msgstr "العملاقة"
+
+msgid "Giants"
+msgstr "العمالقة"
+
+msgid "Gib"
+msgstr "غب"
+
+msgid "Gibber"
+msgstr "ثرثر"
+
+msgid "Gibbered"
+msgstr "مثرثر"
+
+msgid "Gibbering"
+msgstr "الثرثرة"
+
+msgid "Gibberish"
+msgstr "هراء"
+
+msgid "Gibbers"
+msgstr "يثرثر"
+
+msgid "Gibbet"
+msgstr "المشنقة"
+
+msgid "Gibbeted"
+msgstr "معدم"
+
+msgid "Gibbeting"
+msgstr "الإعدام"
+
+msgid "Gibbets"
+msgstr "المشانق"
+
+msgid "Gibbon"
+msgstr "غيبون"
+
+msgid "Gibbons"
+msgstr "قردة الغيبون"
+
+msgid "Gibbous"
+msgstr "محدّب"
+
+msgid "Gibbously"
+msgstr "بشكل محدّب"
+
+msgid "Gibbousness"
+msgstr "البروز"
+
+msgid "Gibbs"
+msgstr "جيبس"
+
+msgid "Gibby"
+msgstr "غبي"
+
+msgid "Gibe"
+msgstr "الإستهزاء"
+
+msgid "Gibed"
+msgstr "مستهزأ ب"
+
+msgid "Giber"
+msgstr "المتلفّظ"
+
+msgid "Gibes"
+msgstr "الإستهزاء"
+
+msgid "Gibing"
+msgstr "الإستهزاء"
+
+msgid "Giblet"
+msgstr "الأحشاء"
+
+msgid "Giblets"
+msgstr "الأحشاء"
+
+msgid "Gibraltar"
+msgstr "جبل طارق"
+
+msgid "Gibson"
+msgstr "جيبسن"
+
+msgid "GID"
+msgstr "رمز المجموعة"
+
+msgid "Giddap"
+msgstr "إلى الأمام"
+
+msgid "Giddied"
+msgstr "أصابه دوار"
+
+msgid "Giddier"
+msgstr "أكثر دوخة"
+
+msgid "Giddiest"
+msgstr "دائخ"
+
+msgid "Giddily"
+msgstr "بشكل دائخ"
+
+msgid "Giddiness"
+msgstr "الدوخة"
+
+msgid "Giddings"
+msgstr "جيدينجز"
+
+msgid "Giddy"
+msgstr "دائخ"
+
+msgid "Giddying"
+msgstr "يصاب بدوار"
+
+msgid "Gideon"
+msgstr "جديون"
+
+msgid "Gifford"
+msgstr "جيفورد"
+
+msgid "Gift"
+msgstr "الهدية"
+
+msgid "Gifted"
+msgstr "موهوب"
+
+msgid "Giftedly"
+msgstr "بشكل موهوب"
+
+msgid "Giftedness"
+msgstr "الموهبة"
+
+msgid "Gifts"
+msgstr "الهدايا"
+
+msgid "Gig"
+msgstr "الحفلة"
+
+msgid "Gigabit"
+msgstr "جيجابيت"
+
+msgid "Gigabyte"
+msgstr "الجيجابايت"
+
+msgid "Gigacycle"
+msgstr "جيجاسيكل"
+
+msgid "Gigacycles"
+msgstr "جيجاسيكليز"
+
+msgid "Gigahertz"
+msgstr "جيجاهيرتز"
+
+msgid "Gigantic"
+msgstr "عملاق"
+
+msgid "Giganticly"
+msgstr "بشكل عملاق"
+
+msgid "Gigawatt"
+msgstr "جيجوات"
+
+msgid "Gigging"
+msgstr "العزف"
+
+msgid "Giggle"
+msgstr "الضحكة"
+
+msgid "Giggled"
+msgstr "ضاحك"
+
+msgid "Giggler"
+msgstr "الضاحك"
+
+msgid "Giggles"
+msgstr "الضحك"
+
+msgid "Giggling"
+msgstr "الضحك"
+
+msgid "Gigglingly"
+msgstr "بقهقهة"
+
+msgid "Gigs"
+msgstr "العربات"
+
+msgid "Gil"
+msgstr "جل"
+
+msgid "Gila"
+msgstr "جيلا"
+
+msgid "Gilbert"
+msgstr "جلبرت"
+
+msgid "Gilbertson"
+msgstr "جيلبيرتسون"
+
+msgid "Gilchrist"
+msgstr "جيلكريست"
+
+msgid "Gild"
+msgstr "ذهّب"
+
+msgid "Gilda"
+msgstr "جيلدا"
+
+msgid "Gilded"
+msgstr "مذهّب"
+
+msgid "Gilder"
+msgstr "الذهاب"
+
+msgid "Gilders"
+msgstr "الملمّعون"
+
+msgid "Gilding"
+msgstr "التذهيب"
+
+msgid "Gildings"
+msgstr "الطلاء بالذهب"
+
+msgid "Gilds"
+msgstr "يذهّب"
+
+msgid "Gilead"
+msgstr "جيليد - تقع في شمال غرب الأردن"
+
+msgid "Giles"
+msgstr "جيلز"
+
+msgid "Gill"
+msgstr "الخيشوم"
+
+msgid "Gilled"
+msgstr "خيشوميّ"
+
+msgid "Giller"
+msgstr "جيلر"
+
+msgid "Gillespie"
+msgstr "جيليسبي"
+
+msgid "Gillette"
+msgstr "جيليت"
+
+msgid "Gilligan"
+msgstr "جيليجان"
+
+msgid "Gilling"
+msgstr "تنظيف السمك"
+
+msgid "Gills"
+msgstr "الخياشيم"
+
+msgid "Gilmore"
+msgstr "جيلمور"
+
+msgid "Gilt"
+msgstr "ذهبي"
+
+msgid "Gilts"
+msgstr "الطّلاءات"
+
+msgid "Gimbal"
+msgstr "جيمبال - جهاز يبقي الجسم أفقي"
+
+msgid "Gimbaled"
+msgstr "مزوّد بجمبل"
+
+msgid "Gimbals"
+msgstr "جيمبال - أجهزة تبقي الجسم أفقي"
+
+msgid "Gimbel"
+msgstr "جيمبل"
+
+msgid "Gimlet"
+msgstr "المثقب"
+
+msgid "Gimlets"
+msgstr "المثاقب"
+
+msgid "Gimmick"
+msgstr "الحيلة"
+
+msgid "Gimmickry"
+msgstr "الحِيَل"
+
+msgid "Gimmicks"
+msgstr "الحيل"
+
+msgid "Gimp"
+msgstr "الأعرج"
+
+msgid "Gimpy"
+msgstr "بعرج"
+
+msgid "Gin"
+msgstr "الجنّ"
+
+msgid "Gina"
+msgstr "جينا"
+
+msgid "Ginger"
+msgstr "الزنجبيل"
+
+msgid "Gingerbread"
+msgstr "كعكة الزنجبيل"
+
+msgid "Gingered"
+msgstr "تبّل بالزنجبيل"
+
+msgid "Gingering"
+msgstr "التتبيل بالزنجبيل"
+
+msgid "Gingerliness"
+msgstr "العناية الفائقة"
+
+msgid "Gingerly"
+msgstr "بحذر"
+
+msgid "Gingham"
+msgstr "القماش القطني"
+
+msgid "Ginghams"
+msgstr "الأقمشة القطنية"
+
+msgid "Gingivitis"
+msgstr "إلتهاب اللثّة"
+
+msgid "Gingko"
+msgstr "الجنكة - شجرة"
+
+msgid "Ginkgo"
+msgstr "الجنكة - شجرة"
+
+msgid "Ginmill"
+msgstr "حانة - مكان تقديم المشروبات الكحولية"
+
+msgid "Ginn"
+msgstr "جن"
+
+msgid "Ginning"
+msgstr "الصّيد"
+
+msgid "Gino"
+msgstr "جينو"
+
+msgid "Gins"
+msgstr "الجنّ"
+
+msgid "Ginsberg"
+msgstr "جينسبيرج"
+
+msgid "Ginsburg"
+msgstr "جينسبيرغ"
+
+msgid "Ginseng"
+msgstr "الجينسنغ"
+
+msgid "Gioconda"
+msgstr "جيوكوندا"
+
+msgid "Giorgio"
+msgstr "جورجيو"
+
+msgid "Giovanni"
+msgstr "جيوفاني"
+
+msgid "Gipsies"
+msgstr "الغجر"
+
+msgid "Gipsy"
+msgstr "الغجري"
+
+msgid "Giraffe"
+msgstr "الزرافة"
+
+msgid "Giraffes"
+msgstr "الزرافات"
+
+msgid "Gird"
+msgstr "إربط"
+
+msgid "Girded"
+msgstr "مربوط"
+
+msgid "Girder"
+msgstr "العارضة"
+
+msgid "Girders"
+msgstr "العوارض"
+
+msgid "Girding"
+msgstr "الربط"
+
+msgid "Girdle"
+msgstr "النطاق"
+
+msgid "Girdled"
+msgstr "محزّم"
+
+msgid "Girdler"
+msgstr "صانع الأحزمة"
+
+msgid "Girdles"
+msgstr "الزنّرات"
+
+msgid "Girdling"
+msgstr "التحزيم"
+
+msgid "Girds"
+msgstr "يربط"
+
+msgid "Girl"
+msgstr "البنت"
+
+msgid "Girlfriend"
+msgstr "الصديقة"
+
+msgid "Girlfriends"
+msgstr "الصديقات"
+
+msgid "Girlhood"
+msgstr "البنوتة"
+
+msgid "Girlie"
+msgstr "بناتي"
+
+msgid "Girlish"
+msgstr "بناتي"
+
+msgid "Girlishly"
+msgstr "بشكل بناتي"
+
+msgid "Girlishness"
+msgstr "البنوتة"
+
+msgid "Girls"
+msgstr "البنات"
+
+msgid "Girt"
+msgstr "ثبّت"
+
+msgid "Girth"
+msgstr "الطوق"
+
+msgid "Girths"
+msgstr "يطوّق"
+
+msgid "Girts"
+msgstr "يطوّق"
+
+msgid "Gist"
+msgstr "الفحوى"
+
+msgid "Git"
+msgstr "بوابة"
+
+msgid "Giuliano"
+msgstr "جيوليانو"
+
+msgid "Giuseppe"
+msgstr "جيوسيب"
+
+msgid "Give"
+msgstr "أعط"
+
+msgid "Giveaway"
+msgstr "الهبة"
+
+msgid "Giveaways"
+msgstr "الهبات"
+
+msgid "Given"
+msgstr "معطى"
+
+msgid "Givenness"
+msgstr "الأخذ المفروض"
+
+msgid "Giver"
+msgstr "المانح"
+
+msgid "Givers"
+msgstr "المانحون"
+
+msgid "Gives"
+msgstr "يعطي"
+
+msgid "Giving"
+msgstr "الإعطاء"
+
+msgid "Gizmo"
+msgstr "الأداة"
+
+msgid "Gizmos"
+msgstr "الأدوات"
+
+msgid "Gizzard"
+msgstr "الحوصلة"
+
+msgid "Gizzards"
+msgstr "الحوصلات"
+
+msgid "Glacer"
+msgstr "مصقول"
+
+msgid "Glacial"
+msgstr "جليدي"
+
+msgid "Glacially"
+msgstr "بشكل جليدي"
+
+msgid "Glaciate"
+msgstr "جمّد"
+
+msgid "Glaciated"
+msgstr "مجمّد"
+
+msgid "Glaciates"
+msgstr "يجمّد"
+
+msgid "Glaciating"
+msgstr "التجميد"
+
+msgid "Glaciation"
+msgstr "التجميد"
+
+msgid "Glacier"
+msgstr "الكتلة الجليدية"
+
+msgid "Glaciers"
+msgstr "الكتل الجليدية"
+
+msgid "Glacis"
+msgstr "منحدر"
+
+msgid "Glad"
+msgstr "مسرور"
+
+msgid "Gladden"
+msgstr "أفرح"
+
+msgid "Gladdened"
+msgstr "مفرح"
+
+msgid "Gladdening"
+msgstr "الإفراح"
+
+msgid "Gladdens"
+msgstr "يفرح"
+
+msgid "Gladder"
+msgstr "أسعد"
+
+msgid "Gladdest"
+msgstr "الأسعد"
+
+msgid "Glade"
+msgstr "الفسحة"
+
+msgid "Glades"
+msgstr "الفسح"
+
+msgid "Gladiator"
+msgstr "المصارع"
+
+msgid "Gladiators"
+msgstr "المصارعون"
+
+msgid "Gladiolus"
+msgstr "الزنبق"
+
+msgid "Gladioluses"
+msgstr "الزنابق"
+
+msgid "Gladly"
+msgstr "بسرور"
+
+msgid "Gladness"
+msgstr "الفرح"
+
+msgid "Gladsomely"
+msgstr "بشكل مسرور"
+
+msgid "Gladstone"
+msgstr "الحقيبة"
+
+msgid "Gladys"
+msgstr "جلاديس"
+
+msgid "Glamor"
+msgstr "البهجة"
+
+msgid "Glamorize"
+msgstr "جمّل"
+
+msgid "Glamorized"
+msgstr "مجمّل"
+
+msgid "Glamorizer"
+msgstr "السّاحر"
+
+msgid "Glamorizers"
+msgstr "السّحرة"
+
+msgid "Glamorizes"
+msgstr "يجمّل"
+
+msgid "Glamorizing"
+msgstr "التجميل"
+
+msgid "Glamorous"
+msgstr "فتّان"
+
+msgid "Glamorously"
+msgstr "بشكل فتّان"
+
+msgid "Glamorousness"
+msgstr "الأبهار، الجاذبية"
+
+msgid "Glamour"
+msgstr "البهجة"
+
+msgid "Glamour-girl"
+msgstr "الفتاة الجذّابة"
+
+msgid "Glamours"
+msgstr "الفتن"
+
+msgid "Glance"
+msgstr "اللمحة"
+
+msgid "Glanced"
+msgstr "ملموح"
+
+msgid "Glances"
+msgstr "اللمحات"
+
+msgid "Glancing"
+msgstr "اللمح"
+
+msgid "Glancingly"
+msgstr "بشكل عابر"
+
+msgid "Gland"
+msgstr "الغدّة"
+
+msgid "Glanders"
+msgstr "السقاوة"
+
+msgid "Glands"
+msgstr "الغدّد"
+
+msgid "Glandular"
+msgstr "غدّي"
+
+msgid "Glandularly"
+msgstr "بشكل غدّي"
+
+msgid "Glans"
+msgstr "حشفة القضيب"
+
+msgid "Glare"
+msgstr "الوهج"
+
+msgid "Glare-free"
+msgstr "خالي من وهج"
+
+msgid "Glared"
+msgstr "ساطع"
+
+msgid "Glares"
+msgstr "التوهجات"
+
+msgid "Glarier"
+msgstr "ساطع"
+
+msgid "Glariest"
+msgstr "ساطع"
+
+msgid "Glariness"
+msgstr "اللمعان"
+
+msgid "Glaring"
+msgstr "السطع"
+
+msgid "Glaringly"
+msgstr "بشكل ساطع"
+
+msgid "Glaringness"
+msgstr "التوهّج"
+
+msgid "Glary"
+msgstr "ساطع"
+
+msgid "Glas"
+msgstr "جلاس"
+
+msgid "Glasgow"
+msgstr "غلاسكو"
+
+msgid "Glass"
+msgstr "الزجاج"
+
+msgid "Glassblower"
+msgstr "نافخ الزجاج"
+
+msgid "Glassblowing"
+msgstr "نفخ الزجاج"
+
+msgid "Glassed"
+msgstr "زوّد بزجاج"
+
+msgid "Glasses"
+msgstr "الأقداح"
+
+msgid "Glassful"
+msgstr "القدح"
+
+msgid "Glassfuls"
+msgstr "القدح"
+
+msgid "Glassier"
+msgstr "أكثر شبها بالزجاج"
+
+msgid "Glassiest"
+msgstr "أكثر شبها بالزجاج"
+
+msgid "Glassine"
+msgstr "ورق عازل"
+
+msgid "Glassiness"
+msgstr "الزجاجية"
+
+msgid "Glassless"
+msgstr "بلا زجاج"
+
+msgid "Glassware"
+msgstr "الزجاجيات"
+
+msgid "Glassworks"
+msgstr "مصانع الزجاج"
+
+msgid "Glasswort"
+msgstr "الأشنان"
+
+msgid "Glassy"
+msgstr "أكثر شبها بالزجاج"
+
+msgid "Glaswegian"
+msgstr "الغلاسكويي"
+
+msgid "Glaucoma"
+msgstr "الزرق"
+
+msgid "Glaucous"
+msgstr "الأخضر الشاحب"
+
+msgid "Glaze"
+msgstr "الصقيل"
+
+msgid "Glazed"
+msgstr "مزجّج"
+
+msgid "Glazer"
+msgstr "الزجّاج"
+
+msgid "Glazers"
+msgstr "الزجّاجون"
+
+msgid "Glazes"
+msgstr "يزجّج"
+
+msgid "Glazier"
+msgstr "الزجّاج"
+
+msgid "Glaziers"
+msgstr "الزجّاجون"
+
+msgid "Glazing"
+msgstr "التزجيج"
+
+msgid "Gleam"
+msgstr "الوميض"
+
+msgid "Gleamed"
+msgstr "لامع"
+
+msgid "Gleaming"
+msgstr "اللمعان"
+
+msgid "Gleams"
+msgstr "الومضات"
+
+msgid "Glean"
+msgstr "إجمع"
+
+msgid "Gleaned"
+msgstr "مجموع"
+
+msgid "Gleaner"
+msgstr "الجامع"
+
+msgid "Gleaning"
+msgstr "الجمع"
+
+msgid "Gleanings"
+msgstr "المقتنيات"
+
+msgid "Gleans"
+msgstr "يجمع"
+
+msgid "Gleason"
+msgstr "غليسون"
+
+msgid "Glee"
+msgstr "الغبطة"
+
+msgid "Gleed"
+msgstr "الحريق"
+
+msgid "Gleeful"
+msgstr "فرحان"
+
+msgid "Gleefully"
+msgstr "ببهجة"
+
+msgid "Gleefulness"
+msgstr "الفرح"
+
+msgid "Glees"
+msgstr "الغبطة"
+
+msgid "Glen"
+msgstr "غلين"
+
+msgid "Glenda"
+msgstr "غليندا"
+
+msgid "Glendale"
+msgstr "غليندال"
+
+msgid "Glengarry"
+msgstr "القبعة"
+
+msgid "Glenn"
+msgstr "جلين"
+
+msgid "Glens"
+msgstr "الوديان"
+
+msgid "Glib"
+msgstr "الخصلة"
+
+msgid "Glibber"
+msgstr "أكثر طلاقة"
+
+msgid "Glibbest"
+msgstr "أكثر طلاقة"
+
+msgid "Glibly"
+msgstr "عفويا"
+
+msgid "Glibness"
+msgstr "الكلام المعسول"
+
+msgid "Glidden"
+msgstr "غليدين"
+
+msgid "Glide"
+msgstr "الإنزلاق"
+
+msgid "Glided"
+msgstr "منزلق"
+
+msgid "Glider"
+msgstr "المنزلق"
+
+msgid "Gliders"
+msgstr "المنزلقون"
+
+msgid "Glides"
+msgstr "الإنزلاقات"
+
+msgid "Gliding"
+msgstr "التزلّق"
+
+msgid "Glim"
+msgstr "الضّوء"
+
+msgid "Glimmer"
+msgstr "الوميض"
+
+msgid "Glimmer-free"
+msgstr "خالي من وميض"
+
+msgid "Glimmered"
+msgstr "موموض"
+
+msgid "Glimmering"
+msgstr "البصيص"
+
+msgid "Glimmers"
+msgstr "الوميض"
+
+msgid "Glimpse"
+msgstr "اللمحة"
+
+msgid "Glimpsed"
+msgstr "ملموح"
+
+msgid "Glimpser"
+msgstr "من يلمح بسرعة"
+
+msgid "Glimpsers"
+msgstr "من يلمحون بسرعة"
+
+msgid "Glimpses"
+msgstr "اللمحات"
+
+msgid "Glimpsing"
+msgstr "اللمح"
+
+msgid "Glines"
+msgstr "جامد"
+
+msgid "Glint"
+msgstr "اللمعان"
+
+msgid "Glinted"
+msgstr "موموض"
+
+msgid "Glinting"
+msgstr "الومض"
+
+msgid "Glints"
+msgstr "اللمعان"
+
+msgid "Glissade"
+msgstr "الإنزلاق"
+
+msgid "Glisten"
+msgstr "تألّق"
+
+msgid "Glistened"
+msgstr "متألّق"
+
+msgid "Glistening"
+msgstr "التألّق"
+
+msgid "Glistens"
+msgstr "يتألّق"
+
+msgid "Glitch"
+msgstr "الخطأ"
+
+msgid "Glitches"
+msgstr "الأخطاء"
+
+msgid "Glitter"
+msgstr "غليتر"
+
+msgid "Glittered"
+msgstr "متألّق"
+
+msgid "Glittering"
+msgstr "التألّق"
+
+msgid "Glitteringly"
+msgstr "بشكل متألّق"
+
+msgid "Glitters"
+msgstr "التألق"
+
+msgid "Gloaming"
+msgstr "الغسق"
+
+msgid "Gloamings"
+msgstr "الغسق"
+
+msgid "Gloat"
+msgstr "إشمت"
+
+msgid "Gloated"
+msgstr "مشموت"
+
+msgid "Gloater"
+msgstr "السّعيد"
+
+msgid "Gloating"
+msgstr "الشماتة"
+
+msgid "Gloats"
+msgstr "يشمت"
+
+msgid "Glob"
+msgstr "الكرة"
+
+msgid "Global"
+msgstr "عالمي"
+
+msgid "Globalisation"
+msgstr "العولمة"
+
+msgid "Globalise"
+msgstr "يعولم"
+
+msgid "Globalization"
+msgstr "العولمة"
+
+msgid "Globalize"
+msgstr "يعولم"
+
+msgid "Globally"
+msgstr "عالميا"
+
+msgid "Globals"
+msgstr "غلوبالس"
+
+msgid "Globe"
+msgstr "الكرة الأرضية"
+
+msgid "Globes"
+msgstr "الكرات"
+
+msgid "Globetrotter"
+msgstr "الرّحّالة"
+
+msgid "Globetrotting"
+msgstr "التّرحال"
+
+msgid "Globing"
+msgstr "التّكوير"
+
+msgid "Globular"
+msgstr "كروي"
+
+msgid "Globularity"
+msgstr "الكروية"
+
+msgid "Globularly"
+msgstr "بشكل كروي"
+
+msgid "Globularness"
+msgstr "الكروية"
+
+msgid "Globule"
+msgstr "الكريّة"
+
+msgid "Globules"
+msgstr "الكريّات"
+
+msgid "Globulin"
+msgstr "الجلوبيولين"
+
+msgid "Globulins"
+msgstr "الجلوبيولين"
+
+msgid "Glom"
+msgstr "يسرق"
+
+msgid "Glomerular"
+msgstr "كبيبي"
+
+msgid "Glommed"
+msgstr "سرق"
+
+msgid "Gloom"
+msgstr "الغمّ"
+
+msgid "Gloomier"
+msgstr "أكثر إكتئابا"
+
+msgid "Gloomiest"
+msgstr "أكثر إكتئابا"
+
+msgid "Gloomily"
+msgstr "بشكل كئيب"
+
+msgid "Gloominess"
+msgstr "التشاؤم"
+
+msgid "Glooms"
+msgstr "الكآبة"
+
+msgid "Gloomy"
+msgstr "كئيب"
+
+msgid "Gloria"
+msgstr "غلوريا"
+
+msgid "Gloriana"
+msgstr "غلوريانا"
+
+msgid "Gloried"
+msgstr "متفاخر"
+
+msgid "Glories"
+msgstr "الأمجاد"
+
+msgid "Glorification"
+msgstr "التمجيد"
+
+msgid "Glorifications"
+msgstr "التمجيد"
+
+msgid "Glorified"
+msgstr "ممجّد"
+
+msgid "Glorifier"
+msgstr "المعظِّم"
+
+msgid "Glorifiers"
+msgstr "المعظِّمون"
+
+msgid "Glorifies"
+msgstr "يمجّد"
+
+msgid "Glorify"
+msgstr "مجّد"
+
+msgid "Glorifying"
+msgstr "التمجيد"
+
+msgid "Gloriole"
+msgstr "الهالة"
+
+msgid "Glorioles"
+msgstr "الهالات"
+
+msgid "Glorious"
+msgstr "مجيد"
+
+msgid "Gloriously"
+msgstr "بشكل مجيد"
+
+msgid "Gloriousness"
+msgstr "المجد"
+
+msgid "Glory"
+msgstr "المجد"
+
+msgid "Glorying"
+msgstr "التفاخر"
+
+msgid "Gloss"
+msgstr "اللمعان"
+
+msgid "Glossaries"
+msgstr "المسارد"
+
+msgid "Glossary"
+msgstr "المسرد"
+
+msgid "Glossed"
+msgstr "ملمّع"
+
+msgid "Glosses"
+msgstr "اللمعان"
+
+msgid "Glossier"
+msgstr "ألمع"
+
+msgid "Glossies"
+msgstr "ورق لمّاع"
+
+msgid "Glossiest"
+msgstr "ألمع"
+
+msgid "Glossiness"
+msgstr "اللمعان"
+
+msgid "Glossing"
+msgstr "التلميع"
+
+msgid "Glossolalia"
+msgstr "خِطاب أجوف"
+
+msgid "Glossy"
+msgstr "لمّاع"
+
+msgid "GlossyPhoto"
+msgstr "صورةلامع"
+
+msgid "Glottal"
+msgstr "مزماري"
+
+msgid "Glottis"
+msgstr "فتحة المزمار"
+
+msgid "Glottology"
+msgstr "علم اللغات"
+
+msgid "Gloucester"
+msgstr "جلوكيستير"
+
+msgid "Glove"
+msgstr "القفاز"
+
+msgid "Gloved"
+msgstr "مرتدي قفّاز"
+
+msgid "Gloveless"
+msgstr "بلا قفّاز"
+
+msgid "Glover"
+msgstr "صانع القفّازات"
+
+msgid "Glovers"
+msgstr "صنّاع القفّازات"
+
+msgid "Gloves"
+msgstr "القفازات"
+
+msgid "Gloving"
+msgstr "تغطية بقفّاز"
+
+msgid "Glow"
+msgstr "الوهج"
+
+msgid "Glow-discharge"
+msgstr "إطلاق وهج"
+
+msgid "Glowed"
+msgstr "متوهّج"
+
+msgid "Glower"
+msgstr "حدّق"
+
+msgid "Glowered"
+msgstr "محدّق"
+
+msgid "Glowering"
+msgstr "التحديق"
+
+msgid "Glowers"
+msgstr "يحدّق"
+
+msgid "Glowing"
+msgstr "التوهّج"
+
+msgid "Glowingly"
+msgstr "بتوقّد"
+
+msgid "Glows"
+msgstr "التوهجات"
+
+msgid "Glowworm"
+msgstr "سراج الليل"
+
+msgid "Glucose"
+msgstr "الجلوكوز"
+
+msgid "Glue"
+msgstr "الصمغ"
+
+msgid "Glued"
+msgstr "إلتصق"
+
+msgid "Gluer"
+msgstr "المصمّغ"
+
+msgid "Gluers"
+msgstr "المصمّغون"
+
+msgid "Glues"
+msgstr "الأصماغ"
+
+msgid "Gluey"
+msgstr "صمغي"
+
+msgid "Gluing"
+msgstr "الإلتصاق"
+
+msgid "Glum"
+msgstr "مكتئب"
+
+msgid "Glumly"
+msgstr "بشكل مكتئب"
+
+msgid "Glumness"
+msgstr "الإكتئاب"
+
+msgid "Glut"
+msgstr "التخمة"
+
+msgid "Glutamate"
+msgstr "جلتاميت"
+
+msgid "Glutamic"
+msgstr "جلتاميت"
+
+msgid "Glutamine"
+msgstr "الجلوتامين"
+
+msgid "Gluten"
+msgstr "الغرويّة"
+
+msgid "Glutinous"
+msgstr "غروي"
+
+msgid "Glutinously"
+msgstr "بشكل غروي"
+
+msgid "Glutinousness"
+msgstr "اللزوجة"
+
+msgid "Gluts"
+msgstr "التخم"
+
+msgid "Glutted"
+msgstr "متخم"
+
+msgid "Glutting"
+msgstr "الإتخام"
+
+msgid "Glutton"
+msgstr "النهم"
+
+msgid "Gluttonous"
+msgstr "شره، فجعان، نهم"
+
+msgid "Gluttonously"
+msgstr "بشراهة"
+
+msgid "Gluttonousness"
+msgstr "الشراهة"
+
+msgid "Gluttons"
+msgstr "النهم"
+
+msgid "Gluttony"
+msgstr "الشراهة"
+
+msgid "Glyceride"
+msgstr "جليسيرايد"
+
+msgid "Glycerin"
+msgstr "الغليسرين"
+
+msgid "Glycerinate"
+msgstr "غلسر"
+
+msgid "Glycerinated"
+msgstr "مغلسر"
+
+msgid "Glycerine"
+msgstr "الغليسرين"
+
+msgid "Glycerol"
+msgstr "الجلسرين"
+
+msgid "Glycine"
+msgstr "جليكاين"
+
+msgid "Glycogen"
+msgstr "الجليكوجين"
+
+msgid "Glycol"
+msgstr "الجليكول إيثيلين"
+
+msgid "Glycols"
+msgstr "الجليكول إيثيلين"
+
+msgid "Glynn"
+msgstr "جلين"
+
+msgid "Glyph"
+msgstr "الشكل المنقوش"
+
+msgid "GM"
+msgstr "جينيرال موتورز"
+
+msgid "GMT"
+msgstr "توقيت غرينيتش"
+
+msgid "Gnarl"
+msgstr "العقدة"
+
+msgid "Gnarled"
+msgstr "مغضّن"
+
+msgid "Gnarls"
+msgstr "العقد"
+
+msgid "Gnash"
+msgstr "صرّ"
+
+msgid "Gnashed"
+msgstr "مصرور"
+
+msgid "Gnashes"
+msgstr "يصرّ"
+
+msgid "Gnashing"
+msgstr "الصرير"
+
+msgid "Gnat"
+msgstr "البعوضة"
+
+msgid "Gnats"
+msgstr "البعوض"
+
+msgid "Gnaw"
+msgstr "إقضم"
+
+msgid "Gnawed"
+msgstr "قضم"
+
+msgid "Gnawer"
+msgstr "القضّام"
+
+msgid "Gnawing"
+msgstr "القضم"
+
+msgid "Gnawingly"
+msgstr "بقلق"
+
+msgid "Gnaws"
+msgstr "يقضم"
+
+msgid "Gnect"
+msgstr "إتصال"
+
+msgid "Gneiss"
+msgstr "النيس - نوع من الصخور"
+
+msgid "GNOME"
+msgstr "التمثال"
+
+msgid "Gnome-Session"
+msgstr "جلسة تمثال"
+
+msgid "Gnome-stonesempty"
+msgstr "جنوم"
+
+msgid "GnomeEntry"
+msgstr "خانة جينوم"
+
+msgid "Gnomes"
+msgstr "التماثيل"
+
+msgid "Gnomish"
+msgstr "عفريتي"
+
+msgid "Gnomon"
+msgstr "عقرب ساعة الشمس"
+
+msgid "Gnomonic"
+msgstr "ميليّ"
+
+msgid "Gnostic"
+msgstr "معرفي"
+
+msgid "GNP"
+msgstr "الدخل الوطني"
+
+msgid "GNU"
+msgstr "جينو"
+
+msgid "Gnus"
+msgstr "الظبي"
+
+msgid "Go"
+msgstr "إذهب"
+
+msgid "Go-slow"
+msgstr "التباطئ"
+
+msgid "Go-to"
+msgstr "إذهب إليه"
+
+msgid "Goa"
+msgstr "غوا"
+
+msgid "Goad"
+msgstr "المهماز"
+
+msgid "Goaded"
+msgstr "مثقوب"
+
+msgid "Goading"
+msgstr "الثقب"
+
+msgid "Goads"
+msgstr "المهمازات"
+
+msgid "Goal"
+msgstr "الهدف"
+
+msgid "Goalie"
+msgstr "حارس المرمى"
+
+msgid "Goalkeeper"
+msgstr "حارس المرمى"
+
+msgid "Goalless"
+msgstr "بدون أهداف"
+
+msgid "Goalmouth"
+msgstr "منطقة المرمى"
+
+msgid "Goalmouths"
+msgstr "منطقة المرمى"
+
+msgid "Goalpost"
+msgstr "العارضة"
+
+msgid "Goalposts"
+msgstr "عوارض المرمى"
+
+msgid "Goals"
+msgstr "الأهداف"
+
+msgid "Goat"
+msgstr "العنزة"
+
+msgid "Goatee"
+msgstr "السكسوكة"
+
+msgid "GoBack"
+msgstr "انطلقخلف"
+
+msgid "God"
+msgstr "اللّه"
+
+msgid "GoForward"
+msgstr "انطلقتقديم"
+
+msgid "GoHome"
+msgstr "انطلقمنزل"
+
+msgid "GoIndex"
+msgstr "انطلقفهرس"
+
+msgid "Gold"
+msgstr "معدن الذّهب"
+
+msgid "Good"
+msgstr "جيّد"
+
+msgid "Goodie"
+msgstr "الشيء الجيد"
+
+msgid "Goodies"
+msgstr "الأشياء الجيدة"
+
+msgid "Goodish"
+msgstr "لا بأس به"
+
+msgid "Goodlier"
+msgstr "لطيف"
+
+msgid "Goodliest"
+msgstr "لطيف"
+
+msgid "Goodly"
+msgstr "لطيف"
+
+msgid "Goodman"
+msgstr "الأب"
+
+msgid "Goodness"
+msgstr "الطيبة"
+
+msgid "Goodrich"
+msgstr "غوودريتش"
+
+msgid "Goods"
+msgstr "السلع"
+
+msgid "Goodwill"
+msgstr "النيّة الحسنة"
+
+msgid "Goodwin"
+msgstr "غوودوين"
+
+msgid "Goody"
+msgstr "الشيء الجيد"
+
+msgid "Goodyear"
+msgstr "جود يير"
+
+msgid "Gooey"
+msgstr "طريّ و لزج"
+
+msgid "Goof"
+msgstr "الهفوة"
+
+msgid "Goofed"
+msgstr "أخطأ"
+
+msgid "Goofier"
+msgstr "أخرق من"
+
+msgid "Goofiness"
+msgstr "الحماقة"
+
+msgid "Goofing"
+msgstr "يخطيء"
+
+msgid "Goofs"
+msgstr "الهفوات"
+
+msgid "Goofy"
+msgstr "أخرق"
+
+msgid "Gooiest"
+msgstr "الأكثر لزوجةً والتصاقً"
+
+msgid "Goop"
+msgstr "المادّة اللّزجة"
+
+msgid "Goopy"
+msgstr "لزج"
+
+msgid "Goos"
+msgstr "لزج"
+
+msgid "Goose"
+msgstr "الأوزّة"
+
+msgid "Gooseberries"
+msgstr "الكشمش"
+
+msgid "Gooseberry"
+msgstr "عنب الثّعلب"
+
+msgid "Goosed"
+msgstr "ضرب على المؤخّرة"
+
+msgid "Gooses"
+msgstr "يضرب على المؤخّرة"
+
+msgid "Goosing"
+msgstr "الضرب على المؤخّرة"
+
+msgid "GOP"
+msgstr "الحزب الجمهوري"
+
+msgid "Gopher"
+msgstr "الغوفر"
+
+msgid "Gophers"
+msgstr "الغوفر"
+
+msgid "Gordian"
+msgstr "معقّد جدًّا"
+
+msgid "Gordon"
+msgstr "جوردن"
+
+msgid "Gore"
+msgstr "غور"
+
+msgid "Gored"
+msgstr "مطعون"
+
+msgid "Goren"
+msgstr "غورين"
+
+msgid "Gores"
+msgstr "الدماء المسفوكة"
+
+msgid "Gorge"
+msgstr "الوادي"
+
+msgid "Gorged"
+msgstr "ملتهم"
+
+msgid "Gorgeous"
+msgstr "رائع"
+
+msgid "Gorgeously"
+msgstr "بشكل رائع"
+
+msgid "Gorgeousness"
+msgstr "الزهو"
+
+msgid "Gorger"
+msgstr "من يأكل بشراهة"
+
+msgid "Gorges"
+msgstr "الوديان"
+
+msgid "Gorging"
+msgstr "الإلتهام"
+
+msgid "Gorgon"
+msgstr "جورجون - إمرأة خرافية ذات شعر من الأفاعي"
+
+msgid "Gorham"
+msgstr "جورهام"
+
+msgid "Gorilla"
+msgstr "الغوريلا"
+
+msgid "Gorillas"
+msgstr "الغوريلات"
+
+msgid "Gorily"
+msgstr "بعنف"
+
+msgid "Goring"
+msgstr "الطعن"
+
+msgid "Gorky"
+msgstr "غوركي"
+
+msgid "Gormandize"
+msgstr "إلتهم"
+
+msgid "Gormandized"
+msgstr "ملتهم"
+
+msgid "Gormandizes"
+msgstr "يلتهم"
+
+msgid "Gormandizing"
+msgstr "الإلتهام"
+
+msgid "Gorse"
+msgstr "القندول"
+
+msgid "Gorton"
+msgstr "غورتون"
+
+msgid "Gory"
+msgstr "دموي"
+
+msgid "Gosh"
+msgstr "يا إلاهي"
+
+msgid "Goshawk"
+msgstr "الباز"
+
+msgid "Gosling"
+msgstr "فرخ الوزّ"
+
+msgid "Gospel"
+msgstr "الإنجيل"
+
+msgid "Gospeler"
+msgstr "إلهي"
+
+msgid "Gospelers"
+msgstr "قاريء الإنجيل"
+
+msgid "Gospels"
+msgstr "الإنجيل"
+
+msgid "Gossamer"
+msgstr "الخيط الرقيق"
+
+msgid "Gossip"
+msgstr "الثرثرة"
+
+msgid "Gossiped"
+msgstr "مشى بالنميمة"
+
+msgid "Gossiper"
+msgstr "النمّام"
+
+msgid "Gossiping"
+msgstr "النميمة"
+
+msgid "Gossips"
+msgstr "الثرثرة"
+
+msgid "Gossipy"
+msgstr "قشبي"
+
+msgid "Got"
+msgstr "أصبح"
+
+msgid "Gotcha"
+msgstr "مسكْتك"
+
+msgid "Goth"
+msgstr "القوطي، الجرماني"
+
+msgid "Gotham"
+msgstr "مدينة نيويورك"
+
+msgid "Gothic"
+msgstr "قوطي، جرماني"
+
+msgid "Gothically"
+msgstr "بصورة المانية"
+
+msgid "Gothicism"
+msgstr "البربرية"
+
+msgid "Goto"
+msgstr "القفز من مكان إلى آخر في البرمجيات"
+
+msgid "Gotta"
+msgstr "يجب"
+
+msgid "Gotten"
+msgstr "أصبح"
+
+msgid "Gottfried"
+msgstr "جوتفريد"
+
+msgid "Goucher"
+msgstr "جوتشر"
+
+msgid "Gouda"
+msgstr "غوودا"
+
+msgid "Gouge"
+msgstr "الحفارة"
+
+msgid "Gouged"
+msgstr "حفر"
+
+msgid "Gouger"
+msgstr "المخادع"
+
+msgid "Gouges"
+msgstr "الحفارات"
+
+msgid "Gouging"
+msgstr "الحفر"
+
+msgid "Goulash"
+msgstr "اليخني"
+
+msgid "Gould"
+msgstr "غوولد"
+
+msgid "Gourd"
+msgstr "القرعة"
+
+msgid "Gourds"
+msgstr "القرع"
+
+msgid "Gourmand"
+msgstr "النهم"
+
+msgid "Gourmands"
+msgstr "النهمون"
+
+msgid "Gourmet"
+msgstr "خبير الأطعمة"
+
+msgid "Gourmets"
+msgstr "خبراء الأطعمة"
+
+msgid "Gout"
+msgstr "النقرس"
+
+msgid "Gouty"
+msgstr "نقرسي"
+
+msgid "Govern"
+msgstr "إحكم"
+
+msgid "Governable"
+msgstr "محكوم"
+
+msgid "Governance"
+msgstr "الحكم"
+
+msgid "Governed"
+msgstr "محكوم"
+
+msgid "Governess"
+msgstr "المعلّمة"
+
+msgid "Governesses"
+msgstr "المعلّمات"
+
+msgid "Governing"
+msgstr "الحكم"
+
+msgid "Government"
+msgstr "الحكومة"
+
+msgid "Governmental"
+msgstr "حكومي"
+
+msgid "Governmentally"
+msgstr "بشكل حكومي"
+
+msgid "Governments"
+msgstr "الحكومات"
+
+msgid "Governor"
+msgstr "الحاكم"
+
+msgid "Governors"
+msgstr "الحكّام"
+
+msgid "Governorship"
+msgstr "الحكم"
+
+msgid "Governs"
+msgstr "يحكم"
+
+msgid "Gown"
+msgstr "الرداء"
+
+msgid "Gowned"
+msgstr "لَبَسَ"
+
+msgid "Gowns"
+msgstr "الأردية"
+
+msgid "GPO"
+msgstr "مكتب البريد العام"
+
+msgid "GPSS"
+msgstr "نظام للإستخدام العام للمحاكاة"
+
+msgid "Grab"
+msgstr "المسكة"
+
+msgid "Grabbed"
+msgstr "ممسوك"
+
+msgid "Grabber"
+msgstr "المنتزع"
+
+msgid "Grabbers"
+msgstr "الأيادي"
+
+msgid "Grabbing"
+msgstr "المسك"
+
+msgid "Grabs"
+msgstr "المسكات"
+
+msgid "Grace"
+msgstr "غرايس"
+
+msgid "Graced"
+msgstr "مشرّف"
+
+msgid "Graceful"
+msgstr "لطيف"
+
+msgid "Gracefully"
+msgstr "بلطافة"
+
+msgid "Gracefulness"
+msgstr "اللطافة"
+
+msgid "Graceless"
+msgstr "وقح"
+
+msgid "Gracelessly"
+msgstr "بوقاحة"
+
+msgid "Gracelessness"
+msgstr "جراسيليسنيس"
+
+msgid "Graces"
+msgstr "النعم"
+
+msgid "Gracie"
+msgstr "جرايسي"
+
+msgid "Gracing"
+msgstr "التشريف"
+
+msgid "Gracious"
+msgstr "مترف"
+
+msgid "Graciously"
+msgstr "بلطف"
+
+msgid "Graciousness"
+msgstr "الرقة"
+
+msgid "Graciousnesses"
+msgstr "الرقة"
+
+msgid "Grackle"
+msgstr "السّواديّة - طائر"
+
+msgid "Grad"
+msgstr "الخرّيج"
+
+msgid "Gradate"
+msgstr "درّج"
+
+msgid "Gradated"
+msgstr "مدرّج"
+
+msgid "Gradates"
+msgstr "يدرّج"
+
+msgid "Gradating"
+msgstr "التدرّج"
+
+msgid "Gradation"
+msgstr "التدريج"
+
+msgid "Gradations"
+msgstr "التدريجات"
+
+msgid "Grade"
+msgstr "الدرجة"
+
+msgid "Graded"
+msgstr "مدرّج"
+
+msgid "Gradely"
+msgstr "محترم"
+
+msgid "Grader"
+msgstr "آلة تمهيد التربة"
+
+msgid "Graders"
+msgstr "آلات تمهيد التربة"
+
+msgid "Grades"
+msgstr "الدرجات"
+
+msgid "Gradient"
+msgstr "الميل"
+
+msgid "Gradients"
+msgstr "الميول"
+
+msgid "Grading"
+msgstr "تصنيف السلع"
+
+msgid "Gradings"
+msgstr "تصنيف السلع"
+
+msgid "Grads"
+msgstr "الخريجون"
+
+msgid "Gradual"
+msgstr "تدريجي"
+
+msgid "Gradualist"
+msgstr "تدريجي"
+
+msgid "Gradually"
+msgstr "بشكل تدريجي"
+
+msgid "Gradualness"
+msgstr "التّدرّج"
+
+msgid "Graduate"
+msgstr "الخريج"
+
+msgid "Graduated"
+msgstr "متدرّج"
+
+msgid "Graduates"
+msgstr "الخريجون"
+
+msgid "Graduating"
+msgstr "التخرّج"
+
+msgid "Graduation"
+msgstr "التخّرج"
+
+msgid "Graduations"
+msgstr "التخّرج"
+
+msgid "Grady"
+msgstr "جرادي"
+
+msgid "Graff"
+msgstr "جراف"
+
+msgid "Graffiti"
+msgstr "الرسومات"
+
+msgid "Graft"
+msgstr "الفساد"
+
+msgid "Grafted"
+msgstr "مطعّم"
+
+msgid "Grafter"
+msgstr "المطعّم"
+
+msgid "Grafting"
+msgstr "التطعيم"
+
+msgid "Grafton"
+msgstr "جرافتون"
+
+msgid "Grafts"
+msgstr "الطعوم"
+
+msgid "Graham"
+msgstr "جراهام"
+
+msgid "Grahams"
+msgstr "جراهامز"
+
+msgid "Grail"
+msgstr "الكأس المقدس"
+
+msgid "Grails"
+msgstr "الكؤوس المقدسة"
+
+msgid "Grain"
+msgstr "الحبوب"
+
+msgid "Grained"
+msgstr "محبّب"
+
+msgid "Grainer"
+msgstr "الطّحّان"
+
+msgid "Grainier"
+msgstr "محبّب"
+
+msgid "Grainiest"
+msgstr "محبّب"
+
+msgid "Graining"
+msgstr "التحبيب"
+
+msgid "Grains"
+msgstr "الحبوب"
+
+msgid "Grainy"
+msgstr "محبّب"
+
+msgid "Gram"
+msgstr "الغرام"
+
+msgid "Grammar"
+msgstr "القواعد"
+
+msgid "Grammarian"
+msgstr "النحوي"
+
+msgid "Grammarians"
+msgstr "النحويون"
+
+msgid "Grammars"
+msgstr "القواعد"
+
+msgid "Grammatic"
+msgstr "قواعدي"
+
+msgid "Grammatical"
+msgstr "قواعدي"
+
+msgid "Grammaticality"
+msgstr "بشكل نحويّ"
+
+msgid "Grammatically"
+msgstr "نحويا"
+
+msgid "Grammaticalness"
+msgstr "النحوية"
+
+msgid "Gramme"
+msgstr "الغرام"
+
+msgid "Grammes"
+msgstr "الغرامات"
+
+msgid "Gramophone"
+msgstr "الحاكي"
+
+msgid "Grams"
+msgstr "الغرامات"
+
+msgid "Granaries"
+msgstr "السايلوات"
+
+msgid "Granary"
+msgstr "السايلو"
+
+msgid "Grand"
+msgstr "كبير"
+
+msgid "Grandchild"
+msgstr "الحفيد"
+
+msgid "Grandchildren"
+msgstr "الأحفاد"
+
+msgid "Granddad"
+msgstr "جرانداد"
+
+msgid "Granddaughter"
+msgstr "الحفيدة"
+
+msgid "Granddaughters"
+msgstr "الحفيدات"
+
+msgid "Grander"
+msgstr "أعظم"
+
+msgid "Grandest"
+msgstr "أعظم"
+
+msgid "Grandeur"
+msgstr "العظمة"
+
+msgid "Grandfather"
+msgstr "الجدّ"
+
+msgid "Grandfatherliness"
+msgstr "الجَدْ"
+
+msgid "Grandfatherly"
+msgstr "كما الجَدْ"
+
+msgid "Grandfathers"
+msgstr "الأجداد"
+
+msgid "Grandiloquence"
+msgstr "الحذلقة"
+
+msgid "Grandiloquent"
+msgstr "متحذلق"
+
+msgid "Grandiloquently"
+msgstr "بشكل متحذلق"
+
+msgid "Grandiose"
+msgstr "فخم"
+
+msgid "Grandiosely"
+msgstr "بشكل فخم"
+
+msgid "Grandioseness"
+msgstr "العَظَمَة"
+
+msgid "Grandiosity"
+msgstr "العَظَمَة"
+
+msgid "Grandkid"
+msgstr "حفيد"
+
+msgid "Grandkids"
+msgstr "الأحفاد"
+
+msgid "Grandly"
+msgstr "بشكل كبير"
+
+msgid "Grandma"
+msgstr "الجدة"
+
+msgid "Grandmother"
+msgstr "الجدة"
+
+msgid "Grandmotherly"
+msgstr "بحنان كما حنان الجدّة"
+
+msgid "Grandmothers"
+msgstr "الجدّات"
+
+msgid "Grandnephew"
+msgstr "إبن إبن الأخ أو الأخت"
+
+msgid "Grandnephews"
+msgstr "أبناء إبن الأخ أو الأخت"
+
+msgid "Grandness"
+msgstr "العظمة"
+
+msgid "Grandniece"
+msgstr "بنت إبن الأخ أو الأخت"
+
+msgid "Grandnieces"
+msgstr "بنات إبن الأخ أو الأخت"
+
+msgid "Grandpa"
+msgstr "الجدّ"
+
+msgid "Grandparent"
+msgstr "الجدّ"
+
+msgid "Grandparents"
+msgstr "الأجداد"
+
+msgid "Grandpas"
+msgstr "الأجداد"
+
+msgid "Grandson"
+msgstr "الحفيد"
+
+msgid "Grandsons"
+msgstr "الأحفاد"
+
+msgid "Grandstand"
+msgstr "المدرّج"
+
+msgid "Grandstanded"
+msgstr "المدرّج المغطّى"
+
+msgid "Grandstander"
+msgstr "واضح"
+
+msgid "Grandstanding"
+msgstr "مثير"
+
+msgid "Grandstands"
+msgstr "المدرّجات"
+
+msgid "Grange"
+msgstr "المزرعة"
+
+msgid "Granger"
+msgstr "المزارع"
+
+msgid "Granges"
+msgstr "المزارع"
+
+msgid "Granite"
+msgstr "الصوان"
+
+msgid "Granites"
+msgstr "الصوان"
+
+msgid "Granitic"
+msgstr "صواني"
+
+msgid "Grannies"
+msgstr "الجدّات"
+
+msgid "Granny"
+msgstr "الجدّة"
+
+msgid "Granola"
+msgstr "الجرانولا"
+
+msgid "Grant"
+msgstr "جرانت"
+
+msgid "Grantable"
+msgstr "قابل للمنحة"
+
+msgid "Granted"
+msgstr "ممنوح"
+
+msgid "Grantee"
+msgstr "الممنوح"
+
+msgid "Granter"
+msgstr "المانح"
+
+msgid "Granting"
+msgstr "المنح"
+
+msgid "Grantor"
+msgstr "المانح"
+
+msgid "Grantors"
+msgstr "المانحون"
+
+msgid "Grants"
+msgstr "المنح"
+
+msgid "Granular"
+msgstr "حبيبي"
+
+msgid "Granularity"
+msgstr "الحبوبية"
+
+msgid "Granularly"
+msgstr "بشكل حبيبي"
+
+msgid "Granulate"
+msgstr "حبيبي"
+
+msgid "Granulated"
+msgstr "محبّب"
+
+msgid "Granulates"
+msgstr "يحبّب"
+
+msgid "Granulating"
+msgstr "التحبيب"
+
+msgid "Granulation"
+msgstr "التحبيب"
+
+msgid "Granulations"
+msgstr "التحبيب"
+
+msgid "Granulative"
+msgstr "تكسيري"
+
+msgid "Granule"
+msgstr "الحبيبة"
+
+msgid "Granules"
+msgstr "الحبيبات"
+
+msgid "Granulocytic"
+msgstr "كريات الدم البيضاء"
+
+msgid "Granulous"
+msgstr "حبيبي"
+
+msgid "Granville"
+msgstr "جرانفيل"
+
+msgid "Grape"
+msgstr "العنب"
+
+msgid "Grapefruit"
+msgstr "فاكهة الكريب"
+
+msgid "Grapes"
+msgstr "العنب"
+
+msgid "Grapevine"
+msgstr "شجرة العنب"
+
+msgid "Grapevines"
+msgstr "أشجار العنب"
+
+msgid "Graph"
+msgstr "الرسم البياني"
+
+msgid "Graphed"
+msgstr "مخطّط"
+
+msgid "Grapheme"
+msgstr "أي حرف من حروف اللغة"
+
+msgid "Graphic"
+msgstr "تخطيطي"
+
+msgid "Graphical"
+msgstr "تخطيطي"
+
+msgid "Graphically"
+msgstr "بشكل تخطيطي"
+
+msgid "Graphicness"
+msgstr "الحقيقة"
+
+msgid "Graphics"
+msgstr "الرسومات"
+
+msgid "Graphing"
+msgstr "التخطيط"
+
+msgid "Graphis"
+msgstr "جرافيس"
+
+msgid "Graphite"
+msgstr "الجرافايت"
+
+msgid "Graphites"
+msgstr "الجرافايت"
+
+msgid "Graphologist"
+msgstr "خبير الخطّ"
+
+msgid "Graphs"
+msgstr "الرسوم البيانية"
+
+msgid "Grapple"
+msgstr "الكلاب"
+
+msgid "Grappled"
+msgstr "ممسك"
+
+msgid "Grappler"
+msgstr "الطّارح"
+
+msgid "Grapples"
+msgstr "الكلابات"
+
+msgid "Grappling"
+msgstr "الإمساك"
+
+msgid "Grasp"
+msgstr "الفهم"
+
+msgid "Graspable"
+msgstr "قابل للإدراك"
+
+msgid "Grasped"
+msgstr "مدرك"
+
+msgid "Grasper"
+msgstr "المُمْسك"
+
+msgid "Grasping"
+msgstr "الإدراك"
+
+msgid "Graspingly"
+msgstr "بشكل طمّاع"
+
+msgid "Graspingness"
+msgstr "الإستيعاب"
+
+msgid "Grasps"
+msgstr "القبضات"
+
+msgid "Grass"
+msgstr "العشب"
+
+msgid "Grassed"
+msgstr "معشّب"
+
+msgid "Grassers"
+msgstr "جراسيرس"
+
+msgid "Grasses"
+msgstr "الأعشاب"
+
+msgid "Grasshopper"
+msgstr "الجندب"
+
+msgid "Grasshoppers"
+msgstr "الجنادب"
+
+msgid "Grassier"
+msgstr "أكثر عشبا"
+
+msgid "Grassiest"
+msgstr "أكثر عشبا"
+
+msgid "Grassing"
+msgstr "التعشيب"
+
+msgid "Grassland"
+msgstr "الأرض المعشبة"
+
+msgid "Grasslands"
+msgstr "الأراضي المعشبة"
+
+msgid "Grassroots"
+msgstr "القاعدة"
+
+msgid "Grassy"
+msgstr "معشوشب"
+
+msgid "Grata"
+msgstr "غراتا"
+
+msgid "Grate"
+msgstr "المشبك"
+
+msgid "Grated"
+msgstr "مفرّم"
+
+msgid "Grateful"
+msgstr "ممتن"
+
+msgid "Gratefully"
+msgstr "بإمتنان"
+
+msgid "Gratefulness"
+msgstr "الإمتنان"
+
+msgid "Grater"
+msgstr "المبشارة"
+
+msgid "Grates"
+msgstr "المشابك"
+
+msgid "Graticule"
+msgstr "الشّبكة"
+
+msgid "Gratification"
+msgstr "الإرضاء"
+
+msgid "Gratifications"
+msgstr "الإرضاء"
+
+msgid "Gratified"
+msgstr "راضي"
+
+msgid "Gratifies"
+msgstr "يرضي"
+
+msgid "Gratify"
+msgstr "أرض"
+
+msgid "Gratifying"
+msgstr "الإرضاء"
+
+msgid "Gratifyingly"
+msgstr "بشكل مرضى"
+
+msgid "Grating"
+msgstr "المشبك"
+
+msgid "Gratingly"
+msgstr "بحدّة"
+
+msgid "Gratings"
+msgstr "المشابك"
+
+msgid "Gratis"
+msgstr "مجاني"
+
+msgid "Gratitude"
+msgstr "الإمتنان"
+
+msgid "Gratuities"
+msgstr "المنح"
+
+msgid "Gratuitous"
+msgstr "مجاني"
+
+msgid "Gratuitously"
+msgstr "بشكل مجاني"
+
+msgid "Gratuitousness"
+msgstr "اللّامعقوليّة"
+
+msgid "Gratuity"
+msgstr "المنحة"
+
+msgid "Gratulated"
+msgstr "هنّأ"
+
+msgid "Grave"
+msgstr "القبر"
+
+msgid "Graved"
+msgstr "حفر"
+
+msgid "Gravedigger"
+msgstr "حفّار القبور"
+
+msgid "Gravel"
+msgstr "الحصوة"
+
+msgid "Graveled"
+msgstr "محصّب"
+
+msgid "Graveling"
+msgstr "التحصيب"
+
+msgid "Gravelly"
+msgstr "خشن"
+
+msgid "Gravels"
+msgstr "الحصى"
+
+msgid "Gravely"
+msgstr "بشكل خطير"
+
+msgid "Graven"
+msgstr "محفور"
+
+msgid "Graveness"
+msgstr "الخطورة"
+
+msgid "Graver"
+msgstr "خطير"
+
+msgid "Gravers"
+msgstr "جرافيرس"
+
+msgid "Graves"
+msgstr "القبور"
+
+msgid "Gravest"
+msgstr "خطير"
+
+msgid "Gravestone"
+msgstr "شاهد القبر"
+
+msgid "Gravestones"
+msgstr "شواهد القبور"
+
+msgid "Graveyard"
+msgstr "المقبرة"
+
+msgid "Graveyards"
+msgstr "المقابر"
+
+msgid "Gravid"
+msgstr "حامل"
+
+msgid "Gravidly"
+msgstr "بشكل حامل"
+
+msgid "Gravidness"
+msgstr "الحمل"
+
+msgid "Gravies"
+msgstr "المرق"
+
+msgid "Gravimetric"
+msgstr "متّعلّق بالقياس عن طريق الوزن"
+
+msgid "Graving"
+msgstr "الحفر"
+
+msgid "Gravitate"
+msgstr "إنجذب"
+
+msgid "Gravitated"
+msgstr "منجذب"
+
+msgid "Gravitates"
+msgstr "ينجذب"
+
+msgid "Gravitating"
+msgstr "الإنجذاب"
+
+msgid "Gravitation"
+msgstr "الجاذبية"
+
+msgid "Gravitational"
+msgstr "جذبي"
+
+msgid "Gravitationally"
+msgstr "بشكل جذبي"
+
+msgid "Gravitations"
+msgstr "الجاذبية"
+
+msgid "Gravitative"
+msgstr "جذبي"
+
+msgid "Gravities"
+msgstr "الجاذبيات"
+
+msgid "Gravity"
+msgstr "الجاذبية"
+
+msgid "Gravure"
+msgstr "الحفر"
+
+msgid "Gravy"
+msgstr "المرق"
+
+msgid "Gray"
+msgstr "رمادي :: أشيب :: كئيب :: يجعله رمادياً"
+
+msgid "Graybeard"
+msgstr "الرجل المسن"
+
+msgid "Graybeards"
+msgstr "الرجال المسنون"
+
+msgid "Grayed"
+msgstr "جرايد"
+
+msgid "Grayer"
+msgstr "أكثر رمادية"
+
+msgid "Grayest"
+msgstr "أكثر رمادية"
+
+msgid "Graying"
+msgstr "يلوّن بالرمادي"
+
+msgid "Grayish"
+msgstr "رمادي"
+
+msgid "Grayly"
+msgstr "رماديا"
+
+msgid "Grayness"
+msgstr "الرمادية"
+
+msgid "Grays"
+msgstr "جرايز"
+
+msgid "Grayscale"
+msgstr "درجات الرمادي"
+
+msgid "GrayscaleAlpha"
+msgstr "رمادي متدرجألفا"
+
+msgid "Grayson"
+msgstr "جرايسون"
+
+msgid "Graywacke"
+msgstr "جرايواك"
+
+msgid "Graze"
+msgstr "الجرح"
+
+msgid "Grazed"
+msgstr "مرعي"
+
+msgid "Grazer"
+msgstr "الماشية"
+
+msgid "Grazes"
+msgstr "الجروح"
+
+msgid "Grazing"
+msgstr "الرعاية"
+
+msgid "Grease"
+msgstr "الدهن"
+
+msgid "Greased"
+msgstr "مدهون"
+
+msgid "Greaser"
+msgstr "الداهن"
+
+msgid "Greasers"
+msgstr "الداهنون"
+
+msgid "Greases"
+msgstr "الدهون"
+
+msgid "Greasier"
+msgstr "أكثر دهنا"
+
+msgid "Greasiest"
+msgstr "أكثر دهنا"
+
+msgid "Greasily"
+msgstr "بشكل دهني"
+
+msgid "Greasiness"
+msgstr "التشحم"
+
+msgid "Greasing"
+msgstr "الدهن"
+
+msgid "Greasy"
+msgstr "دهني"
+
+msgid "Great"
+msgstr "عظيم"
+
+msgid "Greatcoat"
+msgstr "المعطف السميك"
+
+msgid "Greatcoats"
+msgstr "المعاطف السميكة"
+
+msgid "Greaten"
+msgstr "عظّم"
+
+msgid "Greatened"
+msgstr "معظّم"
+
+msgid "Greatening"
+msgstr "التعظيم"
+
+msgid "Greater"
+msgstr "أعظم"
+
+msgid "Greatest"
+msgstr "أعظم"
+
+msgid "Greatly"
+msgstr "كثيرا"
+
+msgid "Greatness"
+msgstr "العظمة"
+
+msgid "Greats"
+msgstr "العظماء"
+
+msgid "Grebe"
+msgstr "طائر الغواص"
+
+msgid "Grecian"
+msgstr "إغريقي"
+
+msgid "Greece"
+msgstr "اليونان"
+
+msgid "Greed"
+msgstr "الطمع"
+
+msgid "Greedier"
+msgstr "طمّاع"
+
+msgid "Greediest"
+msgstr "طمّاع"
+
+msgid "Greedily"
+msgstr "بطمع"
+
+msgid "Greediness"
+msgstr "الطمع"
+
+msgid "Greedy"
+msgstr "طمّاع"
+
+msgid "Greek"
+msgstr "اليوناني"
+
+msgid "Greeks"
+msgstr "اليونانيون"
+
+msgid "Green"
+msgstr "الأخضر"
+
+msgid "Greenback"
+msgstr "العملة الأمريكية"
+
+msgid "Greenbelt"
+msgstr "الحزام الأخضر"
+
+msgid "Greenberg"
+msgstr "جرينبيرج"
+
+msgid "Greenblatt"
+msgstr "جرينبلات"
+
+msgid "Greene"
+msgstr "جرين"
+
+msgid "Greened"
+msgstr "يخضّر"
+
+msgid "Greener"
+msgstr "أكثر خضرة"
+
+msgid "Greenery"
+msgstr "الخضراوات"
+
+msgid "Greenest"
+msgstr "أكثر خضرة"
+
+msgid "Greenfeld"
+msgstr "جرينفيلد"
+
+msgid "Greenfield"
+msgstr "جرينفيلد"
+
+msgid "Greengrocer"
+msgstr "البقال"
+
+msgid "Greenhorn"
+msgstr "المبتدىء"
+
+msgid "Greenhouse"
+msgstr "البيت الزجاجي"
+
+msgid "Greenhouses"
+msgstr "البيوت الزجاجيّة"
+
+msgid "Greening"
+msgstr "التخضير"
+
+msgid "Greenish"
+msgstr "مخضوضر"
+
+msgid "Greenishness"
+msgstr "قريب إلى الأخضر"
+
+msgid "Greenland"
+msgstr "الأرض الخضراء"
+
+msgid "Greenlander"
+msgstr "مواطن جرينلاند"
+
+msgid "Greenly"
+msgstr "باخضرار"
+
+msgid "Greenness"
+msgstr "الخضرة"
+
+msgid "Greens"
+msgstr "الخضر"
+
+msgid "Greensboro"
+msgstr "جرينسبورو"
+
+msgid "Greensville"
+msgstr "جرينسفيل"
+
+msgid "Greensward"
+msgstr "العشب"
+
+msgid "Greenville"
+msgstr "جرينفيل"
+
+msgid "Greenware"
+msgstr "الآنية الفخّاريّة التي لم تعالج بحرارة الفرن"
+
+msgid "Greenwich"
+msgstr "غرينيتش"
+
+msgid "Greenwood"
+msgstr "جرينوود"
+
+msgid "Greer"
+msgstr "جرير"
+
+msgid "Greet"
+msgstr "حيّ"
+
+msgid "Greeted"
+msgstr "محيّا"
+
+msgid "Greeter"
+msgstr "المستقبل"
+
+msgid "Greeting"
+msgstr "التحية"
+
+msgid "Greetings"
+msgstr "التحيات"
+
+msgid "Greets"
+msgstr "يحيّي"
+
+msgid "Greg"
+msgstr "جريج"
+
+msgid "Gregarious"
+msgstr "إجتماعي"
+
+msgid "Gregariously"
+msgstr "إجتماعيا"
+
+msgid "Gregariousness"
+msgstr "الإجتماعية"
+
+msgid "Gregg"
+msgstr "جريج"
+
+msgid "Gregory"
+msgstr "جريجوري"
+
+msgid "Gremlin"
+msgstr "العفريت"
+
+msgid "Grenada"
+msgstr "غرينادا"
+
+msgid "Grenade"
+msgstr "القنبلة"
+
+msgid "Grenades"
+msgstr "القنابل"
+
+msgid "Grendel"
+msgstr "الوحش الذّكر"
+
+msgid "Grenier"
+msgstr "جرينير"
+
+msgid "Grenoble"
+msgstr "جرينوبل"
+
+msgid "Grenville"
+msgstr "جرينفيل"
+
+msgid "Gresham"
+msgstr "جريشام"
+
+msgid "Greta"
+msgstr "جريتا"
+
+msgid "Gretchen"
+msgstr "جريتشين"
+
+msgid "Gretel"
+msgstr "جريتيل"
+
+msgid "Grew"
+msgstr "نمى"
+
+msgid "Grey"
+msgstr "رمادي"
+
+msgid "Greyest"
+msgstr "أكثر رمادية"
+
+msgid "Greyhound"
+msgstr "السلوقي"
+
+msgid "Greyhounds"
+msgstr "الكلاب السلوقية"
+
+msgid "Greying"
+msgstr "شائب"
+
+msgid "Greyish"
+msgstr "رمادي"
+
+msgid "Greylag"
+msgstr "جرايلاج - أوزّة "
+
+msgid "Greyscale"
+msgstr "رمادي"
+
+msgid "Grid"
+msgstr "الشبكة"
+
+msgid "Griddle"
+msgstr "الشواية"
+
+msgid "Griddlecake"
+msgstr "كعك"
+
+msgid "Griddles"
+msgstr "الشوايات"
+
+msgid "Gridiron"
+msgstr "المشواة"
+
+msgid "Grids"
+msgstr "الشبكات"
+
+msgid "Grief"
+msgstr "الحزن"
+
+msgid "Griefs"
+msgstr "الحزن"
+
+msgid "Grievance"
+msgstr "الشكوى"
+
+msgid "Grievances"
+msgstr "الشكاوي"
+
+msgid "Grieve"
+msgstr "إحزن"
+
+msgid "Grieved"
+msgstr "حزين"
+
+msgid "Griever"
+msgstr "حزين"
+
+msgid "Grieves"
+msgstr "يحزن"
+
+msgid "Grieving"
+msgstr "الحزن"
+
+msgid "Grievingly"
+msgstr "بشكل حزين"
+
+msgid "Grievous"
+msgstr "شديد"
+
+msgid "Grievously"
+msgstr "بشكل شديد"
+
+msgid "Grievousness"
+msgstr "الفداحة"
+
+msgid "Griffin"
+msgstr "جريفين"
+
+msgid "Griffith"
+msgstr "جريفيث"
+
+msgid "Grill"
+msgstr "الشواية"
+
+msgid "Grille"
+msgstr "الشبكة"
+
+msgid "Grilled"
+msgstr "مشوي"
+
+msgid "Griller"
+msgstr "الشّواي"
+
+msgid "Grilles"
+msgstr "الشبكات"
+
+msgid "Grilling"
+msgstr "الشوي"
+
+msgid "Grills"
+msgstr "الشوايات"
+
+msgid "Grillwork"
+msgstr "شبك من الأسلاك المعدنية"
+
+msgid "Grim"
+msgstr "متجهم"
+
+msgid "Grimace"
+msgstr "التجهم"
+
+msgid "Grimaced"
+msgstr "مشوّش"
+
+msgid "Grimacer"
+msgstr "المكشّر"
+
+msgid "Grimaces"
+msgstr "التجهم"
+
+msgid "Grimacing"
+msgstr "التكشير"
+
+msgid "Grimaldi"
+msgstr "جريمالدي - ممثّل إنجليزيّ و مهرّج أو سهل كبير على وجه القمر"
+
+msgid "Grime"
+msgstr "الوساخة"
+
+msgid "Grimed"
+msgstr "موسّخ"
+
+msgid "Grimes"
+msgstr "الأوساخ"
+
+msgid "Grimier"
+msgstr "أشدّ وساخة"
+
+msgid "Grimiest"
+msgstr "أشدّ وساخة"
+
+msgid "Griminess"
+msgstr "الوسخ"
+
+msgid "Griming"
+msgstr "التوسيخ"
+
+msgid "Grimly"
+msgstr "متجهم"
+
+msgid "Grimm"
+msgstr "جرمم"
+
+msgid "Grimmer"
+msgstr "أكثر إزعاج"
+
+msgid "Grimmest"
+msgstr "الأكثر إزعاج"
+
+msgid "Grimness"
+msgstr "الوساخة"
+
+msgid "Grin"
+msgstr "التكشيرة"
+
+msgid "Grind"
+msgstr "الطحن"
+
+msgid "Grinded"
+msgstr "مطحون"
+
+msgid "Grinder"
+msgstr "المطحنة"
+
+msgid "Grinders"
+msgstr "المطاحن"
+
+msgid "Grindig"
+msgstr "جرينديج"
+
+msgid "Grinding"
+msgstr "الطحن"
+
+msgid "Grindingly"
+msgstr "بشكل طاحن"
+
+msgid "Grindings"
+msgstr "الطحن"
+
+msgid "Grinds"
+msgstr "يطحن"
+
+msgid "Grindstone"
+msgstr "المسن"
+
+msgid "Grindstones"
+msgstr "المسنّنات"
+
+msgid "Grinned"
+msgstr "إبتسم ابتسامة عريضة"
+
+msgid "Grinning"
+msgstr "إبتسام ابتسامة عريضة"
+
+msgid "Grinningly"
+msgstr "باستخفاف"
+
+msgid "Grins"
+msgstr "التكشير"
+
+msgid "Grip"
+msgstr "القبضة"
+
+msgid "Gripe"
+msgstr "المغص"
+
+msgid "Griped"
+msgstr "ممسك"
+
+msgid "Griper"
+msgstr "القابض"
+
+msgid "Gripes"
+msgstr "القبضات"
+
+msgid "Griping"
+msgstr "الإمساك"
+
+msgid "Grippe"
+msgstr "الإنفلونزا"
+
+msgid "Gripped"
+msgstr "ممسك"
+
+msgid "Gripper"
+msgstr "القابض"
+
+msgid "Grippers"
+msgstr "القابضون"
+
+msgid "Gripping"
+msgstr "الإمساك"
+
+msgid "Grippingly"
+msgstr "بشكل مثير"
+
+msgid "Grips"
+msgstr "القبضات"
+
+msgid "Gripsack"
+msgstr "حقيبة صغيرة"
+
+msgid "Gripsacks"
+msgstr "حقائب صغيرة"
+
+msgid "Gris"
+msgstr "جريس"
+
+msgid "Grislier"
+msgstr "أشدّ روعة"
+
+msgid "Grisliest"
+msgstr "أشدّ روعة"
+
+msgid "Grisliness"
+msgstr "الرّهبة"
+
+msgid "Grisly"
+msgstr "مريع"
+
+msgid "Grist"
+msgstr "الطحين"
+
+msgid "Gristle"
+msgstr "الغضروف"
+
+msgid "Gristles"
+msgstr "الغضاريف"
+
+msgid "Gristlier"
+msgstr "غضروفي"
+
+msgid "Gristliness"
+msgstr "الغضروفية"
+
+msgid "Gristly"
+msgstr "غضروفي"
+
+msgid "Gristmill"
+msgstr "الطاحونة"
+
+msgid "Griswold"
+msgstr "جريسوولد"
+
+msgid "Grit"
+msgstr "الحصباء"
+
+msgid "Grits"
+msgstr "الحصى"
+
+msgid "Gritted"
+msgstr "مصرور"
+
+msgid "Grittier"
+msgstr "أكثر حزما"
+
+msgid "Grittiest"
+msgstr "أكثر حزما"
+
+msgid "Grittiness"
+msgstr "الحزم"
+
+msgid "Gritting"
+msgstr "الصرير"
+
+msgid "Gritty"
+msgstr "جرز"
+
+msgid "Grivet"
+msgstr "قرد شرق إفريقيّ"
+
+msgid "Grizzle"
+msgstr "إقلق"
+
+msgid "Grizzled"
+msgstr "أشهب"
+
+msgid "Grizzles"
+msgstr "يقلق"
+
+msgid "Grizzlier"
+msgstr "تعبان"
+
+msgid "Grizzlies"
+msgstr "الدببة"
+
+msgid "Grizzling"
+msgstr "القلق"
+
+msgid "Grizzly"
+msgstr "الدبّ"
+
+msgid "Groan"
+msgstr "الآهة"
+
+msgid "Groaned"
+msgstr "مأنون"
+
+msgid "Groaner"
+msgstr "الأنّان"
+
+msgid "Groaning"
+msgstr "الأنين"
+
+msgid "Groans"
+msgstr "الآهات"
+
+msgid "Groat"
+msgstr "جروات"
+
+msgid "Groats"
+msgstr "الجريش"
+
+msgid "Grocer"
+msgstr "البقال"
+
+msgid "Groceries"
+msgstr "دكاكين البقالة"
+
+msgid "Grocers"
+msgstr "البقالون"
+
+msgid "Grocery"
+msgstr "البقالة"
+
+msgid "Groggier"
+msgstr "أكثر ترنّحا"
+
+msgid "Groggiest"
+msgstr "أكثر ترنّحا"
+
+msgid "Groggily"
+msgstr "بشكل مهزوز"
+
+msgid "Grogginess"
+msgstr "التّرنّح"
+
+msgid "Groggy"
+msgstr "مترنّح"
+
+msgid "Groin"
+msgstr "الأربية"
+
+msgid "Groins"
+msgstr "الأربيات"
+
+msgid "Grok"
+msgstr "جروك"
+
+msgid "Grokked"
+msgstr "إستوعب"
+
+msgid "Grokking"
+msgstr "الإستيعاب"
+
+msgid "Groks"
+msgstr "يستوعب"
+
+msgid "Grommet"
+msgstr "جروميت"
+
+msgid "Grommets"
+msgstr "الحلقات"
+
+msgid "Groom"
+msgstr "العريس"
+
+msgid "Groomed"
+msgstr "مزيّن"
+
+msgid "Groomer"
+msgstr "مهذّب الخيول"
+
+msgid "Grooming"
+msgstr "التهيّأ"
+
+msgid "Grooms"
+msgstr "العرسان"
+
+msgid "Groomsmen"
+msgstr "رفقاء العريس"
+
+msgid "Groot"
+msgstr "جروت"
+
+msgid "Groove"
+msgstr "الأخدود"
+
+msgid "Grooved"
+msgstr "مخدّد"
+
+msgid "Groover"
+msgstr "الحفّار"
+
+msgid "Grooves"
+msgstr "الأخاديد"
+
+msgid "Groovier"
+msgstr "أروع"
+
+msgid "Grooviest"
+msgstr "أروع"
+
+msgid "Grooving"
+msgstr "الحزّ"
+
+msgid "Groovy"
+msgstr "رائع"
+
+msgid "Grope"
+msgstr "تلمّس"
+
+msgid "Groped"
+msgstr "متلمّس"
+
+msgid "Groper"
+msgstr "المتحسس في الظلام"
+
+msgid "Gropes"
+msgstr "يتلمّس"
+
+msgid "Groping"
+msgstr "التلمّس"
+
+msgid "Gropingly"
+msgstr "بتلمس"
+
+msgid "Grosbeak"
+msgstr "جروسبيك - طائر ذو منقار متين"
+
+msgid "Grosbeaks"
+msgstr "جروسبيك - طائر ذو منقار متين"
+
+msgid "Gross"
+msgstr "المجموع الإجمالي"
+
+msgid "Grossed"
+msgstr "رابح"
+
+msgid "Grosser"
+msgstr "إجمالي"
+
+msgid "Grosses"
+msgstr "المجاميع الإجمالية"
+
+msgid "Grossest"
+msgstr "إجمالي"
+
+msgid "Grossing"
+msgstr "الربح"
+
+msgid "Grossly"
+msgstr "بشكل إجمالي"
+
+msgid "Grossman"
+msgstr "جروزسمان"
+
+msgid "Grossness"
+msgstr "الكلية"
+
+msgid "Grossnesses"
+msgstr "الكلية"
+
+msgid "Grosvenor"
+msgstr "جروسفينور - جغرافيّ أمريكيّ، كاتب و محرّر"
+
+msgid "Grotesque"
+msgstr "مشوّه"
+
+msgid "Grotesquely"
+msgstr "بشكل مشوّه"
+
+msgid "Grotesqueness"
+msgstr "البشاعة"
+
+msgid "Groton"
+msgstr "جروتون"
+
+msgid "Grotto"
+msgstr "الكهف"
+
+msgid "Grottoes"
+msgstr "الكهوف"
+
+msgid "Grottos"
+msgstr "الكهوف"
+
+msgid "Grouch"
+msgstr "الشكوى"
+
+msgid "Grouches"
+msgstr "الشكاوي"
+
+msgid "Grouchier"
+msgstr "متذمّر"
+
+msgid "Grouchiest"
+msgstr "متذمّر"
+
+msgid "Grouchily"
+msgstr "بتذمّر"
+
+msgid "Grouchiness"
+msgstr "الشّكوى"
+
+msgid "Grouching"
+msgstr "الشكاية"
+
+msgid "Grouchy"
+msgstr "متذمّر"
+
+msgid "Ground"
+msgstr "الأرض"
+
+msgid "Ground-floor"
+msgstr "الطابق الأرضي"
+
+msgid "Grounded"
+msgstr "مقعد"
+
+msgid "Grounder"
+msgstr "الضربة المنخفضة"
+
+msgid "Grounders"
+msgstr "الضربات المنخفضة"
+
+msgid "Groundhog"
+msgstr "جرذ الأرض"
+
+msgid "Groundhogs"
+msgstr "جرذان الأرض"
+
+msgid "Grounding"
+msgstr "المعلومات الأساسية"
+
+msgid "Groundless"
+msgstr "بلا أساس"
+
+msgid "Groundlessly"
+msgstr "بشكل بلا أساس"
+
+msgid "Groundlessness"
+msgstr "الضّعف"
+
+msgid "Grounds"
+msgstr "الأرضيات"
+
+msgid "Groundsel"
+msgstr "نبات القريض"
+
+msgid "Groundskeepers"
+msgstr "البستانيّون"
+
+msgid "Groundswell"
+msgstr "الموجة الكبيرة"
+
+msgid "Groundwork"
+msgstr "الأساس"
+
+msgid "Group"
+msgstr "المجموعة"
+
+msgid "Grouped"
+msgstr "مجمّع"
+
+msgid "Grouper"
+msgstr "جروبير"
+
+msgid "Grouping"
+msgstr "التجميع"
+
+msgid "Groupings"
+msgstr "التجمّعات"
+
+msgid "Groups"
+msgstr "المجموعات"
+
+msgid "Grouse"
+msgstr "القنبرة"
+
+msgid "Groused"
+msgstr "تذمّر"
+
+msgid "Grouser"
+msgstr "المرساة"
+
+msgid "Grouses"
+msgstr "القنبرات"
+
+msgid "Grousing"
+msgstr "التذمّر"
+
+msgid "Grout"
+msgstr "الجصّ"
+
+msgid "Grouted"
+msgstr "حشى"
+
+msgid "Grouter"
+msgstr "الذي يقوم بعملية الحشو"
+
+msgid "Grouting"
+msgstr "الحشو"
+
+msgid "Grouts"
+msgstr "الجصّ"
+
+msgid "Grove"
+msgstr "البستان"
+
+msgid "Grovel"
+msgstr "تذلّل"
+
+msgid "Groveled"
+msgstr "خضع"
+
+msgid "Groveler"
+msgstr "الخاضع"
+
+msgid "Groveling"
+msgstr "التذلّل"
+
+msgid "Grovelingly"
+msgstr "باذلال"
+
+msgid "Grovels"
+msgstr "يتذلّل"
+
+msgid "Grover"
+msgstr "جروفير"
+
+msgid "Groves"
+msgstr "البساتين"
+
+msgid "Grow"
+msgstr "إنم"
+
+msgid "Grower"
+msgstr "الزارع"
+
+msgid "Growers"
+msgstr "الزارعون"
+
+msgid "Growing"
+msgstr "النمو"
+
+msgid "Growingly"
+msgstr "بشكل متزايد"
+
+msgid "Growl"
+msgstr "الهدير"
+
+msgid "Growled"
+msgstr "مهدور"
+
+msgid "Growler"
+msgstr "الهادر"
+
+msgid "Growlier"
+msgstr "أكثر زمجرة"
+
+msgid "Growliness"
+msgstr "الزّمجرة"
+
+msgid "Growling"
+msgstr "الهدر"
+
+msgid "Growlingly"
+msgstr "بتذمر"
+
+msgid "Growls"
+msgstr "الهدير"
+
+msgid "Growly"
+msgstr "زمجري"
+
+msgid "Grown"
+msgstr "نامي"
+
+msgid "Grown-up"
+msgstr "البالغ"
+
+msgid "Grownup"
+msgstr "البالغ"
+
+msgid "Grownups"
+msgstr "البالغون"
+
+msgid "Grows"
+msgstr "ينمو"
+
+msgid "Growth"
+msgstr "النمو"
+
+msgid "Growths"
+msgstr "النمو"
+
+msgid "Grub"
+msgstr "اليرقة"
+
+msgid "Grubbed"
+msgstr "معزوق"
+
+msgid "Grubbier"
+msgstr "أقذر"
+
+msgid "Grubbiest"
+msgstr "أقذر"
+
+msgid "Grubbiness"
+msgstr "القذارة"
+
+msgid "Grubbing"
+msgstr "العزق"
+
+msgid "Grubby"
+msgstr "قذر"
+
+msgid "Grubs"
+msgstr "اليرقات"
+
+msgid "Grudge"
+msgstr "الحقد"
+
+msgid "Grudged"
+msgstr "متذمّر"
+
+msgid "Grudger"
+msgstr "الضّاغن"
+
+msgid "Grudges"
+msgstr "الأحقاد"
+
+msgid "Grudging"
+msgstr "التذمّر"
+
+msgid "Grudgingly"
+msgstr "بتذمّر"
+
+msgid "Gruel"
+msgstr "الثريد"
+
+msgid "Grueling"
+msgstr "القسوة"
+
+msgid "Gruelingly"
+msgstr "بقسوة"
+
+msgid "Gruelling"
+msgstr "القسوة"
+
+msgid "Gruellingly"
+msgstr "بشكل قاسي"
+
+msgid "Gruels"
+msgstr "الثريد"
+
+msgid "Gruesome"
+msgstr "الشنيع"
+
+msgid "Gruesomely"
+msgstr "بشكل مرعب"
+
+msgid "Gruesomeness"
+msgstr "الشناعة"
+
+msgid "Gruff"
+msgstr "خشن"
+
+msgid "Gruffer"
+msgstr "خشن"
+
+msgid "Gruffest"
+msgstr "خشن"
+
+msgid "Gruffly"
+msgstr "بشكل خشن"
+
+msgid "Gruffness"
+msgstr "الفضاضة"
+
+msgid "Grumble"
+msgstr "التذمّر"
+
+msgid "Grumbled"
+msgstr "متذمّر"
+
+msgid "Grumbler"
+msgstr "المتذمّر"
+
+msgid "Grumbles"
+msgstr "التذمّر"
+
+msgid "Grumbling"
+msgstr "التذمّر"
+
+msgid "Grumblingly"
+msgstr "بتذمّر"
+
+msgid "Grumbly"
+msgstr "بشّكوى"
+
+msgid "Grumman"
+msgstr "جرومان"
+
+msgid "Grumpier"
+msgstr "أحدّ طبعا"
+
+msgid "Grumpiest"
+msgstr "أحدّ طبعا"
+
+msgid "Grumpily"
+msgstr "بشكل شكس"
+
+msgid "Grumpy"
+msgstr "حاد الطبع"
+
+msgid "Grunge"
+msgstr "الجرونج"
+
+msgid "Grunt"
+msgstr "النخير"
+
+msgid "Grunted"
+msgstr "شاخر"
+
+msgid "Grunter"
+msgstr "الشاخر"
+
+msgid "Grunting"
+msgstr "الشخير"
+
+msgid "Grunts"
+msgstr "الهمهمات"
+
+msgid "Gryphon"
+msgstr "العنقاء"
+
+msgid "GSA"
+msgstr "إدارة الخدمات العامة"
+
+msgid "GU"
+msgstr "جوام"
+
+msgid "Guadalupe"
+msgstr "جوادالوب"
+
+msgid "Guam"
+msgstr "جوام"
+
+msgid "Guanidine"
+msgstr "جوانيداين"
+
+msgid "Guanine"
+msgstr "جواناين"
+
+msgid "Guano"
+msgstr "ذرق الطائر"
+
+msgid "Guarantee"
+msgstr "الضمان"
+
+msgid "Guaranteed"
+msgstr "مضمون"
+
+msgid "Guaranteeing"
+msgstr "الضمان"
+
+msgid "Guarantees"
+msgstr "الضمانات"
+
+msgid "Guaranties"
+msgstr "الكفالات"
+
+msgid "Guarantor"
+msgstr "الضامن"
+
+msgid "Guaranty"
+msgstr "الكفالة"
+
+msgid "Guard"
+msgstr "الحارس"
+
+msgid "Guarded"
+msgstr "حذر"
+
+msgid "Guardedly"
+msgstr "باحتراس"
+
+msgid "Guardedness"
+msgstr "الإحتراس"
+
+msgid "Guarder"
+msgstr "حارس"
+
+msgid "Guardhouse"
+msgstr "مبنى الجنود"
+
+msgid "Guardia"
+msgstr "جوارديا"
+
+msgid "Guardian"
+msgstr "ولي الأمر"
+
+msgid "Guardians"
+msgstr "أولياء الأمور"
+
+msgid "Guardianship"
+msgstr "الوصاية"
+
+msgid "Guarding"
+msgstr "الحراسة"
+
+msgid "Guardrail"
+msgstr "الدّرابزين"
+
+msgid "Guardroom"
+msgstr "غرفة الحرس"
+
+msgid "Guards"
+msgstr "الحرّاس"
+
+msgid "Guardsman"
+msgstr "الحارس"
+
+msgid "Guardsmen"
+msgstr "الحرّاس"
+
+msgid "Guatemala"
+msgstr "غواتيمالا"
+
+msgid "Guatemalan"
+msgstr "الغواتيمالي"
+
+msgid "Gubernatorial"
+msgstr "حاكمي"
+
+msgid "Gudgeon"
+msgstr "سمك القوبيون"
+
+msgid "Guelph"
+msgstr "جيلف"
+
+msgid "Guenther"
+msgstr "جونتر"
+
+msgid "Guerdon"
+msgstr "مكافأة"
+
+msgid "Guerilla"
+msgstr "الفدائي"
+
+msgid "Guernsey"
+msgstr "جيرنسي"
+
+msgid "Guernseys"
+msgstr "الماشية القادمة من جيرنسي"
+
+msgid "Guerrilla"
+msgstr "الفدائي"
+
+msgid "Guerrillas"
+msgstr "الفدائيون"
+
+msgid "Guess"
+msgstr "التخمين"
+
+msgid "Guessed"
+msgstr "محزور"
+
+msgid "Guesser"
+msgstr "الحازر"
+
+msgid "Guesses"
+msgstr "التخمينات"
+
+msgid "Guessing"
+msgstr "الحزر"
+
+msgid "Guesswork"
+msgstr "التخمين"
+
+msgid "Guest"
+msgstr "الضيف"
+
+msgid "Guested"
+msgstr "استضاف"
+
+msgid "Guesting"
+msgstr "الاستضافة"
+
+msgid "Guestroom"
+msgstr "غرفة الضيوف"
+
+msgid "Guests"
+msgstr "الضيوف"
+
+msgid "Guffaw"
+msgstr "القهقهة"
+
+msgid "Guffawed"
+msgstr "مقهقه"
+
+msgid "Guffawing"
+msgstr "القهقهة"
+
+msgid "Guffaws"
+msgstr "القهقهات"
+
+msgid "Guggenheim"
+msgstr "جوجينهيم"
+
+msgid "Guhleman"
+msgstr "جوهليمان"
+
+msgid "GUI"
+msgstr "واجهة المستخدم الرسومية"
+
+msgid "Guiana"
+msgstr "جويانا"
+
+msgid "Guidable"
+msgstr "قابل للتوجيه"
+
+msgid "Guidance"
+msgstr "التوجيه"
+
+msgid "Guidances"
+msgstr "التوجيهات"
+
+msgid "Guide"
+msgstr "الدليل"
+
+msgid "Guidebook"
+msgstr "الدليل"
+
+msgid "Guidebooks"
+msgstr "الأدلة"
+
+msgid "Guided"
+msgstr "موجّه"
+
+msgid "Guideline"
+msgstr "التوجيه"
+
+msgid "Guidelines"
+msgstr "التعليمات"
+
+msgid "Guidepost"
+msgstr "علامة الطريق"
+
+msgid "Guideposts"
+msgstr "علامات الطرق"
+
+msgid "Guider"
+msgstr "جويدر"
+
+msgid "Guides"
+msgstr "الأدلاء"
+
+msgid "GuidesOnePositionPage"
+msgstr "دليل-واحد-للصفحة"
+
+msgid "GuidesTwoPositionPage"
+msgstr "دليل-اثنان-للصفحة"
+
+msgid "Guideway"
+msgstr "قناة لضبط الإتّجاه او السّير"
+
+msgid "Guiding"
+msgstr "التوجيه"
+
+msgid "Guignol"
+msgstr "مسرحية"
+
+msgid "Guild"
+msgstr "النقابة"
+
+msgid "Guilder"
+msgstr "الغلدر"
+
+msgid "Guildhall"
+msgstr "مقر النقابة"
+
+msgid "Guildhalls"
+msgstr "مقرات النقابات"
+
+msgid "Guilds"
+msgstr "النقابات"
+
+msgid "Guile"
+msgstr "المكر"
+
+msgid "Guileful"
+msgstr "ماكر"
+
+msgid "Guilefully"
+msgstr "بشكل ماكر"
+
+msgid "Guileless"
+msgstr "بسيط"
+
+msgid "Guilelessly"
+msgstr "بشكل بسيط"
+
+msgid "Guilelessness"
+msgstr "البراءة"
+
+msgid "Guiles"
+msgstr "يخدع"
+
+msgid "Guilford"
+msgstr "جيلفورد"
+
+msgid "Guillemot"
+msgstr "الغلموت"
+
+msgid "Guillotine"
+msgstr "المقصلة"
+
+msgid "Guilt"
+msgstr "الذنب"
+
+msgid "Guiltier"
+msgstr "أكثر ذنبا"
+
+msgid "Guiltiest"
+msgstr "أكثر ذنبا"
+
+msgid "Guiltily"
+msgstr "بشكل مذنب"
+
+msgid "Guiltiness"
+msgstr "الذنب"
+
+msgid "Guiltless"
+msgstr "بريئ"
+
+msgid "Guiltlessly"
+msgstr "بشكل بريئ"
+
+msgid "Guiltlessness"
+msgstr "البراءة"
+
+msgid "Guilts"
+msgstr "الذنوب"
+
+msgid "Guilty"
+msgstr "مذنب"
+
+msgid "Guinea"
+msgstr "غينيا"
+
+msgid "Guinea pig"
+msgstr "الخنزير الغينيّ"
+
+msgid "Guinea pigs"
+msgstr "الخنازير الغينيةّ"
+
+msgid "Guinea-Bissau"
+msgstr "غينيا بيساو"
+
+msgid "Guineas"
+msgstr "الجنيهات الإنكليزيّة"
+
+msgid "Guise"
+msgstr "المظهر"
+
+msgid "Guised"
+msgstr "ملبوس"
+
+msgid "Guises"
+msgstr "المظاهر"
+
+msgid "Guising"
+msgstr "اللبس"
+
+msgid "Guitar"
+msgstr "القيثارة"
+
+msgid "Guitarist"
+msgstr "عازف القيثارة"
+
+msgid "Guitarists"
+msgstr "عازفو القيثارة"
+
+msgid "Guitars"
+msgstr "القيثارات"
+
+msgid "Gujarati"
+msgstr "اللغة الكوجوراتيّة"
+
+msgid "Gulch"
+msgstr "الوادي"
+
+msgid "Gulches"
+msgstr "الأودية"
+
+msgid "Gules"
+msgstr "اللون الأحمر"
+
+msgid "Gulf"
+msgstr "الخليج"
+
+msgid "Gulfs"
+msgstr "الخلجان"
+
+msgid "Gull"
+msgstr "النورس"
+
+msgid "Gullah"
+msgstr "جلاه - اللغة الإنجليزية الممزوجة بالأفريقية"
+
+msgid "Gulled"
+msgstr "خدع"
+
+msgid "Gullet"
+msgstr "المريئ"
+
+msgid "Gullets"
+msgstr "المريئ"
+
+msgid "Gullibility"
+msgstr "السذاجة"
+
+msgid "Gullible"
+msgstr "ساذج"
+
+msgid "Gullibly"
+msgstr "بسذاجة"
+
+msgid "Gullied"
+msgstr "مخدّد"
+
+msgid "Gullies"
+msgstr "المجاري"
+
+msgid "Gulling"
+msgstr "الخدعة"
+
+msgid "Gulls"
+msgstr "النوارس"
+
+msgid "Gully"
+msgstr "المجرى"
+
+msgid "Gullying"
+msgstr "التخديد"
+
+msgid "Gulp"
+msgstr "الجرعة"
+
+msgid "Gulped"
+msgstr "مبتلع"
+
+msgid "Gulper"
+msgstr "المبتلع"
+
+msgid "Gulping"
+msgstr "الإبتلاع"
+
+msgid "Gulps"
+msgstr "الجرع"
+
+msgid "Gum"
+msgstr "اللثة"
+
+msgid "Gumbo"
+msgstr "البامية"
+
+msgid "Gumdrop"
+msgstr "الحلوى"
+
+msgid "Gummier"
+msgstr "مصمّغ"
+
+msgid "Gummiest"
+msgstr "مصمّغ"
+
+msgid "Gumminess"
+msgstr "اللّزوجة"
+
+msgid "Gumming"
+msgstr "جومينج"
+
+msgid "Gummy"
+msgstr "مصمّغ"
+
+msgid "Gumption"
+msgstr "النباهة"
+
+msgid "Gums"
+msgstr "اللثث"
+
+msgid "Gumshoe"
+msgstr "المخبر"
+
+msgid "Gumshoes"
+msgstr "المخبرون"
+
+msgid "Gun"
+msgstr "البندقية"
+
+msgid "Gunboat"
+msgstr "القارب المسلّح"
+
+msgid "Gunboats"
+msgstr "القوارب المسلّحة"
+
+msgid "Gunderson"
+msgstr "جاندرسون"
+
+msgid "Gunfight"
+msgstr "النزاع المسلّح"
+
+msgid "Gunfighter"
+msgstr "المقاتل"
+
+msgid "Gunfights"
+msgstr "النزاعات المسلّحة"
+
+msgid "Gunfire"
+msgstr "إطلاق النار"
+
+msgid "Gunfires"
+msgstr "الإطلاقات النارية"
+
+msgid "Gunflint"
+msgstr "الوارية"
+
+msgid "Gunk"
+msgstr "المادّة اللّزجة"
+
+msgid "Gunky"
+msgstr "قذر"
+
+msgid "Gunman"
+msgstr "الرجل المسلّح"
+
+msgid "Gunmen"
+msgstr "الرجال المسلّحون"
+
+msgid "Gunnar"
+msgstr "جونر"
+
+msgid "Gunned"
+msgstr "أطلق"
+
+msgid "Gunner"
+msgstr "المدفعي"
+
+msgid "Gunners"
+msgstr "المدفعيون"
+
+msgid "Gunnery"
+msgstr "علم المدفعية"
+
+msgid "Gunning"
+msgstr "الإطلاق"
+
+msgid "Gunny"
+msgstr "الخيش"
+
+msgid "Gunnysack"
+msgstr "الجوال"
+
+msgid "Gunnysacks"
+msgstr "الأجولة"
+
+msgid "Gunplay"
+msgstr "إطلاق النار"
+
+msgid "Gunpowder"
+msgstr "البارود"
+
+msgid "Gunpowders"
+msgstr "بارود"
+
+msgid "Gunrunner"
+msgstr "مهرّب السّلاح"
+
+msgid "Gunrunners"
+msgstr "مهرّبو السّلاح"
+
+msgid "Guns"
+msgstr "الأسلحة"
+
+msgid "Gunshot"
+msgstr "الطلق الناري"
+
+msgid "Gunshots"
+msgstr "الطلقات النارية"
+
+msgid "Gunsling"
+msgstr "جانسلنج"
+
+msgid "Gunslinger"
+msgstr "حامل السلاح"
+
+msgid "Gunslinging"
+msgstr "التسلّح"
+
+msgid "Gunsmith"
+msgstr "صانع الأسلحة"
+
+msgid "Gunsmiths"
+msgstr "تاجر السّلاح"
+
+msgid "Gunther"
+msgstr "جانثر"
+
+msgid "Gunwale"
+msgstr "الحافّة - سمكة"
+
+msgid "Gunwales"
+msgstr "الحوافّ - سمك"
+
+msgid "Gurgle"
+msgstr "الغرغرة"
+
+msgid "Gurgled"
+msgstr "مغرغر"
+
+msgid "Gurgles"
+msgstr "الغرغرة"
+
+msgid "Gurgling"
+msgstr "الغرغرة"
+
+msgid "Gurkha"
+msgstr "جورخا"
+
+msgid "Gurmukhi"
+msgstr "جورموخي"
+
+msgid "Guru"
+msgstr "المعلّم"
+
+msgid "Gurus"
+msgstr "المعلّمون"
+
+msgid "Gus"
+msgstr "جوس"
+
+msgid "Gush"
+msgstr "الدفق"
+
+msgid "Gushed"
+msgstr "متدفّق"
+
+msgid "Gusher"
+msgstr "البئر المتّدفّق"
+
+msgid "Gushers"
+msgstr "المتدفق"
+
+msgid "Gushes"
+msgstr "التدفقات"
+
+msgid "Gushier"
+msgstr "أكثر تدفّقا"
+
+msgid "Gushiest"
+msgstr "أكثر تدفّقا"
+
+msgid "Gushily"
+msgstr "بتدفّق"
+
+msgid "Gushing"
+msgstr "التدفّق"
+
+msgid "Gushy"
+msgstr "متدفّق"
+
+msgid "Gusset"
+msgstr "لوح التقوية"
+
+msgid "Gussets"
+msgstr "ألواح التقوية"
+
+msgid "Gust"
+msgstr "الهبّة"
+
+msgid "Gustafson"
+msgstr "جستافسون"
+
+msgid "Gustatory"
+msgstr "ذوقي"
+
+msgid "Gustav"
+msgstr "غوستاف"
+
+msgid "Gustave"
+msgstr "غوستاف"
+
+msgid "Gustavus"
+msgstr "غوستافوس"
+
+msgid "Gusted"
+msgstr "عاصف"
+
+msgid "Gustier"
+msgstr "عاصف"
+
+msgid "Gustiest"
+msgstr "عاصف"
+
+msgid "Gustily"
+msgstr "بشكل عاصف"
+
+msgid "Gustiness"
+msgstr "العصف"
+
+msgid "Gusto"
+msgstr "الذوق"
+
+msgid "Gusts"
+msgstr "الهبّات"
+
+msgid "Gusty"
+msgstr "عاصف"
+
+msgid "Gut"
+msgstr "الوتر"
+
+msgid "Gutenberg"
+msgstr "جوتينبيرج"
+
+msgid "Guthrie"
+msgstr "غوثري"
+
+msgid "Gutless"
+msgstr "جبان"
+
+msgid "Gutlessness"
+msgstr "فقدان الشجاعة"
+
+msgid "Guts"
+msgstr "الأحشاء"
+
+msgid "Gutser"
+msgstr "جوتسير"
+
+msgid "Gutsier"
+msgstr "أشدّ طمعا"
+
+msgid "Gutsiness"
+msgstr "الشجاعة"
+
+msgid "Gutsy"
+msgstr "طمّاع"
+
+msgid "Gutted"
+msgstr "محبط"
+
+msgid "Gutter"
+msgstr "البالوعة"
+
+msgid "Guttered"
+msgstr "مميزب"
+
+msgid "Guttering"
+msgstr "المجاري"
+
+msgid "Gutters"
+msgstr "البالوعات"
+
+msgid "Guttersnipe"
+msgstr "إبن الشارع"
+
+msgid "Gutting"
+msgstr "التدمير"
+
+msgid "Guttural"
+msgstr "الصوت الأجشّ"
+
+msgid "Gutturally"
+msgstr "بشكل حلقي"
+
+msgid "Gutturalness"
+msgstr "الحَلْقِيّة"
+
+msgid "Gutturals"
+msgstr "الأصوات الجشّة"
+
+msgid "Guy"
+msgstr "الرّجل"
+
+msgid "Guyana"
+msgstr "غويانا"
+
+msgid "Guyed"
+msgstr "أرشد"
+
+msgid "Guyer"
+msgstr "جير"
+
+msgid "Guying"
+msgstr "التوجية"
+
+msgid "Guys"
+msgstr "الرجال"
+
+msgid "Guzzle"
+msgstr "إكرع"
+
+msgid "Guzzled"
+msgstr "مكروع"
+
+msgid "Guzzler"
+msgstr "الشارب بنهم"
+
+msgid "Guzzles"
+msgstr "يكرع"
+
+msgid "Guzzling"
+msgstr "الكرع"
+
+msgid "Gwen"
+msgstr "جوين"
+
+msgid "Gwyn"
+msgstr "جوين"
+
+msgid "Gym"
+msgstr "الجمنازيوم"
+
+msgid "Gymnasia"
+msgstr "الجمباز"
+
+msgid "Gymnasium"
+msgstr "الجمنازيوم"
+
+msgid "Gymnasiums"
+msgstr "الجمنازيوم"
+
+msgid "Gymnast"
+msgstr "الرياضي"
+
+msgid "Gymnastic"
+msgstr "رياضي"
+
+msgid "Gymnastically"
+msgstr "بشكل جمبازي"
+
+msgid "Gymnastics"
+msgstr "الجمباز"
+
+msgid "Gymnasts"
+msgstr "الرياضيون"
+
+msgid "Gymnosperm"
+msgstr "عاري البذور"
+
+msgid "Gyms"
+msgstr "الجمنازيوم"
+
+msgid "Gynaecological"
+msgstr "نسائي"
+
+msgid "Gynaecologist"
+msgstr "الطبيب النسائي"
+
+msgid "Gynaecology"
+msgstr "الطبّ النسائي"
+
+msgid "Gynecological"
+msgstr "متعلق بصحة المرأة"
+
+msgid "Gynecologist"
+msgstr "دكتور نساء"
+
+msgid "Gynecologists"
+msgstr "أطبّاء النّساء"
+
+msgid "Gynecology"
+msgstr "الطبّ النسائي"
+
+msgid "Gyp"
+msgstr "غشّ"
+
+msgid "Gypped"
+msgstr "نصب، إحتال"
+
+msgid "Gypping"
+msgstr "النصب، الإحتيال"
+
+msgid "Gyps"
+msgstr "يغشّ"
+
+msgid "Gypsied"
+msgstr "عاش كما الغجر"
+
+msgid "Gypsies"
+msgstr "الغجر"
+
+msgid "Gypsum"
+msgstr "الجبس"
+
+msgid "Gypsy"
+msgstr "غجري"
+
+msgid "Gypsying"
+msgstr "تقليد الغجر"
+
+msgid "Gyrate"
+msgstr "دائري"
+
+msgid "Gyrated"
+msgstr "مدار"
+
+msgid "Gyrates"
+msgstr "الدورات"
+
+msgid "Gyrating"
+msgstr "الإدارة"
+
+msgid "Gyration"
+msgstr "الدوران"
+
+msgid "Gyrations"
+msgstr "الدوران"
+
+msgid "Gyratory"
+msgstr "دائري"
+
+msgid "Gyrfalcon"
+msgstr "السّنقر - نوع من الصقور"
+
+msgid "Gyro"
+msgstr "البوصلة الجيروسكوبية"
+
+msgid "Gyrocompass"
+msgstr "البوصلة الجيروسكوبية"
+
+msgid "Gyroplane"
+msgstr "طائرة عمودية"
+
+msgid "Gyroplanes"
+msgstr "طيارات عمودية"
+
+msgid "Gyros"
+msgstr "البوصلة الجيروسكوبية"
+
+msgid "Gyroscope"
+msgstr "الجيروسكوب"
+
+msgid "Gyroscopes"
+msgstr "الجيروسكوبات"
+
+msgid "Gyroscopic"
+msgstr "توازني"
+
+msgid "Ganja"
+msgstr "الماريوانا - أوراق شجر مجفّفة وتدخّن على شكل مخدّر"
+
+msgid "Goths"
+msgstr "الجرمانيون :: القوطيّون"
+
+msgid "Greit"
+msgstr "الرثاء :: العويل :: النّواح :: ناح :: نحب"
+
+msgid "Generalised"
+msgstr "عمّم :: عمومي :: لم يخلق لمهمّة معيّنة"
+
+msgid "Google"
+msgstr "أكبر محرّك بحث على الإنترنت للعام 2003. يبحث خلال المواقع، الصّور، ومواقع الأخبار"
+
+msgid "Golly"
+msgstr "تستخدم للتّعبير عن التّعجّب او الإنبهار"
+
+msgid "Glandulous"
+msgstr "يحتوي على غدد :: متعلق بالغدد :: يشبه الغدد"
+
+msgid "Good luck"
+msgstr "ضربة حظ :: حظ جيّد :: نتيجة ممتازة"
+
+msgid "Gastropods"
+msgstr "بطنيّات الأقدام مثل القوقعة والحلزون"
+
+msgid "Gnosis"
+msgstr "المعرفة الروحية"
+
+msgid "Goodbye"
+msgstr "مع السّلامة :: وداعاً"
+

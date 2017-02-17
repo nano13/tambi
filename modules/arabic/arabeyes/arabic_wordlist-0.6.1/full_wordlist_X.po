@@ -1,0 +1,428 @@
+# translation of full_wordlist_X.po to Arabic
+#-*-
+# --
+# $Id: full_wordlist_X.po,v 1.8 2003/11/02 19:21:30 alrasheedan Exp $
+# --
+#
+# A complete account of all English words starting with 'X'
+# that need to be translated to Arabic.  This will be used
+# as part of a free dictionary look-up mechanism.
+#
+# - Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# To generate a simple equality list, run this command-line
+#   perl -n -e 'if (/^msgid\s+"(.*)"/)  { print "$1 = "; } \
+#               if (/^msgstr\s+"(.*)"/) { print "$1\n"; }' \
+#               this_file_name_here
+#
+#-*-
+# Ossama M. Khayat <okhayat@yahoo.com>, 2003.
+# Ahmad Al-rasheedan <asr@baldi.cc>, 2003.
+msgid ""
+msgstr ""
+"Project-Id-Version: full_wordlist_X\n"
+"POT-Creation-Date: 2002-07-13 18:00-0700\n"
+"PO-Revision-Date : 2002-07-23 11:15-0700\n"
+"Last-Translator: Ahmad Al-rasheedan <asr@baldi.cc>\n"
+"Language-Team: Arabic <docs@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"PO-Revision-Date: 2003-11-02 22:21+0300\n"
+
+msgid "X"
+msgstr "أكس - الحرف الرابع والعشرون في اللغة الإنجليزية"
+
+msgid "X-axis"
+msgstr "المحور السّيني او الأفقي"
+
+msgid "X-coordinate"
+msgstr "الإحداثي السّيني"
+
+msgid "X-Factor"
+msgstr "معامل س"
+
+msgid "X-mas"
+msgstr "أعياد الميلاد المسيحيّة"
+
+msgid "X-Position"
+msgstr "موضع س"
+
+msgid "X-ray"
+msgstr "الأشعة السّينيّة / أشعّة أكس"
+
+msgid "X-rays"
+msgstr "يصوّر عن طريق أشعة أكس"
+
+msgid "X-Server"
+msgstr "خادم إكس"
+
+msgid "X-Title"
+msgstr "عنوان س"
+
+msgid "X-windows"
+msgstr "نظام نوافذ لأنظمة تشغيل يونكس. إبتدعته جامعة أم آي تي"
+
+msgid "X25"
+msgstr "نظام للإتصالات"
+
+msgid "Xanax"
+msgstr "زاناكس - دواء مضادّ للقلق"
+
+msgid "Xanthate"
+msgstr "ملح الزنتات"
+
+msgid "Xanthelasma"
+msgstr "داء يصيب جفون العين خاصّة لدى كبار السّن"
+
+msgid "Xanthic"
+msgstr "حمض الزّانتك"
+
+msgid "Xantho-"
+msgstr "أصفر"
+
+msgid "Xanthochroid"
+msgstr "الشّخص الذي يملك بشرة فاتحة و الشّعر الخفيف"
+
+msgid "Xanthoma"
+msgstr "زانثوما - مرض جلدي"
+
+msgid "Xanthophyl"
+msgstr "صبغة صفراء في النّباتات و الدّهون الحيوانيّة و أمحاح البيض"
+
+msgid "Xanthophyll"
+msgstr "صبغة صفراء في النّباتات و الدّهون الحيوانيّة و أمحاح البيض"
+
+msgid "Xanthosis"
+msgstr "تغيّر لون الجلد الى الأصفر الغير طبيعي"
+
+#, Name
+msgid "Xanthus"
+msgstr "زانثس"
+
+msgid "Xavier"
+msgstr "خافير"
+
+msgid "Xaw"
+msgstr "قطع أثينا لنظام أكس للنوافذ"
+
+msgid "Xbase"
+msgstr "اللقب العام لبرامج قواعد البيانات"
+
+msgid "Xc"
+msgstr "اختراق الضّاحية"
+
+msgid "Xe"
+msgstr "غاز الزينون. غاز خامل"
+
+msgid "Xebec"
+msgstr "قارب ذو ثلاث صواري"
+
+msgid "Xeme"
+msgstr "النّورس القطبيّ الشّماليّ"
+
+msgid "Xenia"
+msgstr "زينيا"
+
+msgid "Xenium"
+msgstr "الهديّة"
+
+msgid "Xenix"
+msgstr "زينويكس"
+
+msgid "Xenodochium"
+msgstr "بيت مخصص للضيوف"
+
+msgid "Xenodochy"
+msgstr "ضيافة الغرباء"
+
+msgid "Xenogenesis"
+msgstr "إنتاج سّلالة مختلفة عن الآباء"
+
+msgid "Xenomania"
+msgstr "الهوس، الحبّ أكثر ممّا ينبغي"
+
+msgid "Xenon"
+msgstr "الإكسينون"
+
+msgid "Xenophobia"
+msgstr "كره الأجانب"
+
+msgid "Xenophobic"
+msgstr "كاره للأجانب"
+
+msgid "Xenopus"
+msgstr "الضّفدع الإفريقيّ ذو المخلب"
+
+msgid "Xenyl"
+msgstr "الميزة الراديكاليّة لمركبّات زينويليك"
+
+msgid "Xeres"
+msgstr "خمر أسبانيّ"
+
+msgid "Xeric"
+msgstr "قاحل، جاف"
+
+msgid "Xerif"
+msgstr "الشريف، النّبيل"
+
+msgid "Xerographic"
+msgstr "متعلّق بالتّصوير الجافّ"
+
+msgid "Xerography"
+msgstr "التّصوير الجافّ"
+
+msgid "Xerophagy"
+msgstr "صوم عند المسيحيّين"
+
+msgid "Xerophile"
+msgstr "نبات الزيروفيل"
+
+msgid "Xerophilous"
+msgstr "النّبات الذي يزدهر في موطن الجاف"
+
+msgid "Xerophyllum"
+msgstr "أعشاب الزيروفيللم"
+
+msgid "Xerophyte"
+msgstr " النّبات الصّحراوي، النّبات الذي لايحتاج لكثير من الماء"
+
+msgid "Xerophytic"
+msgstr "يصلح للبيئة الصّحراوية الجّافّة"
+
+msgid "Xerox"
+msgstr "النّسخة"
+
+msgid "Xeroxed"
+msgstr "نسخ"
+
+msgid "Xeroxes"
+msgstr "النّسخ"
+
+msgid "Xeroxing"
+msgstr "النّسخ"
+
+msgid "Xerus"
+msgstr "زيرس - حيوان أفريقي كما السّنجاب"
+
+#, Name
+msgid "Xerxes"
+msgstr "زركسيس"
+
+msgid "Xhosa"
+msgstr "لغة الزوشا المستعملة في جنوب أفريقيا"
+
+msgid "Xi"
+msgstr "الحرف الرّابع عشر للأبجدية اليونانيّة"
+
+msgid "Xian"
+msgstr "مدينة زيان الصّينية"
+
+msgid "Xii"
+msgstr "إثنا عشر"
+
+msgid "Xiii"
+msgstr "ثلاثة عشر"
+
+msgid "Ximian"
+msgstr "زيميان"
+
+msgid "Xinerama"
+msgstr "زينيراما"
+
+msgid "Xiphias"
+msgstr "نوع من أنواع سمك ابو سيف"
+
+msgid "Xiphisternum"
+msgstr "الجزء المنخفض لعظمة الصّدر"
+
+msgid "Xiphoid"
+msgstr "على شكل السيف "
+
+msgid "Xiv"
+msgstr "أربعة عشر"
+
+msgid "Xix"
+msgstr "تسعة عشر"
+
+msgid "Xl"
+msgstr "مقاس كبير جدّاً"
+
+msgid "Xlib"
+msgstr "مكتبّية لنظام أكس"
+
+msgid "Xmas"
+msgstr "عيد الميلاد"
+
+msgid "Xml"
+msgstr "أكس أم أل - نظام متّفق عليه لتشكيل النّصوص"
+
+msgid "Xmm"
+msgstr "نظام إدارة ذاكرة الكومبيوتر الموسّع"
+
+msgid "Xmodem"
+msgstr "إكس مودم"
+
+msgid "Xor"
+msgstr "أكس أور - عامل منطقي"
+
+msgid "Xpm"
+msgstr "ملفّ لشكل من أشكال الصّورة"
+
+msgid "Xray"
+msgstr "الأشعة السّينيّة / أشعّة أكس"
+
+msgid "Xrays"
+msgstr "الأشعّات السّينيّة"
+
+msgid "Xref"
+msgstr "التّأكيد على المعلومة بالإطّلاع على مراجع أُخرى"
+
+msgid "XSession"
+msgstr "جلسة"
+
+msgid "Xt"
+msgstr "إختصار لكلمة السيد المسيح"
+
+msgid "XTerm"
+msgstr "إكس تيرم"
+
+msgid "Xtran"
+msgstr "لغة برمجيّة مثل لغة فورتران"
+
+msgid "Xui"
+msgstr " واجهة المستخدم في نظام X للنّوافذ"
+
+msgid "Xv"
+msgstr "خمسة عشر"
+
+msgid "Xvi"
+msgstr "ستة عشر"
+
+msgid "Xvii"
+msgstr "سبعة عشر"
+
+msgid "Xviii"
+msgstr "ثمانية عشر"
+
+msgid "Xx"
+msgstr "عشرون"
+
+msgid "Xxi"
+msgstr "21"
+
+msgid "Xxii"
+msgstr "22"
+
+msgid "Xxiii"
+msgstr "23"
+
+msgid "Xxiv"
+msgstr "24"
+
+msgid "Xxix"
+msgstr "29"
+
+msgid "Xxv"
+msgstr "25"
+
+msgid "Xxvi"
+msgstr "26"
+
+msgid "Xxvii"
+msgstr "27"
+
+msgid "Xxviii"
+msgstr "28"
+
+msgid "Xxx"
+msgstr "30"
+
+msgid "Xylan"
+msgstr " الزيلان - مادّة نّباتية لزجة صفراء"
+
+msgid "Xylem"
+msgstr "الزيليم"
+
+msgid "Xylene"
+msgstr "الزيلين"
+
+msgid "Xylenol"
+msgstr "زيلينول "
+
+msgid "Xylo-"
+msgstr "كلمة سابقة وتعني الخشب"
+
+msgid "Xylocaine"
+msgstr "زيلوكين - ماركة تجاريّة لمخدّر موضعي"
+
+msgid "Xylocopine"
+msgstr "زيلوكوباين - نوع من الحشرات"
+
+msgid "Xylogen"
+msgstr "الخشب النّاشئ"
+
+msgid "Xylograph"
+msgstr "نقش على خشب"
+
+msgid "Xylography"
+msgstr "التلوين على الخشب"
+
+msgid "Xyloid"
+msgstr "مشابهة الخشب / يمتلك طبيعة الخشب "
+
+msgid "Xylol"
+msgstr "الزيلين - سائل متطاير قابل للاشتعال عديم اللّون"
+
+msgid "Xylology"
+msgstr "فرع لعلم الشّجر يتناول الهيكل الدّقيق للخشب"
+
+msgid "Xylomelum"
+msgstr "شجيرة الزيلوميلم الإستراليّة"
+
+msgid "Xylophaga"
+msgstr "حيوان رخوي بحري"
+
+msgid "Xylophagous"
+msgstr "آكل الخشب"
+
+msgid "Xylophilan"
+msgstr "زيلوفيلان - نوع من أنواع الخنافس التي تعيش على أكل الأخشاب"
+
+msgid "Xylophili"
+msgstr "زيلوفيلان - نوع من أنواع الخنافس التي تعيش على أكل الأخشاب"
+
+msgid "Xylophilous"
+msgstr "العيش على أو في الخشب"
+
+msgid "Xylophone"
+msgstr "الاكسليفون"
+
+msgid "Xylophones"
+msgstr "الاكسليفون"
+
+msgid "Xylophonist"
+msgstr "الذي يلعب آلة الاكسليفون"
+
+msgid "Xylose"
+msgstr "سكّر الزيلوز"
+
+msgid "Xylotomous"
+msgstr "قادر على قطع الخشب"
+
+msgid "Xylotomy"
+msgstr "تجهيز شرائح الخشب للدّراسة الدّقيقة"
+
+msgid "Xyphophorus"
+msgstr "سمكة الذيل أبو سيف"
+
+msgid "Xyst"
+msgstr "مكان مغطّى للتّمارين الرّياضيّة"
+
+msgid "Xyster"
+msgstr "أداة لكشط العظام"
+
+msgid "Xystus"
+msgstr "مكان مغطّى للتّمارين الرّياضيّة"
+
