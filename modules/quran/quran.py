@@ -1,4 +1,4 @@
- # -*- coding: utf_8 -*-
+# -*- coding: utf_8 -*-
 
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
