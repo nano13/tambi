@@ -56,10 +56,10 @@ class VocableDbAdapter(object):
         STRONG_COUNT = 1
         NEW_COUNT = 1
         
-        query_poor = "SELECT display, gloss FROM {0} WHERE known < 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
-        query_weak = "SELECT display, gloss FROM {0} WHERE known <= 5 AND known > 0 ORDER BY RANDOM() LIMIT {1}".format(language, count)
-        query_strong = "SELECT display, gloss FROM {0} WHERE known > 5 ORDER BY RANDOM() LIMIT {1}".format(language, count)
-        query_random = "SELECT display, gloss FROM {0} ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        query_poor = "SELECT display, gloss FROM {0} WHERE known < 0 AND priority!='never' ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        query_weak = "SELECT display, gloss FROM {0} WHERE known <= 5 AND known > 0 AND priority!='never' ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        query_strong = "SELECT display, gloss FROM {0} WHERE known > 5  AND priority!='never' ORDER BY RANDOM() LIMIT {1}".format(language, count)
+        query_random = "SELECT display, gloss FROM {0} WHERE priority!='never' ORDER BY RANDOM() LIMIT {1}".format(language, count)
         
         query_list = [query_poor, query_weak, query_strong, query_random]
         result_list = []
@@ -117,6 +117,11 @@ class VocableDbAdapter(object):
         select_query = 'SELECT priority FROM {0} WHERE display="{1}"'.format(language, display)
         update_query = 'UPDATE {0} SET priority="#" WHERE display="{1}"'.format(language, display)
         self.updateCalculator(select_query, priority, update_query)
+    
+    def markVocableAsNotToLearn(self, language, vocable):
+        update_query = 'UPDATE {0} SET priority="never" WHERE display=?'.format(language)
+        self.cursor.execute(update_query, [vocable])
+        self.connection.commit()
     
     def updateKnown(self, language, display, value):
         select_query = 'SELECT known FROM {0} WHERE display="{1}"'.format(language, display)

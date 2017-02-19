@@ -42,6 +42,7 @@ class QVocableLearnPage(QWidget):
         self.word_counter.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
         self.language_select_button = QPushButton("select language")
+        self.not_want_learn_button = QPushButton("not want to learn")
         self.prev_button = QPushButton("prev")
         self.next_button = QPushButton("next")
         self.show_button = QPushButton("show translation")
@@ -50,6 +51,7 @@ class QVocableLearnPage(QWidget):
         self.newset_button = QPushButton("new set")
         
         self.language_select_button.clicked.connect(self.languageSelectButtonClicked)
+        self.not_want_learn_button.clicked.connect(self.notWantToLearnClicked)
         self.prev_button.clicked.connect(self.prevButtonClicked)
         self.next_button.clicked.connect(self.nextButtonClicked)
         self.show_button.clicked.connect(self.showButtonClicked)
@@ -58,6 +60,7 @@ class QVocableLearnPage(QWidget):
         self.newset_button.clicked.connect(self.newsetButtonClicked)
         
         grid.addWidget(self.language_select_button, 0, 0)
+        grid.addWidget(self.not_want_learn_button, 0, 1)
         grid.addWidget(self.word_counter, 0, 2)
         #grid.addWidget(self.current_vocable, 1, 1)
         grid.addWidget(self.current_vocable, 1, 0, 1, 3)
@@ -74,6 +77,10 @@ class QVocableLearnPage(QWidget):
     
     def languageSelectButtonClicked(self):
         self.selectLanguage.emit()
+        
+    def notWantToLearnClicked(self):
+        self.dbAdapter.markVocableAsNotToLearn(self.current_language, self.current_vocable.text())
+        
     
     def showNewVocables(self, vocable_list, translation_list):
         self.vocable_list = vocable_list;
