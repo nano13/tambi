@@ -55,7 +55,6 @@ class QVirtualKeyboardWindow(QMainWindow):
         
     def setLineEdit(self, lineEdit):
         self.virtualKeyboard.setLineEdit(lineEdit)
-        pass
         
 if __name__ == "__main__":
     import signal

@@ -2,7 +2,8 @@
 
 from PyQt5.QtWidgets import QMainWindow, QWidget, QPushButton, QComboBox, QLabel
 from PyQt5.QtCore import Qt
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtGui import QKeyEvent
+from PyQt5.QtCore import pyqtSignal, QEvent
 
 import functools
 import math
@@ -66,7 +67,20 @@ class QVirtualKeyboardWidget(QWidget):
         
     def printChar(self, char):
         if self.lineEdit:
-            self.lineEdit.appendText(char)
+            if char == '↑':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Up, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '↓':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Down, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '←':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Left, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '→':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Right, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            else:
+                self.lineEdit.appendText(char)
         else:
             print(char)
         
