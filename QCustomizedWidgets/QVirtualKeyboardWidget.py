@@ -79,6 +79,9 @@ class QVirtualKeyboardWidget(QWidget):
             elif char == '→':
                 event = QKeyEvent(QEvent.KeyPress, Qt.Key_Right, Qt.NoModifier)
                 self.lineEdit.keyPressEvent(event)
+            elif char == '⏎':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Enter, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
             else:
                 self.lineEdit.appendText(char)
         else:
