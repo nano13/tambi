@@ -44,8 +44,21 @@ class Quran(object):
         result_object.payload = all_commands
         return result_object
     
-    def search(self, c, a):
-        pass
+    def search(self, c, args):
+        key = '%'+args[0]+'%'
+        query = """SELECT surah, ayah, arabic, transcription, de_DE
+        FROM quran
+        WHERE arabic LIKE ? OR transcription LIKE ? OR de_DE LIKE ?"""
+        self.cursor.execute(query, [key, key, key])
+        
+        result = self.cursor.fetchall()
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.payload = result
+        result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
+        result_object.name = "quran_search"
+        return result_object
     
     def word(self, c, args):
         
