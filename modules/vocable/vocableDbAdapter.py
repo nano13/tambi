@@ -119,17 +119,17 @@ class VocableDbAdapter(object):
                     print("ADDING VOCABLE FROM", category)
             except IndexError:
                 carry += 1
-                print("INCREMENTING CARRY", category)
+                #print("INCREMENTING CARRY", category)
             else:
                 carry = 1
-                print("RESETTING CARRY", category)
+                #print("RESETTING CARRY", category)
         
         return vocable_list[:count], translation_list[:count]
         
     def updatePriority(self, language, display, priority):
-        select_query = 'SELECT priority FROM {0} WHERE display="{1}"'.format(language, display)
-        update_query = 'UPDATE {0} SET priority="#" WHERE display="{1}"'.format(language, display)
-        self.updateCalculator(select_query, priority, update_query)
+        #select_query = 'SELECT priority FROM {0} WHERE display="{1}"'.format(language, display)
+        update_query = 'UPDATE {0} SET priority = priority+{1} WHERE display="{2}"'.format(language, priority, display)
+        self.cursor.execute(update_query)
     
     def markVocableAsNotToLearn(self, language, vocable):
         update_query = 'UPDATE {0} SET priority="never" WHERE display=?'.format(language)
@@ -137,27 +137,10 @@ class VocableDbAdapter(object):
         self.connection.commit()
     
     def updateKnown(self, language, display, value):
-        select_query = 'SELECT known FROM {0} WHERE display="{1}"'.format(language, display)
-        update_query = 'UPDATE {0} SET known="#" WHERE display="{1}"'.format(language, display)
-        self.updateCalculator(select_query, value, update_query)
-        
-    # adds (or subtracts) the value from the selected one and saves it back to the db
-    def updateCalculator(self, select, value, update):
-        self.cursor.execute(select)
-        result = self.cursor.fetchall()
-        
-        res = int(result[0][0])
-        new_value = res + int(value)
-        
-        # known = 0 means 'not learned' in db, we want to avoid this state for already learned ones:
-        if new_value == 0:
-            new_value = res + int(value)
-            
-        update = update.replace('#', '{0}').format(new_value)
-        
-        self.cursor.execute(update)
-        self.connection.commit()
-        
+        #select_query = 'SELECT known FROM {0} WHERE display="{1}"'.format(language, display)
+        update_query = 'UPDATE {0} SET known = known+{1} WHERE display="{2}"'.format(language, value, display)
+        self.cursor.execute(update_query)
+    
     def updateLastLearnedDate(self, language, display):
         date = int(time.time())
         
