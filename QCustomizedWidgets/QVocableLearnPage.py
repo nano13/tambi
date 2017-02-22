@@ -93,7 +93,10 @@ class QVocableLearnPage(QWidget):
         else:
             self.vocable_counter = len(self.vocable_list)-1
             
-        self.current_vocable.setText(self.vocable_list[self.vocable_counter])
+        try:
+            self.current_vocable.setText(self.vocable_list[self.vocable_counter])
+        except IndexError:
+            self.current_vocable.setText('ERROR: empty set')
         self.current_translation.setText("")
         self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
@@ -102,13 +105,19 @@ class QVocableLearnPage(QWidget):
             self.vocable_counter += 1
         else:
             self.vocable_counter = 0
-            
-        self.current_vocable.setText(self.vocable_list[self.vocable_counter])
+        
+        try:
+            self.current_vocable.setText(self.vocable_list[self.vocable_counter])
+        except IndexError:
+            self.current_vocable.setText('ERROR: empty set')
         self.current_translation.setText("")
         self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
     def showButtonClicked(self, button):
-        self.current_translation.setText(self.translation_list[self.vocable_counter])
+        try:
+            self.current_translation.setText(self.translation_list[self.vocable_counter])
+        except IndexError:
+            self.current_translation.setText('ERROR: empty set')
         
     def knownButtonClicked(self, button):
         self.dbAdapter.updateKnown(self.current_language, self.current_vocable.text(), 1)
@@ -135,5 +144,8 @@ class QVocableLearnPage(QWidget):
         #self.vocable_list, self.translation_list = self.dbAdapter.getRandomVocableList(language, 10)
         self.vocable_list, self.translation_list = self.dbAdapter.getIntelligentVocableList(language, 10)
         
-        self.current_vocable.setText(self.vocable_list[0])
+        try:
+            self.current_vocable.setText(self.vocable_list[0])
+        except IndexError:
+            self.current_vocable.setText('ERROR: empty set')
         self.current_translation.setText("")

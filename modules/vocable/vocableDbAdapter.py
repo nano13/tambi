@@ -1,7 +1,7 @@
 
 from configs.configFiles import ConfigFile, ConfigDir
 
-import sqlite3, time, random, os, shutil
+import sqlite3, time, random, os, shutil, math
 
 MASTER_DB_PATH = "modules/vocable/vocables.db"
 
@@ -20,6 +20,18 @@ class VocableDbAdapter(object):
         
         self.connection = sqlite3.connect(dbpath)
         self.cursor = self.connection.cursor()
+        
+    def dictFactory(self, result):
+        result_list = []
+        
+        for row in result:
+            dic = {}
+            
+            for i, col in enumerate(self.cursor.description):
+                dic[col[0]] = row[i]
+            result_list.append(dic)
+        
+        return result_list
         
     def getAvailableLanguages(self):
         query = "SELECT name FROM sqlite_master WHERE type='table'"
@@ -49,7 +61,73 @@ class VocableDbAdapter(object):
         
         return vocable_list, translation_list
     
+    def getBordersForKnownStatus(self, language):
+        stats = self.getStats(language)
+        known_worst = stats[0][-1]
+        known_best = stats[-2][-1] # [-1][-1] would be 'none' ...
+        
+        # divide the range between worst and best into three equal parts
+        length = len(range(known_worst, known_best)) +1
+        partition_size = math.ceil(length / 3)
+        
+        range_poor = known_worst + partition_size
+        range_weak = known_worst + 2*partition_size
+        range_strong = known_worst + 3*partition_size
+        
+        #print(range_poor, range_weak, range_strong)
+        return {
+            'weak_lower_limit' : range_poor,
+            'weak_upper_limit' : range_weak,
+        }
+    
     def getIntelligentVocableList(self, language, count):
+        CONTROL_LIST = ["p", "p", "p", "w", "w", "w", "p", "s", "r", "r"]
+        
+        borders = self.getBordersForKnownStatus(language)
+        
+        query_poor = 'SELECT display, gloss FROM {0} WHERE known < {1} AND priority!="never" ORDER BY RANDOM() LIMIT {2}'.format(language, borders['weak_lower_limit'], count)
+        
+        query_weak = 'SELECT display, gloss FROM {0} WHERE known >= {1} AND known < {2} AND priority!="never" ORDER BY RANDOM() LIMIT {3}'.format(language, borders['weak_lower_limit'], borders['weak_upper_limit'], count)
+        
+        query_strong = 'SELECT display, gloss FROM {0} WHERE known >= {1} AND known!="none" AND priority!="never"ORDER BY RANDOM() LIMIT {2}'.format(language, borders['weak_upper_limit'], count)
+        
+        query_random = 'SELECT display, gloss FROM {0} WHERE priority!="never" ORDER BY RANDOM() LIMIT {1}'.format(language, count)
+        
+        query_list = [
+            {'query': query_poor, 'category' : 'p'},
+            {'query' : query_weak, 'category' : 'w'},
+            {'query' : query_strong, 'category' : 's'},
+            {'query' : query_random, 'category' : 'r'},
+        ]
+        #result_list = []
+        result_dict = {}
+        for query in query_list:
+            self.cursor.execute(query['query'])
+            result = self.cursor.fetchall()
+            result_dict[query['category']] = self.dictFactory(result)
+            
+        vocable_list = []
+        translation_list = []
+        carry = 1
+        for category in CONTROL_LIST:
+            print(carry)
+            try:
+                for i in range(0, carry):
+                    vocable_item = result_dict[category].pop()
+                    vocable_list.append(vocable_item['display'])
+                    translation_list.append(vocable_item['gloss'])
+                    print("ADDING VOCABLE FROM", category)
+            except IndexError:
+                carry += 1
+                print("INCREMENTING CARRY", category)
+            else:
+                carry = 1
+                print("RESETTING CARRY", category)
+        
+        return vocable_list[:count], translation_list[:count]
+        
+    
+    def OLD__getIntelligentVocableList(self, language, count):
         #control_list = ["p", "p", "p", "w", "w", "w", "s", "s", "r", "r"]
         POOR_COUNT = 5
         WEAK_COUNT = 3
