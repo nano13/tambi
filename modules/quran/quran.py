@@ -54,16 +54,15 @@ class Quran(object):
         result = self.cursor.fetchall()
         
         result_object = Result()
-        result_object.category = "list"#"table"
+        result_object.category = "itemized"#"table"
         result_object.payload = result
         result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
         result_object.name = "quran_search"
         return result_object
     
     def word(self, c, args):
-        
         if len(args) == 1:
-            print("LEN 1", args[0])
+            #print("LEN 1", args[0])
             query = "SELECT surah, ayah, arabic, transcription, de_DE FROM quran WHERE surah=?"
             self.cursor.execute(query, [int(args[0])])
         elif len(args) == 2:
@@ -78,9 +77,9 @@ class Quran(object):
         result = self.cursor.fetchall()
         
         result_object = Result()
-        result_object.category = "list"#"table"
+        result_object.category = "itemized"#"table"
         result_object.payload = result
         result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
-        result_object.name = "quran"
+        result_object.name = "quran_word"
         return result_object
     

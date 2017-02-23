@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
 from PyQt5.QtGui import QIcon
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
+from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 
 from interpreter.interpreter import Interpreter
@@ -25,9 +26,11 @@ class QCoreTab(QWidget):
         grid.addWidget(self.vocable_page, 0, 0)
         
         return self
-        
+    
     def cliTab(self):
         self.grid = QGridLayout()
+        #self.grid.setSpacing(0)
+        self.grid.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.grid)
         
         self.display_widget = QTableWidget()
@@ -86,7 +89,9 @@ class QCoreTab(QWidget):
             self.resultInTable(result)
         elif result.category == "list":
             self.resultInTextEdit(result)
-        
+        elif result.category == "itemized":
+            self.resultInItemizedWidget(result)
+    
     def resultInTable(self, result):
         self.display_widget.deleteLater()
         self.display_widget = QTableWidget()
@@ -101,19 +106,25 @@ class QCoreTab(QWidget):
         for row, line in enumerate(result.payload):
             for column, item in enumerate(line):
                 self.display_widget.setItem(row, column, QTableWidgetItem(str(item)))
-                
+        
         self.display_widget.resizeColumnsToContents()
         self.addDisplayWidget()
-        
+    
     def resultInTextEdit(self, result):
         self.display_widget.deleteLater()
         self.display_widget = QTextEdit()
         self.display_widget.setText(result.toString())
+        self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
-        
+    
+    def resultInItemizedWidget(self, result):
+        self.display_widget.deleteLater()
+        self.display_widget = QItemizedWidget(result.payload)
+        self.addDisplayWidget()
+    
     def showErrorMessage(self, message):
         self.display_widget.setRowCount(1)
         self.display_widget.setColumnCount(1)
         self.display_widget.setItem(0, 0, QTableWidgetItem(str(message)))
         self.display_widget.resizeColumnsToContents()
-        
+    
