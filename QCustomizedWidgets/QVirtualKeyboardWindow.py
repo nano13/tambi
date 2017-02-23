@@ -8,7 +8,7 @@ except ImportError:
 class QVirtualKeyboardWindow(QMainWindow):
     
     availableHostLayouts = ["qwertz"]
-    availableVirtualLayouts = ["german", "greek", "hebrew", "arabic", "hindi"]
+    availableVirtualLayouts = ["german", "greek", "hebrew", "arabic", "hindi", "futhark"]
     
     def __init__(self):
         super().__init__()

@@ -115,7 +115,9 @@ class QVirtualKeyboardWidget(QWidget):
         elif language == "arabic":
             return self.getArabChars()
         elif language == "hindi":
-            return self.getDevanagariTemplate()
+            return self.getDevanagariChars()
+        elif language == "futhark":
+            return self.getFutharkChars()
         else:
             return self.getHebrewChars()
         
@@ -154,13 +156,20 @@ class QVirtualKeyboardWidget(QWidget):
                 ["\u21E7", "ئ", "ء", "ؤ", "ر", "لا", "ى", "ة", "و", "ز", "ظ" ,"ـ", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
-    def getDevanagariTemplate(self):
+    def getDevanagariChars(self):
         return [["ॊ", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "ृ", "\u232b"],
                 ["⇄", "ौ", "ै", "ा", "ी", "ू", "ब", "ह", "ग", "द", "ज", "ड", "ड़", "़"],
                 ["\u21ea", "ो", "े", "्", "ि", "ु", "प", "र", "क", "त", "च", "ट", "\u23ce"],
                 ["\u21E7", "ॆ", "ं", "म", "न", "व", "ल", "स", ",", ".", "य" ,"", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
-        
+    
+    def getFutharkChars(self):
+        return [["ᛢ", "ᚨ", "\u16b1", "", "", "", "", "", "", "", "", "", "", "\u232b"],
+                ["⇄", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+                ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", "\u23ce"],
+                ["\u21E7", "", "", "", "", "", "", "", "", "", "" ,"ـ", "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+    
     "Template for copying it if you want to make new layouts"
     def getCharsTemplate(self):
         return [["", "", "", "", "", "", "", "", "", "", "", "", "", "\u232b"],

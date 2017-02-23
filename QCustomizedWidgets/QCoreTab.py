@@ -89,6 +89,8 @@ class QCoreTab(QWidget):
             self.resultInTable(result)
         elif result.category == "list":
             self.resultInTextEdit(result)
+        elif result.category == "text":
+            self.resultInTextEdit(result)
         elif result.category == "itemized":
             self.resultInItemizedWidget(result)
     
