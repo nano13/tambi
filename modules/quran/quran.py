@@ -17,6 +17,8 @@ class Quran(object):
             "quran.search" : self.search,
             
             "quran.word" : self.word,
+            "quran.word.ar" : self.wordAR,
+            "quran.word.de" : self.wordDE,
         }
     
     def interpreter(self, command, args):
@@ -61,17 +63,30 @@ class Quran(object):
         return result_object
     
     def word(self, c, args):
+        columns = ["surah", "ayah", "arabic", "transcription", "de_DE"]
+        return self.wordHelper(args, columns)
+    
+    def wordAR(self, c, args):
+        columns = ["surah", "ayah", "arabic"]
+        return self.wordHelper(args, columns)
+    
+    def wordDE(self, c, args):
+        columns = ["surah", "ayah", "de_DE"]
+        return self.wordHelper(args, columns)
+    
+    def wordHelper(self, args, header):
+        columns = ", ".join(header)
         if len(args) == 1:
             #print("LEN 1", args[0])
-            query = "SELECT surah, ayah, arabic, transcription, de_DE FROM quran WHERE surah=?"
+            query = "SELECT {0} FROM quran WHERE surah=?".format(columns)
             self.cursor.execute(query, [int(args[0])])
         elif len(args) == 2:
             if args[1].find('-') == -1:
-                query = "SELECT surah, ayah, arabic, transcription, de_DE FROM quran WHERE surah=? AND ayah=?"
+                query = "SELECT {0} FROM quran WHERE surah=? AND ayah=?".format(columns)
                 self.cursor.execute(query, [int(args[0]), int(args[1])])
             else:
                 ayah_min, ayah_max = args[1].split('-')
-                query = "SELECT surah, ayah, arabic, transcription, de_DE FROM quran WHERE surah=? AND ayah>=? AND ayah<=?"
+                query = "SELECT {0} FROM quran WHERE surah=? AND ayah>=? AND ayah<=?".format(columns)
                 self.cursor.execute(query, [int(args[0]), int(ayah_min), int(ayah_max)])
         
         result = self.cursor.fetchall()
@@ -79,7 +94,7 @@ class Quran(object):
         result_object = Result()
         result_object.category = "itemized"#"table"
         result_object.payload = result
-        result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
+        result_object.header = header#['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
         result_object.name = "quran_word"
         return result_object
     
