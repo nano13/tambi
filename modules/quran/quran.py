@@ -54,7 +54,7 @@ class Quran(object):
         result = self.cursor.fetchall()
         
         result_object = Result()
-        result_object.category = "table"
+        result_object.category = "list"#"table"
         result_object.payload = result
         result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
         result_object.name = "quran_search"
@@ -78,7 +78,7 @@ class Quran(object):
         result = self.cursor.fetchall()
         
         result_object = Result()
-        result_object.category = "table"
+        result_object.category = "list"#"table"
         result_object.payload = result
         result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
         result_object.name = "quran"

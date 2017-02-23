@@ -13,10 +13,26 @@ class Result:
     payload = None
     metaload = None
     
+    # header is a list or None
     header = None
     
+    # name is a string or None
     name = None
     
     error = None
     
     cursorPosition = None
+    
+    def toString(self):
+        result = ""
+        if type(self.payload) == list:
+            for line in self.payload:
+                for column in line:
+                    result += str(column)
+                    if type(line) == tuple or type(line) == list:
+                        result += " "
+                result += "\n"
+            result = result.strip()
+        else:
+            result = payload
+        return result

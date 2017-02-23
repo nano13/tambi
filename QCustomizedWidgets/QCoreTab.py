@@ -1,6 +1,6 @@
 # -*- coding: utf_8 -*-
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit
 from PyQt5.QtGui import QIcon
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
@@ -27,24 +27,28 @@ class QCoreTab(QWidget):
         return self
         
     def cliTab(self):
-        grid = QGridLayout()
-        self.setLayout(grid)
+        self.grid = QGridLayout()
+        self.setLayout(self.grid)
         
-        self.table = QTableWidget()
+        self.display_widget = QTableWidget()
         self.vkbd = None
         
-        grid.addWidget(self.table, 0, 0, 1, 0)
+        #self.grid.addWidget(self.display_widget, 0, 0, 1, 0)
+        self.addDisplayWidget()
         
         line = QInputLine()
         line.return_pressed.connect(self.commandEntered)
-        grid.addWidget(line, 1, 0)
+        self.grid.addWidget(line, 1, 0)
         
         vkbdButton = QPushButton(self)
         vkbdButton.clicked.connect(partial(self.vkbdButtonClicked, line))
         vkbdButton.setIcon(QIcon.fromTheme('input-keyboard'))
-        grid.addWidget(vkbdButton, 1, 1)
+        self.grid.addWidget(vkbdButton, 1, 1)
         
         return self
+    
+    def addDisplayWidget(self):
+        self.grid.addWidget(self.display_widget, 0, 0, 1, 0)
     
     def vkbdButtonClicked(self, lineEdit):
         self.vkbd = QVirtualKeyboardWindow()
@@ -80,26 +84,36 @@ class QCoreTab(QWidget):
             pass
         elif result.category == "table":
             self.resultInTable(result)
+        elif result.category == "list":
+            self.resultInTextEdit(result)
         
     def resultInTable(self, result):
-        
-        self.table.setRowCount(len(result.payload))
-        self.table.setColumnCount(len(result.payload[0]))
+        self.display_widget.deleteLater()
+        self.display_widget = QTableWidget()
+        self.display_widget.setRowCount(len(result.payload))
+        self.display_widget.setColumnCount(len(result.payload[0]))
         
         try:
-            self.table.setHorizontalHeaderLabels(result.header)
+            self.display_widget.setHorizontalHeaderLabels(result.header)
         except TypeError:
             pass
         
         for row, line in enumerate(result.payload):
             for column, item in enumerate(line):
-                self.table.setItem(row, column, QTableWidgetItem(str(item)))
+                self.display_widget.setItem(row, column, QTableWidgetItem(str(item)))
                 
-        self.table.resizeColumnsToContents()
+        self.display_widget.resizeColumnsToContents()
+        self.addDisplayWidget()
+        
+    def resultInTextEdit(self, result):
+        self.display_widget.deleteLater()
+        self.display_widget = QTextEdit()
+        self.display_widget.setText(result.toString())
+        self.addDisplayWidget()
         
     def showErrorMessage(self, message):
-        self.table.setRowCount(1)
-        self.table.setColumnCount(1)
-        self.table.setItem(0, 0, QTableWidgetItem(str(message)))
-        self.table.resizeColumnsToContents()
+        self.display_widget.setRowCount(1)
+        self.display_widget.setColumnCount(1)
+        self.display_widget.setItem(0, 0, QTableWidgetItem(str(message)))
+        self.display_widget.resizeColumnsToContents()
         
