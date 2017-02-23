@@ -34,5 +34,5 @@ class Result:
                 result += "\n"
             result = result.strip()
         else:
-            result = payload
+            result = self.payload
         return result
