@@ -15,6 +15,8 @@ class Bituza(object):
         return {
             "bituza.commands" : self.commands,
             
+            "bituza.books" : self.books,
+            
             "bituza.search.elberfelder" : self.search,
             "bituza.search.unicode" : self.search,
             "bituza.search.ascii" : self.search,
@@ -58,6 +60,18 @@ class Bituza(object):
     
     def commandNotFound(self, c, a):
         raise CommandNotInThisModule("command not found in module bituza")
+    
+    def books(self, c, a):
+        query = "SELECT name_intern FROM books"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.header = ["name_intern"]
+        result_object.payload = result
+        result_object.name = "bituza.books"
+        return result_object
     
     def sql(self, c, a):
         try:
