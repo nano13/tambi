@@ -19,18 +19,18 @@ class QVirtualKeyboardWidget(QWidget):
         self.setWindowTitle("virtual keyboard")
         self.resize(450, 150)
         
-        #self.drawKeyboard("arabic", "qwertz")
-        
-        #self.show()
+        self.language = None
+        self.chars = None
+        self.level_two_chars = None
         
     def setLineEdit(self, lineEdit):
         self.lineEdit = lineEdit
         
     def drawKeyboard(self, layout, language):
-        chars = self.getChars(language)
+        self.chars, self.level_two_chars = self.getChars(language)
         keys = self.getKeys(layout)
         
-        self.drawButtons(chars, keys)
+        self.drawButtons(self.chars, keys)
         
         #self.enter = QPushButton("\u23ce", self)
         #self.enter.resize(50, 60)
@@ -67,7 +67,9 @@ class QVirtualKeyboardWidget(QWidget):
         
     def printChar(self, char):
         if self.lineEdit:
-            if char == '↑':
+            if char == '⇄':
+                print("TAB PRESSED")
+            elif char == '↑':
                 event = QKeyEvent(QEvent.KeyPress, Qt.Key_Up, Qt.NoModifier)
                 self.lineEdit.keyPressEvent(event)
             elif char == '↓':
@@ -85,6 +87,18 @@ class QVirtualKeyboardWidget(QWidget):
             elif char == '⌫':
                 event = QKeyEvent(QEvent.KeyPress, Qt.Key_Backspace, Qt.NoModifier)
                 self.lineEdit.keyPressEvent(event)
+            elif char == '⇧':
+                print("SHIFT PRESSED")
+            elif char == '⇪':
+                print("CAPSLOCK PRESSED")
+            elif char == 'ctrl':
+                print("CONTROL PRESSED")
+            elif char == 'alt':
+                print("ALT PRESSED")
+            elif char == '⌘':
+                print("WIndows key pressed")
+            elif char == '⌥':
+                print("anykey pressed")
             else:
                 self.lineEdit.appendText(char)
         else:
@@ -107,19 +121,19 @@ class QVirtualKeyboardWidget(QWidget):
         
     def getChars(self, language):
         if language == "german":
-            return self.getGermanChars()
+            return self.getGermanChars(), self.getLevel2GermanChars()
         elif language == "greek":
-            return self.getGreekChars()
+            return self.getGreekChars(), None
         elif language == "hebrew":
-            return self.getHebrewChars()
+            return self.getHebrewChars(), None
         elif language == "arabic":
-            return self.getArabChars()
+            return self.getArabChars(), None
         elif language == "hindi":
-            return self.getDevanagariChars()
+            return self.getDevanagariChars(), None
         elif language == "futhark":
-            return self.getFutharkChars()
+            return self.getFutharkChars(), None
         else:
-            return self.getHebrewChars()
+            return self.getHebrewChars(), None
         
     def getGreekChars(self):
         return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
