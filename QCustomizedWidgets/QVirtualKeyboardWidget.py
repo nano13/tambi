@@ -143,9 +143,9 @@ class QVirtualKeyboardWidget(QWidget):
         elif language == "greek":
             return self.getGreekChars(), self.getLevel2GreekChars()
         elif language == "hebrew":
-            return self.getHebrewChars(), None
+            return self.getHebrewChars(), self.getLevel2HebrewChars()
         elif language == "arabic":
-            return self.getArabChars(), None
+            return self.getArabicChars(), self.getLevel2ArabicChars()
         elif language == "hindi":
             return self.getDevanagariChars(), None
         elif language == "futhark":
@@ -172,6 +172,12 @@ class QVirtualKeyboardWidget(QWidget):
                 ["\u21ea", "ש", "ד", "ג", "כ", "ע", "י", "ח", "ל", "ך", "ף", ",", "\u23ce"],
                 ["\u21E7", "", "ז", "ס", "ב", "ה", "נ", "מ", "צ", "ת", "ץ", ".", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+    def getLevel2HebrewChars(self):
+        return [[";", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
+                ["⇄", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "]", "[", ""],
+                ["\u21ea", "A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "\u23ce"],
+                ["\u21E7", "", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/" , "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
     def getGermanChars(self):
         return [["^", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "ß", "´", "\u232b"],
@@ -187,11 +193,17 @@ class QVirtualKeyboardWidget(QWidget):
                 ["\u21E7", ">", "Y", "X", "C", "V", "B", "N", "M", ";", ":" ,"_", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "agr", "\u2325", "ctrl"]]
     
-    def getArabChars(self):
+    def getArabicChars(self):
         return [["ذ", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩", "٠", "~", "!", "\u232b"],
                 ["⇄", "ض", "ص", "ث", "ق", "ف", "غ", "ع", "ه", "خ", "ح", "ج", "د", "\\"],
                 ["\u21ea", "ش", "س", "ي", "ب", "ل", "ا", "ت", "ن", "م", "ك", "ط", "\u23ce"],
                 ["\u21E7", "ئ", "ء", "ؤ", "ر", "لا", "ى", "ة", "و", "ز", "ظ" ,"ـ", "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+    def getLevel2ArabicChars(self):
+        return [["", "", "", "", "", "", "", "", "", "", "", "", "", "\u232b"],
+                ["⇄", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+                ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", "\u23ce"],
+                ["\u21E7", "", "", "", "", "", "", "", "", "", "" ,"ـ", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
     def getDevanagariChars(self):
