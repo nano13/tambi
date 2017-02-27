@@ -21,7 +21,7 @@ class QVirtualKeyboardWidget(QWidget):
         
         #self.language = None
         self.keys = None
-        self.chars = None
+        self.level_one_chars = None
         self.level_two_chars = None
         
         self.modifier = Qt.NoModifier
@@ -30,18 +30,20 @@ class QVirtualKeyboardWidget(QWidget):
         self.lineEdit = lineEdit
         
     def drawKeyboard(self, layout, language):
-        self.chars, self.level_two_chars = self.getChars(language)
+        self.level_one_chars, self.level_two_chars = self.getChars(language)
         self.keys = self.getKeys(layout)
         
-        self.drawButtons(self.chars, self.keys)
+        self.drawButtons(self.level_one_chars, self.keys)
         
         #self.enter = QPushButton("\u23ce", self)
         #self.enter.resize(50, 60)
         #self.enter.move(400, line_pos + line_width)
         
+    def drawLevelOneKeyboard(self):
+        self.destroyKeyboard()
+        self.drawButtons(self.level_one_chars, self.keys)
     def drawLevelTwoKeyboard(self):
         self.destroyKeyboard()
-        
         self.drawButtons(self.level_two_chars, self.keys)
         
     def drawButtons(self, chars, keys):
@@ -96,10 +98,17 @@ class QVirtualKeyboardWidget(QWidget):
                 event = QKeyEvent(QEvent.KeyPress, Qt.Key_Backspace, Qt.NoModifier)
                 self.lineEdit.keyPressEvent(event)
             elif char == '⇧':
+                # shift
                 self.modifier = Qt.ShiftModifier
                 self.drawLevelTwoKeyboard()
             elif char == '⇪':
-                print("CAPSLOCK PRESSED")
+                # capslock
+                if self.modifier == Qt.ShiftModifier:
+                    self.modifier = Qt.NoModifier
+                    self.drawLevelOneKeyboard()
+                elif self.modifier == Qt.NoModifier:
+                    self.modifier = Qt.ShiftModifier
+                    self.drawLevelTwoKeyboard()
             elif char == 'ctrl':
                 print("CONTROL PRESSED")
             elif char == 'alt':
@@ -132,7 +141,7 @@ class QVirtualKeyboardWidget(QWidget):
         if language == "german":
             return self.getGermanChars(), self.getLevel2GermanChars()
         elif language == "greek":
-            return self.getGreekChars(), None
+            return self.getGreekChars(), self.getLevel2GreekChars()
         elif language == "hebrew":
             return self.getHebrewChars(), None
         elif language == "arabic":
@@ -148,7 +157,13 @@ class QVirtualKeyboardWidget(QWidget):
         return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
                 ["⇄", ";", "ς", "ε", "ρ", "τ", "υ", "θ", "ι", "ο", "π", "[", "]", ""],
                 ["\u21ea", "α", "σ", "δ", "φ", "γ", "η", "ξ", "κ", "λ", "´", "'", "\u23ce"],
-                ["\u21E7", "|", "ζ", "χ", "ψ", "ω", "β", "ν", "μ", ",", ".", "/", "\u21E7"],
+                ["\u21E7", "", "ζ", "χ", "ψ", "ω", "β", "ν", "μ", ",", ".", "/", "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+    def getLevel2GreekChars(self):
+        return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
+                ["⇄", ";", "Σ", "Ε", "Ρ", "Τ", "Υ", "Θ", "Ι", "Ο", "Π", "[", "]", ""],
+                ["\u21ea", "Α", "Σ", "Δ", "Φ", "Γ", "Η", "Ξ", "Κ", "Λ", "΄", "'", "\u23ce"],
+                ["\u21E7", "", "Ζ", "Χ", "Ψ", "Ω", "Β", "Ν", "Μ", ",", ".", "/", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
         
     def getHebrewChars(self):
