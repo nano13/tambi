@@ -19,22 +19,30 @@ class QVirtualKeyboardWidget(QWidget):
         self.setWindowTitle("virtual keyboard")
         self.resize(450, 150)
         
-        self.language = None
+        #self.language = None
+        self.keys = None
         self.chars = None
         self.level_two_chars = None
+        
+        self.modifier = Qt.NoModifier
         
     def setLineEdit(self, lineEdit):
         self.lineEdit = lineEdit
         
     def drawKeyboard(self, layout, language):
         self.chars, self.level_two_chars = self.getChars(language)
-        keys = self.getKeys(layout)
+        self.keys = self.getKeys(layout)
         
-        self.drawButtons(self.chars, keys)
+        self.drawButtons(self.chars, self.keys)
         
         #self.enter = QPushButton("\u23ce", self)
         #self.enter.resize(50, 60)
         #self.enter.move(400, line_pos + line_width)
+        
+    def drawLevelTwoKeyboard(self):
+        self.destroyKeyboard()
+        
+        self.drawButtons(self.level_two_chars, self.keys)
         
     def drawButtons(self, chars, keys):
         button_sizes = self.getButtonSizes()
@@ -88,7 +96,8 @@ class QVirtualKeyboardWidget(QWidget):
                 event = QKeyEvent(QEvent.KeyPress, Qt.Key_Backspace, Qt.NoModifier)
                 self.lineEdit.keyPressEvent(event)
             elif char == '⇧':
-                print("SHIFT PRESSED")
+                self.modifier = Qt.ShiftModifier
+                self.drawLevelTwoKeyboard()
             elif char == '⇪':
                 print("CAPSLOCK PRESSED")
             elif char == 'ctrl':
