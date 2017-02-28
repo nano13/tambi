@@ -339,8 +339,8 @@ class Bituza(object):
                 return(result)
         
     def word(self, c, a):
-        query_head = "SELECT book_string, chapter, verse, unicode, translation_de, ascii, transcription, tw, code, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=?"
-        head = "buch", "kapitel", "vers", "unicode", "elberfelder", "ascii", "transcription", "tw", "code", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
+        query_head = "SELECT book_string, chapter, verse, unicode, translation_de, transcription, tw, code, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=?"
+        head = "buch", "kapitel", "vers", "unicode", "elberfelder", "transcription", "tw", "code", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
         
         dictOT = self.booksDictOT()
         dictNT = self.booksDictNT()
@@ -357,10 +357,10 @@ class Bituza(object):
                 return result
             else:
                 testament = "NEW"
-                metaLanguage = "de", "de", "de", "gr", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
+                metaLanguage = "de", "de", "de", "gr", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
         else:
             testament = "OLD"
-            metaLanguage = "de", "de", "de", "il", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
+            metaLanguage = "de", "de", "de", "il", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
         
         if len(a) == 2:
             query = query_head
