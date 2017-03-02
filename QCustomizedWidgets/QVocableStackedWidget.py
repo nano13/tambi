@@ -4,6 +4,7 @@ from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
 from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
 from QCustomizedWidgets.QDeckItemWidget import QDeckItemWidget
+from QCustomizedWidgets.QDeckLearnWidget import QDeckLearnWidget
 
 from configs.configFiles import ConfigFile
 
@@ -13,6 +14,7 @@ SELECT_LANGUAGE_INDEX = 0
 VOCABLE_LEARN_INDEX = 1
 DECK_OVERVIEW_INDEX = 2
 NEW_DECK_INDEX = 3
+DECK_LEARN_INDEX = 4
 
 class QVocableStackedWidget(QWidget):
     def __init__(self):
@@ -40,7 +42,8 @@ class QVocableStackedWidget(QWidget):
         self.stack_language_select.setDefaultDeckPath(self.defaultDeckPath)
         self.stack_language_select.vocableLanguagePage()
         self.stack_language_select.languageSelected.connect(self.languageSelected)
-        self.stack_language_select.deckSelected.connect(self.deckSelected)
+        self.stack_language_select.deckLearn.connect(self.deckLearn)
+        self.stack_language_select.deckView.connect(self.deckView)
         self.stack_language_select.createNewDeckSignal.connect(self.createNewDeck)
         
         self.stack_vocable_learn = QVocableLearnPage()
@@ -56,11 +59,15 @@ class QVocableStackedWidget(QWidget):
         self.stack_new_deck.newDeckPage()
         self.stack_new_deck.selectItem.connect(self.selectItem)
         
+        self.stack_deck_learn = QDeckLearnWidget()
+        
+        
         self.Stack = QStackedWidget(self)
         self.Stack.addWidget(self.stack_language_select)
         self.Stack.addWidget(self.stack_vocable_learn)
         self.Stack.addWidget(self.stack_deck_overview)
         self.Stack.addWidget(self.stack_new_deck)
+        self.Stack.addWidget(self.stack_deck_learn)
         
         grid = QGridLayout()
         grid.setContentsMargins(0, 0, 0, 0)
@@ -85,7 +92,10 @@ class QVocableStackedWidget(QWidget):
         
         self.stack_vocable_learn.getVocableList(language)
         
-    def deckSelected(self, deck):
+    def deckLearn(self, deck):
+        self.Stack.setCurrentIndex(DECK_LEARN_INDEX)
+        
+    def deckView(self, deck):
         self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
         deckpath = os.path.join(self.defaultDeckPath, deck)
