@@ -30,7 +30,10 @@ class Result:
                 for column in line:
                     result += str(column)
                     if type(line) == tuple or type(line) == list:
-                        result += " "
+                        result += " | "
+                # needed if result += " | ":
+                if type(line) == tuple:
+                    result = result[:-3]
                 result += "\n"
             result = result.strip()
         else:

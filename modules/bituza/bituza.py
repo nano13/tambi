@@ -17,7 +17,7 @@ class Bituza(object):
             
             "bituza.books" : self.books,
             
-            "bituza.search" : self.searchAll,
+            #"bituza.search" : self.searchAll,
             "bituza.search.elberfelder" : self.search,
             "bituza.search.unicode" : self.search,
             "bituza.search.ascii" : self.search,
@@ -472,7 +472,31 @@ class Bituza(object):
 #        return "bla", "blub"
         
     def elberfelder(self, c, args):
-        pass
+        if len(args) == 2:
+            # select a whole chapter
+            query = """SELECT chapter, verse, elberfelder_verse FROM elberfelder
+            JOIN structure ON structure.structure_row_id = elberfelder.structure_row_id
+            JOIN books ON structure.book_id = books.id
+            WHERE books.name_intern=? AND structure.chapter=?"""
+            params = [args[0], args[1]]
+        elif len(args) == 3:
+            query = """SELECT verse, elberfelder_verse FROM elberfelder
+            JOIN structure ON structure.structure_row_id = elberfelder.structure_row_id
+            JOIN books ON structure.book_id = books.id
+            WHERE books.name_intern=? AND structure.chapter=? AND structure.verse >= ? AND structure.verse <= ?"""
+            if args[2].find('-') >= 0:
+                verse_start, verse_end = args[2].split('-')
+                params = [args[0], args[1], verse_start, verse_end]
+            else:
+                params = [args[0], args[1], args[2], args[2]]
+            
+        self.cursor.execute(query, params)
+        result = self.cursor.fetchall()
+        
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = result
+        return result_object
         
     def textusReceptus(self, c, a):
         query = "SELECT verse, unicode FROM word NATURAL JOIN structure WHERE book_id=66 AND chapter=1 AND verse>=1 AND verse<=4"

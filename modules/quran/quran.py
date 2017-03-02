@@ -72,26 +72,13 @@ class Quran(object):
         columns = ["surah", "ayah", "arabic"]
         result = self.wordHelper(args, columns)
         result.category = "text"
-        result.payload = self.formatPayloadAsText(result.payload)
         return result
     
     def wordDE(self, c, args):
         columns = ["surah", "ayah", "de_DE"]
         result = self.wordHelper(args, columns)
         result.category = "text"
-        result.payload = self.formatPayloadAsText(result.payload)
         return result
-    
-    def formatPayloadAsText(self, data):
-        payload = ""
-        for line in data:
-            for column in line:
-                payload += str(column)
-                payload += " | "
-            payload = payload[:-3]
-            payload += "\n\n"
-            
-        return payload
     
     def wordHelper(self, args, header):
         columns = ", ".join(header)
