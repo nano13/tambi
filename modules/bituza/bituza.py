@@ -17,6 +17,7 @@ class Bituza(object):
             
             "bituza.books" : self.books,
             
+            "bituza.search" : self.searchAll,
             "bituza.search.elberfelder" : self.search,
             "bituza.search.unicode" : self.search,
             "bituza.search.ascii" : self.search,
@@ -43,6 +44,7 @@ class Bituza(object):
             "bituza.stats" : self.stats,
             
             "bituza.word" : self.word,
+            "bituza.elberfelder" : self.elberfelder,
             "bituza.tr" : self.textusReceptus,
             
             "bituza.sql" : self.sql,
@@ -151,6 +153,9 @@ class Bituza(object):
         result_object.name = name
         return result_object
     
+    def searchGlobal(self, c, args):
+        query = "SELECT "
+    
     def search(self, c, a):
         #head = "buch", "kapitel", "vers", "unicode", "elberfelder", "ascii", "zahlencode", "tw", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
         #query_head = "SELECT book_string, chapter, verse, unicode, translation_de, ascii, code, tw, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE"
@@ -215,7 +220,7 @@ class Bituza(object):
             for item2 in item:
                 format_list.append(item2)
         
-        name = "suchergebnis: " + search_pattern
+        name = "search result: " + search_pattern
         
         result_object = Result()
         result_object.category = "table"
@@ -242,7 +247,14 @@ class Bituza(object):
         head, query_head, query_mid, metaLanguage = self.searchGetQueryMid(c)
         query_tail = " AND book_id="+str(book_id)
         result = self.searchGlobal(c, head, metaLanguage, query_head, query_mid, query_tail, search_pattern, result_in_table)
-        return result, head, metaLanguage
+        #return result, head, metaLanguage
+        result_object = Result()
+        result_object.category = "table"
+        result_object.header = head
+        result_object.payload = result
+        result_object.metaload = metaLanguage
+        result_object.name = "search result: " + search_pattern
+        return result_object
         
     def searchGetQueryMid(self, c):
         query_head = "SELECT book_string, chapter, verse, unicode, translation_de, ascii, transcription, code, tw, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE"
@@ -458,6 +470,9 @@ class Bituza(object):
             return self.ResultObject
         #return table, "table"
 #        return "bla", "blub"
+        
+    def elberfelder(self, c, args):
+        pass
         
     def textusReceptus(self, c, a):
         query = "SELECT verse, unicode FROM word NATURAL JOIN structure WHERE book_id=66 AND chapter=1 AND verse>=1 AND verse<=4"
