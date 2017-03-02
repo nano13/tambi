@@ -125,8 +125,8 @@ class QCoreTab(QWidget):
         self.addDisplayWidget()
     
     def showErrorMessage(self, message):
-        self.display_widget.setRowCount(1)
-        self.display_widget.setColumnCount(1)
-        self.display_widget.setItem(0, 0, QTableWidgetItem(str(message)))
-        self.display_widget.resizeColumnsToContents()
+        self.display_widget.deleteLater()
+        self.display_widget = QTextEdit()
+        self.display_widget.setText(message)
+        self.addDisplayWidget()
     
