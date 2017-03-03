@@ -32,7 +32,6 @@ class QVocableLearnPage(QWidget):
         self.current_translation.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
         self.word_counter = QLabel()
-        #self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         self.word_counter.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
         self.language_select_button = QPushButton("select language")
