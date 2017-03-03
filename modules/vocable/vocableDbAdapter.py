@@ -150,7 +150,7 @@ class VocableDbAdapter(object):
         query_decrement = '''UPDATE {0}
         SET known = CASE
                     WHEN known <= -5 THEN -5
-                                    ELSE known + {1}
+                                     ELSE known + {1}
                     END
         WHERE display="{2}"'''.format(language, value, display)
         

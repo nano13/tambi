@@ -57,24 +57,11 @@ class QDeckLearnWidget(QWidget):
         button_known.clicked.connect(self.buttonKnownClicked)
         button_not_known.clicked.connect(self.buttonNotKnownClicked)
         
-        self.dataset = self.dbAdapter.getDataset()
-        
-        self.number_of_data = len(self.dataset)
-        self.data_counter.setText(str(self.current_index+1) + "/" + str(self.number_of_data))
-        self.current_name.setText("")#self.dataset[self.current_index]['name'])
-        try:
-            self.current_word.setText(self.dataset[self.current_index]['word'])
-        except IndexError:
-            self.current_word.setText("ERROR: empty set")
-        self.current_translation.setText("")#self.dataset[self.current_index]['translation'])
-        
-        try:
-            self.svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, self.dataset[self.current_index]['svg_filename']))
-        except IndexError:
-            self.svgWidget = QtSvg.QSvgWidget()
-        
+        self.svgWidget = QtSvg.QSvgWidget()
         self.svgWidget.setFixedSize(300, 150)
         self.svgWidget.setStyleSheet("background-color: rgb(255,0,0); margin:5px; border:1px solid rgb(0, 255, 0); ")
+        
+        self.buttonNewSetClicked()
         
         if not self.layout():
             self.grid = QGridLayout()
@@ -139,8 +126,24 @@ class QDeckLearnWidget(QWidget):
             self.current_translation.setText('ERROR: empty set')
         
     def buttonNewSetClicked(self):
-        print("new set")
+        self.current_index = 0
+        self.dataset = self.dbAdapter.getDataset()
+        
+        self.number_of_data = len(self.dataset)
+        self.data_counter.setText(str(self.current_index+1) + "/" + str(self.number_of_data))
+        self.current_name.setText("")#self.dataset[self.current_index]['name'])
+        try:
+            self.current_word.setText(self.dataset[self.current_index]['word'])
+        except IndexError:
+            self.current_word.setText("ERROR: empty set")
+        self.current_translation.setText("")#self.dataset[self.current_index]['translation'])
+        
+        self.svgWidget.load(path.join(self.deckpath, self.dataset[self.current_index]['svg_filename']))
+        
     def buttonKnownClicked(self):
-        print("known")
+        self.dbAdapter.updateKnown(self.dataset[self.current_index]['rowid'], 1)
+        self.buttonNextClicked()
+        
     def buttonNotKnownClicked(self):
-        print("not known")
+        self.dbAdapter.updateKnown(self.dataset[self.current_index]['rowid'], -1)
+        self.buttonNextClicked()

@@ -139,8 +139,31 @@ class DeckDbAdapter(object):
         self.connection.commit()
         
     def getDataset(self):
-        query = "SELECT * FROM deck WHERE rowid <= 10"
+        query = "SELECT * FROM deck ORDER BY RANDOM() LIMIT 10"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)
+    
+    def updateKnown(self, rowid, value):
+        query_increment = '''UPDATE deck
+        SET known = CASE
+                    WHEN known >= 20 THEN 20
+                                     ELSE known + {0}
+                    END
+        WHERE rowid={1}'''.format(value, rowid)
+        
+        query_decrement = '''UPDATE deck
+        SET known = CASE
+                    WHEN known <= -5 THEN -5
+                                     ELSE known + {0}
+                    END
+        WHERE rowid={1}'''.format(value, rowid)
+        
+        if value < 0:
+            query = query_decrement
+        else:
+            query = query_increment
+        
+        self.cursor.execute(query)
+        self.connection.commit()
