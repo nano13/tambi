@@ -80,8 +80,9 @@ class VocableDbAdapter(object):
             'weak_upper_limit' : range_weak,
         }
     
-    def getIntelligentVocableList(self, language, count):
-        CONTROL_LIST = ["p", "p", "p", "w", "w", "w", "p", "s", "r", "r"]
+    def getIntelligentVocableList(self, language):
+        CONTROL_LIST = ["p", "p", "p", "w", "w", "w", "p", "s", "p", "w", "p", "p", "p", "n", "n"]
+        count = len(CONTROL_LIST)
         
         borders = self.getBordersForKnownStatus(language)
         
@@ -91,13 +92,13 @@ class VocableDbAdapter(object):
         
         query_strong = 'SELECT display, gloss FROM {0} WHERE known >= {1} AND known!="none" AND priority!="never"ORDER BY RANDOM() LIMIT {2}'.format(language, borders['weak_upper_limit'], count)
         
-        query_random = 'SELECT display, gloss FROM {0} WHERE priority!="never" ORDER BY RANDOM() LIMIT {1}'.format(language, count)
+        query_new = 'SELECT display, gloss FROM {0} WHERE priority!="never" ORDER BY RANDOM() LIMIT {1}'.format(language, count)
         
         query_list = [
             {'query': query_poor, 'category' : 'p'},
             {'query' : query_weak, 'category' : 'w'},
             {'query' : query_strong, 'category' : 's'},
-            {'query' : query_random, 'category' : 'r'},
+            {'query' : query_new, 'category' : 'n'},
         ]
         #result_list = []
         result_dict = {}
@@ -137,9 +138,28 @@ class VocableDbAdapter(object):
         self.connection.commit()
     
     def updateKnown(self, language, display, value):
-        #select_query = 'SELECT known FROM {0} WHERE display="{1}"'.format(language, display)
-        update_query = 'UPDATE {0} SET known = known+{1} WHERE display="{2}"'.format(language, value, display)
-        self.cursor.execute(update_query)
+        #update_query = 'UPDATE {0} SET known = known + {1} WHERE display="{2}"'.format(language, value, display)
+        
+        query_increment = '''UPDATE {0}
+        SET known = CASE
+                    WHEN known >= 20 THEN 20
+                                     ELSE known + {1}
+                    END
+        WHERE display="{2}"'''.format(language, value, display)
+        
+        query_decrement = '''UPDATE {0}
+        SET known = CASE
+                    WHEN known <= -5 THEN -5
+                                    ELSE known + {1}
+                    END
+        WHERE display="{2}"'''.format(language, value, display)
+        
+        if value < 0:
+            query = query_decrement
+        else:
+            query = query_increment
+        
+        self.cursor.execute(query)
     
     def updateLastLearnedDate(self, language, display):
         date = int(time.time())

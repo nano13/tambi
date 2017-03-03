@@ -14,7 +14,8 @@ class QVocableLearnPage(QWidget):
     dbAdapter = VocableDbAdapter()
     
     current_language = ""
-    number_of_vocables = 10
+    number_of_vocables = None
+    vocable_counter = 0
     
     def __init__(self):
         super().__init__()
@@ -23,22 +24,15 @@ class QVocableLearnPage(QWidget):
         grid = QGridLayout()
         layout = self.setLayout(grid)
         
-        self.vocable_list = ["a", "b", "c", "d"]
-        self.translation_list = ["1", "2", "3", "4"]
-        self.vocable_counter = 0
-        
         self.current_vocable = QLabel()
-        #self.current_vocable.setFont(QFont("Helvetica", 12, QFont.Bold))
         self.current_vocable.setFont(QFont("Helvetica", 20))
-        self.current_vocable.setText(self.vocable_list[self.vocable_counter])
         self.current_vocable.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
         self.current_translation = QLabel()
-        #self.current_translation.setText(self.translation_list[self.vocable_counter])
         self.current_translation.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
         self.word_counter = QLabel()
-        self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
+        #self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         self.word_counter.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
         self.language_select_button = QPushButton("select language")
@@ -62,9 +56,7 @@ class QVocableLearnPage(QWidget):
         grid.addWidget(self.language_select_button, 0, 0)
         grid.addWidget(self.not_want_learn_button, 0, 1)
         grid.addWidget(self.word_counter, 0, 2)
-        #grid.addWidget(self.current_vocable, 1, 1)
         grid.addWidget(self.current_vocable, 1, 0, 1, 3)
-        #grid.addWidget(self.current_translation, 2, 1)
         grid.addWidget(self.current_translation, 2, 0, 1, 3)
         grid.addWidget(self.show_button, 3, 1)
         grid.addWidget(self.prev_button, 3, 0)
@@ -142,7 +134,10 @@ class QVocableLearnPage(QWidget):
         self.translation_list = []
         
         #self.vocable_list, self.translation_list = self.dbAdapter.getRandomVocableList(language, 10)
-        self.vocable_list, self.translation_list = self.dbAdapter.getIntelligentVocableList(language, 10)
+        self.vocable_list, self.translation_list = self.dbAdapter.getIntelligentVocableList(language)
+        
+        self.number_of_vocables = len(self.vocable_list)
+        self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
         try:
             self.current_vocable.setText(self.vocable_list[0])
