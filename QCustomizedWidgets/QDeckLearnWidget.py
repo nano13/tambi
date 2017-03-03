@@ -2,6 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QLabel
 from PyQt5.Qt import Qt
 from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtGui import QFont
 from PyQt5 import QtSvg
 from misc.deckDbAdapter import DeckDbAdapter
 
@@ -13,8 +14,9 @@ class QDeckLearnWidget(QWidget):
     
     selectDeck = pyqtSignal()
     
+    dataset = None
     number_of_data = None
-    current_data = 0
+    current_index = 0
     
     def __init__(self):
         super().__init__()
@@ -36,6 +38,7 @@ class QDeckLearnWidget(QWidget):
         self.current_name = QLabel()
         self.current_name.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         self.current_word = QLabel()
+        self.current_word.setFont(QFont("Helvetica", 20))
         self.current_word.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         self.current_translation = QLabel()
         self.current_translation.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
@@ -54,25 +57,31 @@ class QDeckLearnWidget(QWidget):
         button_known.clicked.connect(self.buttonKnownClicked)
         button_not_known.clicked.connect(self.buttonNotKnownClicked)
         
-        dataset = self.dbAdapter.getDataset()
+        self.dataset = self.dbAdapter.getDataset()
         
-        self.number_of_data = len(dataset)
-        self.data_counter.setText(str(self.current_data+1) + "/" + str(self.number_of_data))
-        self.current_name.setText(dataset[self.current_data]['name'])
-        self.current_word.setText(dataset[self.current_data]['word'])
-        self.current_translation.setText(dataset[self.current_data]['translation'])
+        self.number_of_data = len(self.dataset)
+        self.data_counter.setText(str(self.current_index+1) + "/" + str(self.number_of_data))
+        self.current_name.setText("")#self.dataset[self.current_index]['name'])
+        try:
+            self.current_word.setText(self.dataset[self.current_index]['word'])
+        except IndexError:
+            self.current_word.setText("ERROR: empty set")
+        self.current_translation.setText("")#self.dataset[self.current_index]['translation'])
         
+        try:
+            self.svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, self.dataset[self.current_index]['svg_filename']))
+        except IndexError:
+            self.svgWidget = QtSvg.QSvgWidget()
         
-        svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, dataset[self.current_data]['svg_filename']))
-        svgWidget.setFixedSize(300, 150)
-        svgWidget.setStyleSheet("background-color: rgb(255,0,0); margin:5px; border:1px solid rgb(0, 255, 0); ")
+        self.svgWidget.setFixedSize(300, 150)
+        self.svgWidget.setStyleSheet("background-color: rgb(255,0,0); margin:5px; border:1px solid rgb(0, 255, 0); ")
         
         if not self.layout():
             self.grid = QGridLayout()
             self.grid.setContentsMargins(0, 0, 0, 0)
             self.grid.addWidget(deck_select_button, 0, 0)
             self.grid.addWidget(self.data_counter, 0, 2)
-            self.grid.addWidget(svgWidget, 1, 1)
+            self.grid.addWidget(self.svgWidget, 1, 1)
             
             self.grid.addWidget(self.current_name, 4, 1)
             self.grid.addWidget(self.current_word, 5, 1)
@@ -92,11 +101,43 @@ class QDeckLearnWidget(QWidget):
         self.selectDeck.emit()
         
     def buttonPrevClicked(self):
-        print("prev")
+        if self.current_index > 0:
+            self.current_index -= 1
+        else:
+            self.current_index = len(self.dataset)-1
+        
+        self.setTexts()
+        
     def buttonNextClicked(self):
-        print("next")
+        if self.current_index < len(self.dataset)-1:
+            self.current_index += 1
+        else:
+            self.current_index = 0
+        
+        self.setTexts()
+        
+    def setTexts(self):
+        try:
+            self.current_word.setText(self.dataset[self.current_index]['word'])
+        except IndexError:
+            self.current_word.setText('ERROR: empty set')
+        
+        
+        self.current_name.setText("")
+        self.current_translation.setText("")
+        
+        self.svgWidget.load(path.join(self.deckpath, self.dataset[self.current_index]['svg_filename']))
+        
+        self.data_counter.setText(str(self.current_index+1) + "/" + str(self.number_of_data))
+        
     def buttonShowTranslationClicked(self):
-        print("show translation")
+        try:
+            self.current_name.setText(self.dataset[self.current_index]['name'])
+            self.current_translation.setText(self.dataset[self.current_index]['translation'])
+        except IndexError:
+            self.current_name.setText('ERROR: empty set')
+            self.current_translation.setText('ERROR: empty set')
+        
     def buttonNewSetClicked(self):
         print("new set")
     def buttonKnownClicked(self):

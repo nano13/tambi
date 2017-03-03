@@ -83,13 +83,14 @@ class QVocableLearnPage(QWidget):
             self.vocable_counter -= 1
         else:
             self.vocable_counter = len(self.vocable_list)-1
-            
-        try:
-            self.current_vocable.setText(self.vocable_list[self.vocable_counter])
-        except IndexError:
-            self.current_vocable.setText('ERROR: empty set')
-        self.current_translation.setText("")
-        self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
+        
+        self.setTexts()
+        #try:
+            #self.current_vocable.setText(self.vocable_list[self.vocable_counter])
+        #except IndexError:
+            #self.current_vocable.setText('ERROR: empty set')
+        #self.current_translation.setText("")
+        #self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
     def nextButtonClicked(self, button):
         if self.vocable_counter < len(self.vocable_list)-1:
@@ -97,10 +98,14 @@ class QVocableLearnPage(QWidget):
         else:
             self.vocable_counter = 0
         
+        self.setTexts()
+        
+    def setTexts(self):
         try:
             self.current_vocable.setText(self.vocable_list[self.vocable_counter])
         except IndexError:
             self.current_vocable.setText('ERROR: empty set')
+        
         self.current_translation.setText("")
         self.word_counter.setText(str(self.vocable_counter+1) + "/" + str(self.number_of_vocables))
         
