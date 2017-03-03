@@ -94,8 +94,6 @@ class QDeckItemWidget(QWidget):
         
         grid.setContentsMargins(0, 0, 0, 0)
         
-        #self.freehandDrawWidget.loadView("outtest.svg")
-        
         return self
     
     def languageSelectButtonClicked(self):

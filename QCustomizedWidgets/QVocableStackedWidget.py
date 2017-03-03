@@ -47,7 +47,7 @@ class QVocableStackedWidget(QWidget):
         self.stack_language_select.createNewDeckSignal.connect(self.createNewDeck)
         
         self.stack_vocable_learn = QVocableLearnPage()
-        self.stack_vocable_learn.vocableLearnPage()
+        self.stack_vocable_learn.initialize()
         self.stack_vocable_learn.selectLanguage.connect(self.selectLanguage)
         
         self.stack_deck_overview = QDeckOverviewWidget()
@@ -60,7 +60,7 @@ class QVocableStackedWidget(QWidget):
         self.stack_new_deck.selectItem.connect(self.selectItem)
         
         self.stack_deck_learn = QDeckLearnWidget()
-        
+        self.stack_deck_learn.selectDeck.connect(self.selectDeck)
         
         self.Stack = QStackedWidget(self)
         self.Stack.addWidget(self.stack_language_select)
@@ -95,17 +95,20 @@ class QVocableStackedWidget(QWidget):
     def deckLearn(self, deck):
         self.Stack.setCurrentIndex(DECK_LEARN_INDEX)
         
+        deckpath = os.path.join(self.defaultDeckPath, deck)
+        self.stack_deck_learn.initialize(deckpath)
+        
     def deckView(self, deck):
         self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
         deckpath = os.path.join(self.defaultDeckPath, deck)
-        self.stack_deck_overview.initializeDeckOverview(deckpath)
+        self.stack_deck_overview.initialize(deckpath)
         
     def createNewDeck(self):
         folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", self.defaultDeckPath)
         if folder:
             self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
-            self.stack_deck_overview.initializeDeckOverview(folder)
+            self.stack_deck_overview.initialize(folder)
             
     def selectDeck(self):
         self.Stack.setCurrentIndex(SELECT_LANGUAGE_INDEX)

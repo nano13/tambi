@@ -23,13 +23,12 @@ class QDeckOverviewWidget(QWidget):
     def update(self):
         self.initWithDbData()
         
-    def initializeDeckOverview(self, deckpath):
+    def initialize(self, deckpath):
         self.deckpath = deckpath
         
         db_path = path.join(deckpath, "database.sqlite")
-        #self.dbAdapter = DeckDbAdapter(path.join(deckpath, "database.sqlite"))
         self.dbAdapter = DeckDbAdapter()
-        self.dbAdapter.initDB(db_path)
+        self.dbAdapter.initialize(db_path)
         
         deck_select_button = QPushButton("select deck")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
@@ -78,7 +77,6 @@ class QDeckOverviewWidget(QWidget):
             svg_filename = line["svg_filename"]
             
             audio_filenames = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
-            #audio_filenames = [{"filename": "bla"},{"filename": "blubb"}]
             
             svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, svg_filename))
             #svgWidget.setGeometry(50,50,759,668)

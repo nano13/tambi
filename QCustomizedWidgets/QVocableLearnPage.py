@@ -20,7 +20,7 @@ class QVocableLearnPage(QWidget):
     def __init__(self):
         super().__init__()
         
-    def vocableLearnPage(self):
+    def initialize(self):
         grid = QGridLayout()
         layout = self.setLayout(grid)
         

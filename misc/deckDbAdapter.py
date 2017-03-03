@@ -5,7 +5,7 @@ class DeckDbAdapter(object):
     def __init__(self):
         pass
     
-    def initDB(self, dbpath):
+    def initialize(self, dbpath):
         
         self.connection = sqlite3.connect(dbpath)
         #self.connection.row_factory = self.dict_factory()
@@ -138,3 +138,9 @@ class DeckDbAdapter(object):
         self.cursor.execute(query)
         self.connection.commit()
         
+    def getDataset(self):
+        query = "SELECT * FROM deck WHERE rowid <= 10"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
