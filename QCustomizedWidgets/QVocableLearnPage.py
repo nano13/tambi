@@ -34,7 +34,7 @@ class QVocableLearnPage(QWidget):
         self.word_counter = QLabel()
         self.word_counter.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         
-        self.language_select_button = QPushButton("select language")
+        self.language_select_button = QPushButton("<<<")
         self.not_want_learn_button = QPushButton("not want to learn")
         self.prev_button = QPushButton("prev")
         self.next_button = QPushButton("next")

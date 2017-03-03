@@ -28,7 +28,7 @@ class QDeckLearnWidget(QWidget):
         self.dbAdapter = DeckDbAdapter()
         self.dbAdapter.initialize(db_path)
         
-        deck_select_button = QPushButton("select deck")
+        deck_select_button = QPushButton("<<<")
         self.data_counter = QLabel()
         self.data_counter.setAlignment(Qt.AlignVCenter | Qt.AlignHCenter)
         

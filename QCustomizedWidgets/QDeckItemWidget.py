@@ -60,7 +60,7 @@ class QDeckItemWidget(QWidget):
         grid = QGridLayout()
         layout = self.setLayout(grid)
         
-        language_select_button = QPushButton("select item")
+        language_select_button = QPushButton("<<<")
         language_select_button.clicked.connect(self.languageSelectButtonClicked)
         
         clear_draw_view_button = QPushButton("clear draw area")

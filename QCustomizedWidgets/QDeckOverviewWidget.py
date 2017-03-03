@@ -30,7 +30,7 @@ class QDeckOverviewWidget(QWidget):
         self.dbAdapter = DeckDbAdapter()
         self.dbAdapter.initialize(db_path)
         
-        deck_select_button = QPushButton("select deck")
+        deck_select_button = QPushButton("<<<")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
         new_item_button = QPushButton("new item")
