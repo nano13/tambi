@@ -46,6 +46,7 @@ class Bituza(object):
             "bituza.word" : self.word,
             "bituza.elberfelder" : self.elberfelder,
             "bituza.tr" : self.textusReceptus,
+            "bituza.structure" : self.structure,
             
             "bituza.sql" : self.sql,
             "bituza.schema" : self.schema,
@@ -522,8 +523,31 @@ class Bituza(object):
                 
         self.ResultObject.Payload.List = result_list
         return self.ResultObject
-                
+    
+    def structure(self, c, args):
+        if len(args) == 0:
+            query = """SELECT book_id, book_string, name_intern, chapter
+            FROM structure
+            JOIN books ON structure.book_id=books.id
+            GROUP BY book_id"""
+            head = ['book_id', 'book_string', 'name_intern', 'chapter']
+        else:
+            query = """SELECT book_id, book_string, name_intern, chapter, COUNT(*) AS number_verses
+            FROM structure
+            JOIN books ON structure.book_id=books.id
+            WHERE name_intern = "1samuel"
+            GROUP BY chapter"""
+            head = ['book_id', 'book_string', 'name_intern', 'chapter', 'number_verses']
         
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        result_object = Result()
+        result_object.category = 'table'
+        result_object.payload = result
+        result_object.header = head
+        return result_object
+    
     def commands(self, none1, none2):
         dic = self.getCommands()
         commands = sorted(dic.items())
