@@ -6,9 +6,6 @@ from pysword.modules import SwordModules
 
 #from modules.bituza.bituza import Bituza
 
-import Sword
-from Sword import *
-
 class Sword(object):
     
     current_module = 'GerNeUe'
