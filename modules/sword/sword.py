@@ -60,18 +60,23 @@ class Sword(object):
         for key in found_modules:
             row = []
             row.append(key)
-            for item in found_modules[key]:
-                row.append(found_modules[key][item])
+            
+            #for item in found_modules[key]:
+            #    row.append(found_modules[key][item])
+            row.append(found_modules[key]['lang'])
+            row.append(found_modules[key]['about'].replace('\par', "\n"))
             
             if len(args) == 1:
+                category = "itemized"
                 if found_modules[key]['lang'] == args[0]:
                     result.append(row)
             else:
+                category = "table"
                 result.append(row)
         
         result_object = Result()
-        result_object.category = "table"
-        result_object.payload = result
+        result_object.category = category
+        result_object.payload = sorted(result)
         return result_object
     
     def listLanguages(self, c, a):
