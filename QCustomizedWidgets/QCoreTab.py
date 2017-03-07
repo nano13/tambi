@@ -61,33 +61,17 @@ class QCoreTab(QWidget):
         print("command:", command)
         result = self.interpreter.interpreter(command)
         
-        print(result)
-        print(type(result))
-        
-        error_happened = False
-        if result.error:
+        if hasattr(result, 'error') and result.error:
             self.showErrorMessage(result.error)
-        #try:
-            #result.error
-        #except AttributeError:
-            #self.showErrorMessage('result contains error')
-            #error_happened = True
-        
         elif result is None:
             self.showErrorMessage('no result found')
-        #elif result.error != None:
-        #   self.showErrorMessage('result contains error')
-        #elif len(result) == 0:
-        #   self.showErrorMessage('result is empty')
-        elif error_happened:
-            pass
-        elif result.category == "table":
+        elif hasattr(result, 'category') and result.category == "table":
             self.resultInTable(result)
-        elif result.category == "list":
+        elif hasattr(result, 'category') and result.category == "list":
             self.resultInTextEdit(result)
-        elif result.category == "text":
+        elif hasattr(result, 'category') and result.category == "text":
             self.resultInTextEdit(result)
-        elif result.category == "itemized":
+        elif hasattr(result, 'category') and result.category == "itemized":
             self.resultInItemizedWidget(result)
     
     def resultInTable(self, result):
