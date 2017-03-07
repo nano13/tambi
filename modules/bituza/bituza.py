@@ -535,8 +535,8 @@ class Bituza(object):
             query = """SELECT book_id, book_string, name_intern, chapter, COUNT(*) AS number_verses
             FROM structure
             JOIN books ON structure.book_id=books.id
-            WHERE name_intern = "1samuel"
-            GROUP BY chapter"""
+            WHERE name_intern = "{0}"
+            GROUP BY chapter""".format(args[0])
             head = ['book_id', 'book_string', 'name_intern', 'chapter', 'number_verses']
         
         self.cursor.execute(query)
