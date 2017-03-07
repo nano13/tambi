@@ -23,8 +23,8 @@ class Sword(object):
             "sword": self.readBible,
             
             "sword.modules": self.listModules,
-            "sword.module": self.getCurrentModule,
-            "sword.setmodule": self.setCurrentModule,
+            "sword.getModule": self.getCurrentModule,
+            "sword.setModule": self.setCurrentModule,
             
             "sword.languages" : self.listLanguages,
             }
