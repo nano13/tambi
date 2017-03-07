@@ -26,7 +26,7 @@ class QDeckLearnWidget(QWidget):
     def initialize(self, deckpath):
         self.deckpath = deckpath
         
-        #self.clearLayout(self.layout)
+        self.clear()
         
         db_path = path.join(deckpath, "database.sqlite")
         self.dbAdapter = DeckDbAdapter()
