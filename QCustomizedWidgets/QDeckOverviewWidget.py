@@ -20,9 +20,6 @@ class QDeckOverviewWidget(QWidget):
     def __init__(self):
         super().__init__()
         
-    def update(self):
-        self.initWithDbData()
-        
     def initialize(self, deckpath):
         self.deckpath = deckpath
         

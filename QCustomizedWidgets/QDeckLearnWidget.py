@@ -14,6 +14,8 @@ class QDeckLearnWidget(QWidget):
     
     selectDeck = pyqtSignal()
     
+    grid = None
+    
     dataset = None
     number_of_data = None
     current_index = 0
@@ -23,6 +25,8 @@ class QDeckLearnWidget(QWidget):
         
     def initialize(self, deckpath):
         self.deckpath = deckpath
+        
+        #self.clearLayout(self.layout)
         
         db_path = path.join(deckpath, "database.sqlite")
         self.dbAdapter = DeckDbAdapter()
@@ -83,7 +87,32 @@ class QDeckLearnWidget(QWidget):
             
             layout = self.setLayout(self.grid)
         
+    def initWithDbData(self):
+        pass
     
+    def clear(self):
+        if self.grid:
+            QWidget().setLayout(self.grid)
+    
+    def clearLayout(self, layout):
+        for i in reversed(range(layout.count())):
+            item = layout.itemAt(i)
+            
+            if isinstance(item, QtGui.QWidgetItem):
+                print("widget" + str(item))
+                item.widget().close()
+                # or
+                # item.widget().setParent(None)
+            elif isinstance(item, QtGui.QSpacerItem):
+                print("spacer " + str(item))
+                # no need to do extra stuff
+            else:
+                print("layout " + str(item))
+                self.clearLayout(item.layout())
+            
+            # remove the item from layout
+            layout.removeItem(item) 
+            
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
         

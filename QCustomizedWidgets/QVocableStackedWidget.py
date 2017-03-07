@@ -57,9 +57,10 @@ class QVocableStackedWidget(QWidget):
         
         self.stack_new_deck = QDeckItemWidget()
         self.stack_new_deck.newDeckPage()
-        self.stack_new_deck.selectItem.connect(self.selectItem)
+        self.stack_new_deck.selectItem.connect(self.deckSelect)
         
         self.stack_deck_learn = QDeckLearnWidget()
+        #self.stack_deck_learn.initialize()
         self.stack_deck_learn.selectDeck.connect(self.selectDeck)
         
         self.Stack = QStackedWidget(self)
@@ -83,8 +84,8 @@ class QVocableStackedWidget(QWidget):
     def selectLanguage(self):
         self.Stack.setCurrentIndex(SELECT_LANGUAGE_INDEX)
         
-    def selectItem(self):
-        self.stack_deck_overview.update()
+    def deckSelect(self):
+        self.stack_deck_overview.initWithDbData()
         self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
     def languageSelected(self, language):
@@ -93,16 +94,18 @@ class QVocableStackedWidget(QWidget):
         self.stack_vocable_learn.getVocableList(language)
         
     def deckLearn(self, deck):
-        self.Stack.setCurrentIndex(DECK_LEARN_INDEX)
+        self.stack_deck_learn.clear()
         
         deckpath = os.path.join(self.defaultDeckPath, deck)
         self.stack_deck_learn.initialize(deckpath)
         
-    def deckView(self, deck):
-        self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
+        self.Stack.setCurrentIndex(DECK_LEARN_INDEX)
         
+    def deckView(self, deck):
         deckpath = os.path.join(self.defaultDeckPath, deck)
         self.stack_deck_overview.initialize(deckpath)
+        
+        self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
     def createNewDeck(self):
         folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", self.defaultDeckPath)
