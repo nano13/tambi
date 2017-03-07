@@ -92,25 +92,6 @@ class QDeckLearnWidget(QWidget):
             # just reparent the layout to a temporary one for delete it
             QWidget().setLayout(self.grid)
     
-    def clearLayout(self, layout):
-        for i in reversed(range(layout.count())):
-            item = layout.itemAt(i)
-            
-            if isinstance(item, QtGui.QWidgetItem):
-                print("widget" + str(item))
-                item.widget().close()
-                # or
-                # item.widget().setParent(None)
-            elif isinstance(item, QtGui.QSpacerItem):
-                print("spacer " + str(item))
-                # no need to do extra stuff
-            else:
-                print("layout " + str(item))
-                self.clearLayout(item.layout())
-            
-            # remove the item from layout
-            layout.removeItem(item) 
-            
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
         
