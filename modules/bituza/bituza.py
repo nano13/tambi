@@ -473,6 +473,12 @@ class Bituza(object):
 #        return "bla", "blub"
         
     def elberfelder(self, c, args):
+        result_object = Result()
+        error = None
+        result = None
+        
+        query = None
+        
         if len(args) == 2:
             # select a whole chapter
             query = """SELECT chapter, verse, elberfelder_verse FROM elberfelder
@@ -490,11 +496,14 @@ class Bituza(object):
                 params = [args[0], args[1], verse_start, verse_end]
             else:
                 params = [args[0], args[1], args[2], args[2]]
+        else:
+            error = 'command could not be understood'
             
-        self.cursor.execute(query, params)
-        result = self.cursor.fetchall()
+        if query:
+            self.cursor.execute(query, params)
+            result = self.cursor.fetchall()
         
-        result_object = Result()
+        result_object.error = error
         result_object.category = 'list'
         result_object.payload = result
         return result_object

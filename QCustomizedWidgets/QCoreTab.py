@@ -65,19 +65,15 @@ class QCoreTab(QWidget):
         print(type(result))
         
         error_happened = False
-        try:
-            result.error
-        except AttributeError:
-            self.showErrorMessage('result contains error')
-            error_happened = True
-        
+        if result.error:
+            self.showErrorMessage(result.error)
         #try:
-            #len(result)
-        #except TypeError:
-            #self.showErrorMessage('result is empty')
+            #result.error
+        #except AttributeError:
+            #self.showErrorMessage('result contains error')
             #error_happened = True
         
-        if result is None:
+        elif result is None:
             self.showErrorMessage('no result found')
         #elif result.error != None:
         #   self.showErrorMessage('result contains error')
