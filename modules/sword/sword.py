@@ -52,7 +52,7 @@ class Sword(object):
         result_object.payload = all_commands
         return result_object
     
-    def listModules(self, c, a):
+    def listModules(self, c, args):
         modules = SwordModules()
         found_modules = modules.parse_modules()
         
@@ -63,7 +63,11 @@ class Sword(object):
             for item in found_modules[key]:
                 row.append(found_modules[key][item])
             
-            result.append(row)
+            if len(args) == 1:
+                if found_modules[key]['lang'] == args[0]:
+                    result.append(row)
+            else:
+                result.append(row)
         
         result_object = Result()
         result_object.category = "table"
