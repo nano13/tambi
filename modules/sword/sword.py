@@ -18,9 +18,14 @@ class Sword(object):
     
     def getCommands(self):
         return {
+            "sword.commands": self.commands,
+            
             "sword": self.readBible,
             
             "sword.modules": self.listModules,
+            "sword.module": self.getCurrentModule,
+            "sword.setmodule": self.setCurrentModule,
+            
             "sword.languages" : self.listLanguages,
             }
     
@@ -31,6 +36,21 @@ class Sword(object):
     def commandNotFound(self, c, a):
         print("not found in SWORD")
         raise CommandNotInThisModule("command not found in module sword")
+    
+    def commands(self, none1, none2):
+        dic = self.getCommands()
+        
+        commands = sorted(dic.items())
+        
+        all_commands = []
+        for key in commands:
+            line = str(key).split(",")[0]
+            all_commands.append(str(line[2:-1]))
+            
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = all_commands
+        return result_object
     
     def listModules(self, c, a):
         modules = SwordModules()
@@ -70,40 +90,56 @@ class Sword(object):
         result_object.payload = result
         return result_object
     
+    def getCurrentModule(self, c, a):
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = self.current_module
+        return result_object
+    
+    def setCurrentModule(self, c, args):
+        self.current_module = args[0]
+        
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = 'module set to: ' + args[0]
+        return result_object
+    
     def readBible(self, command, args):
         result_object = Result()
         result = None
         
         modules = SwordModules()
         found_modules = modules.parse_modules()
-        bible = modules.get_bible_from_module(self.current_module)
-        
         try:
-            if len(args) == 2:
-                result = bible.get(books=[args[0]], chapters=[int(args[1])], clean=True, join='#|#')
-                
-                splitted = result.split('#|#')
-                result = []
-                for i, line in enumerate(splitted):
-                    result.append([i+1, line])
+            bible = modules.get_bible_from_module(self.current_module)
             
-            elif args[2].find('-') > -1:
-                verse_min, verse_max = args[2].split('-')
-                verse_range = range(int(verse_min), int(verse_max)+1)
+            try:
+                if len(args) == 2:
+                    result = bible.get(books=[args[0]], chapters=[int(args[1])], clean=True, join='#|#')
+                    
+                    splitted = result.split('#|#')
+                    result = []
+                    for i, line in enumerate(splitted):
+                        result.append([i+1, line])
                 
-                result = bible.get(books=[args[0]], chapters=[int(args[1])], verses=verse_range, clean=True, join='#|#')
-                
-                splitted = result.split('#|#')
-                result = []
-                for i, line in enumerate(splitted):
-                    result.append([i+int(verse_min), line])
-            else:
-                verse_range = int(args[2])
-                
-                result = bible.get(books=[args[0]], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
-        except ValueError as e:
-            result_object.error = str(e)
-        
+                elif args[2].find('-') > -1:
+                    verse_min, verse_max = args[2].split('-')
+                    verse_range = range(int(verse_min), int(verse_max)+1)
+                    
+                    result = bible.get(books=[args[0]], chapters=[int(args[1])], verses=verse_range, clean=True, join='#|#')
+                    
+                    splitted = result.split('#|#')
+                    result = []
+                    for i, line in enumerate(splitted):
+                        result.append([i+int(verse_min), line])
+                else:
+                    verse_range = int(args[2])
+                    
+                    result = bible.get(books=[args[0]], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
+            except ValueError as e:
+                result_object.error = str(e)
+        except KeyError:
+            result_object.error = 'current module does not exists: '+self.current_module
         
         result_object.category = "text"
         if result:
