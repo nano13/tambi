@@ -86,12 +86,10 @@ class QDeckLearnWidget(QWidget):
             self.grid.addWidget(button_not_known, 8, 2)
             
             layout = self.setLayout(self.grid)
-        
-    def initWithDbData(self):
-        pass
     
     def clear(self):
         if self.grid:
+            # just reparent the layout to a temporary one for delete it
             QWidget().setLayout(self.grid)
     
     def clearLayout(self, layout):
