@@ -30,7 +30,7 @@ Returns the name of the currently active sword module.
 """
 
 setModule = """
-Sets the active sword module the sword.word command is reading from.
+Sets the active sword module from where the sword.word command is reading from.
 
 @param (required): [string], the name of the sword module to be active
 
