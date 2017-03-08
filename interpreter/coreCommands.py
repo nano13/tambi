@@ -4,7 +4,7 @@ from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 #from interpreter.loadModules import LoadModules
 
-import sys, time
+import sys, time, os
 
 class CoreCommands(object):
     
@@ -20,6 +20,7 @@ class CoreCommands(object):
     def getCommands(self):
         return {
             "commands": self.commands,
+            "modules": self.modules,
             
             "man": self.man,
             
@@ -50,7 +51,19 @@ class CoreCommands(object):
         result_object.payload = all_commands
         return result_object
     
+    def modules(self, c, a):
+        base, dirs, files = next(iter(os.walk('./modules')))
+        dirs.sort()
+        dirs.remove('__pycache__')
+        
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = dirs
+        return result_object
+    
     def man(self, c, args):
+        result_object = Result()
+        
         if args[0].find('.') == -1:
             module_name = args[0]
             command_name = 'module_description'
@@ -65,13 +78,17 @@ class CoreCommands(object):
             command_name = command_name[:-1]
         
         import_query = "import modules."+module_name+".man as man"
-        exec(import_query, globals())
-        exec_result = "result"
-        exec(exec_result + " = man."+command_name, globals())
+        try:
+            exec(import_query, globals())
+        except ModuleNotFoundError:
+            result_object.error = 'no man-page for this module found'
+        else:
+            exec_result = "result"
+            exec(exec_result + " = man."+command_name, globals())
+            
+            result_object.payload = args[0] +"\n"+result
         
-        result_object = Result()
         result_object.category = 'text'
-        result_object.payload = args[0] +"\n"+result
         return result_object
     
     def clear(self, command, args):
