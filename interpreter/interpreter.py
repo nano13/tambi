@@ -72,8 +72,12 @@ class Interpreter(object):
             args, line = self.commaSplit(args)
         except IndexError:
             line = 0
-                
-        print("command, args, line:", command, args, line)
+        
+        try:
+            print("command, args, line:", command, args, line)
+        except UnboundLocalError:
+            # we have probably an empty input here
+            return
         
         result = self.tryCommandInCoreCommands(command, args)
         try:
