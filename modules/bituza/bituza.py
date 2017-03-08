@@ -389,8 +389,12 @@ class Bituza(object):
                 if a[2].isdigit():
                     values = book_id, a[1], a[2]
                 else:
-                    #return "fehler: bitte vers als zahl angeben!;", "msg/error"
-                    first, last = a[2].split("-")
+                    try:
+                        first, last = a[2].split("-")
+                    except ValueError:
+                        result_object = Result()
+                        result_object.error = 'invalid input'
+                        return result_object
                     
                     query = query_head + " AND verse>=? AND verse<=?"
                     values = book_id, a[1], first, last
