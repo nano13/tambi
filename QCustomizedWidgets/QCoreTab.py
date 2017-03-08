@@ -71,6 +71,8 @@ class QCoreTab(QWidget):
             self.resultInTextEdit(result)
         elif hasattr(result, 'category') and result.category == "text":
             self.resultInTextEdit(result)
+        elif hasattr(result, 'category') and result.category == "string":
+            self.resultInTextEdit(result)
         elif hasattr(result, 'category') and result.category == "itemized":
             self.resultInItemizedWidget(result)
     
@@ -95,6 +97,9 @@ class QCoreTab(QWidget):
     def resultInTextEdit(self, result):
         self.display_widget.deleteLater()
         self.display_widget = QTextEdit()
+        
+        self.display_widget.setAcceptRichText(True)
+        
         self.display_widget.setText(result.toString())
         self.display_widget.setReadOnly(True)
         self.addDisplayWidget()

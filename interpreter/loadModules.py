@@ -3,8 +3,6 @@
 import os
 
 class LoadModules(object):
-    def __init__(self):
-        pass
     
     def loadModules(self):
         modules_list = []
@@ -19,7 +17,7 @@ class LoadModules(object):
                 
                 print("\n")
                 imports = "from modules."+d+"."+d+" import "+d[0].upper() + d[1:]+" as CurrentModule"
-                print("importing: ",imports)
+                print("importing:", imports)
                 
                 try:
                     exec(imports, globals())
