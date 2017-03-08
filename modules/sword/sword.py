@@ -17,7 +17,7 @@ class Sword(object):
         return {
             "sword.commands": self.commands,
             
-            "sword": self.readBible,
+            "sword.word": self.word,
             
             "sword.modules": self.listModules,
             "sword.getModule": self.getCurrentModule,
@@ -110,7 +110,7 @@ class Sword(object):
         result_object.payload = 'module set to: ' + args[0]
         return result_object
     
-    def readBible(self, command, args):
+    def word(self, command, args):
         result_object = Result()
         result = None
         
