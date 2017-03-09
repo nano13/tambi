@@ -63,11 +63,17 @@ class VocableDbAdapter(object):
     
     def getBordersForKnownStatus(self, language):
         stats = self.getStats(language)
-        known_worst = stats[0][-1]
-        known_best = stats[-2][-1] # [-1][-1] would be 'none' ...
+        try:
+            known_worst = stats[0][-1]
+            known_best = stats[-2][-1] # [-1][-1] would be 'none' ...
+        except IndexError:
+            return {
+                'weak_lower_limit' : 0,
+                'weak_upper_limit' : 0,
+            }
         
         # divide the range between worst and best into three equal parts
-        length = len(range(known_worst, known_best)) +1
+        length = len(range(int(known_worst), int(known_best))) +1
         partition_size = math.ceil(length / 3)
         
         range_poor = known_worst + partition_size
