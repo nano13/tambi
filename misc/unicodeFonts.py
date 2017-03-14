@@ -7,40 +7,23 @@ class UnicodeFonts(object):
         QFontDatabase.addApplicationFont("./assets/fonts/EzraSIL2.51/SILEOT.ttf")
         QFontDatabase.addApplicationFont("./assets/fonts/GalSIL21/GalSILR.ttf")
         
-    def isArabic(self, string):
-        #return all(ord(char) > 1536 and ord(char) < 1791 for char in string)
+    def isInUnicodeRange(self, start, end, string):
         result = False
         for char in string.strip():
-            if ord(char) > 1536 and ord(char) < 1791:
+            if ord(char) > start and ord(char) < end:
                 result = True
-        return result
-    
-    def isHebrew(self, string):
-        #return all(ord(char) > 1424 and ord(char) < 1535 for char in string)
-        result = False
-        for char in string.strip():
-            if ord(char) > 1424 and ord(char) < 1535:
-                result = True
-        return result
-    
-    def isGreek(self, string):
-        result = False
-        for char in string.strip():
-            if ord(char) > 880 and ord(char) < 1023:
-                result = True
-        
         return result
     
     def applyFontSizeToQWidget(self, string, widget):
-        if self.isArabic(string):
+        if self.isInUnicodeRange(1536, 1791, string):
             widget.setFont(QFont("Scheherazade"))
             widget.setFontPointSize(40)
         
-        if self.isHebrew(string):
+        if self.isInUnicodeRange(1424, 1535, string):
             widget.setFont(QFont("Ezra SIL"))
             widget.setFontPointSize(20)
         
-        if self.isGreek(string):
+        if self.isInUnicodeRange(880, 1023, string):
             widget.setFont(QFont("Galatia SIL"))
             widget.setFontPointSize(20)
     
