@@ -2,6 +2,8 @@
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QScrollArea, QTextEdit, QSizePolicy
 from PyQt5.QtCore import Qt, pyqtSignal, QTimer
 
+from misc import detectUnicodeBlock
+
 class QItemizedWidget(QWidget):
     def __init__(self, payload):
         super().__init__()
@@ -41,12 +43,18 @@ class QItemWidget(QWidget):
         self.showData(line)
     
     def showData(self, line):
-        for column in line:
+        for i, column in enumerate(line):
             text_edit = QGrowingTextEdit()
+            
+            detectUnicodeBlock.applyFontSizeToQWidget(str(column), text_edit)
+                
             text_edit.setText(str(column))
             text_edit.setObjectName("bla")
             text_edit.setReadOnly(True)
             self.layout.addWidget(text_edit)
+            
+    def isAscii(self, string):
+        return all(ord(c) < 128 for c in string)
 
 class QGrowingTextEdit(QTextEdit):
     

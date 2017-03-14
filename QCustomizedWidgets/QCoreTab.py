@@ -9,6 +9,8 @@ from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 
 from interpreter.interpreter import Interpreter
 
+from misc import detectUnicodeBlock
+
 from functools import partial
 
 class QCoreTab(QWidget):
@@ -97,6 +99,8 @@ class QCoreTab(QWidget):
     def resultInTextEdit(self, result):
         self.display_widget.deleteLater()
         self.display_widget = QTextEdit()
+        
+        detectUnicodeBlock.applyFontSizeToQWidget(result.toString(), self.display_widget)
         
         self.display_widget.setAcceptRichText(True)
         
