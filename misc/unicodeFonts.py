@@ -43,7 +43,6 @@ class UnicodeFonts(object):
         if self.isGreek(string):
             widget.setFont(QFont("Galatia SIL"))
             widget.setFontPointSize(20)
-            self.printFonts()
     
     def printFonts(self):
         db = QFontDatabase()
