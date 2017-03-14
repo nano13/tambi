@@ -5,6 +5,7 @@ class UnicodeFonts(object):
     def __init__(self):
         QFontDatabase.addApplicationFont("./assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf")
         QFontDatabase.addApplicationFont("./assets/fonts/EzraSIL2.51/SILEOT.ttf")
+        QFontDatabase.addApplicationFont("./assets/fonts/GalSIL21/GalSILR.ttf")
         
     def isArabic(self, string):
         #return all(ord(char) > 1536 and ord(char) < 1791 for char in string)
@@ -20,26 +21,29 @@ class UnicodeFonts(object):
         for char in string.strip():
             if ord(char) > 1424 and ord(char) < 1535:
                 result = True
-        return result 
+        return result
     
-    def applyCoranicaFontToQWidget(self, widget):
-        font = QFont("Scheherazade")
-        widget.setFont(font)
-    
-    def applyHebrewFontToQWidget(self, widget):
-        font = QFont("Ezra SIL")
-        widget.setFont(font)
+    def isGreek(self, string):
+        result = False
+        for char in string.strip():
+            if ord(char) > 880 and ord(char) < 1023:
+                result = True
         
-        #self.printFonts()
+        return result
     
     def applyFontSizeToQWidget(self, string, widget):
         if self.isArabic(string):
-            self.applyCoranicaFontToQWidget(widget)
+            widget.setFont(QFont("Scheherazade"))
             widget.setFontPointSize(40)
         
         if self.isHebrew(string):
-            self.applyHebrewFontToQWidget(widget)
+            widget.setFont(QFont("Ezra SIL"))
             widget.setFontPointSize(20)
+        
+        if self.isGreek(string):
+            widget.setFont(QFont("Galatia SIL"))
+            widget.setFontPointSize(20)
+            self.printFonts()
     
     def printFonts(self):
         db = QFontDatabase()
