@@ -18,17 +18,16 @@ def isHebrew(string):
     return result 
 
 def applyCoranicaFontToQWidget(widget):
-    #QFontDatabase.addApplicationFont("./assets/fonts/coranica_1145.ttf")
-    #font = QFont("coranica")
     QFontDatabase.addApplicationFont("./assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf")
     font = QFont("Scheherazade")
     widget.setFont(font)
+
+def applyHebrewFontToQWidget(widget):
+    QFontDatabase.addApplicationFont("./assets/fonts/EzraSIL2.51/SILEOT.ttf")
+    font = QFont("Ezra SIL")
+    widget.setFont(font)
     
-    #db = QFontDatabase()
-    #fonts = QFontDatabase.families(db)
-    #for font in fonts:
-        #if font.find("ehera"):
-            #print(font)
+    printFonts()
 
 def applyFontSizeToQWidget(string, widget):
     if isArabic(string):
@@ -36,5 +35,12 @@ def applyFontSizeToQWidget(string, widget):
         widget.setFontPointSize(40)
     
     if isHebrew(string):
+        applyHebrewFontToQWidget(widget)
         widget.setFontPointSize(20)
 
+def printFonts():
+    db = QFontDatabase()
+    fonts = QFontDatabase.families(db)
+    for font in fonts:
+        #if font.find("zra"):
+        print(font)
