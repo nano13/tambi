@@ -30,7 +30,7 @@ class UnicodeFonts(object):
         font = QFont("Ezra SIL")
         widget.setFont(font)
         
-        self.printFonts()
+        #self.printFonts()
     
     def applyFontSizeToQWidget(self, string, widget):
         if self.isArabic(string):
