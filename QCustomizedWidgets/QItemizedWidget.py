@@ -2,7 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QScrollArea, QTextEdit, QSizePolicy
 from PyQt5.QtCore import Qt, pyqtSignal, QTimer
 
-from misc import detectUnicodeBlock
+from misc.unicodeFonts import UnicodeFonts
 
 class QItemizedWidget(QWidget):
     def __init__(self, payload):
@@ -43,10 +43,12 @@ class QItemWidget(QWidget):
         self.showData(line)
     
     def showData(self, line):
+        unicode_fonts = UnicodeFonts()
+        
         for i, column in enumerate(line):
             text_edit = QGrowingTextEdit()
             
-            detectUnicodeBlock.applyFontSizeToQWidget(str(column), text_edit)
+            unicode_fonts.applyFontSizeToQWidget(str(column), text_edit)
                 
             text_edit.setText(str(column))
             text_edit.setObjectName("bla")

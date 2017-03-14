@@ -9,7 +9,7 @@ from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 
 from interpreter.interpreter import Interpreter
 
-from misc import detectUnicodeBlock
+from misc.unicodeFonts import UnicodeFonts
 
 from functools import partial
 
@@ -100,7 +100,8 @@ class QCoreTab(QWidget):
         self.display_widget.deleteLater()
         self.display_widget = QTextEdit()
         
-        detectUnicodeBlock.applyFontSizeToQWidget(result.toString(), self.display_widget)
+        unicode_fonts = UnicodeFonts()
+        unicode_fonts.applyFontSizeToQWidget(result.toString(), self.display_widget)
         
         self.display_widget.setAcceptRichText(True)
         
