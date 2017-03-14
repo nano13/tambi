@@ -19,11 +19,11 @@ class UnicodeFonts(object):
             widget.setFont(QFont("Scheherazade"))
             widget.setFontPointSize(40)
         
-        if self.isInUnicodeRange(1424, 1535, string):
+        elif self.isInUnicodeRange(1424, 1535, string):
             widget.setFont(QFont("Ezra SIL"))
             widget.setFontPointSize(20)
         
-        if self.isInUnicodeRange(880, 1023, string):
+        elif self.isInUnicodeRange(880, 1023, string):
             widget.setFont(QFont("Galatia SIL"))
             widget.setFontPointSize(20)
     
