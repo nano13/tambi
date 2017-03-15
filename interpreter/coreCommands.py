@@ -84,7 +84,14 @@ class CoreCommands(object):
             try:
                 exec(import_query, globals())
             except ModuleNotFoundError:
-                result_object.error = 'no man-page for this module found'
+                
+                exec_result = "result"
+                try:
+                    exec(exec_result + " = builtin_man_pages."+args[0], globals())
+                except AttributeError:
+                    result_object.error = 'no man-page for this command or module found'
+                else:
+                    result_object.payload = args[0] +"\n"+result
             else:
                 exec_result = "result"
                 try:

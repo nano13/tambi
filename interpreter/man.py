@@ -6,6 +6,7 @@ To get an idea of what you can do here, you can try to:
 - type the command 'commands' for getting a list of the builtin ones
 - type the command 'modules' for getting a list of the available modules
 - type the command '[modulename].commands' for getting a list of the available commands provided by this module
+- type the command 'man [command]' for getting a description of the builtin command
 - type the command 'man [modulename]' for getting a description of the module
 - type the command 'man [modulename].[command]' for getting a description of the particular command provided by the given modulename
 """
