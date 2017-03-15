@@ -125,13 +125,12 @@ class CoreCommands(object):
         return result
     
     def history(self, c, args):
-        print("HISTORY")
         history = History()
         if len(args) < 1:
             result = history.historyReadAll()
         else:
             result = history.historyReadAllWithFilter(args[0])
-        print(result)
+        
         result_object = Result()
         result_object.payload = result[::-1]
         result_object.category = "list"
