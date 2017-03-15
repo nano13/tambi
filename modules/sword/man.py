@@ -6,7 +6,7 @@ Module for reading the bible modules provided by the sword project. There is no 
 books = """
 Returns a list of the bible books. This names can be used to specify the book in the command 'sword.word'.
 
-@param (optional): [string], 'at' or 'nt': list only the books of the old or new testament.
+@param (optional): [string], 'ot' or 'nt': list only the books of the old or new testament.
 
 See also:
 sword.word
