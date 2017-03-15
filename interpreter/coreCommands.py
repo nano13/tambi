@@ -2,13 +2,11 @@
 
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
-#from interpreter.loadModules import LoadModules
+import interpreter.man as builtin_man_pages
 
 import sys, time, os
 
 class CoreCommands(object):
-    
-    #modules_man_list = loadModules().loadModulesManPages()
     
     def __init__(self):
         pass
@@ -30,7 +28,7 @@ class CoreCommands(object):
             "date" : self.date,
             "time" : self.time,
             
-            
+            "history" : self.history,
             }
     
     def commandNotFound(self, command, args):
@@ -67,7 +65,7 @@ class CoreCommands(object):
         try:
             args[0]
         except IndexError:
-            result_object.error = 'invalid parameter'
+            result_object.payload = builtin_man_pages.module_description
         else:
             if args[0].find('.') == -1:
                 module_name = args[0]
@@ -116,3 +114,6 @@ class CoreCommands(object):
         result.category = "string"
         result.payload = time.strftime("%d.%m.%Y %A %B")
         return result
+    
+    def history(self, c, args):
+        pass
