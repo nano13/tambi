@@ -64,32 +64,37 @@ class CoreCommands(object):
     def man(self, c, args):
         result_object = Result()
         
-        if args[0].find('.') == -1:
-            module_name = args[0]
-            command_name = 'module_description'
-        else:
-            splitted = args[0].split('.')
-            command_name = ""
-            for i, fragment in enumerate(splitted):
-                if i <= 0:
-                    module_name = fragment
-                elif i > 0:
-                    command_name += fragment + '_'
-            command_name = command_name[:-1]
-        
-        import_query = "import modules."+module_name+".man as man"
         try:
-            exec(import_query, globals())
-        except ModuleNotFoundError:
-            result_object.error = 'no man-page for this module found'
+            args[0]
+        except IndexError:
+            result_object.error = 'invalid parameter'
         else:
-            exec_result = "result"
-            try:
-                exec(exec_result + " = man."+command_name, globals())
-            except AttributeError:
-                result_object.error = 'no man page for this command'
+            if args[0].find('.') == -1:
+                module_name = args[0]
+                command_name = 'module_description'
             else:
-                result_object.payload = args[0] +"\n"+result
+                splitted = args[0].split('.')
+                command_name = ""
+                for i, fragment in enumerate(splitted):
+                    if i <= 0:
+                        module_name = fragment
+                    elif i > 0:
+                        command_name += fragment + '_'
+                command_name = command_name[:-1]
+            
+            import_query = "import modules."+module_name+".man as man"
+            try:
+                exec(import_query, globals())
+            except ModuleNotFoundError:
+                result_object.error = 'no man-page for this module found'
+            else:
+                exec_result = "result"
+                try:
+                    exec(exec_result + " = man."+command_name, globals())
+                except AttributeError:
+                    result_object.error = 'no man page for this command'
+                else:
+                    result_object.payload = args[0] +"\n"+result
         
         result_object.category = 'text'
         return result_object
