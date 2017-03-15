@@ -15,7 +15,7 @@ sword.word
 word = """
 Returns the specified bible passage.
 
-@param (required): [string], the name of the book we want to read.
+@param (required): [string], the name of the book we want to read. (If it contains spaces, put it between double quotation marks).
 @param (required): [number], the chapter of the book we want to read.
 @param (optional): [number] or [number]-[number], the verse or a range of verses to be shown.
 
@@ -23,6 +23,7 @@ Examples:
 sword.word genesis 1
 sword.word genesis 1 1
 sword.word genesis 1 10-20
+sword.word "I Samuel" 1
 """
 
 modules = """
