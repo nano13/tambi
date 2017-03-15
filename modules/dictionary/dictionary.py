@@ -8,13 +8,17 @@ import sqlite3
 
 class Dictionary(object):
     def __init__(self):
-        pass
+        self.connection = sqlite3.connect("./modules/vocable/vocables.db")
+        self.cursor = self.connection.cursor()
     
     def getCommands(self):
         return {
             "dictionary.commands" : self.commands,
             
-            "dictionary.search" : self.search,
+            "dictionary.hebrew" : self.hebrew,
+            "dictionary.greek" : self.greek,
+            "dictionary.aramaic" : self.aramaic,
+            "dictionary.akkadian" : self.akkadian,
         }
     
     def interpreter(self, command, args):
@@ -27,7 +31,7 @@ class Dictionary(object):
     def commandNotFound(self, c, a):
         raise CommandNotInThisModule("command not found in module quran")
     
-    def commands(self, none1, none2):
+    def commands(self, c, a):
         dic = self.getCommands()
         
         commands = sorted(dic.items())
@@ -42,5 +46,32 @@ class Dictionary(object):
         result_object.payload = all_commands
         return result_object
     
-    def search(self, c, a):
-        pass
+    def hebrew(self, c, args):
+        return self.dictionaryHelper(args, 'hebrew')
+    def greek(self, c, args):
+        return self.dictionaryHelper(args, 'greek')
+    def aramaic(self, c, args):
+        return self.dictionaryHelper(args, 'aramaic')
+    def akkadian(self, c, args):
+        return self.dictionaryHelper(args, 'akkadian')
+    
+    def dictionaryHelper(self, args, language):
+        result_object = Result()
+        
+        query = """
+        SELECT display, gloss
+        FROM {0}
+        WHERE display LIKE ? OR gloss LIKE ?
+        """.format(language)
+        try:
+            param = '%'+str(args[0])+'%'
+        except IndexError:
+            result_object.error = 'invalid parameter'
+        else:
+            self.cursor.execute(query, [param, param])
+            result_object.payload = self.cursor.fetchall()
+            
+        result_object.category = "itemized"
+        result_object.name = "dictionary result"
+        return result_object
+    
