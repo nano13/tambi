@@ -3,6 +3,7 @@ from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
 from pysword.modules import SwordModules
+from pysword.books import BibleStructure
 
 #from modules.bituza.bituza import Bituza
 
@@ -16,6 +17,8 @@ class Sword(object):
     def getCommands(self):
         return {
             "sword.commands": self.commands,
+            
+            "sword.books": self.books,
             
             "sword.word": self.word,
             
@@ -108,6 +111,26 @@ class Sword(object):
         result_object = Result()
         result_object.category = "list"
         result_object.payload = 'module set to: ' + args[0]
+        return result_object
+    
+    def books(self, c, args):
+        structure = BibleStructure('default')
+        books = structure.get_books()
+        result = []
+        
+        if ((not len(args) == 0) and (args[0] == 'ot')) or (len(args) == 0):
+            for book in books['ot']:
+                formatted = str(book)[5:][:-1]
+                result.append(formatted)
+        if ((not len(args) == 0) and (args[0] == 'nt')) or (len(args) == 0):
+            for book in books['nt']:
+                formatted = str(book)[5:][:-1]
+                result.append(formatted)
+        print(result)
+        
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = result
         return result_object
     
     def word(self, command, args):

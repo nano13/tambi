@@ -3,6 +3,15 @@ module_description = """
 Module for reading the bible modules provided by the sword project. There is no download functionality for new modules yet, please use any other sword-frontend for doing this (like bibletime, xiphos or whatsoever).
 """
 
+books = """
+Returns a list of the bible books. This names can be used to specify the book in the command 'sword.word'.
+
+@param (optional): [string], 'at' or 'nt': list only the books of the old or new testament.
+
+See also:
+sword.word
+"""
+
 word = """
 Returns the specified bible passage.
 
