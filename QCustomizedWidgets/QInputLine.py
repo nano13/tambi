@@ -21,6 +21,7 @@ class QInputLine(QLineEdit):
         self.setText(prev_text)
         
     def keyPressEvent(self, e):
+        #if (e.modifiers() & Qt.NoModifier):
         if e.key() == Qt.Key_Return:
             self.history.historyWrite(self.text())
             self.return_pressed.emit(self.text())
@@ -46,5 +47,10 @@ class QInputLine(QLineEdit):
                 self.history_counter = 0
             entry = self.history.historyReadAtIndex(self.history_counter)
             self.setText(entry)
-            
+        
+        if (e.modifiers() & Qt.ControlModifier):
+            if e.key() == Qt.Key_C:
+                self.history_counter = 0
+                self.setText("")
+        
         super().keyPressEvent(e)
