@@ -35,7 +35,9 @@ class QCoreTab(QWidget):
         self.grid.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.grid)
         
-        self.display_widget = QTableWidget()
+        self.display_widget = QTextEdit()
+        self.display_widget.setText("type in the command 'man' for getting started ...")
+        self.display_widget.setReadOnly(True)
         self.vkbd = None
         
         #self.grid.addWidget(self.display_widget, 0, 0, 1, 0)

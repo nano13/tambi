@@ -4,6 +4,8 @@ from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 import interpreter.man as builtin_man_pages
 
+from configs.history import History
+
 import sys, time, os
 
 class CoreCommands(object):
@@ -123,4 +125,14 @@ class CoreCommands(object):
         return result
     
     def history(self, c, args):
-        pass
+        print("HISTORY")
+        history = History()
+        if len(args) < 1:
+            result = history.historyReadAll()
+        else:
+            result = history.historyReadAllWithFilter(args[0])
+        print(result)
+        result_object = Result()
+        result_object.payload = result[::-1]
+        result_object.category = "list"
+        return result_object

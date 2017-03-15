@@ -52,11 +52,20 @@ class History(object):
         
         history_list = []
         for line in history_file:
-            history_list.append(line)
+            history_list.append(line.strip())
         
         history_file.close()
         
         return history_list
+    
+    def historyReadAllWithFilter(self, filter_string):
+        history_list = self.historyReadAll()
+        
+        result = []
+        for item in history_list:
+            if item.find(filter_string) > -1:
+                result.append(item)
+        return result
     
     def historyReadAtIndex(self, index):
         
