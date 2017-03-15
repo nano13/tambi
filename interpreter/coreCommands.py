@@ -84,9 +84,12 @@ class CoreCommands(object):
             result_object.error = 'no man-page for this module found'
         else:
             exec_result = "result"
-            exec(exec_result + " = man."+command_name, globals())
-            
-            result_object.payload = args[0] +"\n"+result
+            try:
+                exec(exec_result + " = man."+command_name, globals())
+            except AttributeError:
+                result_object.error = 'no man page for this command'
+            else:
+                result_object.payload = args[0] +"\n"+result
         
         result_object.category = 'text'
         return result_object
