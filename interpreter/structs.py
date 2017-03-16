@@ -31,8 +31,7 @@ class Result:
                     result += str(column)
                     if type(line) == tuple or type(line) == list:
                         result += " | "
-                # needed if result += " | ":
-                if type(line) == tuple:
+                if type(line) == tuple or type(line) == list:
                     result = result[:-3]
                 result += "\n"
             result = result.strip()

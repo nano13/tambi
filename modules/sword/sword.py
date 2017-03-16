@@ -133,7 +133,7 @@ class Sword(object):
         result_object.payload = result
         return result_object
     
-    def word(self, command, args):
+    def word(self, c, args):
         result_object = Result()
         result = None
         
@@ -149,7 +149,7 @@ class Sword(object):
                     splitted = result.split('#|#')
                     result = []
                     for i, line in enumerate(splitted):
-                        result.append([i+1, line])
+                        result.append([i+1, line.strip()])
                 
                 elif args[2].find('-') > -1:
                     verse_min, verse_max = args[2].split('-')
@@ -160,7 +160,7 @@ class Sword(object):
                     splitted = result.split('#|#')
                     result = []
                     for i, line in enumerate(splitted):
-                        result.append([i+int(verse_min), line])
+                        result.append([i+int(verse_min), line.strip()])
                 else:
                     verse_range = int(args[2])
                     
