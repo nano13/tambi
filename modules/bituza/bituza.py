@@ -53,7 +53,7 @@ class Bituza(object):
         }
     
     def interpreter(self, command, args):
-        print("args:", args)
+        #print("args:", args)
         
         commands = self.getCommands()
         #return_value, mime_value = commands.get(command, self.commandNotFound)(command, args)
@@ -214,7 +214,7 @@ class Bituza(object):
             result, head, metaLanguage = self.searchSingleBook(c, search_book, search_pattern, False)
             result_list.append(result)
             
-            print(search_book)
+            #print(search_book)
         
         format_list = []
         for item in result_list:
@@ -317,7 +317,7 @@ class Bituza(object):
         else:
             query = query_head + query_mid +"?"
             
-        print(query, result_in_table)
+        #print(query, result_in_table)
         
         if c == "bituza.search.elberfelder":
             value = [ "%" + str(search_pattern) + "%" ]
@@ -328,7 +328,7 @@ class Bituza(object):
             
         self.cursor.execute(query, value)
         result = self.cursor.fetchall()
-        print(result)
+        #print(result)
         
         if len(result) == 0:
             if result_in_table:
@@ -439,7 +439,7 @@ class Bituza(object):
         result = Result()
         result.payload = result
         result.metaload = metaLang
-        print("NAME:", name)
+        #print("NAME:", name)
         return result
         
     def resultInTableOLD(self, head, result, metaLanguage, name):
@@ -518,12 +518,12 @@ class Bituza(object):
         result = self.cursor.fetchall()
         
         current_verse_number = int( result[0][0] )
-        print(current_verse_number)
+        #print(current_verse_number)
         result_list = []
         result_line = ""
         j = 1
         for i in range( len(result) ):
-            print(current_verse_number)#, result_line
+            #print(current_verse_number)#, result_line
             if result[i][0] == current_verse_number:
                 result_line += result[i][1] + " "
             else:
@@ -531,7 +531,7 @@ class Bituza(object):
                 current_verse = int( result[j][0] )
                 
                 result_list.append(result_line)
-                print(i, current_verse_number)
+                #print(i, current_verse_number)
                 result_line = result[i][1] + " "
                 
         self.ResultObject.Payload.List = result_list
