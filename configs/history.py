@@ -3,7 +3,7 @@ import os
 
 from configs.configFiles import ConfigDir
 
-HISTORY_MAX_SIZE = 100
+HISTORY_MAX_SIZE = 1000
 HISTORY_FILE_NAME = "history"
 
 class History(object):
