@@ -55,11 +55,17 @@ class Logos(QMainWindow):
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
         newVocableTabAction.triggered.connect(self.addNewVocableTab)
         
+        openFileAction = QAction(QIcon.fromTheme('document-open'), '&Open Text-File', self)
+        openFileAction.setStatusTip('Open a File')
+        openFileAction.triggered.connect(self.openFile)
+        
         menubar = self.menuBar()
         
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(newCliTabAction)
         fileMenu.addAction(newVocableTabAction)
+        fileMenu.addSeparator()
+        fileMenu.addAction(openFileAction)
         fileMenu.addSeparator()
         fileMenu.addAction(exitAction)
         
@@ -84,7 +90,10 @@ class Logos(QMainWindow):
         
         self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "VocableTab")
-        
+    
+    def openFile(self):
+        print("OPEN FILE TRIGGERED")
+    
 if __name__ == '__main__':
     
     app = QApplication(sys.argv)
