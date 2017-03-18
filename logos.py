@@ -23,9 +23,9 @@ class Logos(QMainWindow):
         self.initGUI()
         self.initTabs()
         self.addNewCliTab()
-        #self.addNewVocableLearnTab()
-        #self.addNewVocableLanguageTab()
-        self.addNewVocableTab()
+        #self.addNewVocableTab()
+        
+        self.resize(625, 670)
         
     def initGUI(self):
         
@@ -85,11 +85,15 @@ class Logos(QMainWindow):
         self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "cli")
         
+        self.tab_widget.setCurrentIndex(len(self.tabs_list)-1)
+        
     def addNewVocableTab(self):
         tab = QCoreTab().vocableTab()
         
         self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "vocable")
+        
+        self.tab_widget.setCurrentIndex(len(self.tabs_list)-1)
     
     def openFile(self):
         home_path = os.path.expanduser('~')
@@ -99,6 +103,8 @@ class Logos(QMainWindow):
         
         self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "editor")
+        
+        self.tab_widget.setCurrentIndex(len(self.tabs_list)-1)
     
 if __name__ == '__main__':
     
