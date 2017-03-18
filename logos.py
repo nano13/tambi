@@ -2,10 +2,10 @@
 # -*- coding: utf_8 -*-
 
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QTabWidget, QAction, qApp
+from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QTabWidget, QAction, qApp, QFileDialog
 from PyQt5.QtGui import QIcon
 
-import signal
+import signal, os
 # to make program closeable with ctr-c in terminal
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
@@ -55,7 +55,7 @@ class Logos(QMainWindow):
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
         newVocableTabAction.triggered.connect(self.addNewVocableTab)
         
-        openFileAction = QAction(QIcon.fromTheme('document-open'), '&Open Text-File', self)
+        openFileAction = QAction(QIcon.fromTheme('document-open'), '&Open File', self)
         openFileAction.setStatusTip('Open a File')
         openFileAction.triggered.connect(self.openFile)
         
@@ -83,16 +83,22 @@ class Logos(QMainWindow):
         tab = QCoreTab().cliTab()
         
         self.tabs_list.append(tab)
-        self.tab_widget.addTab(tab, "CliTab")
+        self.tab_widget.addTab(tab, "cli")
         
     def addNewVocableTab(self):
         tab = QCoreTab().vocableTab()
         
         self.tabs_list.append(tab)
-        self.tab_widget.addTab(tab, "VocableTab")
+        self.tab_widget.addTab(tab, "vocable")
     
     def openFile(self):
-        print("OPEN FILE TRIGGERED")
+        home_path = os.path.expanduser('~')
+        file_path = QFileDialog.getOpenFileName(self, "Please select File", home_path)
+        
+        tab = QCoreTab().editorTab(file_path)
+        
+        self.tabs_list.append(tab)
+        self.tab_widget.addTab(tab, "editor")
     
 if __name__ == '__main__':
     

@@ -20,6 +20,26 @@ class QCoreTab(QWidget):
     def __init__(self):
         super().__init__()
     
+    def editorTab(self, filepath):
+        grid = QGridLayout()
+        grid.setContentsMargins(0, 0, 0, 0)
+        self.setLayout(grid)
+        
+        self.editor = QTextEdit()
+        grid.addWidget(self.editor, 0, 0)
+        
+        fobj = open(filepath[0])
+        data = ""
+        for line in fobj:
+            data += line
+        
+        unicode_fonts = UnicodeFonts()
+        unicode_fonts.applyFontSizeToQWidget(data, self.editor)
+        
+        self.editor.setText(data)
+        
+        return self
+    
     def vocableTab(self):
         grid = QGridLayout()
         self.setLayout(grid)
