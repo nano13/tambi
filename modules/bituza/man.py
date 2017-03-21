@@ -1,8 +1,9 @@
 
 module_description = """
+"Bibel in Text und Zahl"
 Module for accessing a database for numerological analysis of the bible. This database was created by Paul Gerhard Zint from http://www.zeitundzahl.de/
 
-Particularly interesting could be the also included interlinear translation between the original languages (hebrew, aramaic, greek) and the germen 'Elberfelder' translation. This can be accessed by the command bituza.word
+Particularly interesting could be the also included interlinear translation between the original languages (hebrew, aramaic, greek) and the german 'Elberfelder' translation. This can be accessed by the command "bituza.word"
 """
 
 books = """
