@@ -26,6 +26,14 @@ class Logos(QMainWindow):
         #self.addNewVocableTab()
         
         self.resize(625, 670)
+        self.center()
+        
+    def center(self):
+        geometry = self.frameGeometry()
+        screen = QApplication.desktop().screenNumber(QApplication.desktop().cursor().pos())
+        center = QApplication.desktop().screenGeometry(screen).center()
+        geometry.moveCenter(center)
+        self.move(geometry.topLeft())
         
     def initGUI(self):
         
