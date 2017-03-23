@@ -30,7 +30,7 @@ class Logos(QMainWindow):
         self.resize(625, 670)
         self.center()
         
-        #self.installEventFilter(self)
+        self.installEventFilter(self)
         #self.tab_widget.installEventFilter(self)
         
     def center(self):
@@ -42,23 +42,24 @@ class Logos(QMainWindow):
     
     def eventFilter(self, a, event):
         if event.type() == QtCore.QEvent.KeyPress:
-            #print("A")
-            result = self.keyPressEvent(event)
+            print("eventFilter: keyPress")
             
-            if result:
-                return True
-            else:
-                return QMainWindow.eventFilter(self, a, event)
-        else:
-            #print("B")
-            return QMainWindow.eventFilter(self, a, event)
+        return QMainWindow.eventFilter(self, a, event)
+        #if event.type() == QtCore.QEvent.KeyPress:
+            ##print("A")
+            #result = self.keyPressEvent(event)
+            
+            #if result:
+                #return True
+            #else:
+                #return QMainWindow.eventFilter(self, a, event)
+        #else:
+            ##print("B")
+            #return QMainWindow.eventFilter(self, a, event)
     
     def keyPressEvent(self, event):
         #print("key")
         if (event.modifiers() & Qt.ControlModifier):
-            if event.key() == Qt.Key_T:
-                self.addNewCliTab()
-                #return True
             if event.key() == Qt.Key_W:
                 self.closeTab(self.tab_widget.currentIndex())
                 #return True
@@ -103,13 +104,14 @@ class Logos(QMainWindow):
         
     def initMenuBar(self):
         #self.installEventFilter(self)
-        #exitAction = QAction(QIcon('exit.png'), '&Exit', self)
+        
         exitAction = QAction(QIcon.fromTheme("application-exit"), "&Exit", self)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit application')
         exitAction.triggered.connect(qApp.quit)
         
         newCliTabAction = QAction(QIcon.fromTheme('utilities-terminal'), '&New Command Line Tab', self)
+        newCliTabAction.setShortcut('Ctrl+T')
         newCliTabAction.setStatusTip('Open new CLI Tab')
         newCliTabAction.triggered.connect(self.addNewCliTab)
         
