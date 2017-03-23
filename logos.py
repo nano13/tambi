@@ -42,7 +42,7 @@ class Logos(QMainWindow):
     
     def eventFilter(self, a, event):
         if event.type() == QtCore.QEvent.KeyPress:
-            print("A")
+            #print("A")
             result = self.keyPressEvent(event)
             
             if result:
@@ -50,11 +50,11 @@ class Logos(QMainWindow):
             else:
                 return QMainWindow.eventFilter(self, a, event)
         else:
-            print("B")
+            #print("B")
             return QMainWindow.eventFilter(self, a, event)
     
     def keyPressEvent(self, event):
-        print("key")
+        #print("key")
         if (event.modifiers() & Qt.ControlModifier):
             if event.key() == Qt.Key_T:
                 self.addNewCliTab()

@@ -29,7 +29,7 @@ man sword.word
 """
 
 clear = """
-
+Clears the display.
 """
 
 exit = """
