@@ -59,6 +59,9 @@ class Logos(QMainWindow):
             if event.key() == Qt.Key_T:
                 self.addNewCliTab()
                 return True
+            if event.key() == Qt.Key_W:
+                self.closeTab(self.current_tab)
+                return True
         #if (event.modifiers() & Qt.ShiftModifier):
             #print("SHIFT", event.key())
             #if event.key() == Qt.Key_W:
@@ -123,9 +126,9 @@ class Logos(QMainWindow):
         
         return self.tab_widget
         
-    def closeTab(self, id):
-        self.tab_widget.removeTab(id)
-        del self.tabs_list[id]
+    def closeTab(self, tab_id):
+        self.tab_widget.removeTab(tab_id)
+        del self.tabs_list[tab_id]
         
     def addNewCliTab(self):
         tab = QCoreTab().cliTab()
