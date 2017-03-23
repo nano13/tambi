@@ -138,41 +138,45 @@ class Sword(object):
         result = None
         
         modules = SwordModules()
-        found_modules = modules.parse_modules()
         try:
-            bible = modules.get_bible_from_module(self.current_module)
-            
+            found_modules = modules.parse_modules()
+        except FileNotFoundError:
+            result_object.error = 'no sword modules found on this computer. please install some!'
+        else:
             try:
-                book = args[0]
-                if len(args) == 2:
-                    result = bible.get(books=[book], chapters=[int(args[1])], clean=True, join='#|#')
-                    
-                    splitted = result.split('#|#')
-                    result = []
-                    for i, line in enumerate(splitted):
-                        result.append([i+1, line.strip()])
+                bible = modules.get_bible_from_module(self.current_module)
                 
-                elif args[2].find('-') > -1:
-                    verse_min, verse_max = args[2].split('-')
-                    verse_range = range(int(verse_min), int(verse_max)+1)
-                    
-                    try:
-                        result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='#|#')
-                    except IndexError:
-                        result_object.error = 'invalid verse range'
-                    else:
+                try:
+                    book = args[0]
+                    if len(args) == 2:
+                        result = bible.get(books=[book], chapters=[int(args[1])], clean=True, join='#|#')
+                        
                         splitted = result.split('#|#')
                         result = []
                         for i, line in enumerate(splitted):
-                            result.append([i+int(verse_min), line.strip()])
-                else:
-                    verse_range = int(args[2])
+                            result.append([i+1, line.strip()])
                     
-                    result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
-            except ValueError as e:
-                result_object.error = str(e)
-        except KeyError:
-            result_object.error = 'current module does not exists: '+self.current_module
+                    elif args[2].find('-') > -1:
+                        verse_min, verse_max = args[2].split('-')
+                        verse_range = range(int(verse_min), int(verse_max)+1)
+                        
+                        try:
+                            result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='#|#')
+                        except IndexError:
+                            result_object.error = 'invalid verse range'
+                        else:
+                            splitted = result.split('#|#')
+                            result = []
+                            for i, line in enumerate(splitted):
+                                result.append([i+int(verse_min), line.strip()])
+                    else:
+                        verse_range = int(args[2])
+                        
+                        result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
+                except ValueError as e:
+                    result_object.error = str(e)
+            except KeyError:
+                result_object.error = 'current module does not exists: '+self.current_module
         
         result_object.category = "text"
         if result:
