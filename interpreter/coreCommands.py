@@ -1,6 +1,6 @@
 # -*- coding: utf_8 -*-
 
-from interpreter.exceptions import CommandNotInThisModule
+from interpreter.exceptions import CommandNotInThisModule, ClearCalled
 from interpreter.structs import Result
 import interpreter.man as builtin_man_pages
 
@@ -107,7 +107,7 @@ class CoreCommands(object):
         return result_object
     
     def clear(self, command, args):
-        pass
+        raise ClearCalled("clear the display widget!")
     
     def exit(self, command, args):
         sys.exit()

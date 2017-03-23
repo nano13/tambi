@@ -8,6 +8,7 @@ from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 
 from interpreter.interpreter import Interpreter
+from interpreter.exceptions import ClearCalled
 
 from misc.unicodeFonts import UnicodeFonts
 
@@ -83,22 +84,31 @@ class QCoreTab(QWidget):
     
     def commandEntered(self, command):
         print("command:", command)
-        result = self.interpreter.interpreter(command)
-        
-        if hasattr(result, 'error') and result.error:
-            self.showErrorMessage(result.error)
-        elif result is None:
-            self.showErrorMessage('no result found')
-        elif hasattr(result, 'category') and result.category == "table":
-            self.resultInTable(result)
-        elif hasattr(result, 'category') and result.category == "list":
-            self.resultInTextEdit(result)
-        elif hasattr(result, 'category') and result.category == "text":
-            self.resultInTextEdit(result)
-        elif hasattr(result, 'category') and result.category == "string":
-            self.resultInTextEdit(result)
-        elif hasattr(result, 'category') and result.category == "itemized":
-            self.resultInItemizedWidget(result)
+        try:
+            result = self.interpreter.interpreter(command)
+        except ClearCalled:
+            self.clearDisplayWidget()
+        else:
+            if hasattr(result, 'error') and result.error:
+                self.showErrorMessage(result.error)
+            elif result is None:
+                self.showErrorMessage('no result found')
+            elif hasattr(result, 'category') and result.category == "table":
+                self.resultInTable(result)
+            elif hasattr(result, 'category') and result.category == "list":
+                self.resultInTextEdit(result)
+            elif hasattr(result, 'category') and result.category == "text":
+                self.resultInTextEdit(result)
+            elif hasattr(result, 'category') and result.category == "string":
+                self.resultInTextEdit(result)
+            elif hasattr(result, 'category') and result.category == "itemized":
+                self.resultInItemizedWidget(result)
+    
+    def clearDisplayWidget(self):
+        self.display_widget.deleteLater()
+        self.display_widget = QTextEdit()
+        self.display_widget.setReadOnly(True)
+        self.addDisplayWidget()
     
     def resultInTable(self, result):
         self.display_widget.deleteLater()
