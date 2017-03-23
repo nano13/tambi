@@ -4,6 +4,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QTabWidget, QAction, qApp, QFileDialog
 from PyQt5.QtGui import QIcon
+from PyQt5.Qt import Qt
+from PyQt5 import QtCore
 
 import signal, os
 # to make program closeable with ctr-c in terminal
@@ -21,12 +23,15 @@ class Logos(QMainWindow):
         super().__init__()
         
         self.initGUI()
-        self.initTabs()
+        self.tab_widget = self.initTabs()
         self.addNewCliTab()
         #self.addNewVocableTab()
         
         self.resize(625, 670)
         self.center()
+        
+        self.installEventFilter(self)
+        #self.tab_widget.installEventFilter(self)
         
     def center(self):
         geometry = self.frameGeometry()
@@ -34,7 +39,39 @@ class Logos(QMainWindow):
         center = QApplication.desktop().screenGeometry(screen).center()
         geometry.moveCenter(center)
         self.move(geometry.topLeft())
-        
+    
+    def eventFilter(self, a, event):
+        if event.type() == QtCore.QEvent.KeyPress:
+            print("A")
+            result = self.keyPressEvent(event)
+            
+            if result:
+                return True
+            else:
+                return QMainWindow.eventFilter(self, a, event)
+        else:
+            print("B")
+            return QMainWindow.eventFilter(self, a, event)
+    
+    def keyPressEvent(self, event):
+        print("key")
+        if (event.modifiers() & Qt.ControlModifier):
+            if event.key() == Qt.Key_T:
+                self.addNewCliTab()
+                return True
+        #if (event.modifiers() & Qt.ShiftModifier):
+            #print("SHIFT", event.key())
+            #if event.key() == Qt.Key_W:
+                ##self.tab_widget.activateTab(0)
+                #print("left")
+                #return True
+            #elif event.key() == Qt.Key_Down:
+                #print("right")
+                #return True
+        #else:
+            #QMainWindow.keyPressEvent(self, event)
+            ##return False
+    
     def initGUI(self):
         
         self.statusBar().showMessage('Ready')
@@ -49,6 +86,7 @@ class Logos(QMainWindow):
         self.show()
         
     def initMenuBar(self):
+        #self.installEventFilter(self)
         #exitAction = QAction(QIcon('exit.png'), '&Exit', self)
         exitAction = QAction(QIcon.fromTheme("application-exit"), "&Exit", self)
         exitAction.setShortcut('Ctrl+Q')
@@ -83,6 +121,8 @@ class Logos(QMainWindow):
         self.tab_widget.tabCloseRequested.connect(self.closeTab)
         self.setCentralWidget(self.tab_widget)
         
+        return self.tab_widget
+        
     def closeTab(self, id):
         self.tab_widget.removeTab(id)
         del self.tabs_list[id]
@@ -94,6 +134,8 @@ class Logos(QMainWindow):
         self.tab_widget.addTab(tab, "cli")
         
         self.tab_widget.setCurrentIndex(len(self.tabs_list)-1)
+        
+        #tab.installEventFilter(self)
         
     def addNewVocableTab(self):
         tab = QCoreTab().vocableTab()

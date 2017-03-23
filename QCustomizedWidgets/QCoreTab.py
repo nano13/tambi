@@ -140,5 +140,6 @@ class QCoreTab(QWidget):
         self.display_widget.deleteLater()
         self.display_widget = QTextEdit()
         self.display_widget.setText(message)
+        self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
     
