@@ -12,6 +12,10 @@ See also:
 sword.word
 """
 
+aliases = """
+Look at the command 'sword.books' ...
+"""
+
 word = """
 Returns the specified bible passage.
 

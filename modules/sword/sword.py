@@ -19,6 +19,7 @@ class Sword(object):
             "sword.commands": self.commands,
             
             "sword.books": self.books,
+            "sword.aliases": self.booksAliases,
             
             "sword.word": self.word,
             
@@ -126,10 +127,22 @@ class Sword(object):
             for book in books['nt']:
                 formatted = str(book)[5:][:-1]
                 result.append(formatted)
-        print(result)
         
         result_object = Result()
         result_object.category = "list"
+        result_object.payload = result
+        return result_object
+    
+    def booksAliases(self, c, args):
+        result_object = self.books(c, args)
+        
+        result = []
+        import modules.sword.book_names.books_de as books_de
+        for book in result_object.payload:
+            for key, value in books_de.books.items():
+                if value == book:
+                    result.append(key)
+        
         result_object.payload = result
         return result_object
     
