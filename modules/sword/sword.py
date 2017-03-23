@@ -148,6 +148,11 @@ class Sword(object):
                 
                 try:
                     book = args[0]
+                    
+                    import modules.sword.book_names.books_de as books_de
+                    if book in books_de.books:
+                        book = books_de.books[book]
+                    
                     if len(args) == 2:
                         result = bible.get(books=[book], chapters=[int(args[1])], clean=True, join='#|#')
                         
@@ -175,8 +180,10 @@ class Sword(object):
                         result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
                 except ValueError as e:
                     result_object.error = str(e)
+                except KeyError:
+                    result_object.error = 'book not found in current bible: '+str(book)
             except KeyError:
-                result_object.error = 'current module does not exists: '+self.current_module
+                result_object.error = 'current module does not exist: '+self.current_module
         
         result_object.category = "text"
         if result:
