@@ -143,8 +143,9 @@ class Sword(object):
             bible = modules.get_bible_from_module(self.current_module)
             
             try:
+                book = args[0]
                 if len(args) == 2:
-                    result = bible.get(books=[args[0]], chapters=[int(args[1])], clean=True, join='#|#')
+                    result = bible.get(books=[book], chapters=[int(args[1])], clean=True, join='#|#')
                     
                     splitted = result.split('#|#')
                     result = []
@@ -155,16 +156,19 @@ class Sword(object):
                     verse_min, verse_max = args[2].split('-')
                     verse_range = range(int(verse_min), int(verse_max)+1)
                     
-                    result = bible.get(books=[args[0]], chapters=[int(args[1])], verses=verse_range, clean=True, join='#|#')
-                    
-                    splitted = result.split('#|#')
-                    result = []
-                    for i, line in enumerate(splitted):
-                        result.append([i+int(verse_min), line.strip()])
+                    try:
+                        result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='#|#')
+                    except IndexError:
+                        result_object.error = 'invalid verse range'
+                    else:
+                        splitted = result.split('#|#')
+                        result = []
+                        for i, line in enumerate(splitted):
+                            result.append([i+int(verse_min), line.strip()])
                 else:
                     verse_range = int(args[2])
                     
-                    result = bible.get(books=[args[0]], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
+                    result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
             except ValueError as e:
                 result_object.error = str(e)
         except KeyError:
