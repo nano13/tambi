@@ -39,7 +39,8 @@ class Logos(QMainWindow):
         center = QApplication.desktop().screenGeometry(screen).center()
         geometry.moveCenter(center)
         self.move(geometry.topLeft())
-    
+        
+    """
     def event(self, event):
         if event.type() == QtCore.QEvent.KeyPress:
             print("KEY EVENT ::::")
@@ -84,7 +85,7 @@ class Logos(QMainWindow):
         #else:
             ##print("B")
             #return QMainWindow.eventFilter(self, a, event)
-    
+    """
     def keyPressEvent(self, event):
         if (event.modifiers() & Qt.ControlModifier):
             if event.key() == Qt.Key_W:
