@@ -58,11 +58,9 @@ class Logos(QMainWindow):
             #return QMainWindow.eventFilter(self, a, event)
     
     def keyPressEvent(self, event):
-        #print("key")
         if (event.modifiers() & Qt.ControlModifier):
             if event.key() == Qt.Key_W:
                 self.closeTab(self.tab_widget.currentIndex())
-                #return True
         if event.key() == Qt.Key_Meta:
             self.meta_key_pressed = True
         elif self.meta_key_pressed and event.key() == Qt.Key_Up:
@@ -71,26 +69,14 @@ class Logos(QMainWindow):
         elif self.meta_key_pressed and event.key() == Qt.Key_Down:
             print("next")
             self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()+1)
-        
-        #if (event.modifiers() & Qt.ShiftModifier):
-            #print("SHIFT", event.key())
-            #if event.key() == Qt.Key_W:
-                ##self.tab_widget.setCurrentIndex(0)
-                #print("left")
-                #return True
-            #elif event.key() == Qt.Key_Down:
-                #print("right")
-                #return True
         else:
             return QMainWindow.keyPressEvent(self, event)
-            #return False
     
     def keyReleaseEvent(self, event):
         if event.key() == Qt.Key_Meta:
             self.meta_key_pressed = False
     
     def initGUI(self):
-        
         self.statusBar().showMessage('Ready')
         
         #screen_rectangle = QDesktopWidget().availableGeometry()
@@ -103,8 +89,6 @@ class Logos(QMainWindow):
         self.show()
         
     def initMenuBar(self):
-        #self.installEventFilter(self)
-        
         exitAction = QAction(QIcon.fromTheme("application-exit"), "&Exit", self)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit application')
@@ -116,11 +100,13 @@ class Logos(QMainWindow):
         newCliTabAction.triggered.connect(self.addNewCliTab)
         
         newVocableTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Vocable Tab', self)
+        newVocableTabAction.setShortcut('Ctrl+L')
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
         newVocableTabAction.triggered.connect(self.addNewVocableTab)
         
         openFileAction = QAction(QIcon.fromTheme('document-open'), '&Open File', self)
         openFileAction.setStatusTip('Open a File')
+        openFileAction.setShortcut('Ctrl+O')
         openFileAction.triggered.connect(self.openFile)
         
         menubar = self.menuBar()
@@ -166,7 +152,6 @@ class Logos(QMainWindow):
         self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
     
 if __name__ == '__main__':
-    
     app = QApplication(sys.argv)
     c = Logos()
     sys.exit(app.exec_())
