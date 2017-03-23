@@ -30,7 +30,7 @@ class Logos(QMainWindow):
         self.resize(625, 670)
         self.center()
         
-        self.installEventFilter(self)
+        #self.installEventFilter(self)
         #self.tab_widget.installEventFilter(self)
         
     def center(self):
@@ -40,11 +40,39 @@ class Logos(QMainWindow):
         geometry.moveCenter(center)
         self.move(geometry.topLeft())
     
+    def event(self, event):
+        if event.type() == QtCore.QEvent.KeyPress:
+            print("KEY EVENT ::::")
+            if self.meta_key_pressed and event.key() == Qt.Key_Left:
+                print("LEFT ::::")
+                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()-1)
+                QMainWindow.event(self, event)
+                return True
+            elif self.meta_key_pressed and event.key() == Qt.Key_Right:
+                print("RIGHT ::::")
+                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()+1)
+                QMainWindow.event(self, event)
+                return True
+            else:
+                return QMainWindow.event(self, event)
+        else:
+            return QMainWindow.event(self, event)
+    
     def eventFilter(self, a, event):
         if event.type() == QtCore.QEvent.KeyPress:
             print("eventFilter: keyPress")
-            
-        return QMainWindow.eventFilter(self, a, event)
+            if self.meta_key_pressed and event.key() == Qt.Key_Left:
+                print("LEFT", self.tab_widget.currentIndex())
+                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()-1)
+                return True
+            elif self.meta_key_pressed and event.key() == Qt.Key_Right:
+                print("RIGHT", self.tab_widget.currentIndex())
+                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()+1)
+                return True
+            else:
+                return QMainWindow.eventFilter(self, a, event)
+        else:
+            return QMainWindow.eventFilter(self, a, event)
         #if event.type() == QtCore.QEvent.KeyPress:
             ##print("A")
             #result = self.keyPressEvent(event)
