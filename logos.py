@@ -16,8 +16,8 @@ from QCustomizedWidgets.QCoreTab import QCoreTab
 class Logos(QMainWindow):
     
     tab_widget = None
-    tabs_list = []
-    current_tab = 0
+    
+    meta_key_pressed = False # Windows-Key or Control-Key on Mac
     
     def __init__(self):
         super().__init__()
@@ -30,7 +30,7 @@ class Logos(QMainWindow):
         self.resize(625, 670)
         self.center()
         
-        self.installEventFilter(self)
+        #self.installEventFilter(self)
         #self.tab_widget.installEventFilter(self)
         
     def center(self):
@@ -58,22 +58,35 @@ class Logos(QMainWindow):
         if (event.modifiers() & Qt.ControlModifier):
             if event.key() == Qt.Key_T:
                 self.addNewCliTab()
-                return True
+                #return True
             if event.key() == Qt.Key_W:
-                self.closeTab(self.current_tab)
-                return True
+                self.closeTab(self.tab_widget.currentIndex())
+                #return True
+        if event.key() == Qt.Key_Meta:
+            self.meta_key_pressed = True
+        elif self.meta_key_pressed and event.key() == Qt.Key_Up:
+            print("prev")
+            self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()-1)
+        elif self.meta_key_pressed and event.key() == Qt.Key_Down:
+            print("next")
+            self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()+1)
+        
         #if (event.modifiers() & Qt.ShiftModifier):
             #print("SHIFT", event.key())
             #if event.key() == Qt.Key_W:
-                ##self.tab_widget.activateTab(0)
+                ##self.tab_widget.setCurrentIndex(0)
                 #print("left")
                 #return True
             #elif event.key() == Qt.Key_Down:
                 #print("right")
                 #return True
-        #else:
-            #QMainWindow.keyPressEvent(self, event)
-            ##return False
+        else:
+            return QMainWindow.keyPressEvent(self, event)
+            #return False
+    
+    def keyReleaseEvent(self, event):
+        if event.key() == Qt.Key_Meta:
+            self.meta_key_pressed = False
     
     def initGUI(self):
         
@@ -119,45 +132,36 @@ class Logos(QMainWindow):
         fileMenu.addAction(exitAction)
         
     def initTabs(self):
-        self.tab_widget = QTabWidget()
-        self.tab_widget.setTabsClosable(True)
-        self.tab_widget.tabCloseRequested.connect(self.closeTab)
-        self.setCentralWidget(self.tab_widget)
+        tab_widget = QTabWidget()
+        tab_widget.setTabsClosable(True)
+        tab_widget.tabCloseRequested.connect(self.closeTab)
+        self.setCentralWidget(tab_widget)
         
-        return self.tab_widget
+        return tab_widget
         
     def closeTab(self, tab_id):
         self.tab_widget.removeTab(tab_id)
-        del self.tabs_list[tab_id]
         
     def addNewCliTab(self):
         tab = QCoreTab().cliTab()
-        
-        self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "cli")
         
-        self.tab_widget.setCurrentIndex(len(self.tabs_list)-1)
-        
-        #tab.installEventFilter(self)
+        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
         
     def addNewVocableTab(self):
         tab = QCoreTab().vocableTab()
-        
-        self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "vocable")
         
-        self.tab_widget.setCurrentIndex(len(self.tabs_list)-1)
+        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
     
     def openFile(self):
         home_path = os.path.expanduser('~')
         file_path = QFileDialog.getOpenFileName(self, "Please select File", home_path)
         
         tab = QCoreTab().editorTab(file_path)
-        
-        self.tabs_list.append(tab)
         self.tab_widget.addTab(tab, "editor")
         
-        self.tab_widget.setCurrentIndex(len(self.tabs_list)-1)
+        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
     
 if __name__ == '__main__':
     
