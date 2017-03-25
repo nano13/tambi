@@ -94,7 +94,12 @@ class QCoreTab(QWidget):
             elif result is None:
                 self.showErrorMessage('no result found')
             elif hasattr(result, 'category') and result.category == "table":
-                self.resultInTable(result)
+                try:
+                    result.payload[0]
+                except IndexError:
+                    pass # datastructure does not fit to display type 'table'
+                else:
+                    self.resultInTable(result)
             elif hasattr(result, 'category') and result.category == "list":
                 self.resultInTextEdit(result)
             elif hasattr(result, 'category') and result.category == "text":
