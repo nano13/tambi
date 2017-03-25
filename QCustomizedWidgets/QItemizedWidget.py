@@ -48,7 +48,7 @@ class QItemWidget(QWidget):
         for i, column in enumerate(line):
             text_edit = QGrowingTextEdit()
             
-            unicode_fonts.applyFontSizeToQWidget(str(column), text_edit)
+            unicode_fonts.applyFontAndSizeToQWidget(str(column), text_edit)
                 
             text_edit.setText(str(column))
             text_edit.setObjectName("bla")
