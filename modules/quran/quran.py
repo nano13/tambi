@@ -21,6 +21,8 @@ class Quran(object):
             "quran.word.de" : self.wordDE,
             
             "quran.order" : self.order,
+            
+            "quran.structure" : self.structure,
         }
     
     def interpreter(self, command, args):
@@ -102,6 +104,40 @@ class Quran(object):
         result_object.payload = result
         result_object.header = header#['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
         result_object.name = "quran_word"
+        return result_object
+    
+    def structure(self, c, args):
+        if len(args) == 0:
+            query = """
+            SELECT COUNT(*)
+            FROM quran
+            GROUP BY surah
+            """
+            header = ['verses_count']
+            self.cursor.execute(query)
+        elif len(args) == 1:
+            query = """
+            SELECT surah, COUNT(*)
+            FROM quran
+            WHERE surah=?
+            """
+            header = ['surah', 'verses_count']
+            self.cursor.execute(query, [int(args[0])])
+        else:
+            query = """
+            SELECT surah, ayah, word_count
+            FROM quran
+            WHERE surah=? AND ayah=?
+            """
+            header = ['surah', 'ayah', 'word_count']
+            self.cursor.execute(query, [int(args[0]), int(args[1])])
+        
+        result = self.cursor.fetchall()
+        
+        result_object = Result()
+        result_object.category = 'table'
+        result_object.payload = result
+        result_object.header = header
         return result_object
     
     def order(self, c, args):
