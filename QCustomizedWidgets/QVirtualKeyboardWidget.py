@@ -69,7 +69,7 @@ class QVirtualKeyboardWidget(QWidget):
                 
                 #button = QPushButton(chars[row][i], self)
                 button = QVkeybdPushButton(chars[row][i], self)
-                self.unicode_fonts.applyFontToQWidget(chars[row][i], button, ['hebrew'])
+                self.unicode_fonts.applyFontToQWidgetFiltered(chars[row][i], button, ['hebrew'])
                 button.resize(button_sizes[row][i], 30)
                 button.move((i + row_offset)*30, row*30)
                 button.show()
