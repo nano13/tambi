@@ -5,6 +5,8 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QKeyEvent
 from PyQt5.QtCore import pyqtSignal, QEvent
 
+from misc.unicodeFonts import UnicodeFonts
+
 import functools
 import math
 
@@ -18,6 +20,8 @@ class QVirtualKeyboardWidget(QWidget):
         
         self.setWindowTitle("virtual keyboard")
         self.resize(450, 150)
+        
+        self.unicode_fonts = UnicodeFonts()
         
         #self.language = None
         self.keys = None
@@ -65,6 +69,7 @@ class QVirtualKeyboardWidget(QWidget):
                 
                 #button = QPushButton(chars[row][i], self)
                 button = QVkeybdPushButton(chars[row][i], self)
+                self.unicode_fonts.applyFontToQWidget(chars[row][i], button, ['hebrew'])
                 button.resize(button_sizes[row][i], 30)
                 button.move((i + row_offset)*30, row*30)
                 button.show()
