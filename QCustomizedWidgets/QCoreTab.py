@@ -20,7 +20,8 @@ class QCoreTab(QWidget):
     
     def __init__(self):
         super().__init__()
-    
+        self.unicode_fonts = UnicodeFonts()
+        
     def editorTab(self, filepath):
         grid = QGridLayout()
         grid.setContentsMargins(0, 0, 0, 0)
@@ -34,8 +35,7 @@ class QCoreTab(QWidget):
         for line in fobj:
             data += line
         
-        unicode_fonts = UnicodeFonts()
-        unicode_fonts.applyFontSizeToQWidget(data, self.editor)
+        self.unicode_fonts.applyFontAndSizeToQWidget(data, self.editor)
         
         self.editor.setText(data)
         
@@ -94,7 +94,12 @@ class QCoreTab(QWidget):
             elif result is None:
                 self.showErrorMessage('no result found')
             elif hasattr(result, 'category') and result.category == "table":
-                self.resultInTable(result)
+                try:
+                    result.payload[0]
+                except IndexError:
+                    pass # datastructure does not fit to display type 'table'
+                else:
+                    self.resultInTable(result)
             elif hasattr(result, 'category') and result.category == "list":
                 self.resultInTextEdit(result)
             elif hasattr(result, 'category') and result.category == "text":
@@ -123,7 +128,9 @@ class QCoreTab(QWidget):
         
         for row, line in enumerate(result.payload):
             for column, item in enumerate(line):
-                self.display_widget.setItem(row, column, QTableWidgetItem(str(item)))
+                table_item = QTableWidgetItem(str(item))
+                self.unicode_fonts.applyFontToQWidget(str(item), table_item)
+                self.display_widget.setItem(row, column, table_item)
         
         self.display_widget.resizeColumnsToContents()
         self.addDisplayWidget()
@@ -132,8 +139,7 @@ class QCoreTab(QWidget):
         self.display_widget.deleteLater()
         self.display_widget = QTextEdit()
         
-        unicode_fonts = UnicodeFonts()
-        unicode_fonts.applyFontSizeToQWidget(result.toString(), self.display_widget)
+        self.unicode_fonts.applyFontAndSizeToQWidget(result.toString(), self.display_widget)
         
         self.display_widget.setAcceptRichText(True)
         

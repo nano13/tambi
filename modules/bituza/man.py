@@ -28,3 +28,13 @@ bituza.word 1mose 1
 bituza.word 1mose 1 1
 bituza.word 1mose 1 10-20
 """
+
+structure = """
+Returns the structure of the bible or the specified book
+
+@param (optional): [string], the name of the book we want to see the structure for.
+
+Examples:
+bituza.structure
+bituza.structure jona
+"""

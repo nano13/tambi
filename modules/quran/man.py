@@ -54,3 +54,15 @@ quran.word.de 2 (returns the whole second surah)
 quran.word.de 2 1 (returns just the first ayah of the second surah)
 quran.word.de 2 1-10 (returns the first ten ayahs of the second surah)
 """
+
+structure = """
+Shows the structure of the quran (i.e. how many verses are in a surah and similar questions).
+
+@param (optional): [number], representing a surah.
+@param (optional): [number], representing a verse (ayah).
+
+Examples:
+quran.structure
+quran.structure 2
+quran.structure 2 3
+"""

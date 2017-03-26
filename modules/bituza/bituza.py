@@ -258,9 +258,9 @@ class Bituza(object):
         return result_object
         
     def searchGetQueryMid(self, c):
-        query_head = "SELECT book_string, chapter, verse, unicode, translation_de, ascii, transcription, code, tw, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE"
-        head = "buch", "kapitel", "vers", "unicode", "elberfelder", "ascii", "transcription", "code", "tw", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
-        metaLanguage = "de", "de", "de", "gr", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
+        query_head = "SELECT book_string, chapter, verse, unicode, translation_de, transcription, code, tw, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE"
+        head = "buch", "kapitel", "vers", "unicode", "elberfelder", "transcription", "code", "tw", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
+        metaLanguage = "de", "de", "de", "gr", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de", "de"
         
         if c == "bituza.search.elberfelder":
             query_mid = " translation_de LIKE "#+search_pattern+"'"
