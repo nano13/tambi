@@ -55,25 +55,28 @@ class Sword(object):
     
     def listModules(self, c, args):
         modules = SwordModules()
-        found_modules = modules.parse_modules()
-        
         result = []
-        for key in found_modules:
-            row = []
-            row.append(key)
-            
-            #for item in found_modules[key]:
-            #    row.append(found_modules[key][item])
-            row.append(found_modules[key]['lang'])
-            row.append(found_modules[key]['about'].replace('\par', "\n"))
-            
-            if len(args) == 1:
-                category = "itemized"
-                if found_modules[key]['lang'] == args[0]:
+        try:
+            found_modules = modules.parse_modules()
+        except FileNotFoundError:
+            category = 'list'
+        else:
+            for key in found_modules:
+                row = []
+                row.append(key)
+                
+                #for item in found_modules[key]:
+                #    row.append(found_modules[key][item])
+                row.append(found_modules[key]['lang'])
+                row.append(found_modules[key]['about'].replace('\par', "\n"))
+                
+                if len(args) == 1:
+                    category = "itemized"
+                    if found_modules[key]['lang'] == args[0]:
+                        result.append(row)
+                else:
+                    category = "table"
                     result.append(row)
-            else:
-                category = "table"
-                result.append(row)
         
         result_object = Result()
         result_object.category = category

@@ -1,12 +1,11 @@
 
 from PyQt5.QtWidgets import QAction, qApp
 from PyQt5.QtGui import QIcon
- 
+
+import os
+
 class MenuBar(object):
     def __init__(self, context):
-        self.addMenu(context)
-        
-    def addMenu(self, context):
         exitAction = QAction(QIcon.fromTheme("application-exit"), "&Exit", context)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit application')
@@ -36,3 +35,26 @@ class MenuBar(object):
         fileMenu.addAction(openFileAction)
         fileMenu.addSeparator()
         fileMenu.addAction(exitAction)
+        
+        module_menus = self.loadModuleMenus(context, menubar)
+        
+    def loadModuleMenus(self, context, menubar):
+        menues_list = []
+        base, dirs, files = next(iter(os.walk('./modules')))
+        dirs.sort()
+        
+        for d in dirs:
+            if d == "__pycache__":
+                continue
+            
+            imports = "from modules."+d+".menu import Menu as Menu"
+            print(imports)
+            try:
+                exec(imports, globals())
+            except ModuleNotFoundError as e:
+                print("Module not found:", e)
+            else:
+                current_menu = Menu(context, menubar)
+                menues_list.append(current_menu)
+                
+        
