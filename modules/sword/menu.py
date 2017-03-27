@@ -25,7 +25,7 @@ class Menu(object):
             
             for bible in bibles.payload:
                 if bible[1] == lang:
-                    bibleAction = QAction(QIcon.fromTheme("applications-other"), bible[0], context)
+                    bibleAction = QAction(QIcon.fromTheme("x-office-address-book"), bible[0], context)
                     languageMenu.addAction(bibleAction)
                     
                     bibleAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'sword.setModule "'+bible[0]+'"'))
