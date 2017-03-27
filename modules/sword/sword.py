@@ -137,12 +137,14 @@ class Sword(object):
         result_object.payload = result
         return result_object
     
-    def canons(self, testament):
+    def canons(self):
         result = []
         
         canons = pysword_canons.canons
         
         books = canons[self.canon]
+        return books
+        """
         if testament == 'ot':
             for book in books['ot']:
                 result.append(book)
@@ -152,6 +154,7 @@ class Sword(object):
                 result.append(book)
         
         return result
+        """
     
     def booksAliases(self, c, args):
         result_object = self.books(c, args)
@@ -215,6 +218,8 @@ class Sword(object):
                     result_object.error = str(e)
                 except KeyError:
                     result_object.error = 'book not found in current bible: '+str(book)
+                except IndexError:
+                    result_object.error = 'invalid input. please have a look at the man-page'
             except KeyError:
                 result_object.error = 'current module does not exist: '+self.current_module
         

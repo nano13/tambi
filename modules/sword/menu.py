@@ -32,24 +32,17 @@ class Menu(object):
         
         swordMenu.addSeparator()
         
-        books = sword.canons('ot')
-        booksOTMenu = swordMenu.addMenu('books ot')
-        for i, book in enumerate(books):
-            bookMenu = booksOTMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
-            
-            for j, chapter in enumerate(books[i][3]):
-                chapterAction = QAction(QIcon.fromTheme("text-x-generic"), str(j+1), context)
-                bookMenu.addAction(chapterAction)
+        books = sword.canons()
+        for testament in ['ot', 'nt']:
+            booksMenu = swordMenu.addMenu('bible '+testament)
+            for i, book in enumerate(books[testament]):
+                print(book)
                 
-                chapterAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'sword.word "'+book[0]+'" '+str(j+1)))
+                bookMenu = booksMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
                 
-        books = sword.canons('nt')
-        booksNTMenu = swordMenu.addMenu('books nt')
-        for i, book in enumerate(books):
-            bookMenu = booksNTMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
-            
-            for j, chapter in enumerate(books[i][3]):
-                chapterAction = QAction(QIcon.fromTheme("text-x-generic"), str(j+1), context)
-                bookMenu.addAction(chapterAction)
+                for j, chapter in enumerate(books[testament][i][3]):
+                    chapterAction = QAction(QIcon.fromTheme("text-x-generic"), str(j+1), context)
+                    bookMenu.addAction(chapterAction)
+                    
+                    chapterAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'sword.word "'+book[0]+'" '+str(j+1)))
                 
-                chapterAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'sword.word "'+book[0]+'" '+str(j+1)))
