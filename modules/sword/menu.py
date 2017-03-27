@@ -35,9 +35,8 @@ class Menu(object):
         books = sword.canons()
         for testament in ['ot', 'nt']:
             booksMenu = swordMenu.addMenu('bible '+testament)
+            
             for i, book in enumerate(books[testament]):
-                print(book)
-                
                 bookMenu = booksMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
                 
                 for j, chapter in enumerate(books[testament][i][3]):
