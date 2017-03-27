@@ -216,10 +216,10 @@ class Sword(object):
                         result = bible.get(books=[book], chapters=[int(args[1])], verses=verse_range, clean=True, join='\n')
                 except ValueError as e:
                     result_object.error = str(e)
-                except KeyError:
-                    result_object.error = 'book not found in current bible: '+str(book)
-                except IndexError:
-                    result_object.error = 'invalid input. please have a look at the man-page'
+                except KeyError as e:
+                    result_object.error = 'book not found in current bible: '+str(book)+"\n\n"+str(e)
+                except IndexError as e:
+                    result_object.error = 'invalid input. please have a look at the man-page'+"\n\n"+str(e)
             except KeyError:
                 result_object.error = 'current module does not exist: '+self.current_module
         
