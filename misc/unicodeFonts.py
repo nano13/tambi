@@ -22,9 +22,13 @@ class UnicodeFonts(object):
         
     def isInUnicodeRange(self, start, end, string):
         result = False
-        for char in string.strip():
-            if ord(char) > start and ord(char) < end:
-                result = True
+        try:
+            for char in string.strip():
+                if ord(char) > start and ord(char) < end:
+                    result = True
+        except AttributeError:
+            pass
+        
         return result
     
     def applyFontAndSizeToQWidget(self, string, widget):

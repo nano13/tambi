@@ -257,6 +257,8 @@ class Sword(object):
                     result_object.error = 'invalid input. please have a look at the man-page'+"\n\n"+str(e)
             except KeyError:
                 result_object.error = 'current module does not exist: '+self.current_module
+            except ValueError as e:
+                result_object.error = str(e)
         
         result_object.category = "text"
         if result:
