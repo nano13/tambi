@@ -122,6 +122,7 @@ class Logos(QMainWindow):
     def initTabs(self):
         tab_widget = QTabWidget()
         tab_widget.setTabsClosable(True)
+        tab_widget.setMovable(True)
         tab_widget.tabCloseRequested.connect(self.closeTab)
         self.setCentralWidget(tab_widget)
         
@@ -135,7 +136,12 @@ class Logos(QMainWindow):
         self.tab_widget.addTab(tab, "cli")
         
         self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
-        
+    
+    """ to be used internally by the menus """
+    def addNewCliTabWithCommand(self, command):
+        self.addNewCliTab()
+        self.tab_widget.currentWidget().commandEntered(command)
+    
     def addNewVocableTab(self):
         tab = QCoreTab().vocableTab()
         self.tab_widget.addTab(tab, "vocable")

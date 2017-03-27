@@ -4,12 +4,14 @@ from interpreter.structs import Result
 
 from pysword.modules import SwordModules
 from pysword.books import BibleStructure
+import pysword.canons as pysword_canons
 
 #from modules.bituza.bituza import Bituza
 
 class Sword(object):
     
     current_module = 'GerNeUe'
+    canon = 'default'
     
     def __init__(self):
         pass
@@ -20,6 +22,7 @@ class Sword(object):
             
             "sword.books": self.books,
             "sword.aliases": self.booksAliases,
+            #"sword.structure": self.structure,
             
             "sword.word": self.word,
             
@@ -90,8 +93,6 @@ class Sword(object):
         found_modules = modules.parse_modules()
         for main_key in found_modules:
             language = found_modules[main_key]['lang']
-            #for sub_key in found_modules[main_key]:
-            #    language = found_modules[main_key][sub_key]
             
             if not language in result:
                 result.append(language)
@@ -118,7 +119,7 @@ class Sword(object):
         return result_object
     
     def books(self, c, args):
-        structure = BibleStructure('default')
+        structure = BibleStructure(self.canon)
         books = structure.get_books()
         result = []
         
@@ -135,6 +136,21 @@ class Sword(object):
         result_object.category = "list"
         result_object.payload = result
         return result_object
+    
+    def canons(self):
+        result = []
+        
+        canons = pysword_canons.canons
+        
+        books = canons[self.canon]
+        for book in books['ot']:
+            #print(book[0], book[3])
+            result.append(book)
+        
+        for book in books['nt']:
+            result.append(book)
+        
+        return result
     
     def booksAliases(self, c, args):
         result_object = self.books(c, args)
