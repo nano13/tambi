@@ -16,6 +16,35 @@ aliases = """
 Look at the command 'sword.books' ...
 """
 
+canons = """
+List the bible canons which are available here.
+
+See also:
+sword.getCanon
+sword.setCanon
+"""
+
+getCanon = """
+Shows which canon is currently used for the bible structure
+
+See also:
+sword.canons
+sword.setCanon
+"""
+
+setCanon = """
+Sets the canon to be used for the bible structure
+
+@param (required): [string], the name of the canon to be used.
+
+Examples:
+sword.setCanon calvin
+
+See also:
+sword.canons
+sword.getCanon
+"""
+
 word = """
 Returns the specified bible passage.
 

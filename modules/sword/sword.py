@@ -24,9 +24,9 @@ class Sword(object):
             "sword.aliases": self.booksAliases,
             #"sword.structure": self.structure,
             
-            #"sword.canons": self.canons,
-            #"sword.setCanon": self.setCanon,
-            #"sword.getCanon": self.getCanon,
+            "sword.canons": self.listCanons,
+            "sword.setCanon": self.setCanon,
+            "sword.getCanon": self.getCanon,
             
             "sword.word": self.word,
             
@@ -120,6 +120,37 @@ class Sword(object):
         result_object = Result()
         result_object.category = "list"
         result_object.payload = 'module set to: ' + args[0]
+        return result_object
+    
+    def listCanons(self, c, a):
+        canons = pysword_canons.canons
+        
+        result = []
+        for key, value in canons.items():
+            result.append(key)
+        
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = result
+        return result_object
+    
+    def getCanon(self, c, a):
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = self.canon
+        return result_object
+    
+    def setCanon(self, c, args):
+        result_object = Result()
+        
+        canons = self.listCanons(None, None)
+        if len(args) > 0 and args[0] in canons.payload:
+            self.canon = args[0]
+            result_object.payload = 'canon changed to: '+args[0]
+        else:
+            result_object.error = 'no canon specified or canon unknown'
+        
+        result_object.category = 'list'
         return result_object
     
     def books(self, c, args):
