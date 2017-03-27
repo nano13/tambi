@@ -119,7 +119,7 @@ class Sword(object):
         
         result_object = Result()
         result_object.category = "list"
-        result_object.payload = 'module set to: ' + args[0]
+        result_object.payload = 'sword bible-module set to: ' + args[0]
         return result_object
     
     def listCanons(self, c, a):
