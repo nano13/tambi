@@ -137,18 +137,19 @@ class Sword(object):
         result_object.payload = result
         return result_object
     
-    def canons(self):
+    def canons(self, testament):
         result = []
         
         canons = pysword_canons.canons
         
         books = canons[self.canon]
-        for book in books['ot']:
-            #print(book[0], book[3])
-            result.append(book)
+        if testament == 'ot':
+            for book in books['ot']:
+                result.append(book)
         
-        for book in books['nt']:
-            result.append(book)
+        if testament == 'nt':
+            for book in books['nt']:
+                result.append(book)
         
         return result
     

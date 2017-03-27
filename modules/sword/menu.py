@@ -29,12 +29,24 @@ class Menu(object):
                     languageMenu.addAction(bibleAction)
                     
                     bibleAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'sword.setModule "'+bible[0]+'"'))
-            
         
-        books = sword.canons()
-        booksMenu = swordMenu.addMenu('books')
+        swordMenu.addSeparator()
+        
+        books = sword.canons('ot')
+        booksOTMenu = swordMenu.addMenu('books ot')
         for i, book in enumerate(books):
-            bookMenu = booksMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
+            bookMenu = booksOTMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
+            
+            for j, chapter in enumerate(books[i][3]):
+                chapterAction = QAction(QIcon.fromTheme("text-x-generic"), str(j+1), context)
+                bookMenu.addAction(chapterAction)
+                
+                chapterAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'sword.word "'+book[0]+'" '+str(j+1)))
+                
+        books = sword.canons('nt')
+        booksNTMenu = swordMenu.addMenu('books nt')
+        for i, book in enumerate(books):
+            bookMenu = booksNTMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
             
             for j, chapter in enumerate(books[i][3]):
                 chapterAction = QAction(QIcon.fromTheme("text-x-generic"), str(j+1), context)
