@@ -24,6 +24,10 @@ class Sword(object):
             "sword.aliases": self.booksAliases,
             #"sword.structure": self.structure,
             
+            #"sword.canons": self.canons,
+            #"sword.setCanon": self.setCanon,
+            #"sword.getCanon": self.getCanon,
+            
             "sword.word": self.word,
             
             "sword.modules": self.listModules,
