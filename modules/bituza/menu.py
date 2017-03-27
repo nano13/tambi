@@ -11,3 +11,15 @@ class Menu(object):
         bituza = Bituza()
         
         bituzaMenu = menubar.addMenu('&Bituza')
+        
+        interlinear = bituzaMenu.addMenu(QIcon.fromTheme("x-office-address-book"), 'interlinear')
+        bibles = bituza.structure('', [])
+        for book in bibles.payload:
+            bookMenu = interlinear.addMenu(QIcon.fromTheme("x-office-address-book"), book[2])
+            
+            for i in range(book[3]):
+                chapterAction = QAction(QIcon.fromTheme("text-x-generic"), str(i+1), context)
+                bookMenu.addAction(chapterAction)
+                
+                chapterAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'bituza.word "'+book[2]+'" '+str(i+1)))
+                

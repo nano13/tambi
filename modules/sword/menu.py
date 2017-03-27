@@ -13,7 +13,7 @@ class Menu(object):
         swordMenu = menubar.addMenu('&Sword')
         
         bibles = sword.listModules('', [])
-        biblesMenu = swordMenu.addMenu('bibles')
+        biblesMenu = swordMenu.addMenu(QIcon.fromTheme("accessories-dictionary"), 'bibles')
         languages = []
         for bible in bibles.payload:
             if not bible[1] in languages:
@@ -34,7 +34,7 @@ class Menu(object):
         
         books = sword.canons()
         for testament in ['ot', 'nt']:
-            booksMenu = swordMenu.addMenu('bible '+testament)
+            booksMenu = swordMenu.addMenu(QIcon.fromTheme("x-office-address-book"), 'bible '+testament)
             
             for i, book in enumerate(books[testament]):
                 bookMenu = booksMenu.addMenu(QIcon.fromTheme("x-office-address-book"), book[0])
