@@ -1,5 +1,6 @@
 
 from PyQt5.QtWidgets import QMainWindow, QWidget, QComboBox, QLabel, QGridLayout
+from PyQt5 import QtCore
 try:
     from QCustomizedWidgets.QVirtualKeyboardWidget import QVirtualKeyboardWidget
 except ImportError:
@@ -29,6 +30,7 @@ class QVirtualKeyboardWindow(QMainWindow):
         for layout in sorted(self.availableHostLayouts):
             hostLayoutCombo.addItem(layout)
         hostLayoutCombo.activated[str].connect(self.onHostLayoutActivated)
+        hostLayoutCombo.installEventFilter(self)
         
         virtualLayoutCombo = QComboBox(self)
         for layout in sorted(self.availableVirtualLayouts):
@@ -39,7 +41,6 @@ class QVirtualKeyboardWindow(QMainWindow):
         grid.addWidget(virtualLayoutCombo, 0, 2)
         grid.addWidget(self.virtualKeyboard, 1, 1, 1, 2)
         
-        #self.setLayout(grid)
         widget = QWidget()
         widget.setLayout(grid)
         self.setCentralWidget(widget)
@@ -55,6 +56,13 @@ class QVirtualKeyboardWindow(QMainWindow):
         
     def setLineEdit(self, lineEdit):
         self.virtualKeyboard.setLineEdit(lineEdit)
+        
+    def eventFilter(self, a, event):
+        if event.type() == QtCore.QEvent.KeyPress:
+            self.virtualKeyboard.keyPressEvent(event)
+            return True
+        
+        return False
         
 if __name__ == "__main__":
     import signal
