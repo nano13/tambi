@@ -36,6 +36,7 @@ class QVirtualKeyboardWindow(QMainWindow):
         for layout in sorted(self.availableVirtualLayouts):
             virtualLayoutCombo.addItem(layout)
         virtualLayoutCombo.activated[str].connect(self.onVirtualLayoutActivated)
+        virtualLayoutCombo.installEventFilter(self)
         
         grid.addWidget(hostLayoutCombo, 0, 1)
         grid.addWidget(virtualLayoutCombo, 0, 2)
