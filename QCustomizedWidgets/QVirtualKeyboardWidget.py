@@ -152,11 +152,11 @@ class QVirtualKeyboardWidget(QWidget):
         elif language == "arabic":
             return self.getArabicChars(), self.getLevel2ArabicChars()
         elif language == "hindi":
-            return self.getDevanagariChars(), None
+            return self.getDevanagariChars(), self.getLevel2DevanagariChars()
         elif language == "futhark":
-            return self.getFutharkChars(), None
+            return self.getFutharkChars(), self.getLevel2FutharkChars()
         else:
-            return self.getHebrewChars(), None
+            return self.getHebrewChars(), self.getLevel2HebrewChars()
         
     def getGreekChars(self):
         return [["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "\u232b"],
@@ -218,8 +218,22 @@ class QVirtualKeyboardWidget(QWidget):
                 ["\u21E7", "ॆ", "ं", "म", "न", "व", "ल", "स", ",", ".", "य" ,"", "\u21E7"],
                 ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
     
+    def getLevel2DevanagariChars(self):
+        return [["", "", "", "", "", "", "", "", "", "", "", "", "", "\u232b"],
+                ["⇄", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+                ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", "\u23ce"],
+                ["\u21E7", "", "", "", "", "", "", "", "", "", "" ,"ـ", "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+    
     def getFutharkChars(self):
         return [["ᛢ", "ᚨ", "\u16b1", "", "", "", "", "", "", "", "", "", "", "\u232b"],
+                ["⇄", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+                ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", "\u23ce"],
+                ["\u21E7", "", "", "", "", "", "", "", "", "", "" ,"ـ", "\u21E7"],
+                ["ctrl", "\u2318", "alt", " ", "←", "↓", "↑", "→", "alt", "\u2325", "ctrl"]]
+    
+    def getLevel2FutharkChars(self):
+        return [["", "", "", "", "", "", "", "", "", "", "", "", "", "\u232b"],
                 ["⇄", "", "", "", "", "", "", "", "", "", "", "", "", ""],
                 ["\u21ea", "", "", "", "", "", "", "", "", "", "", "", "\u23ce"],
                 ["\u21E7", "", "", "", "", "", "", "", "", "", "" ,"ـ", "\u21E7"],
