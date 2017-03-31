@@ -67,6 +67,19 @@ class History(object):
                 result.append(item)
         return result
     
+    def historyReadWithIndexAndPrefix(self, index, prefix):
+        history = self.historyReadAll()
+        print(index, prefix)
+        
+        counter = 0
+        for item in history[::-1]:
+            if item.startswith(prefix):
+                counter += 1
+                if counter == index:
+                    return item
+        
+        return ''
+    
     def historyReadAtIndex(self, index):
         
         history_file = open(self.filepath, "r")
