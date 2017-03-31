@@ -46,6 +46,9 @@ class QInputLine(QLineEdit):
                 
             if self.text():
                 entry = self.history.historyReadWithIndexAndPrefix(self.history_counter, self.search_pattern_prefix)
+                if entry == '':
+                    self.search_pattern_prefix = ''
+                    self.history_counter = 0
             else:
                 entry = self.history.historyReadAtIndex(self.history_counter)
             

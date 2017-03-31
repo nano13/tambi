@@ -69,7 +69,7 @@ class History(object):
     
     def historyReadWithIndexAndPrefix(self, index, prefix):
         history = self.historyReadAll()
-        print(index, prefix)
+        #print(index, prefix)
         
         counter = 0
         for item in history[::-1]:
