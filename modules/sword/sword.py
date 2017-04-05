@@ -204,9 +204,8 @@ class Sword(object):
         result_object.payload = result
         return result_object
     
-    def word(self, c, args):
+    def word(self, command, args):
         result_object = Result()
-        result = None
         
         modules = SwordModules()
         try:
@@ -262,5 +261,8 @@ class Sword(object):
         
         result_object.category = "text"
         if result:
+            for item in args:
+                command += ' '+str(item)
+            result.insert(0, command)
             result_object.payload = result
         return result_object
