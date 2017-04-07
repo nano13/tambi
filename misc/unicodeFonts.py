@@ -63,9 +63,18 @@ class UnicodeFonts(object):
             if self.isInUnicodeRange(self.greek_block[0], self.greek_block[1], string):
                 widget.setFont(QFont(self.greek_font))
     
-    def printFonts(self):
+    def printFonts(self, filter_str):
+        result = []
+        print(filter_str)
         db = QFontDatabase()
         fonts = QFontDatabase.families(db)
         for font in fonts:
-            #if font.find("zra"):
-            print(font)
+            if filter_str == None:
+                print("A")
+                result.append(font)
+            if (not filter_str == None) and font.find(filter_str):
+                print("B")
+                result.append(font)
+            
+        
+        return result

@@ -5,6 +5,7 @@ from interpreter.structs import Result
 import interpreter.man as builtin_man_pages
 
 from configs.history import History
+from misc.unicodeFonts import UnicodeFonts
 
 import sys, time, os
 
@@ -31,6 +32,8 @@ class CoreCommands(object):
             "time" : self.time,
             
             "history" : self.history,
+            
+            "fonts": self.fonts,
             }
     
     def commandNotFound(self, command, args):
@@ -134,4 +137,17 @@ class CoreCommands(object):
         result_object = Result()
         result_object.payload = result[::-1]
         result_object.category = "list"
+        return result_object
+    
+    def fonts(self, c, args):
+        filter_str = None
+        if len(args) > 0:
+            filter_str = args[0]
+        
+        fonts = UnicodeFonts()
+        available_fonts = fonts.printFonts(filter_str)
+        
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = available_fonts
         return result_object
