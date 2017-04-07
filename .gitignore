@@ -7,3 +7,7 @@ __pycache__
 *.out
 *.pdf
 *.toc
+
+log.txt
+WinPython*
+win-run/dependencies/
