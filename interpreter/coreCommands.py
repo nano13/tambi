@@ -142,7 +142,7 @@ class CoreCommands(object):
     def fonts(self, c, args):
         filter_str = None
         if len(args) > 0:
-            filter_str = args[0]
+            filter_str = str(args[0])
         
         fonts = UnicodeFonts()
         available_fonts = fonts.printFonts(filter_str)

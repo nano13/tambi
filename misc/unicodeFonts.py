@@ -16,9 +16,9 @@ class UnicodeFonts(object):
     greek_size = 20
     
     def __init__(self):
-        QFontDatabase.addApplicationFont("./assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf")
-        QFontDatabase.addApplicationFont("./assets/fonts/EzraSIL2.51/SILEOT.ttf")
-        QFontDatabase.addApplicationFont("./assets/fonts/GalSIL21/GalSILR.ttf")
+        QFontDatabase.addApplicationFont("assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf")
+        QFontDatabase.addApplicationFont("assets/fonts/EzraSIL2.51/SILEOT.ttf")
+        QFontDatabase.addApplicationFont("assets/fonts/GalSIL21/GalSILR.ttf")
         
     def isInUnicodeRange(self, start, end, string):
         result = False
@@ -65,16 +65,19 @@ class UnicodeFonts(object):
     
     def printFonts(self, filter_str):
         result = []
-        print(filter_str)
+        print(filter_str, type(filter_str))
         db = QFontDatabase()
         fonts = QFontDatabase.families(db)
+        
         for font in fonts:
+            print(font, '|', filter_str)
+            
             if filter_str == None:
                 print("A")
-                result.append(font)
-            if (not filter_str == None) and font.find(filter_str):
+                result.append(str(font))
+            
+            elif filter_str in font:
                 print("B")
                 result.append(font)
             
-        
         return result

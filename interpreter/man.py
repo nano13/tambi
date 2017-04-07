@@ -53,3 +53,13 @@ Examples:
 history
 history story
 """
+
+fonts = """
+Returns a list of all available fonts in this software.
+
+@param (optional): [string], filter the result list for fonts only contains this string in the name.
+
+Examples:
+fonts
+fonts TeX
+"""
