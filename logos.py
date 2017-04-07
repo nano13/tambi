@@ -107,6 +107,8 @@ class Logos(QMainWindow):
             self.meta_key_pressed = False
     
     def initGUI(self):
+        self.setWindowIcon(QIcon('./assets/icons/logo2.png'))
+        
         self.statusBar().showMessage('Ready')
         
         #screen_rectangle = QDesktopWidget().availableGeometry()
