@@ -1,2 +1,2 @@
 @echo off
-.\start_NVCLI.vbs
+.\win_run.vbs
