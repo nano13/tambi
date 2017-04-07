@@ -1,5 +1,7 @@
 
 from PyQt5.QtGui import QFontDatabase, QFont
+import os
+import platform
 
 class UnicodeFonts(object):
     
@@ -16,9 +18,26 @@ class UnicodeFonts(object):
     greek_size = 20
     
     def __init__(self):
-        QFontDatabase.addApplicationFont("assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf")
-        QFontDatabase.addApplicationFont("assets/fonts/EzraSIL2.51/SILEOT.ttf")
-        QFontDatabase.addApplicationFont("assets/fonts/GalSIL21/GalSILR.ttf")
+        scriptpath = os.path.dirname(os.path.abspath(__file__))
+        print(scriptpath)
+        print(os.getcwd())
+        fonts = [
+            "./assets/fonts/SILEOT.ttf",
+            "./assets/fonts/Scheherazade-Regular.ttf",
+            #"assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf",
+            #"assets/fonts/EzraSIL2.51/SILEOT.ttf",
+            "assets/fonts/GalSIL21/GalSILR.ttf",
+        ]
+        for font in fonts:
+            """
+            fontpath = os.getcwd() + '/' + font
+            if platform.system() == 'Windows':
+                fontpath = fontpath.replace('/', '\\')
+            print(fontpath)
+            """
+            fontpath = font
+            
+            print("loading Font:", font.split('/')[-1], QFontDatabase.addApplicationFont(fontpath))
         
     def isInUnicodeRange(self, start, end, string):
         result = False
