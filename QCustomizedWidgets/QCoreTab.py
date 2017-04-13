@@ -76,7 +76,7 @@ class QCoreTab(QWidget):
             text += line.replace('\\\\', '')
         
         from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
-        canvas = QBeamerWindow(self)
+        canvas = QBeamerWindow()
         canvas.setText(text)
         canvas.routeToScreen()
         self.beamer = canvas

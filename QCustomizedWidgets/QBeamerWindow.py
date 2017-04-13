@@ -5,11 +5,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class QBeamerWindow(QDialog):
     
-    def __init__(self, parent=None):
+    def __init__(self):
         super().__init__()
         #super(QBeamerWindow, self).__init__(parent)
         
-        self.setStyleSheet('QWidget { background-color: green; }')
+        self.setStyleSheet('QWidget { background-color: darkgreen; }')
         #self.layout = QtWidgets.QGridLayout()
         self.layout = QtWidgets.QVBoxLayout()
         self.setLayout(self.layout)
@@ -22,7 +22,10 @@ class QBeamerWindow(QDialog):
     
     def routeToScreen(self):
         desktop = QtWidgets.QApplication.desktop()
-        screen_rect = desktop.screenGeometry(3)
+        
+        last_screen = desktop.screenCount()
+        
+        screen_rect = desktop.screenGeometry(last_screen-1)
         
         self.move(screen_rect.left(), screen_rect.top())
         self.showFullScreen()
