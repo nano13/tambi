@@ -534,8 +534,10 @@ class Bituza(object):
                 #print(i, current_verse_number)
                 result_line = result[i][1] + " "
                 
-        self.ResultObject.Payload.List = result_list
-        return self.ResultObject
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = result_list
+        return result_object
     
     def structure(self, c, args):
         if len(args) == 0:
