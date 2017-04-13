@@ -150,6 +150,12 @@ class Logos(QMainWindow):
         
         self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
     
+    def addNewAmazingGraceTab(self):
+        tab = QCoreTab().amazingGraceTab()
+        self.tab_widget.addTab(tab, "Amazing Grace")
+        
+        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
+    
     def openFile(self):
         home_path = os.path.expanduser('~')
         file_path = QFileDialog.getOpenFileName(self, "Please select File", home_path)

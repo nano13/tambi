@@ -21,6 +21,11 @@ class MenuBar(object):
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
         newVocableTabAction.triggered.connect(context.addNewVocableTab)
         
+        
+        newAmazingTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Amazing Grace Tab', context)
+        newAmazingTabAction.triggered.connect(context.addNewAmazingGraceTab)
+        
+        
         openFileAction = QAction(QIcon.fromTheme('document-open'), '&Open File', context)
         openFileAction.setStatusTip('Open a File')
         openFileAction.setShortcut('Ctrl+O')
@@ -31,6 +36,7 @@ class MenuBar(object):
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(newCliTabAction)
         fileMenu.addAction(newVocableTabAction)
+        fileMenu.addAction(newAmazingTabAction)
         fileMenu.addSeparator()
         fileMenu.addAction(openFileAction)
         fileMenu.addSeparator()

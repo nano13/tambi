@@ -17,6 +17,7 @@ from functools import partial
 class QCoreTab(QWidget):
     
     interpreter = Interpreter()
+    beamer = None
     
     def __init__(self):
         super().__init__()
@@ -49,6 +50,38 @@ class QCoreTab(QWidget):
         grid.addWidget(self.vocable_page, 0, 0)
         
         return self
+    
+    def amazingGraceTab(self):
+        grid = QGridLayout()
+        self.setLayout(grid)
+        
+        import os
+        base, dirs, files = next(iter(os.walk('./amazing_grace')))
+        print(base, dirs, files)
+        for i, f in enumerate(sorted(files)):
+            label = str(f.split('.')[0])
+            button = QPushButton(label)
+            grid.addWidget(button, i, 0)
+            button.clicked.connect(partial(self.amazingGraceButtonClicked, label))
+        
+        return self
+    def amazingGraceButtonClicked(self, language):
+        
+        if not self.beamer == None:
+            self.beamer.destroy()
+        
+        fobj = open('./amazing_grace/'+str(language)+'.tex', 'r')
+        text = ''
+        for line in fobj:
+            text += line.replace('\\\\', '')
+        
+        from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
+        canvas = QBeamerWindow(self)
+        canvas.setText(text)
+        canvas.routeToScreen()
+        self.beamer = canvas
+        
+        canvas.exec_()
     
     def cliTab(self):
         self.grid = QGridLayout()
