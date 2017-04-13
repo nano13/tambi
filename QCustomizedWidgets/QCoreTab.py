@@ -61,12 +61,15 @@ class QCoreTab(QWidget):
         for i, f in enumerate(sorted(files)):
             label = str(f.split('.')[0])
             button = QPushButton(label)
-            grid.addWidget(button, i, 0)
+            if i < len(files)/2:
+                grid.addWidget(button, i, 0)
+            else:
+                grid.addWidget(button, i-len(files)/2, 1)
             button.clicked.connect(partial(self.amazingGraceButtonClicked, label))
             max_i += 1
             
         blank = QPushButton('blank')
-        grid.addWidget(blank, max_i, 0)
+        grid.addWidget(blank, max_i, 0, 1, 2)
         blank.clicked.connect(self.beamerCanvasBlank)
         return self
     def amazingGraceButtonClicked(self, language):
