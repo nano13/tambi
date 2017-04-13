@@ -57,16 +57,19 @@ class QCoreTab(QWidget):
         
         import os
         base, dirs, files = next(iter(os.walk('./amazing_grace')))
-        print(base, dirs, files)
+        max_i = 0
         for i, f in enumerate(sorted(files)):
             label = str(f.split('.')[0])
             button = QPushButton(label)
             grid.addWidget(button, i, 0)
             button.clicked.connect(partial(self.amazingGraceButtonClicked, label))
-        
+            max_i += 1
+            
+        blank = QPushButton('blank')
+        grid.addWidget(blank, max_i, 0)
+        blank.clicked.connect(self.beamerCanvasBlank)
         return self
     def amazingGraceButtonClicked(self, language):
-        
         if not self.beamer == None:
             self.beamer.destroy()
         
@@ -82,6 +85,9 @@ class QCoreTab(QWidget):
         self.beamer = canvas
         
         canvas.exec_()
+    def beamerCanvasBlank(self):
+        if not self.beamer == None:
+            self.beamer.destroy()
     
     def cliTab(self):
         self.grid = QGridLayout()
