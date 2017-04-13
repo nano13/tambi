@@ -155,6 +155,12 @@ class Logos(QMainWindow):
         self.tab_widget.addTab(tab, "Amazing Grace")
         
         self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
+    def facepalm(self):
+        from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
+        canvas = QBeamerWindow()
+        canvas.routeToScreen()
+        canvas.setImageWithPath('./assets/images/facepalm/facepalm1.jpg')
+        canvas.exec_()
     
     def openFile(self):
         home_path = os.path.expanduser('~')

@@ -6,6 +6,7 @@ import os
 
 class MenuBar(object):
     def __init__(self, context):
+        # file-menu
         exitAction = QAction(QIcon.fromTheme("application-exit"), "&Exit", context)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit application')
@@ -42,7 +43,15 @@ class MenuBar(object):
         fileMenu.addSeparator()
         fileMenu.addAction(exitAction)
         
+        
         module_menus = self.loadModuleMenus(context, menubar)
+        
+        # help-menu
+        facepalmAction = QAction(QIcon.fromTheme("utilities-terminal"), '&Facepalm', context)
+        facepalmAction.triggered.connect(context.facepalm)
+        
+        helpMenu = menubar.addMenu('&Help')
+        helpMenu.addAction(facepalmAction)
         
     def loadModuleMenus(self, context, menubar):
         menues_list = []
