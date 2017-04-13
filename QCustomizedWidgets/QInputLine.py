@@ -24,16 +24,18 @@ class QInputLine(QLineEdit):
     def keyPressEvent(self, e):
         #if (e.modifiers() & Qt.NoModifier):
         if e.key() == Qt.Key_Return:
-            self.history.historyWrite(self.text())
-            self.return_pressed.emit(self.text())
-            self.setText("")
-            self.history_counter = 0
+            if not self.text() == '':
+                self.history.historyWrite(self.text())
+                self.return_pressed.emit(self.text())
+                self.setText("")
+                self.history_counter = 0
             
         elif e.key() == Qt.Key_Enter:
-            self.history.historyWrite(self.text())
-            self.return_pressed.emit(self.text())
-            self.setText("")
-            self.history_counter = 0
+            if not self.text() == '':
+                self.history.historyWrite(self.text())
+                self.return_pressed.emit(self.text())
+                self.setText("")
+                self.history_counter = 0
             
         elif e.key() == Qt.Key_Up:
             history_size = self.history.getHistorySize()
