@@ -4,6 +4,7 @@ from PyQt5.QtGui import QFontDatabase
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class QBeamerWindow(QDialog):
+#class QBeamerWindow(QWidget):
     
     screen = None
     
@@ -22,6 +23,10 @@ class QBeamerWindow(QDialog):
         self.setFocusPolicy(QtCore.Qt.NoFocus)
         
         QFontDatabase.addApplicationFont('./assets/fonts/Cyberbit.ttf')
+    
+    def paintEvent(self, e):
+        print("PAINT EVENT", e)
+        super().paintEvent(e)
     
     def routeToScreen(self):
         desktop = QtWidgets.QApplication.desktop()
@@ -49,7 +54,6 @@ class QBeamerWindow(QDialog):
     def setImageWithPixmap(self, pixmap):
         desktop = QtWidgets.QApplication.desktop()
         screen_rect = desktop.screenGeometry(self.screen)
-        
         rect = QtCore.QRect(0, 0, screen_rect.width(), screen_rect.height())
         label = QLabel(self)
         label.setGeometry(rect)
@@ -67,9 +71,10 @@ class QBeamerWindow(QDialog):
     
     def getPreviewImage(self):
         desktop = QtWidgets.QApplication.desktop()
-        screen_rect = desktop.screen.screenGeometry(self.scren)
+        screen_rect = desktop.screenGeometry(self.screen)
+        #rect = QtCore.QRect(0, 0, screen_rect.width(), screen_rect.height())
         
-        self.resize(screen_rect.width(), screen_rect.heigth())
+        self.resize(screen_rect.width(), screen_rect.height())
         image = QtGui.QImage(self.size(), QtGui.QImage.Format_ARGB32)
         
         painter = QtGui.QPainter(image)
@@ -81,6 +86,24 @@ class QBeamerWindow(QDialog):
         painter.end()
         
         return image
+    
+    def getPreviewPixmap(self):
+        #image = self.getPreviewImage()
+        
+        #pixmap = QtGui.QPixmap()
+        #pixmap.convertFromImage(image)
+        
+        #return pixmap
+        
+        desktop = QtWidgets.QApplication.desktop()
+        screen_rect = desktop.screenGeometry(self.screen)
+        self.resize(screen_rect.width(), screen_rect.height())
+        
+        self.layout.activate()
+        self.layout.update()
+        self.repaint()
+        
+        return self.grab()
     
     def destroy(self):
         self.close()

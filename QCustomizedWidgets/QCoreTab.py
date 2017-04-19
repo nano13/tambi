@@ -15,6 +15,7 @@ from misc.unicodeFonts import UnicodeFonts
 from functools import partial
 
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
+from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
 
 class QCoreTab(QWidget):
     
@@ -50,6 +51,15 @@ class QCoreTab(QWidget):
         
         self.vocable_page = QVocableStackedWidget().vocableWidget()
         grid.addWidget(self.vocable_page, 0, 0)
+        
+        return self
+    
+    def musicBeamerTab(self):
+        grid = QGridLayout()
+        self.setLayout(grid)
+        
+        music_beamer_widget = QMusicBeamerWidget()
+        grid.addWidget(music_beamer_widget, 0, 0)
         
         return self
     

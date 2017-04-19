@@ -137,7 +137,7 @@ class Logos(QMainWindow):
         tab = QCoreTab().cliTab()
         self.tab_widget.addTab(tab, "cli")
         
-        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
+        self.activateNewTab()
     
     """ to be used internally by the menus """
     def addNewCliTabWithCommand(self, command):
@@ -148,13 +148,19 @@ class Logos(QMainWindow):
         tab = QCoreTab().vocableTab()
         self.tab_widget.addTab(tab, "vocable")
         
-        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
+        self.activateNewTab()
+    
+    def addNewMusicWidgetTab(self):
+        tab = QCoreTab().musicBeamerTab()
+        self.tab_widget.addTab(tab, "music beamer")
+        
+        self.activateNewTab()
     
     def addNewAmazingGraceTab(self):
         tab = QCoreTab().amazingGraceTab()
         self.tab_widget.addTab(tab, "Amazing Grace")
         
-        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
+        self.activateNewTab()
     def facepalm(self):
         from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
         canvas = QBeamerWindow()
@@ -171,7 +177,10 @@ class Logos(QMainWindow):
             tab = QCoreTab().editorTab(file_path)
             self.tab_widget.addTab(tab, "editor")
             
-            self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
+            self.activateNewTab()
+    
+    def activateNewTab(self):
+        self.tab_widget.setCurrentIndex(self.tab_widget.count()-1)
     
 if __name__ == '__main__':
     app = QApplication(sys.argv)

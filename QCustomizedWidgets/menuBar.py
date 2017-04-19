@@ -22,6 +22,8 @@ class MenuBar(object):
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
         newVocableTabAction.triggered.connect(context.addNewVocableTab)
         
+        newMusicBeamerTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Music Beamer Tab', context)
+        newMusicBeamerTabAction.triggered.connect(context.addNewMusicWidgetTab)
         
         newAmazingTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Amazing Grace Tab', context)
         newAmazingTabAction.triggered.connect(context.addNewAmazingGraceTab)
@@ -37,6 +39,7 @@ class MenuBar(object):
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(newCliTabAction)
         fileMenu.addAction(newVocableTabAction)
+        fileMenu.addAction(newMusicBeamerTabAction)
         fileMenu.addAction(newAmazingTabAction)
         fileMenu.addSeparator()
         fileMenu.addAction(openFileAction)
