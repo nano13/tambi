@@ -5,6 +5,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class QBeamerWindow(QDialog):
     
+    screen = None
+    
     def __init__(self):
         super().__init__()
         #super(QBeamerWindow, self).__init__(parent)
@@ -12,6 +14,7 @@ class QBeamerWindow(QDialog):
         self.setStyleSheet('QWidget { background-color: darkgreen; }')
         #self.layout = QtWidgets.QGridLayout()
         self.layout = QtWidgets.QVBoxLayout()
+        self.layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.layout)
         
         self.setWindowFlags(QtCore.Qt.Tool | QtCore.Qt.FramelessWindowHint | QtCore.Qt.WindowStaysOnTopHint | QtCore.Qt.WindowSystemMenuHint)
@@ -22,10 +25,10 @@ class QBeamerWindow(QDialog):
     
     def routeToScreen(self):
         desktop = QtWidgets.QApplication.desktop()
-        
         last_screen = desktop.screenCount()
+        self.screen = last_screen-1
         
-        screen_rect = desktop.screenGeometry(last_screen-1)
+        screen_rect = desktop.screenGeometry(self.screen)
         
         self.move(screen_rect.left(), screen_rect.top())
         self.showFullScreen()
@@ -43,6 +46,42 @@ class QBeamerWindow(QDialog):
         self.layout.addWidget(label, QtCore.Qt.AlignCenter)
         self.layout.setAlignment(QtCore.Qt.AlignCenter)
         
+    def setImageWithPixmap(self, pixmap):
+        desktop = QtWidgets.QApplication.desktop()
+        screen_rect = desktop.screenGeometry(self.screen)
+        
+        rect = QtCore.QRect(0, 0, screen_rect.width(), screen_rect.height())
+        label = QLabel(self)
+        label.setGeometry(rect)
+        
+        pixmap_scaled = pixmap.scaled(label.size(), QtCore.Qt.KeepAspectRatio)
+        
+        label.setPixmap(pixmap_scaled)
+        label.setAlignment(QtCore.Qt.AlignCenter)
+        
+        self.layout.addWidget(label, QtCore.Qt.AlignCenter)
+        
+    def setImageWithPath(self, image_path):
+        pixmap = QtGui.QPixmap(image_path)
+        self.setImageWithPixmap(pixmap)
+    
+    def getPreviewImage(self):
+        desktop = QtWidgets.QApplication.desktop()
+        screen_rect = desktop.screen.screenGeometry(self.scren)
+        
+        self.resize(screen_rect.width(), screen_rect.heigth())
+        image = QtGui.QImage(self.size(), QtGui.QImage.Format_ARGB32)
+        
+        painter = QtGui.QPainter(image)
+        
+        if painter.isActive():
+            self.render(painter)
+        else:
+            print("Painter Inactive")
+        painter.end()
+        
+        return image
+    
     def destroy(self):
         self.close()
         
