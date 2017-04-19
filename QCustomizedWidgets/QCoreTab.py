@@ -14,6 +14,8 @@ from misc.unicodeFonts import UnicodeFonts
 
 from functools import partial
 
+from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
+
 class QCoreTab(QWidget):
     
     interpreter = Interpreter()
@@ -81,7 +83,6 @@ class QCoreTab(QWidget):
         for line in fobj:
             text += line.replace('\\\\', '')
         
-        from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
         canvas = QBeamerWindow()
         canvas.setText(text)
         canvas.routeToScreen()
