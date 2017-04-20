@@ -10,6 +10,7 @@ from QCustomizedWidgets.QClickLabel import QClickLabel
 import functools
 
 SCHEDULE_WIDTH = 275
+PREVIEW_WIDTH = 300
 
 class QMusicBeamerWidget(QWidget):
     
@@ -95,13 +96,13 @@ class QMusicBeamerWidget(QWidget):
         self.beamer_window.setImageWithPath(test_image)
         #self.beamer_window.setText('fsdfasdasd')
         self.beamer_window.routeToScreen() # needed for beamer_window.setText()
-        #self.beamer_window.hide()
         
         preview_pixmap = self.beamer_window.getPreviewPixmap()
+        scaled_pixmap = preview_pixmap.scaled(QtCore.QSize(PREVIEW_WIDTH, PREVIEW_WIDTH), QtCore.Qt.KeepAspectRatio)
         
         label = QClickLabel()
-        label.setGeometry(QtCore.QRect(0, 0, 400, 400))
-        label.setPixmap(preview_pixmap.scaled(label.size(), QtCore.Qt.KeepAspectRatio))
+        label.setGeometry(scaled_pixmap.rect())
+        label.setPixmap(scaled_pixmap)
         label.setAlignment(QtCore.Qt.AlignCenter)
         
         label.clicked.connect(functools.partial(self.previewClicked, None))
