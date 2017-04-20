@@ -164,10 +164,10 @@ class Logos(QMainWindow):
         self.activateNewTab()
     def facepalm(self):
         from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
-        canvas = QBeamerWindow()
-        canvas.routeToScreen()
-        canvas.setImageWithPath('./assets/images/facepalm/facepalm1.jpg')
-        canvas.exec_()
+        self.canvas = QBeamerWindow()
+        self.canvas.setImageWithPath('./assets/images/facepalm/facepalm1.jpg')
+        self.canvas.routeToScreen()
+        self.canvas.showFullScreen()
     
     def openFile(self):
         home_path = os.path.expanduser('~')

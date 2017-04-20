@@ -32,7 +32,7 @@ class QBeamerWindow(QDialog):
     def routeToScreen(self):
         screen_rect = self.getScreenRect()
         self.move(screen_rect.left(), screen_rect.top())
-        self.showFullScreen()
+        #self.showFullScreen()
         
     def setText(self, text):
         label = QLabel(text, self)

@@ -95,7 +95,7 @@ class QMusicBeamerWidget(QWidget):
         self.beamer_window.setImageWithPath(test_image)
         #self.beamer_window.setText('fsdfasdasd')
         self.beamer_window.routeToScreen() # needed for beamer_window.setText()
-        self.beamer_window.hide()
+        #self.beamer_window.hide()
         
         preview_pixmap = self.beamer_window.getPreviewPixmap()
         
@@ -111,6 +111,6 @@ class QMusicBeamerWidget(QWidget):
         
     def previewClicked(self, beamer_window):
         self.beamer_window.routeToScreen()
-        self.beamer_window.show()
+        self.beamer_window.showFullScreen()
         
         

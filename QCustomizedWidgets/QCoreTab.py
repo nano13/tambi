@@ -97,8 +97,7 @@ class QCoreTab(QWidget):
         canvas.setText(text)
         canvas.routeToScreen()
         self.beamer = canvas
-        
-        canvas.exec_()
+        canvas.showFullScreen()
     def beamerCanvasBlank(self):
         if not self.beamer == None:
             self.beamer.destroy()
