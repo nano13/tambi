@@ -23,17 +23,18 @@ class QBeamerWindow(QDialog):
         self.setFocusPolicy(QtCore.Qt.NoFocus)
         
         QFontDatabase.addApplicationFont('./assets/fonts/Cyberbit.ttf')
-    
-    def paintEvent(self, e):
-        print("PAINT EVENT", e)
-        super().paintEvent(e)
-    
-    def routeToScreen(self):
+        
+    def getScreenRect(self):
         desktop = QtWidgets.QApplication.desktop()
         last_screen = desktop.screenCount()
         self.screen = last_screen-1
-        
         screen_rect = desktop.screenGeometry(self.screen)
+        return screen_rect
+    
+    def routeToScreen(self):
+        screen_rect = self.getScreenRect()
+        
+        
         
         self.move(screen_rect.left(), screen_rect.top())
         self.showFullScreen()
@@ -52,9 +53,9 @@ class QBeamerWindow(QDialog):
         self.layout.setAlignment(QtCore.Qt.AlignCenter)
         
     def setImageWithPixmap(self, pixmap):
-        desktop = QtWidgets.QApplication.desktop()
-        screen_rect = desktop.screenGeometry(self.screen)
+        screen_rect = self.getScreenRect()
         rect = QtCore.QRect(0, 0, screen_rect.width(), screen_rect.height())
+        
         label = QLabel(self)
         label.setGeometry(rect)
         
@@ -88,24 +89,9 @@ class QBeamerWindow(QDialog):
         return image
     
     def getPreviewPixmap(self):
-        #image = self.getPreviewImage()
-        
-        #pixmap = QtGui.QPixmap()
-        #pixmap.convertFromImage(image)
-        
-        #return pixmap
-        
         desktop = QtWidgets.QApplication.desktop()
         screen_rect = desktop.screenGeometry(self.screen)
         self.resize(screen_rect.width(), screen_rect.height())
-        
-        #self.setAttribute(QtCore.Qt.WA_DontShowOnScreen, True)
-        #self.routeToScreen()
-        
-        self.layout.activate()
-        self.layout.update()
-        self.repaint()
-        self.show()
         
         return self.grab()
     

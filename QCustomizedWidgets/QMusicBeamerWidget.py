@@ -90,33 +90,11 @@ class QMusicBeamerWidget(QWidget):
         
         beamer_window = QBeamerWindow()
         
-        #beamer_window.hide()
-        #beamer_window.setAttribute(QtCore.Qt.WA_DontShowOnScreen, True)
-        #beamer_window.routeToScreen()
-        #beamer_window.setAttribute(QtCore.Qt.WA_DontShowOnScreen, True)
-        
-        #beamer_window.setImageWithPath(test_image)
-        beamer_window.setText('fsdfasdasd')
-        beamer_window.routeToScreen()
-        #beamer_window.accept()
-        #beamer_window.show()
-        #beamer_window.raise_()
-        #beamer_window.activateWindow()
-        #beamer_window.showFullScreen()
-        #beamer_window.layout.invalidate()
-        #beamer_window.layout.activate()
-        #beamer_window.layout.update()
-        #beamer_window.exec_()
-        
-        #desktop = QtWidgets.QApplication.desktop()
-        #screen_rect = desktop.screenGeometry(0)
-        #beamer_window.paintEvent(QtGui.QPaintEvent(QtCore.QRect(0, 0, screen_rect.width(), screen_rect.height())))
-        #beamer_window.repaint()
-        
-        
+        beamer_window.setImageWithPath(test_image)
+        #beamer_window.setText('fsdfasdasd')
+        beamer_window.routeToScreen() # needed for beamer_window.setText()
         
         preview_pixmap = beamer_window.getPreviewPixmap()
-        #preview_pixmap = preview_pixmap.scaled(label.size(), QtCore.Qt.KeepAscpectRatio)
         
         label = QLabel(self)
         label.setGeometry(QtCore.QRect(0, 0, 400, 400))
@@ -125,6 +103,4 @@ class QMusicBeamerWidget(QWidget):
         
         layout = self.preview_area.widget().layout()
         layout.addWidget(label)
-        
-        #beamer_window.destroy()
         
