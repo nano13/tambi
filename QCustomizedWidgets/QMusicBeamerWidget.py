@@ -21,6 +21,7 @@ class QMusicBeamerWidget(QWidget):
     def __init__(self):
         super().__init__()
         
+        self.layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.layout)
         
         self.schedule = self.addSchedule()
