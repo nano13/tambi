@@ -39,9 +39,6 @@ class QMusicBeamerWidget(QWidget):
             self.addScheduleTextFile(base, path)
             
         
-        #for i in range(0, 50):
-        #    self.addScheduleTextFile(None, None)
-        
     def addSchedule(self):
         schedule = QScheduleWidget()
         schedule.button_selected.connect(self.scheduleButtonClicked)
@@ -68,7 +65,6 @@ class QMusicBeamerWidget(QWidget):
         self.schedule.addButton(label)
         
     def scheduleButtonClicked(self, button_id):
-        print("CLICK")
         self.addPreviewArea()
     
     def addPreviewArea(self):

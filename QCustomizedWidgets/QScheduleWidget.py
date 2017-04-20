@@ -17,11 +17,6 @@ class QScheduleWidget(QtWidgets.QWidget):
         
         self.i = 0
         
-        #for i in range(0, 10):
-        #    self.addButton()
-            
-        #print(self.button_list)
-        
     def addButton(self, label):
         self.i += 1
         
@@ -58,11 +53,6 @@ class QScheduleWidget(QtWidgets.QWidget):
         while len(self.button_list) > 0:
             button = self.button_list.pop(0)
             button.hide()
-            
-        
-#    def clicked(self):
-#        print("clicked!")
-#        #self.item_selected.emit()
         
     def leftClicked(self, button_id):
         print(button_id)
@@ -92,4 +82,3 @@ class QScheduleWidget(QtWidgets.QWidget):
                 self.button_list[i], self.button_list[i+1] = self.button_list[i+1], self.button_list[i]
                 
                 i = -1
- 

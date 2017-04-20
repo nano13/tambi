@@ -1,4 +1,3 @@
-# -*- coding: utf_8 -*-
  
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -53,8 +52,6 @@ class QDragButton(QtWidgets.QPushButton):
         super(QDragButton, self).mouseMoveEvent(event)
     
     def mouseReleaseEvent(self, event):
-        #self.emit(QtCore.SIGNAL("drag_event_ended()"))
-        #drag_event_ended = QtCore.pyqtSignal()
         self.drag_event_ended.emit()
         
         if self.__mousePressPos is not None:
