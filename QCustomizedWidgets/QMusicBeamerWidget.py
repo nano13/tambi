@@ -5,6 +5,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 #from QCustomizedWidgets.QDragButton import QDragButton
 from QCustomizedWidgets.QScheduleWidget import QScheduleWidget
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
+from QCustomizedWidgets.QClickLabel import QClickLabel
+
+import functools
 
 SCHEDULE_WIDTH = 275
 
@@ -12,6 +15,8 @@ class QMusicBeamerWidget(QWidget):
     
     layout = QHBoxLayout()
     preview_area = None
+    
+    beamer_window = None
     
     def __init__(self):
         super().__init__()
@@ -88,19 +93,27 @@ class QMusicBeamerWidget(QWidget):
         test_image = './assets/images/facepalm/facepalm1.jpg'
         print(test_image)
         
-        beamer_window = QBeamerWindow()
+        self.beamer_window = QBeamerWindow()
         
-        beamer_window.setImageWithPath(test_image)
-        #beamer_window.setText('fsdfasdasd')
-        beamer_window.routeToScreen() # needed for beamer_window.setText()
+        self.beamer_window.setImageWithPath(test_image)
+        #self.beamer_window.setText('fsdfasdasd')
+        self.beamer_window.routeToScreen() # needed for beamer_window.setText()
+        self.beamer_window.hide()
         
-        preview_pixmap = beamer_window.getPreviewPixmap()
+        preview_pixmap = self.beamer_window.getPreviewPixmap()
         
-        label = QLabel(self)
+        label = QClickLabel()
         label.setGeometry(QtCore.QRect(0, 0, 400, 400))
         label.setPixmap(preview_pixmap.scaled(label.size(), QtCore.Qt.KeepAspectRatio))
         label.setAlignment(QtCore.Qt.AlignCenter)
         
+        label.clicked.connect(functools.partial(self.previewClicked, None))
+        
         layout = self.preview_area.widget().layout()
         layout.addWidget(label)
+        
+    def previewClicked(self, beamer_window):
+        self.beamer_window.routeToScreen()
+        self.beamer_window.show()
+        
         
