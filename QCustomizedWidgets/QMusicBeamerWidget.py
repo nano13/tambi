@@ -92,11 +92,12 @@ class QMusicBeamerWidget(QWidget):
         
         #beamer_window.hide()
         #beamer_window.setAttribute(QtCore.Qt.WA_DontShowOnScreen, True)
-        beamer_window.routeToScreen()
+        #beamer_window.routeToScreen()
         #beamer_window.setAttribute(QtCore.Qt.WA_DontShowOnScreen, True)
         
         #beamer_window.setImageWithPath(test_image)
         beamer_window.setText('fsdfasdasd')
+        beamer_window.routeToScreen()
         #beamer_window.accept()
         #beamer_window.show()
         #beamer_window.raise_()

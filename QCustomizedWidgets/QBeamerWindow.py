@@ -99,9 +99,13 @@ class QBeamerWindow(QDialog):
         screen_rect = desktop.screenGeometry(self.screen)
         self.resize(screen_rect.width(), screen_rect.height())
         
+        #self.setAttribute(QtCore.Qt.WA_DontShowOnScreen, True)
+        #self.routeToScreen()
+        
         self.layout.activate()
         self.layout.update()
         self.repaint()
+        self.show()
         
         return self.grab()
     
