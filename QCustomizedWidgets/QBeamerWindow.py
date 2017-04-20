@@ -4,13 +4,11 @@ from PyQt5.QtGui import QFontDatabase
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class QBeamerWindow(QDialog):
-#class QBeamerWindow(QWidget):
     
     screen = None
     
     def __init__(self):
         super().__init__()
-        #super(QBeamerWindow, self).__init__(parent)
         
         self.setStyleSheet('QWidget { background-color: darkgreen; }')
         #self.layout = QtWidgets.QGridLayout()
@@ -33,9 +31,6 @@ class QBeamerWindow(QDialog):
     
     def routeToScreen(self):
         screen_rect = self.getScreenRect()
-        
-        
-        
         self.move(screen_rect.left(), screen_rect.top())
         self.showFullScreen()
         

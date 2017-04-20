@@ -75,7 +75,7 @@ class QMusicBeamerWidget(QWidget):
             self.layout.removeWidget(self.preview_area)
         
         preview_widget = QWidget()
-        preview_widget.setStyleSheet('QWidget { background-color: yellow; }')
+        #preview_widget.setStyleSheet('QWidget { background-color: yellow; }')
         
         preview_layout = QVBoxLayout()
         preview_widget.setLayout(preview_layout)
