@@ -85,4 +85,4 @@ if __name__ == "__main__":
     #button.clicked.connect(clicked)
     
     w.show()
-    app.exec_() 
+    app.exec_()

@@ -2,7 +2,6 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout, QScrollArea, QLabel
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-#from QCustomizedWidgets.QDragButton import QDragButton
 from QCustomizedWidgets.QScheduleWidget import QScheduleWidget
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
 from QCustomizedWidgets.QClickLabel import QClickLabel
@@ -44,7 +43,7 @@ class QMusicBeamerWidget(QWidget):
         max_i = 0
         for filename in sorted(files):
             #label = str(f.split('.')[0])
-            print(base, dirs, filename)
+            #print(base, dirs, filename)
             self.addToSchedule(base, filename)
             
         

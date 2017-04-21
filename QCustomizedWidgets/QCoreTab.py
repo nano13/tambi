@@ -34,10 +34,10 @@ class QCoreTab(QWidget):
         self.editor = QTextEdit()
         grid.addWidget(self.editor, 0, 0)
         
-        fobj = open(filepath[0])
         data = ""
-        for line in fobj:
-            data += line
+        with open(filepath[0]) as fobj:
+            for line in fobj:
+                data += line
         
         self.unicode_fonts.applyFontAndSizeToQWidget(data, self.editor)
         
@@ -46,22 +46,12 @@ class QCoreTab(QWidget):
         return self
     
     def vocableTab(self):
-        grid = QGridLayout()
-        self.setLayout(grid)
-        
-        self.vocable_page = QVocableStackedWidget().vocableWidget()
-        grid.addWidget(self.vocable_page, 0, 0)
-        
-        return self
+        vocable_page = QVocableStackedWidget().vocableWidget()
+        return vocable_page
     
     def musicBeamerTab(self):
-        grid = QGridLayout()
-        self.setLayout(grid)
-        
         music_beamer_widget = QMusicBeamerWidget()
-        grid.addWidget(music_beamer_widget, 0, 0)
-        
-        return self
+        return music_beamer_widget
     
     def amazingGraceTab(self):
         grid = QGridLayout()
@@ -88,10 +78,10 @@ class QCoreTab(QWidget):
         if not self.beamer == None:
             self.beamer.destroy()
         
-        fobj = open('./amazing_grace/'+str(language)+'.tex', 'r')
         text = ''
-        for line in fobj:
-            text += line.replace('\\\\', '')
+        with open('./amazing_grace/'+str(language)+'.tex', 'r') as fobj:
+            for line in fobj:
+                text += line.replace('\\\\', '')
         
         canvas = QBeamerWindow()
         canvas.setText(text)
