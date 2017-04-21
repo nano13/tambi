@@ -13,7 +13,7 @@ from misc.unicodeFonts import UnicodeFonts
 
 from functools import partial
 
-class QCliTab(QWidget):
+class QCliWidget(QWidget):
     
     interpreter = Interpreter()
     display_widget = None

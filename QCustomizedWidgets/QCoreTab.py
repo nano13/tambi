@@ -1,7 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTextEdit
 
-from QCustomizedWidgets.QCliTab import QCliTab
+from QCustomizedWidgets.QCliWidget import QCliWidget
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
 from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
 from QCustomizedWidgets.QAmazingGraceWidget import QAmazingGraceWidget
@@ -13,7 +13,7 @@ class QCoreTab(QWidget):
         super().__init__()
         
     def cliTab(self):
-        cli = QCliTab()
+        cli = QCliWidget()
         return cli
         
     def editorTab(self, filepath):
