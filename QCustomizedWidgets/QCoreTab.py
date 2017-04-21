@@ -27,12 +27,7 @@ class QCoreTab(QWidget):
         self.unicode_fonts = UnicodeFonts()
         
     def editorTab(self, filepath):
-        grid = QGridLayout()
-        grid.setContentsMargins(0, 0, 0, 0)
-        self.setLayout(grid)
-        
         self.editor = QTextEdit()
-        grid.addWidget(self.editor, 0, 0)
         
         data = ""
         with open(filepath[0]) as fobj:
@@ -40,10 +35,9 @@ class QCoreTab(QWidget):
                 data += line
         
         self.unicode_fonts.applyFontAndSizeToQWidget(data, self.editor)
-        
         self.editor.setText(data)
         
-        return self
+        return self.editor
     
     def vocableTab(self):
         vocable_page = QVocableStackedWidget().vocableWidget()
