@@ -8,7 +8,7 @@ BUTTON_HEIGHT = 25
 
 class QScheduleWidget(QtWidgets.QWidget):
     
-    button_selected = QtCore.pyqtSignal(int)
+    button_selected = QtCore.pyqtSignal(int, str, str)
     
     def __init__(self):
         QtWidgets.QWidget.__init__(self)
@@ -17,10 +17,10 @@ class QScheduleWidget(QtWidgets.QWidget):
         
         self.i = 0
         
-    def addButton(self, label):
+    def addButton(self, label, basepath, filename):
         self.i += 1
         
-        button = QDragButton(str(label), self)
+        button = QDragButton(str(label), self, basepath, filename)
         #button = QDragButton(str(self.i), self)
         button.setButtonList(self.button_list)
         button.setButtonHeight( BUTTON_HEIGHT )
@@ -54,9 +54,9 @@ class QScheduleWidget(QtWidgets.QWidget):
             button = self.button_list.pop(0)
             button.hide()
         
-    def leftClicked(self, button_id):
-        print(button_id)
-        self.button_selected.emit(button_id)
+    def leftClicked(self, button_id, basepath, filename):
+        print(button_id, basepath, filename)
+        self.button_selected.emit(button_id, basepath, filename)
         
     def rightClicked(self, button):
         print("rightClicked", button)
