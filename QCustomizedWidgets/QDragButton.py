@@ -1,12 +1,14 @@
  
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from PyQt5.QtWidgets import QMenu, QAction
+from PyQt5.QtGui import QIcon
 
 class QDragButton(QtWidgets.QPushButton):
     
     drag_event_ended = QtCore.pyqtSignal()
     left_clicked = QtCore.pyqtSignal(int, str, str)
     right_clicked = QtCore.pyqtSignal(QtWidgets.QPushButton)
+    delete_triggered = QtCore.pyqtSignal(object)
     
     button_id = -1
     
@@ -20,6 +22,8 @@ class QDragButton(QtWidgets.QPushButton):
         super().__init__(label, context)
         self.basepath = basepath
         self.filename = filename
+        
+        self.customContextMenuRequested.connect(self.onCustomContextMenu)
     
     def setButtonList(self, button_list):
         self.button_list = button_list
@@ -75,6 +79,19 @@ class QDragButton(QtWidgets.QPushButton):
             self.left_clicked.emit(self.button_id, self.basepath, self.filename)
         
         super(QDragButton, self).mouseReleaseEvent(event)
+        
+    def onCustomContextMenu(self, point):
+        point = self.mapToGlobal(point)
+        
+        menu = QMenu()
+        deleteAction = QAction(QIcon.fromTheme("application-exit"), "&Delete", self)
+        deleteAction.triggered.connect(self.deleteTriggered)
+        menu.addAction(deleteAction)
+        
+        menu.exec(point)
+        
+    def deleteTriggered(self):
+        self.delete_triggered.emit(self)
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])

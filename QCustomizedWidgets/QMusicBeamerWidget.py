@@ -10,7 +10,7 @@ from misc.mimetypeAnalyzer import MimetypeAnalyzer
 
 import functools, os
 
-SCHEDULE_WIDTH = 275
+SCHEDULE_WIDTH = 252#275
 PREVIEW_WIDTH = 300
 
 class QMusicBeamerWidget(QWidget):
@@ -45,23 +45,15 @@ class QMusicBeamerWidget(QWidget):
             #label = str(f.split('.')[0])
             #print(base, dirs, filename)
             self.addToSchedule(base, filename)
-            
-        
+    
     def addSchedule(self):
         schedule = QScheduleWidget()
         schedule.button_selected.connect(self.scheduleButtonClicked)
         
-        scroll_layout = QVBoxLayout()
-        scroll_layout.addWidget(schedule)
-        scroll_layout.setAlignment(QtCore.Qt.AlignTop)
-        
-        scroll_widget = QWidget()
-        scroll_widget.setLayout(scroll_layout)
-        
         scroll_area = QScrollArea()
         scroll_area.setWidgetResizable(True)
         scroll_area.setFixedWidth( SCHEDULE_WIDTH )
-        scroll_area.setWidget(scroll_widget)
+        scroll_area.setWidget(schedule)
         
         self.layout.setAlignment(QtCore.Qt.AlignLeft)
         self.layout.addWidget(scroll_area)

@@ -1,21 +1,27 @@
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QMenu, QAction, QScrollArea
+from PyQt5 import QtCore, QtGui
+#from PyQt5.QtGui import QIcon
 from QCustomizedWidgets.QDragButton import QDragButton
+
+from functools import partial
 
 WIDTH = 250
 SCROLLBAR_WIDTH = 15
 BUTTON_HEIGHT = 25
 
-class QScheduleWidget(QtWidgets.QWidget):
+class QScheduleWidget(QWidget):
     
     button_selected = QtCore.pyqtSignal(int, str, str)
+    button_list = []
+    i = 0
     
     def __init__(self):
-        QtWidgets.QWidget.__init__(self)
+        super().__init__()
         
-        self.button_list = []
-        
-        self.i = 0
+        layout = QVBoxLayout()
+        layout.setAlignment(QtCore.Qt.AlignTop)
+        self.setLayout(layout)
         
     def addButton(self, label, basepath, filename):
         self.i += 1
@@ -29,6 +35,8 @@ class QScheduleWidget(QtWidgets.QWidget):
         button.left_clicked.connect(self.leftClicked)
         button.right_clicked.connect(self.rightClicked)
         button.drag_event_ended.connect(self.reorganize)
+        button.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
+        button.delete_triggered.connect(self.removeButton)
         
         button.setFixedWidth( WIDTH - SCROLLBAR_WIDTH )
         button.setFixedHeight( BUTTON_HEIGHT )
@@ -59,11 +67,8 @@ class QScheduleWidget(QtWidgets.QWidget):
         self.button_selected.emit(button_id, basepath, filename)
         
     def rightClicked(self, button):
-        print("rightClicked", button)
-        #self.removeAllButtons(button)
-        #self.removeButton(button)
-        
-        
+        pass
+    
     def reorganize(self):
         self.bubblesortButtons()
         
