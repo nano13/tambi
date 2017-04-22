@@ -84,7 +84,7 @@ class QDragButton(QtWidgets.QPushButton):
         point = self.mapToGlobal(point)
         
         menu = QMenu()
-        deleteAction = QAction(QIcon.fromTheme("application-exit"), "&Delete", self)
+        deleteAction = QAction(QIcon.fromTheme("edit-delete"), "&Delete", self)
         deleteAction.triggered.connect(self.deleteTriggered)
         menu.addAction(deleteAction)
         
