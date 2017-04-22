@@ -18,6 +18,7 @@ class MenuBar(object):
         newCliTabAction.triggered.connect(context.addNewCliTab)
         
         newDualCliTabAction = QAction(QIcon.fromTheme('utilities-terminal'), '&New Dual Command Line Tab', context)
+        newDualCliTabAction.setShortcut('Ctrl+D')
         newDualCliTabAction.setStatusTip('Open new Dual CLI Tab')
         newDualCliTabAction.triggered.connect(context.addNewDualCliTab)
         
