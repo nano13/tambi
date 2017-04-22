@@ -139,6 +139,12 @@ class Logos(QMainWindow):
         self.tab_widget.addTab(tab, "cli")
         
         self.activateNewTab()
+        
+    def addNewDualCliTab(self):
+        tab = QCoreTab().dualCliTab()
+        self.tab_widget.addTab(tab, "dual cli")
+        
+        self.activateNewTab()
     
     """ to be used internally by the menus """
     def addNewCliTabWithCommand(self, command):

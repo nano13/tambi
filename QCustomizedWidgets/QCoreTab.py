@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTextEdit
+from PyQt5.QtWidgets import QWidget, QGridLayout, QHBoxLayout, QPushButton, QTextEdit
 
 from QCustomizedWidgets.QCliWidget import QCliWidget
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
@@ -15,7 +15,15 @@ class QCoreTab(QWidget):
     def cliTab(self):
         cli = QCliWidget()
         return cli
+    
+    def dualCliTab(self):
+        layout = QHBoxLayout()
+        layout.addWidget(QCliWidget())
+        layout.addWidget(QCliWidget())
+        self.setLayout(layout)
         
+        return self
+    
     def editorTab(self, filepath):
         editor = QTextEdit()
         

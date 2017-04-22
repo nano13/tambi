@@ -17,6 +17,10 @@ class MenuBar(object):
         newCliTabAction.setStatusTip('Open new CLI Tab')
         newCliTabAction.triggered.connect(context.addNewCliTab)
         
+        newDualCliTabAction = QAction(QIcon.fromTheme('utilities-terminal'), '&New Dual Command Line Tab', context)
+        newDualCliTabAction.setStatusTip('Open new Dual CLI Tab')
+        newDualCliTabAction.triggered.connect(context.addNewDualCliTab)
+        
         newVocableTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Vocable Tab', context)
         newVocableTabAction.setShortcut('Ctrl+L')
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
@@ -40,6 +44,7 @@ class MenuBar(object):
         
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(newCliTabAction)
+        fileMenu.addAction(newDualCliTabAction)
         fileMenu.addAction(newVocableTabAction)
         fileMenu.addAction(newMusicBeamerTabAction)
         fileMenu.addAction(newAmazingTabAction)
