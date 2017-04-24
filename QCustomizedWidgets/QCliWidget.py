@@ -64,6 +64,7 @@ class QCliWidget(QWidget):
         
         self.scene.addWidget(self.display_widget)
         self.view.setScene(self.scene)
+        self.view.setStyleSheet("QGraphicsView { border-style: none; }")
         
         self.grid.addWidget(self.view, 0, 0, 1, 0)
         
