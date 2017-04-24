@@ -1,6 +1,6 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit
-from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene
+from PyQt5.QtGui import QIcon, QTextFormat
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
@@ -42,6 +42,16 @@ class QCliWidget(QWidget):
         vkbdButton.clicked.connect(partial(self.vkbdButtonClicked, line))
         vkbdButton.setIcon(QIcon.fromTheme('input-keyboard'))
         self.grid.addWidget(vkbdButton, 1, 1)
+        
+        zoomInButton = QPushButton(self)
+        zoomInButton.setIcon(QIcon.fromTheme('zoom-in'))
+        zoomInButton.clicked.connect(self.onZoomInClicked)
+        self.grid.addWidget(zoomInButton, 1, 2)
+        
+        zoomOutButton = QPushButton(self)
+        zoomOutButton.setIcon(QIcon.fromTheme('zoom-out'))
+        zoomOutButton.clicked.connect(self.onZoomOutClicked)
+        self.grid.addWidget(zoomOutButton, 1, 3)
         
     def addDisplayWidget(self):
         self.grid.addWidget(self.display_widget, 0, 0, 1, 0)
@@ -126,3 +136,38 @@ class QCliWidget(QWidget):
         self.display_widget.setText(message)
         self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
+        
+    def onZoomInClicked(self):
+        if type(self.display_widget) == QTextEdit:
+            size = self.display_widget.fontPointSize()
+            
+            if size == 0.0:
+                self.display_widget.zoomIn()
+            else:
+                cursor = self.display_widget.textCursor()
+                self.display_widget.selectAll()
+                self.display_widget.setFontPointSize(size +1)
+                cursor.clearSelection()
+                self.display_widget.setTextCursor(cursor)
+                
+        elif type(self.display_widget) == QTableWidget:
+            pass
+            #scene = QGraphicsScene()
+            #scene.addWidget(self.display_widget)
+    
+    def onZoomOutClicked(self):
+        if type(self.display_widget) == QTextEdit:
+            size = self.display_widget.fontPointSize()
+            
+            if size == 0.0:
+                self.display_widget.zoomOut()
+            else:
+                cursor = self.display_widget.textCursor()
+                self.display_widget.selectAll()
+                self.display_widget.setFontPointSize(size -1)
+                cursor.clearSelection()
+                self.display_widget.setTextCursor(cursor)
+                
+        elif type(self.display_widget) == QTableWidget:
+            pass
+    
