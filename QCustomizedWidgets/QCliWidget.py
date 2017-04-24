@@ -22,8 +22,6 @@ class QCliWidget(QWidget):
     display_widget = None
     vkbd = None
     
-    zoom_counter = 0
-    
     def __init__(self):
         super().__init__()
         
@@ -186,8 +184,6 @@ class QCliWidget(QWidget):
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
         else:
-            self.zoom_counter += 1
-            
             self.view.scale(SCALE_FACTOR, SCALE_FACTOR)
             
             self.resizeDisplayWidget()
@@ -206,8 +202,6 @@ class QCliWidget(QWidget):
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
         else:
-            self.zoom_counter -= 1
-            
             self.view.scale(1 / SCALE_FACTOR, 1 / SCALE_FACTOR)
             
             self.resizeDisplayWidget()
