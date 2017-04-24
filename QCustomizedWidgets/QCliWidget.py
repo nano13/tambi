@@ -22,7 +22,7 @@ class QCliWidget(QWidget):
     display_widget = None
     vkbd = None
     
-    #zoom_counter = 0
+    zoom_counter = 0
     
     def __init__(self):
         super().__init__()
@@ -72,22 +72,17 @@ class QCliWidget(QWidget):
         self.resizeDisplayWidget()
         
     def resizeDisplayWidget(self):
-        #view_rect = self.view.mapToScene(self.view.viewport().rect()).boundingRect()
-        #self.view.fitInView(rect)
-        
-        #self.scene.setSceneRect(0, 0, self.view.width(), self.view.height())
-        
-        #view_rect = self.view.viewport().rect()
-        #view_rect = self.view.mapToScene(view_rect).boundingRect()
-        #print(view_rect)
-        
-        x = self.view.width() -2
-        y = self.view.height() -2
-        print(x, y)
+        x = self.view.width() -2.1
+        y = self.view.height() -2.1
         self.x, self.y = x, y
         
-        self.display_widget.setFixedSize(x, y)
-        self.scene.setSceneRect(0, 0, x, y)
+        mapped_rect = self.view.mapToScene(QRect(0, 0, x, y)).boundingRect()
+        
+        self.display_widget.setFixedSize(mapped_rect.width(), mapped_rect.height())
+        self.scene.setSceneRect(0, 0, mapped_rect.width(), mapped_rect.height())
+        
+        #self.display_widget.setFixedSize(x, y)
+        #self.scene.setSceneRect(0, 0, x, y)
         
     def resizeEvent(self, event):
         #super().resizeEvent(event)
@@ -191,6 +186,8 @@ class QCliWidget(QWidget):
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
         else:
+            self.zoom_counter += 1
+            
             self.view.scale(SCALE_FACTOR, SCALE_FACTOR)
             
             self.resizeDisplayWidget()
@@ -209,6 +206,8 @@ class QCliWidget(QWidget):
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
         else:
+            self.zoom_counter -= 1
+            
             self.view.scale(1 / SCALE_FACTOR, 1 / SCALE_FACTOR)
             
             self.resizeDisplayWidget()
