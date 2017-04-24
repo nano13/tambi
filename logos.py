@@ -27,7 +27,7 @@ class Logos(QMainWindow):
         self.tab_widget = self.initTabs()
         self.addNewCliTab()
         #self.addNewVocableTab()
-        self.addNewMusicWidgetTab()
+        #self.addNewMusicWidgetTab()
         
         self.resize(625, 670)
         self.center()

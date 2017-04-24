@@ -1,6 +1,7 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView
 from PyQt5.QtGui import QIcon, QTextFormat
+from PyQt5.QtCore import QRect, QRectF
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
@@ -13,11 +14,15 @@ from misc.unicodeFonts import UnicodeFonts
 
 from functools import partial
 
+SCALE_FACTOR = 1.15
+
 class QCliWidget(QWidget):
     
     interpreter = Interpreter()
     display_widget = None
     vkbd = None
+    
+    #zoom_counter = 0
     
     def __init__(self):
         super().__init__()
@@ -54,13 +59,48 @@ class QCliWidget(QWidget):
         self.grid.addWidget(zoomOutButton, 1, 3)
         
     def addDisplayWidget(self):
-        self.grid.addWidget(self.display_widget, 0, 0, 1, 0)
+        #self.grid.addWidget(self.display_widget, 0, 0, 1, 0)
+        
+        self.view = QGraphicsView()
+        self.scene = QGraphicsScene()
+        
+        self.scene.addWidget(self.display_widget)
+        self.view.setScene(self.scene)
+        
+        self.grid.addWidget(self.view, 0, 0, 1, 0)
+        
+        self.resizeDisplayWidget()
+        
+    def resizeDisplayWidget(self):
+        #view_rect = self.view.mapToScene(self.view.viewport().rect()).boundingRect()
+        #self.view.fitInView(rect)
+        
+        #self.scene.setSceneRect(0, 0, self.view.width(), self.view.height())
+        
+        #view_rect = self.view.viewport().rect()
+        #view_rect = self.view.mapToScene(view_rect).boundingRect()
+        #print(view_rect)
+        
+        x = self.view.width() -2
+        y = self.view.height() -2
+        print(x, y)
+        self.x, self.y = x, y
+        
+        self.display_widget.setFixedSize(x, y)
+        self.scene.setSceneRect(0, 0, x, y)
+        
+    def resizeEvent(self, event):
+        #super().resizeEvent(event)
+        self.resizeDisplayWidget()
     
     def vkbdButtonClicked(self, lineEdit):
         self.vkbd = QVirtualKeyboardWindow()
         self.vkbd.setLineEdit(lineEdit)
     
     def commandEntered(self, command):
+        # to keep the display_widget in the correct size
+        self.resize(self.x, self.y)
+        
         print("command:", command)
         try:
             result = self.interpreter.interpreter(command)
@@ -138,6 +178,7 @@ class QCliWidget(QWidget):
         self.addDisplayWidget()
         
     def onZoomInClicked(self):
+        
         if type(self.display_widget) == QTextEdit:
             size = self.display_widget.fontPointSize()
             
@@ -149,13 +190,13 @@ class QCliWidget(QWidget):
                 self.display_widget.setFontPointSize(size +1)
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
-                
-        elif type(self.display_widget) == QTableWidget:
-            pass
-            #scene = QGraphicsScene()
-            #scene.addWidget(self.display_widget)
+        else:
+            self.view.scale(SCALE_FACTOR, SCALE_FACTOR)
+            
+            self.resizeDisplayWidget()
     
     def onZoomOutClicked(self):
+        
         if type(self.display_widget) == QTextEdit:
             size = self.display_widget.fontPointSize()
             
@@ -167,7 +208,8 @@ class QCliWidget(QWidget):
                 self.display_widget.setFontPointSize(size -1)
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
-                
-        elif type(self.display_widget) == QTableWidget:
-            pass
+        else:
+            self.view.scale(1 / SCALE_FACTOR, 1 / SCALE_FACTOR)
+            
+            self.resizeDisplayWidget()
     
