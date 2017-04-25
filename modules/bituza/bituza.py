@@ -44,6 +44,7 @@ class Bituza(object):
             "bituza.stats" : self.stats,
             
             "bituza.word" : self.word,
+            "bituza.full" : self.full,
             "bituza.elberfelder" : self.elberfelder,
             "bituza.tr" : self.textusReceptus,
             "bituza.structure" : self.structure,
@@ -350,10 +351,17 @@ class Bituza(object):
 
             else:
                 return(result)
+    
+    def full(self, c, a):
+        query = "SELECT unicode, translation_de, transcription FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=? AND verse=?"
         
+    
     def word(self, c, a):
-        query_head = "SELECT book_string, chapter, verse, unicode, translation_de, transcription, tw, code, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=?"
-        head = "buch", "kapitel", "vers", "unicode", "elberfelder", "transcription", "tw", "code", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
+        #query_head = "SELECT book_string, chapter, verse, unicode, translation_de, transcription, tw, code, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=?"
+        #head = "buch", "kapitel", "vers", "unicode", "elberfelder", "transcription", "tw", "code", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
+        
+        query_head = "SELECT unicode, translation_de, transcription FROM word NATURAL JOIN structure WHERE book_id=? AND chapter=?"
+        head = "unicode", "elberfelder", "transcription"
         
         dictOT = self.booksDictOT()
         dictNT = self.booksDictNT()
@@ -428,53 +436,6 @@ class Bituza(object):
             result_object.header = head
             result_object.name = name
             return result_object
-        
-    def resultInTextWidget(self, head, result, name):
-        from lib.widgets.speakingTextWidget import SpeakingTextWidget
-        textWidget = SpeakingTextWidget(self.Universe, name)
-        
-        return textWidget, "tw"
-        
-    def resultInTable(self, head, result, metaLang, name):
-        result = Result()
-        result.payload = result
-        result.metaload = metaLang
-        #print("NAME:", name)
-        return result
-        
-    def resultInTableOLD(self, head, result, metaLanguage, name):
-        try:
-            result_first_element = result[0]
-        except:
-            result = Result()
-            result.error = "FEHLER: kein Ergebnis gefunden!"
-            return result
-        else:
-            #table = SpeakingTableWidget(len(result), len(result_first_element), self.Universe, name)
-            
-            #table.setHorizontalHeaderLabels(head)
-            
-            row = -1
-            for line in result:
-                row += 1
-                
-                column = -1
-                for item in line:
-                    column += 1
-                    
-                    table.setItem(row, column, QtGui.QTableWidgetItem(unicode(item)) )
-                    metaData = MetaData()
-                    metaData.Language = metaLanguage[column]
-                    table.setDescription(row, column, metaData)
-                    
-                    #print item, metaData.Language
-            
-            table.resizeColumnsToContents()
-            
-            self.ResultObject.Payload.SpeakingTableWidget = table
-            return self.ResultObject
-        #return table, "table"
-#        return "bla", "blub"
         
     def elberfelder(self, c, args):
         result_object = Result()
