@@ -6,8 +6,9 @@ from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
 from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
 from QCustomizedWidgets.QAmazingGraceWidget import QAmazingGraceWidget
 
+from misc.unicodeFonts import UnicodeFonts
+
 class QCoreTab(QWidget):
-    
     
     def __init__(self):
         super().__init__()
@@ -32,7 +33,8 @@ class QCoreTab(QWidget):
             for line in fobj:
                 data += line
         
-        self.unicode_fonts.applyFontAndSizeToQWidget(data, editor)
+        unicode_fonts = UnicodeFonts()
+        unicode_fonts.applyFontAndSizeToQWidget(data, editor)
         editor.setText(data)
         
         return editor
