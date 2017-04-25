@@ -1,1 +1,3 @@
 WLC: genesis 8, 17
+
+TR: markus 1, 9
