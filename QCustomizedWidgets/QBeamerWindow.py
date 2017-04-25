@@ -10,7 +10,7 @@ class QBeamerWindow(QDialog):
     def __init__(self):
         super().__init__()
         
-        self.setStyleSheet('QWidget { background-color: darkgreen; }')
+        self.setStyleSheet('QWidget { background-color: black; }')
         #self.layout = QtWidgets.QGridLayout()
         self.layout = QtWidgets.QVBoxLayout()
         self.layout.setContentsMargins(0, 0, 0, 0)
@@ -39,7 +39,7 @@ class QBeamerWindow(QDialog):
         
         font = QtGui.QFont("Cyberbit", 50)
         label.setFont(font)
-        label.setStyleSheet('QLabel { color: yellow; }')
+        label.setStyleSheet('QLabel { color: white; }')
         
         
         label.setText(text)
