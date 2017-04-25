@@ -110,7 +110,7 @@ class Logos(QMainWindow):
     def initGUI(self):
         self.setWindowIcon(QIcon('./assets/icons/logo2.png'))
         
-        self.statusBar().showMessage('Ready')
+        #self.statusBar().showMessage('Ready')
         
         #screen_rectangle = QDesktopWidget().availableGeometry()
         #sx, sy = screen_rectangle.getRect()[2], screen_rectangle.getRect()[3]

@@ -28,7 +28,7 @@ class QCliWidget(QWidget):
         self.unicode_fonts = UnicodeFonts()
         
         self.grid = QGridLayout()
-        self.grid.setContentsMargins(0, 0, 0, 0)
+        self.grid.setContentsMargins(0, 0, 0, 6)
         self.setLayout(self.grid)
         
         self.display_widget = QTextEdit()
