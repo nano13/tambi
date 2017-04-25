@@ -119,8 +119,19 @@ class Logos(QMainWindow):
         
         MenuBar(self)
         
+        self.applyStylesheet()
+        
         self.setWindowTitle('logos')
         self.show()
+        
+    def applyStylesheet(self):
+        path = './assets/css/qt_dark.css'
+        stylesheet = ''
+        with open(path) as css:
+            for line in css:
+                stylesheet += line
+        
+        self.setStyleSheet(stylesheet)
         
     def initTabs(self):
         tab_widget = QTabWidget()

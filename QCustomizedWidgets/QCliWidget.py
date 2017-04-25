@@ -56,6 +56,17 @@ class QCliWidget(QWidget):
         zoomOutButton.clicked.connect(self.onZoomOutClicked)
         self.grid.addWidget(zoomOutButton, 1, 3)
         
+        self.applyStylesheet()
+        
+    def applyStylesheet(self):
+        path = './assets/css/qt_dark.css'
+        stylesheet = ''
+        with open(path) as css:
+            for line in css:
+                stylesheet += line
+        
+        self.display_widget.setStyleSheet(stylesheet)
+    
     def addDisplayWidget(self):
         #self.grid.addWidget(self.display_widget, 0, 0, 1, 0)
         
@@ -69,6 +80,8 @@ class QCliWidget(QWidget):
         self.grid.addWidget(self.view, 0, 0, 1, 0)
         
         self.resizeDisplayWidget()
+        
+        self.applyStylesheet()
         
     def resizeDisplayWidget(self):
         x = self.view.width() -2.1
