@@ -15,7 +15,7 @@ class UnicodeFonts(object):
     
     arabic_size = 40
     hebrew_size = 20
-    greek_size = 20
+    greek_size = 15
     
     def __init__(self):
         scriptpath = os.path.dirname(os.path.abspath(__file__))
