@@ -69,8 +69,6 @@ class SwordDownloadmanager(object):
         mod_d_path = os.path.join(os.sep, temp_path, 'mods.d')
         base, dirs, files = next(iter(os.walk(mod_d_path)))
         
-        
-        
         for conf in files:
             mod_name = conf.split('.')[0]
             print('### '+mod_name+' ###')
@@ -84,7 +82,14 @@ class SwordDownloadmanager(object):
             else:
                 sections = config.sections()
                 
-                description = config[sections[0]]['Description']
+                try:
+                    description = config[sections[0]]['Description']
+                    version = config[sections[0]]['Version']
+                except KeyError:
+                    # we are still not interested in broken or problematic modules
+                    pass
+                else:
+                    pass
             
             
             
