@@ -11,7 +11,9 @@ from safe_tar_extract import SafeTarExtract
 
 class SwordDownloadmanager(object):
     
-    available_modules = []
+    remote_modules = []
+    locale_modules = []
+    
     
     def __init__(self, sword_modules_path=None):
         if sword_modules_path is None:
@@ -24,7 +26,8 @@ class SwordDownloadmanager(object):
         else:
             self.sword_modules_path = sword_modules_path
         
-        modules = [
+    def getServerList(self):
+        return [
             {
                 'name': 'CrossWire Bible Society (main)',
                 'base': 'ftp.crosswire.org',
@@ -41,13 +44,8 @@ class SwordDownloadmanager(object):
                 'path': '/pub/sword/wyclifferaw/',
             },
         ]
-        
-        for mod in modules:
-            print(mod['name'])
-            self.fetchModulesList(mod['name'], mod['base'], mod['path'])
-        print(self.available_modules)
     
-    def _fetchModulesList(self, site, repository_dir):
+    def _listRemoteModules(self, site, repository_dir):
         
         with FTP(site) as ftp:
             ftp.login()
@@ -55,7 +53,15 @@ class SwordDownloadmanager(object):
         
         
     
-    def fetchModulesList(self, name, site, repository_dir):
+    def listRemoteModules(self):
+        server_list = self.getServerList()
+        
+        for mod in server_list:
+            print(mod['name'])
+            self.processRemoteModule(mod['name'], mod['base'], mod['path'])
+        #print(self.remote_modules)
+        
+    def processRemoteModule(self, name, site, repository_dir):
         thetarfile = "ftp://"+site+repository_dir+"mods.d.tar.gz"
         ftpstream = urllib.request.urlopen(thetarfile)
         thetarfile = tarfile.open(fileobj=ftpstream, mode="r|gz")
@@ -69,6 +75,9 @@ class SwordDownloadmanager(object):
         safe_tar_extract.extractSafely(temp_file_path, thetarfile)
         
         self.processConfigFiles(name, site, repository_dir, temp_file_path)
+        
+    def listLocalModules(self):
+        self.processConfigFiles(None, None, None, self.sword_modules_path)
         
     def processConfigFiles(self, name, site, repository_dir, temp_path):
         mod_d_path = os.path.join(os.sep, temp_path, 'mods.d')
@@ -103,13 +112,54 @@ class SwordDownloadmanager(object):
                         'description': description,
                         'version': version,
                     }
-                    self.available_modules.append(current_module)
-    
-    def listAlreadyInstalledModules(self):
-        pass
+                    if name is not None:
+                        self.remote_modules.append(current_module)
+                    else:
+                        self.locale_modules.append(current_module)
     
     def listModulesWithNeverVersionAvailable(self):
-        pass
+        if len(self.locale_modules) is 0:
+            self.listLocalModules()
+        if len(self.remote_modules) is 0:
+            self.listRemoteModules()
+        
+        for local_module in self.locale_modules:
+            for remote_module in self.remote_modules:
+                if local_module['name'] == remote_module['name']:
+                    if self.isVersionNumberGreater(remote_module['version'], local_module['version']):
+                        print("Module "+local_module['name']+" needs update!")
+            
+            #newer = self.isVersionNumberGreater(local_module['version'], 
+    
+    # is number_a > number_b ?
+    def isVersionNumberGreater(self, number_a, number_b):
+        a = number_a.split('.')
+        b = number_b.split('.')
+        print(a, b)
+        
+        for i in range(0, len(a)):
+            for j in range(0, len(b)):
+                if a[i] > b[i]:
+                    return True
+        """
+        if a[0] > b[0]:
+            return True
+        elif a[1] > b[1]:
+            return True
+        elif a[2] > b[2]:
+            return True
+        else:
+            return False
+        """
     
 if __name__ == '__main__':
     c = SwordDownloadmanager()
+    #c.listRemoteModules()
+    #c.listLocalModules()
+    
+    print(c.remote_modules)
+    print(c.locale_modules)
+    
+    #c.listModulesWithNeverVersionAvailable()
+    print(c.isVersionNumberGreater('1.1.1', '2.2.2'))
+    
