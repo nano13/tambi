@@ -1,19 +1,23 @@
 
 from ftplib import FTP
 from io import StringIO
+from shutil import copyfile, rmtree
 import tarfile
-import urllib.request
+import urllib.request, urllib
 import tempfile
 import os, sys
 import configparser
+import getpass
 
 from safe_tar_extract import SafeTarExtract
+
+class ModuleNotFound(Exception):
+    pass
 
 class SwordDownloadmanager(object):
     
     remote_modules = []
-    locale_modules = []
-    
+    local_modules = []
     
     def __init__(self, sword_modules_path=None):
         if sword_modules_path is None:
@@ -45,13 +49,58 @@ class SwordDownloadmanager(object):
             },
         ]
     
-    def _listRemoteModules(self, site, repository_dir):
+    def getTempPath(self):
+        return os.path.join(os.sep, tempfile.gettempdir(), 'logos_sword_'+getpass.getuser())
+    
+    def downloadModule(self, module_name):
+        self.downloadListsIfNeccessary()
         
-        with FTP(site) as ftp:
-            ftp.login()
-            ftp.cwd(repository_dir)
+        temp_path = self.getTempPath()
         
+        for module in self.remote_modules:
+            if module['name'] == module_name:
+                
+                # copy .conf-file from temp to sword-folder:
+                source_file = os.path.join(os.sep, temp_path, module['repository_name'], 'mods.d', module_name.lower()+'.conf')
+                destination_file = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
+                
+                copyfile(source_file, destination_file)
+                
+                # download modules files from ftp to sword-folder:
+                destination_folder = os.path.join(os.sep, self.sword_modules_path, module['datapath'])
+                if not os.path.exists(destination_folder):
+                    os.mkdir(destination_folder)
+                
+                
+                with FTP(module['repository_base']) as ftp:
+                    ftp.login()
+                    ftp.cwd(module['repository_path']+'/'+module['datapath'])
+                    
+                    listing = ftp.nlst()
+                    for data_file in listing:
+                        source_folder = 'ftp://'+module['repository_base']+module['repository_path']+module['datapath']+data_file
+                        
+                        urllib.request.urlretrieve(source_folder, destination_folder+data_file)
+                        
+                
+            #raise ModuleNotFound('module '+module_name+' not found on the remote repositories')
+    
+    def deleteModule(self, module_name):
+        # we could parse the cofig file separately (would be a lot more performant),
+        # but we can just use the already implemented infrastructure:
+        if len(self.local_modules) is 0:
+            self.listLocalModules()
         
+        for module in self.local_modules:
+            if module['name'] == module_name:
+                print(module)
+                
+                conf_path = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
+                dir_path = os.path.join(os.sep, self.sword_modules_path, module['datapath'])
+                
+                os.remove(conf_path)
+                rmtree(dir_path)
+                
     
     def listRemoteModules(self):
         server_list = self.getServerList()
@@ -66,7 +115,7 @@ class SwordDownloadmanager(object):
         ftpstream = urllib.request.urlopen(thetarfile)
         thetarfile = tarfile.open(fileobj=ftpstream, mode="r|gz")
         
-        temp_path = os.path.join(os.sep, tempfile.gettempdir(), 'logos_sword')
+        temp_path = self.getTempPath()
         if not os.path.exists(temp_path):
             os.mkdir(temp_path)
         temp_file_path = os.path.join(os.sep, temp_path, name)
@@ -99,6 +148,7 @@ class SwordDownloadmanager(object):
                 try:
                     description = config[sections[0]]['Description']
                     version = config[sections[0]]['Version']
+                    datapath = config[sections[0]]['DataPath']
                 except KeyError:
                     # we are still not interested in broken or problematic modules
                     pass
@@ -111,19 +161,23 @@ class SwordDownloadmanager(object):
                         'name': sections[0],
                         'description': description,
                         'version': version,
+                        'datapath': datapath,
                     }
                     if name is not None:
                         self.remote_modules.append(current_module)
                     else:
-                        self.locale_modules.append(current_module)
+                        self.local_modules.append(current_module)
     
-    def listModulesWithNeverVersionAvailable(self):
-        if len(self.locale_modules) is 0:
+    def downloadListsIfNeccessary(self):
+        if len(self.local_modules) is 0:
             self.listLocalModules()
         if len(self.remote_modules) is 0:
             self.listRemoteModules()
+    
+    def listModulesWithNeverVersionAvailable(self):
+        self.downloadListsIfNeccessary()
         
-        for local_module in self.locale_modules:
+        for local_module in self.local_modules:
             for remote_module in self.remote_modules:
                 if local_module['name'] == remote_module['name']:
                     if self.isVersionNumberGreater(remote_module['version'], local_module['version']):
@@ -151,9 +205,11 @@ if __name__ == '__main__':
     #c.listRemoteModules()
     #c.listLocalModules()
     
-    print(c.remote_modules)
-    print(c.locale_modules)
+    #print(c.remote_modules)
+    #print(c.local_modules)
     
-    c.listModulesWithNeverVersionAvailable()
-    #print(c.isVersionNumberGreater('2', '1.1.1'))
+    #c.listModulesWithNeverVersionAvailable()
+    #print(c.isVersionNumberGreater('2.1', '1.1.1'))
     
+    #c.downloadModule('CzeBKR')
+    #c.deleteModule('CzeBKR')
