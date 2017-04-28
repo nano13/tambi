@@ -28,6 +28,7 @@ class Logos(QMainWindow):
         self.addNewCliTab()
         #self.addNewVocableTab()
         #self.addNewMusicWidgetTab()
+        self.addNewSwordModuleManagerTab()
         
         self.resize(625, 670)
         self.center()
@@ -171,6 +172,12 @@ class Logos(QMainWindow):
     def addNewMusicWidgetTab(self):
         tab = QCoreTab().musicBeamerTab()
         self.tab_widget.addTab(tab, "music beamer")
+        
+        self.activateNewTab()
+    
+    def addNewSwordModuleManagerTab(self):
+        tab = QCoreTab().swordModuleManagerTab()
+        self.tab_widget.addTab(tab, "sword module manager")
         
         self.activateNewTab()
     

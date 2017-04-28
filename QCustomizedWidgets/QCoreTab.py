@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QHBoxLayout, QPushButton, QTex
 from QCustomizedWidgets.QCliWidget import QCliWidget
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
 from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
+from QCustomizedWidgets.QSwordModuleManager import QSwordModuleManager
 from QCustomizedWidgets.QAmazingGraceWidget import QAmazingGraceWidget
 
 from misc.unicodeFonts import UnicodeFonts
@@ -46,6 +47,10 @@ class QCoreTab(QWidget):
     def musicBeamerTab(self):
         music_beamer_widget = QMusicBeamerWidget()
         return music_beamer_widget
+    
+    def swordModuleManagerTab(self):
+        smm = QSwordModuleManager()
+        return smm
     
     def amazingGraceTab(self):
         amazing = QAmazingGraceWidget()
