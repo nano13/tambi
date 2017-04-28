@@ -129,7 +129,6 @@ class SwordDownloadmanager(object):
                     if self.isVersionNumberGreater(remote_module['version'], local_module['version']):
                         print("Module "+local_module['name']+" needs update!")
             
-            #newer = self.isVersionNumberGreater(local_module['version'], 
     
     # is number_a > number_b ?
     def isVersionNumberGreater(self, number_a, number_b):
@@ -138,19 +137,14 @@ class SwordDownloadmanager(object):
         print(a, b)
         
         for i in range(0, len(a)):
-            for j in range(0, len(b)):
+            if len(b) > i:
                 if a[i] > b[i]:
                     return True
-        """
-        if a[0] > b[0]:
-            return True
-        elif a[1] > b[1]:
-            return True
-        elif a[2] > b[2]:
-            return True
-        else:
-            return False
-        """
+                elif a[i] < b[i]:
+                    return False
+            else:
+                return True # because: something > nothing
+        return False
     
 if __name__ == '__main__':
     c = SwordDownloadmanager()
@@ -160,6 +154,6 @@ if __name__ == '__main__':
     print(c.remote_modules)
     print(c.locale_modules)
     
-    #c.listModulesWithNeverVersionAvailable()
-    print(c.isVersionNumberGreater('1.1.1', '2.2.2'))
+    c.listModulesWithNeverVersionAvailable()
+    #print(c.isVersionNumberGreater('2', '1.1.1'))
     
