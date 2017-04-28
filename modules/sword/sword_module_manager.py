@@ -33,10 +33,10 @@ class SwordDownloadmanager(object):
             },
         ]
         
-        #self.fetchModulesList('ftp.crosswire.org', '/pub/sword/raw/')
         for mod in modules:
             print(mod['name'])
             self.fetchModulesList(mod['name'], mod['base'], mod['path'])
+        print(self.available_modules)
     
     def _fetchModulesList(self, site, repository_dir):
         
@@ -50,10 +50,6 @@ class SwordDownloadmanager(object):
         thetarfile = "ftp://"+site+repository_dir+"mods.d.tar.gz"
         ftpstream = urllib.request.urlopen(thetarfile)
         thetarfile = tarfile.open(fileobj=ftpstream, mode="r|gz")
-        
-        #for conf in thetarfile:
-            #print(conf.name)
-            #print(conf.mtime)
         
         temp_path = os.path.join(os.sep, tempfile.gettempdir(), 'logos_sword')
         if not os.path.exists(temp_path):
@@ -71,7 +67,7 @@ class SwordDownloadmanager(object):
         
         for conf in files:
             mod_name = conf.split('.')[0]
-            print('### '+mod_name+' ###')
+            #print('### '+mod_name+' ###')
             
             config = configparser.ConfigParser(strict=False)
             try:
@@ -89,10 +85,20 @@ class SwordDownloadmanager(object):
                     # we are still not interested in broken or problematic modules
                     pass
                 else:
-                    pass
-            
-            
-            
+                    current_module = {
+                        'repository_name': name,
+                        'repository_base': site,
+                        'repository_path': repository_dir,
+                        
+                        'name': sections[0],
+                        'description': description,
+                        'version': version,
+                    }
+                    self.available_modules.append(current_module)
+    
+    def listAlreadyInstalledModules(self):
+        pass
+    
     
 if __name__ == '__main__':
     c = SwordDownloadmanager()
