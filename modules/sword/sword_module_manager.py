@@ -4,7 +4,7 @@ from io import StringIO
 import tarfile
 import urllib.request
 import tempfile
-import os
+import os, sys
 import configparser
 
 from safe_tar_extract import SafeTarExtract
@@ -13,7 +13,16 @@ class SwordDownloadmanager(object):
     
     available_modules = []
     
-    def __init__(self):
+    def __init__(self, sword_modules_path=None):
+        if sword_modules_path is None:
+            if sys.platform.startswith('win32'):
+                self.sword_modules_path = os.path.join(os.getenv('APPDATA'), 'Sword')
+            elif sys.platform.startswith('darwin'):
+                self.sword_modules_path = os.path.join(os.getenv('HOME'), 'Library', 'Application Support', 'Sword')
+            else: # linux, etc.
+                self.sword_modules_path = os.path.join(os.getenv('HOME'), '.sword')
+        else:
+            self.sword_modules_path = sword_modules_path
         
         modules = [
             {
@@ -67,7 +76,7 @@ class SwordDownloadmanager(object):
         
         for conf in files:
             mod_name = conf.split('.')[0]
-            #print('### '+mod_name+' ###')
+            #print('=== '+mod_name+' ===')
             
             config = configparser.ConfigParser(strict=False)
             try:
@@ -99,6 +108,8 @@ class SwordDownloadmanager(object):
     def listAlreadyInstalledModules(self):
         pass
     
+    def listModulesWithNeverVersionAvailable(self):
+        pass
     
 if __name__ == '__main__':
     c = SwordDownloadmanager()
