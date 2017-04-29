@@ -21,7 +21,6 @@ class QSwordModuleManager(QWidget):
         result = []
         remote_data = self.module_manager.listRemoteModules()
         
-        """
         repositories_dict = {}
         for data in remote_data:
             print(data)
@@ -34,7 +33,7 @@ class QSwordModuleManager(QWidget):
             else:
                 repositories_dict[data['repository_name']] = [item]
         print(repositories_dict)
-        """
+        
         return result
         
     def prepareLocalData(self):
