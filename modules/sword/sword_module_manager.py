@@ -1,9 +1,8 @@
 
 from ftplib import FTP
-from io import StringIO
 from shutil import copyfile, rmtree
 import tarfile
-import urllib.request, urllib
+import urllib.request
 import tempfile
 import os, sys
 import configparser
@@ -93,7 +92,6 @@ class SwordDownloadmanager(object):
         
         for module in self.local_modules:
             if module['name'] == module_name:
-                print(module)
                 
                 conf_path = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
                 dir_path = os.path.join(os.sep, self.sword_modules_path, module['datapath'])
