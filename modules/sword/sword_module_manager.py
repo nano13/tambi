@@ -8,12 +8,12 @@ import os, sys
 import configparser
 import getpass
 
-from safe_tar_extract import SafeTarExtract
+from modules.sword.safe_tar_extract import SafeTarExtract
 
 class ModuleNotFound(Exception):
     pass
 
-class SwordDownloadmanager(object):
+class SwordModuleManager(object):
     
     remote_modules = []
     local_modules = []
@@ -106,7 +106,8 @@ class SwordDownloadmanager(object):
         for mod in server_list:
             print(mod['name'])
             self.processRemoteModule(mod['name'], mod['base'], mod['path'])
-        #print(self.remote_modules)
+            
+        return self.remote_modules
         
     def processRemoteModule(self, name, site, repository_dir):
         thetarfile = "ftp://"+site+repository_dir+"mods.d.tar.gz"
@@ -125,6 +126,8 @@ class SwordDownloadmanager(object):
         
     def listLocalModules(self):
         self.processConfigFiles(None, None, None, self.sword_modules_path)
+        
+        return self.local_modules
         
     def processConfigFiles(self, name, site, repository_dir, temp_path):
         mod_d_path = os.path.join(os.sep, temp_path, 'mods.d')
@@ -147,6 +150,7 @@ class SwordDownloadmanager(object):
                     description = config[sections[0]]['Description']
                     version = config[sections[0]]['Version']
                     datapath = config[sections[0]]['DataPath']
+                    language = config[sections[0]]['Lang']
                 except KeyError:
                     # we are still not interested in broken or problematic modules
                     pass
@@ -160,6 +164,7 @@ class SwordDownloadmanager(object):
                         'description': description,
                         'version': version,
                         'datapath': datapath,
+                        'language': language,
                     }
                     if name is not None:
                         self.remote_modules.append(current_module)
@@ -199,7 +204,7 @@ class SwordDownloadmanager(object):
         return False
     
 if __name__ == '__main__':
-    c = SwordDownloadmanager()
+    c = SwordModuleManager()
     #c.listRemoteModules()
     #c.listLocalModules()
     
