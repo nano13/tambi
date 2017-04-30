@@ -20,6 +20,7 @@ class SwordModuleManager(object):
     
     remote_modules = {}
     local_modules = {}
+    #modules_struct = {}
     
     def __init__(self, sword_modules_path=None):
         if sword_modules_path is None:
@@ -158,16 +159,14 @@ class SwordModuleManager(object):
                     # we are still not interested in broken or problematic modules
                     pass
                 else:
-                    
+                    item = {
+                        'name': sections[0],
+                        'description': description,
+                        'datapath': datapath,
+                        'version': version,
+                    }
                     # we are dealing with the remote modules:
                     if name is not None:
-                        
-                        item = {
-                            'name': sections[0],
-                            'description': description,
-                            'datapath': datapath,
-                            'version': version,
-                        }
                         if not name in self.remote_modules:
                             self.remote_modules[name] = {}
                             pass
@@ -181,12 +180,6 @@ class SwordModuleManager(object):
                         
                     # we are dealing with the localy installed modules:
                     else:
-                        item = {
-                            'name': sections[0],
-                            'description': description,
-                            'datapath' : datapath,
-                            'version': version,
-                        }
                         if language in self.local_modules:
                             self.local_modules[language].append(item)
                         else:
@@ -210,6 +203,8 @@ class SwordModuleManager(object):
                     else:
                         self.local_modules.append(current_module)
                     """
+        #self.modules_struct['remote'] = self.remote_modules
+        #self.modules_struct['local'] = self.local_modules
     
     def downloadListsIfNeccessary(self):
         if len(self.local_modules) is 0:
