@@ -61,22 +61,16 @@ class SwordModuleManager(object):
         temp_path = self.getTempPath()
         
         for repo in self.modules_struct:
-            print("===", repo)
             # we do not want to 'install' a module from locale to locale ...
             if repo is not 'local':
                 for language in self.modules_struct[repo]['modules']:
-                    print(language)
                     for module in self.modules_struct[repo]['modules'][language]:
-                        print(module)
                         #if module[language]['name'] == module_name:
                         if module['name'] == module_name:
                             
                             # copy .conf-file from temp to sword-folder:
                             source_file = os.path.join(os.sep, temp_path, repo, 'mods.d', module_name.lower()+'.conf')
                             destination_file = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
-                            
-                            print(source_file)
-                            print(destination_file)
                             
                             copyfile(source_file, destination_file)
                             
@@ -95,10 +89,7 @@ class SwordModuleManager(object):
                                     #source_folder = 'ftp://'+module['repository_base']+module['repository_path']+module['datapath']+data_file
                                     source_folder = 'ftp://'+self.modules_struct[repo]['server_info']['site']+self.modules_struct[repo]['server_info']['dir']+module['datapath']+data_file
                                     
-                                    print(source_folder)
-                                    
                                     urllib.request.urlretrieve(source_folder, destination_folder+data_file)
-                                
                 
             #raise ModuleNotFound('module '+module_name+' not found on the remote repositories')
     
@@ -106,15 +97,15 @@ class SwordModuleManager(object):
         if len(self.modules_struct) is 0:
             self.listLocalModules()
         
-        for module in self.modules_struct:
-            if module['name'] == module_name:
-                
-                conf_path = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
-                dir_path = os.path.join(os.sep, self.sword_modules_path, module['datapath'])
-                
-                os.remove(conf_path)
-                rmtree(dir_path)
-                
+        for language in self.modules_struct['local']['modules']:
+            for module in self.modules_struct['local']['modules'][language]:
+                if module['name'] == module_name:
+                    conf_path = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
+                    dir_path = os.path.join(os.sep, self.sword_modules_path, module['datapath'])
+                    
+                    os.remove(conf_path)
+                    rmtree(dir_path)
+    
     def getAllModules(self):
         self.listRemoteModules()
         self.listLocalModules()
@@ -124,7 +115,7 @@ class SwordModuleManager(object):
         server_list = self.getServerList()
         
         for mod in server_list:
-            print(mod['name'])
+            print('fetching list:', mod['name'])
             self.processRemoteModule(mod['name'], mod['base'], mod['path'])
             
         return self.modules_struct
@@ -206,7 +197,6 @@ class SwordModuleManager(object):
                 if local_module['name'] == remote_module['name']:
                     if self.isVersionNumberGreater(remote_module['version'], local_module['version']):
                         print("Module "+local_module['name']+" needs update!")
-            
     
     # is number_a > number_b ?
     def isVersionNumberGreater(self, number_a, number_b):
@@ -235,4 +225,4 @@ if __name__ == '__main__':
     #print(c.isVersionNumberGreater('2.1', '1.1.1'))
     
     #c.downloadModule('CzeBKR')
-    c.deleteModule('CzeBKR')
+    #c.deleteModule('CzeBKR')
