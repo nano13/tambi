@@ -174,43 +174,12 @@ class SwordModuleManager(object):
                         name = 'local'
                         
                     if not name in self.modules_struct:
-                        self.modules_struct[name] = {}
-                        pass
+                        self.modules_struct[name] = {'modules': {}, 'server_info': {'site': site, 'dir': repository_dir}}
                         
-                    if True:
-                        if language in self.modules_struct[name]:
-                            self.modules_struct[name][language].append(item)
-                        else:
-                            self.modules_struct[name][language] = [item]
-                            
-                    """
-                    # we are dealing with the localy installed modules:
+                    if language in self.modules_struct[name]['modules']:
+                        self.modules_struct[name]['modules'][language].append(item)
                     else:
-                        if language in self.local_modules:
-                            self.local_modules[language].append(item)
-                        else:
-                            self.local_modules[language] = [item]
-                    """
-                    
-                    """
-                    current_module = {
-                        'repository_name': name,
-                        'repository_base': site,
-                        'repository_path': repository_dir,
-                        
-                        'name': sections[0],
-                        'description': description,
-                        'version': version,
-                        'datapath': datapath,
-                        'language': language,
-                    }
-                    if name is not None:
-                        self.modules_struct.append(current_module)
-                    else:
-                        self.local_modules.append(current_module)
-                    """
-        #self.modules_struct['remote'] = self.modules_struct
-        #self.modules_struct['local'] = self.local_modules
+                        self.modules_struct[name]['modules'][language] = [item]
     
     def downloadListsIfNeccessary(self):
         if len(self.local_modules) is 0:

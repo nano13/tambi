@@ -25,6 +25,8 @@ class QSwordModuleManager(QWidget):
         self.tree.setHeaderLabels(['module', 'description'])
         
         data = self.module_manager.getAllModules()
+        #print(data)
+        
         self.addRemoteModules(data)
     
     def addRemoteModules(self, data):
@@ -36,12 +38,12 @@ class QSwordModuleManager(QWidget):
                 parent.setText(0, 'Installed')
             parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
             
-            for language in sorted(data[repo_name]):
+            for language in sorted(data[repo_name]['modules']):
                 child = QTreeWidgetItem(parent)
                 child.setFlags(child.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
                 child.setText(0, language)
                 
-                for module in data[repo_name][language]:
+                for module in data[repo_name]['modules'][language]:
                     grandchild = QTreeWidgetItem(child)
                     grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
                     grandchild.setText(0, module['name'])
