@@ -24,15 +24,16 @@ class QSwordModuleManager(QWidget):
         self.tree.setColumnCount(2)
         self.tree.setHeaderLabels(['module', 'description'])
         
-        self.addRemoteModules()
-        self.addInstalledModules()
+        data = self.module_manager.getAllModules()
+        self.addRemoteModules(data)
     
-    def addRemoteModules(self):
-        data = self.module_manager.listRemoteModules()
-        
-        for repo_name in data:
+    def addRemoteModules(self, data):
+        for repo_name in sorted(data):
             parent = QTreeWidgetItem(self.tree)
-            parent.setText(0, repo_name)
+            if repo_name is not 'local':
+                parent.setText(0, repo_name)
+            else:
+                parent.setText(0, 'Installed')
             parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
             
             for language in sorted(data[repo_name]):
@@ -45,33 +46,15 @@ class QSwordModuleManager(QWidget):
                     grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
                     grandchild.setText(0, module['name'])
                     grandchild.setText(1, module['description'])
-                    grandchild.setCheckState(0, Qt.Unchecked)
-        
-        
-    def addInstalledModules(self):
-        data = self.module_manager.listLocalModules()
-        
-        parent = QTreeWidgetItem(self.tree)
-        parent.setText(0, "Installed")
-        parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
-        
-        for language in sorted(data):
-            child = QTreeWidgetItem(parent)
-            child.setFlags(child.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
-            child.setText(0, language)
-            
-            for module in data[language]:
-                grandchild = QTreeWidgetItem(child)
-                grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
-                grandchild.setText(0, module['name'])
-                grandchild.setText(1, module['description'])
-                grandchild.setCheckState(0, Qt.Checked)
-                    
+                    if repo_name is not 'local':
+                        grandchild.setCheckState(0, Qt.Unchecked)
+                    else:
+                        grandchild.setCheckState(0, Qt.Checked)
         self.tree.resizeColumnToContents(0)
-        
+    
     def itemSelectionChanged(self):
         print(self.tree.selectedItems())
-        
+    
     def expanded(self):
         self.tree.resizeColumnToContents(0)
     

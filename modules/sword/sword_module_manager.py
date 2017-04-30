@@ -18,9 +18,9 @@ class ModuleNotFound(Exception):
 
 class SwordModuleManager(object):
     
-    remote_modules = {}
-    local_modules = {}
     #modules_struct = {}
+    local_modules = {}
+    modules_struct = {}
     
     def __init__(self, sword_modules_path=None):
         if sword_modules_path is None:
@@ -60,7 +60,7 @@ class SwordModuleManager(object):
         
         temp_path = self.getTempPath()
         
-        for module in self.remote_modules:
+        for module in self.modules_struct:
             if module['name'] == module_name:
                 
                 # copy .conf-file from temp to sword-folder:
@@ -103,6 +103,10 @@ class SwordModuleManager(object):
                 os.remove(conf_path)
                 rmtree(dir_path)
                 
+    def getAllModules(self):
+        self.listRemoteModules()
+        self.listLocalModules()
+        return self.modules_struct
     
     def listRemoteModules(self):
         server_list = self.getServerList()
@@ -111,7 +115,7 @@ class SwordModuleManager(object):
             print(mod['name'])
             self.processRemoteModule(mod['name'], mod['base'], mod['path'])
             
-        return self.remote_modules
+        return self.modules_struct
         
     def processRemoteModule(self, name, site, repository_dir):
         thetarfile = "ftp://"+site+repository_dir+"mods.d.tar.gz"
@@ -166,25 +170,27 @@ class SwordModuleManager(object):
                         'version': version,
                     }
                     # we are dealing with the remote modules:
-                    if name is not None:
-                        if not name in self.remote_modules:
-                            self.remote_modules[name] = {}
-                            pass
-                            
-                        if True:
-                            if language in self.remote_modules[name]:
-                                self.remote_modules[name][language].append(item)
-                            else:
-                                self.remote_modules[name][language] = [item]
-                            
+                    if name is None:
+                        name = 'local'
                         
+                    if not name in self.modules_struct:
+                        self.modules_struct[name] = {}
+                        pass
+                        
+                    if True:
+                        if language in self.modules_struct[name]:
+                            self.modules_struct[name][language].append(item)
+                        else:
+                            self.modules_struct[name][language] = [item]
+                            
+                    """
                     # we are dealing with the localy installed modules:
                     else:
                         if language in self.local_modules:
                             self.local_modules[language].append(item)
                         else:
                             self.local_modules[language] = [item]
-                    
+                    """
                     
                     """
                     current_module = {
@@ -199,24 +205,24 @@ class SwordModuleManager(object):
                         'language': language,
                     }
                     if name is not None:
-                        self.remote_modules.append(current_module)
+                        self.modules_struct.append(current_module)
                     else:
                         self.local_modules.append(current_module)
                     """
-        #self.modules_struct['remote'] = self.remote_modules
+        #self.modules_struct['remote'] = self.modules_struct
         #self.modules_struct['local'] = self.local_modules
     
     def downloadListsIfNeccessary(self):
         if len(self.local_modules) is 0:
             self.listLocalModules()
-        if len(self.remote_modules) is 0:
+        if len(self.modules_struct) is 0:
             self.listRemoteModules()
     
     def listModulesWithNeverVersionAvailable(self):
         self.downloadListsIfNeccessary()
         
         for local_module in self.local_modules:
-            for remote_module in self.remote_modules:
+            for remote_module in self.modules_struct:
                 if local_module['name'] == remote_module['name']:
                     if self.isVersionNumberGreater(remote_module['version'], local_module['version']):
                         print("Module "+local_module['name']+" needs update!")
@@ -243,7 +249,7 @@ if __name__ == '__main__':
     c.listRemoteModules()
     #c.listLocalModules()
     
-    print(c.remote_modules)
+    print(c.modules_struct)
     print(c.local_modules)
     
     #c.listModulesWithNeverVersionAvailable()
