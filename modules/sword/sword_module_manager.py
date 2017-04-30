@@ -169,7 +169,6 @@ class SwordModuleManager(object):
                         'datapath': datapath,
                         'version': version,
                     }
-                    # we are dealing with the remote modules:
                     if name is None:
                         name = 'local'
                         
@@ -201,7 +200,6 @@ class SwordModuleManager(object):
     def isVersionNumberGreater(self, number_a, number_b):
         a = number_a.split('.')
         b = number_b.split('.')
-        print(a, b)
         
         for i in range(0, len(a)):
             if len(b) > i:
