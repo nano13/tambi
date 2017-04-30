@@ -56,45 +56,57 @@ class SwordModuleManager(object):
         return os.path.join(os.sep, tempfile.gettempdir(), 'logos_sword_'+getpass.getuser())
     
     def downloadModule(self, module_name):
-        self.downloadListsIfNeccessary()
-        
+        self.listRemoteModules()
+        #print(self.modules_struct)
         temp_path = self.getTempPath()
         
-        for module in self.modules_struct:
-            if module['name'] == module_name:
-                
-                # copy .conf-file from temp to sword-folder:
-                source_file = os.path.join(os.sep, temp_path, module['repository_name'], 'mods.d', module_name.lower()+'.conf')
-                destination_file = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
-                
-                copyfile(source_file, destination_file)
-                
-                # download modules files from ftp to sword-folder:
-                destination_folder = os.path.join(os.sep, self.sword_modules_path, module['datapath'])
-                if not os.path.exists(destination_folder):
-                    os.mkdir(destination_folder)
-                
-                
-                with FTP(module['repository_base']) as ftp:
-                    ftp.login()
-                    ftp.cwd(module['repository_path']+'/'+module['datapath'])
-                    
-                    listing = ftp.nlst()
-                    for data_file in listing:
-                        source_folder = 'ftp://'+module['repository_base']+module['repository_path']+module['datapath']+data_file
-                        
-                        urllib.request.urlretrieve(source_folder, destination_folder+data_file)
-                        
+        for repo in self.modules_struct:
+            print("===", repo)
+            # we do not want to 'install' a module from locale to locale ...
+            if repo is not 'local':
+                for language in self.modules_struct[repo]['modules']:
+                    print(language)
+                    for module in self.modules_struct[repo]['modules'][language]:
+                        print(module)
+                        #if module[language]['name'] == module_name:
+                        if module['name'] == module_name:
+                            
+                            # copy .conf-file from temp to sword-folder:
+                            source_file = os.path.join(os.sep, temp_path, repo, 'mods.d', module_name.lower()+'.conf')
+                            destination_file = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
+                            
+                            print(source_file)
+                            print(destination_file)
+                            
+                            copyfile(source_file, destination_file)
+                            
+                            # download modules files from ftp to sword-folder:
+                            destination_folder = os.path.join(os.sep, self.sword_modules_path, module['datapath'])
+                            if not os.path.exists(destination_folder):
+                                os.mkdir(destination_folder)
+                            
+                            with FTP(self.modules_struct[repo]['server_info']['site']) as ftp:
+                                ftp.login()
+                                #ftp.cwd(module['repository_path']+'/'+module['datapath'])
+                                ftp.cwd(self.modules_struct[repo]['server_info']['dir']+'/'+module['datapath'])
+                                
+                                listing = ftp.nlst()
+                                for data_file in listing:
+                                    #source_folder = 'ftp://'+module['repository_base']+module['repository_path']+module['datapath']+data_file
+                                    source_folder = 'ftp://'+self.modules_struct[repo]['server_info']['site']+self.modules_struct[repo]['server_info']['dir']+module['datapath']+data_file
+                                    
+                                    print(source_folder)
+                                    
+                                    urllib.request.urlretrieve(source_folder, destination_folder+data_file)
+                                
                 
             #raise ModuleNotFound('module '+module_name+' not found on the remote repositories')
     
     def deleteModule(self, module_name):
-        # we could parse the cofig file separately (would be a lot more performant),
-        # but we can just use the already implemented infrastructure:
-        if len(self.local_modules) is 0:
+        if len(self.modules_struct) is 0:
             self.listLocalModules()
         
-        for module in self.local_modules:
+        for module in self.modules_struct:
             if module['name'] == module_name:
                 
                 conf_path = os.path.join(os.sep, self.sword_modules_path, 'mods.d', module_name.lower()+'.conf')
@@ -213,14 +225,14 @@ class SwordModuleManager(object):
     
 if __name__ == '__main__':
     c = SwordModuleManager()
-    c.listRemoteModules()
+    #c.listRemoteModules()
     #c.listLocalModules()
     
-    print(c.modules_struct)
-    print(c.local_modules)
+    #print(c.modules_struct)
+    #print(c.local_modules)
     
     #c.listModulesWithNeverVersionAvailable()
     #print(c.isVersionNumberGreater('2.1', '1.1.1'))
     
     #c.downloadModule('CzeBKR')
-    #c.deleteModule('CzeBKR')
+    c.deleteModule('CzeBKR')
