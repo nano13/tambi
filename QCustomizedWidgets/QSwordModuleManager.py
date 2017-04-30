@@ -16,44 +16,6 @@ class QSwordModuleManager(QWidget):
         
         #self.addTreeWidgetExample()
         self.addTreeWidget()
-        
-    def prepareRemoteData(self):
-        result = []
-        remote_data = self.module_manager.listRemoteModules()
-        
-        repositories_dict = {}
-        for data in remote_data:
-            print(data)
-            item = {
-                'repository_name': data['repository_name'],
-            }
-            
-            if data['repository_name'] in repositories_dict:
-                repositories_dict[data['repository_name']].append(item)
-            else:
-                repositories_dict[data['repository_name']] = [item]
-        print(repositories_dict)
-        
-        return result
-        
-    def prepareLocalData(self):
-        result = []
-        local_data = self.module_manager.listLocalModules()
-        
-        local_modules_dict = {}
-        for module in local_data:
-            item = {
-                'name': module['name'],
-                'description': module['description'],
-            }
-            
-            if module['language'] in local_modules_dict:
-                local_modules_dict[module['language']].append(item)
-            else:
-                local_modules_dict[module['language']] = [item]
-        result.append({'installed': local_modules_dict})
-        
-        return result
     
     def addTreeWidget(self):
         self.tree = QTreeWidget()
@@ -66,31 +28,52 @@ class QSwordModuleManager(QWidget):
         self.addInstalledModules()
     
     def addRemoteModules(self):
-        data = self.prepareRemoteData()
+        #data = self.prepareRemoteData()
+        data = self.module_manager.listRemoteModules()
         
-        
-    def addInstalledModules(self):
-        data = self.prepareLocalData()
-        
-        for repo_name in data[0]:
-            repo = sorted(data[0][repo_name])
-            
+        for repo_name in data:
             parent = QTreeWidgetItem(self.tree)
-            parent.setText(0, "Installed")
+            parent.setText(0, repo_name)
             parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
             
-            for language in repo:
+            for language in sorted(data[repo_name]):
                 child = QTreeWidgetItem(parent)
                 child.setFlags(child.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
                 child.setText(0, language)
-                child.setCheckState(0, Qt.Checked)
                 
-                for i, module in enumerate(data[0]['installed'][language]):
+                for module in data[repo_name][language]:
                     grandchild = QTreeWidgetItem(child)
                     grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
                     grandchild.setText(0, module['name'])
                     grandchild.setText(1, module['description'])
-                    grandchild.setCheckState(0, Qt.Checked)
+                    grandchild.setCheckState(0, Qt.Unchecked)
+        
+        
+    def addInstalledModules(self):
+        #data = self.prepareLocalData()
+        data = self.module_manager.listLocalModules()
+        
+        #for repo_name in data[0]:
+        #repo = sorted(data[0][repo_name])
+        repo = sorted(data)
+        
+        parent = QTreeWidgetItem(self.tree)
+        parent.setText(0, "Installed")
+        parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
+        
+        for language in repo:
+            child = QTreeWidgetItem(parent)
+            child.setFlags(child.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
+            child.setText(0, language)
+            #child.setCheckState(0, Qt.Checked)
+            
+            #for i, module in enumerate(data[0]['installed'][language]):
+            for module in data[language]:
+                grandchild = QTreeWidgetItem(child)
+                grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
+                grandchild.setText(0, module['name'])
+                grandchild.setText(1, module['description'])
+                grandchild.setCheckState(0, Qt.Checked)
                     
         self.tree.resizeColumnToContents(0)
         

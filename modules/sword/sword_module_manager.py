@@ -8,15 +8,18 @@ import os, sys
 import configparser
 import getpass
 
-from modules.sword.safe_tar_extract import SafeTarExtract
+try:
+    from modules.sword.safe_tar_extract import SafeTarExtract
+except:
+    from safe_tar_extract import SafeTarExtract
 
 class ModuleNotFound(Exception):
     pass
 
 class SwordModuleManager(object):
     
-    remote_modules = []
-    local_modules = []
+    remote_modules = {}
+    local_modules = {}
     
     def __init__(self, sword_modules_path=None):
         if sword_modules_path is None:
@@ -155,6 +158,42 @@ class SwordModuleManager(object):
                     # we are still not interested in broken or problematic modules
                     pass
                 else:
+                    
+                    # we are dealing with the remote modules:
+                    if name is not None:
+                        
+                        item = {
+                            'name': sections[0],
+                            'description': description,
+                            'datapath': datapath,
+                            'version': version,
+                        }
+                        if not name in self.remote_modules:
+                            self.remote_modules[name] = {}
+                            pass
+                            
+                        if True:
+                            if language in self.remote_modules[name]:
+                                self.remote_modules[name][language].append(item)
+                            else:
+                                self.remote_modules[name][language] = [item]
+                            
+                        
+                    # we are dealing with the localy installed modules:
+                    else:
+                        item = {
+                            'name': sections[0],
+                            'description': description,
+                            'datapath' : datapath,
+                            'version': version,
+                        }
+                        if language in self.local_modules:
+                            self.local_modules[language].append(item)
+                        else:
+                            self.local_modules[language] = [item]
+                    
+                    
+                    """
                     current_module = {
                         'repository_name': name,
                         'repository_base': site,
@@ -170,6 +209,7 @@ class SwordModuleManager(object):
                         self.remote_modules.append(current_module)
                     else:
                         self.local_modules.append(current_module)
+                    """
     
     def downloadListsIfNeccessary(self):
         if len(self.local_modules) is 0:
@@ -205,11 +245,11 @@ class SwordModuleManager(object):
     
 if __name__ == '__main__':
     c = SwordModuleManager()
-    #c.listRemoteModules()
+    c.listRemoteModules()
     #c.listLocalModules()
     
-    #print(c.remote_modules)
-    #print(c.local_modules)
+    print(c.remote_modules)
+    print(c.local_modules)
     
     #c.listModulesWithNeverVersionAvailable()
     #print(c.isVersionNumberGreater('2.1', '1.1.1'))
