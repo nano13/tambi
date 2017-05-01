@@ -18,8 +18,6 @@ class ModuleNotFound(Exception):
 
 class SwordModuleManager(object):
     
-    #modules_struct = {}
-    local_modules = {}
     modules_struct = {}
     
     def __init__(self, sword_modules_path=None):
@@ -57,7 +55,6 @@ class SwordModuleManager(object):
     
     def downloadModule(self, module_name):
         self.listRemoteModules()
-        #print(self.modules_struct)
         temp_path = self.getTempPath()
         
         for repo in self.modules_struct:
@@ -81,12 +78,10 @@ class SwordModuleManager(object):
                             
                             with FTP(self.modules_struct[repo]['server_info']['site']) as ftp:
                                 ftp.login()
-                                #ftp.cwd(module['repository_path']+'/'+module['datapath'])
                                 ftp.cwd(self.modules_struct[repo]['server_info']['dir']+'/'+module['datapath'])
                                 
                                 listing = ftp.nlst()
                                 for data_file in listing:
-                                    #source_folder = 'ftp://'+module['repository_base']+module['repository_path']+module['datapath']+data_file
                                     source_folder = 'ftp://'+self.modules_struct[repo]['server_info']['site']+self.modules_struct[repo]['server_info']['dir']+module['datapath']+data_file
                                     
                                     urllib.request.urlretrieve(source_folder, destination_folder+data_file)
@@ -138,7 +133,7 @@ class SwordModuleManager(object):
     def listLocalModules(self):
         self.processConfigFiles(None, None, None, self.sword_modules_path)
         
-        return self.local_modules
+        return self.modules_struct
         
     def processConfigFiles(self, name, site, repository_dir, temp_path):
         mod_d_path = os.path.join(os.sep, temp_path, 'mods.d')
@@ -183,20 +178,17 @@ class SwordModuleManager(object):
                     else:
                         self.modules_struct[name]['modules'][language] = [item]
     
-    def downloadListsIfNeccessary(self):
-        if len(self.local_modules) is 0:
-            self.listLocalModules()
-        if len(self.modules_struct) is 0:
-            self.listRemoteModules()
-    
     def listModulesWithNeverVersionAvailable(self):
-        self.downloadListsIfNeccessary()
+        self.listLocalModules()
+        self.listRemoteModules()
         
+        """
         for local_module in self.local_modules:
             for remote_module in self.modules_struct:
                 if local_module['name'] == remote_module['name']:
                     if self.isVersionNumberGreater(remote_module['version'], local_module['version']):
                         print("Module "+local_module['name']+" needs update!")
+        """
     
     # is number_a > number_b ?
     def isVersionNumberGreater(self, number_a, number_b):
