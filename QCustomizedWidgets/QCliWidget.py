@@ -123,10 +123,6 @@ class QCliWidget(QWidget):
                     result.payload[0]
                 except IndexError:
                     pass # datastructure does not fit to display type 'table'
-                #except TypeError:
-                    #print('+++++++++++++++++++++++++++++++')
-                    #print(result.payload.toString())
-                    #self.resultInTable(result.payload)
                 else:
                     self.resultInTable(result)
             elif hasattr(result, 'category') and result.category == "list":

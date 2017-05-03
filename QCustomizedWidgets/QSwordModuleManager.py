@@ -35,10 +35,13 @@ class QSwordModuleManager(QWidget):
         self.tree.setColumnCount(2)
         self.tree.setHeaderLabels(['module', 'description'])
         
-        self.addRemoteModules(self.data)
+        self.addRemoteModules()
     
-    def addRemoteModules(self, data):
-        for repo_name in sorted(data):
+    def addRemoteModules(self):
+        if self.data == None:
+            self.data = self.module_manager.getAllModules()
+        
+        for repo_name in sorted(self.data):
             parent = QTreeWidgetItem(self.tree)
             if repo_name is not 'local':
                 parent.setText(0, repo_name)
@@ -46,12 +49,12 @@ class QSwordModuleManager(QWidget):
                 parent.setText(0, INSTALLED_MODULES)
             parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
             
-            for language in sorted(data[repo_name]['modules']):
+            for language in sorted(self.data[repo_name]['modules']):
                 child = QTreeWidgetItem(parent)
                 child.setFlags(child.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
                 child.setText(0, language)
                 
-                for module in data[repo_name]['modules'][language]:
+                for module in self.data[repo_name]['modules'][language]:
                     grandchild = QTreeWidgetItem(child)
                     grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
                     grandchild.setText(0, module['name'])

@@ -44,4 +44,11 @@ class Menu(object):
                     bookMenu.addAction(chapterAction)
                     
                     chapterAction.triggered.connect(functools.partial(context.addNewCliTabWithCommand, 'sword.word "'+book[0]+'" '+str(j+1)))
-                
+        
+        swordMenu.addSeparator()
+        
+        moduleManagerAction = QAction(QIcon.fromTheme("document-properties"), '&Module Manager', context)
+        moduleManagerAction.setStatusTip('Install or Remove Sword Modules')
+        moduleManagerAction.triggered.connect(context.addNewSwordModuleManagerTab)
+        
+        swordMenu.addAction(moduleManagerAction)
