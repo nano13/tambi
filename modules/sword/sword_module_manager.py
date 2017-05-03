@@ -35,7 +35,7 @@ class SwordModuleManager(object):
             os.makedirs(self.sword_modules_path)
         
     def getServerList(self):
-        return [
+        repositories = [
             {
                 'name': 'CrossWire Bible Society (main)',
                 'base': 'ftp.crosswire.org',
@@ -51,7 +51,37 @@ class SwordModuleManager(object):
                 'base': 'ftp.crosswire.org',
                 'path': '/pub/sword/wyclifferaw/',
             },
+            {
+                'name': 'Bible.org',
+                'base': 'ftp.bible.org',
+                'path': '/sword/',
+            },
+            {
+                'name': 'Xiphos',
+                'base': 'ftp.xiphos.org',
+                'path': '',
+            },
+            {
+                'name': 'IBT',
+                'base': 'ftp.ibt.org.ru',
+                'path': 'pub/modsword/raw',
+            },
+            {
+                'name': 'eBible.org',
+                'base': 'ftp.ebible.org',
+                'path': '/sword/',
+            },
         ]
+        return self.prepareRepositories(repositories)
+    
+    def prepareRepositories(self, repositories):
+        for i, repo in enumerate(repositories):
+            if not repo['path'].startswith('/'):
+                path = repo['path']
+                repositories[i]['path'] = '/'+path
+            if not repo['path'].endswith('/'):
+                repositories[i]['path'] += '/'
+        return repositories
     
     def getTempPath(self):
         return os.path.join(os.sep, tempfile.gettempdir(), 'logos_sword_'+getpass.getuser())
