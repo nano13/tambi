@@ -30,7 +30,7 @@ class Logos(QMainWindow):
         #self.addNewMusicWidgetTab()
         #self.addNewSwordModuleManagerTab()
         
-        self.resize(625, 670)
+        self.resize(825, 670)
         self.center()
         
         #self.installEventFilter(self)
