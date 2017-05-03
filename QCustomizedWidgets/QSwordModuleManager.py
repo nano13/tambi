@@ -9,7 +9,8 @@ INSTALLED_MODULES = 'Installed'
 class QSwordModuleManager(QWidget):
     
     module_manager = SwordModuleManager()
-    data = module_manager.getAllModules()
+    #data = module_manager.getAllModules()
+    data = None
     
     def __init__(self):
         super().__init__()

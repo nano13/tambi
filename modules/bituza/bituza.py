@@ -158,27 +158,27 @@ class Bituza(object):
     def searchGlobal(self, c, args):
         query = "SELECT "
     
-    def search(self, c, a):
+    def search(self, command, args):
         #head = "buch", "kapitel", "vers", "unicode", "elberfelder", "ascii", "zahlencode", "tw", "wv", "wk", "wb", "abk", "abb", "abv", "anz_b"
         #query_head = "SELECT book_string, chapter, verse, unicode, translation_de, ascii, code, tw, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE"
         
-        if len(a) == 1:
-            search_pattern = a[0]
+        if len(args) == 1:
+            search_pattern = args[0]
             
-            head, query_head, query_mid, metaLanguage = self.searchGetQueryMid(c)
+            head, query_head, query_mid, metaLanguage = self.searchGetQueryMid(command)
             query_tail = None
-            return self.searchGlobal(c, head, metaLanguage, query_head, query_mid, query_tail, search_pattern, True)
+            return self.searchGlobal(command, head, metaLanguage, query_head, query_mid, query_tail, search_pattern, True)
         
-        elif len(a) == 3:
-            if a[1] == "in":
-                search_pattern = a[0]
-                search_book = a[2]
+        elif len(args) == 3:
+            if args[1] == "in":
+                search_pattern = args[0]
+                search_book = args[2]
                 
                 if search_book.find("-") > -1:
                     start_book, end_book = search_book.split("-")
-                    return self.searchBookRange(c, start_book, end_book, search_pattern)
+                    return self.searchBookRange(command, start_book, end_book, search_pattern)
                 else:
-                    result, head, metaLanguage = self.searchSingleBook(c, search_book, search_pattern, True)
+                    result, head, metaLanguage = self.searchSingleBook(command, search_book, search_pattern, True)
                     return result
             else:
                 result = Result()
@@ -190,7 +190,7 @@ class Bituza(object):
             result.error = "FEHLER: suchanfrage konnte nicht sinnvoll verarbeitet werden!"
             return result
         
-    def searchBookRange(self, c, start_book, end_book, search_pattern):
+    def searchBookRange(self, command, start_book, end_book, search_pattern):
         book_list = self.getBookList()
         try:
             book_start_index = book_list.index(start_book)
@@ -212,10 +212,8 @@ class Bituza(object):
             
             search_book = book_list[i]
             
-            result, head, metaLanguage = self.searchSingleBook(c, search_book, search_pattern, False)
+            result, head, metaLanguage = self.searchSingleBook(command, search_book, search_pattern, False)
             result_list.append(result)
-            
-            #print(search_book)
         
         format_list = []
         for item in result_list:
@@ -233,7 +231,7 @@ class Bituza(object):
         return result_object
             
         
-    def searchSingleBook(self, c, search_book, search_pattern, result_in_table):
+    def searchSingleBook(self, command, search_book, search_pattern, result_in_table):
         dictOT = self.booksDictOT()
         dictNT = self.booksDictNT()
         try:
@@ -246,17 +244,11 @@ class Bituza(object):
                 result.error = "FEHLER: bitte Buch angeben!"
                 return result
         #else:
-        head, query_head, query_mid, metaLanguage = self.searchGetQueryMid(c)
+        head, query_head, query_mid, metaLanguage = self.searchGetQueryMid(command)
         query_tail = " AND book_id="+str(book_id)
-        result = self.searchGlobal(c, head, metaLanguage, query_head, query_mid, query_tail, search_pattern, result_in_table)
-        #return result, head, metaLanguage
-        result_object = Result()
-        result_object.category = "table"
-        result_object.header = head
-        result_object.payload = result
-        result_object.metaload = metaLanguage
-        result_object.name = "search result: " + search_pattern
-        return result_object
+        result = self.searchGlobal(command, head, metaLanguage, query_head, query_mid, query_tail, search_pattern, result_in_table)
+        return result, head, metaLanguage
+        #return result
         
     def searchGetQueryMid(self, c):
         query_head = "SELECT book_string, chapter, verse, unicode, translation_de, transcription, code, tw, wv, wk, wb, abk, abb, abv, anz_b FROM word NATURAL JOIN structure WHERE"
