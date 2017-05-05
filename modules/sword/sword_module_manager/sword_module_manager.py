@@ -1,6 +1,13 @@
 
-from download_module_lists_thread import DownloadModulesListsThread
-from download_module_thread import DownloadModuleThread
+try:
+    from download_module_lists_thread import DownloadModulesListsThread
+except:
+    from modules.sword.sword_module_manager.download_module_lists_thread import DownloadModulesListsThread
+
+try:
+    from download_module_thread import DownloadModuleThread
+except:
+    from modules.sword.sword_module_manager.download_module_thread import DownloadModuleThread
 
 from queue import Queue
 import sys, os, tempfile, getpass, configparser
@@ -26,7 +33,7 @@ class SwordModuleManager(object):
         if not os.path.exists(self.sword_modules_path):
             os.makedirs(self.sword_modules_path)
         
-        
+    
     def downloadModulesLists(self):
         temp_path = self.__getTempPath()
         
@@ -36,7 +43,10 @@ class SwordModuleManager(object):
         self.modules_struct = self.q.get()
         download_lists_thread.join()
         #print(self.modules_struct)
+        
+        return self.modules_struct
     
+    # install given module from given repository
     def downloadModuleFromRepository(self, repository_name, module_name):
         temp_path = self.__getTempPath()
         
@@ -44,6 +54,7 @@ class SwordModuleManager(object):
         download_module_thread.start()
         print('DOWNLOADING:', module_name)
     
+    # search given module_name in all repositories, install first occurence
     def downloadModule(self, module_name):
         temp_path = self.__getTempPath()
         
@@ -76,6 +87,24 @@ class SwordModuleManager(object):
             
             rmtree(dir_path)
             os.remove(conf_path)
+    
+    def listModulesToBeUpdated(self):
+        pass
+    
+    # is number_a > number_b ?
+    def __isVersionNumberGreater(self, number_a, number_b):
+        a = number_a.split('.')
+        b = number_b.split('.')
+        
+        for i in range(0, len(a)):
+            if len(b) > i:
+                if a[i] > b[i]:
+                    return True
+                elif a[i] < b[i]:
+                    return False
+            else:
+                return True # because: something > nothing
+        return False
     
 if __name__ == '__main__':
     c = SwordModuleManager()

@@ -54,20 +54,7 @@ class SwordModuleManager(Thread):
                         print("Module "+local_module['name']+" needs update!")
         """
     
-    # is number_a > number_b ?
-    def isVersionNumberGreater(self, number_a, number_b):
-        a = number_a.split('.')
-        b = number_b.split('.')
-        
-        for i in range(0, len(a)):
-            if len(b) > i:
-                if a[i] > b[i]:
-                    return True
-                elif a[i] < b[i]:
-                    return False
-            else:
-                return True # because: something > nothing
-        return False
+    
     
 if __name__ == '__main__':
     c = SwordModuleManager()

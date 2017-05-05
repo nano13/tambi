@@ -2,7 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QTreeWidget, QTreeWidgetItem, QTreeWidgetItemIterator, QGridLayout, QPushButton
 from PyQt5.QtCore import Qt
 
-from modules.sword.sword_module_manager_old import SwordModuleManager, ModuleNotFound
+from modules.sword.sword_module_manager.sword_module_manager import SwordModuleManager
 
 INSTALLED_MODULES = 'Installed'
 
@@ -39,7 +39,7 @@ class QSwordModuleManager(QWidget):
     
     def addRemoteModules(self):
         if self.data == None:
-            self.data = self.module_manager.getAllModules()
+            self.data = self.module_manager.downloadModulesLists()
         
         for repo_name in sorted(self.data):
             parent = QTreeWidgetItem(self.tree)
@@ -81,13 +81,18 @@ class QSwordModuleManager(QWidget):
             if item.parent() is not None:
                 if item.parent().parent() is not None:
                     # handle the installed modules to delete
-                    if item.parent().parent().text(0) == INSTALLED_MODULES:
+                    repo_name = item.parent().parent().text(0)
+                    if repo_name == INSTALLED_MODULES:
                         if item.checkState(0) == Qt.Unchecked:
                             modules_to_process['delete'].append(item.text(0))
                     # handle the remote modules to install
                     else:
                         if item.checkState(0) == Qt.Checked:
-                            modules_to_process['install'].append(item.text(0))
+                            item_dict = {
+                                'name': item.text(0),
+                                'repository': repo_name,
+                            }
+                            modules_to_process['install'].append(item_dict)
             iterator += 1
             item = iterator.value()
         
@@ -102,13 +107,14 @@ class QSwordModuleManager(QWidget):
             self.module_manager.deleteModule(module)
         
         for module in modules_to_process['install']:
-            try:
-                self.module_manager.downloadModule(module)
-            except ModuleNotFound as e:
-                print(e)
+            #try:
+            #self.module_manager.downloadModule(module)
+            self.module_manager.downloadModuleFromRepository(module['repository'], module['name'])
+            #except ModuleNotFound as e:
+            #    print(e)
         
         # reload data and view
-        self.data = self.module_manager.getAllModules()
+        self.data = self.module_manager.downloadModulesLists()
         self.tree.deleteLater()
         self.addTreeWidget()
     
