@@ -7,6 +7,7 @@ import tempfile
 import os, sys
 import configparser
 import getpass
+from threading import Thread
 
 try:
     from modules.sword.safe_tar_extract import SafeTarExtract
@@ -16,11 +17,13 @@ except:
 class ModuleNotFound(Exception):
     pass
 
-class SwordModuleManager(object):
+class SwordModuleManager(Thread):
     
     modules_struct = {}
     
     def __init__(self, sword_modules_path=None):
+        super().__init__()
+        
         if sword_modules_path is None:
             if sys.platform.startswith('win32'):
                 self.sword_modules_path = os.path.join(os.getenv('APPDATA'), 'Sword')

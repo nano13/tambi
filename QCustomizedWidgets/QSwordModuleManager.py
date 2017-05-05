@@ -2,7 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QTreeWidget, QTreeWidgetItem, QTreeWidgetItemIterator, QGridLayout, QPushButton
 from PyQt5.QtCore import Qt
 
-from modules.sword.sword_module_manager import SwordModuleManager, ModuleNotFound
+from modules.sword.sword_module_manager_old import SwordModuleManager, ModuleNotFound
 
 INSTALLED_MODULES = 'Installed'
 
