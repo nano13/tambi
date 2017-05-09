@@ -46,7 +46,18 @@ class QVirtualKeyboardWindow(QMainWindow):
         widget.setLayout(grid)
         self.setCentralWidget(widget)
         
+        self.applyStylesheet()
+        
         self.show()
+        
+    def applyStylesheet(self):
+        path = './assets/css/qt_dark.css'
+        stylesheet = ''
+        with open(path) as css:
+            for line in css:
+                stylesheet += line
+        
+        self.setStyleSheet(stylesheet)
         
     def onHostLayoutActivated(self, layout):
         print(layout)
