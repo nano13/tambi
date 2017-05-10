@@ -22,17 +22,21 @@ class ConfigFile(object):
         self.config.read(self.configFilePath)
         
     def readVar(self, section, option):
-        result = self.config.get(section, option)
+        try:
+            result = self.config.get(section, option)
+        except configparser.NoSectionError:
+            self.__insertValueFromDefaultConfig(section, option)
+            result = self.config.get(section, option)
         return result
     
     def readPath(self, section, option):
         result = self.config.get(section, option)
-        result =  self.resolvePathConstants(result)
+        result =  self.__resolvePathConstants(result)
         
         return os.path.normpath(result)
         #return os.path.normcase(result)
         
-    def resolvePathConstants(self, confresult):
+    def __resolvePathConstants(self, confresult):
         if "$" in confresult:
             confresult = confresult.replace("$CONFDIR", self.configDirPath)
             
@@ -44,6 +48,16 @@ class ConfigFile(object):
         cfgfile = open(self.configFilePath, "w")
         self.config.write(cfgfile)
         
+    
+    def __insertValueFromDefaultConfig(self, section, option):
+        conf = configparser.ConfigParser()
+        conf.read('./configs/'+DEFAULT_CONFIG_FILE_NAME)
+        value = conf.get(section, option)
+        try:
+            self.write(section, option, value)
+        except configparser.NoSectionError:
+            self.config.add_section(section)
+            self.write(section, option, value)
     
 class ConfigDir(object):
     def __init__(self):

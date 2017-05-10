@@ -11,6 +11,7 @@ from interpreter.interpreter import Interpreter
 from interpreter.exceptions import ClearCalled
 
 from misc.unicodeFonts import UnicodeFonts
+from configs.configFiles import ConfigFile
 
 from functools import partial
 
@@ -66,6 +67,19 @@ class QCliWidget(QWidget):
                 stylesheet += line
         
         self.display_widget.setStyleSheet(stylesheet)
+        
+    def applyStylesheet(self):
+        config = ConfigFile()
+        path = config.readVar('global', 'stylesheet')
+        stylesheet = ''
+        try:
+            with open(path) as css:
+                for line in css:
+                    stylesheet += line
+            
+            self.display_widget.setStyleSheet(stylesheet)
+        except FileNotFoundError:
+            pass
     
     def addDisplayWidget(self):
         #self.grid.addWidget(self.display_widget, 0, 0, 1, 0)

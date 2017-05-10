@@ -6,6 +6,8 @@ try:
 except ImportError:
     from QVirtualKeyboardWidget import QVirtualKeyboardWidget
 
+from configs.configFiles import ConfigFile
+
 class QVirtualKeyboardWindow(QMainWindow):
     
     availableHostLayouts = ["qwertz"]
@@ -51,13 +53,17 @@ class QVirtualKeyboardWindow(QMainWindow):
         self.show()
         
     def applyStylesheet(self):
-        path = './assets/css/qt_dark.css'
+        config = ConfigFile()
+        path = config.readVar('global', 'stylesheet')
         stylesheet = ''
-        with open(path) as css:
-            for line in css:
-                stylesheet += line
-        
-        self.setStyleSheet(stylesheet)
+        try:
+            with open(path) as css:
+                for line in css:
+                    stylesheet += line
+            
+            self.setStyleSheet(stylesheet)
+        except FileNotFoundError:
+            pass
         
     def onHostLayoutActivated(self, layout):
         print(layout)

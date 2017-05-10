@@ -14,11 +14,15 @@ signal.signal(signal.SIGINT, signal.SIG_DFL)
 from QCustomizedWidgets.menuBar import MenuBar
 from QCustomizedWidgets.QCoreTab import QCoreTab
 
+from configs.configFiles import ConfigFile
+
 class Logos(QMainWindow):
     
     tab_widget = None
     
     meta_key_pressed = False # Windows-Key or Control-Key on Mac
+    
+    config = ConfigFile()
     
     def __init__(self):
         super().__init__()
@@ -126,13 +130,16 @@ class Logos(QMainWindow):
         self.show()
         
     def applyStylesheet(self):
-        path = './assets/css/qt_dark.css'
+        path = self.config.readVar('global', 'stylesheet')
         stylesheet = ''
-        with open(path) as css:
-            for line in css:
-                stylesheet += line
-        
-        self.setStyleSheet(stylesheet)
+        try:
+            with open(path) as css:
+                for line in css:
+                    stylesheet += line
+            
+            self.setStyleSheet(stylesheet)
+        except FileNotFoundError:
+            pass
         
     def initTabs(self):
         tab_widget = QTabWidget()
