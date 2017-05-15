@@ -18,13 +18,13 @@
 	COLOR_DARK     = #1e2a0e
 	COLOR_MEDIUM   = #03765f
 	COLOR_MEDLIGHT = #0499b0
-	COLOR_LIGHT    = #b4fff0
+	COLOR_LIGHT    = #d0ffd0
 	COLOR_ACCENT   = #3D7848
 */
 
 * {
 	background: #1e2a0e;
-	color: #b4fff0;
+	color: #d0ffd0;
 	border: 1px solid #0499b0;
 }
 
@@ -48,7 +48,7 @@ QRadioButton::indicator::unchecked, QCheckBox::indicator::unchecked {
 }
 
 QRadioButton::indicator:unchecked:hover, QCheckBox::indicator:unchecked:hover {
-	border: 1px solid #b4fff0;
+	border: 1px solid #d0ffd0;
 }
 
 QRadioButton::indicator::checked, QCheckBox::indicator::checked {
@@ -57,8 +57,8 @@ QRadioButton::indicator::checked, QCheckBox::indicator::checked {
 }
 
 QRadioButton::indicator:checked:hover, QCheckBox::indicator:checked:hover {
-	border: 1px solid #b4fff0;
-	background: #b4fff0;
+	border: 1px solid #d0ffd0;
+	background: #d0ffd0;
 }
 
 QGroupBox {
@@ -159,7 +159,7 @@ QAbstractButton:pressed {
 QAbstractItemView {
 	show-decoration-selected: 1;
 	selection-background-color: #3D7848;
-	selection-color: #b4fff0;
+	selection-color: #d0ffd0;
 	alternate-background-color: #03765f;
 }
 
