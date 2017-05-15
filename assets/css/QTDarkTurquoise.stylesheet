@@ -15,7 +15,7 @@
 */
 
 /*
-	COLOR_DARK     = #1e2a0e
+	COLOR_DARK     = #002126
 	COLOR_MEDIUM   = #03765f
 	COLOR_MEDLIGHT = #0499b0
 	COLOR_LIGHT    = #b4fff0
@@ -23,7 +23,7 @@
 */
 
 * {
-	background: #1e2a0e;
+	background: #002126;
 	color: #b4fff0;
 	border: 1px solid #0499b0;
 }
@@ -72,7 +72,7 @@ QGroupBox::title {
 
 QScrollBar {
 	border: 1px solid #0499b0;
-	background: #1e2a0e;
+	background: #002126;
 }
 
 QScrollBar:horizontal {
@@ -168,7 +168,7 @@ QHeaderView {
 }
 
 QHeaderView::section {
-	background: #1e2a0e;
+	background: #002126;
 	border: 1px solid #0499b0;
 	padding: 4px;
 }
