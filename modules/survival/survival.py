@@ -53,9 +53,9 @@ class Survival(object):
         html = html.replace('src="', 'src="/home/samuel/programmierung/logos/modules/survival/guide/')
         html = html.replace('<table>', '<table border="1">')
         
-        fobj = open("/home/samuel/tmp/mktest.html", "w")
-        fobj.write(html)
-        fobj.close()
+        #fobj = open("/home/samuel/tmp/mktest.html", "w")
+        #fobj.write(html)
+        #fobj.close()
         
         result_object = Result()
         result_object.category = "html"
