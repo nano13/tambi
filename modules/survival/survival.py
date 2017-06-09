@@ -3,8 +3,9 @@ from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
 import markdown
-import markdown2
 import codecs
+
+import os
 
 
 class Survival(object):
@@ -45,12 +46,33 @@ class Survival(object):
         result_object.payload = all_commands
         return result_object
     
-    def read(self, c, a):
-        input_file = input_file = codecs.open("/home/samuel/programmierung/logos/modules/survival/guide/Camouflage.md", mode="r", encoding="utf-8")
-        md_file = input_file.read()
-        html = markdown.markdown(md_file, extensions=['markdown.extensions.sane_lists', 'markdown.extensions.nl2br', 'markdown.extensions.extra', 'markdown.extensions.tables'])
+    def read(self, c, args):
+        if len(args) <= 0:
+            result_object = Result()
+            result_object.error = 'please specify the chapter you want to read. see for the command "survival.toc"'
+            return result_object
         
-        html = html.replace('src="', 'src="/home/samuel/programmierung/logos/modules/survival/guide/')
+        path_prefix = os.getcwd()
+        filepath = "/modules/survival/guide/"+args[0]+".md".replace('/', os.sep)
+        print(filepath)
+        
+        if not os.path.exists(path_prefix+filepath):
+            result_object = Result()
+            result_object.error = 'chapter '+args[0]+' not found'
+            return result_object
+        
+        input_file = input_file = codecs.open(path_prefix+filepath, mode="r", encoding="utf-8")
+        md_file = input_file.read()
+        html = '<h1>'+args[0]+'</h1>'
+        html += markdown.markdown(md_file, extensions=[
+            'markdown.extensions.sane_lists',
+            'markdown.extensions.nl2br',
+            'markdown.extensions.extra',
+            'markdown.extensions.tables',
+        ])
+        
+        folderpath = '/modules/survival/guide/'.replace('/', os.sep)
+        html = html.replace('src="', 'src="'+path_prefix+folderpath)
         html = html.replace('<table>', '<table border="1">')
         
         #fobj = open("/home/samuel/tmp/mktest.html", "w")
@@ -63,4 +85,16 @@ class Survival(object):
         return result_object
     
     def tableOfContents(self, c, a):
-        pass
+        base, dirs, files = next(iter(os.walk(os.path.join(os.getcwd() + '/modules/survival/guide'.replace('/', os.sep)))))
+        
+        result = []
+        for f in files:
+            splitted = f.split('.')
+            if splitted[1] == 'md':
+                result.append(splitted[0])
+        
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = sorted(result)
+        return result_object
+        
