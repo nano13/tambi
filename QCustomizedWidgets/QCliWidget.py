@@ -1,5 +1,6 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView
+from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat
 from PyQt5.QtCore import QRect, QRectF
 
@@ -147,6 +148,9 @@ class QCliWidget(QWidget):
                 self.resultInTextEdit(result)
             elif hasattr(result, 'category') and result.category == "itemized":
                 self.resultInItemizedWidget(result)
+            elif hasattr(result, 'category') and result.category == "html":
+                #self.resultInHTMLWidget(result)
+                self.resultInTextEdit(result)
     
     def clearDisplayWidget(self):
         self.display_widget.deleteLater()
@@ -185,6 +189,15 @@ class QCliWidget(QWidget):
         self.display_widget.setText(result.toString())
         self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
+        
+    def resultInHTMLWidget(self, result):
+        self.display_widget.deleteLater()
+        self.display_widget = QWebView()
+        
+        self.display_widget.setHtml(result.payload)
+        self.addDisplayWidget()
+        
+        
     
     def resultInItemizedWidget(self, result):
         self.display_widget.deleteLater()
