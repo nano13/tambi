@@ -7,7 +7,7 @@ import codecs
 
 import os
 
-MODULE_PATH = os.path.join(os.getcwd() + '/modules/survival/SurvivalManual'.replace('/', os.sep))
+MODULE_PATH = os.path.join(os.getcwd(), 'modules', 'survival', 'SurvivalManual')
 
 class Survival(object):
     def __init__(self):
@@ -53,7 +53,6 @@ class Survival(object):
             result_object.error = 'please specify the chapter you want to read. see for the command "survival.toc"'
             return result_object
         
-        #path_prefix = os.getcwd()
         filepath = MODULE_PATH + os.sep + args[0]+".md"
         
         if not os.path.exists(filepath):
