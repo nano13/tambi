@@ -1,0 +1,3 @@
+[submodule "modules/survival/SurvivalManual"]
+	path = modules/survival/SurvivalManual
+	url = https://github.com/ligi/SurvivalManual.wiki.git
