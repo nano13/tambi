@@ -7,6 +7,7 @@ import codecs
 
 import os
 
+MODULE_PATH = os.path.join(os.getcwd() + '/modules/survival/guide'.replace('/', os.sep))
 
 class Survival(object):
     def __init__(self):
@@ -17,8 +18,8 @@ class Survival(object):
             "survival.commands" : self.commands,
             
             "survival.toc" : self.tableOfContents,
-            
             "survival.read" : self.read,
+            "survival.search" : self.search,
         }
     
     def interpreter(self, command, args):
@@ -85,7 +86,7 @@ class Survival(object):
         return result_object
     
     def tableOfContents(self, c, a):
-        base, dirs, files = next(iter(os.walk(os.path.join(os.getcwd() + '/modules/survival/guide'.replace('/', os.sep)))))
+        base, dirs, files = next(iter(os.walk(MODULE_PATH)))
         
         result = []
         for f in files:
@@ -97,4 +98,26 @@ class Survival(object):
         result_object.category = 'list'
         result_object.payload = sorted(result)
         return result_object
+    
+    def search(self, c, args):
+        pattern = args[0]
         
+        import fileinput, glob, string
+        result = []
+        for line in fileinput.input(glob.glob(MODULE_PATH + os.sep + '*.md')):
+            
+            num_matches = line.lower().count(pattern.lower())
+            if num_matches:
+                filepath = fileinput.filename()
+                filename = filepath.replace(MODULE_PATH + os.sep, '').replace('.md', '')
+                if not filename in result:
+                    result.append(filename)
+                else:
+                    pass
+                    # we could raise a counter here to show, how often the pattern was found in one module ...
+        
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = result
+        return result_object
+    
