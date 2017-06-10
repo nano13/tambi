@@ -7,7 +7,7 @@ import codecs
 
 import os
 
-MODULE_PATH = os.path.join(os.getcwd() + '/modules/survival/guide'.replace('/', os.sep))
+MODULE_PATH = os.path.join(os.getcwd() + '/modules/survival/SurvivalManual'.replace('/', os.sep))
 
 class Survival(object):
     def __init__(self):
@@ -53,16 +53,15 @@ class Survival(object):
             result_object.error = 'please specify the chapter you want to read. see for the command "survival.toc"'
             return result_object
         
-        path_prefix = os.getcwd()
-        filepath = "/modules/survival/guide/"+args[0]+".md".replace('/', os.sep)
-        print(filepath)
+        #path_prefix = os.getcwd()
+        filepath = MODULE_PATH + os.sep + args[0]+".md"
         
-        if not os.path.exists(path_prefix+filepath):
+        if not os.path.exists(filepath):
             result_object = Result()
             result_object.error = 'chapter '+args[0]+' not found'
             return result_object
         
-        input_file = input_file = codecs.open(path_prefix+filepath, mode="r", encoding="utf-8")
+        input_file = input_file = codecs.open(filepath, mode="r", encoding="utf-8")
         md_file = input_file.read()
         html = '<h1>'+args[0]+'</h1>'
         html += markdown.markdown(md_file, extensions=[
@@ -73,7 +72,7 @@ class Survival(object):
         ])
         
         folderpath = '/modules/survival/guide/'.replace('/', os.sep)
-        html = html.replace('src="', 'src="'+path_prefix+folderpath)
+        html = html.replace('src="', 'src="' + MODULE_PATH + os.sep)
         html = html.replace('<table>', '<table border="1">')
         
         #fobj = open("/home/samuel/tmp/mktest.html", "w")
