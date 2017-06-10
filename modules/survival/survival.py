@@ -75,7 +75,7 @@ class Survival(object):
         html = html.replace('src="', 'src="' + MODULE_PATH + os.sep)
         html = html.replace('<table>', '<table border="1">')
         
-        #fobj = open("/home/samuel/tmp/mktest.html", "w")
+        #fobj = open("/tmp/mktest.html", "w")
         #fobj.write(html)
         #fobj.close()
         
@@ -99,24 +99,29 @@ class Survival(object):
         return result_object
     
     def search(self, c, args):
-        pattern = args[0]
-        
-        import fileinput, glob, string
-        result = []
-        for line in fileinput.input(glob.glob(MODULE_PATH + os.sep + '*.md')):
+        try:
+            pattern = args[0]
+        except:
+            result_object = Result()
+            result_object.error = 'you have to specify a search-pattern'
+            return result_object
+        else:
+            import fileinput, glob, string
+            result = []
+            for line in fileinput.input(glob.glob(MODULE_PATH + os.sep + '*.md')):
+                
+                num_matches = line.lower().count(pattern.lower())
+                if num_matches:
+                    filepath = fileinput.filename()
+                    filename = filepath.replace(MODULE_PATH + os.sep, '').replace('.md', '')
+                    if not filename in result:
+                        result.append(filename)
+                    else:
+                        pass
+                        # we could raise a counter here to show, how often the pattern was found in one module ...
             
-            num_matches = line.lower().count(pattern.lower())
-            if num_matches:
-                filepath = fileinput.filename()
-                filename = filepath.replace(MODULE_PATH + os.sep, '').replace('.md', '')
-                if not filename in result:
-                    result.append(filename)
-                else:
-                    pass
-                    # we could raise a counter here to show, how often the pattern was found in one module ...
-        
-        result_object = Result()
-        result_object.category = 'list'
-        result_object.payload = result
-        return result_object
+            result_object = Result()
+            result_object.category = 'list'
+            result_object.payload = result
+            return result_object
     
