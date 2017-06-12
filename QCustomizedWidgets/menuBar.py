@@ -78,7 +78,7 @@ class MenuBar(object):
             try:
                 exec(imports, globals())
             except ModuleNotFoundError as e:
-                print("Module not found:", e)
+                print("Menu not found:", e)
             else:
                 current_menu = Menu(context, menubar)
                 menues_list.append(current_menu)
