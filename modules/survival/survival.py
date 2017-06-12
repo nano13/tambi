@@ -30,7 +30,7 @@ class Survival(object):
         return commands.get(command, self.commandNotFound)(command, args)
     
     def commandNotFound(self, c, a):
-        raise CommandNotInThisModule("command not found in module survival")
+        raise CommandNotInThisModule("command not found in module 'survival'")
     
     def commands(self, none1, none2):
         dic = self.getCommands()
