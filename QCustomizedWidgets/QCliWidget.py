@@ -7,6 +7,7 @@ from PyQt5.QtCore import QRect, QRectF
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
+from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
 
 from interpreter.interpreter import Interpreter
 from interpreter.exceptions import ClearCalled
@@ -23,6 +24,7 @@ class QCliWidget(QWidget):
     interpreter = Interpreter()
     display_widget = None
     vkbd = None
+    beamer = None
     
     def __init__(self):
         super().__init__()
@@ -124,6 +126,33 @@ class QCliWidget(QWidget):
         self.resize(self.x, self.y)
         
         print("command:", command)
+        if '|' in command:
+            command, pipe = command.split('|')
+            self.handleCommand(command)
+            
+            pipe = pipe.strip()
+            if pipe == 'beamer':
+                if self.beamer:
+                    self.beamer.destroy()
+                    print('destroyed!!!')
+                
+                self.beamer = QBeamerWindow()
+                
+                from PyQt5.QtWidgets import QLabel, QPushButton
+                widget = QLabel('blaaaa')
+                #widget = QPushButton('blaa')
+                #widget = QTextEdit()
+                #widget.setText('fsdafsdf')
+                #self.beamer.setWidget(widget)
+                
+                self.beamer.setWidget(self.display_widget)
+                #self.beamer.setText('test')
+                self.beamer.routeToScreen()
+                self.beamer.showFullScreen()
+        else:
+            self.handleCommand(command)
+    
+    def handleCommand(self, command):
         try:
             result = self.interpreter.interpreter(command)
         except ClearCalled:

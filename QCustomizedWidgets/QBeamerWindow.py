@@ -10,8 +10,17 @@ class QBeamerWindow(QDialog):
     def __init__(self):
         super().__init__()
         
-        self.setStyleSheet('QWidget { background-color: black; }')
-        #self.layout = QtWidgets.QGridLayout()
+        #self.setStyleSheet('QWidget { background-color: black; }')
+        #stylesheet = ''
+        #try:
+            #with open('/home/samuel/programmierung/logos_bible/assets/css/QTDarkGreen.stylesheet') as css:
+                #for line in css:
+                    #stylesheet += line
+            
+            #self.setStyleSheet(stylesheet)
+        #except FileNotFoundError:
+            #pass
+        
         self.layout = QtWidgets.QVBoxLayout()
         self.layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.layout)
@@ -41,7 +50,6 @@ class QBeamerWindow(QDialog):
         label.setFont(font)
         label.setStyleSheet('QLabel { color: white; }')
         
-        
         label.setText(text)
         
         self.layout.addWidget(label, QtCore.Qt.AlignCenter)
@@ -64,6 +72,12 @@ class QBeamerWindow(QDialog):
     def setImageWithPath(self, image_path):
         pixmap = QtGui.QPixmap(image_path)
         self.setImageWithPixmap(pixmap)
+        
+    def setWidget(self, widget):
+        self.layout.addWidget(widget)
+        
+        #self.layout.addWidget(widget, QtCore.Qt.AlignCenter)
+        #self.layout.setAlignment(QtCore.Qt.AlignCenter)
     
     def getPreviewImage(self):
         desktop = QtWidgets.QApplication.desktop()
