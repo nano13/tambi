@@ -16,6 +16,8 @@ class Frets(object):
                 "frets.bass" : self.fretsBass,
                 "frets.mandolin" : self.fretsMandolin,
                 "frets.cello" : self.fretsCello,
+                
+                "frets.chord" : self.chord,
                 }
         
     def interpreter(self, command, args):
@@ -159,3 +161,16 @@ class Frets(object):
             result_object.payload = table_new
             result_object.header = head_new
             return result_object
+    
+    def chord(self, c, args):
+        from modules.frets.chords import Chords
+        
+        chords = Chords()
+        result = chords.getAkkorde('dur')
+        print(result)
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.payload = result
+        result_object.header = ['grundton', 'terz', 'quinte']
+        return result_object
