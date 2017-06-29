@@ -50,8 +50,10 @@ class QDeckAudioListWidget(QTableWidget):
         #self.audioRecorder = QDeckAudioItemWidget()
         self.audioRecorder = QAudioRecorder()
         settings = QAudioEncoderSettings()
-        settings.setCodec("audio/vorbis")
-        self.audioRecorder.setContainerFormat("ogg")
+        #settings.setCodec("audio/vorbis")
+        #self.audioRecorder.setContainerFormat("ogg")
+        settings.setCodec("audio/PCM")
+        self.audioRecorder.setContainerFormat("wav")
         self.audioRecorder.setEncodingSettings(settings)
         
         self.setColumnCount(3)
@@ -153,14 +155,19 @@ class QDeckAudioListWidget(QTableWidget):
         self.stopPlayButtonClicked(row)
         self.stopRecordButtonClicked(row)
         
-        filename = str(int(time.time())) + self.randomword(5) + ".ogg"
+        #filename = str(int(time.time())) + self.randomword(5) + ".ogg"
+        filename = str(int(time.time())) + self.randomword(5) + ".wav"
         filepath = path.join(self.deckpath, filename)
+        print(filepath)
         
         #self.audioRecorder.initAudioInput(filepath)
         #self.audioRecorder.start()
         url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+        print(url)
         self.audioRecorder.setOutputLocation(url)
+        print('+++')
         self.audioRecorder.record()
+        print('###')
         
         self.audioItemsDict[row]["filename"] = filename
         
