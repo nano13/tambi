@@ -46,7 +46,7 @@ class Logos(QMainWindow):
         #for path in QIcon.themeSearchPaths():
         #    print(path, QIcon.themeName())
         QIcon.setThemeName('oxygen')
-        #print(QIcon.themeName())
+        print(QIcon.themeName())
         
     def center(self):
         geometry = self.frameGeometry()
