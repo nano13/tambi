@@ -40,6 +40,14 @@ class Logos(QMainWindow):
         #self.installEventFilter(self)
         #self.tab_widget.installEventFilter(self)
         
+        #QIcon.setThemeSearchPaths(['/home/samuel/programmierung/logos_bible/icons'])
+        QIcon.setThemeSearchPaths(['./assets/icons'])
+        
+        #for path in QIcon.themeSearchPaths():
+        #    print(path, QIcon.themeName())
+        QIcon.setThemeName('oxygen')
+        #print(QIcon.themeName())
+        
     def center(self):
         geometry = self.frameGeometry()
         screen = QApplication.desktop().screenNumber(QApplication.desktop().cursor().pos())
