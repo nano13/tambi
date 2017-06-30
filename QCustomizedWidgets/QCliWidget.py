@@ -1,6 +1,6 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView
-from PyQt5.QtWebKitWidgets import QWebView
+#from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat
 from PyQt5.QtCore import QRect, QRectF
 
