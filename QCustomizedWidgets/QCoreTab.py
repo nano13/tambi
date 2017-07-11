@@ -2,6 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QHBoxLayout, QPushButton, QTextEdit
 
 from QCustomizedWidgets.QCliWidget import QCliWidget
+from QCustomizedWidgets.QParallelBibleWidget import QParallelBibleWidget
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
 from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
 from QCustomizedWidgets.QSwordModuleManager import QSwordModuleManager
@@ -25,6 +26,10 @@ class QCoreTab(QWidget):
         self.setLayout(layout)
         
         return self
+    
+    def parallelBibleTab(self):
+        parallel = QParallelBibleWidget()
+        return parallel
     
     def editorTab(self, filepath):
         editor = QTextEdit()

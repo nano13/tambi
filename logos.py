@@ -172,6 +172,12 @@ class Logos(QMainWindow):
         self.tab_widget.addTab(tab, "dual cli")
         
         self.activateNewTab()
+        
+    def addNewParallelBibleTab(self):
+        tab = QCoreTab().parallelBibleTab()
+        self.tab_widget.addTab(tab, "parallel view")
+        
+        self.activateNewTab()
     
     """ to be used internally by the menus """
     def addNewCliTabWithCommand(self, command):
