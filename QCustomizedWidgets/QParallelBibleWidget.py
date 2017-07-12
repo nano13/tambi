@@ -1,6 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QLayout, QVBoxLayout, QGridLayout, QTextEdit, QComboBox, QPushButton
 from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QInputLine import QInputLine
 
@@ -12,7 +13,7 @@ class QParallelBibleWidget(QWidget):
     
     current_sword_module = None
     #modules_list = ['GerNeUe', 'TR', 'GerSch']
-    display_widgets_list = []
+    #display_widgets_list = []
     
     def __init__(self):
         super().__init__()
@@ -21,12 +22,8 @@ class QParallelBibleWidget(QWidget):
         self.layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.layout)
         
-        modules_dropdown_list = self.getModulesForDropdown()
-        for i in range(0, 3):
-            display_widget = QDisplayWidget()
-            display_widget.setDropdownItems(modules_dropdown_list)
-            self.display_widgets_list.append(display_widget)
-            self.layout.addWidget(display_widget)
+        self.display_widget = QDisplayLayout()
+        self.layout.addWidget(self.display_widget)
         
         line = QInputLine()
         line.return_pressed.connect(self.commandEntered)
@@ -36,7 +33,7 @@ class QParallelBibleWidget(QWidget):
         """ store the originally selected sword module """
         self.current_sword_module = self.interpreter.interpreter('sword.getModule').payload
         
-        for i, widget in enumerate(self.display_widgets_list):
+        for i, widget in enumerate(self.display_widget.display_widgets_list):
             
             try:
                 self.interpreter.interpreter('sword.setModule '+widget.getModuleName())
@@ -54,16 +51,12 @@ class QParallelBibleWidget(QWidget):
     def clearDisplayWidget(self):
         pass
     
-    def getModulesForDropdown(self):
-        result = self.interpreter.interpreter('sword.modules')
-        
-        modules = []
-        for module in result.payload:
-            modules.append(module[0])
-        
-        return sorted(modules)
     
-class QDisplayLayout(QLayout):
+    
+class QDisplayLayout(QWidget):
+    
+    interpreter = Interpreter()
+    display_widgets_list = []
     
     def __init__(self):
         super().__init__()
@@ -72,9 +65,42 @@ class QDisplayLayout(QLayout):
         self.layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.layout)
         
+        for i in range(0, 3):
+            self.addNewLanguageArea()
+            
+    def addNewLanguageArea(self):
+        modules_dropdown_list = self.getModulesForDropdown()
+        
+        display_widget = QDisplayWidget()
+        display_widget.widget_id = len(self.display_widgets_list)
+        display_widget.setDropdownItems(modules_dropdown_list)
+        self.display_widgets_list.append(display_widget)
+        self.layout.addWidget(display_widget)
+        display_widget.newLanguageAreaRequested.connect(self.addNewLanguageArea)
+        display_widget.closeLanguageArea.connect(self.closeLanguageArea)
     
+    def closeLanguageArea(self, widget_id):
+        print('widget_id: ', widget_id)
+        
+        widget = self.display_widgets_list[widget_id]
+        widget.deleteLater()
+        
+        self.display_widgets_list.pop(widget_id)
+    
+    def getModulesForDropdown(self):
+        result = self.interpreter.interpreter('sword.modules')
+        
+        modules = []
+        for module in result.payload:
+            modules.append(module[0])
+        
+        return sorted(modules)
 
 class QDisplayWidget(QWidget):
+    
+    widget_id = None
+    newLanguageAreaRequested = pyqtSignal()
+    closeLanguageArea = pyqtSignal(int)
     
     def __init__(self):
         super().__init__()
@@ -117,7 +143,9 @@ class QDisplayWidget(QWidget):
         print(self.dropdown.currentText())
     
     def newLanguageButtonClick(self):
-        pass
+        print('new language')
+        self.newLanguageAreaRequested.emit()
     
-    def closeButtonClicked(self, button_id):
-        print(button_id)
+    def closeButtonClicked(self):
+        print('close languagge '+str(self.widget_id))
+        self.closeLanguageArea.emit(self.widget_id)
