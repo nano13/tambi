@@ -11,7 +11,7 @@ from configs.configFiles import ConfigFile
 class QVirtualKeyboardWindow(QMainWindow):
     
     availableHostLayouts = ["qwertz"]
-    availableVirtualLayouts = ["german", "greek", "hebrew", "arabic", "hindi", "futhark"]
+    availableVirtualLayouts = ["german", "greek", "hebrew", "arabic", "hindi", "futhark", "ipa"]
     
     def __init__(self):
         super().__init__()
