@@ -33,6 +33,8 @@ class QVirtualKeyboardWidget(QWidget):
         
         self.modifier = Qt.NoModifier
         
+        self.ipa_keyboard = IPAKeyboard()
+        
     def setLineEdit(self, lineEdit):
         self.lineEdit = lineEdit
         
@@ -86,57 +88,59 @@ class QVirtualKeyboardWidget(QWidget):
         self.keyPressedAny.connect(functools.partial(self.keyPressed, key, button))
         
     def printChar(self, char):
-        if self.language == "ipa":
-            if self.lineEdit:
-                pass
-            else:
-                print(char)
-        else:
-            if self.lineEdit:
-                if char == '⇄':
-                    print("TAB PRESSED")
-                elif char == '↑':
-                    event = QKeyEvent(QEvent.KeyPress, Qt.Key_Up, Qt.NoModifier)
-                    self.lineEdit.keyPressEvent(event)
-                elif char == '↓':
-                    event = QKeyEvent(QEvent.KeyPress, Qt.Key_Down, Qt.NoModifier)
-                    self.lineEdit.keyPressEvent(event)
-                elif char == '←':
-                    event = QKeyEvent(QEvent.KeyPress, Qt.Key_Left, Qt.NoModifier)
-                    self.lineEdit.keyPressEvent(event)
-                elif char == '→':
-                    event = QKeyEvent(QEvent.KeyPress, Qt.Key_Right, Qt.NoModifier)
-                    self.lineEdit.keyPressEvent(event)
-                elif char == '⏎':
-                    event = QKeyEvent(QEvent.KeyPress, Qt.Key_Enter, Qt.NoModifier)
-                    self.lineEdit.keyPressEvent(event)
-                elif char == '⌫':
-                    event = QKeyEvent(QEvent.KeyPress, Qt.Key_Backspace, Qt.NoModifier)
-                    self.lineEdit.keyPressEvent(event)
-                elif char == '⇧':
-                    # shift
+        if self.lineEdit:
+            if char == '⇄':
+                print("TAB PRESSED")
+            elif char == '↑':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Up, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '↓':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Down, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '←':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Left, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '→':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Right, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '⏎':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Enter, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '⌫':
+                event = QKeyEvent(QEvent.KeyPress, Qt.Key_Backspace, Qt.NoModifier)
+                self.lineEdit.keyPressEvent(event)
+            elif char == '⇧':
+                # shift
+                self.modifier = Qt.ShiftModifier
+                self.drawLevelTwoKeyboard()
+            elif char == '⇪':
+                # capslock
+                if self.modifier == Qt.ShiftModifier:
+                    self.modifier = Qt.NoModifier
+                    self.drawLevelOneKeyboard()
+                elif self.modifier == Qt.NoModifier:
                     self.modifier = Qt.ShiftModifier
                     self.drawLevelTwoKeyboard()
-                elif char == '⇪':
-                    # capslock
-                    if self.modifier == Qt.ShiftModifier:
-                        self.modifier = Qt.NoModifier
-                        self.drawLevelOneKeyboard()
-                    elif self.modifier == Qt.NoModifier:
-                        self.modifier = Qt.ShiftModifier
-                        self.drawLevelTwoKeyboard()
-                elif char == 'ctrl':
-                    print("CONTROL PRESSED")
-                elif char == 'alt':
-                    print("ALT PRESSED")
-                elif char == '⌘':
-                    print("WIndows key pressed")
-                elif char == '⌥':
-                    print("anykey pressed")
-                else:
-                    self.lineEdit.appendText(char)
+            elif char == 'ctrl':
+                print("CONTROL PRESSED")
+            elif char == 'alt':
+                print("ALT PRESSED")
+            elif char == '⌘':
+                print("WIndows key pressed")
+            elif char == '⌥':
+                print("anykey pressed")
             else:
-                print(char)
+                if self.language == "ipa":
+                    ipa_char = self.ipa_keyboard.analyzeInput(char)
+                    if ipa_char:
+                        event = QKeyEvent(QEvent.KeyPress, Qt.Key_Backspace, Qt.NoModifier)
+                        self.lineEdit.keyPressEvent(event)
+                        
+                        char = ipa_char
+                
+                self.lineEdit.appendText(char)
+        else:
+            print(char)
         
     def keyPressed(self, key, button, event):
         if event == key:
@@ -315,11 +319,28 @@ class QVkeybdPushButton(QPushButton):
             super().keyPressEvent(e)
     
 class IPAKeyboard(object):
+    
+    last_char = ''
+    
     def __init__(self):
         pass
     
     def analyzeInput(self, char):
-        pass
+        ipa_dict = self.getInputIPADict()
+        
+        ipa_char = None
+        if char in ipa_dict:
+            print("00000 if 00000")
+            ipa_char = ipa_dict[char]
+        if self.last_char+char in ipa_dict:
+            print("00000 double 00000")
+            ipa_char = ipa_dict[self.last_char+char]
+        #else:
+        #    print("00000 else 00000")
+        #    ipa_char = char
+        
+        self.last_char = char
+        return ipa_char
     
     def getInputIPADict(self):
         return {
