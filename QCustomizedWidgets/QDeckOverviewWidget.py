@@ -120,7 +120,8 @@ class QDeckOverviewWidget(QWidget):
                 pass
             
             for audio in audio_filenames:
-                remove(path.join(self.deckpath, audio))
+                if path.exists(path.join(self.deckpath, audio)):
+                    remove(path.join(self.deckpath, audio))
             
             self.initWithDbData()
 
