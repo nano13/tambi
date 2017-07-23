@@ -127,6 +127,8 @@ class QDeckItemWidget(QWidget):
             self.current_rowid = self.dbAdapter.getDeckItemRowID(name, word, translation, svg_filename)
             self.svg_filename = svg_filename
             
+            self.audioListWidget.setRowID(self.current_rowid)
+            
         else:
             self.freehandDrawWidget.saveView(path.join(self.deckpath, self.svg_filename))
             

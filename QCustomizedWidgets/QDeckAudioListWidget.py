@@ -232,6 +232,7 @@ class QDeckAudioListWidget(QTableWidget):
                 self.audioItemsDict[i]["description"] = cell_text
             
     def saveStateToDB(self, deck_rowid):
+        print("ROWID", deck_rowid)
         self.dbAdapter.saveAudioDict(self.audioItemsDict, deck_rowid)
     
     def randomword(self, length):
