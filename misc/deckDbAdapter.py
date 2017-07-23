@@ -113,17 +113,26 @@ class DeckDbAdapter(object):
         return svg_filename[0][0], audio_filenames_list
     
     def saveAudioDict(self, audio_dict, deck_rowid):
+        print(audio_dict)
         for item in audio_dict:
             if item["rowid"]:
                 print("if")
                 query = "UPDATE audio SET description='{0}' WHERE rowid={1}".format(item["description"], item["rowid"])
+                
+                self.cursor.execute(query)
             else:
                 print("else")
-                query = "INSERT INTO audio (deck_rowid, description, filename) VALUES ({0}, '{1}', '{2}')".format(deck_rowid, item["description"], item["filename"])
+                """ check if this item was already inserted """
+                check_query = "SELECT filename FROM audio WHERE filename=?"
+                self.cursor.execute(check_query, [item["filename"]])
+                existing = self.cursor.fetchall()
                 
-                print(query)
-                
-            self.cursor.execute(query)
+                if not existing:
+                    query = "INSERT INTO audio (deck_rowid, description, filename) VALUES ({0}, '{1}', '{2}')".format(deck_rowid, item["description"], item["filename"])
+                    
+                    print(query)
+                    
+                    self.cursor.execute(query)
         self.connection.commit()
     
     def audioFilenamesForDeckRowID(self, rowid):

@@ -175,6 +175,7 @@ class QDeckAudioListWidget(QTableWidget):
         self.row = row
         self.updateAudioListWidget()
         
+        print("++++++++++++++++++++++")
         self.saveStateToDB(self.current_rowid)
         
     def stopRecordButtonClicked(self, row):
