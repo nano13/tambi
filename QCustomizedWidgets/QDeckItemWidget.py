@@ -134,7 +134,7 @@ class QDeckItemWidget(QWidget):
             
             self.dbAdapter.updateDeckItem(self.current_rowid, name, word, translation, self.svg_filename)
             
-        #self.audioListWidget.saveStateToDB(self.current_rowid)
+        self.audioListWidget.saveStateToDB(self.current_rowid)
         
         QMessageBox.information(self, "saved", "saved")
         
