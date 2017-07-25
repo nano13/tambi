@@ -146,6 +146,10 @@ class DeckDbAdapter(object):
         query = "DELETE FROM audio WHERE rowid={0}".format(rowid)
         self.cursor.execute(query)
         self.connection.commit()
+    def deleteAudioItemByFilename(self, filename):
+        query = "DELETE FROM audio WHERE filename=?"
+        self.cursor.execute(query, [filename])
+        self.connection.commit()
         
     def getDataset(self):
         query = "SELECT * FROM deck ORDER BY RANDOM() LIMIT 10"

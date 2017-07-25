@@ -36,7 +36,7 @@ class QDeckAudioListWidget(QTableWidget):
         super().__init__()
         
     def setRowID(self, rowid):
-        self. current_rowid = rowid
+        self.current_rowid = rowid
         
     def initAudioListWidget(self, dbAdapter, deckpath, current_rowid):
         self.audioItemsDict = []
@@ -140,10 +140,16 @@ class QDeckAudioListWidget(QTableWidget):
             self.removeRow(row)
             
             rowid = self.audioItemsDict[row]["rowid"]
+            #rowid = self.current_rowid
             if rowid:
+                print("delete if")
                 self.dbAdapter.deleteAudioItem(rowid)
+            else:
+                """ get the rowid first """
+                
             filename = self.audioItemsDict[row]["filename"]
             if filename:
+                self.dbAdapter.deleteAudioItemByFilename(filename)
                 filepath = path.join(self.deckpath, filename)
                 if path.exists(filepath):
                     remove(filepath)
