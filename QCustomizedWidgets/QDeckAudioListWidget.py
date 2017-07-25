@@ -81,7 +81,7 @@ class QDeckAudioListWidget(QTableWidget):
     def updateAudioListWidget(self):
         for i, row in enumerate(range(self.rowCount())):
             
-            button_delete = QPushButton("delete", self)
+            button_delete = QPushButton()#"delete", self)
             button_delete.setIcon(QIcon.fromTheme('edit-delete'))
             self.setCellWidget(row, DELETE_BUTTON_COLUMN, button_delete)
             button_delete.clicked.connect(partial(self.deleteAudioButtonClicked, row))
@@ -111,25 +111,25 @@ class QDeckAudioListWidget(QTableWidget):
             self.resizeColumnsToContents()
             
     def insertPlayButton(self, row):
-        button_play = QPushButton("play", self)
+        button_play = QPushButton()#"play", self)
         button_play.setIcon(QIcon.fromTheme('media-playback-start'))
         self.setCellWidget(row, PLAY_BUTTON_COLUMN, button_play)
         button_play.clicked.connect(partial(self.playButtonClicked, row))
         
     def insertStopPlayButton(self, row):
-        button_stop = QPushButton("stop", self)
+        button_stop = QPushButton()#"stop", self)
         button_stop.setIcon(QIcon.fromTheme('media-playback-stop'))
         self.setCellWidget(row, PLAY_BUTTON_COLUMN, button_stop)
         button_stop.clicked.connect(partial(self.stopPlayButtonClicked, row))
         
     def insertRecordButton(self, row):
-        button_record = QPushButton("record", self)
+        button_record = QPushButton()#"record", self)
         button_record.setIcon(QIcon.fromTheme('media-record'))
         self.setCellWidget(row, RECORD_BUTTON_COLUMN, button_record)
         button_record.clicked.connect(partial(self.recordButtonClicked, row))
         
     def insertStopRecordButton(self, row):
-        button_stop = QPushButton("stop record", self)
+        button_stop = QPushButton()#"stop record", self)
         button_stop.setIcon(QIcon.fromTheme('media-playback-stop'))
         self.setCellWidget(row, RECORD_BUTTON_COLUMN, button_stop)
         button_stop.clicked.connect(partial(self.stopRecordButtonClicked, row))
