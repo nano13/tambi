@@ -79,9 +79,11 @@ class QDeckOverviewWidget(QWidget):
             #svgWidget.setGeometry(50,50,759,668)
             svgWidget.setFixedSize(60, 30)
             
-            edit_button = QPushButton("edit")
+            edit_button = QPushButton()#"edit")
+            edit_button.setIcon(QIcon.fromTheme("document-properties"))
             edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
-            delete_button = QPushButton("delete")
+            delete_button = QPushButton()#"delete")
+            delete_button.setIcon(QIcon.fromTheme('edit-delete'))
             delete_button.clicked.connect(partial(self.deleteRowButtonClicked, rowid))
             
             self.tableWidget.setCellWidget(i, 0, edit_button)
