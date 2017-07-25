@@ -2,6 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox
 from PyQt5.QtCore import pyqtSignal
 from PyQt5 import QtSvg
+from PyQt5.QtGui import QIcon
 from misc.deckDbAdapter import DeckDbAdapter
 
 from os import path, remove
