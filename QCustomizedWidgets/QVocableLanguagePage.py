@@ -13,6 +13,7 @@ class QVocableLanguagePage(QWidget):
     
     languageSelected = pyqtSignal(str, name='languageSelected')
     deckLearn = pyqtSignal(str, name='deckLearn')
+    deckDirtyDozen = pyqtSignal(str, name='deckDirtyDozen')
     deckView = pyqtSignal(str, name='deckSelected')
     createNewDeckSignal = pyqtSignal()
     
@@ -53,7 +54,7 @@ class QVocableLanguagePage(QWidget):
         
         
         self.tableWidget.setRowCount(len(language_list))
-        self.tableWidget.setColumnCount(3)
+        self.tableWidget.setColumnCount(4)
         self.tableWidget.verticalHeader().hide()
         self.tableWidget.horizontalHeader().hide()
         
@@ -65,22 +66,32 @@ class QVocableLanguagePage(QWidget):
             
             if label["type"] == "simple":
                 button_learn = QPushButton("learn", self)
+                button_dirty_dozen = QPushButton("dirty dozen", self)
                 button_stats = QPushButton("stats", self)
                 
                 self.tableWidget.setCellWidget(i, 1, button_learn)
+                #self.tableWidget.setCellWidget(i, 2, button_dirty_dozen)
                 self.tableWidget.setCellWidget(i, 2, button_stats)
                 
                 button_learn.clicked.connect(partial(self.tableButtonLearnClicked, label["name"]))
+                
+                #button_dirty_dozen.clicked.connect(partial(self.tableButtonDirtyDozenClicked, label["name"]))
+                
                 button_stats.clicked.connect(partial(self.tableButtonStatsClicked, label["name"]))
                 
             elif label["type"] == "deck":
                 button_learn_deck = QPushButton("learn", self)
+                button_dirty_dozen = QPushButton("dirty dozen", self)
                 button_view_deck = QPushButton("view deck", self)
                 
                 self.tableWidget.setCellWidget(i, 1, button_learn_deck)
-                self.tableWidget.setCellWidget(i, 2, button_view_deck)
+                self.tableWidget.setCellWidget(i, 2, button_dirty_dozen)
+                self.tableWidget.setCellWidget(i, 3, button_view_deck)
                 
                 button_learn_deck.clicked.connect(partial(self.tableButtonLearnDeckClicked, label["name"]))
+                
+                button_dirty_dozen.clicked.connect(partial(self.tableButtonDirtyDozenClicked, label["name"]))
+                
                 button_view_deck.clicked.connect(partial(self.tableButtonViewDeckClicked, label["name"]))
             
         self.tableWidget.resizeColumnsToContents()
@@ -90,7 +101,7 @@ class QVocableLanguagePage(QWidget):
         
     def tableButtonLearnClicked(self, language):
         self.languageSelected.emit(language)
-        
+    
     def tableButtonStatsClicked(self, language):
         stats = self.dbAdapter.getStats(language)
         
@@ -110,10 +121,13 @@ class QVocableLanguagePage(QWidget):
         
     def tableButtonLearnDeckClicked(self, deckname):
         self.deckLearn.emit(deckname)
-        
+    
+    def tableButtonDirtyDozenClicked(self, deckname):
+        self.deckDirtyDozen.emit(deckname)
+    
     def tableButtonViewDeckClicked(self, deckname):
         self.deckView.emit(deckname)
-        
+    
     def itemClicked(self):
         language = self.listWidget.currentItem().text()
         self.languageSelected.emit(language)
