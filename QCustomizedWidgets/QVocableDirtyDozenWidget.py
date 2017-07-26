@@ -13,6 +13,8 @@ from os import path
 import functools
 from random import randint
 
+COLUMNS = 4
+
 class QVocableDirtyDozenWidget(QWidget):
     
     deckpath = None
@@ -52,7 +54,7 @@ class QVocableDirtyDozenWidget(QWidget):
         if True:
             self.grid.addWidget(deck_select_button, 0, 0)
             
-            for i, datum in enumerate(dataset, 3):
+            for i, datum in enumerate(dataset, COLUMNS):
                 preview_pixmap = QPixmap()
                 preview_pixmap.load(path.join(deckpath, datum["image"]))
                 
@@ -65,7 +67,7 @@ class QVocableDirtyDozenWidget(QWidget):
                 
                 label.clicked.connect(functools.partial(self.labelClicked, datum["rowid"]))
                 
-                self.grid.addWidget(label, int(i / 3), i % 3)
+                self.grid.addWidget(label, int(i / COLUMNS), i % COLUMNS)
             
             self.setLayout(self.grid)
         
