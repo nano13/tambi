@@ -68,6 +68,19 @@ class DeckDbAdapter(object):
         
         return self.dictFactory(result)
     
+    def selectDeckItemsWithAudio(self):
+        query = "SELECT deck.rowid, name, word, translation, svg_filename, source, description, audio.filename FROM deck JOIN audio ON (deck.rowid = audio.deck_rowid) ORDER BY deck.rowid"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
+    def selectDeckItemsWithImage(self):
+        query = "SELECT image, rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY RANDOM()"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
+    
     def selectDeckItem(self, rowid):
         query = "SELECT name, word, translation, svg_filename FROM deck WHERE rowid={0}".format(rowid)
         self.cursor.execute(query)
@@ -80,13 +93,6 @@ class DeckDbAdapter(object):
         self.cursor.execute(query)
         
         self.connection.commit()
-        
-    def selectDeckItemsWithAudio(self):
-        query = "SELECT deck.rowid, name, word, translation, svg_filename, source, description, audio.filename FROM deck JOIN audio ON (deck.rowid = audio.deck_rowid) ORDER BY deck.rowid"
-        self.cursor.execute(query)
-        result = self.cursor.fetchall()
-        
-        return self.dictFactory(result)
     
     def deleteItem(self, rowid):
         query = "SELECT svg_filename FROM deck WHERE rowid={0}".format(rowid)
@@ -127,6 +133,13 @@ class DeckDbAdapter(object):
                     
                     self.cursor.execute(query)
         self.connection.commit()
+    
+    def selectAudio(self):
+        query = "SELECT deck_rowid, filename FROM audio"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
     
     def audioFilenamesForDeckRowID(self, rowid):
         query = "SELECT rowid, description, filename FROM audio WHERE deck_rowid={0}".format(rowid)
