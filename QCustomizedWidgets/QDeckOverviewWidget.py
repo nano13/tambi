@@ -80,6 +80,7 @@ class QDeckOverviewWidget(QWidget):
             svg_filename = line["svg_filename"]
             
             audio_filenames = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
+            max_audio_count = self.dbAdapter.getMaxAudioCount()
             
             svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, svg_filename))
             #svgWidget.setGeometry(50,50,759,668)
@@ -101,12 +102,14 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setCellWidget(i, 6, svgWidget)
             
             #if audio_filenames:
-            self.audioWidget.appendPlayButtons(audio_filenames, i, 7)
+            print("AUDIO_FILENAMES")
+            print(audio_filenames)
+            self.audioWidget.appendPlayButtons(audio_filenames, i, 7, max_audio_count)
             
         column_count = self.audioWidget.getMaxColCount()
         self.tableWidget.setColumnCount(column_count)
         self.tableWidget.resizeColumnsToContents()
-            
+    
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
         
@@ -160,9 +163,10 @@ class QAudioItems(object):
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
         
-    def appendPlayButtons(self, audio_filenames, row, col_offset):
+    def appendPlayButtons(self, audio_filenames, row, col_offset, max_audio_count):
         if len(audio_filenames) > self.max_button_count:
-            self.max_button_count = len(audio_filenames) + col_offset
+            #self.max_button_count = len(audio_filenames) + col_offset
+            self.max_button_count = max_audio_count + col_offset
         if self.tableWidget.columnCount() < self.max_button_count:
             self.tableWidget.setColumnCount(self.max_button_count)
         
