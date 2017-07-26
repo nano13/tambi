@@ -139,8 +139,12 @@ class DeckDbAdapter(object):
         query = "SELECT COUNT(*) AS result FROM audio GROUP BY deck_rowid ORDER BY result DESC LIMIT 1"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
+        print("RESULT: ", result)
         
-        return result[0][0]
+        if result:
+            return result[0][0]
+        else:
+            return 0
     
     def deleteAudioItem(self, rowid):
         query = "DELETE FROM audio WHERE rowid={0}".format(rowid)
