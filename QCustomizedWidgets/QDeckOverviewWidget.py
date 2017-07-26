@@ -69,6 +69,7 @@ class QDeckOverviewWidget(QWidget):
         
         for i, line in enumerate(data):
             rowid = line["rowid"]
+            order_index = line["order_index"]
             name = line["name"]
             word = line["word"]
             translation = line["translation"]
@@ -89,7 +90,7 @@ class QDeckOverviewWidget(QWidget):
             
             self.tableWidget.setCellWidget(i, 0, edit_button)
             self.tableWidget.setCellWidget(i, 1, delete_button)
-            self.tableWidget.setItem(i, 2, QTableWidgetItem(str(rowid)))
+            self.tableWidget.setItem(i, 2, QTableWidgetItem(str(order_index)))
             self.tableWidget.setItem(i, 3, QTableWidgetItem(name))
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
             self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
