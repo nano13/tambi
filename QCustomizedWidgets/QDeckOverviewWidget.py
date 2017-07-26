@@ -17,6 +17,7 @@ class QDeckOverviewWidget(QWidget):
     editDeckItem = pyqtSignal(str, object, int)
     
     tableWidget = None
+    audioWidget = None
     
     def __init__(self):
         super().__init__()
@@ -33,7 +34,9 @@ class QDeckOverviewWidget(QWidget):
         
         new_item_button = QPushButton("new item")
         new_item_button.clicked.connect(self.newItemButtonClicked)
-        #self.tableWidget.setCellWidget(0, 0, new_item_button)
+        
+        stop_all_sounds_button = QPushButton("stop all sounds")
+        stop_all_sounds_button.clicked.connect(self.stopAllSounds)
         
         self.initTableWidget()
         
@@ -43,6 +46,7 @@ class QDeckOverviewWidget(QWidget):
             self.grid.addWidget(deck_select_button, 0, 0)
             self.grid.addWidget(self.tableWidget, 1, 0, 1, 3)
             self.grid.addWidget(new_item_button, 2, 0)
+            self.grid.addWidget(stop_all_sounds_button, 2, 2)
             
             layout = self.setLayout(self.grid)
         
@@ -65,7 +69,7 @@ class QDeckOverviewWidget(QWidget):
         data = self.dbAdapter.selectDeckItems()
         #data = self.dbAdapter.selectDeckItemsWithAudio()
         self.tableWidget.setRowCount(len(data))
-        audioWidget = QAudioItems(self.deckpath, self.tableWidget)
+        self.audioWidget = QAudioItems(self.deckpath, self.tableWidget)
         
         for i, line in enumerate(data):
             rowid = line["rowid"]
@@ -97,9 +101,9 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setCellWidget(i, 6, svgWidget)
             
             #if audio_filenames:
-            audioWidget.appendPlayButtons(audio_filenames, i, 7)
+            self.audioWidget.appendPlayButtons(audio_filenames, i, 7)
             
-        column_count = audioWidget.getMaxColCount()
+        column_count = self.audioWidget.getMaxColCount()
         self.tableWidget.setColumnCount(column_count)
         self.tableWidget.resizeColumnsToContents()
             
@@ -128,6 +132,9 @@ class QDeckOverviewWidget(QWidget):
                     remove(path.join(self.deckpath, audio))
             
             self.initWithDbData()
+    
+    def stopAllSounds(self):
+        self.audioWidget.stopAllSounds()
 
 
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
@@ -180,7 +187,10 @@ class QAudioItems(object):
         
         self.status = self.PLAYING
         self.row = row
-        
+    
+    def stopAllSounds(self):
+        self.audioPlayer.stop()
+    
     def mediaStatusChanged(self):
         pass
     
