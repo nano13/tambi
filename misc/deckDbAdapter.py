@@ -17,7 +17,7 @@ class DeckDbAdapter(object):
         self.connection.close()
         
     def initializeTables(self):
-        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
+        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, order_index INTEGER, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
         self.cursor.execute(query)
         
         query  = "CREATE TABLE IF NOT EXISTS audio (rowid INTEGER PRIMARY KEY AUTOINCREMENT, deck_rowid INTEGER, description TEXT, filename TEXT)"
@@ -62,7 +62,20 @@ class DeckDbAdapter(object):
         return result[0][0]
         
     def selectDeckItems(self):
-        query = "SELECT rowid, name, word, translation, svg_filename FROM deck"
+        query = "SELECT rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY order_index"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
+    
+    def selectDeckItemsWithAudio(self):
+        query = "SELECT deck.rowid, name, word, translation, svg_filename, source, description, audio.filename FROM deck JOIN audio ON (deck.rowid = audio.deck_rowid) ORDER BY deck.rowid"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
+    def selectDeckItemsWithImage(self):
+        query = "SELECT image, rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY RANDOM()"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -80,15 +93,6 @@ class DeckDbAdapter(object):
         self.cursor.execute(query)
         
         self.connection.commit()
-        
-    def selectDeckItemsWithAudio(self):
-        query = "SELECT deck.rowid, name, word, translation, svg_filename, source, description, audio.filename FROM deck JOIN audio ON (deck.rowid = audio.deck_rowid) ORDER BY deck.rowid"
-        self.cursor.execute(query)
-        result = self.cursor.fetchall()
-        
-        #print(result)
-        
-        return self.dictFactory(result)
     
     def deleteItem(self, rowid):
         query = "SELECT svg_filename FROM deck WHERE rowid={0}".format(rowid)
@@ -113,15 +117,12 @@ class DeckDbAdapter(object):
         return svg_filename[0][0], audio_filenames_list
     
     def saveAudioDict(self, audio_dict, deck_rowid):
-        print(audio_dict)
         for item in audio_dict:
             if item["rowid"]:
-                print("if")
                 query = "UPDATE audio SET description='{0}' WHERE rowid={1}".format(item["description"], item["rowid"])
                 
                 self.cursor.execute(query)
             else:
-                print("else")
                 """ check if this item was already inserted """
                 check_query = "SELECT filename FROM audio WHERE filename=?"
                 self.cursor.execute(check_query, [item["filename"]])
@@ -130,10 +131,15 @@ class DeckDbAdapter(object):
                 if not existing:
                     query = "INSERT INTO audio (deck_rowid, description, filename) VALUES ({0}, '{1}', '{2}')".format(deck_rowid, item["description"], item["filename"])
                     
-                    print(query)
-                    
                     self.cursor.execute(query)
         self.connection.commit()
+    
+    def selectAudio(self):
+        query = "SELECT deck_rowid, filename FROM audio"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
     
     def audioFilenamesForDeckRowID(self, rowid):
         query = "SELECT rowid, description, filename FROM audio WHERE deck_rowid={0}".format(rowid)
@@ -142,9 +148,24 @@ class DeckDbAdapter(object):
         
         return self.dictFactory(result)
     
+    def getMaxAudioCount(self):
+        query = "SELECT COUNT(*) AS result FROM audio GROUP BY deck_rowid ORDER BY result DESC LIMIT 1"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        print("RESULT: ", result)
+        
+        if result:
+            return result[0][0]
+        else:
+            return 0
+    
     def deleteAudioItem(self, rowid):
         query = "DELETE FROM audio WHERE rowid={0}".format(rowid)
         self.cursor.execute(query)
+        self.connection.commit()
+    def deleteAudioItemByFilename(self, filename):
+        query = "DELETE FROM audio WHERE filename=?"
+        self.cursor.execute(query, [filename])
         self.connection.commit()
         
     def getDataset(self):

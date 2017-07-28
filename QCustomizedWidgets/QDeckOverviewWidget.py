@@ -2,10 +2,13 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox
 from PyQt5.QtCore import pyqtSignal
 from PyQt5 import QtSvg
+from PyQt5.QtGui import QIcon
 from misc.deckDbAdapter import DeckDbAdapter
 
 from os import path, remove
 from functools import partial
+
+COLUMN_OFFSET = 7
 
 class QDeckOverviewWidget(QWidget):
     
@@ -16,6 +19,7 @@ class QDeckOverviewWidget(QWidget):
     editDeckItem = pyqtSignal(str, object, int)
     
     tableWidget = None
+    audioWidget = None
     
     def __init__(self):
         super().__init__()
@@ -32,7 +36,9 @@ class QDeckOverviewWidget(QWidget):
         
         new_item_button = QPushButton("new item")
         new_item_button.clicked.connect(self.newItemButtonClicked)
-        #self.tableWidget.setCellWidget(0, 0, new_item_button)
+        
+        stop_all_sounds_button = QPushButton("stop all sounds")
+        stop_all_sounds_button.clicked.connect(self.stopAllSounds)
         
         self.initTableWidget()
         
@@ -42,6 +48,7 @@ class QDeckOverviewWidget(QWidget):
             self.grid.addWidget(deck_select_button, 0, 0)
             self.grid.addWidget(self.tableWidget, 1, 0, 1, 3)
             self.grid.addWidget(new_item_button, 2, 0)
+            self.grid.addWidget(stop_all_sounds_button, 2, 2)
             
             layout = self.setLayout(self.grid)
         
@@ -64,10 +71,13 @@ class QDeckOverviewWidget(QWidget):
         data = self.dbAdapter.selectDeckItems()
         #data = self.dbAdapter.selectDeckItemsWithAudio()
         self.tableWidget.setRowCount(len(data))
-        audioWidget = QAudioItems(self.deckpath, self.tableWidget)
+        
+        max_audio_count = self.dbAdapter.getMaxAudioCount()
+        self.audioWidget = QAudioItems(self.deckpath, self.tableWidget, max_audio_count, COLUMN_OFFSET)
         
         for i, line in enumerate(data):
             rowid = line["rowid"]
+            order_index = line["order_index"]
             name = line["name"]
             word = line["word"]
             translation = line["translation"]
@@ -79,26 +89,31 @@ class QDeckOverviewWidget(QWidget):
             #svgWidget.setGeometry(50,50,759,668)
             svgWidget.setFixedSize(60, 30)
             
-            edit_button = QPushButton("edit")
+            edit_button = QPushButton()#"edit")
+            edit_button.setIcon(QIcon.fromTheme("document-properties"))
             edit_button.clicked.connect(partial(self.editRowButtonClicked, rowid))
-            delete_button = QPushButton("delete")
+            delete_button = QPushButton()#"delete")
+            delete_button.setIcon(QIcon.fromTheme('edit-delete'))
             delete_button.clicked.connect(partial(self.deleteRowButtonClicked, rowid))
             
             self.tableWidget.setCellWidget(i, 0, edit_button)
             self.tableWidget.setCellWidget(i, 1, delete_button)
-            self.tableWidget.setItem(i, 2, QTableWidgetItem(str(rowid)))
+            self.tableWidget.setItem(i, 2, QTableWidgetItem(str(order_index)))
             self.tableWidget.setItem(i, 3, QTableWidgetItem(name))
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
             self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
             self.tableWidget.setCellWidget(i, 6, svgWidget)
             
             #if audio_filenames:
-            audioWidget.appendPlayButtons(audio_filenames, i, 7)
+            print("AUDIO_FILENAMES")
+            print(audio_filenames)
+            self.audioWidget.appendPlayButtons(audio_filenames, i)
             
-        column_count = audioWidget.getMaxColCount()
-        self.tableWidget.setColumnCount(column_count)
+        #column_count = self.audioWidget.getMaxColCount()
+        #self.tableWidget.setColumnCount(column_count)
+        self.tableWidget.setColumnCount(COLUMN_OFFSET + max_audio_count)
         self.tableWidget.resizeColumnsToContents()
-            
+    
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
         
@@ -124,6 +139,9 @@ class QDeckOverviewWidget(QWidget):
                     remove(path.join(self.deckpath, audio))
             
             self.initWithDbData()
+    
+    def stopAllSounds(self):
+        self.audioWidget.stopAllSounds()
 
 
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
@@ -140,20 +158,24 @@ class QAudioItems(object):
     status = STOPPED
     row = None
     
-    max_button_count = 0
+    #max_button_count = 0
+    col_offset = 0
     
-    def __init__(self, deckpath, tableWidget):
+    def __init__(self, deckpath, tableWidget, max_audio_count, offset):
         self.deckpath = deckpath
         self.tableWidget = tableWidget
+        self.tableWidget.setColumnCount(max_audio_count + offset)
+        self.col_offset = offset
         
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
         
-    def appendPlayButtons(self, audio_filenames, row, col_offset):
-        if len(audio_filenames) > self.max_button_count:
-            self.max_button_count = len(audio_filenames) + col_offset
-        if self.tableWidget.columnCount() < self.max_button_count:
-            self.tableWidget.setColumnCount(self.max_button_count)
+    def appendPlayButtons(self, audio_filenames, row):
+        #if len(audio_filenames) > self.max_button_count:
+            ##self.max_button_count = len(audio_filenames) + col_offset
+            #self.max_button_count = max_audio_count + col_offset
+        #if self.tableWidget.columnCount() < self.max_button_count:
+            #self.tableWidget.setColumnCount(self.max_button_count)
         
         for i, audio in enumerate(audio_filenames):
             filename = audio["filename"]
@@ -165,7 +187,7 @@ class QAudioItems(object):
             
             #button_play.resize(30, 30)
             
-            self.tableWidget.setCellWidget(row, i+col_offset, button_play)
+            self.tableWidget.setCellWidget(row, i+self.col_offset, button_play)
         
     def playButtonClicked(self, filename, row):
         filepath = path.join(self.deckpath, filename)
@@ -176,12 +198,15 @@ class QAudioItems(object):
         
         self.status = self.PLAYING
         self.row = row
-        
+    
+    def stopAllSounds(self):
+        self.audioPlayer.stop()
+    
     def mediaStatusChanged(self):
         pass
     
-    def getMaxColCount(self):
-        if not self.max_button_count == 0:
-            return self.max_button_count
-        else:
-            return self.tableWidget.columnCount()
+    #def getMaxColCount(self):
+        #if not self.max_button_count == 0:
+            #return self.max_button_count
+        #else:
+            #return self.tableWidget.columnCount()

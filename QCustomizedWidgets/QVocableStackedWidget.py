@@ -1,6 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog, QMessageBox
 from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
+from QCustomizedWidgets.QVocableDirtyDozenWidget import QVocableDirtyDozenWidget
 from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
 from QCustomizedWidgets.QDeckItemWidget import QDeckItemWidget
@@ -15,6 +16,7 @@ VOCABLE_LEARN_INDEX = 1
 DECK_OVERVIEW_INDEX = 2
 NEW_DECK_INDEX = 3
 DECK_LEARN_INDEX = 4
+DECK_DIRTY_DOZEN_INDEX = 5
 
 class QVocableStackedWidget(QWidget):
     def __init__(self):
@@ -43,12 +45,16 @@ class QVocableStackedWidget(QWidget):
         self.stack_language_select.vocableLanguagePage()
         self.stack_language_select.languageSelected.connect(self.languageSelected)
         self.stack_language_select.deckLearn.connect(self.deckLearn)
+        self.stack_language_select.deckDirtyDozen.connect(self.deckDirtyDozen)
         self.stack_language_select.deckView.connect(self.deckView)
         self.stack_language_select.createNewDeckSignal.connect(self.createNewDeck)
         
         self.stack_vocable_learn = QVocableLearnPage()
         self.stack_vocable_learn.initialize()
         self.stack_vocable_learn.selectLanguage.connect(self.selectLanguage)
+        
+        self.stack_dirty_dozen = QVocableDirtyDozenWidget()
+        self.stack_dirty_dozen.selectDeck.connect(self.selectDeck)
         
         self.stack_deck_overview = QDeckOverviewWidget()
         self.stack_deck_overview.selectDeck.connect(self.selectDeck)
@@ -69,6 +75,7 @@ class QVocableStackedWidget(QWidget):
         self.Stack.addWidget(self.stack_deck_overview)
         self.Stack.addWidget(self.stack_new_deck)
         self.Stack.addWidget(self.stack_deck_learn)
+        self.Stack.addWidget(self.stack_dirty_dozen)
         
         grid = QGridLayout()
         grid.setContentsMargins(0, 0, 0, 0)
@@ -92,6 +99,14 @@ class QVocableStackedWidget(QWidget):
         self.Stack.setCurrentIndex(VOCABLE_LEARN_INDEX)
         
         self.stack_vocable_learn.getVocableList(language)
+        
+    def deckDirtyDozen(self, deck):
+        self.stack_dirty_dozen.clear()
+        
+        deckpath = os.path.join(self.defaultDeckPath, deck)
+        self.stack_dirty_dozen.initialize(deckpath)
+        
+        self.Stack.setCurrentIndex(DECK_DIRTY_DOZEN_INDEX)
         
     def deckLearn(self, deck):
         self.stack_deck_learn.clear()
