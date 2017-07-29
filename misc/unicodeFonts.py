@@ -13,6 +13,8 @@ class UnicodeFonts(object):
     arabic_font = "Scheherazade"
     hebrew_font = "Ezra SIL"
     greek_font = "Galatia SIL"
+    ipa_font = "Doulos SIL"
+    
     
     arabic_size = 40
     hebrew_size = 20
@@ -21,14 +23,15 @@ class UnicodeFonts(object):
     
     def __init__(self):
         scriptpath = os.path.dirname(os.path.abspath(__file__))
-        print(scriptpath)
-        print(os.getcwd())
+        #print(scriptpath)
+        #print(os.getcwd())
         fonts = [
             "./assets/fonts/SILEOT.ttf",
             "./assets/fonts/Scheherazade-Regular.ttf",
             #"assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf",
             #"assets/fonts/EzraSIL2.51/SILEOT.ttf",
-            "assets/fonts/GalSIL21/GalSILR.ttf",
+            "./assets/fonts/GalSIL21/GalSILR.ttf",
+            "./assets/fonts/DoulosSIL-R.ttf",
         ]
         for font in fonts:
             """
@@ -39,7 +42,9 @@ class UnicodeFonts(object):
             """
             fontpath = font
             
-            print("loading Font:", font.split('/')[-1], QFontDatabase.addApplicationFont(fontpath))
+            #print("loading Font:", font.split('/')[-1], QFontDatabase.addApplicationFont(fontpath))
+            
+        #self.printFonts('Doulos')
         
     def isInUnicodeRange(self, start, end, string):
         result = False
@@ -72,12 +77,15 @@ class UnicodeFonts(object):
             #widget.setFontPointSize(self.ipa_size)
             self.setFontSize(widget, self.ipa_size)
     
-    def setFontSize(self, widget, size):
+    def setFontSize(self, widget, size, font_name=None):
         try:
             widget.setFontPointSize(size)
         except AttributeError:
-            font = QFont()
-            font.setPointSize(size)
+            if font_name:
+                font = QFont(font_name, size)
+            else:
+                font = QFont()
+                font.setPointSize(size)
             widget.setFont(font)
     
     def applyFontToQWidget(self, string, widget):
@@ -101,7 +109,7 @@ class UnicodeFonts(object):
     
     def printFonts(self, filter_str):
         result = []
-        print(filter_str, type(filter_str))
+        #print(filter_str, type(filter_str))
         db = QFontDatabase()
         fonts = QFontDatabase.families(db)
         

@@ -138,7 +138,6 @@ class QDeckLearnWidget(QWidget):
             
             #self.current_translation.setFontPointSize(40)
             self.unicode_fonts.applyFontAndSizeToQWidget(self.dataset[self.current_index]['translation'], self.current_translation)
-            print("bla")
         except IndexError:
             self.current_name.setText('ERROR: empty set')
             self.current_translation.setText('ERROR: empty set')
