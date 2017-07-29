@@ -55,18 +55,30 @@ class UnicodeFonts(object):
     def applyFontAndSizeToQWidget(self, string, widget):
         if self.isInUnicodeRange(self.arabic_block[0], self.arabic_block[1], string):
             widget.setFont(QFont(self.arabic_font))
-            widget.setFontPointSize(self.arabic_size)
+            #widget.setFontPointSize(self.arabic_size)
+            self.setFontSize(widget, self.arabic_size)
         
         elif self.isInUnicodeRange(self.hebrew_block[0], self.hebrew_block[1], string):
             widget.setFont(QFont(self.hebrew_font))
-            widget.setFontPointSize(self.hebrew_size)
+            #widget.setFontPointSize(self.hebrew_size)
+            self.setFontSize(widget, self.hebrew_size)
         
         elif self.isInUnicodeRange(self.greek_block[0], self.greek_block[1], string):
 #            widget.setFont(QFont(self.greek_font))
-            widget.setFontPointSize(self.greek_size)
+            #widget.setFontPointSize(self.greek_size)
+            self.setFontSize(widget, self.greek_size)
         
         elif self.isInUnicodeRange(self.ipa_block[0], self.ipa_block[1], string):
-            widget.setFontPointSize(self.ipa_size)
+            #widget.setFontPointSize(self.ipa_size)
+            self.setFontSize(widget, self.ipa_size)
+    
+    def setFontSize(self, widget, size):
+        try:
+            widget.setFontPointSize(size)
+        except AttributeError:
+            font = QFont()
+            font.setPointSize(size)
+            widget.setFont(font)
     
     def applyFontToQWidget(self, string, widget):
         if self.isInUnicodeRange(self.arabic_block[0], self.arabic_block[1], string):

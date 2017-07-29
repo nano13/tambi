@@ -4,7 +4,9 @@ from PyQt5.Qt import Qt
 from PyQt5.QtCore import pyqtSignal
 from PyQt5.QtGui import QFont
 from PyQt5 import QtSvg
+
 from misc.deckDbAdapter import DeckDbAdapter
+from misc.unicodeFonts import UnicodeFonts
 
 from os import path
 
@@ -22,6 +24,8 @@ class QDeckLearnWidget(QWidget):
     
     def __init__(self):
         super().__init__()
+        
+        self.unicode_fonts = UnicodeFonts()
         
     def initialize(self, deckpath):
         self.deckpath = deckpath
@@ -128,7 +132,13 @@ class QDeckLearnWidget(QWidget):
     def buttonShowTranslationClicked(self):
         try:
             self.current_name.setText(self.dataset[self.current_index]['name'])
+            self.unicode_fonts.applyFontAndSizeToQWidget(self.dataset[self.current_index]['name'], self.current_name)
+            
             self.current_translation.setText(self.dataset[self.current_index]['translation'])
+            
+            #self.current_translation.setFontPointSize(40)
+            self.unicode_fonts.applyFontAndSizeToQWidget(self.dataset[self.current_index]['translation'], self.current_translation)
+            print("bla")
         except IndexError:
             self.current_name.setText('ERROR: empty set')
             self.current_translation.setText('ERROR: empty set')
