@@ -76,7 +76,7 @@ class QDeckLearnWidget(QWidget):
             self.grid.setContentsMargins(0, 0, 0, 0)
             self.grid.addWidget(deck_select_button, 0, 0)
             self.grid.addWidget(self.data_counter, 0, 2)
-            self.grid.addWidget(self.svgWidget, 1, 1)
+            #self.grid.addWidget(self.svgWidget, 1, 1)
             
             self.grid.addWidget(self.current_name, 4, 1)
             self.grid.addWidget(self.current_word, 5, 1)
