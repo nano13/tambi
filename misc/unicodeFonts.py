@@ -29,7 +29,7 @@ class UnicodeFonts(object):
             "./assets/fonts/SILEOT.ttf",
             "./assets/fonts/Scheherazade-Regular.ttf",
             #"assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf",
-            #"assets/fonts/EzraSIL2.51/SILEOT.ttf",
+            "./assets/fonts/EzraSIL2.51/SILEOT.ttf",
             "./assets/fonts/GalSIL21/GalSILR.ttf",
             "./assets/fonts/DoulosSIL-R.ttf",
         ]
@@ -42,9 +42,9 @@ class UnicodeFonts(object):
             """
             fontpath = font
             
-            #print("loading Font:", font.split('/')[-1], QFontDatabase.addApplicationFont(fontpath))
+            print("loading Font:", font.split('/')[-1], QFontDatabase.addApplicationFont(fontpath))
             
-        #self.printFonts('Doulos')
+        #self.printFonts('Ezra')
         
     def isInUnicodeRange(self, start, end, string):
         result = False
