@@ -8,25 +8,30 @@ class UnicodeFonts(object):
     arabic_block = [1536, 1791]
     hebrew_block = [1424, 1535]
     greek_block = [880, 1023]
+    ipa_block = [250, 687]
     
     arabic_font = "Scheherazade"
     hebrew_font = "Ezra SIL"
     greek_font = "Galatia SIL"
+    ipa_font = "Doulos SIL"
+    
     
     arabic_size = 40
     hebrew_size = 20
     greek_size = 15
+    ipa_size = 20
     
     def __init__(self):
         scriptpath = os.path.dirname(os.path.abspath(__file__))
-        print(scriptpath)
-        print(os.getcwd())
+        #print(scriptpath)
+        #print(os.getcwd())
         fonts = [
             "./assets/fonts/SILEOT.ttf",
             "./assets/fonts/Scheherazade-Regular.ttf",
             #"assets/fonts/Scheherazade-2.100/Scheherazade-Regular.ttf",
-            #"assets/fonts/EzraSIL2.51/SILEOT.ttf",
-            "assets/fonts/GalSIL21/GalSILR.ttf",
+            "./assets/fonts/EzraSIL2.51/SILEOT.ttf",
+            "./assets/fonts/GalSIL21/GalSILR.ttf",
+            "./assets/fonts/DoulosSIL-R.ttf",
         ]
         for font in fonts:
             """
@@ -38,6 +43,8 @@ class UnicodeFonts(object):
             fontpath = font
             
             print("loading Font:", font.split('/')[-1], QFontDatabase.addApplicationFont(fontpath))
+            
+        #self.printFonts('Ezra')
         
     def isInUnicodeRange(self, start, end, string):
         result = False
@@ -53,15 +60,33 @@ class UnicodeFonts(object):
     def applyFontAndSizeToQWidget(self, string, widget):
         if self.isInUnicodeRange(self.arabic_block[0], self.arabic_block[1], string):
             widget.setFont(QFont(self.arabic_font))
-            widget.setFontPointSize(self.arabic_size)
+            #widget.setFontPointSize(self.arabic_size)
+            self.setFontSize(widget, self.arabic_size)
         
         elif self.isInUnicodeRange(self.hebrew_block[0], self.hebrew_block[1], string):
             widget.setFont(QFont(self.hebrew_font))
-            widget.setFontPointSize(self.hebrew_size)
+            #widget.setFontPointSize(self.hebrew_size)
+            self.setFontSize(widget, self.hebrew_size)
         
         elif self.isInUnicodeRange(self.greek_block[0], self.greek_block[1], string):
 #            widget.setFont(QFont(self.greek_font))
-            widget.setFontPointSize(self.greek_size)
+            #widget.setFontPointSize(self.greek_size)
+            self.setFontSize(widget, self.greek_size)
+        
+        elif self.isInUnicodeRange(self.ipa_block[0], self.ipa_block[1], string):
+            #widget.setFontPointSize(self.ipa_size)
+            self.setFontSize(widget, self.ipa_size)
+    
+    def setFontSize(self, widget, size, font_name=None):
+        try:
+            widget.setFontPointSize(size)
+        except AttributeError:
+            if font_name:
+                font = QFont(font_name, size)
+            else:
+                font = QFont()
+                font.setPointSize(size)
+            widget.setFont(font)
     
     def applyFontToQWidget(self, string, widget):
         if self.isInUnicodeRange(self.arabic_block[0], self.arabic_block[1], string):
@@ -84,7 +109,7 @@ class UnicodeFonts(object):
     
     def printFonts(self, filter_str):
         result = []
-        print(filter_str, type(filter_str))
+        #print(filter_str, type(filter_str))
         db = QFontDatabase()
         fonts = QFontDatabase.families(db)
         
