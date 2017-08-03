@@ -56,7 +56,10 @@ class QVocableDirtyDozenWidget(QWidget):
             
             for i, datum in enumerate(dataset, COLUMNS):
                 preview_pixmap = QPixmap()
-                preview_pixmap.load(path.join(deckpath, datum["image"]))
+                try:
+                    preview_pixmap.load(path.join(deckpath, datum["image"]))
+                except KeyError:
+                    preview_pixmap.load(path.join(deckpath, datum["svg_filename"]))
                 
                 scaled_pixmap = preview_pixmap.scaled(QtCore.QSize(200, 200), QtCore.Qt.KeepAspectRatio)
                 

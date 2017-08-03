@@ -76,8 +76,14 @@ class DeckDbAdapter(object):
         return self.dictFactory(result)
     def selectDeckItemsWithImage(self):
         query = "SELECT image, rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY RANDOM()"
-        self.cursor.execute(query)
-        result = self.cursor.fetchall()
+        
+        try:
+            self.cursor.execute(query)
+            result = self.cursor.fetchall()
+        except sqlite3.OperationalError:
+            query = "SELECT rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY RANDOM()"
+            self.cursor.execute(query)
+            result = self.cursor.fetchall()
         
         return self.dictFactory(result)
     
