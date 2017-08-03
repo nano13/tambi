@@ -61,6 +61,8 @@ class QDeckAudioListWidget(QTableWidget):
         elif audioformat == 'mp3':
             settings.setCodec("audio/mpeg")
             self.audioRecorder.setContainerFormat("mp3")
+        elif audioformat == 'amr':
+            settings.setCodec("audio/amr")
         else:
             settings.setCodec("audio/PCM")
             self.audioRecorder.setContainerFormat("wav")
@@ -176,7 +178,8 @@ class QDeckAudioListWidget(QTableWidget):
             extension = '.ogg'
         elif audioformat == 'mp3':
             extension = '.mp3'
-            print("MP3")
+        elif audioformat == 'amr':
+            extension = '.amr'
         #filename = str(int(time.time())) + self.randomword(5) + ".ogg"
         #filename = str(int(time.time())) + self.randomword(5) + ".wav"
         filename = str(int(time.time())) + self.randomword(5) + extension
