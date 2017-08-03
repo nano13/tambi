@@ -5,6 +5,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5 import QtCore
 
 #from QCustomizedWidgets.QVoiceRecorder import QVoiceRecorder
+from configs.configFiles import ConfigFile
 
 from functools import partial
 from os import path, remove
@@ -21,6 +22,8 @@ class QDeckAudioListWidget(QTableWidget):
     dbAdapter = None
     
     current_rowid = None
+    
+    config = ConfigFile()
     
     audioItemsDict = []
     audioPlayer = None
@@ -50,10 +53,18 @@ class QDeckAudioListWidget(QTableWidget):
         #self.audioRecorder = QDeckAudioItemWidget()
         self.audioRecorder = QAudioRecorder()
         settings = QAudioEncoderSettings()
-        #settings.setCodec("audio/vorbis")
-        #self.audioRecorder.setContainerFormat("ogg")
-        settings.setCodec("audio/PCM")
-        self.audioRecorder.setContainerFormat("wav")
+        
+        audioformat = self.config.readVar('vocable', 'audioformat')
+        if audioformat == 'ogg':
+            settings.setCodec("audio/vorbis")
+            self.audioRecorder.setContainerFormat("ogg")
+        elif audioformat == 'mp3':
+            settings.setCodec("audio/mpeg")
+            self.audioRecorder.setContainerFormat("mp3")
+        else:
+            settings.setCodec("audio/PCM")
+            self.audioRecorder.setContainerFormat("wav")
+        
         self.audioRecorder.setEncodingSettings(settings)
         
         self.setColumnCount(3)
@@ -158,8 +169,17 @@ class QDeckAudioListWidget(QTableWidget):
         self.stopPlayButtonClicked(row)
         self.stopRecordButtonClicked(row)
         
+        extension = '.wav'
+        audioformat = self.config.readVar('vocable', 'audioformat')
+        print(audioformat)
+        if audioformat == 'ogg':
+            extension = '.ogg'
+        elif audioformat == 'mp3':
+            extension = '.mp3'
+            print("MP3")
         #filename = str(int(time.time())) + self.randomword(5) + ".ogg"
-        filename = str(int(time.time())) + self.randomword(5) + ".wav"
+        #filename = str(int(time.time())) + self.randomword(5) + ".wav"
+        filename = str(int(time.time())) + self.randomword(5) + extension
         filepath = path.join(self.deckpath, filename)
         print(filepath)
         

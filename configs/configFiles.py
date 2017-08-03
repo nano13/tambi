@@ -24,7 +24,7 @@ class ConfigFile(object):
     def readVar(self, section, option):
         try:
             result = self.config.get(section, option)
-        except configparser.NoSectionError:
+        except (configparser.NoSectionError, configparser.NoOptionError):
             self.__insertValueFromDefaultConfig(section, option)
             result = self.config.get(section, option)
         return result
@@ -50,6 +50,7 @@ class ConfigFile(object):
         
     
     def __insertValueFromDefaultConfig(self, section, option):
+        print("INSERTING NEW VALUE ########################")
         conf = configparser.ConfigParser()
         conf.read('./configs/'+DEFAULT_CONFIG_FILE_NAME)
         value = conf.get(section, option)
