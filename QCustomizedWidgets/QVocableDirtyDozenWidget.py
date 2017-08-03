@@ -28,6 +28,8 @@ class QVocableDirtyDozenWidget(QWidget):
     
     curent_audio_deck_id = None
     
+    last_random_audio = None
+    
     def __init__(self):
         super().__init__()
         
@@ -80,7 +82,6 @@ class QVocableDirtyDozenWidget(QWidget):
         if self.grid:
             for i in range(0, self.layout().count()):
                 widget = self.layout().itemAt(i).widget()
-                print(widget)
                 widget.setVisible(False)
         #for widget in self.findChildren:
             #print(widget)
@@ -96,15 +97,26 @@ class QVocableDirtyDozenWidget(QWidget):
             self.playRandomAudio()
         
     def playRandomAudio(self):
-        selector = randint(0, len(self.audio_data)-1)
-        print(selector)
-        filename = self.audio_data[selector]["filename"]
-        self.current_audio_deck_id = self.audio_data[selector]["deck_rowid"]
-        
-        filepath = path.join(self.deckpath, filename)
-        url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
-        content = QMediaContent(url)
-        self.audioPlayer.setMedia(content)
-        self.audioPlayer.play()
-    
+        try:
+            selector = randint(0, len(self.audio_data)-1)
+            depth = 0
+            while selector == self.last_random_audio:
+                selector = randint(0, len(self.audio_data)-1)
+                """ to avoid ininite loops with just one element """
+                depth += 1
+                if depth > 20:
+                    break
+            self.last_random_audio = selector
+            
+            filename = self.audio_data[selector]["filename"]
+            self.current_audio_deck_id = self.audio_data[selector]["deck_rowid"]
+            
+            filepath = path.join(self.deckpath, filename)
+            url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+            content = QMediaContent(url)
+            self.audioPlayer.setMedia(content)
+            self.audioPlayer.play()
+        except ValueError:
+            """ probably an empty deck. just do nothing"""
+            pass
     
