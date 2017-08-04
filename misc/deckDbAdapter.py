@@ -203,3 +203,10 @@ class DeckDbAdapter(object):
         
         self.cursor.execute(query)
         self.connection.commit()
+    
+    def search(self, pattern):
+        query = "SELECT name, word, translation FROM deck WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?"
+        self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
