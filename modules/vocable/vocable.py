@@ -16,6 +16,8 @@ class Vocable(object):
     
     def getCommands(self):
         return {
+            "vocable.commands" : self.commands,
+            
             "vocable.search" : self.search,
         }
     
@@ -25,6 +27,21 @@ class Vocable(object):
     
     def commandNotFound(self, c, a):
         raise CommandNotInThisModule("command not found in module vocable")
+    
+    def commands(self, none1, none2):
+        dic = self.getCommands()
+        
+        commands = sorted(dic.items())
+        
+        all_commands = []
+        for key in commands:
+            line = str(key).split(",")[0]
+            all_commands.append(str(line[2:-1]))
+            
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = all_commands
+        return result_object
     
     def search(self, c, args):
         deckpath = self.config.readPath("vocable", "deckpath")
