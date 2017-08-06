@@ -1,6 +1,12 @@
 
 import sqlite3, time
 
+"""
+SELECT name, word, translation, GROUP_CONCAT(filename)
+FROM deck JOIN audio ON deck.rowid=deck_rowid
+GROUP BY name, word, translation
+"""
+
 class DeckDbAdapter(object):
     def __init__(self):
         pass
@@ -208,8 +214,21 @@ class DeckDbAdapter(object):
         self.connection.commit()
     
     def search(self, pattern):
-        query = "SELECT name, word, translation FROM deck WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?"
-        self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
+        #query = "SELECT rowid, name, word, translation FROM deck WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?"
+        query = '''SELECT name, word, translation, svg_filename, image, GROUP_CONCAT(filename) AS filenames
+        FROM deck 
+        JOIN audio ON deck.rowid=deck_rowid 
+        WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?
+        GROUP BY name, word, translation'''
+        try:
+            self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
+        except sqlite3.OperationalError:
+            query = '''SELECT name, word, translation, svg_filename, GROUP_CONCAT(filename) AS filenames
+            FROM deck 
+            JOIN audio ON deck.rowid=deck_rowid 
+            WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?
+            GROUP BY name, word, translation'''
+            self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)

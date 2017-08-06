@@ -55,6 +55,7 @@ class Vocable(object):
             self.dbAdapter.initialize(db_path)
             
             result = self.dbAdapter.search(args[0])
+            
             if result:
                 try:
                     result = result[0]
@@ -69,12 +70,11 @@ class Vocable(object):
                         result_header.append(key)
                         
                     result_list.append(result_line)
-                    
-                    
             
             self.dbAdapter.closeDB()
         
         result_object = Result()
+        #result_object.category = "multimedia_table"
         result_object.category = "table"
         result_object.payload = result_list
         result_object.header = result_header

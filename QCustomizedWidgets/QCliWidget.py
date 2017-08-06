@@ -1,7 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView
 #from PyQt5.QtWebKitWidgets import QWebView
-from PyQt5.QtGui import QIcon, QTextFormat
+from PyQt5.QtGui import QIcon, QTextFormat, QPixmap
 from PyQt5.QtCore import QRect, QRectF
 
 from QCustomizedWidgets.QInputLine import QInputLine
@@ -169,6 +169,8 @@ class QCliWidget(QWidget):
                     pass # datastructure does not fit to display type 'table'
                 else:
                     self.resultInTable(result)
+            elif hasattr(result, 'category') and result.category == "multimedia_table":
+                self.resultInMultimediaTable(result)
             elif hasattr(result, 'category') and result.category == "list":
                 self.resultInTextEdit(result)
             elif hasattr(result, 'category') and result.category == "text":
@@ -207,6 +209,9 @@ class QCliWidget(QWidget):
         self.display_widget.resizeColumnsToContents()
         self.addDisplayWidget()
     
+    def resultInMultimediaTable(self, result):
+        pass
+    
     def resultInTextEdit(self, result):
         self.display_widget.deleteLater()
         self.display_widget = QTextEdit()
@@ -225,8 +230,6 @@ class QCliWidget(QWidget):
         
         self.display_widget.setHtml(result.payload)
         self.addDisplayWidget()
-        
-        
     
     def resultInItemizedWidget(self, result):
         self.display_widget.deleteLater()

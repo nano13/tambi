@@ -10,6 +10,7 @@ Returns the transformation matrix for the specified capo position.
 With an empty param, this returns the whole capo-matrix (for 12 frets).
 
 Examples:
+frets.capo
 frets.capo 5
 """
 
