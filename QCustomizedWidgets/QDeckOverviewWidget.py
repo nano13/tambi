@@ -1,14 +1,15 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QMessageBox, QLabel
+from PyQt5.QtCore import pyqtSignal, Qt, QSize
 from PyQt5 import QtSvg
-from PyQt5.QtGui import QIcon
+from PyQt5.QtGui import QIcon, QPixmap
+
 from misc.deckDbAdapter import DeckDbAdapter
 
 from os import path, remove
 from functools import partial
 
-COLUMN_OFFSET = 7
+COLUMN_OFFSET = 8
 
 class QDeckOverviewWidget(QWidget):
     
@@ -82,6 +83,23 @@ class QDeckOverviewWidget(QWidget):
             word = line["word"]
             translation = line["translation"]
             svg_filename = line["svg_filename"]
+            image_filename = None
+            imageWidget = QLabel()
+            try:
+                image_filename = line["image"]
+            except:
+                """ maybe we have an image, maybe not ... """
+                pass
+            else:
+                pixmap = QPixmap()
+                try:
+                    pixmap.load(path.join(self.deckpath, image_filename))
+                except TypeError:
+                    """ probably we have an None-image here """
+                    pass
+                else:
+                    pixmap = pixmap.scaled(QSize(60, 30), Qt.KeepAspectRatio)
+                    imageWidget.setPixmap(pixmap)
             
             audio_filenames = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
             
@@ -103,6 +121,7 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
             self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
             self.tableWidget.setCellWidget(i, 6, svgWidget)
+            self.tableWidget.setCellWidget(i, 7, imageWidget)
             
             #if audio_filenames:
             print("AUDIO_FILENAMES")
