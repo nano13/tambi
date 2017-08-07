@@ -6,7 +6,7 @@ from configs.configFiles import ConfigFile
 from misc.deckDbAdapter import DeckDbAdapter
 import os
 
-class Vocable(object):
+class Deck(object):
     
     config = ConfigFile()
     dbAdapter = DeckDbAdapter()
@@ -16,12 +16,12 @@ class Vocable(object):
     
     def getCommands(self):
         return {
-            "vocable.commands" : self.commands,
+            "deck.commands" : self.commands,
             
-            "vocable.toString" : self.toString,
-            "vocable.toTable" : self.toTable,
+            "deck.toString" : self.toString,
+            "deck.toTable" : self.toTable,
             
-            "vocable.search" : self.search,
+            "deck.search" : self.search,
         }
     
     def interpreter(self, command, args):
