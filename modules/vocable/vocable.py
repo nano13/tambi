@@ -18,6 +18,9 @@ class Vocable(object):
         return {
             "vocable.commands" : self.commands,
             
+            "vocable.toString" : self.toString,
+            "vocable.toTable" : self.toTable,
+            
             "vocable.search" : self.search,
         }
     
@@ -41,6 +44,25 @@ class Vocable(object):
         result_object = Result()
         result_object.category = "list"
         result_object.payload = all_commands
+        return result_object
+    
+    def toString(self, c, args):
+        deckname = args[0]
+        deckpath = self.config.readPath("vocable", "deckpath")
+        db_path = os.path.join(deckpath, deckname, 'database.sqlite')
+        print(db_path)
+        self.dbAdapter.initialize(db_path)
+        result, header = self.dbAdapter.summary()
+        
+        result_object = Result()
+        result_object.category = "text"
+        result_object.payload = result
+        result_object.header = header
+        return result_object
+    
+    def toTable(self, c, args):
+        result_object = self.toString(c, args)
+        result_object.category = "table"
         return result_object
     
     def search(self, c, args):

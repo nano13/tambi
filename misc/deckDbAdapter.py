@@ -14,7 +14,6 @@ class DeckDbAdapter(object):
     def initialize(self, dbpath):
         
         self.connection = sqlite3.connect(dbpath)
-        #self.connection.row_factory = self.dict_factory()
         self.cursor = self.connection.cursor()
         
         self.initializeTables()
@@ -33,18 +32,10 @@ class DeckDbAdapter(object):
         
         self.connection.commit()
     
-#    def dict_factory(cursor, row):
-#        d = {}
-#        for idx, col in enumerate(cursor.description):
-#            d[col[0]] = row[idx]
-#        return d
-    
     def dictFactory(self, result):
         result_list = []
-        
         for row in result:
             dic = {}
-            
             for i, col in enumerate(self.cursor.description):
                 dic[col[0]] = row[i]
             result_list.append(dic)
@@ -213,10 +204,22 @@ class DeckDbAdapter(object):
         self.cursor.execute(query)
         self.connection.commit()
     
+    def summary(self):
+        query = '''SELECT name, word, translation, audio.description, audio.filename
+        FROM deck
+        JOIN audio ON deck.rowid=audio.deck_rowid'''
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        header = ['name', 'word', 'translation', 'audio.description', 'audio.filename']
+        
+        #return self.dictFactory(result)
+        return result, header
+    
     def search(self, pattern):
         #query = "SELECT rowid, name, word, translation FROM deck WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?"
         query = '''SELECT name, word, translation, svg_filename, image, GROUP_CONCAT(filename) AS filenames
-        FROM deck 
+        FROM deck
         JOIN audio ON deck.rowid=deck_rowid 
         WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?
         GROUP BY name, word, translation'''
@@ -224,7 +227,7 @@ class DeckDbAdapter(object):
             self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
         except sqlite3.OperationalError:
             query = '''SELECT name, word, translation, svg_filename, GROUP_CONCAT(filename) AS filenames
-            FROM deck 
+            FROM deck
             JOIN audio ON deck.rowid=deck_rowid 
             WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?
             GROUP BY name, word, translation'''
