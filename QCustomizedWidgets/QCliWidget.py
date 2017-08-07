@@ -13,6 +13,7 @@ from QCustomizedWidgets.QDeckOverviewWidget import QAudioItems
 
 from interpreter.interpreter import Interpreter
 from interpreter.exceptions import ClearCalled
+from interpreter.structs import Result
 
 from misc.unicodeFonts import UnicodeFonts
 from configs.configFiles import ConfigFile
@@ -161,7 +162,7 @@ class QCliWidget(QWidget):
         except ClearCalled:
             self.clearDisplayWidget()
         else:
-            if result.payload:
+            if hasattr(result, 'payload') and result.payload:
                 if hasattr(result, 'error') and result.error:
                     self.showErrorMessage(result.error)
                 elif result is None:
@@ -187,6 +188,7 @@ class QCliWidget(QWidget):
                     #self.resultInHTMLWidget(result)
                     self.resultInTextEdit(result)
             else:
+                result = Result()
                 result.payload = 'empty result set'
                 self.resultInTextEdit(result)
     
