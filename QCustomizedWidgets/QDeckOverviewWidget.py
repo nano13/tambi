@@ -126,7 +126,7 @@ class QDeckOverviewWidget(QWidget):
             #if audio_filenames:
             print("AUDIO_FILENAMES")
             print(audio_filenames)
-            self.audioWidget.appendPlayButtons(audio_filenames, i)
+            self.audioWidget.appendPlayButtonsDict(audio_filenames, i)
             
         #column_count = self.audioWidget.getMaxColCount()
         #self.tableWidget.setColumnCount(column_count)
@@ -189,7 +189,7 @@ class QAudioItems(object):
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
         
-    def appendPlayButtons(self, audio_filenames, row):
+    def appendPlayButtonsDict(self, audio_filenames, row):
         #if len(audio_filenames) > self.max_button_count:
             ##self.max_button_count = len(audio_filenames) + col_offset
             #self.max_button_count = max_audio_count + col_offset
@@ -198,7 +198,9 @@ class QAudioItems(object):
         
         for i, audio in enumerate(audio_filenames):
             filename = audio["filename"]
+            self.appendPlayButtonsHelper(row, i, filename)
             
+    def appendPlayButtonsHelper(self, row, i, filename):
             button_play = QPushButton()
             icon = QIcon.fromTheme('media-playback-start')
             button_play.setIcon(icon)
@@ -207,7 +209,11 @@ class QAudioItems(object):
             #button_play.resize(30, 30)
             
             self.tableWidget.setCellWidget(row, i+self.col_offset, button_play)
-        
+    
+    def appendPlayButtonsList(self, audio_filenames, row):
+        for i, filename in enumerate(audio_filenames):
+            self.appendPlayButtonsHelper(row, i, filename)
+    
     def playButtonClicked(self, filename, row):
         filepath = path.join(self.deckpath, filename)
         url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())

@@ -96,8 +96,8 @@ class Deck(object):
             self.dbAdapter.closeDB()
         
         result_object = Result()
-        #result_object.category = "multimedia_table"
-        result_object.category = "table"
+        result_object.category = "multimedia_table"
+        #result_object.category = "table"
         result_object.payload = result_list
         result_object.header = result_header
         return result_object

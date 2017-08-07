@@ -1,13 +1,15 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView, QLabel
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap
-from PyQt5.QtCore import QRect, QRectF
+from PyQt5.QtCore import QRect, QRectF, Qt, QSize
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
+
+from QCustomizedWidgets.QDeckOverviewWidget import QAudioItems
 
 from interpreter.interpreter import Interpreter
 from interpreter.exceptions import ClearCalled
@@ -16,6 +18,7 @@ from misc.unicodeFonts import UnicodeFonts
 from configs.configFiles import ConfigFile
 
 from functools import partial
+from os import path
 
 SCALE_FACTOR = 1.15
 
@@ -158,29 +161,33 @@ class QCliWidget(QWidget):
         except ClearCalled:
             self.clearDisplayWidget()
         else:
-            if hasattr(result, 'error') and result.error:
-                self.showErrorMessage(result.error)
-            elif result is None:
-                self.showErrorMessage('no result found')
-            elif hasattr(result, 'category') and result.category == "table":
-                try:
-                    result.payload[0]
-                except IndexError:
-                    pass # datastructure does not fit to display type 'table'
-                else:
-                    self.resultInTable(result)
-            elif hasattr(result, 'category') and result.category == "multimedia_table":
-                self.resultInMultimediaTable(result)
-            elif hasattr(result, 'category') and result.category == "list":
-                self.resultInTextEdit(result)
-            elif hasattr(result, 'category') and result.category == "text":
-                self.resultInTextEdit(result)
-            elif hasattr(result, 'category') and result.category == "string":
-                self.resultInTextEdit(result)
-            elif hasattr(result, 'category') and result.category == "itemized":
-                self.resultInItemizedWidget(result)
-            elif hasattr(result, 'category') and result.category == "html":
-                #self.resultInHTMLWidget(result)
+            if result.payload:
+                if hasattr(result, 'error') and result.error:
+                    self.showErrorMessage(result.error)
+                elif result is None:
+                    self.showErrorMessage('no result found')
+                elif hasattr(result, 'category') and result.category == "table":
+                    try:
+                        result.payload[0]
+                    except IndexError:
+                        pass # datastructure does not fit to display type 'table'
+                    else:
+                        self.resultInTable(result)
+                elif hasattr(result, 'category') and result.category == "multimedia_table":
+                    self.resultInMultimediaTable(result)
+                elif hasattr(result, 'category') and result.category == "list":
+                    self.resultInTextEdit(result)
+                elif hasattr(result, 'category') and result.category == "text":
+                    self.resultInTextEdit(result)
+                elif hasattr(result, 'category') and result.category == "string":
+                    self.resultInTextEdit(result)
+                elif hasattr(result, 'category') and result.category == "itemized":
+                    self.resultInItemizedWidget(result)
+                elif hasattr(result, 'category') and result.category == "html":
+                    #self.resultInHTMLWidget(result)
+                    self.resultInTextEdit(result)
+            else:
+                result.payload = 'empty result set'
                 self.resultInTextEdit(result)
     
     def clearDisplayWidget(self):
@@ -210,7 +217,44 @@ class QCliWidget(QWidget):
         self.addDisplayWidget()
     
     def resultInMultimediaTable(self, result):
-        pass
+        self.display_widget.deleteLater()
+        
+        max_length = 0
+        for line in result.payload:
+            if len(line) > max_length:
+                max_length = len(line)
+        
+        self.display_widget = QTableWidget()
+        self.display_widget.setRowCount(len(result.payload))
+        self.display_widget.setColumnCount(max_length)
+        
+        audio_count = 0
+        config = ConfigFile()
+        deckpath = config.readPath("vocable", "deckpath")
+        for row, line in enumerate(result.payload):
+            deckname = line[0]
+            for column, item in enumerate(line):
+                if self.isImage(str(item)):
+                    pixmap = QPixmap()
+                    pixmap.load(path.join(deckpath, deckname, str(item)))
+                    pixmap = pixmap.scaled(QSize(60, 30), Qt.KeepAspectRatio)
+                    image_widget = QLabel()
+                    image_widget.setPixmap(pixmap)
+                    self.display_widget.setCellWidget(row, column, image_widget)
+                elif self.isAudio(str(item)):
+                    splitted = item.split(',')
+                    if audio_count < len(splitted):
+                        audio_count = len(splitted)
+                    audio_widget = QAudioItems(path.join(deckpath, deckname), self.display_widget, 7, max_length)
+                    audio_widget.appendPlayButtonsList(splitted, row)
+                else:
+                    table_item = QTableWidgetItem(str(item))
+                    #self.unicode_fonts.applyFontToQWidget(str(item), table_item)
+                    self.display_widget.setItem(row, column, table_item)
+        
+        self.display_widget.setColumnCount(max_length + audio_count)
+        self.display_widget.resizeColumnsToContents()
+        self.addDisplayWidget()
     
     def resultInTextEdit(self, result):
         self.display_widget.deleteLater()
@@ -278,4 +322,18 @@ class QCliWidget(QWidget):
             self.view.scale(1 / SCALE_FACTOR, 1 / SCALE_FACTOR)
             
             self.resizeDisplayWidget()
+    
+    def isImage(self, data):
+        suffixes = ['.png', '.jpg', '.jpeg', '.svg', '.bmp']
+        for suffix in suffixes:
+            if data.lower().endswith(suffix):
+                return True
+        return False
+    
+    def isAudio(self, data):
+        suffixes = ['.ogg', '.wav', '.mp3']
+        for suffix in suffixes:
+            if data.lower().endswith(suffix):
+                return True
+        return False
     
