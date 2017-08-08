@@ -161,7 +161,6 @@ class QDeckAudioListWidget(QTableWidget):
             
             rowid = self.audioItemsDict[row]["rowid"]
             if rowid:
-                print("delete if")
                 self.dbAdapter.deleteAudioItem(rowid)
                 
             filename = self.audioItemsDict[row]["filename"]

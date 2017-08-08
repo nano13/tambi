@@ -88,8 +88,12 @@ class DeckDbAdapter(object):
         return self.dictFactory(result)
     
     def selectDeckItem(self, rowid):
-        query = "SELECT name, word, translation, svg_filename FROM deck WHERE rowid={0}".format(rowid)
-        self.cursor.execute(query)
+        query = "SELECT name, word, translation, svg_filename, image FROM deck WHERE rowid={0}".format(rowid)
+        try:
+            self.cursor.execute(query)
+        except:
+            query = "SELECT name, word, translation, svg_filename FROM deck WHERE rowid={0}".format(rowid)
+            self.cursor.execute(query)
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)[0]
@@ -121,6 +125,11 @@ class DeckDbAdapter(object):
         self.connection.commit()
         
         return svg_filename[0][0], audio_filenames_list
+    
+    def deleteImage(self, rowid):
+        query = "UPDATE deck SET image=NULL"
+        self.cursor.execute(query)
+        self.connection.commit()
     
     def saveAudioDict(self, audio_dict, deck_rowid):
         for item in audio_dict:

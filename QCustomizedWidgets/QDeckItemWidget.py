@@ -1,15 +1,15 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTableWidget, QTableWidgetItem, QLineEdit, QLabel, QMessageBox, QFileDialog
 from PyQt5 import QtCore
-from PyQt5.QtCore import pyqtSignal
-from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import pyqtSignal, QSize, Qt
+from PyQt5.QtGui import QIcon, QPixmap
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
 from QCustomizedWidgets.QDeckAudioListWidget import QDeckAudioListWidget
 from QCustomizedWidgets.QVkbdLineEdit import QVkbdLineEdit
 
 from functools import partial
-from os import path, sep
+from os import path, sep, remove
 import time, random, string, shutil
 
 class QDeckItemWidget(QWidget):
@@ -19,6 +19,8 @@ class QDeckItemWidget(QWidget):
     dbAdapter = None
     current_rowid = None
     svg_filename = None
+    
+    dataset = None
     
     def __init__(self):
         super().__init__()
@@ -34,6 +36,7 @@ class QDeckItemWidget(QWidget):
         self.svg_filename = None
         
         self.clearDrawView()
+        self.imageView.clear()
         self.nameLine.setText("")
         self.wordLine.setText("")
         self.translationLine.setText("")
@@ -46,6 +49,7 @@ class QDeckItemWidget(QWidget):
         self.clearDrawView()
         
         result = self.dbAdapter.selectDeckItem(rowid)
+        self.dataset = result
         
         svgsavepath = path.join(self.deckpath, result["svg_filename"])
         self.svg_filename = result["svg_filename"]
@@ -53,6 +57,13 @@ class QDeckItemWidget(QWidget):
         self.nameLine.setText(result["name"])
         self.wordLine.setText(result["word"])
         self.translationLine.setText(result["translation"])
+        
+        if 'image' in result and result['image']:
+            pixmap = QPixmap()
+            pixmap.load(path.join(self.deckpath, result['image']))
+            pixmap = pixmap.scaled(QSize(660, 440), Qt.KeepAspectRatio)
+            self.imageView.setPixmap(pixmap)
+            self.imageView.show()
         
         self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
         self.audioListWidget.getAudioFromDB(self.current_rowid)
@@ -68,10 +79,17 @@ class QDeckItemWidget(QWidget):
         import_image_button.setIcon(QIcon.fromTheme('document-open'))
         import_image_button.clicked.connect(self.importImage)
         
+        delete_image_button = QPushButton("clear image")
+        delete_image_button.setIcon(QIcon.fromTheme('edit-delete'))
+        delete_image_button.clicked.connect(self.deleteImage)
+        
         clear_draw_view_button = QPushButton("clear draw area")
         clear_draw_view_button.clicked.connect(self.clearDrawViewButtonClicked)
         
         self.freehandDrawWidget = QFreehandDrawView(self)
+        self.freehandDrawWidget.hide()
+        self.imageView = QLabel()
+        #self.imageView.hide()
         nameLabel = QLabel("name:")
         self.nameLine = QVkbdLineEdit() #QLineEdit()
         wordLabel = QLabel("word:")
@@ -85,9 +103,11 @@ class QDeckItemWidget(QWidget):
         saveButton.clicked.connect(self.saveButtonClicked)
         
         grid.addWidget(language_select_button, 0, 0)
-        grid.addWidget(import_image_button, 0, 2)
+        grid.addWidget(import_image_button, 0, 1)
+        grid.addWidget(delete_image_button, 0, 2)
         grid.addWidget(clear_draw_view_button, 0, 3)
-        grid.addWidget(self.freehandDrawWidget, 1, 0, 1, 4, QtCore.Qt.AlignCenter)
+        #grid.addWidget(self.freehandDrawWidget, 1, 0, 1, 4, QtCore.Qt.AlignCenter)
+        grid.addWidget(self.imageView, 1, 0, 1, 4, QtCore.Qt.AlignCenter)
         grid.addWidget(nameLabel, 2, 0)
         grid.addWidget(self.nameLine, 2, 1, 1, 3)
         grid.addWidget(wordLabel, 3, 0)
@@ -151,27 +171,44 @@ class QDeckItemWidget(QWidget):
         reply = QMessageBox.question(self, 'Drop Drawing', "really?", QMessageBox.Yes, QMessageBox.No)
         if reply == QMessageBox.Yes:
             self.clearDrawView()
-            
+    
     def clearDrawView(self):
         self.freehandDrawWidget.clearView()
     
     def importImage(self):
-        home_path = path.expanduser('~')
-        file_path = QFileDialog.getOpenFileName(self, 'Please select an Image File', home_path)
-        filename = file_path[0].split(sep)[::-1][0]
-        target_path = path.join(self.deckpath, filename)
-        shutil.copyfile(file_path[0], target_path)
-        
         if self.current_rowid == None:
             reply = QMessageBox.question(self, 'Save first', 'Please save the item first. Save now?', QMessageBox.Yes, QMessageBox.No)
             if reply == QMessageBox.Yes:
                 self.saveButtonClicked()
                 self.audioListWidget.setRowID(self.current_rowid)
                 
-                self.dbAdapter.insertImage(self.current_rowid, filename)
+                self.importImageHelper()
         else:
+            self.importImageHelper()
+    
+    def importImageHelper(self):
+        home_path = path.expanduser('~')
+        file_path = QFileDialog.getOpenFileName(self, 'Please select an Image File', home_path)
+        if file_path[0]:
+            filename = file_path[0].split(sep)[::-1][0]
+            target_path = path.join(self.deckpath, filename)
+            shutil.copyfile(file_path[0], target_path)
+            
             self.dbAdapter.insertImage(self.current_rowid, filename)
-        
+            
+            self.initializeWithRowID(self.current_rowid)
+    
+    def deleteImage(self):
+        if self.current_rowid and 'image' in self.dataset and self.dataset['image']:
+            reply = QMessageBox.question(self, 'Delete Image', "really?", QMessageBox.Yes, QMessageBox.No)
+            if reply == QMessageBox.Yes:
+                remove_path = path.join(self.deckpath, self.dataset['image'])
+                if path.exists(remove_path):
+                    remove(remove_path)
+                self.dbAdapter.deleteImage(self.current_rowid)
+                self.dataset.pop('image')
+                
+                self.imageView.clear()
     
     def randomword(self, length):
         return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
