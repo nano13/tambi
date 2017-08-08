@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QPushButton, QMessageBox, QTableWidget, QTableWidgetItem
+from PyQt5.QtWidgets import QPushButton, QMessageBox, QTableWidget, QTableWidgetItem, QFileDialog
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent, QAudioRecorder, QAudioEncoderSettings
 from PyQt5.QtGui import QIcon
 from PyQt5 import QtCore
@@ -9,11 +9,13 @@ from configs.configFiles import ConfigFile
 
 from functools import partial
 from os import path, remove
+import os, shutil
 import time, random, string
 
 PLAY_BUTTON_COLUMN = 1
 RECORD_BUTTON_COLUMN = 1
 DELETE_BUTTON_COLUMN = 2
+OPEN_FILE_BUTTON_COLUMN = 3
 
 class QDeckAudioListWidget(QTableWidget):
     
@@ -69,7 +71,7 @@ class QDeckAudioListWidget(QTableWidget):
         
         self.audioRecorder.setEncodingSettings(settings)
         
-        self.setColumnCount(3)
+        self.setColumnCount(4)
         self.setHorizontalHeaderLabels(["Description", "", "", ""])
         self.setRowCount(0)
         
@@ -98,6 +100,11 @@ class QDeckAudioListWidget(QTableWidget):
             button_delete.setIcon(QIcon.fromTheme('edit-delete'))
             self.setCellWidget(row, DELETE_BUTTON_COLUMN, button_delete)
             button_delete.clicked.connect(partial(self.deleteAudioButtonClicked, row))
+            
+            button_open_file = QPushButton()
+            button_open_file.setIcon(QIcon.fromTheme('document-open'))
+            self.setCellWidget(row, OPEN_FILE_BUTTON_COLUMN, button_open_file)
+            button_open_file.clicked.connect(partial(self.importAudioFileClicked, row))
             
             if self.status == self.STOPPED:
                 if self.audioItemsDict[i]["filename"]:
@@ -166,7 +173,22 @@ class QDeckAudioListWidget(QTableWidget):
             
             del self.audioItemsDict[row]
             self.updateAudioListWidget()
+    
+    def importAudioFileClicked(self, row):
+        home_path = os.path.expanduser('~')
+        file_path = QFileDialog.getOpenFileName(self, 'Please select an Audio File', home_path)
+        filename = file_path[0].split(os.sep)[::-1][0]
+        target_path = os.path.join(self.deckpath, filename)
+        try:
+            print("-----------------------------")
+            print(shutil.copyfile(file_path[0], target_path))
+        except Exception as e:
+            print("+++++++++", e)
         
+        self.audioItemsDict[row]["filename"] = filename
+        self.status = self.STOPPED
+        self.updateAudioListWidget()
+    
     def recordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
         self.stopRecordButtonClicked(row)
@@ -183,7 +205,7 @@ class QDeckAudioListWidget(QTableWidget):
         #filename = str(int(time.time())) + self.randomword(5) + ".ogg"
         #filename = str(int(time.time())) + self.randomword(5) + ".wav"
         filename = str(int(time.time())) + self.randomword(5) + extension
-        filepath = path.join(self.deckpath, filename)
+        filepath = os.path.join(self.deckpath, filename)
         print(filepath)
         
         #self.audioRecorder.initAudioInput(filepath)
