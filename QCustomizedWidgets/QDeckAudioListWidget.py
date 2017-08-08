@@ -180,8 +180,7 @@ class QDeckAudioListWidget(QTableWidget):
         filename = file_path[0].split(os.sep)[::-1][0]
         target_path = os.path.join(self.deckpath, filename)
         try:
-            print("-----------------------------")
-            print(shutil.copyfile(file_path[0], target_path))
+            shutil.copyfile(file_path[0], target_path)
         except Exception as e:
             print("+++++++++", e)
         
@@ -263,15 +262,17 @@ class QDeckAudioListWidget(QTableWidget):
         self.status = self.STOPPED
         
     def mediaStatusChanged(self):
-        #status = self.audioPlayer.mediaStatus()
+        status = self.audioPlayer.mediaStatus()
         
-        if self.audioPlayer.state() == QMediaPlayer.StoppedState:
-            self.status = self.STOPPED
-            try:
-                self.updateAudioListWidget()
-            except IndexError:
-                print("index error")
-            
+        #if self.audioPlayer.state() == QMediaPlayer.StoppedState:
+            #self.status = self.STOPPED
+            #try:
+                #self.updateAudioListWidget()
+            #except IndexError:
+                #print("index error")
+        if status == 7:
+            self.stopAllAudio()
+    
     def onItemChanged(self):
         
         for i in range(self.rowCount()):
