@@ -1,15 +1,16 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTableWidget, QTableWidgetItem, QLineEdit, QLabel, QMessageBox
+from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QTableWidget, QTableWidgetItem, QLineEdit, QLabel, QMessageBox, QFileDialog
 from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtGui import QIcon
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
 from QCustomizedWidgets.QDeckAudioListWidget import QDeckAudioListWidget
 from QCustomizedWidgets.QVkbdLineEdit import QVkbdLineEdit
 
 from functools import partial
-from os import path
-import time, random, string
+from os import path, sep
+import time, random, string, shutil
 
 class QDeckItemWidget(QWidget):
     
@@ -63,6 +64,10 @@ class QDeckItemWidget(QWidget):
         language_select_button = QPushButton("<<<")
         language_select_button.clicked.connect(self.languageSelectButtonClicked)
         
+        import_image_button = QPushButton("add image from file")
+        import_image_button.setIcon(QIcon.fromTheme('document-open'))
+        import_image_button.clicked.connect(self.importImage)
+        
         clear_draw_view_button = QPushButton("clear draw area")
         clear_draw_view_button.clicked.connect(self.clearDrawViewButtonClicked)
         
@@ -80,6 +85,7 @@ class QDeckItemWidget(QWidget):
         saveButton.clicked.connect(self.saveButtonClicked)
         
         grid.addWidget(language_select_button, 0, 0)
+        grid.addWidget(import_image_button, 0, 2)
         grid.addWidget(clear_draw_view_button, 0, 3)
         grid.addWidget(self.freehandDrawWidget, 1, 0, 1, 4, QtCore.Qt.AlignCenter)
         grid.addWidget(nameLabel, 2, 0)
@@ -102,7 +108,7 @@ class QDeckItemWidget(QWidget):
         
     def newAudioButtonClicked(self):
         if self.current_rowid == None:
-            reply = QMessageBox.question(self, 'Save first', 'please save the item first. Save now?', QMessageBox.Yes, QMessageBox.No)
+            reply = QMessageBox.question(self, 'Save first', 'Please save the item first. Save now?', QMessageBox.Yes, QMessageBox.No)
             if reply == QMessageBox.Yes:
                 self.saveButtonClicked()
                 self.audioListWidget.setRowID(self.current_rowid)
@@ -148,7 +154,25 @@ class QDeckItemWidget(QWidget):
             
     def clearDrawView(self):
         self.freehandDrawWidget.clearView()
+    
+    def importImage(self):
+        home_path = path.expanduser('~')
+        file_path = QFileDialog.getOpenFileName(self, 'Please select an Image File', home_path)
+        filename = file_path[0].split(sep)[::-1][0]
+        target_path = path.join(self.deckpath, filename)
+        shutil.copyfile(file_path[0], target_path)
         
+        if self.current_rowid == None:
+            reply = QMessageBox.question(self, 'Save first', 'Please save the item first. Save now?', QMessageBox.Yes, QMessageBox.No)
+            if reply == QMessageBox.Yes:
+                self.saveButtonClicked()
+                self.audioListWidget.setRowID(self.current_rowid)
+                
+                self.dbAdapter.insertImage(self.current_rowid, filename)
+        else:
+            self.dbAdapter.insertImage(self.current_rowid, filename)
+        
+    
     def randomword(self, length):
         return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
     

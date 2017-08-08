@@ -235,3 +235,9 @@ class DeckDbAdapter(object):
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)
+    
+    def insertImage(self, rowid, filename):
+        query = 'UPDATE deck SET image=? WHERE rowid=?'
+        self.cursor.execute(query, [filename, rowid])
+        self.connection.commit()
+    

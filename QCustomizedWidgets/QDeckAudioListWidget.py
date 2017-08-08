@@ -179,10 +179,8 @@ class QDeckAudioListWidget(QTableWidget):
         file_path = QFileDialog.getOpenFileName(self, 'Please select an Audio File', home_path)
         filename = file_path[0].split(os.sep)[::-1][0]
         target_path = os.path.join(self.deckpath, filename)
-        try:
-            shutil.copyfile(file_path[0], target_path)
-        except Exception as e:
-            print("+++++++++", e)
+        #if not os.path.exists(target_path):
+        shutil.copyfile(file_path[0], target_path)
         
         self.audioItemsDict[row]["filename"] = filename
         self.status = self.STOPPED
