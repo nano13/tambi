@@ -10,7 +10,7 @@ class QBeamerWindow(QDialog):
     def __init__(self):
         super().__init__()
         
-        #self.setStyleSheet('QWidget { background-color: black; }')
+        self.setStyleSheet('QWidget { background-color: black; }')
         #stylesheet = ''
         #try:
             #with open('/home/samuel/programmierung/logos_bible/assets/css/QTDarkGreen.stylesheet') as css:
