@@ -22,7 +22,7 @@ class DeckDbAdapter(object):
         self.connection.close()
         
     def initializeTables(self):
-        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, order_index INTEGER, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
+        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, order_index INTEGER, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, image TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
         self.cursor.execute(query)
         
         query  = "CREATE TABLE IF NOT EXISTS audio (rowid INTEGER PRIMARY KEY AUTOINCREMENT, deck_rowid INTEGER, description TEXT, filename TEXT)"
