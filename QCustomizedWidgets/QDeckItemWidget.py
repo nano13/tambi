@@ -105,7 +105,7 @@ class QDeckItemWidget(QWidget):
         grid.addWidget(language_select_button, 0, 0)
         grid.addWidget(import_image_button, 0, 1)
         grid.addWidget(delete_image_button, 0, 2)
-        grid.addWidget(clear_draw_view_button, 0, 3)
+        #grid.addWidget(clear_draw_view_button, 0, 3)
         #grid.addWidget(self.freehandDrawWidget, 1, 0, 1, 4, QtCore.Qt.AlignCenter)
         grid.addWidget(self.imageView, 1, 0, 1, 4, QtCore.Qt.AlignCenter)
         grid.addWidget(nameLabel, 2, 0)
