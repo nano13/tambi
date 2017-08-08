@@ -93,8 +93,12 @@ class QVocableDirtyDozenWidget(QWidget):
         self.selectDeck.emit()
     
     def labelClicked(self, row_id):
-        if row_id == self.current_audio_deck_id:
-            self.playRandomAudio()
+        try:
+            if row_id == self.current_audio_deck_id:
+                self.playRandomAudio()
+        except AttributeError:
+            """ we probably have no audio file in this module """
+            pass
         
     def playRandomAudio(self):
         try:
