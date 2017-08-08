@@ -184,6 +184,8 @@ class QDeckAudioListWidget(QTableWidget):
         self.audioItemsDict[row]["filename"] = filename
         self.status = self.STOPPED
         self.updateAudioListWidget()
+        
+        self.saveStateToDB(self.current_rowid)
     
     def recordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
