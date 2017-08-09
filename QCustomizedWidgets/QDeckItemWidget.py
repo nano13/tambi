@@ -47,6 +47,8 @@ class QDeckItemWidget(QWidget):
         self.current_rowid = rowid
         
         self.clearDrawView()
+        pixmap = QPixmap()
+        self.imageView.setPixmap(pixmap)
         
         result = self.dbAdapter.selectDeckItem(rowid)
         self.dataset = result
