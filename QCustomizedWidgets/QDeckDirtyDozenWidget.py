@@ -16,7 +16,7 @@ from random import randint
 COLUMNS = 4
 DISPLAY_COMBO_ITEMS = ['image', 'name', 'word', 'translation']
 
-class QVocableDirtyDozenWidget(QWidget):
+class QDeckDirtyDozenWidget(QWidget):
     
     deckpath = None
     
@@ -31,6 +31,7 @@ class QVocableDirtyDozenWidget(QWidget):
     
     last_random_audio = None
     
+    """ holds one of DISPLAY_COMBO_ITEMS: """
     test_mode = 'image'
     
     def __init__(self):
