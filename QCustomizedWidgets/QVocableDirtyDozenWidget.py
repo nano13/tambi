@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QPushButton, QGridLayout, QComboBox
+from PyQt5.QtWidgets import QWidget, QPushButton, QGridLayout, QComboBox, QLabel
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtCore import pyqtSignal
@@ -56,6 +56,8 @@ class QVocableDirtyDozenWidget(QWidget):
         replay_audio_button.setIcon(QIcon.fromTheme('media-playback-start'))
         replay_audio_button.clicked.connect(self.replayAudioClicked)
         
+        select_display_combo_label = QLabel('select display:')
+        select_display_combo_label.setAlignment(QtCore.Qt.AlignRight)
         select_display_combo = QComboBox()
         select_display_combo.addItems(DISPLAY_COMBO_ITEMS)
         select_display_combo.setCurrentIndex(DISPLAY_COMBO_ITEMS.index(self.test_mode))
@@ -66,8 +68,9 @@ class QVocableDirtyDozenWidget(QWidget):
             self.grid.setContentsMargins(0, 0, 0, 0)
         
         self.grid.addWidget(deck_select_button, 0, 0)
+        self.grid.addWidget(select_display_combo_label, 0, 1)
+        self.grid.addWidget(select_display_combo, 0, 2)
         self.grid.addWidget(replay_audio_button, 0, 3)
-        self.grid.addWidget(select_display_combo, 0, 1)
         
         for i, value in enumerate(dataset, COLUMNS):
             label = QClickLabel()
