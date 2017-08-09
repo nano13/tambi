@@ -16,6 +16,7 @@ PLAY_BUTTON_COLUMN = 1
 RECORD_BUTTON_COLUMN = 1
 DELETE_BUTTON_COLUMN = 2
 OPEN_FILE_BUTTON_COLUMN = 3
+FILE_NAME_COLUMN = 4
 
 class QDeckAudioListWidget(QTableWidget):
     
@@ -71,8 +72,8 @@ class QDeckAudioListWidget(QTableWidget):
         
         self.audioRecorder.setEncodingSettings(settings)
         
-        self.setColumnCount(4)
-        self.setHorizontalHeaderLabels(["Description", "", "", ""])
+        self.setColumnCount(5)
+        self.setHorizontalHeaderLabels(["description", "", "", "", "filename"])
         self.setRowCount(0)
         
         self.itemChanged.connect(self.onItemChanged)
@@ -105,6 +106,8 @@ class QDeckAudioListWidget(QTableWidget):
             button_open_file.setIcon(QIcon.fromTheme('document-open'))
             self.setCellWidget(row, OPEN_FILE_BUTTON_COLUMN, button_open_file)
             button_open_file.clicked.connect(partial(self.importAudioFileClicked, row))
+            
+            self.setItem(row, FILE_NAME_COLUMN, QTableWidgetItem(str(self.audioItemsDict[row]["filename"])))
             
             if self.status == self.STOPPED:
                 if self.audioItemsDict[i]["filename"]:
