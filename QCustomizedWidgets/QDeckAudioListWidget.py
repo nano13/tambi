@@ -38,6 +38,8 @@ class QDeckAudioListWidget(QTableWidget):
     status = 0
     row = None
     
+    default_import_path = os.path.expanduser('~')
+    
     def __init__(self):
         super().__init__()
         
@@ -177,8 +179,8 @@ class QDeckAudioListWidget(QTableWidget):
             self.updateAudioListWidget()
     
     def importAudioFileClicked(self, row):
-        home_path = os.path.expanduser('~')
-        file_path = QFileDialog.getOpenFileName(self, 'Please select an Audio File', home_path)
+        file_path = QFileDialog.getOpenFileName(self, 'Please select an Audio File', self.default_import_path)
+        self.default_import_path = file_path[0]
         filename = file_path[0].split(os.sep)[::-1][0]
         target_path = os.path.join(self.deckpath, filename)
         #if not os.path.exists(target_path):
