@@ -1,7 +1,7 @@
 
-from PyQt5.QtWidgets import QWidget, QPushButton, QGridLayout
+from PyQt5.QtWidgets import QWidget, QPushButton, QGridLayout, QComboBox, QLabel
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtCore import pyqtSignal
 from PyQt5 import QtCore
 
@@ -14,8 +14,9 @@ import functools
 from random import randint
 
 COLUMNS = 4
+DISPLAY_COMBO_ITEMS = ['image', 'name', 'word', 'translation']
 
-class QVocableDirtyDozenWidget(QWidget):
+class QDeckDirtyDozenWidget(QWidget):
     
     deckpath = None
     
@@ -29,6 +30,9 @@ class QVocableDirtyDozenWidget(QWidget):
     curent_audio_deck_id = None
     
     last_random_audio = None
+    
+    """ holds one of DISPLAY_COMBO_ITEMS: """
+    test_mode = 'image'
     
     def __init__(self):
         super().__init__()
@@ -49,32 +53,53 @@ class QVocableDirtyDozenWidget(QWidget):
         deck_select_button = QPushButton("<<<")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
+        replay_audio_button = QPushButton("replay audio")
+        replay_audio_button.setIcon(QIcon.fromTheme('media-playback-start'))
+        replay_audio_button.clicked.connect(self.replayAudioClicked)
+        
+        select_display_combo_label = QLabel('select display:')
+        select_display_combo_label.setAlignment(QtCore.Qt.AlignRight)
+        select_display_combo = QComboBox()
+        select_display_combo.addItems(DISPLAY_COMBO_ITEMS)
+        select_display_combo.setCurrentIndex(DISPLAY_COMBO_ITEMS.index(self.test_mode))
+        select_display_combo.currentIndexChanged.connect(self.selectDisplayCurrentIndexChanged)
+        
         if not self.layout():
             self.grid = QGridLayout()
             self.grid.setContentsMargins(0, 0, 0, 0)
-            
-        if True:
-            self.grid.addWidget(deck_select_button, 0, 0)
-            
-            for i, datum in enumerate(dataset, COLUMNS):
+        
+        self.grid.addWidget(deck_select_button, 0, 0)
+        self.grid.addWidget(select_display_combo_label, 0, 1)
+        self.grid.addWidget(select_display_combo, 0, 2)
+        self.grid.addWidget(replay_audio_button, 0, 3)
+        
+        for i, value in enumerate(dataset, COLUMNS):
+            label = QClickLabel()
+            if self.test_mode == 'image':
                 preview_pixmap = QPixmap()
                 try:
-                    preview_pixmap.load(path.join(deckpath, datum["image"]))
+                    preview_pixmap.load(path.join(deckpath, value["image"]))
                 except (KeyError, TypeError):
-                    preview_pixmap.load(path.join(deckpath, datum["svg_filename"]))
-                
+                    try:
+                        preview_pixmap.load(path.join(deckpath, value["svg_filename"]))
+                    except (KeyError, TypeError):
+                        pass
                 scaled_pixmap = preview_pixmap.scaled(QtCore.QSize(200, 200), QtCore.Qt.KeepAspectRatio)
-                
-                label = QClickLabel()
                 label.setGeometry(scaled_pixmap.rect())
                 label.setPixmap(scaled_pixmap)
-                label.setAlignment(QtCore.Qt.AlignCenter)
-                
-                label.clicked.connect(functools.partial(self.labelClicked, datum["rowid"]))
-                
-                self.grid.addWidget(label, int(i / COLUMNS), i % COLUMNS)
+            elif self.test_mode == 'name':
+                label.setText(value['name'])
+            elif self.test_mode == 'word':
+                label.setText(value['word'])
+            elif self.test_mode == 'translation':
+                label.setText(value['translation'])
             
-            self.setLayout(self.grid)
+            label.setAlignment(QtCore.Qt.AlignCenter)
+            label.clicked.connect(functools.partial(self.labelClicked, value["rowid"]))
+            
+            self.grid.addWidget(label, int(i / COLUMNS), i % COLUMNS)
+        
+        self.setLayout(self.grid)
         
         self.playRandomAudio()
     
@@ -124,3 +149,12 @@ class QVocableDirtyDozenWidget(QWidget):
             """ probably an empty deck. just do nothing"""
             pass
     
+    def replayAudioClicked(self):
+        self.audioPlayer.play()
+    
+    def selectDisplayCurrentIndexChanged(self, test):
+        selected_label = DISPLAY_COMBO_ITEMS[test]
+        self.clear()
+        self.test_mode = selected_label
+        
+        self.initialize(self.deckpath)

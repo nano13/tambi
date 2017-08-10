@@ -1,11 +1,11 @@
 
 from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog, QMessageBox
 from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
-from QCustomizedWidgets.QVocableDirtyDozenWidget import QVocableDirtyDozenWidget
 from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
 from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
 from QCustomizedWidgets.QDeckItemWidget import QDeckItemWidget
 from QCustomizedWidgets.QDeckLearnWidget import QDeckLearnWidget
+from QCustomizedWidgets.QDeckDirtyDozenWidget import QDeckDirtyDozenWidget
 
 from configs.configFiles import ConfigFile
 
@@ -53,7 +53,7 @@ class QVocableStackedWidget(QWidget):
         self.stack_vocable_learn.initialize()
         self.stack_vocable_learn.selectLanguage.connect(self.selectLanguage)
         
-        self.stack_dirty_dozen = QVocableDirtyDozenWidget()
+        self.stack_dirty_dozen = QDeckDirtyDozenWidget()
         self.stack_dirty_dozen.selectDeck.connect(self.selectDeck)
         
         self.stack_deck_overview = QDeckOverviewWidget()
