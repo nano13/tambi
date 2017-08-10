@@ -22,6 +22,8 @@ class QDeckItemWidget(QWidget):
     
     dataset = None
     
+    default_import_path = path.expanduser('~')
+    
     def __init__(self):
         super().__init__()
         
@@ -189,8 +191,8 @@ class QDeckItemWidget(QWidget):
             self.importImageHelper()
     
     def importImageHelper(self):
-        home_path = path.expanduser('~')
-        file_path = QFileDialog.getOpenFileName(self, 'Please select an Image File', home_path)
+        file_path = QFileDialog.getOpenFileName(self, 'Please select an Image File', self.default_import_path)
+        self.default_import_path = file_path[0]
         if file_path[0]:
             filename = file_path[0].split(sep)[::-1][0]
             target_path = path.join(self.deckpath, filename)
