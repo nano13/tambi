@@ -75,7 +75,8 @@ class UnicodeFonts(object):
         
         elif self.isInUnicodeRange(self.ipa_block[0], self.ipa_block[1], string):
             #widget.setFontPointSize(self.ipa_size)
-            self.setFontSize(widget, self.ipa_size)
+            #self.setFontSize(widget, self.ipa_size)
+            pass
     
     def setFontSize(self, widget, size, font_name=None):
         try:
