@@ -49,11 +49,13 @@ class Ipa(object):
             result_table[position[0]][position[1]] = key
         
         header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
+        header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'halb offen', 'fast offen', 'offen']
         
         result_object = Result()
         result_object.category = "table"
         result_object.payload = result_table
         result_object.header = header
+        result_object.header_left = header_left
         return result_object
     
     def consonants(self, c, a):
