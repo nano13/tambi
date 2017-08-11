@@ -4,7 +4,7 @@ from interpreter.structs import Result
 
 from configs.configFiles import ConfigFile
 from misc.deckDbAdapter import DeckDbAdapter
-from modules.deck.ipa import Ipa
+from modules.ipa.ipa import Ipa
 
 import os
 
@@ -28,9 +28,6 @@ class Deck(object):
             
             "deck.ipaVowels" : self.ipaVowels,
             "deck.ipaConsonants" : self.ipaConsonants,
-            
-            "ipa" : self.ipa,
-            "ipa_" : self.ipa_,
         }
     
     def interpreter(self, command, args):
@@ -142,47 +139,6 @@ class Deck(object):
         #result_object.category = "table"
         result_object.payload = result_list
         result_object.header = result_header
-        return result_object
-    
-    def ipa(self, c, a):
-        ipa = Ipa()
-        vowels = ipa.getVowelsDict()
-        
-        result_table = [['' for _ in range(6)] for _ in range(6)]
-        keys = vowels.keys()
-        for key in keys:
-            position = vowels[key]
-            result_table[position[0]][position[1]] = key
-        
-        header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
-        
-        result_object = Result()
-        result_object.category = "table"
-        result_object.payload = result_table
-        result_object.header = header
-        return result_object
-    
-    def ipa_(self, c, a):
-        ipa = Ipa()
-        consonants = ipa.getConsonantsDict()
-        
-        result_table = [['' for _ in range(15)] for _ in range(20)]
-        keys = consonants.keys()
-        for key in keys:
-            position = consonants[key]
-            try:
-                result_table[position[0]][position[1]] = key
-            except IndexError:
-                pass
-        
-        header = ['bl', 'ld', 'd', 'al', 'post-al', 're', 'al-pal', 'pal', 'lab-pal', 'vel', 'lab-vel', 'uv', 'phar', 'epi', 'glot']
-        header_left = ['plosiv (stl)', 'plosiv (sth)', 'nasal (stl)', 'nasal (sth)', 'frikativ (stl)', 'frikativ (sth)', 'rinnen-frik (stl)', 'rinnen-frik (sth)', 'lateral-frik (stl)', 'lateral-frik (sth)', 'lateral-approx (stl)', 'lateral-approx (sth)', 'vibrant (stl)', 'vibrant (sth)', 'flap (stl)', 'flap (sth)', 'approx (stl)', 'approx (sth)', 'ejektiv (stl)', 'click']
-        
-        result_object = Result()
-        result_object.category = "table"
-        result_object.payload = result_table
-        result_object.header = header
-        result_object.header_left = header_left
         return result_object
     
     def ipaVowels(self, c, args):
