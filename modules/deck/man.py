@@ -22,6 +22,16 @@ deck.count (returns how many entries are in all decks together)
 deck.count arabic_ (returns how many entries are in all decks prefixed with "arabic_")
 """
 
+ipaTable = """
+Returns the IPA Table with all sounds found in the specified decks.
+
+@param (optional): string, representing the prefix/beginning of the decks we want to generate the IPA-table from.
+
+Examples:
+deck.ipaTable (generates and returns the ipa-table for all decks)
+deck.ipaTable arabic_ (generates and returns the ipa-table for all decks prefixed with "arabic_")
+"""
+
 search = """
 Returns a list of decks where the given search-pattern could be found in.
 

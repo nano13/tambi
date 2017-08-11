@@ -103,7 +103,10 @@ class QDeckOverviewWidget(QWidget):
             
             audio_filenames = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
             
-            svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, svg_filename))
+            try:
+                svgWidget = QtSvg.QSvgWidget(path.join(self.deckpath, svg_filename))
+            except TypeError:
+                svgWidget = QtSvg.QSvgWidget()
             #svgWidget.setGeometry(50,50,759,668)
             svgWidget.setFixedSize(60, 30)
             

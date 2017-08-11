@@ -17,10 +17,10 @@ class DeckDbAdapter(object):
         self.cursor = self.connection.cursor()
         
         self.initializeTables()
-        
+    
     def closeDB(self):
         self.connection.close()
-        
+    
     def initializeTables(self):
         query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, order_index INTEGER, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, image TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
         self.cursor.execute(query)
@@ -41,7 +41,7 @@ class DeckDbAdapter(object):
             result_list.append(dic)
         
         return result_list
-        
+    
     def saveDeckItem(self, name, word, translation, svg_filename):
         query = "INSERT INTO deck (name, word, translation, svg_filename, created, known, priority, changed) VALUES (?, ?, ?, ?, ?, 0, 0, ?)"
         
@@ -50,14 +50,14 @@ class DeckDbAdapter(object):
         
         self.cursor.execute(query, (name, word, translation, svg_filename, created, changed))
         self.connection.commit()
-        
+    
     def getDeckItemRowID(self, name, word, translation, svg_filename):
         query = "SELECT rowid FROM deck WHERE name='{0}' AND word='{1}' AND translation='{2}' AND svg_filename='{3}'".format(name, word, translation, svg_filename)
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
         return result[0][0]
-        
+    
     def selectDeckItems(self):
         query = "SELECT rowid, order_index, name, word, translation, svg_filename, image FROM deck ORDER BY order_index"
         try:

@@ -208,6 +208,10 @@ class QCliWidget(QWidget):
             self.display_widget.setHorizontalHeaderLabels(result.header)
         except TypeError:
             pass
+        try:
+            self.display_widget.setVerticalHeaderLabels(result.header_left)
+        except TypeError:
+            pass
         
         for row, line in enumerate(result.payload):
             for column, item in enumerate(line):

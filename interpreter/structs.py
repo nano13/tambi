@@ -15,6 +15,7 @@ class Result:
     
     # header is a list or None
     header = None
+    header_left = None
     
     # name is a string or None
     name = None
