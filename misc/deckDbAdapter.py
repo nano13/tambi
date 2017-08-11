@@ -225,6 +225,13 @@ class DeckDbAdapter(object):
         #return self.dictFactory(result)
         return result, header
     
+    def count(self):
+        query = 'SELECT COUNT(*) FROM deck'
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return result[0][0]
+    
     def search(self, pattern):
         #query = "SELECT rowid, name, word, translation FROM deck WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?"
         query = '''SELECT name, word, translation, svg_filename, image, GROUP_CONCAT(filename) AS filenames

@@ -21,6 +21,7 @@ class Deck(object):
             "deck.toString" : self.toString,
             "deck.toTable" : self.toTable,
             
+            "deck.count" : self.count,
             "deck.search" : self.search,
         }
     
@@ -47,22 +48,55 @@ class Deck(object):
         return result_object
     
     def toString(self, c, args):
-        deckname = args[0]
-        deckpath = self.config.readPath("vocable", "deckpath")
-        db_path = os.path.join(deckpath, deckname, 'database.sqlite')
-        print(db_path)
-        self.dbAdapter.initialize(db_path)
-        result, header = self.dbAdapter.summary()
-        
         result_object = Result()
-        result_object.category = "text"
-        result_object.payload = result
-        result_object.header = header
+        
+        try:
+            deckname = args[0]
+        except IndexError:
+            result_object.error = 'please specify the deck by name!'
+        else:
+            deckpath = self.config.readPath("vocable", "deckpath")
+            db_path = os.path.join(deckpath, deckname, 'database.sqlite')
+            print(db_path)
+            self.dbAdapter.initialize(db_path)
+            result, header = self.dbAdapter.summary()
+            
+            result_object.category = "text"
+            result_object.payload = result
+            result_object.header = header
+        
         return result_object
     
     def toTable(self, c, args):
         result_object = self.toString(c, args)
         result_object.category = "table"
+        return result_object
+    
+    def count(self, c, args):
+        result_object = Result()
+        
+        deck_prefix = None
+        try:
+            deck_prefix = args[0]
+        except IndexError:
+            """ everything is fine, we just do not have an argument """
+            pass
+        
+        deckpath = self.config.readPath("vocable", "deckpath")
+        root, dirs, path = next(iter(os.walk(deckpath)))
+        dirs.sort()
+        
+        counter = 0
+        for directory in dirs:
+            if directory.startswith(deck_prefix):
+                db_path = os.path.join(root, directory, "database.sqlite")
+                self.dbAdapter.initialize(db_path)
+                result = self.dbAdapter.count()
+                counter += int(result)
+        
+        result_object.category = "string"
+        result_object.payload = str(counter)
+        
         return result_object
     
     def search(self, c, args):
