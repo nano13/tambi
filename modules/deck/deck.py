@@ -170,7 +170,7 @@ class Deck(object):
                                 result_table[position[0]][position[1]] = char
         
         header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
-        header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'halb offen', 'fast offen', 'offen']
+        header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'fast offen', 'offen']
         
         result_object = Result()
         result_object.category = "table"

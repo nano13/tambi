@@ -102,7 +102,7 @@ class QDeckItemWidget(QWidget):
         self.wordLine = QVkbdLineEdit() #QLineEdit()
         translationLabel = QLabel("translation:")
         self.phoneticalLine = QVkbdLineEdit()
-        phoneticalLabel = QLabel("phonetical")
+        phoneticalLabel = QLabel("phonetical:")
         self.translationLine = QVkbdLineEdit() #QLineEdit()
         self.audioListWidget = QDeckAudioListWidget()
         newAudioButton = QPushButton("new audio")
