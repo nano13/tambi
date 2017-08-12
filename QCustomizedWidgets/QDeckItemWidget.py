@@ -41,6 +41,7 @@ class QDeckItemWidget(QWidget):
         self.imageView.clear()
         self.nameLine.setText("")
         self.wordLine.setText("")
+        self.phoneticalLine.setText("")
         self.translationLine.setText("")
         
         self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
@@ -60,6 +61,7 @@ class QDeckItemWidget(QWidget):
         self.freehandDrawWidget.loadView(svgsavepath)
         self.nameLine.setText(result["name"])
         self.wordLine.setText(result["word"])
+        self.phoneticalLine.setText(result["phonetical"])
         self.translationLine.setText(result["translation"])
         
         if 'image' in result and result['image']:
@@ -99,6 +101,8 @@ class QDeckItemWidget(QWidget):
         wordLabel = QLabel("word:")
         self.wordLine = QVkbdLineEdit() #QLineEdit()
         translationLabel = QLabel("translation:")
+        self.phoneticalLine = QVkbdLineEdit()
+        phoneticalLabel = QLabel("phonetical")
         self.translationLine = QVkbdLineEdit() #QLineEdit()
         self.audioListWidget = QDeckAudioListWidget()
         newAudioButton = QPushButton("new audio")
@@ -116,11 +120,13 @@ class QDeckItemWidget(QWidget):
         grid.addWidget(self.nameLine, 2, 1, 1, 3)
         grid.addWidget(wordLabel, 3, 0)
         grid.addWidget(self.wordLine, 3, 1, 1, 3)
-        grid.addWidget(translationLabel, 4, 0)
-        grid.addWidget(self.translationLine, 4, 1, 1, 3)
-        grid.addWidget(self.audioListWidget, 5, 0, 1, 4)
-        grid.addWidget(newAudioButton, 6, 0)
-        grid.addWidget(saveButton, 6, 3)
+        grid.addWidget(phoneticalLabel, 4, 0)
+        grid.addWidget(self.phoneticalLine, 4, 1, 1, 3)
+        grid.addWidget(translationLabel, 5, 0)
+        grid.addWidget(self.translationLine, 5, 1, 1, 3)
+        grid.addWidget(self.audioListWidget, 6, 0, 1, 4)
+        grid.addWidget(newAudioButton, 7, 0)
+        grid.addWidget(saveButton, 7, 3)
         
         grid.setContentsMargins(0, 0, 0, 0)
         
@@ -144,6 +150,7 @@ class QDeckItemWidget(QWidget):
         
         name = self.nameLine.text()
         word = self.wordLine.text()
+        phonetical = self.phoneticalLine.text()
         translation = self.translationLine.text()
         audio_filenames = None
         
@@ -152,9 +159,9 @@ class QDeckItemWidget(QWidget):
             
             self.freehandDrawWidget.saveView(path.join(self.deckpath, svg_filename))
             
-            self.dbAdapter.saveDeckItem(name, word, translation, svg_filename)
+            self.dbAdapter.saveDeckItem(name, word, phonetical, translation, svg_filename)
             
-            self.current_rowid = self.dbAdapter.getDeckItemRowID(name, word, translation, svg_filename)
+            self.current_rowid = self.dbAdapter.getDeckItemRowID(name, word, phonetical,  translation, svg_filename)
             self.svg_filename = svg_filename
             
             self.audioListWidget.setRowID(self.current_rowid)
@@ -162,7 +169,7 @@ class QDeckItemWidget(QWidget):
         else:
             self.freehandDrawWidget.saveView(path.join(self.deckpath, self.svg_filename))
             
-            self.dbAdapter.updateDeckItem(self.current_rowid, name, word, translation, self.svg_filename)
+            self.dbAdapter.updateDeckItem(self.current_rowid, name, word, phonetical, translation, self.svg_filename)
             
         self.audioListWidget.saveStateToDB(self.current_rowid)
         

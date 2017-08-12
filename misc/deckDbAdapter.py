@@ -12,24 +12,42 @@ class DeckDbAdapter(object):
         pass
     
     def initialize(self, dbpath):
-        
+        print(dbpath)
         self.connection = sqlite3.connect(dbpath)
         self.cursor = self.connection.cursor()
         
         self.initializeTables()
+        
+        self.checkAndUpdateSchema()
     
     def closeDB(self):
         self.connection.close()
     
     def initializeTables(self):
-        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, order_index INTEGER, name TEXT, word TEXT, translation TEXT, svg_filename TEXT, image TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
+        query = "CREATE TABLE IF NOT EXISTS deck (rowid INTEGER PRIMARY KEY AUTOINCREMENT, order_index INTEGER, name TEXT, word TEXT, phonetical TEXT, translation TEXT, svg_filename TEXT, image TEXT, created NUMERIC, known NUMERIC, priority NUMERIC, changed NUMERIC)"
         self.cursor.execute(query)
         
         query  = "CREATE TABLE IF NOT EXISTS audio (rowid INTEGER PRIMARY KEY AUTOINCREMENT, deck_rowid INTEGER, description TEXT, filename TEXT)"
         self.cursor.execute(query)
         
-        #query = "CREATE TABLE IF NOT EXISTS column_names (rowid INTEGER PRIMARY KEY AUTOINCREMENT, "
+        self.connection.commit()
+    
+    def checkAndUpdateSchema(self):
+        #select_query = "SELECT * FROM deck LIMIT 1"
+        select_query = "PRAGMA table_info('deck')"
+        self.cursor.execute(select_query)
+        result = self.dictFactory(self.cursor.fetchall())
         
+        columns = []
+        for line in result:
+            columns.append(line["name"])
+        
+        if not 'image' in columns:
+            alter_query = "ALTER TABLE deck ADD COLUMN image TEXT"
+            self.cursor.execute(alter_query)
+        if not 'phonetical' in columns:
+            alter_query = "ALTER TABLE deck ADD COLUMN phonetical TEXT"
+            self.cursor.execute(alter_query)
         self.connection.commit()
     
     def dictFactory(self, result):
@@ -42,28 +60,26 @@ class DeckDbAdapter(object):
         
         return result_list
     
-    def saveDeckItem(self, name, word, translation, svg_filename):
-        query = "INSERT INTO deck (name, word, translation, svg_filename, created, known, priority, changed) VALUES (?, ?, ?, ?, ?, 0, 0, ?)"
+    def saveDeckItem(self, name, word, phonetical, translation, svg_filename):
+        query = "INSERT INTO deck (name, word, phonetical, translation, svg_filename, created, known, priority, changed) VALUES (?, ?, ?, ?, ?, ?, 0, 0, ?)"
         
         created = int(time.time())
         changed = int(time.time())
         
-        self.cursor.execute(query, (name, word, translation, svg_filename, created, changed))
+        self.cursor.execute(query, (name, word, phonetical, translation, svg_filename, created, changed))
         self.connection.commit()
     
-    def getDeckItemRowID(self, name, word, translation, svg_filename):
-        query = "SELECT rowid FROM deck WHERE name='{0}' AND word='{1}' AND translation='{2}' AND svg_filename='{3}'".format(name, word, translation, svg_filename)
-        self.cursor.execute(query)
+    def getDeckItemRowID(self, name, word, phonetical, translation, svg_filename):
+        query = "SELECT rowid FROM deck WHERE name=? AND word=? AND phonetical=? AND translation=? AND svg_filename=?"
+        self.cursor.execute(query, (name, word, phonetical, translation, svg_filename))
+        #query = "SELECT rowid FROM deck WHERE name='{0}' AND word='{1}' AND translation='{2}' AND svg_filename='{3}'".format(name, word, translation, svg_filename)
+        #self.cursor.execute(query)
         result = self.cursor.fetchall()
         
         return result[0][0]
     
     def selectDeckItems(self):
-        query = "SELECT rowid, order_index, name, word, translation, svg_filename, image FROM deck ORDER BY order_index"
-        try:
-            self.cursor.execute(query)
-        except sqlite3.OperationalError:
-            query = "SELECT rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY order_index"
+        query = "SELECT rowid, order_index, name, word, phonetical,  translation, svg_filename, image FROM deck ORDER BY order_index"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -88,19 +104,19 @@ class DeckDbAdapter(object):
         return self.dictFactory(result)
     
     def selectDeckItem(self, rowid):
-        query = "SELECT name, word, translation, svg_filename, image FROM deck WHERE rowid={0}".format(rowid)
-        try:
-            self.cursor.execute(query)
-        except:
-            query = "SELECT name, word, translation, svg_filename FROM deck WHERE rowid={0}".format(rowid)
-            self.cursor.execute(query)
+        query = "SELECT name, word, phonetical, translation, svg_filename, image FROM deck WHERE rowid={0}".format(rowid)
+        
+        self.cursor.execute(query)
+        
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)[0]
     
-    def updateDeckItem(self, rowid, name, word, translation, svg_filename):
-        query = "UPDATE deck SET name='{0}', word='{1}', translation='{2}', svg_filename='{3}' WHERE rowid={4}".format(name, word, translation, str(svg_filename), rowid)
-        self.cursor.execute(query)
+    def updateDeckItem(self, rowid, name, word, phonetical, translation, svg_filename):
+        query = "UPDATE deck SET name=?, word=?, phonetical=?, translation=?, svg_filename=? WHERE rowid=?"
+        self.cursor.execute(query, (name, word, phonetical, translation, str(svg_filename), rowid))
+        #query = "UPDATE deck SET name='{0}', word='{1}', phonetical='{2}' translation='{3}', svg_filename='{4}' WHERE rowid={5}".format(name, word, phonetical, translation, str(svg_filename), rowid)
+        #self.cursor.execute(query)
         
         self.connection.commit()
     
@@ -233,21 +249,12 @@ class DeckDbAdapter(object):
         return result[0][0]
     
     def search(self, pattern):
-        #query = "SELECT rowid, name, word, translation FROM deck WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?"
-        query = '''SELECT name, word, translation, svg_filename, image, GROUP_CONCAT(filename) AS filenames
+        query = '''SELECT name, word, phonetical, translation, svg_filename, image, GROUP_CONCAT(filename) AS filenames
         FROM deck
         JOIN audio ON deck.rowid=deck_rowid 
         WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?
         GROUP BY name, word, translation'''
-        try:
-            self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
-        except sqlite3.OperationalError:
-            query = '''SELECT name, word, translation, svg_filename, GROUP_CONCAT(filename) AS filenames
-            FROM deck
-            JOIN audio ON deck.rowid=deck_rowid 
-            WHERE name LIKE ? OR word LIKE ? OR translation LIKE ?
-            GROUP BY name, word, translation'''
-            self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
+        self.cursor.execute(query, ('%'+pattern+'%', '%'+pattern+'%', '%'+pattern+'%'))
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)

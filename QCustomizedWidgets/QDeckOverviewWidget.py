@@ -9,7 +9,7 @@ from misc.deckDbAdapter import DeckDbAdapter
 from os import path, remove
 from functools import partial
 
-COLUMN_OFFSET = 8
+COLUMN_OFFSET = 9
 
 class QDeckOverviewWidget(QWidget):
     
@@ -81,6 +81,7 @@ class QDeckOverviewWidget(QWidget):
             order_index = line["order_index"]
             name = line["name"]
             word = line["word"]
+            phonetical = line["phonetical"]
             translation = line["translation"]
             svg_filename = line["svg_filename"]
             image_filename = None
@@ -122,9 +123,10 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setItem(i, 2, QTableWidgetItem(str(order_index)))
             self.tableWidget.setItem(i, 3, QTableWidgetItem(name))
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
-            self.tableWidget.setItem(i, 5, QTableWidgetItem(translation))
-            self.tableWidget.setCellWidget(i, 6, svgWidget)
-            self.tableWidget.setCellWidget(i, 7, imageWidget)
+            self.tableWidget.setItem(i, 5, QTableWidgetItem(phonetical))
+            self.tableWidget.setItem(i, 6, QTableWidgetItem(translation))
+            self.tableWidget.setCellWidget(i, 7, svgWidget)
+            self.tableWidget.setCellWidget(i, 8, imageWidget)
             
             #if audio_filenames:
             print("AUDIO_FILENAMES")
