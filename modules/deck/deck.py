@@ -162,11 +162,12 @@ class Deck(object):
                 result = self.dbAdapter.selectDeckItems()
                 
                 for entry in result:
-                    phonetical = entry["name"]
-                    for char in phonetical:
-                        if char in vowels:
-                            position = vowels[char]
-                            result_table[position[0]][position[1]] = char
+                    phonetical = entry["phonetical"]
+                    if phonetical:
+                        for char in phonetical:
+                            if char in vowels:
+                                position = vowels[char]
+                                result_table[position[0]][position[1]] = char
         
         header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
         header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'halb offen', 'fast offen', 'offen']
@@ -195,15 +196,17 @@ class Deck(object):
         for directory in dirs:
             if directory.startswith(deck_prefix):
                 db_path = os.path.join(root, directory, "database.sqlite")
+                print(db_path)
                 self.dbAdapter.initialize(db_path)
                 result = self.dbAdapter.selectDeckItems()
                 
                 for entry in result:
-                    phonetical = entry["name"]
-                    for char in phonetical:
-                        if char in consonants:
-                            position = consonants[char]
-                            result_table[position[0]][position[1]] = char
+                    phonetical = entry["phonetical"]
+                    if phonetical:
+                        for char in phonetical:
+                            if char in consonants:
+                                position = consonants[char]
+                                result_table[position[0]][position[1]] = char
         
         header = ['bl', 'ld', 'd', 'al', 'post-al', 're', 'al-pal', 'pal', 'lab-pal', 'vel', 'lab-vel', 'uv', 'phar', 'epi', 'glot']
         header_left = ['plosiv (stl)', 'plosiv (sth)', 'nasal (stl)', 'nasal (sth)', 'frikativ (stl)', 'frikativ (sth)', 'rinnen-frik (stl)', 'rinnen-frik (sth)', 'lateral-frik (stl)', 'lateral-frik (sth)', 'lateral-approx (stl)', 'lateral-approx (sth)', 'vibrant (stl)', 'vibrant (sth)', 'flap (stl)', 'flap (sth)', 'approx (stl)', 'approx (sth)', 'ejektiv (stl)', 'click']

@@ -12,7 +12,6 @@ class DeckDbAdapter(object):
         pass
     
     def initialize(self, dbpath):
-        print(dbpath)
         self.connection = sqlite3.connect(dbpath)
         self.cursor = self.connection.cursor()
         
