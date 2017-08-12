@@ -27,6 +27,11 @@ class QDeckItemWidget(QWidget):
     def __init__(self):
         super().__init__()
         
+        style = """
+        QLineEdit{ font-size: 25px; }
+        """
+        self.setStyleSheet(style)
+        
     def setDeckpath(self, deckpath):
         self.deckpath = deckpath
         
