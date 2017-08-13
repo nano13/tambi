@@ -2,12 +2,10 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
-DENTAL = chr(810)
-VOICELESS = chr(805)
-
 class Ipa(object):
     
-    
+    DENTAL = chr(810)
+    VOICELESS = chr(805)
     
     def __init__(self):
         pass
@@ -73,10 +71,27 @@ class Ipa(object):
             phones = self.__getConsonantsDict()
             result_table, header, header_vertical = self.__getConsonantsRawTable()
         
+        last_char = None
         for char in string_data:
+            #print(char, ord(char))
             if char in phones:
                 position = phones[char]
                 result_table[position[0]][position[1]] = char
+            elif char == self.DENTAL:
+                try:
+                    position = phones[last_char+self.DENTAL]
+                except KeyError:
+                    pass
+                else:
+                    result_table[position[0]][position[1]] = last_char+self.DENTAL
+            elif char == self.VOICELESS:
+                try:
+                    position = phones[last_char+self.VOICELESS]
+                except KeyError:
+                    pass
+                else:
+                    result_table[position[0]][position[1]] = last_char+self.VOICELESS
+            last_char = char
         
         return result_table, header, header_vertical
     
@@ -139,9 +154,9 @@ class Ipa(object):
             #= plosive =
             'p' : [0, 0],
             'b' : [1, 0],
-            't'+DENTAL : [0, 2],
+            't'+self.DENTAL : [0, 2],
             't' : [0, 3],
-            'd'+DENTAL : [1, 2],
+            'd'+self.DENTAL : [1, 2],
             'd' : [1, 3],
             'ʈ' : [0, 5],
             'ɖ' : [1, 5],
@@ -155,18 +170,18 @@ class Ipa(object):
             'ɢ' : [1, 11],
             'ʔ' : [0, 14],
             #= nasal =
-            'm'+VOICELESS : [2, 0],
-            'ɱ'+VOICELESS : [2, 1],
-            'n'+DENTAL+VOICELESS : [2, 2],
-            'n'+VOICELESS : [2, 3],
-            'ɳ'+VOICELESS : [2, 5],
-            'ɲ'+VOICELESS : [2, 7],
-            'ŋ'+VOICELESS : [2, 9],
-            'ɴ'+VOICELESS : [2, 11],
+            'm'+self.VOICELESS : [2, 0],
+            'ɱ'+self.VOICELESS : [2, 1],
+            'n'+self.DENTAL+self.VOICELESS : [2, 2],
+            'n'+self.VOICELESS : [2, 3],
+            'ɳ'+self.VOICELESS : [2, 5],
+            'ɲ'+self.VOICELESS : [2, 7],
+            'ŋ'+self.VOICELESS : [2, 9],
+            'ɴ'+self.VOICELESS : [2, 11],
             
             'm' : [3, 0],
             'ɱ' : [3, 1],
-            'n'+DENTAL : [3, 2],
+            'n'+self.DENTAL : [3, 2],
             'n' : [3, 3],
             'ɳ' : [3, 5],
             'ɲ' : [3, 7],
@@ -174,12 +189,12 @@ class Ipa(object):
             'ɴ' : [3, 11],
             #= trill =
             'ʙ' : [13, 0],
-            'r'+DENTAL : [13, 2],
+            'r'+self.DENTAL : [13, 2],
             'r' : [13, 3],
             'ʀ' : [13, 11],
             #= tap or flap =
             #'v<' : '', # !!!
-            'ɾ'+DENTAL : [15, 2],
+            'ɾ'+self.DENTAL : [15, 2],
             'ɾ' : [15, 3],
             'ɽ' : [15, 5],
             #= fricative =
@@ -200,9 +215,9 @@ class Ipa(object):
             'h' : [4, 14],
             'ɦ' : [5, 14],
             
-            's'+DENTAL : [6, 2],
+            's'+self.DENTAL : [6, 2],
             's' : [6, 3],
-            'z'+DENTAL : [7, 2],
+            'z'+self.DENTAL : [7, 2],
             'z' : [7, 3],
             'ʃ' : [6, 4],
             'ʒ' : [7, 4],
@@ -218,7 +233,7 @@ class Ipa(object):
             'j' : [17, 7],
             'ɰ' : [17, 9],
             #= lateral approximate =
-            'l'+DENTAL : [11, 2],
+            'l'+self.DENTAL : [11, 2],
             'l' : [11, 3],
             'ɭ' : [11, 5],
             'ʎ' : [11, 7],

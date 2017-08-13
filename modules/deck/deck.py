@@ -156,6 +156,7 @@ class Deck(object):
         root, dirs, path = next(iter(os.walk(deckpath)))
         dirs.sort()
         
+        """ append all 'phonetical'-characters from all decks to the variable 'result_char_list' and pass it to the ipa-class to generate the table """
         result_char_list = []
         for directory in dirs:
             if directory.startswith(deck_prefix):
