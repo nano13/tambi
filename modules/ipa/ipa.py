@@ -49,7 +49,7 @@ class Ipa(object):
             result_table[position[0]][position[1]] = key
         
         header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
-        header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'halb offen', 'fast offen', 'offen']
+        header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'fast offen', 'offen']
         
         result_object = Result()
         result_object.category = "table"
@@ -130,7 +130,9 @@ class Ipa(object):
             'c' : [0, 7],
             'ɟ' : [1, 7],
             'k' : [0, 9],
-            'ɡ' : [1, 9],
+            'g' : [1, 9],
+            'g' : [1, 9],
+            
             'q' : [0, 11],
             'ɢ' : [1, 11],
             'ʔ' : [0, 14],

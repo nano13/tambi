@@ -27,6 +27,11 @@ class QDeckItemWidget(QWidget):
     def __init__(self):
         super().__init__()
         
+        style = """
+        QLineEdit{ font-size: 25px; }
+        """
+        self.setStyleSheet(style)
+        
     def setDeckpath(self, deckpath):
         self.deckpath = deckpath
         
@@ -102,7 +107,7 @@ class QDeckItemWidget(QWidget):
         self.wordLine = QVkbdLineEdit() #QLineEdit()
         translationLabel = QLabel("translation:")
         self.phoneticalLine = QVkbdLineEdit()
-        phoneticalLabel = QLabel("phonetical")
+        phoneticalLabel = QLabel("phonetical:")
         self.translationLine = QVkbdLineEdit() #QLineEdit()
         self.audioListWidget = QDeckAudioListWidget()
         newAudioButton = QPushButton("new audio")

@@ -14,7 +14,7 @@ class ImportSVG(object):
         
         try:
             doc = minidom.parse(filepath)
-        except ExpatError:
+        except (ExpatError, IsADirectoryError):
             # xml file is broken: we can't import it
             pass
         else:
