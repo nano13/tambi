@@ -26,8 +26,8 @@ class Deck(object):
             "deck.count" : self.count,
             "deck.search" : self.search,
             
-            "deck.ipaVowels" : self.ipaVowels,
-            "deck.ipaConsonants" : self.ipaConsonants,
+            "deck.ipaVowels" : self.generateIPATable,
+            "deck.ipaConsonants" : self.generateIPATable,
         }
     
     def interpreter(self, command, args):
@@ -141,20 +141,22 @@ class Deck(object):
         result_object.header = result_header
         return result_object
     
-    def ipaVowels(self, c, args):
+    def generateIPATable(self, command, args):
+        if command == 'deck.ipaVowels':
+            table_type = 'vowels'
+        elif command == 'deck.ipaConsonants':
+            table_type = 'consonants'
         try:
             deck_prefix = args[0]
         except IndexError:
             """ everything is fine, we just do not have an argument """
             deck_prefix = ''
         
-        ipa = Ipa()
-        vowels = ipa.getVowelsDict()
-        result_table = [['' for _ in range(6)] for _ in range(6)]
-        
         deckpath = self.config.readPath("vocable", "deckpath")
         root, dirs, path = next(iter(os.walk(deckpath)))
         dirs.sort()
+        
+        result_char_list = []
         for directory in dirs:
             if directory.startswith(deck_prefix):
                 db_path = os.path.join(root, directory, "database.sqlite")
@@ -165,55 +167,15 @@ class Deck(object):
                     phonetical = entry["phonetical"]
                     if phonetical:
                         for char in phonetical:
-                            if char in vowels:
-                                position = vowels[char]
-                                result_table[position[0]][position[1]] = char
-        
-        header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
-        header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'fast offen', 'offen']
+                            result_char_list.append(char)
+                
+        ipa = Ipa()
+        result_table, header, header_vertical = ipa._generateIpaTableFromData(table_type, result_char_list)
         
         result_object = Result()
         result_object.category = "table"
         result_object.payload = result_table
         result_object.header = header
-        result_object.header_left = header_left
+        result_object.header_left = header_vertical
         return result_object
     
-    def ipaConsonants(self, c, args):
-        try:
-            deck_prefix = args[0]
-        except IndexError:
-            """ everything is fine, we just do not have an argument """
-            deck_prefix = ''
-        
-        ipa = Ipa()
-        consonants = ipa.getConsonantsDict()
-        result_table = [['' for _ in range(15)] for _ in range(20)]
-        
-        deckpath = self.config.readPath("vocable", "deckpath")
-        root, dirs, path = next(iter(os.walk(deckpath)))
-        dirs.sort()
-        for directory in dirs:
-            if directory.startswith(deck_prefix):
-                db_path = os.path.join(root, directory, "database.sqlite")
-                print(db_path)
-                self.dbAdapter.initialize(db_path)
-                result = self.dbAdapter.selectDeckItems()
-                
-                for entry in result:
-                    phonetical = entry["phonetical"]
-                    if phonetical:
-                        for char in phonetical:
-                            if char in consonants:
-                                position = consonants[char]
-                                result_table[position[0]][position[1]] = char
-        
-        header = ['bl', 'ld', 'd', 'al', 'post-al', 're', 'al-pal', 'pal', 'lab-pal', 'vel', 'lab-vel', 'uv', 'phar', 'epi', 'glot']
-        header_left = ['plosiv (stl)', 'plosiv (sth)', 'nasal (stl)', 'nasal (sth)', 'frikativ (stl)', 'frikativ (sth)', 'rinnen-frik (stl)', 'rinnen-frik (sth)', 'lateral-frik (stl)', 'lateral-frik (sth)', 'lateral-approx (stl)', 'lateral-approx (sth)', 'vibrant (stl)', 'vibrant (sth)', 'flap (stl)', 'flap (sth)', 'approx (stl)', 'approx (sth)', 'ejektiv (stl)', 'click']
-        
-        result_object = Result()
-        result_object.category = "table"
-        result_object.payload = result_table
-        result_object.header = header
-        result_object.header_left = header_left
-        return result_object

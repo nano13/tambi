@@ -2,6 +2,9 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
+DENTAL = chr(810)
+VOICELESS = chr(805)
+
 class Ipa(object):
     
     
@@ -13,8 +16,8 @@ class Ipa(object):
         return {
             "ipa.commands" : self.commands,
             
-            "ipa.vowels" : self.vowels,
-            "ipa.consonants" : self.consonants,
+            "ipa.vowels" : self.generateRawIpaTable,
+            "ipa.consonants" : self.generateRawIpaTable,
         }
     
     def interpreter(self, command, args):
@@ -39,48 +42,61 @@ class Ipa(object):
         result_object.payload = all_commands
         return result_object
     
-    def vowels(self, c, a):
-        vowels = self.getVowelsDict()
+    def generateRawIpaTable(self, command, a):
+        if command == 'ipa.vowels':
+            phones = self.__getVowelsDict()
+            result_table, header, header_vertical = self.__getVowelsRawTable()
+        elif command == 'ipa.consonants':
+            phones = self.__getConsonantsDict()
+            result_table, header, header_vertical = self.__getConsonantsRawTable()
         
-        result_table = [['' for _ in range(6)] for _ in range(6)]
-        keys = vowels.keys()
+        keys = phones.keys()
         for key in keys:
-            position = vowels[key]
-            result_table[position[0]][position[1]] = key
-        
-        header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
-        header_left = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'fast offen', 'offen']
-        
-        result_object = Result()
-        result_object.category = "table"
-        result_object.payload = result_table
-        result_object.header = header
-        result_object.header_left = header_left
-        return result_object
-    
-    def consonants(self, c, a):
-        consonants = self.getConsonantsDict()
-        
-        result_table = [['' for _ in range(15)] for _ in range(20)]
-        keys = consonants.keys()
-        for key in keys:
-            position = consonants[key]
+            position = phones[key]
             try:
                 result_table[position[0]][position[1]] = key
             except IndexError:
                 pass
         
-        header = ['bl', 'ld', 'd', 'al', 'post-al', 're', 'al-pal', 'pal', 'lab-pal', 'vel', 'lab-vel', 'uv', 'phar', 'epi', 'glot']
-        header_left = ['plosiv (stl)', 'plosiv (sth)', 'nasal (stl)', 'nasal (sth)', 'frikativ (stl)', 'frikativ (sth)', 'rinnen-frik (stl)', 'rinnen-frik (sth)', 'lateral-frik (stl)', 'lateral-frik (sth)', 'lateral-approx (stl)', 'lateral-approx (sth)', 'vibrant (stl)', 'vibrant (sth)', 'flap (stl)', 'flap (sth)', 'approx (stl)', 'approx (sth)', 'ejektiv (stl)', 'click']
-        
         result_object = Result()
         result_object.category = "table"
         result_object.payload = result_table
         result_object.header = header
-        result_object.header_left = header_left
+        result_object.header_left = header_vertical
         return result_object
     
-    def getVowelsDict(self):
+    def _generateIpaTableFromData(self, table_type, string_data):
+        if table_type == 'vowels':
+            phones = self.__getVowelsDict()
+            result_table, header, header_vertical = self.__getVowelsRawTable()
+        elif table_type == 'consonants':
+            phones = self.__getConsonantsDict()
+            result_table, header, header_vertical = self.__getConsonantsRawTable()
+        
+        for char in string_data:
+            if char in phones:
+                position = phones[char]
+                result_table[position[0]][position[1]] = char
+        
+        return result_table, header, header_vertical
+    
+    def __getVowelsRawTable(self):
+        header = ['VV', 'VV o', 'ZV', 'ZV o', 'HV', 'HV o']
+        header_vertical = ['geschl.', 'fast geschl.', 'halb geschl.', 'halb offen', 'fast offen', 'offen']
+        
+        table = [['' for _ in range(6)] for _ in range(6)]
+        
+        return table, header, header_vertical
+    
+    def __getConsonantsRawTable(self):
+        header = ['bl', 'ld', 'd', 'al', 'post-al', 're', 'al-pal', 'pal', 'lab-pal', 'vel', 'lab-vel', 'uv', 'phar', 'epi', 'glot']
+        header_vertical = ['plosiv (stl)', 'plosiv (sth)', 'nasal (stl)', 'nasal (sth)', 'frikativ (stl)', 'frikativ (sth)', 'rinnen-frik (stl)', 'rinnen-frik (sth)', 'lateral-frik (stl)', 'lateral-frik (sth)', 'lateral-approx (stl)', 'lateral-approx (sth)', 'vibrant (stl)', 'vibrant (sth)', 'flap (stl)', 'flap (sth)', 'approx (stl)', 'approx (sth)', 'implosiv (stl)', 'implosiv (sth)', 'ejektiv (stl)', 'click']
+        
+        table = [['' for _ in range(15)] for _ in range(22)]
+        
+        return table, header, header_vertical
+    
+    def __getVowelsDict(self):
         return {
             'i' : [0, 0],
             'y' : [0, 1],
@@ -118,12 +134,14 @@ class Ipa(object):
             'ɒ' : [5, 5],
             }
     
-    def getConsonantsDict(self):
+    def __getConsonantsDict(self):
         return {
             #= plosive =
             'p' : [0, 0],
             'b' : [1, 0],
+            't'+DENTAL : [0, 2],
             't' : [0, 3],
+            'd'+DENTAL : [1, 2],
             'd' : [1, 3],
             'ʈ' : [0, 5],
             'ɖ' : [1, 5],
@@ -137,8 +155,18 @@ class Ipa(object):
             'ɢ' : [1, 11],
             'ʔ' : [0, 14],
             #= nasal =
+            'm'+VOICELESS : [2, 0],
+            'ɱ'+VOICELESS : [2, 1],
+            'n'+DENTAL+VOICELESS : [2, 2],
+            'n'+VOICELESS : [2, 3],
+            'ɳ'+VOICELESS : [2, 5],
+            'ɲ'+VOICELESS : [2, 7],
+            'ŋ'+VOICELESS : [2, 9],
+            'ɴ'+VOICELESS : [2, 11],
+            
             'm' : [3, 0],
             'ɱ' : [3, 1],
+            'n'+DENTAL : [3, 2],
             'n' : [3, 3],
             'ɳ' : [3, 5],
             'ɲ' : [3, 7],
@@ -146,10 +174,12 @@ class Ipa(object):
             'ɴ' : [3, 11],
             #= trill =
             'ʙ' : [13, 0],
+            'r'+DENTAL : [13, 2],
             'r' : [13, 3],
             'ʀ' : [13, 11],
             #= tap or flap =
             #'v<' : '', # !!!
+            'ɾ'+DENTAL : [15, 2],
             'ɾ' : [15, 3],
             'ɽ' : [15, 5],
             #= fricative =
@@ -170,7 +200,9 @@ class Ipa(object):
             'h' : [4, 14],
             'ɦ' : [5, 14],
             
+            's'+DENTAL : [6, 2],
             's' : [6, 3],
+            'z'+DENTAL : [7, 2],
             'z' : [7, 3],
             'ʃ' : [6, 4],
             'ʒ' : [7, 4],
@@ -186,23 +218,25 @@ class Ipa(object):
             'j' : [17, 7],
             'ɰ' : [17, 9],
             #= lateral approximate =
+            'l'+DENTAL : [11, 2],
             'l' : [11, 3],
             'ɭ' : [11, 5],
             'ʎ' : [11, 7],
             'ʟ' : [11, 9],
             #== other consonants ==
             #= clicks =
-            'ʘ' : [19, 0],
-            'ǀ' : [19, 2],
-            'ǃ' : [19, 3],
-            'ǂ' : [19, 4],
-            'ǁ' : [19, 3],
+            'ʘ' : [21, 0],
+            'ǀ' : [21, 2],
+            'ǃ' : [21, 3],
+            'ǂ' : [21, 4],
+            'ǁ' : [21, 3],
             #= voiced implosives =
-            'ɓ' : [],
-            'ɗ' : [],
-            'ʄ' : [],
-            'ɠ' : [],
-            'ʛ' : [],
+            'ɓ' : [19, 0],
+            'ɗ' : [19, 2],
+            'ɗ' : [19, 3],
+            'ʄ' : [19, 7],
+            'ɠ' : [19, 9],
+            'ʛ' : [19, 11],
             
             #== other symbols ==
             'ʍ' : [4, 10],
