@@ -19,7 +19,7 @@ class UnicodeFonts(object):
     arabic_size = 40
     hebrew_size = 20
     greek_size = 15
-    ipa_size = 20
+    ipa_size = 15
     
     def __init__(self):
         scriptpath = os.path.dirname(os.path.abspath(__file__))
@@ -74,9 +74,15 @@ class UnicodeFonts(object):
             self.setFontSize(widget, self.greek_size)
         
         elif self.isInUnicodeRange(self.ipa_block[0], self.ipa_block[1], string):
+            #widget.setFont(QFont(self.ipa_font))
             #widget.setFontPointSize(self.ipa_size)
             #self.setFontSize(widget, self.ipa_size)
             pass
+        
+    def setFont(self, font_category, widget):
+        if font_category == 'ipa':
+            widget.setFont(QFont(self.ipa_font))
+            self.setFontSize(widget, self.ipa_size)
     
     def setFontSize(self, widget, size, font_name=None):
         try:

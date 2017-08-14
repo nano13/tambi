@@ -5,6 +5,7 @@ from PyQt5 import QtSvg
 from PyQt5.QtGui import QIcon, QPixmap
 
 from misc.deckDbAdapter import DeckDbAdapter
+from misc.unicodeFonts import UnicodeFonts
 
 from os import path, remove
 from functools import partial
@@ -24,6 +25,8 @@ class QDeckOverviewWidget(QWidget):
     
     def __init__(self):
         super().__init__()
+        
+        self.unicodeFonts = UnicodeFonts()
         
     def initialize(self, deckpath):
         self.deckpath = deckpath
@@ -123,7 +126,11 @@ class QDeckOverviewWidget(QWidget):
             self.tableWidget.setItem(i, 2, QTableWidgetItem(str(order_index)))
             self.tableWidget.setItem(i, 3, QTableWidgetItem(name))
             self.tableWidget.setItem(i, 4, QTableWidgetItem(word))
-            self.tableWidget.setItem(i, 5, QTableWidgetItem(phonetical))
+            
+            phonetical_item = QTableWidgetItem(phonetical)
+            self.unicodeFonts.setFont('ipa', phonetical_item)
+            self.tableWidget.setItem(i, 5, phonetical_item)
+            
             self.tableWidget.setItem(i, 6, QTableWidgetItem(translation))
             self.tableWidget.setCellWidget(i, 7, svgWidget)
             self.tableWidget.setCellWidget(i, 8, imageWidget)
