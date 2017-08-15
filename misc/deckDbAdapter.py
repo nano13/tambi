@@ -142,8 +142,9 @@ class DeckDbAdapter(object):
         return svg_filename[0][0], audio_filenames_list
     
     def deleteImage(self, rowid):
-        query = "UPDATE deck SET image=NULL"
-        self.cursor.execute(query)
+        print("DELETING IMAGE")
+        query = "UPDATE deck SET image=NULL WHERE rowid=?"
+        self.cursor.execute(query, [int(rowid)])
         self.connection.commit()
     
     def saveAudioDict(self, audio_dict, deck_rowid):
