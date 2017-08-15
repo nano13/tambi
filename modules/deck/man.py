@@ -42,6 +42,16 @@ deck.ipaConsonants (generates and returns the ipa-table for all decks)
 deck.ipaConsonants arabic_ (generates and returns the ipa-table for all decks prefixed with "arabic_")
 """
 
+chronological = """
+Returns a table showing which deck item was created on wich date.
+
+@param (optional): string, representing the prefix/beginning of the decks we want to generate the IPA-table from.
+
+Examples:
+deck.chronological (shows the chronological order of all deck entries)
+deck.chronological arabic_ (shows the chronological order of all items of all decks whose name starts with "arabic_*")
+"""
+
 search = """
 Returns a list of decks where the given search-pattern could be found in.
 
