@@ -90,8 +90,8 @@ class DeckDbAdapter(object):
         result = self.cursor.fetchall()
         
         return self.dictFactory(result)
-    def selectDeckItemsWithImage(self):
-        query = "SELECT image, rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY RANDOM()"
+    def selectDeckDirtyDozenItems(self):
+        query = "SELECT image, rowid, order_index, name, word, translation, svg_filename FROM deck ORDER BY RANDOM() LIMIT 12"
         try:
             self.cursor.execute(query)
             result = self.cursor.fetchall()

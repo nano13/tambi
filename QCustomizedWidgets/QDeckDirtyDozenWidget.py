@@ -47,7 +47,7 @@ class QDeckDirtyDozenWidget(QWidget):
         db_path = path.join(deckpath, "database.sqlite")
         self.dbAdapter = DeckDbAdapter()
         self.dbAdapter.initialize(db_path)
-        dataset = self.dbAdapter.selectDeckItemsWithImage()
+        dataset = self.dbAdapter.selectDeckDirtyDozenItems()
         self.audio_data = self.dbAdapter.selectAudio()
         
         deck_select_button = QPushButton("<<<")
