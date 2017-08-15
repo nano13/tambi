@@ -6,7 +6,7 @@ from configs.configFiles import ConfigFile
 from misc.deckDbAdapter import DeckDbAdapter
 from modules.ipa.ipa import Ipa
 
-import os
+import os, datetime
 
 class Deck(object):
     
@@ -24,6 +24,7 @@ class Deck(object):
             "deck.toTable" : self.toTable,
             
             "deck.count" : self.count,
+            "deck.chronological" : self.chronological,
             "deck.search" : self.search,
             
             "deck.ipaVowels" : self.generateIPATable,
@@ -180,3 +181,33 @@ class Deck(object):
         result_object.header_left = header_vertical
         return result_object
     
+    def chronological(self, c, args):
+        try:
+            deck_prefix = args[0]
+        except IndexError:
+            deck_prefix = ''
+        
+        deckpath = self.config.readPath("vocable", "deckpath")
+        root, dirs, path = next(iter(os.walk(deckpath)))
+        
+        entries_list = []
+        for directory in dirs:
+            if directory.startswith(deck_prefix):
+                db_path = os.path.join(root, directory, "database.sqlite")
+                self.dbAdapter.initialize(db_path)
+                result = self.dbAdapter.selectDeckItems()
+                
+                for entry in result:
+                    print(entry)
+                    created = entry["created"]
+                    created = datetime.datetime.fromtimestamp(int(created)).strftime('%Y-%m-%d %H:%M:%S')
+                    entries_list.append([created, entry["name"], entry["word"], entry["phonetical"], entry["translation"], directory])
+        entries_list.sort()
+        
+        header = ['date', 'name', 'word', 'phonetical', 'translation', 'deck_name']
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.payload = entries_list
+        result_object.header = header
+        return result_object

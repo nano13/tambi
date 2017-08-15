@@ -78,7 +78,7 @@ class DeckDbAdapter(object):
         return result[0][0]
     
     def selectDeckItems(self):
-        query = "SELECT rowid, order_index, name, word, phonetical,  translation, svg_filename, image FROM deck ORDER BY order_index"
+        query = "SELECT rowid, order_index, name, word, phonetical,  translation, svg_filename, image, created FROM deck ORDER BY order_index"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         

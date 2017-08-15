@@ -330,7 +330,7 @@ class QCliWidget(QWidget):
             self.resizeDisplayWidget()
     
     def isImage(self, data):
-        suffixes = ['.png', '.jpg', '.jpeg', '.svg', '.bmp']
+        suffixes = ['.png', '.jpg', '.jpe', '.jpeg', '.svg', '.bmp']
         for suffix in suffixes:
             if data.lower().endswith(suffix):
                 return True
