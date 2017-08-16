@@ -30,7 +30,10 @@ class QDeckItemWidget(QWidget):
         style = """
         QLineEdit{ font-size: 25px; }
         """
-        self.setStyleSheet(style)
+        import platform
+        if not platform.system() == 'darwin':
+            """ this does look uggly on mac """
+            self.setStyleSheet(style)
         
     def setDeckpath(self, deckpath):
         self.deckpath = deckpath
