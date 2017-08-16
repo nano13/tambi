@@ -31,7 +31,7 @@ class QDeckItemWidget(QWidget):
         QLineEdit{ font-size: 25px; }
         """
         import platform
-        if not platform.system() == 'darwin':
+        if not platform.system() == 'Darwin':
             """ this does look uggly on mac """
             self.setStyleSheet(style)
         
