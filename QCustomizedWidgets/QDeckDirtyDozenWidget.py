@@ -48,7 +48,12 @@ class QDeckDirtyDozenWidget(QWidget):
         self.dbAdapter = DeckDbAdapter()
         self.dbAdapter.initialize(db_path)
         dataset = self.dbAdapter.selectDeckDirtyDozenItems()
-        self.audio_data = self.dbAdapter.selectAudio()
+        self.audio_data = []
+        for item in dataset:
+            self.audio_data.append({
+                "deck_rowid" : item["rowid"],
+                "filename" : item["filename"],
+            })
         
         deck_select_button = QPushButton("<<<")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
