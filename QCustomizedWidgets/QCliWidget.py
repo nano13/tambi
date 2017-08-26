@@ -339,7 +339,7 @@ class QCliWidget(QWidget):
         return False
     
     def isAudio(self, data):
-        suffixes = ['.ogg', '.wav', '.mp3']
+        suffixes = ['.ogg', '.wav', '.mp3', '.aiff', '.wma']
         for suffix in suffixes:
             if data.lower().endswith(suffix):
                 return True
