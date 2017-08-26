@@ -216,6 +216,7 @@ class QCliWidget(QWidget):
         for row, line in enumerate(result.payload):
             for column, item in enumerate(line):
                 table_item = QTableWidgetItem(str(item))
+                table_item.setFlags(Qt.ItemIsEnabled)
                 self.unicode_fonts.applyFontToQWidget(str(item), table_item)
                 self.display_widget.setItem(row, column, table_item)
         
@@ -255,6 +256,7 @@ class QCliWidget(QWidget):
                     audio_widget.appendPlayButtonsList(splitted, row)
                 else:
                     table_item = QTableWidgetItem(str(item))
+                    table_item.setFlags(Qt.ItemIsEnabled)
                     #self.unicode_fonts.applyFontToQWidget(str(item), table_item)
                     self.display_widget.setItem(row, column, table_item)
         
