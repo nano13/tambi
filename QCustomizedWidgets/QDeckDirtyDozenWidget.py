@@ -24,7 +24,8 @@ class QDeckDirtyDozenWidget(QWidget):
     
     selectDeck = pyqtSignal()
     
-    audio_data = None
+    dataset = None
+    #audio_data = None
     audioPlayer = None
     
     curent_audio_deck_id = None
@@ -47,13 +48,7 @@ class QDeckDirtyDozenWidget(QWidget):
         db_path = path.join(deckpath, "database.sqlite")
         self.dbAdapter = DeckDbAdapter()
         self.dbAdapter.initialize(db_path)
-        dataset = self.dbAdapter.selectDeckDirtyDozenItems()
-        self.audio_data = []
-        for item in dataset:
-            self.audio_data.append({
-                "deck_rowid" : item["rowid"],
-                "filename" : item["filename"],
-            })
+        self.dataset = self.dbAdapter.selectDeckDirtyDozenItems()
         
         deck_select_button = QPushButton("<<<")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
@@ -78,7 +73,7 @@ class QDeckDirtyDozenWidget(QWidget):
         self.grid.addWidget(select_display_combo, 0, 2)
         self.grid.addWidget(replay_audio_button, 0, 3)
         
-        for i, value in enumerate(dataset, COLUMNS):
+        for i, value in enumerate(self.dataset, COLUMNS):
             label = QClickLabel()
             if self.test_mode == 'image':
                 preview_pixmap = QPixmap()
@@ -132,18 +127,20 @@ class QDeckDirtyDozenWidget(QWidget):
         
     def playRandomAudio(self):
         try:
-            selector = randint(0, len(self.audio_data)-1)
+            selector = randint(0, len(self.dataset)-1)
+            
+            """ we do not want the same audio played multiple times on a row """
             depth = 0
             while selector == self.last_random_audio:
-                selector = randint(0, len(self.audio_data)-1)
-                """ to avoid ininite loops with just one element """
+                selector = randint(0, len(self.dataset)-1)
+                """ to avoid infinite loops with just one element """
                 depth += 1
                 if depth > 20:
                     break
             self.last_random_audio = selector
             
-            filename = self.audio_data[selector]["filename"]
-            self.current_audio_deck_id = self.audio_data[selector]["deck_rowid"]
+            filename = self.dataset[selector]["filename"]
+            self.current_audio_deck_id = self.dataset[selector]["rowid"]
             
             filepath = path.join(self.deckpath, filename)
             url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
