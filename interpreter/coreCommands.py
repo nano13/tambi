@@ -156,8 +156,14 @@ class CoreCommands(object):
     
     def location(self, c, a):
         from PyQt5.QtPositioning import QGeoCoordinate
+        from PyQt5.QtPositioning import QNmeaPositionInfoSource
+        #geo = QGeoCoordinate()
         
-        geo = QGeoCoordinate()
+        
+        nmea = QNmeaPositionInfoSource(QNmeaPositionInfoSource.SimulationMode)
+        print(nmea.device())
+        geo = nmea.lastKnownPosition().coordinate()
+        
         payload = 'latitude: '+str(geo.latitude())+' | longitude: '+str(geo.longitude())
         
         result_object = Result()
