@@ -33,7 +33,9 @@ class CoreCommands(object):
             
             "history" : self.history,
             
-            "fonts": self.fonts,
+            "fonts" : self.fonts,
+            
+            "location" : self.location,
             }
     
     def commandNotFound(self, command, args):
@@ -150,4 +152,15 @@ class CoreCommands(object):
         result_object = Result()
         result_object.category = 'list'
         result_object.payload = available_fonts
+        return result_object
+    
+    def location(self, c, a):
+        from PyQt5.QtPositioning import QGeoCoordinate
+        
+        geo = QGeoCoordinate()
+        payload = 'latitude: '+str(geo.latitude())+' | longitude: '+str(geo.longitude())
+        
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = payload
         return result_object
