@@ -2,16 +2,28 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
+from configs.configFiles import ConfigFile
+from modules.gps.dbAdapter import DbAdapter
+
+import os
+
 class Gps(object):
     
+    deckpath = None
+    
     def __init__(self):
-        pass
+        config = ConfigFile()
+        self.deckpath = config.readPath("positioning", "storagepath")
+        if not os.path.exists(self.deckpath):
+            os.makedirs(self.deckpath)
     
     def getCommands(self):
         return {
             "gps.commands" : self.commands,
             
             "gps.position" : self.position,
+            "gps.start_log" : self.start_log,
+            "gps.stop_log" : self.stop_log,
         }
     
     def interpreter(self, command, args):
@@ -36,7 +48,41 @@ class Gps(object):
         result_object.payload = all_commands
         return result_object
     
+    def start_log(self, c, a):
+        dbname = "eduard.sqlite"
+        dbpath = os.path.join(self.deckpath, dbname)
+        dbAdapter = DbAdapter(dbpath)
+        
+        position = self.getGpsPosition()
+        
+        print(position)
+        
+    def stop_log(self, c, a):
+        pass
+    
     def position(self, c, a):
+        
+        data = self.getGpsPosition()
+        
+        result_object = Result()
+        result_object.category = "table"
+        result_object.payload = [
+            ['Latitude', data['latitude']],
+            ['Longitude', data['longitude']],
+            ['Altitude', data['altitude']],
+            
+            ['Speed', data['speed']],
+            ['Track', data['track']],
+            ['Climb', data['climb']],
+            
+            ['Time', data['time']],
+            
+            ['Error Horizontal', data['error_horizontal']],
+            ['Error Vertical', data['error_vertical']],
+        ]
+        return result
+        
+    def getGpsPosition(self):
         result_object = Result()
         result_object.payload = ""
         try:
@@ -76,19 +122,19 @@ class Gps(object):
                     else:
                         speed, track, climb = movement['speed'], movement['track'], movement['climb']
                     
-                    result_object.payload = [
-                        ['Latitude', pos[0]],
-                        ['Longitude', pos[1]],
-                        ['Altitude', alt],
+                    result_object.payload = {
+                        'latitude' : pos[0],
+                        'longitude' : pos[1],
+                        'altitude' : alt,
                         
-                        ['Speed', speed],
-                        ['Track', track],
-                        ['Climb', climb],
+                        'speed' : speed,
+                        'track' : track,
+                        'climb' : climb,
                         
-                        ['Time', time],
+                        'time' : time,
                         
-                        ['Error Horizontal', precision[0]],
-                        ['Error Vertical', precision[1]],
-                    ]
+                        'error_horizontal' : precision[0],
+                        'error_vertical' : precision[1],
+                    }
         
-        return result_object
+        return result_object.payload
