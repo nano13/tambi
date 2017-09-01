@@ -188,7 +188,6 @@ class CoreCommands(object):
                 else:
                     speed, track, climb = movement['speed'], movement['track'], movement['climb']
                 
-                #result_object.payload = "Latitude: "+str(pos[0])+" | Longitude: "+str(pos[1])+" | Altitude: "+str(alt)+" | Time: "+str(time)
                 result_object.payload = [
                     ['Latitude', pos[0]],
                     ['Longitude', pos[1]],
@@ -203,7 +202,5 @@ class CoreCommands(object):
                     ['Error Horizontal', precision[0]],
                     ['Error Vertical', precision[1]],
                 ]
-        
-        
         
         return result_object
