@@ -56,10 +56,13 @@ class Gps(object):
         position = self.getPosition()
         if position:
             dbAdapter.insertLogEntry(position)
+            payload = 'position loggin started'
+        else:
+            payload = 'no working position provider found'
         
         result_object = Result()
         result_object.category = "text"
-        result_object.payload = 'position loggin started'
+        result_object.payload = payload
         return result_object
         
     def stop_log(self, c, a):
@@ -87,7 +90,8 @@ class Gps(object):
                 ['Error Vertical', data['error_vertical']],
             ]
         else:
-            result_object.error = 'could not find any working position provider (like gpsd or geoclue)'
+            result_object.category = "text"
+            result_object.payload = 'could not find any working position provider (like gpsd or geoclue)'
         return result_object
     
     def getPosition(self):
