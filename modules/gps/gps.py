@@ -54,6 +54,7 @@ class Gps(object):
         dbAdapter = DbAdapter(dbpath)
         
         position = self.getGpsPosition()
+        dbAdapter.insertLogEntry(position)
         
         print(position)
         
@@ -63,6 +64,7 @@ class Gps(object):
     def position(self, c, a):
         
         data = self.getGpsPosition()
+        print(data)
         
         result_object = Result()
         result_object.category = "table"
@@ -80,7 +82,7 @@ class Gps(object):
             ['Error Horizontal', data['error_horizontal']],
             ['Error Vertical', data['error_vertical']],
         ]
-        return result
+        return result_object
         
     def getGpsPosition(self):
         result_object = Result()

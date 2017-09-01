@@ -1,5 +1,5 @@
 
-import sqlite3
+import sqlite3, time
 
 class DbAdapter(object):
     
@@ -25,8 +25,8 @@ class DbAdapter(object):
             data_dict['climb'],
             data_dict['error_horizontal'],
             data_dict['error_vertical'],
-            data_dict['time_gps'],
-            data_dict['timestamp_local'],
+            data_dict['time'],
+            time.time(),
         ])
         self.connection.commit()
     
