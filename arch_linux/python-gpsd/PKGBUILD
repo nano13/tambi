@@ -1,0 +1,31 @@
+# Maintainer: Samuel Becker <samuel_becker@gmx.de>
+pkgbase='gpsd-py3'
+pkgname=('python-gpsd')
+pkgver=0.2.0.r4.g11e4f42
+pkgrel=1
+pkgdesc='A library for polling gpsd in Python3'
+arch=('any')
+license=('unknown')
+url='https://github.com/MartijnBraam/gpsd-py3'
+makedepends=('git' 'python-setuptools')
+depends=()
+source=(${pkgname}::git+https://github.com/MartijnBraam/gpsd-py3.git)
+sha256sums=('SKIP')
+
+pkgver() {
+	cd "${srcdir}/${pkgname}"
+	git describe --long | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+}
+
+build() {
+    cd "${srcdir}/${pkgname}"
+    
+    msg 'Building ...'
+    python ./setup.py build
+}
+
+package() {
+    cd "${srcdir}/${pkgname}"
+    
+    python ./setup.py install --skip-build --root="$pkgdir/"
+}
