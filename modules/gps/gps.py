@@ -62,81 +62,98 @@ class Gps(object):
         pass
     
     def position(self, c, a):
-        
-        data = self.getGpsPosition()
-        print(data)
-        
         result_object = Result()
-        result_object.category = "table"
-        result_object.payload = [
-            ['Latitude', data['latitude']],
-            ['Longitude', data['longitude']],
-            ['Altitude', data['altitude']],
-            
-            ['Speed', data['speed']],
-            ['Track', data['track']],
-            ['Climb', data['climb']],
-            
-            ['Time', data['time']],
-            
-            ['Error Horizontal', data['error_horizontal']],
-            ['Error Vertical', data['error_vertical']],
-        ]
+        
+        data = self.getPosition()
+        
+        if data:
+            result_object.category = "table"
+            result_object.payload = [
+                ['Latitude', data['latitude']],
+                ['Longitude', data['longitude']],
+                ['Altitude', data['altitude']],
+                
+                ['Speed', data['speed']],
+                ['Track', data['track']],
+                ['Climb', data['climb']],
+                
+                ['Time', data['time']],
+                
+                ['Error Horizontal', data['error_horizontal']],
+                ['Error Vertical', data['error_vertical']],
+            ]
+        else:
+            result_object.error = 'could not find any working position provider (like gpsd or geoclue)'
         return result_object
-        
-    def getGpsPosition(self):
-        result_object = Result()
-        result_object.payload = ""
+    
+    def getPosition(self):
+        """ maybe we are on linux with a gps device,
+        so we try to use gpsd """
         try:
             import gpsd
         except ModuleNotFoundError:
-            from QCustomizedWidgets.QLocationManager import QLocationManager
-            location = QLocationManager()
-            pos = location.getGpsPosition()
-            
-            result_object.category = "text"
-            result_object.payload = "using qt-backend"
+            pass
         else:
             try:
                 gpsd.connect()
             except ConnectionRefusedError:
-                result_object.category = "text"
-                result_object.payload = "could not connect to gpsd"
+                pass
             else:
-                packet = gpsd.get_current()
+                return self.getPositionFromGpsd()
+    
+    def getPositionFromGpsd(self):
+        result_object = Result()
+        result_object.payload = ""
+        #try:
+            #import gpsd
+        #except ModuleNotFoundError:
+            #from QCustomizedWidgets.QLocationManager import QLocationManager
+            #location = QLocationManager()
+            #pos = location.getGpsPosition()
+            
+            #result_object.category = "text"
+            #result_object.payload = "using qt-backend"
+        #else:
+        try:
+            gpsd.connect()
+        except ConnectionRefusedError:
+            result_object.category = "text"
+            result_object.payload = "could not connect to gpsd"
+        else:
+            packet = gpsd.get_current()
+            
+            try:
+                pos = packet.position()
+            except gpsd.NoFixError:
+                result_object.category = 'text'
+                result_object.payload = "gpsd: No Fix"
+            else:
+                result_object.category = 'table'
                 
+                precision = packet.position_precision()
+                time = packet.get_time()
                 try:
-                    pos = packet.position()
+                    alt = packet.altitude()
+                    movement = packet.movement()
                 except gpsd.NoFixError:
-                    result_object.category = 'text'
-                    result_object.payload = "gpsd: No Fix"
+                    alt = 'N.A.'
+                    speed, track, climb = 'N.A.', 'N.A.', 'N.A.'
                 else:
-                    result_object.category = 'table'
+                    speed, track, climb = movement['speed'], movement['track'], movement['climb']
+                
+                result_object.payload = {
+                    'latitude' : pos[0],
+                    'longitude' : pos[1],
+                    'altitude' : alt,
                     
-                    precision = packet.position_precision()
-                    time = packet.get_time()
-                    try:
-                        alt = packet.altitude()
-                        movement = packet.movement()
-                    except gpsd.NoFixError:
-                        alt = 'N.A.'
-                        speed, track, climb = 'N.A.', 'N.A.', 'N.A.'
-                    else:
-                        speed, track, climb = movement['speed'], movement['track'], movement['climb']
+                    'speed' : speed,
+                    'track' : track,
+                    'climb' : climb,
                     
-                    result_object.payload = {
-                        'latitude' : pos[0],
-                        'longitude' : pos[1],
-                        'altitude' : alt,
-                        
-                        'speed' : speed,
-                        'track' : track,
-                        'climb' : climb,
-                        
-                        'time' : time,
-                        
-                        'error_horizontal' : precision[0],
-                        'error_vertical' : precision[1],
-                    }
+                    'time' : time,
+                    
+                    'error_horizontal' : precision[0],
+                    'error_vertical' : precision[1],
+                }
         
         return result_object.payload
