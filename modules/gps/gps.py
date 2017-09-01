@@ -53,10 +53,14 @@ class Gps(object):
         dbpath = os.path.join(self.deckpath, dbname)
         dbAdapter = DbAdapter(dbpath)
         
-        position = self.getGpsPosition()
-        dbAdapter.insertLogEntry(position)
+        position = self.getPosition()
+        if position:
+            dbAdapter.insertLogEntry(position)
         
-        print(position)
+        result_object = Result()
+        result_object.category = "text"
+        result_object.payload = 'position loggin started'
+        return result_object
         
     def stop_log(self, c, a):
         pass
@@ -114,46 +118,42 @@ class Gps(object):
             #result_object.category = "text"
             #result_object.payload = "using qt-backend"
         #else:
+        import gpsd
+        gpsd.connect()
+        packet = gpsd.get_current()
+        
         try:
-            gpsd.connect()
-        except ConnectionRefusedError:
-            result_object.category = "text"
-            result_object.payload = "could not connect to gpsd"
+            pos = packet.position()
+        except gpsd.NoFixError:
+            result_object.category = 'text'
+            result_object.payload = "gpsd: No Fix"
         else:
-            packet = gpsd.get_current()
+            result_object.category = 'table'
             
+            precision = packet.position_precision()
+            time = packet.get_time()
             try:
-                pos = packet.position()
+                alt = packet.altitude()
+                movement = packet.movement()
             except gpsd.NoFixError:
-                result_object.category = 'text'
-                result_object.payload = "gpsd: No Fix"
+                alt = 'N.A.'
+                speed, track, climb = 'N.A.', 'N.A.', 'N.A.'
             else:
-                result_object.category = 'table'
+                speed, track, climb = movement['speed'], movement['track'], movement['climb']
+            
+            result_object.payload = {
+                'latitude' : pos[0],
+                'longitude' : pos[1],
+                'altitude' : alt,
                 
-                precision = packet.position_precision()
-                time = packet.get_time()
-                try:
-                    alt = packet.altitude()
-                    movement = packet.movement()
-                except gpsd.NoFixError:
-                    alt = 'N.A.'
-                    speed, track, climb = 'N.A.', 'N.A.', 'N.A.'
-                else:
-                    speed, track, climb = movement['speed'], movement['track'], movement['climb']
+                'speed' : speed,
+                'track' : track,
+                'climb' : climb,
                 
-                result_object.payload = {
-                    'latitude' : pos[0],
-                    'longitude' : pos[1],
-                    'altitude' : alt,
-                    
-                    'speed' : speed,
-                    'track' : track,
-                    'climb' : climb,
-                    
-                    'time' : time,
-                    
-                    'error_horizontal' : precision[0],
-                    'error_vertical' : precision[1],
-                }
+                'time' : time,
+                
+                'error_horizontal' : precision[0],
+                'error_vertical' : precision[1],
+            }
         
         return result_object.payload
