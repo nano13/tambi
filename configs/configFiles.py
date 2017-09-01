@@ -10,10 +10,6 @@ DEFAULT_CONFIG_FILE_NAME = "logos.conf"
 
 class ConfigFile(object):
     def __init__(self):
-        
-        #self.filename = filename
-        #self.filename = DEFAULT_CONFIG_FILE_NAME
-        
         configDir = ConfigDir()
         self.configDirPath = configDir.getConfigDirPath()
         self.configFilePath = os.path.join(self.configDirPath, DEFAULT_CONFIG_FILE_NAME)
@@ -30,11 +26,14 @@ class ConfigFile(object):
         return result
     
     def readPath(self, section, option):
-        result = self.config.get(section, option)
+        try:
+            result = self.config.get(section, option)
+        except (configparser.NoSectionError, configparser.NoOptionError):
+            self.__insertValueFromDefaultConfig(section, option)
+            result = self.config.get(section, option)
+            
         result =  self.__resolvePathConstants(result)
-        
         return os.path.normpath(result)
-        #return os.path.normcase(result)
         
     def __resolvePathConstants(self, confresult):
         if "$" in confresult:
