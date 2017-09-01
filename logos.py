@@ -48,6 +48,12 @@ class Logos(QMainWindow):
         QIcon.setThemeName('oxygen')
         print(QIcon.themeName())
         
+        if len(sys.argv) > 1:
+            if sys.argv[1] == "--quickrun":
+                command = sys.argv[2]
+                #print(command)
+                self.addNewCliTabWithCommand(command)
+        
     def center(self):
         geometry = self.frameGeometry()
         screen = QApplication.desktop().screenNumber(QApplication.desktop().cursor().pos())
