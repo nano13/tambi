@@ -49,20 +49,26 @@ class Gps(object):
         return result_object
     
     def start_log(self, c, a):
+        result_object = Result()
+        
         dbname = "eduard.sqlite"
         dbpath = os.path.join(self.deckpath, dbname)
         dbAdapter = DbAdapter(dbpath)
         
-        position = self.getPosition()
-        if position:
-            dbAdapter.insertLogEntry(position)
-            payload = 'position loggin started'
+        try:
+            position = self.getPosition()
+        except NoFixError:
+            result_object.category = "text"
+            result_object.payload = "no gps fix available"
         else:
-            payload = 'no working position provider found'
-        
-        result_object = Result()
-        result_object.category = "text"
-        result_object.payload = payload
+            if position:
+                dbAdapter.insertLogEntry(position)
+                result_object.payload = 'position logging started'
+            else:
+                result_object.payload = 'no working position provider found'
+            
+            result_object.category = "text"
+            
         return result_object
         
     def stop_log(self, c, a):
@@ -71,30 +77,35 @@ class Gps(object):
     def position(self, c, a):
         result_object = Result()
         
-        data = self.getPosition()
-        
-        if data:
-            result_object.category = "table"
-            result_object.payload = [
-                ['Latitude', data['latitude']],
-                ['Longitude', data['longitude']],
-                ['Altitude', data['altitude']],
-                
-                ['Speed', data['speed']],
-                ['Track', data['track']],
-                ['Climb', data['climb']],
-                
-                ['Time', data['time']],
-                
-                ['Error Horizontal', data['error_horizontal']],
-                ['Error Vertical', data['error_vertical']],
-            ]
-        else:
+        try:
+            data = self.getPosition()
+        except NoFixError:
             result_object.category = "text"
-            result_object.payload = 'could not find any working position provider (like gpsd or geoclue)'
+            result_object.payload = "no gps fix available"
+        else:
+            if data:
+                result_object.category = "table"
+                result_object.payload = [
+                    ['Latitude', data['latitude']],
+                    ['Longitude', data['longitude']],
+                    ['Altitude', data['altitude']],
+                    
+                    ['Speed', data['speed']],
+                    ['Track', data['track']],
+                    ['Climb', data['climb']],
+                    
+                    ['Time', data['time']],
+                    
+                    ['Error Horizontal', data['error_horizontal']],
+                    ['Error Vertical', data['error_vertical']],
+                ]
+            else:
+                result_object.category = "text"
+                result_object.payload = 'could not find any working position provider (like gpsd or geoclue)'
         return result_object
     
     def getPosition(self):
+        module_found = False
         """ maybe we are on linux with a gps device,
         so we try to use gpsd """
         try:
@@ -107,7 +118,12 @@ class Gps(object):
             except ConnectionRefusedError:
                 pass
             else:
+                module_found = True
                 return self.getPositionFromGpsd()
+        
+        if not module_found:
+            """ we could implement accessing geoclue here """
+            pass
     
     def getPositionFromGpsd(self):
         #try:
@@ -124,7 +140,7 @@ class Gps(object):
         try:
             pos = packet.position()
         except gpsd.NoFixError:
-            pass
+            raise NoFixError
         else:
             precision = packet.position_precision()
             time = packet.get_time()
@@ -132,8 +148,7 @@ class Gps(object):
                 alt = packet.altitude()
                 movement = packet.movement()
             except gpsd.NoFixError:
-                alt = 'N.A.'
-                speed, track, climb = 'N.A.', 'N.A.', 'N.A.'
+                alt, speed, track, climb = ['n/a'] * 4
             else:
                 speed, track, climb = movement['speed'], movement['track'], movement['climb']
             
@@ -152,3 +167,5 @@ class Gps(object):
                 'error_vertical' : precision[1],
             }
     
+class NoFixError(Exception):
+    pass
