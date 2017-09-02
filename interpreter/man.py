@@ -63,11 +63,3 @@ Examples:
 fonts
 fonts TeX
 """
-
-position = """
-Returns the GPS-position of the device this software is running on.
-
-On Linux gpsd ist used as the backend, which of course has to be set up and running (and of course you need a gps-device for this).
-
-Other Operating Systems (like Windows or Mac) are not supported yet.
-"""

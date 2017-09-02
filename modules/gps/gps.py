@@ -9,16 +9,16 @@ import os, _thread, time
 
 class Gps(object):
     
-    deckpath = None
+    logpath = None
     
     terminate_thread = False
     thread_running = False
     
     def __init__(self):
         config = ConfigFile()
-        self.deckpath = config.readPath("positioning", "storagepath")
-        if not os.path.exists(self.deckpath):
-            os.makedirs(self.deckpath)
+        self.logpath = config.readPath("positioning", "storagepath")
+        if not os.path.exists(self.logpath):
+            os.makedirs(self.logpath)
     
     def getCommands(self):
         return {
@@ -27,6 +27,7 @@ class Gps(object):
             "gps.position" : self.position,
             "gps.start_log" : self.start_log,
             "gps.stop_log" : self.stop_log,
+            "gps.logs" : self.logs,
         }
     
     def interpreter(self, command, args):
@@ -52,11 +53,12 @@ class Gps(object):
         return result_object
     
     def start_log(self, c, a):
+        log_db_name = str(time.time()).split('.')[0]+".sqlite"
         result_object = Result()
         
         if not self.thread_running:
             self.terminate_thread = False
-            self.logging_thread = _thread.start_new_thread(self.loggingThread, ())
+            self.logging_thread = _thread.start_new_thread(self.__loggingThread, (log_db_name,))
             result_object.payload = "gps logging started"
         else:
             result_object.payload = "gps logging already running"
@@ -64,18 +66,17 @@ class Gps(object):
         result_object.category = "text"
         return result_object
     
-    def loggingThread(self):
+    def __loggingThread(self, log_db_name):
         self.thread_running = True
         delay = 1
         while not self.terminate_thread:
-            self.logging()
+            self.__logging(log_db_name)
             time.sleep(delay)
     
-    def logging(self):
+    def __logging(self, log_db_name):
         result_object = Result()
         
-        dbname = "eduard.sqlite"
-        dbpath = os.path.join(self.deckpath, dbname)
+        dbpath = os.path.join(self.logpath, log_db_name)
         dbAdapter = DbAdapter(dbpath)
         
         try:
@@ -101,6 +102,14 @@ class Gps(object):
         result_object = Result()
         result_object.category = "text"
         result_object.payload = "gps logging stopped"
+        return result_object
+    
+    def logs(self, c, a):
+        base, dirs, files = next(iter(os.walk(self.logpath)))
+        
+        result_object = Result()
+        result_object.category = "list"
+        result_object.payload = sorted(files)
         return result_object
     
     def position(self, c, a):
@@ -164,7 +173,10 @@ class Gps(object):
         #else:
         import gpsd
         gpsd.connect()
-        packet = gpsd.get_current()
+        try:
+            packet = gpsd.get_current()
+        except KeyError as e:
+            return
         
         try:
             pos = packet.position()
