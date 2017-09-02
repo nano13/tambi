@@ -110,17 +110,12 @@ class Gps(object):
                 return self.getPositionFromGpsd()
     
     def getPositionFromGpsd(self):
-        result_object = Result()
-        result_object.payload = ""
         #try:
             #import gpsd
         #except ModuleNotFoundError:
             #from QCustomizedWidgets.QLocationManager import QLocationManager
             #location = QLocationManager()
             #pos = location.getGpsPosition()
-            
-            #result_object.category = "text"
-            #result_object.payload = "using qt-backend"
         #else:
         import gpsd
         gpsd.connect()
@@ -129,11 +124,8 @@ class Gps(object):
         try:
             pos = packet.position()
         except gpsd.NoFixError:
-            result_object.category = 'text'
-            result_object.payload = "gpsd: No Fix"
+            pass
         else:
-            result_object.category = 'table'
-            
             precision = packet.position_precision()
             time = packet.get_time()
             try:
@@ -145,7 +137,7 @@ class Gps(object):
             else:
                 speed, track, climb = movement['speed'], movement['track'], movement['climb']
             
-            result_object.payload = {
+            return {
                 'latitude' : pos[0],
                 'longitude' : pos[1],
                 'altitude' : alt,
@@ -159,5 +151,4 @@ class Gps(object):
                 'error_horizontal' : precision[0],
                 'error_vertical' : precision[1],
             }
-        
-        return result_object.payload
+    
