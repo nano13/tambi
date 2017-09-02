@@ -5,11 +5,14 @@ from interpreter.structs import Result
 from configs.configFiles import ConfigFile
 from modules.gps.dbAdapter import DbAdapter
 
-import os
+import os, _thread, time
 
 class Gps(object):
     
     deckpath = None
+    
+    terminate_thread = False
+    thread_running = False
     
     def __init__(self):
         config = ConfigFile()
@@ -51,6 +54,26 @@ class Gps(object):
     def start_log(self, c, a):
         result_object = Result()
         
+        if not self.thread_running:
+            self.terminate_thread = False
+            self.logging_thread = _thread.start_new_thread(self.loggingThread, ())
+            result_object.payload = "gps logging started"
+        else:
+            result_object.payload = "gps logging already running"
+        
+        result_object.category = "text"
+        return result_object
+    
+    def loggingThread(self):
+        self.thread_running = True
+        delay = 1
+        while not self.terminate_thread:
+            self.logging()
+            time.sleep(delay)
+    
+    def logging(self):
+        result_object = Result()
+        
         dbname = "eduard.sqlite"
         dbpath = os.path.join(self.deckpath, dbname)
         dbAdapter = DbAdapter(dbpath)
@@ -70,9 +93,15 @@ class Gps(object):
             result_object.category = "text"
             
         return result_object
-        
+    
     def stop_log(self, c, a):
-        pass
+        self.terminate_thread = True
+        self.thread_running = False
+        
+        result_object = Result()
+        result_object.category = "text"
+        result_object.payload = "gps logging stopped"
+        return result_object
     
     def position(self, c, a):
         result_object = Result()
