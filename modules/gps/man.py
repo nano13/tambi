@@ -24,3 +24,14 @@ Stops the gps-logging.
 logs = """
 Shows a simple list of the logs.
 """
+
+plot = """
+Plots the specified gps log source.
+
+@param (required): [string], the filename of the gps log.
+
+See Also:
+gps.logs
+gps.start_log
+gps.stop_log
+"""
