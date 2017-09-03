@@ -5,9 +5,7 @@ from interpreter.structs import Result
 from configs.configFiles import ConfigFile
 from modules.gps.dbAdapter import DbAdapter
 
-import os, _thread, time
-
-from pyproj import Proj, transform
+import os, _thread, time, math
 
 class Gps(object):
     
@@ -232,9 +230,8 @@ class Gps(object):
         mapView = QMapView()
         
         for pos in data:
-            inProj = Proj(init='epsg:4326') # WGS-84, usually used by GPS
-            outProj = Proj(init='epsg:3857') # web-mercator, used by virtually all major online map providers, including Google Maps, Bing Maps, OpenStreetMap, Mapquest, Esri, Mapbox, and many others
-            longitude, latitude = transform(inProj, outProj, pos['longitude'], pos['latitude'])
+            #longitude, latitude = self.convertToWebMercatorWithPyproj(pos)
+            longitude, latitude = self.convertToWebMercator(pos)
             
             mapView.addPoint(longitude, latitude)
         mapView.scaleViewToContents()
@@ -242,6 +239,25 @@ class Gps(object):
         result_object.category = "qt_widget"
         result_object.payload = mapView
         return result_object
+    
+    def convertToWebMercator(self, pos):
+        # derived from the Java version explained here: http://wiki.openstreetmap.org/wiki/Mercator
+        RADIUS = 6378137.0 # in meters on the equator
+        
+        lat = math.log(math.tan(math.pi / 4 + math.radians(pos['latitude']) / 2)) * RADIUS
+        
+        lon = math.radians(pos['longitude']) * RADIUS
+        
+        return lon, lat
+    
+    def convertToWebMercatorWithPyproj(self, pos):
+        from pyproj import Proj, transform
+        
+        inProj = Proj(init='epsg:4326') # WGS-84, usually used by GPS
+        outProj = Proj(init='epsg:3857') # web-mercator, used by virtually all major online map providers, including Google Maps, Bing Maps, OpenStreetMap, Mapquest, Esri, Mapbox, and many others
+        longitude, latitude = transform(inProj, outProj, pos['longitude'], pos['latitude'])
+        
+        return longitude, latitude
 
 class NoFixError(Exception):
     pass
