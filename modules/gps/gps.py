@@ -7,6 +7,8 @@ from modules.gps.dbAdapter import DbAdapter
 
 import os, _thread, time
 
+from pyproj import Proj, transform
+
 class Gps(object):
     
     logpath = None
@@ -28,6 +30,7 @@ class Gps(object):
             "gps.start_log" : self.start_log,
             "gps.stop_log" : self.stop_log,
             "gps.logs" : self.logs,
+            "gps.plot" : self.plot,
         }
     
     def interpreter(self, command, args):
@@ -208,5 +211,37 @@ class Gps(object):
                 'error_vertical' : precision[1],
             }
     
+    def plot(self, c, args):
+        result_object = Result()
+        try:
+            filename = args[0]
+        except IndexError:
+            result_object.error = 'please specify the filename of the gps recording you want to plot'
+            return result_object
+        
+        if not filename.endswith('.sqlite'):
+            filename = filename + '.sqlite'
+        filepath = os.path.join(self.logpath, filename)
+        
+        dbAdapter = DbAdapter(filepath)
+        boundings = dbAdapter.selectMinMaxLogCoordinate()
+        print(boundings)
+        data = dbAdapter.selectLogData()
+        
+        from modules.gps.QMapView import QMapView
+        mapView = QMapView()
+        
+        for pos in data:
+            inProj = Proj(init='epsg:4326') # WGS-84, usually used by GPS
+            outProj = Proj(init='epsg:3857') # web-mercator, used by virtually all major online map providers, including Google Maps, Bing Maps, OpenStreetMap, Mapquest, Esri, Mapbox, and many others
+            longitude, latitude = transform(inProj, outProj, pos['longitude'], pos['latitude'])
+            
+            mapView.addPoint(longitude, latitude)
+        mapView.scaleViewToContents()
+        
+        result_object.category = "qt_widget"
+        result_object.payload = mapView
+        return result_object
+
 class NoFixError(Exception):
     pass

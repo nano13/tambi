@@ -187,6 +187,8 @@ class QCliWidget(QWidget):
                 elif hasattr(result, 'category') and result.category == "html":
                     #self.resultInHTMLWidget(result)
                     self.resultInTextEdit(result)
+                elif hasattr(result, 'category') and result.category == "qt_widget":
+                    self.resultIsQtWidget(result)
             else:
                 result = Result()
                 result.payload = 'empty result set'
@@ -286,6 +288,11 @@ class QCliWidget(QWidget):
     def resultInItemizedWidget(self, result):
         self.display_widget.deleteLater()
         self.display_widget = QItemizedWidget(result.payload)
+        self.addDisplayWidget()
+    
+    def resultIsQtWidget(self, result):
+        self.display_widget.deleteLater()
+        self.display_widget = result.payload
         self.addDisplayWidget()
     
     def showErrorMessage(self, message):
