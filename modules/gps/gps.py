@@ -28,7 +28,7 @@ class Gps(object):
             "gps.start_log" : self.start_log,
             "gps.stop_log" : self.stop_log,
             "gps.logs" : self.logs,
-            "gps.plot" : self.plotHelper,
+            "gps.plot" : self.plot,
         }
     
     def interpreter(self, command, args):
@@ -209,7 +209,7 @@ class Gps(object):
                 'error_vertical' : precision[1],
             }
     
-    def plotHelper(self, c, args):
+    def plot(self, c, args):
         result_object = Result()
         try:
             filename = args[0]
@@ -221,7 +221,7 @@ class Gps(object):
         #    filename = filename + '.sqlite'
         files = self.logs(None, None).payload
         if filename in files:
-            return self.plot(result_object, filename)
+            return self.plotHelper(result_object, filename)
         elif filename.endswith('*'):
             filename = filename[:-1]
             matches = []
@@ -229,9 +229,9 @@ class Gps(object):
                 if _f.startswith(filename):
                     matches.append(_f)
             if len(matches) == 1:
-                return self.plot(result_object, matches[0])
-        
-    def plot(self, result_object, filename):
+                return self.plotHelper(result_object, matches[0])
+    
+    def plotHelper(self, result_object, filename):
         filepath = os.path.join(self.logpath, filename)
         
         from modules.gps.QMapView import QMapView

@@ -20,6 +20,7 @@ from configs.configFiles import ConfigFile
 
 from functools import partial
 from os import path
+import _thread
 
 SCALE_FACTOR = 1.15
 
@@ -65,16 +66,7 @@ class QCliWidget(QWidget):
         self.grid.addWidget(zoomOutButton, 1, 3)
         
         self.applyStylesheet()
-        
-    def applyStylesheet(self):
-        path = './assets/css/qt_dark.css'
-        stylesheet = ''
-        with open(path) as css:
-            for line in css:
-                stylesheet += line
-        
-        self.display_widget.setStyleSheet(stylesheet)
-        
+    
     def applyStylesheet(self):
         config = ConfigFile()
         path = config.readVar('global', 'stylesheet')

@@ -2,14 +2,15 @@
 from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene, QGridLayout, QWidget, QGraphicsEllipseItem
 from PyQt5.QtGui import QPen, QPainter
 from PyQt5 import QtCore, QtGui
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, pyqtSignal, QThread, QRectF
 
 import urllib.request
-import math
+import math, _thread
 
 class QMapView(QGraphicsView):
     
-    zoom = 17
+    zoom = 16
+    boundings_path = None
     bounds = None
     corners = {
         'nw' : None,
@@ -24,18 +25,19 @@ class QMapView(QGraphicsView):
         'se' : None,
         }
     
-    PEN_RADIUS = 5
+    PEN_RADIUS = 4
     COLOUR = QtCore.Qt.darkGreen
     
     def __init__(self, boundings):
         super().__init__()
+        self.boundings_path = boundings
         
         self.setScene(QGraphicsScene(self))
         self.setRenderHint(QPainter.Antialiasing)
         
         self.calculateNeededTiles(boundings)
         
-        self.bounds = self.scene().itemsBoundingRect()
+        #self.bounds = self.scene().itemsBoundingRect()
     
     def calculateNeededTiles(self, boundings):
         tile_min_x, tile_max_y = self.degToTileNumber(boundings['lat_min'], boundings['lon_min'])
@@ -44,7 +46,13 @@ class QMapView(QGraphicsView):
         
         print(tile_min_x, tile_max_x, tile_min_y, tile_max_y)
         
-        self.tileRange(tile_min_x, tile_max_x+1, tile_min_y, tile_max_y+1)
+        #self.tileRange(tile_min_x, tile_max_x+1, tile_min_y, tile_max_y+1)
+        self.bounds = QRectF(0, 0, (tile_max_x+1 - tile_min_x)*256, (tile_max_y+1 - tile_min_y)*256)
+        print(self.bounds)
+        
+        self.download_thread = QDownloadMapTilesThread(self.zoom, tile_min_x, tile_max_x+1, tile_min_y, tile_max_y+1)
+        self.download_thread.drawMapTile.connect(self.drawMapTile)
+        self.download_thread.start()
         
         self.calculateCorners(tile_min_x, tile_max_x+1, tile_min_y, tile_max_y+1)
     
@@ -60,22 +68,14 @@ class QMapView(QGraphicsView):
         self.corners_mercator['se'] = self.convertToWebMercator_(self.corners['se'])
     
     
-    def tileRange(self, x_min, x_max, y_min, y_max):
-        for i, x in enumerate(range(x_min, x_max)):
-            for j, y in enumerate(range(y_min, y_max)):
-                print(x, y, i, j)
-                print(x_min, x_max, y_min, y_max)
-                self.fetchTile(x, y, j, i)
     
-    def fetchTile(self, x, y, pos_x, pos_y):
-        tile = urllib.request.urlopen("http://a.tile.openstreetmap.org/{0}/{1}/{2}.png".format(self.zoom, x, y))
-        image = tile.read()
-        
-        pixmap = QtGui.QPixmap()
-        pixmap.loadFromData(image)
+    def drawMapTile(self, pixmap, pos_x, pos_y):
+        tile_size = 256
+        #pixmap = pixmap.scaled(tile_size, tile_size, QtCore.Qt.KeepAspectRatio)
         
         item = self.scene().addPixmap(pixmap)
-        item.setPos(pos_y*256, pos_x*256)
+        item.setPos(pos_y*tile_size, pos_x*tile_size)
+        item.setZValue(-10)
     
     def degToTileNumber(self, lat_deg, lon_deg):
         """ source: http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#X_and_Y """
@@ -100,6 +100,7 @@ class QMapView(QGraphicsView):
         #pos = QtCore.QPointF(self.mapToScene(point_x, point_y*-1))
         pos = QtCore.QPointF(point_x, point_y*-1)
         ellipseItem = QGraphicsEllipseItem(pos.x(), pos.y(), self.PEN_RADIUS, self.PEN_RADIUS)
+        ellipseItem.setZValue(10)
         ellipseItem.setPen(QPen(self.COLOUR, QtCore.Qt.SolidPattern))
         ellipseItem.setBrush(self.COLOUR)
         
@@ -108,6 +109,10 @@ class QMapView(QGraphicsView):
     def convertCoords(self, x, y):
         x, y = self.convertToWebMercator(y, x)
         
+        delta_path_x = x - self.boundings_path['lon_min']
+        delta_path_y = y - self.boundings_path['lat_min']
+        print("\n")
+        print("DELTA", delta_path_x, delta_path_y)
         print("SCENE BOUNDS", self.bounds.x(), self.bounds.y(), self.bounds.width(), self.bounds.height())
         print("CORNERS", self.corners_mercator)
         print("POINT", x, y)
@@ -115,13 +120,11 @@ class QMapView(QGraphicsView):
         x = x - self.corners_mercator['nw'][0]
         y = y - self.corners_mercator['nw'][1]
         
-        #x = x + 10
-        #y = y - 10
+        #aspect_ratio = self.bounds.width() / (self.corners_mercator['se'][0] - self.corners_mercator['nw'][0])
+        #print("ASPECT RATIO", aspect_ratio)
         
         aspect_ratio = self.bounds.width() / (self.corners_mercator['se'][0] - self.corners_mercator['nw'][0])
         print("ASPECT RATIO", aspect_ratio)
-        
-        aspect_ratio = aspect_ratio + 0.049
         
         x = x * aspect_ratio
         y = y * aspect_ratio
@@ -156,6 +159,35 @@ class QMapView(QGraphicsView):
         bounds = self.scene().itemsBoundingRect()
         self.fitInView(bounds, Qt.KeepAspectRatio)
 
+
+class QDownloadMapTilesThread(QThread):
+    
+    
+    drawMapTile = pyqtSignal(object, float, float)
+    
+    def __init__(self, zoom, x_min, x_max, y_min, y_max):
+        super().__init__()
+        
+        self.zoom = zoom
+        self.x_min, self.x_max = x_min, x_max
+        self.y_min, self.y_max = y_min, y_max
+    
+    def run(self):
+        for i, x in enumerate(range(self.x_min, self.x_max)):
+            #QApplication.processEvents()
+            for j, y in enumerate(range(self.y_min, self.y_max)):
+                print(x, y, i, j)
+                print(self.x_min, self.x_max, self.y_min, self.y_max)
+                self.fetchTile(x, y, j, i)
+    
+    def fetchTile(self, x, y, pos_x, pos_y):
+        tile = urllib.request.urlopen("http://a.tile.openstreetmap.org/{0}/{1}/{2}.png".format(self.zoom, x, y))
+        image = tile.read()
+        
+        pixmap = QtGui.QPixmap()
+        pixmap.loadFromData(image)
+        self.drawMapTile.emit(pixmap, pos_x, pos_y)
+
 from PyQt5.QtWidgets import QMainWindow
 
 class QMapWindow(QMainWindow):
@@ -170,9 +202,7 @@ class QMapWindow(QMainWindow):
         grid.addWidget(mapView, 0, 0)
         
         self.setCentralWidget(mapView)
-        
-    
-    
+
 if __name__ == '__main__':
     import signal
     signal.signal(signal.SIGINT, signal.SIG_DFL)
