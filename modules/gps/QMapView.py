@@ -125,7 +125,7 @@ class QMapView(QGraphicsView):
         
         aspect_ratio = self.bounds.width() / (self.corners_mercator['se'][0] - self.corners_mercator['nw'][0])
         print("ASPECT RATIO", aspect_ratio)
-        
+        aspect_ratio = aspect_ratio + 0.0072
         x = x * aspect_ratio
         y = y * aspect_ratio
         
@@ -176,8 +176,8 @@ class QDownloadMapTilesThread(QThread):
         for i, x in enumerate(range(self.x_min, self.x_max)):
             #QApplication.processEvents()
             for j, y in enumerate(range(self.y_min, self.y_max)):
-                print(x, y, i, j)
-                print(self.x_min, self.x_max, self.y_min, self.y_max)
+                #print(x, y, i, j)
+                #print(self.x_min, self.x_max, self.y_min, self.y_max)
                 self.fetchTile(x, y, j, i)
     
     def fetchTile(self, x, y, pos_x, pos_y):

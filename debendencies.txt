@@ -3,7 +3,7 @@ python-pyqt5
 
 python-pysword
 python-markdown
-
+python-geopy
 
 
 git submodule update --init --recursive

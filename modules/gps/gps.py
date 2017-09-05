@@ -6,6 +6,8 @@ from configs.configFiles import ConfigFile
 from modules.gps.dbAdapter import DbAdapter
 
 import os, _thread, time, math
+from datetime import datetime
+from geopy.distance import vincenty
 
 class Gps(object):
     
@@ -29,6 +31,7 @@ class Gps(object):
             "gps.stop_log" : self.stop_log,
             "gps.logs" : self.logs,
             "gps.plot" : self.plot,
+            "gps.stats" : self.stats,
         }
     
     def interpreter(self, command, args):
@@ -209,19 +212,17 @@ class Gps(object):
                 'error_vertical' : precision[1],
             }
     
-    def plot(self, c, args):
-        result_object = Result()
+    def __determineFilename(self, args):
         try:
             filename = args[0]
         except IndexError:
-            result_object.error = 'please specify the filename of the gps recording you want to plot'
-            return result_object
+            return None
         
         #if not filename.endswith('.sqlite'):
         #    filename = filename + '.sqlite'
         files = self.logs(None, None).payload
         if filename in files:
-            return self.plotHelper(result_object, filename)
+            return filename
         elif filename.endswith('*'):
             filename = filename[:-1]
             matches = []
@@ -229,15 +230,21 @@ class Gps(object):
                 if _f.startswith(filename):
                     matches.append(_f)
             if len(matches) == 1:
-                return self.plotHelper(result_object, matches[0])
+                return matches[0]
     
-    def plotHelper(self, result_object, filename):
+    def plot(self, c, args):
+        result_object = Result()
+        filename = self.__determineFilename(args)
+        if not filename:
+            result_object.error = 'a file matching to the specified one could not be found'
+            return result_object
+        
         filepath = os.path.join(self.logpath, filename)
         
         from modules.gps.QMapView import QMapView
         
         dbAdapter = DbAdapter(filepath)
-        boundings = dbAdapter.selectMinMaxLogCoordinate()
+        boundings = dbAdapter.selectMinMaxCoordinate()
         mapView = QMapView(boundings)
         
         data = dbAdapter.selectLogData()
@@ -250,6 +257,79 @@ class Gps(object):
         result_object.payload = mapView
         return result_object
     
+    def stats(self, c, args):
+        result_object = Result()
+        filename = self.__determineFilename(args)
+        if not filename:
+            result_object.error = 'a file matching to the specified one could not be found'
+            return result_object
+        
+        filepath = os.path.join(self.logpath, filename)
+        
+        result_table = []
+        
+        dbAdapter = DbAdapter(filepath)
+        
+        distance = 0
+        data = dbAdapter.selectLogData()
+        last_pos = None
+        for pos in data:
+            if last_pos:
+                vincenty_dist = vincenty(
+                    [
+                        last_pos['latitude'],
+                        last_pos['longitude'],
+                    ],
+                    [
+                        pos['latitude'],
+                        pos['longitude'],
+                    ]
+                ).kilometers
+                distance += vincenty_dist
+            
+            last_pos = pos
+        
+        result_table.append(['distance (path) [km]', round(distance, 2)])
+        
+        start_stop = dbAdapter.selectStartStopCoordinates()
+        distance_air = vincenty([
+                                    start_stop['start_lat'],
+                                    start_stop['start_lon']
+                                ],
+                                [
+                                    start_stop['stop_lat'],
+                                    start_stop['stop_lon']
+                                ]
+                                ).kilometers
+        result_table.append(['distance (air) [km]', round(distance_air, 2)])
+        
+        t_stats = dbAdapter.selectTimeStats()
+        time_min = datetime.fromtimestamp(t_stats['time_min']).strftime("%d.%m.%Y %R")
+        time_max = datetime.fromtimestamp(t_stats['time_max']).strftime("%d.%m.%Y %R")
+        result_table.append(['time_start', time_min])
+        result_table.append(['time_end', time_max])
+        
+        speed = round(distance / ((t_stats['time_max'] - t_stats['time_min'])/60/60), 2)
+        result_table.append(['speed [km/h]', speed])
+        
+        boundings = dbAdapter.selectMinMaxCoordinate()
+        result_table.append(['lat_min', boundings['lat_min']])
+        result_table.append(['lat_max', boundings['lat_max']])
+        result_table.append(['lon_min', boundings['lon_min']])
+        result_table.append(['lon_max', boundings['lon_max']])
+        
+        altitude_min_max = dbAdapter.selectMinMaxAltitude()
+        result_table.append(['alt_min', altitude_min_max['alt_min']])
+        result_table.append(['alt_max', altitude_min_max['alt_max']])
+        
+        speed = dbAdapter.selectSpeedStats()
+        result_table.append(['speed_min', speed['speed_min']])
+        result_table.append(['speed_max', speed['speed_max']])
+        result_table.append(['speed_average', speed['speed_average']])
+        
+        result_object.category = "table"
+        result_object.payload = result_table
+        return result_object
 
 class NoFixError(Exception):
     pass
