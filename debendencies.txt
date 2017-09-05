@@ -3,6 +3,7 @@ python-pyqt5
 
 python-pysword
 python-markdown
+python-gpsd
 python-geopy
 
 

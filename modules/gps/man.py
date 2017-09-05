@@ -35,3 +35,14 @@ gps.logs
 gps.start_log
 gps.stop_log
 """
+
+stats = """
+Prints a lot of statistical data about the specified gps recording.
+
+@param (required): [string], the filename of the gps log.
+
+See Also:
+gps.logs
+gps.start_log
+gps.stop_log
+"""
