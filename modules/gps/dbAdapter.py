@@ -49,7 +49,7 @@ class DbAdapter(object):
         return self.dictFactory(result)
     
     def selectMinMaxLogCoordinate(self):
-        query = "SELECT MIN(latitude) AS lat_min, MAX(latitude) AS lat_max, MIN(longitude) AS long_min, MAX(longitude) AS long_max FROM gps"
+        query = "SELECT MIN(latitude) AS lat_min, MAX(latitude) AS lat_max, MIN(longitude) AS lon_min, MAX(longitude) AS lon_max FROM gps"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         

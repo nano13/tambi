@@ -28,7 +28,7 @@ class Gps(object):
             "gps.start_log" : self.start_log,
             "gps.stop_log" : self.stop_log,
             "gps.logs" : self.logs,
-            "gps.plot" : self.plot,
+            "gps.plot" : self.plotHelper,
         }
     
     def interpreter(self, command, args):
@@ -209,7 +209,7 @@ class Gps(object):
                 'error_vertical' : precision[1],
             }
     
-    def plot(self, c, args):
+    def plotHelper(self, c, args):
         result_object = Result()
         try:
             filename = args[0]
@@ -217,47 +217,39 @@ class Gps(object):
             result_object.error = 'please specify the filename of the gps recording you want to plot'
             return result_object
         
-        if not filename.endswith('.sqlite'):
-            filename = filename + '.sqlite'
+        #if not filename.endswith('.sqlite'):
+        #    filename = filename + '.sqlite'
+        files = self.logs(None, None).payload
+        if filename in files:
+            return self.plot(result_object, filename)
+        elif filename.endswith('*'):
+            filename = filename[:-1]
+            matches = []
+            for _f in files:
+                if _f.startswith(filename):
+                    matches.append(_f)
+            if len(matches) == 1:
+                return self.plot(result_object, matches[0])
+        
+    def plot(self, result_object, filename):
         filepath = os.path.join(self.logpath, filename)
+        
+        from modules.gps.QMapView import QMapView
         
         dbAdapter = DbAdapter(filepath)
         boundings = dbAdapter.selectMinMaxLogCoordinate()
-        print(boundings)
+        mapView = QMapView(boundings)
+        
         data = dbAdapter.selectLogData()
-        
-        from modules.gps.QMapView import QMapView
-        mapView = QMapView()
-        
         for pos in data:
-            #longitude, latitude = self.convertToWebMercatorWithPyproj(pos)
-            longitude, latitude = self.convertToWebMercator(pos)
-            
-            mapView.addPoint(longitude, latitude)
-        mapView.scaleViewToContents()
+            mapView.addPoint(pos['longitude'], pos['latitude'])
+            pass
+        #mapView.scaleViewToContents()
         
         result_object.category = "qt_widget"
         result_object.payload = mapView
         return result_object
     
-    def convertToWebMercator(self, pos):
-        # derived from the Java version explained here: http://wiki.openstreetmap.org/wiki/Mercator
-        RADIUS = 6378137.0 # in meters on the equator
-        
-        lat = math.log(math.tan(math.pi / 4 + math.radians(pos['latitude']) / 2)) * RADIUS
-        
-        lon = math.radians(pos['longitude']) * RADIUS
-        
-        return lon, lat
-    
-    def convertToWebMercatorWithPyproj(self, pos):
-        from pyproj import Proj, transform
-        
-        inProj = Proj(init='epsg:4326') # WGS-84, usually used by GPS
-        outProj = Proj(init='epsg:3857') # web-mercator, used by virtually all major online map providers, including Google Maps, Bing Maps, OpenStreetMap, Mapquest, Esri, Mapbox, and many others
-        longitude, latitude = transform(inProj, outProj, pos['longitude'], pos['latitude'])
-        
-        return longitude, latitude
 
 class NoFixError(Exception):
     pass
