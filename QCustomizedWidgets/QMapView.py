@@ -30,6 +30,7 @@ class QMapView(QGraphicsView):
         }
     
     point_list = []
+    last_mouse_pos = None
     
     PEN_RADIUS = 4
     COLOUR = QtCore.Qt.darkGreen
@@ -37,7 +38,7 @@ class QMapView(QGraphicsView):
     def __init__(self, boundings):
         super().__init__()
         self.boundings_path = boundings
-
+        
         self.setScene(QGraphicsScene(self))
         self.setRenderHint(QPainter.Antialiasing)
         
@@ -224,6 +225,25 @@ class QMapView(QGraphicsView):
     def scaleViewToContents(self):
         bounds = self.scene().itemsBoundingRect()
         self.fitInView(bounds, Qt.KeepAspectRatio)
+    
+    def mousePressEvent(self, event):
+        self.last_mouse_pos = event.pos()
+    
+    def mouseMoveEvent(self, event):
+        vert = self.verticalScrollBar().value()
+        hor = self.horizontalScrollBar().value()
+        
+        if self.last_mouse_pos:
+            delta_x = self.last_mouse_pos.x() - event.x()
+            new_x = hor + delta_x
+            
+            delta_y = self.last_mouse_pos.y() - event.y()
+            new_y = vert + delta_y
+            
+            self.horizontalScrollBar().setValue(new_x)
+            self.verticalScrollBar().setValue(new_y)
+        
+        self.last_mouse_pos = event.pos()
     
 
 class QDownloadMapTilesThread(QThread):
