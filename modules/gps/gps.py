@@ -1,3 +1,5 @@
+
+from QCustomizedWidgets.QMapView import QMapView
  
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
@@ -241,16 +243,18 @@ class Gps(object):
         
         filepath = os.path.join(self.logpath, filename)
         
-        from modules.gps.QMapView import QMapView
-        
         dbAdapter = DbAdapter(filepath)
         boundings = dbAdapter.selectMinMaxCoordinate()
         mapView = QMapView(boundings)
         
         data = dbAdapter.selectLogData()
+        points_list = []
         for pos in data:
-            mapView.addPoint(pos['longitude'], pos['latitude'])
-            pass
+            #mapView.addPoint(pos['longitude'], pos['latitude'])
+            points_list.append([pos['longitude'], pos['latitude']])
+        mapView.addPointList(points_list)
+        mapView.drawPointList()
+        
         #mapView.scaleViewToContents()
         
         result_object.category = "qt_widget"

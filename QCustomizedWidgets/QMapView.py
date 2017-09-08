@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene, QGridLayout, QWidget, QGraphicsEllipseItem, QPushButton
+from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene, QGridLayout, QWidget, QGraphicsEllipseItem, QPushButton, QApplication
 from PyQt5.QtGui import QPen, QPainter, QIcon
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtCore import Qt, pyqtSignal, QThread, QRectF
@@ -28,6 +28,8 @@ class QMapView(QGraphicsView):
         'ne' : None,
         'se' : None,
         }
+    
+    point_list = []
     
     PEN_RADIUS = 4
     COLOUR = QtCore.Qt.darkGreen
@@ -75,6 +77,7 @@ class QMapView(QGraphicsView):
         self.scene().clear()
         
         self.calculateNeededTiles(self.boundings_path)
+        self.drawPointList()
     
     def zoomOutClicked(self):
         if self.download_thread:
@@ -90,6 +93,7 @@ class QMapView(QGraphicsView):
         self.setRenderHint(QPainter.Antialiasing)
         
         self.calculateNeededTiles(self.boundings_path)
+        self.drawPointList()
 
     def calculateNeededTiles(self, boundings):
         tile_min_x, tile_max_y = self.degToTileNumber(boundings['lat_min'], boundings['lon_min'])
@@ -143,6 +147,18 @@ class QMapView(QGraphicsView):
         lat_rad = math.atan(math.sinh(math.pi * (1 - 2 * ytile / n)))
         lat_deg = math.degrees(lat_rad)
         return (lat_deg, lon_deg)
+    
+    def addPointList(self, point_list):
+        self.point_list = point_list
+    
+    def drawPointList(self):
+        """
+        for point in self.point_list:
+            self.addPoint(point[0], point[1])
+        """
+        self.draw_point_list_thread = QAddPointListThread(self.point_list)
+        self.draw_point_list_thread.addPoint.connect(self.addPoint)
+        self.draw_point_list_thread.start()
     
     def addPoint(self, point_x, point_y):
         point_x, point_y = self.convertCoords(point_x, point_y)
@@ -227,10 +243,11 @@ class QDownloadMapTilesThread(QThread):
         for i, x in enumerate(range(self.x_min, self.x_max)):
             if self.__stop:
                 break
-            #QApplication.processEvents()
+            QApplication.processEvents()
             for j, y in enumerate(range(self.y_min, self.y_max)):
                 if self.__stop:
                     break
+                QApplication.processEvents()
                 #print(x, y, i, j)
                 #print(self.x_min, self.x_max, self.y_min, self.y_max)
                 self.fetchTile(x, y, j, i)
@@ -250,6 +267,26 @@ class QDownloadMapTilesThread(QThread):
             pixmap.load(image_filename)
         
         self.drawMapTile.emit(pixmap, pos_x, pos_y)
+    
+    def stop(self):
+        self.__stop = True
+
+class QAddPointListThread(QThread):
+    
+    __stop = False
+    point_list = []
+    addPoint = pyqtSignal(float, float)
+    
+    def __init__(self, point_list):
+        super().__init__()
+        self.point_list = point_list
+    
+    def run(self):
+        for point in self.point_list:
+            QApplication.processEvents()
+            if self.__stop:
+                break
+            self.addPoint.emit(point[0], point[1])
     
     def stop(self):
         self.__stop = True
