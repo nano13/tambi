@@ -310,29 +310,3 @@ class QAddPointListThread(QThread):
     
     def stop(self):
         self.__stop = True
-
-from PyQt5.QtWidgets import QMainWindow
-
-class QMapWindow(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        
-        self.resize(500, 500)
-        
-        grid = QGridLayout()
-        
-        mapView = QMapView()
-        grid.addWidget(mapView, 0, 0)
-        
-        self.setCentralWidget(mapView)
-
-if __name__ == '__main__':
-    import signal
-    signal.signal(signal.SIGINT, signal.SIG_DFL)
-        
-    from PyQt5.QtWidgets import QApplication
-    import sys
-    app = QApplication(sys.argv)
-    c = QMapWindow()
-    c.show()
-    sys.exit(app.exec_())
