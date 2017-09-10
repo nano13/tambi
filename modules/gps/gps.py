@@ -247,11 +247,12 @@ class Gps(object):
         boundings = dbAdapter.selectMinMaxCoordinate()
         mapView = QMapView(boundings)
         
-        data = dbAdapter.selectLogData()
+        data = dbAdapter.selectLatLon()
         points_list = []
         for pos in data:
             #mapView.addPoint(pos['longitude'], pos['latitude'])
-            points_list.append([pos['longitude'], pos['latitude']])
+            x, y = pos['latitude'], pos['longitude']
+            points_list.append([x, y])
         mapView.addPointList(points_list)
         mapView.drawPointList()
         

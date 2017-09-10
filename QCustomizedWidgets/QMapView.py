@@ -26,7 +26,7 @@ class QMapView(QGraphicsView):
     point_list = []
     last_mouse_pos = None
     
-    PEN_RADIUS = 4
+    PEN_RADIUS = 10#4
     COLOUR = QtCore.Qt.darkRed
 
     def __init__(self, boundings):
@@ -116,6 +116,7 @@ class QMapView(QGraphicsView):
 
         item = self.scene().addPixmap(pixmap)
         item.setPos(pos_y*tile_size, pos_x*tile_size)
+        print("POS", item.pos(), pos_y*tile_size, pos_x*tile_size)
         item.setZValue(-10)
     
     
@@ -132,11 +133,11 @@ class QMapView(QGraphicsView):
     adds a point marker specified by gps-coordinates to the canvas
     """
     def addPoint(self, point_x, point_y):
-        point_x, point_y = self.convert.convertToCanvas(self.scene_rect, point_x, point_y)
+        print("addPoint", point_x, point_y)
+        point_x, point_y = self.convert.convertGeoToCanvas(self.scene_rect, point_x, point_y)
         #point_x, point_y = self.convertToCanvas(point_x, point_y)
         
-        pos = QtCore.QPointF(point_x, point_y*-1)
-        ellipseItem = QGraphicsEllipseItem(pos.x(), pos.y(), self.PEN_RADIUS, self.PEN_RADIUS)
+        ellipseItem = QGraphicsEllipseItem(point_x + self.PEN_RADIUS / 2, point_y + self.PEN_RADIUS / 2, self.PEN_RADIUS, self.PEN_RADIUS)
         ellipseItem.setZValue(10)
         ellipseItem.setPen(QPen(self.COLOUR, QtCore.Qt.SolidPattern))
         ellipseItem.setBrush(self.COLOUR)
@@ -183,9 +184,13 @@ class QMapView(QGraphicsView):
         if button == Qt.LeftButton:
             self.last_mouse_pos = event.pos()
         elif button == Qt.RightButton:
-            print(event.pos())
+            #print(event.pos())
+            print(self.mapToScene(event.pos()))
         elif button == Qt.MidButton:
-            geo = self.convert.convertCanvasToGeo(self.scene_rect, event.pos().x(), event.pos().y())
+            mapped = self.mapToScene(event.pos().x(), event.pos().y())
+            x = mapped.x()
+            y = mapped.y()
+            geo = self.convert.convertCanvasToGeo(self.scene_rect, x, y)
             print(geo[0], geo[1])
             print(self.scene().itemsBoundingRect())
     
