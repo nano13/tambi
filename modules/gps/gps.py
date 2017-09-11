@@ -7,6 +7,8 @@ from interpreter.structs import Result
 from configs.configFiles import ConfigFile
 from modules.gps.dbAdapter import DbAdapter
 
+from misc.importGpx import GpxParser
+
 import os, _thread, time, math
 from datetime import datetime
 from geopy.distance import vincenty
@@ -34,6 +36,9 @@ class Gps(object):
             "gps.logs" : self.logs,
             "gps.plot" : self.plot,
             "gps.stats" : self.stats,
+            
+            "gps.import_gpx" : self.import_gpx,
+            "gps.export_gpx" : self.export_gpx,
         }
     
     def interpreter(self, command, args):
@@ -57,6 +62,20 @@ class Gps(object):
         result_object.category = "list"
         result_object.payload = all_commands
         return result_object
+    
+    def import_gpx(self, c, args):
+        filename = args[0]
+        print(filename)
+        
+        log_db_name = str(time.time()).split('.')[0]+".sqlite"
+        dbpath = os.path.join(self.logpath, log_db_name)
+        
+        parser = GpxParser(dbpath)
+        parser.parse(filename)
+        print(parser.getParsedData())
+    
+    def export_gpx(self, c, args):
+        pass
     
     def start_log(self, c, a):
         log_db_name = str(time.time()).split('.')[0]+".sqlite"

@@ -46,3 +46,11 @@ gps.logs
 gps.start_log
 gps.stop_log
 """
+
+import_gpx = """
+
+"""
+
+export_gpx = """
+
+"""
