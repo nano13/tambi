@@ -25,7 +25,7 @@ class DbAdapter(object):
         self.cursor.execute(query)
         self.connection.commit()
     
-    def insertLogEntry(self, data_dict):
+    def insertLogEntryWithTimestamp(self, data_dict):
         query = "INSERT INTO gps (latitude, longitude, altitude, speed, track, climb, error_horizontal, error_vertical, time_gps, timestamp_local) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
         self.cursor.execute(query, [
             data_dict['latitude'],
@@ -40,6 +40,21 @@ class DbAdapter(object):
             time.time(),
         ])
         self.connection.commit()
+    
+    def insertLogEntry(self, data_dict):
+        query = "INSERT INTO gps (latitude, longitude, altitude, speed, track, climb, error_horizontal, error_vertical, time_gps) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        self.cursor.execute(query, [
+            data_dict['latitude'],
+            data_dict['longitude'],
+            data_dict['altitude'],
+            data_dict['speed'],
+            data_dict['track'],
+            data_dict['climb'],
+            data_dict['error_horizontal'],
+            data_dict['error_vertical'],
+            data_dict['time'],
+        ])
+        #self.connection.commit()
     
     def selectLogData(self):
         query = "SELECT * FROM gps"

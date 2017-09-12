@@ -17,8 +17,10 @@ class Gps(object):
     
     logpath = None
     
-    terminate_thread = False
-    thread_running = False
+    terminate_log_thread = False
+    log_thread_running = False
+    
+    import_thread_running = False
     
     def __init__(self):
         config = ConfigFile()
@@ -67,12 +69,18 @@ class Gps(object):
         filename = args[0]
         print(filename)
         
+        _thread.start_new_thread(self.__importThread, (filename,))
+    
+    def __importThread(self, filename):
+        self.import_thread_running = True
+        
         log_db_name = str(time.time()).split('.')[0]+".sqlite"
         dbpath = os.path.join(self.logpath, log_db_name)
         
         parser = GpxParser(dbpath)
         parser.parse(filename)
-        print(parser.getParsedData())
+        
+        self.import_thread_running = False
     
     def export_gpx(self, c, args):
         pass
@@ -81,8 +89,8 @@ class Gps(object):
         log_db_name = str(time.time()).split('.')[0]+".sqlite"
         result_object = Result()
         
-        if not self.thread_running:
-            self.terminate_thread = False
+        if not self.log_thread_running:
+            self.terminate_log_thread = False
             self.logging_thread = _thread.start_new_thread(self.__loggingThread, (log_db_name,))
             result_object.payload = "gps logging started"
         else:
@@ -92,9 +100,9 @@ class Gps(object):
         return result_object
     
     def __loggingThread(self, log_db_name):
-        self.thread_running = True
+        self.log_thread_running = True
         delay = 1
-        while not self.terminate_thread:
+        while not self.terminate_log_thread:
             self.__logging(log_db_name)
             time.sleep(delay)
     
@@ -111,7 +119,7 @@ class Gps(object):
             result_object.payload = "no gps fix available"
         else:
             if position:
-                dbAdapter.insertLogEntry(position)
+                dbAdapter.insertLogEntryWithTimestamp(position)
                 result_object.payload = 'position logging started'
             else:
                 result_object.payload = 'no working position provider found'
@@ -121,8 +129,8 @@ class Gps(object):
         return result_object
     
     def stop_log(self, c, a):
-        self.terminate_thread = True
-        self.thread_running = False
+        self.terminate_log_thread = True
+        self.log_thread_running = False
         
         result_object = Result()
         result_object.category = "text"
@@ -328,13 +336,23 @@ class Gps(object):
         result_table.append(['distance (air) [km]', round(distance_air, 2)])
         
         t_stats = dbAdapter.selectTimeStats()
-        time_min = datetime.fromtimestamp(t_stats['time_min']).strftime("%d.%m.%Y %R")
-        time_max = datetime.fromtimestamp(t_stats['time_max']).strftime("%d.%m.%Y %R")
-        result_table.append(['time_start', time_min])
-        result_table.append(['time_end', time_max])
         
-        speed = round(distance / ((t_stats['time_max'] - t_stats['time_min'])/60/60), 2)
-        result_table.append(['speed [km/h]', speed])
+        try:
+            time_min = datetime.fromtimestamp(t_stats['time_min']).strftime("%d.%m.%Y %R")
+            time_max = datetime.fromtimestamp(t_stats['time_max']).strftime("%d.%m.%Y %R")
+        except TypeError:
+            result_table.append(['time_start', 'n/a'])
+            result_table.append(['time_end', 'n/a'])
+        else:
+            result_table.append(['time_start', time_min])
+            result_table.append(['time_end', time_max])
+        
+        try:
+            speed = round(distance / ((t_stats['time_max'] - t_stats['time_min'])/60/60), 2)
+        except TypeError:
+            result_table.append(['speed [km/h]', 'n/a'])
+        else:
+            result_table.append(['speed [km/h]', speed])
         
         boundings = dbAdapter.selectMinMaxCoordinate()
         result_table.append(['lat_min', boundings['lat_min']])

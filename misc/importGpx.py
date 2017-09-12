@@ -12,9 +12,7 @@ class GpxParser(object):
     
     def parse(self, filepath):
         self.parser.parse(filepath)
-    
-    def getParsedData(self):
-        return self.handler.getParsedData()
+        self.handler.commit()
 
 class GpxParserHandler(handler.ContentHandler):
     
@@ -28,8 +26,6 @@ class GpxParserHandler(handler.ContentHandler):
     alt = None
     speed = None
     time = None
-    
-    parsed = []
     
     def __init__(self, dbpath):
         self.dbAdapter = DbAdapter(dbpath)
@@ -57,7 +53,19 @@ class GpxParserHandler(handler.ContentHandler):
     def endElement(self, name):
         if name == 'trkpt':
             self.in_trkpt = False
-            self.parsed.append({'lat': self.lat, 'lon': self.lon, 'alt': self.alt, 'speed': self.speed, 'time': self.time})
+            data = {
+                'latitude': self.lat,
+                'longitude': self.lon,
+                'altitude': self.alt,
+                'speed': self.speed,
+                'track': None,
+                'climb': None,
+                'error_horizontal': None,
+                'error_vertical': None,
+                'time': self.time
+            }
+            
+            self.dbAdapter.insertLogEntry(data)
             
             self.lat = None
             self.lon = None
@@ -72,5 +80,5 @@ class GpxParserHandler(handler.ContentHandler):
         elif name == 'time':
             self.in_time = False
     
-    def getParsedData(self):
-        return self.parsed
+    def commit(self):
+        self.dbAdapter.connection.commit()
