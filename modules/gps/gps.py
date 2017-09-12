@@ -379,6 +379,9 @@ class Gps(object):
         result_table.append(['speed_max', speed['speed_max']])
         result_table.append(['speed_average', speed['speed_average']])
         
+        count = dbAdapter.selectCount()
+        result_table.append(['samples count', count['count']])
+        
         result_object.category = "table"
         result_object.payload = result_table
         return result_object
