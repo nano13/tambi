@@ -37,6 +37,7 @@ class Gps(object):
             "gps.stop_log" : self.stop_log,
             "gps.logs" : self.logs,
             "gps.plot" : self.plot,
+            "gps.height_diagram" : self.height_diagram,
             "gps.stats" : self.stats,
             
             "gps.import_gpx" : self.import_gpx,
@@ -287,6 +288,15 @@ class Gps(object):
         
         result_object.category = "qt_widget"
         result_object.payload = mapView
+        return result_object
+    
+    def height_diagram(self, c, args):
+        result_object = Result()
+        
+        data = [1, 2, 3, 4, 5, 6]
+        
+        result_object.category = "diagram"
+        result_object.payload = data
         return result_object
     
     def stats(self, c, args):

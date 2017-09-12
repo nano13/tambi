@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize
+from PyQt5.QtChart import QChart, QXYSeries, QLineSeries
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
@@ -181,6 +182,8 @@ class QCliWidget(QWidget):
                     self.resultInTextEdit(result)
                 elif hasattr(result, 'category') and result.category == "qt_widget":
                     self.resultIsQtWidget(result)
+                elif hasattr(result, 'category') and result.category == 'diagram':
+                    self.resultInDiagram(result)
             else:
                 result = Result()
                 result.payload = 'empty result set'
@@ -286,6 +289,13 @@ class QCliWidget(QWidget):
         self.display_widget.deleteLater()
         self.display_widget = result.payload
         self.addDisplayWidget()
+    
+    def resultInDiagram(self, result):
+        self.display_widget.deleteLater()
+        series = QLineSeries()
+        series.append(result.payload)
+        diagram = QChart()
+        
     
     def showErrorMessage(self, message):
         self.display_widget.deleteLater()

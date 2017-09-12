@@ -26,7 +26,7 @@ class QMapView(QGraphicsView):
     point_list = []
     last_mouse_pos = None
     
-    PEN_RADIUS = 10#4
+    PEN_RADIUS = 4#10#4
     COLOUR = QtCore.Qt.darkRed
 
     def __init__(self, boundings):
