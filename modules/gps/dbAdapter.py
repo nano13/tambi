@@ -112,4 +112,9 @@ class DbAdapter(object):
         
         return self.dictFactory(result)[0]
     
-    
+    def selectCount(self):
+        query = "SELECT COUNT(*) AS count FROM gps"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)[0]
