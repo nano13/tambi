@@ -293,10 +293,18 @@ class Gps(object):
     def height_diagram(self, c, args):
         result_object = Result()
         
-        data = [1, 2, 3, 4, 5, 6]
+        filename = self.__determineFilename(args)
+        if not filename:
+            result_object.error = 'a file matching to the specified one could not be found'
+            return result_object
+        
+        filepath = os.path.join(self.logpath, filename)
+        dbAdapter = DbAdapter(filepath)
+        data = dbAdapter.selectDiagramData()
         
         result_object.category = "diagram"
         result_object.payload = data
+        result_object.name = filename
         return result_object
     
     def stats(self, c, args):

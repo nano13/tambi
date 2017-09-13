@@ -70,6 +70,13 @@ class DbAdapter(object):
         
         return self.dictFactory(result)
     
+    def selectDiagramData(self):
+        query = "SELECT rowid AS x, altitude AS y FROM gps"
+        self.cursor.execute(query)
+        result = self.cursor.fetchall()
+        
+        return self.dictFactory(result)
+    
     def selectMinMaxCoordinate(self):
         query = "SELECT MIN(latitude) AS lat_min, MAX(latitude) AS lat_max, MIN(longitude) AS lon_min, MAX(longitude) AS lon_max FROM gps"
         self.cursor.execute(query)

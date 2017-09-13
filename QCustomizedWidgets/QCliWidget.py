@@ -1,9 +1,9 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView, QLabel
 #from PyQt5.QtWebKitWidgets import QWebView
-from PyQt5.QtGui import QIcon, QTextFormat, QPixmap
+from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QPainter
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize
-from PyQt5.QtChart import QChart, QXYSeries, QLineSeries
+from PyQt5.QtChart import QChart, QXYSeries, QLineSeries, QChartView
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
@@ -292,10 +292,28 @@ class QCliWidget(QWidget):
     
     def resultInDiagram(self, result):
         self.display_widget.deleteLater()
-        series = QLineSeries()
-        series.append(result.payload)
-        diagram = QChart()
         
+        curve = QLineSeries()
+        pen = curve.pen()
+        pen.setColor(Qt.red)
+        pen.setWidthF(2)
+        curve.setPen(pen)
+        
+        for data in result.payload:
+            if type(data['y']) == str:
+                data['y'] = 0
+            curve.append(data['x'], data['y'])
+        
+        chart = QChart()
+        chart.setTitle(result.name)
+        chart.legend().hide()
+        chart.addSeries(curve)
+        chart.createDefaultAxes()
+        
+        view = QChartView(chart)
+        view.setRenderHint(QPainter.Antialiasing)
+        self.display_widget = view
+        self.addDisplayWidget()
     
     def showErrorMessage(self, message):
         self.display_widget.deleteLater()
