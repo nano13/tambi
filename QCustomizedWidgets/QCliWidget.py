@@ -3,13 +3,13 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QPainter
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize
-from PyQt5.QtChart import QChart, QXYSeries, QLineSeries, QChartView
+from PyQt5.QtChart import QChart, QXYSeries, QLineSeries#, QChartView
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
-
+from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
 from QCustomizedWidgets.QDeckOverviewWidget import QAudioItems
 
 from interpreter.interpreter import Interpreter
@@ -65,6 +65,11 @@ class QCliWidget(QWidget):
         zoomOutButton.setIcon(QIcon.fromTheme('zoom-out'))
         zoomOutButton.clicked.connect(self.onZoomOutClicked)
         self.grid.addWidget(zoomOutButton, 1, 3)
+        
+        zoomResetButton = QPushButton(self)
+        zoomResetButton.setIcon(QIcon.fromTheme('zoom-original'))
+        zoomResetButton.clicked.connect(self.onZoomResetClicked)
+        self.grid.addWidget(zoomResetButton, 1, 4)
         
         self.applyStylesheet()
     
@@ -310,7 +315,7 @@ class QCliWidget(QWidget):
         chart.addSeries(curve)
         chart.createDefaultAxes()
         
-        view = QChartView(chart)
+        view = QChartViewEnhanced(chart)
         view.setRenderHint(QPainter.Antialiasing)
         self.display_widget = view
         self.addDisplayWidget()
@@ -335,6 +340,9 @@ class QCliWidget(QWidget):
                 self.display_widget.setFontPointSize(size +1)
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
+        
+        elif type(self.display_widget) == QChartViewEnhanced:
+            self.display_widget.chart().zoomIn()
         else:
             self.view.scale(SCALE_FACTOR, SCALE_FACTOR)
             
@@ -353,10 +361,17 @@ class QCliWidget(QWidget):
                 self.display_widget.setFontPointSize(size -1)
                 cursor.clearSelection()
                 self.display_widget.setTextCursor(cursor)
+        
+        elif type(self.display_widget) == QChartViewEnhanced:
+            self.display_widget.chart().zoomOut()
         else:
             self.view.scale(1 / SCALE_FACTOR, 1 / SCALE_FACTOR)
             
             self.resizeDisplayWidget()
+    
+    def onZoomResetClicked(self):
+        if type(self.display_widget) == QChartViewEnhanced:
+            self.display_widget.chart().zoomReset()
     
     def isImage(self, data):
         suffixes = ['.png', '.jpg', '.jpe', '.jpeg', '.svg', '.bmp']
