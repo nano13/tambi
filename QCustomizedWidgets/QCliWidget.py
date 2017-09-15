@@ -316,6 +316,7 @@ class QCliWidget(QWidget):
         chart.createDefaultAxes()
         
         view = QChartViewEnhanced(chart)
+        #view.addSeries(curve)
         view.setRenderHint(QPainter.Antialiasing)
         self.display_widget = view
         self.addDisplayWidget()
