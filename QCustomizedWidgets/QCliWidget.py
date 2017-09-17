@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QTextEdit, QGraphicsScene, QGraphicsView, QLabel
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QPainter
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize
@@ -11,6 +11,7 @@ from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
 from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
 from QCustomizedWidgets.QDeckOverviewWidget import QAudioItems
+from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 
 from interpreter.interpreter import Interpreter
 from interpreter.exceptions import ClearCalled
@@ -41,7 +42,7 @@ class QCliWidget(QWidget):
         self.grid.setContentsMargins(0, 0, 0, 6)
         self.setLayout(self.grid)
         
-        self.display_widget = QTextEdit()
+        self.display_widget = QTextEditEnhanced()
         self.display_widget.setText("type in the command 'man' for getting started ...")
         self.display_widget.setReadOnly(True)
         
@@ -59,17 +60,17 @@ class QCliWidget(QWidget):
         zoomInButton = QPushButton(self)
         zoomInButton.setIcon(QIcon.fromTheme('zoom-in'))
         zoomInButton.clicked.connect(self.onZoomInClicked)
-        self.grid.addWidget(zoomInButton, 1, 2)
+        self.grid.addWidget(zoomInButton, 1, 4)
         
         zoomOutButton = QPushButton(self)
         zoomOutButton.setIcon(QIcon.fromTheme('zoom-out'))
         zoomOutButton.clicked.connect(self.onZoomOutClicked)
-        self.grid.addWidget(zoomOutButton, 1, 3)
+        self.grid.addWidget(zoomOutButton, 1, 2)
         
         zoomResetButton = QPushButton(self)
         zoomResetButton.setIcon(QIcon.fromTheme('zoom-original'))
         zoomResetButton.clicked.connect(self.onZoomResetClicked)
-        self.grid.addWidget(zoomResetButton, 1, 4)
+        self.grid.addWidget(zoomResetButton, 1, 3)
         
         self.applyStylesheet()
     
@@ -143,7 +144,7 @@ class QCliWidget(QWidget):
                 from PyQt5.QtWidgets import QLabel, QPushButton
                 widget = QLabel('blaaaa')
                 #widget = QPushButton('blaa')
-                #widget = QTextEdit()
+                #widget = QTextEditEnhanced()
                 #widget.setText('fsdafsdf')
                 #self.beamer.setWidget(widget)
                 
@@ -196,7 +197,7 @@ class QCliWidget(QWidget):
     
     def clearDisplayWidget(self):
         self.display_widget.deleteLater()
-        self.display_widget = QTextEdit()
+        self.display_widget = QTextEditEnhanced()
         self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
     
@@ -268,7 +269,7 @@ class QCliWidget(QWidget):
     
     def resultInTextEdit(self, result):
         self.display_widget.deleteLater()
-        self.display_widget = QTextEdit()
+        self.display_widget = QTextEditEnhanced()
         
         self.unicode_fonts.applyFontAndSizeToQWidget(result.toString(), self.display_widget)
         
@@ -323,56 +324,37 @@ class QCliWidget(QWidget):
     
     def showErrorMessage(self, message):
         self.display_widget.deleteLater()
-        self.display_widget = QTextEdit()
+        self.display_widget = QTextEditEnhanced()
         self.display_widget.setText(message)
         self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
         
     def onZoomInClicked(self):
-        
-        if type(self.display_widget) == QTextEdit:
-            size = self.display_widget.fontPointSize()
-            
-            if size == 0.0:
-                self.display_widget.zoomIn()
-            else:
-                cursor = self.display_widget.textCursor()
-                self.display_widget.selectAll()
-                self.display_widget.setFontPointSize(size +1)
-                cursor.clearSelection()
-                self.display_widget.setTextCursor(cursor)
-        
+        if type(self.display_widget) == QTextEditEnhanced:
+            self.display_widget.zoomIn()
         elif type(self.display_widget) == QChartViewEnhanced:
             self.display_widget.chart().zoomIn()
         else:
             self.view.scale(SCALE_FACTOR, SCALE_FACTOR)
-            
             self.resizeDisplayWidget()
     
     def onZoomOutClicked(self):
-        
-        if type(self.display_widget) == QTextEdit:
-            size = self.display_widget.fontPointSize()
-            
-            if size == 0.0:
-                self.display_widget.zoomOut()
-            else:
-                cursor = self.display_widget.textCursor()
-                self.display_widget.selectAll()
-                self.display_widget.setFontPointSize(size -1)
-                cursor.clearSelection()
-                self.display_widget.setTextCursor(cursor)
-        
+        if type(self.display_widget) == QTextEditEnhanced:
+            self.display_widget.zoomOut()
         elif type(self.display_widget) == QChartViewEnhanced:
             self.display_widget.chart().zoomOut()
         else:
             self.view.scale(1 / SCALE_FACTOR, 1 / SCALE_FACTOR)
-            
             self.resizeDisplayWidget()
     
     def onZoomResetClicked(self):
-        if type(self.display_widget) == QChartViewEnhanced:
+        if type(self.display_widget) == QTextEditEnhanced:
+            self.display_widget.zoomReset()
+        elif type(self.display_widget) == QChartViewEnhanced:
             self.display_widget.chart().zoomReset()
+        else:
+            self.view.resetTransform()
+            self.resizeDisplayWidget()
     
     def isImage(self, data):
         suffixes = ['.png', '.jpg', '.jpe', '.jpeg', '.svg', '.bmp']
