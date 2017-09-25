@@ -308,7 +308,7 @@ class QCliWidget(QWidget):
         for data in result.payload:
             if type(data['y']) == str:
                 data['y'] = 0
-            curve.append(data['x'], data['y'])
+            curve.append(data['x'], data['y'], 10)
         
         chart = QChart()
         chart.setTitle(result.name)

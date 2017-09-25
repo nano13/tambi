@@ -66,10 +66,11 @@ class QChartViewEnhanced(QChartView):
     
     def showPositions(self, event):
         series = self.chart().series()[0]
-            
+        
         view_coord = self.mapToScene(event.pos())
         chart_item_coord = self.chart().mapFromScene(view_coord)
         value = self.chart().mapToValue(chart_item_coord, series)
+        value = self.chart().mapToValue(view_coord, series)
         
         self.label_mouse_pos.setText("cursor: "+str(round(value.x(), 3)) + " | " + str(round(value.y(), 3)))
         self.label_curve.setText("f("+str(series.at(value.x()).x()) + ") = " + str(series.at(value.y()).y()))
