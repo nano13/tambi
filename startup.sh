@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 logos.py
+python3 tambi.py

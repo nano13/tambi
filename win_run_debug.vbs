@@ -9,7 +9,7 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 dim python_src_folder, index_py_path, path_python_runtime
 
 python_src_folder = ""
-index_py_path = python_src_folder & "\logos.py"
+index_py_path = python_src_folder & "\tambi.py"
 path_python_runtime = ".\win-run\WinPython-64bit-3.6.1.0Qt5\python-3.6.1.amd64\python.exe"
 log_file = current_path & "\log.txt"
 

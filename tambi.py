@@ -16,7 +16,7 @@ from QCustomizedWidgets.QCoreTab import QCoreTab
 
 from configs.configFiles import ConfigFile
 
-class Logos(QMainWindow):
+class Tambi(QMainWindow):
     
     tab_widget = None
     
@@ -40,7 +40,6 @@ class Logos(QMainWindow):
         #self.installEventFilter(self)
         #self.tab_widget.installEventFilter(self)
         
-        #QIcon.setThemeSearchPaths(['/home/samuel/programmierung/logos_bible/icons'])
         QIcon.setThemeSearchPaths(['./assets/icons'])
         
         #for path in QIcon.themeSearchPaths():
@@ -140,7 +139,7 @@ class Logos(QMainWindow):
         
         self.applyStylesheet()
         
-        self.setWindowTitle('logos')
+        self.setWindowTitle('tambi')
         self.show()
         
     def applyStylesheet(self):
@@ -236,5 +235,5 @@ class Logos(QMainWindow):
     
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    c = Logos()
+    c = Tambi()
     sys.exit(app.exec_())
