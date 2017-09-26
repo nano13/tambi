@@ -356,6 +356,14 @@ class QCliWidget(QWidget):
             self.view.resetTransform()
             self.resizeDisplayWidget()
     
+    def keyPressEvent(self, event):
+        if (event.modifiers() & Qt.ControlModifier):
+            if event.key() == Qt.Key_Plus:
+                self.onZoomInClicked()
+            
+            elif event.key() == Qt.Key_Minus:
+                self.onZoomOutClicked()
+    
     def isImage(self, data):
         suffixes = ['.png', '.jpg', '.jpe', '.jpeg', '.svg', '.bmp']
         for suffix in suffixes:
