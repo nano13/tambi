@@ -15,8 +15,8 @@ class QMapView(QGraphicsView):
     
     convert = ConvertCoordinates()
     
-    #zoom = 16
-    zoom = 10
+    zoom = 16
+    #zoom = 10
     boundings_path = None
     bounds = None
     download_thread = None
@@ -98,17 +98,17 @@ class QMapView(QGraphicsView):
         
         tile_max_x, tile_min_y = self.convert.degToTileNumber(self.zoom, boundings['lat_max'], boundings['lon_max'])
         
-        print(tile_min_x, tile_max_x, tile_min_y, tile_max_y)
+        tile_max_x += 1
+        tile_max_y += 1
         
-        #self.tileRange(tile_min_x, tile_max_x+1, tile_min_y, tile_max_y+1)
-        self.scene_rect = QRectF(0, 0, (tile_max_x+1 - tile_min_x)*256, (tile_max_y+1 - tile_min_y)*256)
+        self.scene_rect = QRectF(0, 0, (tile_max_x - tile_min_x)*256, (tile_max_y - tile_min_y)*256)
         print(self.scene_rect)
         
-        self.download_thread = QDownloadMapTilesThread(self.cache_path, self.zoom, tile_min_x, tile_max_x+1, tile_min_y, tile_max_y+1)
+        self.download_thread = QDownloadMapTilesThread(self.cache_path, self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y)
         self.download_thread.drawMapTile.connect(self.drawMapTile)
         self.download_thread.start()
         
-        self.corners_mercator = self.convert.calculateCorners(self.zoom, tile_min_x, tile_max_x+1, tile_min_y, tile_max_y+1)
+        self.corners_mercator = self.convert.calculateCorners(self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y)
     
     def drawMapTile(self, pixmap, pos_x, pos_y):
         tile_size = 256
@@ -118,8 +118,6 @@ class QMapView(QGraphicsView):
         item.setPos(pos_y*tile_size, pos_x*tile_size)
         print("POS", item.pos(), pos_y*tile_size, pos_x*tile_size)
         item.setZValue(-10)
-    
-    
     
     def addPointList(self, point_list):
         self.point_list = point_list
