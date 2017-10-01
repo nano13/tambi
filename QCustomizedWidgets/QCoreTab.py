@@ -1,5 +1,6 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QHBoxLayout, QPushButton, QTextEdit
+from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QCliWidget import QCliWidget
 from QCustomizedWidgets.QParallelBibleWidget import QParallelBibleWidget
@@ -12,11 +13,18 @@ from misc.unicodeFonts import UnicodeFonts
 
 class QCoreTab(QWidget):
     
+    set_tab_text = pyqtSignal(str)
+    
     def __init__(self):
         super().__init__()
-        
+    
+    """ just forward this signal """
+    def setTabText(text):
+        self.set_tab_text.emit(text)
+    
     def cliTab(self):
         cli = QCliWidget()
+        cli.set_tab_text.connect(self.setTabText)
         return cli
     
     def dualCliTab(self):

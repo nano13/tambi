@@ -2,7 +2,7 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QPainter
-from PyQt5.QtCore import QRect, QRectF, Qt, QSize
+from PyQt5.QtCore import QRect, QRectF, Qt, QSize, pyqtSignal
 from PyQt5.QtChart import QChart, QXYSeries, QLineSeries#, QChartView
 
 from QCustomizedWidgets.QInputLine import QInputLine
@@ -32,6 +32,8 @@ class QCliWidget(QWidget):
     display_widget = None
     vkbd = None
     beamer = None
+    
+    set_tab_text = pyqtSignal(str)
     
     def __init__(self):
         super().__init__()
@@ -156,6 +158,7 @@ class QCliWidget(QWidget):
             self.handleCommand(command)
     
     def handleCommand(self, command):
+        self.set_tab_text.emit(command)
         try:
             result = self.interpreter.interpreter(command)
         except ClearCalled:

@@ -167,10 +167,14 @@ class Tambi(QMainWindow):
         self.tab_widget.removeTab(tab_id)
         
     def addNewCliTab(self):
-        tab = QCoreTab().cliTab()
+        from functools import partial
+        core = QCoreTab()
+        #tab = QCoreTab().cliTab()
+        tab = core.cliTab()
         self.tab_widget.addTab(tab, "cli")
         
         self.activateNewTab()
+        tab.set_tab_text.connect(partial(self.setTabText, self.tab_widget.currentIndex()))
         
     def addNewDualCliTab(self):
         tab = QCoreTab().dualCliTab()
@@ -183,6 +187,9 @@ class Tambi(QMainWindow):
         self.tab_widget.addTab(tab, "parallel view")
         
         self.activateNewTab()
+    
+    def setTabText(self, tab_id, text):
+        self.tab_widget.setTabText(tab_id, text)
     
     """ to be used internally by the menus """
     def addNewCliTabWithCommand(self, command):
