@@ -189,6 +189,15 @@ class Tambi(QMainWindow):
         self.activateNewTab()
     
     def setTabText(self, tab_id, text):
+        splitted = text.split(" ")
+        """
+        text = ""
+        for i, splinter in enumerate(splitted):
+            if i == 0:
+                text += splinter[:12] + " "
+            else:
+                text += splinter[:4] + " "
+        """
         self.tab_widget.setTabText(tab_id, text)
     
     """ to be used internally by the menus """
