@@ -1,5 +1,6 @@
 
 from QCustomizedWidgets.QMapView import QMapView
+from QCustomizedWidgets.QMapWidget import QMapWidget
  
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
@@ -42,6 +43,9 @@ class Gps(object):
             
             "gps.import_gpx" : self.import_gpx,
             "gps.export_gpx" : self.export_gpx,
+            
+            "gps.map" : self.showMap,
+            "gps.heightmap" : self.showHeightmap,
         }
     
     def interpreter(self, command, args):
@@ -288,6 +292,24 @@ class Gps(object):
         
         result_object.category = "qt_widget"
         result_object.payload = mapView
+        return result_object
+    
+    def showMap(self, c, args):
+        mapWidget = QMapWidget()
+        
+        result_object = Result()
+        result_object.category = "qt_widget"
+        result_object.payload = mapWidget
+        return result_object
+    
+    def showHeightmap(self, c, args):
+        import srtm
+        geo_elevation_data = srtm.get_data()
+        image = geo_elevation_data.get_image((1000, 1000), (50, 51), (8, 9), 800)
+        
+        result_object = Result()
+        result_object.category = "image"
+        result_object.payload = image
         return result_object
     
     def height_diagram(self, c, args):

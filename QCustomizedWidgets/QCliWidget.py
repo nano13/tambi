@@ -1,7 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel
 #from PyQt5.QtWebKitWidgets import QWebView
-from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QPainter
+from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QImage, QPainter
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize, pyqtSignal
 from PyQt5.QtChart import QChart, QXYSeries, QLineSeries#, QChartView
 
@@ -178,19 +178,29 @@ class QCliWidget(QWidget):
                         self.resultInTable(result)
                 elif hasattr(result, 'category') and result.category == "multimedia_table":
                     self.resultInMultimediaTable(result)
+                
                 elif hasattr(result, 'category') and result.category == "list":
                     self.resultInTextEdit(result)
+                
                 elif hasattr(result, 'category') and result.category == "text":
                     self.resultInTextEdit(result)
+                
                 elif hasattr(result, 'category') and result.category == "string":
                     self.resultInTextEdit(result)
+                
                 elif hasattr(result, 'category') and result.category == "itemized":
                     self.resultInItemizedWidget(result)
+                
+                elif hasattr(result, 'category') and result.category == "image":
+                    self.resultInImageWidget(result)
+                
                 elif hasattr(result, 'category') and result.category == "html":
                     #self.resultInHTMLWidget(result)
                     self.resultInTextEdit(result)
+                
                 elif hasattr(result, 'category') and result.category == "qt_widget":
                     self.resultIsQtWidget(result)
+                
                 elif hasattr(result, 'category') and result.category == 'diagram':
                     self.resultInDiagram(result)
             else:
@@ -292,6 +302,28 @@ class QCliWidget(QWidget):
     def resultInItemizedWidget(self, result):
         self.display_widget.deleteLater()
         self.display_widget = QItemizedWidget(result.payload)
+        self.addDisplayWidget()
+    
+    def resultInImageWidget(self, result):
+        self.display_widget.deleteLater()
+        
+        self.display_widget = QGraphicsView()
+        self.display_widget.setScene(QGraphicsScene(self))
+        
+        #result.payload.show()
+        
+        import PIL
+        if type(result.payload) == PIL.Image.Image:
+            from PIL.ImageQt import ImageQt
+            qimage = ImageQt(result.payload)
+            pixmap = QPixmap.fromImage(qimage)
+        
+        #pixmap = QPixmap("/tmp/tmprp3q0gi9.PNG")
+        #pixmap.fromImage(image)
+        
+        item = self.display_widget.scene().addPixmap(pixmap)
+        item.setPos(0, 0)
+        print(pixmap)
         self.addDisplayWidget()
     
     def resultIsQtWidget(self, result):
