@@ -7,8 +7,7 @@ from interpreter.structs import Result
 
 from configs.configFiles import ConfigFile
 from modules.gps.dbAdapter import DbAdapter
-
-from misc.importGpx import GpxParser
+from modules.gps.importGpx import GpxParser
 
 import os, _thread, time, math
 from datetime import datetime
@@ -296,6 +295,8 @@ class Gps(object):
     
     def showMap(self, c, args):
         mapWidget = QMapWidget()
+        
+        mapWidget.showPosition()
         
         result_object = Result()
         result_object.category = "qt_widget"

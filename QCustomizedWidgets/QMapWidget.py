@@ -1,24 +1,33 @@
 
-from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene, QGridLayout, QPushButton
+from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene, QGridLayout, QPushButton, QApplication
 from PyQt5.QtGui import QPainter, QIcon
+from PyQt5.QtCore import QRectF
+
+import urllib.request
+
+from QCustomizedWidgets.QCustomizedGraphicsView import QCustomizedGraphicsView
 
 from modules.gps.convert_coordinates import ConvertCoordinates
+
+from configs.configFiles import ConfigFile
 
 # to make program closeable with ctr-c in terminal
 import signal
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
-class QMapWidget(QGraphicsView):
+class QMapWidget(QCustomizedGraphicsView):
     
     TILE_SIZE = 256
     
     zoom = 10
     
+    convert = ConvertCoordinates()
+    
+    tiles_matrix = {'x_min': None, 'x_max': None, 'y_min': None, 'y_max': None}
     
     def __init__(self):
         super().__init__()
         
-        self.setScene(QGraphicsScene(self))
         self.setRenderHint(QPainter.Antialiasing)
         
         self.addControlElements()
@@ -71,17 +80,80 @@ class QMapWidget(QGraphicsView):
         self.calculateNeededTiles(self.boundings_path)
         self.drawPointList()
     
-    def calculateNeededTiles(self):
+    def calculateNeededTiles(self, lat_min, lat_max, lon_min, lon_max):
+        tile_min_x, tile_max_y = self.convert.degToTileNumber(self.zoom, lat_min, lon_min)
         
+        tile_max_x, tile_min_y = self.convert.degToTileNumber(self.zoom, lat_max, lon_max)
         
-        self.download_thread = QDownloadMapTilesThread(self.cache_path, self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y)
+        tile_max_x += 1
+        tile_max_y += 1
+        
+        self.tiles_matrix['x_min'] = tile_min_x
+        self.tiles_matrix['x_max'] = tile_max_x
+        self.tiles_matrix['y_min'] = tile_min_y
+        self.tiles_matrix['y_max'] = tile_max_y
+        
+        self.scene_rect = QRectF(0, 0, (tile_max_x - tile_min_x)*self.TILE_SIZE, (tile_max_y - tile_min_y)*self.TILE_SIZE)
+        
+        self.download_thread = QDownloadMapTilesThread(self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y)
         self.download_thread.drawMapTile.connect(self.__drawMapTile)
         self.download_thread.start()
+        
+        #self.corners_mercator = self.convert.calculateCorners(self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y)
+    
+    def fetchMoreTiles(self, mode):
+        print(mode)
+        if mode == 'left':
+            pass
+        
+        elif mode == 'right':
+            pass
+        
+        elif mode == 'top':
+            pass
+        
+        elif mode == 'bottom':
+            pass
+    
+    def showPosition(self):
+        
+        #self.calculateNeededTiles(51.476852, 51.476852, 0, 0})
+        
+        self.calculateNeededTiles(51, 52, -1, 1)
+        
+        #self.download_thread = QDownloadMapTilesThread(self.zoom, 51.476852, 51.476852, 0, 0)
+        #self.download_thread.drawMapTile.connect(self.__drawMapTile)
+        #self.download_thread.start()
     
     def __drawMapTile(self, pixmap, pos_x, pos_y):
         item = self.scene().addPixmap(pixmap)
         item.setPos(pos_y*self.TILE_SIZE, pos_x*self.TILE_SIZE)
         item.setZValue(-10)
+    
+    def scrollContentsBy(self, dx, dy):
+        
+        hor_cur = self.horizontalScrollBar().value()
+        vert_cur = self.verticalScrollBar().value()
+        
+        hor_min = self.horizontalScrollBar().minimum()
+        vert_min = self.verticalScrollBar().minimum()
+        
+        hor_max = self.horizontalScrollBar().maximum()
+        vert_max = self.verticalScrollBar().maximum()
+        
+        if hor_cur <= hor_min + self.TILE_SIZE:
+            self.fetchMoreTiles('left')
+        
+        elif hor_cur >= hor_max - self.TILE_SIZE:
+            self.fetchMoreTiles('right')
+        
+        if vert_cur <= vert_min + self.TILE_SIZE:
+            self.fetchMoreTiles('top')
+        
+        elif vert_cur >= vert_max - self.TILE_SIZE:
+            self.fetchMoreTiles('bottom')
+        
+        super().scrollContentsBy(dx, dy)
 
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtGui import QPixmap
@@ -91,13 +163,20 @@ class QDownloadMapTilesThread(QThread):
     __stop = False
     drawMapTile = pyqtSignal(object, float, float)
     
-    def __init__(self, cache_path, zoom, x_min, x_max, y_min, y_max):
+    def __init__(self, zoom, x_min, x_max, y_min, y_max):
         super().__init__()
         
-        self.cache_path = cache_path
         self.zoom = zoom
         self.x_min, self.x_max = x_min, x_max
         self.y_min, self.y_max = y_min, y_max
+        
+        config = ConfigFile()
+        self.cache_path = config.readPath('cache', 'cachepath')
+        self.cache_path = os.path.join(self.cache_path, 'maps')
+        if not os.path.exists(self.cache_path):
+            os.makedirs(self.cache_path)
+        
+        
     
     def run(self):
         for i, x in enumerate(range(self.x_min, self.x_max)):
