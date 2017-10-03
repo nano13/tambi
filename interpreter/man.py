@@ -63,3 +63,7 @@ Examples:
 fonts
 fonts TeX
 """
+
+snapshot = """
+Makes a snapshot of the content which is actually displayed.
+"""
