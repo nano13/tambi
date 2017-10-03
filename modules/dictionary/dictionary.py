@@ -8,6 +8,9 @@ import sqlite3
 
 class Dictionary(object):
     def __init__(self):
+        pass
+    
+    def initDbConnection(self):
         self.connection = sqlite3.connect("./modules/vocable/vocables.db")
         self.cursor = self.connection.cursor()
     
@@ -68,6 +71,7 @@ class Dictionary(object):
         except IndexError:
             result_object.error = 'invalid parameter'
         else:
+            self.initDbConnection()
             self.cursor.execute(query, [param, param])
             result_object.payload = self.cursor.fetchall()
             

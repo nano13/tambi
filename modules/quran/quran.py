@@ -7,6 +7,9 @@ import sqlite3
 
 class Quran(object):
     def __init__(self):
+        pass
+    
+    def initDbConnection(self):
         self.connection = sqlite3.connect("./modules/quran/quran.db")
         self.cursor = self.connection.cursor()
          
@@ -55,6 +58,7 @@ class Quran(object):
         query = """SELECT surah, ayah, arabic, transcription, de_DE
         FROM quran
         WHERE arabic LIKE ? OR transcription LIKE ? OR de_DE LIKE ?"""
+        self.initDbConnection()
         self.cursor.execute(query, [key, key, key])
         
         result = self.cursor.fetchall()
@@ -83,6 +87,8 @@ class Quran(object):
         return result
     
     def wordHelper(self, args, header):
+        self.initDbConnection()
+        
         columns = ", ".join(header)
         if len(args) == 1:
             #print("LEN 1", args[0])
@@ -107,6 +113,8 @@ class Quran(object):
         return result_object
     
     def structure(self, c, args):
+        self.initDbConnection()
+        
         if len(args) == 0:
             query = """
             SELECT COUNT(*)

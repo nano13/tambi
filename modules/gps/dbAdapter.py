@@ -4,7 +4,10 @@ import sqlite3, time
 class DbAdapter(object):
     
     def __init__(self, dbpath):
-        self.connection = sqlite3.connect(dbpath)
+        self.dbpath = dbpath
+    
+    def initDbConnection(self):
+        self.connection = sqlite3.connect(self.dbpath)
         self.cursor = self.connection.cursor()
         
         self.initializeTables()
@@ -27,6 +30,7 @@ class DbAdapter(object):
     
     def insertLogEntryWithTimestamp(self, data_dict):
         query = "INSERT INTO gps (latitude, longitude, altitude, speed, track, climb, error_horizontal, error_vertical, time_gps, timestamp_local) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        self.initDbConnection()
         self.cursor.execute(query, [
             data_dict['latitude'],
             data_dict['longitude'],
@@ -43,6 +47,7 @@ class DbAdapter(object):
     
     def insertLogEntry(self, data_dict):
         query = "INSERT INTO gps (latitude, longitude, altitude, speed, track, climb, error_horizontal, error_vertical, time_gps) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        self.initDbConnection()
         self.cursor.execute(query, [
             data_dict['latitude'],
             data_dict['longitude'],
@@ -58,6 +63,7 @@ class DbAdapter(object):
     
     def selectLogData(self):
         query = "SELECT * FROM gps"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -65,6 +71,7 @@ class DbAdapter(object):
     
     def selectLatLon(self):
         query = "SELECT latitude, longitude FROM gps"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -72,6 +79,7 @@ class DbAdapter(object):
     
     def selectDiagramData(self):
         query = "SELECT rowid AS x, altitude AS y FROM gps"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -79,6 +87,7 @@ class DbAdapter(object):
     
     def selectMinMaxCoordinate(self):
         query = "SELECT MIN(latitude) AS lat_min, MAX(latitude) AS lat_max, MIN(longitude) AS lon_min, MAX(longitude) AS lon_max FROM gps"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -89,6 +98,7 @@ class DbAdapter(object):
         FROM gps
         WHERE altitude <> "n/a"
         """#Min(altitude) AS alt_min, MAX(altitude) AS alt_max FROM gps"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -97,6 +107,7 @@ class DbAdapter(object):
     def selectSpeedStats(self):
         query = """SELECT MIN(speed) AS speed_min, MAX(speed) AS speed_max, AVG(speed) AS speed_average FROM gps
         WHERE speed <> 'n/a'"""
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -104,6 +115,7 @@ class DbAdapter(object):
     
     def selectTimeStats(self):
         query = "SELECT MIN(timestamp_local) AS time_min, MAX(timestamp_local) AS time_max FROM gps"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -114,6 +126,7 @@ class DbAdapter(object):
         (SELECT latitude FROM gps ORDER BY rowid DESC LIMIT 1) AS stop_lat,
         (SELECT longitude FROM gps ORDER BY rowid DESC LIMIT 1) AS stop_lon
         FROM gps ORDER BY rowid ASC LIMIT 1"""
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -121,6 +134,7 @@ class DbAdapter(object):
     
     def selectCount(self):
         query = "SELECT COUNT(*) AS count FROM gps"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         

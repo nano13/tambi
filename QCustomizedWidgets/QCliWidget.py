@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel, QFileDialog
+from PyQt5.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel, QFileDialog
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QImage, QPainter, QMovie
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize, pyqtSignal
@@ -222,10 +222,15 @@ class QCliWidget(QWidget):
     def activityIndicator(self):
         self.display_widget.deleteLater()
         
-        self.display_widget = QLabel()
+        label = QLabel()
         movie = QMovie('./assets/images/activity_indicator.gif')
-        self.display_widget.setMovie(movie)
         movie.start()
+        label.setMovie(movie)
+        
+        self.display_widget = QWidget()
+        layout = QVBoxLayout()
+        self.display_widget.setLayout(layout)
+        layout.addWidget(label, Qt.AlignCenter)
         
         self.addDisplayWidget()
     

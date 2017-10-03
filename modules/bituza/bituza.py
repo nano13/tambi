@@ -7,7 +7,9 @@ import sqlite3
 
 class Bituza(object):
     def __init__(self):
-        
+        pass
+    
+    def initDbConnection(self):
         self.connection = sqlite3.connect("./modules/bituza/tuz.sqlite.db")
         self.cursor = self.connection.cursor()
     
@@ -67,6 +69,7 @@ class Bituza(object):
     
     def books(self, c, a):
         query = "SELECT name_intern FROM books"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -85,6 +88,7 @@ class Bituza(object):
             result.error = "FEHLER: bitte SQL-Abfrage als Argument übergeben!"
             return result
         
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -139,7 +143,7 @@ class Bituza(object):
             
         query = query_head + query_tail
         
-        
+        self.initDbConnection()
         self.cursor.execute(query, values)
         result = self.cursor.fetchall()
         
@@ -318,7 +322,8 @@ class Bituza(object):
             value = [ "%" + str(search_pattern) + "%" ]
         else:
             value = [ str(search_pattern) ]
-            
+        
+        self.initDbConnection()
         self.cursor.execute(query, value)
         result = self.cursor.fetchall()
         #print(result)
@@ -406,7 +411,8 @@ class Bituza(object):
             result_object = Result()
             result_object.error = "FEHLER: bitte Kapitel als Zahl angeben!"
             return result_object
-            
+        
+        self.initDbConnection()
         self.cursor.execute(query, values)
         result = self.cursor.fetchall()
         
@@ -457,6 +463,7 @@ class Bituza(object):
             error = 'command could not be understood'
             
         if query:
+            self.initDbConnection()
             self.cursor.execute(query, params)
             result = self.cursor.fetchall()
         
@@ -467,6 +474,7 @@ class Bituza(object):
         
     def textusReceptus(self, c, a):
         query = "SELECT verse, unicode FROM word NATURAL JOIN structure WHERE book_id=66 AND chapter=1 AND verse>=1 AND verse<=4"
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -507,6 +515,7 @@ class Bituza(object):
             GROUP BY chapter""".format(args[0])
             head = ['book_id', 'book_string', 'name_intern', 'chapter', 'number_verses']
         
+        self.initDbConnection()
         self.cursor.execute(query)
         result = self.cursor.fetchall()
         
@@ -615,6 +624,7 @@ class Bituza(object):
         query = "SELECT structure_row_id FROM structure WHERE book_id=? AND chapter=?"
         
         values = book_id, chapter
+        self.initDbConnection()
         self.cursor.execute(query, values)
         result = self.cursor.fetchall()
         
