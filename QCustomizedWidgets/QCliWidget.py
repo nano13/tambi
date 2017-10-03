@@ -12,6 +12,7 @@ from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
 from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
 from QCustomizedWidgets.QDeckOverviewWidget import QAudioItems
 from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
+from QCustomizedWidgets.QCustomizedGraphicsView import QCustomizedGraphicsView
 
 from interpreter.interpreter import Interpreter
 from interpreter.exceptions import ClearCalled
@@ -176,6 +177,7 @@ class QCliWidget(QWidget):
                         pass # datastructure does not fit to display type 'table'
                     else:
                         self.resultInTable(result)
+                
                 elif hasattr(result, 'category') and result.category == "multimedia_table":
                     self.resultInMultimediaTable(result)
                 
@@ -307,10 +309,7 @@ class QCliWidget(QWidget):
     def resultInImageWidget(self, result):
         self.display_widget.deleteLater()
         
-        self.display_widget = QGraphicsView()
-        self.display_widget.setScene(QGraphicsScene(self))
-        
-        #result.payload.show()
+        self.display_widget = QCustomizedGraphicsView()
         
         import PIL
         if type(result.payload) == PIL.Image.Image:
@@ -323,7 +322,6 @@ class QCliWidget(QWidget):
         
         item = self.display_widget.scene().addPixmap(pixmap)
         item.setPos(0, 0)
-        print(pixmap)
         self.addDisplayWidget()
     
     def resultIsQtWidget(self, result):

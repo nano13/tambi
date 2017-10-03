@@ -303,9 +303,24 @@ class Gps(object):
         return result_object
     
     def showHeightmap(self, c, args):
+        
+        lat_min = float(args[0])
+        lat_max = float(args[1])
+        lon_min = float(args[2])
+        lon_max = float(args[3])
+        
+        delta_lat = vincenty([lat_min, lon_min], [lat_max, lon_min]).kilometers
+        delta_lon = vincenty([lat_min, lon_min], [lat_min, lon_max]).kilometers
+        
+        print(delta_lat, delta_lon)
+        
         import srtm
         geo_elevation_data = srtm.get_data()
-        image = geo_elevation_data.get_image((1000, 1000), (50, 51), (8, 9), 800)
+        width = 1000
+        height = (delta_lon * width) / delta_lat
+        print(width, height)
+        #image = geo_elevation_data.get_image((1000, 1000), (50, 51), (8, 9), 800)
+        image = geo_elevation_data.get_image((round(width), round(height)), (lat_min, lat_max), (lon_min, lon_max), int(args[4]))
         
         result_object = Result()
         result_object.category = "image"
