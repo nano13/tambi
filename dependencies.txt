@@ -8,5 +8,8 @@ python-markdown
 python-gpsd
 python-geopy
 
+python-srtm-git
+python-pillow
+
 
 git submodule update --init --recursive

@@ -8,3 +8,6 @@ class CommandNotInThisModule(Exception):
 
 class ClearCalled(Exception):
     pass
+
+class SnapshotCalled(Exception):
+    pass

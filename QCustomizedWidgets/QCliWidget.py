@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel
+from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel, QFileDialog
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QImage, QPainter
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize, pyqtSignal
@@ -15,7 +15,7 @@ from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 from QCustomizedWidgets.QCustomizedGraphicsView import QCustomizedGraphicsView
 
 from interpreter.interpreter import Interpreter
-from interpreter.exceptions import ClearCalled
+from interpreter.exceptions import ClearCalled, SnapshotCalled
 from interpreter.structs import Result
 
 from misc.unicodeFonts import UnicodeFonts
@@ -164,6 +164,8 @@ class QCliWidget(QWidget):
             result = self.interpreter.interpreter(command)
         except ClearCalled:
             self.clearDisplayWidget()
+        except SnapshotCalled:
+            self.makeSnapshot()
         else:
             if hasattr(result, 'payload') and result.payload:
                 if hasattr(result, 'error') and result.error:
@@ -215,6 +217,20 @@ class QCliWidget(QWidget):
         self.display_widget = QTextEditEnhanced()
         self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
+    
+    def makeSnapshot(self):
+        image = QImage(self.display_widget.size(), QImage.Format_ARGB32)
+        painter = QPainter(image)
+        
+        if painter.isActive():
+            self.render(painter)
+        
+        painter.end()
+        
+        default_dir = path.join(path.expanduser('~'))
+        filename = QFileDialog.getSaveFileName(self, 'Save Snapshot', default_dir)
+        
+        image.save(filename[0])
     
     def resultInTable(self, result):
         self.display_widget.deleteLater()

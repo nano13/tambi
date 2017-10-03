@@ -1,6 +1,6 @@
 # -*- coding: utf_8 -*-
 
-from interpreter.exceptions import CommandNotInThisModule, ClearCalled
+from interpreter.exceptions import CommandNotInThisModule, ClearCalled, SnapshotCalled
 from interpreter.structs import Result
 import interpreter.man as builtin_man_pages
 
@@ -34,6 +34,8 @@ class CoreCommands(object):
             "history" : self.history,
             
             "fonts" : self.fonts,
+            
+            "snapshot" : self.snapshot,
             }
     
     def commandNotFound(self, command, args):
@@ -111,6 +113,9 @@ class CoreCommands(object):
     
     def clear(self, command, args):
         raise ClearCalled("clear the display widget!")
+    
+    def snapshot(self, c, a):
+        raise SnapshotCalled("make a snapshot of the display widget!")
     
     def exit(self, command, args):
         sys.exit()
