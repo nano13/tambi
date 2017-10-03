@@ -102,7 +102,6 @@ class QMapWidget(QCustomizedGraphicsView):
         #self.corners_mercator = self.convert.calculateCorners(self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y)
     
     def fetchMoreTiles(self, mode):
-        print(mode)
         if mode == 'left':
             pass
         
@@ -114,6 +113,7 @@ class QMapWidget(QCustomizedGraphicsView):
         
         elif mode == 'bottom':
             pass
+        
     
     def showPosition(self):
         
@@ -175,8 +175,6 @@ class QDownloadMapTilesThread(QThread):
         self.cache_path = os.path.join(self.cache_path, 'maps')
         if not os.path.exists(self.cache_path):
             os.makedirs(self.cache_path)
-        
-        
     
     def run(self):
         for i, x in enumerate(range(self.x_min, self.x_max)):

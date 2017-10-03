@@ -1,7 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel, QFileDialog
 #from PyQt5.QtWebKitWidgets import QWebView
-from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QImage, QPainter
+from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QImage, QPainter, QMovie
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize, pyqtSignal
 from PyQt5.QtChart import QChart, QXYSeries, QLineSeries#, QChartView
 
@@ -146,18 +146,22 @@ class QCliWidget(QWidget):
                 
                 from PyQt5.QtWidgets import QLabel, QPushButton
                 widget = QLabel('blaaaa')
-                #widget = QPushButton('blaa')
-                #widget = QTextEditEnhanced()
-                #widget.setText('fsdafsdf')
-                #self.beamer.setWidget(widget)
                 
                 self.beamer.setWidget(self.display_widget)
                 #self.beamer.setText('test')
                 self.beamer.routeToScreen()
                 self.beamer.showFullScreen()
         else:
-            self.handleCommand(command)
+            #self.handleCommand(command)
+            self.set_tab_text.emit(command)
+            self.activityIndicator()
+            self.interpreter_thread = HandleCommandThread(command)
+            self.interpreter_thread.processResult.connect(self.processResult)
+            self.interpreter_thread.clearDisplayWidget.connect(self.clearDisplayWidget)
+            self.interpreter_thread.makeSnapshot.connect(self.makeSnapshot)
+            self.interpreter_thread.start()
     
+    """
     def handleCommand(self, command):
         self.set_tab_text.emit(command)
         try:
@@ -167,50 +171,63 @@ class QCliWidget(QWidget):
         except SnapshotCalled:
             self.makeSnapshot()
         else:
-            if hasattr(result, 'payload') and result.payload:
-                if hasattr(result, 'error') and result.error:
-                    self.showErrorMessage(result.error)
-                elif result is None:
-                    self.showErrorMessage('no result found')
-                elif hasattr(result, 'category') and result.category == "table":
-                    try:
-                        result.payload[0]
-                    except IndexError:
-                        pass # datastructure does not fit to display type 'table'
-                    else:
-                        self.resultInTable(result)
-                
-                elif hasattr(result, 'category') and result.category == "multimedia_table":
-                    self.resultInMultimediaTable(result)
-                
-                elif hasattr(result, 'category') and result.category == "list":
-                    self.resultInTextEdit(result)
-                
-                elif hasattr(result, 'category') and result.category == "text":
-                    self.resultInTextEdit(result)
-                
-                elif hasattr(result, 'category') and result.category == "string":
-                    self.resultInTextEdit(result)
-                
-                elif hasattr(result, 'category') and result.category == "itemized":
-                    self.resultInItemizedWidget(result)
-                
-                elif hasattr(result, 'category') and result.category == "image":
-                    self.resultInImageWidget(result)
-                
-                elif hasattr(result, 'category') and result.category == "html":
-                    #self.resultInHTMLWidget(result)
-                    self.resultInTextEdit(result)
-                
-                elif hasattr(result, 'category') and result.category == "qt_widget":
-                    self.resultIsQtWidget(result)
-                
-                elif hasattr(result, 'category') and result.category == 'diagram':
-                    self.resultInDiagram(result)
-            else:
-                result = Result()
-                result.payload = 'empty result set'
+    """
+    
+    def processResult(self, result):
+        if hasattr(result, 'payload') and result.payload:
+            if hasattr(result, 'error') and result.error:
+                self.showErrorMessage(result.error)
+            elif result is None:
+                self.showErrorMessage('no result found')
+            elif hasattr(result, 'category') and result.category == "table":
+                try:
+                    result.payload[0]
+                except IndexError:
+                    pass # datastructure does not fit to display type 'table'
+                else:
+                    self.resultInTable(result)
+            
+            elif hasattr(result, 'category') and result.category == "multimedia_table":
+                self.resultInMultimediaTable(result)
+            
+            elif hasattr(result, 'category') and result.category == "list":
                 self.resultInTextEdit(result)
+            
+            elif hasattr(result, 'category') and result.category == "text":
+                self.resultInTextEdit(result)
+            
+            elif hasattr(result, 'category') and result.category == "string":
+                self.resultInTextEdit(result)
+            
+            elif hasattr(result, 'category') and result.category == "itemized":
+                self.resultInItemizedWidget(result)
+            
+            elif hasattr(result, 'category') and result.category == "image":
+                self.resultInImageWidget(result)
+            
+            elif hasattr(result, 'category') and result.category == "html":
+                #self.resultInHTMLWidget(result)
+                self.resultInTextEdit(result)
+            
+            elif hasattr(result, 'category') and result.category == "qt_widget":
+                self.resultIsQtWidget(result)
+            
+            elif hasattr(result, 'category') and result.category == 'diagram':
+                self.resultInDiagram(result)
+        else:
+            result = Result()
+            result.payload = 'empty result set'
+            self.resultInTextEdit(result)
+    
+    def activityIndicator(self):
+        self.display_widget.deleteLater()
+        
+        self.display_widget = QLabel()
+        movie = QMovie('./assets/images/activity_indicator.gif')
+        self.display_widget.setMovie(movie)
+        movie.start()
+        
+        self.addDisplayWidget()
     
     def clearDisplayWidget(self):
         self.display_widget.deleteLater()
@@ -427,3 +444,28 @@ class QCliWidget(QWidget):
                 return True
         return False
     
+
+from PyQt5.QtCore import QThread, pyqtSignal
+class HandleCommandThread(QThread):
+    
+    processResult = pyqtSignal(object)
+    clearDisplayWidget = pyqtSignal()
+    makeSnapshot = pyqtSignal()
+    
+    interpreter = Interpreter()
+    
+    def __init__(self, command):
+        super().__init__()
+        self.command = command
+    
+    def run(self):
+        
+        try:
+            result = self.interpreter.interpreter(self.command)
+        except ClearCalled:
+            self.clearDisplayWidget.emit()
+        except SnapshotCalled:
+            self.makeSnapshot.emit()
+        else:
+            self.processResult.emit(result)
+        
