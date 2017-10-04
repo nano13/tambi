@@ -24,7 +24,7 @@ from configs.configFiles import ConfigFile
 
 from functools import partial
 from os import path
-import _thread
+import queue
 
 SCALE_FACTOR = 1.15
 
@@ -223,9 +223,6 @@ class QCliWidget(QWidget):
                     #self.resultInHTMLWidget(result)
                     self.resultInTextEdit(result)
                 
-                elif hasattr(result, 'category') and result.category == "qt_widget":
-                    self.resultIsQtWidget(result)
-                
                 elif hasattr(result, 'category') and result.category == 'diagram':
                     self.resultInDiagram(result)
                 
@@ -381,11 +378,6 @@ class QCliWidget(QWidget):
         item.setPos(0, 0)
         self.addDisplayWidget()
     
-    def resultIsQtWidget(self, result):
-        self.display_widget.deleteLater()
-        self.display_widget = result.payload
-        self.addDisplayWidget()
-    
     def resultInDiagram(self, result):
         self.display_widget.deleteLater()
         
@@ -477,7 +469,6 @@ class QCliWidget(QWidget):
     
 
 from PyQt5.QtCore import QThread, pyqtSignal
-import queue
 class HandleCommandThread(QThread):
     
     processResult = pyqtSignal(object)
@@ -505,12 +496,10 @@ class HandleCommandThread(QThread):
         else:
             self.stopQueueListener.emit()
             self.processResult.emit(result)
-        
 
 class GetQueueItemsThread(QThread):
     
     __stop = False
-    
     processQueueItem = pyqtSignal(object)
     
     def __init__(self, queue):
@@ -519,9 +508,9 @@ class GetQueueItemsThread(QThread):
     
     def run(self):
         while not self.__stop:
-            item = QueueItem(self.queue.get())
-            self.processQueueItem.emit(item)
-            
+            if not self.queue.empty():
+                item = QueueItem(self.queue.get())
+                self.processQueueItem.emit(item)
     
     def stop(self):
         self.__stop = True
@@ -532,4 +521,3 @@ class QueueItem(object):
     
     def getItem(self):
         return self.item
-
