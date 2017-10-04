@@ -16,9 +16,8 @@ from configs.configFiles import ConfigFile
 import signal
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
+TILE_SIZE = 256
 class QMapWidget(QCustomizedGraphicsView):
-    
-    TILE_SIZE = 256
     
     zoom = 10
     
@@ -102,7 +101,7 @@ class QMapWidget(QCustomizedGraphicsView):
         self.tiles_matrix['y_min'] = tile_min_y
         self.tiles_matrix['y_max'] = tile_max_y
         
-        self.scene_rect = QRectF(0, 0, (tile_max_x - tile_min_x)*self.TILE_SIZE, (tile_max_y - tile_min_y)*self.TILE_SIZE)
+        self.scene_rect = QRectF(0, 0, (tile_max_x - tile_min_x)*TILE_SIZE, (tile_max_y - tile_min_y)*TILE_SIZE)
         
         """
         self.download_thread = QDownloadMapTilesThread(self.scene(), self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y, 'init')
@@ -123,23 +122,24 @@ class QMapWidget(QCustomizedGraphicsView):
     
     def fetchMoreTiles(self, mode):
         if mode == 'left':
+            self.download_queue.put({'mode': 'left'})
+            """
             x_min = self.tiles_matrix['x_min']
             y_min = self.tiles_matrix['y_min']
             y_max = self.tiles_matrix['y_max']
-            
+            """
             #self.download_thread_left = QDownloadMapTilesThread(self.scene(), self.zoom, x_min-2, x_min, y_min, y_max, 'left')
             #self.download_thread_left.drawMapTile.connect(self.__drawMapTile)
             #self.download_thread_left.start()
         
         elif mode == 'right':
-            pass
+            self.download_queue.put({'mode': 'right'})
         
         elif mode == 'top':
-            pass
+            self.download_queue.put({'mode': 'top'})
         
         elif mode == 'bottom':
-            pass
-        
+            self.download_queue.put({'mode': 'bottom'})
     
     def showPosition(self):
         #self.calculateNeededTiles(51.476852, 51.476852, 0, 0})
@@ -147,7 +147,7 @@ class QMapWidget(QCustomizedGraphicsView):
     
     def __drawMapTile(self, pixmap, pos_x, pos_y):
         item = self.scene().addPixmap(pixmap)
-        item.setPos(pos_y*self.TILE_SIZE, pos_x*self.TILE_SIZE)
+        item.setPos(pos_y*TILE_SIZE, pos_x*TILE_SIZE)
         item.setZValue(-10)
     
     def scrollContentsBy(self, dx, dy):
@@ -161,16 +161,16 @@ class QMapWidget(QCustomizedGraphicsView):
         hor_max = self.horizontalScrollBar().maximum()
         vert_max = self.verticalScrollBar().maximum()
         
-        if hor_cur <= hor_min + self.TILE_SIZE:
+        if hor_cur <= hor_min + TILE_SIZE:
             self.fetchMoreTiles('left')
         
-        elif hor_cur >= hor_max - self.TILE_SIZE:
+        elif hor_cur >= hor_max - TILE_SIZE:
             self.fetchMoreTiles('right')
         
-        if vert_cur <= vert_min + self.TILE_SIZE:
+        if vert_cur <= vert_min + TILE_SIZE:
             self.fetchMoreTiles('top')
         
-        elif vert_cur >= vert_max - self.TILE_SIZE:
+        elif vert_cur >= vert_max - TILE_SIZE:
             self.fetchMoreTiles('bottom')
         
         super().scrollContentsBy(dx, dy)
@@ -182,6 +182,9 @@ class QDownloadMapTilesThread(QThread):
     
     __stop = False
     drawMapTile = pyqtSignal(object, float, float)
+    
+    scene_rect = None
+    tile_rect = None
     
     """
     def __init__(self, scene, zoom, x_min, x_max, y_min, y_max, mode):
@@ -233,7 +236,7 @@ class QDownloadMapTilesThread(QThread):
                 elif item['mode'] == 'bottom':
                     pass
             
-            time.sleep(0.0001)
+            time.sleep(0.001)
     
     def initialRun(self, item):
         for i, x in enumerate(range(item['x_min'], item['x_max'])):
