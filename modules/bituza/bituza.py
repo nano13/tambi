@@ -55,7 +55,7 @@ class Bituza(object):
             "bituza.schema" : self.schema,
         }
     
-    def interpreter(self, command, args):
+    def interpreter(self, command, args, queue):
         #print("args:", args)
         
         commands = self.getCommands()

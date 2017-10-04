@@ -37,7 +37,7 @@ class Sword(object):
             "sword.languages" : self.listLanguages,
             }
     
-    def interpreter(self, command, args):
+    def interpreter(self, command, args, queue):
         commands = self.getCommands()
         return commands.get(command, self.commandNotFound)(command, args)
     

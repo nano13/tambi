@@ -31,7 +31,7 @@ class Deck(object):
             "deck.ipaConsonants" : self.generateIPATable,
         }
     
-    def interpreter(self, command, args):
+    def interpreter(self, command, args, queue):
         commands = self.getCommands()
         return commands.get(command, self.commandNotFound)(command, args)
     

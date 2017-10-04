@@ -19,8 +19,8 @@ class Frets(object):
                 
                 "frets.chord" : self.chord,
                 }
-        
-    def interpreter(self, command, args):
+    
+    def interpreter(self, command, args, queue):
         commands = self.getCommands()
         return commands.get(command, self.commandNotFound)(command, args)
     

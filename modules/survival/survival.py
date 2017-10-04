@@ -22,7 +22,7 @@ class Survival(object):
             "survival.search" : self.search,
         }
     
-    def interpreter(self, command, args):
+    def interpreter(self, command, args, queue):
         print("args:", args)
         
         commands = self.getCommands()

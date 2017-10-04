@@ -12,35 +12,35 @@ class Interpreter(object):
     def __init__(self):
         pass
     
-    def commaSplit(self, input):
+    def commaSplit(self, input_):
         return_args = []
         
-        comma_splitted = input[-1].rsplit(",", 1)
+        comma_splitted = input_[-1].rsplit(",", 1)
         
         try:
             if (comma_splitted[1]).isdigit():
                 line = comma_splitted[1]
-                return_args = input[:-1]
+                return_args = input_[:-1]
                 
                 return_args.append(comma_splitted[0])
             else:
                 line = 0
-                return_args = input
+                return_args = input_
         except IndexError:
             line = 0
-            return_args = input
+            return_args = input_
             
         return return_args, line
     
-    def interpreter(self, input):
-        input = input.strip()
-        input = input.replace("\"", "'")
-        space_splitted = input.split(None)
+    def interpreter(self, input_, queue):
+        input_ = input_.strip()
+        input_ = input_.replace("\"", "'")
+        space_splitted = input_.split(None)
         
         try:
             command = space_splitted[0]
         except IndexError:
-            print("no input")
+            print("no input_")
             
         args = []
         quotation_found = False
@@ -76,10 +76,10 @@ class Interpreter(object):
         try:
             print("command, args, line:", command, args, line)
         except UnboundLocalError:
-            # we have probably an empty input here
+            # we have probably an empty input_ here
             return
         
-        result = self.tryCommandInCoreCommands(command, args)
+        result = self.tryCommandInCoreCommands(command, args, queue)
         try:
             result.cursorPosition = line
         except AttributeError:
@@ -87,18 +87,18 @@ class Interpreter(object):
         
         return result
     
-    def tryCommandInCoreCommands(self, command, args):
+    def tryCommandInCoreCommands(self, command, args, queue):
         try:
             return_value = self.core_commands.execute(command, args)
         except CommandNotInThisModule:
-            return self.tryCommandInModules(command, args)
+            return self.tryCommandInModules(command, args, queue)
         else:
             return return_value
     
-    def tryCommandInModules(self, command, args):
+    def tryCommandInModules(self, command, args, queue):
         for current_module in self.modules_list:
             try:
-                return_value = current_module.interpreter(command, args)
+                return_value = current_module.interpreter(command, args, queue)
             except CommandNotInThisModule:
                 pass
             else:

@@ -34,6 +34,8 @@ class QCliWidget(QWidget):
     vkbd = None
     beamer = None
     
+    result_from_queue = False
+    
     set_tab_text = pyqtSignal(str)
     
     def __init__(self):
@@ -118,7 +120,7 @@ class QCliWidget(QWidget):
         
         #self.display_widget.setFixedSize(x, y)
         #self.scene.setSceneRect(0, 0, x, y)
-        
+    
     def resizeEvent(self, event):
         #super().resizeEvent(event)
         self.resizeDisplayWidget()
@@ -154,70 +156,83 @@ class QCliWidget(QWidget):
         else:
             #self.handleCommand(command)
             self.set_tab_text.emit(command)
-            self.activityIndicator()
-            self.interpreter_thread = HandleCommandThread(command)
+            
+            #self.activityIndicator()
+            
+            q = queue.Queue()
+            
+            self.interpreter_thread = HandleCommandThread(command, q)
             self.interpreter_thread.processResult.connect(self.processResult)
             self.interpreter_thread.clearDisplayWidget.connect(self.clearDisplayWidget)
             self.interpreter_thread.makeSnapshot.connect(self.makeSnapshot)
+            self.interpreter_thread.stopQueueListener.connect(self.stopQueueListener)
             self.interpreter_thread.start()
+            
+            self.queue_thread = GetQueueItemsThread(q)
+            self.queue_thread.processQueueItem.connect(self.processQueueItem)
+            self.queue_thread.start()
     
-    """
-    def handleCommand(self, command):
-        self.set_tab_text.emit(command)
-        try:
-            result = self.interpreter.interpreter(command)
-        except ClearCalled:
-            self.clearDisplayWidget()
-        except SnapshotCalled:
-            self.makeSnapshot()
-        else:
-    """
+    def stopQueueListener(self):
+        self.queue_thread.stop()
+    
+    def processQueueItem(self, item):
+        self.result_from_queue = True
+        
+        result_object = Result()
+        result_object.payload = item.getItem()
+        self.resultInTextEdit(result_object)
     
     def processResult(self, result):
-        if hasattr(result, 'payload') and result.payload:
-            if hasattr(result, 'error') and result.error:
-                self.showErrorMessage(result.error)
-            elif result is None:
-                self.showErrorMessage('no result found')
-            elif hasattr(result, 'category') and result.category == "table":
-                try:
-                    result.payload[0]
-                except IndexError:
-                    pass # datastructure does not fit to display type 'table'
-                else:
-                    self.resultInTable(result)
-            
-            elif hasattr(result, 'category') and result.category == "multimedia_table":
-                self.resultInMultimediaTable(result)
-            
-            elif hasattr(result, 'category') and result.category == "list":
-                self.resultInTextEdit(result)
-            
-            elif hasattr(result, 'category') and result.category == "text":
-                self.resultInTextEdit(result)
-            
-            elif hasattr(result, 'category') and result.category == "string":
-                self.resultInTextEdit(result)
-            
-            elif hasattr(result, 'category') and result.category == "itemized":
-                self.resultInItemizedWidget(result)
-            
-            elif hasattr(result, 'category') and result.category == "image":
-                self.resultInImageWidget(result)
-            
-            elif hasattr(result, 'category') and result.category == "html":
-                #self.resultInHTMLWidget(result)
-                self.resultInTextEdit(result)
-            
-            elif hasattr(result, 'category') and result.category == "qt_widget":
-                self.resultIsQtWidget(result)
-            
-            elif hasattr(result, 'category') and result.category == 'diagram':
-                self.resultInDiagram(result)
+        if self.result_from_queue:
+            self.result_from_queue = False
+        
         else:
-            result = Result()
-            result.payload = 'empty result set'
-            self.resultInTextEdit(result)
+            if hasattr(result, 'payload') and result.payload:
+                if hasattr(result, 'error') and result.error:
+                    self.showErrorMessage(result.error)
+                elif result is None:
+                    self.showErrorMessage('no result found')
+                elif hasattr(result, 'category') and result.category == "table":
+                    try:
+                        result.payload[0]
+                    except IndexError:
+                        pass # datastructure does not fit to display type 'table'
+                    else:
+                        self.resultInTable(result)
+                
+                elif hasattr(result, 'category') and result.category == "multimedia_table":
+                    self.resultInMultimediaTable(result)
+                
+                elif hasattr(result, 'category') and result.category == "list":
+                    self.resultInTextEdit(result)
+                
+                elif hasattr(result, 'category') and result.category == "text":
+                    self.resultInTextEdit(result)
+                
+                elif hasattr(result, 'category') and result.category == "string":
+                    self.resultInTextEdit(result)
+                
+                elif hasattr(result, 'category') and result.category == "itemized":
+                    self.resultInItemizedWidget(result)
+                
+                elif hasattr(result, 'category') and result.category == "image":
+                    self.resultInImageWidget(result)
+                
+                elif hasattr(result, 'category') and result.category == "html":
+                    #self.resultInHTMLWidget(result)
+                    self.resultInTextEdit(result)
+                
+                elif hasattr(result, 'category') and result.category == "qt_widget":
+                    self.resultIsQtWidget(result)
+                
+                elif hasattr(result, 'category') and result.category == 'diagram':
+                    self.resultInDiagram(result)
+                
+            else:
+                result = Result()
+                result.payload = 'empty result set'
+                self.resultInTextEdit(result)
+        
     
     def activityIndicator(self):
         self.display_widget.deleteLater()
@@ -393,6 +408,8 @@ class QCliWidget(QWidget):
         self.display_widget = view
         self.addDisplayWidget()
     
+    
+    
     def showErrorMessage(self, message):
         self.display_widget.deleteLater()
         self.display_widget = QTextEditEnhanced()
@@ -451,26 +468,59 @@ class QCliWidget(QWidget):
     
 
 from PyQt5.QtCore import QThread, pyqtSignal
+import queue
 class HandleCommandThread(QThread):
     
     processResult = pyqtSignal(object)
     clearDisplayWidget = pyqtSignal()
     makeSnapshot = pyqtSignal()
     
+    stopQueueListener = pyqtSignal()
+    
     interpreter = Interpreter()
     
-    def __init__(self, command):
+    def __init__(self, command, queue):
         super().__init__()
         self.command = command
+        self.queue = queue
     
     def run(self):
-        
         try:
-            result = self.interpreter.interpreter(self.command)
+            result = self.interpreter.interpreter(self.command, self.queue)
         except ClearCalled:
+            self.stopQueueListener.emit()
             self.clearDisplayWidget.emit()
         except SnapshotCalled:
+            self.stopQueueListener.emit()
             self.makeSnapshot.emit()
         else:
+            self.stopQueueListener.emit()
             self.processResult.emit(result)
         
+
+class GetQueueItemsThread(QThread):
+    
+    __stop = False
+    
+    processQueueItem = pyqtSignal(object)
+    
+    def __init__(self, queue):
+        super().__init__()
+        self.queue = queue
+    
+    def run(self):
+        while not self.__stop:
+            item = QueueItem(self.queue.get())
+            self.processQueueItem.emit(item)
+            
+    
+    def stop(self):
+        self.__stop = True
+
+class QueueItem(object):
+    def __init__(self, item):
+        self.item = item
+    
+    def getItem(self):
+        return self.item
+

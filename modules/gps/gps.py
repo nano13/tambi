@@ -1,6 +1,6 @@
 
 from QCustomizedWidgets.QMapView import QMapView
-from QCustomizedWidgets.QMapWidget import QMapWidget
+#from QCustomizedWidgets.QMapWidget import QMapWidget
  
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
@@ -47,9 +47,12 @@ class Gps(object):
             "gps.heightmap" : self.showHeightmap,
         }
     
-    def interpreter(self, command, args):
+    def interpreter(self, command, args, queue):
         commands = self.getCommands()
-        return commands.get(command, self.commandNotFound)(command, args)
+        try:
+            return commands.get(command, self.commandNotFound)(command, args, queue)
+        except TypeError:
+            return commands.get(command, self.commandNotFound)(command, args)
     
     def commandNotFound(self, c, a):
         raise CommandNotInThisModule("command not found in module vocable")
@@ -293,14 +296,14 @@ class Gps(object):
         result_object.payload = mapView
         return result_object
     
-    def showMap(self, c, args):
-        mapWidget = QMapWidget()
-        
-        mapWidget.showPosition()
+    def showMap(self, c, args, queue):
+        import time
+        for i in range(10):
+            queue.put(str(i))
+            print("putted:", i)
+            time.sleep(1)
         
         result_object = Result()
-        result_object.category = "qt_widget"
-        result_object.payload = mapWidget
         return result_object
     
     def showHeightmap(self, c, args):

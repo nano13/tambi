@@ -52,7 +52,7 @@ class Tambi(QMainWindow):
                 command = sys.argv[2]
                 #print(command)
                 self.addNewCliTabWithCommand(command)
-        
+    
     def center(self):
         geometry = self.frameGeometry()
         screen = QApplication.desktop().screenNumber(QApplication.desktop().cursor().pos())
@@ -141,7 +141,7 @@ class Tambi(QMainWindow):
         
         self.setWindowTitle('tambi')
         self.show()
-        
+    
     def applyStylesheet(self):
         path = self.config.readVar('global', 'stylesheet')
         stylesheet = ''
@@ -153,7 +153,7 @@ class Tambi(QMainWindow):
             self.setStyleSheet(stylesheet)
         except FileNotFoundError:
             pass
-        
+    
     def initTabs(self):
         tab_widget = QTabWidget()
         tab_widget.setTabsClosable(True)
@@ -162,10 +162,10 @@ class Tambi(QMainWindow):
         self.setCentralWidget(tab_widget)
         
         return tab_widget
-        
+    
     def closeTab(self, tab_id):
         self.tab_widget.removeTab(tab_id)
-        
+    
     def addNewCliTab(self):
         from functools import partial
         core = QCoreTab()
@@ -175,13 +175,13 @@ class Tambi(QMainWindow):
         
         self.activateNewTab()
         tab.set_tab_text.connect(partial(self.setTabText, self.tab_widget.currentIndex()))
-        
+    
     def addNewDualCliTab(self):
         tab = QCoreTab().dualCliTab()
         self.tab_widget.addTab(tab, "dual cli")
         
         self.activateNewTab()
-        
+    
     def addNewParallelBibleTab(self):
         tab = QCoreTab().parallelBibleTab()
         self.tab_widget.addTab(tab, "parallel view")
@@ -228,6 +228,7 @@ class Tambi(QMainWindow):
         self.tab_widget.addTab(tab, "Amazing Grace")
         
         self.activateNewTab()
+    
     def facepalm(self):
         from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
         self.canvas = QBeamerWindow()
