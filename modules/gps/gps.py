@@ -297,13 +297,19 @@ class Gps(object):
         return result_object
     
     def showMap(self, c, args, queue):
+        """
         import time
         for i in range(10):
             queue.put(str(i))
             print("putted:", i)
             time.sleep(1)
-        
+        """
         result_object = Result()
+        result_object.category = "command"
+        result_object.payload = {
+            "command": "qmapview",
+            "args": args,
+            }
         return result_object
     
     def showHeightmap(self, c, args):

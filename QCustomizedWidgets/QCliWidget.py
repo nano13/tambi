@@ -13,6 +13,7 @@ from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
 from QCustomizedWidgets.QDeckOverviewWidget import QAudioItems
 from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 from QCustomizedWidgets.QCustomizedGraphicsView import QCustomizedGraphicsView
+from QCustomizedWidgets.QMapWidget import QMapWidget
 
 from interpreter.interpreter import Interpreter
 from interpreter.exceptions import ClearCalled, SnapshotCalled
@@ -228,6 +229,9 @@ class QCliWidget(QWidget):
                 elif hasattr(result, 'category') and result.category == 'diagram':
                     self.resultInDiagram(result)
                 
+                elif hasattr(result, 'category') and result.category == 'command':
+                    self.showMapWidget()
+                
             else:
                 result = Result()
                 result.payload = 'empty result set'
@@ -403,12 +407,17 @@ class QCliWidget(QWidget):
         chart.createDefaultAxes()
         
         view = QChartViewEnhanced(chart)
-        #view.addSeries(curve)
         view.setRenderHint(QPainter.Antialiasing)
         self.display_widget = view
         self.addDisplayWidget()
     
-    
+    def showMapWidget(self):
+        self.display_widget.deleteLater()
+        
+        self.display_widget = QMapWidget()
+        self.display_widget.showPosition()
+        
+        self.addDisplayWidget()
     
     def showErrorMessage(self, message):
         self.display_widget.deleteLater()
