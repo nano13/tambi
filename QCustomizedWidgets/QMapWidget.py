@@ -70,7 +70,7 @@ class QMapWidget(QCustomizedGraphicsView):
         self.setRenderHint(QPainter.Antialiasing)
         
         self.calculateNeededTiles(self.boundings_path)
-        self.drawPointList()
+        #self.drawPointList()
     
     def zoomOutClicked(self):
         if self.download_thread:
@@ -86,7 +86,7 @@ class QMapWidget(QCustomizedGraphicsView):
         self.setRenderHint(QPainter.Antialiasing)
         
         self.calculateNeededTiles(self.boundings_path)
-        self.drawPointList()
+        #self.drawPointList()
     
     def calculateNeededTiles(self, lat_min, lat_max, lon_min, lon_max):
         x_min, y_max = self.convert.degToTileNumber(self.zoom, lat_min, lon_min)
@@ -111,7 +111,7 @@ class QMapWidget(QCustomizedGraphicsView):
     
     def showPosition(self):
         #self.calculateNeededTiles(51.476852, 51.476852, 0, 0})
-        self.calculateNeededTiles(51, 52, -1, 1)
+        self.calculateNeededTiles(50, 53, -2, 2)
     
     def __drawMapTile(self, pixmap, pos_x, pos_y):
         item = self.scene().addPixmap(pixmap)
@@ -170,17 +170,17 @@ class QDownloadMapTilesThread(QThread):
     def run(self):
         while not self.__stop:
             if not self.queue.empty():
+                print(self.tile_rect)
+                
                 item = self.queue.get()
                 if item['mode'] == 'init':
-                    print("INIT _-_______________________")
                     self.initialRun(item)
                 
                 elif item['mode'] == 'left':
-                    #TODO
-                    """
                     self.scene_rect = self.scene.itemsBoundingRect()
                     
-                    x = self.tile_rect['x_min']-1
+                    x = self.tile_rect['x_min'] -2
+                    self.tile_rect['x_min'] = self.tile_rect['x_min'] -1
                     
                     x_pos = self.scene_rect.x()-1 * TILE_SIZE
                     
@@ -189,10 +189,6 @@ class QDownloadMapTilesThread(QThread):
                         y_pos = self.scene_rect.y()+j * TILE_SIZE
                         
                         self.fetchTile(self.tile_rect['zoom'], x, y, x_pos, y_pos)
-                    
-                    self.tile_rect['x_min'] = self.tile_rect['x_min'] -1
-                    """
-                    pass
                 
                 elif item['mode'] == 'right':
                     self.scene_rect = self.scene.itemsBoundingRect()
@@ -209,8 +205,18 @@ class QDownloadMapTilesThread(QThread):
                         self.fetchTile(self.tile_rect['zoom'], x, y, x_pos, y_pos)
                 
                 elif item['mode'] == 'top':
-                    #self.scene_rect = self.scene.itemsBoundingRect()
-                    pass
+                    self.scene_rect = self.scene.itemsBoundingRect()
+                    
+                    y = self.tile_rect['y_min'] -1
+                    self.tile_rect['y_min'] = self.tile_rect['y_min'] -1
+                    
+                    y_pos = self.scene_rect.y()-1 * TILE_SIZE
+                    
+                    for i, x in enumerate(range(self.tile_rect['x_min'], self.tile_rect['x_max'])):
+                        
+                        x_pos = self.scene_rect.x()+i * TILE_SIZE
+                        
+                        self.fetchTile(self.tile_rect['zoom'], x, y, x_pos, y_pos)
                     
                 
                 elif item['mode'] == 'bottom':
