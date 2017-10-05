@@ -89,57 +89,25 @@ class QMapWidget(QCustomizedGraphicsView):
         self.drawPointList()
     
     def calculateNeededTiles(self, lat_min, lat_max, lon_min, lon_max):
-        tile_min_x, tile_max_y = self.convert.degToTileNumber(self.zoom, lat_min, lon_min)
+        x_min, y_max = self.convert.degToTileNumber(self.zoom, lat_min, lon_min)
         
-        tile_max_x, tile_min_y = self.convert.degToTileNumber(self.zoom, lat_max, lon_max)
+        x_max, y_min = self.convert.degToTileNumber(self.zoom, lat_max, lon_max)
         
-        tile_max_x += 1
-        tile_max_y += 1
+        x_max += 1
+        y_max += 1
         
-        self.tiles_matrix['x_min'] = tile_min_x
-        self.tiles_matrix['x_max'] = tile_max_x
-        self.tiles_matrix['y_min'] = tile_min_y
-        self.tiles_matrix['y_max'] = tile_max_y
-        
-        self.scene_rect = QRectF(0, 0, (tile_max_x - tile_min_x)*TILE_SIZE, (tile_max_y - tile_min_y)*TILE_SIZE)
-        
-        """
-        self.download_thread = QDownloadMapTilesThread(self.scene(), self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y, 'init')
-        self.download_thread.drawMapTile.connect(self.__drawMapTile)
-        self.download_thread.start()
-        """
+        self.scene_rect = QRectF(0, 0, (x_max - x_min)*TILE_SIZE, (y_max - y_min)*TILE_SIZE)
         
         self.download_queue.put({
             'zoom': self.zoom,
-            'x_min': tile_min_x,
-            'x_max': tile_max_x,
-            'y_min': tile_min_y,
-            'y_max': tile_max_y,
+            'x_min': x_min,
+            'x_max': x_max,
+            'y_min': y_min,
+            'y_max': y_max,
             'mode': 'init',
             })
         
-        #self.corners_mercator = self.convert.calculateCorners(self.zoom, tile_min_x, tile_max_x, tile_min_y, tile_max_y)
-    
-    def fetchMoreTiles(self, mode):
-        if mode == 'left':
-            self.download_queue.put({'mode': 'left'})
-            """
-            x_min = self.tiles_matrix['x_min']
-            y_min = self.tiles_matrix['y_min']
-            y_max = self.tiles_matrix['y_max']
-            """
-            #self.download_thread_left = QDownloadMapTilesThread(self.scene(), self.zoom, x_min-2, x_min, y_min, y_max, 'left')
-            #self.download_thread_left.drawMapTile.connect(self.__drawMapTile)
-            #self.download_thread_left.start()
-        
-        elif mode == 'right':
-            self.download_queue.put({'mode': 'right'})
-        
-        elif mode == 'top':
-            self.download_queue.put({'mode': 'top'})
-        
-        elif mode == 'bottom':
-            self.download_queue.put({'mode': 'bottom'})
+        #self.corners_mercator = self.convert.calculateCorners(self.zoom, x_min, x_max, y_min, y_max)
     
     def showPosition(self):
         #self.calculateNeededTiles(51.476852, 51.476852, 0, 0})
@@ -147,7 +115,8 @@ class QMapWidget(QCustomizedGraphicsView):
     
     def __drawMapTile(self, pixmap, pos_x, pos_y):
         item = self.scene().addPixmap(pixmap)
-        item.setPos(pos_y*TILE_SIZE, pos_x*TILE_SIZE)
+        #item.setPos(pos_x*TILE_SIZE, pos_y*TILE_SIZE)
+        item.setPos(pos_x, pos_y)
         item.setZValue(-10)
     
     def scrollContentsBy(self, dx, dy):
@@ -161,17 +130,17 @@ class QMapWidget(QCustomizedGraphicsView):
         hor_max = self.horizontalScrollBar().maximum()
         vert_max = self.verticalScrollBar().maximum()
         
-        if hor_cur <= hor_min + TILE_SIZE:
-            self.fetchMoreTiles('left')
+        if hor_cur <= hor_min: # + TILE_SIZE:
+            self.download_queue.put({'mode': 'left'})
         
-        elif hor_cur >= hor_max - TILE_SIZE:
-            self.fetchMoreTiles('right')
+        elif hor_cur >= hor_max: # - TILE_SIZE:
+            self.download_queue.put({'mode': 'right'})
         
-        if vert_cur <= vert_min + TILE_SIZE:
-            self.fetchMoreTiles('top')
+        if vert_cur <= vert_min: # + TILE_SIZE:
+            self.download_queue.put({'mode': 'top'})
         
-        elif vert_cur >= vert_max - TILE_SIZE:
-            self.fetchMoreTiles('bottom')
+        elif vert_cur >= vert_max: # - TILE_SIZE:
+            self.download_queue.put({'mode': 'bottom'})
         
         super().scrollContentsBy(dx, dy)
 
@@ -185,25 +154,6 @@ class QDownloadMapTilesThread(QThread):
     
     scene_rect = None
     tile_rect = None
-    
-    """
-    def __init__(self, scene, zoom, x_min, x_max, y_min, y_max, mode):
-        super().__init__()
-        
-        #self.scene = scene
-        self.scene_rect = scene.itemsBoundingRect()
-        
-        self.zoom = zoom
-        self.x_min, self.x_max = x_min, x_max
-        self.y_min, self.y_max = y_min, y_max
-        self.mode = mode
-        
-        config = ConfigFile()
-        self.cache_path = config.readPath('cache', 'cachepath')
-        self.cache_path = os.path.join(self.cache_path, 'maps')
-        if not os.path.exists(self.cache_path):
-            os.makedirs(self.cache_path)
-    """
     
     def __init__(self, queue, scene):
         super().__init__()
@@ -222,23 +172,66 @@ class QDownloadMapTilesThread(QThread):
             if not self.queue.empty():
                 item = self.queue.get()
                 if item['mode'] == 'init':
+                    print("INIT _-_______________________")
                     self.initialRun(item)
                 
                 elif item['mode'] == 'left':
+                    #TODO
+                    """
+                    self.scene_rect = self.scene.itemsBoundingRect()
+                    
+                    x = self.tile_rect['x_min']-1
+                    
+                    x_pos = self.scene_rect.x()-1 * TILE_SIZE
+                    
+                    for j, y in enumerate(range(self.tile_rect['y_min'], self.tile_rect['y_max'])):
+                        
+                        y_pos = self.scene_rect.y()+j * TILE_SIZE
+                        
+                        self.fetchTile(self.tile_rect['zoom'], x, y, x_pos, y_pos)
+                    
+                    self.tile_rect['x_min'] = self.tile_rect['x_min'] -1
+                    """
                     pass
                 
                 elif item['mode'] == 'right':
-                    pass
+                    self.scene_rect = self.scene.itemsBoundingRect()
+                    
+                    x = self.tile_rect['x_max']
+                    self.tile_rect['x_max'] = self.tile_rect['x_max'] +1
+                    
+                    x_pos = self.scene_rect.width()+0 * TILE_SIZE
+                    
+                    for j, y in enumerate(range(self.tile_rect['y_min'], self.tile_rect['y_max'])):
+                        
+                        y_pos = self.scene_rect.y()+j * TILE_SIZE
+                        
+                        self.fetchTile(self.tile_rect['zoom'], x, y, x_pos, y_pos)
                 
                 elif item['mode'] == 'top':
+                    #self.scene_rect = self.scene.itemsBoundingRect()
                     pass
+                    
                 
                 elif item['mode'] == 'bottom':
-                    pass
+                    self.scene_rect = self.scene.itemsBoundingRect()
+                    
+                    y = self.tile_rect['y_max']
+                    self.tile_rect['y_max'] = self.tile_rect['y_max'] +1
+                    
+                    y_pos = self.scene_rect.height()+0 * TILE_SIZE
+                    
+                    for i, x in enumerate(range(self.tile_rect['x_min'], self.tile_rect['x_max'])):
+                        
+                        x_pos = self.scene_rect.x()+i * TILE_SIZE
+                        
+                        self.fetchTile(self.tile_rect['zoom'], x, y, x_pos, y_pos)
             
             time.sleep(0.001)
     
     def initialRun(self, item):
+        self.tile_rect = item
+        
         for i, x in enumerate(range(item['x_min'], item['x_max'])):
             if self.__stop:
                 break
@@ -247,7 +240,7 @@ class QDownloadMapTilesThread(QThread):
                 if self.__stop:
                     break
                 QApplication.processEvents()
-                self.fetchTile(item['zoom'], x, y, j, i)
+                self.fetchTile(item['zoom'], x, y, i*TILE_SIZE, j*TILE_SIZE)
     
     def fetchTile(self, zoom, x, y, pos_x, pos_y):
         pixmap = QPixmap()
@@ -255,7 +248,7 @@ class QDownloadMapTilesThread(QThread):
         image_filename = os.path.join(self.cache_path, str(zoom)+'_'+str(x)+'_'+str(y)+'.png')
         
         if not os.path.exists(image_filename):
-            tile = urllib.request.urlopen("http://a.tile.openstreetmap.org/{0}/{1}/{2}.png".format(self.zoom, x, y))
+            tile = urllib.request.urlopen("http://a.tile.openstreetmap.org/{0}/{1}/{2}.png".format(zoom, x, y))
             
             image = tile.read()
             pixmap.loadFromData(image)

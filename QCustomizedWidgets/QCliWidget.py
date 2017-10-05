@@ -417,7 +417,7 @@ class QCliWidget(QWidget):
         self.display_widget.setText(message)
         self.display_widget.setReadOnly(True)
         self.addDisplayWidget()
-        
+    
     def onZoomInClicked(self):
         if type(self.display_widget) == QTextEditEnhanced:
             self.display_widget.zoomIn()
