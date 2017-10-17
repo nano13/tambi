@@ -172,6 +172,7 @@ class QCliWidget(QWidget):
             self.queue_thread = GetQueueItemsThread(q)
             self.queue_thread.processQueueItem.connect(self.processQueueItem)
             self.queue_thread.start()
+            
     
     def stopQueueListener(self):
         self.queue_thread.stop()
@@ -497,6 +498,7 @@ class HandleCommandThread(QThread):
             self.stopQueueListener.emit()
             self.processResult.emit(result)
 
+import time
 class GetQueueItemsThread(QThread):
     
     __stop = False
@@ -509,8 +511,11 @@ class GetQueueItemsThread(QThread):
     def run(self):
         while not self.__stop:
             if not self.queue.empty():
+                #print("IF")
                 item = QueueItem(self.queue.get())
                 self.processQueueItem.emit(item)
+                
+            time.sleep(0.0001)
     
     def stop(self):
         self.__stop = True
