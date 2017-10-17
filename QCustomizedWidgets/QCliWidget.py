@@ -511,7 +511,6 @@ class GetQueueItemsThread(QThread):
     def run(self):
         while not self.__stop:
             if not self.queue.empty():
-                #print("IF")
                 item = QueueItem(self.queue.get())
                 self.processQueueItem.emit(item)
                 
