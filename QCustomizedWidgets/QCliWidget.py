@@ -504,6 +504,9 @@ class GetQueueItemsThread(QThread):
     __stop = False
     processQueueItem = pyqtSignal(object)
     
+    """ most commands/modules do not use the queue at all, so we do not want to waste to many cpu-cylces for this """
+    queue_delay = 0.1
+    
     def __init__(self, queue):
         super().__init__()
         self.queue = queue
@@ -514,7 +517,10 @@ class GetQueueItemsThread(QThread):
                 item = QueueItem(self.queue.get())
                 self.processQueueItem.emit(item)
                 
-            time.sleep(0.0001)
+                """ obviously this command/module is using the queue, so we should poll more often now """
+                self.queue_delay = 0.0001
+            
+            time.sleep(self.queue_delay)
     
     def stop(self):
         self.__stop = True
