@@ -1,15 +1,14 @@
 
 try:
-    from download_module_lists_thread import DownloadModulesListsThread
+    from download_module_lists import DownloadModulesLists
 except:
-    from modules.sword.sword_module_manager.download_module_lists_thread import DownloadModulesListsThread
+    from modules.sword.sword_module_manager.download_module_lists import DownloadModulesLists
 
 try:
-    from download_module_thread import DownloadModuleThread
+    from download_module import DownloadModule
 except:
-    from modules.sword.sword_module_manager.download_module_thread import DownloadModuleThread
+    from modules.sword.sword_module_manager.download_module import DownloadModule
 
-from queue import Queue
 import sys, os, tempfile, getpass, configparser
 from shutil import rmtree
 
@@ -17,7 +16,6 @@ class SwordModuleManager(object):
     
     modules_struct = {}
     sword_modules_path = None
-    q = Queue()
     
     def __init__(self, sword_modules_path=None):
         if sword_modules_path is None:
@@ -37,12 +35,10 @@ class SwordModuleManager(object):
     def downloadModulesLists(self):
         temp_path = self.__getTempPath()
         
-        download_lists_thread = DownloadModulesListsThread(temp_path, self.sword_modules_path, self.q)
-        self.modules_struct = download_lists_thread.start()
-        print('BLA')
-        self.modules_struct = self.q.get()
-        download_lists_thread.join()
-        #print(self.modules_struct)
+        download_lists = DownloadModulesLists(temp_path, self.sword_modules_path)
+        
+        download_lists.getAllModules()
+        self.modules_struct = download_lists.getModulesData()
         
         return self.modules_struct
     
@@ -50,16 +46,16 @@ class SwordModuleManager(object):
     def downloadModuleFromRepository(self, repository_name, module_name):
         temp_path = self.__getTempPath()
         
-        download_module_thread = DownloadModuleThread(temp_path, self.sword_modules_path, self.modules_struct, module_name, repository_name)
-        download_module_thread.start()
+        download_module = DownloadModule(temp_path, self.sword_modules_path, self.modules_struct, module_name, repository_name)
+        #download_module.start()
         print('DOWNLOADING:', module_name)
     
     # search given module_name in all repositories, install first occurence
     def downloadModule(self, module_name):
         temp_path = self.__getTempPath()
         
-        download_module_thread = DownloadModuleThread(temp_path, self.sword_modules_path, self.modules_struct, module_name)
-        download_module_thread.start()
+        download_module = DownloadModule(temp_path, self.sword_modules_path, self.modules_struct, module_name)
+        #download_module.start()
         print('DOWNLOADING:', module_name)
     
     def __getTempPath(self):

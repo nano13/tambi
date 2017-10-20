@@ -1,6 +1,4 @@
 
-
-from threading import Thread
 import urllib.request, tarfile, os, configparser
 
 try:
@@ -8,26 +6,17 @@ try:
 except:
     from safe_tar_extract import SafeTarExtract
 
-class DownloadModulesListsThread(Thread):
+class DownloadModulesLists(object):
     
     temp_path = None
     sword_modules_path = None
     modules_struct = {}
-    queue = None
     
-    def __init__(self, temp_path, sword_modules_path, queue):
+    def __init__(self, temp_path, sword_modules_path):
         super().__init__()
         
         self.temp_path = temp_path
         self.sword_modules_path = sword_modules_path
-        self.queue = queue
-    
-    def run(self):
-        self.getAllModules()
-        
-        print('DONE__')
-        self.queue.put(self.modules_struct)
-        self.queue.task_done()
     
     def getModulesData(self):
         return self.modules_struct

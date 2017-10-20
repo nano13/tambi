@@ -1,6 +1,4 @@
 
-from threading import Thread
-
 import os, urllib.request
 from shutil import copyfile
 from ftplib import FTP
@@ -8,7 +6,7 @@ from ftplib import FTP
 class ModuleNotFound(Exception):
     pass
 
-class DownloadModuleThread(Thread):
+class DownloadModule(object):
     
     temp_path = None
     sword_modules_path = None
@@ -26,6 +24,8 @@ class DownloadModuleThread(Thread):
         self.module_name = module_name
         self.repository_name = repository_name
         
+        self.run()
+    
     def run(self):
         if self.repository_name is None:
             self.__downloadModule(self.module_name)

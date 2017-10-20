@@ -4,7 +4,7 @@ from PyQt5.QtCore import Qt
 
 from modules.sword.sword_module_manager.sword_module_manager import SwordModuleManager
 
-INSTALLED_MODULES = 'Installed'
+INSTALLED_MODULES = '[Installed]'
 
 class QSwordModuleManager(QWidget):
     
