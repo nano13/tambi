@@ -31,9 +31,6 @@ class SwordModuleManager(object):
         if not os.path.exists(self.sword_modules_path):
             os.makedirs(self.sword_modules_path)
     
-    def setModulesStruct(self, data):
-        self.modules_struct = data
-    
     def downloadModulesLists(self):
         temp_path = self.__getTempPath()
         
