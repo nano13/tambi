@@ -1,6 +1,6 @@
 
 from PyQt5.QtWidgets import QWidget, QTreeWidget, QTreeWidgetItem, QTreeWidgetItemIterator, QGridLayout, QPushButton
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QThread, pyqtSignal
 
 from modules.sword.sword_module_manager.sword_module_manager import SwordModuleManager
 
@@ -8,12 +8,17 @@ INSTALLED_MODULES = '[Installed]'
 
 class QSwordModuleManager(QWidget):
     
-    module_manager = SwordModuleManager()
+    #module_manager = SwordModuleManager()
     #data = module_manager.getAllModules()
     data = None
     
     def __init__(self):
         super().__init__()
+        
+        #self.module_manager_thread = SwordModuleManagerThread()
+        #self.module_manager_thread.download_modules_lists_finished.connect(self.downloadModulesListsFinished)
+        #self.module_manager_thread.download_module_finished.connect(self.reloadDataAndView)
+        #self.module_manager_thread.start()
         
         self.layout = QGridLayout()
         self.setLayout(self.layout)
@@ -37,33 +42,41 @@ class QSwordModuleManager(QWidget):
         
         self.addRemoteModules()
     
-    def addRemoteModules(self):
-        if self.data == None:
-            self.data = self.module_manager.downloadModulesLists()
+    def downloadModulesListsFinished(self, modules_lists):
+        self.data = modules_lists
         
-        for repo_name in sorted(self.data):
-            parent = QTreeWidgetItem(self.tree)
-            if repo_name is not 'local':
-                parent.setText(0, repo_name)
-            else:
-                parent.setText(0, INSTALLED_MODULES)
-            parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
-            
-            for language in sorted(self.data[repo_name]['modules']):
-                child = QTreeWidgetItem(parent)
-                child.setFlags(child.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
-                child.setText(0, language)
+        self.addRemoteModules()
+    
+    def addRemoteModules(self):
+        if not self.data:
+            self.module_manager_thread = DownloadModulesListsThread()
+            self.module_manager_thread.download_modules_lists_finished.connect(self.downloadModulesListsFinished)
+            self.module_manager_thread.start()
+        
+        else:
+            for repo_name in sorted(self.data):
+                parent = QTreeWidgetItem(self.tree)
+                if repo_name is not 'local':
+                    parent.setText(0, repo_name)
+                else:
+                    parent.setText(0, INSTALLED_MODULES)
+                parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
                 
-                for module in self.data[repo_name]['modules'][language]:
-                    grandchild = QTreeWidgetItem(child)
-                    grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
-                    grandchild.setText(0, module['name'])
-                    grandchild.setText(1, module['description'])
-                    if repo_name is not 'local':
-                        grandchild.setCheckState(0, Qt.Unchecked)
-                    else:
-                        grandchild.setCheckState(0, Qt.Checked)
-        self.tree.resizeColumnToContents(0)
+                for language in sorted(self.data[repo_name]['modules']):
+                    child = QTreeWidgetItem(parent)
+                    child.setFlags(child.flags() | Qt.ItemIsTristate | Qt.ItemIsUserCheckable)
+                    child.setText(0, language)
+                    
+                    for module in self.data[repo_name]['modules'][language]:
+                        grandchild = QTreeWidgetItem(child)
+                        grandchild.setFlags(child.flags() | Qt.ItemIsUserCheckable)
+                        grandchild.setText(0, module['name'])
+                        grandchild.setText(1, module['description'])
+                        if repo_name is not 'local':
+                            grandchild.setCheckState(0, Qt.Unchecked)
+                        else:
+                            grandchild.setCheckState(0, Qt.Checked)
+            self.tree.resizeColumnToContents(0)
     
     def itemSelectionChanged(self):
         print(self.tree.selectedItems())
@@ -104,17 +117,54 @@ class QSwordModuleManager(QWidget):
     
     def installAndUninstallModules(self, modules_to_process):
         for module in modules_to_process['delete']:
-            self.module_manager.deleteModule(module)
+            module_manager = SwordModuleManager()
+            module_manager.deleteModule(module)
+            #self.module_manager_thread.deleteModule(module)
+            
+            self.reloadDataAndView()
         
         for module in modules_to_process['install']:
             #try:
             #self.module_manager.downloadModule(module)
-            self.module_manager.downloadModuleFromRepository(module['repository'], module['name'])
+            self.module_manager_thread = DownloadModuleThread(self.data, module['repository'], module['name'])
+            self.module_manager_thread.download_module_finished.connect(self.reloadDataAndView)
+            self.module_manager_thread.start()
             #except ModuleNotFound as e:
             #    print(e)
-        
-        # reload data and view
-        self.data = self.module_manager.downloadModulesLists()
+    
+    def reloadDataAndView(self):
+        self.data = self.module_manager_thread.downloadModulesLists()
         self.tree.deleteLater()
         self.addTreeWidget()
     
+
+class DownloadModulesListsThread(QThread):
+    
+    module_manager = SwordModuleManager()
+    
+    download_modules_lists_finished = pyqtSignal(object)
+    
+    def run(self):
+        modules_lists = self.module_manager.downloadModulesLists()
+        
+        self.download_modules_lists_finished.emit(modules_lists)
+    
+
+class DownloadModuleThread(QThread):
+    
+    module_manager = SwordModuleManager()
+    
+    download_module_finished = pyqtSignal()
+    
+    def __init__(self, data, repo, name):
+        super().__init__()
+        
+        self.data = data
+        self.repo = repo
+        self.name = name
+    
+    def run(self):
+        self.module_manager.setModulesStruct(self.data)
+        self.module_manager.downloadModuleFromRepository(self.repo, self.name)
+        
+        self.download_module_finished.emit()
