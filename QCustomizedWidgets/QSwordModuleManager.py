@@ -8,8 +8,6 @@ INSTALLED_MODULES = '[Installed]'
 
 class QSwordModuleManager(QWidget):
     
-    #module_manager = SwordModuleManager()
-    #data = module_manager.getAllModules()
     data = None
     
     def __init__(self):
@@ -18,7 +16,6 @@ class QSwordModuleManager(QWidget):
         self.module_manager_thread = SwordModuleManagerThread()
         self.module_manager_thread.download_modules_lists_finished.connect(self.downloadModulesListsFinished)
         self.module_manager_thread.download_module_finished.connect(self.reloadDataAndView)
-        #self.module_manager_thread.start()
         
         self.layout = QGridLayout()
         self.setLayout(self.layout)
@@ -46,11 +43,12 @@ class QSwordModuleManager(QWidget):
         self.data = modules_lists
         
         self.addRemoteModules()
+        
+        self.tree.deleteLater()
+        self.addTreeWidget()
     
     def addRemoteModules(self):
         if not self.data:
-            #self.module_manager_thread = DownloadModulesListsThread()
-            #self.module_manager_thread.download_modules_lists_finished.connect(self.downloadModulesListsFinished)
             self.module_manager_thread.setAction(SwordModuleManagerAction.download_list)
             self.module_manager_thread.start()
         
@@ -124,20 +122,14 @@ class QSwordModuleManager(QWidget):
             self.reloadDataAndView()
         
         for module in modules_to_process['install']:
-            #try:
-            #self.module_manager.downloadModule(module)
-            #self.module_manager_thread = DownloadModuleThread(self.data, module['repository'], module['name'])
-            #self.module_manager_thread.download_module_finished.connect(self.reloadDataAndView)
             self.module_manager_thread.setAction(SwordModuleManagerAction.download_module)
             self.module_manager_thread.setArgs([module['repository'], module['name']])
             self.module_manager_thread.start()
-            #except ModuleNotFound as e:
-            #    print(e)
     
     def reloadDataAndView(self):
-        #self.data = self.module_manager_thread.downloadModulesLists()
-        self.tree.deleteLater()
-        self.addTreeWidget()
+        self.module_manager_thread.setAction(SwordModuleManagerAction.download_list)
+        self.module_manager_thread.start()
+    
 
 class SwordModuleManagerThread(QThread):
     
