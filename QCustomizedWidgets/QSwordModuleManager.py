@@ -1,6 +1,7 @@
 
-from PyQt5.QtWidgets import QWidget, QTreeWidget, QTreeWidgetItem, QTreeWidgetItemIterator, QGridLayout, QPushButton, QErrorMessage
+from PyQt5.QtWidgets import QWidget, QTreeWidget, QTreeWidgetItem, QTreeWidgetItemIterator, QGridLayout, QPushButton, QErrorMessage, QLabel
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
+from PyQt5.QtGui import QMovie
 
 from modules.sword.sword_module_manager.sword_module_manager import SwordModuleManager
 from modules.sword.sword_module_manager.download_module import ModuleNotFound
@@ -25,6 +26,7 @@ class QSwordModuleManager(QWidget):
         self.setLayout(self.layout)
         
         self.addTreeWidget()
+        self.addActivityIndicator()
         
         ok_button = QPushButton('apply changes')
         cancel_button = QPushButton('revert changes')
@@ -35,6 +37,16 @@ class QSwordModuleManager(QWidget):
         self.layout.addWidget(ok_button, 1, 0)
         self.layout.addWidget(upgrade_button, 1, 1)
         self.layout.addWidget(cancel_button, 1, 2)
+    
+    def addActivityIndicator(self):
+        self.tree.hide()
+        
+        self.activity_indicator = QLabel()
+        movie = QMovie('./assets/images/activity_indicator.gif')
+        movie.start()
+        self.activity_indicator.setMovie(movie)
+        
+        self.layout.addWidget(self.activity_indicator, 0, 0, 1, 0, Qt.AlignCenter)
     
     def addTreeWidget(self):
         self.tree = QTreeWidget()
@@ -90,7 +102,10 @@ class QSwordModuleManager(QWidget):
                             grandchild.setCheckState(0, Qt.Unchecked)
                         else:
                             grandchild.setCheckState(0, Qt.Checked)
+            
             self.tree.resizeColumnToContents(0)
+            self.tree.show()
+            self.activity_indicator.hide()
     
     def upgradeModules(self):
         pass
@@ -133,6 +148,9 @@ class QSwordModuleManager(QWidget):
         self.addTreeWidget()
     
     def installAndUninstallModules(self, modules_to_process):
+        self.tree.hide()
+        self.activity_indicator.show()
+        
         deleted_something = False
         # delete installed modules
         for module in modules_to_process['delete']:
