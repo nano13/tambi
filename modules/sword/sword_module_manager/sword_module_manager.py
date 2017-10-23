@@ -83,8 +83,43 @@ class SwordModuleManager(object):
             rmtree(dir_path)
             os.remove(conf_path)
     
-    def listModulesToBeUpdated(self):
-        pass
+    def showAvailableUpgrades(self):
+        modules_to_upgrade = {}
+        
+        for local_module_lang in self.modules_struct['local']['modules']:
+            local_modules_list = self.modules_struct['local']['modules'][local_module_lang]
+            
+            for local_module_item in local_modules_list:
+                local_version = local_module_item['version']
+                
+                for remote_repository_name in self.modules_struct:
+                    if not remote_repository_name == 'local':
+                        remote_repository = self.modules_struct[remote_repository_name]
+                        
+                        try:
+                            remote_modules_list = remote_repository['modules'][local_module_lang]
+                        except KeyError:
+                            pass # the current remote module does not have this language, we can just do nothing
+                        else:
+                            for remote_module_item in remote_modules_list:
+                                if remote_module_item['name'] == local_module_item['name']:
+                                
+                                    remote_version = remote_module_item['version']
+                                    
+                                    if self.__isVersionNumberGreater(remote_version, local_version):
+                                        server_site = self.modules_struct[remote_repository_name]['server_info']['site']
+                                        server_dir = self.modules_struct[remote_repository_name]['server_info']['dir']
+                                        
+                                        if not remote_repository_name in modules_to_upgrade:
+                                            modules_to_upgrade[remote_repository_name] = {'modules': {local_module_lang: [remote_module_item]}, 'server_info': {'site': server_site, 'dir': server_dir}}
+                                        
+                                        else:
+                                            if not local_module_lang in modules_to_upgrade[remote_repository_name]['modules']:
+                                                modules_to_upgrade[remote_repository_name]['modules'][local_module_lang] = [remote_module_item]
+                                            else:
+                                                modules_to_upgrade[remote_repository_name]['modules'][local_module_lang].append(remote_module_item)
+        
+        return modules_to_upgrade
     
     # is number_a > number_b ?
     def __isVersionNumberGreater(self, number_a, number_b):

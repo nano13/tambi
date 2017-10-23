@@ -7,6 +7,7 @@ from modules.sword.sword_module_manager.sword_module_manager import SwordModuleM
 from modules.sword.sword_module_manager.download_module import ModuleNotFound
 
 INSTALLED_MODULES = '[Installed]'
+UPGRADABLE_MODULES = '[Upgradable]'
 
 class QSwordModuleManager(QWidget):
     
@@ -21,25 +22,30 @@ class QSwordModuleManager(QWidget):
         self.module_manager_thread.download_modules_lists_finished.connect(self.downloadModulesListsFinished)
         self.module_manager_thread.download_module_finished.connect(self.reloadDataAndView)
         self.module_manager_thread.download_module_failed.connect(self.downloadModuleFailed)
+        self.module_manager_thread.available_upgrades_detected.connect(self.downloadModulesListsFinished)
         
         self.layout = QGridLayout()
         self.setLayout(self.layout)
         
+        self.ok_button = QPushButton('apply changes')
+        self.cancel_button = QPushButton('revert changes')
+        self.upgrade_button = QPushButton('show upgradeable modules')
+        self.ok_button.clicked.connect(self.okButtonClicked)
+        self.cancel_button.clicked.connect(self.canchelButtonClicked)
+        self.upgrade_button.clicked.connect(self.upgradeModules)
+        self.layout.addWidget(self.ok_button, 1, 0)
+        self.layout.addWidget(self.upgrade_button, 1, 1)
+        self.layout.addWidget(self.cancel_button, 1, 2)
+        
         self.addTreeWidget()
         self.addActivityIndicator()
-        
-        ok_button = QPushButton('apply changes')
-        cancel_button = QPushButton('revert changes')
-        upgrade_button = QPushButton('upgrade modules')
-        ok_button.clicked.connect(self.okButtonClicked)
-        cancel_button.clicked.connect(self.canchelButtonClicked)
-        upgrade_button.clicked.connect(self.upgradeModules)
-        self.layout.addWidget(ok_button, 1, 0)
-        self.layout.addWidget(upgrade_button, 1, 1)
-        self.layout.addWidget(cancel_button, 1, 2)
     
     def addActivityIndicator(self):
         self.tree.hide()
+        
+        self.ok_button.hide()
+        self.cancel_button.hide()
+        self.upgrade_button.hide()
         
         self.activity_indicator = QLabel()
         movie = QMovie('./assets/images/activity_indicator.gif')
@@ -54,7 +60,7 @@ class QSwordModuleManager(QWidget):
         self.tree.itemSelectionChanged.connect(self.itemSelectionChanged)
         self.layout.addWidget(self.tree, 0, 0, 1, 0)
         self.tree.setColumnCount(2)
-        self.tree.setHeaderLabels(['module', 'description'])
+        self.tree.setHeaderLabels(['repo → language → module name', 'description'])
         
         self.addRemoteModules()
     
@@ -106,9 +112,14 @@ class QSwordModuleManager(QWidget):
             self.tree.resizeColumnToContents(0)
             self.tree.show()
             self.activity_indicator.hide()
+            
+            self.ok_button.show()
+            self.cancel_button.show()
+            self.upgrade_button.show()
     
     def upgradeModules(self):
-        pass
+        self.module_manager_thread.setAction(SwordModuleManagerAction.show_available_upgrades)
+        self.module_manager_thread.start()
     
     def itemSelectionChanged(self):
         print(self.tree.selectedItems())
@@ -182,8 +193,8 @@ class SwordModuleManagerThread(QThread):
     
     download_modules_lists_finished = pyqtSignal(object)
     download_module_finished = pyqtSignal()
-    
     download_module_failed = pyqtSignal(object)
+    available_upgrades_detected = pyqtSignal(object)
     
     def __init_(self):
         super().__init__()
@@ -213,6 +224,11 @@ class SwordModuleManagerThread(QThread):
         elif self.action == SwordModuleManagerAction.delete_module:
             if args:
                 self.module_manager.deleteModule(self.args)
+        
+        elif self.action == SwordModuleManagerAction.show_available_upgrades:
+            available_upgrades = self.module_manager.showAvailableUpgrades()
+            if available_upgrades:
+                self.available_upgrades_detected.emit(available_upgrades)
     
     def setAction(self, action):
         self.action = action
@@ -225,3 +241,5 @@ class SwordModuleManagerAction(Enum):
     download_list = 1
     download_module = 2
     delete_module = 3
+    show_available_upgrades = 4
+    install_available_upgrades = 5

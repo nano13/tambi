@@ -76,6 +76,7 @@ class Sword(object):
                 #    row.append(found_modules[key][item])
                 row.append(found_modules[key]['lang'])
                 row.append(found_modules[key]['about'].replace('\par', "\n"))
+                row.append(found_modules[key]['version'])
                 
                 if len(args) == 1:
                     category = "itemized"
