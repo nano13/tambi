@@ -3,13 +3,17 @@ from PyQt5.QtWidgets import QWidget, QLayout, QVBoxLayout, QGridLayout, QTextEdi
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import pyqtSignal
 
+import queue
+
 from QCustomizedWidgets.QInputLine import QInputLine
 
 from interpreter.interpreter import Interpreter
+from interpreter.exceptions import ClearCalled, SnapshotCalled
 
 class QParallelBibleWidget(QWidget):
     
     interpreter = Interpreter()
+    queue = queue.Queue
     
     current_sword_module = None
     #modules_list = ['GerNeUe', 'TR', 'GerSch']
@@ -31,14 +35,14 @@ class QParallelBibleWidget(QWidget):
         
     def commandEntered(self, command):
         """ store the originally selected sword module """
-        self.current_sword_module = self.interpreter.interpreter('sword.getModule').payload
+        self.current_sword_module = self.interpreter.interpreter('sword.getModule', self.queue).payload
         
         for i, widget in enumerate(self.display_widget.display_widgets_list):
             
             try:
-                self.interpreter.interpreter('sword.setModule '+widget.getModuleName())
+                self.interpreter.interpreter('sword.setModule '+widget.getModuleName(), self.queue)
                 
-                result = self.interpreter.interpreter(command)
+                result = self.interpreter.interpreter(command, self.queue)
             except ClearCalled:
                 self.clearDisplayWidget()
             else:
@@ -46,7 +50,7 @@ class QParallelBibleWidget(QWidget):
                 widget.setText(result.toString())
         
         """ restore the originally seletectd sword module """
-        self.interpreter.interpreter('sword.setModule '+self.current_sword_module)
+        self.interpreter.interpreter('sword.setModule '+self.current_sword_module, self.queue)
     
     def clearDisplayWidget(self):
         pass
@@ -56,6 +60,7 @@ class QParallelBibleWidget(QWidget):
 class QDisplayLayout(QWidget):
     
     interpreter = Interpreter()
+    queue = queue.Queue
     display_widgets_list = []
     
     def __init__(self):
@@ -88,7 +93,7 @@ class QDisplayLayout(QWidget):
         self.display_widgets_list.pop(widget_id)
     
     def getModulesForDropdown(self):
-        result = self.interpreter.interpreter('sword.modules')
+        result = self.interpreter.interpreter('sword.modules', self.queue)
         
         modules = []
         for module in result.payload:
