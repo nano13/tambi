@@ -217,6 +217,12 @@ class Tambi(QMainWindow):
         
         self.activateNewTab()
     
+    def addNewSwordGuiTab(self):
+        tab = QCoreTab().swordGuiTab()
+        self.tab_widget.addTab(tab, "sword gui")
+        
+        self.activateNewTab()
+    
     def addNewSwordModuleManagerTab(self):
         tab = QCoreTab().swordModuleManagerTab()
         self.tab_widget.addTab(tab, "sword module manager")

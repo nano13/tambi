@@ -47,6 +47,14 @@ class Menu(object):
         
         swordMenu.addSeparator()
         
+        swordGuiAction = QAction(QIcon.fromTheme("document-properties"), '&Sword GUI', context)
+        swordGuiAction.setStatusTip('Read the bible with a specialized selector gui')
+        swordGuiAction.triggered.connect(context.addNewSwordGuiTab)
+        
+        swordMenu.addAction(swordGuiAction)
+        
+        #swordMenu.addSeparator()
+        
         moduleManagerAction = QAction(QIcon.fromTheme("document-properties"), '&Module Manager', context)
         moduleManagerAction.setStatusTip('Install or Remove Sword Modules')
         moduleManagerAction.triggered.connect(context.addNewSwordModuleManagerTab)
