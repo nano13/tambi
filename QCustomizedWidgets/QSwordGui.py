@@ -1,9 +1,14 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QComboBox, QLabel, QTextEdit
+from PyQt5.QtWidgets import QWidget, QGridLayout, QComboBox, QLabel, QPushButton
+from PyQt5.QtGui import QIcon
+
+from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 
 from interpreter.interpreter import Interpreter
 
 from modules.sword.sword import Sword
+
+from misc.unicodeFonts import UnicodeFonts
 
 import queue
 
@@ -17,11 +22,13 @@ class QSwordGui(QWidget):
     def __init__(self):
         super().__init__()
         
+        self.unicode_fonts = UnicodeFonts()
+        
         self.grid = QGridLayout()
         self.grid.setContentsMargins(0, 0, 0, 6)
         self.setLayout(self.grid)
         
-        self.text_edit = QTextEdit()
+        self.text_edit = QTextEditEnhanced()
         
         self.combo_language = QComboBox()
         self.combo_translation = QComboBox()
@@ -43,7 +50,26 @@ class QSwordGui(QWidget):
         self.grid.addWidget(self.combo_book, 1, 2)
         self.grid.addWidget(self.combo_chapter, 1, 3)
         
-        self.grid.addWidget(self.text_edit, 2, 0, 1000, 4)
+        zoom_in_button = QPushButton(self)
+        zoom_in_button.setIcon(QIcon.fromTheme('zoom-in'))
+        zoom_in_button.clicked.connect(self.onZoomInClicked)
+        zoom_in_button.setMaximumSize(25, 25)
+        
+        zoom_out_button = QPushButton(self)
+        zoom_out_button.setIcon(QIcon.fromTheme('zoom-out'))
+        zoom_out_button.clicked.connect(self.onZoomOutClicked)
+        zoom_out_button.setMaximumSize(25, 25)
+        
+        zoom_reset_button = QPushButton(self)
+        zoom_reset_button.setIcon(QIcon.fromTheme('zoom-original'))
+        zoom_reset_button.clicked.connect(self.onZoomResetClicked)
+        zoom_reset_button.setMaximumSize(25, 25)
+        
+        self.grid.addWidget(zoom_out_button, 1, 4)
+        self.grid.addWidget(zoom_reset_button, 1, 5)
+        self.grid.addWidget(zoom_in_button, 1, 6)
+        
+        self.grid.addWidget(self.text_edit, 2, 0, 1000, 7)
         
         self.getLanguagesForDropdown()
         self.getBooksForDropdown()
@@ -112,9 +138,20 @@ class QSwordGui(QWidget):
         if translation:
             self.interpreter.interpreter('sword.setModule '+translation, self.queue)
             text = self.interpreter.interpreter('sword.word "'+book+'" '+chapter, self.queue)
+            text = text.toString()
             self.interpreter.interpreter('sword.setModule '+current_translation, self.queue)
             
             self.text_edit.clear()
-            self.text_edit.setText(text.toString())
+            self.text_edit.setText(text)
             self.text_edit.setReadOnly(True)
-        
+            
+            self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
+    
+    def onZoomInClicked(self):
+        self.text_edit.zoomIn()
+    
+    def onZoomOutClicked(self):
+        self.text_edit.zoomOut()
+    
+    def onZoomResetClicked(self):
+        self.text_edit.zoomReset()

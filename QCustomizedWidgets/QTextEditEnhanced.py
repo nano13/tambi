@@ -51,9 +51,10 @@ class QTextEditEnhanced(QTextEdit):
                     self.zoomOut()
         
         else:
-            cursor = self.textCursor()
-            self.selectAll()
-            self.setFontPointSize(self.original_size)
-            cursor.clearSelection()
-            self.setTextCursor(cursor)
+            if self.original_size:
+                cursor = self.textCursor()
+                self.selectAll()
+                self.setFontPointSize(self.original_size)
+                cursor.clearSelection()
+                self.setTextCursor(cursor)
     
