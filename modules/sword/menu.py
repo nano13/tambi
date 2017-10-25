@@ -1,8 +1,10 @@
 
-from PyQt5.QtWidgets import QAction, qApp
+from PyQt5.QtWidgets import QAction
 from PyQt5.QtGui import QIcon
 
 from modules.sword.sword import Sword
+from modules.sword.QGui.QSwordGui import QSwordGui
+from modules.sword.QGui.QSwordModuleManager import QSwordModuleManager
 
 import functools
 
@@ -49,7 +51,9 @@ class Menu(object):
         
         swordGuiAction = QAction(QIcon.fromTheme("document-properties"), '&Sword GUI', context)
         swordGuiAction.setStatusTip('Read the bible with a specialized selector gui')
-        swordGuiAction.triggered.connect(context.addNewSwordGuiTab)
+        #swordGuiAction.triggered.connect(context.addNewSwordGuiTab)
+        sword_gui = QSwordGui()
+        swordGuiAction.triggered.connect(functools.partial(context.addNewCustomTab, sword_gui, 'sword gui'))
         
         swordMenu.addAction(swordGuiAction)
         
@@ -57,6 +61,7 @@ class Menu(object):
         
         moduleManagerAction = QAction(QIcon.fromTheme("document-properties"), '&Module Manager', context)
         moduleManagerAction.setStatusTip('Install or Remove Sword Modules')
-        moduleManagerAction.triggered.connect(context.addNewSwordModuleManagerTab)
+        swomm = QSwordModuleManager()
+        moduleManagerAction.triggered.connect(functools.partial(context.addNewCustomTab, swomm, 'sword module manager'))
         
         swordMenu.addAction(moduleManagerAction)

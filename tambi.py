@@ -169,7 +169,6 @@ class Tambi(QMainWindow):
     def addNewCliTab(self):
         from functools import partial
         core = QCoreTab()
-        #tab = QCoreTab().cliTab()
         tab = core.cliTab()
         self.tab_widget.addTab(tab, "cli")
         
@@ -217,21 +216,14 @@ class Tambi(QMainWindow):
         
         self.activateNewTab()
     
-    def addNewSwordGuiTab(self):
-        tab = QCoreTab().swordGuiTab()
-        self.tab_widget.addTab(tab, "sword gui")
-        
-        self.activateNewTab()
-    
-    def addNewSwordModuleManagerTab(self):
-        tab = QCoreTab().swordModuleManagerTab()
-        self.tab_widget.addTab(tab, "sword module manager")
-        
-        self.activateNewTab()
-    
     def addNewAmazingGraceTab(self):
         tab = QCoreTab().amazingGraceTab()
         self.tab_widget.addTab(tab, "Amazing Grace")
+        
+        self.activateNewTab()
+    
+    def addNewCustomTab(self, custom_widget, tab_name):
+        self.tab_widget.addTab(custom_widget, tab_name)
         
         self.activateNewTab()
     

@@ -6,9 +6,6 @@ from QCustomizedWidgets.QCliWidget import QCliWidget
 from QCustomizedWidgets.QParallelBibleWidget import QParallelBibleWidget
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
 from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
-from QCustomizedWidgets.QSwordGui import QSwordGui
-from QCustomizedWidgets.QSwordModuleManager import QSwordModuleManager
-from QCustomizedWidgets.QAmazingGraceWidget import QAmazingGraceWidget
 
 from misc.unicodeFonts import UnicodeFonts
 
@@ -61,17 +58,4 @@ class QCoreTab(QWidget):
     def musicBeamerTab(self):
         music_beamer_widget = QMusicBeamerWidget()
         return music_beamer_widget
-    
-    def swordGuiTab(self):
-        gui = QSwordGui()
-        return gui
-    
-    def swordModuleManagerTab(self):
-        smm = QSwordModuleManager()
-        return smm
-    
-    def amazingGraceTab(self):
-        amazing = QAmazingGraceWidget()
-        return amazing
-    
     
