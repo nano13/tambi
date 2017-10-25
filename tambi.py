@@ -210,15 +210,9 @@ class Tambi(QMainWindow):
         
         self.activateNewTab()
     
-    def addNewMusicWidgetTab(self):
+    def addNewMusicBeamerWidgetTab(self):
         tab = QCoreTab().musicBeamerTab()
         self.tab_widget.addTab(tab, "music beamer")
-        
-        self.activateNewTab()
-    
-    def addNewAmazingGraceTab(self):
-        tab = QCoreTab().amazingGraceTab()
-        self.tab_widget.addTab(tab, "Amazing Grace")
         
         self.activateNewTab()
     

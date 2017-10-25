@@ -34,11 +34,7 @@ class MenuBar(object):
         newMusicBeamerTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Music Beamer Tab', context)
         newMusicBeamerTabAction.setShortcut('Ctrl+M')
         newMusicBeamerTabAction.setStatusTip('Open new music beamer Tab')
-        newMusicBeamerTabAction.triggered.connect(context.addNewMusicWidgetTab)
-        
-        newAmazingTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Amazing Grace Tab', context)
-        newAmazingTabAction.triggered.connect(context.addNewAmazingGraceTab)
-        
+        newMusicBeamerTabAction.triggered.connect(context.addNewMusicBeamerWidgetTab)
         
         openFileAction = QAction(QIcon.fromTheme('document-open'), '&Open File', context)
         openFileAction.setStatusTip('Open a File')
@@ -53,12 +49,10 @@ class MenuBar(object):
         fileMenu.addAction(newParallelBibleTabAction)
         fileMenu.addAction(newVocableTabAction)
         fileMenu.addAction(newMusicBeamerTabAction)
-        fileMenu.addAction(newAmazingTabAction)
         fileMenu.addSeparator()
         fileMenu.addAction(openFileAction)
         fileMenu.addSeparator()
         fileMenu.addAction(exitAction)
-        
         
         module_menus = self.loadModuleMenus(context, menubar)
         
