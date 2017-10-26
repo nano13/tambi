@@ -4,6 +4,7 @@ from PyQt5.QtGui import QIcon
 
 from modules.sword.sword import Sword
 from modules.sword.QGui.QSwordGui import QSwordGui
+from modules.sword.QGui.QParallelBibleWidget import QParallelBibleWidget
 from modules.sword.QGui.QSwordModuleManager import QSwordModuleManager
 
 import functools
@@ -51,17 +52,32 @@ class Menu(object):
         
         swordGuiAction = QAction(QIcon.fromTheme("document-properties"), '&Sword GUI', context)
         swordGuiAction.setStatusTip('Read the bible with a specialized selector gui')
-        #swordGuiAction.triggered.connect(context.addNewSwordGuiTab)
-        sword_gui = QSwordGui()
-        swordGuiAction.triggered.connect(functools.partial(context.addNewCustomTab, sword_gui, 'sword gui'))
+        swordGuiAction.triggered.connect(functools.partial(self.addSwordGuiTab, context))
         
         swordMenu.addAction(swordGuiAction)
         
-        #swordMenu.addSeparator()
+        swordParallelViewAction = QAction(QIcon.fromTheme("document-properties"), '&Parallel Bible View', context)
+        swordParallelViewAction.setStatusTip('Compare multiple bible translations')
+        swordParallelViewAction.triggered.connect(functools.partial(self.addParallelViewTab, context))
+        
+        swordMenu.addAction(swordParallelViewAction)
+        
+        swordMenu.addSeparator()
         
         moduleManagerAction = QAction(QIcon.fromTheme("document-properties"), '&Module Manager', context)
         moduleManagerAction.setStatusTip('Install or Remove Sword Modules')
-        swomm = QSwordModuleManager()
-        moduleManagerAction.triggered.connect(functools.partial(context.addNewCustomTab, swomm, 'sword module manager'))
+        moduleManagerAction.triggered.connect(functools.partial(self.addSwommTab, context))
         
         swordMenu.addAction(moduleManagerAction)
+    
+    def addSwordGuiTab(self, context):
+        sword_gui = QSwordGui()
+        context.addNewCustomTab(sword_gui, 'sword gui')
+    
+    def addParallelViewTab(self, context):
+        parallel_gui = QParallelBibleWidget()
+        context.addNewCustomTab(parallel_gui, 'parallel bible gui')
+    
+    def addSwommTab(self, context):
+        swomm = QSwordModuleManager()
+        context.addNewCustomTab(swomm, 'sword module manager')

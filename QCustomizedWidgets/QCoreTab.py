@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QHBoxLayout, QPushButton, QTex
 from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QCliWidget import QCliWidget
-from QCustomizedWidgets.QParallelBibleWidget import QParallelBibleWidget
+from modules.sword.QGui.QParallelBibleWidget import QParallelBibleWidget
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
 from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
 
