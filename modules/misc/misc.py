@@ -4,16 +4,14 @@ from interpreter.structs import Result
 
 from modules.amazinggrace.QAmazingGraceWidget import QAmazingGraceWidget
 
-class Amazinggrace(object):
+class Misc(object):
     
     def __init__(self):
         pass
     
     def getCommands(self):
         return {
-            "ag.commands": self.commands,
-            
-            "ag.gui": self.showGui,
+            "misc.commands": self.commands,
             }
     
     def interpreter(self, command, args, queue):
@@ -39,5 +37,3 @@ class Amazinggrace(object):
         result_object.payload = all_commands
         return result_object
     
-    def showGui(self):
-        

@@ -16,7 +16,7 @@ class QAmazingGraceWidget(QWidget):
         self.setLayout(grid)
         
         import os
-        base, dirs, files = next(iter(os.walk('./modules/amazinggrace/data')))
+        base, dirs, files = next(iter(os.walk('./modules/misc/amazing_data')))
         max_i = 0
         for i, f in enumerate(sorted(files)):
             label = str(f.split('.')[0])
@@ -37,7 +37,7 @@ class QAmazingGraceWidget(QWidget):
             self.beamer.destroy()
         
         text = ''
-        with open('./modules/amazinggrace/data/'+str(language)+'.tex', 'r') as fobj:
+        with open('./modules/misc/amazing_data/'+str(language)+'.tex', 'r') as fobj:
             for line in fobj:
                 text += line.replace('\\\\', '')
         
