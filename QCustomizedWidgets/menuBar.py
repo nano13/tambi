@@ -22,10 +22,6 @@ class MenuBar(object):
         newDualCliTabAction.setStatusTip('Open new Dual CLI Tab')
         newDualCliTabAction.triggered.connect(context.addNewDualCliTab)
         
-        newParallelBibleTabAction = QAction(QIcon.fromTheme('x-office-address-book'), '&New Parallel Bible View', context)
-        newParallelBibleTabAction.setShortcut('Ctrl+P')
-        newParallelBibleTabAction.triggered.connect(context.addNewParallelBibleTab)
-        
         newVocableTabAction = QAction(QIcon.fromTheme('input-tablet'), '&New Vocable Tab', context)
         newVocableTabAction.setShortcut('Ctrl+L')
         newVocableTabAction.setStatusTip('Open new Vocable Tab')
@@ -46,7 +42,6 @@ class MenuBar(object):
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(newCliTabAction)
         fileMenu.addAction(newDualCliTabAction)
-        fileMenu.addAction(newParallelBibleTabAction)
         fileMenu.addAction(newVocableTabAction)
         fileMenu.addAction(newMusicBeamerTabAction)
         fileMenu.addSeparator()

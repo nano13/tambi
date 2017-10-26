@@ -181,12 +181,6 @@ class Tambi(QMainWindow):
         
         self.activateNewTab()
     
-    def addNewParallelBibleTab(self):
-        tab = QCoreTab().parallelBibleTab()
-        self.tab_widget.addTab(tab, "parallel view")
-        
-        self.activateNewTab()
-    
     def setTabText(self, tab_id, text):
         splitted = text.split(" ")
         """

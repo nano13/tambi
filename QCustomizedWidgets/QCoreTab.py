@@ -33,10 +33,6 @@ class QCoreTab(QWidget):
         
         return self
     
-    def parallelBibleTab(self):
-        parallel = QParallelBibleWidget()
-        return parallel
-    
     def editorTab(self, filepath):
         editor = QTextEdit()
         
