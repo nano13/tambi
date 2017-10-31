@@ -59,7 +59,11 @@ class CoreCommands(object):
     def modules(self, c, a):
         base, dirs, files = next(iter(os.walk('./modules')))
         dirs.sort()
-        dirs.remove('__pycache__')
+        try:
+            dirs.remove('__pycache__')
+        except ValueError:
+            # if __pycache__ does not exists, we do not have do do here anything
+            pass
         
         result_object = Result()
         result_object.category = "list"
