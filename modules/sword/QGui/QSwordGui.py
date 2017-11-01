@@ -11,7 +11,8 @@ from modules.sword.sword import Sword
 from misc.unicodeFonts import UnicodeFonts
 from configs.configFiles import ConfigFile
 
-import queue, os
+import queue
+import os
 
 class QSwordGui(QWidget):
     
@@ -93,13 +94,15 @@ class QSwordGui(QWidget):
         self.showText()
     
     def getLanguagesForDropdown(self):
-        result = self.interpreter.interpreter('sword.languages', self.queue).payload
+        #result = self.interpreter.interpreter('sword.languages', self.queue).payload
+        result = self.sword.listLanguages(None, []).payload
         
         self.combo_language.clear()
         self.combo_language.insertItems(0, result)
     
     def getTranslationsForDropdown(self, language):
-        result = self.interpreter.interpreter('sword.modules '+language, self.queue).payload
+        #result = self.interpreter.interpreter('sword.modules '+language, self.queue).payload
+        result = self.sword.listModules(None, [language]).payload
         
         translations = []
         for translation in result:
@@ -109,7 +112,8 @@ class QSwordGui(QWidget):
         self.combo_translation.insertItems(0, translations)
     
     def setDefaultBible(self):
-        sword_modules = self.interpreter.interpreter('sword.modules', self.queue).payload
+        #sword_modules = self.interpreter.interpreter('sword.modules', self.queue).payload
+        sword_modules = self.sword.listModules(None, []).payload
         
         for module in sword_modules:
             print(module)
@@ -119,7 +123,8 @@ class QSwordGui(QWidget):
                 self.combo_translation.setCurrentText(self.default_bible)
     
     def getBooksForDropdown(self):
-        books = self.interpreter.interpreter('sword.books', self.queue).payload
+        #books = self.interpreter.interpreter('sword.books', self.queue).payload
+        books = self.sword.books(None, []).payload
         
         self.combo_book.clear()
         self.combo_book.insertItems(0, books)

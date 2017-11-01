@@ -15,8 +15,6 @@ import os
 class Sword(object):
     
     config = ConfigFile(os.path.join('modules', 'sword'), 'sword.conf')
-    
-    #current_module = 'GerNeUe'
     canon = 'default'
     
     def __init__(self):
