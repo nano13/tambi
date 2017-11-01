@@ -49,12 +49,13 @@ class QCliWidget(QWidget):
         self.setLayout(self.grid)
         
         self.display_widget = QTextEditEnhanced()
-        self.display_widget.setText("type in the command 'man' for getting started ...")
+        self.display_widget.setText("type in the command 'man' down in the command line for getting started ...")
         self.display_widget.setReadOnly(True)
         
         self.addDisplayWidget()
         
         line = QInputLine()
+        line.setPlaceholderText("This is the command line. See 'man commandline' for details.")
         line.return_pressed.connect(self.commandEntered)
         self.grid.addWidget(line, 1, 0)
         

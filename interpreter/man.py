@@ -15,6 +15,14 @@ commands = """
 Returns a list of all builtin commands.
 """
 
+commandline = """
+The command line is for typing in commands.
+
+Use the up and the down arrow keys for navigating the history up or down.
+
+Type in the command 'man' to get started with an overview, what you can do here.
+"""
+
 modules = """
 Returns a list of all available modules.
 """
