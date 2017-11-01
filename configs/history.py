@@ -9,7 +9,7 @@ HISTORY_FILE_NAME = "history"
 class History(object):
     def __init__(self):
         
-        config_dir = ConfigDir()
+        config_dir = ConfigDir(None, None)
         path = config_dir.getConfigDirPath()
         self.filepath = os.path.join(path, HISTORY_FILE_NAME)
         

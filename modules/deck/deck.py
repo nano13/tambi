@@ -10,7 +10,7 @@ import os, datetime
 
 class Deck(object):
     
-    config = ConfigFile()
+    config = ConfigFile(None, None)
     dbAdapter = DeckDbAdapter()
     
     def __init__(self):

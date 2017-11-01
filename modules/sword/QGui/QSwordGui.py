@@ -9,8 +9,9 @@ from interpreter.interpreter import Interpreter
 from modules.sword.sword import Sword
 
 from misc.unicodeFonts import UnicodeFonts
+from configs.configFiles import ConfigFile
 
-import queue
+import queue, os
 
 class QSwordGui(QWidget):
     
@@ -19,10 +20,13 @@ class QSwordGui(QWidget):
     
     sword = Sword()
     
+    config = ConfigFile(os.path.join('modules', 'sword'), 'sword.conf')
+    
     def __init__(self):
         super().__init__()
         
         self.unicode_fonts = UnicodeFonts()
+        self.default_bible = self.config.readVar('global', 'default_bible')
         
         self.grid = QGridLayout()
         self.grid.setContentsMargins(0, 0, 0, 6)
@@ -73,6 +77,8 @@ class QSwordGui(QWidget):
         
         self.getLanguagesForDropdown()
         self.getBooksForDropdown()
+        
+        self.setDefaultBible()
     
     def languageChanged(self, language):
         self.getTranslationsForDropdown(language)
@@ -101,6 +107,16 @@ class QSwordGui(QWidget):
         
         self.combo_translation.clear()
         self.combo_translation.insertItems(0, translations)
+    
+    def setDefaultBible(self):
+        sword_modules = self.interpreter.interpreter('sword.modules', self.queue).payload
+        
+        for module in sword_modules:
+            print(module)
+            print(module[0])
+            if module[0] == self.default_bible:
+                self.combo_language.setCurrentText(module[1])
+                self.combo_translation.setCurrentText(self.default_bible)
     
     def getBooksForDropdown(self):
         books = self.interpreter.interpreter('sword.books', self.queue).payload
@@ -145,7 +161,7 @@ class QSwordGui(QWidget):
             self.text_edit.setText(text)
             self.text_edit.setReadOnly(True)
             
-            self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
+            #self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
     
     def onZoomInClicked(self):
         self.text_edit.zoomIn()

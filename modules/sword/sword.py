@@ -2,19 +2,25 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
+from configs.configFiles import ConfigFile
+
 from pysword.modules import SwordModules
 from pysword.books import BibleStructure
 import pysword.canons as pysword_canons
+
+import os
 
 #from modules.bituza.bituza import Bituza
 
 class Sword(object):
     
-    current_module = 'GerNeUe'
+    config = ConfigFile(os.path.join('modules', 'sword'), 'sword.conf')
+    
+    #current_module = 'GerNeUe'
     canon = 'default'
     
     def __init__(self):
-        pass
+        self.current_module = self.config.readVar('global', 'default_bible')
     
     def getCommands(self):
         return {

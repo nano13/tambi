@@ -22,7 +22,7 @@ class Tambi(QMainWindow):
     
     meta_key_pressed = False # Windows-Key or Control-Key on Mac
     
-    config = ConfigFile()
+    config = ConfigFile(None, None)
     
     def __init__(self):
         super().__init__()

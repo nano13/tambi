@@ -26,7 +26,7 @@ class QDeckAudioListWidget(QTableWidget):
     
     current_rowid = None
     
-    config = ConfigFile()
+    config = ConfigFile(None, None)
     
     audioItemsDict = []
     audioPlayer = None

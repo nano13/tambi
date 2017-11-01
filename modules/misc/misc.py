@@ -2,7 +2,7 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
-from modules.amazinggrace.QAmazingGraceWidget import QAmazingGraceWidget
+from modules.misc.QAmazingGraceWidget import QAmazingGraceWidget
 
 class Misc(object):
     

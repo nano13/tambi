@@ -81,7 +81,7 @@ class QCliWidget(QWidget):
         self.applyStylesheet()
     
     def applyStylesheet(self):
-        config = ConfigFile()
+        config = ConfigFile(None, None)
         path = config.readVar('global', 'stylesheet')
         stylesheet = ''
         try:

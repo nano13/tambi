@@ -9,10 +9,21 @@ CONFIG_FOLDER_NAME = "logos_bible"
 DEFAULT_CONFIG_FILE_NAME = "logos.conf"
 
 class ConfigFile(object):
-    def __init__(self):
-        configDir = ConfigDir()
+    def __init__(self, config_path, config_filename):
+        if config_path:
+            self.config_path = config_path
+        else:
+            self.config_path = "configs"
+        
+        if config_filename:
+            self.config_filename = config_filename
+        else:
+            self.config_filename = DEFAULT_CONFIG_FILE_NAME
+        
+        configDir = ConfigDir(self.config_path, self.config_filename)
         self.configDirPath = configDir.getConfigDirPath()
-        self.configFilePath = os.path.join(self.configDirPath, DEFAULT_CONFIG_FILE_NAME)
+        
+        self.configFilePath = os.path.join(self.configDirPath, self.config_filename)
         
         self.config = configparser.ConfigParser()
         self.config.read(self.configFilePath)
@@ -51,7 +62,11 @@ class ConfigFile(object):
     def __insertValueFromDefaultConfig(self, section, option):
         print("INSERTING NEW VALUE ########################")
         conf = configparser.ConfigParser()
-        conf.read('./configs/'+DEFAULT_CONFIG_FILE_NAME)
+        if self.config_filename == DEFAULT_CONFIG_FILE_NAME:
+            conf.read(os.path.join('configs', DEFAULT_CONFIG_FILE_NAME))
+        else:
+            conf.read(os.path.join(self.config_path, self.config_filename))
+        
         value = conf.get(section, option)
         try:
             self.write(section, option, value)
@@ -60,7 +75,7 @@ class ConfigFile(object):
             self.write(section, option, value)
     
 class ConfigDir(object):
-    def __init__(self):
+    def __init__(self, config_path, config_dir):
         
         self.configDirPath = self.checkForAndCreateConfigDir()
         self.checkForAndCreateConfigFile(DEFAULT_CONFIG_FILE_NAME)

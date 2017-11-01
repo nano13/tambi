@@ -9,10 +9,10 @@ class VocableDbAdapter(object):
     def __init__(self):
         
         # copy vocables.db to config dir first
-        config = ConfigFile()
+        config = ConfigFile(None, None)
         dbpath = config.readPath("vocable", "vocableDBPath")
         if not os.path.exists(dbpath):
-            moveToConfigDir = ConfigDir()
+            moveToConfigDir = ConfigDir(None, None)
             sourcepath = os.path.join(os.getcwd(), MASTER_DB_PATH)
             os.makedirs(os.path.dirname(dbpath))
             shutil.copyfile(sourcepath, dbpath)

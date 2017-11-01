@@ -23,7 +23,7 @@ class Gps(object):
     import_thread_running = False
     
     def __init__(self):
-        config = ConfigFile()
+        config = ConfigFile(None, None)
         self.logpath = config.readPath("positioning", "storagepath")
         if not os.path.exists(self.logpath):
             os.makedirs(self.logpath)
