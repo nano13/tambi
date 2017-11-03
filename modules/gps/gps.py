@@ -204,13 +204,6 @@ class Gps(object):
             pass
     
     def getPositionFromGpsd(self):
-        #try:
-            #import gpsd
-        #except ModuleNotFoundError:
-            #from QCustomizedWidgets.QLocationManager import QLocationManager
-            #location = QLocationManager()
-            #pos = location.getGpsPosition()
-        #else:
         import gpsd
         gpsd.connect()
         try:
