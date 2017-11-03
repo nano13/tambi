@@ -10,7 +10,7 @@ class Menu(object):
     def __init__(self, context, menubar):
         bituza = Bituza()
         
-        bituzaMenu = menubar.addMenu('&Bituza')
+        bituzaMenu = menubar.addMenu('&BiTuZa')
         
         interlinear = bituzaMenu.addMenu(QIcon.fromTheme("x-office-address-book"), 'interlinear')
         bibles = bituza.structure('', [])

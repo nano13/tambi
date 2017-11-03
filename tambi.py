@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf_8 -*-
 
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QTabWidget, QAction, qApp, QFileDialog

@@ -190,12 +190,11 @@ class QCliWidget(QWidget):
             self.result_from_queue = False
         
         else:
+            #if result is None:
+                #self.showErrorMessage('no result found')
+            
             if hasattr(result, 'payload') and result.payload:
-                if hasattr(result, 'error') and result.error:
-                    self.showErrorMessage(result.error)
-                elif result is None:
-                    self.showErrorMessage('no result found')
-                elif hasattr(result, 'category') and result.category == "table":
+                if hasattr(result, 'category') and result.category == "table":
                     try:
                         result.payload[0]
                     except IndexError:
@@ -230,7 +229,10 @@ class QCliWidget(QWidget):
                 
                 elif hasattr(result, 'category') and result.category == 'command':
                     self.showMapWidget()
-                
+            
+            elif hasattr(result, 'error') and result.error:
+                self.showErrorMessage(result.error)
+            
             else:
                 result = Result()
                 result.payload = 'empty result set'
