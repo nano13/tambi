@@ -3,9 +3,8 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QHBoxLayout, QPushButton, QTex
 from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QCliWidget import QCliWidget
-from modules.sword.QGui.QParallelBibleWidget import QParallelBibleWidget
-from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
 
+from modules.vocable.QGui.QVocableStackedWidget import QVocableStackedWidget
 from modules.musicbeamer.QMusicBeamerWidget import QMusicBeamerWidget
 
 from misc.unicodeFonts import UnicodeFonts

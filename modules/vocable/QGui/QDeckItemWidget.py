@@ -5,7 +5,7 @@ from PyQt5.QtCore import pyqtSignal, QSize, Qt
 from PyQt5.QtGui import QIcon, QPixmap
 
 from QCustomizedWidgets.QFreehandDrawWidget import QFreehandDrawView
-from QCustomizedWidgets.QDeckAudioListWidget import QDeckAudioListWidget
+from modules.vocable.QGui.QDeckAudioListWidget import QDeckAudioListWidget
 from QCustomizedWidgets.QVkbdLineEdit import QVkbdLineEdit
 
 from functools import partial

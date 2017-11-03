@@ -10,7 +10,7 @@ from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
 from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
-from QCustomizedWidgets.QDeckOverviewWidget import QAudioItems
+from QCustomizedWidgets.QAudioItems import QAudioItems
 from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 from QCustomizedWidgets.QCustomizedGraphicsView import QCustomizedGraphicsView
 from QCustomizedWidgets.QMapWidget import QMapWidget
@@ -312,7 +312,7 @@ class QCliWidget(QWidget):
         self.display_widget.setColumnCount(max_length)
         
         audio_count = 0
-        config = ConfigFile()
+        config = ConfigFile(None, None)
         deckpath = config.readPath("vocable", "deckpath")
         for row, line in enumerate(result.payload):
             deckname = line[0]

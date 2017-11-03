@@ -1,11 +1,11 @@
 
 from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog, QMessageBox
-from QCustomizedWidgets.QVocableLearnPage import QVocableLearnPage
-from QCustomizedWidgets.QVocableLanguagePage import QVocableLanguagePage
-from QCustomizedWidgets.QDeckOverviewWidget import QDeckOverviewWidget
-from QCustomizedWidgets.QDeckItemWidget import QDeckItemWidget
-from QCustomizedWidgets.QDeckLearnWidget import QDeckLearnWidget
-from QCustomizedWidgets.QDeckDirtyDozenWidget import QDeckDirtyDozenWidget
+from modules.vocable.QGui.QVocableLearnPage import QVocableLearnPage
+from modules.vocable.QGui.QVocableLanguagePage import QVocableLanguagePage
+from modules.vocable.QGui.QDeckOverviewWidget import QDeckOverviewWidget
+from modules.vocable.QGui.QDeckItemWidget import QDeckItemWidget
+from modules.vocable.QGui.QDeckLearnWidget import QDeckLearnWidget
+from modules.vocable.QGui.QDeckDirtyDozenWidget import QDeckDirtyDozenWidget
 
 from configs.configFiles import ConfigFile
 
@@ -22,7 +22,7 @@ class QVocableStackedWidget(QWidget):
     def __init__(self):
         super().__init__()
         
-        config = ConfigFile()
+        config = ConfigFile(None, None)
         self.defaultDeckPath = config.readPath("vocable", "deckpath")
         
         while not os.path.exists(self.defaultDeckPath):
