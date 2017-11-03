@@ -5,7 +5,7 @@ from PyQt5.QtCore import pyqtSignal
 from PyQt5.QtGui import QFont
 from PyQt5 import QtSvg
 
-from misc.deckDbAdapter import DeckDbAdapter
+from modules.deck.deckDbAdapter import DeckDbAdapter
 from misc.unicodeFonts import UnicodeFonts
 
 from os import path

@@ -6,7 +6,7 @@ from PyQt5.QtGui import QIcon, QPixmap
 
 from QCustomizedWidgets.QAudioItems import QAudioItems
 
-from misc.deckDbAdapter import DeckDbAdapter
+from modules.deck.deckDbAdapter import DeckDbAdapter
 from misc.unicodeFonts import UnicodeFonts
 
 from os import path, remove

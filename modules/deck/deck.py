@@ -3,7 +3,7 @@ from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
 from configs.configFiles import ConfigFile
-from misc.deckDbAdapter import DeckDbAdapter
+from modules.deck.deckDbAdapter import DeckDbAdapter
 from modules.ipa.ipa import Ipa
 
 import os, datetime

@@ -7,7 +7,7 @@ from PyQt5 import QtCore
 
 from QCustomizedWidgets.QClickLabel import QClickLabel
 
-from misc.deckDbAdapter import DeckDbAdapter
+from modules.deck.deckDbAdapter import DeckDbAdapter
 
 from os import path
 import functools
