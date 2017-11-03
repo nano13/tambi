@@ -5,7 +5,8 @@ from PyQt5.QtCore import pyqtSignal
 from QCustomizedWidgets.QCliWidget import QCliWidget
 from modules.sword.QGui.QParallelBibleWidget import QParallelBibleWidget
 from QCustomizedWidgets.QVocableStackedWidget import QVocableStackedWidget
-from QCustomizedWidgets.QMusicBeamerWidget import QMusicBeamerWidget
+
+from modules.musicbeamer.QMusicBeamerWidget import QMusicBeamerWidget
 
 from misc.unicodeFonts import UnicodeFonts
 
