@@ -1,0 +1,14 @@
+[Desktop Entry]
+
+Type=Application
+
+Version=1.0
+
+Name=tambi
+
+Comment=A swiss army knife for studiing the bible and much more
+Path=/usr/bin/tambi
+Exec=tambi
+Icon=/usr/share/pixmaps/tambi.ico
+Terminal=false
+Categories=Education
