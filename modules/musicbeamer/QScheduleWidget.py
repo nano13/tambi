@@ -27,11 +27,9 @@ class QScheduleWidget(QWidget):
         self.i += 1
         
         button = QDragButton(str(label), self, basepath, filename)
-        #button = QDragButton(str(self.i), self)
         button.setButtonList(self.button_list)
         button.setButtonHeight( BUTTON_HEIGHT )
         
-        #button.clicked.connect(self.clicked)
         button.left_clicked.connect(self.leftClicked)
         button.right_clicked.connect(self.rightClicked)
         button.drag_event_ended.connect(self.reorganize)

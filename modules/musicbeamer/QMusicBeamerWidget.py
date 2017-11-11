@@ -8,9 +8,9 @@ from QCustomizedWidgets.QClickLabel import QClickLabel
 
 from misc.mimetypeAnalyzer import MimetypeAnalyzer
 
-import functools, os
+import functools, os, codecs
 
-SCHEDULE_WIDTH = 252#275
+SCHEDULE_WIDTH = 252
 PREVIEW_WIDTH = 300
 
 class QMusicBeamerWidget(QWidget):
@@ -29,12 +29,11 @@ class QMusicBeamerWidget(QWidget):
         self.setLayout(self.layout)
         
         self.schedule = self.addSchedule()
-        #self.preview = self.addPreviewArea()
         
-        self.addTestDataSet()
-        
-    def addTestDataSet(self):
-        #self.addToSchedule('./assets/images/facepalm/', 'facepalm1.jpg')
+        self.addAmazingTestDataSet()
+        #self.addSongbeamerTestDataSet()
+    
+    def addAmazingTestDataSet(self):
         base, dirs, files = next(iter(os.walk('./assets/images/facepalm')))
         for filename in sorted(files):
             self.addToSchedule(base, filename)
@@ -42,9 +41,13 @@ class QMusicBeamerWidget(QWidget):
         base, dirs, files = next(iter(os.walk('./modules/misc/amazing_data')))
         max_i = 0
         for filename in sorted(files):
-            #label = str(f.split('.')[0])
-            #print(base, dirs, filename)
             self.addToSchedule(base, filename)
+    
+    def addSongbeamerTestDataSet(self):
+        base, dirs, files = next(iter(os.walk('/home/samuel/Dropbox/Songbeamer/Songs/logospanoramasong')))
+        for filename in sorted(files):
+            self.addToSchedule(base, filename)
+            print(base, filename)
     
     def addSchedule(self):
         schedule = QScheduleWidget()
@@ -59,11 +62,11 @@ class QMusicBeamerWidget(QWidget):
         self.layout.addWidget(scroll_area)
         
         return schedule
-        
+    
     def addToSchedule(self, basepath, filename):
         label = str(filename.split('.')[0])
         self.schedule.addButton(label, basepath, filename)
-        
+    
     def scheduleButtonClicked(self, button_id, basepath, filename):
         self.addPreviewArea(basepath, filename)
     
@@ -85,41 +88,86 @@ class QMusicBeamerWidget(QWidget):
         self.preview_area = scroll_area
         
         self.addPreviewsToPrevievArea(basepath, filename)
-        
+    
     def addPreviewsToPrevievArea(self, basepath, filename):
         filetype = self.mimetypeAnalyzer.isImageOrText(basepath, filename)
         
-        #test_image = './assets/images/facepalm/facepalm1.jpg'
-        #print(test_image)
-        
-        self.beamer_window = QBeamerWindow()
+        self.beamer_window_list = []
         
         if filetype == 'image':
-            self.beamer_window.setImageWithPath(os.path.join(basepath, filename))
-        elif filetype == 'text':
-            text = ''
-            with open(os.path.join(basepath, filename), 'r') as fobj:
-                for line in fobj:
-                    text += line
+            beamer_window = QBeamerWindow()
+            self.beamer_window_list.append(beamer_window)
+            beamer_window.setImageWithPath(os.path.join(basepath, filename))
             
-            self.beamer_window.setText(text)
-            self.beamer_window.routeToScreen() # needed for beamer_window.setText()
+            self.addPreviewsToPrevievAreaHelper(beamer_window)
         
-        preview_pixmap = self.beamer_window.getPreviewPixmap()
+        elif filetype == 'text':
+            
+            if filename.endswith('.sng'):
+                data = self.parseSNGFile(os.path.join(basepath, filename))
+            else:
+                text = ''
+                try:
+                    with open(os.path.join(basepath, filename), 'r') as fobj:
+                        for line in fobj:
+                            text += line
+                except UnicodeDecodeError:
+                    with codecs.open(os.path.join(basepath, filename), 'r', 'iso-8859-15') as fobj:
+                        for line in fobj:
+                            text += line
+                data = {0: text}
+            
+            for page in data.keys():
+                page = data[page]
+                
+                beamer_window = QBeamerWindow()
+                self.beamer_window_list.append(beamer_window)
+                
+                beamer_window.setText(page)
+                beamer_window.routeToScreen()
+                
+                self.addPreviewsToPrevievAreaHelper(beamer_window)
+    
+    def addPreviewsToPrevievAreaHelper(self, beamer_window):
+        preview_pixmap = beamer_window.getPreviewPixmap()
         scaled_pixmap = preview_pixmap.scaled(QtCore.QSize(PREVIEW_WIDTH, PREVIEW_WIDTH), QtCore.Qt.KeepAspectRatio)
         
         label = QClickLabel()
         label.setGeometry(scaled_pixmap.rect())
         label.setPixmap(scaled_pixmap)
         label.setAlignment(QtCore.Qt.AlignCenter)
-        
-        label.clicked.connect(functools.partial(self.previewClicked, None))
+        label.clicked.connect(functools.partial(self.previewClicked, beamer_window))
         
         layout = self.preview_area.widget().layout()
         layout.addWidget(label)
-        
+    
     def previewClicked(self, beamer_window):
-        self.beamer_window.routeToScreen()
-        self.beamer_window.showFullScreen()
+        beamer_window.routeToScreen()
+        beamer_window.showFullScreen()
+    
+    def parseSNGFile(self, filepath):
+        try:
+            with open(filepath, 'r') as fobj:
+                return self.sngParserHelper(fobj)
+        except UnicodeDecodeError:
+            with codecs.open(filepath, 'r', 'iso-8859-15') as fobj:
+                return self.sngParserHelper(fobj)
+    
+    def sngParserHelper(self, fobj):
+        result = {}
+        text = ''
         
+        newline_counter = 0
+        for line in fobj:
+            if line.startswith('--'):
+                newline_counter += 1
+                
+                result[newline_counter] = text
+                
+                text = ''
+            
+            else:
+                text += line
         
+        return result
+    
