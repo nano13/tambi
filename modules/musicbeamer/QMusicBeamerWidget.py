@@ -18,7 +18,7 @@ class QMusicBeamerWidget(QWidget):
     layout = QHBoxLayout()
     preview_area = None
     
-    beamer_window = None
+    #beamer_window = None
     
     mimetypeAnalyzer = MimetypeAnalyzer()
     
@@ -92,11 +92,11 @@ class QMusicBeamerWidget(QWidget):
     def addPreviewsToPrevievArea(self, basepath, filename):
         filetype = self.mimetypeAnalyzer.isImageOrText(basepath, filename)
         
-        self.beamer_window_list = []
+        #self.beamer_window_list = []
         
         if filetype == 'image':
             beamer_window = QBeamerWindow()
-            self.beamer_window_list.append(beamer_window)
+            #self.beamer_window_list.append(beamer_window)
             beamer_window.setImageWithPath(os.path.join(basepath, filename))
             
             self.addPreviewsToPrevievAreaHelper(beamer_window)
@@ -121,7 +121,7 @@ class QMusicBeamerWidget(QWidget):
                 page = data[page]
                 
                 beamer_window = QBeamerWindow()
-                self.beamer_window_list.append(beamer_window)
+                #self.beamer_window_list.append(beamer_window)
                 
                 beamer_window.setText(page)
                 beamer_window.routeToScreen()
