@@ -14,9 +14,12 @@ class CoreCommands(object):
     def __init__(self):
         pass
     
-    def execute(self, command, args):
+    def execute(self, command, args, queue):
         commands = self.getCommands()
-        return commands.get(command, self.commandNotFound)(command, args)
+        try:
+            return commands.get(command, self.commandNotFound)(command, args, queue)
+        except TypeError:
+            return commands.get(command, self.commandNotFound)(command, args)
     
     def getCommands(self):
         return {
@@ -36,6 +39,8 @@ class CoreCommands(object):
             "fonts" : self.fonts,
             
             "snapshot" : self.snapshot,
+            
+            "progressbar" : self.progressbar,
             }
     
     def commandNotFound(self, command, args):
@@ -161,3 +166,7 @@ class CoreCommands(object):
         result_object.payload = available_fonts
         return result_object
     
+    def progressbar(self, c, args, queue):
+        for i in range(0, 11):
+            queue.put(str(i))
+            time.sleep(1)

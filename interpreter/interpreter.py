@@ -89,7 +89,7 @@ class Interpreter(object):
     
     def tryCommandInCoreCommands(self, command, args, queue):
         try:
-            return_value = self.core_commands.execute(command, args)
+            return_value = self.core_commands.execute(command, args, queue)
         except CommandNotInThisModule:
             return self.tryCommandInModules(command, args, queue)
         else:
