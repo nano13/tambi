@@ -167,6 +167,7 @@ class CoreCommands(object):
         return result_object
     
     def progressbar(self, c, args, queue):
-        for i in range(0, 11):
-            queue.put(str(i))
-            time.sleep(1)
+        for i in range(0, 101):
+            queue.put('{"label": "just a demo", "category": "progressbar", "minimum": 0, "value": '+str(i)+', "maximum": 100 }')
+            #queue.put(str(i))
+            time.sleep(.01)

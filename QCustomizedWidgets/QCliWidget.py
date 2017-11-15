@@ -1,5 +1,5 @@
 
-from PyQt5.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel, QFileDialog
+from PyQt5.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QTableWidget, QTableWidgetItem, QPushButton, QGraphicsScene, QGraphicsView, QLabel, QFileDialog, QProgressBar
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QImage, QPainter, QMovie
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize, pyqtSignal
@@ -24,7 +24,7 @@ from configs.configFiles import ConfigFile
 
 from functools import partial
 from os import path
-import queue
+import queue, json
 
 SCALE_FACTOR = 1.15
 
@@ -181,9 +181,26 @@ class QCliWidget(QWidget):
     def processQueueItem(self, item):
         self.result_from_queue = True
         
-        result_object = Result()
-        result_object.payload = item.getItem()
-        self.resultInTextEdit(result_object)
+        item = item.getItem()
+        
+        json_dict = json.loads(item)
+        if json_dict['category'] == 'progressbar':
+            last_type = type(self.display_widget)
+            if not last_type == QProgressBar:
+                self.display_widget.deleteLater()
+                self.display_widget = QProgressBar()
+            
+            self.display_widget.setMinimum(json_dict['minimum'])
+            self.display_widget.setMaximum(json_dict['maximum'])
+            self.display_widget.setValue(json_dict['value'])
+            
+            if not last_type == QProgressBar:
+                self.addDisplayWidget()
+        
+        else:
+            result_object = Result()
+            result_object.payload = item.getItem()
+            self.resultInTextEdit(result_object)
     
     def processResult(self, result):
         if self.result_from_queue:
