@@ -5,8 +5,8 @@ import shutil
 
 import configparser
 
-CONFIG_FOLDER_NAME = "logos_bible"
-DEFAULT_CONFIG_FILE_NAME = "logos.conf"
+CONFIG_FOLDER_NAME = "tambi"
+DEFAULT_CONFIG_FILE_NAME = "tambi.conf"
 
 class ConfigFile(object):
     def __init__(self, config_path, config_filename):
