@@ -53,7 +53,7 @@ class QVirtualKeyboardWindow(QMainWindow):
         self.show()
         
     def applyStylesheet(self):
-        config = ConfigFile()
+        config = ConfigFile(None, None)
         path = config.readVar('global', 'stylesheet')
         stylesheet = ''
         try:
