@@ -55,14 +55,13 @@ class QDeckAudioListWidget(QTableWidget):
         
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
-        #self.audioRecorder = QDeckAudioItemWidget()
         
         os_name = platform.uname()[0]
         if os_name == "Windows" or os_name == "Darwin":
             self.audioRecorder = QAudioRecorder()
         else:
-            from modules.deck.audioRecorder import AudioRecorder
-            self.audioRecorder = AudioRecorder()
+            from modules.deck.gstAudioRecorder import GstAudioRecorder
+            self.audioRecorder = GstAudioRecorder()
         
         settings = QAudioEncoderSettings()
         
@@ -87,8 +86,6 @@ class QDeckAudioListWidget(QTableWidget):
         
         self.itemChanged.connect(self.onItemChanged)
         
-        #self.updateAudioListWidget()
-        
     def getAudioFromDB(self, rowid):
         self.audioItemsDict = self.dbAdapter.audioFilenamesForDeckRowID(rowid)
         self.setRowCount(len(self.audioItemsDict))
@@ -106,7 +103,7 @@ class QDeckAudioListWidget(QTableWidget):
     def updateAudioListWidget(self):
         for i, row in enumerate(range(self.rowCount())):
             
-            button_delete = QPushButton()#"delete", self)
+            button_delete = QPushButton()
             button_delete.setIcon(QIcon.fromTheme('edit-delete'))
             self.setCellWidget(row, DELETE_BUTTON_COLUMN, button_delete)
             button_delete.clicked.connect(partial(self.deleteAudioButtonClicked, row))
@@ -123,6 +120,7 @@ class QDeckAudioListWidget(QTableWidget):
                     self.insertPlayButton(row)
                 else:
                     self.insertRecordButton(row)
+            
             elif self.status == self.PLAYING:
                 if i == self.row:
                     self.insertStopPlayButton(row)
@@ -131,6 +129,7 @@ class QDeckAudioListWidget(QTableWidget):
                         self.insertRecordButton(row)
                     else:
                         self.insertPlayButton(row)
+            
             elif self.status == self.RECORDING:
                 if i == self.row:
                     self.insertStopRecordButton(row)
@@ -143,25 +142,25 @@ class QDeckAudioListWidget(QTableWidget):
             self.resizeColumnsToContents()
             
     def insertPlayButton(self, row):
-        button_play = QPushButton()#"play", self)
+        button_play = QPushButton()
         button_play.setIcon(QIcon.fromTheme('media-playback-start'))
         self.setCellWidget(row, PLAY_BUTTON_COLUMN, button_play)
         button_play.clicked.connect(partial(self.playButtonClicked, row))
         
     def insertStopPlayButton(self, row):
-        button_stop = QPushButton()#"stop", self)
+        button_stop = QPushButton()
         button_stop.setIcon(QIcon.fromTheme('media-playback-stop'))
         self.setCellWidget(row, PLAY_BUTTON_COLUMN, button_stop)
         button_stop.clicked.connect(partial(self.stopPlayButtonClicked, row))
         
     def insertRecordButton(self, row):
-        button_record = QPushButton()#"record", self)
+        button_record = QPushButton()
         button_record.setIcon(QIcon.fromTheme('media-record'))
         self.setCellWidget(row, RECORD_BUTTON_COLUMN, button_record)
         button_record.clicked.connect(partial(self.recordButtonClicked, row))
         
     def insertStopRecordButton(self, row):
-        button_stop = QPushButton()#"stop record", self)
+        button_stop = QPushButton()
         button_stop.setIcon(QIcon.fromTheme('media-playback-stop'))
         self.setCellWidget(row, RECORD_BUTTON_COLUMN, button_stop)
         button_stop.clicked.connect(partial(self.stopRecordButtonClicked, row))
@@ -209,27 +208,19 @@ class QDeckAudioListWidget(QTableWidget):
         
         extension = '.wav'
         audioformat = self.config.readVar('vocable', 'audioformat')
-        print(audioformat)
         if audioformat == 'ogg':
             extension = '.ogg'
         elif audioformat == 'mp3':
             extension = '.mp3'
         elif audioformat == 'amr':
             extension = '.amr'
-        #filename = str(int(time.time())) + self.randomword(5) + ".ogg"
-        #filename = str(int(time.time())) + self.randomword(5) + ".wav"
         filename = str(int(time.time())) + self.randomword(5) + extension
         filepath = os.path.join(self.deckpath, filename)
         print(filepath)
         
-        #self.audioRecorder.initAudioInput(filepath)
-        #self.audioRecorder.start()
         url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
-        print(url)
         self.audioRecorder.setOutputLocation(url)
-        print('+++')
         self.audioRecorder.record()
-        print('###')
         
         self.audioItemsDict[row]["filename"] = filename
         
@@ -237,15 +228,11 @@ class QDeckAudioListWidget(QTableWidget):
         self.row = row
         self.updateAudioListWidget()
         
-        print("++++++++++++++++++++++")
         self.saveStateToDB(self.current_rowid)
         
     def stopRecordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
-        #try:
         self.audioRecorder.stop()
-        #except AttributeError:
-        #    pass
         
         self.status = self.STOPPED
         self.updateAudioListWidget()
@@ -279,12 +266,6 @@ class QDeckAudioListWidget(QTableWidget):
     def mediaStatusChanged(self):
         status = self.audioPlayer.mediaStatus()
         
-        #if self.audioPlayer.state() == QMediaPlayer.StoppedState:
-            #self.status = self.STOPPED
-            #try:
-                #self.updateAudioListWidget()
-            #except IndexError:
-                #print("index error")
         if status == 7:
             self.stopAllAudio()
     
@@ -297,7 +278,6 @@ class QDeckAudioListWidget(QTableWidget):
                 self.audioItemsDict[i]["description"] = cell_text
             
     def saveStateToDB(self, deck_rowid):
-        print("ROWID", deck_rowid)
         self.dbAdapter.saveAudioDict(self.audioItemsDict, deck_rowid)
     
     def randomword(self, length):
