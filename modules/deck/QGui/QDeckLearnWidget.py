@@ -155,8 +155,12 @@ class QDeckLearnWidget(QWidget):
             self.current_word.setText("ERROR: empty set")
         self.current_translation.setText("")#self.dataset[self.current_index]['translation'])
         
-        self.svgWidget.load(path.join(self.deckpath, self.dataset[self.current_index]['svg_filename']))
-        
+        try:
+            self.svgWidget.load(path.join(self.deckpath, self.dataset[self.current_index]['svg_filename']))
+        except IndexError:
+            """ we just do not have an svg-image """
+            pass
+    
     def buttonKnownClicked(self):
         self.dbAdapter.updateKnown(self.dataset[self.current_index]['rowid'], 1)
         self.buttonNextClicked()
