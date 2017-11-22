@@ -191,13 +191,17 @@ class QDeckAudioListWidget(QTableWidget):
         filename = file_path[0].split(os.sep)[::-1][0]
         target_path = os.path.join(self.deckpath, filename)
         #if not os.path.exists(target_path):
-        shutil.copyfile(file_path[0], target_path)
-        
-        self.audioItemsDict[row]["filename"] = filename
-        self.status = self.STOPPED
-        self.updateAudioListWidget()
-        
-        self.saveStateToDB(self.current_rowid)
+        try:
+            shutil.copyfile(file_path[0], target_path)
+        except FileNotFoundError:
+            """ there is simply no file to copy """
+            pass
+        else:
+            self.audioItemsDict[row]["filename"] = filename
+            self.status = self.STOPPED
+            self.updateAudioListWidget()
+            
+            self.saveStateToDB(self.current_rowid)
     
     def recordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
