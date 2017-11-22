@@ -11,5 +11,6 @@ python-geopy
 python-srtm-git
 python-pillow
 
+gst-python
 
 git submodule update --init --recursive

@@ -10,7 +10,7 @@ from configs.configFiles import ConfigFile
 from functools import partial
 from os import path, remove
 import os, shutil
-import time, random, string
+import time, random, string, platform
 
 PLAY_BUTTON_COLUMN = 1
 RECORD_BUTTON_COLUMN = 1
@@ -56,7 +56,14 @@ class QDeckAudioListWidget(QTableWidget):
         self.audioPlayer = QMediaPlayer()
         self.audioPlayer.mediaStatusChanged.connect(self.mediaStatusChanged)
         #self.audioRecorder = QDeckAudioItemWidget()
-        self.audioRecorder = QAudioRecorder()
+        
+        os_name = platform.uname()[0]
+        if os_name == "Windows" or os_name == "Darwin":
+            self.audioRecorder = QAudioRecorder()
+        else:
+            from modules.deck.audioRecorder import AudioRecorder
+            self.audioRecorder = AudioRecorder()
+        
         settings = QAudioEncoderSettings()
         
         audioformat = self.config.readVar('vocable', 'audioformat')
