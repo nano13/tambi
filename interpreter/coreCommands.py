@@ -41,6 +41,8 @@ class CoreCommands(object):
             "snapshot" : self.snapshot,
             
             "progressbar" : self.progressbar,
+            
+            "show_dependencies" : self.showDependencies,
             }
     
     def commandNotFound(self, command, args):
@@ -171,3 +173,26 @@ class CoreCommands(object):
             queue.put('{"label": "just a demo", "category": "progressbar", "minimum": 0, "value": '+str(i)+', "maximum": 100 }')
             #queue.put(str(i))
             time.sleep(.01)
+    
+    def showDependencies(self, c, args):
+        
+        result = []
+        for key in sys.modules.keys():
+            result.append(key)
+        result = sorted(result)
+        
+        if len(args) > 0 and args[0] == 'compact':
+            result = [x for x in result if "." not in x]
+            
+            base, dirs, files = next(iter(os.walk('./')))
+            for folder in dirs:
+                try:
+                    result.remove(folder)
+                except ValueError:
+                    """ nothing to do here """
+                    pass
+        
+        result_object = Result()
+        result_object.category = 'list'
+        result_object.payload = result
+        return result_object

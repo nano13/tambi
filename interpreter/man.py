@@ -75,3 +75,13 @@ fonts TeX
 snapshot = """
 Makes a snapshot of the content which is actually displayed.
 """
+
+show_dependencies = """
+Returns a list of all python dependencies / imports of this software.
+
+@param (optional): "compact", show only the main imports level
+
+Examples:
+show_dependencies
+show_dependencies compact
+"""
