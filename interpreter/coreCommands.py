@@ -184,13 +184,10 @@ class CoreCommands(object):
         if len(args) > 0 and args[0] == 'compact':
             result = [x for x in result if "." not in x]
             
+            """ kick out the imported parts of this programm itself from the result """
             base, dirs, files = next(iter(os.walk('./')))
             for folder in dirs:
-                try:
-                    result.remove(folder)
-                except ValueError:
-                    """ nothing to do here """
-                    pass
+                result = [x for x in result if folder not in x]
         
         result_object = Result()
         result_object.category = 'list'
