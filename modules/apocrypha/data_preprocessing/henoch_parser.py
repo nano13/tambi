@@ -46,14 +46,16 @@ class HenochParser(object):
                                 """ reset 'verse_entry' but preserver 'chapter' """
                                 chapter = verse_entry['chapter']
                                 verse_entry = {'chapter': chapter}
-            
         
         fobj.close()
         self.connection.commit()
     
     def initDB(self):
-        self.connection = sqlite3.connect("./henoch.sqlite.db")
+        self.connection = sqlite3.connect("../henoch.sqlite.db")
         self.cursor = self.connection.cursor()
+        
+        query = "DROP TABLE IF EXISTS henoch"
+        self.cursor.execute(query)
         
         query = "CREATE TABLE IF NOT EXISTS henoch (chapter NUMERIC, verse NUMERIC, word TEXT)"
         self.cursor.execute(query)
@@ -63,7 +65,7 @@ class HenochParser(object):
         try:
             self.cursor.execute(query, [entry['chapter'], entry['verse'], entry['word']])
         except KeyError:
-            self.cursor.execute(query, [entry['chapter'], -1, entry['word']])
+            self.cursor.execute(query, [entry['chapter'], 1, entry['word']])
 
 if __name__ == '__main__':
     c = HenochParser()
