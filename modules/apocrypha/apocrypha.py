@@ -10,12 +10,15 @@ class Apocrypha(object):
         pass
     
     def initDbConnection(self):
-        self.connection = sqlite3.connect("./modules/apokryphs/henoch.sqlite.db")
+        self.connection = sqlite3.connect("./modules/apocrypha/henoch.sqlite.db")
         self.cursor = self.connection.cursor()
          
     def getCommands(self):
         return {
+            "apocrypha.commands" : self.commands,
+            
             "apocrypha.word" : self.word,
+            "apocrypha.structure" : self.structure,
             
         }
     
@@ -49,29 +52,43 @@ class Apocrypha(object):
         result_object.category = "text"
         
         if len(args) > 0 and args[0] == 'henoch':
-            result = self.henoch(args)
+            result = self.henoch(args, result_object)
         
         return result_object
     
-    def henoch(args):
+    def henoch(self, args, result_object):
+        self.initDbConnection()
+        
         if len(args) == 2:
-            query = "SELECT word FROM henoch WHERE chapter=?"
-            self.cursor.execute(query, [int(args[0])])
+            query = "SELECT verse, word FROM henoch WHERE chapter=?"
+            print(int(args[1]))
+            self.cursor.execute(query, [int(args[1])])
         
         elif len(args) == 3:
             if args[1].find('-') == -1:
-                query = "SELECT word FROM henoch WHERE chapter=? AND verse=?"
-                self.cursor.execute(query, [int(args[0]), int(args[1])])
+                query = "SELECT verse, word FROM henoch WHERE chapter=? AND verse=?"
+                self.cursor.execute(query, [int(args[1]), int(args[2])])
         
             elif len(args) == 4:
-                query = "SELECT word FROM henoch WHERE chapter=? AND verse>=? AND verse<=?"
-                self.cursor.execute(query, [int(args[0]), int(args[1]), int(args[2])])
+                query = "SELECT verse, word FROM henoch WHERE chapter=? AND verse>=? AND verse<=?"
+                self.cursor.execute(query, [int(args[1]), int(args[2]), int(args[3])])
+        
+        result = self.cursor.fetchall()
+        
+        result_object.payload = result
+        return result_object
+    
+    def structure(self, c, args):
+        self.initDbConnection()
+        
+        query = "SELECT chapter, COUNT(verse) FROM henoch GROUP BY chapter ORDER BY chapter"
+        self.cursor.execute(query)
         
         result = self.cursor.fetchall()
         
         result_object = Result()
-        result_object.category = "text"
+        result_object.category = 'table'
         result_object.payload = result
+        result_object.header = ['chapter', 'verses']
         return result_object
-    
 
