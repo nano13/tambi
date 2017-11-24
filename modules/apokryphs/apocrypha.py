@@ -5,17 +5,17 @@ from interpreter.structs import Result
 
 import sqlite3
 
-class Apokryphs(object):
+class Apocrypha(object):
     def __init__(self):
         pass
     
     def initDbConnection(self):
-        self.connection = sqlite3.connect("./modules/apokryphs/.db")
+        self.connection = sqlite3.connect("./modules/apokryphs/henoch.sqlite.db")
         self.cursor = self.connection.cursor()
          
     def getCommands(self):
         return {
-            "apokryphs.word" : self.word,
+            "apocrypha.word" : self.word,
             
         }
     
@@ -50,8 +50,28 @@ class Apokryphs(object):
         
         if len(args) > 0 and args[0] == 'henoch':
             result = self.henoch(args)
-            
         
         return result_object
     
+    def henoch(args):
+        if len(args) == 2:
+            query = "SELECT word FROM henoch WHERE chapter=?"
+            self.cursor.execute(query, [int(args[0])])
+        
+        elif len(args) == 3:
+            if args[1].find('-') == -1:
+                query = "SELECT word FROM henoch WHERE chapter=? AND verse=?"
+                self.cursor.execute(query, [int(args[0]), int(args[1])])
+        
+            elif len(args) == 4:
+                query = "SELECT word FROM henoch WHERE chapter=? AND verse>=? AND verse<=?"
+                self.cursor.execute(query, [int(args[0]), int(args[1]), int(args[2])])
+        
+        result = self.cursor.fetchall()
+        
+        result_object = Result()
+        result_object.category = "text"
+        result_object.payload = result
+        return result_object
     
+
