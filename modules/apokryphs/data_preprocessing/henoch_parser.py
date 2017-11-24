@@ -10,48 +10,41 @@ class HenochParser(object):
         
         fobj = open('henoch_stripped.txt')
         
+        verse_entry = {}
         for line in fobj:
             line = line.strip()
             
-            if line.startswith('Kap.'):
-                verse_entry = {'chapter' : line.split(' ')[1]}
-                print(verse_entry)
+            if line.startswith('Kap. '):
+                verse_entry['chapter'] = line.split(' ')[1]
+                #print(verse_entry)
             
             else:
                 if line:
-                    splitted = re.split('[1-9]\.', line)
-                    print(splitted)
-                    """
-                    last_char = None
-                    for i, char in enumerate(line):
-                        if char == '.' and last_char.isdigit():
-                            verse = 
-                        
-                        
-                        last_char = char
-                    """
+                    splitted = re.split('([1-9]+\. )', line)
+                    #print(splitted)
                     
-                    """
-                    last_char = None
-                    verse = ''
-                    for char in line:
-                        if char == '.':
-                            if last_char.isdigit():
-                                verse_entry['verse'] = last_char + char
-                                
-                                verse_entry['word'] = verse
-                                verse = ''
+                    i = 0
+                    for item in splitted:
+                        item = item.strip()
+                        if item:
+                            if re.match('[1-9]+\.', item):
+                                i += 1
+                                #print(item.replace('.', ''), i)
+                                verse_entry['verse'] = item.replace('.', '')
                             
                             else:
-                                verse += char
-                        
-                        else:
-                            verse += char
-                            
-                            last_char = char
-                    """
+                                verse_entry['word'] = item
+                                
+                                print(verse_entry)
+                                self.saveToDB(verse_entry)
+                                
+                                """ reset 'verse_entry' but preserver 'chapter' """
+                                chapter = verse_entry['chapter']
+                                verse_entry = {'chapter': chapter}
+            
         
         fobj.close()
+        self.connection.commit()
     
     def initDB(self):
         self.connection = sqlite3.connect("./henoch.sqlite.db")
@@ -59,6 +52,13 @@ class HenochParser(object):
         
         query = "CREATE TABLE IF NOT EXISTS henoch (chapter, verse, word)"
         self.cursor.execute(query)
+    
+    def saveToDB(self, entry):
+        query = "INSERT INTO henoch (chapter, verse, word) VALUES (?, ?, ?)"
+        try:
+            self.cursor.execute(query, [entry['chapter'], entry['verse'], entry['word']])
+        except KeyError:
+            self.cursor.execute(query, [entry['chapter'], -1, entry['word']])
 
 if __name__ == '__main__':
     c = HenochParser()
