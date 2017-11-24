@@ -54,20 +54,28 @@ class Quran(object):
         return result_object
     
     def search(self, c, args):
-        key = '%'+args[0]+'%'
-        query = """SELECT surah, ayah, arabic, transcription, de_DE
-        FROM quran
-        WHERE arabic LIKE ? OR transcription LIKE ? OR de_DE LIKE ?"""
-        self.initDbConnection()
-        self.cursor.execute(query, [key, key, key])
-        
-        result = self.cursor.fetchall()
-        
         result_object = Result()
-        result_object.category = "itemized"#"table"
-        result_object.payload = result
-        result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
-        result_object.name = "quran_search"
+        
+        try:
+            key = '%'+args[0]+'%'
+        except IndexError:
+            result_object.error = 'ERROR: you have to specify a search pattern'
+        
+        else:
+            query = """SELECT surah, ayah, arabic, transcription, de_DE
+            FROM quran
+            WHERE arabic LIKE ? OR transcription LIKE ? OR de_DE LIKE ?"""
+            self.initDbConnection()
+            self.cursor.execute(query, [key, key, key])
+            
+            result = self.cursor.fetchall()
+            
+            
+            result_object.category = "itemized"
+            result_object.payload = result
+            result_object.header = ['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
+            result_object.name = "quran_search"
+        
         return result_object
     
     def word(self, c, args):

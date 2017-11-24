@@ -20,6 +20,8 @@ class Apocrypha(object):
             "apocrypha.word" : self.word,
             "apocrypha.structure" : self.structure,
             
+            "apocrypha.search" : self.search,
+            
         }
     
     def interpreter(self, command, args, queue):
@@ -91,4 +93,24 @@ class Apocrypha(object):
         result_object.payload = result
         result_object.header = ['chapter', 'verses']
         return result_object
-
+    
+    def search(self, c, args):
+        result_object = Result()
+        
+        try:
+            key = '%'+args[0]+'%'
+        except IndexError:
+            result_object.error = 'ERROR: you have to specify a search pattern'
+        
+        else:
+            self.initDbConnection()
+            query = "SELECT chapter, verse, word FROM henoch WHERE word LIKE ?"
+            self.cursor.execute(query, [key])
+            
+            result = self.cursor.fetchall()
+            
+            result_object.category = "itemized"
+            result_object.payload = result
+        
+        return result_object
+    
