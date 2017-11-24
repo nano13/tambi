@@ -91,13 +91,14 @@ class Quran(object):
         
         columns = ", ".join(header)
         if len(args) == 1:
-            #print("LEN 1", args[0])
             query = "SELECT {0} FROM quran WHERE surah=?".format(columns)
             self.cursor.execute(query, [int(args[0])])
+        
         elif len(args) == 2:
             if args[1].find('-') == -1:
                 query = "SELECT {0} FROM quran WHERE surah=? AND ayah=?".format(columns)
                 self.cursor.execute(query, [int(args[0]), int(args[1])])
+            
             else:
                 ayah_min, ayah_max = args[1].split('-')
                 query = "SELECT {0} FROM quran WHERE surah=? AND ayah>=? AND ayah<=?".format(columns)
@@ -106,9 +107,9 @@ class Quran(object):
         result = self.cursor.fetchall()
         
         result_object = Result()
-        result_object.category = "itemized"#"table"
+        result_object.category = "itemized"
         result_object.payload = result
-        result_object.header = header#['surah', 'ayah', 'arabic', 'transcription', 'de_DE']
+        result_object.header = header
         result_object.name = "quran_word"
         return result_object
     
@@ -123,6 +124,7 @@ class Quran(object):
             """
             header = ['verses_count']
             self.cursor.execute(query)
+        
         elif len(args) == 1:
             query = """
             SELECT surah, COUNT(*)
@@ -131,6 +133,7 @@ class Quran(object):
             """
             header = ['surah', 'verses_count']
             self.cursor.execute(query, [int(args[0])])
+        
         else:
             query = """
             SELECT surah, ayah, word_count
@@ -166,7 +169,6 @@ class Quran(object):
                     result = result[-2:]
                 else:
                     result = result[index-1:index+2]
-            
         
         result_object = Result()
         result_object.category = "list"
