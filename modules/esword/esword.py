@@ -75,7 +75,7 @@ class Esword(object):
             
             result = cursor.fetchall()
             
-            if command == 'esword.word':
+            if command == 'esword.word' or command == 'esword':
                 payload = []
                 for i, verse in enumerate(result):
                     payload.append([verse[0], verse[1], self.parseText(verse[2])])
