@@ -3,8 +3,6 @@ import sqlite3, re
 
 class HenochParser(object):
     
-    struct = []
-    
     def __init__(self):
         self.initDB()
         

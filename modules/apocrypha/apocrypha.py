@@ -12,7 +12,11 @@ class Apocrypha(object):
     def initDbConnection(self):
         self.connection = sqlite3.connect("./modules/apocrypha/henoch.sqlite.db")
         self.cursor = self.connection.cursor()
-         
+    
+    def initEnochDbConnection(self):
+        self.connection = sqlite3.connect("./modules/apocrypha/enoch.sqlite.db")
+        self.cursor = self.connection.cursor()
+    
     def getCommands(self):
         return {
             "apocrypha.commands" : self.commands,
@@ -21,6 +25,11 @@ class Apocrypha(object):
             "apocrypha.structure" : self.structure,
             
             "apocrypha.search" : self.search,
+            
+            "enoch" : self.enochWord,
+            "enoch.word" : self.enochWord,
+            "enoch.structure" : self.enochStructure,
+            "enoch.search" : self.enochSearch,
             
         }
     
@@ -71,13 +80,45 @@ class Apocrypha(object):
                 query = "SELECT verse, word FROM henoch WHERE chapter=? AND verse=?"
                 self.cursor.execute(query, [int(args[1]), int(args[2])])
         
-            elif len(args) == 4:
+            else:
                 query = "SELECT verse, word FROM henoch WHERE chapter=? AND verse>=? AND verse<=?"
                 self.cursor.execute(query, [int(args[1]), int(args[2]), int(args[3])])
         
         result = self.cursor.fetchall()
         
         result_object.payload = result
+        return result_object
+    
+    def enochWord(self, c, args):
+        result_object = Result()
+        
+        self.initEnochDbConnection()
+        
+        if len(args) == 1:
+            query = "SELECT chapter, verse, word FROM enoch WHERE book_id=?"
+            self.cursor.execute(query, [int(args[0])])
+        
+        elif len(args) == 2:
+            query = "SELECT verse, word FROM enoch WHERE book_id=? AND chapter=?"
+            self.cursor.execute(query, [int(args[0]), int(args[1])])
+        
+        elif len(args) == 3:
+            if args[1].find('-') == -1:
+                query = "SELECT verse, word FROM enoch WHERE book_id=? AND chapter=? AND verse=?"
+                self.cursor.execute(query, [int(args[0]), int(args[1]), int(args[2])])
+            
+            else:
+                verse_min, verse_max = args[2].split('-')
+                query = "SELECT verse, word FROM enoch WHERE book_id=? AND chapter=? AND verse>=? AND verse<=?"
+                self.cursor.execute(query, [int(args[0]), int(args[1]), verse_min, verse_max])
+        
+        else:
+            result_object.error = 'ERROR: pleace specify at least the book_id and the chapter!'
+            return result_object
+        
+        result_object.category = 'text'
+        result_object.payload = self.cursor.fetchall()
+        
         return result_object
     
     def structure(self, c, args):
@@ -92,6 +133,29 @@ class Apocrypha(object):
         result_object.category = 'table'
         result_object.payload = result
         result_object.header = ['chapter', 'verses']
+        return result_object
+    
+    def enochStructure(self, c, args):
+        result_object = Result()
+        result_object.category = 'table'
+        result_object.header = ['book_id', 'headline', 'number_of_verses']
+        
+        self.initEnochDbConnection()
+        
+        """
+        if len(args) >= 1:
+            query = "SELECT book_id, 
+        
+        else:
+        """
+        query = """SELECT enoch.book_id, headline, COUNT(*) AS number_of_verses FROM enoch_headlines
+        JOIN enoch ON enoch_headlines.book_id = enoch.book_id
+        GROUP BY headline
+        ORDER BY enoch.book_id"""
+        
+        self.cursor.execute(query)
+        result_object.payload = self.cursor.fetchall()
+        
         return result_object
     
     def search(self, c, args):
@@ -111,6 +175,23 @@ class Apocrypha(object):
             
             result_object.category = "itemized"
             result_object.payload = result
+        
+        return result_object
+    
+    def enochSearch(self, c, args):
+        result_object = Result()
+        
+        try:
+            key = '%'+args[0]+'%'
+        except IndexError:
+            result_object.error = 'ERROR: you have to specify a search pattern'
+        else:
+            self.initEnochDbConnection()
+            query = "SELECT book_id, chapter, verse, word FROM enoch WHERE word LIKE ?"
+            self.cursor.execute(query, [key])
+            
+            result_object.payload = self.cursor.fetchall()
+            result_object.category = "itemized"
         
         return result_object
     
