@@ -33,6 +33,7 @@ class Sword(object):
             "sword.getCanon": self.getCanon,
             
             "sword.word": self.word,
+            "sword": self.word,
             
             "sword.modules": self.listModules,
             "sword.getModule": self.getCurrentModule,

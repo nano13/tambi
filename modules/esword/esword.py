@@ -16,6 +16,8 @@ class Esword(object):
             "esword.commands" : self.commands,
             
             "esword.word" : self.word,
+            "esword": self.word,
+            
             "esword.interlinear" : self.word,
         }
     

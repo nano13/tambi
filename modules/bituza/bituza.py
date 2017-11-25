@@ -46,6 +46,8 @@ class Bituza(object):
             "bituza.stats" : self.stats,
             
             "bituza.word" : self.word,
+            "bituza" : self.word,
+            
             "bituza.full" : self.full,
             "bituza.elberfelder" : self.elberfelder,
             "bituza.tr" : self.textusReceptus,
