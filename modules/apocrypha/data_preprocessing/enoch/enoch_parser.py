@@ -50,7 +50,7 @@ class EnochParser(object):
         self.connection.commit()
     
     def initializeDb(self):
-        self.connection = sqlite3.connect("../enoch.sqlite.db")
+        self.connection = sqlite3.connect("../../enoch.sqlite.db")
         self.cursor = self.connection.cursor()
         
         query = "DROP TABLE IF EXISTS enoch"

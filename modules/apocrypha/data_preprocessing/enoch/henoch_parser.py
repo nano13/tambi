@@ -49,7 +49,7 @@ class HenochParser(object):
         self.connection.commit()
     
     def initDB(self):
-        self.connection = sqlite3.connect("../henoch.sqlite.db")
+        self.connection = sqlite3.connect("../../henoch.sqlite.db")
         self.cursor = self.connection.cursor()
         
         query = "DROP TABLE IF EXISTS henoch"
