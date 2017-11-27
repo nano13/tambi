@@ -17,13 +17,16 @@ class Apocrypha(object):
         self.connection = sqlite3.connect("./modules/apocrypha/enoch.sqlite.db")
         self.cursor = self.connection.cursor()
     
+    def initMaccDbConnection(self):
+        self.connection = sqlite3.connect("./modules/apocrypha/maccabees.sqlite.db")
+        self.cursor = self.connection.cursor()
+    
     def getCommands(self):
         return {
             "apocrypha.commands" : self.commands,
             
             "apocrypha.word" : self.word,
             "apocrypha.structure" : self.structure,
-            
             "apocrypha.search" : self.search,
             
             "enoch" : self.enochWord,
@@ -31,7 +34,18 @@ class Apocrypha(object):
             "enoch.structure" : self.enochStructure,
             "enoch.search" : self.enochSearch,
             
+            #"macc" : self.word,
+            #"macc.word" : self.word,
+            #"macc.structure" : self.structure,
+            #"macc.search" : self.search,
+            
         }
+    
+    def mapBookToDb(self):
+        return {
+            'enoch' : 'enoch.sqlite.db',
+            
+            }
     
     def interpreter(self, command, args, queue):
         print("args:", args)
@@ -58,6 +72,41 @@ class Apocrypha(object):
         result_object.payload = all_commands
         return result_object
     
+    def word(self, c, args):
+        pass
+    
+    def structure(self, c, args):
+        pass
+    
+    def word(self, c, args):
+        result_object = Result()
+        result_object.category = 'text'
+        
+        if len(args) >= 3:
+            if args[0].startswith('macc'):
+                self.initMaccDbConnection()
+                
+                error = False
+                if args[1] == '1':
+                    table = 'maccabees_one'
+                elif args[1] == '2':
+                    table = 'maccabees_two'
+                else:
+                    result_object.error = 'ERROR: chapter index out of range'
+                    error = True
+                
+                if not error:
+                    query = "SELECT verse, word FROM {0} WHERE chapter=?".format(table)
+                    self.cursor.execute(query, [int(args[2])])
+                    
+                    result_object.payload = self.cursor.fetchall()
+        
+        else:
+            result_object.error = 'ERROR: please specify a book and a chapter'
+        
+        return result_object
+    
+    """
     def word(self, c, args):
         result_object = Result()
         result_object.category = "text"
@@ -88,6 +137,7 @@ class Apocrypha(object):
         
         result_object.payload = result
         return result_object
+    """
     
     def enochWord(self, c, args):
         result_object = Result()
@@ -121,6 +171,7 @@ class Apocrypha(object):
         
         return result_object
     
+    """
     def structure(self, c, args):
         self.initDbConnection()
         
@@ -134,6 +185,7 @@ class Apocrypha(object):
         result_object.payload = result
         result_object.header = ['chapter', 'verses']
         return result_object
+    """
     
     def enochStructure(self, c, args):
         result_object = Result()
@@ -142,12 +194,6 @@ class Apocrypha(object):
         
         self.initEnochDbConnection()
         
-        """
-        if len(args) >= 1:
-            query = "SELECT book_id, 
-        
-        else:
-        """
         query = """SELECT enoch.book_id, headline, COUNT(*) AS number_of_verses FROM enoch_headlines
         JOIN enoch ON enoch_headlines.book_id = enoch.book_id
         GROUP BY headline
@@ -158,6 +204,7 @@ class Apocrypha(object):
         
         return result_object
     
+    """
     def search(self, c, args):
         result_object = Result()
         
@@ -177,6 +224,7 @@ class Apocrypha(object):
             result_object.payload = result
         
         return result_object
+    """
     
     def enochSearch(self, c, args):
         result_object = Result()
@@ -195,3 +243,28 @@ class Apocrypha(object):
         
         return result_object
     
+    def search(self, command, args):
+        result_object = Result()
+        
+        try:
+            key = '%'+args[0]+'%'
+        except IndexError:
+            result_object.error = 'ERROR: you have to specify a search pattern'
+        else:
+            if command.startswith('enoch'):
+                self.initEnochDbConnection()
+                table = 'enoch'
+            
+            elif command.startswith('macc'):
+                self.initMaccDbConnection()
+                table = 'maccabees_one'
+            
+            query = "SELECT chapter, verse, word FROM {0} WHERE word LIKE ?".format(table)
+            self.cursor.execute(query, [key])
+            
+            result_object.payload = self.cursor.fetchall()
+            result_object.category = "itemized"
+        
+        return result_object
+    
+
