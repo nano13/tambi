@@ -74,11 +74,11 @@ class QDisplayLayout(QWidget):
             self.addNewLanguageArea()
             
     def addNewLanguageArea(self):
-        modules_dropdown_list = self.getModulesForDropdown()
+        #modules_dropdown_list = self.getModulesForDropdown()
         
         display_widget = QDisplayWidget()
         display_widget.widget_id = len(self.display_widgets_list)
-        display_widget.setDropdownItems(modules_dropdown_list)
+        #display_widget.setDropdownItems(modules_dropdown_list)
         self.display_widgets_list.append(display_widget)
         self.layout.addWidget(display_widget)
         display_widget.newLanguageAreaRequested.connect(self.addNewLanguageArea)
@@ -92,6 +92,7 @@ class QDisplayLayout(QWidget):
         
         self.display_widgets_list.pop(widget_id)
     
+    """
     def getModulesForDropdown(self):
         result = self.interpreter.interpreter('sword.modules', self.queue)
         
@@ -100,12 +101,16 @@ class QDisplayLayout(QWidget):
             modules.append(module[0])
         
         return sorted(modules)
+    """
 
+from modules.sword.sword import Sword
 class QDisplayWidget(QWidget):
     
     widget_id = None
     newLanguageAreaRequested = pyqtSignal()
     closeLanguageArea = pyqtSignal(int)
+    
+    sword = Sword()
     
     def __init__(self):
         super().__init__()
@@ -114,43 +119,79 @@ class QDisplayWidget(QWidget):
         self.layout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(self.layout)
         
-        self.dropdown = QComboBox()
-        self.dropdown.currentIndexChanged.connect(self.comboBoxChanged)
-        self.layout.addWidget(self.dropdown, 0, 0)
+        self.combo_language = QComboBox()
+        self.combo_translation = QComboBox()
+        
+        self.layout.addWidget(self.combo_language, 0, 0)
+        self.layout.addWidget(self.combo_translation, 0, 1)
+        self.combo_language.currentTextChanged.connect(self.languageChanged)
+        self.combo_translation.currentTextChanged.connect(self.translationChanged)
+        
+        
+        #self.dropdown = QComboBox()
+        #self.dropdown.currentIndexChanged.connect(self.comboBoxChanged)
+        #self.layout.addWidget(self.dropdown, 0, 0)
         
         new_language_button = QPushButton(self)
         new_language_button.setIcon(QIcon.fromTheme('window-new'))
         new_language_button.setMaximumSize(25, 20)
         new_language_button.clicked.connect(self.newLanguageButtonClick)
-        self.layout.addWidget(new_language_button, 0, 1)
+        self.layout.addWidget(new_language_button, 0, 2)
         
         close_language_button = QPushButton(self)
         close_language_button.setIcon(QIcon.fromTheme('window-close'))
         close_language_button.setMaximumSize(25, 20)
         close_language_button.clicked.connect(self.closeButtonClicked)
-        self.layout.addWidget(close_language_button, 0, 2)
+        self.layout.addWidget(close_language_button, 0, 3)
         
         self.display_widget = QTextEdit()
         self.display_widget.setReadOnly(True)
         self.layout.addWidget(self.display_widget, 1, 0, 3, 0)
+        
+        self.getLanguagesForDropdown()
     
+    """
     def setDropdownItems(self, items):
         self.dropdown.insertItems(0, items)
+    """
     
     def setText(self, text):
         self.display_widget.setText(text)
         
     def getModuleName(self):
-        return self.dropdown.currentText()
+        return self.combo_translation.currentText()
         
     def comboBoxChanged(self, index):
         print(index)
-        print(self.dropdown.currentText())
+        print(self.combo_translation.currentText())
     
     def newLanguageButtonClick(self):
-        print('new language')
         self.newLanguageAreaRequested.emit()
     
     def closeButtonClicked(self):
-        print('close languagge '+str(self.widget_id))
         self.closeLanguageArea.emit(self.widget_id)
+    
+    def getLanguagesForDropdown(self):
+        #result = self.interpreter.interpreter('sword.languages', self.queue).payload
+        result = self.sword.listLanguages(None, []).payload
+        
+        self.combo_language.clear()
+        self.combo_language.insertItems(0, result)
+    
+    def getTranslationsForDropdown(self, language):
+        #result = self.interpreter.interpreter('sword.modules '+language, self.queue).payload
+        result = self.sword.listModules(None, [language]).payload
+        
+        translations = []
+        for translation in result:
+            translations.append(translation[0])
+        
+        self.combo_translation.clear()
+        self.combo_translation.insertItems(0, translations)
+    
+    def languageChanged(self, language):
+        self.getTranslationsForDropdown(language)
+    
+    def translationChanged(self, translation):
+        #self.showText()
+        pass
