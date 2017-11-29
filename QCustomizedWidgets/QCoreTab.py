@@ -9,16 +9,25 @@ from modules.musicbeamer.QMusicBeamerWidget import QMusicBeamerWidget
 
 from misc.unicodeFonts import UnicodeFonts
 
+from functools import partial
+
 class QCoreTab(QWidget):
     
     set_tab_text = pyqtSignal(str)
+    dual_cli_label = {'left': '', 'right': ''}
     
     def __init__(self):
         super().__init__()
     
     """ just forward this signal """
-    def setTabText(text):
+    def setTabText(self, text):
         self.set_tab_text.emit(text)
+    
+    def setDualTabText(self, position, text):
+        self.dual_cli_label[position] = text
+        
+        label = self.dual_cli_label['left'] + ' | ' + self.dual_cli_label['right']
+        self.set_tab_text.emit(label)
     
     def cliTab(self):
         cli = QCliWidget()
@@ -26,10 +35,16 @@ class QCoreTab(QWidget):
         return cli
     
     def dualCliTab(self):
+        cli_left = QCliWidget()
+        cli_right = QCliWidget()
+        
         layout = QHBoxLayout()
-        layout.addWidget(QCliWidget())
-        layout.addWidget(QCliWidget())
+        layout.addWidget(cli_left)
+        layout.addWidget(cli_right)
         self.setLayout(layout)
+        
+        cli_left.set_tab_text.connect(partial(self.setDualTabText, 'left'))
+        cli_right.set_tab_text.connect(partial(self.setDualTabText, 'right'))
         
         return self
     

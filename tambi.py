@@ -6,6 +6,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5.Qt import Qt
 from PyQt5 import QtCore
 
+from functools import partial
 import signal, os
 # to make program closeable with ctr-c in terminal
 signal.signal(signal.SIGINT, signal.SIG_DFL)
@@ -166,7 +167,6 @@ class Tambi(QMainWindow):
         self.tab_widget.removeTab(tab_id)
     
     def addNewCliTab(self):
-        from functools import partial
         core = QCoreTab()
         tab = core.cliTab()
         self.tab_widget.addTab(tab, "cli")
@@ -179,6 +179,7 @@ class Tambi(QMainWindow):
         self.tab_widget.addTab(tab, "dual cli")
         
         self.activateNewTab()
+        tab.set_tab_text.connect(partial(self.setTabText, self.tab_widget.currentIndex()))
     
     def setTabText(self, tab_id, text):
         splitted = text.split(" ")
