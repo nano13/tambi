@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <style type="text/css">
+td.linenos { background-color: #f0f0f0; padding-right: 10px; }
+span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
+pre { line-height: 125%; }
+body .hll { background-color: #ffffcc }
+body  { background: #f8f8f8; }
+body .c { color: #408080; font-style: italic } /* Comment */
+body .err { border: 1px solid #FF0000 } /* Error */
+body .k { color: #008000; font-weight: bold } /* Keyword */
+body .o { color: #666666 } /* Operator */
+body .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+body .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+body .cp { color: #BC7A00 } /* Comment.Preproc */
+body .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+body .c1 { color: #408080; font-style: italic } /* Comment.Single */
+body .cs { color: #408080; font-style: italic } /* Comment.Special */
+body .gd { color: #A00000 } /* Generic.Deleted */
+body .ge { font-style: italic } /* Generic.Emph */
+body .gr { color: #FF0000 } /* Generic.Error */
+body .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+body .gi { color: #00A000 } /* Generic.Inserted */
+body .go { color: #888888 } /* Generic.Output */
+body .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+body .gs { font-weight: bold } /* Generic.Strong */
+body .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+body .gt { color: #0044DD } /* Generic.Traceback */
+body .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+body .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+body .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+body .kp { color: #008000 } /* Keyword.Pseudo */
+body .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+body .kt { color: #B00040 } /* Keyword.Type */
+body .m { color: #666666 } /* Literal.Number */
+body .s { color: #BA2121 } /* Literal.String */
+body .na { color: #7D9029 } /* Name.Attribute */
+body .nb { color: #008000 } /* Name.Builtin */
+body .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+body .no { color: #880000 } /* Name.Constant */
+body .nd { color: #AA22FF } /* Name.Decorator */
+body .ni { color: #999999; font-weight: bold } /* Name.Entity */
+body .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+body .nf { color: #0000FF } /* Name.Function */
+body .nl { color: #A0A000 } /* Name.Label */
+body .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+body .nt { color: #008000; font-weight: bold } /* Name.Tag */
+body .nv { color: #19177C } /* Name.Variable */
+body .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+body .w { color: #bbbbbb } /* Text.Whitespace */
+body .mb { color: #666666 } /* Literal.Number.Bin */
+body .mf { color: #666666 } /* Literal.Number.Float */
+body .mh { color: #666666 } /* Literal.Number.Hex */
+body .mi { color: #666666 } /* Literal.Number.Integer */
+body .mo { color: #666666 } /* Literal.Number.Oct */
+body .sa { color: #BA2121 } /* Literal.String.Affix */
+body .sb { color: #BA2121 } /* Literal.String.Backtick */
+body .sc { color: #BA2121 } /* Literal.String.Char */
+body .dl { color: #BA2121 } /* Literal.String.Delimiter */
+body .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+body .s2 { color: #BA2121 } /* Literal.String.Double */
+body .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+body .sh { color: #BA2121 } /* Literal.String.Heredoc */
+body .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+body .sx { color: #008000 } /* Literal.String.Other */
+body .sr { color: #BB6688 } /* Literal.String.Regex */
+body .s1 { color: #BA2121 } /* Literal.String.Single */
+body .ss { color: #19177C } /* Literal.String.Symbol */
+body .bp { color: #008000 } /* Name.Builtin.Pseudo */
+body .fm { color: #0000FF } /* Name.Function.Magic */
+body .vc { color: #19177C } /* Name.Variable.Class */
+body .vg { color: #19177C } /* Name.Variable.Global */
+body .vi { color: #19177C } /* Name.Variable.Instance */
+body .vm { color: #19177C } /* Name.Variable.Magic */
+body .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+  </style>
+</head>
+<body>
+<h2></h2>
+
+<div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">from</span> <span class="nn">PyQt5.QtWidgets</span> <span class="kn">import</span> <span class="n">QApplication</span><span class="p">,</span> <span class="n">QMainWindow</span><span class="p">,</span> <span class="n">QDesktopWidget</span><span class="p">,</span> <span class="n">QTabWidget</span><span class="p">,</span> <span class="n">QAction</span><span class="p">,</span> <span class="n">qApp</span><span class="p">,</span> <span class="n">QFileDialog</span>
+<span class="kn">from</span> <span class="nn">PyQt5.QtGui</span> <span class="kn">import</span> <span class="n">QIcon</span>
+<span class="kn">from</span> <span class="nn">PyQt5.Qt</span> <span class="kn">import</span> <span class="n">Qt</span>
+<span class="kn">from</span> <span class="nn">PyQt5</span> <span class="kn">import</span> <span class="n">QtCore</span>
+
+<span class="kn">import</span> <span class="nn">signal</span><span class="o">,</span> <span class="nn">os</span>
+<span class="c1"># to make program closeable with ctr-c in terminal</span>
+<span class="n">signal</span><span class="o">.</span><span class="n">signal</span><span class="p">(</span><span class="n">signal</span><span class="o">.</span><span class="n">SIGINT</span><span class="p">,</span> <span class="n">signal</span><span class="o">.</span><span class="n">SIG_DFL</span><span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">QCustomizedWidgets.menuBar</span> <span class="kn">import</span> <span class="n">MenuBar</span>
+<span class="kn">from</span> <span class="nn">QCustomizedWidgets.QCoreTab</span> <span class="kn">import</span> <span class="n">QCoreTab</span>
+
+<span class="kn">from</span> <span class="nn">configs.configFiles</span> <span class="kn">import</span> <span class="n">ConfigFile</span>
+
+<span class="k">class</span> <span class="nc">Tambi</span><span class="p">(</span><span class="n">QMainWindow</span><span class="p">):</span>
+    
+    <span class="n">tab_widget</span> <span class="o">=</span> <span class="bp">None</span>
+    
+    <span class="n">meta_key_pressed</span> <span class="o">=</span> <span class="bp">False</span> <span class="c1"># Windows-Key or Control-Key on Mac</span>
+    
+    <span class="n">config</span> <span class="o">=</span> <span class="n">ConfigFile</span><span class="p">(</span><span class="bp">None</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">initGUI</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">initTabs</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">addNewCliTab</span><span class="p">()</span>
+        <span class="c1">#self.addNewVocableTab()</span>
+        <span class="c1">#self.addNewMusicWidgetTab()</span>
+        <span class="c1">#self.addNewSwordModuleManagerTab()</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="mi">825</span><span class="p">,</span> <span class="mi">670</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">center</span><span class="p">()</span>
+        
+        <span class="c1">#self.installEventFilter(self)</span>
+        <span class="c1">#self.tab_widget.installEventFilter(self)</span>
+        
+        <span class="n">QIcon</span><span class="o">.</span><span class="n">setThemeSearchPaths</span><span class="p">([</span><span class="s1">&#39;./assets/icons&#39;</span><span class="p">])</span>
+        
+        <span class="c1">#for path in QIcon.themeSearchPaths():</span>
+        <span class="c1">#    print(path, QIcon.themeName())</span>
+        <span class="n">QIcon</span><span class="o">.</span><span class="n">setThemeName</span><span class="p">(</span><span class="s1">&#39;oxygen&#39;</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">QIcon</span><span class="o">.</span><span class="n">themeName</span><span class="p">())</span>
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;--quickrun&quot;</span><span class="p">:</span>
+                <span class="n">command</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+                <span class="c1">#print(command)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">addNewCliTabWithCommand</span><span class="p">(</span><span class="n">command</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">center</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">geometry</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">frameGeometry</span><span class="p">()</span>
+        <span class="n">screen</span> <span class="o">=</span> <span class="n">QApplication</span><span class="o">.</span><span class="n">desktop</span><span class="p">()</span><span class="o">.</span><span class="n">screenNumber</span><span class="p">(</span><span class="n">QApplication</span><span class="o">.</span><span class="n">desktop</span><span class="p">()</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span><span class="o">.</span><span class="n">pos</span><span class="p">())</span>
+        <span class="n">center</span> <span class="o">=</span> <span class="n">QApplication</span><span class="o">.</span><span class="n">desktop</span><span class="p">()</span><span class="o">.</span><span class="n">screenGeometry</span><span class="p">(</span><span class="n">screen</span><span class="p">)</span><span class="o">.</span><span class="n">center</span><span class="p">()</span>
+        <span class="n">geometry</span><span class="o">.</span><span class="n">moveCenter</span><span class="p">(</span><span class="n">center</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">geometry</span><span class="o">.</span><span class="n">topLeft</span><span class="p">())</span>
+        
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    def event(self, event):</span>
+<span class="sd">        if event.type() == QtCore.QEvent.KeyPress:</span>
+<span class="sd">            print(&quot;KEY EVENT ::::&quot;)</span>
+<span class="sd">            if self.meta_key_pressed and event.key() == Qt.Key_Left:</span>
+<span class="sd">                print(&quot;LEFT ::::&quot;)</span>
+<span class="sd">                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()-1)</span>
+<span class="sd">                QMainWindow.event(self, event)</span>
+<span class="sd">                return True</span>
+<span class="sd">            elif self.meta_key_pressed and event.key() == Qt.Key_Right:</span>
+<span class="sd">                print(&quot;RIGHT ::::&quot;)</span>
+<span class="sd">                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()+1)</span>
+<span class="sd">                QMainWindow.event(self, event)</span>
+<span class="sd">                return True</span>
+<span class="sd">            else:</span>
+<span class="sd">                return QMainWindow.event(self, event)</span>
+<span class="sd">        else:</span>
+<span class="sd">            return QMainWindow.event(self, event)</span>
+<span class="sd">    </span>
+<span class="sd">    def eventFilter(self, a, event):</span>
+<span class="sd">        if event.type() == QtCore.QEvent.KeyPress:</span>
+<span class="sd">            print(&quot;eventFilter: keyPress&quot;)</span>
+<span class="sd">            if self.meta_key_pressed and event.key() == Qt.Key_Left:</span>
+<span class="sd">                print(&quot;LEFT&quot;, self.tab_widget.currentIndex())</span>
+<span class="sd">                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()-1)</span>
+<span class="sd">                return True</span>
+<span class="sd">            elif self.meta_key_pressed and event.key() == Qt.Key_Right:</span>
+<span class="sd">                print(&quot;RIGHT&quot;, self.tab_widget.currentIndex())</span>
+<span class="sd">                self.tab_widget.setCurrentIndex(self.tab_widget.currentIndex()+1)</span>
+<span class="sd">                return True</span>
+<span class="sd">            else:</span>
+<span class="sd">                return QMainWindow.eventFilter(self, a, event)</span>
+<span class="sd">        else:</span>
+<span class="sd">            return QMainWindow.eventFilter(self, a, event)</span>
+<span class="sd">        #if event.type() == QtCore.QEvent.KeyPress:</span>
+<span class="sd">            ##print(&quot;A&quot;)</span>
+<span class="sd">            #result = self.keyPressEvent(event)</span>
+<span class="sd">            </span>
+<span class="sd">            #if result:</span>
+<span class="sd">                #return True</span>
+<span class="sd">            #else:</span>
+<span class="sd">                #return QMainWindow.eventFilter(self, a, event)</span>
+<span class="sd">        #else:</span>
+<span class="sd">            ##print(&quot;B&quot;)</span>
+<span class="sd">            #return QMainWindow.eventFilter(self, a, event)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">keyPressEvent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">modifiers</span><span class="p">()</span> <span class="o">&amp;</span> <span class="n">Qt</span><span class="o">.</span><span class="n">ControlModifier</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">()</span> <span class="o">==</span> <span class="n">Qt</span><span class="o">.</span><span class="n">Key_W</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">closeTab</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">currentIndex</span><span class="p">())</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">()</span> <span class="o">==</span> <span class="n">Qt</span><span class="o">.</span><span class="n">Key_Meta</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">meta_key_pressed</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_key_pressed</span> <span class="ow">and</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">()</span> <span class="o">==</span> <span class="n">Qt</span><span class="o">.</span><span class="n">Key_Up</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;prev&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">setCurrentIndex</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">currentIndex</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_key_pressed</span> <span class="ow">and</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">()</span> <span class="o">==</span> <span class="n">Qt</span><span class="o">.</span><span class="n">Key_Down</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;next&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">setCurrentIndex</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">currentIndex</span><span class="p">()</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">QMainWindow</span><span class="o">.</span><span class="n">keyPressEvent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">keyReleaseEvent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">()</span> <span class="o">==</span> <span class="n">Qt</span><span class="o">.</span><span class="n">Key_Meta</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">meta_key_pressed</span> <span class="o">=</span> <span class="bp">False</span>
+    
+    <span class="k">def</span> <span class="nf">initGUI</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">setWindowIcon</span><span class="p">(</span><span class="n">QIcon</span><span class="p">(</span><span class="s1">&#39;./assets/icons/logo2.png&#39;</span><span class="p">))</span>
+        
+        <span class="c1">#self.statusBar().showMessage(&#39;Ready&#39;)</span>
+        
+        <span class="c1">#screen_rectangle = QDesktopWidget().availableGeometry()</span>
+        <span class="c1">#sx, sy = screen_rectangle.getRect()[2], screen_rectangle.getRect()[3]</span>
+        <span class="c1">#</span>
+        <span class="c1">#self.resize(sx*0.61, sy*0.61)</span>
+        
+        <span class="n">MenuBar</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">applyStylesheet</span><span class="p">()</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">setWindowTitle</span><span class="p">(</span><span class="s1">&#39;tambi&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">applyStylesheet</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">readVar</span><span class="p">(</span><span class="s1">&#39;global&#39;</span><span class="p">,</span> <span class="s1">&#39;stylesheet&#39;</span><span class="p">)</span>
+        <span class="n">stylesheet</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="k">as</span> <span class="n">css</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">css</span><span class="p">:</span>
+                    <span class="n">stylesheet</span> <span class="o">+=</span> <span class="n">line</span>
+            
+            <span class="bp">self</span><span class="o">.</span><span class="n">setStyleSheet</span><span class="p">(</span><span class="n">stylesheet</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">FileNotFoundError</span><span class="p">:</span>
+            <span class="k">pass</span>
+    
+    <span class="k">def</span> <span class="nf">initTabs</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tab_widget</span> <span class="o">=</span> <span class="n">QTabWidget</span><span class="p">()</span>
+        <span class="n">tab_widget</span><span class="o">.</span><span class="n">setTabsClosable</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">tab_widget</span><span class="o">.</span><span class="n">setMovable</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">tab_widget</span><span class="o">.</span><span class="n">tabCloseRequested</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">closeTab</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">setCentralWidget</span><span class="p">(</span><span class="n">tab_widget</span><span class="p">)</span>
+        
+        <span class="k">return</span> <span class="n">tab_widget</span>
+    
+    <span class="k">def</span> <span class="nf">closeTab</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tab_id</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">removeTab</span><span class="p">(</span><span class="n">tab_id</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">addNewCliTab</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">partial</span>
+        <span class="n">core</span> <span class="o">=</span> <span class="n">QCoreTab</span><span class="p">()</span>
+        <span class="n">tab</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">cliTab</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">addTab</span><span class="p">(</span><span class="n">tab</span><span class="p">,</span> <span class="s2">&quot;cli&quot;</span><span class="p">)</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">activateNewTab</span><span class="p">()</span>
+        <span class="n">tab</span><span class="o">.</span><span class="n">set_tab_text</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">partial</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">setTabText</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">currentIndex</span><span class="p">()))</span>
+    
+    <span class="k">def</span> <span class="nf">addNewDualCliTab</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tab</span> <span class="o">=</span> <span class="n">QCoreTab</span><span class="p">()</span><span class="o">.</span><span class="n">dualCliTab</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">addTab</span><span class="p">(</span><span class="n">tab</span><span class="p">,</span> <span class="s2">&quot;dual cli&quot;</span><span class="p">)</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">activateNewTab</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">setTabText</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tab_id</span><span class="p">,</span> <span class="n">text</span><span class="p">):</span>
+        <span class="n">splitted</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        text = &quot;&quot;</span>
+<span class="sd">        for i, splinter in enumerate(splitted):</span>
+<span class="sd">            if i == 0:</span>
+<span class="sd">                text += splinter[:12] + &quot; &quot;</span>
+<span class="sd">            else:</span>
+<span class="sd">                text += splinter[:4] + &quot; &quot;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">setTabText</span><span class="p">(</span><span class="n">tab_id</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    
+    <span class="sd">&quot;&quot;&quot; to be used internally by the menus &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">addNewCliTabWithCommand</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">command</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">addNewCliTab</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">currentWidget</span><span class="p">()</span><span class="o">.</span><span class="n">commandEntered</span><span class="p">(</span><span class="n">command</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="nf">addNewVocableTab</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tab</span> <span class="o">=</span> <span class="n">QCoreTab</span><span class="p">()</span><span class="o">.</span><span class="n">vocableTab</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">addTab</span><span class="p">(</span><span class="n">tab</span><span class="p">,</span> <span class="s2">&quot;vocable&quot;</span><span class="p">)</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">activateNewTab</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">addNewMusicBeamerWidgetTab</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tab</span> <span class="o">=</span> <span class="n">QCoreTab</span><span class="p">()</span><span class="o">.</span><span class="n">musicBeamerTab</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">addTab</span><span class="p">(</span><span class="n">tab</span><span class="p">,</span> <span class="s2">&quot;music beamer&quot;</span><span class="p">)</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">activateNewTab</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">addNewCustomTab</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">custom_widget</span><span class="p">,</span> <span class="n">tab_name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">addTab</span><span class="p">(</span><span class="n">custom_widget</span><span class="p">,</span> <span class="n">tab_name</span><span class="p">)</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">activateNewTab</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">facepalm</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">QCustomizedWidgets.QBeamerWindow</span> <span class="kn">import</span> <span class="n">QBeamerWindow</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">canvas</span> <span class="o">=</span> <span class="n">QBeamerWindow</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">setImageWithPath</span><span class="p">(</span><span class="s1">&#39;./assets/images/facepalm/facepalm1.jpg&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">routeToScreen</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">showFullScreen</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">openFile</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">home_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="s1">&#39;~&#39;</span><span class="p">)</span>
+        <span class="n">file_path</span> <span class="o">=</span> <span class="n">QFileDialog</span><span class="o">.</span><span class="n">getOpenFileName</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;Please select File&quot;</span><span class="p">,</span> <span class="n">home_path</span><span class="p">)</span>
+        
+        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;FILEPATH:&quot;</span><span class="p">,</span> <span class="n">file_path</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">file_path</span> <span class="o">!=</span> <span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">):</span>
+            <span class="n">tab</span> <span class="o">=</span> <span class="n">QCoreTab</span><span class="p">()</span><span class="o">.</span><span class="n">editorTab</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">addTab</span><span class="p">(</span><span class="n">tab</span><span class="p">,</span> <span class="s2">&quot;editor&quot;</span><span class="p">)</span>
+            
+            <span class="bp">self</span><span class="o">.</span><span class="n">activateNewTab</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">activateNewTab</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">setCurrentIndex</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tab_widget</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">app</span> <span class="o">=</span> <span class="n">QApplication</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">Tambi</span><span class="p">()</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">exec_</span><span class="p">())</span>
+</pre></div>
+</body>
+</html>

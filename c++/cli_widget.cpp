@@ -3,7 +3,7 @@
 
 #include <QTableWidget>
 #include <QGridLayout>
-#include <QPushButton>
+#include <QLineEdit>
 
 #include <QDebug>
 
@@ -12,9 +12,15 @@
 
 QCliWidget::QCliWidget(QWidget *parent)
     : grid(new QGridLayout)
+    , input_line(new QInputLine)
 {
     grid->setContentsMargins(0, 0, 0, 0);
     setLayout(grid);
+    
+    input_line->setPlaceholderText("This is the command line. See 'man commandline' for details.");
+//     connect(input_line, &QLineEdit::returnPressed, this, &QCliWidget::commandEntered);
+    grid->addWidget(input_line, 1, 0);
+    
     
     //qDebug() << "TEST";
     

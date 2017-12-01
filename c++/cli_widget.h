@@ -1,8 +1,11 @@
 
 #include <QWidget>
 #include <QGridLayout>
+#include <QLineEdit>
 #include <QVector>
 #include <QStringList>
+
+#include <QInputLine.h>
 
 class QCliWidget : public QWidget
 {
@@ -13,6 +16,7 @@ public:
     
 private:
     QGridLayout *grid;
+    QInputLine *input_line;
     
     int getMatrixMaxWidth(QVector<QStringList>);
     void connectToPython();
