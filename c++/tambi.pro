@@ -4,7 +4,13 @@
 
 TEMPLATE = app
 TARGET = tambi
-INCLUDEPATH += .
+INCLUDEPATH += "/usr/include/PythonQt"
+INCLUDEPATH += "/usr/include/PythonQt/extensions/PythonQt_QtAll"
+INCLUDEPATH += "/usr/include/python3.6m"
+INCLUDEPATH += "/usr/include/python"
+
+LIBS += /usr/lib64/libPythonQt-Qt5-Python3.6.so
+LIBS += /usr/lib/libPythonQt_QtAll-Qt5-Python3.6.so
 
 # The following define makes your compiler warn you if you use any
 # feature of Qt which has been marked as deprecated (the exact warnings
@@ -23,3 +29,4 @@ QT += widgets
 # Input
 HEADERS += main_window.h cli_widget.h
 SOURCES += tambi.cpp main_window.cpp cli_widget.cpp
+RESOURCES += tambi.qrc

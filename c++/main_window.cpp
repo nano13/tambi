@@ -2,6 +2,7 @@
 #include <QtWidgets>
 
 #include <main_window.h>
+#include <cli_widget.h>
 
 MainWindow::MainWindow()
     : tab_widget(new QTabWidget)
@@ -32,11 +33,16 @@ void MainWindow::closeTab(int tab_id)
 
 void MainWindow::addNewCliTab()
 {
-    tab_widget->addTab(new QLabel("foo"), "foo");
+    tab_widget->addTab(new QCliWidget(this), "cli");
     activateNewTab();
 }
 
 void MainWindow::addNewDualCliTab()
+{
+    
+}
+
+void MainWindow::addNewPythonTab()
 {
     
 }

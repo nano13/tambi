@@ -13,6 +13,8 @@ private:
     
     void addNewCliTab();
     void addNewDualCliTab();
+    void addNewPythonTab();
+    
     void activateNewTab();
     void setTabText(int, QString);
     
