@@ -19,21 +19,25 @@ void QInputLine::appendText(QString text)
 
 void QInputLine::keyPressEvent(QKeyEvent *event)
 {
-    /*
-    if (event->key() == Qt::Key_Return)
+    switch (event->key())
     {
-        qDebug() << "ENTER";
-        
+        case Qt::Key_Return:
+            emit returnPressed(text());
+            setText("");
+            break;
+            
+        case Qt::Key_Enter:
+            emit returnPressed(text());
+            setText("");
+            break;
+            
+        case Qt::Key_Up:
+            
+            break;
+            
+        case Qt::Key_Down:
+            
+            break;
     }
-    else if (event->key() == Qt::Key_Enter)
-    {
-        qDebug() << "Enter";
-    }
-    else if (event->key() == Qt::Key_Up)
-    {
-        qDebug() << "UP";
-    }
-    */
-//     case event->key()
     QLineEdit::keyPressEvent(event);
 }

@@ -19,10 +19,10 @@ QCliWidget::QCliWidget(QWidget *parent)
     
     input_line->setPlaceholderText("This is the command line. See 'man commandline' for details.");
 //     connect(input_line, &QLineEdit::returnPressed, this, &QCliWidget::commandEntered);
+    connect(input_line, SIGNAL(returnPressed(QString)), this, SLOT(commandEntered(QString)));
     grid->addWidget(input_line, 1, 0);
     
     
-    //qDebug() << "TEST";
     
     QString my_array[3][4] = {
         {"a", "b", "c", "d"} ,
@@ -36,15 +36,13 @@ QCliWidget::QCliWidget(QWidget *parent)
     matrix[0].append("blubb");
     matrix.append(QStringList {"blaha"});
     
-//     qDebug() << matrix;
-    
     resultInTable(matrix);
     connectToPython();
 }
 
 void QCliWidget::commandEntered(QString command)
 {
-    
+    qDebug() << command;
 }
 
 void QCliWidget::resultInTable(QVector<QStringList> matrix)
