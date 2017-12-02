@@ -21,6 +21,8 @@ private:
     int getMatrixMaxWidth(QVector<QStringList>);
     void connectToPython();
     
+    void addDisplayWidget();
+    
 private slots:
     void commandEntered(QString);
     void resultInTextEdit(QString);

@@ -31,6 +31,7 @@ QCliWidget::QCliWidget(QWidget *parent)
 //     PythonQt::init();
     PythonQt::init(PythonQt::ExternalHelp);
     
+    /*
     QString my_array[3][4] = {
         {"a", "b", "c", "d"} ,
         {"e", "f", "g", "h"} ,
@@ -42,7 +43,7 @@ QCliWidget::QCliWidget(QWidget *parent)
     matrix[1].append("bla");
     matrix[0].append("blubb");
     matrix.append(QStringList {"blaha"});
-    
+    */
 //     resultInTable(matrix);
 //     connectToPython();
 }
@@ -129,6 +130,11 @@ void QCliWidget::commandEntered(QString command)
         }
         resultInTable(matrix);
     }
+    
+}
+
+void QCliWidget::addDisplayWidget()
+{
     
 }
 
