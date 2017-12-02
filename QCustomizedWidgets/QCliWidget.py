@@ -111,6 +111,7 @@ class QCliWidget(QWidget):
         self.applyStylesheet()
         
     def resizeDisplayWidget(self):
+        # the magick numbers are for keeping the size of the view allways small enough not to spawn an outer set of scrollbars:
         x = self.view.width() -2.1
         y = self.view.height() -2.1
         self.x, self.y = x, y
