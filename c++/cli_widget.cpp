@@ -5,10 +5,16 @@
 #include <QTextEdit>
 #include <QGridLayout>
 #include <QLineEdit>
+#include <QPushButton>
+#include <QIcon>
+
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonValue>
 #include <QJsonArray>
+
+#include <QGraphicsView>
+#include <QGraphicsScene>
 
 #include <QDebug>
 
@@ -18,39 +24,55 @@
 QCliWidget::QCliWidget(QWidget *parent)
     : grid(new QGridLayout)
     , input_line(new QInputLine)
+    , old_display_widget(new QWidget)
+    , view(new QGraphicsView)
+    , scene(new QGraphicsScene)
 {
     grid->setContentsMargins(0, 0, 0, 0);
     setLayout(grid);
     
+    QTextEdit *text_edit = new QTextEdit();
+    text_edit->setText("type in the command 'man' down there in the command line for getting started ...");
+    text_edit->setReadOnly(true);
+    addDisplayWidget(text_edit);
+    
     input_line->setPlaceholderText("This is the command line. See 'man commandline' for details.");
-//     connect(input_line, &QLineEdit::returnPressed, this, &QCliWidget::commandEntered);
     connect(input_line, SIGNAL(returnPressed(QString)), this, SLOT(commandEntered(QString)));
     grid->addWidget(input_line, 1, 0);
+    
+    QPushButton *zoomOutButton = new QPushButton();
+    zoomOutButton->setIcon(QIcon::fromTheme("zoom-out"));
+    connect(zoomOutButton, &QPushButton::clicked, this, &QCliWidget::onZoomOutClicked);
+    grid->addWidget(zoomOutButton, 1, 2);
+    
+    QPushButton *zoomResetButton = new QPushButton();
+    zoomResetButton->setIcon(QIcon::fromTheme("zoom-original"));
+    connect(zoomResetButton, &QPushButton::clicked, this, &QCliWidget::onZoomResetClicked);
+    grid->addWidget(zoomResetButton, 1, 3);
+    
+    QPushButton *zoomInButton = new QPushButton();
+    zoomInButton->setIcon(QIcon::fromTheme("zoom-in"));
+    connect(zoomInButton, &QPushButton::clicked, this, &QCliWidget::onZoomInClicked);
+    grid->addWidget(zoomInButton, 1, 4);
+    
+    
     
 //     PythonQt::init(PythonQt::IgnoreSiteModule);
 //     PythonQt::init();
     PythonQt::init(PythonQt::ExternalHelp);
     
     /*
-    QString my_array[3][4] = {
-        {"a", "b", "c", "d"} ,
-        {"e", "f", "g", "h"} ,
-        {"i", "j", "k", "l"}
-    };
-    QList<int> list_a({1, 2});
-//     QList<int><int> list_b({1, 2},{3,4});
     QVector<QStringList> matrix{{"foo", "bar", "baz"}, {"hello", "world", "!"}};
     matrix[1].append("bla");
     matrix[0].append("blubb");
     matrix.append(QStringList {"blaha"});
     */
-//     resultInTable(matrix);
-//     connectToPython();
 }
 
 void QCliWidget::commandEntered(QString command)
 {
-    qDebug() << command;
+//     qDebug() << command;
+    resize(this_x, this_y);
     
     PythonQtObjectPtr context = PythonQt::self()->getMainModule();
     context.evalFile("./lib_tambi_interpreter.py");
@@ -58,6 +80,7 @@ void QCliWidget::commandEntered(QString command)
     QVariantList args;
 //     args << "bituza 1mose 1 1";
     args << command;
+    qDebug() << args;
     QVariant result = context.call("interpreter", args);
     
     QString result_str = result.toString();
@@ -80,40 +103,55 @@ void QCliWidget::commandEntered(QString command)
         qDebug() << "Invalid JSON";
     }
     
-//     qDebug() << obj;
+    qDebug() << obj;
     qDebug() << obj["payload"];
     
     QString obj_cat = obj["category"].toString().toUtf8();
     
     if (obj_cat == "text")
     {
-        QJsonArray arr = obj["payload"].toArray();
         QString payload = "";
         
-        for (int i = 0; i < arr.size(); i++)
+        if (obj["payload"].isArray())
         {
-            QString line_part = "";
-            for (int j = 0; j < arr[i].toArray().size(); j++)
+            QJsonArray arr = obj["payload"].toArray();
+            
+            for (int i = 0; i < arr.size(); i++)
             {
-//              line_part.append(arr[i].toArray().takeAt(j).toString());
-                QJsonValue val = arr[i].toArray().takeAt(j);
-                if (val.isString())
+                QString line_part = "";
+                for (int j = 0; j < arr[i].toArray().size(); j++)
                 {
-                    line_part.append(val.toString());
+    //              line_part.append(arr[i].toArray().takeAt(j).toString());
+                    QJsonValue val = arr[i].toArray().takeAt(j);
+                    if (val.isString())
+                    {
+                        line_part.append(val.toString());
+                    }
+                    else if (val.isDouble())
+                    {
+                        double dou = val.toDouble();
+                        line_part.append(QString::number(dou));
+                        line_part.append(" | ");
+                    }
                 }
-                else if (val.isDouble())
-                {
-                    double dou = val.toDouble();
-                    line_part.append(QString::number(dou));
-                    line_part.append(" | ");
-                }
+                payload.append(line_part);
+                payload.append("\n");
             }
-            payload.append(line_part);
-            payload.append("\n");
+        }
+        else if (obj["payload"].isString())
+        {
+            payload = obj["payload"].toString();
         }
         
         resultInTextEdit(payload);
     }
+    
+    else if (obj_cat == "string")
+    {
+        QString payload = obj["payload"].toString();
+        resultInTextEdit(payload);
+    }
+    
     else if (obj_cat == "table")
     {
         QJsonArray arr = obj["payload"].toArray();
@@ -130,19 +168,47 @@ void QCliWidget::commandEntered(QString command)
         }
         resultInTable(matrix);
     }
-    
 }
 
-void QCliWidget::addDisplayWidget()
+void QCliWidget::addDisplayWidget(QWidget *display_widget)
 {
+    old_display_widget->deleteLater();
     
+    scene->addWidget(display_widget);
+    view->setScene(scene);
+    view->setStyleSheet("QGraphicsView { border-style: none; }");
+    
+    old_display_widget = display_widget;
+    grid->addWidget(view, 0, 0, 1, 0);
+    resizeDisplayWidget();
+}
+
+void QCliWidget::resizeDisplayWidget()
+{
+    // the magick numbers are for keeping the size of the view allways small enough not to spawn an outer set of scrollbars:
+    int x = view->width() - 2.1;
+    int y = view->height() - 2.1;
+    this_x = x;
+    this_y = y;
+    
+    QRectF mapped_rect = view->mapToScene(QRect(0, 0, x, y)).boundingRect();
+    old_display_widget->setFixedSize(mapped_rect.width(), mapped_rect.height());
+    scene->setSceneRect(0, 0, mapped_rect.width(), mapped_rect.height());
+}
+
+void QCliWidget::resizeEvent(QResizeEvent *event)
+{
+    resizeDisplayWidget();
 }
 
 void QCliWidget::resultInTextEdit(QString text)
 {
     QTextEdit *text_edit = new QTextEdit();
     text_edit->setText(text);
-    grid->addWidget(text_edit, 0, 0, 1, 0);
+    text_edit->setReadOnly(true);
+    text_edit->setAcceptRichText(true);
+    
+    addDisplayWidget(text_edit);
 }
 
 void QCliWidget::resultInTable(QVector<QStringList> matrix)
@@ -151,7 +217,6 @@ void QCliWidget::resultInTable(QVector<QStringList> matrix)
     table->setRowCount(matrix.length());
     table->setColumnCount(getMatrixMaxWidth(matrix));
     
-    /* for (auto& rows: matrix) */
     for (int i=0; i < matrix.length(); i++)
     {
         for (int j=0; j < matrix[i].length(); j++)
@@ -161,7 +226,8 @@ void QCliWidget::resultInTable(QVector<QStringList> matrix)
         }
     }
     table->resizeColumnsToContents();
-    grid->addWidget(table, 0, 0, 1, 0);
+    
+    addDisplayWidget(table);
 }
 
 int QCliWidget::getMatrixMaxWidth(QVector<QStringList> matrix)
@@ -177,6 +243,24 @@ int QCliWidget::getMatrixMaxWidth(QVector<QStringList> matrix)
     }
     
     return max;
+}
+
+void QCliWidget::onZoomInClicked()
+{
+    view->scale(SCALE_FACTOR, SCALE_FACTOR);
+    resizeDisplayWidget();
+}
+
+void QCliWidget::onZoomOutClicked()
+{
+    view->scale(1 / SCALE_FACTOR, 1 / SCALE_FACTOR);
+    resizeDisplayWidget();
+}
+
+void QCliWidget::onZoomResetClicked()
+{
+    view->resetTransform();
+    resizeDisplayWidget();
 }
 
 void QCliWidget::connectToPython()
