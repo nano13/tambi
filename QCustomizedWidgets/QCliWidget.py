@@ -64,11 +64,6 @@ class QCliWidget(QWidget):
         vkbdButton.setIcon(QIcon.fromTheme('input-keyboard'))
         self.grid.addWidget(vkbdButton, 1, 1)
         
-        zoomInButton = QPushButton(self)
-        zoomInButton.setIcon(QIcon.fromTheme('zoom-in'))
-        zoomInButton.clicked.connect(self.onZoomInClicked)
-        self.grid.addWidget(zoomInButton, 1, 4)
-        
         zoomOutButton = QPushButton(self)
         zoomOutButton.setIcon(QIcon.fromTheme('zoom-out'))
         zoomOutButton.clicked.connect(self.onZoomOutClicked)
@@ -78,6 +73,11 @@ class QCliWidget(QWidget):
         zoomResetButton.setIcon(QIcon.fromTheme('zoom-original'))
         zoomResetButton.clicked.connect(self.onZoomResetClicked)
         self.grid.addWidget(zoomResetButton, 1, 3)
+        
+        zoomInButton = QPushButton(self)
+        zoomInButton.setIcon(QIcon.fromTheme('zoom-in'))
+        zoomInButton.clicked.connect(self.onZoomInClicked)
+        self.grid.addWidget(zoomInButton, 1, 4)
         
         self.applyStylesheet()
     
