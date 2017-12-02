@@ -5,7 +5,7 @@ from interpreter.structs import Result
 import interpreter.man as builtin_man_pages
 
 from configs.history import History
-from misc.unicodeFonts import UnicodeFonts
+#from misc.unicodeFonts import UnicodeFonts
 
 import sys, time, os
 

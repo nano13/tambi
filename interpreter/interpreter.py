@@ -103,7 +103,3 @@ class Interpreter(object):
                 pass
             else:
                 return return_value
-
-if __name__ == '__main__':
-    c = Interpreter()
-    

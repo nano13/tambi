@@ -9,6 +9,7 @@ public:
     QInputLine(QLineEdit *parent = 0);
     
 private:
+    int history_counter;
     void appendText(QString);
     
 private slots:

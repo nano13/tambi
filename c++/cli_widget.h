@@ -23,5 +23,6 @@ private:
     
 private slots:
     void commandEntered(QString);
+    void resultInTextEdit(QString);
     void resultInTable(QVector<QStringList>);
 };

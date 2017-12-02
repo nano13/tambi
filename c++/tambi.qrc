@@ -1,5 +1,6 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource>
     <file>Test.py</file>
+    <file>../lib_tambi_interpreter.py</file>
 </qresource>
 </RCC>
