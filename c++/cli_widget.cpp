@@ -50,7 +50,7 @@ void QCliWidget::commandEntered(QString command)
     qDebug() << command;
     
     PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-    context.evalFile("../lib_tambi_interpreter.py");
+    context.evalFile("./lib_tambi_interpreter.py");
     
     QVariantList args;
 //     args << "bituza 1mose 1 1";
