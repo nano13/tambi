@@ -27,7 +27,9 @@ QCliWidget::QCliWidget(QWidget *parent)
     connect(input_line, SIGNAL(returnPressed(QString)), this, SLOT(commandEntered(QString)));
     grid->addWidget(input_line, 1, 0);
     
-    PythonQt::init(PythonQt::IgnoreSiteModule);
+//     PythonQt::init(PythonQt::IgnoreSiteModule);
+//     PythonQt::init();
+    PythonQt::init(PythonQt::ExternalHelp);
     
     QString my_array[3][4] = {
         {"a", "b", "c", "d"} ,
