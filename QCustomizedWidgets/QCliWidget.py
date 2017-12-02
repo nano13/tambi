@@ -95,8 +95,6 @@ class QCliWidget(QWidget):
             pass
     
     def addDisplayWidget(self):
-        #self.grid.addWidget(self.display_widget, 0, 0, 1, 0)
-        
         self.view = QGraphicsView()
         self.scene = QGraphicsScene()
         
@@ -120,12 +118,8 @@ class QCliWidget(QWidget):
         
         self.display_widget.setFixedSize(mapped_rect.width(), mapped_rect.height())
         self.scene.setSceneRect(0, 0, mapped_rect.width(), mapped_rect.height())
-        
-        #self.display_widget.setFixedSize(x, y)
-        #self.scene.setSceneRect(0, 0, x, y)
     
     def resizeEvent(self, event):
-        #super().resizeEvent(event)
         self.resizeDisplayWidget()
     
     def vkbdButtonClicked(self, lineEdit):
