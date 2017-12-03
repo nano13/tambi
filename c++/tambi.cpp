@@ -9,6 +9,8 @@
 
 int main(int argc, char *argv[])
 {
+    PythonQt::init(PythonQt::ExternalHelp);
+    
     QApplication app(argc, argv);
     
     QApplication::setApplicationName("tambi");

@@ -60,7 +60,7 @@ QCliWidget::QCliWidget(QWidget *parent)
     
 //     PythonQt::init(PythonQt::IgnoreSiteModule);
 //     PythonQt::init();
-    PythonQt::init(PythonQt::ExternalHelp);
+//     PythonQt::init(PythonQt::ExternalHelp);
     
     /*
     QVector<QStringList> matrix{{"foo", "bar", "baz"}, {"hello", "world", "!"}};
@@ -77,12 +77,11 @@ void QCliWidget::commandEntered(QString command)
     
     PythonQtObjectPtr context = PythonQt::self()->getMainModule();
     context.evalFile("./lib_tambi_interpreter.py");
-    
     QVariantList args;
-//     args << "bituza 1mose 1 1";
     args << command;
-    qDebug() << args;
+    qDebug() << "ARGS: " << args;
     QVariant result = context.call("interpreter", args);
+    qDebug() << "RESULT: " << result;
     
     QString result_str = result.toString();
     QJsonDocument jdoc = QJsonDocument::fromJson(result_str.toUtf8());
