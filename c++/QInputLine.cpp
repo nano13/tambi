@@ -32,12 +32,14 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
         {
             if (text() != "")
             {
+                /*
                 PythonQtObjectPtr context = PythonQt::self()->getMainModule();
                 context.evalFile("./history_adapter.py");
                 QVariantList args;
                 args << text();
                 context.call("historyWrite", args);
                 qDebug() << text() << "---";
+                */
                 emit returnPressed(text());
                 setText("");
                 history_counter = 0;
