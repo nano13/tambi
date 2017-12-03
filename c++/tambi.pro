@@ -37,6 +37,6 @@ CONFIG += qt debug
 QT += widgets
 
 # Input
-HEADERS += main_window.h cli_widget.h QInputLine.h
-SOURCES += tambi.cpp main_window.cpp cli_widget.cpp QInputLine.cpp
+HEADERS += main_window.h cli_widget.h QInputLine.h format_output.h
+SOURCES += tambi.cpp main_window.cpp cli_widget.cpp QInputLine.cpp format_output.cpp
 #RESOURCES += tambi.qrc

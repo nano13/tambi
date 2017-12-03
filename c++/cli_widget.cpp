@@ -1,5 +1,6 @@
 
 #include <cli_widget.h>
+#include <format_output.h>
 
 #include <QTableWidget>
 #include <QTextEdit>
@@ -108,65 +109,52 @@ void QCliWidget::commandEntered(QString command)
     
     QString obj_cat = obj["category"].toString().toUtf8();
     
-    if (obj_cat == "text")
+    if (obj_cat == "table")
     {
-        QString payload = "";
-        
-        if (obj["payload"].isArray())
-        {
-            QJsonArray arr = obj["payload"].toArray();
-            
-            for (int i = 0; i < arr.size(); i++)
-            {
-                QString line_part = "";
-                for (int j = 0; j < arr[i].toArray().size(); j++)
-                {
-    //              line_part.append(arr[i].toArray().takeAt(j).toString());
-                    QJsonValue val = arr[i].toArray().takeAt(j);
-                    if (val.isString())
-                    {
-                        line_part.append(val.toString());
-                    }
-                    else if (val.isDouble())
-                    {
-                        double dou = val.toDouble();
-                        line_part.append(QString::number(dou));
-                        line_part.append(" | ");
-                    }
-                }
-                payload.append(line_part);
-                payload.append("\n");
-            }
-        }
-        else if (obj["payload"].isString())
-        {
-            payload = obj["payload"].toString();
-        }
-        
-        resultInTextEdit(payload);
-    }
-    
-    else if (obj_cat == "string")
-    {
-        QString payload = obj["payload"].toString();
-        resultInTextEdit(payload);
-    }
-    
-    else if (obj_cat == "table")
-    {
-        QJsonArray arr = obj["payload"].toArray();
-        QVector<QStringList> matrix;
-        for (int i = 0; i < arr.size(); i++)
-        {
-            QStringList line;
-            for (int j = 0; j < arr[i].toArray().size(); j++)
-            {
-                QJsonValue val = arr[i].toArray().takeAt(j);
-                line.append(val.toString());
-            }
-            matrix.append(line);
-        }
+        QVector<QStringList> matrix = FormatOutput::formatTable(obj);
         resultInTable(matrix);
+    }
+    
+    else if (obj_cat == "multimedia_table")
+    {
+        
+    }
+    
+    else if (obj_cat == "list")
+    {
+        
+    }
+    
+    else if (obj_cat == "text")
+    {
+        QString payload = FormatOutput::formatText(obj);
+        resultInTextEdit(payload);
+    }
+    
+    else if (obj_cat == "string" || obj_cat == "html")
+    {
+        QString payload = FormatOutput::formatString(obj);
+        resultInTextEdit(payload);
+    }
+    
+    else if (obj_cat == "itemized")
+    {
+        
+    }
+    
+    else if (obj_cat == "image")
+    {
+        
+    }
+    
+    else if (obj_cat == "diagram")
+    {
+        
+    }
+    
+    else if (obj_cat == "command")
+    {
+        
     }
 }
 
