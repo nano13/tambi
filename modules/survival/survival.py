@@ -19,6 +19,7 @@ class Survival(object):
             
             "survival.toc" : self.tableOfContents,
             "survival.read" : self.read,
+            "survival" : self.read,
             "survival.search" : self.search,
         }
     
