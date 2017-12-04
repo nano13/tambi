@@ -16,6 +16,8 @@ private:
     PythonQtObjectPtr context;
     
     void appendText(QString);
+    QVariant PythonEval(QString);
+    QVariant PythonEval(QString, QVariantList);
     
 private slots:
     
