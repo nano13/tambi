@@ -13,10 +13,10 @@
 
 QInputLine::QInputLine(QLineEdit *parent)
 {
-    
-//     QVariantList args;
-//     args << command;
-//     QVariant result = context.call("interpreter", args);
+//     PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//     context.evalFile("./history_adapter.py");
+//     QVariant result = context.call("getHistorySize");
+//     qDebug() << result;
 }
 
 void QInputLine::appendText(QString text)
@@ -32,14 +32,16 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
         {
             if (text() != "")
             {
+                
                 /*
-                PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-                context.evalFile("./history_adapter.py");
                 QVariantList args;
                 args << text();
                 context.call("historyWrite", args);
                 qDebug() << text() << "---";
                 */
+                
+                qDebug() << "Return Pressed";
+                
                 emit returnPressed(text());
                 setText("");
                 history_counter = 0;
@@ -50,11 +52,13 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
         {
             if (text() != "")
             {
-                PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-                context.evalFile("./history_adapter.py");
-                QVariantList args;
-                args << text();
-                context.call("historyWrite", args);
+//                 PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//                 context.evalFile("./history_adapter.py");
+//                 QVariantList args;
+//                 args << text();
+//                 context.call("historyWrite", args);
+                
+                qDebug() << "Enter Pressed";
                 
                 emit returnPressed(text());
                 setText("");
@@ -64,8 +68,8 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
         }
         case Qt::Key_Up:
         {
-            PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-            context.evalFile("./history_adapter.py");
+//             PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//             context.evalFile("./history_adapter.py");
             QVariant result = context.call("getHistorySize");
             int history_size = result.toInt();
             
@@ -82,8 +86,8 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
             QString entry = "";
             if (text() != "")
             {
-                PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-                context.evalFile("./history_adapter.py");
+//                 PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//                 context.evalFile("./history_adapter.py");
                 QVariantList args;
                 args << history_counter << search_pattern_prefix;
                 QVariant result = context.call("historyReadWithIndexAndPrefix", args);
@@ -97,8 +101,8 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
             }
             else
             {
-                PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-                context.evalFile("./history_adapter.py");
+//                 PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//                 context.evalFile("./history_adapter.py");
                 QVariantList args;
                 args << history_counter;
                 QVariant result = context.call("historyReadAtIndex", args);
@@ -119,8 +123,8 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
             QString entry;
             if (search_pattern_prefix != "")
             {
-                PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-                context.evalFile("./history_adapter.py");
+//                 PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//                 context.evalFile("./history_adapter.py");
                 QVariantList args;
                 args << history_counter << search_pattern_prefix;
                 QVariant result = context.call("historyReadWithIndexAndPrefix", args);
@@ -128,8 +132,8 @@ void QInputLine::keyPressEvent(QKeyEvent *event)
             }
             else
             {
-                PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-                context.evalFile("./history_adapter.py");
+//                 PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//                 context.evalFile("./history_adapter.py");
                 QVariantList args;
                 args << history_counter;
                 QVariant result = context.call("historyReadAtIndex", args);

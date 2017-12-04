@@ -13,7 +13,7 @@ public:
 private:
     int history_counter = 0;
     QString search_pattern_prefix = "";
-//     PythonQtObjectPtr context;
+    PythonQtObjectPtr context;
     
     void appendText(QString);
     
