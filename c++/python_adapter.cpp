@@ -8,7 +8,7 @@
 #include <QDebug>
 
 #include <PythonQt.h>
-#include <PythonQt_QtAll.h>
+// #include <PythonQt_QtAll.h>
 
 PythonAdapter::PythonAdapter(QObject *parent)
 {
