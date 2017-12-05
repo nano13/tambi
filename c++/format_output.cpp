@@ -65,7 +65,15 @@ QVector<QStringList> FormatOutput::formatTable(QJsonObject obj)
         for (int j = 0; j < arr[i].toArray().size(); j++)
         {
             QJsonValue val = arr[i].toArray().takeAt(j);
-            line.append(val.toString());
+            if (val.isString())
+            {
+                line.append(val.toString());
+            }
+            else if (val.isDouble())
+            {
+                double dou = val.toDouble();
+                line.append(QString::number(dou));
+            }
         }
         matrix.append(line);
     }

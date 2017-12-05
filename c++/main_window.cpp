@@ -9,12 +9,9 @@ MainWindow::MainWindow()
 {
     resize(825, 670);
     
-    /* QPushButton *button = new QPushButton("&Download", this); */
-    /*QTabWidget *tab_widget = new QTabWidget();*/
     tab_widget->setTabsClosable(true);
     tab_widget->setMovable(true);
     
-    /* connect(&tab_widget, SIGNAL(tabCloseRequested(int)), this, SLOT(closeTab(int))); */
     connect(tab_widget, &QTabWidget::tabCloseRequested, this, &MainWindow::closeTab);
     
     setCentralWidget(tab_widget);

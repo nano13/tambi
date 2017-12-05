@@ -9,9 +9,12 @@
 
 int main(int argc, char *argv[])
 {
+    // init PythonQt and Python itself
 //     PythonQt::init(PythonQt::IgnoreSiteModule);
 //     PythonQt::init();
     PythonQt::init(PythonQt::ExternalHelp);
+    // enable the Qt-bindings for PythonQt
+//     PythonQt_QtAll::init();
     
     QApplication app(argc, argv);
     

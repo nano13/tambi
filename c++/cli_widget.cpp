@@ -32,6 +32,8 @@ QCliWidget::QCliWidget(QWidget *parent)
     grid->setContentsMargins(0, 0, 0, 0);
     setLayout(grid);
     
+    PythonAdapter *py_adapt = new PythonAdapter();
+    
     QTextEdit *text_edit = new QTextEdit();
     text_edit->setText("type in the command 'man' down there in the command line for getting started ...");
     text_edit->setReadOnly(true);
@@ -62,9 +64,8 @@ void QCliWidget::commandEntered(QString command)
     qDebug() << command;
     resize(this_x, this_y);
     
-    PythonAdapter *padapt = new PythonAdapter();
-    QJsonDocument jdoc = padapt->interpreter(command);
-//     delete padapt;
+    
+    QJsonDocument jdoc = py_adapt->interpreter(command);
     
     QJsonObject obj;
     if (!jdoc.isNull())
@@ -101,7 +102,8 @@ void QCliWidget::commandEntered(QString command)
     
     else if (obj_cat == "list")
     {
-        
+        QString payload = FormatOutput::formatText(obj);
+        resultInTextEdit(payload);
     }
     
     else if (obj_cat == "text")
@@ -168,6 +170,16 @@ void QCliWidget::resizeEvent(QResizeEvent *event)
     resizeDisplayWidget();
 }
 
+void QCliWidget::clearDisplayWidget()
+{
+    
+}
+
+void QCliWidget::makeSnapshot()
+{
+    
+}
+
 void QCliWidget::resultInTextEdit(QString text)
 {
     QTextEdit *text_edit = new QTextEdit();
@@ -184,6 +196,9 @@ void QCliWidget::resultInTable(QVector<QStringList> matrix)
     table->setRowCount(matrix.length());
     table->setColumnCount(getMatrixMaxWidth(matrix));
     
+    // table->setHorizontalHeaderLabels(result.header);
+    // table->setVerticalHeaderLabels(result.header_left);
+    
     for (int i=0; i < matrix.length(); i++)
     {
         for (int j=0; j < matrix[i].length(); j++)
@@ -195,6 +210,41 @@ void QCliWidget::resultInTable(QVector<QStringList> matrix)
     table->resizeColumnsToContents();
     
     addDisplayWidget(table);
+}
+
+void QCliWidget::resultInMultimediaTable(QVector<QStringList> matrix)
+{
+    
+}
+
+void QCliWidget::resultInItemizedWidget()
+{
+    
+}
+
+void QCliWidget::resultInImageWidget()
+{
+    
+}
+
+void QCliWidget::resultInDiagram()
+{
+    
+}
+
+void QCliWidget::showErrorMessage()
+{
+    
+}
+
+bool isImage()
+{
+    
+}
+
+bool isAudio()
+{
+    
 }
 
 int QCliWidget::getMatrixMaxWidth(QVector<QStringList> matrix)
@@ -230,48 +280,3 @@ void QCliWidget::onZoomResetClicked()
     resizeDisplayWidget();
 }
 
-void QCliWidget::connectToPython()
-{
-    // init PythonQt and Python itself
-//     PythonQt::init();
-    // enable the Qt-bindings for PythonQt
-//     PythonQt_QtAll::init();
-    
-    // get a smart pointer to the __main__ module of the Python interpreter
-//     PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-    
-    // do something
-    /*
-    context.evalScript("def multiply(a,b):\n  return a*b;\n");
-    QVariantList args;
-    args << 42 << 47;
-    QVariant result = context.call("multiply", args);
-    qDebug() << result;
-    */
-    
-    /*
-    context.evalScript("def say():\n    return 'hallo';\n");
-    QVariantList args;
-    QVariant result = context.call("say", args);
-    qDebug() << result;
-    */
-    
-// //     qDebug() << context.evalScript("return 'hallo'");
-// //     QVariantList args;
-// //     QVariant result = context.call();
-// //     qDebug() << result;
-    
-    
-//     context.evalFile(":/Test.py");
-//     context.evalFile("./Test.py");
-//     QVariantList args;
-//     QVariant result = context.call("say", args);
-//     qDebug() << result;
-    
-    
-    /*
-    QFile file(":/Test.py");
-    char *data;
-    file.readLine(*data);
-    */
-}

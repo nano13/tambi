@@ -27,16 +27,30 @@ private:
     int this_y;
     float SCALE_FACTOR = 1.15;
     
+    PythonAdapter *py_adapt;
+    
     int getMatrixMaxWidth(QVector<QStringList>);
-    void connectToPython();
     
     void addDisplayWidget(QWidget *display_widget);
     void resizeDisplayWidget();
     
+    void clearDisplayWidget();
+    void makeSnapshot();
+    
+    bool isImage();
+    bool isAudio();
+    
 private slots:
     void commandEntered(QString);
+    
     void resultInTextEdit(QString);
     void resultInTable(QVector<QStringList>);
+    void resultInMultimediaTable(QVector<QStringList>);
+    void resultInItemizedWidget();
+    void resultInImageWidget();
+    void resultInDiagram();
+    void showErrorMessage();
+    
     void resizeEvent(QResizeEvent *event);
     void onZoomInClicked();
     void onZoomOutClicked();
