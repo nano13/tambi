@@ -8,6 +8,7 @@
 #include <QGraphicsScene>
 
 #include <QInputLine.h>
+#include <python_adapter.h>
 
 class QCliWidget : public QWidget
 {

@@ -1,6 +1,8 @@
 
 #include <QLineEdit>
 
+#include <python_adapter.h>
+
 #include <PythonQt.h>
 
 class QInputLine : public QLineEdit
@@ -11,13 +13,12 @@ public:
     QInputLine(QLineEdit *parent = 0);
     
 private:
+    PythonAdapter *py_adapt;
     int history_counter = 0;
     QString search_pattern_prefix = "";
     PythonQtObjectPtr context;
     
     void appendText(QString);
-    QVariant PythonEval(QString);
-    QVariant PythonEval(QString, QVariantList);
     
 private slots:
     

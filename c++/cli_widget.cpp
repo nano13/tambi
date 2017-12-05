@@ -55,38 +55,18 @@ QCliWidget::QCliWidget(QWidget *parent)
     zoomInButton->setIcon(QIcon::fromTheme("zoom-in"));
     connect(zoomInButton, &QPushButton::clicked, this, &QCliWidget::onZoomInClicked);
     grid->addWidget(zoomInButton, 1, 4);
-    
-    
-    
-//     PythonQt::init(PythonQt::IgnoreSiteModule);
-//     PythonQt::init();
-//     PythonQt::init(PythonQt::ExternalHelp);
-    
-    /*
-    QVector<QStringList> matrix{{"foo", "bar", "baz"}, {"hello", "world", "!"}};
-    matrix[1].append("bla");
-    matrix[0].append("blubb");
-    matrix.append(QStringList {"blaha"});
-    */
 }
 
 void QCliWidget::commandEntered(QString command)
 {
-//     qDebug() << command;
+    qDebug() << command;
     resize(this_x, this_y);
     
-    PythonQtObjectPtr context = PythonQt::self()->getMainModule();
-    context.evalFile("./lib_tambi_interpreter.py");
-    QVariantList args;
-    args << command;
-    qDebug() << "ARGS: " << args;
-    QVariant result = context.call("interpreter", args);
-    qDebug() << "RESULT: " << result;
+    PythonAdapter *padapt = new PythonAdapter();
+    QJsonDocument jdoc = padapt->interpreter(command);
+//     delete padapt;
     
-    QString result_str = result.toString();
-    QJsonDocument jdoc = QJsonDocument::fromJson(result_str.toUtf8());
     QJsonObject obj;
-    
     if (!jdoc.isNull())
     {
         if (jdoc.isObject())
@@ -253,12 +233,12 @@ void QCliWidget::onZoomResetClicked()
 void QCliWidget::connectToPython()
 {
     // init PythonQt and Python itself
-    PythonQt::init();
+//     PythonQt::init();
     // enable the Qt-bindings for PythonQt
-    PythonQt_QtAll::init();
+//     PythonQt_QtAll::init();
     
     // get a smart pointer to the __main__ module of the Python interpreter
-    PythonQtObjectPtr context = PythonQt::self()->getMainModule();
+//     PythonQtObjectPtr context = PythonQt::self()->getMainModule();
     
     // do something
     /*
@@ -283,10 +263,10 @@ void QCliWidget::connectToPython()
     
     
 //     context.evalFile(":/Test.py");
-    context.evalFile("./Test.py");
-    QVariantList args;
-    QVariant result = context.call("say", args);
-    qDebug() << result;
+//     context.evalFile("./Test.py");
+//     QVariantList args;
+//     QVariant result = context.call("say", args);
+//     qDebug() << result;
     
     
     /*

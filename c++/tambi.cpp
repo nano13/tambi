@@ -3,12 +3,14 @@
 #include <QApplication>
 #include <QDebug>
 
-#include "main_window.h"
+#include <main_window.h>
 
 #include <PythonQt.h>
 
 int main(int argc, char *argv[])
 {
+//     PythonQt::init(PythonQt::IgnoreSiteModule);
+//     PythonQt::init();
     PythonQt::init(PythonQt::ExternalHelp);
     
     QApplication app(argc, argv);

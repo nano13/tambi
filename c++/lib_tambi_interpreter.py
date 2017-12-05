@@ -3,7 +3,6 @@
 import sys, os
 os.chdir("..")
 sys.path.append('.')
-print(os.getcwd())
 
 from interpreter.interpreter import Interpreter
 
