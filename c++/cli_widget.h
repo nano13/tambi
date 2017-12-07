@@ -46,7 +46,7 @@ private slots:
     void resultInTextEdit(QString);
     void resultInTable(QVector<QStringList>);
     void resultInMultimediaTable(QVector<QStringList>);
-    void resultInItemizedWidget();
+    void resultInItemizedWidget(QVector<QStringList>);
     void resultInImageWidget();
     void resultInDiagram();
     void showErrorMessage();

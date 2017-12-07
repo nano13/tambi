@@ -1,6 +1,7 @@
 
 #include <cli_widget.h>
 #include <format_output.h>
+#include <qitemizedwidget.h>
 
 #include <QTableWidget>
 #include <QTextEdit>
@@ -120,7 +121,8 @@ void QCliWidget::commandEntered(QString command)
     
     else if (obj_cat == "itemized")
     {
-        
+        QVector<QStringList> matrix = FormatOutput::formatTable(obj);
+        resultInItemizedWidget(matrix);
     }
     
     else if (obj_cat == "image")
@@ -217,9 +219,11 @@ void QCliWidget::resultInMultimediaTable(QVector<QStringList> matrix)
     
 }
 
-void QCliWidget::resultInItemizedWidget()
+void QCliWidget::resultInItemizedWidget(QVector<QStringList> payload)
 {
-    
+    QItemizedWidget *itemizedWidget = new QItemizedWidget();
+    itemizedWidget->showData(payload);
+    addDisplayWidget(itemizedWidget);
 }
 
 void QCliWidget::resultInImageWidget()

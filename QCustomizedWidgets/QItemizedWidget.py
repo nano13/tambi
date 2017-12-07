@@ -49,7 +49,7 @@ class QItemWidget(QWidget):
             text_edit = QGrowingTextEdit()
             
             unicode_fonts.applyFontAndSizeToQWidget(str(column), text_edit)
-                
+            
             text_edit.setText(str(column))
             text_edit.setObjectName("bla")
             text_edit.setReadOnly(True)
@@ -60,26 +60,27 @@ class QItemWidget(QWidget):
 
 class QGrowingTextEdit(QTextEdit):
     
-    resize = pyqtSignal(name='resize')
+    #resize = pyqtSignal(name='resize')
     
     def __init__(self):
         super().__init__()
         
-        self.document().contentsChanged.connect(self.sizeChange)
-        self.cursorPositionChanged.connect(self.sizeChange)
-        self.textChanged.connect(self.sizeChange)
-        self.resize.connect(self.sizeChange)
-        QTimer.singleShot(1, self.sizeChange)
+        self.document().contentsChanged.connect(self.sizeChanged)
+        self.cursorPositionChanged.connect(self.sizeChanged)
+        self.textChanged.connect(self.sizeChanged)
+        #self.resize.connect(self.sizeChanged)
+        QTimer.singleShot(1, self.sizeChanged)
         
         self.heightMin = 0
         self.heightMax = 65000
         
     def resizeEvent(self, e):
-        self.sizeChange()
+        self.sizeChanged()
         super().resizeEvent(e)
     
-    def sizeChange(self):
+    def sizeChanged(self):
         docHeight = self.document().size().height()
+        
         if self.heightMin <= docHeight <= self.heightMax:
             self.setMinimumHeight(docHeight+2)
     
