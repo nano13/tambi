@@ -55,7 +55,7 @@ void QItemWidget::showData(QStringList line)
         // TODO: unicode fonts
         
         textEdit->setText(column);
-//         textEdit->setReadOnly(true);
+        textEdit->setReadOnly(true);
         layout->addWidget(textEdit);
     }
 }
@@ -63,9 +63,7 @@ void QItemWidget::showData(QStringList line)
 // new class
 QGrowingTextEdit::QGrowingTextEdit(QTextEdit *parent)
 {
-    QTextDocument *doc = document();
-    
-    connect(doc, SIGNAL(contentsChanged()), this, SLOT(sizeChanged()));
+    connect(document(), SIGNAL(contentsChanged()), this, SLOT(sizeChanged()));
     connect(this, SIGNAL(cursorPositionChanged()), this, SLOT(sizeChanged()));
     connect(this, SIGNAL(textChanged()), this, SLOT(sizeChanged()));
 //     connect(this, SIGNAL(resize()), this, SLOT(sizeChanged));
@@ -81,8 +79,7 @@ void QGrowingTextEdit::resizeEvent(QResizeEvent *event)
 
 void QGrowingTextEdit::sizeChanged()
 {
-    QTextDocument *docu = document();
-    qreal docHeight = docu->size().height();
+    qreal docHeight = document()->size().height();
     
     if ((heightMin <= docHeight) <= heightMax)
     {

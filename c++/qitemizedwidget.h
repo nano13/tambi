@@ -44,7 +44,6 @@ public:
 private:
     int heightMin = 0;
     int heightMax = 65000;
-    QTextDocument doc;
     
 private slots:
     void sizeChanged();
