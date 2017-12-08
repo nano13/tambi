@@ -39,8 +39,20 @@ QT += widgets
 # Input
 HEADERS += main_window.h\
     cli_widget.h\
-    QInputLine.h format_output.h python_adapter.h qitemizedwidget.h menu_bar.h
+    QInputLine.h\
+    format_output.h\
+    python_adapter.h\
+    qitemizedwidget.h\
+    menu_bar.h\
+    unicode_fonts.h
+
 SOURCES += tambi.cpp\
     main_window.cpp\
-    cli_widget.cpp QInputLine.cpp format_output.cpp python_adapter.cpp qitemizedwidget.cpp menu_bar.cpp
+    cli_widget.cpp\
+    QInputLine.cpp\
+    format_output.cpp\
+    python_adapter.cpp\
+    qitemizedwidget.cpp\
+    menu_bar.cpp\
+    unicode_fonts.cpp
 #RESOURCES += tambi.qrc
