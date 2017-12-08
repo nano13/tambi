@@ -11,6 +11,13 @@ class UnicodeFonts : public QObject
 public:
     UnicodeFonts(QObject *parent = 0);
     
+    void isInUnicodeRange(int, int, QString);
+    void applyFontAndSizeToQWidget(QString, QWidget *widget);
+    void setFont(QString, QWidget *widget);
+    void setFontSize(QWidget *widget, int, QString);
+    void applyFontToQWidget(QString, QWidget *widget);
+    
+    QString printFonts(QString);
 };
 
 #endif
