@@ -3,24 +3,30 @@
 
 #include <main_window.h>
 #include <cli_widget.h>
+#include <menu_bar.h>
 
-MainWindow::MainWindow()
-    : tab_widget(new QTabWidget)
+#include <QHBoxLayout>
+
+// MainWindow::MainWindow()
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , tab_widget(new QTabWidget)
+    , menuBar(new MenuBar)
 {
     resize(825, 670);
     
     tab_widget->setTabsClosable(true);
     tab_widget->setMovable(true);
+//     tab_widget->setDocumentMode(true);
     
     connect(tab_widget, &QTabWidget::tabCloseRequested, this, &MainWindow::closeTab);
+    addNewCliTab();
     
     setCentralWidget(tab_widget);
+    setMenuBar(menuBar);
     
-    for (int i; i < 10; i++)
-    {
-        addNewCliTab();
-        setTabText(0, "bla");
-    }
+    connect(menuBar, &MenuBar::newCliTab, this, &MainWindow::addNewCliTab);
+    connect(menuBar, &MenuBar::newDualCliTab, this, &MainWindow::addNewDualCliTab);
 }
 
 void MainWindow::closeTab(int tab_id)
@@ -30,18 +36,34 @@ void MainWindow::closeTab(int tab_id)
 
 void MainWindow::addNewCliTab()
 {
-    tab_widget->addTab(new QCliWidget(this), "cli");
+    QCliWidget *cli = new QCliWidget();
+    tab_widget->addTab(cli, "cli");
+    connect(cli, &QCliWidget::setTabText, this, &MainWindow::setTabText);
+    
     activateNewTab();
 }
 
 void MainWindow::addNewDualCliTab()
 {
+     QCliWidget *cli_left = new QCliWidget();
+     QCliWidget *cli_right = new QCliWidget();
+     
+     connect(cli_left, &QCliWidget::setTabText, [=](const QString &command) { this->setDualTabText("left", command); });
+     connect(cli_right, &QCliWidget::setTabText, [=](const QString &command) { this->setDualTabText("right", command); });
+     
+     QSizePolicy policy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+     policy.setHorizontalStretch(1);
+     cli_left->setSizePolicy(policy);
+     cli_right->setSizePolicy(policy);
+     
+     QHBoxLayout *layout = new QHBoxLayout();
+     layout->addWidget(cli_left);
+     layout->addWidget(cli_right);
+     QWidget *dualCliWidget = new QWidget();
+     dualCliWidget->setLayout(layout);
     
-}
-
-void MainWindow::addNewPythonTab()
-{
-    
+     tab_widget->addTab(dualCliWidget, "dual cli");
+     activateNewTab();
 }
 
 void MainWindow::activateNewTab()
@@ -49,7 +71,16 @@ void MainWindow::activateNewTab()
     tab_widget->setCurrentIndex(tab_widget->count()-1);
 }
 
-void MainWindow::setTabText(int tab_id, QString text)
+void MainWindow::setTabText(QString text)
 {
+    int tab_id = tab_widget->currentIndex();
     tab_widget->setTabText(tab_id, text);
+}
+
+void MainWindow::setDualTabText(QString position, QString text)
+{
+    dual_cli_label.insert(position, text);
+    
+    QString label = dual_cli_label.value("left", "dual") + " | " + dual_cli_label.value("right", "cli");
+    setTabText(label);
 }

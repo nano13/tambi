@@ -55,4 +55,7 @@ private slots:
     void onZoomInClicked();
     void onZoomOutClicked();
     void onZoomResetClicked();
+    
+signals:
+    void setTabText(QString);
 };
