@@ -30,7 +30,7 @@ QCliWidget::QCliWidget(QWidget *parent)
     , view(new QGraphicsView)
     , scene(new QGraphicsScene)
 {
-    grid->setContentsMargins(0, 0, 0, 0);
+    grid->setContentsMargins(0, 0, 0, 6);
     setLayout(grid);
     
     PythonAdapter *py_adapt = new PythonAdapter();
