@@ -62,6 +62,8 @@ QCliWidget::QCliWidget(QWidget *parent)
 
 void QCliWidget::commandEntered(QString command)
 {
+    emit setTabText(command);
+    
     qDebug() << command;
     resize(this_x, this_y);
     

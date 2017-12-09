@@ -6,6 +6,8 @@
 #include <QJsonValue>
 #include <QJsonArray>
 
+#include <QDebug>
+
 FormatOutput::FormatOutput(QObject *parent)
 {
     
@@ -21,24 +23,32 @@ QString FormatOutput::formatText(QJsonObject obj)
         
         for (int i = 0; i < arr.size(); i++)
         {
-            QString line_part = "";
-            for (int j = 0; j < arr[i].toArray().size(); j++)
-            {
-//              line_part.append(arr[i].toArray().takeAt(j).toString());
-                QJsonValue val = arr[i].toArray().takeAt(j);
-                if (val.isString())
+            int arr_size = arr[i].toArray().size();
+            if (arr_size > 0) {
+                QString line_part = "";
+                for (int j = 0; j < arr[i].toArray().size(); j++)
                 {
-                    line_part.append(val.toString());
+    //              line_part.append(arr[i].toArray().takeAt(j).toString());
+                    QJsonValue val = arr[i].toArray().takeAt(j);
+                    if (val.isString())
+                    {
+                        line_part.append(val.toString());
+                    }
+                    else if (val.isDouble())
+                    {
+                        double dou = val.toDouble();
+                        line_part.append(QString::number(dou));
+                        line_part.append(" | ");
+                    }
                 }
-                else if (val.isDouble())
-                {
-                    double dou = val.toDouble();
-                    line_part.append(QString::number(dou));
-                    line_part.append(" | ");
-                }
+                payload.append(line_part);
+                payload.append("\n");
             }
-            payload.append(line_part);
-            payload.append("\n");
+            else
+            {
+                payload.append(arr[i].toString());
+                payload.append("\n");
+            }
         }
     }
     else if (obj["payload"].isString())
