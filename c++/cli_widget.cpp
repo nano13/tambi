@@ -193,6 +193,8 @@ void QCliWidget::resultInTextEdit(QString text)
     text_edit->setReadOnly(true);
     text_edit->setAcceptRichText(true);
     
+    UnicodeFonts::applyFontAndSizeToQWidget(text, text_edit);
+    
     addDisplayWidget(text_edit);
 }
 
