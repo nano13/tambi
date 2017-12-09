@@ -3,6 +3,8 @@
 #include <format_output.h>
 #include <qitemizedwidget.h>
 
+#include <unicode_fonts.h>
+
 #include <QTableWidget>
 #include <QTextEdit>
 #include <QGridLayout>
@@ -30,7 +32,7 @@ QCliWidget::QCliWidget(QWidget *parent)
     , view(new QGraphicsView)
     , scene(new QGraphicsScene)
 {
-    grid->setContentsMargins(0, 0, 0, 0);
+    grid->setContentsMargins(0, 0, 0, 6);
     setLayout(grid);
     
     PythonAdapter *py_adapt = new PythonAdapter();
@@ -190,6 +192,8 @@ void QCliWidget::resultInTextEdit(QString text)
     text_edit->setText(text);
     text_edit->setReadOnly(true);
     text_edit->setAcceptRichText(true);
+    
+    UnicodeFonts::applyFontAndSizeToQWidget(text, text_edit);
     
     addDisplayWidget(text_edit);
 }
