@@ -6,6 +6,7 @@
 #include <menu_bar.h>
 
 #include <QHBoxLayout>
+#include <QMap>
 
 // MainWindow::MainWindow()
 MainWindow::MainWindow(QWidget *parent)
@@ -45,25 +46,25 @@ void MainWindow::addNewCliTab()
 
 void MainWindow::addNewDualCliTab()
 {
-     QCliWidget *cli_left = new QCliWidget();
-     QCliWidget *cli_right = new QCliWidget();
-     
-     connect(cli_left, &QCliWidget::setTabText, [=](const QString &command) { this->setDualTabText("left", command); });
-     connect(cli_right, &QCliWidget::setTabText, [=](const QString &command) { this->setDualTabText("right", command); });
-     
-     QSizePolicy policy(QSizePolicy::Preferred, QSizePolicy::Preferred);
-     policy.setHorizontalStretch(1);
-     cli_left->setSizePolicy(policy);
-     cli_right->setSizePolicy(policy);
-     
-     QHBoxLayout *layout = new QHBoxLayout();
-     layout->addWidget(cli_left);
-     layout->addWidget(cli_right);
-     QWidget *dualCliWidget = new QWidget();
-     dualCliWidget->setLayout(layout);
+    QCliWidget *cli_left = new QCliWidget();
+    QCliWidget *cli_right = new QCliWidget();
     
-     tab_widget->addTab(dualCliWidget, "dual cli");
-     activateNewTab();
+    connect(cli_left, &QCliWidget::setTabText, [=](const QString &command) { this->setDualTabText("left", command); });
+    connect(cli_right, &QCliWidget::setTabText, [=](const QString &command) { this->setDualTabText("right", command); });
+    
+    QSizePolicy policy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+    policy.setHorizontalStretch(1);
+    cli_left->setSizePolicy(policy);
+    cli_right->setSizePolicy(policy);
+    
+    QHBoxLayout *layout = new QHBoxLayout();
+    layout->addWidget(cli_left);
+    layout->addWidget(cli_right);
+    QWidget *dualCliWidget = new QWidget();
+    dualCliWidget->setLayout(layout);
+
+    tab_widget->addTab(dualCliWidget, "dual cli");
+    activateNewTab();
 }
 
 void MainWindow::activateNewTab()
@@ -79,8 +80,10 @@ void MainWindow::setTabText(QString text)
 
 void MainWindow::setDualTabText(QString position, QString text)
 {
-    dual_cli_label.insert(position, text);
+    // we need "tab_id" and "position" together as the key
+    QString tab_id = QString::number(tab_widget->currentIndex());
+    dual_cli_label.insert(tab_id +"_"+position, text);
     
-    QString label = dual_cli_label.value("left", "dual") + " | " + dual_cli_label.value("right", "cli");
+    QString label = dual_cli_label.value(tab_id+"_"+"left") + " | " + dual_cli_label.value(tab_id+"_"+"right");
     setTabText(label);
 }

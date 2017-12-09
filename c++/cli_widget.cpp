@@ -3,6 +3,8 @@
 #include <format_output.h>
 #include <qitemizedwidget.h>
 
+#include <unicode_fonts.h>
+
 #include <QTableWidget>
 #include <QTextEdit>
 #include <QGridLayout>
