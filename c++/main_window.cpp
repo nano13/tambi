@@ -33,6 +33,8 @@ MainWindow::MainWindow(QWidget *parent)
 void MainWindow::closeTab(int tab_id)
 {
     tab_widget->removeTab(tab_id);
+    dual_cli_label.remove(QString::number(tab_id)+"_"+"left");
+    dual_cli_label.remove(QString::number(tab_id)+"_"+"right");
 }
 
 void MainWindow::addNewCliTab()
