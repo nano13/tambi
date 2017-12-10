@@ -31,6 +31,7 @@ QCliWidget::QCliWidget(QWidget *parent)
     , old_display_widget(new QWidget)
     , view(new QGraphicsView)
     , scene(new QGraphicsScene)
+    , unicodeFonts(new UnicodeFonts)
 {
     grid->setContentsMargins(0, 0, 0, 6);
     setLayout(grid);
@@ -193,9 +194,8 @@ void QCliWidget::resultInTextEdit(QString text)
     text_edit->setReadOnly(true);
     text_edit->setAcceptRichText(true);
     
-    UnicodeFonts *unicodeFonts = new UnicodeFonts();
-//     UnicodeFonts::applyFontAndSizeToQWidget(text, text_edit);
-    unicodeFonts->applyFontAndSizeToQWidget(text, text_edit);
+    QFont font = unicodeFonts->getFontAndSize(text);
+    text_edit->setFont(font);
     
     addDisplayWidget(text_edit);
 }
@@ -213,7 +213,12 @@ void QCliWidget::resultInTable(QVector<QStringList> matrix)
     {
         for (int j=0; j < matrix[i].length(); j++)
         {
-            QTableWidgetItem *table_item = new QTableWidgetItem(matrix[i][j]);
+            QString item = matrix[i][j];
+            QTableWidgetItem *table_item = new QTableWidgetItem(item);
+            
+            QFont font = unicodeFonts->getFontAndSize(item);
+            table_item->setFont(font);
+            
             table->setItem(i, j, table_item);
         }
     }

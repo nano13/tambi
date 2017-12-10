@@ -12,7 +12,7 @@ public:
     UnicodeFonts(QObject *parent = 0);
     
     bool isInUnicodeRange(int, int, QString);
-    void applyFontAndSizeToQWidget(QString, QWidget *widget);
+    QFont getFontAndSize(QString);
     void setFont(QString, QWidget *widget);
     void setFontSize(QWidget *widget, int, QString);
     void applyFontToQWidget(QString, QWidget *widget);
@@ -30,10 +30,14 @@ private:
     QString greek_font = "Galatia SIL";
     QString ipa_font = "Doulos SIL";
     
+    QString default_font = "DejaVu Sans";
+    
     int arabic_size = 40;
     int hebrew_size = 20;
     int greek_size = 15;
     int ipa_size = 15;
+    
+    int default_size = -1;
 };
 
 #endif

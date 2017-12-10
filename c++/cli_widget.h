@@ -9,6 +9,7 @@
 
 #include <QInputLine.h>
 #include <python_adapter.h>
+#include <unicode_fonts.h>
 
 class QCliWidget : public QWidget
 {
@@ -28,6 +29,7 @@ private:
     float SCALE_FACTOR = 1.15;
     
     PythonAdapter *py_adapt;
+    UnicodeFonts *unicodeFonts;
     
     int getMatrixMaxWidth(QVector<QStringList>);
     
