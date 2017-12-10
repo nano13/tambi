@@ -6,6 +6,8 @@
 #include <QVector>
 #include <QStringList>
 
+#include <unicode_fonts.h>
+
 class QItemizedWidget : public QWidget
 {
     Q_OBJECT
@@ -30,6 +32,7 @@ public:
     
 private:
     QVBoxLayout *layout;
+    UnicodeFonts *unicodeFonts;
 };
 
 class QGrowingTextEdit : public QTextEdit

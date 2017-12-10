@@ -41,6 +41,7 @@ void QItemizedWidget::showData(QVector<QStringList> payload)
 // new class
 QItemWidget::QItemWidget(QWidget *parent)
     : layout(new QVBoxLayout)
+    , unicodeFonts(new UnicodeFonts)
 {
     layout->setSpacing(0);
     setLayout(layout);
@@ -52,7 +53,9 @@ void QItemWidget::showData(QStringList line)
     {
         QString column = line.at(i);
         QGrowingTextEdit *textEdit = new QGrowingTextEdit();
-        // TODO: unicode fonts
+        
+        QFont font = unicodeFonts->getFontAndSize(column);
+        textEdit->setFont(font);
         
         textEdit->setText(column);
         textEdit->setReadOnly(true);
@@ -66,7 +69,6 @@ QGrowingTextEdit::QGrowingTextEdit(QTextEdit *parent)
     connect(document(), SIGNAL(contentsChanged()), this, SLOT(sizeChanged()));
     connect(this, SIGNAL(cursorPositionChanged()), this, SLOT(sizeChanged()));
     connect(this, SIGNAL(textChanged()), this, SLOT(sizeChanged()));
-//     connect(this, SIGNAL(resize()), this, SLOT(sizeChanged));
     
     QTimer::singleShot(1, this, SLOT(sizeChanged()));
 }
