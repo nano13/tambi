@@ -1,4 +1,5 @@
 moc_*
+qrc_*
 *.o
 tambi
 Makefile
