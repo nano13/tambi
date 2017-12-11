@@ -2,12 +2,28 @@
 #include <unicode_fonts.h>
 
 #include <QFont>
+#include <QFontDatabase>
 
 #include <QDebug>
 
 UnicodeFonts::UnicodeFonts(QObject *parent)
 {
+//     QFontDatabase *base = new QFontDatabase();
     
+    QStringList fonts = {"../assets/fonts/SILEOT.ttf",
+        "../assets/fonts/Scheherazade-Regular.ttf",
+        "../assets/fonts/EzraSIL2.51/SILEOT.ttf",
+        "../assets/fonts/GalSIL21/GalSILR.ttf",
+        "../assets/fonts/DoulosSIL-R.ttf"};
+    for (int i=0; i<fonts.length(); i++)
+    {
+        QString font = fonts[i];
+        qDebug() << font;
+//         base->addApplicationFont(font);
+        qDebug() << QFontDatabase::addApplicationFont(font);
+    }
+    
+//     qDebug() << QFontDatabase::families(base);
 }
 
 bool UnicodeFonts::isInUnicodeRange(int start, int end, QString string)
@@ -59,7 +75,8 @@ QFont UnicodeFonts::getFontAndSize(QString string)
         font = QFont(default_font);
         font.setPointSize(default_size);
     }
-    
+//     font = QFont(arabic_font);
+//     font.setPointSize(hebrew_size);
     return font;
 }
 
