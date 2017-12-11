@@ -90,8 +90,8 @@ void QCliWidget::commandEntered(QString command)
         qDebug() << "Invalid JSON";
     }
     
-    qDebug() << obj;
-    qDebug() << obj["payload"];
+//     qDebug() << obj;
+//     qDebug() << obj["payload"];
     
     QString obj_cat = obj["category"].toString().toUtf8();
     
@@ -190,12 +190,13 @@ void QCliWidget::makeSnapshot()
 void QCliWidget::resultInTextEdit(QString text)
 {
     QTextEdit *text_edit = new QTextEdit();
+//     qDebug() << unicodeFonts->getAvailableFonts("");
+    QFont font = unicodeFonts->getFontAndSize(text);
+    text_edit->setFont(font);
+    
     text_edit->setText(text);
     text_edit->setReadOnly(true);
     text_edit->setAcceptRichText(true);
-    
-    QFont font = unicodeFonts->getFontAndSize(text);
-    text_edit->setFont(font);
     
     addDisplayWidget(text_edit);
 }

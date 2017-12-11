@@ -55,4 +55,5 @@ SOURCES += tambi.cpp\
     qitemizedwidget.cpp\
     menu_bar.cpp\
     unicode_fonts.cpp
-#RESOURCES += tambi.qrc
+
+RESOURCES += tambi.qrc

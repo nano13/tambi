@@ -8,22 +8,21 @@
 
 UnicodeFonts::UnicodeFonts(QObject *parent)
 {
-//     QFontDatabase *base = new QFontDatabase();
-    
+    /*
     QStringList fonts = {"../assets/fonts/SILEOT.ttf",
         "../assets/fonts/Scheherazade-Regular.ttf",
         "../assets/fonts/EzraSIL2.51/SILEOT.ttf",
         "../assets/fonts/GalSIL21/GalSILR.ttf",
-        "../assets/fonts/DoulosSIL-R.ttf"};
+        "../assets/fonts/DoulosSIL-R.ttf",
+        "../assets/fonts/Respective.ttf",
+    };
     for (int i=0; i<fonts.length(); i++)
     {
         QString font = fonts[i];
         qDebug() << font;
-//         base->addApplicationFont(font);
         qDebug() << QFontDatabase::addApplicationFont(font);
     }
-    
-//     qDebug() << QFontDatabase::families(base);
+    */
 }
 
 bool UnicodeFonts::isInUnicodeRange(int start, int end, QString string)
@@ -31,7 +30,6 @@ bool UnicodeFonts::isInUnicodeRange(int start, int end, QString string)
     QString::iterator iter;
     for (iter = string.begin(); iter < string.end(); iter++)
     {
-//         qDebug() << iter->unicode();
         if (iter->unicode() > start and iter->unicode() < end)
         {
             return true;
@@ -43,40 +41,66 @@ bool UnicodeFonts::isInUnicodeRange(int start, int end, QString string)
 
 QFont UnicodeFonts::getFontAndSize(QString string)
 {
-    QFont font;
+    QString font_name;
+    int font_size;
     
     if (isInUnicodeRange(arabic_block[0], arabic_block[1], string))
     {
-//         qDebug() << "arabic";
-        font = QFont(arabic_font);
-        font.setPointSize(arabic_size);
+        qDebug() << "arabic";
+        font_name = arabic_font;
+        font_size = arabic_size;
     }
     else if (isInUnicodeRange(hebrew_block[0], hebrew_block[1], string))
     {
-//         qDebug() << "hebrew";
-        font = QFont(hebrew_font);
-        font.setPointSize(hebrew_size);
+        qDebug() << "hebrew";
+        font_name = hebrew_font;
+        font_size = hebrew_size;
     }
+    /*
     else if (isInUnicodeRange(greek_block[0], greek_block[1], string))
     {
-//         qDebug() << "greek";
-        font = QFont(greek_font);
-        font.setPointSize(greek_size);
+        qDebug() << "greek";
+        font_name = greek_font;
+        font_name = greek_size;
     }
+    */
+    /*
     else if (isInUnicodeRange(ipa_block[0], ipa_block[1], string))
     {
-//         qDebug() << "ipa";
-        font = QFont(ipa_font);
-        font.setPointSize(ipa_size);
+        qDebug() << "ipa";
+        font_name = ipa_font;
+        font_size = ipa_size;
     }
+    */
     else
     {
-//         qDebug() << "else";
-        font = QFont(default_font);
-        font.setPointSize(default_size);
+        qDebug() << "else";
+        font_name = default_font;
+        font_size = default_size;
     }
-//     font = QFont(arabic_font);
-//     font.setPointSize(hebrew_size);
+    qDebug() << "FONT NAME:";
+    qDebug() << font_name;
+    
+    QString fontFamily = loadFontFamilyFromTTF(font_name);
+    QFont *custom_font = new QFont(fontFamily, font_size, QFont::Normal, false);
+    
+    return *custom_font;
+}
+
+QString UnicodeFonts::loadFontFamilyFromTTF(QString font_name)
+{
+    QString font;
+    bool loaded = false;
+    if(!loaded)
+    {
+        loaded = true;
+        int loadedFontID = QFontDatabase::addApplicationFont(font_name);
+        QStringList loadedFontFamilies = QFontDatabase::applicationFontFamilies(loadedFontID);
+        if(!loadedFontFamilies.empty())
+        {
+            font = loadedFontFamilies.at(0);
+        }
+    }
     return font;
 }
 
@@ -95,7 +119,9 @@ void UnicodeFonts::applyFontToQWidget(QString string, QWidget *widget)
     
 }
 
-QString UnicodeFonts::printFonts(QString filter)
+QStringList UnicodeFonts::getAvailableFonts(QString filter = "")
 {
-    return "";
+    QFontDatabase *base = new QFontDatabase();
+    QStringList fonts = base->families();//QFontDatabase::Arabic);
+    return fonts;
 }

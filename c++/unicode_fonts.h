@@ -17,7 +17,9 @@ public:
     void setFontSize(QWidget *widget, int, QString);
     void applyFontToQWidget(QString, QWidget *widget);
     
-    QString printFonts(QString);
+    QStringList getAvailableFonts(QString);
+    
+    QString loadFontFamilyFromTTF(QString);
     
 private:
     int arabic_block[2] = {1536, 1791};
@@ -25,12 +27,12 @@ private:
     int greek_block[2] = {880, 1023};
     int ipa_block[2] = {250, 687};
     
-    QString arabic_font = "Scheherazade";
-    QString hebrew_font = "Ezra SIL";
-    QString greek_font = "Galatia SIL";
-    QString ipa_font = "Doulos SIL";
+    QString arabic_font = ":ttf_sheharazade";
+    QString hebrew_font = ":ttf_ezra_sil";
+    QString greek_font = ":ttf_galatia_sil";
+    QString ipa_font = ":ttf_doulos_sil";
     
-    QString default_font = "DejaVu Sans";
+    QString default_font = ":ttf_dejavu_sans";
     
     int arabic_size = 40;
     int hebrew_size = 20;

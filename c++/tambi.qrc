@@ -1,6 +1,10 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource>
-    <file>Test.py</file>
-    <file>../lib_tambi_interpreter.py</file>
+    <!--<file alias="ttf_ezra">../assets/fonts/SILEOT.ttf</file>-->
+    <file alias="ttf_sheharazade">../assets/fonts/Scheherazade-Regular.ttf</file>
+    <file alias="ttf_ezra_sil">../assets/fonts/EzraSIL2.51/SILEOT.ttf</file>
+    <file alias="ttf_galatia_sil">../assets/fonts/GalSIL21/GalSILR.ttf</file>
+    <file alias="ttf_doulos_sil">../assets/fonts/DoulosSIL-R.ttf</file>
+    <file alias="ttf_dejavu_sans">../assets/fonts/DejaVuSans.ttf</file>
 </qresource>
 </RCC>

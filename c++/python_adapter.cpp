@@ -22,7 +22,7 @@ int PythonAdapter::getHistorySize()
     PythonQtObjectPtr context = PythonQt::self()->getMainModule();
     context.evalFile("./python_adapter.py");
     QVariant result = context.call("getHistorySize");
-    qDebug() << result;
+//     qDebug() << result;
     int history_size = result.toInt();
     
     return history_size;
@@ -69,7 +69,7 @@ QJsonDocument PythonAdapter::interpreter(QString command)
     args << command;
     qDebug() << "ARGS: " << args;
     QVariant result = context.call("interpreter", args);
-    qDebug() << "RESULT: " << result;
+//     qDebug() << "RESULT: " << result;
     
     QString result_str = result.toString();
     QJsonDocument jdoc = QJsonDocument::fromJson(result_str.toUtf8());
