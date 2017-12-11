@@ -148,7 +148,9 @@ void QCliWidget::commandEntered(QString command)
 
 void QCliWidget::addDisplayWidget(QWidget *display_widget)
 {
+    
     old_display_widget->deleteLater();
+    scene->clear();
     
     scene->addWidget(display_widget);
     view->setScene(scene);
@@ -217,8 +219,8 @@ void QCliWidget::resultInTable(QVector<QStringList> matrix)
             QString item = matrix[i][j];
             QTableWidgetItem *table_item = new QTableWidgetItem(item);
             
-            QFont font = unicodeFonts->getFontAndSize(item);
-            table_item->setFont(font);
+//             QFont font = unicodeFonts->getFontAndSize(item);
+//             table_item->setFont(font);
             
             table->setItem(i, j, table_item);
         }

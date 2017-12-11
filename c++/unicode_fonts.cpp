@@ -46,13 +46,13 @@ QFont UnicodeFonts::getFontAndSize(QString string)
     
     if (isInUnicodeRange(arabic_block[0], arabic_block[1], string))
     {
-        qDebug() << "arabic";
+//         qDebug() << "arabic";
         font_name = arabic_font;
         font_size = arabic_size;
     }
     else if (isInUnicodeRange(hebrew_block[0], hebrew_block[1], string))
     {
-        qDebug() << "hebrew";
+//         qDebug() << "hebrew";
         font_name = hebrew_font;
         font_size = hebrew_size;
     }
@@ -74,12 +74,12 @@ QFont UnicodeFonts::getFontAndSize(QString string)
     */
     else
     {
-        qDebug() << "else";
+//         qDebug() << "else";
         font_name = default_font;
         font_size = default_size;
     }
-    qDebug() << "FONT NAME:";
-    qDebug() << font_name;
+//     qDebug() << "FONT NAME:";
+//     qDebug() << font_name;
     
     QString fontFamily = loadFontFamilyFromTTF(font_name);
     QFont *custom_font = new QFont(fontFamily, font_size, QFont::Normal, false);
