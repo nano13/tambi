@@ -7,6 +7,8 @@
 #include <QGraphicsView>
 #include <QGraphicsScene>
 
+#include <QThread>
+
 #include <QInputLine.h>
 #include <python_adapter.h>
 #include <unicode_fonts.h>
@@ -28,7 +30,6 @@ private:
     int this_y;
     float SCALE_FACTOR = 1.15;
     
-    PythonAdapter *py_adapt;
     UnicodeFonts *unicodeFonts;
     
     int getMatrixMaxWidth(QVector<QStringList>);
@@ -44,6 +45,7 @@ private:
     
 private slots:
     void commandEntered(QString);
+    void processResult(QJsonDocument);
     
     void resultInTextEdit(QString);
     void resultInTable(QVector<QStringList>);
@@ -60,4 +62,21 @@ private slots:
     
 signals:
     void setTabText(QString);
+};
+
+
+class HandleCommandThread : public QThread
+{
+    Q_OBJECT
+
+public:
+    HandleCommandThread(QThread *parent = 0);
+    void setCommand(QString);
+    
+protected:
+    void run();
+    
+private:
+    PythonAdapter *py_adapt;
+    QString command;
 };

@@ -36,7 +36,7 @@ QCliWidget::QCliWidget(QWidget *parent)
     grid->setContentsMargins(0, 0, 0, 6);
     setLayout(grid);
     
-    PythonAdapter *py_adapt = new PythonAdapter();
+//     PythonAdapter *py_adapt = new PythonAdapter();
     
     QTextEdit *text_edit = new QTextEdit();
     text_edit->setText("type in the command 'man' down there in the command line for getting started ...");
@@ -70,8 +70,17 @@ void QCliWidget::commandEntered(QString command)
     qDebug() << command;
     resize(this_x, this_y);
     
+    HandleCommandThread *interpreter_thread = new HandleCommandThread();
+    interpreter_thread->setCommand(command);
+    interpreter_thread->start();
     
-    QJsonDocument jdoc = py_adapt->interpreter(command);
+//     QJsonDocument jdoc = py_adapt->interpreter(command);
+//     processResult(jdoc);
+}
+
+void QCliWidget::processResult(QJsonDocument jdoc)
+{
+    
     
     QJsonObject obj;
     if (!jdoc.isNull())
@@ -300,3 +309,20 @@ void QCliWidget::onZoomResetClicked()
     resizeDisplayWidget();
 }
 
+
+HandleCommandThread::HandleCommandThread(QThread *parent)
+{
+    PythonAdapter *py_adapt = new PythonAdapter();
+}
+
+void HandleCommandThread::setCommand(QString command)
+{
+    command = command;
+}
+
+void HandleCommandThread::run()
+{
+    QJsonDocument jdoc = py_adapt->interpreter(command);
+    qDebug() << jdoc;
+    //     processResult(jdoc);
+}
