@@ -72,10 +72,10 @@ void QCliWidget::commandEntered(QString command)
     
     HandleCommandThread *interpreter_thread = new HandleCommandThread();
     interpreter_thread->setCommand(command);
-    interpreter_thread->start();
     
-//     QJsonDocument jdoc = py_adapt->interpreter(command);
-//     processResult(jdoc);
+    connect(interpreter_thread, &HandleCommandThread::processResult, this, &QCliWidget::processResult);
+    
+    interpreter_thread->start();
 }
 
 void QCliWidget::processResult(QJsonDocument jdoc)
@@ -317,12 +317,12 @@ HandleCommandThread::HandleCommandThread(QThread *parent)
 
 void HandleCommandThread::setCommand(QString command)
 {
-    command = command;
+    this->command = command;
 }
 
 void HandleCommandThread::run()
 {
     QJsonDocument jdoc = py_adapt->interpreter(command);
     qDebug() << jdoc;
-    //     processResult(jdoc);
+    emit processResult(jdoc);
 }

@@ -79,4 +79,7 @@ protected:
 private:
     PythonAdapter *py_adapt;
     QString command;
+    
+signals:
+    void processResult(QJsonDocument);
 };
