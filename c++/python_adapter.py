@@ -5,8 +5,9 @@ os.chdir("..")
 sys.path.append(".")
 
 from configs.history import History
-
 history = History()
+
+from interpreter.exceptions import ClearCalled, SnapshotCalled
 
 def historyWrite(text):
     history.historyWrite(text)
@@ -30,8 +31,15 @@ def interpreter(command):#, queue):
     q = queue.Queue()
     
     c = Interpreter()
-    result = c.interpreter(command, q)
+    try:
+        result = c.interpreter(command, q)
+    except ClearCalled:
+        result = {"exception": "clear"};
+        return json.dumps(result);
+    except SnapshotCalled:
+        result = {"exception": "snapshot"};
+        return json.dumps(result);
     
-    json_string = json.dumps(result.__dict__)
-    
-    return json_string
+    else:
+        json_string = json.dumps(result.__dict__)
+        return json_string
