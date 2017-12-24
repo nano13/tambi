@@ -21,6 +21,7 @@
 #include <QGraphicsScene>
 
 #include <QStandardPaths>
+#include <QDir>
 
 #include <QFileDialog>
 
@@ -110,7 +111,7 @@ void QCliWidget::processResult(QJsonDocument jdoc)
     }
     else if (exception == "snapshot")
     {
-        qDebug() << "snapshot";
+        makeSnapshot();
     }
     
     QString obj_cat = obj["category"].toString().toUtf8();
@@ -213,13 +214,15 @@ void QCliWidget::makeSnapshot()
     painter->end();
     
     qDebug() << QStandardPaths::HomeLocation;
-    /*
-    QString default_dir = QStandardPaths::HomeLocation;
+    
+    //QDir default_dir = QStandardPaths::HomeLocation;
+    QString default_dir = QDir::homePath();
+    
     QFileDialog *dialog = new QFileDialog;
     QString filename = dialog->getSaveFileName(this, "Save Snapshot", default_dir);
     
-    image->save(filename[0]);
-    */
+    image->save(filename);
+    
 }
 
 void QCliWidget::resultInTextEdit(QString text)
