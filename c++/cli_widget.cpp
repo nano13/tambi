@@ -36,8 +36,6 @@ QCliWidget::QCliWidget(QWidget *parent)
     grid->setContentsMargins(0, 0, 0, 6);
     setLayout(grid);
     
-//     PythonAdapter *py_adapt = new PythonAdapter();
-    
     QTextEdit *text_edit = new QTextEdit();
     text_edit->setText("type in the command 'man' down there in the command line for getting started ...");
     text_edit->setReadOnly(true);
@@ -80,9 +78,8 @@ void QCliWidget::commandEntered(QString command)
 
 void QCliWidget::processResult(QJsonDocument jdoc)
 {
-    
-    
     QJsonObject obj;
+    
     if (!jdoc.isNull())
     {
         if (jdoc.isObject())
@@ -102,19 +99,26 @@ void QCliWidget::processResult(QJsonDocument jdoc)
 //     qDebug() << obj;
 //     qDebug() << obj["payload"];
     
-    QString obj_cat = obj["category"].toString().toUtf8();
+    QString exception = obj["exception"].toString().toUtf8();
+    if (exception == "clear")
+    {
+        clearDisplayWidget();
+    }
+    else if (exception == "snapshot")
+    {
+        qDebug() << "snapshot";
+    }
     
+    QString obj_cat = obj["category"].toString().toUtf8();
     if (obj_cat == "table")
     {
         QVector<QStringList> matrix = FormatOutput::formatTable(obj);
         resultInTable(matrix);
     }
-    
     else if (obj_cat == "multimedia_table")
     {
         
     }
-    
     else if (obj_cat == "list")
     {
         QString payload = FormatOutput::formatText(obj);
@@ -126,29 +130,24 @@ void QCliWidget::processResult(QJsonDocument jdoc)
         QString payload = FormatOutput::formatText(obj);
         resultInTextEdit(payload);
     }
-    
     else if (obj_cat == "string" || obj_cat == "html")
     {
         QString payload = FormatOutput::formatString(obj);
         resultInTextEdit(payload);
     }
-    
     else if (obj_cat == "itemized")
     {
         QVector<QStringList> matrix = FormatOutput::formatTable(obj);
         resultInItemizedWidget(matrix);
     }
-    
     else if (obj_cat == "image")
     {
         
     }
-    
     else if (obj_cat == "diagram")
     {
         
     }
-    
     else if (obj_cat == "command")
     {
         
