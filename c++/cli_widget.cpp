@@ -189,7 +189,8 @@ void QCliWidget::resizeEvent(QResizeEvent *event)
 
 void QCliWidget::clearDisplayWidget()
 {
-    
+    QWidget *empty_widget = new QWidget();
+    addDisplayWidget(empty_widget);
 }
 
 void QCliWidget::makeSnapshot()
