@@ -24,6 +24,7 @@ private:
     QGridLayout *grid;
     QInputLine *input_line;
     QWidget *old_display_widget;
+    QWidget *display_widget;
     QGraphicsView *view;
     QGraphicsScene *scene;
     int this_x;

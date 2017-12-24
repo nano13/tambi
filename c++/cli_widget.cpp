@@ -20,6 +20,10 @@
 #include <QGraphicsView>
 #include <QGraphicsScene>
 
+#include <QStandardPaths>
+
+#include <QFileDialog>
+
 #include <QDebug>
 
 #include <PythonQt.h>
@@ -167,6 +171,8 @@ void QCliWidget::addDisplayWidget(QWidget *display_widget)
     old_display_widget = display_widget;
     grid->addWidget(view, 0, 0, 1, 0);
     resizeDisplayWidget();
+    
+    this->display_widget = display_widget;
 }
 
 void QCliWidget::resizeDisplayWidget()
@@ -195,7 +201,25 @@ void QCliWidget::clearDisplayWidget()
 
 void QCliWidget::makeSnapshot()
 {
+    qDebug() << "jjjjjjjjjjjjjjjjjjj";
+    QImage *image = new QImage(this->display_widget->size(), QImage::Format_ARGB32);
+    QPainter *painter = new QPainter(image);
     
+    if (painter->isActive())
+    {
+        render(painter);
+    }
+    
+    painter->end();
+    
+    qDebug() << QStandardPaths::HomeLocation;
+    /*
+    QString default_dir = QStandardPaths::HomeLocation;
+    QFileDialog *dialog = new QFileDialog;
+    QString filename = dialog->getSaveFileName(this, "Save Snapshot", default_dir);
+    
+    image->save(filename[0]);
+    */
 }
 
 void QCliWidget::resultInTextEdit(QString text)
