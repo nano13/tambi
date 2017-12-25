@@ -64,8 +64,9 @@ class QDeckDirtyDozenWidget(QWidget):
         deck_select_button = QPushButton("<<<")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
-        show_all_button = QPushButton("show all")
-        show_all_button.clicked.connect(self.showAllButtonClicked)
+        self.show_all_button = QPushButton("show all")
+        self.show_all_button.clicked.connect(self.showAllButtonClicked)
+        self.show_all_button_state = "show_all"
         
         replay_audio_button = QPushButton("replay audio")
         replay_audio_button.setIcon(QIcon.fromTheme('media-playback-start'))
@@ -78,7 +79,7 @@ class QDeckDirtyDozenWidget(QWidget):
         select_display_combo.setCurrentIndex(DISPLAY_COMBO_ITEMS.index(self.test_mode))
         select_display_combo.currentIndexChanged.connect(self.selectDisplayCurrentIndexChanged)
         
-        instruction_label = QLabel("[please click at the image which you think is assigned to the spoken word!]")
+        instruction_label = QLabel("[please click the image which you think is assigned to the spoken word!]")
         
         if not self.layout():
             self.grid = QGridLayout()
@@ -115,7 +116,7 @@ class QDeckDirtyDozenWidget(QWidget):
             
             self.grid.addWidget(label, int(i / COLUMNS), i % COLUMNS)
         
-        self.grid.addWidget(show_all_button, len(self.dataset)+1, 0)
+        self.grid.addWidget(self.show_all_button, len(self.dataset)+1, 0)
         self.grid.addWidget(instruction_label, len(self.dataset)+1, 1, 1, 3)
         
         self.setLayout(self.grid)
@@ -132,8 +133,18 @@ class QDeckDirtyDozenWidget(QWidget):
         self.selectDeck.emit()
     
     def showAllButtonClicked(self):
-        self.counter = len(self.full_dataset)
-        self.update()
+        if self.show_all_button_state == "show_all":
+            self.counter = len(self.full_dataset)
+            self.update()
+            
+            self.show_all_button.setText("start over")
+            self.show_all_button_state = "start_over"
+        else:
+            self.counter = 1
+            self.delay_counter = 0
+            self.delay = 2
+            
+            self.update()
     
     def labelClicked(self, row_id):
         try:
