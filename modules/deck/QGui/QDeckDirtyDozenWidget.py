@@ -64,6 +64,9 @@ class QDeckDirtyDozenWidget(QWidget):
         deck_select_button = QPushButton("<<<")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
         
+        show_all_button = QPushButton("show all")
+        show_all_button.clicked.connect(self.showAllButtonClicked)
+        
         replay_audio_button = QPushButton("replay audio")
         replay_audio_button.setIcon(QIcon.fromTheme('media-playback-start'))
         replay_audio_button.clicked.connect(self.replayAudioClicked)
@@ -109,6 +112,7 @@ class QDeckDirtyDozenWidget(QWidget):
             label.clicked.connect(functools.partial(self.labelClicked, value["rowid"]))
             
             self.grid.addWidget(label, int(i / COLUMNS), i % COLUMNS)
+        self.grid.addWidget(show_all_button, len(self.dataset)+1, 0)
         
         self.setLayout(self.grid)
         
@@ -122,6 +126,10 @@ class QDeckDirtyDozenWidget(QWidget):
     
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
+    
+    def showAllButtonClicked(self):
+        self.counter = len(self.full_dataset)
+        self.update()
     
     def labelClicked(self, row_id):
         try:
