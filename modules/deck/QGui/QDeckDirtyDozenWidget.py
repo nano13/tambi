@@ -78,6 +78,8 @@ class QDeckDirtyDozenWidget(QWidget):
         select_display_combo.setCurrentIndex(DISPLAY_COMBO_ITEMS.index(self.test_mode))
         select_display_combo.currentIndexChanged.connect(self.selectDisplayCurrentIndexChanged)
         
+        instruction_label = QLabel("[please click at the image which you think is assigned to the spoken word!")
+        
         if not self.layout():
             self.grid = QGridLayout()
             self.grid.setContentsMargins(0, 0, 0, 0)
@@ -112,7 +114,9 @@ class QDeckDirtyDozenWidget(QWidget):
             label.clicked.connect(functools.partial(self.labelClicked, value["rowid"]))
             
             self.grid.addWidget(label, int(i / COLUMNS), i % COLUMNS)
+        
         self.grid.addWidget(show_all_button, len(self.dataset)+1, 0)
+        self.grid.addWidget(instruction_label, len(self.dataset)+1, 1, 1, 3)
         
         self.setLayout(self.grid)
         
