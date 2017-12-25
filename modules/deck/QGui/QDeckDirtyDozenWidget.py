@@ -78,7 +78,7 @@ class QDeckDirtyDozenWidget(QWidget):
         select_display_combo.setCurrentIndex(DISPLAY_COMBO_ITEMS.index(self.test_mode))
         select_display_combo.currentIndexChanged.connect(self.selectDisplayCurrentIndexChanged)
         
-        instruction_label = QLabel("[please click at the image which you think is assigned to the spoken word!")
+        instruction_label = QLabel("[please click at the image which you think is assigned to the spoken word!]")
         
         if not self.layout():
             self.grid = QGridLayout()
