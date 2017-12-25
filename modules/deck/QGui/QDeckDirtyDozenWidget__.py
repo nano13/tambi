@@ -41,25 +41,14 @@ class QDeckDirtyDozenWidget(QWidget):
     def initialize(self, deckpath):
         self.deckpath = deckpath
         
-        #self.clear()
+        self.clear()
         
         self.audioPlayer = QMediaPlayer()
         
         db_path = path.join(deckpath, "database.sqlite")
         self.dbAdapter = DeckDbAdapter()
         self.dbAdapter.initialize(db_path)
-        self.full_dataset = self.dbAdapter.selectDeckDirtyDozenItems()
-        
-        self.counter = 1
-        self.delay_counter = 0
-        self.delay = 2
-        
-        self.update();
-    
-    def update(self):
-        self.clear()
-        
-        self.dataset = self.full_dataset[0:self.counter]
+        self.dataset = self.dbAdapter.selectDeckDirtyDozenItems()
         
         deck_select_button = QPushButton("<<<")
         deck_select_button.clicked.connect(self.selectDeckButtonClicked)
@@ -89,10 +78,10 @@ class QDeckDirtyDozenWidget(QWidget):
             if self.test_mode == 'image':
                 preview_pixmap = QPixmap()
                 try:
-                    preview_pixmap.load(path.join(self.deckpath, value["image"]))
+                    preview_pixmap.load(path.join(deckpath, value["image"]))
                 except (KeyError, TypeError):
                     try:
-                        preview_pixmap.load(path.join(self.deckpath, value["svg_filename"]))
+                        preview_pixmap.load(path.join(deckpath, value["svg_filename"]))
                     except (KeyError, TypeError):
                         pass
                 scaled_pixmap = preview_pixmap.scaled(QtCore.QSize(200, 200), QtCore.Qt.KeepAspectRatio)
@@ -119,6 +108,11 @@ class QDeckDirtyDozenWidget(QWidget):
             for i in range(0, self.layout().count()):
                 widget = self.layout().itemAt(i).widget()
                 widget.setVisible(False)
+        #for widget in self.findChildren:
+            #print(widget)
+        #if self.grid:
+            ## just reparent the layout to a temporary one for delete it
+            #QWidget().setLayout(self.grid)
     
     def selectDeckButtonClicked(self):
         self.selectDeck.emit()
@@ -126,65 +120,36 @@ class QDeckDirtyDozenWidget(QWidget):
     def labelClicked(self, row_id):
         try:
             if row_id == self.current_audio_deck_id:
-                self.delay_counter += 1
-                
-                if len(self.full_dataset) > self.counter:
-                    if self.delay_counter >= self.delay:
-                        if self.delay_counter == 1:
-                            self.delay = 5
-                        else:
-                            self.delay = 10
-                        
-                        self.delay_counter = 0
-                        
-                        self.counter += 1
-                        self.update();
-                        
-                        self.playNextAudio()
-                    
-                    else:
-                        self.playRandomAudio()
-                else:
-                    self.playRandomAudio()
-        
+                self.playRandomAudio()
         except AttributeError:
             """ we probably have no audio file in this module """
             pass
-    
-    def playNextAudio(self):
-        self.playAudio(len(self.dataset)-1)
-    
+        
     def playRandomAudio(self):
         try:
             selector = randint(0, len(self.dataset)-1)
             
-            if self.counter > 2:
-                """ we do not want the same audio played multiple times on a row """
-                depth = 0
-                while selector == self.last_random_audio:
-                    selector = randint(0, len(self.dataset)-1)
-                    """ to avoid infinite loops with just one element """
-                    depth += 1
-                    if depth > 20:
-                        break
-            
+            """ we do not want the same audio played multiple times on a row """
+            depth = 0
+            while selector == self.last_random_audio:
+                selector = randint(0, len(self.dataset)-1)
+                """ to avoid infinite loops with just one element """
+                depth += 1
+                if depth > 20:
+                    break
             self.last_random_audio = selector
             
-            self.playAudio(selector)
-        
+            filename = self.dataset[selector]["filename"]
+            self.current_audio_deck_id = self.dataset[selector]["rowid"]
+            
+            filepath = path.join(self.deckpath, filename)
+            url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+            content = QMediaContent(url)
+            self.audioPlayer.setMedia(content)
+            self.audioPlayer.play()
         except ValueError:
             """ probably an empty deck. just do nothing"""
             pass
-    
-    def playAudio(self, selector):
-        filename = self.dataset[selector]["filename"]
-        self.current_audio_deck_id = self.dataset[selector]["rowid"]
-        
-        filepath = path.join(self.deckpath, filename)
-        url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
-        content = QMediaContent(url)
-        self.audioPlayer.setMedia(content)
-        self.audioPlayer.play()
     
     def replayAudioClicked(self):
         self.audioPlayer.play()
