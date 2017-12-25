@@ -202,7 +202,6 @@ void QCliWidget::clearDisplayWidget()
 
 void QCliWidget::makeSnapshot()
 {
-    qDebug() << "jjjjjjjjjjjjjjjjjjj";
     QImage *image = new QImage(this->display_widget->size(), QImage::Format_ARGB32);
     QPainter *painter = new QPainter(image);
     
@@ -210,19 +209,14 @@ void QCliWidget::makeSnapshot()
     {
         render(painter);
     }
-    
     painter->end();
     
-    qDebug() << QStandardPaths::HomeLocation;
-    
-    //QDir default_dir = QStandardPaths::HomeLocation;
     QString default_dir = QDir::homePath();
     
     QFileDialog *dialog = new QFileDialog;
     QString filename = dialog->getSaveFileName(this, "Save Snapshot", default_dir);
     
     image->save(filename);
-    
 }
 
 void QCliWidget::resultInTextEdit(QString text)
