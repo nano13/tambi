@@ -30,7 +30,10 @@ class QDeckLearnWidget(QWidget):
     def initialize(self, deckpath):
         self.deckpath = deckpath
         
-        self.clear()
+        try:
+            self.clear()
+        except SystemError:
+            pass
         
         db_path = path.join(deckpath, "database.sqlite")
         self.dbAdapter = DeckDbAdapter()
