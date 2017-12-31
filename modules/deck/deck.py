@@ -94,7 +94,13 @@ class Deck(object):
         
         counter = 0
         for directory in dirs:
-            if directory.startswith(deck_prefix):
+            try:
+                if directory.startswith(deck_prefix):
+                    db_path = os.path.join(root, directory, "database.sqlite")
+                    self.dbAdapter.initialize(db_path)
+                    result = self.dbAdapter.count()
+                    counter += int(result)
+            except TypeError:
                 db_path = os.path.join(root, directory, "database.sqlite")
                 self.dbAdapter.initialize(db_path)
                 result = self.dbAdapter.count()
