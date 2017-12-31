@@ -76,7 +76,7 @@ class QDeckItemWidget(QWidget):
         if 'image' in result and result['image']:
             pixmap = QPixmap()
             pixmap.load(path.join(self.deckpath, result['image']))
-            pixmap = pixmap.scaled(QSize(660, 440), Qt.KeepAspectRatio)
+            pixmap = pixmap.scaled(QSize(600, 300), Qt.KeepAspectRatio)
             self.imageView.setPixmap(pixmap)
             self.imageView.show()
         
