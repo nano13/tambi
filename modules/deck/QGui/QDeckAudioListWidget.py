@@ -2,7 +2,7 @@
 from PyQt5.QtWidgets import QPushButton, QMessageBox, QTableWidget, QTableWidgetItem, QFileDialog
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent, QAudioRecorder, QAudioEncoderSettings
 from PyQt5.QtGui import QIcon
-from PyQt5 import QtCore
+from PyQt5.QtCore import QUrl, QFileInfo, QProcess
 
 #from QCustomizedWidgets.QVoiceRecorder import QVoiceRecorder
 from configs.configFiles import ConfigFile
@@ -16,7 +16,8 @@ PLAY_BUTTON_COLUMN = 1
 RECORD_BUTTON_COLUMN = 1
 DELETE_BUTTON_COLUMN = 2
 OPEN_FILE_BUTTON_COLUMN = 3
-FILE_NAME_COLUMN = 4
+EDIT_FILE_BUTTON = 4
+FILE_NAME_COLUMN = 5
 
 class QDeckAudioListWidget(QTableWidget):
     
@@ -80,8 +81,8 @@ class QDeckAudioListWidget(QTableWidget):
         
         self.audioRecorder.setEncodingSettings(settings)
         
-        self.setColumnCount(5)
-        self.setHorizontalHeaderLabels(["description", "", "", "", "filename"])
+        self.setColumnCount(6)
+        self.setHorizontalHeaderLabels(["description", "", "", "", "", "filename"])
         self.setRowCount(0)
         
         self.itemChanged.connect(self.onItemChanged)
@@ -96,7 +97,7 @@ class QDeckAudioListWidget(QTableWidget):
         self.updateAudioListWidget()
         
     def appendNewAudio(self):
-        self.audioItemsDict.append({"rowid": None, "description": None, "filename": None})
+        self.audioItemsDict.append({"rowid": None, "description": "", "filename": None})
         self.insertRow(self.rowCount())
         self.updateAudioListWidget()
         
@@ -112,6 +113,12 @@ class QDeckAudioListWidget(QTableWidget):
             button_open_file.setIcon(QIcon.fromTheme('document-open'))
             self.setCellWidget(row, OPEN_FILE_BUTTON_COLUMN, button_open_file)
             button_open_file.clicked.connect(partial(self.importAudioFileClicked, row))
+            
+            button_edit_file = QPushButton()
+            #button_edit_file.setIcon(QIcon.fromTheme('audio-x-generic'))
+            button_edit_file.setIcon(QIcon('./assets/icons/audacity.jpg'))
+            self.setCellWidget(row, EDIT_FILE_BUTTON, button_edit_file)
+            button_edit_file.clicked.connect(partial(self.editAudioFileClicked, row))
             
             self.setItem(row, FILE_NAME_COLUMN, QTableWidgetItem(str(self.audioItemsDict[row]["filename"])))
             
@@ -202,6 +209,13 @@ class QDeckAudioListWidget(QTableWidget):
             
             self.saveStateToDB(self.current_rowid)
     
+    def editAudioFileClicked(self, row):
+        filename = self.audioItemsDict[row]["filename"]
+        target_path = os.path.join(self.deckpath, filename)
+        
+        self.process = QProcess()
+        self.process.start("audacity "+target_path)
+    
     def recordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
         self.stopRecordButtonClicked(row)
@@ -218,7 +232,7 @@ class QDeckAudioListWidget(QTableWidget):
         filepath = os.path.join(self.deckpath, filename)
         print(filepath)
         
-        url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+        url = QUrl.fromLocalFile(QFileInfo(filepath).absoluteFilePath())
         self.audioRecorder.setOutputLocation(url)
         self.audioRecorder.record()
         
@@ -242,7 +256,7 @@ class QDeckAudioListWidget(QTableWidget):
         
         filename = self.audioItemsDict[row]["filename"]
         filepath = path.join(self.deckpath, filename)
-        url = QtCore.QUrl.fromLocalFile(QtCore.QFileInfo(filepath).absoluteFilePath())
+        url = QUrl.fromLocalFile(QFileInfo(filepath).absoluteFilePath())
         content = QMediaContent(url)
         self.audioPlayer.setMedia(content)
         self.audioPlayer.play()
