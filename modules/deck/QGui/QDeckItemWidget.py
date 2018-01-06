@@ -42,10 +42,10 @@ class QDeckItemWidget(QWidget):
     def setDbAdapter(self, dbAdapter):
         self.dbAdapter = dbAdapter
         
-    def initializeAsEmpty(self):
+    def initializeAsEmpty(self, deckname):
         self.current_rowid = None
         self.svg_filename = None
-        self.deckname = "[new deck]"
+        self.deckname = deckname
         
         self.clearDrawView()
         self.imageView.clear()

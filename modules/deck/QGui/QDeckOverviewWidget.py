@@ -19,7 +19,7 @@ class QDeckOverviewWidget(QWidget):
     deckpath = None
     
     selectDeck = pyqtSignal()
-    createNewItem = pyqtSignal(str, object)
+    createNewItem = pyqtSignal(str, object, str)
     editDeckItem = pyqtSignal(str, object, int, str)
     
     tableWidget = None
@@ -152,7 +152,7 @@ class QDeckOverviewWidget(QWidget):
         self.selectDeck.emit()
         
     def newItemButtonClicked(self):
-        self.createNewItem.emit(self.deckpath, self.dbAdapter)
+        self.createNewItem.emit(self.deckpath, self.dbAdapter, self.deckname)
         
     def editRowButtonClicked(self, rowid):
         self.editDeckItem.emit(self.deckpath, self.dbAdapter, int(rowid), self.deckname)

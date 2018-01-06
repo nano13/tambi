@@ -133,13 +133,13 @@ class QDeckStackedWidget(QWidget):
         
         self.set_tab_text.emit("decks manager")
     
-    def createNewDeckItem(self, deckpath, dbAdapter):
+    def createNewDeckItem(self, deckpath, dbAdapter, deckname):
         self.stack_new_deck.setDeckpath(deckpath)
         self.stack_new_deck.setDbAdapter(dbAdapter)
-        self.stack_new_deck.initializeAsEmpty()
+        self.stack_new_deck.initializeAsEmpty(deckname)
         self.Stack.setCurrentIndex(NEW_DECK_INDEX)
         
-        self.set_tab_text.emit("decks: new item")
+        self.set_tab_text.emit("view: " + deckname)
     
     def editDeckItem(self, deckpath, dbAdapter, rowid, deckname):
         self.stack_new_deck.setDeckpath(deckpath)
