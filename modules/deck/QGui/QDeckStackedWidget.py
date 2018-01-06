@@ -119,7 +119,7 @@ class QDeckStackedWidget(QWidget):
         
         self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
         
-        self.set_tab_text.emit("view: " + deck)
+        self.set_tab_text.emit("_view: " + deck)
     
     def createNewDeck(self):
         folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", self.defaultDeckPath)
@@ -139,7 +139,7 @@ class QDeckStackedWidget(QWidget):
         self.stack_new_deck.initializeAsEmpty(deckname)
         self.Stack.setCurrentIndex(NEW_DECK_INDEX)
         
-        self.set_tab_text.emit("view: " + deckname)
+        self.set_tab_text.emit("create new item: " + deckname)
     
     def editDeckItem(self, deckpath, dbAdapter, rowid, deckname):
         self.stack_new_deck.setDeckpath(deckpath)
