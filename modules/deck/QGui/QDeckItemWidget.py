@@ -15,7 +15,7 @@ import time, random, string, shutil
 
 class QDeckItemWidget(QWidget):
     
-    selectItem = pyqtSignal()
+    selectItem = pyqtSignal(str)
     deckpath = None
     dbAdapter = None
     current_rowid = None
@@ -45,6 +45,7 @@ class QDeckItemWidget(QWidget):
     def initializeAsEmpty(self):
         self.current_rowid = None
         self.svg_filename = None
+        self.deckname = "[new deck]"
         
         self.clearDrawView()
         self.imageView.clear()
@@ -55,8 +56,9 @@ class QDeckItemWidget(QWidget):
         
         self.audioListWidget.initAudioListWidget(self.dbAdapter, self.deckpath, self.current_rowid)
         
-    def initializeWithRowID(self, rowid):
+    def initializeWithRowID(self, rowid, deckname):
         self.current_rowid = rowid
+        self.deckname = deckname
         
         self.clearDrawView()
         pixmap = QPixmap()
@@ -143,7 +145,7 @@ class QDeckItemWidget(QWidget):
     
     def languageSelectButtonClicked(self):
         self.audioListWidget.stopAllAudio()
-        self.selectItem.emit()
+        self.selectItem.emit(self.deckname)
         
     def newAudioButtonClicked(self):
         if self.current_rowid == None:

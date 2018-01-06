@@ -20,7 +20,7 @@ class QDeckOverviewWidget(QWidget):
     
     selectDeck = pyqtSignal()
     createNewItem = pyqtSignal(str, object)
-    editDeckItem = pyqtSignal(str, object, int)
+    editDeckItem = pyqtSignal(str, object, int, str)
     
     tableWidget = None
     audioWidget = None
@@ -30,8 +30,9 @@ class QDeckOverviewWidget(QWidget):
         
         self.unicodeFonts = UnicodeFonts()
         
-    def initialize(self, deckpath):
+    def initialize(self, deckpath, deckname):
         self.deckpath = deckpath
+        self.deckname = deckname
         
         db_path = path.join(deckpath, "database.sqlite")
         self.dbAdapter = DeckDbAdapter()
@@ -154,7 +155,7 @@ class QDeckOverviewWidget(QWidget):
         self.createNewItem.emit(self.deckpath, self.dbAdapter)
         
     def editRowButtonClicked(self, rowid):
-        self.editDeckItem.emit(self.deckpath, self.dbAdapter, int(rowid))
+        self.editDeckItem.emit(self.deckpath, self.dbAdapter, int(rowid), self.deckname)
     
     def deleteRowButtonClicked(self, rowid):
         

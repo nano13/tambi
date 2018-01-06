@@ -1,5 +1,6 @@
 
 from PyQt5.QtWidgets import QWidget, QStackedWidget, QGridLayout, QFileDialog, QMessageBox
+from PyQt5.QtCore import pyqtSignal
 
 from modules.deck.QGui.QVocableLanguagePage import QVocableLanguagePage
 from modules.deck.QGui.QDeckOverviewWidget import QDeckOverviewWidget
@@ -18,6 +19,9 @@ DECK_LEARN_INDEX = 3
 DECK_DIRTY_DOZEN_INDEX = 4
 
 class QDeckStackedWidget(QWidget):
+    
+    set_tab_text = pyqtSignal(str)
+    
     def __init__(self):
         super().__init__()
         
@@ -80,10 +84,14 @@ class QDeckStackedWidget(QWidget):
     
     def displayWidget(self, i):
         self.Stack.setCurrentIndex(SELECT_DECK_INDEX)
+        
+        self.set_tab_text.emit("INDEX")
     
-    def deckSelect(self):
+    def deckSelect(self, deckname):
         self.stack_deck_overview.initWithDbData()
         self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
+        
+        self.set_tab_text.emit("view: " + deckname)
     
     def deckDirtyDozen(self, deck):
         self.stack_dirty_dozen.clear()
@@ -92,6 +100,8 @@ class QDeckStackedWidget(QWidget):
         self.stack_dirty_dozen.initialize(deckpath)
         
         self.Stack.setCurrentIndex(DECK_DIRTY_DOZEN_INDEX)
+        
+        self.set_tab_text.emit("dd: " + deck)
     
     def deckLearn(self, deck):
         self.stack_deck_learn.clear()
@@ -100,31 +110,41 @@ class QDeckStackedWidget(QWidget):
         self.stack_deck_learn.initialize(deckpath)
         
         self.Stack.setCurrentIndex(DECK_LEARN_INDEX)
+        
+        self.set_tab_text.emit("learn: " + deck)
     
     def deckView(self, deck):
         deckpath = os.path.join(self.defaultDeckPath, deck)
-        self.stack_deck_overview.initialize(deckpath)
+        self.stack_deck_overview.initialize(deckpath, deck)
         
         self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
+        
+        self.set_tab_text.emit("view: " + deck)
     
     def createNewDeck(self):
         folder = QFileDialog.getExistingDirectory(self, "SelectDirectory", self.defaultDeckPath)
         if folder:
             self.Stack.setCurrentIndex(DECK_OVERVIEW_INDEX)
-            self.stack_deck_overview.initialize(folder)
+            self.stack_deck_overview.initialize(folder, "new deck")
     
     def selectDeck(self):
         self.Stack.setCurrentIndex(SELECT_DECK_INDEX)
         self.stack_language_select.rescanLanguageList()
+        
+        self.set_tab_text.emit("decks manager")
     
     def createNewDeckItem(self, deckpath, dbAdapter):
         self.stack_new_deck.setDeckpath(deckpath)
         self.stack_new_deck.setDbAdapter(dbAdapter)
         self.stack_new_deck.initializeAsEmpty()
         self.Stack.setCurrentIndex(NEW_DECK_INDEX)
+        
+        self.set_tab_text.emit("decks: new item")
     
-    def editDeckItem(self, deckpath, dbAdapter, rowid):
+    def editDeckItem(self, deckpath, dbAdapter, rowid, deckname):
         self.stack_new_deck.setDeckpath(deckpath)
         self.stack_new_deck.setDbAdapter(dbAdapter)
-        self.stack_new_deck.initializeWithRowID(rowid)
+        self.stack_new_deck.initializeWithRowID(rowid, deckname)
         self.Stack.setCurrentIndex(NEW_DECK_INDEX)
+        
+        self.set_tab_text.emit("decks: edit item: " + deckname)

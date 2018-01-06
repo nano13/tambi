@@ -35,6 +35,8 @@ class QCoreTab(QWidget):
         return cli
     
     def dualCliTab(self):
+        dual_cli_label = {'left': '', 'right': ''}
+        
         cli_left = QCliWidget()
         cli_right = QCliWidget()
         

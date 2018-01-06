@@ -8,6 +8,7 @@ import functools
 
 class Menu(object):
     def __init__(self, context, menubar):
+        self.context = context
         
         deckMenu = menubar.addMenu('&Deck')
         
@@ -19,4 +20,8 @@ class Menu(object):
     
     def addDecksManagerTab(self, context):
         decks_widget = QDeckStackedWidget().deckWidget()
+        decks_widget.set_tab_text.connect(self.setTabText)
         context.addNewCustomTab(decks_widget, 'decks manager')
+    
+    def setTabText(self, text):
+        self.context.setTabText(self.context.tab_widget.currentIndex(), text)
