@@ -218,7 +218,7 @@ class QDeckItemWidget(QWidget):
             
             self.dbAdapter.insertImage(self.current_rowid, filename)
             
-            self.initializeWithRowID(self.current_rowid)
+            self.initializeWithRowID(self.current_rowid, self.deckname)
     
     def deleteImage(self):
         if self.current_rowid and 'image' in self.dataset and self.dataset['image']:
