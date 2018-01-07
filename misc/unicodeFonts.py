@@ -3,7 +3,11 @@ from PyQt5.QtGui import QFontDatabase, QFont
 import os
 import platform
 
+from configs.configFiles import ConfigFile
+
 class UnicodeFonts(object):
+    
+    config = ConfigFile(None, None)
     
     arabic_block = [1536, 1791]
     hebrew_block = [1424, 1535]
@@ -15,13 +19,12 @@ class UnicodeFonts(object):
     greek_font = "Galatia SIL"
     ipa_font = "Doulos SIL"
     
-    
-    arabic_size = 40
-    hebrew_size = 20
-    greek_size = 15
-    ipa_size = 15
-    
     def __init__(self):
+        self.arabic_size = int(self.config.readVar("fonts", "arabic_size"))
+        self.hebrew_size = int(self.config.readVar("fonts", "hebrew_size"))
+        self.greek_size = int(self.config.readVar("fonts", "greek_size"))
+        self.ipa_size = int(self.config.readVar("fonts", "ipa_size"))
+        
         scriptpath = os.path.dirname(os.path.abspath(__file__))
         #print(scriptpath)
         #print(os.getcwd())
