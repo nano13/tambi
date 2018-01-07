@@ -9,6 +9,8 @@ from QCustomizedWidgets.QClickLabel import QClickLabel
 
 from modules.deck.deckDbAdapter import DeckDbAdapter
 
+from misc.unicodeFonts import UnicodeFonts
+
 from os import path
 import functools
 from random import randint
@@ -38,6 +40,8 @@ class QDeckDirtyDozenWidget(QWidget):
     def __init__(self):
         super().__init__()
         
+        self.unicode_fonts = UnicodeFonts()
+    
     def initialize(self, deckpath):
         self.deckpath = deckpath
         
@@ -110,6 +114,8 @@ class QDeckDirtyDozenWidget(QWidget):
                 label.setText(value['word'])
             elif self.test_mode == 'translation':
                 label.setText(value['translation'])
+            
+            self.unicode_fonts.applyFontAndSizeToQWidget(label.text(), label)
             
             label.setAlignment(QtCore.Qt.AlignCenter)
             label.clicked.connect(functools.partial(self.labelClicked, value["rowid"]))
