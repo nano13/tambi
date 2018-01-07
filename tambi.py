@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import hanging_threads
+
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QTabWidget, QAction, qApp, QFileDialog
 from PyQt5.QtGui import QIcon
