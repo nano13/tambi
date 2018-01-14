@@ -25,19 +25,26 @@ class QVkbdLineEdit(QWidget):
         grid.addWidget(self.vkbdButton, 0, 1)
         
         self.setLayout(grid)
-        
+    
     def setText(self, text):
         self.lineEdit.setText(text)
-        
+    
     def appendText(self, text):
         prev_text = self.lineEdit.text()
         "backspace:"
+        """
         if text == "\u232b":
             self.lineEdit.setText(prev_text[:-1])
         else:
             prev_text += text
             self.lineEdit.setText(prev_text)
-        
+        """
+        prev_text += text
+        self.setText(prev_text)
+    
+    def keyPressEvent(self, e):
+        self.lineEdit.keyPressEvent(e)
+    
     def text(self):
         return self.lineEdit.text()
     
