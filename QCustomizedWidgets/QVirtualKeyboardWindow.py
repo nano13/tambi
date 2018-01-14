@@ -10,7 +10,7 @@ from configs.configFiles import ConfigFile
 
 class QVirtualKeyboardWindow(QMainWindow):
     
-    availableHostLayouts = ["qwertz"]
+    availableHostLayouts = ["qwertz", "neo"]
     availableVirtualLayouts = ["german", "greek", "hebrew", "arabic", "hindi", "futhark", "ipa"]
     
     def __init__(self):
@@ -19,7 +19,7 @@ class QVirtualKeyboardWindow(QMainWindow):
         self.resize(450, 185)
         
         self.virtualKeyboard = QVirtualKeyboardWidget()
-        self.virtualKeyboard.drawKeyboard("qwertz", "arabic")
+        self.virtualKeyboard.drawKeyboard("neo", "arabic")
         
         grid = QGridLayout()
         grid.setContentsMargins(0, 0, 0, 0)

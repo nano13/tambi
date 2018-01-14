@@ -2,7 +2,7 @@
 
 from PyQt5.QtWidgets import QMainWindow, QWidget, QPushButton, QComboBox, QLabel
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QKeyEvent
+from PyQt5.QtGui import QKeyEvent, QColor
 from PyQt5.QtCore import pyqtSignal, QEvent
 
 from misc.unicodeFonts import UnicodeFonts
@@ -59,6 +59,7 @@ class QVirtualKeyboardWidget(QWidget):
         
     def drawButtons(self, chars, keys):
         button_sizes = self.getButtonSizes()
+        button_colors = self.getButtonColors()
         
         for row in range(0, 5):
             
@@ -79,6 +80,10 @@ class QVirtualKeyboardWidget(QWidget):
                 self.unicode_fonts.applyFontToQWidgetFiltered(chars[row][i], button, ['hebrew'])
                 button.resize(button_sizes[row][i], 30)
                 button.move((i + row_offset)*30, row*30)
+                
+                r, g, b = button_colors[row][i]
+                button.setBackgroundColor(QColor(r, g, b))
+                
                 button.show()
                 
                 self.connectButton(button, chars[row][i], keys[row][i])
@@ -274,6 +279,8 @@ class QVirtualKeyboardWidget(QWidget):
     def getKeys(self, layout):
         if layout == "qwertz":
             return self.getQwertzKeys()
+        elif layout == "neo":
+            return self.getNeoKeys()
         else:
             return self.getQwertzKeys()
         
@@ -284,6 +291,31 @@ class QVirtualKeyboardWidget(QWidget):
                 [Qt.Key_Shift, Qt.Key_Less, Qt.Key_Y, Qt.Key_X, Qt.Key_C, Qt.Key_V, Qt.Key_B, Qt.Key_N, Qt.Key_M, Qt.Key_Comma, Qt.Key_Period, Qt.Key_Minus, -1],
                 [Qt.Key_Control, Qt.Key_Meta, Qt.Key_Alt, Qt.Key_Space,  Qt.Key_Left, Qt.Key_Down, Qt.Key_Up, Qt.Key_Right, Qt.Key_AltGr, -1, -1]]
     
+    def getNeoKeys(self):
+        return [[16781906, Qt.Key_1, Qt.Key_2, Qt.Key_3, Qt.Key_4, Qt.Key_5, Qt.Key_6, Qt.Key_7, Qt.Key_8, Qt.Key_9, Qt.Key_0, Qt.Key_Minus, 16781905, Qt.Key_Backspace],
+                [Qt.Key_Tab, Qt.Key_X, Qt.Key_V, Qt.Key_L, Qt.Key_C, Qt.Key_W, Qt.Key_K, Qt.Key_H, Qt.Key_G, Qt.Key_F, Qt.Key_Q, Qt.Key_ssharp, Qt.Key_Plus, Qt.Key_NumberSign],
+                [Qt.Key_CapsLock, Qt.Key_U, Qt.Key_I, Qt.Key_A, Qt.Key_E, Qt.Key_O, Qt.Key_S, Qt.Key_N, Qt.Key_R, Qt.Key_T, Qt.Key_D, Qt.Key_Y, Qt.Key_Return],
+                [Qt.Key_Shift, Qt.Key_Less, Qt.Key_Udiaeresis, Qt.Key_Odiaeresis, Qt.Key_Adiaeresis, Qt.Key_P, Qt.Key_Z, Qt.Key_B, Qt.Key_M, Qt.Key_Comma, Qt.Key_Period, Qt.Key_Minus, -1],
+                [Qt.Key_Control, Qt.Key_Meta, Qt.Key_Alt, Qt.Key_Space,  Qt.Key_Left, Qt.Key_Down, Qt.Key_Up, Qt.Key_Right, Qt.Key_AltGr, -1, -1]]
+    
+    def getButtonColors(self):
+        a = [255, 255, 255]
+        b = [200, 200, 200]
+        c = a
+        d = b
+        e = b
+        f = a
+        g = b
+        h = a
+        
+        x = [127, 127, 127]
+        z = [145, 145, 145]
+        return [[a, a, a, b, c, d, d, e, e, f, g, h, h, z],
+                [z, a, b, c, d, d, e, e, f, g, h, h, h, h],
+                [z, a, b, c, x, d, e, x, f, g, h, h, z],
+                [z, a, a, b, c, d, d, e, e, f, g, h, z],
+                [z, z, z, z, z, z, z, z, z, z, z]]
+    
     def destroyKeyboard(self):
         for button in self.findChildren(QVkeybdPushButton):
             button.clicked.disconnect()
@@ -291,11 +323,19 @@ class QVirtualKeyboardWidget(QWidget):
         
         self.keyPressedAny.disconnect()
         
-    
+
+from PyQt5.QtGui import QPalette
 class QVkeybdPushButton(QPushButton):
     def __init__(self, text, parent=None):
         super().__init__(text, parent)
-        
+    
+    def setBackgroundColor(self, color):
+        palette = QPalette()
+        palette.setColor(QPalette.Button, color)
+        #palette.setColor(QPalette.Foreground, color)
+        self.setPalette(palette)
+        #self.setAutoFillBackground(True)
+    
     def keyPressEvent(self, e):
         if e.key() == Qt.Key_Space:
             e.ignore()
