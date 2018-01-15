@@ -161,6 +161,10 @@ class QDeckDirtyDozenWidget(QWidget):
                     if self.delay_counter >= self.delay:
                         if self.delay_counter == 1:
                             self.delay = 5
+                        
+                        elif self.delay_counter == 2:
+                            self.delay = 5
+                        
                         else:
                             self.delay = 10
                         
@@ -187,7 +191,7 @@ class QDeckDirtyDozenWidget(QWidget):
         try:
             selector = randint(0, len(self.dataset)-1)
             
-            if self.counter > 2:
+            if self.counter > 1:
                 """ we do not want the same audio played multiple times on a row """
                 depth = 0
                 while selector == self.last_random_audio:
