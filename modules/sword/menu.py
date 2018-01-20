@@ -11,6 +11,7 @@ import functools
 
 class Menu(object):
     def __init__(self, context, menubar):
+        self.context = context
         sword = Sword()
         
         swordMenu = menubar.addMenu('&Sword')
@@ -73,6 +74,7 @@ class Menu(object):
     def addSwordGuiTab(self, context):
         sword_gui = QSwordGui()
         context.addNewCustomTab(sword_gui, 'sword gui')
+        sword_gui.set_tab_text.connect(self.setTabText)
     
     def addParallelViewTab(self, context):
         parallel_gui = QParallelBibleWidget()
@@ -81,3 +83,6 @@ class Menu(object):
     def addSwommTab(self, context):
         swomm = QSwordModuleManager()
         context.addNewCustomTab(swomm, 'sword module manager')
+    
+    def setTabText(self, text):
+        self.context.setTabText(self.context.tab_widget.currentIndex(), text)

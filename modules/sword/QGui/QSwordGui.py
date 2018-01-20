@@ -1,6 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QComboBox, QLabel, QPushButton
 from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import pyqtSignal
 
 from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 
@@ -22,6 +23,8 @@ class QSwordGui(QWidget):
     sword = Sword()
     
     config = ConfigFile(os.path.join('modules', 'sword'), 'sword.conf')
+    
+    set_tab_text = pyqtSignal(str)
     
     def __init__(self):
         super().__init__()
@@ -167,6 +170,8 @@ class QSwordGui(QWidget):
             self.text_edit.setReadOnly(True)
             
             #self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
+            
+            self.set_tab_text.emit(translation + ": " + book + " " + chapter)
     
     def onZoomInClicked(self):
         self.text_edit.zoomIn()
