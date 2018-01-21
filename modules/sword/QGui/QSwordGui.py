@@ -48,7 +48,7 @@ class QSwordGui(QWidget):
         self.combo_language.currentTextChanged.connect(self.languageChanged)
         self.combo_translation.currentTextChanged.connect(self.translationChanged)
         self.combo_book.currentTextChanged.connect(self.bookChanged)
-        self.combo_chapter.currentTextChanged.connect(self.chapterChanged)
+        
         
         self.grid.addWidget(QLabel("Language"), 0, 0)
         self.grid.addWidget(QLabel("Translation"), 0, 1)
@@ -85,6 +85,9 @@ class QSwordGui(QWidget):
         self.getBooksForDropdown()
         
         self.setDefaultBible()
+        
+        """ this has to be after setting the default values to avoid spamming the history on init and to avoid to much gui-updates on init """
+        self.combo_chapter.currentTextChanged.connect(self.chapterChanged)
     
     def languageChanged(self, language):
         self.getTranslationsForDropdown(language)
