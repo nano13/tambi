@@ -9,7 +9,7 @@ class QInputLine(QLineEdit):
     
     return_pressed = pyqtSignal(str, name='return_pressed')
     
-    history = History()
+    history = History("history")
     history_counter = 0
     search_pattern_prefix = ''
     

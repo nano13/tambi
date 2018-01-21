@@ -4,14 +4,13 @@ import os
 from configs.configFiles import ConfigDir
 
 HISTORY_MAX_SIZE = 1000
-HISTORY_FILE_NAME = "history"
 
 class History(object):
-    def __init__(self):
+    def __init__(self, filename):
         
         config_dir = ConfigDir(None, None)
         path = config_dir.getConfigDirPath()
-        self.filepath = os.path.join(path, HISTORY_FILE_NAME)
+        self.filepath = os.path.join(path, filename)
         
         self.checkForAndCreateHistoryFile()
         self.cropFileToSize(HISTORY_MAX_SIZE)

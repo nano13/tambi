@@ -11,6 +11,7 @@ from modules.sword.sword import Sword
 
 from misc.unicodeFonts import UnicodeFonts
 from configs.configFiles import ConfigFile
+from configs.history import History
 
 import queue
 import os
@@ -23,6 +24,7 @@ class QSwordGui(QWidget):
     sword = Sword()
     
     config = ConfigFile(os.path.join('modules', 'sword'), 'sword.conf')
+    history = History("history_sword")
     
     set_tab_text = pyqtSignal(str)
     
@@ -171,7 +173,9 @@ class QSwordGui(QWidget):
             
             #self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
             
-            self.set_tab_text.emit(translation + ": " + book + " " + chapter)
+            if book and chapter:
+                self.set_tab_text.emit(translation + ": " + book + " " + chapter)
+                self.history.historyWrite(translation + ": " + book + " " + chapter)
     
     def onZoomInClicked(self):
         self.text_edit.zoomIn()
