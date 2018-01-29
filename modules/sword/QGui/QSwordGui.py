@@ -49,6 +49,13 @@ class QSwordGui(QWidget):
         self.combo_translation.currentTextChanged.connect(self.translationChanged)
         self.combo_book.currentTextChanged.connect(self.bookChanged)
         
+        self.prev_verse_button = QPushButton("<")
+        self.prev_verse_button.setMaximumSize(25, 25)
+        self.next_verse_button = QPushButton(">")
+        self.next_verse_button.setMaximumSize(25, 25)
+        
+        self.prev_verse_button.clicked.connect(self.prevChapter)
+        self.next_verse_button.clicked.connect(self.nextChapter)
         
         self.grid.addWidget(QLabel("Language"), 0, 0)
         self.grid.addWidget(QLabel("Translation"), 0, 1)
@@ -59,6 +66,8 @@ class QSwordGui(QWidget):
         self.grid.addWidget(self.combo_translation, 1, 1)
         self.grid.addWidget(self.combo_book, 1, 2)
         self.grid.addWidget(self.combo_chapter, 1, 3)
+        self.grid.addWidget(self.prev_verse_button, 1, 4)
+        self.grid.addWidget(self.next_verse_button, 1, 5)
         
         zoom_in_button = QPushButton(self)
         zoom_in_button.setIcon(QIcon.fromTheme('zoom-in'))
@@ -75,11 +84,11 @@ class QSwordGui(QWidget):
         zoom_reset_button.clicked.connect(self.onZoomResetClicked)
         zoom_reset_button.setMaximumSize(25, 25)
         
-        self.grid.addWidget(zoom_out_button, 1, 4)
-        self.grid.addWidget(zoom_reset_button, 1, 5)
-        self.grid.addWidget(zoom_in_button, 1, 6)
+        self.grid.addWidget(zoom_out_button, 1, 6)
+        self.grid.addWidget(zoom_reset_button, 1, 7)
+        self.grid.addWidget(zoom_in_button, 1, 8)
         
-        self.grid.addWidget(self.text_edit, 2, 0, 1000, 7)
+        self.grid.addWidget(self.text_edit, 2, 0, 1000, 9)
         
         self.getLanguagesForDropdown()
         self.getBooksForDropdown()
@@ -99,6 +108,18 @@ class QSwordGui(QWidget):
         self.getChaptersForDropdown(book)
     
     def chapterChanged(self, chapter):
+        self.showText()
+    
+    def prevChapter(self):
+        chapter = self.combo_chapter.currentText()
+        self.combo_chapter.setCurrentText(str(int(chapter) - 1))
+        
+        self.showText()
+    
+    def nextChapter(self):
+        chapter = self.combo_chapter.currentText()
+        self.combo_chapter.setCurrentText(str(int(chapter) + 1))
+        
         self.showText()
     
     def getLanguagesForDropdown(self):
