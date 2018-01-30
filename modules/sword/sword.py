@@ -3,6 +3,7 @@ from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
 from configs.configFiles import ConfigFile
+from configs.history import History
 
 from pysword.modules import SwordModules
 from pysword.books import BibleStructure
@@ -23,6 +24,8 @@ class Sword(object):
     def getCommands(self):
         return {
             "sword.commands": self.commands,
+            
+            "sword.history": self.history,
             
             "sword.books": self.books,
             "sword.aliases": self.booksAliases,
@@ -63,6 +66,18 @@ class Sword(object):
         result_object = Result()
         result_object.category = "list"
         result_object.payload = all_commands
+        return result_object
+    
+    def history(self, c, args):
+        history = History("history_sword")
+        if len(args) < 1:
+            result = history.historyReadAll()
+        else:
+            result = history.historyReadAllWithFilter(args[0])
+        
+        result_object = Result()
+        result_object.payload = result[::-1]
+        result_object.category = "list"
         return result_object
     
     def listModules(self, c, args):
