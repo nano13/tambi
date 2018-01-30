@@ -195,7 +195,7 @@ class QSwordGui(QWidget):
             self.text_edit.setText(text)
             self.text_edit.setReadOnly(True)
             
-            #self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
+            self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
             
             if book and chapter:
                 self.set_tab_text.emit(translation + ": " + book + " " + chapter)
