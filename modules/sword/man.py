@@ -1,6 +1,10 @@
 
 module_description = """
-Module for reading the bible modules provided by the sword project. There is no download functionality for new modules yet, please use any other sword-frontend for doing this (like bibletime, xiphos or whatsoever).
+Module for reading the bible modules provided by the sword project. For installing bibles, use the "Module Manager" user inerface in the "Sword"-menu.
+
+For getting started, you can try the command "sword.commands" for an overview of the commands provided by the "sword" module, and of course "man sword.[command]" for getting a description of the given command.
+
+Additionally, this module provides some user-inerfaces available in the "Sword"-menu entry.
 """
 
 books = """
