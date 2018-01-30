@@ -94,6 +94,7 @@ class QSwordGui(QWidget):
         self.getBooksForDropdown()
         
         self.setDefaultBible()
+        self.restoreLastBookAndChapter()
         
         """ this has to be after setting the default values to avoid spamming the history on init and to avoid to much gui-updates on init """
         self.combo_chapter.currentTextChanged.connect(self.chapterChanged)
@@ -145,11 +146,22 @@ class QSwordGui(QWidget):
         sword_modules = self.sword.listModules(None, []).payload
         
         for module in sword_modules:
-            print(module)
-            print(module[0])
             if module[0] == self.default_bible:
                 self.combo_language.setCurrentText(module[1])
                 self.combo_translation.setCurrentText(self.default_bible)
+    
+    def restoreLastBookAndChapter(self):
+        last = self.history.historyReadAtIndex(3)
+        try:
+            translation, book, chapter = last.split(" ")
+            
+            self.combo_book.setCurrentText(book)
+            self.combo_chapter.setCurrentText(chapter)
+            
+            self.showText()
+        except ValueError:
+            # probably we have an empty history-file
+            pass
     
     def getBooksForDropdown(self):
         #books = self.interpreter.interpreter('sword.books', self.queue).payload
@@ -164,7 +176,6 @@ class QSwordGui(QWidget):
         for testament in books:
             for _b in books[testament]:
                 if _b[0] == book:
-                    print(_b[3])
                     chapters = []
                     for i, length in enumerate(_b[3]):
                         chapters.append(str(i+1))
