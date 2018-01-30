@@ -144,7 +144,7 @@ class CoreCommands(object):
         return result
     
     def history(self, c, args):
-        history = History()
+        history = History("history")
         if len(args) < 1:
             result = history.historyReadAll()
         else:
