@@ -126,9 +126,12 @@ class QSwordGui(QWidget):
     def getLanguagesForDropdown(self):
         #result = self.interpreter.interpreter('sword.languages', self.queue).payload
         result = self.sword.listLanguages(None, []).payload
-        
-        self.combo_language.clear()
-        self.combo_language.insertItems(0, result)
+        if result is None:
+            self.text_edit.clear()
+            self.text_edit.setText("no sword modules (=bibles) installed. please install some using the \"Sword->Module Manager\" menu entry.")
+        else:
+            self.combo_language.clear()
+            self.combo_language.insertItems(0, result)
     
     def getTranslationsForDropdown(self, language):
         #result = self.interpreter.interpreter('sword.modules '+language, self.queue).payload

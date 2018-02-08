@@ -112,21 +112,26 @@ class Sword(object):
         return result_object
     
     def listLanguages(self, c, a):
-        result = []
-        
-        modules = SwordModules()
-        found_modules = modules.parse_modules()
-        for main_key in found_modules:
-            language = found_modules[main_key]['lang']
-            
-            if not language in result:
-                result.append(language)
-        
-        result = sorted(result)
-        
         result_object = Result()
-        result_object.category = "list"
-        result_object.payload = result
+        
+        result = []
+        modules = SwordModules()
+        try:
+            found_modules = modules.parse_modules()
+        except FileNotFoundError:
+            result_object.category = "error"
+            result_object.error = "no sword modules could be found!"
+        else:
+            for main_key in found_modules:
+                language = found_modules[main_key]['lang']
+                
+                if not language in result:
+                    result.append(language)
+            
+            result = sorted(result)
+            result_object.category = "list"
+            result_object.payload = result
+        
         return result_object
     
     def getCurrentModule(self, c, a):
