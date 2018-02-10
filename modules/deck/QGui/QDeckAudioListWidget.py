@@ -214,7 +214,24 @@ class QDeckAudioListWidget(QTableWidget):
         target_path = os.path.join(self.deckpath, filename)
         
         self.process = QProcess()
-        self.process.start("audacity "+target_path)
+        self.process.errorOccurred.connect(self.onAudioEditProcessError)
+        self.process.stateChanged.connect(self.onAudioStateChangedError)
+        
+        os_name = platform.uname()[0]
+        if os_name == "Linux":
+            open_command = "audacity " + target_path
+        
+        elif os_name == "Windows":
+            open_command = '"C:\\program files (x86)\\Audacity\\audacity.exe" "' + target_path + '"'
+        
+        print(open_command)
+        self.process.startDetached(open_command)
+    
+    def onAudioEditProcessError(self, error):
+        print(error)
+    
+    def onAudioStateChangedError(self, state):
+        print(state)
     
     def recordButtonClicked(self, row):
         self.stopPlayButtonClicked(row)
