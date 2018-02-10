@@ -5,7 +5,7 @@ os.chdir("..")
 sys.path.append(".")
 
 from configs.history import History
-history = History()
+history = History("history")
 
 from interpreter.exceptions import ClearCalled, SnapshotCalled
 
