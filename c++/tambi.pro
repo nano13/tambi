@@ -8,6 +8,7 @@ INCLUDEPATH += "/usr/include/PythonQt"
 INCLUDEPATH += "/usr/include/PythonQt/extensions/PythonQt_QtAll"
 INCLUDEPATH += "/usr/include/python3.6m"
 INCLUDEPATH += "/usr/include/python"
+INCLUDEPATH += "/usr/include/espeak/"
 
 #exists (/usr/lib64/libPythonQt-Qt5-Python3.6.so) {
 #    LIBS += /usr/lib64/libPythonQt-Qt5-Python3.6.so
@@ -21,6 +22,9 @@ exists (/usr/lib/libPythonQt-Qt5-Python3.so) {
 exists (/usr/lib/libPythonQt_QtAll-Qt5-Python3.so) {
     LIBS += /usr/lib/libPythonQt_QtAll-Qt5-Python3.so
 }
+
+LIBS += -lespeak
+LIBS += -lportaudio
 
 # The following define makes your compiler warn you if you use any
 # feature of Qt which has been marked as deprecated (the exact warnings
@@ -44,7 +48,8 @@ HEADERS += main_window.h\
     python_adapter.h\
     qitemizedwidget.h\
     menu_bar.h\
-    unicode_fonts.h
+    unicode_fonts.h\
+    tts_interface.h
 
 SOURCES += tambi.cpp\
     main_window.cpp\
@@ -54,6 +59,7 @@ SOURCES += tambi.cpp\
     python_adapter.cpp\
     qitemizedwidget.cpp\
     menu_bar.cpp\
-    unicode_fonts.cpp
+    unicode_fonts.cpp\
+    tts_interface.cpp
 
 RESOURCES += tambi.qrc
