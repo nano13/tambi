@@ -1,7 +1,7 @@
 
 from PyQt5.QtWidgets import QWidget, QGridLayout, QComboBox, QLabel, QPushButton
 from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtCore import pyqtSignal, Qt
 
 from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 
@@ -208,6 +208,8 @@ class QSwordGui(QWidget):
             self.text_edit.clear()
             self.text_edit.setText(text)
             self.text_edit.setReadOnly(True)
+            
+            self.text_edit.setTextInteractionFlags(self.text_edit.textInteractionFlags() | Qt.TextSelectableByKeyboard);
             
             self.unicode_fonts.applyFontAndSizeToQWidget(text, self.text_edit)
             

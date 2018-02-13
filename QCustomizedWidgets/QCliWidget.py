@@ -362,6 +362,7 @@ class QCliWidget(QWidget):
         
         self.display_widget.setText(result.toString())
         self.display_widget.setReadOnly(True)
+        self.display_widget.setTextInteractionFlags(self.display_widget.textInteractionFlags() | Qt.TextSelectableByKeyboard);
         self.addDisplayWidget()
         
     def resultInHTMLWidget(self, result):
