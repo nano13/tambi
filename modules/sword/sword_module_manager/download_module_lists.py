@@ -88,17 +88,22 @@ class DownloadModulesLists(object):
     
     def __processRemoteModule(self, name, site, repository_dir):
         thetarfile = "ftp://"+site+repository_dir+"mods.d.tar.gz"
-        ftpstream = urllib.request.urlopen(thetarfile)
-        thetarfile = tarfile.open(fileobj=ftpstream, mode="r|gz")
-        
-        if not os.path.exists(self.temp_path):
-            os.mkdir(self.temp_path)
-        temp_file_path = os.path.join(os.sep, self.temp_path, name)
-        
-        safe_tar_extract = SafeTarExtract()
-        safe_tar_extract.extractSafely(temp_file_path, thetarfile)
-        
-        self.__processConfigFiles(name, site, repository_dir, temp_file_path)
+        try:
+            ftpstream = urllib.request.urlopen(thetarfile)
+        except:
+            """ probably the current url is not available """
+            pass
+        else:
+            thetarfile = tarfile.open(fileobj=ftpstream, mode="r|gz")
+            
+            if not os.path.exists(self.temp_path):
+                os.mkdir(self.temp_path)
+            temp_file_path = os.path.join(os.sep, self.temp_path, name)
+            
+            safe_tar_extract = SafeTarExtract()
+            safe_tar_extract.extractSafely(temp_file_path, thetarfile)
+            
+            self.__processConfigFiles(name, site, repository_dir, temp_file_path)
         
     def listLocalModules(self):
         self.__processConfigFiles(None, None, None, self.sword_modules_path)
