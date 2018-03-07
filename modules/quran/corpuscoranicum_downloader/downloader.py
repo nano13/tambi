@@ -97,8 +97,5 @@ if __name__ == '__main__':
             
             parser = QuranDownloader(surah, ayah, word_count_obj['wortanzahl'], database)
             parser.feed(page.content.decode("utf-8"))
-            
-            #fobj = open("./bla.html", "w")
-            #fobj.write(page.content.decode("utf-8"))
-            #fobj.close()
+        
         database.commit()

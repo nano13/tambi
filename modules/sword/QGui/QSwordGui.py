@@ -207,6 +207,7 @@ class QSwordGui(QWidget):
             
             self.text_edit.clear()
             self.text_edit.setText(text)
+            self.text_edit.append("\nEND")
             self.text_edit.setReadOnly(True)
             
             self.text_edit.setTextInteractionFlags(self.text_edit.textInteractionFlags() | Qt.TextSelectableByKeyboard);
