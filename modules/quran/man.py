@@ -1,6 +1,6 @@
 
 module_description = """
-Module for reading and studying the quran. The containing text was downloaded using a bot from the project at http://corpuscoranicum.de/ without any licence or permission on 2017/02/15.
+Module for reading and studying the quran. The containing text was downloaded from the project at http://corpuscoranicum.de/ without any licence or permission on 2018/03/7.
 """
 
 order = """
