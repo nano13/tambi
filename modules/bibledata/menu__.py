@@ -10,6 +10,6 @@ class Menu(object):
     def __init__(self, context, menubar): 
         bibledata = Bibledata()
         
-        bibledataMenu = menubar.addMenu('&Bibledata')
+        bibledataMenu = menubar.addMenu('&BibleData')
         
         

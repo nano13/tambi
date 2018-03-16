@@ -7,6 +7,7 @@ from PyQt5.QtChart import QChart, QXYSeries, QLineSeries#, QChartView
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
+from QCustomizedWidgets.QBloodlineWidget import QBloodlineWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
 from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
@@ -239,6 +240,9 @@ class QCliWidget(QWidget):
                 elif hasattr(result, 'category') and result.category == 'diagram':
                     self.resultInDiagram(result)
                 
+                elif hasattr(result, 'category') and result.category == 'bloodline':
+                    self.resultInBloodlineDiagram(result)
+                
                 elif hasattr(result, 'category') and result.category == 'command':
                     self.showMapWidget()
             
@@ -418,6 +422,11 @@ class QCliWidget(QWidget):
         view = QChartViewEnhanced(chart)
         view.setRenderHint(QPainter.Antialiasing)
         self.display_widget = view
+        self.addDisplayWidget()
+    
+    def resultInBloodlineDiagram(self, result):
+        self.display_widget.deleteLater()
+        self.display_widget = QBloodlineWidget(result.payload)
         self.addDisplayWidget()
     
     def showMapWidget(self):

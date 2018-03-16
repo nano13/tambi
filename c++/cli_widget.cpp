@@ -149,6 +149,10 @@ void QCliWidget::processResult(QJsonDocument jdoc)
         QVector<QStringList> matrix = FormatOutput::formatTable(obj);
         resultInItemizedWidget(matrix);
     }
+    else if (obj_cat == "bloodline")
+    {
+        
+    }
     else if (obj_cat == "image")
     {
         

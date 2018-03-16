@@ -3,21 +3,23 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
-import sqlite3
+#import sqlite3
 
-class Quran(object):
+
+
+class Bibledata(object):
     def __init__(self):
         pass
     
-    def initDbConnection(self):
-        self.connection = sqlite3.connect("./modules/quran/quran.db")
-        self.cursor = self.connection.cursor()
+    #def initDbConnection(self):
+        #self.connection = sqlite3.connect("./modules/quran/quran.db")
+        #self.cursor = self.connection.cursor()
          
     def getCommands(self):
         return {
             "bibledata.commands" : self.commands,
             
-            
+            "bibledata.guys" : self.guys,
         }
     
     def interpreter(self, command, args, queue):
@@ -28,7 +30,7 @@ class Quran(object):
         return commands.get(command, self.commandNotFound)(command, args)
     
     def commandNotFound(self, c, a):
-        raise CommandNotInThisModule("command not found in module quran")
+        raise CommandNotInThisModule("command not found in module bibledata")
     
     def commands(self, none1, none2):
         dic = self.getCommands()
@@ -45,4 +47,13 @@ class Quran(object):
         result_object.payload = all_commands
         return result_object
     
-    
+    def guys(self, c, a):
+        import json
+        
+        fobj = open("./modules/bibledata/data/kings_south.json")
+        loaded = json.load(fobj)
+        
+        result_object = Result()
+        result_object.category = "bloodline"
+        result_object.payload = loaded
+        return result_object
