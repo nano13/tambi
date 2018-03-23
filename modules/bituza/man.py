@@ -38,3 +38,15 @@ Examples:
 bituza.structure
 bituza.structure jona
 """
+
+summary = """
+Returns some summary to the specified book. The data are copyrighted by Karl-Heinz Vanheiden as found at https://neue.derbibelvertrauen.de/ on 2018/03/23
+
+@param (required): [string], the name of the book we want to see the summary for.
+
+Examples:
+bituza.summary 1mose
+
+See also:
+bituza.books
+"""

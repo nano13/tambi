@@ -52,6 +52,7 @@ class Bituza(object):
             "bituza.elberfelder" : self.elberfelder,
             "bituza.tr" : self.textusReceptus,
             "bituza.structure" : self.structure,
+            "bituza.summary" : self.summary,
             
             "bituza.sql" : self.sql,
             "bituza.schema" : self.schema,
@@ -526,6 +527,32 @@ class Bituza(object):
         result_object.payload = result
         result_object.header = head
         return result_object
+    
+    def summary(self, c, args):
+        result_object = Result();
+        
+        if len(args) == 0:
+            result_object.error = "please specify a book. see bituza.books for the exact names";
+            return result_object;
+        
+        fobj = open("./modules/bituza/bible_summary/bible_summary.txt");
+        
+        lines_to_return = ""
+        in_section = False;
+        for line in fobj:
+            if line.find(args[0]) >= 0:
+                in_section = True;
+                lines_to_return += line;
+            elif in_section and line.find("===") >= 0:
+                in_section = False;
+            elif in_section:
+                lines_to_return += line;
+        
+        fobj.close();
+        
+        result_object.category = "text";
+        result_object.payload = lines_to_return;
+        return result_object;
     
     def commands(self, none1, none2):
         dic = self.getCommands()
