@@ -2,6 +2,7 @@
 #include <cli_widget.h>
 #include <format_output.h>
 #include <qitemizedwidget.h>
+#include <qbloodlinewidget.h>
 
 #include <unicode_fonts.h>
 
@@ -30,7 +31,7 @@
 #include <PythonQt.h>
 #include <PythonQt_QtAll.h>
 
-#include <tts_interface.h>
+//#include <tts_interface.h>
 
 QCliWidget::QCliWidget(QWidget *parent)
     : grid(new QGridLayout)
@@ -71,8 +72,8 @@ QCliWidget::QCliWidget(QWidget *parent)
 void QCliWidget::commandEntered(QString command)
 {
     emit setTabText(command);
-    TTSInterface *tts = new TTSInterface();
-    tts->speak(command);
+    //TTSInterface *tts = new TTSInterface();
+    //tts->speak(command);
     
     qDebug() << command;
     resize(this_x, this_y);

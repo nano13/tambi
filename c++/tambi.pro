@@ -49,7 +49,8 @@ HEADERS += main_window.h\
     qitemizedwidget.h\
     menu_bar.h\
     unicode_fonts.h\
-    tts_interface.h
+    tts_interface.h\
+    qbloodlinewidget.h
 
 SOURCES += tambi.cpp\
     main_window.cpp\
@@ -60,6 +61,19 @@ SOURCES += tambi.cpp\
     qitemizedwidget.cpp\
     menu_bar.cpp\
     unicode_fonts.cpp\
-    tts_interface.cpp
+    tts_interface.cpp\
+    qbloodlinewidget.cpp
 
 RESOURCES += tambi.qrc
+
+release:DESTDIR = release
+release:OBJECTS_DIR = release/obj
+release:MOC_DIR = release/moc
+release:RCC_DIR = release/rcc
+release:UI_DIR = release/ui
+
+debug:DESTDIR = debug
+debug:OBJECTS_DIR = debug/obj
+debug:MOC_DIR = debug/moc
+debug:RCC_DIR = debug/rcc
+debug:UI_DIR = debug/ui
