@@ -1,7 +1,7 @@
 
 #include <QMainWindow>
 
-#include <menu_bar.h>
+#include <qtambi_widgets/menu_bar.h>
 
 class MainWindow : public QMainWindow
 {

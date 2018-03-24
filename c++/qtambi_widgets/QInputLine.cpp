@@ -1,5 +1,5 @@
 
-#include <QInputLine.h>
+#include <qtambi_widgets/QInputLine.h>
 
 #include <QWidget>
 #include <QKeyEvent>

@@ -41,28 +41,28 @@ CONFIG += qt debug
 QT += widgets
 
 # Input
-HEADERS += main_window.h\
-    cli_widget.h\
-    QInputLine.h\
-    format_output.h\
-    python_adapter.h\
-    qitemizedwidget.h\
-    menu_bar.h\
-    unicode_fonts.h\
-    tts_interface.h\
-    qbloodlinewidget.h
+HEADERS += qtambi_widgets/main_window.h\
+    qtambi_widgets/cli_widget.h\
+    qtambi_widgets/QInputLine.h\
+    qtambi_widgets/format_output.h\
+    qtambi_widgets/python_adapter.h\
+    qtambi_widgets/qitemizedwidget.h\
+    qtambi_widgets/menu_bar.h\
+    qtambi_widgets/unicode_fonts.h\
+    qtambi_widgets/tts_interface.h\
+    qtambi_widgets/qbloodlinewidget.h
 
 SOURCES += tambi.cpp\
-    main_window.cpp\
-    cli_widget.cpp\
-    QInputLine.cpp\
-    format_output.cpp\
-    python_adapter.cpp\
-    qitemizedwidget.cpp\
-    menu_bar.cpp\
-    unicode_fonts.cpp\
-    tts_interface.cpp\
-    qbloodlinewidget.cpp
+    qtambi_widgets/main_window.cpp\
+    qtambi_widgets/cli_widget.cpp\
+    qtambi_widgets/QInputLine.cpp\
+    qtambi_widgets/format_output.cpp\
+    qtambi_widgets/python_adapter.cpp\
+    qtambi_widgets/qitemizedwidget.cpp\
+    qtambi_widgets/menu_bar.cpp\
+    qtambi_widgets/unicode_fonts.cpp\
+    qtambi_widgets/tts_interface.cpp\
+    qtambi_widgets/qbloodlinewidget.cpp
 
 RESOURCES += tambi.qrc
 

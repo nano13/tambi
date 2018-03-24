@@ -1,10 +1,10 @@
 
-#include <cli_widget.h>
-#include <format_output.h>
-#include <qitemizedwidget.h>
-#include <qbloodlinewidget.h>
+#include <qtambi_widgets/cli_widget.h>
+#include <qtambi_widgets/format_output.h>
+#include <qtambi_widgets/qitemizedwidget.h>
+#include <qtambi_widgets/qbloodlinewidget.h>
 
-#include <unicode_fonts.h>
+#include <qtambi_widgets/unicode_fonts.h>
 
 #include <QTableWidget>
 #include <QTextEdit>

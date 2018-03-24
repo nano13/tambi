@@ -9,9 +9,9 @@
 
 #include <QThread>
 
-#include <QInputLine.h>
-#include <python_adapter.h>
-#include <unicode_fonts.h>
+#include <qtambi_widgets/QInputLine.h>
+#include <qtambi_widgets/python_adapter.h>
+#include <qtambi_widgets/unicode_fonts.h>
 
 class QCliWidget : public QWidget
 {

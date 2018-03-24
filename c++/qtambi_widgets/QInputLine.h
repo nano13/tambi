@@ -1,7 +1,7 @@
 
 #include <QLineEdit>
 
-#include <python_adapter.h>
+#include <qtambi_widgets/python_adapter.h>
 
 #include <PythonQt.h>
 

@@ -1,5 +1,5 @@
 
-#include <menu_bar.h>
+#include <qtambi_widgets/menu_bar.h>
 
 #include <QAction>
 #include <QMenuBar>

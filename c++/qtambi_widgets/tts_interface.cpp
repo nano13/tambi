@@ -2,7 +2,7 @@
 #include <string.h>
 #include <malloc.h>
 
-#include <tts_interface.h>
+#include <qtambi_widgets/tts_interface.h>
 #include <speak_lib.h>
 
 TTSInterface :: TTSInterface(QWidget *parent)

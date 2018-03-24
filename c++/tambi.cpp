@@ -3,7 +3,7 @@
 #include <QApplication>
 #include <QDebug>
 
-#include <main_window.h>
+#include <qtambi_widgets/main_window.h>
 
 #include <PythonQt.h>
 

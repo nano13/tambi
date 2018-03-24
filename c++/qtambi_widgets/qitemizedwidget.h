@@ -6,7 +6,7 @@
 #include <QVector>
 #include <QStringList>
 
-#include <unicode_fonts.h>
+#include <qtambi_widgets/unicode_fonts.h>
 
 class QItemizedWidget : public QWidget
 {

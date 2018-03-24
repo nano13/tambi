@@ -1,5 +1,5 @@
 
-#include <qitemizedwidget.h>
+#include <qtambi_widgets/qitemizedwidget.h>
 
 #include <QTimer>
 

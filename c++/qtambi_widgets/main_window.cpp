@@ -1,9 +1,9 @@
 
 #include <QtWidgets>
 
-#include <main_window.h>
-#include <cli_widget.h>
-#include <menu_bar.h>
+#include <qtambi_widgets/main_window.h>
+#include <qtambi_widgets/cli_widget.h>
+#include <qtambi_widgets/menu_bar.h>
 
 #include <QHBoxLayout>
 #include <QMap>
