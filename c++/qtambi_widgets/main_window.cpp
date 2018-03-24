@@ -2,7 +2,7 @@
 #include <QtWidgets>
 
 #include <qtambi_widgets/main_window.h>
-#include <qtambi_widgets/cli_widget.h>
+#include <qtambi_widgets/qcliwidget.h>
 #include <qtambi_widgets/menu_bar.h>
 
 #include <QHBoxLayout>

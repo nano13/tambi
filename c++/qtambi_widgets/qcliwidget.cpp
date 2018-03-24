@@ -1,5 +1,5 @@
 
-#include <qtambi_widgets/cli_widget.h>
+#include <qtambi_widgets/qcliwidget.h>
 #include <qtambi_widgets/format_output.h>
 #include <qtambi_widgets/qitemizedwidget.h>
 #include <qtambi_widgets/qbloodlinewidget.h>

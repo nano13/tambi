@@ -9,7 +9,7 @@
 
 #include <QThread>
 
-#include <qtambi_widgets/QInputLine.h>
+#include <qtambi_widgets/qinputline.h>
 #include <qtambi_widgets/python_adapter.h>
 #include <qtambi_widgets/unicode_fonts.h>
 

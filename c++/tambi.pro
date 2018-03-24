@@ -42,8 +42,8 @@ QT += widgets
 
 # Input
 HEADERS += qtambi_widgets/main_window.h\
-    qtambi_widgets/cli_widget.h\
-    qtambi_widgets/QInputLine.h\
+    qtambi_widgets/qcliwidget.h\
+    qtambi_widgets/qinputline.h\
     qtambi_widgets/format_output.h\
     qtambi_widgets/python_adapter.h\
     qtambi_widgets/qitemizedwidget.h\
@@ -54,8 +54,8 @@ HEADERS += qtambi_widgets/main_window.h\
 
 SOURCES += tambi.cpp\
     qtambi_widgets/main_window.cpp\
-    qtambi_widgets/cli_widget.cpp\
-    qtambi_widgets/QInputLine.cpp\
+    qtambi_widgets/qcliwidget.cpp\
+    qtambi_widgets/qinputline.cpp\
     qtambi_widgets/format_output.cpp\
     qtambi_widgets/python_adapter.cpp\
     qtambi_widgets/qitemizedwidget.cpp\
