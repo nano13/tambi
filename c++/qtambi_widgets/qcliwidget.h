@@ -52,6 +52,7 @@ private slots:
     void resultInTable(QVector<QStringList>);
     void resultInMultimediaTable(QVector<QStringList>);
     void resultInItemizedWidget(QVector<QStringList>);
+    void resultInBloodlineWidget(QVector<QStringList>);
     void resultInImageWidget();
     void resultInDiagram();
     void showErrorMessage();

@@ -152,7 +152,8 @@ void QCliWidget::processResult(QJsonDocument jdoc)
     }
     else if (obj_cat == "bloodline")
     {
-        
+        QVector<QStringList> matrix = FormatOutput::formatTable(obj);
+        resultInBloodlineWidget(matrix);
     }
     else if (obj_cat == "image")
     {
@@ -279,6 +280,13 @@ void QCliWidget::resultInItemizedWidget(QVector<QStringList> payload)
     QItemizedWidget *itemizedWidget = new QItemizedWidget();
     itemizedWidget->showData(payload);
     addDisplayWidget(itemizedWidget);
+}
+
+void QCliWidget::resultInBloodlineWidget(QVector<QStringList> payload)
+{
+    QBloodlineWidget *bloodlinewidget = new QBloodlineWidget(payload);
+    
+    addDisplayWidget(bloodlinewidget);
 }
 
 void QCliWidget::resultInImageWidget()
