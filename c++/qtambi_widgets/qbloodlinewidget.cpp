@@ -18,13 +18,17 @@ QBloodlineWidget :: QBloodlineWidget (QVector<QStringList> data, QWidget *parent
     {
         //QStringList item = data[i];
         //qDebug() << item;
-        addGuy(i*40, 0, false, true);
+        
+        QGraphicsGuyItem *guy = new QGraphicsGuyItem();
+        int width = guy->boundingRect().width();
+        addGuy(i*width*2, 0, true, false);
     }
 }
 
 void QBloodlineWidget :: addGuy(int x, int y, bool good_start, bool good_end)
 {
-    QGraphicsGuyItem *guy = new QGraphicsGuyItem(good_start, good_end);
+    QGraphicsGuyItem *guy = new QGraphicsGuyItem();
+    guy->setGoodness(true, false);
     guy->setPos(x, y);
     scene->addItem(guy);
 }
@@ -33,11 +37,14 @@ void QBloodlineWidget :: addGuy(int x, int y, bool good_start, bool good_end)
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-QGraphicsGuyItem::QGraphicsGuyItem(bool good_start, bool good_end)
+QGraphicsGuyItem::QGraphicsGuyItem()
 {
     mouse_pressed = false;
     setFlag(ItemIsMovable);
-    
+}
+
+void QGraphicsGuyItem::setGoodness(bool good_start, bool good_end)
+{
     this->good_start = good_start;
     this->good_end = good_end;
 }
@@ -86,6 +93,7 @@ void QGraphicsGuyItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *
     QRectF bounding_rect = boundingRect();
     QPen pen(Qt::green, 1);
     painter->setPen(pen);
+    painter->setBrush(Qt::NoBrush);
     painter->drawRect(bounding_rect);
     
     /*

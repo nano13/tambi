@@ -44,8 +44,8 @@ signals:
 class QGraphicsGuyItem : public QGraphicsItem
 {
 public:
-    QGraphicsGuyItem(bool, bool);
-
+    QGraphicsGuyItem();
+    void setGoodness(bool, bool);
     QRectF boundingRect() const;
 
     // overriding paint()
