@@ -13,6 +13,7 @@ QBloodlineWidget :: QBloodlineWidget (QVector<QStringList> data, QWidget *parent
     layout->addWidget(view);
     setLayout(layout);
     
+    qDebug() << data;
     for (int i = 0; i < data.length(); ++i)
     {
         //QStringList item = data[i];
@@ -29,7 +30,7 @@ void QBloodlineWidget :: addGuy(int x, int y, bool good_start, bool good_end)
 }
 
 
-// #####################################
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 QGraphicsGuyItem::QGraphicsGuyItem(bool good_start, bool good_end)

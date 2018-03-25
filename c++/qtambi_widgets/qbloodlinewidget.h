@@ -5,6 +5,7 @@
 #include <QGraphicsItem>
 #include <QVBoxLayout>
 #include <QDebug>
+#include <QJsonObject>
 
 class QBloodlineWidget : public QWidget
 {
