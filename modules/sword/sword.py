@@ -16,10 +16,10 @@ import os
 class Sword(object):
     
     config = ConfigFile(os.path.join('modules', 'sword'), 'sword.conf')
-    canon = 'default'
     
     def __init__(self):
         self.current_module = self.config.readVar('global', 'default_bible')
+        self.canon = self.config.readVar('global', 'default_canon')
     
     def getCommands(self):
         return {
