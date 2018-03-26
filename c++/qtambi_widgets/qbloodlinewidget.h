@@ -10,6 +10,8 @@
 #include <QJsonArray>
 #include <QJsonValue>
 
+#include <QTransform>
+
 class QBloodlineWidget : public QWidget
 {
     Q_OBJECT
@@ -17,7 +19,10 @@ class QBloodlineWidget : public QWidget
 public:
     QBloodlineWidget(QJsonArray, QWidget *parent = 0);
     
-    void addGuy(QPointF, bool, bool, QString, QString);
+    QJsonArray processGuy(int, QJsonArray, int, int);
+    // returns the x-coordinate:
+    int searchForCoevals(QJsonArray, QJsonObject);
+    void addGuyItem(QPointF, bool, bool, QString, QString);
     
 private:
     QGraphicsView *view;
