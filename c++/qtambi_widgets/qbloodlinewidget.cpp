@@ -1,7 +1,7 @@
 
 #include <qtambi_widgets/qbloodlinewidget.h>
 
-QBloodlineWidget :: QBloodlineWidget (QVector<QStringList> data, QWidget *parent)
+QBloodlineWidget :: QBloodlineWidget (QJsonArray data, QWidget *parent)
     : QWidget (parent)
     , view (new QGraphicsView)
     , scene (new QGraphicsScene)
@@ -13,28 +13,47 @@ QBloodlineWidget :: QBloodlineWidget (QVector<QStringList> data, QWidget *parent
     layout->addWidget(view);
     setLayout(layout);
     
-    qDebug() << data;
-    for (int i = 0; i < data.length(); ++i)
+    QGraphicsGuyItem *guy = new QGraphicsGuyItem();
+    int guy_width = guy->boundingRect().width();
+    delete guy;
+    
+    qDebug() << "############### guy ##############";
+    for (int i = 0; i < data.size(); ++i)
     {
-        //QStringList item = data[i];
-        //qDebug() << item;
+        // takeAt, but put back again later ...
+        QJsonValue val = data.takeAt(i);
+        QJsonObject obj = val.toObject();
         
-        QGraphicsGuyItem *guy = new QGraphicsGuyItem();
-        int width = guy->boundingRect().width();
-        addGuy(i*width*2, 0, true, false);
+        bool good_start = obj.value("good_start").toBool();
+        bool good_end = obj.value("good_end").toBool();
+        QString name = obj.value("name_de").toString();
+        QString name_original = obj.value("name_original").toString();
+        
+        // INSERT GUY
+        QPointF guy_pos = QPointF(i*guy_width*1, 0);
+        addGuy(guy_pos, good_start, good_end, name, name_original);
+        
+        // INSERT COORDINATES TO THE QJsonArray
+        QJsonValue x_val = QJsonValue(guy_pos.x());
+        obj.insert("render_pos_x", x_val);
+        QJsonValue y_val = QJsonValue(guy_pos.y());
+        obj.insert("render_pos_y", y_val);
+        
+        data.insert(i, obj);
     }
 }
 
-void QBloodlineWidget :: addGuy(int x, int y, bool good_start, bool good_end)
+void QBloodlineWidget :: addGuy(QPointF pos, bool good_start, bool good_end, QString name, QString name_original)
 {
     QGraphicsGuyItem *guy = new QGraphicsGuyItem();
-    guy->setGoodness(true, false);
-    guy->setPos(x, y);
+    guy->setGoodness(good_start, good_end);
+    guy->setNames(name, name_original);
+    guy->setPos(pos);
     scene->addItem(guy);
 }
 
 
-// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// END QBloodlineWidget
 
 
 QGraphicsGuyItem::QGraphicsGuyItem()
@@ -49,14 +68,24 @@ void QGraphicsGuyItem::setGoodness(bool good_start, bool good_end)
     this->good_end = good_end;
 }
 
+void QGraphicsGuyItem::setNames(QString name, QString name_original)
+{
+    this->name = name;
+    this->name_original = name_original;
+}
+
 QRectF QGraphicsGuyItem::boundingRect() const
 {
     // outer most edges
-    return QRectF(-5,0,20,40);
+    //return QRectF(-5,0,20,40);
+    return QRectF(-45,0,100,64);
 }
 
 void QGraphicsGuyItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
+    painter->setRenderHint(QPainter::Antialiasing);
+    //painter->setRenderHint(QPainter::HighQualityAntialiasing);
+    
     // HEAD
     painter->setBrush(Qt::SolidPattern);
     painter->drawEllipse(0, 0, 10, 10);
@@ -89,12 +118,24 @@ void QGraphicsGuyItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *
     };
     painter->drawPolygon(poly_right, 3);
     
+    // LABEL
+    QPen pen_label(Qt::black, 1);
+    painter->setPen(pen_label);
+    painter->setBrush(Qt::NoBrush);
+    QFont font_name = painter->font();
+    font_name.setPixelSize(12);
+    painter->setFont(font_name);
+    painter->drawText(QRect(-45, 40, 100, 12), Qt::AlignCenter, name);
+    
+    painter->drawText(QRect(-45, 52, 100, 12), Qt::AlignCenter, name_original);
+    
     // BOUNDING BOX
     QRectF bounding_rect = boundingRect();
-    QPen pen(Qt::green, 1);
-    painter->setPen(pen);
+    QPen pen_bb(Qt::green, 1);
+    painter->setPen(pen_bb);
     painter->setBrush(Qt::NoBrush);
-    painter->drawRect(bounding_rect);
+    //painter->drawRect(bounding_rect);
+    //painter->drawRect(QRect(-45, 40, 100, 12));
     
     /*
     QRectF rect = boundingRect();

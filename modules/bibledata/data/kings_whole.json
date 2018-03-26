@@ -1,0 +1,47 @@
+[
+    {
+        "id": "KW_00",
+        "role": "king",
+        "name_de": "Saul",
+        "name_original": "שאול",
+        "name_meaning": "der Erbetene",
+        "sex": "male",
+        "coevals": [],
+        "bible_refs": ["I Samuel 9", "I Samuel 13", "I Chronicles 13"],
+        "good_start": true,
+        "good_end": false,
+        "description": "",
+        "predecessor": "PW_00",
+        "successor": "KW_01"
+    },
+    {
+        "id": "KW_01",
+        "role": "king",
+        "name_de": "David",
+        "name_original": "דוד",
+        "name_meaning": "Geliebter",
+        "sex": "male",
+        "coevals": [],
+        "bible_refs": ["II Samuel", "I Kings 1 1-2", "I Chronicles 11 1-29"],
+        "good_start": true,
+        "good_end": true,
+        "description": "",
+        "predecessor": "KW_00",
+        "successor": "KW_02"
+    },
+    {
+        "id": "KW_02",
+        "role": "king",
+        "name_de": "Salomo",
+        "name_original": "שלמה",
+        "name_meaning": "friedlich",
+        "sex": "male",
+        "coevals": [],
+        "bible_refs": ["I Kings 2", "I Kings 10-11", "I Kings 11 43"],
+        "good_start": true,
+        "good_end": false,
+        "description": "",
+        "predecessor": "KW_01",
+        "successor": "KS_00"
+    }
+]

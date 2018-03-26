@@ -3,6 +3,8 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
+import os
+
 #import sqlite3
 
 
@@ -50,10 +52,18 @@ class Bibledata(object):
     def guys(self, c, a):
         import json
         
-        fobj = open("./modules/bibledata/data/kings_south.json")
-        loaded = json.load(fobj)
+        base, dirs, files = next(iter(os.walk("./modules/bibledata/data")))
+        
+        merged_json = []
+        for f in files:
+            fobj = open(os.path.join(base, f))
+            loaded = json.load(fobj)
+            
+            for guy in loaded:
+                merged_json.append(guy)
+            
         
         result_object = Result()
         result_object.category = "bloodline"
-        result_object.payload = loaded
+        result_object.payload = merged_json
         return result_object

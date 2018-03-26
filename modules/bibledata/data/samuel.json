@@ -1,0 +1,17 @@
+[
+    {
+        "id": "PW_00",
+        "role": "prophet",
+        "name_de": "Samuel",
+        "name_original": "שמואל",
+        "name_meaning": "von Gott erhört",
+        "sex": "male",
+        "coevals": [],
+        "bible_refs": [""],
+        "good_start": true,
+        "good_end": true,
+        "description": "",
+        "predecessor": "",
+        "successor": "KW_00"
+    }
+]

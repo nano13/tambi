@@ -5,16 +5,19 @@
 #include <QGraphicsItem>
 #include <QVBoxLayout>
 #include <QDebug>
+#include <QJsonDocument>
 #include <QJsonObject>
+#include <QJsonArray>
+#include <QJsonValue>
 
 class QBloodlineWidget : public QWidget
 {
     Q_OBJECT
     
 public:
-    QBloodlineWidget(QVector<QStringList>, QWidget *parent = 0);
+    QBloodlineWidget(QJsonArray, QWidget *parent = 0);
     
-    void addGuy(int x, int y, bool, bool);
+    void addGuy(QPointF, bool, bool, QString, QString);
     
 private:
     QGraphicsView *view;
@@ -32,7 +35,7 @@ signals:
     
 };
 
-
+// END QBloodlineWidget
 
 #ifndef QGRAPHICSGUYITEM_H
 #define QGRAPHICSGUYITEM_H
@@ -46,6 +49,7 @@ class QGraphicsGuyItem : public QGraphicsItem
 public:
     QGraphicsGuyItem();
     void setGoodness(bool, bool);
+    void setNames(QString, QString);
     QRectF boundingRect() const;
 
     // overriding paint()
@@ -58,6 +62,8 @@ public:
     
     bool good_start;
     bool good_end;
+    QString name;
+    QString name_original;
 protected:
     // overriding mouse events
     void mousePressEvent(QGraphicsSceneMouseEvent *event);

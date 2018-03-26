@@ -7,6 +7,7 @@
 #include <QGraphicsView>
 #include <QGraphicsScene>
 
+#include <QJsonObject>
 #include <QThread>
 
 #include <qtambi_widgets/qinputline.h>
@@ -52,7 +53,7 @@ private slots:
     void resultInTable(QVector<QStringList>);
     void resultInMultimediaTable(QVector<QStringList>);
     void resultInItemizedWidget(QVector<QStringList>);
-    void resultInBloodlineWidget(QVector<QStringList>);
+    void resultInBloodlineWidget(QJsonObject);
     void resultInImageWidget();
     void resultInDiagram();
     void showErrorMessage();
