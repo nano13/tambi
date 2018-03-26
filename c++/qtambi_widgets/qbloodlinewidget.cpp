@@ -47,19 +47,7 @@ QJsonArray QBloodlineWidget :: processGuy(int i, QJsonArray data, int guy_width,
     }
     else
     {
-        int i = 0;
-        bool once_again = true;
-        while (once_again)
-        {
-            i++;
-            guy_pos = QPointF(match_x, (10+guy_height)*i);
-            
-            QGraphicsItem *gitem = scene->itemAt(guy_pos, QTransform());
-            if (gitem == 0)
-            {
-                once_again = false;
-            }
-        }
+        guy_pos = findCollisionFreeYPos(guy_pos, guy_height, match_x);
     }
     
     addGuyItem(guy_pos, good_start, good_end, name, name_original);
@@ -106,6 +94,25 @@ int QBloodlineWidget :: searchForCoevals(QJsonArray data, QJsonObject guy)
     }
     
     return -10000;
+}
+
+QPointF QBloodlineWidget :: findCollisionFreeYPos(QPointF guy_pos, int guy_height, int match_x)
+{
+    int i = 0;
+    bool once_again = true;
+    while (once_again)
+    {
+        i++;
+        guy_pos = QPointF(match_x, (10+guy_height)*i);
+        
+        QGraphicsItem *gitem = scene->itemAt(guy_pos, QTransform());
+        if (gitem == 0)
+        {
+            once_again = false;
+        }
+    }
+    
+    return guy_pos;
 }
 
 void QBloodlineWidget :: addGuyItem(QPointF pos, bool good_start, bool good_end, QString name, QString name_original)

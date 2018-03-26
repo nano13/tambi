@@ -22,6 +22,7 @@ public:
     QJsonArray processGuy(int, QJsonArray, int, int);
     // returns the x-coordinate:
     int searchForCoevals(QJsonArray, QJsonObject);
+    QPointF findCollisionFreeYPos(QPointF, int, int);
     void addGuyItem(QPointF, bool, bool, QString, QString);
     
 private:

@@ -3,7 +3,7 @@
 from interpreter.exceptions import CommandNotInThisModule
 from interpreter.structs import Result
 
-import os
+import os, re
 
 #import sqlite3
 
@@ -53,6 +53,8 @@ class Bibledata(object):
         import json
         
         base, dirs, files = next(iter(os.walk("./modules/bibledata/data")))
+        files.sort(key=self.alphanum_key)
+        print(files)
         
         guys_merged = []
         guys_unmerged = []
@@ -97,3 +99,15 @@ class Bibledata(object):
         #    return guys_merged, False
         
         return guys_merged, True;
+    
+    def alphanum_key(self, s):
+        """ Turn a string into a list of string and number chunks.
+            "z23a" -> ["z", 23, "a"]
+        """
+        return [ self.tryint(c) for c in re.split('([0-9]+)', s) ]
+    
+    def tryint(self, s):
+        try:
+            return int(s)
+        except:
+            return s
