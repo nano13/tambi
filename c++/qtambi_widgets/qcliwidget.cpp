@@ -2,7 +2,7 @@
 #include <qtambi_widgets/qcliwidget.h>
 #include <qtambi_widgets/format_output.h>
 #include <qtambi_widgets/qitemizedwidget.h>
-#include <qtambi_widgets/qbloodlinewidget.h>
+#include <qtambi_widgets/qtimelinediagram/qtimelinediagramwidget.h>
 
 #include <qtambi_widgets/unicode_fonts.h>
 
@@ -156,7 +156,7 @@ void QCliWidget::processResult(QJsonDocument jdoc)
         
         //qDebug() << matrix;
         
-        resultInBloodlineWidget(obj);
+        resultInTimelineDiagramWidget(obj);
     }
     else if (obj_cat == "image")
     {
@@ -285,12 +285,12 @@ void QCliWidget::resultInItemizedWidget(QVector<QStringList> payload)
     addDisplayWidget(itemizedWidget);
 }
 
-void QCliWidget::resultInBloodlineWidget(QJsonObject obj)
+void QCliWidget::resultInTimelineDiagramWidget(QJsonObject obj)
 {
     QJsonArray arr = obj["payload"].toArray();
-    QBloodlineWidget *bloodlinewidget = new QBloodlineWidget(arr);
+    QTimelineDiagramWidget *timelinegraphwidget = new QTimelineDiagramWidget(arr);
     
-    addDisplayWidget(bloodlinewidget);
+    addDisplayWidget(timelinegraphwidget);
 }
 
 void QCliWidget::resultInImageWidget()

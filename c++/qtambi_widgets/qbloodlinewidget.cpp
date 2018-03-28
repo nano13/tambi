@@ -22,8 +22,18 @@ QBloodlineWidget :: QBloodlineWidget (QJsonArray data, QWidget *parent)
     for (int i = 0; i < data.size(); ++i)
     {
         data = processGuy(i, data, guy_width, guy_height);
+        
+        if (i > 1)
+        {
+            drawSuccessionLine(i, data);
+        }
     }
     //qDebug() << data;
+}
+
+void QBloodlineWidget :: searchForSuccession()
+{
+    
 }
 
 QJsonArray QBloodlineWidget :: processGuy(int i, QJsonArray data, int guy_width, int guy_height)
@@ -85,7 +95,7 @@ int QBloodlineWidget :: searchForCoevals(QJsonArray data, QJsonObject guy)
                         qDebug() << result;
                         if (result != 0)
                         {
-                            return result;
+                            //return result;
                         }
                     }
                 }
@@ -122,6 +132,28 @@ void QBloodlineWidget :: addGuyItem(QPointF pos, bool good_start, bool good_end,
     guy->setNames(name, name_original);
     guy->setPos(pos);
     scene->addItem(guy);
+}
+
+void QBloodlineWidget :: drawSuccessionLine(int i, QJsonArray data)
+{
+    QJsonValue val_succ = data.at(i-1);
+    QJsonObject obj_succ = val_succ.toObject();
+    QString succ = obj_succ.value("successor").toString();
+    
+    QJsonValue val_pred = data.at(i);
+    QJsonObject obj_pred = val_pred.toObject();
+    QString pred = obj_pred.value("id").toString();
+    
+    if (pred == succ)
+    {
+        int x_succ = obj_succ.value("render_pos_x").toInt();
+        int y_succ = obj_succ.value("render_pos_y").toInt();
+        
+        int x_pred = obj_pred.value("render_pos_x").toInt();
+        int y_pred = obj_pred.value("render_pos_y").toInt();
+        
+        scene->addLine(x_succ, y_succ, x_pred, y_pred);
+    }
 }
 
 

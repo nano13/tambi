@@ -50,33 +50,42 @@ class Bibledata(object):
         return result_object
     
     def guys(self, c, a):
+        result_object = Result()
+        
         import json
         
         base, dirs, files = next(iter(os.walk("./modules/bibledata/data")))
         files.sort(key=self.alphanum_key)
-        print(files)
         
         guys_merged = []
         guys_unmerged = []
-        for f in files:
-            fobj = open(os.path.join(base, f))
-            loaded = json.load(fobj)
-            
-            for guy_new in loaded:
-                if len(guys_merged) <= 0:
-                    guys_merged.append(guy_new)
-                else:
-                    guys_merged, status = self.insertGuys(guys_merged, guy_new)
+        
+        try:
+            ids = []
+            for f in files:
+                fobj = open(os.path.join(base, f))
+                loaded = json.load(fobj)
+                
+                for guy_new in loaded:
+                    if guy_new["id"] in ids:
+                        raise DuplicateID()
+                    ids.append(guy_new["id"])
                     
-                    if status == False:
-                        guys_unmerged.append(guy_new)
+                    if len(guys_merged) <= 0:
+                        guys_merged.append(guy_new)
+                    else:
+                        guys_merged, status = self.insertGuys(guys_merged, guy_new)
+                        
+                        if status == False:
+                            guys_unmerged.append(guy_new)
+        except DuplicateID as e:
+            result_object.error = "duplicated id found in the json-data: "
+        except InvalidID as e:
+            result_object.error = "illegal id found in the json-data"
+        else:
+            result_object.category = "bloodline"
+            result_object.payload = guys_merged
         
-        #for guy_new in guys_unmerged:
-        
-        
-        result_object = Result()
-        result_object.category = "bloodline"
-        result_object.payload = guys_merged
         return result_object
     
     def insertGuys(self, guys_merged, guy_new):
@@ -84,6 +93,7 @@ class Bibledata(object):
         inserted = False
         for i, guy_old in enumerate(guys_merged):
             if guy_new["id"]:
+                
                 if guy_new["id"] == guy_old["successor"]:
                     guys_merged.insert(i+1, guy_new)
                     inserted = True
@@ -93,6 +103,8 @@ class Bibledata(object):
                     guys_merged.insert(i, guy_new)
                     inserted = True
                     break
+            else:
+                raise InvalidID()
         
         if inserted == False:
             guys_merged.append(guy_new)
@@ -111,3 +123,9 @@ class Bibledata(object):
             return int(s)
         except:
             return s
+
+class InvalidID(Exception):
+    pass
+
+class DuplicateID(Exception):
+    pass
