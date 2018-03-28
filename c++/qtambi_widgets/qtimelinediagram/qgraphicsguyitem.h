@@ -9,25 +9,19 @@
 class QGraphicsGuyItem : public QGraphicsItem
 {
 public:
-    QGraphicsGuyItem();
-    void setGoodness(bool, bool);
-    void setNames(QString, QString);
-    QRectF boundingRect() const;
+    enum Role { king, king_north, king_south, prophet, prophet_north, prophet_south };
+    enum Sex { male, female };
 
-    // overriding paint()
-    void paint(QPainter * painter,
-               const QStyleOptionGraphicsItem * option,
-               QWidget * widget);
-
+private:
     // item state
     bool mouse_pressed;
     
     QString id; // [A-Z]*_[0-9]*
-    enum role { king, king_north, king_south, prophet, prophet_north, prophet_south };
+    Role role;
     QString name;
     QString name_original; // greek or hebrew
     QString name_meaning;
-    enum sex { male, female };
+    Sex sex;
     int age_death;
     int age_firstson;
     QList<QString> coevals; // id's of other entities
@@ -37,6 +31,30 @@ public:
     QString description; // some human-readable infos about this guy
     QString predecessor; // id's of other entities
     QString successor; // id's of other entities
+    
+public:
+    QGraphicsGuyItem();
+    
+    QRectF boundingRect() const;
+
+    // overriding paint()
+    void paint(QPainter *painter,
+               const QStyleOptionGraphicsItem *option,
+               QWidget *widget);
+    
+    void setID(QString);
+    void setRole(Role);
+    void setNames(QString, QString, QString);
+    void setSex(Sex);
+    void setAgeDeath(int);
+    void setAgeFirstSon(int);
+    void setCoevals(QList<QString>);
+    void setBibleRefs(QList<QString>);
+    void setGoodness(bool, bool);
+    void setDescription(QString);
+    void setPredecessor(QString);
+    void setSuccessor(QString);
+    
     
 protected:
     // overriding mouse events

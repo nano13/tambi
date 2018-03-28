@@ -7,18 +7,6 @@ QGraphicsGuyItem::QGraphicsGuyItem()
     setFlag(ItemIsMovable);
 }
 
-void QGraphicsGuyItem::setGoodness(bool good_start, bool good_end)
-{
-    this->good_start = good_start;
-    this->good_end = good_end;
-}
-
-void QGraphicsGuyItem::setNames(QString name, QString name_original)
-{
-    this->name = name;
-    this->name_original = name_original;
-}
-
 QRectF QGraphicsGuyItem::boundingRect() const
 {
     // outer most edges
@@ -112,4 +100,67 @@ void QGraphicsGuyItem::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
     mouse_pressed = false;
     update();
     QGraphicsItem::mouseReleaseEvent(event);
+}
+
+void QGraphicsGuyItem::setID(QString id)
+{
+    this->id = id;
+}
+
+void QGraphicsGuyItem::setRole(Role role)
+{
+    this->role = role;
+}
+
+void QGraphicsGuyItem::setNames(QString name, QString name_original, QString name_meaning)
+{
+    this->name = name;
+    this->name_original = name_original;
+    this->name_meaning = name_meaning;
+}
+
+void QGraphicsGuyItem::setSex(Sex sex)
+{
+    this->sex = sex;
+}
+
+void QGraphicsGuyItem::setAgeDeath(int age_death)
+{
+    this->age_death = age_death;
+}
+
+void QGraphicsGuyItem::setAgeFirstSon(int age_firstson)
+{
+    this->age_firstson = age_firstson;
+}
+
+void QGraphicsGuyItem::setCoevals(QList<QString> coevals)
+{
+    this->coevals = coevals;
+}
+
+void QGraphicsGuyItem::setBibleRefs(QList<QString> bible_refs)
+{
+    this->bible_refs = bible_refs;
+}
+
+void QGraphicsGuyItem::setGoodness(bool good_start, bool good_end)
+{
+    this->good_start = good_start;
+    this->good_end = good_end;
+}
+
+void QGraphicsGuyItem::setDescription(QString description)
+{
+    this->description = description;
+}
+
+void QGraphicsGuyItem::setPredecessor(QString predecessor)
+{
+    this->predecessor = predecessor;
+}
+
+void QGraphicsGuyItem::setSuccessor(QString successor)
+{
+    this->successor = successor;
 }

@@ -21,8 +21,8 @@ class QTimelineDiagramWidget : public QWidget
 public:
     QTimelineDiagramWidget(QJsonArray, QWidget *parent = 0);
     
-    void addGuyItem(QPointF, bool, bool, QString, QString);
-
+    void addGuyItem(QJsonObject);
+    void sortGuys();
     
 private:
     QGraphicsView *view;
