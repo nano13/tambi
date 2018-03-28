@@ -22,7 +22,9 @@ public:
     QTimelineDiagramWidget(QJsonArray, QWidget *parent = 0);
     
     void addGuyItem(QJsonObject);
+    void searchFurkationsAndConfluences();
     void sortGuys();
+
     
 private:
     QGraphicsView *view;

@@ -18,6 +18,7 @@ QTimelineDiagramWidget::QTimelineDiagramWidget (QJsonArray data, QWidget *parent
         addGuyItem(guy_obj);
     }
 
+    searchFurkationsAndConfluences();
     sortGuys();
 }
 
@@ -75,7 +76,27 @@ void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
     scene->addItem(guy);
 }
 
+void QTimelineDiagramWidget::searchFurkationsAndConfluences()
+{
+    QList<QGraphicsItem*> items = scene->items();
+    foreach (QGraphicsItem* guy, items)
+    {
+        QGraphicsGuyItem *a = qgraphicsitem_cast<QGraphicsGuyItem*>(guy);
+        foreach (QGraphicsItem* another_guy, items)
+        {
+            QGraphicsGuyItem *b = qgraphicsitem_cast<QGraphicsGuyItem*>(another_guy);
+
+            if (a->id() != b->id())
+            {
+                qDebug() << "iurtneiartniatreniartnuiarten";
+            }
+        }
+    }
+}
+
 void QTimelineDiagramWidget::sortGuys()
 {
 
 }
+
+

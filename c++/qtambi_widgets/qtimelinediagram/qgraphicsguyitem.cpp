@@ -58,9 +58,9 @@ void QGraphicsGuyItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *
     QFont font_name = painter->font();
     font_name.setPixelSize(12);
     painter->setFont(font_name);
-    painter->drawText(QRect(-45, 40, 100, 12), Qt::AlignCenter, name);
+    painter->drawText(QRect(-45, 40, 100, 12), Qt::AlignCenter, _name);
     
-    painter->drawText(QRect(-45, 52, 100, 12), Qt::AlignCenter, name_original);
+    painter->drawText(QRect(-45, 52, 100, 12), Qt::AlignCenter, _name_original);
     
     // BOUNDING BOX
     QRectF bounding_rect = boundingRect();
@@ -104,44 +104,44 @@ void QGraphicsGuyItem::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 
 void QGraphicsGuyItem::setID(QString id)
 {
-    this->id = id;
+    this->_id = id;
 }
 
 void QGraphicsGuyItem::setRole(Role role)
 {
-    this->role = role;
+    this->_role = role;
 }
 
 void QGraphicsGuyItem::setNames(QString name, QString name_original, QString name_meaning)
 {
-    this->name = name;
-    this->name_original = name_original;
-    this->name_meaning = name_meaning;
+    this->_name = name;
+    this->_name_original = name_original;
+    this->_name_meaning = name_meaning;
 }
 
 void QGraphicsGuyItem::setSex(Sex sex)
 {
-    this->sex = sex;
+    this->_sex = sex;
 }
 
 void QGraphicsGuyItem::setAgeDeath(int age_death)
 {
-    this->age_death = age_death;
+    this->_age_death = age_death;
 }
 
 void QGraphicsGuyItem::setAgeFirstSon(int age_firstson)
 {
-    this->age_firstson = age_firstson;
+    this->_age_firstson = age_firstson;
 }
 
 void QGraphicsGuyItem::setCoevals(QList<QString> coevals)
 {
-    this->coevals = coevals;
+    this->_coevals = coevals;
 }
 
 void QGraphicsGuyItem::setBibleRefs(QList<QString> bible_refs)
 {
-    this->bible_refs = bible_refs;
+    this->_bible_refs = bible_refs;
 }
 
 void QGraphicsGuyItem::setGoodness(bool good_start, bool good_end)
@@ -152,15 +152,68 @@ void QGraphicsGuyItem::setGoodness(bool good_start, bool good_end)
 
 void QGraphicsGuyItem::setDescription(QString description)
 {
-    this->description = description;
+    this->_description = description;
 }
 
 void QGraphicsGuyItem::setPredecessor(QString predecessor)
 {
-    this->predecessor = predecessor;
+    this->_predecessor = predecessor;
 }
 
 void QGraphicsGuyItem::setSuccessor(QString successor)
 {
-    this->successor = successor;
+    this->_successor = successor;
+}
+
+QString QGraphicsGuyItem::id()
+{
+    return _id;
+}
+QGraphicsGuyItem::Role QGraphicsGuyItem::role()
+{
+    return _role;
+}
+QList<QString> QGraphicsGuyItem::names()
+{
+    QList<QString> ret_list;
+    ret_list << _name << _name_original << _name_meaning;
+    return ret_list;
+}
+QGraphicsGuyItem::Sex QGraphicsGuyItem::sex()
+{
+    return _sex;
+}
+int QGraphicsGuyItem::ageDeath()
+{
+    return _age_death;
+}
+int QGraphicsGuyItem::ageFirstSon()
+{
+    return _age_firstson;
+}
+QList<QString> QGraphicsGuyItem::coevals()
+{
+    return _coevals;
+}
+QList<QString> QGraphicsGuyItem::bibleRefs()
+{
+    return _bible_refs;
+}
+QList<bool> QGraphicsGuyItem::goodness()
+{
+    QList<bool> ret_list;
+    ret_list << good_start << good_end;
+    return ret_list;
+}
+QString QGraphicsGuyItem::description()
+{
+    return _description;
+}
+QString QGraphicsGuyItem::predecessor()
+{
+    return _predecessor;
+}
+QString QGraphicsGuyItem::successor()
+{
+    return _successor;
 }
