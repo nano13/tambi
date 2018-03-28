@@ -50,7 +50,9 @@ HEADERS += qtambi_widgets/main_window.h\
     qtambi_widgets/menu_bar.h\
     qtambi_widgets/unicode_fonts.h\
     qtambi_widgets/tts_interface.h\
-    qtambi_widgets/qbloodlinewidget.h
+    qtambi_widgets/qtimelinediagram/qtimelinediagramwidget.h\
+    qtambi_widgets/qtimelinediagram/qgraphicsguyitem.h
+    #qtambi_widgets/qbloodlinewidget.h\
 
 SOURCES += tambi.cpp\
     qtambi_widgets/main_window.cpp\
@@ -62,7 +64,9 @@ SOURCES += tambi.cpp\
     qtambi_widgets/menu_bar.cpp\
     qtambi_widgets/unicode_fonts.cpp\
     qtambi_widgets/tts_interface.cpp\
-    qtambi_widgets/qbloodlinewidget.cpp
+    qtambi_widgets/qtimelinediagram/qtimelinediagramwidget.cpp\
+    qtambi_widgets/qtimelinediagram/qgraphicsguyitem.cpp
+    #qtambi_widgets/qbloodlinewidget.cpp\
 
 RESOURCES += tambi.qrc
 
