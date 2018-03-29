@@ -46,7 +46,6 @@ protected:
     
     
 private slots:
-    //void traverseFoundNothing();
     
 signals:
     

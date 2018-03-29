@@ -216,10 +216,3 @@ QGraphicsItem *QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsGuyI
         }
     }
 }
-
-/*
-void QTimelineDiagramWidget::traverseFoundNothing()
-{
-    traverse_found_sth = false;
-}
-*/
