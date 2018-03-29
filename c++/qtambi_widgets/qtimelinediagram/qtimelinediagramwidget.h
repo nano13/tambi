@@ -24,18 +24,29 @@ public:
     void addGuyItem(QJsonObject);
     void searchFurkationsAndConfluences();
     void sortGuys();
+    
+    void buildTree();
+    QGraphicsItem* traverseTreeForMatchingNode(QGraphicsGuyItem *node, QString id);
 
     
 private:
     QGraphicsView *view;
     QGraphicsScene *scene;
     QVBoxLayout *layout;
+
+    // list of all found furcations and confluences
+    // saved as a list of the according items
+    QList<QList<QGraphicsItem*>> furcations;
+    QList<QList<QGraphicsItem*>> confluences;
+    
+    QGraphicsItem *root_item;
+    bool traverse_found_sth = false;
     
 protected:
     
     
 private slots:
-    
+    //void traverseFoundNothing();
     
 signals:
     

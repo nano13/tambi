@@ -12,20 +12,21 @@ QTimelineDiagramWidget::QTimelineDiagramWidget (QJsonArray data, QWidget *parent
     layout->setContentsMargins(0, 0, 0, 0);
     layout->addWidget(view);
     setLayout(layout);
-
+    
     foreach (QJsonValue guy_val, data) {
         QJsonObject guy_obj = guy_val.toObject();
         addGuyItem(guy_obj);
     }
-
-    searchFurkationsAndConfluences();
-    sortGuys();
+    
+    //searchFurkationsAndConfluences();
+    //sortGuys();
+    buildTree();
 }
 
 void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
 {
     QGraphicsGuyItem *guy = new QGraphicsGuyItem();
-
+    
     // converting QString to Enum
     QString role_string = guy_obj.value("role").toString();
     QGraphicsGuyItem::Role role_enum;
@@ -35,11 +36,11 @@ void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
     if (role_string == "prophet") role_enum = QGraphicsGuyItem::Role::prophet;
     if (role_string == "prophet_north") role_enum = QGraphicsGuyItem::Role::prophet_north;
     if (role_string == "prophet_south") role_enum = QGraphicsGuyItem::Role::prophet_south;
-
+    
     // converting QString to Enum
     QString sex_string = guy_obj.value("sex").toString();
     QGraphicsGuyItem::Sex sex_enum = (sex_string == "male") ? QGraphicsGuyItem::Sex::male : QGraphicsGuyItem::Sex::female;
-
+    
     // converting QJsonArray to QList<QString>
     QJsonArray coevals_array = guy_obj.value("coevals").toArray();
     QList<QString> coevals_list;
@@ -47,7 +48,7 @@ void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
     {
         coevals_list.append(coeval.toString());
     }
-
+    
     // converting QJsonArray to QList<QString>
     QJsonArray refs_array = guy_obj.value("bible_refs").toArray();
     QList<QString> refs_list;
@@ -55,7 +56,7 @@ void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
     {
         refs_list.append(ref.toString());
     }
-
+    
     guy->setID(guy_obj.value("id").toString());
     guy->setRole(role_enum);
     guy->setNames(guy_obj.value("name_de").toString(),
@@ -71,24 +72,50 @@ void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
     guy->setDescription(guy_obj.value("description").toString());
     guy->setPredecessor(guy_obj.value("predecessor").toString());
     guy->setSuccessor(guy_obj.value("successor").toString());
-
+    
     //guy->setPos(pos);
     scene->addItem(guy);
 }
 
 void QTimelineDiagramWidget::searchFurkationsAndConfluences()
 {
+    // candidates are all items tied together with a
+    // successor or predecessor relationship
+    QList<QGraphicsItem*> furkation_candidates;
+    QList<QGraphicsItem*> confluence_candidates;
+    
     QList<QGraphicsItem*> items = scene->items();
-    foreach (QGraphicsItem* guy, items)
+    // the data has to be preordered!
+    // assuming here that the first element is the root-item (or the leftmost to be shown)!
+    QGraphicsItem *root = items.takeFirst();
+    
+    while (items.length() > 0)
     {
+        QGraphicsItem *guy = items.takeFirst();
         QGraphicsGuyItem *a = qgraphicsitem_cast<QGraphicsGuyItem*>(guy);
-        foreach (QGraphicsItem* another_guy, items)
+        foreach (QGraphicsItem *another_guy, items)
         {
             QGraphicsGuyItem *b = qgraphicsitem_cast<QGraphicsGuyItem*>(another_guy);
 
-            if (a->id() != b->id())
+            // possible confluences
+            if (a->successor() == b->id())
             {
-                qDebug() << "iurtneiartniatreniartnuiarten";
+                qDebug() << "a succ b";
+            }
+            if (b->successor() == a->id())
+            {
+                qDebug() << "b succ a";
+            }
+
+            // possible furcations
+            if (a->id() == b->predecessor())
+            {
+                qDebug() << "a pred b";
+                //furkation_candidates.append();
+            }
+            if (b->id() == a->predecessor())
+            {
+                qDebug() << "b pred a";
             }
         }
     }
@@ -96,7 +123,103 @@ void QTimelineDiagramWidget::searchFurkationsAndConfluences()
 
 void QTimelineDiagramWidget::sortGuys()
 {
-
+    
 }
 
+void QTimelineDiagramWidget::buildTree()
+{
+    // get the size of the guy
+    QGraphicsGuyItem *guy = new QGraphicsGuyItem();
+    int guy_width = guy->boundingRect().width();
+    int guy_height = guy->boundingRect().height();
+    
+    QList<QGraphicsItem*> items = scene->items(Qt::AscendingOrder);
+    
+    // the data has to be preordered!
+    // assuming here that the first element is the root-item (or the leftmost to be shown)!
+    root_item = items.takeFirst();
+    QGraphicsGuyItem *root = qgraphicsitem_cast<QGraphicsGuyItem*>(root_item);
+    root_item->setPos(0, 0);
+    
+    // now we search the whole tree for successor-elements of the root
+    //foreach (QGraphicsItem *guy_item, items)
+    //for (int i = 0; i < items.length(); ++i)
+    while (items.length() > 0)
+    {
+        bool taken = false;
+        for (int j = 0; j < items.length(); ++j)
+        {
+            QGraphicsItem *guy_item = items.at(j);
+            QGraphicsGuyItem *guy = qgraphicsitem_cast<QGraphicsGuyItem*>(guy_item);
+            
+            traverse_found_sth = false;
+            QGraphicsItem* found_guy_item = traverseTreeForMatchingNode(root, guy->id());
+            QGraphicsGuyItem *found_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(found_guy_item);
+            if (traverse_found_sth)
+            {
+                qDebug() << "found sth!";
+            }
+            /*
+            if (root->successor() == guy->id())
+            {
+                guy->setParentItem(root);
+                items.removeAt(j);
+                guy->setPos(guy_width, 0);
+                taken = true;
+                qDebug() << "set successor";
+            }
+            */
+            if (traverse_found_sth && (guy->predecessor() == found_guy->id()))
+            {
+                guy->setParentItem(root);
+                items.removeAt(j);
+                guy->setPos(guy_width, 0);
+                taken = true;
+                qDebug() << "set predecessor";
+            }
+        }
+        
+        // if none items have a parent in the tree,
+        // we reparent the first one to our root element
+        // in order to get the items-list emptied never the less
+        if (!taken)
+        {
+            QGraphicsItem *guy_item = items.takeFirst();
+            //QGraphicsGuyItem *guy = qgraphicsitem_cast<QGraphicsGuyItem*>(guy_item);
+            guy_item->setParentItem(root);
+            
+            guy_item->setPos(2 * guy_width, 0);
+        }
+    }
+    
+    //qDebug() << root->childItems();
+}
 
+// DFS for node with given id (recursive implementation)
+QGraphicsItem *QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsGuyItem* node, QString id)
+{
+    //qDebug() << node->id() << id;
+    //qDebug() << node->childItems();
+    
+    if (node->id() == id)
+    {
+        traverse_found_sth = true;
+        return node;
+    }
+    else
+    {
+        QList<QGraphicsItem*> items = node->childItems();
+        foreach (QGraphicsItem* item, items)
+        {
+            QGraphicsGuyItem *guy = qgraphicsitem_cast<QGraphicsGuyItem*>(item);
+            traverseTreeForMatchingNode(guy, id);
+        }
+    }
+}
+
+/*
+void QTimelineDiagramWidget::traverseFoundNothing()
+{
+    traverse_found_sth = false;
+}
+*/
