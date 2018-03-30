@@ -149,29 +149,16 @@ void QTimelineDiagramWidget::buildTree()
         bool taken = false;
         for (int j = 0; j < items.length(); ++j)
         {
-            QGraphicsItem *guy_item = items.at(j);
-            QGraphicsGuyItem *guy = qgraphicsitem_cast<QGraphicsGuyItem*>(guy_item);
+            QGraphicsItem* guy_item = items.at(j);
+            QGraphicsGuyItem* guy = qgraphicsitem_cast<QGraphicsGuyItem*>(guy_item);
             
-            traverse_found_sth = false;
-            QGraphicsItem* found_guy_item = traverseTreeForMatchingNode(root, guy->id());
-            QGraphicsGuyItem *found_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(found_guy_item);
-            if (traverse_found_sth)
+            bool found = traverseTreeForMatchingNode(root, guy->predecessor());
+            if (found)
             {
-                qDebug() << "found sth!";
-            }
-            /*
-            if (root->successor() == guy->id())
-            {
-                guy->setParentItem(root);
-                items.removeAt(j);
-                guy->setPos(guy_width, 0);
-                taken = true;
-                qDebug() << "set successor";
-            }
-            */
-            if (traverse_found_sth && (guy->predecessor() == found_guy->id()))
-            {
-                guy->setParentItem(root);
+                //QGraphicsGuyItem *found_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(found_guy_item);
+                //guy->setParentItem(root_item);
+                //qDebug() << found_guy;
+                guy->setParentItem(found_guy);
                 items.removeAt(j);
                 guy->setPos(guy_width, 0);
                 taken = true;
@@ -188,31 +175,35 @@ void QTimelineDiagramWidget::buildTree()
             //QGraphicsGuyItem *guy = qgraphicsitem_cast<QGraphicsGuyItem*>(guy_item);
             guy_item->setParentItem(root);
             
-            guy_item->setPos(2 * guy_width, 0);
+            guy_item->setPos(2 * guy_width, 100);
+            qDebug() << "no predecessor found";
         }
     }
-    
-    //qDebug() << root->childItems();
 }
 
-// DFS for node with given id (recursive implementation)
-QGraphicsItem *QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsGuyItem* node, QString id)
+// DFS for node with given id (iterative implementation)
+bool QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsItem* node, QString id)
 {
-    //qDebug() << node->id() << id;
-    //qDebug() << node->childItems();
+    QStack<QGraphicsItem*> stack;
+    stack.push(node);
     
-    if (node->id() == id)
+    while (!stack.isEmpty())
     {
-        traverse_found_sth = true;
-        return node;
-    }
-    else
-    {
-        QList<QGraphicsItem*> items = node->childItems();
-        foreach (QGraphicsItem* item, items)
+        QGraphicsItem* node = stack.pop();
+        
+        QGraphicsGuyItem *guy_node = qgraphicsitem_cast<QGraphicsGuyItem*>(node);
+        if (guy_node->id() == id)
         {
-            QGraphicsGuyItem *guy = qgraphicsitem_cast<QGraphicsGuyItem*>(item);
-            traverseTreeForMatchingNode(guy, id);
+            this->found_guy = node;
+            return true;
+        }
+        else
+        {
+            foreach (QGraphicsItem* guy, node->childItems()) {
+                stack.push(guy);
+            }
         }
     }
+    
+    return false;
 }
