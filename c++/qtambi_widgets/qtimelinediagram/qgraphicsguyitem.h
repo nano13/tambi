@@ -46,7 +46,14 @@ public:
     QGraphicsGuyItem();
     
     QRectF boundingRect() const;
-
+    
+    // overriding type()
+    enum { Type = UserType + 1 };
+    int type() const
+    {
+        return Type;
+    }
+    
     // overriding paint()
     void paint(QPainter *painter,
                const QStyleOptionGraphicsItem *option,

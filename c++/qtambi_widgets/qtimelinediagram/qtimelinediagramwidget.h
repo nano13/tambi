@@ -11,6 +11,7 @@
 #include <QJsonValue>
 #include <QStack>
 #include <QTransform>
+#include <QLineF>
 
 #include <qtambi_widgets/qtimelinediagram/qgraphicsguyitem.h>
 
@@ -22,12 +23,13 @@ public:
     QTimelineDiagramWidget(QJsonArray, QWidget* parent = 0);
     
     void addGuyItem(QJsonObject);
-    void searchFurkationsAndConfluences();
-    void sortGuys();
+    //void searchFurkationsAndConfluences();
     
     void buildTree();
-    bool traverseTreeForMatchingNode(QGraphicsItem* node, QString id);
-
+    bool traverseTreeForMatchingNode(QGraphicsItem*, QString);
+    void traverseTreeForCoevalNode(QGraphicsItem*, QString);
+    void resolveCollisions();
+    void drawPredecessionLine(QGraphicsItem*parent, QGraphicsItem*child);
     
 private:
     QGraphicsView* view;

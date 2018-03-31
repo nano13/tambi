@@ -18,9 +18,8 @@ QTimelineDiagramWidget::QTimelineDiagramWidget (QJsonArray data, QWidget *parent
         addGuyItem(guy_obj);
     }
     
-    //searchFurkationsAndConfluences();
-    //sortGuys();
     buildTree();
+    resolveCollisions();
 }
 
 void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
@@ -77,6 +76,7 @@ void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
     scene->addItem(guy);
 }
 
+/*
 void QTimelineDiagramWidget::searchFurkationsAndConfluences()
 {
     // candidates are all items tied together with a
@@ -120,11 +120,7 @@ void QTimelineDiagramWidget::searchFurkationsAndConfluences()
         }
     }
 }
-
-void QTimelineDiagramWidget::sortGuys()
-{
-    
-}
+*/
 
 void QTimelineDiagramWidget::buildTree()
 {
@@ -155,14 +151,12 @@ void QTimelineDiagramWidget::buildTree()
             bool found = traverseTreeForMatchingNode(root, guy->predecessor());
             if (found)
             {
-                //QGraphicsGuyItem *found_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(found_guy_item);
-                //guy->setParentItem(root_item);
-                //qDebug() << found_guy;
                 guy->setParentItem(found_guy);
                 items.removeAt(j);
                 guy->setPos(guy_width, 0);
                 taken = true;
-                qDebug() << "set predecessor";
+                
+                drawPredecessionLine(found_guy, guy);
             }
         }
         
@@ -172,11 +166,9 @@ void QTimelineDiagramWidget::buildTree()
         if (!taken)
         {
             QGraphicsItem *guy_item = items.takeFirst();
-            //QGraphicsGuyItem *guy = qgraphicsitem_cast<QGraphicsGuyItem*>(guy_item);
             guy_item->setParentItem(root);
             
-            guy_item->setPos(2 * guy_width, 100);
-            qDebug() << "no predecessor found";
+            guy_item->setPos(guy_width, 100);
         }
     }
 }
@@ -190,20 +182,61 @@ bool QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsItem* node, QS
     while (!stack.isEmpty())
     {
         QGraphicsItem* node = stack.pop();
-        
-        QGraphicsGuyItem *guy_node = qgraphicsitem_cast<QGraphicsGuyItem*>(node);
-        if (guy_node->id() == id)
+        if (node->type() == QGraphicsItem::UserType + 1) // QGraphicsGuyItem
         {
-            this->found_guy = node;
-            return true;
-        }
-        else
-        {
-            foreach (QGraphicsItem* guy, node->childItems()) {
-                stack.push(guy);
+            QGraphicsGuyItem *guy_node = qgraphicsitem_cast<QGraphicsGuyItem*>(node);
+            if (guy_node->id() == id)
+            {
+                this->found_guy = node;
+                return true;
+            }
+            else
+            {
+                foreach (QGraphicsItem* guy, node->childItems()) {
+                    stack.push(guy);
+                }
             }
         }
     }
     
     return false;
+}
+
+void QTimelineDiagramWidget::traverseTreeForCoevalNode(QGraphicsItem* node, QString id)
+{
+    QStack<QGraphicsItem*> stack;
+    stack.push(node);
+    
+    while (!stack.isEmpty())
+    {
+        QGraphicsItem* node = stack.pop();
+        QGraphicsGuyItem *guy_node = qgraphicsitem_cast<QGraphicsGuyItem*>(node);
+        
+    }
+}
+
+// traverse tree with dfs for detecting and fixing collisions
+void QTimelineDiagramWidget::resolveCollisions()
+{
+    QList<QGraphicsItem*> items = scene->items();
+    for (int i = 0; i < items.length(); ++i)
+    {
+        
+    }
+}
+
+void QTimelineDiagramWidget::drawPredecessionLine(QGraphicsItem* parent, QGraphicsItem* child)
+{
+    qDebug() << "";
+    
+    QPointF start = parent->mapToScene(parent->pos());
+    QPointF end = child->mapToScene(child->pos());
+    
+    qDebug() << start;
+    qDebug() << end;
+    
+    QLineF line = QLineF(start, end);
+    QGraphicsLineItem* line_item = scene->addLine(line);
+    
+    line_item->setParentItem(parent);
 }
