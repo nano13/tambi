@@ -11,7 +11,7 @@
         "good_start": false,
         "good_end": false,
         "description": "",
-        "predecessor": "",
+        "predecessor": "KW_02",
         "successor": "KS_01"
     },
     {
