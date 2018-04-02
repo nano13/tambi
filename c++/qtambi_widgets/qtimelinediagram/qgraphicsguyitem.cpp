@@ -92,6 +92,14 @@ void QGraphicsGuyItem::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
     mouse_pressed = true;
     update();
+    
+    QGuyDetailsWindow *guy_details_window = new QGuyDetailsWindow();
+    guy_details_window->setID(_id);
+    //guy_details_window->setRole(_role);
+    guy_details_window->setNames(_name, _name_original, _name_meaning);
+    
+    guy_details_window->show();
+    
     QGraphicsItem::mousePressEvent(event);
 }
 

@@ -156,7 +156,7 @@ void QTimelineDiagramWidget::buildTree()
                 guy->setPos(guy_width, 0);
                 taken = true;
                 
-                drawPredecessionLine(found_guy, guy);
+                //drawPredecessionLine(found_guy, guy);
             }
         }
         
@@ -236,7 +236,7 @@ void QTimelineDiagramWidget::drawPredecessionLine(QGraphicsItem* parent, QGraphi
     qDebug() << end;
     
     QLineF line = QLineF(start, end);
-    QGraphicsLineItem* line_item = scene->addLine(line);
+    //QGraphicsLineItem* line_item = scene->addLine(line);
     
-    line_item->setParentItem(parent);
+    //line_item->setParentItem(parent);
 }

@@ -5,6 +5,9 @@
 #include <QPainter>
 #include <QGraphicsItem>
 #include <QGraphicsEllipseItem>
+#include <QDebug>
+
+#include <qtambi_widgets/qtimelinediagram/qguydetailswindow.h>
 
 class QGraphicsGuyItem : public QGraphicsItem
 {
