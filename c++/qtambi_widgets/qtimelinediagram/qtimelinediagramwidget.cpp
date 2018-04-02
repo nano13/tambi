@@ -218,10 +218,49 @@ void QTimelineDiagramWidget::traverseTreeForCoevalNode(QGraphicsItem* node, QStr
 // traverse tree with dfs for detecting and fixing collisions
 void QTimelineDiagramWidget::resolveCollisions()
 {
-    QList<QGraphicsItem*> items = scene->items();
-    for (int i = 0; i < items.length(); ++i)
+    bool once_again = true;
+    while (once_again)
     {
+        once_again = false; // unless we set this true later ...
+        QList<QString> visited_items_ids;
+        QList<QGraphicsItem*> items_to_visit; // to be used as a queue
+        items_to_visit.append(root_item);
         
+        QGraphicsGuyItem *root_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(root_item);
+        visited_items_ids.append(root_guy->id());
+        
+        while (! items_to_visit.isEmpty())
+        {
+            QGraphicsItem* node = items_to_visit.takeLast();
+            QGraphicsGuyItem *guy_node = qgraphicsitem_cast<QGraphicsGuyItem*>(node);
+            
+            // detect for collision for the current node
+            QGraphicsItem *gitem = scene->itemAt(node->scenePos(), QTransform());
+            if (gitem != 0)
+            {
+                QGraphicsGuyItem *gitem_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(gitem);
+                if (gitem_guy->id() != guy_node->id())
+                {
+                    QPointF position = node->pos();
+                    position.setY(position.y() + 10+100);
+                    node->setPos(position);
+                    
+                    // if we have moved an item, we have to run a sort-iteration again
+                    once_again = true;
+                }
+            }
+            
+            // append child items to the queue items_to_visit (part of BFS)
+            foreach (QGraphicsItem* child, node->childItems())
+            {
+                QGraphicsGuyItem *child_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(child);
+                if (visited_items_ids.indexOf(child_guy->id()) == -1)
+                {
+                    items_to_visit.append(child);
+                    visited_items_ids.append(child_guy->id());
+                }
+            }
+        }
     }
 }
 

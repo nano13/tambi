@@ -93,8 +93,6 @@ public Q_SLOTS:
 
 protected:
     // overriding mouse events
-    void mousePressEvent(QGraphicsSceneMouseEvent *event);
-    void mouseReleaseEvent(QGraphicsSceneMouseEvent *event);
     void mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event);
 };
 

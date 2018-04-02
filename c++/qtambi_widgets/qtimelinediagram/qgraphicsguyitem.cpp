@@ -69,38 +69,6 @@ void QGraphicsGuyItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *
     painter->setBrush(Qt::NoBrush);
     //painter->drawRect(bounding_rect);
     //painter->drawRect(QRect(-45, 40, 100, 12));
-    
-    /*
-    QRectF rect = boundingRect();
-    
-    if(mouse_pressed)
-    {
-        QPen pen(Qt::red, 1);
-        painter->setPen(pen);
-        painter->drawEllipse(rect);
-    }
-    else
-    {
-        QPen pen(Qt::black, 1);
-        painter->setPen(pen);
-        painter->drawRect(rect);
-    }
-    */
-}
-
-void QGraphicsGuyItem::mousePressEvent(QGraphicsSceneMouseEvent *event)
-{
-    mouse_pressed = true;
-    update();
-    QGraphicsItem::mousePressEvent(event);
-}
-
-void QGraphicsGuyItem::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
-{
-    mouse_pressed = false;
-    update();
-    
-    QGraphicsItem::mouseReleaseEvent(event);
 }
 
 void QGraphicsGuyItem::mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event)
