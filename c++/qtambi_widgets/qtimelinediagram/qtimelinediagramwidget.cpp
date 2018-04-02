@@ -72,55 +72,8 @@ void QTimelineDiagramWidget::addGuyItem(QJsonObject guy_obj)
     guy->setPredecessor(guy_obj.value("predecessor").toString());
     guy->setSuccessor(guy_obj.value("successor").toString());
     
-    //guy->setPos(pos);
     scene->addItem(guy);
 }
-
-/*
-void QTimelineDiagramWidget::searchFurkationsAndConfluences()
-{
-    // candidates are all items tied together with a
-    // successor or predecessor relationship
-    QList<QGraphicsItem*> furkation_candidates;
-    QList<QGraphicsItem*> confluence_candidates;
-    
-    QList<QGraphicsItem*> items = scene->items();
-    // the data has to be preordered!
-    // assuming here that the first element is the root-item (or the leftmost to be shown)!
-    QGraphicsItem *root = items.takeFirst();
-    
-    while (items.length() > 0)
-    {
-        QGraphicsItem *guy = items.takeFirst();
-        QGraphicsGuyItem *a = qgraphicsitem_cast<QGraphicsGuyItem*>(guy);
-        foreach (QGraphicsItem *another_guy, items)
-        {
-            QGraphicsGuyItem *b = qgraphicsitem_cast<QGraphicsGuyItem*>(another_guy);
-
-            // possible confluences
-            if (a->successor() == b->id())
-            {
-                qDebug() << "a succ b";
-            }
-            if (b->successor() == a->id())
-            {
-                qDebug() << "b succ a";
-            }
-
-            // possible furcations
-            if (a->id() == b->predecessor())
-            {
-                qDebug() << "a pred b";
-                //furkation_candidates.append();
-            }
-            if (b->id() == a->predecessor())
-            {
-                qDebug() << "b pred a";
-            }
-        }
-    }
-}
-*/
 
 void QTimelineDiagramWidget::buildTree()
 {
@@ -218,10 +171,17 @@ void QTimelineDiagramWidget::traverseTreeForCoevalNode(QGraphicsItem* node, QStr
 // traverse tree with dfs for detecting and fixing collisions
 void QTimelineDiagramWidget::resolveCollisions()
 {
+    // get the size of the guy
+    QGraphicsGuyItem *guy = new QGraphicsGuyItem();
+    int guy_width = guy->boundingRect().width();
+    int guy_height = guy->boundingRect().height();
+    
     bool once_again = true;
     while (once_again)
     {
         once_again = false; // unless we set this true later ...
+        
+        // set up for bfs
         QList<QString> visited_items_ids;
         QList<QGraphicsItem*> items_to_visit; // to be used as a queue
         items_to_visit.append(root_item);
@@ -242,7 +202,7 @@ void QTimelineDiagramWidget::resolveCollisions()
                 if (gitem_guy->id() != guy_node->id())
                 {
                     QPointF position = node->pos();
-                    position.setY(position.y() + 10+100);
+                    position.setY(position.y() + 10+guy_height);
                     node->setPos(position);
                     
                     // if we have moved an item, we have to run a sort-iteration again

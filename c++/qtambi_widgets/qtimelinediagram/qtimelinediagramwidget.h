@@ -23,7 +23,6 @@ public:
     QTimelineDiagramWidget(QJsonArray, QWidget* parent = 0);
     
     void addGuyItem(QJsonObject);
-    //void searchFurkationsAndConfluences();
     
     void buildTree();
     bool traverseTreeForMatchingNode(QGraphicsItem*, QString);
