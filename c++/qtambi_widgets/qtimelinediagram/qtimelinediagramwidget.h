@@ -26,7 +26,7 @@ public:
     
     void buildTree();
     bool traverseTreeForMatchingNode(QGraphicsItem*, QString);
-    void traverseTreeForCoevalNode(QGraphicsItem*, QString);
+    void traverseTreeForCoevalNodes();
     void resolveCollisions();
     void drawPredecessionLine(QGraphicsItem*parent, QGraphicsItem*child);
     

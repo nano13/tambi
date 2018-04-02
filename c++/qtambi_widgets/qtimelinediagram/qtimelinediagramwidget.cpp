@@ -19,6 +19,7 @@ QTimelineDiagramWidget::QTimelineDiagramWidget (QJsonArray data, QWidget *parent
     }
     
     buildTree();
+    traverseTreeForCoevalNodes();
     resolveCollisions();
 }
 
@@ -155,17 +156,9 @@ bool QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsItem* node, QS
     return false;
 }
 
-void QTimelineDiagramWidget::traverseTreeForCoevalNode(QGraphicsItem* node, QString id)
+void QTimelineDiagramWidget::traverseTreeForCoevalNodes()
 {
-    QStack<QGraphicsItem*> stack;
-    stack.push(node);
     
-    while (!stack.isEmpty())
-    {
-        QGraphicsItem* node = stack.pop();
-        QGraphicsGuyItem *guy_node = qgraphicsitem_cast<QGraphicsGuyItem*>(node);
-        
-    }
 }
 
 // traverse tree with dfs for detecting and fixing collisions
