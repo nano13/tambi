@@ -62,6 +62,8 @@ public:
                const QStyleOptionGraphicsItem *option,
                QWidget *widget);
     
+    void showGuyDetailsWindow();
+    
     void setID(QString);
     void setRole(Role);
     void setNames(QString, QString, QString);
@@ -93,6 +95,7 @@ protected:
     // overriding mouse events
     void mousePressEvent(QGraphicsSceneMouseEvent *event);
     void mouseReleaseEvent(QGraphicsSceneMouseEvent *event);
+    void mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event);
 };
 
 #endif // QGRAPHICSGUYITEM_H

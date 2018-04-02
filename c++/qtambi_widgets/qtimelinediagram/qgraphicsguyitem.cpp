@@ -92,14 +92,6 @@ void QGraphicsGuyItem::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
     mouse_pressed = true;
     update();
-    
-    QGuyDetailsWindow *guy_details_window = new QGuyDetailsWindow();
-    guy_details_window->setID(_id);
-    //guy_details_window->setRole(_role);
-    guy_details_window->setNames(_name, _name_original, _name_meaning);
-    
-    guy_details_window->show();
-    
     QGraphicsItem::mousePressEvent(event);
 }
 
@@ -107,7 +99,24 @@ void QGraphicsGuyItem::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 {
     mouse_pressed = false;
     update();
+    
     QGraphicsItem::mouseReleaseEvent(event);
+}
+
+void QGraphicsGuyItem::mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event)
+{
+    showGuyDetailsWindow();
+    QGraphicsItem::mouseDoubleClickEvent(event);
+}
+
+void QGraphicsGuyItem::showGuyDetailsWindow()
+{
+    QGuyDetailsWindow *guy_details_window = new QGuyDetailsWindow();
+    guy_details_window->setID(_id);
+    //guy_details_window->setRole(_role);
+    guy_details_window->setNames(_name, _name_original, _name_meaning);
+    
+    guy_details_window->show();
 }
 
 void QGraphicsGuyItem::setID(QString id)
