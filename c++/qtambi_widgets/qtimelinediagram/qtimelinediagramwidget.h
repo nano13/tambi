@@ -43,6 +43,8 @@ private:
     QGraphicsItem* root_item;
     QGraphicsItem* found_guy;
     
+    QPointF default_position = QPointF(100, 100);
+    
 protected:
     
     

@@ -110,7 +110,7 @@ void QTimelineDiagramWidget::buildTree()
                 guy->setPos(guy_width, 0);
                 taken = true;
                 
-                //drawPredecessionLine(found_guy, guy);
+                drawPredecessionLine(found_guy, guy);
             }
         }
         
@@ -122,7 +122,7 @@ void QTimelineDiagramWidget::buildTree()
             QGraphicsItem *guy_item = items.takeFirst();
             guy_item->setParentItem(root);
             
-            guy_item->setPos(guy_width, 100);
+            guy_item->setPos(this->default_position);
         }
     }
 }
@@ -159,6 +159,11 @@ bool QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsItem* node, QS
 // DFS 
 void QTimelineDiagramWidget::traverseTreeForCoevalNodes()
 {
+    // get the size of the guy
+    QGraphicsGuyItem *guy = new QGraphicsGuyItem();
+    int guy_width = guy->boundingRect().width();
+    int guy_height = guy->boundingRect().height();
+    
     QStack<QGraphicsItem*> stack;
     stack.push(root_item);
     
@@ -174,7 +179,28 @@ void QTimelineDiagramWidget::traverseTreeForCoevalNodes()
                 bool found = traverseTreeForMatchingNode(root_item, coeval);
                 if (found)
                 {
-                    
+                    if (this->found_guy->scenePos() == this->default_position)
+                    {
+                        QPointF new_pos = guy_node->scenePos();
+                        new_pos.setY(new_pos.y() - guy_height);
+                        this->found_guy->setPos(new_pos);
+                    }
+                    else if (guy_node->scenePos() == this->default_position)
+                    {
+                        QPointF new_pos = this->found_guy->scenePos();
+                        new_pos.setY(new_pos.y() - guy_height);
+                        guy_node->setPos(new_pos);
+                    }
+                    else
+                    {
+                        qDebug() << "";
+                        qDebug() << guy_node->id();
+                        qDebug() << guy_node->scenePos();
+                        qDebug() << found_guy->scenePos();
+                        QPointF new_pos = guy_node->scenePos();
+                        new_pos.setY(new_pos.y() - guy_height);
+                        //this->found_guy->setPos(new_pos);
+                    }
                 }
             }
             
@@ -214,7 +240,7 @@ void QTimelineDiagramWidget::resolveCollisions()
             
             // detect for collision for the current node
             QGraphicsItem *gitem = scene->itemAt(node->scenePos(), QTransform());
-            if (gitem != 0)
+            if ((gitem != 0) && (gitem->type() == QGraphicsItem::UserType + 1)) // QGraphicsGuyItem
             {
                 QGraphicsGuyItem *gitem_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(gitem);
                 if (gitem_guy->id() != guy_node->id())
@@ -231,11 +257,14 @@ void QTimelineDiagramWidget::resolveCollisions()
             // append child items to the queue items_to_visit (part of BFS)
             foreach (QGraphicsItem* child, node->childItems())
             {
-                QGraphicsGuyItem *child_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(child);
-                if (visited_items_ids.indexOf(child_guy->id()) == -1)
+                if (child->type() == QGraphicsItem::UserType + 1) // QGraphicsGuyItem
                 {
-                    items_to_visit.append(child);
-                    visited_items_ids.append(child_guy->id());
+                    QGraphicsGuyItem *child_guy = qgraphicsitem_cast<QGraphicsGuyItem*>(child);
+                    if (visited_items_ids.indexOf(child_guy->id()) == -1)
+                    {
+                        items_to_visit.append(child);
+                        visited_items_ids.append(child_guy->id());
+                    }
                 }
             }
         }
@@ -246,14 +275,15 @@ void QTimelineDiagramWidget::drawPredecessionLine(QGraphicsItem* parent, QGraphi
 {
     qDebug() << "";
     
-    QPointF start = parent->mapToScene(parent->pos());
-    QPointF end = child->mapToScene(child->pos());
+    //QPointF start = parent->mapToScene(parent->scenePos());
+    //QPointF end = child->mapToScene(child->scenePos());
+    QPointF start = parent->scenePos();
+    QPointF end = child->scenePos();
     
     qDebug() << start;
     qDebug() << end;
     
     QLineF line = QLineF(start, end);
-    //QGraphicsLineItem* line_item = scene->addLine(line);
-    
+    //QGraphicsLineItem *line_item = scene->addLine(line);
     //line_item->setParentItem(parent);
 }
