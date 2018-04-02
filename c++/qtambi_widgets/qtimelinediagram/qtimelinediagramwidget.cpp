@@ -133,7 +133,7 @@ bool QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsItem* node, QS
     QStack<QGraphicsItem*> stack;
     stack.push(node);
     
-    while (!stack.isEmpty())
+    while (! stack.isEmpty())
     {
         QGraphicsItem* node = stack.pop();
         if (node->type() == QGraphicsItem::UserType + 1) // QGraphicsGuyItem
@@ -156,9 +156,34 @@ bool QTimelineDiagramWidget::traverseTreeForMatchingNode(QGraphicsItem* node, QS
     return false;
 }
 
+// DFS 
 void QTimelineDiagramWidget::traverseTreeForCoevalNodes()
 {
+    QStack<QGraphicsItem*> stack;
+    stack.push(root_item);
     
+    while (! stack.isEmpty())
+    {
+        QGraphicsItem *node = stack.pop();
+        if (node->type() == QGraphicsItem::UserType + 1) // QGraphicsGuyItem
+        {
+            QGraphicsGuyItem *guy_node = qgraphicsitem_cast<QGraphicsGuyItem*>(node);
+            QList<QString> coevals = guy_node->coevals();
+            foreach (QString coeval, coevals)
+            {
+                bool found = traverseTreeForMatchingNode(root_item, coeval);
+                if (found)
+                {
+                    
+                }
+            }
+            
+            foreach (QGraphicsItem *guy, node->childItems())
+            {
+                stack.push(guy);
+            }
+        }
+    }
 }
 
 // traverse tree with dfs for detecting and fixing collisions
