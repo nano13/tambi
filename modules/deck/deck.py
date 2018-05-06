@@ -206,7 +206,10 @@ class Deck(object):
                 for entry in result:
                     print(entry)
                     created = entry["created"]
-                    created = datetime.datetime.fromtimestamp(int(created)).strftime('%Y-%m-%d %H:%M:%S')
+                    if created:
+                        created = datetime.datetime.fromtimestamp(int(created)).strftime('%Y-%m-%d %H:%M:%S')
+                    else:
+                        created = datetime.datetime.fromtimestamp(0).strftime('%Y-%m-%d %H:%M:%S')
                     entries_list.append([created, entry["name"], entry["word"], entry["phonetical"], entry["translation"], directory])
         entries_list.sort()
         
