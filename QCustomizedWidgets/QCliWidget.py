@@ -3,14 +3,14 @@ from PyQt5.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QTableWidget, QTa
 #from PyQt5.QtWebKitWidgets import QWebView
 from PyQt5.QtGui import QIcon, QTextFormat, QPixmap, QImage, QPainter, QMovie
 from PyQt5.QtCore import QRect, QRectF, Qt, QSize, pyqtSignal
-from PyQt5.QtChart import QChart, QXYSeries, QLineSeries#, QChartView
+#from PyQt5.QtChart import QChart, QXYSeries, QLineSeries#, QChartView
 
 from QCustomizedWidgets.QInputLine import QInputLine
 from QCustomizedWidgets.QItemizedWidget import QItemizedWidget
 from QCustomizedWidgets.QBloodlineWidget import QBloodlineWidget
 from QCustomizedWidgets.QVirtualKeyboardWindow import QVirtualKeyboardWindow
 from QCustomizedWidgets.QBeamerWindow import QBeamerWindow
-from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
+#from QCustomizedWidgets.QChartViewEnhanced import QChartViewEnhanced
 from QCustomizedWidgets.QAudioItems import QAudioItems
 from QCustomizedWidgets.QTextEditEnhanced import QTextEditEnhanced
 from QCustomizedWidgets.QCustomizedGraphicsView import QCustomizedGraphicsView
