@@ -1,37 +1,4 @@
-
-#include <qtambi_widgets/qcliwidget.h>
-#include <qtambi_widgets/format_output.h>
-#include <qtambi_widgets/qitemizedwidget.h>
-#include <qtambi_widgets/qtimelinediagram/qtimelinediagramwidget.h>
-
-#include <qtambi_widgets/unicode_fonts.h>
-
-#include <QTableWidget>
-#include <QTextEdit>
-#include <QGridLayout>
-#include <QLineEdit>
-#include <QPushButton>
-#include <QIcon>
-
-#include <QJsonDocument>
-#include <QJsonObject>
-#include <QJsonValue>
-#include <QJsonArray>
-
-#include <QGraphicsView>
-#include <QGraphicsScene>
-
-#include <QStandardPaths>
-#include <QDir>
-
-#include <QFileDialog>
-
-#include <QDebug>
-
-#include <PythonQt.h>
-#include <PythonQt_QtAll.h>
-
-//#include <tts_interface.h>
+#include "qcliwidget.h"
 
 QCliWidget::QCliWidget(QWidget *parent)
     : grid(new QGridLayout)

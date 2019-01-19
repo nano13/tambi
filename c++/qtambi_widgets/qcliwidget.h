@@ -7,12 +7,42 @@
 #include <QGraphicsView>
 #include <QGraphicsScene>
 
-#include <QJsonObject>
 #include <QThread>
 
-#include <qtambi_widgets/qinputline.h>
-#include <qtambi_widgets/python_adapter.h>
-#include <qtambi_widgets/unicode_fonts.h>
+#include <QTableWidget>
+#include <QTextEdit>
+#include <QGridLayout>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QIcon>
+
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonValue>
+#include <QJsonArray>
+
+#include <QGraphicsView>
+#include <QGraphicsScene>
+
+#include <QStandardPaths>
+#include <QDir>
+
+#include <QFileDialog>
+
+#include <QDebug>
+
+#include <PythonQt.h>
+#include <PythonQt_QtAll.h>
+
+#include "qinputline.h"
+#include "python_adapter.h"
+#include "unicode_fonts.h"
+#include "format_output.h"
+#include "qitemizedwidget.h"
+#include "qtimelinediagram/qtimelinediagramwidget.h"
+
+//#include <tts_interface.h>
+
 
 class QCliWidget : public QWidget
 {
