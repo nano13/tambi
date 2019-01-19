@@ -6,7 +6,7 @@ TEMPLATE = app
 TARGET = tambi
 INCLUDEPATH += "/usr/include/PythonQt"
 INCLUDEPATH += "/usr/include/PythonQt/extensions/PythonQt_QtAll"
-INCLUDEPATH += "/usr/include/python3.6m"
+INCLUDEPATH += "/usr/include/python3.7m"
 INCLUDEPATH += "/usr/include/python"
 INCLUDEPATH += "/usr/include/espeak/"
 
